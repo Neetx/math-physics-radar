@@ -29,9 +29,10 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
 - Simons Foundation — https://www.simonsfoundation.org/feed/ **[verified 2026-07-02; RSS]** — math + theoretical physics research (incl. Flatiron Institute)
 - Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
 - Clay Mathematics Institute — https://www.claymath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** — Millennium Problems, math research news
-- **[candidate]** IAS (Institute for Advanced Study) — https://www.ias.edu/news (curl 403 from datacenter UA → `tvly extract` on first sweep) — math + theoretical physics
-- **[candidate]** Symmetry Magazine — https://www.symmetrymagazine.org/ (curl 403 → `tvly`) — Fermilab/SLAC particle-physics digest (intake → follow to paper)
-- (agent: add IHES, ICTP, Max Planck (MPP / AEI), LIGO/Virgo/KAGRA news, APS *Physics* Magazine (physics.aps.org highlights) as they prove high-signal — verify each feed on first sweep)
+- IAS (Institute for Advanced Study) — https://www.ias.edu/news **[verified 2026-07-02 via `tvly extract` — curl is 403 (Cloudflare) but tvly gets through]** — math + theoretical physics
+- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`]** — gravitational-wave detections/results (a GW detection is PRIMARY — follow to the collaboration paper on arXiv gr-qc)
+- IHES — https://www.ihes.fr/en/ **[verified 2026-07-02; HTML → `tvly extract`]** · SLMath (ex-MSRI) — https://www.slmath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** · MPIM Bonn — https://www.mpim-bonn.mpg.de/ **[verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops)
+- (agent: add ICTP, Max Planck (MPP/AEI), Perimeter/PIRSA talks, APS *Physics* Magazine as they prove high-signal. DROPPED 2026-07-02: Symmetry Magazine — curl 403 AND `tvly` fetch BOTH fail (Cloudflare); redundant with CERN Courier + Fermilab + INSPIRE for HEP.)
 
 ## Research / publication venues (primary)
 - arXiv — THE core primary venue. Math: `math.NT AG GT AT DG AC AP CO PR RT ...`; Physics: `hep-th hep-ph gr-qc cond-mat.* quant-ph astro-ph.* math-ph`. Listings `https://arxiv.org/list/<cat>/recent` **[verified 2026-07-02]**; per-category RSS `https://rss.arxiv.org/rss/<cat>` **[verified 2026-07-02; e.g. math.NT, hep-th]**; metadata via the API `https://export.arxiv.org/api/query?...` **[verified 2026-07-02]**.
@@ -41,6 +42,7 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
 - Nature Physics — RSS https://www.nature.com/nphys.rss **[verified 2026-07-02]**
 - Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]**
 - Quantum (open journal) — https://quantum-journal.org/feed/ **[verified 2026-07-02; RSS]** (quantum information / foundations)
+- INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
 - **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, PRD, PRB, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
 
 ## GitHub watch (Phase 5 — repos, profiles, and fork trees)
@@ -119,6 +121,6 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 Where NEW / not-yet-tracked important work surfaces; read top/most-attention items REGARDLESS
 of sub-topic, advancing the date window.
 - arXiv NEW listings, rotating across the math + physics categories in scope (advance the date window each run; read the top / cross-listed items REGARDLESS of sub-topic). The core discovery lane.
-- SciRate — https://scirate.com/ **[candidate; curl 403 → `tvly extract`]** — arXiv papers ranked by community "scites" (strong in quant-ph / hep-th) — an attention signal → follow to the arXiv primary
+- INSPIRE-HEP most-recent / most-cited — API `https://inspirehep.net/api/literature?sort=mostrecent` **[verified 2026-07-02; JSON]** — HEP attention/discovery signal (also a primary venue, above).
 - Quanta Magazine (above) doubles as a discovery pointer — what the field is excited about
-- **[candidate]** INSPIRE-HEP "most recent / most cited" (https://inspirehep.net) for high-energy physics
+- **[candidate — access UNRESOLVED 2026-07-02]** SciRate (scirate.com) — arXiv "scites" ranking (quant-ph/hep-th), but curl 403 AND `tvly extract` BOTH fail (Cloudflare). First sweep: try `tvly search --include-domains scirate.com` or the SciRate API; if still unreachable, DROP (discovery is already covered by arXiv listings + INSPIRE + Quanta).
