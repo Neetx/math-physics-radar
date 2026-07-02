@@ -19,12 +19,12 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 (marked unverified unless the primary was opened this session).
 
 - 2026-07-02 — 2026 Abel Prize presented to Gerd Faltings (ceremony) — https://www.mpim-bonn.mpg.de/ — MPIM institute page opened this session; major recognition in arithmetic/algebraic geometry (ecosystem/award, on-scope).
-- 2026-06-26 — Upgrade to the probabilistic ("Erdős") method for Ramsey-type network bounds (Sudakov et al.) — https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626/ — unverified (Quanta digest; underlying paper not opened this session — promote once the primary is opened).
+- 2026-07-02 — Possible Ramsey-lower-bound cluster forming: alongside Ma–Shen–Xie (arXiv:2507.12926, on study_shelf), a search surfaced follow-ups "Sharper Ramsey lower bounds from refined Gaussian estimates (2026)" and "A(n improved) double-exponential lower bound for r4(5,n)" (Li, Lin, Ning) — unverified (named in a tvly search result, primaries NOT opened this session). Open these next run; ≥3 independent groups on Ramsey lower bounds would clear the trend bar.
 - 2026-07-02 — arXiv:2607.00762 — Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor (quantum Monte Carlo) — https://arxiv.org/abs/2607.00762 — unverified (cond-mat.str-el listing; abstract not opened).
 - 2026-07-02 — arXiv:2607.00086 — "Dissipation splits the Mott transition in one dimension" (open strongly-correlated systems) — https://arxiv.org/abs/2607.00086 — unverified (listing).
 - 2026-07-02 — arXiv:2607.00134 — Phase distinction of Gibbs states without symmetry breaking: topological invariants of the 3D toric code — https://arxiv.org/abs/2607.00134 — unverified (listing; quantum-foundations/topological-order axis).
 - 2026-07-02 — arXiv:2607.00318 — "A Complete Intersection Theorem for Large Permutation Groups" (extremal combinatorics) — https://arxiv.org/abs/2607.00318 — unverified (listing).
-- 2026-07-02 — Formal-math toolchain releases: mathlib4 v4.31.0 (+ v4.32.0-rc1) and lean4 v4.31.0 — https://github.com/leanprover-community/mathlib4/releases — release tags opened via tvly (axis 5: computer-assisted/formalized math).
+- 2026-07-02 — Formal-math toolchain releases: mathlib4 v4.32.0-rc1 (stable still v4.31.0), lean4 v4.32.0 (Pass 2: now stable, was v4.31.0), Rocq v9.2.0 — https://github.com/leanprover-community/mathlib4/releases — release tags opened via tvly (axis 5: computer-assisted/formalized math).
 - 2026-07-02 — Rocq (ex-Coq) v9.2.0 released — https://github.com/rocq-prover/rocq/releases — formal-proof toolchain (axis 5); tag opened via tvly.
 - 2026-07-01 — arXiv spins out of Cornell into an independent nonprofit (Simons Foundation + Schmidt Sciences funding) — community-pulse note (ecosystem/infrastructure, not a research result) — unverified.
 
@@ -44,6 +44,7 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-07-02 — [An exponential improvement for Ramsey lower bounds (Ma, Shen, Xie), arXiv:2507.12926](https://arxiv.org/abs/2507.12926) — first exponential improvement over Erdős' classical 1947 probabilistic lower bound for the Ramsey number r(ℓ, Cℓ); abstract + authors/dates verified this session (v1 17 Jul 2025, v2 26 Apr 2026). This is the "Erdős method upgrade" Quanta covered 2026-06-26 (Pass 1 mis-attributed it to Sudakov, who was only quoted — corrected).
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 - 2026-05-01 — [Erdős Problem #1196: primitive sets and von Mangoldt chains (Alexeev, Barreto, Li, Lichtman, Price, et al.)](https://arxiv.org/abs/2605.00301) — resolves an Erdős problem on primitive sets via a von-Mangoldt-chain method; metadata verified via the arXiv API this session.
 
