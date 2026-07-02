@@ -38,7 +38,8 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
 - (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
 
 Mathematics institutes:
-- IHES — https://www.ihes.fr/en/ **[verified 2026-07-02; HTML → `tvly extract`]** · SLMath (ex-MSRI) — https://www.slmath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** · MPIM Bonn — https://www.mpim-bonn.mpg.de/ **[verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops)
+- IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops)
+- KITP (Kavli Institute for Theoretical Physics, UCSB) — https://www.kitp.ucsb.edu/ **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical-physics programs & talks (with Perimeter above, the two hubs for the field's current directions)
 - (agent: add ICTP, Max Planck (MPP/AEI), Perimeter/PIRSA talks, APS *Physics* Magazine as they prove high-signal. DROPPED 2026-07-02: Symmetry Magazine — curl 403 AND `tvly` fetch BOTH fail (Cloudflare); redundant with CERN Courier + Fermilab + INSPIRE for HEP.)
 
 ## Research / publication venues (primary)
@@ -50,7 +51,10 @@ Mathematics institutes:
 - Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]**
 - Quantum (open journal) — https://quantum-journal.org/feed/ **[verified 2026-07-02; RSS]** (quantum information / foundations)
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
-- **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, PRD, PRB, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
+- SciPost Physics — https://scipost.org/ **[candidate 2026-07-02; root 200, the `/rss/SciPostPhys/` path 500'd — find the feed/API on first sweep, else `tvly extract`]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
+- AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result)
+- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math
+- **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, JHEP (open-access hep-th; also on arXiv/INSPIRE), PRD, PRB, PRResearch, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
 
 ## GitHub watch (Phase 5 — repos, profiles, and fork trees)
 
@@ -134,7 +138,12 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
 - Terry Tao — "What's new" — https://terrytao.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — a working mathematician's research/exposition blog; follow to the arXiv/paper
 - Not Even Wrong (Columbia) — https://www.math.columbia.edu/~woit/wordpress/?feed=rss2 **[verified 2026-07-02; RSS]** — math/physics (esp. HEP / string theory) commentary; intake → follow to the primary
 - The n-Category Café — https://golem.ph.utexas.edu/category/ **[verified 2026-07-02; HTML → `tvly extract`]** — category theory / mathematical physics group blog
-- **[candidate]** Shtetl-Optimized (scottaaronson.blog/?feed=rss2) — complexity / quantum foundations (shared with the quantum radar); CERN Courier & Symmetry (above) also serve as HEP digests
+- Gowers's Weblog — https://gowers.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — Fields-medalist blog; big open problems, Polymath, expository breakthroughs
+- Combinatorics and more (Gil Kalai) — https://gilkalai.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — combinatorics, convexity, and a leading QUANTUM-skeptic voice (pairs with the hype-skepticism rule)
+- Azimuth (John Baez) — https://johncarlosbaez.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — mathematical physics, category theory, applied math
+- Of Particular Significance (Matt Strassler) — https://profmattstrassler.com/feed/ **[verified 2026-07-02; RSS]** — HEP / particle-physics phenomenology, careful about claims
+- Backreaction (Sabine Hossenfelder) — https://backreaction.blogspot.com/feeds/posts/default **[verified 2026-07-02; Atom]** — physics-foundations commentary + a prominent skeptic of hype (filter for on-axis, follow to the primary)
+- **[candidate]** Shtetl-Optimized (scottaaronson.blog/?feed=rss2) — complexity / quantum foundations (shared with the quantum radar); CERN Courier (above) also serves as an HEP digest
 
 ## Discovery / exploration venues (Phase 4 — iterated EVERY run by radar-explore)
 
