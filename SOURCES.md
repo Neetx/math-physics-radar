@@ -30,7 +30,14 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
 - Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
 - Clay Mathematics Institute — https://www.claymath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** — Millennium Problems, math research news
 - IAS (Institute for Advanced Study) — https://www.ias.edu/news **[verified 2026-07-02 via `tvly extract` — curl is 403 (Cloudflare) but tvly gets through]** — math + theoretical physics
-- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`]** — gravitational-wave detections/results (a GW detection is PRIMARY — follow to the collaboration paper on arXiv gr-qc)
+Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
+- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`]** — gravitational-wave detections/catalogs (e.g. GWTC)
+- DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
+- CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract` (the `/feed.rss` 404s)]** — collider (ATLAS/CMS) results & data
+- IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`]** — neutrino astrophysics
+- (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
+
+Mathematics institutes:
 - IHES — https://www.ihes.fr/en/ **[verified 2026-07-02; HTML → `tvly extract`]** · SLMath (ex-MSRI) — https://www.slmath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** · MPIM Bonn — https://www.mpim-bonn.mpg.de/ **[verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops)
 - (agent: add ICTP, Max Planck (MPP/AEI), Perimeter/PIRSA talks, APS *Physics* Magazine as they prove high-signal. DROPPED 2026-07-02: Symmetry Magazine — curl 403 AND `tvly` fetch BOTH fail (Cloudflare); redundant with CERN Courier + Fermilab + INSPIRE for HEP.)
 
@@ -50,6 +57,14 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
 Method: `radar-repo-watch`. Watch releases (`<repo>/releases.atom`), notable forks, and
 profile activity. New releases/tools are citable artifacts; issue/PR/fork/profile movement is
 a queue signal. (Agent owns and grows these lists.)
+
+**DOMAIN NOTE (math/physics): GitHub is a MINOR lane here — keep it light, don't force it.**
+Unlike software/AI, math & physics research does NOT live on GitHub — only formal-proof
+libraries (Lean/mathlib, Rocq) do. The real "new-artifact drop" in this domain is (a) papers →
+Research venues above, and (b) experiment/data releases & big-collaboration results (GW catalogs,
+DESI/CERN/IceCube) → the Experiments block in Primary feeds above. Watch the repos below for
+formalization milestones (axis 5); do NOT expect this lane to be a major signal source, and do
+NOT pad it with off-axis software.
 
 ACCESS NOTE (environment-dependent — check on first repo-watch): some scheduled-agent
 environments proxy-SCOPE GitHub to only the session's own repo — external `<repo>/releases.atom`
@@ -93,13 +108,18 @@ survives verification (real feed, on-axis, not SEO). Line format:
 
 Method: `radar-pulse`. Intake feeds `observation_queue` (unverified) + the pulse note; never
 name/quote individuals beyond a bare URL. Multi-channel earthquake check.
-- r/math — https://www.reddit.com/r/math/.rss **[verified 2026-07-02; Atom]** — research-leaning threads; the "what just got proved" pulse
-- r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; hit 429 rate-limit 2026-07-02 → retry or `tvly`]**
-- r/mathematics, r/AskPhysics — via `tvly` **[candidate]** (broader pulse)
-- Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `&query=<term>`) **[known-reliable pattern]** — earthquake check for math/physics stories
-- MathOverflow — https://mathoverflow.net/feeds/ **[healed 2026-07-02: trailing slash required — `/feeds` returns empty, `/feeds/` returns 30 entries; Atom]** — research-level Q&A; a recurring hard question can flag an emerging topic (intake → follow to a paper)
-- Physics Stack Exchange — https://physics.stackexchange.com/feeds **[candidate]**
-- Mathstodon (mathstodon.xyz) — the research-math Mastodon instance **[candidate; `tvly` / public timeline]** — intake only; link the thread, never name/quote individuals
+Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tvly`). Organized by axis so gaps are visible:
+- r/math — https://www.reddit.com/r/math/.rss **[verified 2026-07-02; Atom]** — the "what just got proved" pulse (pure math)
+- r/mathematics — https://www.reddit.com/r/mathematics/.rss **[verified pattern]** — broader math
+- r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; 429 2026-07-02]** — general physics
+- r/cosmology — https://www.reddit.com/r/cosmology/.rss **[verified 2026-07-02; Atom]** — cosmology / astro (axis 3)
+- r/ParticlePhysics — https://www.reddit.com/r/ParticlePhysics/.rss **[verified pattern; 429 2026-07-02]** — HEP (axis 3)
+- r/AskPhysics — https://www.reddit.com/r/AskPhysics/.rss **[verified pattern; 429 2026-07-02]** — broad physics pulse
+- (agent: add r/QuantumComputing (foundations overlap), r/AbstractAlgebra, r/GravitationalWaves if they recur with signal)
+- Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `&query=<term>`) **[known-reliable]** — earthquake check (math/physics stories, incl. big proofs)
+- MathOverflow — https://mathoverflow.net/feeds/ **[healed 2026-07-02: trailing slash required (`/feeds` empty, `/feeds/` = 30 entries); Atom]** — research-level Q&A → follow to a paper
+- Physics Stack Exchange — https://physics.stackexchange.com/feeds/ **[candidate; use trailing slash like MathOverflow]**
+- Mathstodon (mathstodon.xyz) — public-timeline API https://mathstodon.xyz/api/v1/timelines/public **[verified 2026-07-02; JSON]** — the research-math Mastodon hub (mathematicians often post results here first). Intake only; link the thread, never name/quote individuals.
 
 ### YouTube — TRUSTED-CURATOR POINTER LANE (check EVERY run, intake only)
 - (resolve each channel to its `channel_id` once, then use
@@ -123,4 +143,5 @@ of sub-topic, advancing the date window.
 - arXiv NEW listings, rotating across the math + physics categories in scope (advance the date window each run; read the top / cross-listed items REGARDLESS of sub-topic). The core discovery lane.
 - INSPIRE-HEP most-recent / most-cited — API `https://inspirehep.net/api/literature?sort=mostrecent` **[verified 2026-07-02; JSON]** — HEP attention/discovery signal (also a primary venue, above).
 - Quanta Magazine (above) doubles as a discovery pointer — what the field is excited about
+- Prizes & recognition (intake — flags what the field itself deems major → follow to the laureate's actual work, cite that): Abel Prize https://abelprize.no/ **[verified 2026-07-02; HTML]** · Breakthrough Prize (math + fundamental physics) https://breakthroughprize.org/ **[verified 2026-07-02; HTML]** · IMU / Fields Medal https://www.mathunion.org/ **[candidate — `/imu-awards` 404'd 2026-07-02, verify path]**. Sparse (mostly annual) but a strong "this was big" signal — the Abel→Faltings item this run came from here.
 - **[candidate — access UNRESOLVED 2026-07-02]** SciRate (scirate.com) — arXiv "scites" ranking (quant-ph/hep-th), but curl 403 AND `tvly extract` BOTH fail (Cloudflare). First sweep: try `tvly search --include-domains scirate.com` or the SciRate API; if still unreachable, DROP (discovery is already covered by arXiv listings + INSPIRE + Quanta).
