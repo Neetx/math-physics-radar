@@ -97,7 +97,7 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 - r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; hit 429 rate-limit 2026-07-02 → retry or `tvly`]**
 - r/mathematics, r/AskPhysics — via `tvly` **[candidate]** (broader pulse)
 - Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `&query=<term>`) **[known-reliable pattern]** — earthquake check for math/physics stories
-- MathOverflow — https://mathoverflow.net/feeds **[verified 2026-07-02; Atom]** — research-level Q&A; a recurring hard question can flag an emerging topic (intake → follow to a paper)
+- MathOverflow — https://mathoverflow.net/feeds/ **[healed 2026-07-02: trailing slash required — `/feeds` returns empty, `/feeds/` returns 30 entries; Atom]** — research-level Q&A; a recurring hard question can flag an emerging topic (intake → follow to a paper)
 - Physics Stack Exchange — https://physics.stackexchange.com/feeds **[candidate]**
 - Mathstodon (mathstodon.xyz) — the research-math Mastodon instance **[candidate; `tvly` / public timeline]** — intake only; link the thread, never name/quote individuals
 
