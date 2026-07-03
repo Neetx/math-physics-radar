@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-02
+Last updated: 2026-07-03
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -9,17 +9,32 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 ## Active trends
 
-_No trends yet — this is a fresh radar. Trends are seeded from the daily scan as evidence
-accumulates (≥3 independent sources + an artifact). Single strong items land on the
-`study_shelf` or `observation_queue` until they clear the bar._
+### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
+- stage: emerging | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
+- what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
+  decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
+  graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
+  match the 90-year-old Erdős–Szekeres upper bound up to polylog (first exponent improvement since
+  Spencer 1977); parallel work sharpens these and extends to hypergraph Ramsey numbers. Preprints —
+  strong but not yet fully refereed; track the vetting.
+- evidence:
+  - 2025-07-17 — https://arxiv.org/abs/2507.12926 — Ma, Shen, Xie, "An exponential improvement for Ramsey lower bounds": first exponential improvement over Erdős' 1947 bound for r(ℓ, Cℓ) (abstract verified this session).
+  - 2026-04-27 — https://arxiv.org/abs/2604.23986 — Du, Hu, Liu, Wang, "A double-exponential lower bound for r₄(5,n)": hypergraph Ramsey, r₄(5,n) ≥ 2^{2^{cn^{1/7}}} (abstract via arXiv API this session).
+  - 2026-05-25 — https://arxiv.org/abs/2605.25843 — Lin, Niu, "Sharper Ramsey lower bounds from refined Gaussian estimates": sharpens the Ma–Shen–Xie off-diagonal bound (abstract via arXiv/tvly this session).
+  - 2026-05-27 — https://arxiv.org/abs/2605.28793 — Bradač, "Off-diagonal Ramsey numbers": r(s,k) ≥ Ω(k^{s-1}/(log k)^{2s-4}), matching Erdős–Szekeres up to polylog, improving Spencer 1977 (abstract via arXiv API this session).
+- notes: ≥4 independent author groups on one sub-theme (Ma–Shen–Xie; Bradač; Du–Hu–Liu–Wang; Lin–Niu) + concrete artifacts → clears the trend bar. Community framing: Quanta ("Erdős method upgrade", 2026-06-26) and Gil Kalai / Sam Mattheus blogs ("a sensational Ramsey breakthrough by Bradač"). Ma–Shen–Xie also on `study_shelf`. Watch for referee outcomes and whether the diagonal r(k,k) barrier is next.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-03 — arXiv:2607.02013 — "Resolution of the Detection Threshold Conjecture for Random Geometric Graphs in the d>n Regime" — https://arxiv.org/abs/2607.02013 — a resolved conjecture (axis 1, probability/combinatorics); RSS abstract opened this session.
+- 2026-07-03 — arXiv:2607.01317 — "No Evidence for Superradiant Axions in LIGO-Virgo-KAGRA GWTC-5 Binary Black Hole Spins" — https://arxiv.org/abs/2607.01317 — null result constraining axion clouds from GWTC-5 spins (axis 3, DM/GW; pairs with GWTC-5.0 on study_shelf); RSS abstract opened this session.
+- 2026-07-03 — arXiv:2607.01815 — "Evidence for Deconfined Magnetic Order in the Kitaev-J₃ Model" — https://arxiv.org/abs/2607.01815 — deconfined order (axis 3/4); RSS abstract opened. Deconfined-criticality/order sub-theme now 2 independent groups (with 2607.00762) — forming, not yet at the ≥3 bar.
+- 2026-07-03 — arXiv:2607.01544 — "Formalized q-series: The Rogers-Ramanujan Identities and Beyond" — https://arxiv.org/abs/2607.01544 — machine-formalized classical q-series identities (axis 5, computer-assisted math); RSS abstract opened this session.
+- 2026-07-03 — 2026 Clay Research Awards announced — https://www.claymath.org/ — recognition signal (intake, ecosystem/award); named via tvly search, Clay page NOT opened this session — unverified, open next run.
 - 2026-07-02 — 2026 Abel Prize presented to Gerd Faltings (ceremony) — https://www.mpim-bonn.mpg.de/ — MPIM institute page opened this session; major recognition in arithmetic/algebraic geometry (ecosystem/award, on-scope).
-- 2026-07-02 — Possible Ramsey-lower-bound cluster forming: alongside Ma–Shen–Xie (arXiv:2507.12926, on study_shelf), a search surfaced follow-ups "Sharper Ramsey lower bounds from refined Gaussian estimates (2026)" and "A(n improved) double-exponential lower bound for r4(5,n)" (Li, Lin, Ning) — unverified (named in a tvly search result, primaries NOT opened this session). Open these next run; ≥3 independent groups on Ramsey lower bounds would clear the trend bar.
 - 2026-07-02 — arXiv:2607.00762 — Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor (quantum Monte Carlo) — https://arxiv.org/abs/2607.00762 — unverified (cond-mat.str-el listing; abstract not opened).
 - 2026-07-02 — arXiv:2607.00086 — "Dissipation splits the Mott transition in one dimension" (open strongly-correlated systems) — https://arxiv.org/abs/2607.00086 — unverified (listing).
 - 2026-07-02 — arXiv:2607.00134 — Phase distinction of Gibbs states without symmetry breaking: topological invariants of the 3D toric code — https://arxiv.org/abs/2607.00134 — unverified (listing; quantum-foundations/topological-order axis).
