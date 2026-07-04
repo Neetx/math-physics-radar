@@ -35,6 +35,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-04 — SciPostPhys.21.1.004 — "Towards holographic color superconductivity in QCD" — https://scipost.org/SciPostPhys.21.1.004 — an AdS/holographic model of color-superconducting QCD matter (axis 2, hep-th/holography ↔ dense-QCD interface); SciPost API metadata (published 2026-07-02) opened this session. Single below-bar item.
 - 2026-07-03 — arXiv:2607.02013 — "Resolution of the Detection Threshold Conjecture for Random Geometric Graphs in the d>n Regime" — https://arxiv.org/abs/2607.02013 — a resolved conjecture (axis 1, probability/combinatorics); RSS abstract opened this session.
 - 2026-07-03 — arXiv:2607.01317 — "No Evidence for Superradiant Axions in LIGO-Virgo-KAGRA GWTC-5 Binary Black Hole Spins" — https://arxiv.org/abs/2607.01317 — null result constraining axion clouds from GWTC-5 spins (axis 3, DM/GW; pairs with GWTC-5.0 on study_shelf); RSS abstract opened this session.
 - 2026-07-03 — arXiv:2607.01815 — "Evidence for Deconfined Magnetic Order in the Kitaev-J₃ Model" — https://arxiv.org/abs/2607.01815 — deconfined order (axis 3/4); RSS abstract opened. Deconfined-criticality/order sub-theme now 2 independent groups (with 2607.00762) — forming, not yet at the ≥3 bar.
@@ -73,6 +74,12 @@ Corrections to the source-coverage strategy.
   the exploration slot ran 3/3 runs and queued 0 off-axis items (off-axis rate 0/14). Per `radar-self-eval`,
   off-axis = 0 for TWO consecutive weeks triggers an anchoring warning — flagged to watch; if W28 also
   returns 0 off-axis, rotate the discovery venues.
+- 2026-07-04 (daily heal) — SciRate REACHABLE after all: `tvly search "<query>" --include-domains scirate.com`
+  gets through the Cloudflare wall that blocks curl AND `tvly extract` (returned the top-scited list, e.g.
+  arXiv:2604.02856, this session). Access method recorded in SOURCES.md. This REVERSES the W28 removal
+  rationale (the "twice-failed" was extract-only; search works) — weekly W28 should KEEP SciRate with the
+  healed search path, not drop it. Also healed this run: SciPost via its JSON API `scipost.org/api/publications/?limit=N`
+  (newest-first) — the `/rss/` path serves JS HTML, not a feed.
 - 2026-07-04 (W27) — Proposed amendments (cooling period; apply W28 if the signal persists and no dated
   curator veto appears here): (1) heal-or-REMOVE the 14 missing sources — enforce full-list iteration next
   week, drop any still un-swept at W28; (2) DROP SciRate from the discovery venues (twice-failed Cloudflare
