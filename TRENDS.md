@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-03
+Last updated: 2026-07-04
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -23,6 +23,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-05-25 — https://arxiv.org/abs/2605.25843 — Lin, Niu, "Sharper Ramsey lower bounds from refined Gaussian estimates": sharpens the Ma–Shen–Xie off-diagonal bound (abstract via arXiv/tvly this session).
   - 2026-05-27 — https://arxiv.org/abs/2605.28793 — Bradač, "Off-diagonal Ramsey numbers": r(s,k) ≥ Ω(k^{s-1}/(log k)^{2s-4}), matching Erdős–Szekeres up to polylog, improving Spencer 1977 (abstract via arXiv API this session).
 - notes: ≥4 independent author groups on one sub-theme (Ma–Shen–Xie; Bradač; Du–Hu–Liu–Wang; Lin–Niu) + concrete artifacts → clears the trend bar. Community framing: Quanta ("Erdős method upgrade", 2026-06-26) and Gil Kalai / Sam Mattheus blogs ("a sensational Ramsey breakthrough by Bradač"). Ma–Shen–Xie also on `study_shelf`. Watch for referee outcomes and whether the diagonal r(k,k) barrier is next.
+  - 2026-W27 recalibration: HELD at emerging/medium. All 4 evidence items predate the trend's
+    creation (latest 2026-05-27, ~5–6 weeks old) — a backlog cluster caught at creation, not fresh
+    weekly velocity, so NOT promoted; confidence held at medium under the unrefereed-preprint caution
+    (no referee outcomes yet). NOT marked dormant despite the 38-day evidence gap because the trend was
+    only created 2026-07-03; if no post-2026-05-27 primary or a referee/vetting outcome surfaces by W28,
+    reassess for dormancy (this may be a completed burst rather than an active, accelerating trend).
 
 ## observation_queue
 
@@ -53,6 +59,25 @@ THERE and reads only the recent tail (~7 days) — do not write scans into TREND
 Corrections to the source-coverage strategy.
 - 2026-07-02 — Scope (curator input): Frontier research advances in mathematics and modern/quantum physics, for a mathematically-literate researcher. Five fronts, in priority order: (1) pure mathematics — theorems, resolved conjectures, techniques; (2) theoretical & mathematical physics — QFT, strings, quantum gravity, integrable systems, the math↔physics interface; (3) modern experimental & phenomenological physics — HEP, gravitational waves & cosmology, condensed matter, AMO; (4) quantum foundations & quantum-information theory (the science, explicitly NOT the quantum-computing / QML technology the sibling quantum radar tracks); (5) computer-assisted & formalized mathematics (Lean/mathlib, Rocq). Evidence is PRIMARY only — papers (arXiv + peer-reviewed journals), official experiment/institute results, formalization repos. Extraordinary claims (a proof of a major conjecture, a discovery/anomaly) are provisional until peer review / community vetting; track the vetting outcome, never declare victory on an unrefereed preprint. The agent owns and evolves these axes;
   promote a forming sub-theme to a trend at ≥3 independent groups + an artifact.
+- 2026-07-04 (W27 recalibration) — Coverage honesty: 14 swept-every-run sources in `SOURCES.md` were
+  MISSING from all 3 daily passes this week (coverage 39/53): Fields Institute, Isaac Newton Institute,
+  SciPost, AMS Notices, Forum of Mathematics, r/mathematics, r/AskPhysics, r/ParticlePhysics, Physics SE,
+  Azimuth (Baez), Backreaction, Breakthrough Prize, IMU/Fields, SciRate. Verified this session that the
+  healthy ones are LIVE (Azimuth, Backreaction, r/mathematics, AMS Notices, Breakthrough all HTTP 200) —
+  so this is a daily EXECUTION gap (the daily sampled institutes/digests instead of iterating the FULL
+  list), NOT dead sources. Corrective: next daily MUST log EVERY swept-every-run entry opened/degraded;
+  any still missing after W28 → heal-or-REMOVE. Findings: Fields' advertised `/rss.xml` 404s (2026-07-04)
+  → keep it on HTML→`tvly extract`; SciRate remains 403 on curl+tvly (twice-failed) → proposed for removal.
+- 2026-07-04 (W27) — Exploration/anchoring: the tunnel-vision check is N/A this week — the sole trend
+  (Ramsey) was CREATED from the queue, so no pre-existing trend could have hoarded the new evidence. BUT
+  the exploration slot ran 3/3 runs and queued 0 off-axis items (off-axis rate 0/14). Per `radar-self-eval`,
+  off-axis = 0 for TWO consecutive weeks triggers an anchoring warning — flagged to watch; if W28 also
+  returns 0 off-axis, rotate the discovery venues.
+- 2026-07-04 (W27) — Proposed amendments (cooling period; apply W28 if the signal persists and no dated
+  curator veto appears here): (1) heal-or-REMOVE the 14 missing sources — enforce full-list iteration next
+  week, drop any still un-swept at W28; (2) DROP SciRate from the discovery venues (twice-failed Cloudflare
+  403, redundant with arXiv listings + INSPIRE + Quanta); (3) source-discovery: HOLD sammattheus.wordpress.com
+  staged (1 sighting, below the ≥2 promotion bar) — promote only on recurrence.
 
 ## study_shelf
 
