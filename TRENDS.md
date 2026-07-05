@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-04
+Last updated: 2026-07-05
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -35,6 +35,8 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-05 — arXiv:2604.02856 — "Type-IV 't Hooft Anomalies on the Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems" — https://arxiv.org/abs/2604.02856 — capture-leak catch: named only in strategy_notes prose (07-04, as a SciRate-output example) but never captured; title/date (2026-04-03) verified via arXiv API this session. Axis 2/4 (QFT anomalies / higher-categorical symmetry, lattice), single below-bar item.
+- 2026-07-05 — Nature Physics News&Views "Tangled up in spin" — https://www.nature.com/articles/s41567-026-03364-7 — neutron-scattering hints of quantum entanglement in a strange-metal state (axis 3/4, entanglement as a physical observable in a correlated metal); commentary blurb opened via Nature Physics RSS this session — underlying research paper NOT identified/opened → unverified intake.
 - 2026-07-04 — SciPostPhys.21.1.004 — "Towards holographic color superconductivity in QCD" — https://scipost.org/SciPostPhys.21.1.004 — an AdS/holographic model of color-superconducting QCD matter (axis 2, hep-th/holography ↔ dense-QCD interface); SciPost API metadata (published 2026-07-02) opened this session. Single below-bar item.
 - 2026-07-03 — arXiv:2607.02013 — "Resolution of the Detection Threshold Conjecture for Random Geometric Graphs in the d>n Regime" — https://arxiv.org/abs/2607.02013 — a resolved conjecture (axis 1, probability/combinatorics); RSS abstract opened this session.
 - 2026-07-03 — arXiv:2607.01317 — "No Evidence for Superradiant Axions in LIGO-Virgo-KAGRA GWTC-5 Binary Black Hole Spins" — https://arxiv.org/abs/2607.01317 — null result constraining axion clouds from GWTC-5 spins (axis 3, DM/GW; pairs with GWTC-5.0 on study_shelf); RSS abstract opened this session.
