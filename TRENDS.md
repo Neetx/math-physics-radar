@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -35,6 +35,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-07 — arXiv:2607.05374 — "The Minkowski grid has robustly many repeated distances" (Lee, Pohoata, Zhu) — https://arxiv.org/abs/2607.05374 — Erdős-type combinatorial geometry / repeated-distances (axis 1, math.CO/NT); abstract opened via arXiv API this session. Single below-bar item.
+- 2026-07-07 — SciPost — "Irrational CFTs from coupled anyon chains with non-invertible symmetries?" (published 2026-07-06) — https://scipost.org/ — axis 2/4 (CFT, non-invertible / generalized symmetries); title/date via SciPost API this session, article not opened → intake. Generalized/non-invertible-symmetry sub-theme now 2 independent items with 2604.02856 (Type-IV 't Hooft anomalies / higher-categorical symmetries) — forming, below the ≥3 bar.
+- 2026-07-07 — PRL 2026-07-06 — "Scattering Amplitudes and Conservative Binary Dynamics at O(G⁵) without Self-Force Truncation" — https://feeds.aps.org/rss/recent/prl.xml — axis 2 (scattering-amplitudes / post-Minkowskian expansion of the gravitational two-body problem, 5th PM order); title/date seen via APS PRL RSS this session, article not opened → unverified intake.
+- 2026-07-07 — PRL 2026-07-06 — GWTC-4 binary-black-hole population inference (two papers: "Evidence for Three Subpopulations of Merging Binary Black Holes at Different Primary Masses" + "Signatures of a Subpopulation of Hierarchical Mergers in the GWTC-4 Gravitational-Wave Dataset") — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (GW population; pairs with GWTC-5.0 on study_shelf); titles/dates seen via APS PRL RSS this session, articles not opened → unverified intake (same-collaboration data, not independent groups).
 - 2026-07-05 — arXiv:2604.02856 — "Type-IV 't Hooft Anomalies on the Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems" — https://arxiv.org/abs/2604.02856 — capture-leak catch: named only in strategy_notes prose (07-04, as a SciRate-output example) but never captured; title/date (2026-04-03) verified via arXiv API this session. Axis 2/4 (QFT anomalies / higher-categorical symmetry, lattice), single below-bar item.
 - 2026-07-05 — Nature Physics News&Views "Tangled up in spin" — https://www.nature.com/articles/s41567-026-03364-7 — neutron-scattering hints of quantum entanglement in a strange-metal state (axis 3/4, entanglement as a physical observable in a correlated metal); commentary blurb opened via Nature Physics RSS this session — underlying research paper NOT identified/opened → unverified intake.
 - 2026-07-04 — SciPostPhys.21.1.004 — "Towards holographic color superconductivity in QCD" — https://scipost.org/SciPostPhys.21.1.004 — an AdS/holographic model of color-superconducting QCD matter (axis 2, hep-th/holography ↔ dense-QCD interface); SciPost API metadata (published 2026-07-02) opened this session. Single below-bar item.
@@ -93,6 +97,7 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-07-07 — [The Burau representation of the braid group is faithful for n = 4 (Bharathram, Birman, Brendle), arXiv:2607.05283](https://arxiv.org/abs/2607.05283) — resolves a decades-old open problem in low-dimensional topology: the Burau representation of B₄ is faithful (it is classically faithful for n≤3 and known NON-faithful for n≥5 — Moody, Long–Paton, Bigelow — leaving n=4 as the last open case). Corollary: the Jones representation of B₄ is also faithful. Abstract + authors verified via arXiv API this session (v1 6 Jul 2026). Unrefereed preprint — but by leading braid-group topologists (Birman, Brendle) building on established methods; track the referee/vetting outcome.
 - 2026-07-02 — [An exponential improvement for Ramsey lower bounds (Ma, Shen, Xie), arXiv:2507.12926](https://arxiv.org/abs/2507.12926) — first exponential improvement over Erdős' classical 1947 probabilistic lower bound for the Ramsey number r(ℓ, Cℓ); abstract + authors/dates verified this session (v1 17 Jul 2025, v2 26 Apr 2026). This is the "Erdős method upgrade" Quanta covered 2026-06-26 (Pass 1 mis-attributed it to Sudakov, who was only quoted — corrected).
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 - 2026-05-01 — [Erdős Problem #1196: primitive sets and von Mangoldt chains (Alexeev, Barreto, Li, Lichtman, Price, et al.)](https://arxiv.org/abs/2605.00301) — resolves an Erdős problem on primitive sets via a von-Mangoldt-chain method; metadata verified via the arXiv API this session.
