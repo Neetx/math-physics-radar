@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-10
+Last updated: 2026-07-11
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -10,7 +10,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 ## Active trends
 
 ### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
-- stage: emerging | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
+- stage: dormant | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
 - what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
   decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
   graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
@@ -29,6 +29,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (no referee outcomes yet). NOT marked dormant despite the 38-day evidence gap because the trend was
     only created 2026-07-03; if no post-2026-05-27 primary or a referee/vetting outcome surfaces by W28,
     reassess for dormancy (this may be a completed burst rather than an active, accelerating trend).
+  - 2026-W28 recalibration: DEMOTED emerging → dormant. last_evidence 2026-05-27 is now 45 days old
+    (21+ days quiet = dormant; W27 had set W28 as the reassessment point). No post-2026-05-27 lower-bound
+    breakthrough and no referee/vetting outcome surfaced this week; a fresh arXiv math.CO Ramsey scan this
+    session returned only peripheral items (small/anti-Ramsey, Ramsey-type path–cycle) — the breakthrough
+    wave (Jul 2025–May 2026) reads as a COMPLETED BURST caught as a backlog at creation. NOT archived
+    despite hitting the 45-day archive line: the trend has been TRACKED only 8 days (created 2026-07-03),
+    too short a window to archive a bar-clearing, field-shaping cluster, and referee outcomes on these major
+    preprints could still reactivate it. DECISION POINT: archive at W29 unless a fresh Ramsey lower-bound
+    primary or a referee/vetting outcome appears.
 
 ## observation_queue
 
@@ -95,6 +104,35 @@ Corrections to the source-coverage strategy.
   week, drop any still un-swept at W28; (2) DROP SciRate from the discovery venues (twice-failed Cloudflare
   403, redundant with arXiv listings + INSPIRE + Quanta); (3) source-discovery: HOLD sammattheus.wordpress.com
   staged (1 sighting, below the ≥2 promotion bar) — promote only on recurrence.
+- 2026-07-11 (W28 recalibration) — Coverage: honest diff of the swept-every-run lists vs this week's logs
+  (07-05→07-10). HEALED since W27 (now swept 6/6): SciPost, Azimuth/Baez, Backreaction, IMU/mathunion, SciRate
+  (healed search path). STILL MISSING all 6 daily runs (coverage lie persisting): math institutes (IHES, SLMath,
+  MPIM, Fields Inst, Isaac Newton, KITP, Perimeter, IAS), experiments (DESI, IceCube), venues (Annals, AMS
+  Notices, Forum of Mathematics), extra-social (r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics,
+  r/AskPhysics, Physics SE), awards (Abel, Breakthrough). VERIFIED LIVE this weekly session (Annals ToC, IHES
+  news, r/mathematics, r/ParticlePhysics all reachable — nothing on-axis new; r/AskPhysics + r/cosmology
+  transient-empty) → NOT dead, just under-iterated + genuinely low-frequency. Root cause = the same execution
+  gap W27 flagged (daily iterates a high-frequency core, skips the slow block), now 2 weeks running. Removal is
+  WRONG (sources valid + live) → cadence-split proposal below.
+- 2026-07-11 (W28) — W27 amendments resolved: (1) heal-or-REMOVE — 5 of 14 healed/covered; the rest are
+  live-but-under-iterated, so the REMOVE branch (conditioned on "still un-sweepable") does NOT fire — superseded
+  by the cadence-split proposal. (2) DROP SciRate — WITHDRAWN, superseded by the 2026-07-04 heal (search path
+  gets through the Cloudflare wall); KEEP SciRate with the healed path. (3) sammattheus.wordpress.com — still
+  1 sighting, no recurrence this week → HOLD staged (below the ≥2 bar). No destructive amendment applied to files.
+- 2026-07-11 (W28) — Anchoring warning (radar-adopted): off-axis = 0 for TWO consecutive weeks (W27 0/14,
+  W28 0/6) → per radar-self-eval an anchoring warning fires. The daily explore slot keeps reading arXiv-NEW top
+  items, which are on-axis by construction. REDIRECT W29 exploration to genuinely off-axis venues (rotate the
+  discovery-venue window; deliberately read a non-tracked field's top items and queue "significant, off-axis").
+  Note: this week 0 new evidence landed on ANY trend (the sole trend went dormant with none), so the classic
+  tunnel-vision test is moot — the signal is UNDER-EXPLORATION, not trend-hoarding.
+- 2026-07-11 (W28) — Proposed amendments (cooling → apply W29 if the signal persists and no dated curator veto,
+  silence = consent): (A) CADENCE-SPLIT the SOURCES.md swept lists into DAILY (high-frequency feeds: arXiv, APS
+  PRL/PRX/RMP, Nature Physics, Quantum, SciPost, INSPIRE, CERN Courier, Fermilab, Simons, LIGO, mathlib/lean/rocq,
+  the digest/blog lane, r/math, MathOverflow, HN, Mathstodon, Quanta, SciRate) vs WEEKLY-SWEPT (the slow
+  institute/venue/award block above + low-yield extra-social subs) — motivated by the 2-week coverage miss on
+  exactly that low-frequency block; makes the daily coverage promise honest and hands the slow block to the
+  weekly operator. (B) ROTATE the discovery/exploration venues toward genuinely off-axis reading — motivated by
+  the 2-week off-axis=0 anchoring warning.
 
 ## study_shelf
 
@@ -106,7 +144,6 @@ why`). The trend bar does NOT apply here; opened primary sources only.
 - 2026-07-07 — [The Burau representation of the braid group is faithful for n = 4 (Bharathram, Birman, Brendle), arXiv:2607.05283](https://arxiv.org/abs/2607.05283) — resolves a decades-old open problem in low-dimensional topology: the Burau representation of B₄ is faithful (it is classically faithful for n≤3 and known NON-faithful for n≥5 — Moody, Long–Paton, Bigelow — leaving n=4 as the last open case). Corollary: the Jones representation of B₄ is also faithful. Abstract + authors verified via arXiv API this session (v1 6 Jul 2026). Unrefereed preprint — but by leading braid-group topologists (Birman, Brendle) building on established methods; track the referee/vetting outcome.
 - 2026-07-02 — [An exponential improvement for Ramsey lower bounds (Ma, Shen, Xie), arXiv:2507.12926](https://arxiv.org/abs/2507.12926) — first exponential improvement over Erdős' classical 1947 probabilistic lower bound for the Ramsey number r(ℓ, Cℓ); abstract + authors/dates verified this session (v1 17 Jul 2025, v2 26 Apr 2026). This is the "Erdős method upgrade" Quanta covered 2026-06-26 (Pass 1 mis-attributed it to Sudakov, who was only quoted — corrected).
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
-- 2026-05-01 — [Erdős Problem #1196: primitive sets and von Mangoldt chains (Alexeev, Barreto, Li, Lichtman, Price, et al.)](https://arxiv.org/abs/2605.00301) — resolves an Erdős problem on primitive sets via a von-Mangoldt-chain method; metadata verified via the arXiv API this session.
 
 ## calibration
 
