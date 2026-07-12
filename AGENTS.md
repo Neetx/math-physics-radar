@@ -95,11 +95,15 @@ the numbers):
   volume as a coverage/miss failure. The PRIMARY output surface here is the `study_shelf`
   + `observation_queue` (landmark single results), CO-EQUAL with the trend table, not
   subordinate to it: a healthy math-physics ledger can be 1–2 trends + a rich shelf/queue.
-- **Velocity — dormancy scales to the field's tempo (OVERRIDES the routine defaults).** A
-  trend is `dormant` only after **60 days** without new evidence (NOT 21), and archived
-  after **120 days** (NOT 45). A `last_evidence` that is weeks — or a couple of months —
-  old is normal for a live, hot topic (a landmark theorem stays "the latest word" for
-  months); do NOT demote or archive a trend merely for a quiet stretch.
+- **Velocity — ALL aging windows scale to the field's tempo (OVERRIDE the routine defaults),
+  not just dormancy.** A slow field ages in MONTHS: (a) dormancy after **60 days** / archive
+  after **120 days** (not 21/45); (b) `observation_queue` staleness at **~60 days** and a
+  SOFT cap of **~40** (not 14-day staleness / hard-25) — low intake means a below-bar result
+  should PERSIST, not get burned down to hit a number; (c) `study_shelf` pruning at **~120
+  days** (not 30) — a landmark stays a top study pick for months. A `last_evidence` weeks or
+  a couple of months old is normal for a live topic; do NOT demote/archive/prune merely for a
+  quiet stretch. (The rule: every day-count the routines inherited from the AI default gets
+  multiplied for a slow domain — dormancy was only the first.)
 - **Trend bar — landmark single results count** (the hard-rule adaptation above): a resolved
   long-standing conjecture or a first-of-kind detection is a `seed` trend on its own; the
   ≥3-group bar is only for multi-group DIRECTION trends.

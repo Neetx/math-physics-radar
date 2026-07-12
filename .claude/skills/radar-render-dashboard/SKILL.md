@@ -39,9 +39,13 @@ on every run, never patch it. Design goal: one screen, everything clickable.
    - **latest signal** = the `last_evidence` date linking to the evidence URL
      whose date equals `last_evidence` (first match in list order); if none
      matches, link the top evidence item.
-7. **Worth studying** — the `study_shelf` section of TRENDS.md, newest first,
-   up to 12 bullets: `[name](url) — one line of why` (the shelf persists ~20 picks
-   / 30 days so a reader away for a couple of weeks can still catch up).
+7. **Worth studying** — the `study_shelf` section of TRENDS.md, newest first.
+   DOMAIN NOTE (AGENTS.md → *Domain cadence*): in this slow, single-result field the shelf is a
+   CO-EQUAL primary surface, NOT a footnote below the sparse trend table — render it in FULL
+   (do not cap at 12; the shelf persists ~120 days here), place it as a peer directly under the
+   Trends section, and when there are ≤2 trends, LEAD the "Since last scan" digest with the top
+   new shelf/landmark items (the study picks ARE the week's story when trends are sparse).
+   Format `[name](url) — one line of why`.
 8. **Community pulse** — `## Community pulse` (Phase 3): up to 5 bullets distilled
    from the latest `radar-pulse` intake — non-evidence, link-only, NEVER naming
    individuals (link the thread/profile, summarise). If no pulse data yet, one

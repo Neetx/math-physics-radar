@@ -104,8 +104,10 @@ every run.
   INDEPENDENT authoritative primary sources corroborate on concrete artifacts, OR after
   sustained multi-week confirmation; otherwise `medium`.
 - `observation_queue` maintenance (every run): add today's weak signals; promote those that
-  clear the bar; cap-driven burndown to ~25 (resolve the oldest — promote or drop with a
-  one-line reason in today's report; never silently delete).
+  clear the bar; SOFT cap ~40 (domain cadence — NOT 25; low intake means below-bar items should
+  PERSIST for months, so burn down only when genuinely over the soft cap — promote or drop with a
+  one-line reason in today's report; never silently delete). Do NOT aggressively prune a slow,
+  low-volume queue just to hit a number.
 - Convergence check (every run): scan the whole queue for sub-themes where ≥3 independent
   groups now hold artifacts → promote that cluster to a `seed`.
 - Capture-leak reconciliation (every run — a CONCRETE mechanical sweep, not a judgment call):

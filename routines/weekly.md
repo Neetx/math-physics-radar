@@ -26,10 +26,14 @@ breadth of orgs, presence in tools/standards/practice).
 - After recalibration, regenerate `README.md` (`radar-render-dashboard`).
 
 ## 3. Clean the observation queue
-Items older than 14 days — verify now and either promote, drop (one-line reason in the
-report), or re-date stating what is still missing. HARD CAP ~25 live items: resolve the
-oldest over cap regardless of age. Never silently delete. Also curate `study_shelf` (merge
-duplicates, prune picks older than 30 days, preserve the rest in their day's report).
+Aging windows scale to DOMAIN CADENCE (AGENTS.md → *Domain cadence*) — this is a SLOW field,
+so items age in MONTHS, not the AI-default days: items older than **~60 days** (not 14) —
+verify now and either promote, drop (one-line reason in the report), or re-date stating what
+is still missing. SOFT CAP ~40 live items (not 25; intake here is low, so let below-bar items
+PERSIST — a math result stays relevant for months); resolve the oldest only when genuinely over
+cap. Never silently delete. Also curate `study_shelf` (merge duplicates, prune picks older than
+**~120 days** (not 30) — a landmark result stays a top study pick for months; preserve the rest
+in their day's report).
 **Capture-leak sweep (MANDATORY — weekly backstop to the daily reconciliation; the `capture-leak`
 metric AS AN ACTION, not just a number):** grep every trend's `notes` field AND this week's
 reports for arXiv-ids / repo / release URLs; for each, verify the id ACTUALLY appears as a
