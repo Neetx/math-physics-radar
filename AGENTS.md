@@ -51,7 +51,12 @@ are not a frozen list):
   artifact) and feed the community-pulse note, but NEVER become trend evidence.
 - Never guess dates or invent URLs. Undated pages: "(undated, accessed YYYY-MM-DD)".
 - **Trend bar:** ≥3 independent sources (different orgs/author groups) + ≥1 concrete
-  artifact. A single strong item is not a trend, but can go on the `study_shelf`.
+  artifact defines a multi-group DIRECTION trend (e.g. the Ramsey lower-bound wave).
+  DOMAIN ADAPTATION (curator-set — see *Domain cadence* below): in this slow, single-result
+  field a LANDMARK primary on its own — the resolution of a long-standing named
+  conjecture/problem, or a first-of-its-kind detection/measurement/observation — also
+  qualifies as a `seed` trend, because here the unit of progress IS the individual result.
+  Everything below both bars goes on the `study_shelf`.
 - Do not rename sections or restructure files. Everything in this repo is in English.
 - Unrefereed-preprint & extraordinary-claim caution (this domain's hype-skepticism rule): arXiv/preprints are primary but NOT peer-reviewed. A claimed proof of a major open conjecture, a discovery/anomaly, or a "breakthrough" is PROVISIONAL until independent vetting (referee reports, expert commentary, replication or confirmation). Flag it "unrefereed preprint — claim" and track the vetting OUTCOME: a claimed proof is not a resolved conjecture, and an N-sigma bump is not a discovery, until the community confirms (note the caveat — gaps found in review; statistical significance / look-elsewhere effect).
 - Track and point, never adjudicate: cite the paper / artifact and, where useful, expert commentary — do NOT attempt to reproduce, verify, or referee the mathematics or physics yourself.
@@ -75,6 +80,33 @@ are not a frozen list):
   (including a `coverage` metric = registered sources vs the week's logs, and a
   `routing-leak` metric), a hit/miss retrospective monthly, and up to 3 proposed
   amendments handled per the policy below.
+
+## Domain cadence — volume & velocity (curator-set: this is a SLOW, LOW-VOLUME field)
+
+Math & physics research moves in **months, not days**, and its unit of progress is usually
+a SINGLE result (one group's theorem, one collaboration's measurement), not a multi-group
+wave. The radar's thresholds are calibrated to the DOMAIN, not to a high-volume AI firehose.
+This section is curator-set (immutable to the radar's self-amendment; only the curator tunes
+the numbers):
+
+- **Volume — "quiet" is the normal state, not underperformance.** Low daily yield and
+  weekend/holiday arXiv gaps (`skipDays` Sat/Sun; the Monday batch posts late) are EXPECTED.
+  A quiet daily is a COMPLETE daily — never pad it, and the self-eval must NOT count low
+  volume as a coverage/miss failure. The PRIMARY output surface here is the `study_shelf`
+  + `observation_queue` (landmark single results), CO-EQUAL with the trend table, not
+  subordinate to it: a healthy math-physics ledger can be 1–2 trends + a rich shelf/queue.
+- **Velocity — dormancy scales to the field's tempo (OVERRIDES the routine defaults).** A
+  trend is `dormant` only after **60 days** without new evidence (NOT 21), and archived
+  after **120 days** (NOT 45). A `last_evidence` that is weeks — or a couple of months —
+  old is normal for a live, hot topic (a landmark theorem stays "the latest word" for
+  months); do NOT demote or archive a trend merely for a quiet stretch.
+- **Trend bar — landmark single results count** (the hard-rule adaptation above): a resolved
+  long-standing conjecture or a first-of-kind detection is a `seed` trend on its own; the
+  ≥3-group bar is only for multi-group DIRECTION trends.
+- **Convergence / anchoring thresholds** likewise relax: an "all evidence on pre-existing
+  trends" week is not an anchoring alarm here the way it is in a fast field — flag it only
+  after a longer stretch. off-axis-rate = 0 for a week is not a warning in a domain this
+  narrow.
 
 ## Tooling
 

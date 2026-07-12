@@ -63,7 +63,7 @@ Do not limit yourself to these axes if you find something clearly more important
 - Primary sources only (peer-reviewed journal papers and their arXiv preprints, official arXiv category listings, official experiment/collaboration and research-institute results (CERN, LIGO/Virgo/KAGRA, Fermilab, Perimeter, IAS, Clay, Simons), and formal-proof repositories (Lean/mathlib, Rocq)). Never SEO/aggregators.
 - Evidence line = `date — primary URL — one line of context`. Use the page's own date;
   undated → "(undated, accessed YYYY-MM-DD)". Never guess dates/URLs.
-- Trend bar: ≥3 independent sources + ≥1 concrete artifact. A single strong item → `study_shelf`.
+- Trend bar: ≥3 independent sources + ≥1 concrete artifact for a multi-group DIRECTION trend. Domain adaptation (see AGENTS.md → *Domain cadence*): a LANDMARK single primary (resolved long-standing conjecture, or first-of-kind detection/measurement) also qualifies as a `seed` trend on its own. Everything below both bars → `study_shelf`.
 
 ## 4. Update TRENDS.md
 
@@ -97,8 +97,10 @@ every run.
   weekly VERIFIES and PROMOTES. This is what lets the radar grow its own lab/vendor/repo coverage
   instead of waiting for the curator — an on-axis source that announces only on its own channel
   must surface as a staged candidate the first run any lane names it.
-- Stage moves: at most ONE stage up per trend per day, on new independent evidence. 21+ days
-  quiet → `dormant` (weekly archives at 45+). Raise confidence to `high` only when ≥2
+- Stage moves: at most ONE stage up per trend per day, on new independent evidence. **60+ days
+  quiet → `dormant` (weekly archives at 120+)** — the domain-cadence windows (AGENTS.md → *Domain
+  cadence*), NOT 21/45: this is a slow field, a months-old `last_evidence` is normal for a live
+  topic. Raise confidence to `high` only when ≥2
   INDEPENDENT authoritative primary sources corroborate on concrete artifacts, OR after
   sustained multi-week confirmation; otherwise `medium`.
 - `observation_queue` maintenance (every run): add today's weak signals; promote those that

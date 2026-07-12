@@ -13,8 +13,10 @@ breadth of orgs, presence in tools/standards/practice).
 - **Promote** (seed → emerging → accelerating → mainstreaming) only on sustained multi-org
   evidence; one stage max per week; justify in `notes`.
 - **Demote** honestly when evidence thinned.
-- **Dormancy**: 21+ days without evidence → `dormant`. If `last_evidence` is 45+ days old,
-  move the entry to `ARCHIVE.md` as a one-line post-mortem.
+- **Dormancy (domain-cadence windows — see AGENTS.md → *Domain cadence*): 60+ days** without
+  evidence → `dormant`; if `last_evidence` is **120+ days** old, move the entry to `ARCHIVE.md`
+  as a one-line post-mortem. NOT 21/45 — this is a slow field where a months-old last_evidence
+  is normal for a live topic; do NOT demote/archive merely for a quiet stretch.
 - **Merge** overlapping trends (keep the older id, union aliases, keep the 10 strongest
   evidence items, note the merge).
 - **Confidence**: raise to `high` when EITHER ≥2 INDEPENDENT authoritative primary sources
