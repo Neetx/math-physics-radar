@@ -17,6 +17,13 @@ breadth of orgs, presence in tools/standards/practice).
   evidence → `dormant`; if `last_evidence` is **120+ days** old, move the entry to `ARCHIVE.md`
   as a one-line post-mortem. NOT 21/45 — this is a slow field where a months-old last_evidence
   is normal for a live topic; do NOT demote/archive merely for a quiet stretch.
+  **RECONCILE against the CURRENT windows, not a prior run's decision (do this FIRST, every
+  weekly):** re-evaluate every already-`dormant`/archived trend AND any standing "archive at
+  W-nn" note against the windows above. If a trend was set `dormant`/archived under a window
+  that has since been SUPERSEDED (or a stale archive-decision was made under an old window), and
+  its `last_evidence` now falls INSIDE the current active window, REACTIVATE it to its prior
+  stage and void the stale decision. A threshold change must retroactively fix trends mis-staged
+  under the old threshold — the new window is not just forward-looking.
 - **Merge** overlapping trends (keep the older id, union aliases, keep the 10 strongest
   evidence items, note the merge).
 - **Confidence**: raise to `high` when EITHER ≥2 INDEPENDENT authoritative primary sources
