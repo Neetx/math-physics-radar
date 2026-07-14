@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-31-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--13-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-34-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--14-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-11) — daily 2026-07-13:**
-- **Second 2026-Clay landmark reaches the shelf.** [K-theoretic counterexamples to Ravenel's telescope conjecture](https://arxiv.org/abs/2310.17459) (Burklund–Hahn–Levy–Schlank) — the DISPROOF of the telescope conjecture — followed to primary from the Clay award, closing the 07-10 Next item.
-- **Three fresh conjecture-level preprints queued.** A CLAIMED proof of Nash-Williams' [infinite matroid intersection conjecture](https://arxiv.org/abs/2607.08802) (single-author → provisional under the hype rule); the [Morel structure conjecture completed](https://arxiv.org/abs/2607.08905) (Witt K-theory, char 2); a single-exponential [Erdős–Hajnal bound](https://arxiv.org/abs/2607.09049) for bounded-VC-dimension graphs.
-- **Prize gap closed.** 2026 [Shaw Prize in Mathematical Sciences](https://www.shawprize.org/) → Candès & De Lellis (corroborated Shaw + IAS). Watchlist 24 → 31, capture-leak 0 (21 ids checked).
-- **Ramsey trend still dormant**, W29 archive decision stands (no fresh lower-bound primary / referee outcome). Off-axis explore redirected to logic (math.LO) per the W28 anchoring warning — nothing field-shaping to queue.
+**Since last scan (2026-07-13) — daily 2026-07-14:**
+- **Quiet day** (the domain's normal state) — all lanes checked, no landmark primary, no new trend or stage move. Fresh 2026-07-13 arXiv batch swept across every in-scope category.
+- **Three conjecture/attention items queued.** [Kellner's conjectures on Wilson quotients — resolved](https://arxiv.org/abs/2607.10106) (number theory); a fusion-category [diagrammatic field theory of QEC](https://arxiv.org/abs/2607.08911) (SciRate-hot, math↔physics interface); and [hypergraph Erdős–Rogers functions](https://arxiv.org/abs/2607.10111) (Lin–Niu, Ramsey-adjacent). Watchlist 31 → 34, capture-leak 0 (21 ids checked).
+- **lean4 v4.32.0 released** (final, past rc1); mathlib4 still v4.32.0-rc1 (axis 5, formal math).
+- **Ramsey trend still dormant** — the Lin–Niu item is Ramsey-adjacent, not a lower bound, so it does not reactivate the trend; W29 archive decision unchanged. Off-axis explore covered nlin/optimization/logic — nothing field-shaping to queue.
 
 ## Trends
 
@@ -29,11 +29,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Quiet — no earthquake. Blogs are circling AI-in-mathematics (ChatGPT experiments; a "Ramanujan Challenge for AI") and a Wick-rotation exposition; [Quanta](https://www.quantamagazine.org/) ran a fluid-fracture piece and "the power of quantum proofs" — none chased to a new tracked primary.
-- Intake only, unverified: dark-matter direct-search nulls (axion haloscope, millicharged particles) and a B⁰→K*⁰μ⁺μ⁻ flavor-anomaly analysis from PRL — queued, not evidence.
-- Upcoming: the [ICM 2026](https://www.mathunion.org/) (Philadelphia, 23–30 Jul) opens in ~10 days — Fields Medals imminent, watched.
+- Quiet — no earthquake. r/math is speculating on the 2026 Fields Medals (Hong Wang vs Zahl on Kakeya) ahead of ICM; blogs circle AI-in-mathematics (Tao visualizer tools, an "AI QFT textbook", "Matching in NC") — none chased to a new tracked primary.
+- Intake only, unverified: a fusion-category QEC field theory (SciRate-hot), dark-matter direct-search nulls, and PRL entanglement-metrology / flavor-anomaly items — queued, not evidence.
+- Upcoming: the [ICM 2026](https://www.mathunion.org/) (Philadelphia, 23–30 Jul) opens in ~9 days — Fields Medals imminent, watched.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (31) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-13](reports/2026-07-13.md)) · weekly: [2026-W28](reports/weekly/2026-W28.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (34) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-14](reports/2026-07-14.md)) · weekly: [2026-W28](reports/weekly/2026-W28.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

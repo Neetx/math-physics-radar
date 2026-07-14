@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-13
+Last updated: 2026-07-14
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -38,12 +38,21 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     too short a window to archive a bar-clearing, field-shaping cluster, and referee outcomes on these major
     preprints could still reactivate it. DECISION POINT: archive at W29 unless a fresh Ramsey lower-bound
     primary or a referee/vetting outcome appears.
+  - 2026-07-14 (daily): Lin–Niu (a trend author group) posted a fresh primary, arXiv:2607.10111
+    "Hypergraph Erdős–Rogers functions with consecutive clique sizes" — Ramsey-ADJACENT (an Erdős–Rogers
+    extremal function) but NOT a Ramsey-number lower bound → queued as its own item, does NOT satisfy the
+    W28 reactivation criterion (fresh Ramsey lower-bound primary OR referee outcome). Trend HELD dormant;
+    W29 archive decision unchanged.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-14 — arXiv:2607.10111 — "Hypergraph Erdős–Rogers functions with consecutive clique sizes" (Lin, Niu) — https://arxiv.org/abs/2607.10111 — extremal combinatorics (axis 1, math.CO): bounds for the hypergraph Erdős–Rogers function, a Ramsey-type extremal function; by Lin–Niu, one of the author groups in the (dormant) Ramsey-lower-bound trend. Ramsey-ADJACENT but NOT a Ramsey-number lower bound → its own below-bar queue item, does not lift the trend's dormancy. Title/date (v1 2026-07-13) via arXiv RSS this session.
+- 2026-07-14 — arXiv:2607.10106 — "A resolution of Kellner's conjectures on Wilson quotients" (Matsuno) — https://arxiv.org/abs/2607.10106 — number theory (axis 1, math.NT): resolves Kellner's conjectures on Wilson quotients. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-11).
+- 2026-07-14 — arXiv:2607.08911 — "A diagrammatic field theory of quantum error correction" (SciRate-attention catch) — https://arxiv.org/abs/2607.08911 — a field-theoretic framework for QEC built on fusion-space codes in unitary fusion categories, with algebro-geometric directions (tube/Hopf algebras, Yangian structures, Higgs bundles, spectral curves, abelian varieties); cross-listed hep-th/math-ph/math.AG/math.RT (axis 2, the math↔physics interface). Surfaced via SciRate top-scited (tracked discovery venue) this session; abstract opened via arXiv API (v1 2026-07-09). AXIS-BOUNDARY caveat: the QEC subject overlaps the sibling quantum radar's quantum-computing beat — captured here for its mathematical-physics/category-theory content, not the QEC machinery. Single below-bar intake.
+- 2026-07-14 — PRL 2026-07-13 (new since the 07-10 batch): "Volume-Law Protection of Metrological Advantage" (axis 4, entanglement-enhanced quantum metrology) + "Edge of Safety: Charge-Charge Correlation in the Back-to-Back Limit" (axis 3, jet/energy-correlator QCD) — https://feeds.aps.org/rss/recent/prl.xml — titles/dates via APS PRL RSS this session, articles not opened → unverified intake.
 - 2026-07-13 — arXiv:2607.08802 — "The matroid intersection conjecture" (van der Zypen) — https://arxiv.org/abs/2607.08802 — CLAIMED PROOF of Nash-Williams' infinite matroid intersection conjecture, a long-standing open problem in infinite-matroid theory; abstract opened via arXiv API this session (v1 2026-07-09). Unrefereed single-author preprint claiming resolution of a named conjecture → PROVISIONAL under the hype-skepticism rule: NOT a resolved conjecture until independent vetting; track the outcome. Axis 1 (combinatorics).
 - 2026-07-13 — arXiv:2607.08905 — "On The Morel Structure Conjecture" (Bertizzolo) — https://arxiv.org/abs/2607.08905 — completes the proof of Morel's structure conjecture: Witt K-theory is effective over any perfect field of characteristic 2, finishing the program initiated by Bachmann (axis 1, motivic/A¹-homotopy theory); abstract opened via arXiv API this session (v1 2026-07-09). Single below-bar resolved-conjecture item.
 - 2026-07-13 — arXiv:2607.09049 — "A Single-Exponential Erdős–Hajnal Bound for Graphs of Bounded VC-Dimension" (Sun, Wang, Zeng) — https://arxiv.org/abs/2607.09049 — improves the Nguyen–Scott–Seymour Erdős–Hajnal bound to single-exponential for bounded-VC-dimension graphs (axis 1, extremal combinatorics; adjacent to but distinct from the Ramsey trend); abstract opened via arXiv API this session (v1 2026-07-10). Single below-bar item.
@@ -74,7 +83,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-08 — 2026 Clay Research Awards (page dated 2026-04-14) — https://www.claymath.org/2026-clay-research-awards/ — RESOLVED (was unverified since 07-03): recipients now confirmed via Clay page opened (tvly extract) this session — (i) Orponen, Shmerkin, Wang, Zahl for the Furstenberg set conjecture (plane) + Kakeya conjecture in 3D; (ii) Burklund, Hahn, Levy, Schlank for counterexamples to Ravenel's Telescope Conjecture; (iii) Deng, Hani. Recognition/ecosystem signal (axis 1 pure math). The underlying landmark artifacts (3D-Kakeya proof, Telescope-conjecture counterexample) are NOT opened this session → track and follow to those primaries next run.
 - 2026-07-02 — 2026 Abel Prize presented to Gerd Faltings (ceremony) — https://www.mpim-bonn.mpg.de/ — MPIM institute page opened this session; major recognition in arithmetic/algebraic geometry (ecosystem/award, on-scope).
 - 2026-07-02 — arXiv:2607.00762 — Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor (quantum Monte Carlo) — https://arxiv.org/abs/2607.00762 — unverified (cond-mat.str-el listing; abstract not opened).
-- 2026-07-02 — Formal-math toolchain releases: mathlib4 v4.32.0-rc1 (stable still v4.31.0), lean4 v4.32.0-rc1, Rocq v9.2.0 — https://github.com/leanprover-community/mathlib4/releases — release tags opened via tvly (axis 5: computer-assisted/formalized math). Quiet since 2026-07-02.
+- 2026-07-14 — Formal-math toolchain releases: **lean4 v4.32.0 now the latest tag (final)** — moved past v4.32.0-rc1; mathlib4 still v4.32.0-rc1 (stable v4.31.0), Rocq v9.2.0 unchanged — https://github.com/leanprover/lean4/releases — release pages opened via tvly this session (axis 5: computer-assisted/formalized math). Exact release date not pinned (tvly search still showed rc1 "3 weeks ago"); mathlib stable expected to follow lean4 v4.32.0. Prior line (2026-07-02): mathlib4/lean4/Rocq all at v4.32.0-rc1 / v9.2.0.
 
 ## source_rotation
 
