@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-14
+Last updated: 2026-07-15
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -43,12 +43,19 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     extremal function) but NOT a Ramsey-number lower bound → queued as its own item, does NOT satisfy the
     W28 reactivation criterion (fresh Ramsey lower-bound primary OR referee outcome). Trend HELD dormant;
     W29 archive decision unchanged.
+  - 2026-07-15 (daily): fresh math.CO 2026-07-14 batch scanned for Ramsey lower bounds — none (batch was
+    Balanced Four-Color Theorem, 3-stable Kneser chromatic number, orthogonal quantum Latin squares, etc.;
+    no Ramsey-number lower bound, no referee/vetting outcome on the 2025–26 preprints). W28 reactivation
+    criterion still unmet → trend HELD dormant; W29 (this week's weekly) archive decision unchanged.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-15 — arXiv:2607.13009 — "Model-Independent Indication for a Localized Anomaly in the Late-Time Expansion History" — https://arxiv.org/abs/2607.13009 — cosmology / dark energy (axis 3, gr-qc/astro-ph.CO): a model-independent spline reconstruction of DESI DR2 BAO + DES "Dovekie" Type-Ia-SN distances finds a localized ~3.5σ deviation from Planck-2018 ΛCDM over z≈0.3–0.6 (peak z≈0.47), robust to reconstruction/dataset/sound-horizon variations. EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): a 3.5σ anomaly is NOT a discovery — below 5σ, look-elsewhere effect, "if confirmed"; provisional, track the vetting. Ties into the DESI dynamical-dark-energy saga. DESI is a tracked experiment. Abstract opened via arXiv API this session (v1 2026-07-14).
+- 2026-07-15 — arXiv:2607.13025 — "The Balanced Four-Color Theorem" — https://arxiv.org/abs/2607.13025 — combinatorics / graph coloring (axis 1, math.CO): every planar graph on n≥3 vertices admits a 4-coloring in which every color class has fewer than n/2 vertices — and this bound is BEST POSSIBLE, computable in O(n log n); extended to ≥5 colors and to general surfaces. A sharp "balanced" strengthening of the Four Color Theorem. Single below-bar item; abstract opened via arXiv API this session (v1 2026-07-14).
+- 2026-07-15 — arXiv:2607.12749 — "A Proof of Sundaram's Bounded-Interval Higher Lie Positivity Conjecture" — https://arxiv.org/abs/2607.12749 — representation theory / algebraic combinatorics (axis 1, math.RT): resolves a positivity conjecture of Sheila Sundaram on higher Lie characters over bounded intervals. Single below-bar resolved-conjecture item; title/abstract opened via arXiv API this session (v1 2026-07-14).
 - 2026-07-14 — arXiv:2607.10111 — "Hypergraph Erdős–Rogers functions with consecutive clique sizes" (Lin, Niu) — https://arxiv.org/abs/2607.10111 — extremal combinatorics (axis 1, math.CO): bounds for the hypergraph Erdős–Rogers function, a Ramsey-type extremal function; by Lin–Niu, one of the author groups in the (dormant) Ramsey-lower-bound trend. Ramsey-ADJACENT but NOT a Ramsey-number lower bound → its own below-bar queue item, does not lift the trend's dormancy. Title/date (v1 2026-07-13) via arXiv RSS this session.
 - 2026-07-14 — arXiv:2607.10106 — "A resolution of Kellner's conjectures on Wilson quotients" (Matsuno) — https://arxiv.org/abs/2607.10106 — number theory (axis 1, math.NT): resolves Kellner's conjectures on Wilson quotients. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-11).
 - 2026-07-14 — arXiv:2607.08911 — "A diagrammatic field theory of quantum error correction" (SciRate-attention catch) — https://arxiv.org/abs/2607.08911 — a field-theoretic framework for QEC built on fusion-space codes in unitary fusion categories, with algebro-geometric directions (tube/Hopf algebras, Yangian structures, Higgs bundles, spectral curves, abelian varieties); cross-listed hep-th/math-ph/math.AG/math.RT (axis 2, the math↔physics interface). Surfaced via SciRate top-scited (tracked discovery venue) this session; abstract opened via arXiv API (v1 2026-07-09). AXIS-BOUNDARY caveat: the QEC subject overlaps the sibling quantum radar's quantum-computing beat — captured here for its mathematical-physics/category-theory content, not the QEC machinery. Single below-bar intake.

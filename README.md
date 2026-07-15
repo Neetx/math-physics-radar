@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-34-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--14-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-37-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--15-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-13) — daily 2026-07-14:**
-- **Quiet day** (the domain's normal state) — all lanes checked, no landmark primary, no new trend or stage move. Fresh 2026-07-13 arXiv batch swept across every in-scope category.
-- **Three conjecture/attention items queued.** [Kellner's conjectures on Wilson quotients — resolved](https://arxiv.org/abs/2607.10106) (number theory); a fusion-category [diagrammatic field theory of QEC](https://arxiv.org/abs/2607.08911) (SciRate-hot, math↔physics interface); and [hypergraph Erdős–Rogers functions](https://arxiv.org/abs/2607.10111) (Lin–Niu, Ramsey-adjacent). Watchlist 31 → 34, capture-leak 0 (21 ids checked).
-- **lean4 v4.32.0 released** (final, past rc1); mathlib4 still v4.32.0-rc1 (axis 5, formal math).
-- **Ramsey trend still dormant** — the Lin–Niu item is Ramsey-adjacent, not a lower bound, so it does not reactivate the trend; W29 archive decision unchanged. Off-axis explore covered nlin/optimization/logic — nothing field-shaping to queue.
+**Since last scan (2026-07-14) — daily 2026-07-15:**
+- **Quiet day** (the domain's normal state) — all lanes checked, no landmark primary, no new trend or stage move. Fresh 2026-07-14 arXiv batch swept across every in-scope category.
+- **A 3.5σ cosmology anomaly, queued with caution.** [Model-independent late-time expansion anomaly](https://arxiv.org/abs/2607.13009) — DESI DR2 BAO + DES supernovae show a localized ~3.5σ deviation from Planck ΛCDM at z≈0.47. Below 5σ, look-elsewhere: provisional, not a discovery — tracking the vetting.
+- **Two clean pure-math results queued.** [The Balanced Four-Color Theorem](https://arxiv.org/abs/2607.13025) (best-possible balanced 4-coloring of planar graphs) and [a proof of Sundaram's higher-Lie positivity conjecture](https://arxiv.org/abs/2607.12749) (representation theory). Watchlist 34 → 37, capture-leak 0 (24 ids checked).
+- **Ramsey trend still dormant** — the fresh math.CO batch held no Ramsey lower bound and no referee outcome, so the W28 reactivation criterion stays unmet; W29 archive decision unchanged. Off-axis explore covered operator algebras + integrable systems — nothing field-shaping to queue. Formal-math toolchain unchanged (lean4 v4.32.0, mathlib4 rc1).
 
 ## Trends
 
@@ -29,11 +29,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Quiet — no earthquake. r/math is speculating on the 2026 Fields Medals (Hong Wang vs Zahl on Kakeya) ahead of ICM; blogs circle AI-in-mathematics (Tao visualizer tools, an "AI QFT textbook", "Matching in NC") — none chased to a new tracked primary.
-- Intake only, unverified: a fusion-category QEC field theory (SciRate-hot), dark-matter direct-search nulls, and PRL entanglement-metrology / flavor-anomaly items — queued, not evidence.
-- Upcoming: the [ICM 2026](https://www.mathunion.org/) (Philadelphia, 23–30 Jul) opens in ~9 days — Fields Medals imminent, watched.
+- Quiet — no earthquake. r/math is still speculating on the 2026 Fields Medals ahead of ICM; blogs circle AI-in-mathematics (Tao's Gilbreath-sequence visualizer, "Matching in NC") — none chased to a new tracked primary. HN's top math item was a Maya-astronomer archaeology story (off-scope).
+- Intake only, unverified: the DESI+DES late-time expansion anomaly (3.5σ, provisional), PRL fractional-topological-insulator / quantum-dynamical-entropy items — queued, not evidence.
+- Upcoming: the [ICM 2026](https://www.mathunion.org/) (Philadelphia, 23–30 Jul) opens in ~8 days — Fields Medals imminent, watched.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (34) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-14](reports/2026-07-14.md)) · weekly: [2026-W28](reports/weekly/2026-W28.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (37) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-15](reports/2026-07-15.md)) · weekly: [2026-W28](reports/weekly/2026-W28.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
