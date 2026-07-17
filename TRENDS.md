@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-16
+Last updated: 2026-07-17
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -51,12 +51,22 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Sabidussi's compatibility conjecture, path-reversed-tournament inversion number, spectral extremal, etc.;
     no Ramsey-number lower bound, no referee/vetting outcome). W28 reactivation criterion still unmet → trend
     HELD dormant; W29 (due this week) archive decision unchanged.
+  - 2026-07-17 (daily): fresh math.CO 2026-07-16 batch scanned for Ramsey lower bounds — none (batch held
+    odd-cycle Alon–Friedland defects, three-bit flows / cycle covers, online Beck–Fiala discrepancy,
+    Hamiltonian Cayley graphs of order pqrs, χ-bounds for {P₆,dart,K₄}-free graphs, etc.; no Ramsey-number
+    lower bound, no referee/vetting outcome on the 2025–26 preprints). W28 reactivation criterion still unmet →
+    trend HELD dormant; W29 (due this week) archive decision unchanged.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-17 — arXiv:2607.15140 — "Absence of blow-up in the 3D Navier-Stokes equations with transport noise" (Agresti) — https://arxiv.org/abs/2607.15140 — analysis/PDE + probability (axis 1/2, math.PR/AP): proves the 3D Navier–Stokes equations driven by a suitably chosen TRANSPORT noise admit global-in-time smooth solutions with high probability, uniformly for initial data in arbitrarily large balls of subcritical spaces. A regularization-BY-NOISE result — explicitly NOT a resolution of the deterministic global-regularity open problem (no claim on the noise-free NSE). Abstract opened via arXiv API this session (v1 2026-07-16). Single below-bar item.
+- 2026-07-17 — arXiv:2607.14143 — "The Planar Case of Thomas' Positive Circuits Conjecture" — https://arxiv.org/abs/2607.14143 — dynamical systems / monotone-network theory (OFF-AXIS explore find, math.DS): resolves the planar case of Thomas' conjecture that a positive feedback circuit is necessary for multistationarity. Significant-off-axis exploration catch (W28 anchoring redirect — deliberately read a non-tracked venue's top items); title/link via arXiv math.DS RSS this session, article not opened → unverified intake.
+- 2026-07-17 — PRX new since the 07-16 batch — "Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time" (axis 2, classical–quantum / post-quantum semiclassical gravity: a covariant path-integral for QFT backreacting on a classical spacetime) + "Candidate for a Fractional Topological Insulator in Twisted MoTe₂" (axis 3, topological cond-mat / fractional-TI candidate) — https://feeds.aps.org/rss/recent/prx.xml — titles/dates (2026-07-15/16) via APS PRX RSS this session, articles not opened → unverified intake.
+- 2026-07-17 — PRL new since the 07-15 batch — "Observation of CP Violation in B⁰→J/ψρ(770)⁰ Decays" (axis 3, HEP flavor / CP violation in a new b-hadron channel) + "Any Unitary Gate Can Be Certified Device-Independently in a Quantum Network" (axis 4, quantum foundations / device-independent certification) + "Even Denominator Fractional Quantum Hall States in the Zeroth Landau Level of ABA Trilayer Graphene" (axis 3, topological cond-mat) — https://feeds.aps.org/rss/recent/prl.xml — titles/dates (2026-07-15/16) via APS PRL RSS this session, articles not opened → unverified intake.
+- 2026-07-17 — community-pulse (intake, UNVERIFIED — never evidence) — r/math surfaced AI-assisted-mathematics claims: GPT-5.6 reported to solve all six IMO 2026 problems, and a claimed Lean-verified closing of a ~30-year gap in convex optimization (following an "OpenAI CDC proof" announcement) — https://www.reddit.com/r/math/ — WATCH area per scope: AI-assisted math is the sibling AI radars' beat; IF a primary artifact (paper + machine-checked Lean formalization) surfaces, track the mathematical RESULT + the formalization (axis 1/5), NOT the AI method. No primary opened → unverified intake.
 - 2026-07-16 — arXiv:2607.13829 — "The inversion number of a path-reversed tournament: Resolving a conjecture of Belkhechine, Bouaziz, Boudabbous, and Pouzet" — https://arxiv.org/abs/2607.13829 — combinatorics / tournaments (axis 1, math.CO): computes the inversion number inv(Q_n) of the tournament obtained from the transitive tournament by reversing consecutive pairs, resolving a conjecture of Belkhechine et al. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-15).
 - 2026-07-16 — arXiv:2607.13282 + 2607.13283 — "The H₀ World Cup I. Summary of the baseline group stage results" + "II. A comprehensive competition between proposed Hubble tension solutions" — https://arxiv.org/abs/2607.13282 — cosmology (axis 3, astro-ph.CO): a systematic head-to-head "tournament" ranking of proposed solutions to the Hubble tension against baseline datasets. Community meta-analysis (intake), ties into the tracked DESI dark-energy / late-time-anomaly saga; titles/links via arXiv RSS this session, articles not opened → unverified intake.
 - 2026-07-16 — arXiv:2607.13673 — "Deriving the AdS₃×S³×T⁴ Quantum Spectral Curve I: Y-system and discontinuity relations" — https://arxiv.org/abs/2607.13673 — integrable systems / AdS/CFT (axis 2, nlin.SI/hep-th): first paper of a program deriving the Quantum Spectral Curve for the AdS₃×S³×T⁴ string background (Y-system, discontinuity relations). Single below-bar item; title/link via arXiv nlin.SI RSS this session (v1 2026-07-15).
