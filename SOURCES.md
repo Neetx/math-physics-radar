@@ -172,7 +172,20 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
 
 Where NEW / not-yet-tracked important work surfaces; read top/most-attention items REGARDLESS
 of sub-topic, advancing the date window.
-- arXiv NEW listings, rotating across the math + physics categories in scope (advance the date window each run; read the top / cross-listed items REGARDLESS of sub-topic). The core discovery lane.
+
+**OFF-AXIS ROTATION (formalized 2026-W29 — amendment B; motivated by the off-axis=0 anchoring
+warning W27/W28, now easing to 1/5 in W29).** Reading arXiv-NEW top items alone is NOT enough:
+those are on-axis by construction (they land in the ledger's tracked categories), which is what
+drove off-axis discovery to 0 for two weeks. So EVERY run the explore slot must ALSO deliberately
+read the top / most-attention items of ONE genuinely off-axis venue and queue anything significant
+as "significant, off-axis" (even zero-yield reads are logged). ROTATE the off-axis venue each run so
+coverage advances — a suggested roster (extend freely; do not re-read the same one two runs running):
+`math.DS` (dynamical systems), `math.OC` (optimization), `math.LO` (logic / foundations),
+`math.OA` (operator algebras), `math.DG` (differential geometry), `math.NA` (numerical analysis),
+`cs.CC` (computational complexity), `nlin.SI` / `nlin.CD` (integrable / chaotic), `q-bio.PE`,
+`math.PR`↔`math.ST` (probability/statistics interface), `econ`/`q-fin` (math-adjacent). The test is
+SIGNIFICANCE-first (read the top items regardless of sub-topic), not keyword search on tracked axes.
+- arXiv NEW listings, rotating across the math + physics categories in scope (advance the date window each run; read the top / cross-listed items REGARDLESS of sub-topic). The core discovery lane. **Pair this on-axis core with the OFF-AXIS ROTATION directive above every run.**
 - INSPIRE-HEP most-recent / most-cited — API `https://inspirehep.net/api/literature?sort=mostrecent` **[verified 2026-07-02; JSON]** — HEP attention/discovery signal (also a primary venue, above).
 - Quanta Magazine (above) doubles as a discovery pointer — what the field is excited about
 - Prizes & recognition — **[WEEKLY-SWEPT tier; EXCEPTION: chase the IMU/Fields lane DAILY during ICM season, 23–30 Jul 2026]** (intake — flags what the field itself deems major → follow to the laureate's actual work, cite that): Abel Prize https://abelprize.no/ **[verified 2026-07-02; HTML]** · Breakthrough Prize (math + fundamental physics) https://breakthroughprize.org/ **[verified 2026-07-02; HTML]** · Shaw Prize (Mathematical Sciences) https://www.shawprize.org/ **[verified 2026-07-12; HTML → `tvly extract` / `tvly search --include-domains shawprize.org`; the `/laureates/mathematical-sciences` path 404s, use the root + search]** · IMU / Fields Medal https://www.mathunion.org/ **[candidate — `/imu-awards` 404'd 2026-07-02, verify path]**. Sparse (mostly annual) but a strong "this was big" signal. CAPTURE the LAUREATE each cycle, not just the prize name → queue it and follow to the honored work (gap found 2026-07-12: Shaw 2026 [Candès & De Lellis] and the Breakthrough 2026 physics laureate were BOTH missed — Shaw was not even listed; the annual-laureate item must be actively chased when the ceremony date arrives).
