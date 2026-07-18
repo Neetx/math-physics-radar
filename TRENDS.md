@@ -1,16 +1,16 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-17
+Last updated: 2026-07-18
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
-(21+ days quiet) ; `declining` (the field moved on). Confidence: `low | medium | high`.
+(60+ days quiet — domain cadence; AGENTS.md § Domain cadence) ; `declining` (the field moved on). Confidence: `low | medium | high`.
 Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concrete artifact.
 
 ## Active trends
 
 ### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
-- stage: dormant | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
+- stage: emerging | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
 - what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
   decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
   graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
@@ -56,6 +56,18 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Hamiltonian Cayley graphs of order pqrs, χ-bounds for {P₆,dart,K₄}-free graphs, etc.; no Ramsey-number
     lower bound, no referee/vetting outcome on the 2025–26 preprints). W28 reactivation criterion still unmet →
     trend HELD dormant; W29 (due this week) archive decision unchanged.
+  - 2026-W29 recalibration: REACTIVATED dormant → emerging (RECONCILE-FIRST, per weekly.md §2 / AGENTS.md
+    § Domain cadence). The W28 dormant-at-45-days demotion AND the standing "archive at W29" decision were both
+    made under the SUPERSEDED AI-default 21/45-day windows. The domain-cadence calibration applied 2026-07-13
+    (AFTER W28) sets dormancy at 60 days / archive at 120. last_evidence 2026-05-27 is 52 days old today
+    (2026-07-18) — INSIDE the current 60-day active window — so under the CURRENT threshold the trend is NOT
+    dormant. Per the reconcile rule ("a threshold change must retroactively fix trends mis-staged under the old
+    threshold"), the stale dormancy + archive decision are VOIDED and the trend is restored to its prior stage
+    (emerging). Confidence HELD at medium (still no referee/vetting outcome on the 2025–26 preprints; unrefereed-
+    preprint caution). NOT promoted (no fresh post-2026-05-27 lower-bound primary this week — reconcile is a
+    correction, not new velocity). NEW dormancy re-check: if no fresh Ramsey lower-bound primary or referee
+    outcome appears by 2026-07-26 (the 60-day mark), it legitimately goes dormant under the current window
+    (~W31); the completed-burst read from W28 remains the risk to watch.
 
 ## observation_queue
 
@@ -90,7 +102,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-07 — arXiv:2607.05374 — "The Minkowski grid has robustly many repeated distances" (Lee, Pohoata, Zhu) — https://arxiv.org/abs/2607.05374 — Erdős-type combinatorial geometry / repeated-distances (axis 1, math.CO/NT); abstract opened via arXiv API this session. Single below-bar item.
 - 2026-07-07 — SciPost — "Irrational CFTs from coupled anyon chains with non-invertible symmetries?" (published 2026-07-06) — https://scipost.org/ — axis 2/4 (CFT, non-invertible / generalized symmetries); title/date via SciPost API this session, article not opened → intake. Generalized/non-invertible-symmetry sub-theme now 2 independent items with 2604.02856 (Type-IV 't Hooft anomalies / higher-categorical symmetries) — forming, below the ≥3 bar.
 - 2026-07-07 — PRL 2026-07-06 — "Scattering Amplitudes and Conservative Binary Dynamics at O(G⁵) without Self-Force Truncation" — https://feeds.aps.org/rss/recent/prl.xml — axis 2 (scattering-amplitudes / post-Minkowskian expansion of the gravitational two-body problem, 5th PM order); title/date seen via APS PRL RSS this session, article not opened → unverified intake.
-- 2026-07-07 — PRL 2026-07-06 — GWTC-4 binary-black-hole population inference (two papers: "Evidence for Three Subpopulations of Merging Binary Black Holes at Different Primary Masses" + "Signatures of a Subpopulation of Hierarchical Mergers in the GWTC-4 Gravitational-Wave Dataset") — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (GW population; pairs with GWTC-5.0 on study_shelf); titles/dates seen via APS PRL RSS this session, articles not opened → unverified intake (same-collaboration data, not independent groups).
+- 2026-07-07 — PRL 2026-07-06/07 — GWTC-4 binary-black-hole population inference cluster (three papers: "Evidence for Three Subpopulations of Merging Binary Black Holes at Different Primary Masses" + "Signatures of a Subpopulation of Hierarchical Mergers in the GWTC-4 Gravitational-Wave Dataset" + "Aligned Hierarchical Black Hole Mergers in Active-Galactic-Nuclei Disks Revealed by GWTC-4" [was a separate 07-08 line, merged 2026-W29]) — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (GW population; pairs with GWTC-5.0 on study_shelf); titles/dates seen via APS PRL RSS this session, articles not opened → unverified intake (all GWTC-4-derived, same-collaboration data, NOT independent groups — does not form a ≥3-group cluster).
 - 2026-07-05 — arXiv:2604.02856 — "Type-IV 't Hooft Anomalies on the Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems" — https://arxiv.org/abs/2604.02856 — capture-leak catch: named only in strategy_notes prose (07-04, as a SciRate-output example) but never captured; title/date (2026-04-03) verified via arXiv API this session. Axis 2/4 (QFT anomalies / higher-categorical symmetry, lattice), single below-bar item.
 - 2026-07-05 — Nature Physics News&Views "Tangled up in spin" — https://www.nature.com/articles/s41567-026-03364-7 — neutron-scattering hints of quantum entanglement in a strange-metal state (axis 3/4, entanglement as a physical observable in a correlated metal); commentary blurb opened via Nature Physics RSS this session — underlying research paper NOT identified/opened → unverified intake.
 - 2026-07-04 — SciPostPhys.21.1.004 — "Towards holographic color superconductivity in QCD" — https://scipost.org/SciPostPhys.21.1.004 — an AdS/holographic model of color-superconducting QCD matter (axis 2, hep-th/holography ↔ dense-QCD interface); SciPost API metadata (published 2026-07-02) opened this session. Single below-bar item.
@@ -103,7 +115,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-09 — PRL 2026-07-08 — "Observation of the Doubly Charmed Baryon Ξcc+ with the LHCb Run 3 Detector" — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (HEP, LHCb Run 3 re-observation of the doubly-charmed baryon, first seen by LHCb 2017); title/date via APS PRL RSS this session, article not opened → unverified intake. Single below-bar.
 - 2026-07-08 — arXiv:2607.06398 — "Random Multiplicative Functions and Making Squares from Polynomial Values" — https://arxiv.org/abs/2607.06398 — analytic number theory / probability (axis 1, math.NT/PR): CLTs for sums of random multiplicative functions over polynomial values via a paucity phenomenon for P(n₁)…P(n₄)=□; abstract opened via arXiv API this session. Single below-bar item.
 - 2026-07-08 — Nature Physics 2026-07-07 — "Visualization of the Zhang–Rice singlet, electronic molecules and Cooper pair formation in a cuprate superconductor" — https://www.nature.com/nphys.rss — axis 3 (high-Tc superconductivity / correlated cond-mat); title/date via Nature Physics RSS this session, article not opened → unverified intake.
-- 2026-07-08 — PRL 2026-07-07 — "Aligned Hierarchical Black Hole Mergers in Active-Galactic-Nuclei Disks Revealed by GWTC-4" — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (GW population; hierarchical-merger channel in AGN disks); title/date via APS PRL RSS this session, article not opened → unverified intake. Adds to the GWTC-4 population sub-theme (with the two 07-07 GWTC-4 items) — but all GWTC-4-derived, same-collaboration data, NOT independent groups.
 - 2026-07-08 — PRL 2026-07-07 — "Worldsheet for Generalized Veneziano Amplitudes" — https://feeds.aps.org/rss/recent/prl.xml — axis 2 (string/hep-th scattering amplitudes, worldsheet construction for generalized Veneziano amplitudes); title/date via APS PRL RSS this session, article not opened → unverified intake.
 - 2026-07-08 — 2026 Clay Research Awards (page dated 2026-04-14) — https://www.claymath.org/2026-clay-research-awards/ — RESOLVED (was unverified since 07-03): recipients now confirmed via Clay page opened (tvly extract) this session — (i) Orponen, Shmerkin, Wang, Zahl for the Furstenberg set conjecture (plane) + Kakeya conjecture in 3D; (ii) Burklund, Hahn, Levy, Schlank for counterexamples to Ravenel's Telescope Conjecture; (iii) Deng, Hani. Recognition/ecosystem signal (axis 1 pure math). The underlying landmark artifacts (3D-Kakeya proof, Telescope-conjecture counterexample) are NOT opened this session → track and follow to those primaries next run.
 - 2026-07-02 — 2026 Abel Prize presented to Gerd Faltings (ceremony) — https://www.mpim-bonn.mpg.de/ — MPIM institute page opened this session; major recognition in arithmetic/algebraic geometry (ecosystem/award, on-scope).
@@ -174,6 +185,35 @@ Corrections to the source-coverage strategy.
   exactly that low-frequency block; makes the daily coverage promise honest and hands the slow block to the
   weekly operator. (B) ROTATE the discovery/exploration venues toward genuinely off-axis reading — motivated by
   the 2-week off-axis=0 anchoring warning.
+- 2026-07-18 (W29 recalibration) — RECONCILE-FIRST correction (the headline of the week): the Ramsey
+  lower-bound trend was REACTIVATED dormant → emerging. Both the W28 dormant demotion (at 45 days) and the
+  standing "archive at W29" decision were made under the SUPERSEDED 21/45-day AI-default windows; the
+  domain-cadence calibration applied 2026-07-13 sets dormancy at 60 days. last_evidence 2026-05-27 is 52 days
+  old — inside the current active window — so the trend is not dormant under the current threshold. Per the
+  weekly.md §2 reconcile rule, the stale decisions are voided and the trend restored to emerging (confidence
+  held medium; unrefereed-preprint caution). New 60-day dormancy re-check: 2026-07-26. First application of the
+  "a threshold change retroactively fixes trends mis-staged under the old threshold" rule.
+- 2026-07-18 (W29) — Amendments APPLIED (W28 proposals A & B; cooling period elapsed, signal persisted, no
+  dated curator veto — silence = consent): (A) CADENCE-SPLIT of the SOURCES.md swept lists into a DAILY
+  high-frequency tier and a WEEKLY-SWEPT slow tier (institute/venue/award block + low-yield extra-social),
+  motivated by the coverage-miss on exactly that slow block now running 3 weeks (W27/W28/W29); (B) formalized
+  the OFF-AXIS discovery-venue rotation in the SOURCES.md exploration section, motivated by the anchoring
+  warning. Each applied in its own dedicated commit (radar: amend SOURCES.md …). The daily had already begun
+  operating under both (07-14 handed the slow block to the weekly; 07-16/07-17 read off-axis venues) — the
+  amendments ratify observed practice.
+- 2026-07-18 (W29) — Coverage: the slow institute/venue/award block was again under-iterated by the dailies
+  this week (same execution gap W27/W28 flagged). Live-verified this weekly session via tvly (IMU/mathunion,
+  DESI, IHES/SLMath/Newton): all LIVE, nothing new on-axis (DESI still the Apr-2026 survey-complete milestone;
+  institutes admin/ecosystem; ICM 2026 opens 23–30 Jul, no Fields laureates yet). Sources live + genuinely
+  low-frequency, not dead → the cadence-split (A) is the correct fix, not removal.
+- 2026-07-18 (W29) — Anchoring warning EASING: off-axis rate 1/5 this week (07-17 queued the Thomas
+  positive-circuits planar-case resolution, math.DS, "significant, off-axis"), up from 0/14 (W27) and 0/6 (W28).
+  The W28 discovery-venue redirect is working; keep the off-axis rotation (B) in force and re-check next week.
+- 2026-07-18 (W29) — Proposed (cooling → apply W30 if the signal persists, silence = consent): (C) SYNC the
+  `radar-ledger-update` skill's stale window numbers (it still hardcodes "~25 cap", "21+/45+ days") to the
+  curator-set domain-cadence windows (~40 cap, 60/120 days) — motivated by this week's reconcile correction,
+  which the skill's own text contradicts; the dailies already follow AGENTS.md over the skill (no active harm),
+  but the skill is a latent trap for a future run. Skill-maintenance, one dedicated commit when applied.
 
 ## study_shelf
 
