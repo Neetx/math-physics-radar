@@ -18,6 +18,29 @@ citing, then heal or drop). NEVER seed this file from memory: search + open real
 
 ---
 
+## Cadence tiers (applied 2026-W29 — amendment A; motivated by the 3-week coverage miss W27/W28/W29 on the slow block)
+
+The swept lists below carry TWO cadences. The **DAILY** operator owes a full CHECK of the DAILY
+tier every run; the **WEEKLY** operator owes the WEEKLY-SWEPT tier once per weekly run. This makes
+the daily coverage promise honest (the daily stopped iterating the slow block ~W27 in practice) and
+hands the genuinely low-frequency sources to the weekly. **A source's cadence tag here OVERRIDES the
+"swept EVERY run" wording in its section heading below.** Coverage honesty still applies per-tier: a
+DAILY-tier source absent from a daily log line, or a WEEKLY-tier source absent from the weekly log
+line, is a coverage lie for that operator.
+
+- **DAILY tier (high-frequency — daily FULL CHECK):** CERN Courier, Fermilab, Simons Foundation (RSS);
+  arXiv (all in-scope cats, RSS/API), PRL/PRX/RMP, Nature Physics, Quantum, INSPIRE-HEP, SciPost;
+  the Experiments block (LIGO, DESI, CERN, IceCube — the real artifact-drop lane, tvly-light);
+  Social/curator INTAKE: r/math, r/mathematics, Hacker News, MathOverflow, Mathstodon, and the full
+  digest/explainer-blog lane (Quanta, Tao, Woit/Not-Even-Wrong, n-Category Café, Gowers, Kalai, Baez,
+  Strassler, Hossenfelder); Discovery/exploration: arXiv-NEW listings + SciRate + Quanta-as-pointer.
+- **WEEKLY-SWEPT tier (slow — weekly operator sweeps once/week):** Mathematics institutes (IHES,
+  SLMath, MPIM, Fields Institute, Isaac Newton, KITP, Perimeter, IAS, Clay); slow venues (Annals of
+  Mathematics, AMS Notices & Bulletin, Forum of Mathematics); low-yield extra-social (r/Physics,
+  r/cosmology, r/ParticlePhysics, r/AskPhysics, Physics SE); annual prizes (Abel, Breakthrough, Shaw,
+  IMU/Fields Medal). **EXCEPTION — chase daily when a ceremony is live:** the IMU/Fields lane during
+  ICM season (ICM 2026: 23–30 Jul) is a daily chase, not weekly.
+
 ## Primary feeds (Phase 1 — swept EVERY run)
 
 Method: `radar-source-sweep`. Iterate EVERY entry; prefer the feed, fall back to `tvly extract`
@@ -37,7 +60,7 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
 - IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`]** — neutrino astrophysics
 - (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
 
-Mathematics institutes:
+Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
 - IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops)
 - KITP (Kavli Institute for Theoretical Physics, UCSB) — https://www.kitp.ucsb.edu/ **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical-physics programs & talks (with Perimeter above, the two hubs for the field's current directions)
 - (agent: add ICTP, Max Planck (MPP/AEI), Perimeter/PIRSA talks, APS *Physics* Magazine as they prove high-signal. DROPPED 2026-07-02: Symmetry Magazine — curl 403 AND `tvly` fetch BOTH fail (Cloudflare); redundant with CERN Courier + Fermilab + INSPIRE for HEP.)
@@ -48,12 +71,12 @@ Mathematics institutes:
 - Physical Review X — RSS https://feeds.aps.org/rss/recent/prx.xml **[verified 2026-07-02]**
 - Reviews of Modern Physics — RSS https://feeds.aps.org/rss/recent/rmp.xml **[verified 2026-07-02]** (authoritative reviews)
 - Nature Physics — RSS https://www.nature.com/nphys.rss **[verified 2026-07-02]**
-- Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]**
+- Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]** — **[WEEKLY-SWEPT tier]**
 - Quantum (open journal) — https://quantum-journal.org/feed/ **[verified 2026-07-02; RSS]** (quantum information / foundations)
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
 - SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
-- AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result)
-- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math
+- AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result) — **[WEEKLY-SWEPT tier]**
+- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier]**
 - **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, JHEP (open-access hep-th; also on arXiv/INSPIRE), PRD, PRB, PRResearch, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
 
 ## GitHub watch (Phase 5 — repos, profiles, and fork trees)
@@ -115,7 +138,7 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tvly`). Organized by axis so gaps are visible:
 - r/math — https://www.reddit.com/r/math/.rss **[verified 2026-07-02; Atom]** — the "what just got proved" pulse (pure math)
 - r/mathematics — https://www.reddit.com/r/mathematics/.rss **[verified pattern]** — broader math
-- r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; 429 2026-07-02]** — general physics
+- r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; 429 2026-07-02]** — general physics — **[WEEKLY-SWEPT tier: r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics, Physics SE — low-yield extra-social, weekly operator]**
 - r/cosmology — https://www.reddit.com/r/cosmology/.rss **[verified 2026-07-02; Atom]** — cosmology / astro (axis 3)
 - r/ParticlePhysics — https://www.reddit.com/r/ParticlePhysics/.rss **[verified pattern; 429 2026-07-02]** — HEP (axis 3)
 - r/AskPhysics — https://www.reddit.com/r/AskPhysics/.rss **[verified pattern; 429 2026-07-02]** — broad physics pulse
@@ -152,5 +175,5 @@ of sub-topic, advancing the date window.
 - arXiv NEW listings, rotating across the math + physics categories in scope (advance the date window each run; read the top / cross-listed items REGARDLESS of sub-topic). The core discovery lane.
 - INSPIRE-HEP most-recent / most-cited — API `https://inspirehep.net/api/literature?sort=mostrecent` **[verified 2026-07-02; JSON]** — HEP attention/discovery signal (also a primary venue, above).
 - Quanta Magazine (above) doubles as a discovery pointer — what the field is excited about
-- Prizes & recognition (intake — flags what the field itself deems major → follow to the laureate's actual work, cite that): Abel Prize https://abelprize.no/ **[verified 2026-07-02; HTML]** · Breakthrough Prize (math + fundamental physics) https://breakthroughprize.org/ **[verified 2026-07-02; HTML]** · Shaw Prize (Mathematical Sciences) https://www.shawprize.org/ **[verified 2026-07-12; HTML → `tvly extract` / `tvly search --include-domains shawprize.org`; the `/laureates/mathematical-sciences` path 404s, use the root + search]** · IMU / Fields Medal https://www.mathunion.org/ **[candidate — `/imu-awards` 404'd 2026-07-02, verify path]**. Sparse (mostly annual) but a strong "this was big" signal. CAPTURE the LAUREATE each cycle, not just the prize name → queue it and follow to the honored work (gap found 2026-07-12: Shaw 2026 [Candès & De Lellis] and the Breakthrough 2026 physics laureate were BOTH missed — Shaw was not even listed; the annual-laureate item must be actively chased when the ceremony date arrives).
+- Prizes & recognition — **[WEEKLY-SWEPT tier; EXCEPTION: chase the IMU/Fields lane DAILY during ICM season, 23–30 Jul 2026]** (intake — flags what the field itself deems major → follow to the laureate's actual work, cite that): Abel Prize https://abelprize.no/ **[verified 2026-07-02; HTML]** · Breakthrough Prize (math + fundamental physics) https://breakthroughprize.org/ **[verified 2026-07-02; HTML]** · Shaw Prize (Mathematical Sciences) https://www.shawprize.org/ **[verified 2026-07-12; HTML → `tvly extract` / `tvly search --include-domains shawprize.org`; the `/laureates/mathematical-sciences` path 404s, use the root + search]** · IMU / Fields Medal https://www.mathunion.org/ **[candidate — `/imu-awards` 404'd 2026-07-02, verify path]**. Sparse (mostly annual) but a strong "this was big" signal. CAPTURE the LAUREATE each cycle, not just the prize name → queue it and follow to the honored work (gap found 2026-07-12: Shaw 2026 [Candès & De Lellis] and the Breakthrough 2026 physics laureate were BOTH missed — Shaw was not even listed; the annual-laureate item must be actively chased when the ceremony date arrives).
 - SciRate (scirate.com) — arXiv "scites" ranking (quant-ph/hep-th) **[healed 2026-07-04: `tvly search "<query>" --include-domains scirate.com` gets through the Cloudflare wall that 403s curl AND `tvly extract`; returns the top-scited list. KEEP — the W27 "drop" rationale was extract-only.]** — discovery/attention signal; low priority (redundant-ish with arXiv listings + INSPIRE + Quanta, but a distinct community-scited ranking).
