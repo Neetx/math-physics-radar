@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-52-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--21-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-55-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--22-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-20) — daily 2026-07-21:**
-- **The OpenAI Cycle-Double-Cover proof now has _two_ independent expositions.** After Geelen (07-20), [Sang-il Oum](https://arxiv.org/abs/2607.16356) — a leading structural graph theorist — posted a second exposition (07-17), presenting the proof "with slight modifications intended to make it more accessible." Two write-ups in a day = the community is actively engaging with the artifact (a vetting **signal**, not yet an **outcome**). Still WATCH-area + unrefereed + AI-generated → **provisional**.
-- **A refuted conjecture in analytic number theory** — [Nguyen-Dang's counterexamples](https://arxiv.org/abs/2607.16695) to Friedlander & Iwaniec's 2005 dual-sums conjecture (using ζ(s)^m, m≥4). Queued.
-- **Watchlist 50 → 52**, held above the ~40 soft cap per domain cadence (nothing stale, oldest 19 days; flagged for the W30 weekly). capture-leak 0 (39 ids checked). Ramsey trend held 📈 emerging (55 days since last evidence, inside the 60-day window; dormancy re-check 07-26).
-- **AI-assisted-math wave cresting onto the HN front page** ("Human mathematicians are being outcounterexampled"); a "Jacobian Conjecture is false per Anthropic" claim circulating — **still no arXiv primary**, unverified intake. **ICM 2026 opens 23–30 Jul (2 days) — Fields Medals imminent, chased daily.**
+**Since last scan (2026-07-21) — daily 2026-07-22:**
+- **The AI-assisted-math wave is now landing concrete arXiv artifacts, not just chatter.** Two fresh AI-assisted results this batch, each crediting a named frontier model: a [counter-example to Batyrev's conjecture](https://arxiv.org/abs/2607.19184) (non-negativity of stringy Hodge numbers — a *fundamental* motivic-integration / mirror-symmetry problem, refuted "with the assistance of OpenAI's ChatGPT"), and [a proof of the mod 4 Kawauchi Conjecture](https://arxiv.org/abs/2607.18655) (amphicheiral-knot Conway polynomial, "with the help of Claude Fable 5"). Tracked for the **results**, not the AI method — both **unrefereed, provisional**.
+- **[GWTC-5.0: Tests of General Relativity](https://arxiv.org/abs/2607.19293)** — the LIGO–Virgo–KAGRA collaboration's GR-tests companion to the GWTC-5.0 catalog (pairs with GWTC-5.0 below). Queued.
+- **Watchlist 52 → 55**, held above the ~40 soft cap per domain cadence (nothing stale, oldest 20 days; 3 weeks over cap → flagged for the W30 weekly consolidation). capture-leak 0 (39 ids checked). Ramsey trend held 📈 emerging (56 days since last evidence, inside the 60-day window; dormancy re-check 07-26).
+- **ICM 2026 (Philadelphia) opens tomorrow, 07-23 — Fields Medals imminent.** A community "leak" rumor is circulating (unverified — no IMU primary); the official announcement is chased first thing tomorrow.
 
 ## Trends
 
@@ -20,6 +20,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [A counter-example to Batyrev's conjecture (stringy Hodge numbers)](https://arxiv.org/abs/2607.19184) — refutes a **fundamental** open problem behind decades of motivic-integration, mirror-symmetry and McKay-correspondence work (that stringy Hodge numbers are non-negative). Unrefereed + AI-assisted (via ChatGPT) → **provisional**; tracked for the result, not the method.
 - [OpenAI's proof of the Cycle Double Cover Theorem (Geelen exposition)](https://arxiv.org/abs/2607.15399) — a clarifying write-up by matroid theorist Jim Geelen of an **OpenAI-produced proof of the Cycle Double Cover Conjecture** (Szekeres 1973 / Seymour 1979), one of graph theory's most famous ~50-year-old open problems. **Provisional** (AI-generated + unrefereed) — tracked for the result + the exposition artifact, not the AI method; watch for expert scrutiny / a machine-checked formalization.
 - [A Proof of Sabidussi's Compatibility Conjecture (Ulyanov)](https://arxiv.org/abs/2607.13225) — resolves Sabidussi's compatibility conjecture (circuit partitions / 4-colourings of Eulerian multigraphs) with an accompanying **Lean 4 formalization** — a machine-checked resolution of a named conjecture (combinatorics + formalized math). Unrefereed single-author preprint.
 - [K-theoretic counterexamples to Ravenel's telescope conjecture (Burklund, Hahn, Levy, Schlank)](https://arxiv.org/abs/2310.17459) — DISPROVES the telescope conjecture: telescopic and chromatic localizations of spectra differ at every height n+1≥2 (chromatic homotopy / algebraic K-theory); the second landmark behind the 2026 Clay Research Award.
@@ -31,11 +32,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- **A multi-model AI-assisted-mathematics wave is cresting** across community channels and onto the Hacker News front page ("Human mathematicians are being outcounterexampled"): the OpenAI Cycle-Double-Cover proof now with **two** independent arXiv expositions ([Geelen](https://arxiv.org/abs/2607.15399) + [Oum](https://arxiv.org/abs/2607.16356)), a GPT-5.6 IMO-2026 claim, and a "Jacobian Conjecture is false per Anthropic" claim — all **unverified intake**, a WATCH area only: the radar tracks the mathematical result + any formalization if a primary surfaces, not the AI method. Only the CDC claim has a primary (the two expositions) so far; the Jacobian counterexample has no arXiv artifact.
-- Intake only, unverified: the recent PRX/Nature-Physics on-axis AMO items (engineered molecular clock transitions for precision measurement; attosecond response of molecules to impulsive ionization); earlier PRL macroscopic-equilibration for free fermions, oscillating-boson-star lensing, recoiling-SMBH progenitor — queued, never evidence.
-- Upcoming: the [ICM 2026](https://www.mathunion.org/) (Philadelphia, 23–30 Jul; Program Chair Claire Voisin) opens in days — Fields Medals imminent, chased daily.
+- **A multi-model AI-assisted-mathematics wave is cresting** across community channels and the Hacker News front page ("Human mathematicians are being outcounterexampled"; "a digestion of the Jacobian conjecture counterexample"). It now has **three distinct AI-assisted arXiv artifacts** — the OpenAI Cycle-Double-Cover proof ([Geelen](https://arxiv.org/abs/2607.15399) + [Oum](https://arxiv.org/abs/2607.16356) expositions), the [Batyrev counter-example](https://arxiv.org/abs/2607.19184) (ChatGPT), the [mod-4 Kawauchi proof](https://arxiv.org/abs/2607.18655) (Claude Fable 5) — plus claims with **no** primary yet (a "Jacobian Conjecture is false per Anthropic" claim, GPT-5.6 IMO-2026). All **unverified intake**, a WATCH area: the radar tracks the mathematical result + any formalization, not the AI method.
+- Intake only, unverified: recent PRL/PRX/RMP on-axis items (SYK "baby universes" from thermal pure states; imprints of asymptotic freedom on confining strings; engineered molecular clock transitions; an RMP review of high-energy emission from the Galactic Center) — queued/folded, never evidence.
+- Upcoming: the [ICM 2026](https://www.mathunion.org/) (Philadelphia, 23–30 Jul; Program Chair Claire Voisin) opens **tomorrow** — Fields Medals imminent; an unverified winner-list "leak" is circulating (no IMU primary), chased daily.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (52) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-21](reports/2026-07-21.md)) · weekly: [2026-W29](reports/weekly/2026-W29.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (55) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-22](reports/2026-07-22.md)) · weekly: [2026-W29](reports/weekly/2026-W29.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
