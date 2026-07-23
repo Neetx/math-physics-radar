@@ -130,6 +130,7 @@ survives verification (real feed, on-axis, not SEO). Line format:
 `domain/org — times seen — last on-axis artifact (date) — first seen YYYY-MM-DD`.
 
 - sammattheus.wordpress.com ("Points and Lines", Sam Mattheus) — 1 — Bradač off-diagonal Ramsey breakthrough (arXiv:2605.28793), reblogged by Gil Kalai (2026) — first seen 2026-07-03 — combinatorics researcher blog; pointer surface for the Ramsey-lower-bound trend.
+- sbseminar.wordpress.com ("Secret Blogging Seminar", incl. David Speyer) — 1 — "The new counterexample to the Jacobian conjecture" working-through of the announced 3-variable Keller-map counterexample (2026-07) — first seen 2026-07-23 — research-mathematician group blog; high-signal pointer surface for the AI-assisted-math-wave / Jacobian-conjecture story (found via community pulse).
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
