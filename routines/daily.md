@@ -38,6 +38,12 @@ distinction governs what you DO with a hit, not whether you CHECK it.
 - **Primary-feed sweep (MANDATORY every run)** — `radar-source-sweep`: iterate the full
   `SOURCES.md` primary-source + research-venue lists; fetch each, open items newer than the
   last scan, filter for on-scope relevance. Primary sources are citable evidence.
+  The arXiv math scan is a BOUNDED-CYCLE ROTATION over the FULL in-scope category set (SOURCES →
+  arXiv), NOT a fixed math.CO/NT anchor: advance a category-rotation pointer each run and LOG which
+  categories you opened, so every in-scope math category — algebra & geometry (`math.AG`, `math.AC`,
+  `math.RA`, `math.KT`, `math.AT`, `math.GT`, `math.DG`) as much as `math.CO`/`math.NT` — is swept
+  within ~2 weeks. A category in-scope yet never in `logs/source_rotation.md` is a coverage gap (the
+  math.AG/AC failure class), the same listed-but-not-swept lie as an unswept source.
 - **Community pulse (every run, intake only)** — `radar-pulse`: iterate the social/curator
   lists; multi-channel earthquake check; feeds `observation_queue` unverified + the pulse
   note. Never evidence; never name individuals.
