@@ -38,25 +38,32 @@ structure is a contract.
 - Max 10 evidence items per trend — drop the oldest. Keep `last_evidence` equal
   to the newest evidence date.
 - Stage moves: at most ONE stage up per trend per day, only on new independent
-  evidence, justified in `notes`. Demotions are always allowed. 21+ days without
-  evidence → `dormant`; at 45+ days the weekly pass moves the entry to
-  `ARCHIVE.md` as a one-line post-mortem.
+  evidence, justified in `notes`. Demotions are always allowed. DORMANCY/ARCHIVE
+  windows follow the curator-set DOMAIN CADENCE (AGENTS.md § Domain cadence — this
+  is a SLOW field, months not days): **60+ days** without evidence → `dormant`; at
+  **120+ days** the weekly pass moves the entry to `ARCHIVE.md` as a one-line
+  post-mortem. (NOT the AI-default 21/45 — a months-old `last_evidence` is normal
+  for a live topic here; do NOT demote/archive merely for a quiet stretch. A
+  threshold change retroactively fixes trends mis-staged under an old window —
+  reconcile every already-dormant/archived entry against the CURRENT window first.)
 - Pinned trends (`pinned: true`): NEVER auto-archived, no matter how long
   without evidence — they are the curator's standing-watch axes. They still
   follow the normal stage rules, INCLUDING going `dormant` when quiet (the
   ledger stays truthful about activity); they simply never leave the board.
   Only the curator adds/removes a pin (or the agent proposes it via amendment).
 - `observation_queue` items are dated and marked "unverified" unless opened. It
-  is a WORKING SET (signals pending verification), not a knowledge store — keep it
-  bounded to a soft cap of ~25 live items by a CAP-DRIVEN burndown that runs every
-  session, including quiet/no-evidence passes: while the queue is OVER the cap,
-  resolve the oldest items toward the cap that run regardless of what the scan
-  found; at/under the cap it stops on its own (resolve only the 1–2 oldest if
-  stale). This is owed every run, never deferred to the weekly — a no-evidence
-  pass is not a no-op for the queue. Items leave ONLY by resolution: promoted to a
-  trend (the signal is captured there) or dropped with a one-line reason in the
-  day's/week's report (write-once, permanent). NEVER silently delete — because
-  every removal is either a promotion or a recorded drop, shrinking the queue
+  is a WORKING SET (signals pending verification), not a knowledge store, but the
+  DOMAIN CADENCE (AGENTS.md § Domain cadence) governs its size: SOFT cap **~40**
+  live items (NOT the AI-default ~25), and intake here is LOW, so below-bar items
+  should PERSIST — a math result stays relevant for MONTHS. Do NOT run a per-session
+  cap-driven burndown and do NOT prune a slow, low-volume queue just to hit a number.
+  Staleness is at **~60 days** (not 14): the weekly pass verifies items older than
+  ~60 days and either promotes, drops (one-line reason), or re-dates. Resolve the
+  oldest ONLY when GENUINELY over the soft cap, and even then target the lowest tier
+  (never-opened title-only intake), never verified results. Items leave ONLY by
+  resolution: promoted to a trend (the signal is captured there) or dropped with a
+  one-line reason in the day's/week's report (write-once, permanent). NEVER silently
+  delete — every removal is a promotion or a recorded drop, so shrinking the queue
   loses no knowledge. Re-date an item only if it is genuinely still worth watching.
 - Append one dated line per session to `logs/source_rotation.md` (the coverage
   log; not the TRENDS.md stub). Append dated corrections to the `strategy_notes`
