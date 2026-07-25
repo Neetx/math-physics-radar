@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-24
+Last updated: 2026-07-25
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -104,10 +104,22 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Ramsey-number lower bound, no referee/vetting outcome on the 2025–26 preprints. last_evidence 2026-05-27
     is 58 days old — INSIDE the current 60-day domain-cadence active window → trend HELD emerging; 60-day
     dormancy re-check 2026-07-26 (2 days out) unchanged.
+  - 2026-W30 recalibration: HELD emerging/medium. last_evidence 2026-05-27 is 59 days old today (2026-07-25) —
+    still INSIDE the 60-day domain-cadence active window BY ONE DAY, so NOT demoted (the rule is 60+ days; 59<60).
+    Confirmatory checks this session: (a) a fresh arXiv math.CO Ramsey scan returned only peripheral Ramsey-TYPE
+    items (tree-cycle Ramsey numbers 2026-07-20, multicolor vector-space Ramsey over 𝔽₂ 2026-07-19, products of
+    simplices canonically Ramsey 2026-07-16, the pendant-to-path exact-Ramsey note 2026-07-21) — NONE a Ramsey-number
+    LOWER-BOUND breakthrough; (b) an arXiv-API metadata check of the four tracked preprints (2507.12926, 2605.28793,
+    2604.23986, 2605.25843) shows NO fresh v-update / referee outcome (newest update 2026-07-02, all predating this
+    week). So the completed-burst read (W28/W29) still holds: no fresh lower-bound primary, no vetting outcome.
+    DORMANCY DECISION: the trend crosses the 60-day line 2026-07-26 (tomorrow); absent a fresh Ramsey lower-bound
+    primary or a referee/vetting outcome, it goes dormant at W31 (2026-08-01, 66 days) per the standing plan.
+    Confidence held medium (unrefereed-preprint caution; still no vetting outcome).
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-25 — **2026 Breakthrough Prize in Fundamental Physics → the Muon g-2 collaborations (CERN, Brookhaven, Fermilab)** — https://breakthroughprize.org/ — recognition/ecosystem (axis 3, HEP precision / BSM): awarded "for multi-decade, groundbreaking contributions to the measurement of the muon's anomalous magnetic moment, pushing the boundaries of experimental precision" across three collaborations over six decades; six New Horizons prizes also awarded (early-career physics & math). Breakthrough laureate page opened this session (tvly) — CLOSES the prize-capture gap flagged 2026-07-12 (the Breakthrough 2026 fundamental-physics laureate had been missed). Ties to the famous muon g-2 anomaly (the a_μ tension with the Standard Model). Ecosystem/recognition item → follow to the collaboration's honored measurement papers next.
 - 2026-07-24 — **2026 Fields Medals (IMU / ICM 2026, Philadelphia)** — https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026 — recognition/ecosystem, THE math event of the week (axis 1, pure math + math-physics): awarded 2026-07-23 at the ICM opening ceremony to **Yu Deng, John Pardon, Jacob Tsimerman, Hong Wang** — IMU laureate page WITH full citations opened this session (primary). Citations (verbatim highlights): **Deng** — PDE, incl. the rigorous derivation of the Boltzmann equation from hard-sphere dynamics and derivation of wave-kinetic equations from nonlinear dispersive systems; **Pardon** — symplectic geometry (virtual fundamental cycles, Fukaya categories, holomorphic-curve counts) + 3-manifold group actions & knot theory; **Tsimerman** — recasting o-minimality as a method of arithmetic/complex algebraic geometry, incl. Griffiths' algebraicity of period maps and the André–Oort conjecture for Siegel modular varieties; **Wang** — harmonic analysis & geometric measure theory: local smoothing, Fourier restriction, Falconer distance sets, Furstenberg sets in the plane, and the Kakeya problem in three dimensions. RADAR CONVERGENCE: two of the four honored bodies of work are ALREADY tracked here — **Wang's** Kakeya-3D (Wang–Zahl, arXiv:2502.17655) and Furstenberg-plane results are on the `study_shelf` / behind the 2026 Clay Award, and **Deng's** Boltzmann/wave-kinetic work is the 2026 Clay Award (Deng, Hani) queued 2026-07-08 → the radar's tracked landmark artifacts ARE the Fields-honored work. Also on `study_shelf`. (Same-ceremony IMU 2026 prizes noted as ecosystem: Chern Medal → Graeme Segal [math-physics/topology], Gauss Prize → Yurii Nesterov [optimization], Abacus Medal → Shayan Oveis Gharan [algorithms] — pages surfaced via IMU-site search, not individually opened → intake.)
 - 2026-07-24 — arXiv:2607.21367 — "A solution to 2-copy distillability of Werner states" — https://arxiv.org/abs/2607.21367 — quantum-information theory / entanglement (axis 4, quant-ph/math-ph): proves Werner states in arbitrary dimension are 2-copy distillable **iff** 1-copy distillable, answering the longstanding open question of 2-copy distillability of Werner states — an important step toward whether every NPT (non-positive-partial-transpose) state is distillable, a central open problem in entanglement distillation. Abstract opened via arXiv API this session (v1 2026-07-23). Single below-bar resolved-open-question item; also on `study_shelf`.
 - 2026-07-24 — arXiv:2607.21517 — "Improved lower bounds for the Shannon capacity of odd cycles" — https://arxiv.org/abs/2607.21517 — combinatorics / zero-error information theory (axis 1, math.CO): constructs large independent sets in strong powers (size 134753 in C₇¹⁰, 21909 in C₁₁⁶, 62530 in C₁₃⁶) improving the best-known lower bounds Θ(C₇) > 3.258020, Θ(C₁₁) > 5.289773, Θ(C₁₃) > 6.300109 — a concrete lower-bound advance on a famously hard problem (Shannon capacity of odd cycles). Abstract opened via arXiv API this session (v1 2026-07-23). Lower-bound advance but on GRAPH CAPACITY, not a Ramsey number → own below-bar queue item (does not lift the Ramsey trend).
@@ -147,15 +159,10 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-13 — arXiv:2607.08905 — "On The Morel Structure Conjecture" (Bertizzolo) — https://arxiv.org/abs/2607.08905 — completes the proof of Morel's structure conjecture: Witt K-theory is effective over any perfect field of characteristic 2, finishing the program initiated by Bachmann (axis 1, motivic/A¹-homotopy theory); abstract opened via arXiv API this session (v1 2026-07-09). Single below-bar resolved-conjecture item.
 - 2026-07-13 — arXiv:2607.09049 — "A Single-Exponential Erdős–Hajnal Bound for Graphs of Bounded VC-Dimension" (Sun, Wang, Zeng) — https://arxiv.org/abs/2607.09049 — improves the Nguyen–Scott–Seymour Erdős–Hajnal bound to single-exponential for bounded-VC-dimension graphs (axis 1, extremal combinatorics; adjacent to but distinct from the Ramsey trend); abstract opened via arXiv API this session (v1 2026-07-10). Single below-bar item.
 - 2026-07-13 — 2026 Shaw Prize in Mathematical Sciences — Emmanuel Candès & Camillo De Lellis (equal shares) — https://www.shawprize.org/ — recognition/ecosystem (axis 1); Shaw page + IAS news ("Camillo De Lellis Wins 2026 Shaw Prize") BOTH opened this session (corroborated). Closes the 2026-07-12 prize-capture gap (Shaw 2026 had been missed). Follow to the honored work next (Candès: compressed sensing / high-dimensional statistics; De Lellis: geometric measure theory, regularity & the Plateau problem).
-- 2026-07-13 — PRL 2026-07-10 (pair) — "Extended Haloscope Search and Exclusion of a Candidate Signal near 1.036 GHz" + "Cavendish Tests of Millicharged Particles" — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (dark-matter direct searches: an axion-haloscope candidate-signal exclusion + a tabletop millicharged-particle constraint); titles/dates via APS PRL RSS this session, articles not opened → unverified intake.
-- 2026-07-13 — PRL 2026-07-08 — "Comprehensive Analysis of the B⁰→K*⁰μ⁺μ⁻ Decay" — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (flavor physics / b→sℓℓ, the long-running LHCb angular-observable anomaly); title/date via APS PRL RSS this session, article not opened → unverified intake.
 - 2026-07-13 — SciPost Phys. 21, 011 (2026) — "A free fermions in disguise model with claws" (Pozsgay), published 2026-07-08 — https://scipost.org/ — axis 2/4 (integrable systems / free-fermion-in-disguise construction); metadata via tvly search (SciPost JSON API returned empty this session — degraded) → intake. Single below-bar item.
-- 2026-07-10 — PRL 2026-07-09 (pair) — "Gravitational-Wave Tomography of the Moon: Constraining Lunar Structure with Calibrated Gravitational Waves" + "Thick Lunar Crust Amplifies Deci-Hertz Gravitational-Wave Signals" — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (GW ↔ lunar seismology; a novel proposal to use the Moon as a deci-Hertz GW antenna / probe lunar interior structure with calibrated GWs); titles/dates via APS PRL RSS this session, articles not opened → unverified intake. Novel cross-domain concept, single below-bar theme.
-- 2026-07-10 — Nature Physics 2026-07-09 — "Emergence of Fermi's golden rule in a quantum many-body system" — https://www.nature.com/nphys.rss — axis 3/4 (AMO / quantum many-body foundations: experimental emergence of the golden-rule decay law from a genuinely interacting many-body system); title/date via Nature Physics RSS this session, article not opened → unverified intake. Single below-bar item.
 - 2026-07-07 — arXiv:2607.05374 — "The Minkowski grid has robustly many repeated distances" (Lee, Pohoata, Zhu) — https://arxiv.org/abs/2607.05374 — Erdős-type combinatorial geometry / repeated-distances (axis 1, math.CO/NT); abstract opened via arXiv API this session. Single below-bar item.
 - 2026-07-07 — SciPost — "Irrational CFTs from coupled anyon chains with non-invertible symmetries?" (published 2026-07-06) — https://scipost.org/ — axis 2/4 (CFT, non-invertible / generalized symmetries); title/date via SciPost API this session, article not opened → intake. Generalized/non-invertible-symmetry sub-theme now 2 independent items with 2604.02856 (Type-IV 't Hooft anomalies / higher-categorical symmetries) — forming, below the ≥3 bar.
 - 2026-07-07 — PRL 2026-07-06 — "Scattering Amplitudes and Conservative Binary Dynamics at O(G⁵) without Self-Force Truncation" — https://feeds.aps.org/rss/recent/prl.xml — axis 2 (scattering-amplitudes / post-Minkowskian expansion of the gravitational two-body problem, 5th PM order); title/date seen via APS PRL RSS this session, article not opened → unverified intake.
-- 2026-07-07 — PRL 2026-07-06/07 — GWTC-4 binary-black-hole population inference cluster (three papers: "Evidence for Three Subpopulations of Merging Binary Black Holes at Different Primary Masses" + "Signatures of a Subpopulation of Hierarchical Mergers in the GWTC-4 Gravitational-Wave Dataset" + "Aligned Hierarchical Black Hole Mergers in Active-Galactic-Nuclei Disks Revealed by GWTC-4" [was a separate 07-08 line, merged 2026-W29]) — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (GW population; pairs with GWTC-5.0 on study_shelf); titles/dates seen via APS PRL RSS this session, articles not opened → unverified intake (all GWTC-4-derived, same-collaboration data, NOT independent groups — does not form a ≥3-group cluster).
 - 2026-07-05 — arXiv:2604.02856 — "Type-IV 't Hooft Anomalies on the Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems" — https://arxiv.org/abs/2604.02856 — capture-leak catch: named only in strategy_notes prose (07-04, as a SciRate-output example) but never captured; title/date (2026-04-03) verified via arXiv API this session. Axis 2/4 (QFT anomalies / higher-categorical symmetry, lattice), single below-bar item.
 - 2026-07-05 — Nature Physics News&Views "Tangled up in spin" — https://www.nature.com/articles/s41567-026-03364-7 — neutron-scattering hints of quantum entanglement in a strange-metal state (axis 3/4, entanglement as a physical observable in a correlated metal); commentary blurb opened via Nature Physics RSS this session — underlying research paper NOT identified/opened → unverified intake.
 - 2026-07-04 — SciPostPhys.21.1.004 — "Towards holographic color superconductivity in QCD" — https://scipost.org/SciPostPhys.21.1.004 — an AdS/holographic model of color-superconducting QCD matter (axis 2, hep-th/holography ↔ dense-QCD interface); SciPost API metadata (published 2026-07-02) opened this session. Single below-bar item.
@@ -165,10 +172,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-03 — arXiv:2607.01544 — "Formalized q-series: The Rogers-Ramanujan Identities and Beyond" — https://arxiv.org/abs/2607.01544 — machine-formalized classical q-series identities (axis 5, computer-assisted math); RSS abstract opened this session.
 - 2026-07-08 — arXiv:2607.06545 — "A Higher-Order Clique Density Theorem" — https://arxiv.org/abs/2607.06545 — extremal graph theory (axis 1, math.CO): sharp lower bound for K_r-density at prescribed K_s-density (3≤s<r), a genuinely-nonlinear generalization of Reiher's clique density theorem; abstract opened via arXiv API this session. Single below-bar item, extremal-combinatorics (adjacent to but distinct from the Ramsey trend).
 - 2026-07-09 — arXiv:2607.07641 — "The abc Conjecture Revisited" (Letendre) — https://arxiv.org/abs/2607.07641 — proposes a NEW abc-type conjecture and derives an application to sums of ω(n) (distinct-prime-factor counts) over short intervals (axis 1, math.NT); abstract opened via arXiv API this session. NOT a proof of abc — a proposed conjecture + consequence. Single below-bar item.
-- 2026-07-09 — PRL 2026-07-08 — "Observation of the Doubly Charmed Baryon Ξcc+ with the LHCb Run 3 Detector" — https://feeds.aps.org/rss/recent/prl.xml — axis 3 (HEP, LHCb Run 3 re-observation of the doubly-charmed baryon, first seen by LHCb 2017); title/date via APS PRL RSS this session, article not opened → unverified intake. Single below-bar.
 - 2026-07-08 — arXiv:2607.06398 — "Random Multiplicative Functions and Making Squares from Polynomial Values" — https://arxiv.org/abs/2607.06398 — analytic number theory / probability (axis 1, math.NT/PR): CLTs for sums of random multiplicative functions over polynomial values via a paucity phenomenon for P(n₁)…P(n₄)=□; abstract opened via arXiv API this session. Single below-bar item.
-- 2026-07-08 — Nature Physics 2026-07-07 — "Visualization of the Zhang–Rice singlet, electronic molecules and Cooper pair formation in a cuprate superconductor" — https://www.nature.com/nphys.rss — axis 3 (high-Tc superconductivity / correlated cond-mat); title/date via Nature Physics RSS this session, article not opened → unverified intake.
-- 2026-07-08 — PRL 2026-07-07 — "Worldsheet for Generalized Veneziano Amplitudes" — https://feeds.aps.org/rss/recent/prl.xml — axis 2 (string/hep-th scattering amplitudes, worldsheet construction for generalized Veneziano amplitudes); title/date via APS PRL RSS this session, article not opened → unverified intake.
 - 2026-07-08 — 2026 Clay Research Awards (page dated 2026-04-14) — https://www.claymath.org/2026-clay-research-awards/ — RESOLVED (was unverified since 07-03): recipients now confirmed via Clay page opened (tvly extract) this session — (i) Orponen, Shmerkin, Wang, Zahl for the Furstenberg set conjecture (plane) + Kakeya conjecture in 3D; (ii) Burklund, Hahn, Levy, Schlank for counterexamples to Ravenel's Telescope Conjecture; (iii) Deng, Hani. Recognition/ecosystem signal (axis 1 pure math). The underlying landmark artifacts (3D-Kakeya proof, Telescope-conjecture counterexample) are NOT opened this session → track and follow to those primaries next run.
 - 2026-07-02 — 2026 Abel Prize presented to Gerd Faltings (ceremony) — https://www.mpim-bonn.mpg.de/ — MPIM institute page opened this session; major recognition in arithmetic/algebraic geometry (ecosystem/award, on-scope).
 - 2026-07-02 — arXiv:2607.00762 — Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor (quantum Monte Carlo) — https://arxiv.org/abs/2607.00762 — unverified (cond-mat.str-el listing; abstract not opened).
@@ -267,6 +271,49 @@ Corrections to the source-coverage strategy.
   curator-set domain-cadence windows (~40 cap, 60/120 days) — motivated by this week's reconcile correction,
   which the skill's own text contradicts; the dailies already follow AGENTS.md over the skill (no active harm),
   but the skill is a latent trap for a future run. Skill-maintenance, one dedicated commit when applied.
+- 2026-07-25 (W30 recalibration) — Amendment (C) APPLIED (cooling period elapsed; signal persisted — the skill
+  still hardcoded the AI-default 21/45-day dormancy, 45-day archive and ~25-item cap with a per-session
+  cap-driven burndown, all of which contradict the curator-set domain cadence in AGENTS.md; no dated curator
+  veto). Synced `radar-ledger-update` SKILL.md to the domain-cadence windows (dormant 60+/archive 120+ days,
+  soft cap ~40 with persistence over burndown). One dedicated commit. Two-week regression check on W29's
+  applied amendments (A cadence-split, B off-axis rotation): only 1 week elapsed → no 2-week window yet; both
+  reading healthy (off-axis 0→1→see below; daily promise now honest) → no rollback.
+- 2026-07-25 (W30) — Ramsey trend HELD emerging (59 days < the 60-day dormancy line by one day). Confirmatory
+  arXiv checks this session found NO fresh Ramsey lower-bound primary (only peripheral Ramsey-type notes) and
+  NO referee/vetting v-update on the four tracked preprints → completed-burst read intact. Dormancy at W31
+  (2026-08-01, 66 days) unless a fresh lower-bound primary or vetting outcome appears.
+- 2026-07-25 (W30) — Coverage (weekly-swept tier, weekly operator's sweep duty): SWEPT the slow block this
+  session. IMU/Fields (ICM-season DAILY-chase exception): 2026 Fields Medals (Deng, Pardon, Tsimerman, Wang)
+  confirmed — the SAME four already captured 07-24 (also corroborated via Simons Foundation + IAS "Three IAS
+  Scholars Honored"). Clay: 2026 Clay Awards (tracked); NEW minor — Anna Skorobogatova awarded a 2026 Maryam
+  Mirzakhani New Frontiers Prize (geometric measure theory) — early-career ecosystem, BELOW the radar's
+  prize-capture bar (Fields/Abel/Shaw/Clay-main), noted not queued. Annals (Vol 203/204), AMS Notices (2025
+  year-review), KITP/IAS/IHES/SLMath/MPIM/Newton/Perimeter: opened, nothing NEW on-axis (institutes =
+  programs/admin — domain-normal). Extra-social: r/Physics + r/cosmology opened (nothing on-axis; IPhO 2026
+  results, general Q&A); r/ParticlePhysics + r/AskPhysics degraded (empty/429 via curl — recurring rate-limit,
+  not death); Forum of Mathematics degraded this session (tvly returned off-topic hits — low-yield, KEEP).
+  Net: the weekly-swept tier is domain-normal quiet; the week's only on-axis landmark (the Fields Medals) was
+  already captured by the daily. NOT a coverage lie — every swept-tier source logged opened or degraded.
+- 2026-07-25 (W30) — Anchoring / tunnel-vision: N/A-to-mild this week — 0 new EVIDENCE landed on any trend
+  (the sole trend took no fresh evidence; all captures were queue items), so the classic "all evidence hoarded
+  on pre-existing trends" test is moot. off-axis rate for the week's dailies remained low but the W29 off-axis
+  rotation (amendment B) stays in force; in a domain this narrow off-axis=low is not an alarm per AGENTS.md
+  domain-cadence. No redirect beyond keeping B in force.
+- 2026-07-25 (W30) — Source-discovery (drain staged candidates): both staged candidates remain BELOW the ≥2
+  promotion bar — sammattheus.wordpress.com (1 sighting, no recurrence) and sbseminar.wordpress.com (1 sighting,
+  first seen 07-23) → HOLD both staged, no promotion this week. No new recurring on-axis org surfaced un-promoted.
+- 2026-07-25 (W30) — Queue hygiene: queue at 65 (well over the ~40 soft cap; W29 held 46, +19 across six
+  dailies with no burndown). Nothing is stale (oldest item 23 days « the 60-day domain-cadence staleness line).
+  Per weekly.md §3 ("resolve the oldest only when genuinely over cap") did a MEASURED burndown of the LOWEST tier
+  only: 8 oldest title-only physics-journal RSS batch-intake lines (07-07→07-13, "titles via RSS, articles not
+  opened → unverified intake", superseded by later batch snapshots and preserved permanently in their day's
+  reports) — dropped with reason. NO abstract-opened math or physics RESULT touched (domain cadence: math results
+  persist for months). Queue 65 → 57, still deliberately above the soft cap for the verified below-bar backlog.
+- 2026-07-25 (W30) — Capture-leak sweep (MANDATORY backstop): 50 arXiv ids in TRENDS.md + 19 in this week's
+  reports mechanically diffed — every report id present on a discrete queue/evidence/shelf line, 0 leaks.
+- 2026-07-25 (W30) — No new amendments proposed this week (the ledger, skills and scope axes are in a
+  consistent state after C; the source registry is honest post cadence-split). Monthly hit/miss retrospective
+  NOT due (day 25 > 7; M08 due first run of August).
 
 ## study_shelf
 

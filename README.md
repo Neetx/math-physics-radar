@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-65-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--24-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-1-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-58-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--25-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-23) — daily 2026-07-24:**
-- **The 2026 Fields Medals — captured from the primary IMU source.** Awarded 2026-07-23 at the ICM opening ceremony in Philadelphia to **[Yu Deng, John Pardon, Jacob Tsimerman, Hong Wang](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026)** (IMU laureate page with full citations opened). **Radar convergence:** two of the four honored bodies of work are already tracked here — **Wang's** Kakeya-3D ([Wang–Zahl](https://arxiv.org/abs/2502.17655)) and Furstenberg-plane results, and **Deng's** Boltzmann/wave-kinetic work (the 2026 Clay Award). The radar's tracked landmark artifacts *are* the Fields-honored work.
-- **[A solution to 2-copy distillability of Werner states](https://arxiv.org/abs/2607.21367)** — proves Werner states are 2-copy distillable iff 1-copy distillable, resolving a longstanding open question in entanglement distillation (axis 4). Queued + study shelf.
-- **Jacobian-conjecture cluster forming.** The AI-announced counterexample now spawns on-arXiv analyses: **[real Keller maps with non-dense image](https://arxiv.org/abs/2607.21572)** + a **[char-2 counterexample to the separable Jacobian conjecture](https://arxiv.org/abs/2607.20968)** join the [Shaska analysis](https://arxiv.org/abs/2607.20210) — 3 items in ~3 days. **Provisional** (all downstream of an unvetted, AI-generated claim); tracked for the results, not the method. Not promoted while the base claim is unvetted.
-- **Watchlist 65**, above the ~40 soft cap (3+ weeks over → flagged for the W30 weekly consolidation). capture-leak 0 (50 ids checked). Ramsey trend held 📈 emerging (58 days since last evidence, inside the 60-day window; dormancy re-check 07-26). Formal-math: lean4 & mathlib4 both v4.33.0-rc1, Rocq V9.2.0 — no movement.
+**Since last scan (2026-07-24) — weekly recalibration 2026-W30:**
+- **The 2026 Fields Medals remain the week's landmark** — awarded 2026-07-23 at the ICM 2026 opening in Philadelphia to **[Yu Deng, John Pardon, Jacob Tsimerman, Hong Wang](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026)**; the weekly-swept sweep corroborated the primary IMU page via Simons Foundation, IAS and Clay. **Radar convergence:** Wang's Kakeya-3D ([Wang–Zahl](https://arxiv.org/abs/2502.17655)) and Deng's Boltzmann/wave-kinetic work (2026 Clay Award) are already-tracked landmarks.
+- **Prize-capture gap closed:** the 2026 Breakthrough Prize in Fundamental Physics → the **[Muon g-2 collaborations (CERN, Brookhaven, Fermilab)](https://breakthroughprize.org/)** — flagged missed 07-12, now queued (ties to the muon g-2 / a_μ anomaly).
+- **Watchlist 65 → 58:** measured consolidation of the 8 oldest never-opened title-only physics-RSS batch-intake lines now the queue is genuinely over the ~40 soft cap — no verified math/physics result touched. **capture-leak 0** (19 report ids checked).
+- **Ramsey trend held 📈 emerging** (59 days since last evidence, inside the 60-day domain-cadence window by one day) — no fresh lower-bound primary, no referee outcome; **→ `dormant` at W31 (08-01) unless one appears.** Amendment C applied (skill windows synced to domain cadence).
 
 ## Trends
 
@@ -40,5 +40,5 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (65) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-24](reports/2026-07-24.md)) · weekly: [2026-W29](reports/weekly/2026-W29.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (58) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-24](reports/2026-07-24.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
