@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-25
+Last updated: 2026-07-27
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -10,7 +10,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 ## Active trends
 
 ### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
-- stage: emerging | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
+- stage: dormant | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
 - what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
   decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
   graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
@@ -115,9 +115,61 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     DORMANCY DECISION: the trend crosses the 60-day line 2026-07-26 (tomorrow); absent a fresh Ramsey lower-bound
     primary or a referee/vetting outcome, it goes dormant at W31 (2026-08-01, 66 days) per the standing plan.
     Confidence held medium (unrefereed-preprint caution; still no vetting outcome).
+  - 2026-07-27 (daily): DEMOTED emerging → dormant. last_evidence 2026-05-27 is 61 days old today —
+    over the 60-day domain-cadence line (AGENTS.md § Domain cadence; daily.md §4 applies this on any
+    run, not only at the weekly's pencilled-in W31 date). Confirmatory checks this session: a fresh
+    arXiv math.CO/NT/AG/DG/RT/PR batch (weekend-quiet, newest submittedDate still 2026-07-24) held no
+    Ramsey-number lower-bound item, and an arXiv-API metadata check of the four tracked preprints
+    (2507.12926, 2605.28793, 2604.23986, 2605.25843) shows no fresh v-update since 2026-07-02 — no
+    referee/vetting outcome. Completed-burst read (W28/W29/W30) stands confirmed. Confidence held
+    medium. 120-day archive line: 2026-09-24 (or sooner on the standing weekly archive review) unless
+    a fresh lower-bound primary or referee outcome reactivates it first.
+
+### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
+- stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
+- what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
+  NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
+  symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
+  gapless-phase classification via the Symmetry TFT. Three fully independent author groups now hold
+  concrete artifacts on this sub-theme, clearing the ≥3-group + artifact convergence bar today.
+- evidence:
+  - 2026-04-03 — https://arxiv.org/abs/2604.02856 — Oishi, Ebisu, "Type-IV 't Hooft Anomalies on the
+    Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems" (abstract
+    verified via arXiv API this session).
+  - 2026-07-06 — https://scipost.org/SciPostPhys.21.1.005 — Antunes, Rong, "Irrational CFTs from
+    coupled anyon chains with non-invertible symmetries?" (SciPost API metadata + page opened this
+    session).
+  - 2026-07-23 — https://scipost.org/SciPostPhys.21.1.019 — Bhardwaj, Gai, Huang, Inamura,
+    Schäfer-Nameki, Tiwari, Warman, "Gapless phases in (2+1)d with non-invertible symmetries": a
+    systematic Symmetry-TFT framework for phase transitions with categorical symmetries in (2+1)d,
+    building on the same group's (2+1)d gapped-phase program (SciPost API metadata + page opened this
+    session).
+- notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
+  `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
+  in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
+  (Schäfer-Nameki's group, fully independent of both prior groups — verified via author lists this
+  session) as a third independent artifact → promoted to a `seed` trend per the convergence-check rule
+  (daily.md §4). Confidence LOW (first day as a trend; no hype-skepticism caveat needed — ordinary
+  refereed/community-refereed theoretical-physics output, not an AI-assisted claim). Watch for a 4th
+  group, citations of the Bhardwaj et al. framework, and any connection to the separately-tracked
+  deconfined-criticality queue thread (2607.00762 / 2607.01815).
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+
+- 2026-07-27 — SciPostPhys.21.1.020 — de Boer, Hollander, Rolph, "A reverse black hole information
+  problem" — https://scipost.org/SciPostPhys.21.1.020 — theoretical physics / holography (axis 2,
+  hep-th): studies black-hole formation, detection and coarse-graining in AdS/CFT — the tension
+  between boundary unitarity and mixed-state Hawking radiation in the bulk, via CFT states dual to
+  trans-Planckian particle collisions and boundary probes distinguishing small AdS black holes from
+  other microcanonical states. SciPost API metadata + page opened this session (published 2026-07-24).
+  Single below-bar item, black-hole-information-problem adjacent.
+- 2026-07-27 — SciPostPhys.21.1.017 — Belin, Collier, Eberhardt, Liska, Post, "A universal sum over
+  topologies in 3d gravity" — https://scipost.org/SciPostPhys.21.1.017 — theoretical physics / 3d
+  quantum gravity (axis 2, hep-th): a statistical version of the conformal bootstrap for AdS₃ gravity's
+  sum over topologies, with surgery moves on bulk manifolds reflecting typicality/crossing symmetry of
+  the boundary CFT₂ ensemble. SciPost API metadata + page opened this session (published 2026-07-23).
+  Single below-bar item.
 
 - 2026-07-25 — **2026 Breakthrough Prize in Fundamental Physics → the Muon g-2 collaborations (CERN, Brookhaven, Fermilab)** — https://breakthroughprize.org/ — recognition/ecosystem (axis 3, HEP precision / BSM): awarded "for multi-decade, groundbreaking contributions to the measurement of the muon's anomalous magnetic moment, pushing the boundaries of experimental precision" across three collaborations over six decades; six New Horizons prizes also awarded (early-career physics & math). Breakthrough laureate page opened this session (tvly) — CLOSES the prize-capture gap flagged 2026-07-12 (the Breakthrough 2026 fundamental-physics laureate had been missed). Ties to the famous muon g-2 anomaly (the a_μ tension with the Standard Model). Ecosystem/recognition item → follow to the collaboration's honored measurement papers next.
 - 2026-07-24 — **2026 Fields Medals (IMU / ICM 2026, Philadelphia)** — https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026 — recognition/ecosystem, THE math event of the week (axis 1, pure math + math-physics): awarded 2026-07-23 at the ICM opening ceremony to **Yu Deng, John Pardon, Jacob Tsimerman, Hong Wang** — IMU laureate page WITH full citations opened this session (primary). Citations (verbatim highlights): **Deng** — PDE, incl. the rigorous derivation of the Boltzmann equation from hard-sphere dynamics and derivation of wave-kinetic equations from nonlinear dispersive systems; **Pardon** — symplectic geometry (virtual fundamental cycles, Fukaya categories, holomorphic-curve counts) + 3-manifold group actions & knot theory; **Tsimerman** — recasting o-minimality as a method of arithmetic/complex algebraic geometry, incl. Griffiths' algebraicity of period maps and the André–Oort conjecture for Siegel modular varieties; **Wang** — harmonic analysis & geometric measure theory: local smoothing, Fourier restriction, Falconer distance sets, Furstenberg sets in the plane, and the Kakeya problem in three dimensions. RADAR CONVERGENCE: two of the four honored bodies of work are ALREADY tracked here — **Wang's** Kakeya-3D (Wang–Zahl, arXiv:2502.17655) and Furstenberg-plane results are on the `study_shelf` / behind the 2026 Clay Award, and **Deng's** Boltzmann/wave-kinetic work is the 2026 Clay Award (Deng, Hani) queued 2026-07-08 → the radar's tracked landmark artifacts ARE the Fields-honored work. Also on `study_shelf`. (Same-ceremony IMU 2026 prizes noted as ecosystem: Chern Medal → Graeme Segal [math-physics/topology], Gauss Prize → Yurii Nesterov [optimization], Abacus Medal → Shayan Oveis Gharan [algorithms] — pages surfaced via IMU-site search, not individually opened → intake.)
@@ -126,6 +178,21 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-24 — arXiv:2607.21336 — "Lu's conjecture for minimal surfaces in codimension two" — https://arxiv.org/abs/2607.21336 — differential geometry (axis 1, math.DG): proves Lu's second-gap conjecture for closed minimal surfaces M²→S⁴ (if S+λ₂ is constant and > 2 then ≥ 3), completing the codimension picture — with Peng–Terng (hypersurfaces) and the Li–Zhao counterexamples (m≥3), the gap conjecture holds precisely for codim m=1,2 and fails for every m≥3. Abstract opened via arXiv API this session (v1 2026-07-23). Single below-bar resolved-conjecture (codimension-two case) item.
 - 2026-07-24 — arXiv:2607.20849 — "Protected corners and a trichotomy for Han's conjecture" — https://arxiv.org/abs/2607.20849 — representation theory / homological algebra (axis 1, math.RT): progress on Han's conjecture (a finite-dimensional algebra with eventually-vanishing Hochschild homology has finite global dimension); proves a "protected corner" theorem settling the Liu–Morin extension conjecture beyond the monomial and special-biserial cases, and establishes a trichotomy for Gap-A failures on three strongly-connected vertices (all-infinite impossible). Abstract opened via arXiv API this session (v1 2026-07-23). Single below-bar partial-progress item.
 - 2026-07-24 — Jacobian-conjecture / Keller-map arXiv CLUSTER (fresh) — arXiv:2607.21572 + arXiv:2607.20968 — https://arxiv.org/abs/2607.21572 · https://arxiv.org/abs/2607.20968 — algebraic geometry / commutative algebra (axis 1, math.AG/AC): the AI-announced (Claude Fable 5) counterexample to the ~87-year-old Jacobian Conjecture is now spawning a wave of on-arXiv mathematical analyses (joining Shaska 2607.20210, queued 2026-07-23 + on study_shelf → THREE items in ~3 days). (i) **2607.21572** "Generic degrees of real polynomial Keller maps with non-dense image" — determines the possible generic degrees of real Keller maps with non-dense image (even, ≠2, hence ≥4; every even ≥4 occurs), realized in dim 3 by "an explicit member of the deformation family of the July 2026 counterexample to the Jacobian conjecture". (ii) **2607.20968** "An Explicit Characteristic-2 Counterexample to the Separable Jacobian Conjecture" — an explicit F: 𝔸³→𝔸³ over char-2 with Jacobian ≡ 1, field-extension degree 3, non-injective → counterexample to the separable (Adjamagbo) formulation in char 2, stabilizing to all n≥3. Both abstracts opened via arXiv API this session (v1 2026-07-23). CAVEATS (hype-skepticism + AI-watch): all downstream of an UNREFEREED, AI-generated counterexample announced OFF-arXiv (still community-pulse intake) → the refutation remains PROVISIONAL until independent vetting (Tao et al. publicly scrutinizing — a signal, not an outcome); tracked for the mathematical RESULTS, NOT the AI method (sibling AI radars' beat). A FORMING cluster to watch: if the counterexample survives vetting this is a landmark seed; NOT promoted while the underlying claim is unvetted.
+  - 2026-07-27 (daily) — VETTING SIGNAL STRENGTHENS (community-pulse, still not a primary/formal outcome):
+    Terence Tao's own blog post "A digestion of the Jacobian conjecture counterexample"
+    (https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/,
+    dated 2026-07-21, opened via WebFetch this session — a capture-leak catch, not previously routed)
+    goes well beyond "scrutinizing": Tao states the conjecture "was recently shown (using the Fable
+    AI) that the conjecture is false in three dimensions", states it as "Theorem 2 (Counterexample to
+    conjecture)" with no hedging, and gives his OWN independent geometric re-derivation of the
+    counterexample "with relatively little use of algebraic geometry... that minimizes the amount of
+    'miracles' required" — i.e. a leading mathematician has independently RECONSTRUCTED the
+    mathematical content, not merely discussed it, and states he "used an AI chatbot ... to confirm
+    several of the calculations". STILL not a formal peer-reviewed outcome and STILL not a primary
+    under the hard rules (a mathematician's blog, not a journal/arXiv artifact) → stays community-pulse
+    intake, caveat unchanged in kind, but this is the strongest vetting signal yet on the counterexample
+    itself (as opposed to the on-arXiv analyses of it) — watch for Tao's reconstruction to itself land
+    on arXiv, which would convert this into citable evidence.
 - 2026-07-24 — PRL new since the 07-22 batch — "Programmable Open Quantum Systems" + "Pseudogauge-Invariant Nonequilibrium Density Operator" (axis 2, heavy-ion/relativistic-hydro QFT) + "Observation of Radiation-Loss-Based Non-Hermitian Point Gap in Photonic Crystals" (axis 3, non-Hermitian topological photonics) + "Space-Charge-Limited van der Waals Spin Transistor" (axis 3, cond-mat) — https://feeds.aps.org/rss/recent/prl.xml — titles via APS PRL RSS this session, articles not opened → unverified intake. (PRX top unchanged: Statistical Physics of Deep Learning [ML-theory off-core], molecular clock transitions / Floquet Ising machines already queued.)
 - 2026-07-23 — arXiv:2607.20210 — Shaska, "Graded Keller maps and the Jacobian Conjecture" — https://arxiv.org/abs/2607.20210 — algebraic geometry (axis 1, math.AG): the FIRST arXiv mathematical analysis engaging "the map recently announced as a counterexample" to the ~87-year-old JACOBIAN CONJECTURE (Keller 1939). Classifies equivariant polynomial (Keller) maps by the SIGN-signature of their grading weights via weighted-projective geometry: the announced counterexample is equivariant for wt(x,y,z)=(1,−1,−2); if all weights are positive an equivariant Keller map is always an automorphism (no counterexample possible), and in dimension two the same holds for every sign pattern — so the counterexample necessarily lives in the mixed-sign, dim≥3 setting. Abstract opened via arXiv API this session (v1 2026-07-22). CONTEXT: the counterexample itself (3-variable, refuting the general conjecture) was announced OFF-arXiv (X post / Secret Blogging Seminar) and is AI-ASSISTED — "generated with Anthropic's Claude Fable 5" (WATCH area per scope: track the RESULT + this arXiv analysis, NOT the AI method — sibling AI radars' beat). Unrefereed + extraordinary-claim → PROVISIONAL under the hype-skepticism rule (Terence Tao and others actively scrutinizing it publicly — a vetting SIGNAL, not an OUTCOME; the counterexample announcement is NOT a primary I opened → the counterexample-claim itself stays community-pulse intake). Also on study_shelf. Single below-bar item (the on-arXiv analysis of a landmark claimed refutation).
 - 2026-07-23 — arXiv:2607.20376 — Song, "The Erdős-Lovász Tihany Conjecture holds for all even-hole-free graphs" — https://arxiv.org/abs/2607.20376 — combinatorics / graph coloring (axis 1, math.CO): proves the 1968 Erdős-Lovász Tihany Conjecture — every graph with ω(G)<χ(G)=s+t−1 is (s,t)-splittable (V partitions so the two parts have chromatic numbers ≥s and ≥t) — for the class of even-hole-free graphs (using that they are C₄-free and every induced subgraph has a bisimplicial vertex). A new class-restricted case of a long-standing coloring conjecture. Abstract opened via arXiv API this session (v1 2026-07-22). Single below-bar item.
@@ -161,9 +228,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-13 — 2026 Shaw Prize in Mathematical Sciences — Emmanuel Candès & Camillo De Lellis (equal shares) — https://www.shawprize.org/ — recognition/ecosystem (axis 1); Shaw page + IAS news ("Camillo De Lellis Wins 2026 Shaw Prize") BOTH opened this session (corroborated). Closes the 2026-07-12 prize-capture gap (Shaw 2026 had been missed). Follow to the honored work next (Candès: compressed sensing / high-dimensional statistics; De Lellis: geometric measure theory, regularity & the Plateau problem).
 - 2026-07-13 — SciPost Phys. 21, 011 (2026) — "A free fermions in disguise model with claws" (Pozsgay), published 2026-07-08 — https://scipost.org/ — axis 2/4 (integrable systems / free-fermion-in-disguise construction); metadata via tvly search (SciPost JSON API returned empty this session — degraded) → intake. Single below-bar item.
 - 2026-07-07 — arXiv:2607.05374 — "The Minkowski grid has robustly many repeated distances" (Lee, Pohoata, Zhu) — https://arxiv.org/abs/2607.05374 — Erdős-type combinatorial geometry / repeated-distances (axis 1, math.CO/NT); abstract opened via arXiv API this session. Single below-bar item.
-- 2026-07-07 — SciPost — "Irrational CFTs from coupled anyon chains with non-invertible symmetries?" (published 2026-07-06) — https://scipost.org/ — axis 2/4 (CFT, non-invertible / generalized symmetries); title/date via SciPost API this session, article not opened → intake. Generalized/non-invertible-symmetry sub-theme now 2 independent items with 2604.02856 (Type-IV 't Hooft anomalies / higher-categorical symmetries) — forming, below the ≥3 bar.
 - 2026-07-07 — PRL 2026-07-06 — "Scattering Amplitudes and Conservative Binary Dynamics at O(G⁵) without Self-Force Truncation" — https://feeds.aps.org/rss/recent/prl.xml — axis 2 (scattering-amplitudes / post-Minkowskian expansion of the gravitational two-body problem, 5th PM order); title/date seen via APS PRL RSS this session, article not opened → unverified intake.
-- 2026-07-05 — arXiv:2604.02856 — "Type-IV 't Hooft Anomalies on the Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems" — https://arxiv.org/abs/2604.02856 — capture-leak catch: named only in strategy_notes prose (07-04, as a SciRate-output example) but never captured; title/date (2026-04-03) verified via arXiv API this session. Axis 2/4 (QFT anomalies / higher-categorical symmetry, lattice), single below-bar item.
 - 2026-07-05 — Nature Physics News&Views "Tangled up in spin" — https://www.nature.com/articles/s41567-026-03364-7 — neutron-scattering hints of quantum entanglement in a strange-metal state (axis 3/4, entanglement as a physical observable in a correlated metal); commentary blurb opened via Nature Physics RSS this session — underlying research paper NOT identified/opened → unverified intake.
 - 2026-07-04 — SciPostPhys.21.1.004 — "Towards holographic color superconductivity in QCD" — https://scipost.org/SciPostPhys.21.1.004 — an AdS/holographic model of color-superconducting QCD matter (axis 2, hep-th/holography ↔ dense-QCD interface); SciPost API metadata (published 2026-07-02) opened this session. Single below-bar item.
 - 2026-07-03 — arXiv:2607.02013 — "Resolution of the Detection Threshold Conjecture for Random Geometric Graphs in the d>n Regime" — https://arxiv.org/abs/2607.02013 — a resolved conjecture (axis 1, probability/combinatorics); RSS abstract opened this session.
@@ -320,6 +385,7 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-07-27 — [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj, Gai, Huang, Inamura, Schäfer-Nameki, Tiwari, Warman), SciPostPhys.21.1.019](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical (non-invertible) symmetries in (2+1)d, extending the group's earlier gapped-phase program (axis 2, math↔physics interface / QFT). SciPost API metadata + page opened this session (published 2026-07-23). The artifact that completed today's `seed`-trend promotion (non-invertible/generalized symmetries, now ≥3 independent groups) — the clearest single entry point into a QFT sub-field a mathematical physicist should now be tracking.
 - 2026-07-24 — [2026 Fields Medals — Deng, Pardon, Tsimerman, Wang (IMU / ICM 2026)](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026) — the four 2026 Fields Medals, awarded 2026-07-23 at the ICM opening ceremony in Philadelphia, with the official IMU citations (axis 1, pure mathematics): **Yu Deng** (PDE — rigorous Boltzmann derivation from hard-sphere dynamics, wave-kinetic equations from dispersive systems), **John Pardon** (symplectic geometry — virtual fundamental cycles, Fukaya categories; 3-manifold group actions & knot theory), **Jacob Tsimerman** (o-minimality as a method in arithmetic/algebraic geometry — Griffiths' period-map algebraicity, André–Oort for Siegel modular varieties), **Hong Wang** (harmonic analysis & GMT — local smoothing, Fourier restriction, Falconer distance sets, Furstenberg-plane and the Kakeya problem in ℝ³). IMU laureate page with citations opened this session (primary). The single most important thing a frontier mathematician should absorb this week — and a radar convergence: Wang's Kakeya-3D (Wang–Zahl, on this shelf) and Deng's Boltzmann/wave-kinetic work (2026 Clay Award) are already-tracked landmark artifacts, now Fields-honored.
 - 2026-07-24 — [A solution to 2-copy distillability of Werner states, arXiv:2607.21367](https://arxiv.org/abs/2607.21367) — proves Werner states (arbitrary dimension) are 2-copy distillable iff 1-copy distillable, resolving a longstanding open question in entanglement distillation and an important step toward the central open problem of whether every NPT state is distillable (axis 4, quantum-information theory). Abstract verified via arXiv API this session (v1 2026-07-23). A clean resolved-open-question a quantum-information researcher should know.
 - 2026-07-23 — [Graded Keller maps and the Jacobian Conjecture (Shaska), arXiv:2607.20210](https://arxiv.org/abs/2607.20210) — the FIRST on-arXiv mathematical analysis of the announced counterexample to the ~87-year-old JACOBIAN CONJECTURE (Keller 1939): classifies equivariant Keller maps by the sign-signature of their grading weights (weighted-projective geometry), showing the announced counterexample must live in the mixed-sign, dimension-≥3 regime (all-positive weights, or any sign pattern in dim 2, force an automorphism) (axis 1, algebraic geometry). Abstract/author/date verified via arXiv API this session (v1 2026-07-22). HEAVY CAVEATS (hype-skepticism + AI-watch rules): the underlying counterexample (3-variable, refuting the general conjecture) was announced OFF-arXiv and is AI-GENERATED (Anthropic's Claude Fable 5) → PROVISIONAL until independent vetting (Terence Tao and others publicly scrutinizing it — a signal, not an outcome); tracked for the RESULT + this arXiv analysis a frontier researcher should know, NOT the AI method (sibling AI radars' beat). The biggest math story of the week (paired with the Batyrev and mod-4 Kawauchi results in the AI-assisted-math wave); watch for a confirmed refutation / a machine-checked formalization / a gap.
