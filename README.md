@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-2-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-58-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--27-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-2-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-64-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--28-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-25):**
-- **New `seed` trend: non-invertible (categorical) symmetries in QFT.** A third independent group — **[Bhardwaj, Gai, Huang, Inamura, Schäfer-Nameki, Tiwari, Warman](https://scipost.org/SciPostPhys.21.1.019)** — joined the previously-forming pair ([Oishi–Ebisu](https://arxiv.org/abs/2604.02856), [Antunes–Rong](https://scipost.org/SciPostPhys.21.1.005)), clearing the ≥3-group convergence bar.
-- **Ramsey lower-bound trend demoted 📈 emerging → 💤 dormant.** [Last evidence](https://arxiv.org/abs/2605.28793) is now 61 days old, past the 60-day domain-cadence line; no fresh lower-bound primary or referee outcome this run.
-- **Jacobian-conjecture vetting signal strengthens (still unrefereed):** Terence Tao's own ["digestion" post](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/) independently re-derives the counterexample rather than merely scrutinizing it — folded into the standing queue item, not yet a primary.
-- Two new below-bar hep-th queue items (AdS/CFT black-hole information + 3d-gravity topology sum); **capture-leak 0** (11 report ids checked).
+**Since last scan (2026-07-27):**
+- **Two landmark single-result study picks:** **[Carlsson's conjecture resolved for elementary abelian 2-groups in every rank](https://arxiv.org/abs/2607.22844)** (VandeBogert, via the generalized total rank conjecture in char 2) and **[Kuperberg's six-cylinder conjecture, settled exactly](https://arxiv.org/abs/2607.24691)** (Matić, Radoičić — a checkable computer-assisted proof).
+- **A forming pair on Werner-state 2-copy distillability:** a [second fully independent group](https://arxiv.org/abs/2607.24309) answers the same open problem (Problem 5 of *Five Open Problems in Quantum Information Theory*) within 4 days of the [first](https://arxiv.org/abs/2607.21367) — below the ≥3-group trend bar, watch for a third.
+- **New engagement with the OpenAI Cycle-Double-Cover proof:** independent authors build directly on its linear-system machinery for a [new exponential counting result](https://arxiv.org/abs/2607.24724) — a further (not yet conclusive) vetting signal.
+- Ecosystem: 2026 Fields medalist Jacob Tsimerman is [joining OpenAI](https://www.math.columbia.edu/~woit/wordpress/?p=15787), per Peter Woit — the AI-in-mathematics wave keeps widening; Ramsey trend held dormant (routine confirmatory check, no fresh lower bound); **capture-leak 0** (56 ids checked).
 
 ## Trends
 
@@ -21,6 +21,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Carlsson's Conjecture and the Generalized Total Rank Conjecture in Characteristic Two (VandeBogert)](https://arxiv.org/abs/2607.22844) — resolves Carlsson's conjecture for elementary abelian 2-groups in every rank, a long-standing homological/commutative-algebra open problem, via the generalized total rank conjecture over characteristic-2 regular rings.
+- [A computer-assisted proof of Kuperberg's six-cylinder conjecture (Matić, Radoičić)](https://arxiv.org/abs/2607.24691) — settles exactly how many pairwise non-overlapping infinite unit cylinders can touch a unit ball (six), via a checkable ~2.95M-case computer-assisted proof — part of a growing pattern of clean computer-assisted resolutions in extremal/discrete geometry.
 - [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj et al.)](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical symmetries in (2+1)d. The artifact that completed today's trend promotion — the clearest entry point into a QFT sub-field now worth tracking.
 - [2026 Fields Medals — Deng, Pardon, Tsimerman, Wang (IMU)](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026) — the four 2026 laureates and their honored work, with the official IMU citations: **Deng** (PDE — Boltzmann derivation, wave-kinetic equations), **Pardon** (symplectic geometry — virtual cycles, Fukaya categories; knot theory), **Tsimerman** (o-minimality in arithmetic geometry — Griffiths, André–Oort for Siegel modular varieties), **Wang** (harmonic analysis & GMT — restriction, Falconer, Furstenberg, Kakeya-3D). Wang's Kakeya-3D and Deng's Boltzmann/wave-kinetic work are already-tracked radar landmarks.
 - [A solution to 2-copy distillability of Werner states](https://arxiv.org/abs/2607.21367) — proves Werner states (any dimension) are 2-copy distillable iff 1-copy distillable, resolving a longstanding open question and an important step toward whether every NPT state is distillable (quantum-information theory / entanglement distillation).
@@ -36,11 +38,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- **AI-in-mathematics discourse keeps widening beyond individual results.** Terence Tao's own re-derivation of the Jacobian-conjecture counterexample ([digest](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/)), plus fresh community threads on AI's effect on the field's norms and incentives (r/math, r/mathematics) — all unrefereed intake, a WATCH area: the radar tracks the mathematical result + any formalization, not the AI method.
-- The 2026 Fields Medals reaction has settled; ICM 2026 (Philadelphia, through 07-30) continues with public lectures, incl. Tao's on mathematics in the age of AI — ecosystem, not a new result.
-- Intake only, unverified: recent PRL/SciPost items opened this run (black-hole information problem, 3d-gravity topology sum) — queued as below-bar primaries, never evidence from the pulse itself.
+- **A Fields medalist heads to an AI lab.** Peter Woit's blog reports [Jacob Tsimerman is joining OpenAI](https://www.math.columbia.edu/~woit/wordpress/?p=15787) hours after his 2026 Fields Medal was announced — the AI-in-mathematics wave keeps widening (unverified intake, ecosystem).
+- A second arXiv result this run (Werner-state distillability) [self-describes as AI-written](https://arxiv.org/abs/2607.24309) — the wave now spans quantum information, not just pure geometry/combinatorics.
+- ICM 2026 (Philadelphia) runs through 07-30; routine digest/forum chatter (Gowers on the Leiden Declaration, Kalai on IMU logistics) — nothing pointing to an untracked primary this run.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (58) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-27](reports/2026-07-27.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (64) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-28](reports/2026-07-28.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

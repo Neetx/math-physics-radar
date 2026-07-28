@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-27
+Last updated: 2026-07-28
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -124,6 +124,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     referee/vetting outcome. Completed-burst read (W28/W29/W30) stands confirmed. Confidence held
     medium. 120-day archive line: 2026-09-24 (or sooner on the standing weekly archive review) unless
     a fresh lower-bound primary or referee outcome reactivates it first.
+  - 2026-07-28 (daily): fresh math.CO 2026-07-27 batch scanned for Ramsey lower bounds — none (batch
+    held "Long antipaths in oriented graphs", "Exponentially Many Circuit Double Covers" (CDC-adjacent,
+    not Ramsey), "A computer-assisted proof of Kuperberg's six-cylinder conjecture", "Maximum independent
+    queen set on polyominoes is NP-complete", the K(π,1)-conjecture expository notes, etc.; no Ramsey-number
+    lower bound, no referee/vetting outcome). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -157,6 +162,53 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-28 — arXiv:2607.24691 — Matić, Radoičić, "A computer-assisted proof of Kuperberg's
+  six-cylinder conjecture" — https://arxiv.org/abs/2607.24691 — discrete/convex geometry (axis 1,
+  math.CO/MG): proves that at most six pairwise non-overlapping infinite unit cylinders can
+  simultaneously touch a unit ball (six is achievable) — resolving Kuperberg's question exactly, via
+  a computer-assisted case analysis (≈2.95M cases, each an elementary polynomial-inequality check on
+  a box, full case list provided). Abstract opened via arXiv API this session (v1 2026-07-27). A
+  resolved named conjecture by a clean, checkable computer-assisted method (the same growing pattern
+  as the Balanced Four-Color Theorem and the OpenAI CDC proof). Also on `study_shelf`.
+- 2026-07-28 — arXiv:2607.22844 — VandeBogert, "Carlsson's Conjecture and the Generalized Total Rank
+  Conjecture in Characteristic Two" — https://arxiv.org/abs/2607.22844 — commutative algebra /
+  algebraic topology (axis 1, math.AC/AT): proves the generalized total rank conjecture over regular
+  rings of characteristic 2 (rank_R(P) ≥ 2^codim for a differential module P with a finite projective
+  flag and nonzero homology), and as a corollary proves **Carlsson's conjecture for elementary abelian
+  2-groups in every rank** — a long-standing (1980s) open problem on free group actions/rank bounds in
+  homological algebra — plus sharp homology bounds for continuous actions of such groups and the sphere
+  rank conjecture. Abstract opened via arXiv API this session (v1 2026-07-24). A landmark-quality
+  resolution of an important special case of a named conjecture. Also on `study_shelf`.
+- 2026-07-28 — arXiv:2607.24309 — Fraser, Huber, Pozsgay, Vona, "On the two-copy distillability of
+  Werner states and a new partial trace inequality" — https://arxiv.org/abs/2607.24309 — quantum
+  information theory (axis 4, math.RA/quant-ph): answers Problem 5 of "Five Open Problems in Quantum
+  Information Theory" [PRX Quantum 3, 010101 (2022)] in the negative — the two-ququart Werner state
+  ϱ(4,−1/2) is NOT two-copy distillable — via a new partial-trace norm inequality, and shows the
+  one-copy and two-copy distillability regions of ϱ(d,α) coincide for every d (threshold α≥−1/2).
+  Abstract opened via arXiv API this session (v1 2026-07-27). SECOND FULLY INDEPENDENT group (after
+  Fu–Gao–Park, arXiv:2607.21367, queued/study_shelf 2026-07-24) resolving Werner-state 2-copy
+  distillability within 4 days — a FORMING pair on this sub-theme (below the ≥3-group trend bar; watch
+  for a third). AI-WATCH note (scope area, not tracked as the method): the paper states its results
+  "have been found and written up with AI tools" — folded into the standing AI-assisted-math wave note
+  below, not tracked separately.
+- 2026-07-28 — arXiv:2607.24005 — Shi, "Fuglede's conjecture holds for three intervals" —
+  https://arxiv.org/abs/2607.24005 — harmonic analysis (axis 1, math.CA): proves every bounded
+  measurable subset of ℝ that is spectral AND a union of three intervals tiles ℝ by translation,
+  completing Fuglede's (spectral-set) conjecture for this class, via a new cofactor-rigidity method on
+  the secular determinant of an associated self-adjoint derivative. Abstract opened via arXiv API this
+  session (v1 2026-07-27). Single below-bar case-restricted-progress item (Fuglede's conjecture is
+  known false in general; this is 1D case-by-case progress).
+- 2026-07-28 — SciPostPhys.21.1.021 — "Fay identities for polylogarithms on higher-genus Riemann
+  surfaces" — https://scipost.org/SciPostPhys.21.1.021 — mathematical physics (axis 2, hep-th/math-ph):
+  functional (Fay-type) identities for polylogarithms on higher-genus Riemann surfaces, relevant to
+  string-amplitude/modular-graph-function computations. SciPost API metadata opened this session
+  (published 2026-07-27). Single below-bar item.
+- 2026-07-28 — arXiv:2607.24659 — Paolini, "The K(π,1) conjecture for Artin groups of spherical type"
+  — https://arxiv.org/abs/2607.24659 — geometric group theory (axis 1, math.GT/GR): expository notes
+  presenting a proof of the 50-year-old K(π,1) conjecture in the spherical case via combinatorial
+  topology — NOT a new resolution (the spherical case was proved by Paolini–Salvetti in 2021; this
+  author is the same Paolini, now writing up an expository account). Abstract opened via arXiv API
+  this session (v1 2026-07-27). Minor below-bar intake (exposition of prior work, not a new result).
 - 2026-07-27 — SciPostPhys.21.1.020 — de Boer, Hollander, Rolph, "A reverse black hole information
   problem" — https://scipost.org/SciPostPhys.21.1.020 — theoretical physics / holography (axis 2,
   hep-th): studies black-hole formation, detection and coarse-graining in AdS/CFT — the tension
@@ -203,6 +255,16 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-21 — arXiv:2607.16695 — Nguyen-Dang, "Counterexamples of Friedlander–Iwaniec dual sums conjecture" — https://arxiv.org/abs/2607.16695 — analytic number theory (axis 1, math.NT): gives explicit counterexamples to Friedlander & Iwaniec's 2005 Conjecture 1 on sharply-truncated nonlinear dual sums 𝓑_{ℓ,D}(x,N), using A(s)=B(s)=ζ(s)^m with m≥4 — refuting the conjectured (DNx)^ε bound. Abstract opened via arXiv API this session (v1 2026-07-18). Single below-bar refuted-conjecture item.
 - 2026-07-21 — PRX/Nature Physics new since the 07-20 batch — "Engineered Molecular Clock Transitions for Precision Measurements" (PRX 07-20, axis 3, AMO precision metrology / clock-transition engineering) + "Attosecond response of molecules to impulsive ionization" (Nature Physics 07-20, axis 3, AMO ultrafast — attosecond X-ray absorption tracking ionization dynamics in para-aminophenol; Nature Physics title HEALED via tvly extract this session past the recurring CDATA-empty RSS parse) — https://feeds.aps.org/rss/recent/prx.xml · https://www.nature.com/nphys.rss — titles/dates via APS PRX RSS + tvly this session, articles not opened → unverified intake.
 - 2026-07-20 (updated 2026-07-21) — arXiv:2607.15399 + arXiv:2607.16356 — the OpenAI "Cycle Double Cover" proof, NOW WITH TWO independent expositions by leading structural-graph-theorists — https://arxiv.org/abs/2607.15399 (Geelen) · https://arxiv.org/abs/2607.16356 (Oum) — combinatorics / graph theory + machine-assisted math (axis 1/5, math.CO): clarifying expositions of an OpenAI-produced proof of the CYCLE DOUBLE COVER CONJECTURE (Szekeres 1973 / Seymour 1979 — a ~50-year-old open problem: every bridgeless graph has a family of cycles covering every edge exactly twice). (i) 2607.15399 Geelen (matroid theorist), abstract opened via arXiv API 07-20 (v1 2026-07-16); (ii) 2607.16356 Sang-il Oum (structural graph theory / rank-width), "A proof of the cycle double cover conjecture by OpenAI: An exposition" — "presents the proof with slight modifications intended to make it more accessible", abstract opened via arXiv API this session (v1 2026-07-17). TWO independent expositions within a day = the community is actively engaging with the artifact (a vetting SIGNAL, not yet a vetting OUTCOME). TRIPLE CAUTION: (i) AI-assisted math is a WATCH area per scope — track the RESULT + any formalization, NOT the AI method (the AI radars' beat); (ii) unrefereed + AI-generated → extraordinary-claim / hype-skepticism rule, PROVISIONAL until independent expert vetting (both notes are EXPOSITIONS, not independent confirmations of correctness); (iii) the original OpenAI paper was not locatable on arXiv this session. If the proof survives vetting this is a landmark. Geelen exposition also on study_shelf with the same caveats. Below-bar (WATCH-area result), two exposition artifacts.
+  - 2026-07-28 (daily) — NEW INDEPENDENT MATHEMATICAL ENGAGEMENT (still a vetting signal, not an outcome):
+    arXiv:2607.24724 — Hušek, Šámal, "Exponentially Many Circuit Double Covers" —
+    https://arxiv.org/abs/2607.24724 — proves a counting version (≥2^{n/2−1} circuit double covers for
+    2-edge-connected 3-edge-colorable cubic graphs, matching their own prior conjectured lower bound; a
+    weaker exponential bound for girth-≥16 3-edge-connected cubic graphs) using "the same system of linear
+    equations used by OpenAI in their proof," with additional combinatorial interpretation. Abstract opened
+    via arXiv API this session (v1 2026-07-27). Independent authors BUILDING ON the OpenAI CDC machinery
+    with new results — a further (stronger) community-engagement data point than a pure exposition, though
+    still not a correctness referee outcome; the underlying OpenAI proof itself remains unrefereed. Folded
+    into this cluster, not a separate queue item.
 - 2026-07-20 — arXiv:2607.15406 — Juteau, Levy, Sommers, Yu, "Lusztig's special pieces conjecture" — https://arxiv.org/abs/2607.15406 — geometric representation theory (axis 1, math.AG/RT): proves every special piece P(O) of a special nilpotent orbit is the quotient of a smooth G-variety by a finite group, resolving Lusztig's conjecture for the exceptional Lie algebras (the classical case was Kraft–Procesi); two independent proofs given. Abstract opened via arXiv API this session (v1 2026-07-16). Single below-bar resolved-conjecture item.
 - 2026-07-20 — arXiv:2607.15305 — Niedbala Giraudin, "A counterexample to a conjecture of Thakur on Carlitz-Wieferich primes" — https://arxiv.org/abs/2607.15305 — function-field arithmetic (axis 1, math.NT): refutes Thakur's 2015 conjecture that in odd characteristic every c-Wieferich prime has degree divisible by p, via an explicit degree-5 c-Wieferich prime over F_{19^3} (degree 5 is minimal). Abstract opened via arXiv API this session (v1 2026-07-14). Single below-bar refuted-conjecture item.
 - 2026-07-20 — PRL/PRX new since the 07-17 batch — "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions" (PRL 07-19, axis 4, quantum-foundations / many-body equilibration) + "Periodic Gravitational Lensing with Oscillating Boson Stars" (PRL 07-17, axis 3) + "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST" (PRL 07-17, axis 3, astro) + "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems" (PRX 07-20, off-core QC) — https://feeds.aps.org/rss/recent/prl.xml — titles/dates via APS RSS this session, articles not opened → unverified intake.
@@ -211,6 +273,17 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-17 — PRX new since the 07-16 batch — "Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time" (axis 2, classical–quantum / post-quantum semiclassical gravity: a covariant path-integral for QFT backreacting on a classical spacetime) + "Candidate for a Fractional Topological Insulator in Twisted MoTe₂" (axis 3, topological cond-mat / fractional-TI candidate) — https://feeds.aps.org/rss/recent/prx.xml — titles/dates (2026-07-15/16) via APS PRX RSS this session, articles not opened → unverified intake.
 - 2026-07-17 — PRL new since the 07-15 batch — "Observation of CP Violation in B⁰→J/ψρ(770)⁰ Decays" (axis 3, HEP flavor / CP violation in a new b-hadron channel) + "Any Unitary Gate Can Be Certified Device-Independently in a Quantum Network" (axis 4, quantum foundations / device-independent certification) + "Even Denominator Fractional Quantum Hall States in the Zeroth Landau Level of ABA Trilayer Graphene" (axis 3, topological cond-mat) — https://feeds.aps.org/rss/recent/prl.xml — titles/dates (2026-07-15/16) via APS PRL RSS this session, articles not opened → unverified intake.
 - 2026-07-17 → 07-23 (Pass 2) — community-pulse (intake, UNVERIFIED — never evidence) — a multi-model AI-assisted-mathematics WAVE now landing CONCRETE arXiv artifacts, not just chatter: (07-17, r/math) GPT-5.6 reported to solve all six IMO 2026 problems + a claimed Lean-verified closing of a ~30-year gap in convex optimization; (07-20→23, HN front page + r/math) the JACOBIAN-CONJECTURE counterexample now the center of gravity — "Terence Tao is left scratching his head about the Jacobian Conjecture counterexample" (r/math top) + "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample" (HN front page), David Speyer's "The new counterexample to the Jacobian conjecture" (Secret Blogging Seminar) working through it; the counterexample (3-variable, refuting the general conjecture) attributed to Anthropic's Claude Fable 5 (Levant Alpöge's X announcement, >20M views per Fortune); an AMS Notices interview with Fields-frontrunner Jacob Tsimerman on AI in math; (07-22) an unverified RUMOR that the 2026 Fields Medal winner list leaked ahead of the ICM opening ceremony — https://www.reddit.com/r/math/ · https://news.ycombinator.com/ — WATCH area per scope: AI-assisted math is the sibling AI radars' beat. STATUS OF PRIMARIES (re-checked this session): the wave now has FIVE distinct AI-assisted results (four with concrete arXiv artifacts, one off-arXiv): OpenAI Cycle-Double-Cover proof (Geelen 2607.15399 + Oum 2607.16356 expositions), Batyrev-conjecture counter-example via ChatGPT (2607.19184), mod-4 Kawauchi proof via Claude Fable 5 (2607.18655), the Jacobian-conjecture counterexample via Claude Fable 5 — whose FIRST on-arXiv mathematical analysis appeared 07-22 (Shaska, 2607.20210, captured; the counterexample MAP itself is still announced only OFF-arXiv → the map stays intake, the analysis paper is the primary) — and NEW THIS PASS (07-23), a claimed disproof of the ~30-year-old DINITZ–GARG–GOEMANS conjecture on single-source unsplittable flows (Kleinberg/Dinitz–Garg–Goemans 1999: any fractional single-source flow can be rounded to an unsplittable one raising each edge by < d_max), attributed to Dmitry Rybin using GPT-5.6 Pro — announced OFF-arXiv (X post + Digg, surfaced via r/math + r/mathematics this pass); NO arXiv primary locatable this session (searched arXiv for Rybin/unsplittable-flow, only pre-existing DGG-related works) → stays UNVERIFIED community-pulse intake exactly like the Jacobian map, WATCH area (track the RESULT if/when a primary lands, not the method), extraordinary-claim caution (a 30-yr conjecture "disproof" is provisional until vetting). Community engaging = a vetting SIGNAL, not an OUTCOME (all unrefereed; Tao publicly scrutinizing). STILL NO IMU primary for the Fields Medal "leak": the mathunion.org Fields-Medal page (RE-OPENED this Pass 2, ~13:48 UTC) is STILL the static statute page — no 2026 laureates listed; a broad news search returned zero Fields-Medal hits (only sports/politics noise) → the announcement has NOT propagated as of this pass (ICM opening ceremony 23–30 Jul in Philadelphia; Fields Medals announced at the ceremony — still pending). CONFIRMED this pass that the 20th IMU General Assembly IS in session (NYC 20–21 Jul): r/math surfaced the GA vote selecting GLASGOW as ICM 2030 host (ecosystem, intake). Chase the official Fields announcement first thing next run. IMO-2026 results still have no arXiv artifact.
+  - 2026-07-28 (daily) — wave continues, two more data points (still community-pulse/ecosystem, not
+    primaries): (i) Peter Woit's blog (Not Even Wrong, "Requiem for a Field?", 2026-07-26, opened via
+    RSS this session) reports 2026 Fields medalist **Jacob Tsimerman announced he is joining OpenAI**,
+    hours after his medal was announced — quoting Kevin Hartnett's framing of his own Fields-week profile
+    of Tsimerman as reading "like a requiem for a field," i.e. a leading pure mathematician moving into an
+    AI lab; ties directly to the AMS Notices Tsimerman/AI-in-math interview already noted 07-23. (ii) the
+    SECOND independent Werner-state 2-copy-distillability paper captured today (arXiv:2607.24309, queue)
+    self-describes as "found and written up with AI tools" — a second concrete arXiv artifact (after the
+    mod-4 Kawauchi and Batyrev items) explicitly AI-assisted outside the Jacobian-cluster/CDC storylines,
+    reinforcing the wave is broadening across sub-fields (quantum information, not just pure geometry/
+    combinatorics). Still WATCH-area, track results not methods.
 - 2026-07-16 — arXiv:2607.13829 — "The inversion number of a path-reversed tournament: Resolving a conjecture of Belkhechine, Bouaziz, Boudabbous, and Pouzet" — https://arxiv.org/abs/2607.13829 — combinatorics / tournaments (axis 1, math.CO): computes the inversion number inv(Q_n) of the tournament obtained from the transitive tournament by reversing consecutive pairs, resolving a conjecture of Belkhechine et al. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-15).
 - 2026-07-16 — arXiv:2607.13282 + 2607.13283 — "The H₀ World Cup I. Summary of the baseline group stage results" + "II. A comprehensive competition between proposed Hubble tension solutions" — https://arxiv.org/abs/2607.13282 — cosmology (axis 3, astro-ph.CO): a systematic head-to-head "tournament" ranking of proposed solutions to the Hubble tension against baseline datasets. Community meta-analysis (intake), ties into the tracked DESI dark-energy / late-time-anomaly saga; titles/links via arXiv RSS this session, articles not opened → unverified intake.
 - 2026-07-16 — arXiv:2607.13673 — "Deriving the AdS₃×S³×T⁴ Quantum Spectral Curve I: Y-system and discontinuity relations" — https://arxiv.org/abs/2607.13673 — integrable systems / AdS/CFT (axis 2, nlin.SI/hep-th): first paper of a program deriving the Quantum Spectral Curve for the AdS₃×S³×T⁴ string background (Y-system, discontinuity relations). Single below-bar item; title/link via arXiv nlin.SI RSS this session (v1 2026-07-15).
@@ -385,6 +458,8 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-07-28 — [Carlsson's Conjecture and the Generalized Total Rank Conjecture in Characteristic Two (VandeBogert), arXiv:2607.22844](https://arxiv.org/abs/2607.22844) — proves the generalized total rank conjecture over characteristic-2 regular rings and, as a corollary, **Carlsson's conjecture for elementary abelian 2-groups in every rank** — a long-standing open problem in homological/commutative algebra on rank bounds for free group actions (axis 1, math.AC/AT). Abstract + author verified via arXiv API this session (v1 2026-07-24). A landmark-quality resolution of an important case of a named conjecture, worth knowing even though the full (odd-prime) conjecture remains open.
+- 2026-07-28 — [A computer-assisted proof of Kuperberg's six-cylinder conjecture (Matić, Radoičić), arXiv:2607.24691](https://arxiv.org/abs/2607.24691) — settles Kuperberg's question exactly: at most six pairwise non-overlapping infinite unit cylinders can touch a unit ball (axis 1, discrete/convex geometry), via a checkable computer-assisted case analysis (~2.95M cases, full list published). Abstract + authors verified via arXiv API this session (v1 2026-07-27). A clean example of the growing computer-assisted-proof pattern in extremal/discrete geometry (alongside the Balanced Four-Color Theorem on this shelf).
 - 2026-07-27 — [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj, Gai, Huang, Inamura, Schäfer-Nameki, Tiwari, Warman), SciPostPhys.21.1.019](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical (non-invertible) symmetries in (2+1)d, extending the group's earlier gapped-phase program (axis 2, math↔physics interface / QFT). SciPost API metadata + page opened this session (published 2026-07-23). The artifact that completed today's `seed`-trend promotion (non-invertible/generalized symmetries, now ≥3 independent groups) — the clearest single entry point into a QFT sub-field a mathematical physicist should now be tracking.
 - 2026-07-24 — [2026 Fields Medals — Deng, Pardon, Tsimerman, Wang (IMU / ICM 2026)](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026) — the four 2026 Fields Medals, awarded 2026-07-23 at the ICM opening ceremony in Philadelphia, with the official IMU citations (axis 1, pure mathematics): **Yu Deng** (PDE — rigorous Boltzmann derivation from hard-sphere dynamics, wave-kinetic equations from dispersive systems), **John Pardon** (symplectic geometry — virtual fundamental cycles, Fukaya categories; 3-manifold group actions & knot theory), **Jacob Tsimerman** (o-minimality as a method in arithmetic/algebraic geometry — Griffiths' period-map algebraicity, André–Oort for Siegel modular varieties), **Hong Wang** (harmonic analysis & GMT — local smoothing, Fourier restriction, Falconer distance sets, Furstenberg-plane and the Kakeya problem in ℝ³). IMU laureate page with citations opened this session (primary). The single most important thing a frontier mathematician should absorb this week — and a radar convergence: Wang's Kakeya-3D (Wang–Zahl, on this shelf) and Deng's Boltzmann/wave-kinetic work (2026 Clay Award) are already-tracked landmark artifacts, now Fields-honored.
 - 2026-07-24 — [A solution to 2-copy distillability of Werner states, arXiv:2607.21367](https://arxiv.org/abs/2607.21367) — proves Werner states (arbitrary dimension) are 2-copy distillable iff 1-copy distillable, resolving a longstanding open question in entanglement distillation and an important step toward the central open problem of whether every NPT state is distillable (axis 4, quantum-information theory). Abstract verified via arXiv API this session (v1 2026-07-23). A clean resolved-open-question a quantum-information researcher should know.
