@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-28
+Last updated: 2026-07-29
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -129,6 +129,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     not Ramsey), "A computer-assisted proof of Kuperberg's six-cylinder conjecture", "Maximum independent
     queen set on polyominoes is NP-complete", the K(π,1)-conjecture expository notes, etc.; no Ramsey-number
     lower bound, no referee/vetting outcome). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged.
+  - 2026-07-29 (daily): fresh math.CO 2026-07-28 batch scanned for Ramsey lower bounds — none (batch
+    held "Solution of Erdős problem #443" (Cambie), the Cautis-Logvinenko conjecture (partial case),
+    "A Spectral Proof of the Hypergraph Moore Bound", etc.; no Ramsey-number lower bound, no referee/
+    vetting outcome on the four tracked preprints). Trend HELD dormant; 120-day archive line 2026-09-24
+    unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -162,6 +167,43 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-29 — arXiv:2607.21508 — Matherne, Morales, "Chromatic symmetric functions of claw-free
+  graphs are not Schur positive" — https://arxiv.org/abs/2607.21508 — algebraic combinatorics (axis 1,
+  math.CO): refutes Stanley's 1995 conjecture (attributed also to Gasharov) that the chromatic symmetric
+  function of a claw-free graph is Schur-positive — gives explicit line-graph counterexamples with a
+  negative Schur coefficient — and separately refutes Monical's 2018 conjecture that Schur-positive
+  chromatic symmetric functions have saturated Newton polytope. Abstract opened via arXiv API this
+  session (v1 2026-07-23; surfaced via today's community-pulse chain: r/mathematics → MathOverflow →
+  arXiv, a capture-leak catch — the item had been circulating since 07-23 without a routed primary).
+  AI-ASSISTED (WATCH area per scope): "both of these examples were found using ChatGPT-5.6 Sol Pro" —
+  SIXTH concrete arXiv artifact in the standing AI-assisted-math wave (after the CDC proof, Batyrev,
+  mod-4 Kawauchi, and the two Werner-state papers) — track the RESULT (a ~30-year conjecture refuted),
+  NOT the AI method (sibling AI radars' beat). Unrefereed preprint → provisional under the
+  hype-skepticism rule. Also on `study_shelf`.
+- 2026-07-29 — arXiv:2607.25928 — Cambie, "Solution of Erdős problem #443" — https://arxiv.org/abs/2607.25928
+  — combinatorial number theory (axis 1, math.CO/NT): proves that the intersection
+  $\{k(m-k)\}\cap\{l(n-l)\}$ (over $1\le k\le m/2$, $1\le l\le n/2$) has size $(mn)^{o(1)}$ but can be
+  arbitrarily large, resolving Erdős problem #443. Abstract opened via arXiv API this session (v1
+  2026-07-27). Single below-bar resolved-open-problem item.
+- 2026-07-29 — arXiv:2607.25982 — Craw, Yamagishi, "The Cautis-Logvinenko conjecture" —
+  https://arxiv.org/abs/2607.25982 — algebraic geometry / representation theory (axis 1, math.AG/RT):
+  proves the Cautis-Logvinenko conjecture (purity, under the Bridgeland-King-Reid derived equivalence,
+  of the McKay-correspondence sheaves $\mathcal O_0\otimes\rho$ on the $G$-Hilbert scheme) whenever the
+  McKay quiver of $G\subset SL(3,\mathbb C)$ has no loops — covering many dihedral/trihedral subgroups
+  and six of the eight sporadic finite subgroups. A significant but partial (loop-free-quiver) case, not
+  the full conjecture. Abstract opened via arXiv API this session (v1 2026-07-28). Single below-bar
+  partial-progress item.
+- 2026-07-29 — Rocq 9.3+rc1 — https://github.com/rocq-prover/rocq/releases — formal-math toolchain
+  (axis 5, computer-assisted math): the Rocq proof assistant has moved past the previously-tracked
+  V9.2.0 to a 9.3 release candidate (lean4 and mathlib4 both unchanged at v4.33.0-rc1 this session).
+  Release page opened via `tvly extract` this session (JS-shell rendering, standing-degraded path;
+  exact release date not pinned via this access method). Single below-bar toolchain-release item.
+- 2026-07-29 — PRL new since the 07-23 batch — "Testing Local Lorentz Invariance with Laser Tracking of
+  the LAGEOS and LAGEOS II Satellites" (axis 3, fundamental-physics test) + "Direct Measurement of the
+  In-Medium η′ Mass Spectrum through the γγ Decay Channel" (axis 3, hadron physics) + "Nonunique
+  Decompositions of Mixed States and Deterministic Energy Transfers" (axis 4, quantum foundations) —
+  https://feeds.aps.org/rss/recent/prl.xml — titles/dates (2026-07-27) via APS PRL RSS this session,
+  articles not opened → unverified intake.
 - 2026-07-28 — arXiv:2607.24691 — Matić, Radoičić, "A computer-assisted proof of Kuperberg's
   six-cylinder conjecture" — https://arxiv.org/abs/2607.24691 — discrete/convex geometry (axis 1,
   math.CO/MG): proves that at most six pairwise non-overlapping infinite unit cylinders can
@@ -284,6 +326,21 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     mod-4 Kawauchi and Batyrev items) explicitly AI-assisted outside the Jacobian-cluster/CDC storylines,
     reinforcing the wave is broadening across sub-fields (quantum information, not just pure geometry/
     combinatorics). Still WATCH-area, track results not methods.
+  - 2026-07-29 (daily) — ICM 2026 (Philadelphia, closes tomorrow 07-30) puts AI-in-math on the PLENARY
+    PROGRAM itself, not just community chatter: Terence Tao's ICM public lecture "Mathematics in the age
+    of AI" (delivered 2026-07-24; slides at https://teorth.github.io, opened via `tvly search` this
+    session) argues formalization + AI verification could resolve math's "crisis of trust" in an
+    AI-accelerated era; the newly-published ICM 2026 Proceedings Vol. 2 (Plenary Lectures, SIAM,
+    epubs.siam.org, `tvly search` this session) includes Alex Kontorovich's plenary on "how computational
+    tools currently interact with mathematical practice" and Peter Bartlett's ML-theory plenary — i.e.
+    TWO of this cycle's plenary lecture slots are explicitly about AI/math, alongside Tao's own public
+    lecture (he chaired the ICM Structure Committee through Aug 2025). Gil Kalai's blog ("The Ramanujan
+    Challenge for AI", opened via RSS this session) is a further community data point in the same vein.
+    SEPARATELY, a SIXTH concrete AI-assisted arXiv artifact landed this session: arXiv:2607.21508
+    (Matherne–Morales, refuting Stanley's claw-free Schur-positivity conjecture via ChatGPT-5.6 Sol Pro —
+    captured as its own queue item above). All WATCH-area (sibling AI radars' beat) — but the wave has now
+    visibly moved from "arXiv artifacts + blog chatter" to "the field's own flagship congress dedicating
+    plenary slots to it," worth noting as the ecosystem's own signal of significance.
 - 2026-07-16 — arXiv:2607.13829 — "The inversion number of a path-reversed tournament: Resolving a conjecture of Belkhechine, Bouaziz, Boudabbous, and Pouzet" — https://arxiv.org/abs/2607.13829 — combinatorics / tournaments (axis 1, math.CO): computes the inversion number inv(Q_n) of the tournament obtained from the transitive tournament by reversing consecutive pairs, resolving a conjecture of Belkhechine et al. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-15).
 - 2026-07-16 — arXiv:2607.13282 + 2607.13283 — "The H₀ World Cup I. Summary of the baseline group stage results" + "II. A comprehensive competition between proposed Hubble tension solutions" — https://arxiv.org/abs/2607.13282 — cosmology (axis 3, astro-ph.CO): a systematic head-to-head "tournament" ranking of proposed solutions to the Hubble tension against baseline datasets. Community meta-analysis (intake), ties into the tracked DESI dark-energy / late-time-anomaly saga; titles/links via arXiv RSS this session, articles not opened → unverified intake.
 - 2026-07-16 — arXiv:2607.13673 — "Deriving the AdS₃×S³×T⁴ Quantum Spectral Curve I: Y-system and discontinuity relations" — https://arxiv.org/abs/2607.13673 — integrable systems / AdS/CFT (axis 2, nlin.SI/hep-th): first paper of a program deriving the Quantum Spectral Curve for the AdS₃×S³×T⁴ string background (Y-system, discontinuity relations). Single below-bar item; title/link via arXiv nlin.SI RSS this session (v1 2026-07-15).
@@ -458,6 +515,15 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-07-29 — [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne,
+  Morales), arXiv:2607.21508](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free
+  Schur-positivity conjecture (attributed also to Gasharov) via explicit line-graph counterexamples,
+  and separately refutes Monical's 2018 saturated-Newton-polytope conjecture (axis 1, algebraic
+  combinatorics). Abstract + authors verified via arXiv API this session (v1 2026-07-23). HEAVY CAVEATS
+  (hype-skepticism + AI-watch rules): unrefereed preprint → PROVISIONAL until independent vetting; both
+  counterexamples were "found using ChatGPT-5.6 Sol Pro" → tracked for the mathematical RESULT (a
+  ~30-year conjecture refuted) a frontier combinatorialist should know, NOT the AI method (sibling AI
+  radars' beat). Sixth concrete arXiv artifact in the standing AI-assisted-math wave.
 - 2026-07-28 — [Carlsson's Conjecture and the Generalized Total Rank Conjecture in Characteristic Two (VandeBogert), arXiv:2607.22844](https://arxiv.org/abs/2607.22844) — proves the generalized total rank conjecture over characteristic-2 regular rings and, as a corollary, **Carlsson's conjecture for elementary abelian 2-groups in every rank** — a long-standing open problem in homological/commutative algebra on rank bounds for free group actions (axis 1, math.AC/AT). Abstract + author verified via arXiv API this session (v1 2026-07-24). A landmark-quality resolution of an important case of a named conjecture, worth knowing even though the full (odd-prime) conjecture remains open.
 - 2026-07-28 — [A computer-assisted proof of Kuperberg's six-cylinder conjecture (Matić, Radoičić), arXiv:2607.24691](https://arxiv.org/abs/2607.24691) — settles Kuperberg's question exactly: at most six pairwise non-overlapping infinite unit cylinders can touch a unit ball (axis 1, discrete/convex geometry), via a checkable computer-assisted case analysis (~2.95M cases, full list published). Abstract + authors verified via arXiv API this session (v1 2026-07-27). A clean example of the growing computer-assisted-proof pattern in extremal/discrete geometry (alongside the Balanced Four-Color Theorem on this shelf).
 - 2026-07-27 — [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj, Gai, Huang, Inamura, Schäfer-Nameki, Tiwari, Warman), SciPostPhys.21.1.019](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical (non-invertible) symmetries in (2+1)d, extending the group's earlier gapped-phase program (axis 2, math↔physics interface / QFT). SciPost API metadata + page opened this session (published 2026-07-23). The artifact that completed today's `seed`-trend promotion (non-invertible/generalized symmetries, now ≥3 independent groups) — the clearest single entry point into a QFT sub-field a mathematical physicist should now be tracking.
