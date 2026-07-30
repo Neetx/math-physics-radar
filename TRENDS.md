@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-29
+Last updated: 2026-07-30
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -134,6 +134,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     "A Spectral Proof of the Hypergraph Moore Bound", etc.; no Ramsey-number lower bound, no referee/
     vetting outcome on the four tracked preprints). Trend HELD dormant; 120-day archive line 2026-09-24
     unchanged.
+  - 2026-07-30 (daily): fresh math.CO 2026-07-29 batch scanned for Ramsey lower bounds — none (batch
+    held the Stanley–Gasharov claw-free-Schur-positivity convergence cluster, "An Optimal Bound for
+    Ramsey Goodness of Cycles" [Ramsey GOODNESS for cycles, not a Ramsey-number lower bound — own queue
+    item], "Combinatorial Bounds for Codes over Metric Spaces: Ramsey-Sidorenko Thresholds", etc.; no
+    Ramsey-number lower bound, no referee/vetting outcome on the four tracked preprints). Trend HELD
+    dormant; 120-day archive line 2026-09-24 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -164,22 +170,82 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   group, citations of the Bhardwaj et al. framework, and any connection to the separately-tracked
   deconfined-criticality queue thread (2607.00762 / 2607.01815).
 
+### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
+- stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
+- what: THREE fully independent author groups, within a single week, produced concrete
+  counterexamples to the ~28-year-old Stanley–Gasharov conjecture (recorded by Stanley 1998,
+  credited to Gasharov) that the chromatic symmetric function of every claw-free graph is
+  Schur-positive — clearing the ≥3-independent-group convergence bar. Unlike the AI-generated
+  Jacobian-conjecture claim, these are elementary, computationally CHECKABLE counterexamples
+  (single symmetric-function coefficients, cross-verified by independent implementations /
+  exhaustive graph censuses), so the epistemic risk is lower than an unchecked large-scale claim
+  — but all three remain unrefereed preprints from the same week.
+- evidence:
+  - 2026-07-23 — https://arxiv.org/abs/2607.21508 — Matherne, Morales, "Chromatic symmetric
+    functions of claw-free graphs are not Schur positive": FIRST published counterexample (a
+    12-vertex line graph with a negative Schur coefficient); also refutes Monical's 2018
+    saturated-Newton-polytope conjecture. AI-ASSISTED (found using ChatGPT-5.6 Sol Pro — the
+    sixth artifact in the standing AI-assisted-math wave). Abstract verified via arXiv API this
+    session (v1 2026-07-23).
+  - 2026-07-29 — https://arxiv.org/abs/2607.26364 — Prajapati, "A counterexample to the claw-free
+    Schur-positivity conjecture": a FULLY INDEPENDENT 12-vertex counterexample (different graph,
+    coefficient [s_(3,3,3,3)]X_G = −64), found via an exhaustive computer census of all 216,777
+    connected claw-free graphs on ≤11 vertices (all Schur-positive) plus all 1,728,404 on 12
+    vertices (exactly 2 non-Schur-positive classes) — establishing 12 vertices as the minimum
+    possible order. No AI-assistance claimed. Abstract verified via arXiv API this session (v1
+    2026-07-29).
+  - 2026-07-29 — https://arxiv.org/abs/2607.27166 — Wang, Zhang, Zhao, "An infinite family of
+    counterexamples to the Stanley–Gasharov conjecture": combines Prajapati's census with a fresh
+    exhaustive search over 144,492 previously-untreated claw-free graphs (13–21 vertices),
+    confirms Matherne–Morales's counterexample as the UNIQUE minimum one under a stated order, and
+    constructs an INFINITE family of connected line-graph counterexamples — directly answering
+    Matherne and Morales's own open question. Abstract verified via arXiv API this session (v1
+    2026-07-29).
+- notes: 2026-07-30 (daily, PROMOTION): Matherne–Morales sat on the queue + study_shelf since
+  07-29 as a single below-bar item; today's fresh math.CO sweep surfaced Prajapati (2607.26364)
+  and Wang–Zhang–Zhao (2607.27166) — both explicitly citing Matherne–Morales as independently
+  prior — giving THREE fully independent groups on the same sub-theme within 07-23→07-29 →
+  promoted to `seed` per the convergence-check rule (daily.md §4); this also independently clears
+  the domain-cadence "landmark single result" bar (a ~30-year algebraic-combinatorics conjecture
+  refuted). Confidence medium (not low, despite being day-one): the counterexamples are short,
+  checkable computations reproduced across independent implementations/censuses, not a
+  large-scale unchecked claim — but still unrefereed, so track for a referee outcome or a
+  consolidated/definitive treatment that may supersede this cluster. Watch also for further
+  independent confirmation of the companion Monical saturated-Newton-polytope refutation
+  (Matherne–Morales only, so far).
+
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
-- 2026-07-29 — arXiv:2607.21508 — Matherne, Morales, "Chromatic symmetric functions of claw-free
-  graphs are not Schur positive" — https://arxiv.org/abs/2607.21508 — algebraic combinatorics (axis 1,
-  math.CO): refutes Stanley's 1995 conjecture (attributed also to Gasharov) that the chromatic symmetric
-  function of a claw-free graph is Schur-positive — gives explicit line-graph counterexamples with a
-  negative Schur coefficient — and separately refutes Monical's 2018 conjecture that Schur-positive
-  chromatic symmetric functions have saturated Newton polytope. Abstract opened via arXiv API this
-  session (v1 2026-07-23; surfaced via today's community-pulse chain: r/mathematics → MathOverflow →
-  arXiv, a capture-leak catch — the item had been circulating since 07-23 without a routed primary).
-  AI-ASSISTED (WATCH area per scope): "both of these examples were found using ChatGPT-5.6 Sol Pro" —
-  SIXTH concrete arXiv artifact in the standing AI-assisted-math wave (after the CDC proof, Batyrev,
-  mod-4 Kawauchi, and the two Werner-state papers) — track the RESULT (a ~30-year conjecture refuted),
-  NOT the AI method (sibling AI radars' beat). Unrefereed preprint → provisional under the
-  hype-skepticism rule. Also on `study_shelf`.
+- 2026-07-29 — arXiv:2607.27197 — Arathoon, Ball, Kvalheim, "The Maxwell Conjecture is False" —
+  https://arxiv.org/abs/2607.27197 — mathematical physics / classical electrostatics (axis 2,
+  physics.class-ph/math-ph): exhibits a configuration of five point charges in Euclidean space whose
+  electrostatic potential has at least 24 non-degenerate critical points, refuting Maxwell's
+  ~150-year-old conjecture that the potential of $n$ point charges has at most $(n-1)^2$
+  non-degenerate critical points ($(5-1)^2=16<24$). A landmark refutation of a classical named
+  conjecture at the math↔physics interface. Abstract + authors verified via arXiv API this session
+  (v1 2026-07-29). Also on `study_shelf`.
+- 2026-07-29 — arXiv:2607.26956 — Kuang, Wang, "An Optimal Bound for Ramsey Goodness of Cycles" —
+  https://arxiv.org/abs/2607.26956 — combinatorics (axis 1, math.CO): resolves the Pokrovskiy–Sudakov
+  conjecture (highlighted as Conjecture 9.2 in Montgomery's 2026 ICM survey) that the optimal LINEAR
+  condition $n\ge C|H|$ suffices for Ramsey goodness of cycles, proving $R(C_n,H)=(\chi(H)-1)(n-1)+
+  \sigma(H)$ for every nonempty graph $H$ once $n\ge C|H|$ — the first bound linear in $|H|$, best
+  possible up to a constant. Ramsey-ADJACENT (Ramsey GOODNESS for cycles, not a Ramsey-NUMBER lower
+  bound) → own below-bar queue item, does NOT reactivate the dormant Ramsey-lower-bound trend. Abstract
+  + authors verified via arXiv API this session (v1 2026-07-29).
+- 2026-07-29 — Quanta Magazine, "Physicists Solve a Big Quantum Mystery. Now, Old Results Don't Add
+  Up." — https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/
+  — particle physics / muon g−2 (axis 3, HEP precision): a digest tied directly to the tracked 2026
+  Breakthrough Prize (muon g−2 collaborations, 2026-07-25 entry below) — explains that the BMW
+  collaboration's lattice-QCD calculation (Nature 2021, since matched by independent lattice groups)
+  now agrees with Fermilab's g−2 measurement to 1 part in 100 billion, resolving the old
+  theory-vs-experiment tension in favor of "no new particles" — but this creates a NEW open puzzle: the
+  VEPP-2000 collider's (Novosibirsk) CMD-3 detector's 2023 remeasured $e^+e^-\to$ pion-production rate
+  diverges sharply from older data (BaBar, KLOE) used in the superseded "data-driven" g−2 prediction,
+  and physicists do not yet know which measurement is right. Quanta page opened via `tvly extract` this
+  session — a digest, NOT itself primary evidence (no single fresh 2026 arXiv/collaboration artifact
+  named); routed here as context updating the standing muon g−2 / Breakthrough-Prize thread. Follow to
+  the VEPP-2000/CMD-3 primary and any new BMW/lattice preprint next.
 - 2026-07-29 — arXiv:2607.25928 — Cambie, "Solution of Erdős problem #443" — https://arxiv.org/abs/2607.25928
   — combinatorial number theory (axis 1, math.CO/NT): proves that the intersection
   $\{k(m-k)\}\cap\{l(n-l)\}$ (over $1\le k\le m/2$, $1\le l\le n/2$) has size $(mn)^{o(1)}$ but can be
@@ -341,6 +407,15 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     captured as its own queue item above). All WATCH-area (sibling AI radars' beat) — but the wave has now
     visibly moved from "arXiv artifacts + blog chatter" to "the field's own flagship congress dedicating
     plenary slots to it," worth noting as the ecosystem's own signal of significance.
+  - 2026-07-30 (daily) — INSTITUTIONAL RESPONSE (ecosystem/policy, not a tracked result): CERN Courier
+    reports arXiv has formalized a "one-strike" content policy — a year-long submission suspension for
+    "incontrovertible evidence of hallucinatory AI generation" (e.g. hallucinated references, citations
+    to non-existent papers, stray model meta-commentary left in the text), per arXiv scientific director
+    Steinn Sigurðsson, driven by a rising volume of AI-generated submissions straining moderation.
+    https://cerncourier.com/a/arxivs-one-strike-rule-on-ai/ opened via `tvly extract` this session. The
+    radar's own primary venue is now visibly reacting to the same wave tracked here since 07-17 — a
+    direct institutional-response data point, still WATCH-area (policy/ecosystem, not a math/physics
+    result; sibling AI radars' beat for the AI-method side).
 - 2026-07-16 — arXiv:2607.13829 — "The inversion number of a path-reversed tournament: Resolving a conjecture of Belkhechine, Bouaziz, Boudabbous, and Pouzet" — https://arxiv.org/abs/2607.13829 — combinatorics / tournaments (axis 1, math.CO): computes the inversion number inv(Q_n) of the tournament obtained from the transitive tournament by reversing consecutive pairs, resolving a conjecture of Belkhechine et al. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-15).
 - 2026-07-16 — arXiv:2607.13282 + 2607.13283 — "The H₀ World Cup I. Summary of the baseline group stage results" + "II. A comprehensive competition between proposed Hubble tension solutions" — https://arxiv.org/abs/2607.13282 — cosmology (axis 3, astro-ph.CO): a systematic head-to-head "tournament" ranking of proposed solutions to the Hubble tension against baseline datasets. Community meta-analysis (intake), ties into the tracked DESI dark-energy / late-time-anomaly saga; titles/links via arXiv RSS this session, articles not opened → unverified intake.
 - 2026-07-16 — arXiv:2607.13673 — "Deriving the AdS₃×S³×T⁴ Quantum Spectral Curve I: Y-system and discontinuity relations" — https://arxiv.org/abs/2607.13673 — integrable systems / AdS/CFT (axis 2, nlin.SI/hep-th): first paper of a program deriving the Quantum Spectral Curve for the AdS₃×S³×T⁴ string background (Y-system, discontinuity relations). Single below-bar item; title/link via arXiv nlin.SI RSS this session (v1 2026-07-15).
@@ -515,6 +590,13 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-07-30 — [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim), arXiv:2607.27197](https://arxiv.org/abs/2607.27197)
+  — refutes Maxwell's ~150-year-old conjecture that the electrostatic potential of $n$ point charges
+  has at most $(n-1)^2$ non-degenerate critical points, via an explicit 5-point-charge configuration
+  with 24 (axis 2, mathematical physics / classical electrostatics). Abstract + authors verified via
+  arXiv API this session (v1 2026-07-29). A clean, classical, checkable refutation of a genuinely old
+  named conjecture at the math↔physics interface — no AI-assistance or unrefereed-extraordinary-claim
+  caveats apply (an explicit, verifiable counterexample).
 - 2026-07-29 — [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne,
   Morales), arXiv:2607.21508](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free
   Schur-positivity conjecture (attributed also to Gasharov) via explicit line-graph counterexamples,

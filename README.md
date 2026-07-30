@@ -1,27 +1,29 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-2-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-69-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--29-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-71-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--30-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-28):**
-- **A ~30-year conjecture falls:** Stanley's claw-free Schur-positivity conjecture (and Monical's 2018 conjecture) are [refuted by AI-found counterexamples](https://arxiv.org/abs/2607.21508) (Matherne, Morales) — a capture-leak catch, and the sixth concrete arXiv artifact in the AI-assisted-math wave.
-- **ICM 2026 puts AI-in-math on its own plenary program:** Terence Tao's public lecture "Mathematics in the age of AI" (slides at [teorth.github.io](https://teorth.github.io)) plus two AI/ML-theory plenaries in the freshly-published [ICM Proceedings Vol. 2](https://epubs.siam.org/doi/book/10.1137/1.9781611978486) — an escalation from blog chatter to the field's flagship congress.
-- Two further resolved/advanced conjectures: [Erdős problem #443](https://arxiv.org/abs/2607.25928) (Cambie) and the [Cautis-Logvinenko conjecture](https://arxiv.org/abs/2607.25982) for loop-free McKay quivers (Craw, Yamagishi).
-- Formal-math toolchain: **Rocq moves to 9.3+rc1**, past the previously-tracked V9.2.0 ([release page](https://github.com/rocq-prover/rocq/releases)); Ramsey trend held dormant (routine check, no fresh lower bound); **capture-leak 0** (59 ids checked).
+**Since last scan (2026-07-29):**
+- **A third independent group refutes the Stanley-Gasharov conjecture:** [Prajapati](https://arxiv.org/abs/2607.26364) and [Wang, Zhang, Zhao](https://arxiv.org/abs/2607.27166) join Matherne-Morales within a single week — three fully independent counterexamples to the ~28-year-old claw-free Schur-positivity conjecture → **promoted to a new seed trend**.
+- **The Maxwell Conjecture is false:** [Arathoon, Ball, Kvalheim](https://arxiv.org/abs/2607.27197) exhibit five point charges whose potential has 24 critical points, refuting Maxwell's ~150-year-old bound — a clean, checkable landmark at the math↔physics interface.
+- The muon g-2 saga gets a new twist: a [Quanta digest](https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/) on lattice-QCD resolving the old theory tension, but a Siberian collider's diverging pion-rate data opens a fresh puzzle — ties to the tracked Breakthrough Prize.
+- Also: [Ramsey goodness of cycles resolved](https://arxiv.org/abs/2607.26956) (Pokrovskiy-Sudakov, via Montgomery's ICM survey); arXiv formalizes a [one-strike AI-content policy](https://cerncourier.com/a/arxivs-one-strike-rule-on-ai/); Ramsey lower-bound trend held dormant.
 
 ## Trends
 
-🌱 1 · 📈 0 · 🚀 0 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 2 · 📈 0 · 🚀 0 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
+| [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🌱 seed | [2026-07-23](https://scipost.org/SciPostPhys.21.1.019) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 💤 dormant | [2026-05-27](https://arxiv.org/abs/2605.28793) |
 
 ## Worth studying
 
-- [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne, Morales)](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free Schur-positivity conjecture and Monical's 2018 saturated-Newton-polytope conjecture via explicit counterexamples found using ChatGPT-5.6 Sol Pro. Unrefereed, AI-assisted → **provisional**; tracked for the result, not the method.
+- [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim)](https://arxiv.org/abs/2607.27197) — refutes Maxwell's ~150-year-old conjecture on electrostatic critical points via an explicit 5-point-charge configuration with 24 critical points. A clean, classical, checkable landmark — no AI-assistance or unrefereed-extraordinary-claim caveats apply.
+- [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne, Morales)](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free Schur-positivity conjecture and Monical's 2018 saturated-Newton-polytope conjecture via explicit counterexamples found using ChatGPT-5.6 Sol Pro. Unrefereed, AI-assisted → **provisional**; tracked for the result, not the method. Now the seed of its own trend (two independent groups have since corroborated).
 - [Carlsson's Conjecture and the Generalized Total Rank Conjecture in Characteristic Two (VandeBogert)](https://arxiv.org/abs/2607.22844) — resolves Carlsson's conjecture for elementary abelian 2-groups in every rank, a long-standing homological/commutative-algebra open problem, via the generalized total rank conjecture over characteristic-2 regular rings.
 - [A computer-assisted proof of Kuperberg's six-cylinder conjecture (Matić, Radoičić)](https://arxiv.org/abs/2607.24691) — settles exactly how many pairwise non-overlapping infinite unit cylinders can touch a unit ball (six), via a checkable ~2.95M-case computer-assisted proof — part of a growing pattern of clean computer-assisted resolutions in extremal/discrete geometry.
 - [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj et al.)](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical symmetries in (2+1)d. The artifact that completed the seed-trend promotion — the clearest entry point into a QFT sub-field now worth tracking.
@@ -40,11 +42,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- **ICM 2026 puts AI-in-math on the plenary stage.** Terence Tao's public lecture "Mathematics in the age of AI" ([slides](https://teorth.github.io)) and two AI/ML-theory plenaries in the [ICM 2026 Proceedings](https://epubs.siam.org/doi/book/10.1137/1.9781611978486) — the field's own flagship congress dedicating slots to the wave, not just blog commentary (unverified intake, ecosystem).
-- A capture-leak chase (r/mathematics → MathOverflow → arXiv) surfaced the [claw-free Schur-positivity counterexample](https://arxiv.org/abs/2607.21508) — the sixth concrete AI-assisted arXiv artifact this wave.
-- ICM 2026 (Philadelphia) closes tomorrow, 07-30 — last day of the daily IMU/Fields chase before the lane reverts to weekly cadence.
+- A capture-leak-style catch confirms today's headline: r/mathematics independently surfaced the [claw-free Schur-positivity counterexample](https://arxiv.org/abs/2607.21508) story the same day the third confirming group landed on arXiv.
+- ICM 2026 (Philadelphia) closed today, 07-30 — last day of the daily IMU/Fields chase; the lane reverts to weekly cadence starting next run.
+- arXiv is formalizing a [one-strike suspension policy](https://cerncourier.com/a/arxivs-one-strike-rule-on-ai/) for hallucinatory AI-generated submissions — the field's own primary venue responding to the AI-assisted-math wave tracked here since mid-July.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (69) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-29](reports/2026-07-29.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (71) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-30](reports/2026-07-30.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
