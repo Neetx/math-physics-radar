@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-71-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--30-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-75-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--31-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-29):**
-- **A third independent group refutes the Stanley-Gasharov conjecture:** [Prajapati](https://arxiv.org/abs/2607.26364) and [Wang, Zhang, Zhao](https://arxiv.org/abs/2607.27166) join Matherne-Morales within a single week — three fully independent counterexamples to the ~28-year-old claw-free Schur-positivity conjecture → **promoted to a new seed trend**.
-- **The Maxwell Conjecture is false:** [Arathoon, Ball, Kvalheim](https://arxiv.org/abs/2607.27197) exhibit five point charges whose potential has 24 critical points, refuting Maxwell's ~150-year-old bound — a clean, checkable landmark at the math↔physics interface.
-- The muon g-2 saga gets a new twist: a [Quanta digest](https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/) on lattice-QCD resolving the old theory tension, but a Siberian collider's diverging pion-rate data opens a fresh puzzle — ties to the tracked Breakthrough Prize.
-- Also: [Ramsey goodness of cycles resolved](https://arxiv.org/abs/2607.26956) (Pokrovskiy-Sudakov, via Montgomery's ICM survey); arXiv formalizes a [one-strike AI-content policy](https://cerncourier.com/a/arxivs-one-strike-rule-on-ai/); Ramsey lower-bound trend held dormant.
+**Since last scan (2026-07-31):**
+- **A claimed proof of the Gorenstein Symmetry Conjecture:** [Li](https://arxiv.org/abs/2607.28011) gives a homological proof of a famous long-standing open problem in the representation theory of Artin algebras — unrefereed single-author preprint, provisional until vetted.
+- **Sirakov's equal-frequency uniqueness conjecture resolved:** [Chen, Liu, Wei, Yang](https://arxiv.org/abs/2607.28279) prove uniqueness of the positive solution to the equal-frequency two-component cubic Schrödinger system.
+- A 2009 Gowers-blogpost route to **Littlewood's conjecture** is ruled out: [Broucke, Matolcsi, Révész](https://arxiv.org/abs/2607.27780) give an explicit construction showing the proposed approach cannot work as stated.
+- Also: the [Shannon capacity of C7 lower bound sharpened further](https://arxiv.org/abs/2607.27869) (Gao, building on the 07-24 construction); Ramsey lower-bound trend held dormant; ICM 2026 closed — the daily IMU/Fields chase reverts to weekly cadence.
 
 ## Trends
 
@@ -22,6 +22,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [On a proof of the Gorenstein Symmetry Conjecture (Li)](https://arxiv.org/abs/2607.28011) — a homological proof of a famous long-standing open problem in the representation theory of Artin algebras (one-sided finiteness of the self-injective dimension implies Gorensteinness). Unrefereed single-author preprint → **provisional**; worth watching, not yet a confirmed result.
 - [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim)](https://arxiv.org/abs/2607.27197) — refutes Maxwell's ~150-year-old conjecture on electrostatic critical points via an explicit 5-point-charge configuration with 24 critical points. A clean, classical, checkable landmark — no AI-assistance or unrefereed-extraordinary-claim caveats apply.
 - [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne, Morales)](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free Schur-positivity conjecture and Monical's 2018 saturated-Newton-polytope conjecture via explicit counterexamples found using ChatGPT-5.6 Sol Pro. Unrefereed, AI-assisted → **provisional**; tracked for the result, not the method. Now the seed of its own trend (two independent groups have since corroborated).
 - [Carlsson's Conjecture and the Generalized Total Rank Conjecture in Characteristic Two (VandeBogert)](https://arxiv.org/abs/2607.22844) — resolves Carlsson's conjecture for elementary abelian 2-groups in every rank, a long-standing homological/commutative-algebra open problem, via the generalized total rank conjecture over characteristic-2 regular rings.
@@ -42,11 +43,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- A capture-leak-style catch confirms today's headline: r/mathematics independently surfaced the [claw-free Schur-positivity counterexample](https://arxiv.org/abs/2607.21508) story the same day the third confirming group landed on arXiv.
-- ICM 2026 (Philadelphia) closed today, 07-30 — last day of the daily IMU/Fields chase; the lane reverts to weekly cadence starting next run.
-- arXiv is formalizing a [one-strike suspension policy](https://cerncourier.com/a/arxivs-one-strike-rule-on-ai/) for hallucinatory AI-generated submissions — the field's own primary venue responding to the AI-assisted-math wave tracked here since mid-July.
+- MathOverflow keeps engaging with the standing AI-assisted-math wave: a fresh question asks whether every known higher-dimensional counterexample to the Jacobian Conjecture is a trivial stabilization of the 3-dimensional one.
+- r/math surfaces a "Lean 4 bug found incidentally by AI, 'proving' Collatz" thread — a caught false-proof story, not a result.
+- ICM 2026 (Philadelphia) closed 07-30 — the daily IMU/Fields chase has ended; the lane reverts to weekly cadence.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (71) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-30](reports/2026-07-30.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (75) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-31](reports/2026-07-31.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

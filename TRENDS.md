@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-07-30
+Last updated: 2026-07-31
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -140,6 +140,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     item], "Combinatorial Bounds for Codes over Metric Spaces: Ramsey-Sidorenko Thresholds", etc.; no
     Ramsey-number lower bound, no referee/vetting outcome on the four tracked preprints). Trend HELD
     dormant; 120-day archive line 2026-09-24 unchanged.
+  - 2026-07-31 (daily): fresh math.CO/NT 2026-07-30 batch (187-entry broad-rotation sweep) scanned for
+    Ramsey lower bounds — none (batch held "On a proof of the Gorenstein Symmetry Conjecture", "On
+    Sirakov's equal-frequency uniqueness conjecture", "On a question of Gowers related to Littlewood's
+    conjecture", a follow-up recursive Shannon-capacity-of-C7 construction, etc. — all captured as their
+    own queue items below; no Ramsey-number lower bound, no referee/vetting outcome on the four tracked
+    preprints). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -217,6 +223,35 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-31 — arXiv:2607.28011 — Li, "On a proof of the Gorenstein Symmetry Conjecture" —
+  https://arxiv.org/abs/2607.28011 — representation theory / homological algebra (axis 1, math.RT/RA):
+  gives a homological proof of the Gorenstein Symmetry Conjecture — that one-sided finiteness of the
+  self-injective dimension of an Artin algebra is sufficient for Gorensteinness — a famous, long-standing
+  open problem in the representation theory of Artin algebras. Unrefereed SINGLE-AUTHOR preprint claiming
+  resolution of a named conjecture → PROVISIONAL under the hype-skepticism rule, same footing as the
+  matroid-intersection-conjecture claim (2607.08802, 07-13): NOT a resolved conjecture until independent
+  vetting; track the outcome. Abstract + author verified via arXiv API this session (v1 2026-07-30). Also
+  on `study_shelf` given the conjecture's stature, with the same caveat.
+- 2026-07-31 — arXiv:2607.28279 — Chen, Liu, Wei, Yang, "On Sirakov's equal-frequency uniqueness
+  conjecture" — https://arxiv.org/abs/2607.28279 — analysis / PDE (axis 1, math.AP): proves uniqueness
+  (up to translation) of the positive solution to the equal-frequency two-component cubic Schrödinger
+  system in dimensions 2 and 3 throughout the weak-coupling regime, settling Sirakov's equal-frequency
+  uniqueness conjecture. Abstract + authors verified via arXiv API this session (v1 2026-07-30). Single
+  below-bar resolved-conjecture item.
+- 2026-07-31 — arXiv:2607.27780 — Broucke, Matolcsi, Révész, "On a question of Gowers related to
+  Littlewood's conjecture" — https://arxiv.org/abs/2607.27780 — number theory / Diophantine approximation
+  (axis 1, math.NT): answers, via an explicit construction, a 2009 Gowers-blogpost question about a
+  possible approach to Littlewood's conjecture — showing that approach cannot work without further
+  refinement. A negative result closing off a proposed route to a famous open conjecture. Abstract +
+  authors verified via arXiv API this session (v1 2026-07-30). Single below-bar item.
+- 2026-07-31 — arXiv:2607.27869 — Gao, "A Recursive Construction Improving the Lower Bound on the
+  Shannon Capacity of C7" — https://arxiv.org/abs/2607.27869 — combinatorics / zero-error information
+  theory (axis 1, math.CO): a recursive reformulation/extension of the independent-set construction in
+  arXiv:2607.21517 (Itty, Rosin, Carstensen, Reichman — queued 07-24), combined with a 2019 Polak-Schrijver
+  gadget, giving an explicit independent set in $C_7^{200}$ and improving the lower bound to
+  $Θ(C_7)\ge 3.2587891539\ldots$. A direct follow-up sharpening the already-tracked Shannon-capacity item
+  (does not itself lift any trend). Abstract + author verified via arXiv API this session (v1 2026-07-30).
+  Single below-bar item.
 - 2026-07-29 — arXiv:2607.27197 — Arathoon, Ball, Kvalheim, "The Maxwell Conjecture is False" —
   https://arxiv.org/abs/2607.27197 — mathematical physics / classical electrostatics (axis 2,
   physics.class-ph/math-ph): exhibits a configuration of five point charges in Euclidean space whose
@@ -590,6 +625,13 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-07-31 — [On a proof of the Gorenstein Symmetry Conjecture (Li), arXiv:2607.28011](https://arxiv.org/abs/2607.28011)
+  — a homological proof of the Gorenstein Symmetry Conjecture (one-sided finiteness of the self-injective
+  dimension of an Artin algebra implies Gorensteinness), a famous long-standing open problem in the
+  representation theory of Artin algebras (axis 1, math.RT/RA). Abstract + author verified via arXiv API
+  this session (v1 2026-07-30). HEAVY CAVEAT (hype-skepticism rule): unrefereed SINGLE-AUTHOR preprint
+  claiming resolution of a named conjecture → PROVISIONAL until independent vetting; worth knowing as a
+  claim a representation theorist should watch, not a confirmed result.
 - 2026-07-30 — [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim), arXiv:2607.27197](https://arxiv.org/abs/2607.27197)
   — refutes Maxwell's ~150-year-old conjecture that the electrostatic potential of $n$ point charges
   has at most $(n-1)^2$ non-degenerate critical points, via an explicit 5-point-charge configuration
