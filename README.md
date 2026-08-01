@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-75-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--31-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-62-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--01-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-07-31):**
-- **A claimed proof of the Gorenstein Symmetry Conjecture:** [Li](https://arxiv.org/abs/2607.28011) gives a homological proof of a famous long-standing open problem in the representation theory of Artin algebras — unrefereed single-author preprint, provisional until vetted.
-- **Sirakov's equal-frequency uniqueness conjecture resolved:** [Chen, Liu, Wei, Yang](https://arxiv.org/abs/2607.28279) prove uniqueness of the positive solution to the equal-frequency two-component cubic Schrödinger system.
-- A 2009 Gowers-blogpost route to **Littlewood's conjecture** is ruled out: [Broucke, Matolcsi, Révész](https://arxiv.org/abs/2607.27780) give an explicit construction showing the proposed approach cannot work as stated.
-- Also: the [Shannon capacity of C7 lower bound sharpened further](https://arxiv.org/abs/2607.27869) (Gao, building on the 07-24 construction); Ramsey lower-bound trend held dormant; ICM 2026 closed — the daily IMU/Fields chase reverts to weekly cadence.
+**Since last scan (2026-08-01, weekly recalibration W31):**
+- All three trends **HELD**: [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) stays dormant (66 days quiet, archive line 2026-09-24); [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) both hold at seed — no new independent group this week.
+- Observation queue burned down [75 → 62](TRENDS.md#observation_queue): dropped 13 never-opened title-only RSS batch lines and a superseded toolchain note; every abstract-opened math/physics result was left untouched.
+- Weekly-swept tier (institutes, slow venues, prizes, extra-social — see [`SOURCES.md`](SOURCES.md)) fully swept, 21/21 logged opened or degraded — nothing new on-axis.
+- First monthly self-evaluation retrospective (M08) completed in [`logs/calibration.md`](logs/calibration.md); the W29 cadence-split and off-axis-rotation amendments pass their two-week regression check clean.
 
 ## Trends
 
@@ -44,10 +44,10 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 ## Community pulse
 
 - MathOverflow keeps engaging with the standing AI-assisted-math wave: a fresh question asks whether every known higher-dimensional counterexample to the Jacobian Conjecture is a trivial stabilization of the 3-dimensional one.
-- r/math surfaces a "Lean 4 bug found incidentally by AI, 'proving' Collatz" thread — a caught false-proof story, not a result.
-- ICM 2026 (Philadelphia) closed 07-30 — the daily IMU/Fields chase has ended; the lane reverts to weekly cadence.
+- r/cosmology (weekly-swept sweep) shows routine Q&A and a "first-generation stars vs. black hole" digest-chatter thread — nothing on-axis.
+- ICM 2026 (Philadelphia) closed 07-30 — the daily IMU/Fields chase has ended; this week's weekly-swept sweep confirms no laureates beyond the 07-23 Fields Medals.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (75) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-31](reports/2026-07-31.md)) · weekly: [2026-W30](reports/weekly/2026-W30.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (62) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-07-31](reports/2026-07-31.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
