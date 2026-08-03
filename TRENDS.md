@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-01
+Last updated: 2026-08-03
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -154,6 +154,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     queued, not a lower bound], zero-sum/big-Ramsey-degree notes) — no lower-bound breakthrough. The
     completed-burst read (W28-W30) stands confirmed for a 5th consecutive week. 120-day archive line
     2026-09-24 unchanged; unless a fresh lower-bound primary or referee/vetting outcome appears first.
+  - 2026-08-03 (daily): first daily since 07-31 (weekend gap, expected). Fresh math.CO/NT 2026-07-31
+    batch (123-entry broad-rotation sweep) scanned for Ramsey lower bounds — none (batch held a Lean-
+    verified Shannon-capacity-of-C7 follow-up, the Bolsinov-Konyaev-Matveev integrability conjecture
+    proof, etc.; no Ramsey-number lower bound, no referee/vetting outcome on the four tracked
+    preprints). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged (69 days quiet today).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -187,6 +192,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     recent publications, 2026-07-21→07-31): nothing on non-invertible/categorical symmetries since
     Bhardwaj et al. (07-23). No 4th independent group yet. Confidence held low (still first week as a
     trend; no hype-skepticism caveat applies).
+  - 2026-08-03 (daily): SciPost API rechecked (publications through 2026-07-31, IDs .021-.029) —
+    nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no 4th independent
+    group. Trend HELD seed/low.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -235,10 +243,90 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     this week — arXiv search for fresh Schur-positivity/claw-free items returned only the three
     already-tracked papers plus unrelated claw-free-graph coloring results (packing/chromatic-index),
     not new counterexamples. Confidence held medium (short checkable computations, still unrefereed).
+  - 2026-08-03 (daily): fresh math.CO 2026-07-31 batch scanned for Schur-positivity/claw-free items —
+    none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2025-09-09 (v1; PRR publication undated in the pages opened, accessed 2026-08-03) —
+  arXiv:2509.07745 (Physical Review Research) — Barontini, "Testing the problem of time with cold
+  atoms" — https://arxiv.org/abs/2509.07745 — quantum foundations / quantum gravity interface (axis
+  4/2, quant-ph/gr-qc): the FIRST experimental test of relational-time constructions motivated by the
+  Wheeler-DeWitt "problem of time" — a well-isolated ultracold-atom Bose-Einstein condensate (24,000
+  atoms) split by an optical barrier into observed/unobserved sectors; an entropic "internal time"
+  built from the observed sector's coarse-grained entropy robustly orders events across repeated
+  expansion/recollapse cycles, and an effective Schrödinger equation parameterized by this internal
+  time reproduces the measured dynamics. Original arXiv preprint 2025-09-09 (v1), now published in
+  Physical Review Research and drawing fresh press coverage (Univ. of Birmingham news page, opened via
+  `tvly` this session, dated ~2026-07-09) — abstract verified via arXiv API this session. A
+  landmark-quality FIRST-OF-KIND experimental probe of a central open question in quantum-gravity
+  foundations (domain-cadence landmark-single-result note) — single-group so far; watch for
+  independent replication. Also on `study_shelf`.
+- 2026-07-01 — Nature Communications s41467-026-74935-8 — Wei, Zhai, Lu et al., "The Riemann
+  Hypothesis manifested in dynamical quantum phase transitions" —
+  https://www.nature.com/articles/s41467-026-74935-8 — math↔physics interface (axis 2/4,
+  math-ph/quant-ph, peer-reviewed, published 2026-07-01): establishes a direct correspondence between
+  the nontrivial zeros of the Riemann zeta function and dynamical quantum phase transitions in two
+  engineered quantum many-body systems (average accumulated phase factor + Loschmidt amplitude), via
+  a Riemann-based Hamiltonian construction. Abstract + publication metadata opened via `tvly` this
+  session (received 2025-12-23, accepted 2026-06-18, published 2026-07-01). A genuinely novel
+  RH↔physics correspondence — track for follow-up (does it offer a new verification/search strategy
+  for RH zeros, or independent replication of the quantum-simulation claim). Also on `study_shelf`.
+- 2026-07-31 — arXiv:2607.29681 — "Lean-verified lower bounds for the Shannon capacity of odd
+  cycles" — https://arxiv.org/abs/2607.29681 — combinatorics / formalized math (axis 1/5, math.CO):
+  a machine-checked (Lean 4) formalization of the lower-bound constructions for the Shannon capacity
+  of C7/C11/C13, directly following the already-tracked Shannon-capacity thread (2607.21517 queued
+  07-24, 2607.27869 queued 07-31). Title/abstract via arXiv API this session (v1 2026-07-31). Below-
+  bar follow-up, but notable for axis 5: a formal-proof artifact attached to a live combinatorics
+  result, not just a proof-assistant toolchain bump.
+- 2026-08-01 — leodemoura.github.io — Leonardo de Moura (Lean FRO chief architect), "Postmortem for
+  Kernel Soundness Bug #14576" — https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576
+  — formal-proof toolchain integrity (axis 5, computer-assisted math): a soundness bug in the Lean 4
+  KERNEL itself (phantom parameters in nested-inductive-type elimination escaping type checking,
+  reachable only via metaprogramming, letting an ill-typed argument produce a proof of `False`),
+  reported and fixed the week of 2026-07-27; independently surfaced (not caused) an earlier r/math
+  "AI incidentally 'proves' Collatz via a Lean bug" story (noted, not queued, ~07-25). Blog opened via
+  `tvly` this session — the closest primary technical disclosure available (the tool's own chief
+  architect; Lean itself does not publish papers on internal bugs). A significant integrity event for
+  the formalized-math ecosystem this radar tracks (axis 5): independent-kernel re-checking still holds
+  (two distinct implementations both needed a bug), but flags that a single-kernel Lean proof is not
+  automatically airtight. Not AI-method tracking (sibling AI radars' beat) — captured for the
+  toolchain-integrity RESULT.
+- 2026-07-29/07-31 — DESI dynamical-dark-energy saga, TWO new primaries this cycle (axis 3,
+  gr-qc/astro-ph.CO): (i) arXiv:2607.27410 — DESI collaboration, "DESI DR2 Results IV:
+  Alcock-Paczyński Measurements from the Lyman Alpha Forest and Cosmological Constraints" —
+  https://arxiv.org/abs/2607.27410 — a fresh DESI collaboration Key Paper (also covered on the DESI
+  news page, opened via `tvly` this session): 1%-precision AP constraint at z=2.33 (2× tighter than
+  the same-data BAO), Ω_m=0.325±0.018 (1.4σ above DESI BAO), slightly REDUCES the DESI-vs-CMB tension
+  (2.4σ→2.2σ), and finds the w0-wa dynamical-dark-energy model preferred over ΛCDM at 2.7σ
+  (DESI+CMB) / 3.2σ (+supernovae) — a continuing, not yet 5σ-confirmed, anomaly (extraordinary-claim
+  caution applies). Abstract verified via arXiv API this session (v1/v2, 2026-07-29). (ii)
+  arXiv:2607.28918 — Kim, Mota, Tamosiunas, "A Sequentially-Valid Reanalysis of DESI's Dynamical Dark
+  Energy Signal" — https://arxiv.org/abs/2607.28918 — an independent statistical critique using an
+  anytime-valid e-process (controls false-detection under repeated DR1→DR2→... looks): the DESI
+  dynamical-dark-energy signal is concentrated almost entirely in the LRG2 redshift bin and does NOT
+  survive a look-elsewhere correction across all seven bins — "a fragile, single-bin,
+  specification-dependent signal rather than robust evidence." Abstract verified via arXiv API this
+  session (v1 2026-07-31). Directly the kind of VETTING OUTCOME the hard rules ask this radar to
+  track on an extraordinary claim — the two primaries together update, not resolve, the standing DESI
+  saga (H₀-World-Cup / late-time-anomaly queue thread, 07-15/07-16).
+- 2026-07-27 — arXiv:2607.29373 — "Haantjes torsion and integrability: a proof of
+  Bolsinov-Konyaev-Matveev's conjecture" — https://arxiv.org/abs/2607.29373 — integrable systems /
+  differential geometry (axis 1/2, math.DG cross-listed nlin.SI): resolves the Bolsinov-Konyaev-Matveev
+  conjecture relating Haantjes torsion to integrability of geodesic flows / natural Hamiltonian
+  systems. Abstract opened via arXiv API this session (v1 2026-07-31). Single below-bar resolved-
+  conjecture item.
+- 2026-07-29 — Nature Communications s41467-026-75023-7 — Moritake, Takiguchi, Aihara et al.,
+  "Chiral diffraction from aperiodic monotile structure" —
+  https://www.nature.com/articles/s41467-026-75023-7 — math↔physics interface (axis 1/2, discrete
+  geometry / optics, peer-reviewed, published 2026-07-29): a physical (photonic/optical) realization
+  of the 2023 "einstein"/"hat" aperiodic monotile — a chiral (mirror-symmetry-breaking) quasiperiodic
+  structure built from the monotile tiling shows genuine chiral diffraction (pinwheel-like Bragg
+  patterns, circular-polarization dependence) absent in conventional quasicrystals. Full article page
+  opened via `tvly extract` this session (received 2025-11-11, accepted 2026-06-18, published
+  2026-07-29). Closes the 07-25-era r/math pointer ("Math's acclaimed 'einstein tile' finds a new home
+  among physicists") that had sat un-chased since. Below-bar math↔physics-interface item.
 - 2026-07-31 — arXiv:2607.28011 — Li, "On a proof of the Gorenstein Symmetry Conjecture" —
   https://arxiv.org/abs/2607.28011 — representation theory / homological algebra (axis 1, math.RT/RA):
   gives a homological proof of the Gorenstein Symmetry Conjecture — that one-sided finiteness of the
@@ -682,6 +770,25 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2025-09-09 — [Testing the problem of time with cold atoms (Barontini), arXiv:2509.07745](https://arxiv.org/abs/2509.07745)
+  — the FIRST experimental test of relational-time constructions motivated by the Wheeler-DeWitt
+  "problem of time": an isolated ultracold-atom Bose-Einstein condensate (24,000 atoms) split into
+  observed/unobserved sectors yields an entropic "internal time" that robustly orders events across
+  repeated expansion/recollapse cycles, with an effective Schrödinger equation in that internal time
+  reproducing the measured dynamics (axis 4, quantum foundations / quantum-gravity interface).
+  Original preprint 2025-09-09, now published in Physical Review Research and freshly covered by the
+  University of Birmingham (opened via `tvly` this session, ~2026-07-09). A landmark-quality
+  first-of-kind experimental probe of a central open question in quantum-gravity foundations that a
+  physicist should know — single group so far, watch for independent replication.
+- 2026-07-01 — [The Riemann Hypothesis manifested in dynamical quantum phase transitions (Wei, Zhai,
+  Lu et al.), Nature Communications s41467-026-74935-8](https://www.nature.com/articles/s41467-026-74935-8)
+  — establishes a direct correspondence between the nontrivial zeros of the Riemann zeta function and
+  dynamical quantum phase transitions in two engineered quantum many-body systems, via a Riemann-based
+  Hamiltonian construction (axis 2/4, math-ph/quant-ph, peer-reviewed). Abstract + publication
+  metadata opened via `tvly` this session (received 2025-12-23, accepted 2026-06-18, published
+  2026-07-01). A genuinely novel RH↔physics correspondence worth knowing at the math↔physics
+  interface — track for follow-up (a new zero-search/verification strategy, or independent
+  replication of the quantum-simulation claim).
 - 2026-07-31 — [On a proof of the Gorenstein Symmetry Conjecture (Li), arXiv:2607.28011](https://arxiv.org/abs/2607.28011)
   — a homological proof of the Gorenstein Symmetry Conjecture (one-sided finiteness of the self-injective
   dimension of an Artin algebra implies Gorensteinness), a famous long-standing open problem in the

@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-62-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--01-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-69-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--03-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-01, weekly recalibration W31):**
-- All three trends **HELD**: [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) stays dormant (66 days quiet, archive line 2026-09-24); [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) both hold at seed — no new independent group this week.
-- Observation queue burned down [75 → 62](TRENDS.md#observation_queue): dropped 13 never-opened title-only RSS batch lines and a superseded toolchain note; every abstract-opened math/physics result was left untouched.
-- Weekly-swept tier (institutes, slow venues, prizes, extra-social — see [`SOURCES.md`](SOURCES.md)) fully swept, 21/21 logged opened or degraded — nothing new on-axis.
-- First monthly self-evaluation retrospective (M08) completed in [`logs/calibration.md`](logs/calibration.md); the W29 cadence-split and off-axis-rotation amendments pass their two-week regression check clean.
+**Since last scan (2026-08-03):**
+- Two landmark **study-shelf** additions: the first experimental test of the Wheeler-DeWitt [problem of time using ultracold atoms](https://arxiv.org/abs/2509.07745), and a Nature Communications paper linking [Riemann Hypothesis zeros to quantum phase transitions](https://www.nature.com/articles/s41467-026-74935-8).
+- DESI's dynamical-dark-energy saga gets two new primaries: a fresh [DR2 Lyman-alpha Key Paper](https://arxiv.org/abs/2607.27410) (w0-wa preferred at 2.7-3.2σ, CMB tension eases to 2.2σ) and an independent [statistical reanalysis](https://arxiv.org/abs/2607.28918) finding the signal concentrated in one fragile redshift bin.
+- All three trends **HELD**: [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) stays dormant (69 days quiet, archive line 2026-09-24); [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) both hold at seed — no new independent group.
+- Observation queue [62 → 69](TRENDS.md#observation_queue) (+7); a Lean **kernel soundness bug** ([postmortem](https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576)) and a physical realization of the ["einstein tile"](https://www.nature.com/articles/s41467-026-75023-7) also queued.
 
 ## Trends
 
@@ -22,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Testing the problem of time with cold atoms (Barontini)](https://arxiv.org/abs/2509.07745) — the first experimental test of relational-time constructions motivated by the Wheeler-DeWitt "problem of time": an isolated 24,000-atom Bose-Einstein condensate yields an entropic "internal time" that robustly orders events across expansion/recollapse cycles. A landmark first-of-kind quantum-gravity-foundations experiment; single group so far.
+- [The Riemann Hypothesis manifested in dynamical quantum phase transitions (Wei, Zhai, Lu et al.)](https://www.nature.com/articles/s41467-026-74935-8) — a peer-reviewed Nature Communications paper establishing a direct correspondence between Riemann zeta zeros and dynamical quantum phase transitions in engineered quantum many-body systems, via a Riemann-based Hamiltonian.
 - [On a proof of the Gorenstein Symmetry Conjecture (Li)](https://arxiv.org/abs/2607.28011) — a homological proof of a famous long-standing open problem in the representation theory of Artin algebras (one-sided finiteness of the self-injective dimension implies Gorensteinness). Unrefereed single-author preprint → **provisional**; worth watching, not yet a confirmed result.
 - [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim)](https://arxiv.org/abs/2607.27197) — refutes Maxwell's ~150-year-old conjecture on electrostatic critical points via an explicit 5-point-charge configuration with 24 critical points. A clean, classical, checkable landmark — no AI-assistance or unrefereed-extraordinary-claim caveats apply.
 - [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne, Morales)](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free Schur-positivity conjecture and Monical's 2018 saturated-Newton-polytope conjecture via explicit counterexamples found using ChatGPT-5.6 Sol Pro. Unrefereed, AI-assisted → **provisional**; tracked for the result, not the method. Now the seed of its own trend (two independent groups have since corroborated).
@@ -43,11 +45,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- MathOverflow keeps engaging with the standing AI-assisted-math wave: a fresh question asks whether every known higher-dimensional counterexample to the Jacobian Conjecture is a trivial stabilization of the 3-dimensional one.
-- r/cosmology (weekly-swept sweep) shows routine Q&A and a "first-generation stars vs. black hole" digest-chatter thread — nothing on-axis.
-- ICM 2026 (Philadelphia) closed 07-30 — the daily IMU/Fields chase has ended; this week's weekly-swept sweep confirms no laureates beyond the 07-23 Fields Medals.
+- r/math surfaced Leonardo de Moura's own postmortem of a Lean kernel soundness bug (#14576, found and fixed the week of 07-27) — a notable integrity moment for the formalized-math toolchain, now queued.
+- Sabine Hossenfelder's Backreaction pointed to the cold-atom "problem of time" experiment, now on the study shelf; Gil Kalai's blog carries an ICM 2026 recap plus "The Ramanujan Challenge for AI."
+- MathOverflow keeps engaging with the standing AI-assisted-math wave; Gowers posted on a recent ChatGPT 5.5 Pro experience — community chatter, not evidence.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (62) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-07-31](reports/2026-07-31.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (69) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-03](reports/2026-08-03.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
