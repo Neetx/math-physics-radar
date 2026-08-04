@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-03
+Last updated: 2026-08-04
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -10,7 +10,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 ## Active trends
 
 ### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
-- stage: dormant | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-05-27
+- stage: emerging | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-08-03
 - what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
   decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
   graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
@@ -22,6 +22,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-04-27 — https://arxiv.org/abs/2604.23986 — Du, Hu, Liu, Wang, "A double-exponential lower bound for r₄(5,n)": hypergraph Ramsey, r₄(5,n) ≥ 2^{2^{cn^{1/7}}} (abstract via arXiv API this session).
   - 2026-05-25 — https://arxiv.org/abs/2605.25843 — Lin, Niu, "Sharper Ramsey lower bounds from refined Gaussian estimates": sharpens the Ma–Shen–Xie off-diagonal bound (abstract via arXiv/tvly this session).
   - 2026-05-27 — https://arxiv.org/abs/2605.28793 — Bradač, "Off-diagonal Ramsey numbers": r(s,k) ≥ Ω(k^{s-1}/(log k)^{2s-4}), matching Erdős–Szekeres up to polylog, improving Spencer 1977 (abstract via arXiv API this session).
+  - 2026-08-03 — https://arxiv.org/abs/2608.02537 — Steiner, "Multicolor Ramsey numbers of odd cycles are superexponential": extends a claimed OpenAI-model ("Astra") superexponential k-color triangle Ramsey lower bound (R_k(3)=k^Θ(k), OpenAI's "Ten Advances" announcement, queued below) to multicolor Ramsey numbers of fixed odd cycles, R_k(O_p) ≥ (log^{(p-1)}k)^{k/3-o(k)} for every fixed p (abstract + author via arXiv API this session, v1 2026-08-03).
 - notes: ≥4 independent author groups on one sub-theme (Ma–Shen–Xie; Bradač; Du–Hu–Liu–Wang; Lin–Niu) + concrete artifacts → clears the trend bar. Community framing: Quanta ("Erdős method upgrade", 2026-06-26) and Gil Kalai / Sam Mattheus blogs ("a sensational Ramsey breakthrough by Bradač"). Ma–Shen–Xie also on `study_shelf`. Watch for referee outcomes and whether the diagonal r(k,k) barrier is next.
   - 2026-W27 recalibration: HELD at emerging/medium. All 4 evidence items predate the trend's
     creation (latest 2026-05-27, ~5–6 weeks old) — a backlog cluster caught at creation, not fresh
@@ -159,6 +160,21 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     verified Shannon-capacity-of-C7 follow-up, the Bolsinov-Konyaev-Matveev integrability conjecture
     proof, etc.; no Ramsey-number lower bound, no referee/vetting outcome on the four tracked
     preprints). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged (69 days quiet today).
+  - 2026-08-04 (daily, REACTIVATION): dormant → emerging. A fresh math.CO broad-rotation batch
+    (2026-08-01→08-03, ~200 entries) surfaced arXiv:2608.02537 (Steiner, "Multicolor Ramsey numbers
+    of odd cycles are superexponential") — a fresh, INDEPENDENT, ON-ARXIV Ramsey-NUMBER LOWER-BOUND
+    primary, satisfying the standing W28 reactivation criterion ("a fresh Ramsey lower-bound primary
+    ... reactivates it"). CONTEXT (caution warranted): Steiner's construction is a modification of a
+    claimed result from an unreleased OpenAI model ("Astra"), announced 2026-08-01 in "Ten Advances in
+    Mathematics and Theoretical Computer Science" (queued below as its own item), that R_k(3)=k^Θ(k)
+    (resolving Erdős problem 183) — Steiner extends this to multicolor odd-cycle Ramsey numbers. Steiner's
+    own paper is independently human-authored, peer-reviewable, and citable as a primary in its own right,
+    but it explicitly assumes/builds on the correctness of the underlying OFF-ARXIV, UNREFEREED,
+    AI-GENERATED base construction — so the reactivation is genuine (a real independent lower-bound
+    contribution) but the confidence caveat is now DOUBLED: unrefereed-preprint caution on Steiner's own
+    result, plus dependence on an unvetted AI-generated base result. Confidence HELD medium (not raised).
+    5th independent author/group on the sub-theme (after Ma–Shen–Xie, Bradač, Du–Hu–Liu–Wang, Lin–Niu).
+    New 60-day dormancy re-check: 2026-10-02.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -249,6 +265,91 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-01 — OpenAI, "Ten Advances in Mathematics and Theoretical Computer Science" (internal,
+  unreleased model "Astra") — https://openai.com/index/ten-advances-in-mathematics/ ·
+  https://cdn.openai.com/pdf/ten-proofs-oai.pdf — AI-assisted math WATCH-area cluster (WATCH per
+  scope: track the RESULTS, not the AI method — sibling AI radars' beat), spanning axes 1/2/4/5:
+  claimed new results on TEN long-standing open problems (each untouched on its main result for
+  ≥10 years, several far older), reportedly for under $2,000 of inference cost each; OpenAI states
+  it "takes responsibility for" the Lean-formalized portions while the mathematical arguments were
+  AI-generated. The ten: (1) exact asymptotic strength of the Cohn–Elkies sphere-packing linear
+  program + asymptotic resolution of the Fourier sign-uncertainty problem; (2) exponential-factor
+  improvements to classical fixed-distance binary/spherical code upper bounds; (3) an explicit
+  NON-SOFIC group (unit group of the binary Leavitt algebra), resolving whether every countable
+  group admits finite permutation approximations; (4) a DISPROOF of **Connes's rigidity
+  conjecture** (infinitely many pairwise nonisomorphic property-(T) groups sharing one group von
+  Neumann algebra) — a landmark-tier claim in operator-algebra theory; (5) arithmetic-circuit
+  lower bounds for the permanent; (6) exponential parallel repetition for entangled two-player
+  quantum games; (7) an n^{1/400}-hardness reduction for the closest vector problem; (8) a proof
+  of Ehrhart's volume conjecture ((n+1)^n/n! bound, every dimension); (9) a superexponential
+  multicolor-triangle-Ramsey lower bound R_k(3)=k^Θ(k), resolving Erdős problem 183 (SEE the
+  reactivated Ramsey-lower-bound trend above — Steiner's arXiv:2608.02537 already builds on this
+  same day); (10) two Erdős-type extremal-graph-theory conjectures (a compactness conjecture of
+  Erdős–Simonovits, a degeneracy conjecture of Erdős) disproved via bipartite constructions.
+  Official openai.com publication page (dated 2026-08-01) + the full technical PDF both opened via
+  `tvly` this session (primary, insofar as a corporate research publication counts as the primary
+  disclosure — no arXiv listing located for the OpenAI paper itself, the same off-arXiv pattern as
+  the Cycle-Double-Cover proof). HEAVY HYPE-SKEPTICISM CAUTION: ten simultaneous claimed
+  resolutions of major problems from a single unreleased, unrefereed AI system is the most
+  extraordinary claim this radar has tracked to date — PROVISIONAL across the board until
+  independent expert vetting of EACH result; track outcomes individually, a correct result on one
+  problem does not imply correctness on the others. FIRST INDEPENDENT ENGAGEMENT already same-day:
+  arXiv:2608.02025 (Francesco Fournier-Facio, "A torsion-free non-sofic group") constructs a
+  DIFFERENT explicit non-sofic-group example "relying on the same technical criterion" as OpenAI's
+  result (3) — an independent human mathematician engaging constructively (a vetting SIGNAL on
+  result 3, not an outcome; abstract + author verified via arXiv API this session, v1 2026-08-03).
+  Community-pulse corroboration (intake, not evidence): the OpenAI announcement topped both r/math
+  and the Hacker News front page this session; Quanta's "Why the Legendary Erdős Problems Are
+  Falling to AI" (Konstantin Kakaes, 2026-08-03, opened via `tvly` this session) frames this
+  alongside the May 20 2026 Erdős unit-distance-conjecture counterexample (also OpenAI, not
+  previously captured on this ledger — noted for context, not backfilled) as a "phase transition,"
+  quoting Noga Alon that AI models are "changing dramatically the way mathematical research is
+  being done." Also on `study_shelf` given the scale of the story, same heavy caveats. Watch for:
+  individual on-arXiv treatments of each of the ten results (as with the Jacobian-conjecture/CDC
+  pattern), any referee/vetting outcome, and whether the Connes's-rigidity-conjecture disproof
+  draws independent confirmation — that alone would be a standalone landmark if it survives
+  scrutiny.
+- 2026-08-03 — arXiv:2608.01579 — Colbrook, Stepaniants, "A computer-assisted counterexample to
+  the planar Pompeiu and Schiffer conjectures" — https://arxiv.org/abs/2608.01579 — analysis /
+  spectral geometry (axis 1, math.AP/CA): constructs a bounded, simply-connected, noncircular
+  planar domain with real-analytic Jordan boundary supporting a Neumann eigenfunction constant on
+  the boundary — a rigorous, computer-assisted counterexample to BOTH the 1929 planar Pompeiu
+  problem and the associated Schiffer conjecture (a ~97-year-old pair of rigidity questions
+  linking rigid-motion integral transforms and overdetermined Neumann eigenvalue problems).
+  Abstract + authors verified via arXiv API this session (v1 2026-08-02). A landmark refutation of
+  two classical named conjectures via a clean, verifiable computer-assisted construction (the same
+  growing pattern as Kuperberg's six-cylinder conjecture and the Balanced Four-Color Theorem,
+  already on `study_shelf`) — NOT AI-generated (standard rigorous numerics), so no AI-watch caveat
+  beyond the usual unrefereed-preprint note. Also on `study_shelf`.
+- 2026-08-01 — arXiv:2608.00802 — Frank, Ivanisvili, "Counterexamples to the Landis conjecture in
+  dimensions three and higher" — https://arxiv.org/abs/2608.00802 — analysis / PDE (axis 1,
+  math.AP/CA): constructs, in every dimension ≥3, a nonzero solution of the stationary Schrödinger
+  equation with a bounded real potential decaying like exp(-c|x|^{4/3}), refuting the Landis
+  conjecture (1963) in dimension ≥3 (previously known false in dimension 2 via Meshkov's
+  construction; the higher-dimensional case had stood open for decades). Abstract + authors
+  verified via arXiv API this session (v1 2026-07-31). A landmark resolution, via refutation, of a
+  long-open case of a classical unique-continuation conjecture, by leading analysts.
+- 2026-08-01 — arXiv:2608.01754 — Grechkoseeva, Staroletov, Vasil'ev, "The problem of recognition
+  of finite simple groups by element orders is solved" — https://arxiv.org/abs/2608.01754 — group
+  theory (axis 1, math.GR): completes a decades-long classification program, determining for every
+  finite simple group G the number h(G) of pairwise-nonisomorphic finite groups sharing G's set of
+  element orders (and listing them when finite) — closing the "recognition problem" for ALL finite
+  simple groups. Abstract + authors verified via arXiv API this session (v1 2026-07-31). A capstone
+  landmark completing a long-running research program (below the multi-group convergence bar but a
+  clear domain-cadence landmark).
+- 2026-08-02 — arXiv:2608.01424 — Slote, "Dense Hamiltonians at the Parseval Limit: The
+  Noncommutative BH Constant is Exponential and the Quantum FEI Conjecture is False" —
+  https://arxiv.org/abs/2608.01424 — quantum information / operator theory (axis 4,
+  quant-ph/math.FA): constructs Pauli-dense Hermitian operators showing the noncommutative
+  Bohnenblust–Hille constant grows exponentially, refuting the Quantum Fourier Entropy-Influence
+  (FEI) conjecture. Abstract opened via arXiv API this session (v1 2026-08-01). Single below-bar
+  refuted-conjecture item at the quantum-information/analysis interface.
+- 2026-08-01 — arXiv:2608.01404 — Castillo, "A proof of the Szegő conjecture on Jacobi extrema" —
+  https://arxiv.org/abs/2608.01404 — special functions / orthogonal polynomials (axis 1, math.CA):
+  proves a 1975 Szegő conjecture on the ordering of normalised moduli at extrema of Jacobi
+  polynomials (recorded in Szegő's classic monograph), extended beyond the original parameter
+  restriction. Abstract opened via arXiv API this session (v1 2026-07-31). Single below-bar
+  resolved-conjecture item.
 - 2025-09-09 (v1; PRR publication undated in the pages opened, accessed 2026-08-03) —
   arXiv:2509.07745 (Physical Review Research) — Barontini, "Testing the problem of time with cold
   atoms" — https://arxiv.org/abs/2509.07745 — quantum foundations / quantum gravity interface (axis
@@ -770,6 +871,25 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-01 — [OpenAI's "Ten Advances in Mathematics and Theoretical Computer Science" (internal
+  model "Astra")](https://openai.com/index/ten-advances-in-mathematics/) — an unreleased OpenAI
+  model claims new results on ten long-standing open problems in one release: a disproof of
+  Connes's rigidity conjecture, an explicit non-sofic group, a superexponential multicolor-Ramsey
+  lower bound (resolving Erdős problem 183 — see the reactivated Ramsey trend), a proof of
+  Ehrhart's volume conjecture, and six more spanning sphere packing, coding theory, circuit
+  complexity, quantum parallel repetition, lattice cryptography and extremal graph theory. Official
+  publication page + full technical PDF (cdn.openai.com/pdf/ten-proofs-oai.pdf) opened this session
+  (dated 2026-08-01). HEAVY CAVEATS (hype-skepticism + AI-watch rules): unrefereed, AI-generated,
+  off-arXiv — the single most extraordinary claim this radar has tracked, PROVISIONAL on every one
+  of the ten results until independent vetting; worth knowing as the story every mathematician is
+  discussing this week (topped r/math and Hacker News), not as confirmed mathematics.
+- 2026-08-02 — [A computer-assisted counterexample to the planar Pompeiu and Schiffer conjectures
+  (Colbrook, Stepaniants), arXiv:2608.01579](https://arxiv.org/abs/2608.01579) — refutes both the
+  1929 planar Pompeiu problem and the associated Schiffer conjecture via an explicit noncircular
+  domain supporting a boundary-constant Neumann eigenfunction (axis 1, analysis/spectral geometry).
+  Abstract + authors verified via arXiv API this session (v1 2026-08-02). A clean, non-AI,
+  computer-assisted refutation of two classical ~97-year-old conjectures — the same rigorous
+  computer-assisted-proof pattern as Kuperberg's six-cylinder conjecture, already on this shelf.
 - 2025-09-09 — [Testing the problem of time with cold atoms (Barontini), arXiv:2509.07745](https://arxiv.org/abs/2509.07745)
   — the FIRST experimental test of relational-time constructions motivated by the Wheeler-DeWitt
   "problem of time": an isolated ultracold-atom Bose-Einstein condensate (24,000 atoms) split into
