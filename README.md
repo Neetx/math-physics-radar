@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-75-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--04-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-85-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--05-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-04):**
-- **OpenAI's unreleased "Astra" model claims ten advances** across math and TCS in one release — including a disproof of Connes's rigidity conjecture and a superexponential multicolor-Ramsey lower bound — the biggest, and most extraordinary, single AI-assisted-math story tracked here yet; now on the [watchlist](TRENDS.md#observation_queue) and the study shelf, heavily caveated as unrefereed.
-- [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) **REACTIVATED** dormant → emerging: [Steiner's multicolor odd-cycle result](https://arxiv.org/abs/2608.02537) extends OpenAI's claimed triangle-Ramsey bound, a 5th independent group on the sub-theme.
-- Two more landmark **study-shelf** additions: a [computer-assisted refutation](https://arxiv.org/abs/2608.01579) of both the 1929 Pompeiu problem and the Schiffer conjecture, and [counterexamples to the Landis conjecture](https://arxiv.org/abs/2608.00802) in dimension ≥3 by Frank & Ivanisvili.
-- [Non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) both HELD at seed. Observation queue [69 → 75](TRENDS.md#observation_queue) (+6); the finite-simple-groups recognition problem and a Quantum FEI-conjecture refutation also queued.
+**Since last scan (2026-08-05):**
+- A landmark-dense math batch: **[Crouzeix's conjecture solved](https://arxiv.org/abs/2608.03841)** (Lorist, Schwenninger) and **[the period-index conjecture refuted](https://arxiv.org/abs/2608.03684)** (Perry) — both now on the study shelf.
+- More same-day landmarks queued: [counterexamples to the second/third Zassenhaus conjectures](TRENDS.md#observation_queue), two independent [Kourovka Notebook problems resolved](TRENDS.md#observation_queue), and an extraordinary (heavily provisional) claim that [unirationality = rational connectedness in characteristic zero](TRENDS.md#observation_queue).
+- The standing AI-assisted-math wave gets another entry: a [klt pair with infinitely generated canonical ring](https://arxiv.org/abs/2608.03258), explicitly credited to a multi-model AI combination (GPT-5.6-sol-ultra, Fable 5, Danus).
+- No stage moves — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) all HELD. Observation queue [75 → 85](TRENDS.md#observation_queue) (+10).
 
 ## Trends
 
@@ -22,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [A solution to Crouzeix's conjecture (Lorist, Schwenninger)](https://arxiv.org/abs/2608.03841) — proves a famous ~two-decade-old operator/matrix-theory conjecture ($\|f(A)\|\le 2\sup_{z\in W(A)}|f(z)|$ over the numerical range), building incrementally on the authors' own prior partial results. Unrefereed but a benchmark conjecture every operator theorist has tried.
+- [The period-index conjecture is false (Perry)](https://arxiv.org/abs/2608.03684) — constructs, for every dimension ≥3, a variety with a Brauer class violating the period-index conjecture (already false over $\overline{\mathbf Q}$) — a landmark refutation of a foundational open problem on Brauer groups.
 - [OpenAI's "Ten Advances in Mathematics and Theoretical Computer Science" (internal model "Astra")](https://openai.com/index/ten-advances-in-mathematics/) — an unreleased OpenAI model claims new results on ten long-standing open problems in one release: a disproof of Connes's rigidity conjecture, an explicit non-sofic group, a superexponential multicolor-Ramsey lower bound (Erdős problem 183), a proof of Ehrhart's volume conjecture, and six more spanning sphere packing, coding theory, circuit complexity, quantum parallel repetition, lattice cryptography and extremal graph theory. **Heavily provisional** — unrefereed, AI-generated, off-arXiv; the most extraordinary claim this radar has tracked, worth knowing as this week's story, not as confirmed mathematics.
 - [A computer-assisted counterexample to the planar Pompeiu and Schiffer conjectures (Colbrook, Stepaniants)](https://arxiv.org/abs/2608.01579) — refutes both the 1929 planar Pompeiu problem and the Schiffer conjecture via an explicit noncircular domain with a boundary-constant Neumann eigenfunction. A clean, non-AI, computer-assisted refutation of two ~97-year-old conjectures.
 - [Counterexamples to the Landis conjecture in dimensions three and higher (Frank, Ivanisvili)](https://arxiv.org/abs/2608.00802) — refutes the 1963 Landis conjecture in every dimension ≥3 via an explicit slowly-decaying Schrödinger solution, closing a decades-open case by leading analysts.
@@ -48,11 +50,10 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- The OpenAI "Ten Advances" announcement topped both r/math and the Hacker News front page this session — the field's own attention signal for the biggest AI-assisted-math story yet.
-- r/math is also discussing "Further implications of non-sofic groups," tracking the same-day independent human construction that engages with OpenAI's non-sofic-group claim.
-- Quanta's "Why the Legendary Erdős Problems Are Falling to AI" frames the wave as a possible phase transition in mathematical practice, quoting Noga Alon — community/press framing, not evidence.
+- Sabine Hossenfelder's Backreaction covered the already-tracked "problem of time" cold-atom experiment (study shelf), a skeptic taking it seriously after reading the paper.
+- r/math and r/mathematics were unreachable this session (recurring rate-limit); Hacker News' front page carried no on-axis math/physics story today.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (75) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-04](reports/2026-08-04.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (85) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-05](reports/2026-08-05.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

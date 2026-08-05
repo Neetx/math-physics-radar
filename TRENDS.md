@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-04
+Last updated: 2026-08-05
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -175,6 +175,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     result, plus dependence on an unvetted AI-generated base result. Confidence HELD medium (not raised).
     5th independent author/group on the sub-theme (after Ma–Shen–Xie, Bradač, Du–Hu–Liu–Wang, Lin–Niu).
     New 60-day dormancy re-check: 2026-10-02.
+  - 2026-08-05 (daily): fresh math.CO/GR/AG broad-rotation batch (2026-08-04, ~133 math entries)
+    scanned for Ramsey lower bounds — none (batch was dominated by a rich cluster of OTHER
+    landmark items — the period-index conjecture refutation, Crouzeix's conjecture, Zassenhaus-
+    conjecture counterexamples, two Kourovka Notebook resolutions, all captured below — plus
+    "Refined upper bounds on Schur-like numbers" [2608.03661], Ramsey-ADJACENT but an UPPER bound,
+    not a lower bound → own queue item, does not reactivate/feed this trend). No Ramsey-number
+    lower bound, no referee/vetting outcome on the five tracked preprints. Trend HELD emerging;
+    60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -211,6 +219,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-03 (daily): SciPost API rechecked (publications through 2026-07-31, IDs .021-.029) —
     nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no 4th independent
     group. Trend HELD seed/low.
+  - 2026-08-05 (daily): SciPost API rechecked (through SciPostPhys.21.2.031 / SciPostPhysCore.9.3.045,
+    2026-08-03) — nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no
+    4th independent group. Trend HELD seed/low.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -261,10 +272,96 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     not new counterexamples. Confidence held medium (short checkable computations, still unrefereed).
   - 2026-08-03 (daily): fresh math.CO 2026-07-31 batch scanned for Schur-positivity/claw-free items —
     none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
+  - 2026-08-05 (daily): fresh math.CO 2026-08-04 batch scanned for Schur-positivity/claw-free items —
+    none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-04 — arXiv:2608.03684 — Perry, "The period-index conjecture is false" —
+  https://arxiv.org/abs/2608.03684 — algebraic geometry (axis 1, math.AG): for every uncountable
+  algebraically closed field $k$ of characteristic 0 and every $d\ge 3$, constructs a $d$-dimensional
+  variety over $k$ with a Brauer class violating the period-index conjecture (a foundational open
+  problem on the relation between the period and index of Brauer classes) for Hodge-theoretic reasons;
+  for $d=3$ the construction works without the uncountability hypothesis, so the conjecture already
+  fails over $\overline{\mathbf{Q}}$. Abstract + author verified via arXiv API this session (v1
+  2026-08-04). A landmark refutation of a long-standing named conjecture in algebraic geometry. Also
+  on `study_shelf`.
+- 2026-08-04 — arXiv:2608.03841 — Lorist, Schwenninger, "A solution to Crouzeix's conjecture" —
+  https://arxiv.org/abs/2608.03841 — operator theory / matrix analysis (axis 1, math.FA): proves
+  Crouzeix's 2004 conjecture — that $\|f(A)\|\le 2\sup_{z\in W(A)}|f(A)|$ for every square matrix $A$
+  and polynomial $f$, where $W(A)$ is the numerical range — by combining machinery previously
+  developed for weaker bounds with a new perturbation lemma for 2-dilations. Abstract + authors
+  verified via arXiv API this session (v1 2026-08-04). A landmark resolution of a famous ~two-decade
+  open problem in operator/matrix theory, unrefereed but building incrementally on the authors' own
+  prior partial results (lower epistemic risk than a from-scratch claim). Also on `study_shelf`.
+- 2026-08-04 — arXiv:2608.03254 — Verbeken, "Cyclic-by-abelian counterexamples to the second and
+  third Zassenhaus conjectures" — https://arxiv.org/abs/2608.03254 — group theory / integral
+  representations (axis 1, math.GR/RA): for every $r>1$ coprime to 30, constructs a finite group
+  $G_r$ and an augmentation-preserving automorphism of $\mathbb{Z}G_r$ with no Zassenhaus
+  factorization — a normalized group basis not rationally conjugate to $G_r$ even though every
+  element individually is — refuting the second and third Zassenhaus conjectures (ZC2, ZC3) on units
+  of integral group rings. Abstract + author verified via arXiv API this session (v1 2026-08-04). A
+  landmark refutation of two long-standing named conjectures via a single construction.
+- 2026-08-04 — TWO Kourovka Notebook problems resolved (both negative answers), same batch —
+  arXiv:2608.03003 (de Ryke, "The solution to Kourovka problem 21.88": no finite group of odd order
+  has commuting probability $1/17$, via a structural theorem also excluding $cp(G)=1/p$ for every odd
+  prime $p<97$) · arXiv:2608.02970 (Sater, "Finite groups that are the product of every pair of
+  non-conjugate maximal subgroups are soluble": answers Kourovka Problem 10.34 [Monakhov, 1986] in
+  the negative, removing the socle $S^k$ ($k\ge2$) obstacle left open since the almost-simple case
+  was settled in 2010) — https://arxiv.org/abs/2608.03003 · https://arxiv.org/abs/2608.02970 —
+  finite group theory (axis 1, math.GR): two independent resolutions of long-catalogued open problems
+  from the Kourovka Notebook (the field's standard open-problems register). Abstracts + authors
+  verified via arXiv API this session (both v1 2026-08-04). Below the multi-group convergence bar
+  (unrelated problems, not a shared sub-theme) but each a domain-cadence landmark on its own.
+- 2026-08-04 — arXiv:2608.03255 — Maguire, "Unirationality is the same thing as Rational
+  Connectedness in Characteristic Zero" — https://arxiv.org/abs/2608.03255 — algebraic geometry
+  (axis 1, math.AG): claims that unirationality, rational connectedness and rational chain
+  connectedness all coincide for smooth projective varieties over any characteristic-zero field, via
+  the MRC fibration. Abstract + author verified via arXiv API this session (v1 2026-08-04).
+  EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): whether every rationally connected variety is
+  unirational is a famous, decades-open question in birational geometry (unirationality is classically
+  much harder to establish than rational connectedness); a single-author unrefereed preprint claiming
+  the FULL equivalence is PROVISIONAL until independent expert vetting — would be a major landmark if
+  it survives scrutiny, watch closely.
+- 2026-08-04 — arXiv:2608.03258 — Liu, Wang, "A klt generalized pair with infinitely generated
+  canonical ring" — https://arxiv.org/abs/2608.03258 — algebraic geometry / birational geometry
+  (axis 1, math.AG): constructs a projective klt generalized pair over $\mathbb C$ whose generalized
+  log canonical ring is NOT finitely generated — bearing on finite-generation questions central to
+  the minimal model program. AI-ASSISTED (WATCH area per scope): the paper states its main result "is
+  obtained by generative AI, particularly GPT-5.6-sol-ultra, Fable 5, and the Danus system" — a
+  further concrete arXiv artifact in the standing AI-assisted-math wave (this time an explicitly
+  multi-model combination). Abstract + authors verified via arXiv API this session (v1 2026-08-04).
+  Track the RESULT, not the AI method (sibling AI radars' beat); unrefereed, provisional.
+- 2026-08-04 — arXiv:2608.03488 — Cassese, "A solution to Morrey's problem in $\mathbb{R}^{2\times
+  m}$" — https://arxiv.org/abs/2608.03488 — calculus of variations (axis 1, math.AP/CA): constructs
+  homogeneous rank-one convex integrands on $\mathbb R^{2\times m}$ (2 rows, $m$ columns) that are
+  nowhere quasiconvex for large $m$. NOTE: the famous still-OPEN case of Morrey's conjecture (does
+  rank-one convexity imply quasiconvexity?) is specifically the $2\times2$ case; this is a large-$m$
+  extension of the already-known-false higher-dimensional regime, not a resolution of the open
+  $2\times2$ problem. Abstract + author verified via arXiv API this session (v1 2026-08-04). Below-bar
+  technical-extension item, title notwithstanding.
+- 2026-08-04 — arXiv:2608.03661 — "Refined upper bounds on Schur-like numbers" —
+  https://arxiv.org/abs/2608.03661 — combinatorics (axis 1, math.CO): Ramsey-ADJACENT (Schur numbers
+  are a classical Ramsey-type quantity) but an UPPER-bound refinement, not a Ramsey-NUMBER LOWER
+  bound → does not reactivate/feed the (emerging) Ramsey-lower-bound trend. Title via arXiv listing
+  this session, abstract not opened → below-bar intake.
+- 2026-08-04 — arXiv:2608.03710 — Lei, Song, Chen, Liu, "Entanglement Distillation of some Rank-Five
+  Symmetric NPT States in Two-Qutrit Systems" — https://arxiv.org/abs/2608.03710 — quantum
+  information theory (axis 4, quant-ph): resolves 1-distillability for a class of rank-five
+  two-qutrit symmetric NPT states (a previously-open eigenvalue interval shown 1-undistillable) and
+  gives structural results toward 2-distillability. Abstract + authors verified via arXiv API this
+  session (v1 2026-08-04). A distinct state class from the tracked Werner-state 2-copy-distillability
+  queue thread (2607.21367 / 2607.24309) — own below-bar item in the same broader
+  entanglement-distillation research direction.
+- 2026-08-04 — arXiv:2608.03459 — Yu, "3D Gravity Does Not Average Like Narain at Genus One: Rigidity
+  of Virasoro Topological Boundaries" — https://arxiv.org/abs/2608.03459 — theoretical physics / 3d
+  quantum gravity (axis 2, hep-th): shows that, at genus one in the ordinary nondegenerate sector,
+  ensemble holography in AdS₃/CFT₂ can NOT be understood as an average over absolute 2d CFTs obtained
+  by varying the topological boundary condition of the doubled Virasoro TQFT — a rigidity/no-go result
+  bearing on the already-queued "universal sum over topologies in 3d gravity" thread (Belin et al.,
+  SciPostPhys.21.1.017, queued 2026-07-27). Abstract + author verified via arXiv API this session (v1
+  2026-08-04). Below-bar follow-up/counterpoint item.
 - 2026-08-01 — OpenAI, "Ten Advances in Mathematics and Theoretical Computer Science" (internal,
   unreleased model "Astra") — https://openai.com/index/ten-advances-in-mathematics/ ·
   https://cdn.openai.com/pdf/ten-proofs-oai.pdf — AI-assisted math WATCH-area cluster (WATCH per
@@ -507,6 +604,9 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   Rocq unchanged at 9.3+rc1. Consolidates and supersedes the dropped 07-23 toolchain queue line.
   Release page opened via `tvly extract` this session (JS-shell rendering, standing-degraded path;
   exact release date not pinned via this access method). Single below-bar toolchain-release item.
+  2026-08-05 update: mathlib4 pre-release bumped v4.33.0-rc1→v4.33.0-rc2 (`tvly extract` on the
+  releases page this session; lean4/rocq pages returned JS-shell-only this pass, `tvly search`
+  follow-up found no fresh version tags for either — treated as unchanged). Routine toolchain chore.
 - 2026-07-28 — arXiv:2607.24691 — Matić, Radoičić, "A computer-assisted proof of Kuperberg's
   six-cylinder conjecture" — https://arxiv.org/abs/2607.24691 — discrete/convex geometry (axis 1,
   math.CO/MG): proves that at most six pairwise non-overlapping infinite unit cylinders can
@@ -871,6 +971,19 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-04 — [A solution to Crouzeix's conjecture (Lorist, Schwenninger), arXiv:2608.03841](https://arxiv.org/abs/2608.03841)
+  — proves Crouzeix's 2004 conjecture ($\|f(A)\|\le 2\sup_{z\in W(A)}|f(z)|$ for any square matrix
+  $A$ and polynomial $f$, $W(A)$ the numerical range), a famous ~two-decade open problem in
+  operator/matrix theory (axis 1, math.FA). Abstract + authors verified via arXiv API this session
+  (v1 2026-08-04). Unrefereed but an incremental culmination of the authors' own prior partial
+  results (weaker bounds, special cases) — worth knowing as the resolution of a benchmark conjecture
+  every operator theorist has tried their hand at.
+- 2026-08-04 — [The period-index conjecture is false (Perry), arXiv:2608.03684](https://arxiv.org/abs/2608.03684)
+  — for every uncountable algebraically closed field of characteristic 0 and every dimension $d\ge3$,
+  constructs a variety with a Brauer class violating the period-index conjecture (already false over
+  $\overline{\mathbf Q}$ at $d=3$) — a foundational open problem on Brauer groups (axis 1,
+  math.AG). Abstract + author verified via arXiv API this session (v1 2026-08-04). A landmark
+  refutation of a long-standing named conjecture in algebraic geometry.
 - 2026-08-01 — [OpenAI's "Ten Advances in Mathematics and Theoretical Computer Science" (internal
   model "Astra")](https://openai.com/index/ten-advances-in-mathematics/) — an unreleased OpenAI
   model claims new results on ten long-standing open problems in one release: a disproof of
