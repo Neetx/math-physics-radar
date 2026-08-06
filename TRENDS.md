@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-05
+Last updated: 2026-08-06
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -183,6 +183,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     not a lower bound → own queue item, does not reactivate/feed this trend). No Ramsey-number
     lower bound, no referee/vetting outcome on the five tracked preprints. Trend HELD emerging;
     60-day dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-06 (daily): fresh math.CO/NT broad-rotation batch (2026-08-05, 141 fresh entries)
+    scanned for Ramsey lower bounds — none (batch held a proof of the Freiman-Lev conjecture,
+    a second Schiffer/Pompeiu counterexample, Tree-Product-Conjecture counterexamples, etc., all
+    captured below; no Ramsey-number lower bound, no referee/vetting outcome on the five tracked
+    preprints). Trend HELD emerging; 60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -222,6 +227,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-05 (daily): SciPost API rechecked (through SciPostPhys.21.2.031 / SciPostPhysCore.9.3.045,
     2026-08-03) — nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no
     4th independent group. Trend HELD seed/low.
+  - 2026-08-06 (daily): SciPost API rechecked (through SciPostPhys.21.2.033, 2026-08-05) — nothing
+    on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no 4th independent
+    group. Trend HELD seed/low.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -274,10 +282,75 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
   - 2026-08-05 (daily): fresh math.CO 2026-08-04 batch scanned for Schur-positivity/claw-free items —
     none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
+  - 2026-08-06 (daily): fresh math.CO 2026-08-05 batch scanned for Schur-positivity/claw-free items —
+    none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-05 — Alexander Smith, "The distribution of $\ell^\infty$-Selmer groups in degree
+  $\ell$ twist families I/II" — https://arxiv.org/abs/2207.05674 ·
+  https://arxiv.org/abs/2207.05143 — now published as J. Amer. Math. Soc. 39(1) pp.1–72 and
+  39(2) (2026) — number theory (axis 1, math.NT): the two-paper technique (the "fixed point
+  Selmer group") for computing distributions of $\ell^\infty$-Selmer groups in degree-$\ell$
+  twist families; resolves the notoriously hard $\ell=2$ case of the Cohen–Lenstra(–Gerth)
+  heuristics — the 2-primary class-group distribution problem going back to Gauss's genus
+  theory (~200 years) — and shows 100% of quadratic twists of a suitable elliptic curve have
+  rank $\le1$. LANDMARK, NOW PEER-REVIEWED (JAMS 2026): unlike most items on this ledger these
+  arXiv preprints (2022) are NOT provisional — journal publication in 2026 is itself the
+  vetting outcome. Surfaced via Scientific American / Yahoo News science coverage ("Mathematicians
+  make a breakthrough on Gauss's riddle, unsolved for 200 years," 2026-08-05, community-pulse
+  pointer) and corroborated via the Bourbaki survey "Recent Progress around Cohen–Lenstra
+  Heuristics" (arXiv:2606.06024, opened this session, which cites Smith 2026a/2026b by their
+  JAMS locants) and AMS's JAMS journal page (opened this session, confirms JAMS is a peer-reviewed
+  AMS journal). Abstracts of both arXiv preprints verified via arXiv API this session. Domain-
+  cadence landmark single result. Also on `study_shelf`.
+- 2026-08-05 — arXiv:2608.05114 — Cao-Labora, de Dios Pont, "Counterexamples to Schiffer's
+  Conjecture" — https://arxiv.org/abs/2608.05114 — analysis / spectral geometry (axis 1,
+  math.AP/CA): a SECOND, FULLY INDEPENDENT counterexample to the Pompeiu and Schiffer
+  conjectures — infinitely many $N$-fold-symmetric non-ball planar domains admitting a Neumann
+  eigenfunction constant on the boundary — following Colbrook–Stepaniants's computer-assisted
+  counterexample (arXiv:2608.01579, queued 2026-08-03) by two days, via an unrelated
+  construction strategy. TWO fully independent groups refuting the same ~97-year-old conjecture
+  pair within a week — a FORMING pair (below the ≥3-group trend bar; watch for a third).
+  Abstract + authors verified via arXiv API this session (v1 2026-08-05).
+- 2026-08-05 — arXiv:2608.04760 — Wang, Tang, "A proof of the Freiman-Lev conjecture" —
+  https://arxiv.org/abs/2608.04760 — additive combinatorics / number theory (axis 1, math.NT/CO):
+  completes the proof of the Freiman–Lev conjecture on restricted sumsets $2^\wedge A$ for the
+  previously-open range ($a_{k-2}\ge2k-4$, $a_{k-1}\ge2k-2$). Abstract + authors verified via
+  arXiv API this session (v1 2026-08-05). Single below-bar resolved-conjecture item.
+- 2026-08-05 — arXiv:2608.04659 — Munaro, "Subdivided expanders and counterexamples to the Tree
+  Product Conjecture" — https://arxiv.org/abs/2608.04659 — combinatorics / graph theory (axis 1,
+  math.CO): extends Illingworth–Norin–Steiner's 2026 disproof of the $d=4$ case of the (2023)
+  Tree Product Conjecture (Distel–Gollin–Harvey–Hendrey–Hickingbotham–Mohar–Wood) to every
+  $d\ge2$ via subdivided cubic expanders, leaving only $d=1$ open. Abstract + author verified via
+  arXiv API this session (v1 2026-08-05). Single below-bar item (a young, ~3-year-old conjecture,
+  not a classical named one).
+- 2026-08-05 — arXiv:2608.04981 — Hu, Xiao, Zhou, "A Counterexample to the Liu–Lou–Zhu
+  $\mathcal Q_p$–Carleson Embedding Conjecture" — https://arxiv.org/abs/2608.04981 — harmonic
+  analysis / operator theory (axis 1, math.CV/FA): disproves a conjecture on Carleson embeddings
+  of $\mathcal Q_p$ spaces into tent spaces for $0<p<1$, via Cantor-type $\mathcal Q_p$ test
+  functions. Abstract + authors verified via arXiv API this session (v1 2026-08-05). Single
+  below-bar refuted-conjecture item.
+- 2026-08-05 — TWO fresh DESI dynamical-dark-energy analyses (axis 3, gr-qc/astro-ph.CO), same
+  batch — arXiv:2608.04353 (Zheng, Qiang, You, Kumar, "Revisiting the equation of state of dark
+  energy from DESI BAO with SNe Ia and CMB") · arXiv:2608.04763 (Jiang, Shafieloo, "Is Dark
+  Matter Really Matter?", jointly fits $w_{dm}$ and $w_{de}$ against DESI DR2 + Lyman-alpha AP +
+  DES SNe + CMB, finding $w_{dm}=0.000968^{+0.000501}_{-0.000496}$ consistent with pressureless
+  CDM while $w_{de}=-0.9380^{+0.0259}_{-0.0262}$ stays away from $-1$) —
+  https://arxiv.org/abs/2608.04353 · https://arxiv.org/abs/2608.04763 — both direct follow-on
+  analyses of the standing DESI dynamical-dark-energy / late-time-anomaly saga (07-15/07-16,
+  07-29/07-31). Abstracts verified via arXiv API this session (v1 2026-08-04 both). Below-bar
+  intake, extraordinary-claim caution continues to apply (not yet 5σ).
+- 2026-08-05 — arXiv:2607.15345 — Kushwaha, Loizeau, Grinbaum, Friedrich, "Causality from the
+  spectrum: Emergence of causal order from process-matrix mereology" —
+  https://arxiv.org/abs/2607.15345 — quantum foundations (axis 4, quant-ph): extends quantum
+  mereology (preferred tensor-product decompositions from a Hamiltonian spectrum) to the
+  emergence of causal order itself, within higher-order/indefinite-causal-order quantum theory.
+  Discovered via a Backreaction (Hossenfelder) blog post ("Physicists Say They've Found The
+  Origin Of Causality," 2026-08-04, chased this session — the primary this pointed to had been
+  unlocatable in the 08-05 daily, now found and captured). Abstract + authors verified via arXiv
+  API this session (v1 2026-07-16). Single below-bar item.
 - 2026-08-04 — arXiv:2608.03684 — Perry, "The period-index conjecture is false" —
   https://arxiv.org/abs/2608.03684 — algebraic geometry (axis 1, math.AG): for every uncountable
   algebraically closed field $k$ of characteristic 0 and every $d\ge 3$, constructs a $d$-dimensional
@@ -971,6 +1044,11 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-05 — [The distribution of $\ell^\infty$-Selmer groups in degree $\ell$ twist families I/II (Smith), arXiv:2207.05674 / arXiv:2207.05143](https://arxiv.org/abs/2207.05674)
+  — resolves the notoriously hard $\ell=2$ case of the Cohen–Lenstra(–Gerth) heuristics — the
+  2-primary class-group distribution problem tracing to Gauss's genus theory (~200 years open) —
+  now published as J. Amer. Math. Soc. 39(1)/39(2) (2026): a rare item on this shelf that is
+  peer-reviewed, not provisional (axis 1, math.NT).
 - 2026-08-04 — [A solution to Crouzeix's conjecture (Lorist, Schwenninger), arXiv:2608.03841](https://arxiv.org/abs/2608.03841)
   — proves Crouzeix's 2004 conjecture ($\|f(A)\|\le 2\sup_{z\in W(A)}|f(z)|$ for any square matrix
   $A$ and polynomial $f$, $W(A)$ the numerical range), a famous ~two-decade open problem in
