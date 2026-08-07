@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-06
+Last updated: 2026-08-07
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -188,6 +188,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     a second Schiffer/Pompeiu counterexample, Tree-Product-Conjecture counterexamples, etc., all
     captured below; no Ramsey-number lower bound, no referee/vetting outcome on the five tracked
     preprints). Trend HELD emerging; 60-day dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-07 (daily): fresh math.CO/NT broad-rotation batch (2026-08-05→08-06, 134 fresh
+    2026-08-06 entries) scanned for Ramsey lower bounds — none (batch held Andersen's rainbow
+    path conjecture proof [rainbow/anti-Ramsey, not a lower bound — own queue item], Gromov's
+    dihedral rigidity conjecture, the HRT-conjecture disproof, etc., all captured below; no
+    Ramsey-number lower bound, no referee/vetting outcome on the five tracked preprints). Trend
+    HELD emerging; 60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
@@ -230,6 +236,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-06 (daily): SciPost API rechecked (through SciPostPhys.21.2.033, 2026-08-05) — nothing
     on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no 4th independent
     group. Trend HELD seed/low.
+  - 2026-08-07 (daily): SciPost API rechecked — no new publications since SciPostPhys.21.2.033
+    (08-05); nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no
+    4th independent group. Trend HELD seed/low.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -284,10 +293,79 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
   - 2026-08-06 (daily): fresh math.CO 2026-08-05 batch scanned for Schur-positivity/claw-free items —
     none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
+  - 2026-08-07 (daily): fresh math.CO 2026-08-06 batch scanned for Schur-positivity/claw-free items —
+    none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-06 — arXiv:2608.05044 — Faulhuber, Petersen, van Velthoven, Voigtlaender, "Linear
+  dependence of time-frequency shifts of a Schwartz function" — https://arxiv.org/abs/2608.05044
+  — harmonic analysis / time-frequency analysis (axis 1, math.CA/FA): DISPROVES the ~30-year-old
+  HRT (Heil–Ramanathan–Topiwala, 1996) conjecture — that a nonzero Schwartz function cannot admit
+  a nontrivial linear dependence among a finite set of its time-frequency shifts — via an explicit
+  example of 12 dependent shifts (prior positive results had the conjecture proved up to n≤3
+  shifts). Discovered via Terence Tao's blog ("A partial digestion of the HRT counterexample,"
+  2026-08-06, opened via WebFetch this session — Tao engaged and reconstructed the argument
+  same-day, a strong immediate vetting signal, though still not a formal referee outcome).
+  AI-WATCH (scope area, not tracked as the method): the authors "disclosed their AI use
+  responsibly, with final arguments written by hand" per Tao's summary — AI-assisted initial
+  proof strategy, traditional numerical computation verified specific steps; track the RESULT,
+  not the method. Abstract + authors verified via arXiv API this session (v1 2026-08-05, already
+  present in today's math broad-rotation batch but only surfaced via the Tao-blog chase — a
+  capture-leak-style near-miss, corrected same session). A landmark refutation of a long-standing
+  named conjecture in harmonic analysis. Also on `study_shelf`.
+- 2026-08-06 — arXiv:2608.06222 — Kun, Thom, "Nonsofic wreath products of residually finite
+  groups" — https://arxiv.org/abs/2608.06222 — group theory / geometric group theory (axis 1,
+  math.GR): explicitly "builds on the breakthrough of OpenAI in finding the first nonsofic
+  group" (the standing OpenAI "Ten Advances" cluster, queued 2026-08-01), giving new EXPLICIT
+  nonsofic constructions (generalized wreath products for property-(T), residually finite,
+  Kazhdan pairs over polynomial/Laurent-polynomial rings). A further independent human
+  mathematical engagement with the underlying technique — see the dated note under the OpenAI
+  cluster item below for the same-day misconduct-allegation context (Fournier-Facio, on this
+  SAME sub-result, is separately quoted calling the original claim less novel than presented).
+  Abstract + authors verified via arXiv API this session (v1 2026-08-06).
+- 2026-08-06 — arXiv:2608.06369 — Bowtell, Montgomery, Müyesser, Pokrovskiy, "A proof of
+  Andersen's rainbow path conjecture for large $n$" — https://arxiv.org/abs/2608.06369 —
+  extremal / probabilistic combinatorics (axis 1, math.CO): resolves a 1989 conjecture of
+  Andersen — every properly edge-coloured $n$-vertex complete graph contains a rainbow path on
+  $n-1$ vertices — for all sufficiently large $n$, improving prior near-optimal results
+  (Alon–Pokrovskiy–Sudakov; Balogh–Molla); a related result gives near-optimal cycle-free
+  rainbow transversals of Latin squares. Ramsey-ADJACENT (rainbow/anti-Ramsey flavor) but NOT a
+  Ramsey-number lower bound → does not feed the Ramsey trend. Abstract + authors verified via
+  arXiv API this session (v1 2026-08-06). A landmark resolution of a 37-year-old named
+  conjecture by a strong, established author group (no AI-assistance claimed).
+- 2026-08-06 — arXiv:2608.06320 — Bi, "Dihedral Rigidity for Convex Polytopes by Smooth
+  Approximation" — https://arxiv.org/abs/2608.06320 — differential geometry / comparison geometry
+  (axis 1, math.DG): claims a proof of Gromov's dihedral rigidity conjecture for convex polytopes
+  (scalar-curvature rigidity of polytopes with nonnegative dihedral angles), following Brendle's
+  smooth-approximation method. Abstract opened via arXiv API this session (v1 2026-08-06,
+  single-line abstract). EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): a single-author,
+  18-page, unrefereed preprint claiming resolution of a well-known Gromov conjecture is
+  PROVISIONAL until independent vetting — same footing as the matroid-intersection-conjecture and
+  Gorenstein-symmetry-conjecture claims already on this ledger; track the outcome.
+- 2026-08-06 — arXiv:2608.06272 — Lorist, Meyries, Veraar, "A counterexample to the inverse
+  generator problem and related questions" — https://arxiv.org/abs/2608.06272 — operator theory /
+  semigroup theory (axis 1, math.FA): negative solution to the inverse generator problem on
+  Hilbert spaces — constructs a bounded, dense-range generator $A$ of a bounded strongly stable
+  $C_0$-semigroup whose inverse $A^{-1}$ does NOT generate a $C_0$-semigroup, plus a second
+  example with unbounded, double-logarithmically-growing inverse semigroup. Abstract + authors
+  verified via arXiv API this session (v1 2026-08-06). Single below-bar refuted-open-question item.
+- 2026-08-06 — arXiv:2608.05662 — Pokora, "On the Numerical Terao Conjecture" —
+  https://arxiv.org/abs/2608.05662 — algebraic combinatorics / arrangement theory (axis 1,
+  math.AG/CO): proves the Numerical Terao Conjecture for even-degree conic-line arrangements with
+  only ADE singularities, but shows it FAILS in the broader quasi-homogeneous setting once
+  ordinary quadruple points are allowed, via an explicit degree-9 counterexample. Abstract +
+  author verified via arXiv API this session (v1 2026-08-05). Single below-bar mixed
+  proof/counterexample item.
+- 2026-08-06 — arXiv:2608.06247 — Watkins, Feldman, "Reanalyzing Megamasers: a low value of
+  $H_0$ from a local probe changes our view of the Hubble Tension" —
+  https://arxiv.org/abs/2608.06247 — cosmology (axis 3, astro-ph.CO): re-analyzes megamaser
+  distance/redshift data (an independent, non-distance-ladder $H_0$ probe) using a new peculiar-
+  velocity-corrected reconstruction, finding a LOW local $H_0$ — a direct follow-on to the
+  standing DESI dynamical-dark-energy / Hubble-tension saga (H₀-World-Cup thread, 07-15/07-16).
+  Abstract + authors verified via arXiv API this session (v1 2026-08-06). Below-bar intake,
+  extraordinary-claim caution continues to apply.
 - 2026-08-05 — Alexander Smith, "The distribution of $\ell^\infty$-Selmer groups in degree
   $\ell$ twist families I/II" — https://arxiv.org/abs/2207.05674 ·
   https://arxiv.org/abs/2207.05143 — now published as J. Amer. Math. Soc. 39(1) pp.1–72 and
@@ -479,6 +557,31 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   pattern), any referee/vetting outcome, and whether the Connes's-rigidity-conjecture disproof
   draws independent confirmation — that alone would be a standalone landmark if it survives
   scrutiny.
+  - 2026-08-07 (daily) — FIRST VETTING OUTCOME, and it is NEGATIVE (attribution/misconduct, not
+    correctness): Scientific American, "OpenAI's latest math breakthroughs commit research
+    misconduct, experts say" (Joseph Howlett, 2026-08-06) — https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/
+    — opened via WebFetch this session (found via an r/mathematics community-pulse pointer; the
+    article itself is press coverage, not a primary, but it names on-record credentialed experts
+    with specific findings). Steven Miller (Yeshiva University) says result (1) [Cohn–Elkies
+    sphere-packing linear program / Fourier sign-uncertainty] presents an argument "as its own
+    but that actually first appeared in a 2016 paper by Miller and a collaborator" — "They are
+    running roughshod over the work of others who came before them in a deliberate way ... It
+    seems completely systematic to me, and it points to research misconduct." Francesco
+    Fournier-Facio (Cambridge — the same mathematician who independently engaged result (3) on
+    2026-08-03, arXiv:2608.02025, already captured) found result (3) [the non-sofic group] "wasn't
+    as novel as it first appeared," merely "past[ing] together ideas" from 2016/2019 papers.
+    OpenAI acknowledged and said it would "make small updates [to the paper] this week, consistent
+    with standard academic practice." STATUS: this is attribution/novelty misconduct, explicitly
+    DISTINCT from a correctness referee outcome — none of the ten results has yet been shown
+    mathematically WRONG; track both threads (correctness AND attribution) separately going
+    forward. SAME-DAY, a fresh arXiv primary independently extends the disputed result (3):
+    arXiv:2608.06222 — Kun, Thom, "Nonsofic wreath products of residually finite groups" —
+    https://arxiv.org/abs/2608.06222 — explicitly "builds on the breakthrough of OpenAI in finding
+    the first nonsofic group," giving new explicit nonsofic constructions (generalized wreath
+    products of property-(T), residually finite pairs) — a further concrete human mathematical
+    engagement with the underlying technique, independent of the novelty dispute over the original
+    paper's framing. Abstract + authors verified via arXiv API this session (v1 2026-08-06). Queued
+    as its own below-bar item (see observation_queue) as well as folded in here for context.
 - 2026-08-03 — arXiv:2608.01579 — Colbrook, Stepaniants, "A computer-assisted counterexample to
   the planar Pompeiu and Schiffer conjectures" — https://arxiv.org/abs/2608.01579 — analysis /
   spectral geometry (axis 1, math.AP/CA): constructs a bounded, simply-connected, noncircular
@@ -1044,6 +1147,13 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-06 — [Linear dependence of time-frequency shifts of a Schwartz function (Faulhuber, Petersen, van Velthoven, Voigtlaender), arXiv:2608.05044](https://arxiv.org/abs/2608.05044)
+  — disproves the ~30-year-old HRT (Heil–Ramanathan–Topiwala) conjecture in time-frequency
+  analysis via an explicit 12-shift linear dependence (axis 1, math.CA/FA). Abstract + authors
+  verified via arXiv API this session (v1 2026-08-05). AI-assisted (responsibly disclosed per the
+  authors) but independently reconstructed and engaged same-day by Terence Tao — worth knowing as
+  a famous named conjecture falling, with unusually fast, credible community vetting already
+  underway.
 - 2026-08-05 — [The distribution of $\ell^\infty$-Selmer groups in degree $\ell$ twist families I/II (Smith), arXiv:2207.05674 / arXiv:2207.05143](https://arxiv.org/abs/2207.05674)
   — resolves the notoriously hard $\ell=2$ case of the Cohen–Lenstra(–Gerth) heuristics — the
   2-primary class-group distribution problem tracing to Gauss's genus theory (~200 years open) —

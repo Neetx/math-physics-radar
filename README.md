@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-91-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--06-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-98-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--07-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-06):**
-- A genuine 200-year story: **[Gauss's 2-primary Cohen-Lenstra riddle resolved](https://arxiv.org/abs/2207.05674)** (Smith) — now peer-reviewed in JAMS, not provisional, and the newest study-shelf pick.
-- A second, fully independent group refutes the same conjecture pair: [Cao-Labora & de Dios Pont's Schiffer/Pompeiu counterexample](TRENDS.md#observation_queue), two groups within a week (below the trend bar — watch for a third).
-- Also queued: a [proof of the Freiman-Lev conjecture](https://arxiv.org/abs/2608.04760), [counterexamples to the Tree Product Conjecture](TRENDS.md#observation_queue) for every $d\ge2$, and a [refutation of the Liu–Lou–Zhu $\mathcal Q_p$-Carleson conjecture](TRENDS.md#observation_queue).
-- No stage moves — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) all HELD. Observation queue [85 → 91](TRENDS.md#observation_queue) (+6 lines / +7 primaries).
+**Since last scan (2026-08-07):**
+- A famous ~30-year conjecture falls, fast: **[the HRT conjecture disproved](https://arxiv.org/abs/2608.05044)** (Faulhuber, Petersen, van Velthoven, Voigtlaender) — a 12-shift counterexample in time-frequency analysis, already independently reconstructed same-day by Terence Tao; the newest study-shelf pick.
+- The standing **[OpenAI "Ten Advances" cluster](TRENDS.md#observation_queue)** gets its first vetting outcome, and it's negative on attribution: Scientific American reports named mathematicians (Steven Miller; Francesco Fournier-Facio) alleging two of the ten results under-credit prior 2016/2019 work — OpenAI says it will issue corrections. Same day, [Kun–Thom independently extend the non-sofic-group technique](TRENDS.md#observation_queue) with new explicit constructions.
+- Also queued: [Andersen's rainbow path conjecture, resolved for large n](https://arxiv.org/abs/2608.06369) (Bowtell, Montgomery, Müyesser, Pokrovskiy); a claimed proof of [Gromov's dihedral rigidity conjecture](TRENDS.md#observation_queue) for convex polytopes (single-author, provisional); a [Megamaser-based low-H₀ reanalysis](TRENDS.md#observation_queue) feeding the standing Hubble-tension saga.
+- No stage moves — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) all HELD. Observation queue [92 → 98](TRENDS.md#observation_queue) (+6 lines / +7 primaries).
 
 ## Trends
 
@@ -22,6 +22,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Linear dependence of time-frequency shifts of a Schwartz function (Faulhuber, Petersen, van Velthoven, Voigtlaender)](https://arxiv.org/abs/2608.05044) — disproves the ~30-year-old HRT (Heil–Ramanathan–Topiwala) conjecture in time-frequency analysis via an explicit 12-shift linear dependence. AI-assisted (responsibly disclosed) but independently reconstructed and engaged same-day by Terence Tao — a famous named conjecture falling, with unusually fast, credible community vetting already underway.
 - [The distribution of $\ell^\infty$-Selmer groups in degree $\ell$ twist families I/II (Smith)](https://arxiv.org/abs/2207.05674) — resolves the notoriously hard $\ell=2$ case of the Cohen–Lenstra(–Gerth) heuristics, the 2-primary class-group distribution problem tracing to Gauss's genus theory (~200 years open); now published as J. Amer. Math. Soc. 39(1)/39(2) (2026) — a rare item here that is peer-reviewed, not provisional.
 - [A solution to Crouzeix's conjecture (Lorist, Schwenninger)](https://arxiv.org/abs/2608.03841) — proves a famous ~two-decade-old operator/matrix-theory conjecture ($\|f(A)\|\le 2\sup_{z\in W(A)}|f(z)|$ over the numerical range), building incrementally on the authors' own prior partial results. Unrefereed but a benchmark conjecture every operator theorist has tried.
 - [The period-index conjecture is false (Perry)](https://arxiv.org/abs/2608.03684) — constructs, for every dimension ≥3, a variety with a Brauer class violating the period-index conjecture (already false over $\overline{\mathbf Q}$) — a landmark refutation of a foundational open problem on Brauer groups.
@@ -51,10 +52,10 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- r/math's top on-axis thread today was the Scientific American/Yahoo coverage of the 200-year Gauss/Cohen-Lenstra story, which led directly to today's top study pick.
-- Gil Kalai posted a personal recap of three ICM 2026 plenary talks he found relevant to his own work; Sabine Hossenfelder's Backreaction covered a new quantum-causal-order paper (queued).
+- r/mathematics's top on-axis thread today pointed to Scientific American's original reporting on the OpenAI misconduct allegations, which fed directly into today's trend recalibration.
+- Terence Tao posted a same-day "digestion" of the fresh HRT-conjecture counterexample; Gil Kalai posted a further ICM 2026 recap ("Snapshots from ICM2026").
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (91) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-06](reports/2026-08-06.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (98) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-07](reports/2026-08-07.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
