@@ -53,6 +53,13 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
 - Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
 - Clay Mathematics Institute — https://www.claymath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** — Millennium Problems, math research news
 - IAS (Institute for Advanced Study) — https://www.ias.edu/news **[verified 2026-07-02 via `tvly extract` — curl is 403 (Cloudflare) but tvly gets through]** — math + theoretical physics
+- OpenAI research-publication pages — https://openai.com/research / https://cdn.openai.com **[promoted
+  2026-08-08; no subscribable feed — access via periodic `tvly search "openai.com math theoretical
+  computer science" ` / direct URL checks when a disclosure is flagged elsewhere]** — AI-WATCH-LANE
+  PRIMARY (track the mathematical RESULTS disclosed, never the AI method — sibling AI radars' beat):
+  a recurring direct off-arXiv disclosure channel for AI-claimed math/TCS results (the Cycle-Double-
+  Cover proof, then "Ten Advances in Mathematics and Theoretical Computer Science" 2026-08-01) —
+  source-discovery promotion after 2 tracked disclosure events on this channel.
 Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
 - LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`]** — gravitational-wave detections/catalogs (e.g. GWTC)
 - DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
@@ -71,6 +78,11 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
 - Physical Review X — RSS https://feeds.aps.org/rss/recent/prx.xml **[verified 2026-07-02]**
 - Reviews of Modern Physics — RSS https://feeds.aps.org/rss/recent/rmp.xml **[verified 2026-07-02]** (authoritative reviews)
 - Nature Physics — RSS https://www.nature.com/nphys.rss **[verified 2026-07-02]**
+- Nature Communications — RSS https://www.nature.com/ncomms.rss **[promoted + verified 2026-08-08;
+  redirects to feeds.nature.com/ncomms/rss/current; RSS]** — peer-reviewed open-access Nature-group
+  journal distinct from Nature Physics; source-discovery promotion (2 on-axis math↔physics-interface
+  primaries in one week: RH↔quantum-phase-transitions 07-01, aperiodic-monotile chirality 07-29,
+  both discovered via r/math pointers)
 - Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]** — **[WEEKLY-SWEPT tier]**
 - Quantum (open journal) — https://quantum-journal.org/feed/ **[verified 2026-07-02; RSS]** (quantum information / foundations)
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
@@ -106,6 +118,10 @@ diff) but catches release tags. Retest direct `releases.atom` occasionally.
 - leanprover-community/mathlib4 — **[verified 2026-07-02 via API; ~3.5k★, pushed daily]** — the Lean 4 mathematics library; a new formalization of a theorem is a citable artifact
 - leanprover/lean4 — **[verified 2026-07-02 via API; active]** — the Lean theorem prover
 - rocq-prover/rocq — **[verified 2026-07-02 via API; the former `coq/coq`, renamed to Rocq]** — the Rocq (ex-Coq) proof assistant
+- **[healed 2026-08-08]** Release-tag reads on the bare `/releases` page keep returning a JS-shell nav
+  via `tvly extract` (standing failure) — `tvly search "<owner>/<repo> latest release version tag"
+  --include-domains github.com` reliably surfaces the actual tag text instead; use search first for
+  lean4/mathlib4/rocq version-tag checks, fall back to `extract` only to confirm a URL.
 - (agent: add proof libraries / CAS as they prove high-signal — e.g. sagemath, or a repo formalizing a major theorem)
 
 ### Watched profiles/users
@@ -129,15 +145,17 @@ points at it. Promotion bar: ≥2 on-axis primary artifacts OR recurrence across
 survives verification (real feed, on-axis, not SEO). Line format:
 `domain/org — times seen — last on-axis artifact (date) — first seen YYYY-MM-DD`.
 
-- sammattheus.wordpress.com ("Points and Lines", Sam Mattheus) — 1 — Bradač off-diagonal Ramsey breakthrough (arXiv:2605.28793), reblogged by Gil Kalai (2026) — first seen 2026-07-03 — combinatorics researcher blog; pointer surface for the Ramsey-lower-bound trend.
-- nature.com/ncomms (Nature Communications) — 2 — "The Riemann Hypothesis manifested in dynamical quantum phase transitions" (2026-07-01) + "Chiral diffraction from aperiodic monotile structure" (2026-07-29), both discovered via r/math community-pulse pointers — first seen 2026-08-03 — a peer-reviewed open-access Nature-group journal distinct from the already-tracked Nature Physics RSS; two on-axis math↔physics-interface primaries in one session already clears the ≥2-artifact promotion bar, pending weekly verification of a workable feed/API.
-- journals.aps.org/prresearch (Physical Review Research) — 1 — Barontini, "Testing the problem of time with cold atoms" (arXiv:2509.07745, PRR publication) — first seen 2026-08-03 — an APS journal distinct from the already-tracked PRL/PRX/RMP RSS feeds; discovered via a University of Birmingham press pointer.
-- leodemoura.github.io (Leonardo de Moura, Lean FRO chief architect) — 1 — "Postmortem for Kernel Soundness Bug #14576" (2026-08-01), discovered via an r/math pointer — first seen 2026-08-03 — high-signal technical-disclosure blog for axis-5 Lean-kernel integrity events, the closest thing to an official primary for internal Lean toolchain issues.
-- sbseminar.wordpress.com ("Secret Blogging Seminar", incl. David Speyer) — 1 — "The new counterexample to the Jacobian conjecture" working-through of the announced 3-variable Keller-map counterexample (2026-07) — first seen 2026-07-23 — research-mathematician group blog; high-signal pointer surface for the AI-assisted-math-wave / Jacobian-conjecture story (found via community pulse).
-- openai.com / cdn.openai.com (OpenAI's own research-publication pages) — 1 — "Ten Advances in Mathematics and Theoretical Computer Science" (2026-08-01, ten claimed results incl. a Connes's-rigidity-conjecture disproof and a superexponential multicolor-Ramsey lower bound) — first seen 2026-08-04 — a SECOND direct primary disclosure of AI-claimed math results on OpenAI's own channel (after the off-arXiv Cycle-Double-Cover proof, never itself located on arXiv); recurrence across two now-tracked events suggests this is becoming a genuine "new-artifact drop" venue for the AI-assisted-math wave, distinct from arXiv — pending weekly verification of a workable feed/index (openai.com/research or cdn.openai.com has no obvious feed; may require periodic `tvly search` checks rather than a subscribable feed).
-- ams.org/journals/jams (Journal of the American Mathematical Society) — 1 — Smith, "The distribution of ℓ∞-Selmer groups in degree ℓ twist families I/II" (JAMS 39(1)/39(2), 2026, resolving the 2-primary Cohen-Lenstra problem) — first seen 2026-08-06 — a specific top-tier AMS journal distinct from the already-tracked AMS Notices & Bulletin; discovered via Scientific American science coverage.
-- scientificamerican.com — 2 — Smith/Cohen-Lenstra landmark pointer (08-05); "OpenAI's latest math breakthroughs commit research misconduct, experts say" (Howlett, 2026-08-06, opened via WebFetch) — first seen 2026-08-06 — a mainstream science-press outlet with occasional deep math coverage AND now original reporting with named-expert quotes (not just a pointer); recurrence across two sessions clears the ≥2 promotion bar, pending weekly verification of a workable feed.
-- bourbaki.fr (Séminaire Bourbaki) — 1 — "Recent Progress around Cohen-Lenstra Heuristics" survey (arXiv:2606.06024, used this session to corroborate the Smith JAMS landmark) — first seen 2026-08-06 — an expository survey venue (like AMS Notices), useful for spotting "what's big" in a subfield; the surveys themselves are exposition, cite through to the actual primaries.
+- sammattheus.wordpress.com ("Points and Lines", Sam Mattheus) — 1 — Bradač off-diagonal Ramsey breakthrough (arXiv:2605.28793), reblogged by Gil Kalai (2026) — first seen 2026-07-03 — combinatorics researcher blog; pointer surface for the Ramsey-lower-bound trend. HELD below the ≥2 bar (W32 recheck: no recurrence).
+- journals.aps.org/prresearch (Physical Review Research) — 1 — Barontini, "Testing the problem of time with cold atoms" (arXiv:2509.07745, PRR publication) — first seen 2026-08-03 — an APS journal distinct from the already-tracked PRL/PRX/RMP RSS feeds; discovered via a University of Birmingham press pointer. HELD below the ≥2 bar (W32 recheck: no recurrence); feed PRE-VERIFIED this session — `https://feeds.aps.org/rss/recent/prresearch.xml` (RSS, 200) — ready for instant promotion on the next sighting.
+- leodemoura.github.io (Leonardo de Moura, Lean FRO chief architect) — 1 — "Postmortem for Kernel Soundness Bug #14576" (2026-08-01), discovered via an r/math pointer — first seen 2026-08-03 — high-signal technical-disclosure blog for axis-5 Lean-kernel integrity events, the closest thing to an official primary for internal Lean toolchain issues. HELD below the ≥2 bar (W32 recheck: no recurrence); feed PRE-VERIFIED this session — `https://leodemoura.github.io/feed.xml` (RSS, 200) — ready for instant promotion on the next sighting.
+- sbseminar.wordpress.com ("Secret Blogging Seminar", incl. David Speyer) — 1 — "The new counterexample to the Jacobian conjecture" working-through of the announced 3-variable Keller-map counterexample (2026-07) — first seen 2026-07-23 — research-mathematician group blog; high-signal pointer surface for the AI-assisted-math-wave / Jacobian-conjecture story (found via community pulse). HELD below the ≥2 bar (W32 recheck: no recurrence in 2 weeks).
+- ams.org/journals/jams (Journal of the American Mathematical Society) — 1 — Smith, "The distribution of ℓ∞-Selmer groups in degree ℓ twist families I/II" (JAMS 39(1)/39(2), 2026, resolving the 2-primary Cohen-Lenstra problem) — first seen 2026-08-06 — a specific top-tier AMS journal distinct from the already-tracked AMS Notices & Bulletin; discovered via Scientific American science coverage. HELD below the ≥2 bar (W32: 1 sighting still); no RSS, `tvly extract` works (curl 403s) — access method recorded for next verification pass.
+- bourbaki.fr (Séminaire Bourbaki) — 1 — "Recent Progress around Cohen-Lenstra Heuristics" survey (arXiv:2606.06024, used this session to corroborate the Smith JAMS landmark) — first seen 2026-08-06 — an expository survey venue (like AMS Notices), useful for spotting "what's big" in a subfield; the surveys themselves are exposition, cite through to the actual primaries. HELD below the ≥2 bar (W32: 1 sighting still); no RSS, `tvly extract` works on the static page.
+
+PROMOTED 2026-08-08 (W32): nature.com/ncomms (2 sightings → Research/publication venues, DAILY tier),
+scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com/cdn.openai.com
+(recurring disclosure channel → Primary feeds AI-watch lane, DAILY tier) — see their entries above;
+cleared from this staging list.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
@@ -175,6 +193,14 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
 - Of Particular Significance (Matt Strassler) — https://profmattstrassler.com/feed/ **[verified 2026-07-02; RSS]** — HEP / particle-physics phenomenology, careful about claims
 - Backreaction (Sabine Hossenfelder) — https://backreaction.blogspot.com/feeds/posts/default **[verified 2026-07-02; Atom]** — physics-foundations commentary + a prominent skeptic of hype (filter for on-axis, follow to the primary)
 - **[candidate]** Shtetl-Optimized (scottaaronson.blog/?feed=rss2) — complexity / quantum foundations (shared with the quantum radar); CERN Courier (above) also serves as an HEP digest
+- Scientific American — https://www.scientificamerican.com/ **[promoted 2026-08-08; no working RSS
+  found (`/feed/` 404s, `rss.sciam.com` empty) — access via `tvly search --include-domains
+  scientificamerican.com`, already used successfully twice]** — mainstream science press with
+  occasional deep math/physics coverage AND original reporting with named credentialed-expert quotes
+  (the 2026-08-06 OpenAI attribution-misconduct story); follow to the primary it names, cite the
+  article itself only for on-record expert commentary that has no other primary source (as with a
+  vetting-outcome report). Source-discovery promotion (2 sightings this session: the Cohen-Lenstra
+  landmark pointer 08-05, original misconduct reporting 08-06).
 
 ## Discovery / exploration venues (Phase 4 — iterated EVERY run by radar-explore)
 

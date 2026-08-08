@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-98-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--07-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-96-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--08-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-07):**
-- A famous ~30-year conjecture falls, fast: **[the HRT conjecture disproved](https://arxiv.org/abs/2608.05044)** (Faulhuber, Petersen, van Velthoven, Voigtlaender) — a 12-shift counterexample in time-frequency analysis, already independently reconstructed same-day by Terence Tao; the newest study-shelf pick.
-- The standing **[OpenAI "Ten Advances" cluster](TRENDS.md#observation_queue)** gets its first vetting outcome, and it's negative on attribution: Scientific American reports named mathematicians (Steven Miller; Francesco Fournier-Facio) alleging two of the ten results under-credit prior 2016/2019 work — OpenAI says it will issue corrections. Same day, [Kun–Thom independently extend the non-sofic-group technique](TRENDS.md#observation_queue) with new explicit constructions.
-- Also queued: [Andersen's rainbow path conjecture, resolved for large n](https://arxiv.org/abs/2608.06369) (Bowtell, Montgomery, Müyesser, Pokrovskiy); a claimed proof of [Gromov's dihedral rigidity conjecture](TRENDS.md#observation_queue) for convex polytopes (single-author, provisional); a [Megamaser-based low-H₀ reanalysis](TRENDS.md#observation_queue) feeding the standing Hubble-tension saga.
-- No stage moves — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) all HELD. Observation queue [92 → 98](TRENDS.md#observation_queue) (+6 lines / +7 primaries).
+**Since last scan (2026-08-08, weekly recalibration):**
+- All three trends HELD after recalibration — [Ramsey lower bounds](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) (emerging/medium, last evidence 5 days old), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) (both seed) — a quiet week on tracked axes after last week's landmark-dense stretch.
+- Three sources promoted into the daily-swept registry after clearing the recurrence bar: Nature Communications, Scientific American, and OpenAI's own research-publication page — see [`SOURCES.md`](SOURCES.md).
+- Observation queue [99 → 96](TRENDS.md#observation_queue): a measured burndown of 4 never-opened title-only lines, plus one new item — the [2026 Frontiers of Science Award for Dennis Gaitsgory](TRENDS.md#observation_queue) (derived algebraic geometry), caught on this week's institute sweep.
+- Study shelf unchanged this week — [the HRT-conjecture disproof](https://arxiv.org/abs/2608.05044) remains the newest pick; nothing cleared the bar for a fresh entry.
 
 ## Trends
 
@@ -52,10 +52,10 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- r/mathematics's top on-axis thread today pointed to Scientific American's original reporting on the OpenAI misconduct allegations, which fed directly into today's trend recalibration.
-- Terence Tao posted a same-day "digestion" of the fresh HRT-conjecture counterexample; Gil Kalai posted a further ICM 2026 recap ("Snapshots from ICM2026").
+- The OpenAI attribution-misconduct story (Scientific American, 08-06) and Terence Tao's independent same-day HRT-conjecture reconstruction remain this week's top on-axis threads — both already folded into the ledger above.
+- This week's low-yield extra-social sweep (r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics, Physics SE) surfaced routine Q&A only; no new on-axis pulse signal.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (98) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-07](reports/2026-08-07.md)) · weekly: [2026-W31](reports/weekly/2026-W31.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (96) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-07](reports/2026-08-07.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
