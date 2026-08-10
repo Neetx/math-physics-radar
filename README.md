@@ -1,27 +1,29 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-96-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--08-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-104-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--10-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-08, weekly recalibration):**
-- All three trends HELD after recalibration — [Ramsey lower bounds](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) (emerging/medium, last evidence 5 days old), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) (both seed) — a quiet week on tracked axes after last week's landmark-dense stretch.
-- Three sources promoted into the daily-swept registry after clearing the recurrence bar: Nature Communications, Scientific American, and OpenAI's own research-publication page — see [`SOURCES.md`](SOURCES.md).
-- Observation queue [99 → 96](TRENDS.md#observation_queue): a measured burndown of 4 never-opened title-only lines, plus one new item — the [2026 Frontiers of Science Award for Dennis Gaitsgory](TRENDS.md#observation_queue) (derived algebraic geometry), caught on this week's institute sweep.
-- Study shelf unchanged this week — [the HRT-conjecture disproof](https://arxiv.org/abs/2608.05044) remains the newest pick; nothing cleared the bar for a fresh entry.
+**Since last scan (2026-08-08):**
+- [Non-invertible symmetries in QFT promoted `seed` → `emerging`, confidence → `high`](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries): a fourth, fully independent, peer-reviewed group ([Nature Physics](https://www.nature.com/articles/s41567-026-03390-5)) corroborates the direction.
+- [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang)](https://arxiv.org/abs/2608.07173) — a landmark resolution capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad program.
+- Capture-leak catch: [the Mathieu conjecture for SU(2) is false](https://arxiv.org/abs/2607.19012) (Long) — a 29-year-old named conjecture linked to the already-tracked Jacobian-conjecture program, found via a citing follow-up 3 weeks after its own posting.
+- Observation queue [96 → 104](TRENDS.md#observation_queue): +8 new items (no burndown today — daily persistence, per domain cadence).
 
 ## Trends
 
-🌱 2 · 📈 1 · 🚀 0 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 2 · 🚀 0 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |---|---|---|
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 📈 emerging | [2026-08-07](https://www.nature.com/articles/s41567-026-03390-5) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 📈 emerging | [2026-08-03](https://arxiv.org/abs/2608.02537) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🌱 seed | [2026-07-23](https://scipost.org/SciPostPhys.21.1.019) |
 
 ## Worth studying
 
+- [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang)](https://arxiv.org/abs/2608.07173) — proves the Modularity Conjecture for higher theta series on moduli stacks of Hermitian shtukas, capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad / relative-Langlands program.
+- [Counterexamples to the xz-Conjecture and the Mathieu Conjecture for SU(2) (Long)](https://arxiv.org/abs/2607.19012) — refutes the ~29-year-old Mathieu conjecture for SU(2), directly connected to the already-tracked Jacobian-conjecture research program. A capture-leak catch, found via a citing follow-up 3 weeks after its own posting.
 - [Linear dependence of time-frequency shifts of a Schwartz function (Faulhuber, Petersen, van Velthoven, Voigtlaender)](https://arxiv.org/abs/2608.05044) — disproves the ~30-year-old HRT (Heil–Ramanathan–Topiwala) conjecture in time-frequency analysis via an explicit 12-shift linear dependence. AI-assisted (responsibly disclosed) but independently reconstructed and engaged same-day by Terence Tao — a famous named conjecture falling, with unusually fast, credible community vetting already underway.
 - [The distribution of $\ell^\infty$-Selmer groups in degree $\ell$ twist families I/II (Smith)](https://arxiv.org/abs/2207.05674) — resolves the notoriously hard $\ell=2$ case of the Cohen–Lenstra(–Gerth) heuristics, the 2-primary class-group distribution problem tracing to Gauss's genus theory (~200 years open); now published as J. Amer. Math. Soc. 39(1)/39(2) (2026) — a rare item here that is peer-reviewed, not provisional.
 - [A solution to Crouzeix's conjecture (Lorist, Schwenninger)](https://arxiv.org/abs/2608.03841) — proves a famous ~two-decade-old operator/matrix-theory conjecture ($\|f(A)\|\le 2\sup_{z\in W(A)}|f(z)|$ over the numerical range), building incrementally on the authors' own prior partial results. Unrefereed but a benchmark conjecture every operator theorist has tried.
@@ -52,10 +54,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- The OpenAI attribution-misconduct story (Scientific American, 08-06) and Terence Tao's independent same-day HRT-conjecture reconstruction remain this week's top on-axis threads — both already folded into the ledger above.
-- This week's low-yield extra-social sweep (r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics, Physics SE) surfaced routine Q&A only; no new on-axis pulse signal.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) continue discussing the already-tracked HRT-conjecture disproof and the Kourovka Notebook resolutions; no new on-axis pointer this pass.
+- Gil Kalai's ["Snapshots from ICM2026"](https://gilkalai.wordpress.com/feed/) recap is ecosystem commentary only — no new primary named.
+- Hacker News and Mathstodon: routine/off-topic today, nothing on-axis.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (96) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-07](reports/2026-08-07.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (104) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-10](reports/2026-08-10.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

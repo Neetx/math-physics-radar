@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-08
+Last updated: 2026-08-10
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -205,9 +205,18 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     OpenAI queue item) is a further reason NOT to raise confidence on anything downstream of
     that base result. Not promoted (no fresh W32 velocity beyond the already-recorded 08-04
     reactivation).
+  - 2026-08-10 (daily): first daily since 08-07 (weekend gap, expected). Fresh math.CO/NT
+    broad-rotation batch (2026-08-07, 138 fresh entries across the full in-scope math
+    category set) scanned for Ramsey lower bounds — none (batch held a peripheral "Vertex-Ramsey
+    theorems for Cartesian powers of graphs" [2608.07102], NOT a Ramsey-number lower bound;
+    the Modularity-Conjecture and Mathieu-conjecture landmarks captured below, unrelated
+    sub-theme). arXiv-API metadata check of all five tracked preprints (2507.12926, 2605.28793,
+    2604.23986, 2605.25843, 2608.02537) shows no fresh v-update since 2026-08-03 — no
+    referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02
+    unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: seed | confidence: low | first_seen: 2026-07-27 | last_evidence: 2026-07-23
+- stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -225,6 +234,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     systematic Symmetry-TFT framework for phase transitions with categorical symmetries in (2+1)d,
     building on the same group's (2+1)d gapped-phase program (SciPost API metadata + page opened this
     session).
+  - 2026-08-07 — https://www.nature.com/articles/s41567-026-03390-5 — Ueda, Vander Linden, De Vos,
+    Lootens, Haegeman, Fendley, Verstraete, "Perfect particle transmission through duality defects"
+    (Nature Physics, published online 2026-08-07): a FOURTH fully independent author group (Ghent
+    University tensor-network/quantum-many-body group + Fendley, Oxford — independent of Oishi–Ebisu,
+    Antunes–Rong, and Bhardwaj et al.), peer-reviewed in Nature Physics, constructs topological
+    interfaces/duality defects in quantum spin systems with non-invertible symmetries giving perfect
+    particle transmission (a lattice analogue of the Callan–Rubakov monopole-paradox resolution).
+    Abstract + author list verified via `tvly extract` on the publisher page this session.
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -256,6 +273,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     non-invertible/categorical symmetries since Bhardwaj et al.; still no 4th independent
     group after 2 full weeks as a trend. Confidence held low (no hype-skepticism caveat
     applies, but no fresh corroboration either — genuinely quiet, not thinning evidence).
+  - 2026-08-10 (daily, PROMOTION): seed → emerging; confidence low → high. Today's DAILY-tier
+    Nature Physics RSS sweep surfaced Ueda–Vander Linden–De Vos–Lootens–Haegeman–Fendley–Verstraete
+    (Ghent + Oxford, fully independent of all three prior groups) — a 4th independent artifact,
+    peer-reviewed (Nature Physics, not a preprint), satisfying both promotion criteria at once: the
+    standing "watch for a 4th group" note, and the confidence-to-high bar ("≥2 INDEPENDENT
+    authoritative primary sources corroborate on concrete artifacts") — SciPost's community-refereed
+    Bhardwaj et al. and Nature Physics's traditionally-refereed Ueda et al. are two independent,
+    authoritative, peer-reviewed corroborations of the same non-invertible-symmetries direction. No
+    hype-skepticism caveat applies (ordinary refereed output, not an AI-assisted or extraordinary
+    claim). Watch for a 5th group and for citations connecting this lattice/tensor-network thread to
+    the Bhardwaj et al. continuum Symmetry-TFT framework.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -318,10 +346,80 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     referee/vetting outcome on any of the three tracked preprints. Confidence held medium
     (short, checkable computations, cross-verified across independent censuses — still
     unrefereed). Trend HELD seed/medium.
+  - 2026-08-10 (daily): fresh math.CO 2026-08-07 batch scanned for Schur-positivity/claw-free
+    items — none. No 4th independent group or referee/vetting outcome on any of the three
+    tracked preprints. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-07 — arXiv:2608.07173 — Feng, Yun, Zhang, "Modularity of Higher Theta Series III:
+  Proof of the Modularity Conjecture" — https://arxiv.org/abs/2608.07173 — number theory /
+  arithmetic geometry (axis 1, math.NT/AG): proves the Modularity Conjecture for higher theta
+  series on moduli stacks of Hermitian shtukas (part III of the authors' program), and en route
+  establishes a "supermodularity" refinement for general linear shtukas plus the Trace
+  Conjecture for low-corank Hitchin stacks — realizing virtual fundamental classes of special
+  cycles as categorical traces. Tony Feng, Zhiwei Yun and Wei Zhang are established leaders of
+  the arithmetic Gan–Gross–Prasad / relative-Langlands program; this caps a multi-part series
+  resolving a named conjecture central to that program. Abstract + authors verified via arXiv
+  API this session (v1 2026-08-07). Domain-cadence landmark single result (a long-standing
+  named conjecture resolved by a leading group, capstone of a numbered series — lower epistemic
+  risk than a from-scratch single-author claim). Also on `study_shelf`.
+- 2026-08-07 — arXiv:2607.19012 — Long, "Counterexamples to the xz-Conjecture and the Mathieu
+  Conjecture for SU(2)" — https://arxiv.org/abs/2607.19012 — algebra / invariant theory (axis 1,
+  math.RA/AG): refutes the ~29-year-old Mathieu conjecture for SU(2) (O. Mathieu, 1997 — the
+  approach to the Jacobian conjecture via compact-Lie-group integration identities) with an
+  explicit three-term Laurent-polynomial counterexample, also disproving the closely related
+  xz-conjecture and showing the relevant kernel is not a Mathieu–Zhao subspace. CAPTURE-LEAK
+  CATCH: v1 dates 2026-07-21 (~20 days ago, well inside the 60-day domain-cadence window) but
+  was missed by this ledger until surfaced today via a citing follow-up (see next item) — a
+  near-miss corrected same session, not a fresh result. Abstract + author verified via arXiv API
+  this session. A landmark refutation of a long-standing named conjecture with a direct link to
+  the Jacobian-conjecture research program already tracked on this ledger. Also on `study_shelf`.
+  - 2026-08-07 — arXiv:2608.07338 — Dvorsky, "An Explicit Five-Variable Counterexample to the
+    Generalized Vanishing Conjecture" — https://arxiv.org/abs/2608.07338 — explicitly motivated
+    by Long's Mathieu-conjecture counterexample above, gives an independent five-variable
+    counterexample to the (related) Generalized Vanishing Conjecture. A second, independent
+    engagement with the same algebraic sub-theme within 2.5 weeks — a FORMING pair (below the
+    ≥3-group trend bar; watch for a third). Abstract + author verified via arXiv API this
+    session (v1 2026-08-07).
+- 2026-08-07 — arXiv:2608.06681 — He, Sahai, "Refuting a Conjecture of Umans and Wang on
+  Arithmetic-Progression Divisor Covers" — https://arxiv.org/abs/2608.06681 — combinatorial
+  number theory / complexity-adjacent (axis 1, math.NT): unconditionally refutes the
+  arithmetic-progression case of the Umans–Wang Strong divisor conjecture (an
+  arithmetic-progression $n$-divisor set cannot have the conjectured polylogarithmic length).
+  Abstract + authors verified via arXiv API this session (v1 2026-08-07). Below-bar
+  refuted-conjecture item.
+- 2026-08-07 — arXiv:2608.07186 — Thorne, "Towards the Fontaine–Mazur conjecture for GL(2)" —
+  https://arxiv.org/abs/2608.07186 — number theory / automorphic forms (axis 1, math.NT):
+  combines a new modularity result with geometry-of-numbers techniques to prove new cases of the
+  Fontaine–Mazur conjecture for GL(2), by an established leader in modularity-lifting (Jack
+  Thorne). Partial progress, not a full resolution. Abstract + author verified via arXiv API
+  this session (v1 2026-08-07). Below-bar partial-progress item.
+- 2026-08-07 — arXiv:2608.07350 — Xu, "Profinite rigidity in lattices of $\mathrm{PSL}(2,\mathbb{C})$"
+  — https://arxiv.org/abs/2608.07350 — geometric group theory (axis 1, math.GR/GT): proves all
+  lattices in PSL(2,C) are profinitely rigid among themselves, plus an $\mathrm{Out}$-isomorphism
+  result for their profinite completions. Abstract + author verified via arXiv API this session
+  (v1 2026-08-07). Below-bar single-group-theory-result item.
+- 2026-08-07 — arXiv:2608.06920 — Valtonen, "Classification of Symmetric Hadamard Matrices Up to
+  Order 32" — https://arxiv.org/abs/2608.06920 — combinatorics / design theory (axis 1, math.CO):
+  completes the Hadamard-equivalence classification of symmetric Hadamard matrices up to order
+  32 (correcting an error in the prior order-28 classification) via a new equivalence-testing
+  algorithm. Abstract + author verified via arXiv API this session (v1 2026-08-07). Below-bar
+  classification/enumeration item.
+- 2026-08-07 — arXiv:2608.07399 — Bondarenko, Heap, "Siegel zeros and small gaps between zeros of
+  the Riemann zeta function" — https://arxiv.org/abs/2608.07399 — analytic number theory (axis 1,
+  math.NT): shows, conditional on RH, that Siegel zeros imply zeta-zero gaps below 0.4733× the
+  normalised spacing, refuting certain strong alternative pair-correlation hypotheses under those
+  assumptions. Abstract + authors verified via arXiv API this session (v1 2026-08-07). Below-bar
+  conditional-result item.
+- 2026-08-07 — arXiv:2608.07396 — de Dios Pont, Liehr, Muñoz-Lahoz, Taylor, Tradacete, "Banach
+  lattices and phase retrieval: A case study for the use of AI in mathematics" —
+  https://arxiv.org/abs/2608.07396 — AI-WATCH area (scope: track the assistance, not the AI
+  method itself): a community reflection piece by Banach-lattice/phase-retrieval researchers on
+  incorporating LLM assistance coupled with Lean verification into their research workflow — a
+  meta-level account, not a single new theorem. Abstract + authors verified via arXiv API this
+  session (v1 2026-08-07). Watch-area intake, not a result.
 - 2026-08-08 — **2026 Frontiers of Science Award (mathematics) → Dennis Gaitsgory** (with Nick
   Rozenblyum) — https://www.mpim-bonn.mpg.de/ — recognition/ecosystem (axis 1, algebraic
   geometry / geometric Langlands): the International Congress for Basic Science award cites
@@ -1253,6 +1351,16 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-07 — [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang), arXiv:2608.07173](https://arxiv.org/abs/2608.07173)
+  — proves the Modularity Conjecture for higher theta series on moduli stacks of Hermitian
+  shtukas, capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad / relative-
+  Langlands program (axis 1, math.NT/AG). Abstract + authors verified via arXiv API this session
+  (v1 2026-08-07).
+- 2026-07-21 (v1; surfaced this session, accessed 2026-08-10) — [Counterexamples to the xz-Conjecture and the Mathieu Conjecture for SU(2) (Long), arXiv:2607.19012](https://arxiv.org/abs/2607.19012)
+  — refutes the ~29-year-old Mathieu conjecture for SU(2), a named conjecture directly connected
+  to the Jacobian-conjecture research program already tracked on this ledger (axis 1, math.RA/AG).
+  Abstract + author verified via arXiv API this session. A capture-leak catch — worth knowing
+  despite the 3-week discovery delay.
 - 2026-08-06 — [Linear dependence of time-frequency shifts of a Schwartz function (Faulhuber, Petersen, van Velthoven, Voigtlaender), arXiv:2608.05044](https://arxiv.org/abs/2608.05044)
   — disproves the ~30-year-old HRT (Heil–Ramanathan–Topiwala) conjecture in time-frequency
   analysis via an explicit 12-shift linear dependence (axis 1, math.CA/FA). Abstract + authors
