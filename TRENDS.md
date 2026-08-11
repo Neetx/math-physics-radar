@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-10
+Last updated: 2026-08-11
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -214,6 +214,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     2604.23986, 2605.25843, 2608.02537) shows no fresh v-update since 2026-08-03 — no
     referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02
     unchanged.
+  - 2026-08-11 (daily): full math.CO/NT/AG/GT/DG/RT/PR/AC/RA/KT/AT/SG/AP/FA/CA/CV/OA/OC/LO/DS
+    batch (2026-08-08→08-10, 392 fresh entries) scanned for Ramsey lower bounds — none (batch
+    held the hyperkähler period-index refutation, the cyclotomic/almost-Moore-digraph proof,
+    the Berenstein-conjecture counterexample, the Anthropic Riemann-zeta result, etc., all
+    captured below, unrelated sub-theme). arXiv-API metadata on all five tracked preprints
+    unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium;
+    60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
@@ -284,6 +291,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     hype-skepticism caveat applies (ordinary refereed output, not an AI-assisted or extraordinary
     claim). Watch for a 5th group and for citations connecting this lattice/tensor-network thread to
     the Bhardwaj et al. continuum Symmetry-TFT framework.
+  - 2026-08-11 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
+    (2026-08-08→08-10) and SciPost API (through SciPostPhys.21.2.037, 2026-08-10) both scanned —
+    no 5th independent group on non-invertible/categorical symmetries specifically. One
+    ADJACENT-but-distinct item noted, not counted toward this trend: arXiv:2608.08766 (Gu, Luo,
+    Wang, Zhang, "Understanding Non-Split 2-Group Symmetry: (3+1)D SymTFT, Anomaly and Bordism")
+    studies a non-split 2-GROUP (higher-group) symmetry's SymTFT/anomaly structure — a related
+    generalized-symmetries technique (SymTFT) but a different symmetry structure (2-group, not a
+    non-invertible/fusion-category symmetry) → captured as its own below-bar queue item, does not
+    feed this trend. Trend HELD emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -349,10 +365,116 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-10 (daily): fresh math.CO 2026-08-07 batch scanned for Schur-positivity/claw-free
     items — none. No 4th independent group or referee/vetting outcome on any of the three
     tracked preprints. Trend HELD seed/medium.
+  - 2026-08-11 (daily): fresh math.CO 2026-08-08→08-10 batch (392 entries) scanned for
+    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
+    outcome on any of the three tracked preprints. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-10 (v1; paper dated 2026-08-10, surfaced via community pulse — chased same session) —
+  Claude (Anthropic, unreleased research model), "More Than Two Thirds of the Zeros of the
+  Riemann Zeta Function Lie on the Critical Line" —
+  https://www.anthropic.com/research/riemann-zeta · paper PDF
+  https://www-cdn.anthropic.com/564f962e60643842f5fcb4a17c9dbc8f608f1c37.pdf · Lean
+  formalization https://github.com/anthropics/zeta-23-lean — analytic number theory (axis 1,
+  math.NT) / AI-WATCH + axis 5 (formal verification): proves unconditionally that
+  liminf N₀*(T,2T)/N(T,2T) ≥ 2/3 (optimised test family → 0.6725) — i.e. at least ~67.25% of
+  nontrivial zeta zeros are simple and on the critical line, up from the ~41.6% state-of-the-art
+  standing since prior work of Baluyot–Goldston–Suriajaya–Turnage-Butterbaugh (arXiv:2306.04799,
+  2501.14545) and Bombieri (2000); also gives ≥83.6% distinct-on-line. Official Anthropic
+  research page + full paper PDF opened via `tvly extract` this session (paper dated 2026-08-10).
+  HEAVY HYPE-SKEPTICISM + AI-WATCH CAUTION (scope: track the RESULT, not the AI method — sibling
+  AI radars' beat): off-arXiv, unrefereed, and a ~25-percentage-point jump over a record that had
+  moved by fractions of a percent per decade is an extraordinary claim → PROVISIONAL until
+  independent expert vetting. Vetting signal (not yet an outcome, but stronger than most AI-math
+  claims on this ledger): two Anthropic in-house mathematicians (Ralph Furman, Levent Alpöge, per
+  the paper's acknowledgments) studied and take responsibility for communicating the result, and
+  Brian Conrey (AIM director, a leading authority on zero-density/critical-line estimates for
+  ζ) and Dan Goldston (co-author of the BGST papers the proof builds on) are named as having
+  "generously examined the paper on short notice" — genuinely well-matched external reviewers,
+  though this is informal review, not peer review or independent replication. A companion Lean
+  formalization (`zeta-23-lean`) is claimed but not independently verified this session (repo
+  not opened). Watch for: an arXiv posting, a formal referee/replication outcome, and any public
+  comment from Conrey/Goldston beyond the "examined" framing. Also on `study_shelf`.
+- 2026-08-10 — arXiv:2608.08997 — Kaur, Kumar, "A proof of the cyclotomic conjecture and the
+  non-existence of almost Moore digraphs" — https://arxiv.org/abs/2608.08997 — graph theory /
+  degree-diameter problem (axis 1, math.CO/NT): proves Gimbert's 1999 cyclotomic conjecture on
+  the irreducibility of Φₙ(1+x+…+xᵏ) over ℚ, which Conde–Gimbert–González–Miller–Miret (2014)
+  showed implies the non-existence of "almost Moore" digraphs — closing a well-known open case
+  of the directed degree-diameter problem that has stood since the 1980s. Abstract + authors
+  verified via arXiv API this session (v1 2026-08-10). A landmark resolution of a long-standing
+  named conjecture in extremal/algebraic graph theory. Also on `study_shelf`.
+- 2026-08-10 — arXiv:2608.09436 — Belmans, Hotchkiss, "The hyperkähler period-index conjecture
+  is false" — https://arxiv.org/abs/2608.09436 — algebraic geometry (axis 1, math.AG): refutes
+  Huybrechts's strengthening of the period-index conjecture (ind(α) | per(α)^{dim(X)/2} for a
+  Brauer class α on a hyperkähler variety X) on certain hyperkähler fourfolds of type K3^[2] and
+  Kum². Abstract + authors verified via arXiv API this session (v1 2026-08-10). A SECOND,
+  independent period-index-family refutation within a week — Perry's "The period-index conjecture
+  is false" (2608.03684, queued/shelved 08-04) refuted the classical (non-hyperkähler) period-index
+  conjecture; this is a different named conjecture (Huybrechts's), by a fully independent
+  two-author group, on the hyperkähler strengthening specifically — a FORMING pair on the broader
+  "period-index-type conjectures fail" sub-theme (below the ≥3-group trend bar; watch for a third).
+  A landmark refutation of a named conjecture by a leading algebraic geometer in its own right.
+- 2026-08-09 — arXiv:2608.08953 — Colbrook, Sadeghi, Stepaniants, "A computer-assisted
+  counterexample to the planar Berenstein conjecture" — https://arxiv.org/abs/2608.08953 —
+  analysis / spectral geometry (axis 1, math.AP/CA): adapts the same conformal-fixed-disc /
+  disk-polynomial / validated-tail machinery the authors used for the Pompeiu/Schiffer
+  counterexample (2608.01579, already queued/shelved 08-03) to the complementary Dirichlet
+  endpoint, disproving the unrestricted planar Berenstein conjecture via an explicit noncircular
+  domain. Abstract + authors verified via arXiv API this session (v1 2026-08-09). A THIRD
+  classical rigidity conjecture (after Pompeiu and Schiffer) falling to the same group's
+  computer-assisted method — own-group extension, not a new independent corroboration of the
+  Pompeiu/Schiffer forming pair, but notable for the growing computer-assisted-proof pattern.
+- 2026-08-08 — arXiv:2608.07836 — Huang, Satriano, "The dimension threshold for Batyrev's
+  non-negativity conjecture on stringy Hodge numbers" — https://arxiv.org/abs/2608.07836 —
+  algebraic geometry (axis 1, math.AG): shows Batyrev's non-negativity conjecture holds in
+  dimension ≤4 and gives counterexamples in dimension ≥5 — a full characterization sharpening
+  the already-tracked AI-assisted counterexample (2607.19184, study_shelf 07-22, "discovered
+  with the assistance of OpenAI's ChatGPT"). Abstract + authors verified via arXiv API this
+  session (v1 2026-08-08). NOT AI-assisted (standard human proof) — an independent, rigorous
+  follow-up that locates exactly where the earlier AI-assisted counterexample's phenomenon
+  begins; a useful, lower-epistemic-risk complement to that provisional AI-generated result.
+- 2026-08-09 — arXiv:2608.09205 — Cameron, Di Colandrea, Cardano, Marrucci, "Evidence for
+  Counterfactual Violation of Local Conservation Laws in Quantum Events" —
+  https://arxiv.org/abs/2608.09205 — quantum foundations (axis 4, quant-ph): reports experimental
+  evidence, using superoscillatory photons extracted from an optical-vortex core, for individual
+  quantum events locally violating conservation of momentum — testing a thought experiment of
+  Aharonov, Popescu and Rohrlich (APR). Abstract + authors verified via arXiv API this session
+  (v1 2026-08-09). EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): "evidence for" a
+  counterintuitive foundational claim about conservation laws in single quantum events is
+  PROVISIONAL pending independent replication and theoretical scrutiny of the interpretation —
+  but a genuine first-of-kind experimental test of a specific, well-known foundational proposal,
+  worth a frontier physicist's attention.
+- 2026-08-09 — arXiv:2608.08441 — Guu, "A Disproof of Santharoubane's Conjecture on
+  Presentations of Generic Skein Algebras" — https://arxiv.org/abs/2608.08441 — low-dimensional
+  topology / quantum topology (axis 1/2, math.GT): refutes Santharoubane's conjecture that a
+  presentation derived from mapping-class-group data yields an algebra isomorphic to the generic
+  Kauffman-bracket skein algebra, for surfaces of genus ≥3. Abstract + author verified via arXiv
+  API this session (v1 2026-08-09). Below-bar refuted-conjecture item.
+- 2026-08-09 — arXiv:2608.08478 — Prajapati, "A counterexample to the Etzion-Silberstein
+  conjecture" — https://arxiv.org/abs/2608.08478 — coding theory / combinatorics (axis 1,
+  cs.IT, adjacent to math.CO): disproves the Etzion–Silberstein conjecture on Singleton-type
+  bounds for linear Ferrers-diagram rank-metric codes via an explicit Ferrers diagram where the
+  optimal dimension falls one short of the conjectured bound. Abstract + author verified via
+  arXiv API this session (v1 2026-08-09). Category-borderline (cs.IT, not a core math.* listing)
+  but a genuine refuted named conjecture in algebraic/combinatorial coding theory — below-bar
+  intake.
+- 2026-08-10 — arXiv:2608.09191 — Yavari, "A Proof of the Imbalance Conjecture" —
+  https://arxiv.org/abs/2608.09191 — combinatorics / graph theory (axis 1, math.CO): proves the
+  Kozerenko–Skochko imbalance conjecture (the multiset of edge-imbalances of a graph with every
+  edge positively imbalanced is always graphic). Abstract + author verified via arXiv API this
+  session (v1 2026-08-10) — no AI-assistance is claimed or visible in the abstract/comments,
+  despite a community-pulse post title framing it as AI-assisted; not corroborated by the primary,
+  so captured here without that attribution. Below-bar resolved-conjecture item (a young
+  conjecture, not a classical named one).
+- 2026-08-09 — arXiv:2608.08766 — Gu, Luo, Wang, Zhang, "Understanding Non-Split 2-Group
+  Symmetry: (3+1)D SymTFT, Anomaly and Bordism" — https://arxiv.org/abs/2608.08766 —
+  theoretical physics (axis 2, hep-th): classifies anomalies of a non-split ℤ₂×ℤ₂ 2-group
+  symmetry via oriented/spin bordism groups and constructs its (3+1)D Symmetry TFT. Abstract +
+  authors verified via arXiv API this session (v1 2026-08-09). SymTFT-adjacent to the tracked
+  non-invertible-symmetries trend but a DIFFERENT symmetry structure (2-group, not
+  non-invertible/fusion-category) — does not feed that trend; below-bar item in its own right.
 - 2026-08-07 — arXiv:2608.07173 — Feng, Yun, Zhang, "Modularity of Higher Theta Series III:
   Proof of the Modularity Conjecture" — https://arxiv.org/abs/2608.07173 — number theory /
   arithmetic geometry (axis 1, math.NT/AG): proves the Modularity Conjecture for higher theta
@@ -1345,12 +1467,33 @@ Corrections to the source-coverage strategy.
   amendments proposed this week — the source registry (now grown by 3 genuine promotions), skills and
   scope axes are all in a consistent, honest state. Monthly hit/miss retrospective NOT due (day 08 > 7;
   M09 due first run of September).
+- 2026-08-11 (daily) — Self-heal: Strassler ("Of Particular Significance") flagged 08-10 for
+  apparent feed staleness since Feb 2026 — confirmed via the live homepage (`tvly extract`, not
+  just the RSS) that "The Physicists and Mr. Epstein" (posted 05/02/2026) is still the latest
+  post. Genuinely quiet (a low-cadence author on hiatus), not a feed/caching bug — same pattern
+  as the CERN Courier self-heal (08-10). Reclassified from degraded to confirmed-quiet; heal-owed
+  flag cleared.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-10 — [More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line (Claude / Anthropic)](https://www.anthropic.com/research/riemann-zeta)
+  — an unreleased Anthropic research model unconditionally raises the known lower bound on the
+  proportion of zeta zeros that are simple and on the critical line from ~41.6% to ~67.25%
+  (axis 1, math.NT), by a linear-algebraic reading of Baluyot–Goldston–Suriajaya–Turnage-
+  Butterbaugh's pair-correlation work plus Bombieri (2000). Official research page + paper PDF
+  opened via `tvly extract` this session (paper dated 2026-08-10). HEAVY CAVEATS (hype-skepticism
+  + AI-watch rules): off-arXiv, unrefereed, an extraordinary jump over a decades-slow record —
+  PROVISIONAL; worth knowing for the scale of the claimed jump and the unusually well-matched
+  informal review (Brian Conrey and Dan Goldston, named specialists in exactly this subfield) plus
+  an accompanying Lean formalization, not as confirmed mathematics.
+- 2026-08-10 — [A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs (Kaur, Kumar), arXiv:2608.08997](https://arxiv.org/abs/2608.08997)
+  — resolves Gimbert's 1999 cyclotomic conjecture, closing the associated ~45-year-old
+  non-existence question for almost Moore digraphs in the directed degree-diameter problem
+  (axis 1, math.CO/NT). Abstract + authors verified via arXiv API this session (v1 2026-08-10).
+  A clean resolution of a classical, well-known open problem in extremal/algebraic graph theory.
 - 2026-08-07 — [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang), arXiv:2608.07173](https://arxiv.org/abs/2608.07173)
   — proves the Modularity Conjecture for higher theta series on moduli stacks of Hermitian
   shtukas, capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad / relative-

@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-104-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--10-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-114-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--11-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-08):**
-- [Non-invertible symmetries in QFT promoted `seed` → `emerging`, confidence → `high`](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries): a fourth, fully independent, peer-reviewed group ([Nature Physics](https://www.nature.com/articles/s41567-026-03390-5)) corroborates the direction.
-- [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang)](https://arxiv.org/abs/2608.07173) — a landmark resolution capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad program.
-- Capture-leak catch: [the Mathieu conjecture for SU(2) is false](https://arxiv.org/abs/2607.19012) (Long) — a 29-year-old named conjecture linked to the already-tracked Jacobian-conjecture program, found via a citing follow-up 3 weeks after its own posting.
-- Observation queue [96 → 104](TRENDS.md#observation_queue): +8 new items (no burndown today — daily persistence, per domain cadence).
+**Since last scan (2026-08-10):**
+- [Anthropic's unreleased Claude model raises the known lower bound on Riemann-zeta zeros on the critical line from ~41.6% to ~67.25%](https://www.anthropic.com/research/riemann-zeta) — extraordinary claim, unrefereed and off-arXiv, but with unusually well-matched informal review (Brian Conrey, Dan Goldston) and an accompanying Lean formalization.
+- [A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs (Kaur, Kumar)](https://arxiv.org/abs/2608.08997) — closes a ~45-year-old open case of the directed degree-diameter problem.
+- [The hyperkähler period-index conjecture is false (Belmans, Hotchkiss)](https://arxiv.org/abs/2608.09436) — a second, independent period-index-family conjecture refuted this week, forming a pair with Perry's 08-04 result.
+- Observation queue [104 → 114](TRENDS.md#observation_queue): +10 new items (no burndown today — daily persistence, per domain cadence).
 
 ## Trends
 
@@ -22,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line (Claude / Anthropic)](https://www.anthropic.com/research/riemann-zeta) — an unreleased Anthropic research model unconditionally raises the known lower bound on zeta zeros that are simple and on the critical line from ~41.6% to ~67.25%. **Heavily provisional** — off-arXiv, unrefereed, an extraordinary jump over a decades-slow record; worth knowing for the scale of the claim and the unusually well-matched informal review (Brian Conrey, Dan Goldston) plus a Lean formalization, not as confirmed mathematics.
+- [A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs (Kaur, Kumar)](https://arxiv.org/abs/2608.08997) — resolves Gimbert's 1999 cyclotomic conjecture, closing a ~45-year-old open case of the directed degree-diameter problem.
 - [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang)](https://arxiv.org/abs/2608.07173) — proves the Modularity Conjecture for higher theta series on moduli stacks of Hermitian shtukas, capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad / relative-Langlands program.
 - [Counterexamples to the xz-Conjecture and the Mathieu Conjecture for SU(2) (Long)](https://arxiv.org/abs/2607.19012) — refutes the ~29-year-old Mathieu conjecture for SU(2), directly connected to the already-tracked Jacobian-conjecture research program. A capture-leak catch, found via a citing follow-up 3 weeks after its own posting.
 - [Linear dependence of time-frequency shifts of a Schwartz function (Faulhuber, Petersen, van Velthoven, Voigtlaender)](https://arxiv.org/abs/2608.05044) — disproves the ~30-year-old HRT (Heil–Ramanathan–Topiwala) conjecture in time-frequency analysis via an explicit 12-shift linear dependence. AI-assisted (responsibly disclosed) but independently reconstructed and engaged same-day by Terence Tao — a famous named conjecture falling, with unusually fast, credible community vetting already underway.
@@ -54,11 +56,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) continue discussing the already-tracked HRT-conjecture disproof and the Kourovka Notebook resolutions; no new on-axis pointer this pass.
-- Gil Kalai's ["Snapshots from ICM2026"](https://gilkalai.wordpress.com/feed/) recap is ecosystem commentary only — no new primary named.
-- Hacker News and Mathstodon: routine/off-topic today, nothing on-axis.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) were buzzing about Anthropic's Riemann-zeta result and a "Mathieu group M23 is a Galois group over Q" claim — the latter chased to its primary (Epoch AI's FrontierMath benchmark page), which still lists it as **unsolved**, so it was not captured as a result.
+- Hacker News: no on-axis math/physics story today (general tech/AI news).
+- MathOverflow and Mathstodon: routine/low-signal today, nothing on-axis.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (104) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-10](reports/2026-08-10.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (114) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-11](reports/2026-08-11.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
