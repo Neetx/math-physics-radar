@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-114-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--11-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-119-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--12-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-10):**
-- [Anthropic's unreleased Claude model raises the known lower bound on Riemann-zeta zeros on the critical line from ~41.6% to ~67.25%](https://www.anthropic.com/research/riemann-zeta) — extraordinary claim, unrefereed and off-arXiv, but with unusually well-matched informal review (Brian Conrey, Dan Goldston) and an accompanying Lean formalization.
-- [A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs (Kaur, Kumar)](https://arxiv.org/abs/2608.08997) — closes a ~45-year-old open case of the directed degree-diameter problem.
-- [The hyperkähler period-index conjecture is false (Belmans, Hotchkiss)](https://arxiv.org/abs/2608.09436) — a second, independent period-index-family conjecture refuted this week, forming a pair with Perry's 08-04 result.
-- Observation queue [104 → 114](TRENDS.md#observation_queue): +10 new items (no burndown today — daily persistence, per domain cadence).
+**Since last scan (2026-08-11):**
+- Two fully independent groups [proved the same 2015 Kolokolnikov conjecture](https://arxiv.org/abs/2608.09879) on algebraic connectivity [the same day](https://arxiv.org/abs/2608.09822) — a striking double-discovery coincidence.
+- [Kohayakawa's 1991 conjecture on induced paths in Kneser-related graphs, resolved (Ning)](https://arxiv.org/abs/2608.11132) — a 35-year-old named conjecture falls.
+- A single-author "outline of a proof" of a [3d Yang-Mills mass-gap result (Nair)](https://arxiv.org/abs/2608.10133) surfaced — heavily provisional, watching for a completed writeup.
+- Observation queue [114 → 119](TRENDS.md#observation_queue): +5 new items (no burndown today — daily persistence, per domain cadence).
 
 ## Trends
 
@@ -56,11 +56,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) were buzzing about Anthropic's Riemann-zeta result and a "Mathieu group M23 is a Galois group over Q" claim — the latter chased to its primary (Epoch AI's FrontierMath benchmark page), which still lists it as **unsolved**, so it was not captured as a result.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) mostly recirculated already-tracked stories (the Mathieu-group claim, Anthropic's Riemann-zeta result); one new pointer to a graph-theory counterexample reportedly pulled from arXiv under its new AI-content policy, not independently verified.
 - Hacker News: no on-axis math/physics story today (general tech/AI news).
 - MathOverflow and Mathstodon: routine/low-signal today, nothing on-axis.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (114) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-11](reports/2026-08-11.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (119) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-12](reports/2026-08-12.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

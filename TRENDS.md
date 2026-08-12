@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-11
+Last updated: 2026-08-12
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -221,6 +221,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     captured below, unrelated sub-theme). arXiv-API metadata on all five tracked preprints
     unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium;
     60-day dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-12 (daily): fresh math.CO/NT/AG/GT/DG/RT/PR/AC/RA/KT/AT/SG/AP/FA/CA/CV/OA/OC/LO/DS
+    batch (2026-08-09→08-11, 366 fresh entries) scanned for Ramsey lower bounds — none (only
+    two peripheral Ramsey-labelled titles, a "nearcircumsphere-Ramsey theorem" for solvable
+    transitive configurations and a small "pyramid with a Ramsey base" note, neither a
+    Ramsey-number lower bound; batch dominated by the Kolokolnikov-conjecture double-discovery
+    and other items captured below, unrelated sub-theme). arXiv-API metadata on all five
+    tracked preprints unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD
+    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
@@ -300,6 +308,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     generalized-symmetries technique (SymTFT) but a different symmetry structure (2-group, not a
     non-invertible/fusion-category symmetry) → captured as its own below-bar queue item, does not
     feed this trend. Trend HELD emerging/high.
+  - 2026-08-12 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
+    (2026-08-09→08-11) and SciPost API (through SciPostPhys.21.2.038, 2026-08-11) both
+    scanned — no 5th independent group on non-invertible/categorical symmetries specifically.
+    Context note (ecosystem, not evidence): Simons Foundation announced a new "Simons
+    Collaboration on the Virtues of Defects" led by Jaume Gomis (Perimeter), explicitly citing
+    "advances in theories of defects that revealed new phases of quantum systems" among the
+    motivating recent successes — thematically adjacent to this trend's non-invertible-defect
+    research direction but a funding/ecosystem announcement, not a primary result (queued
+    separately below). Trend HELD emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -367,11 +384,57 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     tracked preprints. Trend HELD seed/medium.
   - 2026-08-11 (daily): fresh math.CO 2026-08-08→08-10 batch (392 entries) scanned for
     Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
-    outcome on any of the three tracked preprints. Trend HELD seed/medium.
+    outcome on any of the three tracked preprints.
+  - 2026-08-12 (daily): fresh math.CO 2026-08-09→08-11 batch (366 entries) scanned for
+    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
+    outcome on any of the three tracked preprints. Trend HELD seed/medium. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-12 — Simons Foundation, "New Simons Collaboration Explores Defects in Physics" —
+  https://www.simonsfoundation.org/2026/08/new-simons-collaboration-explores-defects-in-physics/
+  — ecosystem/recognition (axis 2, hep-th/math-ph): launches the "Simons Collaboration on the
+  Virtues of Defects," led by Jaume Gomis (Perimeter Institute), studying nonlocal
+  observables/defects across QFT, condensed matter and gravity; the announcement cites "advances
+  in theories of defects that revealed new phases of quantum systems" among the collaboration's
+  motivating recent successes — thematically adjacent to the tracked non-invertible-symmetries
+  trend (Gomis is a leading defect-CFT/categorical-symmetry researcher) but a funding launch, not
+  a result. Page opened via `tvly extract` this session. Below-bar ecosystem item.
+- 2026-08-10 — arXiv:2608.10133 — Nair, "Towards a Proof of Mass Gap in 3d Yang-Mills Theory" —
+  https://arxiv.org/abs/2608.10133 — mathematical physics (axis 2, hep-th/math-ph): sketches "the
+  outlines of a proof" of a mass gap for 3d Yang-Mills theory via an inequality on Laplacian
+  eigenvalues over the gauge-invariant configuration space — a continuation of the author's own
+  long-running Hamiltonian approach to this problem, not a from-scratch claim, and explicitly an
+  outline rather than a complete rigorous proof. Abstract + author verified via arXiv API this
+  session (v1 2026-08-10). EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): a Yang-Mills mass
+  gap (the 4d case is a Clay Millennium Problem; this is the 3d/Euclidean analogue) is a famous
+  open problem — single-author, program-continuation, explicitly partial ("outlines") →
+  PROVISIONAL, watch for a completed rigorous writeup and independent expert engagement.
+- 2026-08-10 — TWO fully independent groups resolve the SAME 2015 Kolokolnikov conjecture on
+  algebraic connectivity, same day — arXiv:2608.09879 (Cioabă, Jayarajan, Kannan, Roy, "Maximizing
+  the algebraic connectivity of graphs of given order and size: a proof of a conjecture of
+  Kolokolnikov") · arXiv:2608.09822 (Chi, Wang, Zheng, "On a conjecture of Kolokolnikov on
+  algebraic connectivity") — https://arxiv.org/abs/2608.09879 ·
+  https://arxiv.org/abs/2608.09822 — spectral graph theory (axis 1, math.CO): both prove
+  Kolokolnikov's 2015 conjecture that the maximum algebraic connectivity α(n,2n−4) over graphs on
+  n vertices with 2n−4 edges equals 2, achieved by K_{2,n−2}. Abstracts + authors verified via
+  arXiv API this session (both v1 2026-08-09). A notable same-day double-discovery of a single
+  named conjecture by two fully independent author groups — below the trend bar (one conjecture,
+  not a multi-artifact sub-theme) but a striking convergence event in its own right.
+- 2026-08-11 — arXiv:2608.11132 — Ning, "Kohayakawa's conjecture and clique coverings of
+  complements of paths and cycles" — https://arxiv.org/abs/2608.11132 — extremal combinatorics
+  (axis 1, math.CO): proves Kohayakawa's 1991 conjecture on the growth rate of maximum induced
+  paths in a specific Kneser-graph-related bipartite construction, with a corollary sharpening
+  clique-covering bounds for complements of paths/cycles. Abstract + author verified via arXiv API
+  this session (v1 2026-08-11). A landmark resolution of a 35-year-old named conjecture.
+- 2026-08-11 — arXiv:2608.10889 — Liu, Chen, Zhou, "Katok's intermediate entropy conjecture for
+  amenable group actions" — https://arxiv.org/abs/2608.10889 — ergodic theory / dynamical systems
+  (axis 1, math.DS): shows Katok's intermediate entropy conjecture holds for amenable-group actions
+  with the specification property that are asymptotically entropy expansive — a significant but
+  conditional (restricted system class) advance, not a full general resolution. Abstract + authors
+  verified via arXiv API this session (v1 2026-08-11). Below-bar partial-progress item on a
+  well-known named conjecture.
 - 2026-08-10 (v1; paper dated 2026-08-10, surfaced via community pulse — chased same session) —
   Claude (Anthropic, unreleased research model), "More Than Two Thirds of the Zeros of the
   Riemann Zeta Function Lie on the Critical Line" —
@@ -1473,6 +1536,31 @@ Corrections to the source-coverage strategy.
   post. Genuinely quiet (a low-cadence author on hiatus), not a feed/caching bug — same pattern
   as the CERN Courier self-heal (08-10). Reclassified from degraded to confirmed-quiet; heal-owed
   flag cleared.
+- 2026-08-12 (daily) — Repo watch: lean4 pre-release bumped v4.33.0-rc2 → **v4.34.0-rc1**
+  (`tvly search "leanprover lean4 latest release version tag" --include-domains github.com`
+  this session, confirmed text "release candidate 1 for the v4.34.0 release of Lean"). mathlib4's
+  matching bump NOT independently confirmed this pass — the same search query against
+  leanprover-community/mathlib4 returned only stale/wiki hits, not a clean current-tag
+  confirmation; `tvly extract` on the bare releases page returned only the standing JS-shell nav.
+  Logged degraded rather than asserted; the two repos have tracked closely in every prior
+  observation (v4.33.0-rc2 in sync as of 08-08) so a matching mathlib4 bump is likely but
+  unverified — recheck next run. Rocq confirmed unchanged at V9.3+rc1.
+- 2026-08-12 (daily) — Source-discovery: no new candidate staged this session — the fresh
+  ecosystem item (Simons Foundation "Virtues of Defects" collaboration) is already on the
+  tracked Simons Foundation RSS feed (DAILY tier), and all captured math/physics primaries are
+  on already-tracked arXiv. CERN Courier's "arXiv's one-strike rule on AI" article (already
+  captured 2026-07-30) resurfaced this session via a community-pulse pointer to a concrete
+  enforcement anecdote — a graph-theory counterexample paper (Teschner's bondage-number
+  conjecture) reportedly pulled from arXiv under the new policy and re-hosted on figshare; NOT
+  captured as evidence (figshare is not a primary venue under the hard rules, and the underlying
+  claim was not independently verified this session) — noted here only as ecosystem color on the
+  already-tracked policy item, not a new queue line.
+- 2026-08-12 (daily) — Queue hygiene: queue at 114 pre-edit (unchanged count carried from 08-11
+  close) +5 new items today (Kolokolnikov pair, Kohayakawa, Katok partial, 3d-YM mass-gap
+  outline, Simons defects collaboration) → 119. Still well over the ~40 soft cap deliberately
+  (domain cadence: persistence over burndown-to-a-number); nothing stale (oldest live item well
+  under the 60-day staleness line). Next weekly (~08-15) should consider a measured lowest-tier
+  pass per weekly.md §3, now overdue for two consecutive weekly cycles at this queue size.
 
 ## study_shelf
 
