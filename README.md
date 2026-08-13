@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-119-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--12-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-128-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--13-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-11):**
-- Two fully independent groups [proved the same 2015 Kolokolnikov conjecture](https://arxiv.org/abs/2608.09879) on algebraic connectivity [the same day](https://arxiv.org/abs/2608.09822) — a striking double-discovery coincidence.
-- [Kohayakawa's 1991 conjecture on induced paths in Kneser-related graphs, resolved (Ning)](https://arxiv.org/abs/2608.11132) — a 35-year-old named conjecture falls.
-- A single-author "outline of a proof" of a [3d Yang-Mills mass-gap result (Nair)](https://arxiv.org/abs/2608.10133) surfaced — heavily provisional, watching for a completed writeup.
-- Observation queue [114 → 119](TRENDS.md#observation_queue): +5 new items (no burndown today — daily persistence, per domain cadence).
+**Since last scan (2026-08-12):**
+- An AI-generated, Lean-formalized [proof of Sendov's conjecture](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf) (~68 years open) surfaced, with Terence Tao himself — the field's leading expert on this exact problem — [personally digesting and reformalizing it](https://terrytao.wordpress.com/2026/08/12/a-digestion-of-the-proof-of-sendovs-conjecture/): heavily provisional, but the strongest vetting signal yet seen in the AI-assisted-math wave.
+- Two more named conjectures fell this pass: [Gluck's conjecture](https://arxiv.org/abs/2608.11525) (1985, finite group theory) and [Butler's positivity conjecture](https://arxiv.org/abs/2608.11543) (1994, Macdonald polynomials) — both unrefereed.
+- Alex Cohen's [fractal uncertainty principle in higher dimensions](https://arxiv.org/abs/2305.05022), now published in the Annals of Mathematics, surfaced via a Quanta feature — a clean, refereed math↔physics-interface landmark.
+- Observation queue [119 → 128](TRENDS.md#observation_queue): +9 new items (no burndown today — daily persistence, per domain cadence; a weekly burndown pass is overdue).
 
 ## Trends
 
@@ -22,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [A Computer-Assisted Proof of Sendov's Conjecture (Lech Mazur, using OpenAI GPT-5.6 Pro; digested + Lean-formalized by Terence Tao)](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf) — claims to resolve Sendov's ~68-year-old conjecture (1958) in full generality, extending Tao's own 2020 partial result. **Heavily provisional** — off-arXiv, self-published, explicitly AI-substantial per its own disclosure — but an unusually strong vetting signal: the world's leading expert on this exact conjecture personally re-derived, human-digested, and independently Lean-formalized the argument, rather than merely commenting on it publicly.
+- [Fractal uncertainty in higher dimensions (Alex Cohen)](https://arxiv.org/abs/2305.05022) — extends the Bourgain–Dyatlov fractal uncertainty principle to all higher dimensions, resolving an open extension problem from a 2016 workshop; now published in the Annals of Mathematics and freshly featured by Quanta. No caveats — refereed mathematics, originally the author's PhD thesis.
 - [More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line (Claude / Anthropic)](https://www.anthropic.com/research/riemann-zeta) — an unreleased Anthropic research model unconditionally raises the known lower bound on zeta zeros that are simple and on the critical line from ~41.6% to ~67.25%. **Heavily provisional** — off-arXiv, unrefereed, an extraordinary jump over a decades-slow record; worth knowing for the scale of the claim and the unusually well-matched informal review (Brian Conrey, Dan Goldston) plus a Lean formalization, not as confirmed mathematics.
 - [A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs (Kaur, Kumar)](https://arxiv.org/abs/2608.08997) — resolves Gimbert's 1999 cyclotomic conjecture, closing a ~45-year-old open case of the directed degree-diameter problem.
 - [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang)](https://arxiv.org/abs/2608.07173) — proves the Modularity Conjecture for higher theta series on moduli stacks of Hermitian shtukas, capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad / relative-Langlands program.
@@ -56,11 +58,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) mostly recirculated already-tracked stories (the Mathieu-group claim, Anthropic's Riemann-zeta result); one new pointer to a graph-theory counterexample reportedly pulled from arXiv under its new AI-content policy, not independently verified.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/): mostly recirculated already-tracked AI-assisted-math-wave threads; nothing new on-axis beyond what the digest/blog lane separately surfaced.
+- Terence Tao's blog surfaced the day's biggest story — his own digestion of the Sendov's-conjecture AI proof (see Worth studying).
 - Hacker News: no on-axis math/physics story today (general tech/AI news).
 - MathOverflow and Mathstodon: routine/low-signal today, nothing on-axis.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (119) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-12](reports/2026-08-12.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (128) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-13](reports/2026-08-13.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

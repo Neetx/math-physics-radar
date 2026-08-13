@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-12
+Last updated: 2026-08-13
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -229,6 +229,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     and other items captured below, unrelated sub-theme). arXiv-API metadata on all five
     tracked preprints unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD
     emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-13 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT
+    broad-rotation batch (2026-08-12, 160 fresh entries) scanned for Ramsey lower bounds —
+    none (batch's own landmark items — Gluck's conjecture, Butler's positivity conjecture,
+    the Cohn-Kumar Leech-lattice auxiliary-function conjecture — all captured below,
+    unrelated sub-theme; only routine Ramsey-type titles, e.g. "One-point extensions of
+    Euclidean Ramsey sets," none a lower-bound breakthrough). arXiv-API metadata on all five
+    tracked preprints unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD
+    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
@@ -317,6 +325,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     motivating recent successes — thematically adjacent to this trend's non-invertible-defect
     research direction but a funding/ecosystem announcement, not a primary result (queued
     separately below). Trend HELD emerging/high.
+  - 2026-08-13 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
+    (2026-08-11→08-12) and SciPost API (through SciPostPhysLectNotes.132 / SciPostPhysCore.9.3.047,
+    2026-08-12) both scanned — no 5th independent group on non-invertible/categorical symmetries
+    specifically. Trend HELD emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -387,11 +399,115 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     outcome on any of the three tracked preprints.
   - 2026-08-12 (daily): fresh math.CO 2026-08-09→08-11 batch (366 entries) scanned for
     Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
-    outcome on any of the three tracked preprints. Trend HELD seed/medium. Trend HELD seed/medium.
+    outcome on any of the three tracked preprints. Trend HELD seed/medium.
+  - 2026-08-13 (daily): fresh math.CO 2026-08-12 batch (160 entries) scanned for
+    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
+    outcome on any of the three tracked preprints. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-05 (v1 on proofatlas.ai; digested/formalized by Terence Tao, chased via Tao's blog
+  2026-08-12) — Lech Mazur (curator/prompter) + OpenAI GPT-5.6 Pro, "A Computer-Assisted Proof
+  of Sendov's Conjecture" — https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf
+  · Lean 4 formalization https://github.com/teorth/sendov · Tao's digestion
+  https://terrytao.wordpress.com/2026/08/12/a-digestion-of-the-proof-of-sendovs-conjecture/ —
+  complex analysis (axis 1, math.CV): claims to resolve SENDOV'S CONJECTURE (posed 1958,
+  ~68 years open) IN FULL GENERALITY for all degree n≥2 polynomials with zeros in the closed
+  unit disk, plus its Phelps–Rodriguez strengthening — extending Tao's own 2020 partial result
+  (arXiv:2012.04125, "sufficiently high degree") to the remaining intermediate-degree cases.
+  PDF + GitHub repo both opened via `tvly extract`, Tao's blog post opened via curl, this
+  session (proof PDF dated 2026-08-05; Tao's digestion post 2026-08-12). HEAVY CAVEATS
+  (hype-skepticism + AI-watch rules): "Generative AI played a substantial role in the discovery
+  and derivation of the mathematics ... not merely in editing" (paper's own disclosure); the
+  manuscript is off-arXiv, self-published on a dedicated AI-proof platform, and unrefereed →
+  PROVISIONAL under the standard rule. UNUSUALLY STRONG VETTING SIGNAL, however, distinguishing
+  this from the wave's earlier entries: Terence Tao — the field's own leading expert on this
+  exact conjecture — has personally spent "several days" independently re-deriving and
+  human-digesting the argument, and has built and published his own companion Lean 4
+  formalization repository verifying the exact theorem statement against a pinned
+  Lean/Mathlib toolchain (per the paper's own "Formalization status" note). Track for Tao's
+  completed writeup, any gap found during the digestion, and independent specialist review.
+  Seventh entry in the standing AI-assisted-math wave. NEW SOURCE-DISCOVERY CANDIDATE:
+  proofatlas.ai (first sighting) — a dedicated self-publication platform for AI-generated
+  proofs, structurally the same pattern as the already-tracked openai.com/anthropic.com
+  AI-disclosure lanes — staged in SOURCES.md this session (see strategy_notes).
+- 2026-08-12 — Alex Cohen, "Fractal uncertainty in higher dimensions," arXiv:2305.05022,
+  now published in the Annals of Mathematics (2025) — https://arxiv.org/abs/2305.05022 —
+  surfaced via a Quanta Magazine feature this session,
+  https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/
+  — harmonic analysis / mathematical physics interface (axis 1/2, math.CA↔quantum chaos):
+  extends the Bourgain–Dyatlov fractal uncertainty principle (2016, 1D) to ALL higher
+  dimensions, resolving the open extension problem from the 2016 Dyatlov–Bourgain workshop;
+  originally Cohen's PhD thesis (MIT), now peer-reviewed in the field's top journal. Abstract
+  verified via arXiv API + Quanta article opened via `tvly extract` this session. No AI or
+  hype-skepticism caveats — ordinary refereed mathematics, now community-recognized ("a
+  foundational result" — Peter Sarnak, IAS) well after its original 2023 preprint.
+- 2026-08-12 — Baoyu Zhang, "A Proof of Gluck's Conjecture," arXiv:2608.11525 —
+  https://arxiv.org/abs/2608.11525 — finite group theory (axis 1, math.GR/RT): settles
+  Gluck's conjecture, open since 1985 (~41 years): every finite solvable group G satisfies
+  |G:F(G)| ≤ b(G)², where F(G) is the Fitting subgroup and b(G) the largest irreducible
+  character degree. Abstract + author verified via arXiv API this session (v1 2026-08-12).
+  HEAVY CAVEAT (hype-skepticism rule): unrefereed SINGLE-AUTHOR preprint claiming resolution
+  of a named 40+-year conjecture → PROVISIONAL until independent vetting; a landmark claim a
+  representation/group theorist should watch.
+- 2026-08-12 — Peter L. Guo, Mingyang Kang, Rui Xiong, "A solution to Butler's positivity
+  conjecture," arXiv:2608.11543 — https://arxiv.org/abs/2608.11543 — algebraic combinatorics
+  (axis 1, math.CO/RT): proves Butler's positivity conjecture posed in 1994 (~32 years open):
+  the Schur-expansion coefficients of a Macdonald-intersection-polynomial ratio lie in
+  Z≥0[q,t]. Abstract + authors verified via arXiv API this session (v1 2026-08-12). Unrefereed
+  preprint (three-author, cross-verified internally, not single-author) — PROVISIONAL under
+  the hype-skepticism rule; track the referee outcome.
+- 2026-08-12 — Yutong Zhang, Yaoran Yang, "The 196560 auxiliary-function conjecture for the
+  Leech lattice," arXiv:2608.12094 — https://arxiv.org/abs/2608.12094 — sphere packing /
+  Fourier interpolation (axis 1/2, math.NT/CA, math-ph-adjacent): resolves the Cohn–Kumar
+  2009 conjecture (~17 years open) on the existence of a radial Schwartz function realizing
+  the Leech-lattice kissing-number identity via Poisson summation, building on the Viazovska-
+  program radial Fourier interpolation basis in dimension 24. Abstract + authors verified via
+  arXiv API this session (v1 2026-08-12). Unrefereed two-author preprint — PROVISIONAL; a
+  notable resolution in the sphere-packing/interpolation program that produced the Fields-
+  Medal-winning 8D/24D sphere-packing results.
+- 2026-08-12 — Julie Kiel Holm et al. (8 authors), "Evidence for the First Globular Cluster
+  Stellar Stream beyond the Milky Way," arXiv:2608.12254 — https://arxiv.org/abs/2608.12254 —
+  observational astrophysics / dark matter (axis 3, astro-ph.GA/CO): Hubble Space Telescope
+  imaging of ultra-diffuse galaxy UGC9050-Dw1 provides the FIRST evidence for an extragalactic
+  globular-cluster tidal stream (previously observed only in the Milky Way), with a
+  generative-stream-modelling dark-matter-halo mass constraint for the host. Abstract + authors
+  verified via arXiv API this session (v1 2026-08-12). First-of-kind observational claim from
+  a single team ("evidence for," not yet independently confirmed) — track for follow-up/
+  independent confirmation.
+- 2026-08-12 — Yi-Zhong Fan et al., "Evidence for a ~43 GeV γ-ray line signal in a stacking
+  analysis of the Virgo, Fornax, and Ophiuchus Galaxy clusters," arXiv:2407.11737, now
+  published as Phys. Rev. Lett. 137, 071003 (2026) — https://arxiv.org/abs/2407.11737 —
+  indirect dark-matter search (axis 3, astro-ph.HE/CO): a stacking analysis reporting evidence
+  for a ~43 GeV gamma-ray line from three galaxy clusters, a candidate dark-matter-annihilation
+  signature; original 2024 preprint now peer-reviewed and published in PRL. RSS abstract (PRL
+  feed) + arXiv API metadata opened this session (PRL published 2026-08-12). EXTRAORDINARY-
+  CLAIM CAUTION (hype-skepticism rule): a peer-reviewed "line signal" claim is not a discovery
+  — line-search anomalies in this exact subfield have a history of turning out to be
+  look-elsewhere-effect or instrumental artifacts (cf. the 3.5 keV line saga); PROVISIONAL,
+  track for independent confirmation/refutation by other collaborations (Fermi-LAT, H.E.S.S.).
+- 2026-08-06 — John C. Baez, "Three Generations in E7," arXiv:2608.06271 —
+  https://arxiv.org/abs/2608.06271 — mathematical physics (axis 2, hep-th/math-ph): a
+  speculative algebraic proposal using the exceptional Lie group E7 acting on Jordan-pair
+  structures to explain the 3-generation structure of Standard Model quarks/leptons, the
+  author's third paper in a series (with Schwahn's exceptional-Jordan-algebra gauge-group
+  result and the Bokor–Boyle Jordan-pair paper) attempting to derive Standard Model features
+  from exceptional algebra. Discovered via Baez's own blog post (2026-08-12, opened via `tvly
+  extract`) explaining the paper; abstract + author verified via arXiv API this session (v1
+  2026-08-06). Speculative single-author theoretical proposal, not a proof/discovery — below
+  the trend bar, worth tracking as part of the standing exceptional-algebra/Standard-Model
+  research program.
+- 2026-08-12 — Two below-bar partial-progress items opened this session, captured for the
+  record (neither a full resolution): António Girão, Sergey Norin, Youri Tamitegama, Jane Tan,
+  "Two Relaxations of the Dominating Hadwiger's Conjecture," arXiv:2608.12126,
+  https://arxiv.org/abs/2608.12126 (extremal graph coloring, axis 1, math.CO — proves two
+  weaker forms of a conjecture proposed only recently by Illingworth–Wood, not the conjecture
+  itself); Jake Brukhman, "A dense-case theorem for Seymour's second neighborhood conjecture,"
+  arXiv:2608.11530, https://arxiv.org/abs/2608.11530 (tournament theory, axis 1, math.CO —
+  extends known partial cases of the famous ~1990 second-neighborhood conjecture to a dense
+  regime, not a full resolution). Abstracts verified via arXiv API this session (both v1
+  2026-08-12).
 - 2026-08-12 — Simons Foundation, "New Simons Collaboration Explores Defects in Physics" —
   https://www.simonsfoundation.org/2026/08/new-simons-collaboration-explores-defects-in-physics/
   — ecosystem/recognition (axis 2, hep-th/math-ph): launches the "Simons Collaboration on the
@@ -1567,6 +1683,25 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-05 (v1 on proofatlas.ai; digested by Terence Tao 2026-08-12, surfaced this session) — [A Computer-Assisted Proof of Sendov's Conjecture (Lech Mazur, using OpenAI GPT-5.6 Pro; digestion + Lean formalization by Terence Tao)](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf)
+  — an AI-generated, Lean-4-formalized proof claims to resolve Sendov's ~68-year-old
+  conjecture (1958) IN FULL GENERALITY for all polynomial degrees, extending Tao's own 2020
+  partial resolution (axis 1, math.CV). PDF + Tao's companion GitHub formalization
+  (https://github.com/teorth/sendov) + his digestion blog post opened this session. HEAVY
+  CAVEATS (hype-skepticism + AI-watch rules): off-arXiv, self-published, explicitly
+  AI-substantial per its own disclosure → PROVISIONAL, not confirmed mathematics — but worth
+  knowing for an unusually strong vetting signal this radar has not seen before in the
+  AI-math wave: the world's leading expert on this exact conjecture personally re-deriving,
+  human-digesting, and independently formalizing the argument in Lean, rather than merely
+  publicly commenting on it.
+- 2026-08-12 (v1 2023-05-08; now published Annals of Mathematics 2025, Quanta feature
+  2026-08-12, surfaced this session) — [Fractal uncertainty in higher dimensions (Alex Cohen), arXiv:2305.05022](https://arxiv.org/abs/2305.05022)
+  — extends the Bourgain–Dyatlov fractal uncertainty principle to all higher dimensions,
+  resolving an extension problem open since a 2016 workshop, now published in the field's top
+  journal (axis 1/2, math.CA / quantum-chaos interface). Abstract + Quanta feature opened this
+  session. No caveats — refereed mathematics; a clean example of the math↔physics-interface
+  results this radar tracks, and originally the author's PhD thesis (MIT), earning him an NYU
+  assistant professorship at 25.
 - 2026-08-10 — [More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line (Claude / Anthropic)](https://www.anthropic.com/research/riemann-zeta)
   — an unreleased Anthropic research model unconditionally raises the known lower bound on the
   proportion of zeta zeros that are simple and on the critical line from ~41.6% to ~67.25%
