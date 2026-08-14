@@ -122,6 +122,14 @@ diff) but catches release tags. Retest direct `releases.atom` occasionally.
   via `tvly extract` (standing failure) — `tvly search "<owner>/<repo> latest release version tag"
   --include-domains github.com` reliably surfaces the actual tag text instead; use search first for
   lean4/mathlib4/rocq version-tag checks, fall back to `extract` only to confirm a URL.
+- **[healed 2026-08-14]** SUPERSEDES the above for reliability: `tvly extract
+  https://github.com/<owner>/<repo>/releases.atom` (the Atom feed, not the bare HTML page) works
+  cleanly every time — no JS-shell nav, no stale-search risk. Prefer `.atom` first for
+  lean4/mathlib4/rocq; fall back to `tvly search` only if `.atom` ever fails. NOTE:
+  leanprover-community/mathlib4 does NOT tag discrete semantic-version releases like lean4/Rocq
+  do — its `releases.atom` instead shows continuous daily `master-YYYY-MM-DD` auto-tags; a
+  "latest version tag" search for mathlib4 will legitimately come up empty/stale because there is
+  no such tag — read its daily `master-*` tag instead, don't treat the absence as degraded.
 - (agent: add proof libraries / CAS as they prove high-signal — e.g. sagemath, or a repo formalizing a major theorem)
 
 ### Watched profiles/users

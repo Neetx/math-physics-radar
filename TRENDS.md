@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-13
+Last updated: 2026-08-14
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -237,6 +237,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Euclidean Ramsey sets," none a lower-bound breakthrough). arXiv-API metadata on all five
     tracked preprints unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD
     emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-14 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT
+    broad-rotation batch (2026-08-13, 197 fresh entries) scanned for Ramsey lower bounds —
+    none (a landmark-dense batch — Banach's isometric conjecture, Gromov's volume growth
+    conjecture, the Chang-Yang conjecture, the Hayman-Wu constant, SOP2=SOP3 — all captured
+    below, unrelated sub-theme; only routine Ramsey/Gallai-Ramsey titles, none a lower-bound
+    breakthrough). arXiv-API metadata on all five tracked preprints unchanged since
+    2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy
+    re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
@@ -329,6 +337,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (2026-08-11→08-12) and SciPost API (through SciPostPhysLectNotes.132 / SciPostPhysCore.9.3.047,
     2026-08-12) both scanned — no 5th independent group on non-invertible/categorical symmetries
     specifically. Trend HELD emerging/high.
+  - 2026-08-14 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
+    (2026-08-13) and SciPost API (no new publications since SciPostPhysLectNotes.132/
+    SciPostPhysCore.9.3.047, 2026-08-12) both scanned — no 5th independent group on
+    non-invertible/categorical symmetries specifically. Trend HELD emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -401,6 +413,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
     outcome on any of the three tracked preprints. Trend HELD seed/medium.
   - 2026-08-13 (daily): fresh math.CO 2026-08-12 batch (160 entries) scanned for
+    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
+    outcome on any of the three tracked preprints. Trend HELD seed/medium.
+  - 2026-08-14 (daily): fresh math.CO 2026-08-13 batch (197 entries) scanned for
     Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
     outcome on any of the three tracked preprints. Trend HELD seed/medium.
 
@@ -1385,6 +1400,116 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-08 — arXiv:2607.06398 — "Random Multiplicative Functions and Making Squares from Polynomial Values" — https://arxiv.org/abs/2607.06398 — analytic number theory / probability (axis 1, math.NT/PR): CLTs for sums of random multiplicative functions over polynomial values via a paucity phenomenon for P(n₁)…P(n₄)=□; abstract opened via arXiv API this session. Single below-bar item.
 - 2026-07-02 — 2026 Abel Prize presented to Gerd Faltings (ceremony) — https://www.mpim-bonn.mpg.de/ — MPIM institute page opened this session; major recognition in arithmetic/algebraic geometry (ecosystem/award, on-scope).
 - 2026-07-02 — arXiv:2607.00762 — Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor (quantum Monte Carlo) — https://arxiv.org/abs/2607.00762 — condensed matter (axis 3/4): quantum Monte Carlo evidence for a second-order deconfined quantum phase transition (Néel → nodal d-wave superconductor) via a parton/gauge-field construction. Abstract verified via arXiv API 2026-W31 (weekly, closing a month-old unverified gap). Deconfined-criticality/order sub-theme now 2 independent groups (with 2607.01815) — forming, not yet at the ≥3 bar.
+- 2026-08-13 — arXiv:2608.13536 — Lu, Yang, "A solution to Banach's isometric conjecture" —
+  https://arxiv.org/abs/2608.13536 — functional analysis / Banach-space geometry (axis 1,
+  math.FA): proves Banach's 1932 isometric conjecture (a real Banach space all of whose
+  n-dimensional subspaces are mutually isometric, for some fixed 1<n<dim X, must be a Hilbert
+  space) for every ODD n — the last open cases — completing the conjecture in the real case
+  together with Gromov's 1967 even-n resolution. Abstract + authors verified via arXiv API
+  this session (v1 2026-08-13). A landmark completion of a ~94-year-old classical conjecture;
+  unrefereed two-author preprint — PROVISIONAL under the hype-skepticism rule, but building on
+  and completing established prior work (Gromov + subsequent partial cases), lower epistemic
+  risk than a from-scratch claim. Also on `study_shelf`.
+- 2026-08-13 — arXiv:2608.13553 — Ge, "Heat kernel geometry and Gromov's volume growth
+  conjecture" — https://arxiv.org/abs/2608.13553 — differential geometry / geometric analysis
+  (axis 1, math.DG): answers affirmatively Gromov's 1986 question — every complete noncompact
+  n-manifold with nonnegative Ricci curvature and scalar curvature ≥1 satisfies
+  Vol(B(p,R)) ≤ C_n R^{n-2} — via the heat-kernel Fisher metric and Nash entropy. Abstract +
+  author verified via arXiv API this session (v1 2026-08-13). A landmark resolution of a
+  ~40-year-old named conjecture in comparison geometry; unrefereed single-author preprint —
+  PROVISIONAL under the hype-skepticism rule; track the vetting outcome.
+- 2026-08-13 — arXiv:2608.13497 — Gui, Li, Wei, Ye, "A positive answer to the generalized
+  Chang-Yang conjecture on S^N" — https://arxiv.org/abs/2608.13497 — geometric analysis / PDE
+  (axis 1, math.AP): proves the generalized Chang-Yang conjecture (a Beckner-inequality
+  rigidity statement on S^N for every integer N≥3, α≥1/2) via an integral representation
+  formula and a rigidity theorem for stable critical points. Abstract + authors verified via
+  arXiv API this session (v1 2026-08-13). A landmark resolution of a named conjecture by an
+  established PDE group (Juncheng Wei); unrefereed — PROVISIONAL; track the vetting outcome.
+- 2026-08-13 — arXiv:2608.12844 — Ivanisvili, "The Hayman–Wu constant is π²" —
+  https://arxiv.org/abs/2608.12844 — complex analysis / conformal mapping (axis 1, math.CV):
+  determines the EXACT value of the classical Hayman–Wu constant (the sharp bound, over all
+  conformal maps φ from the disk and all lines L, on the length of φ⁻¹(L∩Ω)) to be π², settling
+  a question open since Hayman and Wu's 1981 paper. Abstract + author verified via arXiv API
+  this session (v1 2026-08-13). A landmark resolution, by an established harmonic analyst, of a
+  ~45-year-old sharp-constant problem; unrefereed single-author preprint — PROVISIONAL; track
+  the vetting outcome. Also on `study_shelf`.
+- 2026-08-13 — arXiv:2608.13291 — Chernikov, "SOP₂=SOP₃" — https://arxiv.org/abs/2608.13291 —
+  mathematical logic / model theory (axis 1, math.LO): proves the classes of SOP₂ and SOP₃
+  first-order theories coincide, answering a 2004 question of Džamonja and Shelah in Shelah's
+  classification-theory stability hierarchy. Abstract + author verified via arXiv API this
+  session (v1 2026-08-13). A landmark resolution of a ~22-year-old open question in model
+  theory by a leading expert (Artem Chernikov); unrefereed single-author preprint —
+  PROVISIONAL under the hype-skepticism rule; track the vetting outcome.
+- 2026-08-13 — arXiv:2608.13539 — Jasper, Mixon, "HRT counterexamples with exponential tails" —
+  https://arxiv.org/abs/2608.13539 — harmonic analysis / time-frequency analysis (axis 1,
+  math.FA/CA): a SECOND, independent engagement with last week's HRT-conjecture disproof
+  (Faulhuber–Petersen–van Velthoven–Voigtlaender, 2608.05044, study_shelf 08-06) — gives a
+  human-readable account of the mechanism and constructs HRT counterexample functions with
+  exponential (or faster) decay, which by a Bownik–Speegle result is the fastest possible decay
+  for any HRT counterexample. Abstract + authors verified via arXiv API this session (v1
+  2026-08-13). A sharpening/independent-engagement follow-up on an already-tracked landmark, not
+  a new named-conjecture resolution in its own right.
+- 2026-08-13 — arXiv:2608.13551 — Park, "Every PPT channel has finite entanglement-breaking
+  index" — https://arxiv.org/abs/2608.13551 — quantum information theory (axis 4, quant-ph):
+  proves every PPT (positive-partial-transpose) linear map has finite entanglement-breaking
+  index, and bounds it by 3 for a large sub-family — strong evidence toward, but not a proof of,
+  the long-standing PPT-cubed conjecture. Abstract + author verified via arXiv API this session
+  (v1 2026-08-13). Below-bar partial-progress item toward a named conjecture.
+- 2026-08-13 — arXiv:2608.13025 — Lavi, "A counterexample to the Foregger-Sinkhorn tie-point
+  conjecture" — https://arxiv.org/abs/2608.13025 — combinatorial matrix theory (axis 1,
+  math.CO): refutes the Foregger–Sinkhorn tie-point conjecture on permanent-minimizing doubly
+  stochastic matrices via an explicit dimension-8 counterexample. Abstract + author verified via
+  arXiv API this session (v1 2026-08-13). Below-bar refuted-conjecture item.
+- 2026-08-13 — arXiv:2608.13021 — Rodrigues, "The Bosch and Simó conjecture on the
+  Shilnikov-Hopf bifurcation" — https://arxiv.org/abs/2608.13021 — dynamical systems (axis 1,
+  math.DS): proves the 1993 Bosch–Simó conjecture that "large" strange attractors (in the
+  Broer–Simó–Tatjer sense) persistently and robustly arise in the unfolding of a Shilnikov–Hopf
+  bifurcation, with SRB measures on a positive-measure parameter set. Abstract + author verified
+  via arXiv API this session (v1 2026-08-13). A resolution of a ~33-year-old named conjecture in
+  dynamical systems; unrefereed single-author preprint — PROVISIONAL; track the vetting outcome.
+- 2026-08-13 — arXiv:2608.13067 — Zheng, "Computer-assisted Proof Under Audit: Typos,
+  Certificate Errors, and Reproducible Exact Checks for a Symbolic Invertibility Proof" —
+  https://arxiv.org/abs/2608.13067 — VETTING-OUTCOME item (analysis / computer-assisted-proof
+  integrity, axis 1, math.AP): an independent, version-pinned audit of the exact-arithmetic
+  certificate behind Elgindi–Pasqualotto's "Invertibility of a linearized Boussinesq flow"
+  (arXiv:2310.19781, published Communications in Mathematical Physics 2025) reports 11
+  proof-affecting defects and gives reproducible exact counterexamples to several implemented
+  bounds/reconstruction steps in the released computation; the CMP-published version corrects
+  none of the audited items. Abstract + author verified via arXiv API this session (v1
+  2026-08-13). CAUTION: this is a defect report on a PUBLISHED, peer-reviewed computer-assisted
+  proof, directly relevant to the radar's standing computer-assisted-proof-pattern watch
+  (Pompeiu/Schiffer/Berenstein, Kuperberg six-cylinder, Balanced Four-Color Theorem) and to the
+  hype-skepticism rule's emphasis on tracking vetting outcomes — a caution about certificate
+  reliability, not (per the abstract) a claim that the underlying invertibility RESULT is false.
+  Below-bar intake; watch for the original authors' response.
+- 2026-08-13 — arXiv:2608.12897 — Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky,
+  Heiblum, Sim, "Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State" —
+  https://arxiv.org/abs/2608.12897 — condensed matter physics (axis 3, cond-mat.mes-hall):
+  Weizmann Institute (Heiblum group) + KAIST report a "time-domain braiding" signature of
+  non-Abelian anyons in the ν=5/2 fractional quantum Hall state, via current-fluctuation
+  partition-noise measurements of the downstream Abelian charged mode and the upstream
+  non-Abelian neutral mode, consistent with the "particle-hole Pfaffian" topological order.
+  Abstract + authors verified via arXiv API this session (v1 2026-08-13). FIRST-OF-KIND
+  experimental evidence for non-Abelian anyon braiding — a domain-cadence landmark single
+  result. EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): "experimental evidence of
+  non-Abelian braiding has thus far remained elusive" (the paper's own framing); ν=5/2 has a
+  history of contested claims in this exact system — PROVISIONAL pending independent
+  replication and theoretical scrutiny. Also on `study_shelf`.
+- 2026-08-11 (v1; surfaced via the off-axis exploration slot, filed under cs.CC not the math
+  category rotation — a genuine off-axis catch) — arXiv:2608.11158 — Saha, Li, Xue, Chaudhuri,
+  Klivans, Kothari, Meka, "New Lower and Upper Bounds for the Grothendieck Constant" —
+  https://arxiv.org/abs/2608.11158 — companion methodology paper arXiv:2608.11195, "Long-Horizon
+  AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration" —
+  https://arxiv.org/abs/2608.11195 — combinatorics / functional analysis (axis 1, math.FA-
+  adjacent, filed cs.CC): tightens the classical Grothendieck constant K_G to
+  6π/11 ≤ K_G ≤ π/(2log(1+√2)) − 10⁻⁴ (exact value open since Grothendieck's 1953 inequality),
+  via a new limitation result on Krivine schemes (lower bound) and the first asymptotic
+  rounding-scheme construction (upper bound). Abstracts + authors verified via arXiv API this
+  session (v1/v2 2026-08-11/08-12). AI-WATCH note (scope area, not tracked as the method): the
+  companion paper is an explicit case study of AI-assisted long-horizon research on this exact
+  result. "Significant, off-axis" queue item per `radar-explore` — a genuine sharp-constant
+  improvement on a classical open problem, caught only because the off-axis rotation reads cs.CC
+  regardless of sub-topic.
 
 ## source_rotation
 
@@ -1677,12 +1802,50 @@ Corrections to the source-coverage strategy.
   (domain cadence: persistence over burndown-to-a-number); nothing stale (oldest live item well
   under the 60-day staleness line). Next weekly (~08-15) should consider a measured lowest-tier
   pass per weekly.md §3, now overdue for two consecutive weekly cycles at this queue size.
+- 2026-08-14 (daily) — Self-heal (repo watch, resolves the 08-13 daily's 2nd-consecutive
+  mathlib4 miss, heal-owed): the bare `/releases` page keeps returning a JS-shell nav via
+  `tvly extract` (standing failure) AND `tvly search` intermittently returns stale/wiki hits
+  for mathlib4 specifically — but the `/releases.atom` Atom feed works cleanly via `tvly
+  extract` for all three repos (lean4, mathlib4, Rocq) this session. NEW FINDING: mathlib4
+  does NOT tag semantic-version releases the way lean4/Rocq do — its releases.atom instead
+  shows continuous daily `master-YYYY-MM-DD` auto-tags (newest this session:
+  `master-2026-08-13`), which is WHY a "latest version tag" search for mathlib4 kept coming
+  up empty/stale — there is no discrete version tag to find. Recorded in SOURCES.md as the
+  primary access method (prefer `.atom` over `tvly search`) and the daily-tag behavior noted
+  so future runs don't mis-diagnose it as degraded. Confirmed this session: lean4 stable
+  bumped v4.32.2→**v4.33.0** (2026-08-10), pre-release v4.34.0-rc1 (2026-08-10); mathlib4 at
+  master-2026-08-13; Rocq unchanged V9.3+rc1. Routine toolchain state, heal-owed flag cleared.
+- 2026-08-14 (daily) — Queue hygiene: queue at 128 pre-edit (carried from 08-13 close) +12 new
+  items today (Banach's isometric conjecture, Gromov's volume-growth conjecture, the
+  Chang-Yang conjecture, the Hayman-Wu constant, SOP2=SOP3, HRT exponential-tail follow-up,
+  PPT-channel entanglement-breaking, Foregger-Sinkhorn, Bosch-Simó, the Boussinesq
+  computer-assisted-proof audit, non-Abelian anyon braiding, the Grothendieck-constant
+  off-axis catch) → 140 — an unusually landmark-dense day (5+ named-conjecture resolutions in
+  one arXiv batch). Still well over the ~40 soft cap deliberately (domain cadence:
+  persistence over burndown-to-a-number); nothing stale (oldest live item well under the
+  60-day staleness line). Weekly burndown (~08-15, due tomorrow) now overdue for three
+  consecutive weekly cycles at this queue size — flagged again.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-13 — [Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State (Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky, Heiblum, Sim), arXiv:2608.12897](https://arxiv.org/abs/2608.12897)
+  — the first experimental evidence of non-Abelian anyon braiding, via a time-domain
+  partition-noise signature in the ν=5/2 fractional quantum Hall state (axis 3, condensed
+  matter). Abstract + authors verified via arXiv API this session (v1 2026-08-13).
+  EXTRAORDINARY-CLAIM CAUTION: a first-of-kind claim in a system with a history of contested
+  results — PROVISIONAL pending independent replication — but worth knowing as a long-sought
+  signature directly relevant to topological quantum computing, from a leading group
+  (Weizmann/Heiblum + KAIST).
+- 2026-08-13 — [A solution to Banach's isometric conjecture (Lu, Yang), arXiv:2608.13536](https://arxiv.org/abs/2608.13536)
+  — completes Banach's 1932 conjecture (a Banach space with all n-dimensional subspaces
+  mutually isometric must be Hilbert) for every remaining odd n, joining Gromov's 1967
+  even-n resolution to close the real case entirely (axis 1, math.FA). Abstract + authors
+  verified via arXiv API this session (v1 2026-08-13). Unrefereed but completes a ~94-year-old
+  classical conjecture building on established prior work — worth knowing as a clean
+  closure of a foundational question in Banach-space geometry.
 - 2026-08-05 (v1 on proofatlas.ai; digested by Terence Tao 2026-08-12, surfaced this session) — [A Computer-Assisted Proof of Sendov's Conjecture (Lech Mazur, using OpenAI GPT-5.6 Pro; digestion + Lean formalization by Terence Tao)](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf)
   — an AI-generated, Lean-4-formalized proof claims to resolve Sendov's ~68-year-old
   conjecture (1958) IN FULL GENERALITY for all polynomial degrees, extending Tao's own 2020

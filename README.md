@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-128-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--13-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-140-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--14-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-12):**
-- An AI-generated, Lean-formalized [proof of Sendov's conjecture](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf) (~68 years open) surfaced, with Terence Tao himself — the field's leading expert on this exact problem — [personally digesting and reformalizing it](https://terrytao.wordpress.com/2026/08/12/a-digestion-of-the-proof-of-sendovs-conjecture/): heavily provisional, but the strongest vetting signal yet seen in the AI-assisted-math wave.
-- Two more named conjectures fell this pass: [Gluck's conjecture](https://arxiv.org/abs/2608.11525) (1985, finite group theory) and [Butler's positivity conjecture](https://arxiv.org/abs/2608.11543) (1994, Macdonald polynomials) — both unrefereed.
-- Alex Cohen's [fractal uncertainty principle in higher dimensions](https://arxiv.org/abs/2305.05022), now published in the Annals of Mathematics, surfaced via a Quanta feature — a clean, refereed math↔physics-interface landmark.
-- Observation queue [119 → 128](TRENDS.md#observation_queue): +9 new items (no burndown today — daily persistence, per domain cadence; a weekly burndown pass is overdue).
+**Since last scan (2026-08-13):**
+- The first experimental evidence of **[non-Abelian anyon braiding](https://arxiv.org/abs/2608.12897)**, in the ν=5/2 fractional quantum Hall state (Weizmann/KAIST) — a long-sought, first-of-kind signature, heavily caveated pending replication.
+- **[Banach's isometric conjecture](https://arxiv.org/abs/2608.13536)** completed (real case, ~94 years open), alongside a landmark-dense arXiv batch resolving **[Gromov's volume growth conjecture](https://arxiv.org/abs/2608.13553)**, the **[Chang-Yang conjecture](https://arxiv.org/abs/2608.13497)**, the exact **[Hayman-Wu constant](https://arxiv.org/abs/2608.12844)** (π²), and **[SOP₂=SOP₃](https://arxiv.org/abs/2608.13291)** in model theory.
+- An off-axis exploration catch: new **[bounds on the Grothendieck constant](https://arxiv.org/abs/2608.11158)**, tightened via AI-assisted long-horizon research.
+- Observation queue [128 → 140](TRENDS.md#observation_queue): +12 new items (no burndown today — daily persistence, per domain cadence; a weekly burndown pass is overdue).
 
 ## Trends
 
@@ -22,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State (Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky, Heiblum, Sim)](https://arxiv.org/abs/2608.12897) — the first experimental evidence of non-Abelian anyon braiding, via a time-domain partition-noise signature in the ν=5/2 fractional quantum Hall state. **Extraordinary-claim caution** — ν=5/2 has a history of contested claims in this exact system — but a long-sought signature directly relevant to topological quantum computing, from a leading group (Weizmann/Heiblum + KAIST).
+- [A solution to Banach's isometric conjecture (Lu, Yang)](https://arxiv.org/abs/2608.13536) — completes Banach's 1932 conjecture for every remaining odd dimension, joining Gromov's 1967 even-case resolution to close the real case entirely (~94 years open). Unrefereed but builds on and completes established prior work.
 - [A Computer-Assisted Proof of Sendov's Conjecture (Lech Mazur, using OpenAI GPT-5.6 Pro; digested + Lean-formalized by Terence Tao)](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf) — claims to resolve Sendov's ~68-year-old conjecture (1958) in full generality, extending Tao's own 2020 partial result. **Heavily provisional** — off-arXiv, self-published, explicitly AI-substantial per its own disclosure — but an unusually strong vetting signal: the world's leading expert on this exact conjecture personally re-derived, human-digested, and independently Lean-formalized the argument, rather than merely commenting on it publicly.
 - [Fractal uncertainty in higher dimensions (Alex Cohen)](https://arxiv.org/abs/2305.05022) — extends the Bourgain–Dyatlov fractal uncertainty principle to all higher dimensions, resolving an open extension problem from a 2016 workshop; now published in the Annals of Mathematics and freshly featured by Quanta. No caveats — refereed mathematics, originally the author's PhD thesis.
 - [More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line (Claude / Anthropic)](https://www.anthropic.com/research/riemann-zeta) — an unreleased Anthropic research model unconditionally raises the known lower bound on zeta zeros that are simple and on the critical line from ~41.6% to ~67.25%. **Heavily provisional** — off-arXiv, unrefereed, an extraordinary jump over a decades-slow record; worth knowing for the scale of the claim and the unusually well-matched informal review (Brian Conrey, Dan Goldston) plus a Lean formalization, not as confirmed mathematics.
@@ -58,12 +60,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/): mostly recirculated already-tracked AI-assisted-math-wave threads; nothing new on-axis beyond what the digest/blog lane separately surfaced.
-- Terence Tao's blog surfaced the day's biggest story — his own digestion of the Sendov's-conjecture AI proof (see Worth studying).
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/): blocked to direct fetch this pass (network policy); a stale/cached search turned up nothing new on-axis beyond what the arXiv sweep and digest/blog lane separately surfaced.
+- Gowers's blog weighed in on the OpenAI "Ten Advances" claims — commentary/reflection on what LLMs are currently good at in mathematics, not a new primary result.
 - Hacker News: no on-axis math/physics story today (general tech/AI news).
 - MathOverflow and Mathstodon: routine/low-signal today, nothing on-axis.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (128) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-13](reports/2026-08-13.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (140) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-14](reports/2026-08-14.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
