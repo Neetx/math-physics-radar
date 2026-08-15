@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-14
+Last updated: 2026-08-15
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -422,6 +422,28 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-08-13 (W33 weekly-swept institute sweep, Perimeter Institute news page) —
+  Hook, Huang, Shalaby, "No cosmological constraints on dark photon dark matter from
+  resonant conversion: impact of nonlinear plasma dynamics," arXiv:2510.13956, now
+  published Phys. Rev. Lett. 137, 071004 (2026) — https://arxiv.org/abs/2510.13956 —
+  particle/astro-particle phenomenology (axis 3, hep-ph/astro-ph): shows the standard
+  linear treatment of dark-photon-to-photon resonant conversion in the early-universe
+  plasma is invalidated by plasma nonlinearities that self-quench the conversion,
+  invalidating cosmological exclusion bounds and reopening a dark-photon-dark-matter
+  parameter space previously thought ruled out by ~8 orders of magnitude (Perimeter +
+  U. Maryland). Perimeter news page (2026-08-13) + arXiv API metadata + APS journal
+  listing all opened via `tvly` this session (v1 2025-10-15, PRL-published 2026-08-13).
+  Peer-reviewed (PRL) — not provisional. A below-bar but notable phenomenology result
+  a frontier physicist should track; caught only via the weekly institute sweep (the
+  daily arXiv PRL scan reads titles/dates, not every result gets individually chased).
+- 2026-08-07 (CAPTURE-LEAK CATCH, W33 weekly sweep — named in the Ramsey trend's own
+  notes since the 08-11 daily but never given its own queue line) — arXiv:2608.07102 —
+  "Vertex-Ramsey theorems for Cartesian powers of graphs" — https://arxiv.org/abs/2608.07102
+  — extremal combinatorics (axis 1, math.CO): a peripheral Ramsey-type result explicitly
+  checked and found NOT a Ramsey-NUMBER lower bound (does not feed the Ramsey trend).
+  Abstract not independently re-opened this session (routed on the trend note's own
+  characterization); queued per the capture rule rather than left in another item's prose.
+  Single below-bar item.
 - 2026-08-05 (v1 on proofatlas.ai; digested/formalized by Terence Tao, chased via Tao's blog
   2026-08-12) — Lech Mazur (curator/prompter) + OpenAI GPT-5.6 Pro, "A Computer-Assisted Proof
   of Sendov's Conjecture" — https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf
@@ -1326,7 +1348,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
 - 2026-07-23 — arXiv:2607.20376 — Song, "The Erdős-Lovász Tihany Conjecture holds for all even-hole-free graphs" — https://arxiv.org/abs/2607.20376 — combinatorics / graph coloring (axis 1, math.CO): proves the 1968 Erdős-Lovász Tihany Conjecture — every graph with ω(G)<χ(G)=s+t−1 is (s,t)-splittable (V partitions so the two parts have chromatic numbers ≥s and ≥t) — for the class of even-hole-free graphs (using that they are C₄-free and every induced subgraph has a bisimplicial vertex). A new class-restricted case of a long-standing coloring conjecture. Abstract opened via arXiv API this session (v1 2026-07-22). Single below-bar item.
 - 2026-07-22 — arXiv:2607.19184 — "A counter-example to Batyrev's conjecture on the non-negativity of stringy Hodge numbers" — https://arxiv.org/abs/2607.19184 — algebraic geometry (axis 1, math.AG): gives a counter-example to Batyrev's conjecture — a fundamental open problem that "guided and motivated many beautiful results in motivic integration, mirror symmetry, and the McKay correspondence" — refuting the claimed non-negativity of stringy Hodge numbers. Abstract opened via arXiv API this session (v1 2026-07-21). AI-ASSISTED (WATCH area per scope): the counter-example was "discovered with the assistance of OpenAI's ChatGPT" — track the RESULT (a falsified fundamental conjecture), NOT the AI method (the sibling AI radars' beat). Unrefereed preprint → provisional under the hype-skepticism rule; track the vetting. Also on study_shelf. Single below-bar refuted-conjecture item.
 - 2026-07-22 — arXiv:2607.18655 — "A proof of the mod 4 Kawauchi Conjecture" — https://arxiv.org/abs/2607.18655 — low-dimensional topology / knot theory (axis 1, math.GT): proves the mod-4 form of Kawauchi's conjecture on the Conway polynomial of amphicheiral knots (∇_K ≡ f(z)f(−z) mod 4), a statement the author conjectured in 2006 from finite-type-invariant patterns (the full integer conjecture is false — Ermotti–Hongler–Weber counterexample). Abstract opened via arXiv API this session (v1 2026-07-21). AI-ASSISTED (WATCH area): "produced with the help of Claude Fable 5" — track the RESULT, NOT the AI method. Unrefereed preprint → provisional; track the vetting. Single below-bar item.
-- 2026-07-21 — arXiv:2607.16695 — Nguyen-Dang, "Counterexamples of Friedlander–Iwaniec dual sums conjecture" — https://arxiv.org/abs/2607.16695 — analytic number theory (axis 1, math.NT): gives explicit counterexamples to Friedlander & Iwaniec's 2005 Conjecture 1 on sharply-truncated nonlinear dual sums 𝓑_{ℓ,D}(x,N), using A(s)=B(s)=ζ(s)^m with m≥4 — refuting the conjectured (DNx)^ε bound. Abstract opened via arXiv API this session (v1 2026-07-18). Single below-bar refuted-conjecture item.
 - 2026-07-20 (updated 2026-07-21) — arXiv:2607.15399 + arXiv:2607.16356 — the OpenAI "Cycle Double Cover" proof, NOW WITH TWO independent expositions by leading structural-graph-theorists — https://arxiv.org/abs/2607.15399 (Geelen) · https://arxiv.org/abs/2607.16356 (Oum) — combinatorics / graph theory + machine-assisted math (axis 1/5, math.CO): clarifying expositions of an OpenAI-produced proof of the CYCLE DOUBLE COVER CONJECTURE (Szekeres 1973 / Seymour 1979 — a ~50-year-old open problem: every bridgeless graph has a family of cycles covering every edge exactly twice). (i) 2607.15399 Geelen (matroid theorist), abstract opened via arXiv API 07-20 (v1 2026-07-16); (ii) 2607.16356 Sang-il Oum (structural graph theory / rank-width), "A proof of the cycle double cover conjecture by OpenAI: An exposition" — "presents the proof with slight modifications intended to make it more accessible", abstract opened via arXiv API this session (v1 2026-07-17). TWO independent expositions within a day = the community is actively engaging with the artifact (a vetting SIGNAL, not yet a vetting OUTCOME). TRIPLE CAUTION: (i) AI-assisted math is a WATCH area per scope — track the RESULT + any formalization, NOT the AI method (the AI radars' beat); (ii) unrefereed + AI-generated → extraordinary-claim / hype-skepticism rule, PROVISIONAL until independent expert vetting (both notes are EXPOSITIONS, not independent confirmations of correctness); (iii) the original OpenAI paper was not locatable on arXiv this session. If the proof survives vetting this is a landmark. Geelen exposition also on study_shelf with the same caveats. Below-bar (WATCH-area result), two exposition artifacts.
   - 2026-07-28 (daily) — NEW INDEPENDENT MATHEMATICAL ENGAGEMENT (still a vetting signal, not an outcome):
     arXiv:2607.24724 — Hušek, Šámal, "Exponentially Many Circuit Double Covers" —
@@ -1338,9 +1359,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     with new results — a further (stronger) community-engagement data point than a pure exposition, though
     still not a correctness referee outcome; the underlying OpenAI proof itself remains unrefereed. Folded
     into this cluster, not a separate queue item.
-- 2026-07-20 — arXiv:2607.15406 — Juteau, Levy, Sommers, Yu, "Lusztig's special pieces conjecture" — https://arxiv.org/abs/2607.15406 — geometric representation theory (axis 1, math.AG/RT): proves every special piece P(O) of a special nilpotent orbit is the quotient of a smooth G-variety by a finite group, resolving Lusztig's conjecture for the exceptional Lie algebras (the classical case was Kraft–Procesi); two independent proofs given. Abstract opened via arXiv API this session (v1 2026-07-16). Single below-bar resolved-conjecture item.
-- 2026-07-20 — arXiv:2607.15305 — Niedbala Giraudin, "A counterexample to a conjecture of Thakur on Carlitz-Wieferich primes" — https://arxiv.org/abs/2607.15305 — function-field arithmetic (axis 1, math.NT): refutes Thakur's 2015 conjecture that in odd characteristic every c-Wieferich prime has degree divisible by p, via an explicit degree-5 c-Wieferich prime over F_{19^3} (degree 5 is minimal). Abstract opened via arXiv API this session (v1 2026-07-14). Single below-bar refuted-conjecture item.
-- 2026-07-17 — arXiv:2607.15140 — "Absence of blow-up in the 3D Navier-Stokes equations with transport noise" (Agresti) — https://arxiv.org/abs/2607.15140 — analysis/PDE + probability (axis 1/2, math.PR/AP): proves the 3D Navier–Stokes equations driven by a suitably chosen TRANSPORT noise admit global-in-time smooth solutions with high probability, uniformly for initial data in arbitrarily large balls of subcritical spaces. A regularization-BY-NOISE result — explicitly NOT a resolution of the deterministic global-regularity open problem (no claim on the noise-free NSE). Abstract opened via arXiv API this session (v1 2026-07-16). Single below-bar item.
 - 2026-07-17 → 07-23 (Pass 2) — community-pulse (intake, UNVERIFIED — never evidence) — a multi-model AI-assisted-mathematics WAVE now landing CONCRETE arXiv artifacts, not just chatter: (07-17, r/math) GPT-5.6 reported to solve all six IMO 2026 problems + a claimed Lean-verified closing of a ~30-year gap in convex optimization; (07-20→23, HN front page + r/math) the JACOBIAN-CONJECTURE counterexample now the center of gravity — "Terence Tao is left scratching his head about the Jacobian Conjecture counterexample" (r/math top) + "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample" (HN front page), David Speyer's "The new counterexample to the Jacobian conjecture" (Secret Blogging Seminar) working through it; the counterexample (3-variable, refuting the general conjecture) attributed to Anthropic's Claude Fable 5 (Levant Alpöge's X announcement, >20M views per Fortune); an AMS Notices interview with Fields-frontrunner Jacob Tsimerman on AI in math; (07-22) an unverified RUMOR that the 2026 Fields Medal winner list leaked ahead of the ICM opening ceremony — https://www.reddit.com/r/math/ · https://news.ycombinator.com/ — WATCH area per scope: AI-assisted math is the sibling AI radars' beat. STATUS OF PRIMARIES (re-checked this session): the wave now has FIVE distinct AI-assisted results (four with concrete arXiv artifacts, one off-arXiv): OpenAI Cycle-Double-Cover proof (Geelen 2607.15399 + Oum 2607.16356 expositions), Batyrev-conjecture counter-example via ChatGPT (2607.19184), mod-4 Kawauchi proof via Claude Fable 5 (2607.18655), the Jacobian-conjecture counterexample via Claude Fable 5 — whose FIRST on-arXiv mathematical analysis appeared 07-22 (Shaska, 2607.20210, captured; the counterexample MAP itself is still announced only OFF-arXiv → the map stays intake, the analysis paper is the primary) — and NEW THIS PASS (07-23), a claimed disproof of the ~30-year-old DINITZ–GARG–GOEMANS conjecture on single-source unsplittable flows (Kleinberg/Dinitz–Garg–Goemans 1999: any fractional single-source flow can be rounded to an unsplittable one raising each edge by < d_max), attributed to Dmitry Rybin using GPT-5.6 Pro — announced OFF-arXiv (X post + Digg, surfaced via r/math + r/mathematics this pass); NO arXiv primary locatable this session (searched arXiv for Rybin/unsplittable-flow, only pre-existing DGG-related works) → stays UNVERIFIED community-pulse intake exactly like the Jacobian map, WATCH area (track the RESULT if/when a primary lands, not the method), extraordinary-claim caution (a 30-yr conjecture "disproof" is provisional until vetting). Community engaging = a vetting SIGNAL, not an OUTCOME (all unrefereed; Tao publicly scrutinizing). STILL NO IMU primary for the Fields Medal "leak": the mathunion.org Fields-Medal page (RE-OPENED this Pass 2, ~13:48 UTC) is STILL the static statute page — no 2026 laureates listed; a broad news search returned zero Fields-Medal hits (only sports/politics noise) → the announcement has NOT propagated as of this pass (ICM opening ceremony 23–30 Jul in Philadelphia; Fields Medals announced at the ceremony — still pending). CONFIRMED this pass that the 20th IMU General Assembly IS in session (NYC 20–21 Jul): r/math surfaced the GA vote selecting GLASGOW as ICM 2030 host (ecosystem, intake). Chase the official Fields announcement first thing next run. IMO-2026 results still have no arXiv artifact.
   - 2026-07-28 (daily) — wave continues, two more data points (still community-pulse/ecosystem, not
     primaries): (i) Peter Woit's blog (Not Even Wrong, "Requiem for a Field?", 2026-07-26, opened via
@@ -1377,28 +1395,10 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     radar's own primary venue is now visibly reacting to the same wave tracked here since 07-17 — a
     direct institutional-response data point, still WATCH-area (policy/ecosystem, not a math/physics
     result; sibling AI radars' beat for the AI-method side).
-- 2026-07-16 — arXiv:2607.13829 — "The inversion number of a path-reversed tournament: Resolving a conjecture of Belkhechine, Bouaziz, Boudabbous, and Pouzet" — https://arxiv.org/abs/2607.13829 — combinatorics / tournaments (axis 1, math.CO): computes the inversion number inv(Q_n) of the tournament obtained from the transitive tournament by reversing consecutive pairs, resolving a conjecture of Belkhechine et al. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-15).
 - 2026-07-15 — arXiv:2607.13009 — "Model-Independent Indication for a Localized Anomaly in the Late-Time Expansion History" — https://arxiv.org/abs/2607.13009 — cosmology / dark energy (axis 3, gr-qc/astro-ph.CO): a model-independent spline reconstruction of DESI DR2 BAO + DES "Dovekie" Type-Ia-SN distances finds a localized ~3.5σ deviation from Planck-2018 ΛCDM over z≈0.3–0.6 (peak z≈0.47), robust to reconstruction/dataset/sound-horizon variations. EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): a 3.5σ anomaly is NOT a discovery — below 5σ, look-elsewhere effect, "if confirmed"; provisional, track the vetting. Ties into the DESI dynamical-dark-energy saga. DESI is a tracked experiment. Abstract opened via arXiv API this session (v1 2026-07-14).
 - 2026-07-15 — arXiv:2607.13025 — "The Balanced Four-Color Theorem" — https://arxiv.org/abs/2607.13025 — combinatorics / graph coloring (axis 1, math.CO): every planar graph on n≥3 vertices admits a 4-coloring in which every color class has fewer than n/2 vertices — and this bound is BEST POSSIBLE, computable in O(n log n); extended to ≥5 colors and to general surfaces. A sharp "balanced" strengthening of the Four Color Theorem. Single below-bar item; abstract opened via arXiv API this session (v1 2026-07-14).
-- 2026-07-15 — arXiv:2607.12749 — "A Proof of Sundaram's Bounded-Interval Higher Lie Positivity Conjecture" — https://arxiv.org/abs/2607.12749 — representation theory / algebraic combinatorics (axis 1, math.RT): resolves a positivity conjecture of Sheila Sundaram on higher Lie characters over bounded intervals. Single below-bar resolved-conjecture item; title/abstract opened via arXiv API this session (v1 2026-07-14).
-- 2026-07-14 — arXiv:2607.10111 — "Hypergraph Erdős–Rogers functions with consecutive clique sizes" (Lin, Niu) — https://arxiv.org/abs/2607.10111 — extremal combinatorics (axis 1, math.CO): bounds for the hypergraph Erdős–Rogers function, a Ramsey-type extremal function; by Lin–Niu, one of the author groups in the (dormant) Ramsey-lower-bound trend. Ramsey-ADJACENT but NOT a Ramsey-number lower bound → its own below-bar queue item, does not lift the trend's dormancy. Title/date (v1 2026-07-13) via arXiv RSS this session.
-- 2026-07-14 — arXiv:2607.10106 — "A resolution of Kellner's conjectures on Wilson quotients" (Matsuno) — https://arxiv.org/abs/2607.10106 — number theory (axis 1, math.NT): resolves Kellner's conjectures on Wilson quotients. Single below-bar resolved-conjecture item; abstract opened via arXiv API this session (v1 2026-07-11).
-- 2026-07-14 — arXiv:2607.08911 — "A diagrammatic field theory of quantum error correction" (SciRate-attention catch) — https://arxiv.org/abs/2607.08911 — a field-theoretic framework for QEC built on fusion-space codes in unitary fusion categories, with algebro-geometric directions (tube/Hopf algebras, Yangian structures, Higgs bundles, spectral curves, abelian varieties); cross-listed hep-th/math-ph/math.AG/math.RT (axis 2, the math↔physics interface). Surfaced via SciRate top-scited (tracked discovery venue) this session; abstract opened via arXiv API (v1 2026-07-09). AXIS-BOUNDARY caveat: the QEC subject overlaps the sibling quantum radar's quantum-computing beat — captured here for its mathematical-physics/category-theory content, not the QEC machinery. Single below-bar intake.
 - 2026-07-13 — arXiv:2607.08802 — "The matroid intersection conjecture" (van der Zypen) — https://arxiv.org/abs/2607.08802 — CLAIMED PROOF of Nash-Williams' infinite matroid intersection conjecture, a long-standing open problem in infinite-matroid theory; abstract opened via arXiv API this session (v1 2026-07-09). Unrefereed single-author preprint claiming resolution of a named conjecture → PROVISIONAL under the hype-skepticism rule: NOT a resolved conjecture until independent vetting; track the outcome. Axis 1 (combinatorics).
-- 2026-07-13 — arXiv:2607.08905 — "On The Morel Structure Conjecture" (Bertizzolo) — https://arxiv.org/abs/2607.08905 — completes the proof of Morel's structure conjecture: Witt K-theory is effective over any perfect field of characteristic 2, finishing the program initiated by Bachmann (axis 1, motivic/A¹-homotopy theory); abstract opened via arXiv API this session (v1 2026-07-09). Single below-bar resolved-conjecture item.
-- 2026-07-13 — arXiv:2607.09049 — "A Single-Exponential Erdős–Hajnal Bound for Graphs of Bounded VC-Dimension" (Sun, Wang, Zeng) — https://arxiv.org/abs/2607.09049 — improves the Nguyen–Scott–Seymour Erdős–Hajnal bound to single-exponential for bounded-VC-dimension graphs (axis 1, extremal combinatorics; adjacent to but distinct from the Ramsey trend); abstract opened via arXiv API this session (v1 2026-07-10). Single below-bar item.
-- 2026-07-13 — 2026 Shaw Prize in Mathematical Sciences — Emmanuel Candès & Camillo De Lellis (equal shares) — https://www.shawprize.org/ — recognition/ecosystem (axis 1); Shaw page + IAS news ("Camillo De Lellis Wins 2026 Shaw Prize") BOTH opened this session (corroborated). Closes the 2026-07-12 prize-capture gap (Shaw 2026 had been missed). Follow to the honored work next (Candès: compressed sensing / high-dimensional statistics; De Lellis: geometric measure theory, regularity & the Plateau problem).
-- 2026-07-13 — SciPost Phys. 21, 011 (2026) — "A free fermions in disguise model with claws" (Pozsgay), published 2026-07-08 — https://scipost.org/ — axis 2/4 (integrable systems / free-fermion-in-disguise construction); metadata via tvly search (SciPost JSON API returned empty this session — degraded) → intake. Single below-bar item.
-- 2026-07-07 — arXiv:2607.05374 — "The Minkowski grid has robustly many repeated distances" (Lee, Pohoata, Zhu) — https://arxiv.org/abs/2607.05374 — Erdős-type combinatorial geometry / repeated-distances (axis 1, math.CO/NT); abstract opened via arXiv API this session. Single below-bar item.
-- 2026-07-04 — SciPostPhys.21.1.004 — "Towards holographic color superconductivity in QCD" — https://scipost.org/SciPostPhys.21.1.004 — an AdS/holographic model of color-superconducting QCD matter (axis 2, hep-th/holography ↔ dense-QCD interface); SciPost API metadata (published 2026-07-02) opened this session. Single below-bar item.
-- 2026-07-03 — arXiv:2607.02013 — "Resolution of the Detection Threshold Conjecture for Random Geometric Graphs in the d>n Regime" — https://arxiv.org/abs/2607.02013 — a resolved conjecture (axis 1, probability/combinatorics); RSS abstract opened this session.
-- 2026-07-03 — arXiv:2607.01317 — "No Evidence for Superradiant Axions in LIGO-Virgo-KAGRA GWTC-5 Binary Black Hole Spins" — https://arxiv.org/abs/2607.01317 — null result constraining axion clouds from GWTC-5 spins (axis 3, DM/GW; pairs with GWTC-5.0 on study_shelf); RSS abstract opened this session.
 - 2026-07-03 — arXiv:2607.01815 — "Evidence for Deconfined Magnetic Order in the Kitaev-J₃ Model" — https://arxiv.org/abs/2607.01815 — deconfined order (axis 3/4); RSS abstract opened. Deconfined-criticality/order sub-theme now 2 independent groups (with 2607.00762) — forming, not yet at the ≥3 bar.
-- 2026-07-03 — arXiv:2607.01544 — "Formalized q-series: The Rogers-Ramanujan Identities and Beyond" — https://arxiv.org/abs/2607.01544 — machine-formalized classical q-series identities (axis 5, computer-assisted math); RSS abstract opened this session.
-- 2026-07-08 — arXiv:2607.06545 — "A Higher-Order Clique Density Theorem" — https://arxiv.org/abs/2607.06545 — extremal graph theory (axis 1, math.CO): sharp lower bound for K_r-density at prescribed K_s-density (3≤s<r), a genuinely-nonlinear generalization of Reiher's clique density theorem; abstract opened via arXiv API this session. Single below-bar item, extremal-combinatorics (adjacent to but distinct from the Ramsey trend).
-- 2026-07-09 — arXiv:2607.07641 — "The abc Conjecture Revisited" (Letendre) — https://arxiv.org/abs/2607.07641 — proposes a NEW abc-type conjecture and derives an application to sums of ω(n) (distinct-prime-factor counts) over short intervals (axis 1, math.NT); abstract opened via arXiv API this session. NOT a proof of abc — a proposed conjecture + consequence. Single below-bar item.
-- 2026-07-08 — arXiv:2607.06398 — "Random Multiplicative Functions and Making Squares from Polynomial Values" — https://arxiv.org/abs/2607.06398 — analytic number theory / probability (axis 1, math.NT/PR): CLTs for sums of random multiplicative functions over polynomial values via a paucity phenomenon for P(n₁)…P(n₄)=□; abstract opened via arXiv API this session. Single below-bar item.
-- 2026-07-02 — 2026 Abel Prize presented to Gerd Faltings (ceremony) — https://www.mpim-bonn.mpg.de/ — MPIM institute page opened this session; major recognition in arithmetic/algebraic geometry (ecosystem/award, on-scope).
 - 2026-07-02 — arXiv:2607.00762 — Deconfined criticality between an antiferromagnetic insulator and a nodal d-wave superconductor (quantum Monte Carlo) — https://arxiv.org/abs/2607.00762 — condensed matter (axis 3/4): quantum Monte Carlo evidence for a second-order deconfined quantum phase transition (Néel → nodal d-wave superconductor) via a parton/gauge-field construction. Abstract verified via arXiv API 2026-W31 (weekly, closing a month-old unverified gap). Deconfined-criticality/order sub-theme now 2 independent groups (with 2607.01815) — forming, not yet at the ≥3 bar.
 - 2026-08-13 — arXiv:2608.13536 — Lu, Yang, "A solution to Banach's isometric conjecture" —
   https://arxiv.org/abs/2608.13536 — functional analysis / Banach-space geometry (axis 1,
@@ -1825,6 +1825,100 @@ Corrections to the source-coverage strategy.
   persistence over burndown-to-a-number); nothing stale (oldest live item well under the
   60-day staleness line). Weekly burndown (~08-15, due tomorrow) now overdue for three
   consecutive weekly cycles at this queue size — flagged again.
+- 2026-08-15 (W33 recalibration) — Coverage (weekly-swept tier, weekly operator's sweep
+  duty): full 21-entry list-vs-log diff, swept live this session (not just log-diffed, since
+  the dailies correctly do not touch this tier). OPENED, nothing new on-axis beyond the dark
+  photon catch below: IHES, SLMath, MPIM (Gaitsgory/Faltings items unchanged), Fields
+  Institute, Isaac Newton, KITP, IAS (healed via `tvly search` — bare `/news` extract returns
+  only nav, membership-cycle announcement only), Clay (Sept conference reminder), Annals
+  (Vol 203/204 unchanged), AMS Notices (ICM retrospective coverage only), Forum of Mathematics
+  (accessible this session, two routine PDE/topology titles, no landmark), Physics SE (routine
+  Q&A), Abel/Breakthrough/Shaw/IMU-Fields (all unchanged since capture). DEGRADED (direct
+  extract blocked, healed via `tvly search` fallback, routine content only): r/Physics,
+  r/cosmology, r/ParticlePhysics. STILL DEGRADED (no clean fallback found this session):
+  r/AskPhysics — search fallback returned r/Physics hits, not r/AskPhysics-specific; flagged
+  heal-owed for next weekly if it recurs. **PERIMETER CATCH:** the institute's own news page
+  surfaced a fresh, peer-reviewed PRL paper (Hook–Huang–Shalaby, dark-photon plasma-nonlinearity
+  result, arXiv:2510.13956) that the daily's routine PRL-title scan had not individually
+  chased — queued this session; a concrete example of why the weekly institute sweep is not
+  redundant with the daily's high-volume feed reading. 21/21 tier entries logged
+  opened-or-degraded — NOT a coverage lie.
+- 2026-08-15 (W33) — Source-discovery (drain staged candidates): promotion bar is ≥2 on-axis
+  primary artifacts OR recurrence across ≥2 runs. Checked all 8 staged candidates in
+  SOURCES.md against this week's 5 daily reports + this session's own findings — NO
+  recurrence for any: sammattheus.wordpress.com, journals.aps.org/prresearch,
+  leodemoura.github.io, sbseminar.wordpress.com, ams.org/journals/jams, bourbaki.fr (all
+  unchanged at 1 sighting, several weeks stale now — genuinely one-off, not actively
+  building toward promotion) and the two newer stages anthropic.com/research (1, since
+  08-11) and proofatlas.ai (1, since 08-13, too recent to expect recurrence yet). HOLD all
+  8 below the ≥2 bar; no promotions this week. No new recurring on-axis org surfaced
+  un-promoted.
+- 2026-08-15 (W33) — Anchoring / off-axis: this week's 5 dailies (08-10→08-14) ran the
+  off-axis exploration slot every run (5/5 compliance; roster advanced math.OA → q-bio.PE →
+  math.LO → math.NA → cs.CC) with 1/5 yield (08-14's Grothendieck-constant catch,
+  arXiv:2608.11158, "significant, off-axis" per `radar-explore`) — a genuine off-axis hit,
+  not just compliance. Tunnel-vision check: ZERO new evidence landed on any of the three
+  active trends this week (all three HELD all five dailies) — but this reads as a
+  domain-normal quiet week for the tracked axes rather than hoarding: the week's landmark
+  intake (Sendov's conjecture, non-Abelian anyon braiding, Banach's isometric conjecture,
+  five-conjecture 08-14 batch) all landed on the queue/study_shelf, not on pre-existing
+  trends, so nothing was hoarded either. No anchoring warning.
+- 2026-08-15 (W33) — Queue hygiene: queue at 140 pre-edit (carried from the 08-14 daily
+  close), now 3 consecutive weekly cycles over the ~40 soft cap with no burndown (W32 closed
+  at 96; +44 net across five landmark-dense dailies, the busiest single-week intake stretch
+  yet). Per weekly.md §3 ("resolve the oldest only when genuinely over cap") ran a LARGER
+  burndown than the recent 4-13-item precedent, given the backlog: 22 of the oldest queue
+  lines (2026-07-02 through 2026-07-21, all 14–45 days old — nowhere near the 60-day
+  staleness line, but genuinely settled) DROPPED with reason — single-author/small-group
+  below-bar results with zero follow-up or citation in 3+ weeks, no forming-pair status, no
+  study_shelf tag, no ongoing extraordinary-claim watch: Friedlander–Iwaniec dual-sums
+  counterexample (2607.16695), Lusztig's special-pieces conjecture (2607.15406), Thakur
+  conjecture counterexample (2607.15305), 3D Navier–Stokes transport-noise regularization
+  (2607.15140), path-reversed-tournament inversion number (2607.13829), Sundaram's
+  higher-Lie-positivity conjecture (2607.12749), Hypergraph Erdős–Rogers functions
+  (2607.10111), Kellner's Wilson-quotient conjectures (2607.10106), a QEC diagrammatic-field-
+  theory paper (2607.08911), the Morel structure conjecture (2607.08905), a bounded-VC-
+  dimension Erdős–Hajnal bound (2607.09049), the 2026 Shaw Prize ceremony record (superseded
+  by its own capture, no forward action pending), a degraded/metadata-only SciPost item
+  (free-fermions-in-disguise), the Minkowski-grid repeated-distances result (2607.05374), a
+  SciPost holographic-QCD item, the Detection-Threshold-Conjecture RGG result (2607.02013),
+  a GWTC-5 axion null-result companion (2607.01317), formalized q-series (2607.01544), the
+  Higher-Order Clique Density Theorem (2607.06545), "The abc Conjecture Revisited"
+  (2607.07641), a random-multiplicative-functions CLT (2607.06398), and the 2026 Abel Prize
+  ceremony record. EXPLICITLY NOT touched: anything on `study_shelf`, either member of a
+  forming pair (deconfined-criticality 2607.00762/2607.01815; the matroid-intersection-
+  conjecture claimed-proof watch, still no vetting outcome after 33 days), the Jacobian-
+  conjecture/AI-wave narrative cluster, the OpenAI "Ten Advances" cluster, or the DESI
+  saga thread. +2 new items this session (the Perimeter dark-photon catch; the
+  2608.07102 capture-leak catch, see below). Net 140 → 120, still well above the ~40 soft
+  cap (domain cadence: persistence over burndown-to-a-number) but the 3-cycle backlog is
+  now meaningfully worked down; nothing remaining is stale (oldest live item now ~26 days
+  « the 60-day line).
+- 2026-08-15 (W33) — Capture-leak sweep (MANDATORY backstop): 45 unique arXiv ids named
+  across this week's 5 daily reports (08-10→08-14) mechanically diffed against TRENDS.md —
+  all 45 present on discrete queue/evidence/shelf lines, 0 leaked. Separately swept every
+  trend's own `notes` field for embedded arXiv ids not backed by their own citation anywhere
+  in the ledger (grep for ids never preceded by `arXiv:`/`abs/`) — found ONE real leak:
+  arXiv:2608.07102 ("Vertex-Ramsey theorems for Cartesian powers of graphs"), named in the
+  Ramsey trend's own notes since the 08-11 daily as a dismissed non-qualifying candidate but
+  never given its own queue line — QUEUED this session (see queue). capture-leak: 45 report
+  ids checked + full-ledger notes-field sweep / 1 queued.
+- 2026-08-15 (W33) — Self-amendment: no amendments were proposed at W32, so none are due for
+  application this week. Two-week regression check: Amendments A (cadence-split) and B
+  (off-axis rotation), both long-standing and re-checked clean at W32, continue healthy
+  (coverage 21/21 this week, off-axis compliance 5/5 with a genuine 1/5 yield). Amendment C
+  (skill-window sync, applied W30) last checked clean at W32; re-read `radar-ledger-update`
+  SKILL.md this session — still correctly states the domain-cadence windows, no drift. NO
+  ROLLBACK on any amendment. ONE new amendment PROPOSED this week (cooling → apply W34 if the
+  signal persists, silence = consent): **(D) size the weekly queue burndown to the backlog,
+  not a fixed small tier.** Motivated by this week's 3-consecutive-cycle overdue backlog
+  (W32→W33 queue grew 96→140, +44, while burndowns stayed at 4-13 items/week) — a fixed
+  "measured lowest-tier" burndown cannot keep pace with intake this uneven. Proposal: when the
+  weekly finds the queue 2×+ over the ~40 soft cap AND the prior weekly's burndown was
+  flagged overdue by a daily more than once, the weekly burndown should target working the
+  backlog down toward roughly 2–3× the soft cap (not a fixed item count), still restricted to
+  settled, zero-follow-up, non-landmark items per the existing criteria. Monthly hit/miss
+  retrospective NOT due (day 15 > 7; M09 due first run of September).
 
 ## study_shelf
 

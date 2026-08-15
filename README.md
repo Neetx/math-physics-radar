@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-140-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--14-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-119-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--15-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-13):**
-- The first experimental evidence of **[non-Abelian anyon braiding](https://arxiv.org/abs/2608.12897)**, in the ν=5/2 fractional quantum Hall state (Weizmann/KAIST) — a long-sought, first-of-kind signature, heavily caveated pending replication.
-- **[Banach's isometric conjecture](https://arxiv.org/abs/2608.13536)** completed (real case, ~94 years open), alongside a landmark-dense arXiv batch resolving **[Gromov's volume growth conjecture](https://arxiv.org/abs/2608.13553)**, the **[Chang-Yang conjecture](https://arxiv.org/abs/2608.13497)**, the exact **[Hayman-Wu constant](https://arxiv.org/abs/2608.12844)** (π²), and **[SOP₂=SOP₃](https://arxiv.org/abs/2608.13291)** in model theory.
-- An off-axis exploration catch: new **[bounds on the Grothendieck constant](https://arxiv.org/abs/2608.11158)**, tightened via AI-assisted long-horizon research.
-- Observation queue [128 → 140](TRENDS.md#observation_queue): +12 new items (no burndown today — daily persistence, per domain cadence; a weekly burndown pass is overdue).
+**Since last scan (2026-08-15, weekly recalibration):**
+- Weekly institute sweep caught a fresh peer-reviewed catch the daily feeds missed: **[dark photons could hide in a region long thought excluded](https://arxiv.org/abs/2510.13956)** (Hook, Huang, Shalaby; Phys. Rev. Lett., Perimeter + U. Maryland) — plasma nonlinearities invalidate the standard cosmological exclusion bound.
+- All three active trends **HELD** this week — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) — a domain-normal quiet week for tracked axes, per AGENTS.md's domain cadence.
+- Observation queue [140 → 119](TRENDS.md#observation_queue): a backlog-sized burndown of 22 settled, zero-follow-up items (2026-07-02→07-21), catching up a 3-cycle-overdue weekly prune.
+- A capture-leak sweep of every trend's own notes caught **[a Ramsey-adjacent item](https://arxiv.org/abs/2608.07102)** that had been dismissed in prose but never queued — now on the record.
 
 ## Trends
 
@@ -60,12 +60,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/): blocked to direct fetch this pass (network policy); a stale/cached search turned up nothing new on-axis beyond what the arXiv sweep and digest/blog lane separately surfaced.
-- Gowers's blog weighed in on the OpenAI "Ten Advances" claims — commentary/reflection on what LLMs are currently good at in mathematics, not a new primary result.
-- Hacker News: no on-axis math/physics story today (general tech/AI news).
-- MathOverflow and Mathstodon: routine/low-signal today, nothing on-axis.
+- Social/curator intake is a daily-only lane (`radar-pulse`); this weekly recalibration ran the institute/venue/prize sweep instead. [r/Physics](https://www.reddit.com/r/Physics/), [r/cosmology](https://www.reddit.com/r/cosmology/) and [r/ParticlePhysics](https://www.reddit.com/r/ParticlePhysics/) were checked this session (direct fetch blocked, healed via search fallback) — routine Q&A noise only, nothing on-axis.
+- The 08-14 daily noted Gowers's blog weighing in on the OpenAI "Ten Advances" claims — commentary/reflection on what LLMs are currently good at in mathematics, not a new primary result.
+- Next daily resumes the full social/curator sweep (r/math, r/mathematics, Hacker News, MathOverflow, Mathstodon, the digest/blog lane).
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (140) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-14](reports/2026-08-14.md)) · weekly: [2026-W32](reports/weekly/2026-W32.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (119) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-14](reports/2026-08-14.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
