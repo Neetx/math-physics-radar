@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-15
+Last updated: 2026-08-17
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -245,6 +245,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     breakthrough). arXiv-API metadata on all five tracked preprints unchanged since
     2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy
     re-check 2026-10-02 unchanged.
+  - 2026-08-17 (daily): first daily since 08-14 (weekend gap + W33 weekly 08-15, expected).
+    Fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT broad-rotation
+    batch (2026-08-14, 151 fresh entries — the only new arXiv date; the 08-15/08-16 weekend
+    and the Monday batch had not yet posted at run time) scanned for Ramsey lower bounds —
+    only routine Ramsey/Schur/Gallai-Ramsey titles (a "Weakened Gallai-Ramsey Numbers for
+    Books" note, Schur-log-concavity items — captured separately below, not Ramsey-number
+    lower bounds). arXiv-API metadata check of all five tracked preprints shows no fresh
+    v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium;
+    60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
@@ -341,6 +350,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (2026-08-13) and SciPost API (no new publications since SciPostPhysLectNotes.132/
     SciPostPhysCore.9.3.047, 2026-08-12) both scanned — no 5th independent group on
     non-invertible/categorical symmetries specifically. Trend HELD emerging/high.
+  - 2026-08-17 (daily): first daily since 08-14. Fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/
+    cond-mat/astro-ph batch (2026-08-14, 106 fresh entries) and SciPost API (3 new
+    publications since SciPostPhysLectNotes.132, all 2026-08-14: supersymmetric Virasoro
+    minimal strings, an invisible-pair/Michel-distribution note, Parisi-Sourlas-supersymmetry
+    cohomology — none on-axis) both scanned — no 5th independent group on non-invertible/
+    categorical symmetries specifically. Trend HELD emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -418,6 +433,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-14 (daily): fresh math.CO 2026-08-13 batch (197 entries) scanned for
     Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
     outcome on any of the three tracked preprints. Trend HELD seed/medium.
+  - 2026-08-17 (daily): first daily since 08-14. Fresh math.CO 2026-08-14 batch (151
+    entries) scanned for Schur-positivity/claw-free items — none (a Skew-Schur
+    log-concavity note and an m-symmetric-Schur-function characterization are unrelated
+    Schur-function threads, not Stanley-Gasharov counterexamples). arXiv-API metadata check
+    of all three tracked preprints shows no fresh v-update — no referee/vetting outcome.
+    Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -1510,6 +1531,70 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   result. "Significant, off-axis" queue item per `radar-explore` — a genuine sharp-constant
   improvement on a classical open problem, caught only because the off-axis rotation reads cs.CC
   regardless of sub-topic.
+- 2026-08-17 (daily) — arXiv:2608.14194 — Stessin, Yang, "Reducibility of linear
+  representations, free ideals, and Kippenhahn's conjecture" — https://arxiv.org/abs/2608.14194
+  — operator/matrix theory (axis 1, math.RT-adjacent, filed math.RT): a comprehensive study of
+  characteristic polynomials of matrix tuples and finite-dimensional group representations that
+  the authors state "provides a complete resolution to Kippenhahn's conjecture" (Kippenhahn 1951,
+  on repeated factors in the characteristic polynomial of a Hermitian-matrix pencil — confirmed
+  via `tvly search`, a 75-year-old, actively-studied problem with its own prior "Kippenhahn's
+  Conjecture Revisited" arXiv:2603.09915 this year). Abstract verified via arXiv API this session
+  (v1 2026-08-14); age/standing of the conjecture corroborated via `tvly search` this session.
+  Domain-cadence LANDMARK single result (a ~75-year-old named conjecture resolved) — unrefereed
+  preprint, standard caution. Also on `study_shelf`.
+- 2026-08-17 (daily) — arXiv:2608.14013 — Chalmers, "A counterexample to Kusner's conjecture on
+  equilateral sets" — https://arxiv.org/abs/2608.14013 — functional/convex analysis (axis 1,
+  math.MG-adjacent, filed math.MG): disproves Kusner's 1983 conjecture that every equilateral set
+  in $\ell_p^n$ ($2<p<\infty$) has at most $n+1$ points, via an explicit 58-point equilateral set
+  in $\mathbb{R}^{56}$ under the $\ell_5$ metric — the first equilateral set of more than $n+1$
+  points in $\ell_p^n$ for any finite $p\ge2$. Abstract verified via arXiv API this session (v1
+  2026-08-14). Domain-cadence LANDMARK single result (a 43-year-old named conjecture refuted) —
+  unrefereed preprint, standard caution. Also on `study_shelf`.
+- 2026-08-17 (daily) — arXiv:2608.13964 — Makarov, "A counterexample to the Albertson-Berman
+  conjecture about induced forests in planar graphs" — https://arxiv.org/abs/2608.13964 —
+  extremal/structural combinatorics (axis 1, math.CO): an independent, non-AI 39-vertex
+  counterexample (largest induced forest $a(G)=19 < n/2$) to the Albertson-Berman conjecture
+  (open since 1979) on induced forests in planar graphs. The paper's own framing states the
+  conjecture "was recently resolved in the negative by constructing a counterexample with the
+  help of AI" — that AI-assisted precursor was NOT independently traced/verified this session (no
+  matching arXiv id found via title/abstract search; flagged for a follow-up chase, not cited as
+  evidence here). Abstract verified via arXiv API this session (v1 2026-08-14). Domain-cadence
+  LANDMARK single result on its own terms (a 46-year-old named conjecture independently refuted
+  by a human-only proof) — unrefereed preprint, standard caution; the same author (Makarov) has a
+  January 2026 companion paper on the multigraph variant, queued separately below
+  (arXiv:2601.04637).
+- 2026-08-17 (daily, CAPTURE — named in the Albertson-Berman item above, given its own line per
+  the capture rule) — arXiv:2601.04637 — Makarov, "Large induced forests in planar multigraphs"
+  — https://arxiv.org/abs/2601.04637 — extremal combinatorics (axis 1, math.CO): a companion,
+  below-bar result (not the counterexample itself) proving $a(M)\ge n/4$ for planar multigraphs
+  and a refined bound $a(M) \ge \frac{2}{5}n - \frac{k}{10}$ for graphs with $k$ parallel-edge
+  pairs; relates the Albertson-Berman conjecture for simple graphs to a multigraph variant.
+  Abstract verified via arXiv API this session (v1 2026-01-08).
+- 2026-08-17 (daily) — arXiv:2608.14217 — Ni, "The Quartic Hessian Conjecture in Dimension Four"
+  — https://arxiv.org/abs/2608.14217 — algebraic geometry / polynomial-map theory (axis 1,
+  math.AG, Jacobian-conjecture-ADJACENT — a distinct but related polynomial-map problem, not the
+  same conjecture as the standing Jacobian-conjecture/AI-wave cluster): proves the four-variable
+  quartic case of the open dimension-4 Hessian conjecture (known true for dimensions ≤3, false
+  for dimensions ≥5). A partial case, not a full resolution — below the landmark bar. Abstract
+  verified via arXiv API this session (v1 2026-08-14).
+- 2026-08-17 (daily) — arXiv:2608.13946 — Wang, Sun, Yang, "On the Lei-Bai conjecture on
+  5-regular Lin-Lu-Yau Ricci-flat graphs" — https://arxiv.org/abs/2608.13946 — graph theory /
+  discrete Ricci curvature (axis 1, math.CO): disproves the Lei-Bai conjecture (that every
+  5-regular Ricci-flat graph is either a specific 72-vertex graph or a nontrivial Cartesian
+  product) via an infinite counterexample family. A narrower, recent conjecture (not a
+  long-standing landmark) — below-bar intake. Abstract verified via arXiv API this session (v1
+  2026-08-14).
+- 2026-08-17 (daily) — arXiv:2608.13887 — Chen, Zheng, "The Fino-Vezzoni conjecture on balanced
+  Bismut torsion-parallel manifolds" — https://arxiv.org/abs/2608.13887 — complex geometry (axis
+  1, math.DG): a PARTIAL result (proves the conjecture under an added pluriclosed-metric
+  hypothesis), not a full resolution — below-bar intake. Abstract verified via arXiv API this
+  session (v1 2026-08-14).
+- 2026-08-17 (daily) — arXiv:2608.14396 — "AI-Assisted Discovery and Construction of a
+  Counterexample to the Convergence of Three-Block ADMM with the Identity Matrix as its Third
+  Constraint Block" — https://arxiv.org/abs/2608.14396 — optimization (axis 1, math.OC):
+  AI-ASSISTED counterexample construction — another entry in the standing AI-assisted-math wave
+  (axis-5 WATCH area; track the mathematical result, not the AI method). Below-bar intake.
+  Abstract verified via arXiv API this session (v1 2026-08-14).
 
 ## source_rotation
 
@@ -1919,12 +2004,35 @@ Corrections to the source-coverage strategy.
   backlog down toward roughly 2–3× the soft cap (not a fixed item count), still restricted to
   settled, zero-follow-up, non-landmark items per the existing criteria. Monthly hit/miss
   retrospective NOT due (day 15 > 7; M09 due first run of September).
+- 2026-08-17 (daily) — SKILL/FILE-CONTRACT MISMATCH FLAGGED (not amended today; daily runs
+  execute, only weekly runs amend skills per AGENTS.md § Self-amendment): invoked
+  `radar-ledger-update` this session — its documented file contract ("# Trend ledger — AI
+  Radar" header, `### [id: slug-NNN] Title` trend blocks with an `alias` field, a standalone
+  `## observation_queue` H2 header) does NOT match this repo's actual `TRENDS.md` structure
+  (header reads "Math-Physics Radar"; trend blocks are `### Title` with
+  `stage/confidence/first_seen/last_evidence` inline fields, no id/alias; the queue is an
+  unheaded block directly under `## Active trends`, consistently across 2000+ lines and many
+  prior sessions). Followed the REAL, established file structure (which matches AGENTS.md's
+  File map) rather than the skill's stale template text — likely inherited unedited from a
+  sibling radar's skill set. Flagged for the weekly operator to heal the skill text (skill
+  maintenance policy: one dedicated commit, `radar: refine skill radar-ledger-update`) so a
+  future session isn't misled into restructuring the file to match the wrong contract.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-17 — [Reducibility of linear representations, free ideals, and Kippenhahn's conjecture (Stessin, Yang), arXiv:2608.14194](https://arxiv.org/abs/2608.14194)
+  — a complete resolution of Kippenhahn's conjecture (1951) on repeated factors in the
+  characteristic polynomial of Hermitian-matrix pencils, a 75-year-old problem in matrix/operator
+  theory (axis 1). Abstract verified via arXiv API this session (v1 2026-08-14); the conjecture's
+  age and standing corroborated via `tvly search`. Unrefereed preprint — standard caution.
+- 2026-08-17 — [A counterexample to Kusner's conjecture on equilateral sets (Chalmers), arXiv:2608.14013](https://arxiv.org/abs/2608.14013)
+  — disproves Kusner's 1983 conjecture on the maximum size of equilateral sets in $\ell_p^n$
+  spaces via an explicit 58-point construction in $\mathbb{R}^{56}$, the first such counterexample
+  for any finite $p\ge2$ (axis 1, convex/functional analysis). Abstract verified via arXiv API
+  this session (v1 2026-08-14). Unrefereed preprint — standard caution.
 - 2026-08-13 — [Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State (Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky, Heiblum, Sim), arXiv:2608.12897](https://arxiv.org/abs/2608.12897)
   — the first experimental evidence of non-Abelian anyon braiding, via a time-domain
   partition-noise signature in the ν=5/2 fractional quantum Hall state (axis 3, condensed

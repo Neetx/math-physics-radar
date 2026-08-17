@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-119-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--15-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-127-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--17-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-15, weekly recalibration):**
-- Weekly institute sweep caught a fresh peer-reviewed catch the daily feeds missed: **[dark photons could hide in a region long thought excluded](https://arxiv.org/abs/2510.13956)** (Hook, Huang, Shalaby; Phys. Rev. Lett., Perimeter + U. Maryland) — plasma nonlinearities invalidate the standard cosmological exclusion bound.
-- All three active trends **HELD** this week — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) — a domain-normal quiet week for tracked axes, per AGENTS.md's domain cadence.
-- Observation queue [140 → 119](TRENDS.md#observation_queue): a backlog-sized burndown of 22 settled, zero-follow-up items (2026-07-02→07-21), catching up a 3-cycle-overdue weekly prune.
-- A capture-leak sweep of every trend's own notes caught **[a Ramsey-adjacent item](https://arxiv.org/abs/2608.07102)** that had been dismissed in prose but never queued — now on the record.
+**Since last scan (2026-08-17):**
+- Two fresh landmark conjecture resolutions join the study shelf: **[Kippenhahn's conjecture](https://arxiv.org/abs/2608.14194)** (1951, matrix/operator theory — a complete resolution after 75 years) and **[Kusner's conjecture on equilateral sets](https://arxiv.org/abs/2608.14013)** (1983 — an explicit 58-point counterexample).
+- A third landmark, independent of an earlier AI-assisted attempt: **[a human-only counterexample to the Albertson-Berman conjecture](https://arxiv.org/abs/2608.13964)** (open since 1979, planar-graph induced forests), queued.
+- All three active trends **HELD** again — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) — no fresh evidence on any of the three, a domain-normal quiet stretch for tracked axes.
+- Observation queue [119 → 127](TRENDS.md#observation_queue) (+8, first daily since the W33 weekly burndown); a skill/file-contract mismatch was flagged in `strategy_notes` for the weekly to heal.
 
 ## Trends
 
@@ -22,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Reducibility of linear representations, free ideals, and Kippenhahn's conjecture (Stessin, Yang)](https://arxiv.org/abs/2608.14194) — a complete resolution of Kippenhahn's 1951 conjecture on repeated factors in the characteristic polynomial of Hermitian-matrix pencils, a 75-year-old problem in matrix/operator theory. Unrefereed preprint — standard caution.
+- [A counterexample to Kusner's conjecture on equilateral sets (Chalmers)](https://arxiv.org/abs/2608.14013) — disproves Kusner's 1983 conjecture on equilateral-set size in $\ell_p^n$ spaces via an explicit 58-point construction in $\mathbb{R}^{56}$, the first such counterexample for any finite $p\ge2$. Unrefereed preprint — standard caution.
 - [Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State (Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky, Heiblum, Sim)](https://arxiv.org/abs/2608.12897) — the first experimental evidence of non-Abelian anyon braiding, via a time-domain partition-noise signature in the ν=5/2 fractional quantum Hall state. **Extraordinary-claim caution** — ν=5/2 has a history of contested claims in this exact system — but a long-sought signature directly relevant to topological quantum computing, from a leading group (Weizmann/Heiblum + KAIST).
 - [A solution to Banach's isometric conjecture (Lu, Yang)](https://arxiv.org/abs/2608.13536) — completes Banach's 1932 conjecture for every remaining odd dimension, joining Gromov's 1967 even-case resolution to close the real case entirely (~94 years open). Unrefereed but builds on and completes established prior work.
 - [A Computer-Assisted Proof of Sendov's Conjecture (Lech Mazur, using OpenAI GPT-5.6 Pro; digested + Lean-formalized by Terence Tao)](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf) — claims to resolve Sendov's ~68-year-old conjecture (1958) in full generality, extending Tao's own 2020 partial result. **Heavily provisional** — off-arXiv, self-published, explicitly AI-substantial per its own disclosure — but an unusually strong vetting signal: the world's leading expert on this exact conjecture personally re-derived, human-digested, and independently Lean-formalized the argument, rather than merely commenting on it publicly.
@@ -60,11 +62,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Social/curator intake is a daily-only lane (`radar-pulse`); this weekly recalibration ran the institute/venue/prize sweep instead. [r/Physics](https://www.reddit.com/r/Physics/), [r/cosmology](https://www.reddit.com/r/cosmology/) and [r/ParticlePhysics](https://www.reddit.com/r/ParticlePhysics/) were checked this session (direct fetch blocked, healed via search fallback) — routine Q&A noise only, nothing on-axis.
-- The 08-14 daily noted Gowers's blog weighing in on the OpenAI "Ten Advances" claims — commentary/reflection on what LLMs are currently good at in mathematics, not a new primary result.
-- Next daily resumes the full social/curator sweep (r/math, r/mathematics, Hacker News, MathOverflow, Mathstodon, the digest/blog lane).
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) direct fetch blocked again this session (network policy); the `tvly search` fallback surfaced only generic AI-proof-skepticism threads, not a genuine daily pulse.
+- [Hacker News front page](https://news.ycombinator.com/) checked — nothing on-axis (one AI-math-tool story, out of this radar's scope).
+- [MathOverflow](https://mathoverflow.net/questions) and [Mathstodon](https://mathstodon.xyz/public/local) checked — routine research-Q&A and mostly-automated arXiv-listing bot posts, nothing beyond the day's arXiv sweep.
+- The digest/blog lane (Quanta, Tao, Not Even Wrong, n-Category Café, Gowers, Kalai, Azimuth, Strassler, Backreaction) was fully swept — Quanta's fractal-uncertainty feature corroborates an already-tracked queue item; nothing else new on-axis.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (119) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-14](reports/2026-08-14.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (127) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-17](reports/2026-08-17.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
