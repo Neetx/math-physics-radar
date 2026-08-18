@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-17
+Last updated: 2026-08-18
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -254,6 +254,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     lower bounds). arXiv-API metadata check of all five tracked preprints shows no fresh
     v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium;
     60-day dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-18 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT
+    broad-rotation batch (2026-08-15→08-17, 370 fresh entries) scanned for Ramsey lower bounds —
+    none (batch dominated by other landmark items — Milnor's conjecture 2608.15505, Atiyah's
+    Minkowski-space conjecture 2608.16693, Weibel's-conjecture counterexamples 2608.16066, the
+    Chen-Raspaud conjecture proof 2608.15257, all captured below, unrelated sub-theme; only
+    routine Ramsey/Gaifman-adjacent titles, none a lower-bound breakthrough). arXiv-API metadata
+    check of all five tracked preprints shows no fresh v-update since 2026-08-03 — no
+    referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02
+    unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
@@ -356,6 +365,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     minimal strings, an invisible-pair/Michel-distribution note, Parisi-Sourlas-supersymmetry
     cohomology — none on-axis) both scanned — no 5th independent group on non-invertible/
     categorical symmetries specifically. Trend HELD emerging/high.
+  - 2026-08-18 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
+    (2026-08-15→08-17, 304 fresh entries) and SciPost API (one new publication since
+    SciPostPhys.21.2.041 — SciPostPhys.21.2.042 "Semi-universality of CFT_d entropy at large
+    spin," 2026-08-17, a large-spin CFT thermodynamics result, not on-axis) both scanned — no
+    5th independent group on non-invertible/categorical symmetries specifically. Trend HELD
+    emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -439,10 +454,147 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Schur-function threads, not Stanley-Gasharov counterexamples). arXiv-API metadata check
     of all three tracked preprints shows no fresh v-update — no referee/vetting outcome.
     Trend HELD seed/medium.
+  - 2026-08-18 (daily): fresh math.CO 2026-08-15→08-17 batch (370 fresh entries) scanned for
+    Schur-positivity/claw-free items — two peripheral titles ("On the finite group whose proper
+    enhanced power graph is claw-free" [2608.16434, group theory, unrelated] and "Three Infinite
+    Families Separating Schur Positivity, the Strongly Nice Property, and the Nice Property"
+    [2608.16613, a different Schur-positivity separating-families question, not a Stanley-Gasharov
+    counterexample]) — neither a 4th independent group. arXiv-API metadata check of all three
+    tracked preprints shows no fresh v-update — no referee/vetting outcome. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 
+- 2026-07-22 (CAPTURE-LEAK CATCH, chased via a Hacker-News-front-page pointer this session,
+  accessed 2026-08-18) — BESIII Collaboration, "Lightest $0^{-+}$ Glueball as Dominant
+  Constituent of $X(2370)$," arXiv:2607.20366 — https://arxiv.org/abs/2607.20366 — hadron/QCD
+  physics (axis 3, hep-ex/hep-ph): reports the strongest evidence yet, from 10 billion $J/\psi$
+  events, that the light hadron $X(2370)$ is dominated by the lightest $0^{-+}$ glueball — a
+  particle made purely of gluons, sought since the 1970s — via a flavor-singlet-consistent
+  suppressed-decay-mode signature. Abstract + collaboration authorship verified via arXiv API
+  this session (v1 2026-07-22); widely covered mid-August by Nature News, Science, Ars Technica
+  and ScienceAlert (opened via `tvly` this session), confirming the domain reads this as a
+  landmark near-consensus first-of-kind result ("an experimental triumph" — Colin Morningstar,
+  CMU, quoted in Science), though caution remains (Bruce Yabsley, U. Sydney, quoted in Nature:
+  "no single smoking gun"). Domain-cadence landmark first-of-kind detection, missed by the
+  ordinary arXiv sweep for 27 days until surfaced via today's community-pulse HN chase. Also on
+  `study_shelf`.
+- 2026-08-15 (v1; posted on preprints.org 2026-07-27 as v1, this is the DOI-stable v4 dated
+  2026-08-06/07; discovered via a Hacker-News/press chase this session) — Shanmu Jin, "The
+  Numerical Range Is a 2-Spectral Set," preprints.org DOI 10.20944/preprints202607.1919.v4 —
+  https://www.preprints.org/manuscript/202607.1919 — operator/matrix theory (axis 1, math.FA):
+  a SECOND, FULLY INDEPENDENT, AI-ASSISTED claimed proof of Crouzeix's conjecture (the same
+  conjecture already on this ledger's `study_shelf` since 2026-08-04 via Lorist–Schwenninger,
+  arXiv:2608.03841) — Jin's manuscript was actually posted FIRST (2026-07-27, ~8 days before
+  Lorist–Schwenninger's independent human proof), via a 16-hour autonomous run with an
+  unspecified OpenAI model, by a Beijing neurosurgery resident with no formal mathematics
+  training. Preprints.org page opened via `tvly extract` this session (not an arXiv listing —
+  off-arXiv, self-published-adjacent preprint server, same AI-disclosure-lane pattern as
+  proofatlas.ai/openai.com). HEAVY CAVEATS (hype-skepticism + AI-watch rules): unrefereed,
+  AI-substantially-assisted, off-arXiv → PROVISIONAL; per SIAM News (Alex Townsend, opened via
+  `tvly` this session) the community has examined the manuscript but not yet certified it. Track
+  the RESULT (that TWO independent routes now claim the same 20-year-old conjecture, a stronger
+  convergence signal than either alone), not the AI method (sibling AI radars' beat). Eighth/
+  ninth entries in the standing AI-assisted-math wave (Jin's paper predates and is independent of
+  the already-counted Matherne–Morales entry). NEW SOURCE-DISCOVERY CANDIDATE: preprints.org
+  (first sighting) — staged in SOURCES.md this session.
+- 2026-08-15 (v1 2026-08-15; capture-leak-adjacent — completes a 2023 disproof program, chased
+  via the fresh arXiv batch this session) — Nan Wu, Zetian Yan, "Prüfer $2$-group and Milnor's
+  Conjecture on Fundamental Groups," arXiv:2608.15505 — https://arxiv.org/abs/2608.15505 —
+  Riemannian geometry (axis 1, math.DG): constructs complete, one-ended manifolds in dimensions
+  FOUR and FIVE with strictly positive Ricci curvature and infinitely generated (Prüfer
+  $2$-group) fundamental group — counterexamples in "the two remaining dimensions" of Milnor's
+  1968 conjecture (fundamental groups of complete nonnegative-Ricci manifolds are finitely
+  generated), which was already known true for $n\le3$ and false for $n\ge6$ (Bruè–Naber–Semola
+  2023, Quanta-covered) but open in dims 4–5 until now. Abstract + authors verified via arXiv API
+  this session (v1 2026-08-15); prior status (true ≤3, false ≥6, open 4–5) corroborated via
+  Wikipedia's "Milnor conjecture (Ricci curvature)" page and the original arXiv:2303.15347,
+  opened via `tvly` this session. COMPLETES the Milnor-conjecture disproof program across every
+  dimension — a genuine domain-cadence landmark (a 58-year-old named conjecture now fully
+  resolved: true for $n\le3$, false for $n\ge4$). Also on `study_shelf`.
+- 2026-03-06 (v1; CAPTURE-LEAK CATCH, ~5.5 months old, surfaced this session via a fresh follow-up
+  paper citing it, accessed 2026-08-18) — Eva Viehmann, "Oort's conjecture on automorphisms of
+  generic supersingular abelian varieties," arXiv:2603.06033 — https://arxiv.org/abs/2603.06033
+  — arithmetic geometry (axis 1, math.AG/NT): proves Oort's conjecture in full generality — that
+  generically on the supersingular locus of the moduli space of principally polarized abelian
+  varieties of genus $g$ in characteristic $p$, the automorphism group of the universal abelian
+  variety is $\{\pm1\}$ (with explicit exceptions at $g=2,3$, $p=2$) — resolving a standing
+  conjecture in the theory of Shimura varieties / supersingular loci. Abstract + author verified
+  via arXiv API this session; a same-day fresh follow-up (Karemaker–Yu, arXiv:2608.16405, v1
+  2026-08-17, opened this session) explicitly cites Viehmann's "very recent" proof, which is how
+  this months-old landmark was caught. Single-author, unrefereed — PROVISIONAL under the
+  hype-skepticism rule, but by an established leader in the field (p-adic geometry / Shimura
+  varieties). A near-miss capture-leak: this genuinely landmark result sat outside this ledger's
+  window for over five months.
+- 2026-08-17 — arXiv:2608.16405 — Valentijn Karemaker, Chia-Fu Yu, "Oort's conjecture on
+  supersingular abelian varieties in odd characteristic" — https://arxiv.org/abs/2608.16405 —
+  arithmetic geometry (axis 1, math.AG/NT): a same-day follow-up to Viehmann's proof of Oort's
+  conjecture (arXiv:2603.06033, capture-leak-caught above) — constructs, for every $g\ge3$, an
+  explicit codimension-1 locus of $a$-invariant $g-2$ meeting every irreducible component of the
+  supersingular locus, refining the boundary/exceptional-locus structure around Viehmann's
+  generic result. Abstract + authors verified via arXiv API this session (v1 2026-08-17). Below-
+  bar follow-up/refinement item — the paper that led this session to Viehmann's landmark.
+- 2026-08-15 — arXiv:2608.15257 — Qi Wu, Yong Lu, "A Proof of the Chen–Raspaud Conjecture" —
+  https://arxiv.org/abs/2608.15257 — graph theory / flows (axis 1, math.CO): proves the
+  Chen–Raspaud conjecture (2007) — every graph $G$ with odd girth $\ge2k+1$ and maximum average
+  degree $<2+1/k$ admits a $(2k+1{:}k)$-coloring — for every $k\ge2$. Abstract + authors verified
+  via arXiv API this session (v1 2026-08-15). Unrefereed two-author preprint claiming resolution
+  of a named ~19-year-old conjecture — PROVISIONAL under the hype-skepticism rule; a below-bar but
+  notable landmark-adjacent result a graph theorist should watch.
+- 2026-08-17 — arXiv:2608.16693 — Ziran Liu, "Atiyah's Minkowski Space Conjecture Fails for Every
+  $n\ge3$" — https://arxiv.org/abs/2608.16693 — mathematical physics / twistor geometry (axis 1/2,
+  math.DG): disproves a conjecture of Michael Atiyah on the linear independence of binary forms
+  built from admissible configurations of $n$ worldlines' retarded celestial directions, for every
+  $n\ge3$, via an explicit planar counterexample at $n=3$. Abstract + author verified via arXiv
+  API this session (v1 2026-08-17). Single-author unrefereed preprint refuting a named conjecture
+  of a major 20th-century figure — provenance/age of the specific conjecture not independently
+  dated this session; below-bar item.
+- 2026-08-17 — arXiv:2608.16066 — Shane Kelly, "Some explicit counter-examples to Weibel's
+  conjecture" — https://arxiv.org/abs/2608.16066 — algebraic K-theory (axis 1, math.AG/KT):
+  constructs rings $R$ of Krull dimension 1 with $K_{-d}(R)\ne0$ for $d\ge2$. NOTE (caution
+  warranted): Weibel's vanishing conjecture was proved by Kerz–Strunk–Tamme (2018) for NOETHERIAN
+  schemes of finite Krull dimension — this abstract does not state whether $R$ is Noetherian, so
+  it is unclear this genuinely contradicts the proven theorem rather than showing the necessity
+  of a hypothesis outside it; not independently resolved this session. Abstract + author verified
+  via arXiv API this session (v1 2026-08-17). Below-bar, caveated item — track for clarification.
+- 2026-08-16 — arXiv:2608.15558 — Zijian Zeng, Houde Liu, Kurunathan Ratnavelu, "A Counterexample
+  to the Tang Zhang Schatten Norm Conjecture and Sharp Positive Results" —
+  https://arxiv.org/abs/2608.15558 — matrix analysis (axis 1, math.FA/CO): disproves a conjectured
+  explicit formula (Tang–Zhang) for the best Schatten-$p$-norm subadditivity constant via two
+  explicit $2\times2$ rank-one matrices at $p=3/2$. Abstract + authors verified via arXiv API this
+  session (v1 2026-08-16). Single below-bar refuted-conjecture item (a recent, not classical,
+  named conjecture).
+- 2026-08-17 — arXiv:2608.16099 — Yi Zhang, "Counterexamples to the Generalized Gaifman
+  Conjecture" — https://arxiv.org/abs/2608.16099 — mathematical logic / model theory (axis 1,
+  math.LO): a negative answer to a 2025 conjecture of Shelah and Usvyatsov. Abstract + author
+  verified via arXiv API this session (v1 2026-08-17). Single below-bar item (a young conjecture,
+  not a classical named one).
+- 2026-08-04 (CAPTURE-LEAK CATCH, ~2 weeks old, surfaced via the Simons Foundation feed this
+  session, accessed 2026-08-18) — Simons Foundation, "New Simons Collaboration Will Explore
+  Discrete Subgroups of Lie Groups" —
+  https://www.simonsfoundation.org/2026/08/04/new-simons-collaboration-will-explore-discrete-subgroups-of-lie-groups/
+  — ecosystem/recognition (axis 1/2, geometric group theory / Lie theory): launches a new Simons
+  Collaboration studying discrete subgroups of Lie groups (lattices, thin groups, dynamics on
+  homogeneous spaces) — thematically adjacent to several already-tracked items on this ledger
+  (profinite rigidity of PSL(2,C) lattices, 2607.19012/2608.07350). Page opened via `tvly extract`
+  this session. Funding/ecosystem announcement, not a result — below-bar item, missed by the daily
+  RSS check for two weeks (a smaller, second item further down the same feed).
+- 2026-08-13 (unverified — chased via a community-pulse Hacker-News/press pointer this session, no
+  primary artifact located; accessed 2026-08-18) — Levent Alpöge (Anthropic), Philippe Voinov,
+  Saul Reynolds-Haertle, with the LLM Claude — claimed construction of Hadamard matrices for every
+  previously-unknown admissible order up to 2000, INCLUDING order 668 (the smallest order for
+  which none was known, per Kharaghani–Tayfeh-Rezaie 2005's order-428 record) — combinatorial
+  design theory (axis 1, math.CO). NO PRIMARY ARTIFACT: disclosed only via a personal X/Twitter
+  post (not opened this session — X is not a primary source under this radar's hard rules), no
+  arXiv listing, no official Anthropic research page located despite a search this session (unlike
+  the tracked Riemann-zeta and "Ten Advances" disclosures, which used openai.com/anthropic.com
+  official pages). Corroborating secondary sources opened this session: a MathOverflow answer
+  (https://mathoverflow.net/questions/85201/status-of-hadamard-matrix-conjecture, describing and
+  linking the X post) and a John D. Cook blog post
+  (https://www.johndcook.com/blog/2026/08/13/constructing-hadamard-matrices). UNVERIFIED per the
+  evidence rules — queued, not evidenced; watch for an arXiv posting or official research-page
+  disclosure to promote/verify. If confirmed, this would be a notable landmark (closing the
+  smallest known gap in the 1893 Hadamard conjecture) in the standing AI-assisted-math wave.
 - 2026-08-13 (W33 weekly-swept institute sweep, Perimeter Institute news page) —
   Hook, Huang, Shalaby, "No cosmological constraints on dark photon dark matter from
   resonant conversion: impact of nonlinear plasma dynamics," arXiv:2510.13956, now
@@ -2023,6 +2175,22 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-18 (v1 2026-07-22; capture-leak catch, chased via Hacker News this session) — [Lightest $0^{-+}$ Glueball as Dominant Constituent of $X(2370)$ (BESIII Collaboration), arXiv:2607.20366](https://arxiv.org/abs/2607.20366)
+  — the strongest evidence to date, from 10 billion $J/\psi$ events at BESIII, that the light
+  hadron $X(2370)$ is dominated by a glueball — a particle made purely of gluons, sought since the
+  1970s (axis 3, hadron/QCD physics). Abstract verified via arXiv API this session; widely
+  corroborated by Nature News, Science and Ars Technica coverage this week ("an experimental
+  triumph" — Colin Morningstar, CMU). Not yet a "single smoking gun" per outside commentary
+  (Bruce Yabsley, U. Sydney) — a landmark, near-consensus first-of-kind result worth knowing, with
+  the community's own caution about definitiveness intact.
+- 2026-08-18 (v1 2026-08-15) — [Prüfer $2$-group and Milnor's Conjecture on Fundamental Groups (Wu, Yan), arXiv:2608.15505](https://arxiv.org/abs/2608.15505)
+  — completes the disproof of Milnor's 1968 conjecture (fundamental groups of complete
+  nonnegative-Ricci manifolds are finitely generated) in the two dimensions (4 and 5) left open
+  since Bruè–Naber–Semola's 2023 counterexamples in dimensions $\ge6$ (axis 1, Riemannian
+  geometry). Abstract + authors verified via arXiv API this session; prior open/closed status
+  corroborated via Wikipedia and the original 2023 arXiv listing, both opened this session. A
+  58-year-old classical conjecture now fully resolved across every dimension (true $n\le3$, false
+  $n\ge4$) — unrefereed but a clean, checkable capstone to a well-documented multi-paper program.
 - 2026-08-17 — [Reducibility of linear representations, free ideals, and Kippenhahn's conjecture (Stessin, Yang), arXiv:2608.14194](https://arxiv.org/abs/2608.14194)
   — a complete resolution of Kippenhahn's conjecture (1951) on repeated factors in the
   characteristic polynomial of Hermitian-matrix pencils, a 75-year-old problem in matrix/operator
