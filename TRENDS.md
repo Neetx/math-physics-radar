@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-18
+Last updated: 2026-08-19
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -263,9 +263,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     check of all five tracked preprints shows no fresh v-update since 2026-08-03 — no
     referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02
     unchanged.
+  - 2026-08-19 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OC/PR broad-rotation
+    batch (2026-08-17→08-18, 400 fresh entries) scanned for Ramsey lower bounds — none (batch
+    held the Complex-Hadamard-order-6 classification, Thompson's-conjecture-for-Lie-type
+    completion, Sato's weak F-equivalence counterexamples, the Mahmoodian-Mirzakhani boundary
+    case, all captured below, unrelated sub-theme; only routine Ramsey-adjacent titles — e.g. a
+    rainbow Lehel's-conjecture note — none a lower-bound breakthrough). arXiv-API metadata check
+    of all five tracked preprints shows no fresh v-update since 2026-08-03 — no referee/vetting
+    outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-07
+- stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-19
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -291,6 +299,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     interfaces/duality defects in quantum spin systems with non-invertible symmetries giving perfect
     particle transmission (a lattice analogue of the Callan–Rubakov monopole-paradox resolution).
     Abstract + author list verified via `tvly extract` on the publisher page this session.
+  - 2026-08-19 — https://arxiv.org/abs/2608.16520 — Flores-Calderón, Pollmann, Knap (TU Munich),
+    "Non-invertible Lattice 1-Form Symmetries for Non-Abelian Topological Order": a FIFTH fully
+    independent author group (condensed-matter/quantum-many-body, TUM — independent of Oishi–Ebisu,
+    Antunes–Rong, Bhardwaj et al., and Ueda et al.), constructs non-invertible 1-form symmetry
+    operators (governed by non-invertible fusion algebras, not a group) for non-Abelian topological
+    order in quantum double lattice models $\mathcal D(G)$. Abstract + authors verified via arXiv
+    API this session (v1 2026-08-14, surfaced in today's fresh physics batch).
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -370,6 +385,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     SciPostPhys.21.2.041 — SciPostPhys.21.2.042 "Semi-universality of CFT_d entropy at large
     spin," 2026-08-17, a large-spin CFT thermodynamics result, not on-axis) both scanned — no
     5th independent group on non-invertible/categorical symmetries specifically. Trend HELD
+    emerging/high.
+  - 2026-08-19 (daily, 5th group): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph
+    batch (2026-08-16→08-18, 400 fresh entries) surfaced arXiv:2608.16520 (Flores-Calderón,
+    Pollmann, Knap, TU Munich) — a 5th fully independent group on non-invertible symmetries,
+    satisfying the standing "watch for a 5th group" note (see evidence above). SciPost API
+    rechecked (2 new since .042: .043 electro-nanomechanical Bell phase, .044 integrable 4d
+    holomorphic-BF models — neither on this sub-theme). Confidence HELD high (already at the
+    ceiling for an unrefereed-caveat-free ordinary result; a 6th group or explicit cross-citation
+    between the lattice and continuum threads would be the next signal to watch). Trend HELD
     emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
@@ -461,6 +485,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     [2608.16613, a different Schur-positivity separating-families question, not a Stanley-Gasharov
     counterexample]) — neither a 4th independent group. arXiv-API metadata check of all three
     tracked preprints shows no fresh v-update — no referee/vetting outcome. Trend HELD seed/medium.
+  - 2026-08-19 (daily): fresh math.CO 2026-08-17→08-18 batch (400 fresh entries) scanned for
+    Schur-positivity/claw-free items — none new (only the already-tracked peripheral titles from
+    08-18). No 4th independent group or referee/vetting outcome on any of the three tracked
+    preprints. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -1747,6 +1775,75 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   AI-ASSISTED counterexample construction — another entry in the standing AI-assisted-math wave
   (axis-5 WATCH area; track the mathematical result, not the AI method). Below-bar intake.
   Abstract verified via arXiv API this session (v1 2026-08-14).
+- 2026-08-19 (daily) — arXiv:2608.18053 — Cárdenes Wuttig, Tindall, "A Complete Classification of
+  Complex Hadamard Matrices of Order Six" — https://arxiv.org/abs/2608.18053 — quantum
+  information / matrix analysis (axis 4, quant-ph/math.OA): gives the first complete, exact
+  finite-incidence classification of order-six complex Hadamard matrices up to standard
+  equivalence — order six was the first dimension where several continuous families coexist with
+  an isolated solution, and has stayed open for decades since the classification through order
+  five. Complex Hadamard matrices underlie mutually unbiased quantum measurements and multiphoton
+  interferometry. Abstract + authors verified via arXiv API this session (v1 2026-08-18).
+  Domain-cadence LANDMARK single result (a decades-open classification problem completed) —
+  unrefereed preprint, standard caution. Also on `study_shelf`.
+- 2026-08-19 (daily) — arXiv:2608.17891 — Liao, Wang, Zhang, "Thompson's Conjecture for Finite
+  Simple Groups of Lie Type over Small Fields" — https://arxiv.org/abs/2608.17891 — group theory
+  (axis 1, math.GR): proves every finite simple group of Lie type over a field of order ≤8
+  contains a conjugacy class whose square is the whole group; combined with previously
+  established cases, this completes the proof of Thompson's conjecture (J. G. Thompson) in full.
+  Abstract + authors verified via arXiv API this session (v1 2026-08-18). Domain-cadence LANDMARK
+  single result (a long-standing named conjecture in finite group theory, now fully resolved) —
+  unrefereed preprint, standard caution.
+- 2026-08-19 (daily) — arXiv:2608.18054 — Chakravarty, Choi, Xu, "Counterexamples to Sato's Weak
+  F-Equivalence Conjecture and a Gorenstein Refinement" — https://arxiv.org/abs/2608.18054 —
+  algebraic/toric geometry (axis 1, math.AG): disproves Sato's weak F-equivalence conjecture for
+  nonsingular projective toric weak Fano varieties in every dimension d≥3, via smooth projective
+  crepant models of centered reflexive simplices. Abstract + authors verified via arXiv API this
+  session (v1 2026-08-18). Below-bar intake (a specialized toric-geometry conjecture, not a
+  broadly landmark named problem).
+- 2026-08-19 (daily) — arXiv:2608.17227 — Pournader, "Completing the Boundary Case of the
+  Mahmoodian-Mirzakhani Conjecture and 117 New Computational 5-Cycle Decompositions of Complete
+  Tripartite Graphs" — https://arxiv.org/abs/2608.17227 — combinatorial design theory (axis 1,
+  math.CO): proves the Mahmoodian-Mirzakhani conjecture (5-cycle decomposability of complete
+  tripartite graphs $K_{r,s,t}$) on the extremal boundary case $t=4rs/(r+s)$ for every odd triple,
+  constructively. Abstract verified via arXiv API this session (v1 2026-08-18). Below-bar intake
+  (a boundary case of a design-theory conjecture, not a full resolution).
+- 2026-08-19 (daily) — arXiv:2608.17706 — Wang, Zhou, "A Symmetric Counterexample to the
+  Snashall–Solberg Conjecture" — https://arxiv.org/abs/2608.17706 — representation theory /
+  homological algebra (axis 1, math.RT): the trivial extension of the Xu–Snashall algebra gives
+  the first known selfinjective counterexample to the Snashall–Solberg conjecture (that the
+  Hochschild cohomology ring of a finite-dimensional algebra modulo nilpotence is finitely
+  generated). Abstract + authors verified via arXiv API this session (v1 2026-08-18). Below-bar
+  intake (a specialized homological-algebra conjecture).
+- 2026-08-19 (daily, source-discovery + ecosystem) — Simons Foundation, "Simons Foundation
+  Launches Collaboration on Universal Statistics in Number Theory" (2026-08-18) —
+  https://www.simonsfoundation.org/2026/08/18/simons-foundation-launches-collaboration-on-universal-statistics-in-number-theory/
+  — a new Simons Collaboration (director Jon Keating, Oxford) applying statistical-physics models
+  of correlated randomness to number theory (Riemann zeta statistics, prime correlations, the
+  twin-prime conjecture's "hidden patterns"). Page opened via `tvly extract` this session.
+  Ecosystem/funding announcement, not a primary result — queued for context; axis 1/2 interface
+  (number theory ↔ statistical mechanics), watch for the collaboration's first artifacts.
+- 2026-08-19 (daily) — Terence Tao, "Palomar — a registry of Lean verified mathematics"
+  (2026-08-18) — https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/
+  — axis 5 (computer-assisted & formalized mathematics): announces Palomar, a new registry for
+  Lean-verified mathematics results, incubated by the Lean FRO and ICARM, with a scientific
+  advisory board including Tao, Jeremy Avigad, Matthew Ballard, Bryna Kra, Ravi Vakil, and Akshay
+  Venkatesh among others — explicitly motivated by the recent proliferation of AI-generated proof
+  claims (some formalized in Lean) that are hard for non-experts to audit for typechecking,
+  axiom-cheats, and semantic match to the informal claim. Surfaced via today's Hacker News front
+  page, blog post opened via `tvly extract` this session (post dated 2026-08-18). Directly
+  relevant infrastructure for this ledger's standing AI-assisted-math-wave watch area. Also on
+  `study_shelf`.
+- 2026-08-19 (daily, community-pulse pointer, UNVERIFIED — no single primary chased) — Quanta
+  Magazine, "Theory of Fluids Enters the 21st Century" (Charlie Wood, 2026-08-17) —
+  https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/ — a feature on
+  a ~20-year research program rebuilding hydrodynamics as an effective field theory from
+  microscopic symmetries (Navier-Stokes equations derived as a symmetry consequence, informed by
+  black-hole/holography work), rather than a single new-artifact drop. A representative primary in
+  this program, located via `tvly search` but not independently opened this session: arXiv:2407.08760
+  (Huang et al., "Hydrodynamics as the effective field theory of strong-to-weak spontaneous
+  symmetry breaking," APS-published 2026). Below-bar, digest-lane pointer only — the specific
+  arXiv/APS primaries behind this feature were not opened this session; flagged for a follow-up
+  chase (axis 2/3 interface, math-physics + condensed matter).
 
 ## source_rotation
 
@@ -2175,6 +2272,17 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-19 — [Palomar — a registry of Lean verified mathematics (Tao et al.)](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/)
+  — a new Lean-FRO/ICARM-incubated registry for auditing Lean-verified mathematics claims
+  (typechecking, no axiom-cheats, semantic match to the informal statement), with a scientific
+  advisory board including Tao, Avigad, Ballard, Kra, Vakil and Venkatesh — direct infrastructure
+  for the AI-generated-proof wave this ledger has tracked all summer (axis 5). Surfaced via
+  Hacker News, blog post opened via `tvly extract` this session (post dated 2026-08-18).
+- 2026-08-19 (v1 2026-08-18) — [A Complete Classification of Complex Hadamard Matrices of Order Six (Cárdenes Wuttig, Tindall), arXiv:2608.18053](https://arxiv.org/abs/2608.18053)
+  — completes a decades-open classification problem in quantum information / matrix analysis:
+  order six was the first dimension where continuous families of complex Hadamard matrices
+  coexist with an isolated solution (axis 4). Abstract + authors verified via arXiv API this
+  session. Unrefereed preprint — standard caution.
 - 2026-08-18 (v1 2026-07-22; capture-leak catch, chased via Hacker News this session) — [Lightest $0^{-+}$ Glueball as Dominant Constituent of $X(2370)$ (BESIII Collaboration), arXiv:2607.20366](https://arxiv.org/abs/2607.20366)
   — the strongest evidence to date, from 10 billion $J/\psi$ events at BESIII, that the light
   hadron $X(2370)$ is dominated by a glueball — a particle made purely of gluons, sought since the

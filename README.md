@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-140-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--18-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-148-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--19-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-18):**
-- Landmark of the day, physics: **[strongest evidence yet for a "glueball" particle](https://arxiv.org/abs/2607.20366)** (BESIII, X(2370)) — a 50-year QCD search, missed by the ordinary sweep for 27 days until caught via today's community-pulse chase.
-- Landmark of the day, math: **[Milnor's 1968 conjecture on fundamental groups is now fully resolved](https://arxiv.org/abs/2608.15505)** in every dimension (Wu–Yan close the last two open cases, 4 and 5).
-- Two capture-leak catches queued: **[Eva Viehmann's full proof of Oort's conjecture](https://arxiv.org/abs/2603.06033)** (posted March, missed for 5.5 months) and a **[second, independent, AI-assisted proof of Crouzeix's conjecture](https://www.preprints.org/manuscript/202607.1919)** that actually predates the already-tracked one.
-- All three active trends **HELD** again — [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics); observation queue [127 → 140](TRENDS.md#observation_queue) (+13, a landmark-dense batch).
+**Since last scan (2026-08-19):**
+- **[Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** picks up a 5th fully independent author group — **[Flores-Calderón, Pollmann, Knap (TU Munich)](https://arxiv.org/abs/2608.16520)** on non-invertible lattice 1-form symmetries — confirmation, not just a hold.
+- Landmark queued: **[a complete classification of complex Hadamard matrices of order six](https://arxiv.org/abs/2608.18053)**, closing a decades-open quantum-information problem; also **[Thompson's conjecture for finite simple groups of Lie type, now fully proved](https://arxiv.org/abs/2608.17891)**.
+- New on the shelf: Terence Tao announces **[Palomar, a Lean FRO/ICARM registry for auditing Lean-verified proof claims](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/)** — direct infrastructure for this summer's AI-generated-proof wave.
+- Ramsey and Stanley-Gasharov **HELD** again (no new lower-bound primary or 4th group); the Simons Foundation launched a new collaboration on **[universal statistics in number theory](https://www.simonsfoundation.org/2026/08/18/simons-foundation-launches-collaboration-on-universal-statistics-in-number-theory/)**; observation queue [140 → 148](TRENDS.md#observation_queue) (+8).
 
 ## Trends
 
@@ -16,12 +16,14 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 📈 emerging | [2026-08-07](https://www.nature.com/articles/s41567-026-03390-5) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 📈 emerging | [2026-08-19](https://arxiv.org/abs/2608.16520) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 📈 emerging | [2026-08-03](https://arxiv.org/abs/2608.02537) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- [Palomar — a registry of Lean verified mathematics (Tao et al.)](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/) — a new Lean-FRO/ICARM-incubated registry for auditing Lean-verified mathematics claims, with a scientific advisory board including Tao, Avigad, Ballard, Kra, Vakil and Venkatesh — direct infrastructure for the AI-generated-proof wave this ledger has tracked all summer.
+- [A Complete Classification of Complex Hadamard Matrices of Order Six (Cárdenes Wuttig, Tindall)](https://arxiv.org/abs/2608.18053) — completes a decades-open classification problem in quantum information / matrix analysis: order six was the first dimension where continuous families coexist with an isolated solution. Unrefereed preprint — standard caution.
 - [Lightest $0^{-+}$ Glueball as Dominant Constituent of X(2370) (BESIII Collaboration)](https://arxiv.org/abs/2607.20366) — the strongest evidence to date, from 10 billion J/ψ events, that X(2370) is dominated by a glueball, a particle made purely of gluons, sought since the 1970s. Widely corroborated by Nature News, Science and Ars Technica coverage this week; not yet a "single smoking gun" per outside commentary, but a landmark near-consensus first-of-kind result.
 - [Prüfer 2-group and Milnor's Conjecture on Fundamental Groups (Wu, Yan)](https://arxiv.org/abs/2608.15505) — completes the disproof of Milnor's 1968 conjecture in the two dimensions (4 and 5) left open since Bruè–Naber–Semola's 2023 counterexamples in dimensions ≥6. A 58-year-old classical conjecture now fully resolved across every dimension.
 - [Reducibility of linear representations, free ideals, and Kippenhahn's conjecture (Stessin, Yang)](https://arxiv.org/abs/2608.14194) — a complete resolution of Kippenhahn's 1951 conjecture on repeated factors in the characteristic polynomial of Hermitian-matrix pencils, a 75-year-old problem in matrix/operator theory. Unrefereed preprint — standard caution.
@@ -64,12 +66,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) direct fetch blocked again (3rd daily running); healed this session via a domain-filtered search fallback, which surfaced two genuine on-axis threads — a second independent proof of Crouzeix's conjecture, and a claimed (unverified) Hadamard-matrix-order-668 construction.
-- [Hacker News front page](https://news.ycombinator.com/) checked — surfaced the BESIII glueball story, chased to its arXiv primary.
+- [Hacker News front page](https://news.ycombinator.com/) checked — surfaced Terence Tao's Palomar-registry post, chased to the primary blog post.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) direct fetch blocked again (4th daily running); the domain-filtered search fallback returned only prior-known AI-in-math discussion threads, nothing new to chase.
 - [MathOverflow](https://mathoverflow.net/questions) and [Mathstodon](https://mathstodon.xyz/public/local) checked — routine, nothing beyond the day's arXiv sweep.
-- The digest/blog lane (Quanta, Tao, Not Even Wrong, Gowers, Kalai, Azimuth, Strassler, Backreaction) was fully swept — AI-ecosystem commentary only (field-status and LLM-math discussion posts), nothing new as a primary result.
+- The digest/blog lane (Quanta, Tao, Not Even Wrong, Gowers, Kalai, Azimuth, Strassler, Backreaction, Scientific American) was fully swept — Quanta's fluid-theory-EFT feature noted (queued as a pointer, no single primary chased), the rest routine or unchanged.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (140) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-18](reports/2026-08-18.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (148) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-19](reports/2026-08-19.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
