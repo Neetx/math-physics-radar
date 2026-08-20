@@ -130,3 +130,58 @@ burn down per domain cadence. capture-leak: 6 new arXiv ids checked this session
 2608.17891, 2608.18054, 2608.17227, 2608.17706) mechanically grepped against TRENDS.md post-edit — all
 land on discrete evidence/queue/shelf lines, 0 leaked. study_shelf: 2 new picks (Tao's Palomar registry,
 the Hadamard order-6 classification). README.md regenerated from the updated ledger in the same commit.
+
+## 2026-08-20 (daily, Pass 1)
+Primary sweep: arXiv math broad-rotation batch (2026-08-19, 176 fresh entries across
+math.NT/CO/PR/RT/DS/LO/OA/OC/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV, the full in-scope category set)
+scanned — no Ramsey/Stanley-Gasharov hit; surfaced Forni's billiards periodic-orbit landmark
+(2606.10102, via digest lane, see below) and Tao's ICM AI essay (2608.16753, via HN). Physics
+broad-rotation batch (2026-08-19, 138 fresh entries across hep-th/hep-ph/gr-qc/cond-mat.*/
+quant-ph/astro-ph.*/math-ph) scanned — surfaced a 6th independent non-invertible-symmetries group
+(2608.18926, Maruyoshi-Moon-Song) appended as trend evidence. PRL/PRX/RMP/Quantum RSS opened,
+routine (no on-axis landmark). Nature Physics RSS still empty-CDATA (6th+ consecutive daily) —
+this session ALSO tried `tvly extract` (quota-exhausted, see strategy_notes) and `WebFetch` (hit
+an auth-wall redirect to idp.nature.com) — now 3 distinct confirmed failure modes on this one
+source, escalating for weekly attention. SciPost API rechecked (4 new pubs since .044, none
+on-axis). INSPIRE-HEP most-recent checked (routine instrumentation, nothing landmark). CERN
+Courier/Fermilab/Simons RSS opened — all standing/unchanged since prior capture. Experiments
+block (LIGO/DESI/CERN/IceCube) opened via `tvly extract` (succeeded, before the quota wall hit
+later this session) — all routine/unchanged.
+Community pulse: HN front page opened (surfaced Tao's AI essay, 140 points). MathOverflow /feeds/
+opened, routine. Mathstodon public timeline opened, generic noise, standing. Digest/blog lane —
+ALL opened: Quanta (surfaced "Building a Quantum Computer, One Fragile Qubit at a Time" 08-19,
+off-axis QC-hardware — sibling quantum radar's beat, not queued), Tao (unchanged since Palomar),
+Not Even Wrong ("HEP-TH and AI" 08-16, opened via direct `curl` since `tvly` was quota-exhausted
+by this point — named a below-bar primary, queued with hype-skepticism note), n-Category Café
+(unchanged, same Baez E7 post as Azimuth), Gowers/Kalai/Baez/Backreaction (all opened, no on-axis
+post since last known state). Scientific American — `tvly` unavailable, used `WebSearch` instead:
+surfaced Forni's billiards landmark (08-14) and confirmed the RH/quantum-phase-transitions piece
+(08-06) covers the ALREADY-TRACKED 07-01 Nature Comms primary (no new capture needed).
+r/math and r/mathematics — DEGRADED, new failure mode: `tvly` search+extract both quota-exhausted
+(see strategy_notes); `WebFetch` on `.rss` returned "unable to fetch from www.reddit.com";
+`WebSearch` (plain and domain-filtered) could not surface live reddit threads either — no working
+fallback found this session, logged degraded (5th consecutive daily on this source, now via a
+compounded failure mode).
+Repo/release watch (radar-repo-watch): `tvly` unavailable, used `WebFetch` on `.atom` feeds
+instead (worked cleanly) — lean4 confirmed unchanged at v4.34.0-rc1/v4.33.0; mathlib4 daily tag
+now master-2026-08-19 (routine daily churn); Rocq confirmed unchanged at V9.3+rc1.
+Exploration slot (radar-explore, OFF-AXIS rotation): cs.CC (roster continuation after math.OA
+08-19) top 60 items read regardless of sub-topic via arXiv API — routine complexity-theory papers
+(a new elementary PCP-theorem proof, matrix-multiplication-exponent/AlphaEvolve work, the
+already-tracked Grothendieck-constant pair) — off-axis rate 0 this run (non-alarm per AGENTS.md
+domain cadence; roster continues, next: math.DG or nlin.SI/CD).
+Self-heals: 0 applied (GitHub repo-watch and Scientific American both cleanly worked around via
+WebFetch/WebSearch rather than "healed" per se — tvly quota exhaustion is a new session-level
+issue, not yet a repeat-failure worklist item; see strategy_notes).
+Trend recalibration (radar-ledger-update): Ramsey — HELD emerging/medium (fresh batch scanned, no
+lower-bound primary; dormancy re-check 2026-10-02 unchanged). Non-invertible symmetries —
+PROMOTED evidence (6th independent group, Maruyoshi-Moon-Song, arXiv:2608.18926); HELD
+emerging/high. Stanley-Gasharov — HELD seed/medium (fresh batch scanned, nothing new). Queue
+148 → 151 (+3: Forni's billiards landmark, Tao's AI essay, the Marsh/axiverse hype-skepticism
+item) — daily does not burn down per domain cadence. capture-leak: 4 new arXiv ids this session
+(2608.18926, 2606.10102, 2608.16753, 2512.00144) + 6 ids reconciled from the 2026-08-19 report
+(2407.08760, 2608.16520, 2608.17227, 2608.17706, 2608.17891, 2608.18053, 2608.18054) mechanically
+grepped against TRENDS.md post-edit — all land on discrete evidence/queue/shelf lines, 0 leaked.
+study_shelf: 2 new picks (Forni's billiards landmark, Tao's AI essay). README.md regenerated from
+the updated ledger in the same commit.
+

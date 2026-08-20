@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-19
+Last updated: 2026-08-20
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -271,9 +271,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     rainbow Lehel's-conjecture note — none a lower-bound breakthrough). arXiv-API metadata check
     of all five tracked preprints shows no fresh v-update since 2026-08-03 — no referee/vetting
     outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-20 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV broad-rotation batch
+    (2026-08-19, 176 fresh entries) scanned for Ramsey lower bounds — none (batch held "The
+    regular pentagon is canonically Ramsey" [a Euclidean-Ramsey geometry note, not a Ramsey-number
+    lower bound], Forni's periodic-orbit billiards landmark and other items captured below,
+    unrelated sub-theme). arXiv-API metadata check of all five tracked preprints shows no fresh
+    v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium; 60-day
+    dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-19
+- stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-20
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -306,6 +313,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     operators (governed by non-invertible fusion algebras, not a group) for non-Abelian topological
     order in quantum double lattice models $\mathcal D(G)$. Abstract + authors verified via arXiv
     API this session (v1 2026-08-14, surfaced in today's fresh physics batch).
+  - 2026-08-20 — https://arxiv.org/abs/2608.18926 — Maruyoshi, Moon, Song, "Non-invertible symmetry
+    and vertex operator algebra outer-automorphism": a SIXTH fully independent author group
+    (independent of Oishi–Ebisu, Antunes–Rong, Bhardwaj et al., Ueda et al., and
+    Flores-Calderón–Pollmann–Knap), on a distinct sub-application — the non-invertible symmetry of
+    4d N=4 super Yang-Mills (from S-duality + half-space gauging + R-symmetry twist) realized as a
+    vertex-operator-algebra outer-automorphism, matching the Schur/Macdonald index to a twisted
+    vacuum character. Abstract + authors verified via arXiv API this session (v1 2026-08-19,
+    surfaced in today's fresh hep-th batch).
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -395,6 +410,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     ceiling for an unrefereed-caveat-free ordinary result; a 6th group or explicit cross-citation
     between the lattice and continuum threads would be the next signal to watch). Trend HELD
     emerging/high.
+  - 2026-08-20 (daily, 6th group): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph
+    batch (2026-08-19, 138 fresh entries) surfaced arXiv:2608.18926 (Maruyoshi, Moon, Song) — a
+    SIXTH fully independent group, on a different sub-application (VOA outer-automorphism
+    realization in 4d N=4 SYM) than any of the five prior groups, satisfying the standing "watch
+    for a 6th group" note (see evidence above). SciPost API rechecked (4 new since .044: .045
+    Wilson lines with endpoints in 3d CFT, .046 frustrated bilayer edge currents, PhysCore .048-.049
+    — none on this sub-theme). Confidence HELD high (already at ceiling; still watching for an
+    explicit cross-citation linking the lattice/continuum threads). Trend HELD emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -489,6 +512,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Schur-positivity/claw-free items — none new (only the already-tracked peripheral titles from
     08-18). No 4th independent group or referee/vetting outcome on any of the three tracked
     preprints. Trend HELD seed/medium.
+  - 2026-08-20 (daily): fresh math.CO 2026-08-19 batch (176 fresh entries) scanned for
+    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting outcome
+    on any of the three tracked preprints. Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -1844,6 +1870,39 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   symmetry breaking," APS-published 2026). Below-bar, digest-lane pointer only — the specific
   arXiv/APS primaries behind this feature were not opened this session; flagged for a follow-up
   chase (axis 2/3 interface, math-physics + condensed matter).
+- 2026-08-20 (daily, LANDMARK) — arXiv:2606.10102 — Forni, "Existence of a Periodic Orbit for
+  Billiards in Polygons" — https://arxiv.org/abs/2606.10102 — dynamical systems / geometry (axis
+  1, math.DS): proves the billiard flow in ANY finite polygon (rational or irrational angles) has
+  at least one periodic orbit, resolving one of Katok's "Five Most Resistant Problems in Dynamics"
+  — the rational-angle case was settled ~50 years ago, but the general (irrational-angle) case had
+  stood open. Solo landmark (v1 2026-06-08), surfaced via a Scientific American feature
+  (2026-08-14, "What the mathematics of billiards can tell us about loving and letting go") caught
+  in today's digest-lane sweep; abstract + authors verified via arXiv API this session. Below the
+  ≥3-group trend bar (single author) but clears the domain-cadence LANDMARK bar (a decades-open
+  named problem resolved) — queued, also on `study_shelf`.
+- 2026-08-20 (daily) — arXiv:2608.16753 — Tao, "Mathematics in the age of AI" —
+  https://arxiv.org/abs/2608.16753 — axis 5 (computer-assisted & formalized mathematics, AI-watch
+  lane): an essay based on Tao's 2026 ICM public lecture on how the mathematical community might
+  respond to AI tools capable of research-level mathematical tasks — conditions on the hypothesis
+  that such capabilities arrive and asks what the goals/values of mathematical research actually
+  are, using problem-solving as a case study. Surfaced via today's Hacker News front page (140
+  points); abstract + author verified via arXiv API this session (v1 2026-08-17). Ecosystem/
+  reflective essay, not a new mathematical result — queued for context, also on `study_shelf`
+  (directly relevant to this ledger's standing AI-assisted-math-wave watch area).
+- 2026-08-20 (daily, hype-skepticism watch) — arXiv:2512.00144 — Jain, Sheridan, Marsh, Heyes,
+  Rogers, Schachner, "Bayesian inference on Calabi-Yau moduli spaces and the axiverse:
+  experimental data meets string theory" — https://arxiv.org/abs/2512.00144 — math-physics
+  interface (axis 2, hep-th/string theory): Bayesian MCMC sampling of the Weil-Petersson measure
+  on Calabi-Yau moduli space, with a theory-informed prior on axion masses/decay constants; now
+  published in Phys. Rev. D. Named via Peter Woit's "Not Even Wrong" post "HEP-TH and AI"
+  (2026-08-16, opened via direct fetch this session — `tvly` unavailable, see Coverage/degraded),
+  which flags a King's College London press release ("String theory finally testable with the
+  power of AI") built on this paper as overstating the result — Woit, a standing hype-skepticism
+  voice, and the press office's framing ("scientists have robustly proved [string theory] can be
+  tested") reads as promotional rather than the paper's own more modest Bayesian-inference claim.
+  Below-bar intake (a statistical-inference method paper, not a landmark), queued with the caution
+  noted per the hard-rule hype-skepticism policy — not itself an extraordinary claim by the
+  authors, but a caution on how it is being publicized.
 
 ## source_rotation
 
@@ -2266,12 +2325,37 @@ Corrections to the source-coverage strategy.
   sibling radar's skill set. Flagged for the weekly operator to heal the skill text (skill
   maintenance policy: one dedicated commit, `radar: refine skill radar-ledger-update`) so a
   future session isn't misled into restructuring the file to match the wrong contract.
+- 2026-08-20 (daily) — TOOLING DEGRADATION FLAGGED (not a skill/hard-rule issue; noted for
+  awareness, not an amendment): `tvly` (both `search` and `extract`) returned "This request
+  exceeds your plan's set usage limit" for every call from partway through this session onward
+  (first hit on a Not-Even-Wrong post extract; LIGO/DESI/CERN/IceCube extracts earlier in the
+  same session succeeded before the wall was hit) — an account-level quota exhaustion, not a
+  single-source outage. WORKED AROUND per AGENTS.md's "fall back to built-in web tools only if
+  Tavily fails": `WebFetch` substituted cleanly for the GitHub `releases.atom` repo-watch lane
+  (lean4/mathlib4/Rocq, all confirmed) and for wordpress/HTML blog pages (Not Even Wrong, IAS-style
+  pages); direct `curl` substituted for RSS/API feeds and even for the Woit wordpress page (no
+  Cloudflare block on that host). ONE lane had NO working fallback: r/math and r/mathematics —
+  `WebFetch` on `.rss` returned "unable to fetch from www.reddit.com" and `WebSearch` (with or
+  without `--include-domains`-style domain filtering) could not surface live reddit threads either
+  — logged `degraded` (see Coverage below), continuing the standing reddit-access streak, now via
+  a NEW failure mode (quota, not a block) layered on the old one. Not yet flagged heal-owed (this
+  is the first occurrence of the quota-exhaustion mode specifically); if `tvly` is still
+  quota-exhausted on the next run, this becomes a heal-worklist item and probably warrants a
+  curator ping (the account's Tavily plan may need attention) rather than another workaround.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-20 — [Existence of a Periodic Orbit for Billiards in Polygons (Giovanni Forni)](https://arxiv.org/abs/2606.10102)
+  — resolves one of Katok's "Five Most Resistant Problems in Dynamics": every finite polygon's
+  billiard flow has a periodic orbit, closing the general (irrational-angle) case left open since
+  the rational-angle case was settled ~50 years ago.
+- 2026-08-20 — [Mathematics in the age of AI (Terence Tao)](https://arxiv.org/abs/2608.16753)
+  — a 2026 ICM-lecture essay on how the mathematical community's goals and values should shape its
+  response to AI tools capable of research-level mathematics; direct reflection from a leading
+  voice on this ledger's standing AI-assisted-math-wave watch area (axis 5).
 - 2026-08-19 — [Palomar — a registry of Lean verified mathematics (Tao et al.)](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/)
   — a new Lean-FRO/ICARM-incubated registry for auditing Lean-verified mathematics claims
   (typechecking, no axiom-cheats, semantic match to the informal statement), with a scientific
