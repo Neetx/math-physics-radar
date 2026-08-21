@@ -2402,18 +2402,20 @@ Corrections to the source-coverage strategy.
   is the first occurrence of the quota-exhaustion mode specifically); if `tvly` is still
   quota-exhausted on the next run, this becomes a heal-worklist item and probably warrants a
   curator ping (the account's Tavily plan may need attention) rather than another workaround.
-- 2026-08-21 (daily) — TOOLING DEGRADATION ESCALATED (heal-owed, per the 08-20 note above): `tvly`
-  was ABSENT at session start (not just quota-exhausted — the binary itself was gone, `command not
+- 2026-08-21 (daily) — TOOLING DEGRADATION, 2nd consecutive daily (not yet heal-owed): `tvly` was
+  ABSENT at session start (not just quota-exhausted — the binary itself was gone, `command not
   found`) and had to be reinstalled via `pip install -q tavily-cli`; after reinstall, `tvly extract`
   on the very first call (Nature Physics current-issue) returned the SAME "This request exceeds
   your plan's set usage limit" error as 08-20 — confirming this is an account-level Tavily plan
   quota, not a session-local or binary-availability issue, and it persists across a full
-  reinstall. Second consecutive daily on this exact failure mode → per AGENTS.md operator-
-  notification policy ("a degradation you have self-flagged 'heal owed' for ≥3 consecutive runs")
-  this is now flagged heal-owed and the curator is being pinged this session (Tavily plan likely
-  needs a quota increase or renewal) — see the push notification sent this run. WORKED AROUND
-  entirely without `tvly` this session (arXiv API, direct `curl`, `WebSearch`, `WebFetch` covered
-  every lane that needed it).
+  reinstall. This is only the SECOND consecutive daily on this exact failure mode; AGENTS.md's
+  operator-notification bar is "heal-owed for ≥3 consecutive runs" — that bar is not yet met, so
+  NO push notification was sent this session (the 08-20 note's "probably warrants a curator ping"
+  language was premature/non-binding — AGENTS.md's explicit ≥3 threshold governs). If `tvly` is
+  STILL quota-exhausted on the next daily, that will be the 3rd consecutive occurrence and should
+  trigger both the heal-owed flag and a curator push notification. WORKED AROUND entirely without
+  `tvly` this session (arXiv API, direct `curl`, `WebSearch`, `WebFetch` covered every lane that
+  needed it).
 - 2026-08-21 (daily) — HEAL: the Nature-family `idp.nature.com` auth-wall that blocks `WebFetch` on
   individual article pages (Nature Physics/Nature Communications, standing degraded 6+ consecutive
   dailies) can be BYPASSED for an already-known article URL with a plain `curl -A "Mozilla/5.0"
