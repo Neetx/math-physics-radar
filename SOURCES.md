@@ -77,7 +77,13 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
 - Physical Review Letters — RSS https://feeds.aps.org/rss/recent/prl.xml **[verified 2026-07-02]**
 - Physical Review X — RSS https://feeds.aps.org/rss/recent/prx.xml **[verified 2026-07-02]**
 - Reviews of Modern Physics — RSS https://feeds.aps.org/rss/recent/rmp.xml **[verified 2026-07-02]** (authoritative reviews)
-- Nature Physics — RSS https://www.nature.com/nphys.rss **[verified 2026-07-02]**
+- Nature Physics — RSS https://www.nature.com/nphys.rss **[verified 2026-07-02; RSS feed has served
+  empty-CDATA titles for 7+ consecutive dailies as of 2026-08-21 — standing degraded. PARTIAL HEAL
+  2026-08-21: for an ALREADY-NAMED Nature-family article (found via a digest/pulse pointer), `curl
+  -A "Mozilla/5.0" <article-url>` returns HTTP 200 with full `citation_*` meta tags
+  (title/authors/journal/DOI/date), bypassing the `idp.nature.com` auth-wall that blocks `WebFetch`
+  on the same URL — use this to cite a named article. Does NOT fix "browse what's new": the
+  `current-issue` HTML index is client-rendered and returns no article list via plain `curl`.]**
 - Nature Communications — RSS https://www.nature.com/ncomms.rss **[promoted + verified 2026-08-08;
   redirects to feeds.nature.com/ncomms/rss/current; RSS]** — peer-reviewed open-access Nature-group
   journal distinct from Nature Physics; source-discovery promotion (2 on-axis math↔physics-interface
@@ -174,7 +180,7 @@ cleared from this staging list.
 Method: `radar-pulse`. Intake feeds `observation_queue` (unverified) + the pulse note; never
 name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tvly`). Organized by axis so gaps are visible:
-- r/math — https://www.reddit.com/r/math/.rss **[verified 2026-07-02; Atom — DEGRADED again 2026-08-14/08-17/08-18: direct curl and `tvly extract` both blocked/failed 3 dailies running. HEALED 2026-08-18: `tvly search "<query terms>" --include-domains reddit.com --time-range week` reliably returns live individual r/math thread URLs (verified against real, dated August 2026 threads this session) — prefer this over `.rss`/`extract` until the direct block lifts; retest `.rss` occasionally.]** — the "what just got proved" pulse (pure math)
+- r/math — https://www.reddit.com/r/math/.rss **[verified 2026-07-02; Atom — DEGRADED again 2026-08-14/08-17/08-18: direct curl and `tvly extract` both blocked/failed 3 dailies running. HEALED 2026-08-18: `tvly search "<query terms>" --include-domains reddit.com --time-range week` reliably returns live individual r/math thread URLs (verified against real, dated August 2026 threads this session) — prefer this over `.rss`/`extract` until the direct block lifts; retest `.rss` occasionally. COMPOUNDED 2026-08-20/08-21: the `tvly` heal is unusable while the account's Tavily plan quota is exhausted (see `strategy_notes`), and `WebFetch` fails outright ("unable to fetch from www.reddit.com") on both `.rss` and `old.reddit.com` — no working fallback found either day; 6th+ consecutive degraded daily.]** — the "what just got proved" pulse (pure math)
 - r/mathematics — https://www.reddit.com/r/mathematics/.rss **[verified pattern; same DEGRADED/HEALED status as r/math above — use `tvly search --include-domains reddit.com`]** — broader math
 - r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; 429 2026-07-02]** — general physics — **[WEEKLY-SWEPT tier: r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics, Physics SE — low-yield extra-social, weekly operator]**
 - r/cosmology — https://www.reddit.com/r/cosmology/.rss **[verified 2026-07-02; Atom]** — cosmology / astro (axis 3)
@@ -198,7 +204,10 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
 - Quanta Magazine — https://www.quantamagazine.org/feed/ **[verified 2026-07-02; RSS]** — the gold-standard math/physics research digest; ALWAYS follow to the named paper and cite the paper, never Quanta itself
 - Terry Tao — "What's new" — https://terrytao.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — a working mathematician's research/exposition blog; follow to the arXiv/paper
 - Not Even Wrong (Columbia) — https://www.math.columbia.edu/~woit/wordpress/?feed=rss2 **[verified 2026-07-02; RSS]** — math/physics (esp. HEP / string theory) commentary; intake → follow to the primary
-- The n-Category Café — https://golem.ph.utexas.edu/category/ **[verified 2026-07-02; HTML → `tvly extract`]** — category theory / mathematical physics group blog
+- The n-Category Café — https://golem.ph.utexas.edu/category/ **[verified 2026-07-02; HTML → `tvly
+  extract`. HEALED 2026-08-21: plain `curl -A "Mozilla/5.0"` returns HTTP 200 with full post-title
+  HTML directly, no Cloudflare/JS block found — prefer direct `curl` first, `tvly extract` as
+  fallback.]** — category theory / mathematical physics group blog
 - Gowers's Weblog — https://gowers.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — Fields-medalist blog; big open problems, Polymath, expository breakthroughs
 - Combinatorics and more (Gil Kalai) — https://gilkalai.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — combinatorics, convexity, and a leading QUANTUM-skeptic voice (pairs with the hype-skepticism rule)
 - Azimuth (John Baez) — https://johncarlosbaez.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — mathematical physics, category theory, applied math

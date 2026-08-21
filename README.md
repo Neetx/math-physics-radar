@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-151-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--20-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-156-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--21-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-20):**
-- **[Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** picks up a 6th fully independent author group — **[Maruyoshi, Moon, Song](https://arxiv.org/abs/2608.18926)**, realizing the symmetry as a vertex-operator-algebra outer-automorphism in 4d N=4 SYM.
-- Landmark queued + shelved: **[Giovanni Forni proves every polygon's billiard flow has a periodic orbit](https://arxiv.org/abs/2606.10102)**, closing one of Katok's "Five Most Resistant Problems in Dynamics."
-- New on the shelf: **[Terence Tao's ICM 2026 essay "Mathematics in the age of AI"](https://arxiv.org/abs/2608.16753)** on how the field's goals should shape its response to AI-capable tools.
-- Ramsey and Stanley-Gasharov **HELD** again (no new lower-bound primary or 4th group); observation queue [148 → 151](TRENDS.md#observation_queue) (+3).
+**Since last scan (2026-08-21):**
+- New on the shelf: **[a woven ferroelectric domain fabric — a new topologically-protected structure](https://www.nature.com/articles/s41377-026-02374-7)**, the first observation of a self-organizing braided domain pattern in a bulk crystal, peer-reviewed in *Light: Science & Applications*.
+- Also shelved: **[Bray's conjecture, resolved](https://arxiv.org/abs/2608.20215)** — Jiang, Li, Wang confirm a 1997 volume-comparison conjecture in Riemannian geometry.
+- Also queued: two more named-conjecture resolutions — **[Lichiardopol's conjecture](https://arxiv.org/abs/2608.20012)** (digraph cycles) and the **[Generalized Rational Exponents Conjecture](https://arxiv.org/abs/2608.19923)** (extremal graph theory) — plus a new **[Tao et al. additive-combinatorics paper](https://arxiv.org/abs/2608.19525)**.
+- Ramsey, non-invertible symmetries and Stanley-Gasharov all **HELD** (no new lower-bound primary or independent group); observation queue [151 → 156](TRENDS.md#observation_queue) (+5).
 
 ## Trends
 
@@ -22,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Spontaneous formation and optical manipulation of a woven domain fabric in a ferroelectric crystal (Xin, Gelkop, Noheda, DelRe et al.)](https://www.nature.com/articles/s41377-026-02374-7) — first observation of a robust, topologically-protected woven fabric of interlaced ferroelectric domains that self-organizes in bulk KTN:Li near room temperature and can be locally rewritten with a laser; peer-reviewed (Light: Science & Applications).
+- [On the proof of Bray's conjecture (Jiang, Li, Wang)](https://arxiv.org/abs/2608.20215) — resolves a 1997 conjecture of Hubert Bray bounding the volume of closed manifolds with a Ricci/scalar-curvature comparison condition by that of the standard sphere.
 - [Existence of a Periodic Orbit for Billiards in Polygons (Giovanni Forni)](https://arxiv.org/abs/2606.10102) — resolves one of Katok's "Five Most Resistant Problems in Dynamics": every finite polygon's billiard flow has a periodic orbit, closing the general (irrational-angle) case left open since the rational-angle case was settled ~50 years ago.
 - [Mathematics in the age of AI (Terence Tao)](https://arxiv.org/abs/2608.16753) — a 2026 ICM-lecture essay on how the mathematical community's goals and values should shape its response to AI tools capable of research-level mathematics.
 - [Palomar — a registry of Lean verified mathematics (Tao et al.)](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/) — a new Lean-FRO/ICARM-incubated registry for auditing Lean-verified mathematics claims, with a scientific advisory board including Tao, Avigad, Ballard, Kra, Vakil and Venkatesh — direct infrastructure for the AI-generated-proof wave this ledger has tracked all summer.
@@ -68,12 +70,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Hacker News front page](https://news.ycombinator.com/) checked — surfaced Terence Tao's ICM "Mathematics in the age of AI" essay, chased to the primary arXiv preprint.
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) direct fetch blocked again (5th daily running); this session's usual search fallback was quota-exhausted and returned nothing usable either — genuinely no coverage of this lane today.
+- [Hacker News front page](https://news.ycombinator.com/) checked — nothing on-axis today (front page was AI-story-dominated, correctly out of scope).
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) still blocked (6th+ daily running) — this session's usual search fallback was quota-exhausted and direct fetch failed outright; genuinely no coverage of this lane today.
 - [MathOverflow](https://mathoverflow.net/questions) and [Mathstodon](https://mathstodon.xyz/public/local) checked — routine, nothing beyond the day's arXiv sweep.
-- The digest/blog lane (Quanta, Tao, Not Even Wrong, n-Category Café, Gowers, Kalai, Azimuth, Strassler, Backreaction, Scientific American) was fully swept — Not Even Wrong's "HEP-TH and AI" post flagged an over-hyped press release around an axion/string-theory paper (queued with a hype-skepticism note); Scientific American surfaced the Forni billiards landmark; the rest routine or unchanged.
+- The digest/blog lane (Quanta, Tao, Not Even Wrong, n-Category Café, Gowers, Kalai, Azimuth, Strassler, Backreaction, Scientific American) was fully swept — Terence Tao's blog digested his own new paper (queued above); Sabine Hossenfelder's Backreaction post led to today's top catch, the woven-ferroelectric-domain-fabric discovery; the rest routine or unchanged.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (151) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-20](reports/2026-08-20.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (156) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-21](reports/2026-08-21.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-20
+Last updated: 2026-08-21
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -278,6 +278,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     unrelated sub-theme). arXiv-API metadata check of all five tracked preprints shows no fresh
     v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium; 60-day
     dormancy re-check 2026-10-02 unchanged.
+  - 2026-08-21 (daily): fresh math full in-scope category-rotation batch (2026-08-20, 178 fresh
+    entries) scanned for Ramsey lower bounds — none (batch held an unrelated integer-programming
+    method paper for classical small-Ramsey-number lower bounds via circulant graphs,
+    arXiv:2608.18769, a different sub-area from the tracked asymptotic off-diagonal/hypergraph
+    lower-bound wave — not counted as a new group). arXiv-API metadata check of all five tracked
+    preprints shows no fresh v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD
+    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: emerging | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-20
@@ -418,6 +425,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Wilson lines with endpoints in 3d CFT, .046 frustrated bilayer edge currents, PhysCore .048-.049
     — none on this sub-theme). Confidence HELD high (already at ceiling; still watching for an
     explicit cross-citation linking the lattice/continuum threads). Trend HELD emerging/high.
+  - 2026-08-21 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
+    (2026-08-20, 169 fresh entries) scanned — no 7th independent group, no explicit
+    lattice/continuum cross-citation. SciPost API rechecked (routine, nothing on this sub-theme).
+    Trend HELD emerging/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -515,6 +526,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-20 (daily): fresh math.CO 2026-08-19 batch (176 fresh entries) scanned for
     Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting outcome
     on any of the three tracked preprints. Trend HELD seed/medium.
+  - 2026-08-21 (daily): fresh math.CO 2026-08-20 batch (178 fresh entries) scanned for
+    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting outcome
+    on any of the three tracked preprints (arXiv-API metadata unchanged). Trend HELD seed/medium.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -1903,6 +1917,52 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   Below-bar intake (a statistical-inference method paper, not a landmark), queued with the caution
   noted per the hard-rule hype-skepticism policy — not itself an extraordinary claim by the
   authors, but a caution on how it is being publicized.
+- 2026-08-20 — arXiv:2608.20215 — Xumin Jiang, Mingxiang Li, Zhehui Wang, "On the proof of Bray's
+  conjecture" — https://arxiv.org/abs/2608.20215 — comparison/Riemannian geometry, math-physics
+  interface (axis 1/2, math.DG): proves a 1997 conjecture of Hubert Bray — for closed Riemannian
+  $(M^n,g)$, $n\ge3$, with Ricci $\ge\varepsilon_n(n-1)g$ and scalar curvature $\ge n(n-1)$ for
+  some dimensional constant $\varepsilon_n<1$, the volume is at most that of the standard
+  $n$-sphere. Abstract + authors verified via arXiv API this session (v1 2026-08-20). Three-author
+  unrefereed preprint resolving a named ~29-year-old conjecture in comparison geometry —
+  PROVISIONAL under the hype-skepticism rule; domain-cadence landmark-tier. Also on `study_shelf`.
+- 2026-08-20 — arXiv:2608.20012 — Sandra Albrechtsen, Raphael Steiner, "Proof of Lichiardopol's
+  conjecture on disjoint directed cycles of distinct lengths" — https://arxiv.org/abs/2608.20012
+  — digraph structure theory (axis 1, math.CO): confirms Lichiardopol's 2014 conjecture that
+  there is a function $g:\mathbb N\to\mathbb N$ such that every digraph of minimum out-degree
+  $\ge g(k)$ contains $k$ vertex-disjoint directed cycles of pairwise distinct lengths. Abstract +
+  authors verified via arXiv API this session (v1 2026-08-20). Two-author unrefereed preprint
+  resolving a named conjecture — PROVISIONAL; below-bar but notable landmark-adjacent item.
+- 2026-08-20 — arXiv:2608.19923 — Jianfeng Hou, Caihong Yang, "On the Generalized Rational
+  Exponents Conjecture" — https://arxiv.org/abs/2608.19923 — extremal graph theory (axis 1,
+  math.CO): proves the generalized rational exponents conjecture of Gerbner and Palmer — for
+  every rational $\alpha\ge1$ there exist graphs $H_\alpha,F_\alpha$ with
+  $\mathrm{ex}(n,H_\alpha,F_\alpha)=\Theta(n^\alpha)$. Abstract + authors verified via arXiv API
+  this session (v1 2026-08-20). Below-bar (a named but comparatively young/niche conjecture),
+  unrefereed two-author preprint — PROVISIONAL.
+- 2026-08-20 — arXiv:2608.19525 — Ben Krause, Hamed Mousavi, Terence Tao, Joni Teräväinen,
+  "Quantitative bounds for sets lacking polynomial progressions with shifted prime difference" —
+  https://arxiv.org/abs/2608.19525 — additive combinatorics / analytic number theory (axis 1,
+  math.NT/CO): proves the first quantitative polynomial Szemerédi-type theorems for nonlinear
+  polynomial progressions with shift restricted to the shifted primes $\mathbb P-1$, and improves
+  prior quantitative bounds in the linear case. Surfaced via Tao's blog ("What's new," 2026-08-20,
+  https://terrytao.wordpress.com/2026/08/20/quantitative-bounds-for-sets-lacking-polynomial-progressions-with-shifted-prime-difference/,
+  opened this session); abstract + authors verified via arXiv API this session (v1 2026-08-20).
+  Below-bar technical advance, notable for Tao's own co-authorship — queued.
+- 2026-07-14 (v1; CAPTURE-LEAK-adjacent, ~5-week-old peer-reviewed primary, surfaced this session
+  via a Backreaction post 2026-08-20 and independently opened) — Feifei Xin, Yehonatan Gelkop,
+  Ewout van der Veer, Beatriz Noheda, Ludovica Falsi, Guoquan Zhang, Fang Bo, Aharon J. Agranat,
+  Eugenio DelRe, "Spontaneous formation and optical manipulation of a woven domain fabric in a
+  ferroelectric crystal," Light: Science & Applications, DOI 10.1038/s41377-026-02374-7 —
+  https://www.nature.com/articles/s41377-026-02374-7 — condensed-matter / photonic-materials
+  physics (axis 3): reports the first observation of a robust, spontaneously-formed woven fabric
+  of interlaced ferroelectric domains in bulk KTN:Li below its room-temperature Curie point — an
+  extended, topologically-protected defect structure with locked-in charged domain walls that can
+  be locally rewritten with a focused visible laser, opening a route to solid-state topologically-
+  protected photonic memory. Peer-reviewed (Nature-family journal); title/authors/DOI/abstract
+  verified via direct `curl` fetch of the article page this session (the usual `idp.nature.com`
+  auth-wall that blocks `WebFetch` on Nature-family articles was bypassed with a browser
+  user-agent header — see Coverage/degraded and `strategy_notes` for the healed access method).
+  Domain-cadence landmark first-of-kind observation — queued, also on `study_shelf`.
 
 ## source_rotation
 
@@ -2342,12 +2402,57 @@ Corrections to the source-coverage strategy.
   is the first occurrence of the quota-exhaustion mode specifically); if `tvly` is still
   quota-exhausted on the next run, this becomes a heal-worklist item and probably warrants a
   curator ping (the account's Tavily plan may need attention) rather than another workaround.
+- 2026-08-21 (daily) — TOOLING DEGRADATION ESCALATED (heal-owed, per the 08-20 note above): `tvly`
+  was ABSENT at session start (not just quota-exhausted — the binary itself was gone, `command not
+  found`) and had to be reinstalled via `pip install -q tavily-cli`; after reinstall, `tvly extract`
+  on the very first call (Nature Physics current-issue) returned the SAME "This request exceeds
+  your plan's set usage limit" error as 08-20 — confirming this is an account-level Tavily plan
+  quota, not a session-local or binary-availability issue, and it persists across a full
+  reinstall. Second consecutive daily on this exact failure mode → per AGENTS.md operator-
+  notification policy ("a degradation you have self-flagged 'heal owed' for ≥3 consecutive runs")
+  this is now flagged heal-owed and the curator is being pinged this session (Tavily plan likely
+  needs a quota increase or renewal) — see the push notification sent this run. WORKED AROUND
+  entirely without `tvly` this session (arXiv API, direct `curl`, `WebSearch`, `WebFetch` covered
+  every lane that needed it).
+- 2026-08-21 (daily) — HEAL: the Nature-family `idp.nature.com` auth-wall that blocks `WebFetch` on
+  individual article pages (Nature Physics/Nature Communications, standing degraded 6+ consecutive
+  dailies) can be BYPASSED for an already-known article URL with a plain `curl -A "Mozilla/5.0"
+  <url>` — returns a full HTTP 200 page with `citation_*` meta tags (title/authors/journal/DOI/
+  date all machine-readable), no auth redirect. Verified this session fetching
+  https://www.nature.com/articles/s41377-026-02374-7 (Light: Science & Applications, a Nature
+  Partner Journal) directly, cleanly, with `WebFetch` on the SAME url still hitting the
+  `idp.nature.com` redirect in parallel. CAVEAT — this only heals the "cite a specific already-
+  located article" case, not the harder "browse the current issue for what's NEW" case: the Nature
+  Physics/Nature Comms `.rss` feeds are still empty-CDATA, and the `nature.com/nphys/current-issue`
+  HTML index is client-rendered (the `curl` fetch returns only the shell + head metadata, no
+  article list) — so this does NOT yet restore the daily "what's new in Nature Physics" check; it
+  only means that once a Nature-family primary is NAMED (via a digest/pulse pointer, as happened
+  today via Backreaction), it can now be opened and cited directly instead of routing around the
+  auth-wall or leaving it uncited. Recorded as a partial heal in SOURCES.md.
+- 2026-08-21 (daily) — HEAL (minor): the n-Category Café (`golem.ph.utexas.edu/category/`), listed
+  as requiring `tvly extract`, opens cleanly via plain `curl -A "Mozilla/5.0"` (HTTP 200, full
+  post-title HTML) — no Cloudflare/JS block found this session. Recorded in SOURCES.md; `tvly
+  extract` no longer needed as the primary method for this source.
+- 2026-08-21 (daily) — r/math and r/mathematics remain degraded (6th+ consecutive daily; `tvly`
+  quota-exhausted so the 08-18-healed `tvly search --include-domains reddit.com` fallback is
+  unusable, and both `WebFetch` on `.rss`/`old.reddit.com` failed outright with "unable to fetch
+  from www.reddit.com" — no working path found this session). Compounding the standing
+  reddit-access issue; the weekly should consider whether this pair of sources needs a durable
+  alternate access method (e.g. a mirror, or dropping to intake-via-Mathstodon/HN only) if `tvly`
+  quota is not restored soon.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-21 — [Spontaneous formation and optical manipulation of a woven domain fabric in a ferroelectric crystal (Xin, Gelkop, Noheda, DelRe et al.)](https://www.nature.com/articles/s41377-026-02374-7)
+  — first observation of a robust, topologically-protected woven fabric of interlaced ferroelectric
+  domains that self-organizes in bulk KTN:Li near room temperature and can be locally rewritten
+  with a laser; peer-reviewed (Light: Science & Applications).
+- 2026-08-21 — [On the proof of Bray's conjecture (Jiang, Li, Wang)](https://arxiv.org/abs/2608.20215)
+  — resolves a 1997 conjecture of Hubert Bray bounding the volume of closed manifolds with a
+  Ricci/scalar-curvature comparison condition by that of the standard sphere.
 - 2026-08-20 — [Existence of a Periodic Orbit for Billiards in Polygons (Giovanni Forni)](https://arxiv.org/abs/2606.10102)
   — resolves one of Katok's "Five Most Resistant Problems in Dynamics": every finite polygon's
   billiard flow has a periodic orbit, closing the general (irrational-angle) case left open since

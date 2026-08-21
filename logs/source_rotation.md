@@ -185,3 +185,82 @@ grepped against TRENDS.md post-edit — all land on discrete evidence/queue/shel
 study_shelf: 2 new picks (Forni's billiards landmark, Tao's AI essay). README.md regenerated from
 the updated ledger in the same commit.
 
+
+## 2026-08-21 (daily, Pass 1)
+Recovered/orphaned-state check: local session branch (`claude/modest-bohr-ffdfs0`) held 4 daily-
+update commits (08-17→08-20) that origin/main had NOT yet received (a stale cached `git branch -a`
+plus a combined multi-ref `git fetch` masked this at first) — a clean fast-forward, no divergence;
+re-fetched `origin/main` directly and confirmed it already carried all 4 commits (046f654), so no
+push was actually needed — false alarm from a stale local ref, not real orphaned state. Also
+checked `claude/modest-bohr-9415kc` (an old remote branch): fully merged ancestor of origin/main,
+no orphaned commit. DAILY tier full check (WEEKLY-SWEPT tier correctly not owed; last swept W33
+2026-08-15; next weekly due ~2026-08-22).
+Primary sweep (radar-source-sweep): arXiv math full in-scope category-rotation batch (2026-08-20,
+178 fresh entries across math.NT/CO/PR/RT/DS/LO/OA/OC/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV) scanned
+via arXiv API — CAPTURED three named-conjecture resolutions (Bray's conjecture 2608.20215,
+Lichiardopol's conjecture 2608.20012, Generalized Rational Exponents Conjecture 2608.19923, all
+v1 2026-08-20) plus Tao's own new co-authored paper (2608.19525, surfaced independently via both
+the arXiv batch and Tao's blog). Ramsey/Stanley-Gasharov: no lower-bound/Schur-positivity hit (one
+adjacent-but-different-subarea item noted, see Ramsey trend log — an integer-programming method
+paper for classical small-Ramsey lower bounds via circulant graphs, 2608.18769, not counted as a
+new group). Physics broad-rotation batch (2026-08-20, 169 fresh entries across hep-th/hep-ph/gr-qc/
+quant-ph/math-ph/cond-mat.str-el/supr-con/mes-hall/astro-ph.CO/HE) scanned — no landmark-tier item,
+no 7th non-invertible-symmetries group (domain-cadence "quiet is normal"). APS PRL/PRX/RMP RSS
+opened (routine, direct curl). Nature Physics + Nature Communications RSS both still empty-CDATA
+(7th+ consecutive daily) — PARTIAL HEAL this session: direct `curl -A "Mozilla/5.0"` on an
+already-named article URL bypasses the `idp.nature.com` auth-wall cleanly (verified on the
+Light:Sci&Appl article below), but the "browse what's new" access path is still unsolved (RSS
+empty, current-issue index is client-rendered). Quantum journal RSS opened (routine). SciPost API
+opened (routine, 8 latest checked, none on-axis beyond standing sub-themes). INSPIRE-HEP
+most-recent opened (routine instrumentation). CERN Courier + Fermilab RSS opened (routine,
+ecosystem/AI-detector-engineering PR, correctly out of scope). Simons Foundation RSS opened — both
+newest items ("Universal Statistics in Number Theory" 08-18, "Defects in Physics" 08-11) already
+captured in TRENDS.md by a prior session, confirmed via grep, no new capture needed. Experiments
+block: LIGO opened via `WebFetch` (unchanged, GWTC-5.0 still top item); DESI still 403
+Cloudflare-blocked (standing degraded); CERN home.cern/news still nav-only/no-posts (standing
+degraded); IceCube opened via `WebFetch` (routine "Week 33 at the Pole" ops post, no new drop).
+Community pulse (radar-pulse): r/math + r/mathematics DEGRADED again — `tvly` quota-exhausted (see
+strategy_notes) so the 08-18-healed search fallback is unusable, and `WebFetch` failed outright on
+both `.rss` and `old.reddit.com` ("unable to fetch from www.reddit.com") — no working path found,
+6th+ consecutive degraded daily, recorded in SOURCES.md. Hacker News front page opened via Algolia
+API (nothing on-axis — all AI-related stories, correctly out of scope). MathOverflow /feeds/ opened
+(routine Q&A via direct curl). Mathstodon public timeline opened (generic federated noise,
+standing). Digest/blog lane — ALL opened via direct `curl`/`WebFetch` (tvly quota-exhausted):
+Quanta (unchanged since 08-19 "Building a Quantum Computer" QC-hardware piece, sibling-radar beat,
+not queued), Tao (NEW post 08-20 digesting his own new paper 2608.19525, captured above), Not Even
+Wrong (unchanged since "HEP-TH and AI" 08-16, already queued), n-Category Café (HEALED this
+session — direct `curl` works cleanly, no `tvly` needed; unchanged content, same E7 post as Baez),
+Gowers/Kalai/Baez-Azimuth (all opened, unchanged since prior known state), Strassler (new post "The
+Physicists and Mr. Epstein" — off-axis biography/controversy piece, not physics research, not
+queued), Backreaction (NEW post 08-20 "Breakthrough: New Type of Matter Discovered" — chased via
+`WebSearch` to its actual peer-reviewed primary, Light: Science & Applications
+DOI:10.1038/s41377-026-02374-7, opened directly via the Nature auth-wall heal above — queued +
+shelved, this session's top catch). Scientific American checked via `WebSearch` (newest dated item
+08-18 "parabolas/cryptography," not landmark; nothing dated 08-20/08-21). OpenAI/Anthropic AI-watch
+pages checked via `WebSearch` — no new disclosure since the tracked "Ten Advances" (08-01) /
+Riemann-zeta (08-10) items. Repo watch (radar-repo-watch): direct `curl` on GitHub `releases.atom`
+403'd (proxy-scoped, standing) — `WebFetch` substituted cleanly: mathlib4 daily tag now
+master-2026-08-20 (routine); lean4 unchanged v4.34.0-rc1/v4.33.0 (both 08-10); Rocq unchanged
+V9.3+rc1.
+Exploration slot (radar-explore, OFF-AXIS rotation): math.NA (numerical analysis) — deliberately
+chosen over the roster's suggested "math.DG" since math.DG is already densely covered by the daily
+in-scope category-rotation sweep above, making a from-that-list "off-axis" read of it low-value;
+top 60 entries read via arXiv API — all routine numerical-methods/PDE-solver papers, no significant
+off-axis catch (0/60 yield, logged per policy even at zero; roster continues, next: math.OC or
+math.LO).
+Self-heals: 2 applied this session (cap 1-2/run) — (1) Nature-family `idp.nature.com` auth-wall
+bypass via direct `curl -A "Mozilla/5.0"` on a named article URL (partial — cite-only, not
+browse-what's-new); (2) n-Category Café confirmed openable via direct `curl`, no `tvly` needed.
+Both recorded in SOURCES.md.
+Trend recalibration (radar-ledger-update): Ramsey — HELD emerging/medium (fresh batch scanned, no
+lower-bound primary; arXiv-API metadata unchanged since 2026-08-03; dormancy re-check 2026-10-02
+unchanged). Non-invertible symmetries — HELD emerging/high (fresh batch scanned, no 7th group).
+Stanley-Gasharov — HELD seed/medium (fresh batch scanned, nothing new). Queue 151 → 156 (+5: Bray's
+conjecture, Lichiardopol's conjecture, Generalized Rational Exponents Conjecture, Tao et al.
+polynomial-Szemerédi paper, the woven-ferroelectric-domain-fabric landmark) — daily does not burn
+down per domain cadence; queue is well past the ~40 soft cap (156), flagged for the weekly's
+queue-hygiene pass (last measured burndown was W30). capture-leak: 5 new arXiv/DOI ids checked this
+session (2608.20215, 2608.20012, 2608.19923, 2608.19525, s41377-026-02374-7 [DOI]), mechanically
+grepped against TRENDS.md post-edit — all land on discrete queue/study_shelf lines, 0 leaked.
+study_shelf: 2 new picks (the woven-ferroelectric-domain-fabric discovery, Bray's-conjecture
+resolution). README.md regenerated from the updated ledger in the same commit.
