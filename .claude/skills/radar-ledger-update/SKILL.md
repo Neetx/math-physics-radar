@@ -11,23 +11,41 @@ structure is a contract.
 
 ## File contract (do not change)
 
-- Header: `# Trend ledger — AI Radar`, then `Last updated: YYYY-MM-DD`, then the
-  stage legend.
-- Sections, in this order: `## Active trends`, `## observation_queue`,
-  `## source_rotation`, `## strategy_notes`, `## study_shelf`, `## calibration`.
+HEALED 2026-W34: this section previously described a sibling radar's file
+contract (an `# AI Radar` header, `### [id: slug-NNN]` trend blocks with an
+`alias` field, a standalone `## observation_queue` H2) that never matched this
+repo's actual `TRENDS.md`. Flagged 2026-08-17 (daily), healed this weekly per
+the skill-maintenance policy. The contract below now matches the real,
+established structure (2000+ lines, many prior sessions).
+
+- Header: `# Trend ledger — Math-Physics Radar`, then `Last updated: YYYY-MM-DD`,
+  then the stage legend.
+- Sections, in this order: `## Active trends` (trend blocks, followed directly —
+  no sub-header — by the unheaded `observation_queue` block, introduced by the
+  line "Signals not yet promoted to a trend..."), `## source_rotation`,
+  `## strategy_notes`, `## study_shelf`, `## calibration`. There is NO standalone
+  `## observation_queue` H2 — the queue lives inside `## Active trends`; link to
+  it as `TRENDS.md#observation_queue` by convention only (README practice), not
+  a real anchor.
 - `## source_rotation` and `## calibration` are POINTER stubs only: their real
   append-only content lives in `logs/source_rotation.md` and `logs/calibration.md`
   respectively. Keep the two stub headers (the section order is the contract) but
   NEVER inline log lines back into TRENDS.md — appends go to the `logs/` files.
-- Trend block: `### [id: slug-NNN] Title` with fields `alias`, optional
-  `pinned: true`, `stage`, `confidence`, `first_observed`, `last_evidence`,
-  `evidence:` (list), `notes:`.
-- Evidence line: `- YYYY-MM-DD — URL — one line of context`.
+- Trend block: `### Title` (no id/slug, no `alias` field) with fields `stage`,
+  `confidence`, `first_seen`, `last_evidence` on one `- stage: ... | confidence:
+  ... | first_seen: ... | last_evidence: ...` line, then `- what:`, `- evidence:`
+  (list), `- notes:` (a running dated log of every session's recalibration of
+  this trend, append-only within the trend).
+- Evidence line: `  - YYYY-MM-DD — URL — one line of context` (nested two-space
+  indent under `- evidence:`).
+- Queue item: `- YYYY-MM-DD — description/URL — context` at the top level of the
+  unheaded queue block (not indented).
 
 ## Rules
 
-- Match findings to existing trends via id and `alias` before creating a new
-  trend. New trends take the next free NNN and start at `seed` or `emerging`.
+- Match findings to existing trends by title/topic before creating a new trend
+  (there is no id/alias field to match on). New trends start at `seed` or
+  `emerging`.
 - ROUTE a captured primary, don't default to "queue it": (a) if it lands on an
   EXISTING trend's axis, append it as EVIDENCE there — a single primary suffices
   for an existing trend; the ≥3-source bar is only for CREATING a trend; (b) if
@@ -79,8 +97,9 @@ structure is a contract.
 
 ```bash
 grep -n '^## ' TRENDS.md
-# expected, in order: Active trends, observation_queue, source_rotation, strategy_notes, study_shelf, calibration
-grep -c '^### \[id: ' TRENDS.md          # trend count matches expectations
+# expected, in order: Active trends, source_rotation, strategy_notes, study_shelf, calibration
+# (no standalone observation_queue heading — it lives inside Active trends)
+grep -c '^### ' TRENDS.md                # trend count matches expectations
 grep -nE '^  - [0-9]{4}-[0-9]{2}-[0-9]{2} — ' TRENDS.md | head -3   # evidence format
 grep -n '^Last updated:' TRENDS.md       # date is today
 # the two externalized logs must exist and only grow (append-only):
