@@ -264,3 +264,50 @@ session (2608.20215, 2608.20012, 2608.19923, 2608.19525, s41377-026-02374-7 [DOI
 grepped against TRENDS.md post-edit — all land on discrete queue/study_shelf lines, 0 leaked.
 study_shelf: 2 new picks (the woven-ferroelectric-domain-fabric discovery, Bray's-conjecture
 resolution). README.md regenerated from the updated ledger in the same commit.
+2026-08-22 (Sat, W34 weekly recalibration) — WEEKLY-SWEPT TIER sweep (weekly operator's duty; no
+scheduled daily this weekend). `tvly` still quota-exhausted on the first call (3rd consecutive run
+on this failure mode: 08-20 daily, 08-21 daily, 08-22 weekly) — heal-owed flag raised, curator push
+notification sent (see strategy_notes). Worked entirely via WebFetch/WebSearch/direct curl/arXiv
+API. Institutes: IHES opened (Fields-medal/memorial banners, nothing new on-axis), SLMath opened
+(no extractable content this session), MPIM Bonn opened (unchanged since the 07-15 Faltings
+Abel-Prize items), Fields Institute opened (Aug 24-28 quantum-algorithms symposium banner,
+nothing new on-axis), Isaac Newton Institute opened via direct curl (new Director appointment,
+admin, nothing on-axis), KITP opened (routine program/seminar listings, nothing on-axis), Perimeter
+— direct fetch 403, healed via WebSearch (routine SNF Nostos Conference + funding-announcement
+items, nothing new beyond the already-tracked 08-13 dark-photon catch), Clay opened (unchanged
+since the 07-23 Fields Medals note), IAS — direct fetch 403, healed via WebSearch (Guggenheim
+Fellowships, ICBS Medal, PCMI — all ecosystem/recognition, nothing new on-axis) — 9/9 institutes
+opened-or-healed. Slow venues: Annals of Mathematics opened (directory only, no article-level
+content extractable this session — standing JS-rendering limitation), AMS Notices opened (JS-shell
+only, no extractable content — standing degraded), Forum of Mathematics Pi opened (6 recent papers
+listed — Briançon-Skoda, quasisymmetric flag variety, stable moduli of Hermitian forms,
+Bend-and-Break bounds, local Galois deformation rings, integral models of Shimura varieties — none
+a landmark conjecture resolution, not individually queued). Low-yield extra-social + Physics SE:
+r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics (direct curl 403 on every `.rss`) and
+Physics Stack Exchange (WebFetch failed outright) — ALL UNREACHABLE this session, no working
+fallback found (WebSearch could not surface live threads either) — degraded, logged not dropped;
+this extends the standing r/math/r/mathematics access failure to the full extra-social roster.
+Annual prizes: Abel/Breakthrough/Fields/Shaw all already captured earlier this cycle, verified no
+gap. 21/21 weekly-swept entries logged opened-or-degraded — not a coverage lie. Source-discovery:
+checked all 9 staged candidates (the 8 from W33 plus preprints.org, staged 08-18) against this
+week's 5 daily reports (08-17→08-21) — no recurrence for any, all HELD below the ≥2 bar; 0
+promoted. Trend recalibration (radar-ledger-update): Ramsey — HELD emerging/medium (last_evidence
+2026-08-03, 19 days old; arXiv-API metadata recheck on all 5 tracked preprints, no fresh v-update;
+fresh math.CO scan, no new lower-bound primary). Non-invertible symmetries — PROMOTED
+emerging→accelerating, confidence HELD high (6 fully independent groups across 3 venue types in a
+25-day window, groups 5 and 6 landing this same review week — sustained multi-org velocity, one
+stage per the one-stage-max rule). Stanley-Gasharov — HELD seed/medium (last_evidence 2026-07-29,
+24 days old; arXiv-API metadata recheck on all 3 tracked preprints, no fresh v-update; no 4th
+group). Queue burndown (applying PROPOSED Amendment D — W33 cooling period, no curator veto, signal
+persisted): 155 pre-edit → 18 settled/zero-follow-up/non-landmark items dropped (2026-07-22→08-02
+vintage) → 137. Capture-leak (MANDATORY backstop): swept every trend's own notes field for
+un-cited embedded ids during the burndown's own cross-check — found and fixed 2 issues (1 wrongful
+drop restored — Belin SciPostPhys.21.1.017 had an active follow-up, arXiv:2608.03459 — 1 stale
+"queued" cross-reference to a correctly-dropped item, 2607.27869, fixed by editing the referencing
+prose). Skill heal (skill-maintenance policy, dedicated commits): both `radar-ledger-update` and
+`radar-render-dashboard` SKILL.md files corrected to match this repo's real TRENDS.md file contract
+(flagged 08-17 daily; sibling-radar template text had never matched). Self-amendment: Amendment D
+applied this week (see queue-burndown note above) — target band (2-3x soft cap) not fully reached;
+flagged as a possible refinement for a future weekly. Amendments A/B/C two-week regression check:
+all clean, no rollback. Monthly retrospective not due (day 22 > 7; next due first run of
+September). README.md regenerated from the updated ledger in the same commit.

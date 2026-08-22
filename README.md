@@ -1,22 +1,21 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-0-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-156-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--21-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-1-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-137-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--22-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-21):**
-- New on the shelf: **[a woven ferroelectric domain fabric — a new topologically-protected structure](https://www.nature.com/articles/s41377-026-02374-7)**, the first observation of a self-organizing braided domain pattern in a bulk crystal, peer-reviewed in *Light: Science & Applications*.
-- Also shelved: **[Bray's conjecture, resolved](https://arxiv.org/abs/2608.20215)** — Jiang, Li, Wang confirm a 1997 volume-comparison conjecture in Riemannian geometry.
-- Also queued: two more named-conjecture resolutions — **[Lichiardopol's conjecture](https://arxiv.org/abs/2608.20012)** (digraph cycles) and the **[Generalized Rational Exponents Conjecture](https://arxiv.org/abs/2608.19923)** (extremal graph theory) — plus a new **[Tao et al. additive-combinatorics paper](https://arxiv.org/abs/2608.19525)**.
-- Ramsey, non-invertible symmetries and Stanley-Gasharov all **HELD** (no new lower-bound primary or independent group); observation queue [151 → 156](TRENDS.md#observation_queue) (+5).
+**Since last scan (2026-08-22, weekly recalibration):**
+- **[Non-invertible symmetries in QFT promoted to accelerating](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** — six fully independent groups across three venue types (SciPost, Nature Physics, arXiv) in a 25-day window, with a [5th](https://arxiv.org/abs/2608.16520) and [6th](https://arxiv.org/abs/2608.18926) group landing this past week alone.
+- Ramsey and Stanley-Gasharov both **HELD** — no new lower-bound primary or independent group this week (arXiv-API metadata rechecked on all 8 tracked preprints).
+- Weekly queue-hygiene pass: observation queue [155 → 137](TRENDS.md#observation_queue) (-18), applying the backlog-sized burndown proposed last week — settled, zero-follow-up items only; nothing on the study shelf or in an active cluster touched.
 
 ## Trends
 
-🌱 1 · 📈 2 · 🚀 0 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 1 · 🚀 1 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 📈 emerging | [2026-08-20](https://arxiv.org/abs/2608.18926) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-20](https://arxiv.org/abs/2608.18926) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 📈 emerging | [2026-08-03](https://arxiv.org/abs/2608.02537) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
@@ -70,12 +69,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Hacker News front page](https://news.ycombinator.com/) checked — nothing on-axis today (front page was AI-story-dominated, correctly out of scope).
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) still blocked (6th+ daily running) — this session's usual search fallback was quota-exhausted and direct fetch failed outright; genuinely no coverage of this lane today.
-- [MathOverflow](https://mathoverflow.net/questions) and [Mathstodon](https://mathstodon.xyz/public/local) checked — routine, nothing beyond the day's arXiv sweep.
-- The digest/blog lane (Quanta, Tao, Not Even Wrong, n-Category Café, Gowers, Kalai, Azimuth, Strassler, Backreaction, Scientific American) was fully swept — Terence Tao's blog digested his own new paper (queued above); Sabine Hossenfelder's Backreaction post led to today's top catch, the woven-ferroelectric-domain-fabric discovery; the rest routine or unchanged.
+- Weekly-swept extra-social tier: [r/Physics](https://www.reddit.com/r/Physics/), r/cosmology, r/ParticlePhysics, r/AskPhysics, and [Physics Stack Exchange](https://physics.stackexchange.com/) were ALL unreachable this session (direct fetch blocked, no working fallback found) — the standing r/math/r/mathematics access failure now extends across the full extra-social roster; logged degraded, not dropped.
+- Institute + slow-venue sweep (weekly duty): 9/9 institutes opened or healed (Perimeter, IAS via search fallback), nothing new beyond what the week's dailies already caught; Annals of Mathematics and AMS Notices had no extractable article-level content this session (standing JS-rendering limitation); Forum of Mathematics Pi's 6 most recent papers were routine, no landmark conjecture resolution among them.
+- Annual prizes (Abel, Breakthrough, Fields, Shaw) all already captured earlier this cycle — no gap.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (156) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-21](reports/2026-08-21.md)) · weekly: [2026-W33](reports/weekly/2026-W33.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (137) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-21](reports/2026-08-21.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
