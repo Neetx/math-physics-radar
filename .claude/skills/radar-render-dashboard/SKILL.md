@@ -57,18 +57,22 @@ on every run, never patch it. Design goal: one screen, everything clickable.
 
 ## Anchor rule (GitHub heading slugs)
 
-For a heading `### [id: slug-NNN] Title`, the anchor is: lowercase the whole
-heading text, delete every character that is not a letter, digit, space or
-hyphen (no replacement — `p-adic/rigid` → `p-adicrigid`), then replace
-spaces with hyphens. Example:
-`### [id: langlands-003] Progress on the geometric Langlands correspondence`
-→ `TRENDS.md#id-langlands-003-progress-on-the-geometric-langlands-correspondence`.
+HEALED 2026-W34: this repo's trend headings are plain `### Title` — there is no
+`[id: slug-NNN]` prefix (that was a sibling radar's contract, never this one's;
+flagged 2026-08-17, healed this weekly per the skill-maintenance policy).
+
+For a heading `### Title`, the anchor is: lowercase the whole heading text,
+delete every character that is not a letter, digit, space or hyphen (no
+replacement — `p-adic/rigid` → `p-adicrigid`), then replace spaces with
+hyphens. Example:
+`### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)`
+→ `TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries`.
 Anchors are recomputed at every render, so title edits stay in sync.
 
 ## Checks before commit
 
-- Badge counts = stage-strip counts = table row count = number of `### [id:`
-  blocks in TRENDS.md.
+- Badge counts = stage-strip counts = table row count = number of `### `
+  blocks under `## Active trends` in TRENDS.md.
 - Every table date equals that trend's `last_evidence` exactly; every row has
   two working relative/absolute links.
 - No Mermaid, no images besides the badges, no sections beyond the blocks above.
