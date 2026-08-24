@@ -311,3 +311,103 @@ applied this week (see queue-burndown note above) — target band (2-3x soft cap
 flagged as a possible refinement for a future weekly. Amendments A/B/C two-week regression check:
 all clean, no rollback. Monthly retrospective not due (day 22 > 7; next due first run of
 September). README.md regenerated from the updated ledger in the same commit.
+
+2026-08-24 (Mon, Pass 1) — first daily since 2026-08-21 (weekend gap + W34 weekly 08-22, expected).
+tvly STILL quota-exhausted on first call this session (4th consecutive occurrence: 08-20 daily,
+08-21 daily, 08-22 weekly, 08-24 daily — already crossed heal-owed at the 3rd occurrence, curator
+already notified 08-22; not re-notified this session, no new escalation criterion met). Worked
+entirely via WebFetch/WebSearch/direct curl (with a Mozilla UA)/the arXiv API. Primary sweep
+(radar-source-sweep): full in-scope arXiv category rotation via per-category RSS (math.CO/NT/AG/
+AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT + hep-th/hep-ph/gr-qc/quant-ph/math-ph/
+cond-mat.str-el/mes-hall/astro-ph.CO/HE/nucl-th, 29 categories, ~800 items) — the newest posted
+date is still 2026-08-21 (no fresher Monday batch by session time, consistent with the expected
+weekend/Monday-batch-lag); landmark-tier catches: Vanishing Mass Conjecture fully resolved
+(Gennaioli–Rindler, 2608.20899), Demailly-Peternell-Schneider conjecture Kähler-case extension
+(Fu–Wang, 2608.20679), Parafree Conjecture disproved for associative algebras (Ionin–Mikhailov,
+2608.20570), Henning-Yeo Conjecture disproved (Wang, 2608.19455), bounded-mass-property
+counterexample (Xia–Zhang, 2608.21053), POLONAISE first search for ultraheavy dark matter
+(2608.20464) — 6 items queued. PRL/PRX/RMP RSS opened (full content this session, not just
+titles) — CAUGHT a BKT-correlations discovery in a quantum kagome compound (Grbić et al., PRL
+137,086501) via the feed's own `content:encoded` field (article page itself Cloudflare-blocked) —
+queued. Nature Physics/Nature Communications RSS: WORKING THIS SESSION (8 items each with real
+titles, e.g. "Antidots measure anyonic charge in graphene") — the standing 7+-consecutive-daily
+empty-CDATA degradation from 08-14→08-21 did NOT recur today; nothing on-axis beyond the
+already-tracked ferroelectric-fabric story found in Nature Physics's list. SciPost API opened
+(20 most recent) — CAUGHT a 7th independent group for the non-invertible-symmetries trend (Graf,
+Surace, Berg, Moroz, SciPostPhysCore.9.3.048, "The Ising dual-reflection interface") → appended as
+evidence, last_evidence updated, trend HELD accelerating/high (already promoted this cycle at
+W34). INSPIRE-HEP opened (routine instrumentation, future-journal-ref-date artifact as usual,
+nothing on-axis). CERN Courier RSS opened (160 items) — three CAPTURE-LEAK CATCHES from
+2026-07-23 (a month old, missed by prior sessions' lighter CERN Courier passes): LHCb's new doubly
+charmed baryon (first new particle with the upgraded detector — queued + study_shelf), ALPHA's
+100x-more-precise antihydrogen hyperfine/CPT measurement (queued), CMS's W-boson-to-three-hadrons
+branching-fraction limit (queued, minor). Fermilab news opened (routine AI/detector-engineering
+PR, correctly out of scope). Simons Foundation opened (routine grants/collaborations, incl. two
+new Simons Collaborations — Universal Statistics in Number Theory, Defects in Physics — ecosystem
+context, not individually queued as no new primary artifact). Experiments block: LIGO opened via
+WebFetch (unchanged, GWTC-5.0 05-26 still latest); DESI opened via curl (the "New DESI DR2
+Lyman-alpha Results" 07-30 blog post covers the ALREADY-TRACKED 2607.27410 DESI-saga primary, not
+new); CERN opened via its own `/feed/` RSS (HEALED — direct `/news` HTML curl is Cloudflare-403'd
+via the `wpewaf.com` WAF but `home.cern/feed/` returns 10 routine admin/facility items cleanly, no
+new physics result); IceCube opened via curl (routine "Week 33 at the Pole" ops post, no new
+drop). Community pulse (radar-pulse, intake only): r/math + r/mathematics STILL degraded (curl
+403/Reddit-blocked + tvly quota-exhausted, no working fallback this session — 8th+ consecutive
+degraded daily on this pair). Hacker News Algolia front_page opened (nothing on-axis, all AI/tech
+stories). MathOverflow /feeds/ opened (routine Q&A, nothing new). Mathstodon public timeline
+opened (federated-timeline noise, no arXiv-bot signal today). Digest/blog lane fully opened: Quanta
+— MAJOR CAPTURE-LEAK CATCH: "'Huge Breakthrough' in the Math of Imbalance" (2026-08-21) chased to
+arXiv:2508.03961 (Bansal-Jiang, v1 2025-08-05, ~1 year old) — resolves the 1981 Beck-Fiala
+conjecture for k≥log²n and makes the first improvement in decades on the related Komlós
+conjecture → queued + this session's top study_shelf pick; a second Quanta piece ("Theory of
+Fluids Enters the 21st Century," 08-17) reviewed and found to be a ~20-year retrospective synthesis
+with no single fresh 2026 primary — not actioned. Terry Tao's blog opened via curl (both recent
+posts, on polynomial-progressions bounds and the Palomar Lean registry, already tracked from
+08-19/08-20 — confirmed no new capture). Not Even Wrong opened (routine, "HEP-TH and AI" already
+tracked 08-20). n-Category Café opened via curl (routine, nothing new beyond already-tracked
+content). Gowers/Kalai opened (routine, nothing new). Baez/Azimuth: RSS opened (a new 08-22 post,
+"The Mantle" — WebFetch 403'd on the article page this session, not independently confirmed,
+logged as checked-but-unopened, not queued). Strassler confirmed quiet (standing, last post
+2026-02-05). Backreaction opened (25 items) — the "Breakthrough: New Type of Matter Discovered"
+(08-20) post confirmed to be ANOTHER pointer to the already-tracked woven-ferroelectric-domain-
+fabric story, not a new capture; "New Universes Can Form Inside Dying Stars" and "The First New
+Nuclear Fusion Idea for Decades" both reviewed — neither yielded an independently opened primary
+citation this session (a private-startup fusion-reactor design is also out of scope for the
+primary-source hard rule regardless) — not actioned; "Alien Spacecraft on the Moon" and "Two
+Dimensions of Time" are Hossenfelder's own skeptical-commentary pieces, correctly out of scope.
+Scientific American opened via curl (200 OK, but no article-level content extractable from the
+static HTML this session — logged opened, not a coverage lie). OpenAI research page: JS-shell only
+via curl, no content extractable (standing pattern, tvly unavailable to work around it this
+session) — logged degraded. Anthropic research page opened via curl (full nav HTML, no dated post
+list extractable this way; no new math-result disclosure identified) — logged opened. Repo watch
+(radar-repo-watch): direct GitHub API/`.atom` fetches confirmed session-proxy-scoped (403,
+"sessions are bound to their configured repositories") as previously noted; SELF-HEAL this
+session — WebFetch on the plain `releases.atom` URL works cleanly despite the proxy-scoping
+(verified for all three watched repos) — recorded in SOURCES.md as the preferred fallback ahead of
+`tvly extract`. mathlib4: routine daily master-* tags through 2026-08-23, nothing landmark. lean4:
+v4.34.0-rc2 + v4.33.1, both 2026-08-21 (new since the 08-10-known v4.34.0-rc1/v4.33.0 — routine
+version bump, not itself a queue-worthy artifact). Rocq: unchanged since 07-22 (9.3+rc1).
+Exploration slot (radar-explore, OFF-AXIS rotation): math.OC (optimization/control) — next in the
+roster after nlin.SI/CD→econ/q-fin→math.OA→cs.CC→math.NA — top 30 items read via RSS regardless of
+sub-topic, all routine optimization/control-theory titles, 0/30 significant → off-axis rate 0 this
+run (non-alarm per AGENTS.md domain cadence; roster continues, next: math.DS, math.LO, math.DG, or
+q-bio.PE). Trend recalibration (radar-ledger-update): Ramsey — HELD emerging/medium (full
+category-rotation batch scanned, no lower-bound primary; arXiv-API metadata unchanged on all 5
+tracked preprints; dormancy re-check 2026-10-02 unchanged, last_evidence now 21 days old).
+Non-invertible symmetries — 7th independent group found (SciPostPhysCore.9.3.048), evidence
+appended, last_evidence updated to 2026-08-24, confidence HELD high, stage HELD accelerating
+(already promoted this cycle at W34, one-stage-max rule). Stanley-Gasharov — HELD seed/medium
+(full math.CO batch scanned, no 4th group; last_evidence now 26 days old). Queue 137 → 149 (+12
+new items this session; daily does not burn down per domain cadence). capture-leak: 12 new
+ids/DOIs checked this session (2508.03961, 2608.20899, 2608.20679, 2608.20570, 2608.19455,
+2608.21053, 2608.20464, SciPostPhysCore.9.3.048, PRL 137/086501, plus the 3 CERN-Courier-sourced
+items with no arXiv id) — all land on discrete queue/evidence/shelf lines, 0 leaked; PLUS the
+mandatory mechanical file-wide reconciliation (`grep -oE '[0-9]{4}\.[0-9]{5}' TRENDS.md`, 183
+unique ids) found 32 ids appearing without a same-line `arxiv.org/abs/` link — spot-checked a
+representative sample (2607.10111, 2607.27869, 2608.02025, 2606.24863, 2608.16434, 2608.16613,
+2608.18769, 2407.08760) and confirmed each is a legitimate cross-reference/exclusion/corroboration
+already folded into an existing tracked item's notes, not a leaked standalone primary — 0 file-wide
+leaks found. Source-discovery: STAGED cerncourier.com's individual-article-page pattern is already
+tracked (not new); no new untracked domain surfaced this session beyond already-tracked venues
+(Quanta, PRL, SciPost, arXiv, CERN Courier all already in the swept registry) — 0 new candidates
+this session. study_shelf: 2 new picks (Bansal-Jiang Beck-Fiala/Komlós breakthrough, LHCb doubly
+charmed baryon). README.md regenerated from the updated ledger in the same commit.

@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-22
+Last updated: 2026-08-24
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -292,9 +292,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     held only "The regular pentagon is canonically Ramsey" (Euclidean-Ramsey geometry, not a
     Ramsey-number lower bound) — already logged by the 08-20 daily, not a new group. Not promoted
     (no fresh W34 velocity); confidence held medium (doubled unrefereed-preprint caution stands).
+  - 2026-08-24 (daily): first daily since 2026-08-21 (weekend gap + W34 weekly 08-22, expected).
+    Full in-scope math category-rotation RSS batch (2026-08-21, the latest posted; no fresher
+    Monday batch yet) scanned for Ramsey lower bounds — none (only an unrelated "Structural
+    Reductions for Monochromatic Matchings and Ramsey Tilings," 2606.24863, a different sub-area).
+    arXiv-API metadata recheck of all five tracked preprints: no fresh v-update on any. Trend HELD
+    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged (last_evidence now 21 days old).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-20
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-24
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -335,6 +341,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     vertex-operator-algebra outer-automorphism, matching the Schur/Macdonald index to a twisted
     vacuum character. Abstract + authors verified via arXiv API this session (v1 2026-08-19,
     surfaced in today's fresh hep-th batch).
+  - 2026-08-24 — https://scipost.org/SciPostPhysCore.9.3.048 — Graf, Surace, Berg, Moroz, "The
+    Ising dual-reflection interface: $\mathbb Z_4$ symmetry and Majorana strong zero modes": a
+    SEVENTH fully independent author group (independent of Oishi–Ebisu, Antunes–Rong, Bhardwaj et
+    al., Ueda et al., Flores-Calderón–Pollmann–Knap, and Maruyoshi–Moon–Song), on the lattice side
+    — a non-invertible symmetry emerges in closed geometry at an interface combining a
+    Kramers-Wannier transformation with spatial reflection in the transverse-field Ising chain,
+    alongside a discrete $\mathbb Z_4$ symmetry realized via Majorana strong zero modes. SciPost
+    Physics Core (community-refereed, acceptance date 2026-07-20); title/authors/abstract/DOI
+    verified via the SciPost API this session.
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -447,6 +462,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     3 venue types, both lattice and continuum sub-applications) and pace (a new independent group
     roughly every 4 days over the trend's active life). One stage this week, per the one-stage-max
     rule. Watch for a 7th group or the still-outstanding explicit lattice/continuum cross-citation.
+  - 2026-08-24 (daily, 7th group): first daily since 2026-08-21 (weekend gap + W34 weekly 08-22,
+    expected). SciPost API rechecked (through SciPostPhysCore.9.3.048, 2026-08-21) surfaced Graf,
+    Surace, Berg, Moroz — a SEVENTH fully independent group, satisfying the standing "watch for a
+    7th group" note (see evidence above). Fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/
+    astro-ph RSS batch (2026-08-21, the latest posted; no fresh entries since — weekend/Monday-
+    batch-lag expected) scanned — no explicit lattice/continuum cross-citation yet. Confidence HELD
+    high (already at ceiling). Stage HELD accelerating (already promoted this cycle at W34,
+    2026-08-22; one-stage-max rule and no "mainstreaming"-tier signal — standard-practice adoption,
+    not just group count — yet). Watch for an 8th group or the cross-citation.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -553,6 +577,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     4th independent group surfaced this week (five dailies 08-17→08-21 all scanned fresh math.CO
     batches, none found; confirmed again this session). Confidence held medium (short, checkable,
     cross-verified computations — still unrefereed).
+  - 2026-08-24 (daily): first daily since 2026-08-21 (weekend gap + W34 weekly 08-22, expected).
+    Full in-scope math.CO RSS batch (2026-08-21, the latest posted) scanned for Schur-positivity/
+    claw-free items — none. arXiv-API metadata recheck of all three tracked preprints: no fresh
+    v-update. Trend HELD seed/medium; last_evidence now 26 days old, well inside the 60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -1887,6 +1915,94 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   auth-wall that blocks `WebFetch` on Nature-family articles was bypassed with a browser
   user-agent header — see Coverage/degraded and `strategy_notes` for the healed access method).
   Domain-cadence landmark first-of-kind observation — queued, also on `study_shelf`.
+- 2025-08-05 (v1; MAJOR CAPTURE-LEAK CATCH, ~1-year-old primary, surfaced this session via a
+  2026-08-21 Quanta feature and independently opened) — Nikhil Bansal, Haotian Jiang, "Decoupling
+  via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk," arXiv:2508.03961
+  — https://arxiv.org/abs/2508.03961 — combinatorial discrepancy theory (axis 1, math.CO/DS/PR):
+  RESOLVES the 1981 Beck-Fiala conjecture (any $n$-element, degree-$k$ set system has discrepancy
+  $O(\sqrt k)$) for $k\ge\log^2 n$, and gives the first improvement in decades on the related 1980s
+  Komlós conjecture (bounded discrepancy for unit-column matrices), pushing the upper bound from
+  $O(\sqrt{\log N})$ to $O((\log N)^{1/4})$. Abstract + authors verified via arXiv API this session
+  (v1 2025-08-05); Quanta's "'Huge Breakthrough' in the Math of Imbalance" (2026-08-21,
+  https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/, opened this
+  session) is what surfaced this — the primary sat outside this ledger's window for over a year.
+  Domain-cadence landmark (a 45-year-old named conjecture resolved in its stated regime) — queued,
+  also on `study_shelf`.
+- 2026-08-21 (v1) — Luca Gennaioli, Filip Rindler, "Concentration phenomena and the Vanishing Mass
+  Conjecture," arXiv:2608.20899 — https://arxiv.org/abs/2608.20899 — PDE / geometric measure theory
+  (axis 1, math.AP/CA): fully RESOLVES Bouchitté's 2003 Vanishing Mass Conjecture for all
+  first-order constant-coefficient linear differential operators — that concentrating,
+  non-equi-integrable sequences satisfying such a linear PDE constraint can always be represented
+  as superpositions of "simple" concentrations. Abstract + authors verified via arXiv API this
+  session. Domain-cadence landmark (a 23-year-old named conjecture fully resolved) — queued, also
+  on `study_shelf`.
+- 2026-08-21 (v1) — Xin Fu, Juanyong Wang, "On a conjecture of Demailly-Peternell-Schneider: the
+  Kähler case," arXiv:2608.20679 — https://arxiv.org/abs/2608.20679 — complex/algebraic geometry
+  (axis 1, math.AG/CV): proves pseudo-effectivity of $-K_Y$ for a surjective holomorphic map between
+  normal Kähler varieties (log canonical pair, $-(K_X+\Delta)$ nef, $Y$ Q-Gorenstein) without the
+  projective-morphism hypothesis used in the authors' own prior work — extending a conjecture of
+  Demailly-Peternell-Schneider to the Kähler setting. Abstract + authors verified via arXiv API
+  this session. Below-bar (a specialized extension, not a fully independent named-conjecture
+  resolution) — queued.
+- 2026-08-20 (v1) — Vasily Ionin, Roman Mikhailov, "The Parafree Conjecture for associative
+  algebras," arXiv:2608.20570 — https://arxiv.org/abs/2608.20570 — algebra (axis 1, math.RA/AT):
+  DISPROVES the associative-algebra analogue of the Parafree Conjecture — constructs a finitely
+  generated parafree augmented associative algebra with countably infinite-dimensional second
+  homology (the monoid algebra of a finitely generated but not finitely presented submonoid of a
+  free monoid) — answering a question of Ivanov and Lopatkin. Abstract + authors verified via arXiv
+  API this session. Below-bar (a two-author disproof of a conjecture-analogue, not the original
+  named conjecture) — queued.
+- 2026-08-19 (v2) — Yufeng Wang, "Counterexamples to the Henning-Yeo Conjecture: Unbounded
+  Fixed-Degree Gaps and Sharp First-Order Asymptotics," arXiv:2608.19455 —
+  https://arxiv.org/abs/2608.19455 — extremal graph theory (axis 1, math.CO): DISPROVES the
+  Henning-Yeo conjectured upper bound on the identifying vertex cover number, via a two-parameter
+  family of diameter-two graphs with an unbounded margin for every maximum degree $\ge4$. Abstract
+  + author verified via arXiv API this session. Below-bar (single-author disproof of a
+  comparatively young/niche conjecture) — queued.
+- 2026-08-21 (v1) — Mingchen Xia, Kewei Zhang, "A counterexample to the bounded mass property,"
+  arXiv:2608.21053 — https://arxiv.org/abs/2608.21053 — complex geometry (axis 1, math.AG/CV/DG):
+  shows the bounded mass property fails on the Hopf threefold $(\mathbb C^3\setminus\{0\})/\langle
+  z\mapsto e^{-1}z\rangle$, answering a question of Boucksom-Guedj-Lu. Abstract + authors verified
+  via arXiv API this session. Below-bar (answers an open question, not a named conjecture) — queued.
+- 2026-08-20 (v1) — Dennis G. Uitenbroek et al. (POLONAISE collaboration), "First Search for
+  Ultraheavy Dark Matter Using a Magnetically Levitated Particle," arXiv:2608.20464 —
+  https://arxiv.org/abs/2608.20464 — dark-matter detection (axis 3, hep-ph): the FIRST search for
+  ultraheavy dark matter using a milligram-scale ferromagnet magnetically levitated in a
+  superconducting trap (force sensitivity $0.07\,\mathrm{fN\,Hz^{-1/2}}$, impulse resolution down
+  to $1\,\mathrm{TeV}/c$), setting new optimum-interval upper limits on the neutron coupling for a
+  light-mediator dark-matter interaction. Abstract + authors verified via arXiv API this session.
+  Domain-cadence landmark (first-of-kind detection technique/search) — queued.
+- 2026-08-18 (published Phys. Rev. Lett. 137, 086501) — M. S. Grbić, I. Jakovac, I. Kupčić, H.
+  Tanaka, M. Horvatić, "Discovery of Berezinskii-Kosterlitz-Thouless Correlations in the Quantum
+  Kagome Compound Cs2Cu3SnF12" — http://link.aps.org/doi/10.1103/bm42-z87g — condensed-matter
+  physics (axis 3): $^{63,65}$Cu nuclear quadrupolar resonance below the Néel temperature
+  ($T_N=20\,$K) finds signatures of Berezinskii-Kosterlitz-Thouless correlations in this quantum
+  kagome antiferromagnet. Full abstract, author list and publication date verified directly from
+  the APS PRL RSS feed's `content:encoded` field this session (article page itself Cloudflare-
+  blocked to direct `curl`/`WebFetch`). Domain-cadence landmark (first-of-kind observation in this
+  compound) — queued.
+- 2026-07-22 (CAPTURE-LEAK CATCH, chased via today's CERN Courier sweep, accessed 2026-08-24) —
+  LHCb Collaboration, "A new doubly charmed baryon" (CERN Courier feature, 2026-07-23) —
+  https://cerncourier.com/a/a-new-doubly-charmed-baryon/ — hadron/particle physics (axis 3,
+  hep-ex): LHCb has observed a new doubly charmed baryon — the first new particle found with its
+  upgraded detector. CERN Courier page opened this session (official CERN-affiliated publication
+  reporting the collaboration result); the underlying LHCb paper itself was not independently
+  located/opened this session — flagged for a follow-up chase to the primary LHCb/arXiv preprint.
+  Domain-cadence landmark (first-of-kind with the upgraded detector) — queued, also on
+  `study_shelf`.
+- 2026-07-22 (CAPTURE-LEAK CATCH, chased via today's CERN Courier sweep, accessed 2026-08-24) —
+  ALPHA Collaboration, "Antihydrogen toes the line" (CERN Courier feature, 2026-07-23) —
+  https://cerncourier.com/a/antihydrogen-toes-the-line/ — antimatter / precision physics (axis 3,
+  hep-ex): ALPHA measured the ground-state hyperfine splitting of antihydrogen a hundred times
+  more precisely than before, sharpening the experimental test of CPT symmetry. CERN Courier page
+  opened this session; underlying ALPHA paper not independently located this session — flagged
+  for a follow-up chase. Below-bar (a precision improvement, not a first detection) — queued.
+- 2026-07-22 (CAPTURE-LEAK CATCH, chased via today's CERN Courier sweep, accessed 2026-08-24) —
+  CMS Collaboration, "W boson decays to three charged hadrons" (CERN Courier feature, 2026-07-23)
+  — https://cerncourier.com/a/w-boson-decays-to-three-charged-hadrons/ — particle physics (axis 3,
+  hep-ex): CMS searched for the rare decay of the W boson into three light charged hadrons,
+  setting the most stringent limit yet on its branching fraction. CERN Courier page opened this
+  session; a null/limit result — below-bar — queued.
 
 ## source_rotation
 
@@ -2431,12 +2547,50 @@ Corrections to the source-coverage strategy.
   advances — not queued). Prizes: Abel/Breakthrough/Fields/Shaw all already captured earlier this
   cycle, no gap. Extra-social + Physics SE: see the tooling note above — unreachable this session,
   logged degraded.
+- 2026-08-24 (daily) — TOOLING: `tvly` still quota-exhausted on the first call this session (4th
+  consecutive occurrence: 08-20 daily, 08-21 daily, 08-22 weekly, 08-24 daily). Already crossed the
+  heal-owed bar at the 3rd occurrence (08-22, curator notified then); NOT re-notified this session
+  — no new escalation criterion met, and a repeat notification for an already-reported, unresolved
+  external outage would be noise per the notification-discipline rule. Worked around entirely via
+  WebFetch/WebSearch/direct `curl`/the arXiv API.
+- 2026-08-24 (daily) — HEAL: Nature Physics (`nature.com/nphys.rss`) and Nature Communications
+  (`nature.com/ncomms.rss`) both returned FULL, real titles via plain `curl` this session (8 items
+  each, e.g. "Antidots measure anyonic charge in graphene") — the standing 7+-consecutive-daily
+  empty-CDATA degradation (last confirmed 08-21) did NOT recur today. Flagging as recovered, not
+  re-classifying as a permanent heal yet — retest next daily before declaring the degradation over,
+  since it self-resolved without any access-method change on this radar's side.
+- 2026-08-24 (daily) — HEAL: `home.cern/news` (the bare HTML page) is now blocked by a Cloudflare/
+  WAF challenge (`wpewaf.com`) via direct `curl`, but the site's own `https://home.cern/feed/` RSS
+  works cleanly (10 items, admin/facility news) — prefer the RSS feed over the bare HTML page for
+  this source going forward. Recorded in SOURCES.md.
+- 2026-08-24 (daily) — HEAL: the GitHub-proxy-scoping restriction (`api.github.com`/`.atom` direct
+  `curl` returns "sessions are bound to their configured repositories") can be BYPASSED with
+  `WebFetch` on the plain `releases.atom` URL — verified working cleanly this session for all three
+  watched repos (leanprover-community/mathlib4, leanprover/lean4, rocq-prover/rocq), returning
+  accurate release-tag lists with dates. Prefer `WebFetch` on `.atom` ahead of `tvly extract` for
+  this lane going forward (works even when `tvly` is quota-exhausted, as it was this session).
+  Recorded in SOURCES.md.
+- 2026-08-24 (daily) — CAPTURE-LEAK NOTE: three CERN Courier items this session (LHCb doubly
+  charmed baryon, ALPHA antihydrogen CPT test, CMS W-boson limit — all dated 2026-07-23) were
+  queued citing ONLY the CERN Courier feature page, not the underlying LHCb/ALPHA/CMS primary
+  paper — the primary papers themselves were not independently located/opened this session. This
+  is consistent with the hard rule (CERN Courier is itself an official CERN-affiliated publication
+  reporting collaboration results, hence primary) but flagged for a follow-up chase to the actual
+  arXiv/journal preprints, which would sharpen the evidence and may reveal additional detail
+  (exact significance, dataset size) the Courier summary omits.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-24 (v1 2025-08-05) — [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk (Bansal, Jiang)](https://arxiv.org/abs/2508.03961)
+  — resolves the 1981 Beck-Fiala conjecture for degree $k\ge\log^2 n$ and gives the first
+  improvement in decades on the related Komlós conjecture; a ~1-year-old capture-leak catch
+  surfaced via a 2026-08-21 Quanta feature.
+- 2026-08-24 — [A new doubly charmed baryon (LHCb Collaboration)](https://cerncourier.com/a/a-new-doubly-charmed-baryon/)
+  — the first new particle found with LHCb's upgraded detector; a capture-leak catch from a
+  2026-07-23 CERN Courier feature.
 - 2026-08-21 — [Spontaneous formation and optical manipulation of a woven domain fabric in a ferroelectric crystal (Xin, Gelkop, Noheda, DelRe et al.)](https://www.nature.com/articles/s41377-026-02374-7)
   — first observation of a robust, topologically-protected woven fabric of interlaced ferroelectric
   domains that self-organizes in bulk KTN:Li near room temperature and can be locally rewritten

@@ -1,13 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-1-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-137-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--22-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-1-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-149-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--24-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-22, weekly recalibration):**
-- **[Non-invertible symmetries in QFT promoted to accelerating](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** — six fully independent groups across three venue types (SciPost, Nature Physics, arXiv) in a 25-day window, with a [5th](https://arxiv.org/abs/2608.16520) and [6th](https://arxiv.org/abs/2608.18926) group landing this past week alone.
-- Ramsey and Stanley-Gasharov both **HELD** — no new lower-bound primary or independent group this week (arXiv-API metadata rechecked on all 8 tracked preprints).
-- Weekly queue-hygiene pass: observation queue [155 → 137](TRENDS.md#observation_queue) (-18), applying the backlog-sized burndown proposed last week — settled, zero-follow-up items only; nothing on the study shelf or in an active cluster touched.
+**Since last scan (2026-08-24):**
+- **Capture-leak catch of the year so far:** [Bansal–Jiang's resolution of the 1981 Beck-Fiala conjecture and near-resolution of the Komlós conjecture](https://arxiv.org/abs/2508.03961) (v1 2025-08-05) sat untracked for a year until a [Quanta feature](https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/) surfaced it this session — now this scan's top study pick.
+- **[Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** picked up a [7th fully independent group](https://scipost.org/SciPostPhysCore.9.3.048) (Graf, Surace, Berg, Moroz) — trend held at `accelerating`/high, already at this cycle's one-stage-move cap.
+- Two more landmark conjecture resolutions queued: [Bouchitté's 2003 Vanishing Mass Conjecture, fully resolved](https://arxiv.org/abs/2608.20899) (Gennaioli–Rindler) and [the Parafree Conjecture disproved for associative algebras](https://arxiv.org/abs/2608.20570) (Ionin–Mikhailov).
+- CERN Courier capture-leak catches (a month old, missed by earlier sweeps): [LHCb's new doubly charmed baryon](https://cerncourier.com/a/a-new-doubly-charmed-baryon/) — the first new particle from its upgraded detector — and [ALPHA's 100×-more-precise antihydrogen CPT test](https://cerncourier.com/a/antihydrogen-toes-the-line/).
 
 ## Trends
 
@@ -15,12 +16,14 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-20](https://arxiv.org/abs/2608.18926) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-24](https://scipost.org/SciPostPhysCore.9.3.048) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 📈 emerging | [2026-08-03](https://arxiv.org/abs/2608.02537) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk (Bansal, Jiang)](https://arxiv.org/abs/2508.03961) — resolves the 1981 Beck-Fiala conjecture for degree $k\ge\log^2 n$ and gives the first improvement in decades on the related Komlós conjecture; a ~1-year-old capture-leak catch surfaced via a 2026-08-21 Quanta feature.
+- [A new doubly charmed baryon (LHCb Collaboration)](https://cerncourier.com/a/a-new-doubly-charmed-baryon/) — the first new particle found with LHCb's upgraded detector; a capture-leak catch from a 2026-07-23 CERN Courier feature.
 - [Spontaneous formation and optical manipulation of a woven domain fabric in a ferroelectric crystal (Xin, Gelkop, Noheda, DelRe et al.)](https://www.nature.com/articles/s41377-026-02374-7) — first observation of a robust, topologically-protected woven fabric of interlaced ferroelectric domains that self-organizes in bulk KTN:Li near room temperature and can be locally rewritten with a laser; peer-reviewed (Light: Science & Applications).
 - [On the proof of Bray's conjecture (Jiang, Li, Wang)](https://arxiv.org/abs/2608.20215) — resolves a 1997 conjecture of Hubert Bray bounding the volume of closed manifolds with a Ricci/scalar-curvature comparison condition by that of the standard sphere.
 - [Existence of a Periodic Orbit for Billiards in Polygons (Giovanni Forni)](https://arxiv.org/abs/2606.10102) — resolves one of Katok's "Five Most Resistant Problems in Dynamics": every finite polygon's billiard flow has a periodic orbit, closing the general (irrational-angle) case left open since the rational-angle case was settled ~50 years ago.
@@ -69,11 +72,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Weekly-swept extra-social tier: [r/Physics](https://www.reddit.com/r/Physics/), r/cosmology, r/ParticlePhysics, r/AskPhysics, and [Physics Stack Exchange](https://physics.stackexchange.com/) were ALL unreachable this session (direct fetch blocked, no working fallback found) — the standing r/math/r/mathematics access failure now extends across the full extra-social roster; logged degraded, not dropped.
-- Institute + slow-venue sweep (weekly duty): 9/9 institutes opened or healed (Perimeter, IAS via search fallback), nothing new beyond what the week's dailies already caught; Annals of Mathematics and AMS Notices had no extractable article-level content this session (standing JS-rendering limitation); Forum of Mathematics Pi's 6 most recent papers were routine, no landmark conjecture resolution among them.
-- Annual prizes (Abel, Breakthrough, Fields, Shaw) all already captured earlier this cycle — no gap.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) remain unreachable (8th+ consecutive daily) — no working fallback found this session either.
+- [Hacker News](https://news.ycombinator.com/) and [MathOverflow](https://mathoverflow.net/) checked — routine, nothing on-axis today.
+- [Quanta's "Huge Breakthrough" piece](https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/) was the session's standout digest-lane pointer, chased to a year-old primary (see Worth studying above).
+- [Backreaction](https://backreaction.blogspot.com/) covered several physics stories this week; only one traced to a genuine, already-tracked primary — the rest were commentary/pointers without an independently opened citation this session.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (137) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-21](reports/2026-08-21.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (149) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-24](reports/2026-08-24.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

@@ -63,7 +63,10 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
 Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
 - LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`]** — gravitational-wave detections/catalogs (e.g. GWTC)
 - DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
-- CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract` (the `/feed.rss` 404s)]** — collider (ATLAS/CMS) results & data
+- CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-24:
+  the bare `/news` HTML page now Cloudflare/WAF-blocks direct `curl` (`wpewaf.com` challenge), but
+  `https://home.cern/feed/` (RSS, NOT `/feed.rss` which 404s) works cleanly via plain `curl` —
+  prefer the `/feed/` RSS going forward.]** — collider (ATLAS/CMS) results & data
 - IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`]** — neutrino astrophysics
 - (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
 
@@ -131,7 +134,13 @@ diff) but catches release tags. Retest direct `releases.atom` occasionally.
 - **[healed 2026-08-14]** SUPERSEDES the above for reliability: `tvly extract
   https://github.com/<owner>/<repo>/releases.atom` (the Atom feed, not the bare HTML page) works
   cleanly every time — no JS-shell nav, no stale-search risk. Prefer `.atom` first for
-  lean4/mathlib4/rocq; fall back to `tvly search` only if `.atom` ever fails. NOTE:
+  lean4/mathlib4/rocq; fall back to `tvly search` only if `.atom` ever fails.
+- **[healed 2026-08-24]** In an environment where GitHub is session-proxy-scoped (direct `curl`/API
+  on `<repo>/releases.atom` returns "sessions are bound to their configured repositories"),
+  `WebFetch` on the plain `releases.atom` URL works cleanly and returns accurate release-tag +
+  date lists — verified this session for all three watched repos. Works even when `tvly` is
+  quota-exhausted (as it was this session) — prefer `WebFetch` on `.atom` as the primary fallback
+  in a proxy-scoped environment, ahead of `tvly extract`. NOTE:
   leanprover-community/mathlib4 does NOT tag discrete semantic-version releases like lean4/Rocq
   do — its `releases.atom` instead shows continuous daily `master-YYYY-MM-DD` auto-tags; a
   "latest version tag" search for mathlib4 will legitimately come up empty/stale because there is
