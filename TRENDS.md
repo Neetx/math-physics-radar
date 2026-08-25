@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-24
+Last updated: 2026-08-25
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -10,7 +10,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 ## Active trends
 
 ### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
-- stage: emerging | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-08-03
+- stage: accelerating | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-08-22
 - what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
   decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
   graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
@@ -23,6 +23,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-05-25 — https://arxiv.org/abs/2605.25843 — Lin, Niu, "Sharper Ramsey lower bounds from refined Gaussian estimates": sharpens the Ma–Shen–Xie off-diagonal bound (abstract via arXiv/tvly this session).
   - 2026-05-27 — https://arxiv.org/abs/2605.28793 — Bradač, "Off-diagonal Ramsey numbers": r(s,k) ≥ Ω(k^{s-1}/(log k)^{2s-4}), matching Erdős–Szekeres up to polylog, improving Spencer 1977 (abstract via arXiv API this session).
   - 2026-08-03 — https://arxiv.org/abs/2608.02537 — Steiner, "Multicolor Ramsey numbers of odd cycles are superexponential": extends a claimed OpenAI-model ("Astra") superexponential k-color triangle Ramsey lower bound (R_k(3)=k^Θ(k), OpenAI's "Ten Advances" announcement, queued below) to multicolor Ramsey numbers of fixed odd cycles, R_k(O_p) ≥ (log^{(p-1)}k)^{k/3-o(k)} for every fixed p (abstract + author via arXiv API this session, v1 2026-08-03).
+  - 2026-08-22 — https://arxiv.org/abs/2608.21769 — Ihringer, Mattheus, "An improved algebraic construction for Ramsey numbers": explicit algebraic construction giving R(s,t) ≥ t^{(1-o(1))log s/log(log s+1)} uniformly for 3≤s≤t, improving the s-dependence in the Alon–Pudlák off-diagonal construction; first explicit construction with R(s,t) ≥ t^c for fixed s and c>2 (e.g. R(33,t) ≥ t^{2.1-o(1)}), also improving the diagonal case. Abstract + authors verified via arXiv API this session (v1 2026-08-22). A SIXTH independent author group (Sam Mattheus, of the already-staged sammattheus.wordpress.com source-discovery candidate, co-authoring a primary directly on this trend for the first time).
 - notes: ≥4 independent author groups on one sub-theme (Ma–Shen–Xie; Bradač; Du–Hu–Liu–Wang; Lin–Niu) + concrete artifacts → clears the trend bar. Community framing: Quanta ("Erdős method upgrade", 2026-06-26) and Gil Kalai / Sam Mattheus blogs ("a sensational Ramsey breakthrough by Bradač"). Ma–Shen–Xie also on `study_shelf`. Watch for referee outcomes and whether the diagonal r(k,k) barrier is next.
   - 2026-W27 recalibration: HELD at emerging/medium. All 4 evidence items predate the trend's
     creation (latest 2026-05-27, ~5–6 weeks old) — a backlog cluster caught at creation, not fresh
@@ -298,6 +299,19 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Reductions for Monochromatic Matchings and Ramsey Tilings," 2606.24863, a different sub-area).
     arXiv-API metadata recheck of all five tracked preprints: no fresh v-update on any. Trend HELD
     emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged (last_evidence now 21 days old).
+  - 2026-08-25 (daily, PROMOTION): fresh math.CO batch (2026-08-22, first Tuesday-lag-cleared
+    posting since the weekend) scanned for Ramsey lower bounds — CAUGHT Ihringer–Mattheus
+    (2608.21769), a SIXTH independent author group with a genuine off-diagonal exponent
+    improvement (first explicit R(s,t) ≥ t^c construction with c>2 for fixed s), appended as
+    evidence above; last_evidence advances to 2026-08-22. Promoted emerging → accelerating
+    (one-stage-max rule; six independent groups + continued fresh output over ~7 weeks reads as
+    broad/fast, not merely forming). Confidence HELD medium (still no referee/vetting outcome on
+    any of the six preprints — unrefereed-preprint caution stands). Also noted: a fresh circulant-
+    graph small-Ramsey-number improvement, R(4,20)≥252 (arXiv:2608.18169, Yu), and an induced-
+    threshold-graph Ramsey variant (arXiv:2608.22350, Li) — both Ramsey-ADJACENT but a different
+    sub-area (explicit small-number bounds / induced Ramsey, not the tracked asymptotic off-
+    diagonal/hypergraph exponent wave) — not counted as trend evidence, not individually queued
+    (routine background activity in this sub-field). 60-day dormancy re-check reset to 2026-10-21.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-24
@@ -350,6 +364,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     alongside a discrete $\mathbb Z_4$ symmetry realized via Majorana strong zero modes. SciPost
     Physics Core (community-refereed, acceptance date 2026-07-20); title/authors/abstract/DOI
     verified via the SciPost API this session.
+  - 2026-08-22 — https://arxiv.org/abs/2608.21707 — Kobayashi, Otsuka, Tanimoto, Yamamoto,
+    "Textures of dimension-six operators in the SMEFT with non-invertible selection rules": an
+    EIGHTH fully independent author group (independent of all seven above), on a new
+    sub-application — applies non-invertible selection rules to classify flavor textures of
+    baryon-number-conserving dimension-six Standard Model Effective Field Theory operators,
+    constraining Wilson-coefficient tensor structures. Abstract + authors verified via arXiv API
+    this session (v1 2026-08-22).
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -471,6 +492,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     high (already at ceiling). Stage HELD accelerating (already promoted this cycle at W34,
     2026-08-22; one-stage-max rule and no "mainstreaming"-tier signal — standard-practice adoption,
     not just group count — yet). Watch for an 8th group or the cross-citation.
+  - 2026-08-25 (daily, 8th group): fresh hep-ph/hep-th batch (2026-08-22, first post-weekend/
+    Monday-lag entries) surfaced Kobayashi–Otsuka–Tanimoto–Yamamoto (2608.21707), an EIGHTH fully
+    independent group, satisfying the standing "watch for an 8th group" note — appended as
+    evidence above; last_evidence unchanged at 2026-08-24 (a later item already on file). Notable:
+    the first application of this trend's framework to Standard Model flavor phenomenology
+    (SMEFT), distinct from all prior lattice/CFT/topological-order sub-applications — broadens the
+    trend's reach beyond pure formal theory. Still no explicit lattice/continuum cross-citation
+    found. A cross-listed hep-th "replace" of an old 2023 parafermionic-CFT defect-lines paper
+    (arXiv:2309.01914 v2) was checked and excluded — a revision of pre-existing work, not a new
+    primary. Confidence HELD high (ceiling); stage HELD accelerating (no mainstreaming-tier
+    signal yet).
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -581,6 +613,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Full in-scope math.CO RSS batch (2026-08-21, the latest posted) scanned for Schur-positivity/
     claw-free items — none. arXiv-API metadata recheck of all three tracked preprints: no fresh
     v-update. Trend HELD seed/medium; last_evidence now 26 days old, well inside the 60-day window.
+  - 2026-08-25 (daily): fresh math.CO 2026-08-22 batch scanned for Schur-positivity/claw-free
+    items — two peripheral titles found ("Schur positivity from signed elementary expansions:
+    clique-spiders and spiders S(a,b,2)" and "Pfaffian-Toeplitz identities, Schur positivity, and
+    the q-log-convexity of Baxter polynomials") — both unrelated general Schur-positivity results,
+    not claw-free/Stanley-Gasharov counterexamples; the claw-free title re-appearing in today's
+    feed is the already-tracked Prajapati preprint (2607.26364), not new. arXiv-API metadata
+    recheck of all three tracked preprints: no fresh v-update — no referee/vetting outcome. No 4th
+    independent group. Trend HELD seed/medium; last_evidence now 27 days old, well inside the
+    60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2003,6 +2044,83 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   hep-ex): CMS searched for the rare decay of the W boson into three light charged hadrons,
   setting the most stringent limit yet on its branching fraction. CERN Courier page opened this
   session; a null/limit result — below-bar — queued.
+- 2026-08-24 — arXiv:2608.23063 — Jin Sun, Lili Wang, Tao Wang, "Counterexamples to Escobar's
+  conjecture" — https://arxiv.org/abs/2608.23063 — conformal/Riemannian geometry (axis 1,
+  math.DG): disproves Escobar's 1999 conjecture (J. Funct. Anal.) that every $n$-dimensional
+  ($n\ge3$) compact Riemannian manifold with nonnegative Ricci curvature and boundary principal
+  curvatures bounded below by $κ>0$ must satisfy first-nonzero-Steklov-eigenvalue $σ_1\ge κ$ —
+  explicit conformal deformations of the Euclidean unit ball violate the bound for every $n\ge3$.
+  Abstract + authors verified via arXiv API this session (v1 2026-08-24). Domain-cadence
+  LANDMARK single result (a 27-year-old named conjecture fully disproved) — unrefereed preprint,
+  standard hype-skepticism caution — queued; also on `study_shelf`.
+- 2026-08-23 — arXiv:2608.22539 — Yu Shen, Tianyang Sun, "The Bondal-Orlov Localization
+  Conjecture Holds for Threefolds" — https://arxiv.org/abs/2608.22539 — derived algebraic
+  geometry (axis 1, math.AG): proves a characteristic-free form of the Bondal–Orlov localization
+  conjecture (derived-category reconstruction) for quasi-projective threefolds, via a semi-
+  orthogonal-decomposition equivalence $D^b(Y)/\mathrm{Ker}(Rp_*)\simeq D^b(X)$ under mild
+  cohomological-vanishing hypotheses. Abstract + authors verified via arXiv API this session (v1
+  2026-08-23). Partial resolution (threefold case, not the full conjecture) of a well-known open
+  problem in derived categories — below full-landmark bar, unrefereed — queued.
+- 2026-08-24 — arXiv:2608.23089 — Yuan Yuan, "Yau's conjecture on smooth Reinhardt domains" —
+  https://arxiv.org/abs/2608.23089 — several complex variables (axis 1, math.CV): proves that a
+  possibly-unbounded Reinhardt domain in $\mathbb C^n$ with smooth boundary and a complete
+  Bergman-Einstein metric must be biholomorphic to the complex unit ball (equivalently, no
+  unbounded smooth Reinhardt domain admits a complete Bergman-Einstein metric), resolving a
+  conjecture attributed to Yau in this setting. Abstract + author verified via arXiv API this
+  session (v1 2026-08-24); the conjecture's exact origin/age not independently dated this
+  session. Below-bar landmark-adjacent item — unrefereed, single-author — queued.
+- 2026-08-24 — arXiv:2608.23132 — Haruhisa Enomoto, "The Cartan determinant conjecture for
+  representation-finite algebras" — https://arxiv.org/abs/2608.23132 — representation theory of
+  algebras (axis 1, math.RT/RA): proves the classical Cartan determinant conjecture (Cartan
+  matrix has determinant one) for finite-dimensional representation-finite algebras over an
+  algebraically closed field, under mild hypotheses. Abstract + author verified via arXiv API
+  this session (v1 2026-08-24). Partial resolution of a decades-old conjecture (known false in
+  general, proved here for a broad special case) — unrefereed — queued.
+- 2026-08-21 — arXiv:2608.21675 — Yaping Mao, "Dense ascending waves: A resolution of the
+  Alon-Spencer conjecture" — https://arxiv.org/abs/2608.21675 — additive/extremal combinatorics
+  (axis 1, math.NT/CO): resolves Alon and Spencer's conjecture on the extremal ascending-wave
+  length $g(n)$ (the longest strictly-increasing, nondecreasing-gap subsequence guaranteed in any
+  $n/2$-density subset of $[n]$), pinning the $(\log n)^2/\log\log n$ vs. $(\log n)^2$ gap in
+  their original bound. Abstract + author verified via arXiv API this session (v1 2026-08-21).
+  Resolution of a named conjecture from a standard probabilistic-combinatorics reference (Alon &
+  Spencer) — unrefereed, single-author — queued.
+- 2026-08-24 (CAPTURE — a follow-up to the already-tracked Albertson-Berman counterexample above,
+  given its own line per the capture rule) — arXiv:2608.23260 — Wouter Cames van Batenburg, Jan
+  Goedgebeur, Jorik Jooken, "Counterexamples to the Albertson-Berman conjecture: minimum order,
+  connectivity and an improved ratio bound" — https://arxiv.org/abs/2608.23260 — extremal/
+  structural combinatorics (axis 1, math.CO): a computational follow-up to the 2026-08 Albertson-
+  Berman disproofs (arXiv:2608.13964 etc., already tracked above) — establishes via exhaustive
+  computation that the minimum possible order of a counterexample is exactly 29, and constructs
+  infinite families of highly-connected counterexamples. Abstract + authors verified via arXiv
+  API this session (v1 2026-08-24). Below-bar follow-up/characterization item — queued.
+- 2026-08-23 — arXiv:2608.22448 — Pengfei Huang, "A counterexample to Bruzzo's curve
+  semistability conjecture for Higgs bundles" — https://arxiv.org/abs/2608.22448 — algebraic
+  geometry (axis 1, math.AG): constructs a rank-4 Higgs bundle on the second symmetric product of
+  a very general plane quintic curve whose restriction to every curve mapping into it is
+  semistable, disproving Bruzzo's conjecture on curve semistability for Higgs bundles. Abstract +
+  author verified via arXiv API this session (v1 2026-08-23). Below-bar, single-author,
+  unrefereed disproof of a modern (non-classical) named conjecture — queued.
+- 2026-01-13 (CAPTURE-LEAK CATCH, ~7 months old, surfaced via today's fresh math.RT sweep,
+  accessed 2026-08-25) — arXiv:2601.08218 — Liron Speyer, "The minimal counterexample to James's
+  conjecture" — https://arxiv.org/abs/2601.08218 — representation theory (axis 1, math.RT):
+  James's conjecture on decomposition matrices of symmetric groups/Hecke algebras was already
+  disproved by Williamson in 2017 (not new); this paper computes an explicit, much smaller
+  counterexample than Williamson's method could detect. Abstract + author verified via arXiv API
+  this session (v1 2026-01-13; a later v2 exists, exact revision date not pinned this session).
+  Below-bar incremental item (sharpens an already-known disproof, not itself a new resolution) —
+  queued for completeness.
+- 2026-08-24 — arXiv:2509.20144 (v3) — Julian Feuerpfeil, "A Hilbert 90 Property for S-Class
+  Groups and Applications to the Gross-Kuz'min Conjecture" — https://arxiv.org/abs/2509.20144 —
+  algebraic number theory (axis 1, math.NT): establishes an arithmetic criterion for a Hilbert-90-
+  type property of $S$-class groups in cyclic extensions, with an application (not a full
+  resolution) to the Gross-Kuz'min conjecture in Iwasawa theory. Abstract + author verified via
+  arXiv API this session. Below-bar partial-progress item — queued.
+- 2026-08-24 — arXiv:2608.22813 — Yanjun Liu, Lizhong Wang, Jiping Zhang, Fang Zhou, "The
+  Eaton-Moretó Conjecture Holds True for $p$-Solvable Groups" — https://arxiv.org/abs/2608.22813
+  — finite group representation theory (axis 1, math.RT): proves a modern (2010s) conjecture of
+  Eaton and Moretó for the special case of $p$-solvable groups. Abstract + authors verified via
+  arXiv API this session (v1 2026-08-24). Below-bar partial-progress item on a non-classical
+  conjecture — queued.
 
 ## source_rotation
 
@@ -2578,12 +2696,59 @@ Corrections to the source-coverage strategy.
   reporting collaboration results, hence primary) but flagged for a follow-up chase to the actual
   arXiv/journal preprints, which would sharpen the evidence and may reveal additional detail
   (exact significance, dataset size) the Courier summary omits.
+- 2026-08-25 (daily) — TOOLING: `tvly` still returned "exceeds your plan's set usage limit" on the
+  FIRST call this session, even after a fresh `pip install -q tavily-cli` (5th consecutive
+  occurrence: 08-20 daily, 08-21 daily, 08-22 weekly, 08-24 daily, 08-25 daily). Already
+  heal-owed and curator-notified at the 3rd occurrence (08-22); not re-notified this session (no
+  new escalation criterion — a 5th identical, already-reported outage is not new information).
+  Worked around entirely via direct `curl`/`WebFetch`/the arXiv API for every lane.
+- 2026-08-25 (daily) — HEAL CONFIRMED DURABLE: Nature Physics (`nature.com/nphys.rss`) and Nature
+  Communications (`nature.com/ncomms.rss`) both returned full real titles via plain `curl -A
+  "Mozilla/5.0"` again this session (2nd consecutive daily after the 08-24 recovery) — the prior
+  7+-consecutive-daily empty-CDATA degradation appears genuinely resolved, not a one-off. Downgrade
+  from "recovered, retest" to a standing heal.
+- 2026-08-25 (daily) — NEW DEGRADATION: `ligo.org/news.php` returned a Cloudflare "Attention
+  Required" challenge page via `curl -A "Mozilla/5.0"` this session (previously verified reachable
+  via `tvly extract`, which is unusable while `tvly` is quota-exhausted). First occurrence of this
+  specific block; no working direct-fetch fallback found this session — logged degraded, retest
+  next daily before treating as standing.
+- 2026-08-25 (daily) — CORRECTION to a SOURCES.md access note: MathOverflow's `/feeds/` URL (with
+  trailing slash) now returns an HTTP 307 redirect to `/feeds` (WITHOUT the trailing slash, the
+  opposite of the standing "trailing slash required" note from 2026-07-02) — `curl -sL` (follow
+  redirects) on either path resolves cleanly to the Atom feed either way, so no practical access
+  issue, but the "trailing-slash-required, `/feeds` returns empty" claim in SOURCES.md is stale;
+  corrected to "use `-L` to follow the redirect, either path works."
+- 2026-08-25 (daily) — r/math and r/mathematics: still degraded (`curl` "blocked due to a network
+  policy", `tvly` quota-exhausted so its 08-18-healed search fallback is unusable) — 9th+
+  consecutive degraded daily on this pair, no working fallback found this session.
+- 2026-08-25 (daily) — Source-discovery: no new untracked on-axis domain surfaced this session
+  (all primaries this session came from already-swept arXiv/SciPost venues); Sam Mattheus
+  (sammattheus.wordpress.com, staged since 2026-07-03, still below the ≥2-sighting bar as a
+  BLOG source) now also appears as a co-AUTHOR on a primary directly evidencing the Ramsey trend
+  (arXiv:2608.21769) — noted as a stronger signal that this blog is a genuine pointer/participant
+  surface for the trend, but the promotion bar is about the BLOG's sighting count as a discovery
+  channel, which is unchanged this session (still 1) — held, not promoted.
+- 2026-08-25 (daily) — capture-leak reconciliation: this session named 12 new arXiv ids
+  (2608.23063, 2608.22539, 2608.23089, 2608.23132, 2608.21675, 2608.23260, 2608.22448, 2601.08218,
+  2509.20144, 2608.22813, 2608.21769, 2608.21707) — all 12 land on discrete queue/evidence lines
+  above, 0 leaked. PLUS the mandatory mechanical file-wide reconciliation
+  (`grep -oE '[0-9]{4}\.[0-9]{5}' TRENDS.md`, 198 unique ids, up from 183 on 2026-08-24) found 35
+  ids without a same-line `arxiv.org/abs/` link — diffed against yesterday's already-verified set
+  of 32 (all legitimate cross-references, confirmed 08-24): exactly 3 new entries
+  (2309.01914, 2608.18169, 2608.22350), all three the deliberately-excluded Ramsey-adjacent/
+  parafermionic-CFT-revision items named and explicitly NOT queued in today's trend notes above
+  (a documented judgment call, not a leak) — 0 file-wide leaks found.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-25 (v1 2026-08-24) — [Counterexamples to Escobar's conjecture (Sun, Wang, Wang)](https://arxiv.org/abs/2608.23063)
+  — disproves Escobar's 1999 conjecture bounding the first Steklov eigenvalue below by the boundary
+  principal-curvature floor, for every dimension $n\ge3$, via explicit conformal deformations of
+  the unit ball; a clean, complete resolution (in the negative) of a 27-year-old named conjecture,
+  unrefereed.
 - 2026-08-24 (v1 2025-08-05) — [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk (Bansal, Jiang)](https://arxiv.org/abs/2508.03961)
   — resolves the 1981 Beck-Fiala conjecture for degree $k\ge\log^2 n$ and gives the first
   improvement in decades on the related Komlós conjecture; a ~1-year-old capture-leak catch

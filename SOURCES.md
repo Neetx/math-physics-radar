@@ -61,7 +61,7 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
   Cover proof, then "Ten Advances in Mathematics and Theoretical Computer Science" 2026-08-01) —
   source-discovery promotion after 2 tracked disclosure events on this channel.
 Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
-- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`]** — gravitational-wave detections/catalogs (e.g. GWTC)
+- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25: direct `curl` (even with a browser UA) now hits a Cloudflare "Attention Required" challenge page — `tvly extract` needed, but `tvly` was quota-exhausted this session; no working direct-fetch fallback found. First occurrence — retest next daily before treating as standing.]** — gravitational-wave detections/catalogs (e.g. GWTC)
 - DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
 - CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-24:
   the bare `/news` HTML page now Cloudflare/WAF-blocks direct `curl` (`wpewaf.com` challenge), but
@@ -197,7 +197,7 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
 - r/AskPhysics — https://www.reddit.com/r/AskPhysics/.rss **[verified pattern; 429 2026-07-02]** — broad physics pulse
 - (agent: add r/QuantumComputing (foundations overlap), r/AbstractAlgebra, r/GravitationalWaves if they recur with signal)
 - Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `&query=<term>`) **[known-reliable]** — earthquake check (math/physics stories, incl. big proofs)
-- MathOverflow — https://mathoverflow.net/feeds/ **[healed 2026-07-02: trailing slash required (`/feeds` empty, `/feeds/` = 30 entries); Atom]** — research-level Q&A → follow to a paper
+- MathOverflow — https://mathoverflow.net/feeds/ **[CORRECTED 2026-08-25: the 2026-07-02 "trailing slash required" note is stale — `/feeds/` now 307-redirects to `/feeds` (no trailing slash); `curl -sL` (follow redirects) on either path works cleanly. Atom.]** — research-level Q&A → follow to a paper
 - Physics Stack Exchange — https://physics.stackexchange.com/feeds/ **[candidate; use trailing slash like MathOverflow]**
 - Mathstodon (mathstodon.xyz) — public-timeline API https://mathstodon.xyz/api/v1/timelines/public **[verified 2026-07-02; JSON]** — the research-math Mastodon hub (mathematicians often post results here first). Intake only; link the thread, never name/quote individuals.
 

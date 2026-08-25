@@ -1,27 +1,28 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-1-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-149-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--24-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-159-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--25-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-24):**
-- **Capture-leak catch of the year so far:** [Bansal–Jiang's resolution of the 1981 Beck-Fiala conjecture and near-resolution of the Komlós conjecture](https://arxiv.org/abs/2508.03961) (v1 2025-08-05) sat untracked for a year until a [Quanta feature](https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/) surfaced it this session — now this scan's top study pick.
-- **[Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** picked up a [7th fully independent group](https://scipost.org/SciPostPhysCore.9.3.048) (Graf, Surace, Berg, Moroz) — trend held at `accelerating`/high, already at this cycle's one-stage-move cap.
-- Two more landmark conjecture resolutions queued: [Bouchitté's 2003 Vanishing Mass Conjecture, fully resolved](https://arxiv.org/abs/2608.20899) (Gennaioli–Rindler) and [the Parafree Conjecture disproved for associative algebras](https://arxiv.org/abs/2608.20570) (Ionin–Mikhailov).
-- CERN Courier capture-leak catches (a month old, missed by earlier sweeps): [LHCb's new doubly charmed baryon](https://cerncourier.com/a/a-new-doubly-charmed-baryon/) — the first new particle from its upgraded detector — and [ALPHA's 100×-more-precise antihydrogen CPT test](https://cerncourier.com/a/antihydrogen-toes-the-line/).
+**Since last scan (2026-08-25):**
+- **[Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics)** promoted `emerging` → `accelerating`: a 6th independent group, [Ihringer & Mattheus](https://arxiv.org/abs/2608.21769), gives the first explicit off-diagonal construction with $R(s,t)\ge t^c$, $c>2$, for a fixed $s$.
+- **[Counterexamples to Escobar's conjecture](https://arxiv.org/abs/2608.23063)** (Sun, Wang, Wang) fully disprove a 27-year-old named conjecture in conformal geometry — this scan's top study pick.
+- **[Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** picked up an [8th independent group](https://arxiv.org/abs/2608.21707) (Kobayashi, Otsuka, Tanimoto, Yamamoto) — the first application of the framework to Standard Model flavor phenomenology (SMEFT).
+- Several more landmark conjecture resolutions/disproofs queued: [the Bondal-Orlov localization conjecture for threefolds](https://arxiv.org/abs/2608.22539), [Yau's conjecture on smooth Reinhardt domains](https://arxiv.org/abs/2608.23089), [the Cartan determinant conjecture for representation-finite algebras](https://arxiv.org/abs/2608.23132), and [the Alon-Spencer conjecture on ascending waves](https://arxiv.org/abs/2608.21675).
 
 ## Trends
 
-🌱 1 · 📈 1 · 🚀 1 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 0 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-24](https://scipost.org/SciPostPhysCore.9.3.048) |
-| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 📈 emerging | [2026-08-03](https://arxiv.org/abs/2608.02537) |
+| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-08-22](https://arxiv.org/abs/2608.21769) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- [Counterexamples to Escobar's conjecture (Sun, Wang, Wang)](https://arxiv.org/abs/2608.23063) — disproves Escobar's 1999 conjecture bounding the first Steklov eigenvalue below by the boundary principal-curvature floor, for every dimension $n\ge3$, via explicit conformal deformations of the unit ball; a clean, complete resolution (in the negative) of a 27-year-old named conjecture, unrefereed.
 - [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk (Bansal, Jiang)](https://arxiv.org/abs/2508.03961) — resolves the 1981 Beck-Fiala conjecture for degree $k\ge\log^2 n$ and gives the first improvement in decades on the related Komlós conjecture; a ~1-year-old capture-leak catch surfaced via a 2026-08-21 Quanta feature.
 - [A new doubly charmed baryon (LHCb Collaboration)](https://cerncourier.com/a/a-new-doubly-charmed-baryon/) — the first new particle found with LHCb's upgraded detector; a capture-leak catch from a 2026-07-23 CERN Courier feature.
 - [Spontaneous formation and optical manipulation of a woven domain fabric in a ferroelectric crystal (Xin, Gelkop, Noheda, DelRe et al.)](https://www.nature.com/articles/s41377-026-02374-7) — first observation of a robust, topologically-protected woven fabric of interlaced ferroelectric domains that self-organizes in bulk KTN:Li near room temperature and can be locally rewritten with a laser; peer-reviewed (Light: Science & Applications).
@@ -72,12 +73,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) remain unreachable (8th+ consecutive daily) — no working fallback found this session either.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) remain unreachable (9th+ consecutive daily) — no working fallback found this session either.
 - [Hacker News](https://news.ycombinator.com/) and [MathOverflow](https://mathoverflow.net/) checked — routine, nothing on-axis today.
-- [Quanta's "Huge Breakthrough" piece](https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/) was the session's standout digest-lane pointer, chased to a year-old primary (see Worth studying above).
-- [Backreaction](https://backreaction.blogspot.com/) covered several physics stories this week; only one traced to a genuine, already-tracked primary — the rest were commentary/pointers without an independently opened citation this session.
+- [Terry Tao's blog](https://terrytao.wordpress.com/) announced a new peer-reviewed video-talk journal, "Mathematical Discourse" — ecosystem news, not a research result.
+- [Backreaction](https://backreaction.blogspot.com/) and [Baez's Azimuth](https://johncarlosbaez.wordpress.com/) both checked — routine commentary/exposition this week, nothing traced to a new on-axis primary.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (149) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-24](reports/2026-08-24.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (159) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-25](reports/2026-08-25.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

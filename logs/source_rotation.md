@@ -411,3 +411,96 @@ tracked (not new); no new untracked domain surfaced this session beyond already-
 (Quanta, PRL, SciPost, arXiv, CERN Courier all already in the swept registry) — 0 new candidates
 this session. study_shelf: 2 new picks (Bansal-Jiang Beck-Fiala/Komlós breakthrough, LHCb doubly
 charmed baryon). README.md regenerated from the updated ledger in the same commit.
+
+2026-08-25 (Tue, Pass 1) — first daily since 2026-08-24. tvly STILL quota-exhausted on first call
+this session (5th consecutive occurrence: 08-20 daily, 08-21 daily, 08-22 weekly, 08-24 daily,
+08-25 daily — already crossed heal-owed at the 3rd occurrence, curator already notified 08-22; not
+re-notified this session, no new escalation criterion met). Worked entirely via direct curl (with a
+Mozilla UA)/WebFetch/the arXiv API. Primary sweep (radar-source-sweep): full in-scope arXiv category
+rotation via per-category RSS (math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT +
+hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/astro-ph.CO/HE/nucl-th, 29 categories,
+~1680 items) — fresh Tuesday batch (2026-08-22 submissions cleared the weekend/Monday lag).
+Landmark-tier/notable catches (abstracts verified via arXiv API this session): Escobar's conjecture
+disproved for all n≥3 (Sun-Wang-Wang, 2608.23063, DOMAIN-CADENCE LANDMARK, also study_shelf);
+Bondal-Orlov Localization Conjecture proved for threefolds (Shen-Sun, 2608.22539); Yau's conjecture
+on smooth Reinhardt domains resolved (Yuan, 2608.23089); Cartan determinant conjecture proved for
+representation-finite algebras (Enomoto, 2608.23132); Alon-Spencer conjecture on ascending waves
+resolved (Mao, 2608.21675); Albertson-Berman minimum-counterexample-order=29 follow-up (Cames van
+Batenburg-Goedgebeur-Jooken, 2608.23260, capture — companion to the already-tracked disproof);
+Bruzzo's curve semistability conjecture disproved for Higgs bundles (Huang, 2608.22448); James's
+conjecture minimal-counterexample CAPTURE-LEAK CATCH (~7mo old, Speyer, 2601.08218); Gross-Kuzmin
+conjecture Hilbert-90 criterion (Feuerpfeil, 2509.20144); Eaton-Moreto conjecture proved for
+p-solvable groups (Liu-Wang-Zhang-Zhou, 2608.22813) — 10 items queued. Ramsey trend: CAUGHT a 6th
+independent group, Ihringer-Mattheus "An improved algebraic construction for Ramsey numbers"
+(2608.21769, first explicit R(s,t)≥t^c construction with c>2 for fixed s) — appended as evidence,
+last_evidence advanced to 08-22, PROMOTED emerging→accelerating (one-stage-max rule). Two
+Ramsey-adjacent items reviewed and deliberately NOT counted/queued (different sub-area, routine
+background): R(4,20)≥252 circulant-graph improvement (2608.18169) and induced-threshold-graph
+Ramsey variant (2608.22350). Non-invertible-symmetries trend: CAUGHT an 8th independent group,
+Kobayashi-Otsuka-Tanimoto-Yamamoto SMEFT non-invertible-selection-rules paper (2608.21707,
+hep-ph/hep-th cross-list) — appended as evidence, first application of the trend to SM flavor
+phenomenology; stage HELD accelerating/high (already at ceiling, no mainstreaming signal). A
+cross-listed "replace" of an old 2023 parafermionic-CFT paper (2309.01914 v2) checked and
+excluded (revision, not new). Stanley-Gasharov: HELD seed/medium, two peripheral Schur-positivity
+titles reviewed and excluded (different sub-question), no 4th independent group. PRL/PRX/RMP RSS
+opened (full content) — routine, nothing on-axis beyond already-tracked items. Nature
+Physics/Nature Communications RSS: WORKING again this session (2nd consecutive daily) — the prior
+7+-day empty-CDATA degradation now looks durably healed. SciPost API opened (25 most recent) —
+2 new items since 08-24 (SciPostPhysCore.9.3.050/.051, SciPostPhys.21.2.048) reviewed, none
+on-axis-significant beyond the SMEFT paper already captured via arXiv. INSPIRE-HEP opened (routine
+future-journal-ref-dated instrumentation, nothing on-axis, standing pattern). CERN Courier RSS
+opened (same 07-23 batch as 08-24, no new items — already fully processed). Fermilab news opened
+(routine AI/detector-engineering PR, out of scope). Simons Foundation opened (routine
+grants/collaborations, incl. a new "Mathematical Discourse" peer-reviewed video-talk journal
+announced via Terry Tao's blog — ecosystem context, not individually queued, no primary research
+artifact). Experiments block: LIGO — NEW DEGRADATION, Cloudflare-blocked via direct curl this
+session (tvly extract unusable, quota-exhausted) — logged degraded, SOURCES.md updated, retest
+next daily; DESI opened via curl (same DR2 Lyman-alpha result already tracked 07-30, nothing new);
+CERN opened via home.cern/feed/ RSS (10 routine admin items, no new physics result); IceCube
+opened via curl with UA (routine "Week 33 at the Pole" + a "probing Earth's interior via
+atmospheric neutrinos" technique post, reviewed, not landmark — a search-methods paper, not a
+detection). Community pulse (radar-pulse, intake only): r/math + r/mathematics STILL degraded
+("blocked due to a network policy" + tvly quota-exhausted — 9th+ consecutive degraded daily, no
+working fallback found). Hacker News Algolia front_page opened (nothing on-axis, all AI/tech/misc
+stories). MathOverflow opened via curl -L (CORRECTED a stale SOURCES.md access note: /feeds/ now
+307-redirects to /feeds, not the reverse as previously recorded — follow-redirects works either
+way; routine Q&A content, nothing pointing to a new primary). Mathstodon public timeline opened
+(federated-timeline noise, no arXiv-bot signal today). Digest/blog lane fully opened: Quanta (same
+2 items as 08-24, no new post); Terry Tao's blog opened (a new 08-22 post, "Mathematical
+Discourse," reviewed — a new peer-reviewed video-talk journal announcement, not a math result, not
+queued); Not Even Wrong opened (no new post since 08-16, already tracked); n-Category Cafe opened
+via curl (no new post since 08-17, already tracked via Baez feed); Gowers/Kalai opened (routine,
+ICM-2026 retrospective posts from Kalai, no new primary); Baez/Azimuth opened — "The Mantle"
+(08-22, flagged-but-unopened in the 08-24 report) now OPENED and confirmed to be expository
+geology writing, not a physics result, correctly not queued; Strassler confirmed quiet (no new
+post since 08-16); Backreaction opened (same top post as 08-24, no new post today). Scientific
+American opened via curl (200 OK, still no article-level content extractable from the static
+HTML — logged opened, not a coverage lie, standing pattern). OpenAI research page: JS-shell only,
+no content extractable (standing pattern). Anthropic research page: JS-shell only this session (no
+nav HTML extracted this time either), no content extractable — logged degraded. Repo watch
+(radar-repo-watch): direct curl on releases.atom still session-proxy-scoped/empty; WebFetch on the
+plain .atom URL worked cleanly for all three watched repos (confirming the 08-24 heal). mathlib4:
+routine daily master-* tags through 08-24, nothing landmark. lean4: unchanged since 08-21
+(v4.34.0-rc2/v4.33.1, already tracked). Rocq: unchanged since 07-22 (9.3+rc1). Exploration slot
+(radar-explore, OFF-AXIS rotation): q-bio.PE (population genetics/epidemiology) — next in the
+roster after math.OC — top 12 items read via RSS regardless of sub-topic, all routine
+epidemiological/evolutionary-dynamics modeling titles, 0/12 significant → off-axis rate 0 this run
+(non-alarm per AGENTS.md domain cadence; roster continues, next: math.LO, math.DG, cs.CC, or
+nlin.SI/CD). Trend recalibration (radar-ledger-update): Ramsey — PROMOTED emerging→accelerating
+(6th group, see above), last_evidence 2026-08-22. Non-invertible symmetries — 8th independent
+group found, evidence appended, last_evidence unchanged (a later item already on file), stage HELD
+accelerating/high. Stanley-Gasharov — HELD seed/medium (no 4th group; last_evidence now 27 days
+old). Queue 149 → 159 (+10 new items this session; daily does not burn down per domain cadence).
+capture-leak: 12 new ids checked this session (2608.23063, 2608.22539, 2608.23089, 2608.23132,
+2608.21675, 2608.23260, 2608.22448, 2601.08218, 2509.20144, 2608.22813, 2608.21769, 2608.21707) —
+all land on discrete queue/evidence lines, 0 leaked; PLUS the mandatory mechanical file-wide
+reconciliation (grep -oE '[0-9]{4}\.[0-9]{5}' TRENDS.md, 198 unique ids, up from 183) found 35 ids
+without a same-line arxiv.org/abs/ link — diffed against yesterday's already-verified 32, exactly 3
+new (2309.01914, 2608.18169, 2608.22350), all three deliberately-excluded items named in today's
+trend notes (documented judgment calls, not leaks) — 0 file-wide leaks found. Source-discovery: 0
+new untracked domains staged this session (all primaries came from already-swept venues); noted
+Sam Mattheus (staged blog, sammattheus.wordpress.com) now also co-authors a primary directly
+evidencing the Ramsey trend — blog sighting count unchanged (still 1), held below the ≥2 bar.
+study_shelf: 1 new pick (Escobar's-conjecture disproof). SOURCES.md corrected (MathOverflow
+redirect note) and updated (LIGO new degradation). README.md regenerated from the updated ledger in
+the same commit.
