@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-25
+Last updated: 2026-08-26
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -312,6 +312,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     sub-area (explicit small-number bounds / induced Ramsey, not the tracked asymptotic off-
     diagonal/hypergraph exponent wave) — not counted as trend evidence, not individually queued
     (routine background activity in this sub-field). 60-day dormancy re-check reset to 2026-10-21.
+  - 2026-08-26 (daily): fresh math.CO 2026-08-25 batch (arXiv API, sorted by submission date)
+    scanned for Ramsey-number lower bounds — none (only the already-tracked-and-excluded
+    2608.22350 threshold-graph variant recurring in a broader keyword search). No 7th independent
+    group or referee/vetting outcome. Trend HELD accelerating/medium.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-24
@@ -503,6 +507,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (arXiv:2309.01914 v2) was checked and excluded — a revision of pre-existing work, not a new
     primary. Confidence HELD high (ceiling); stage HELD accelerating (no mainstreaming-tier
     signal yet).
+  - 2026-08-26 (daily): fresh hep-th/hep-ph 2026-08-25 batch + a direct "non-invertible symmetry"
+    abstract search scanned — no 9th independent group and no lattice/continuum cross-citation.
+    Trend HELD accelerating/high.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -622,6 +629,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     recheck of all three tracked preprints: no fresh v-update — no referee/vetting outcome. No 4th
     independent group. Trend HELD seed/medium; last_evidence now 27 days old, well inside the
     60-day window.
+  - 2026-08-26 (daily): fresh math.CO 2026-08-25 batch + a direct Schur-positivity/claw-free
+    abstract search — no 4th independent group or referee/vetting outcome. Trend HELD seed/medium;
+    last_evidence now 28 days old, well inside the 60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2121,6 +2131,56 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   Eaton and Moretó for the special case of $p$-solvable groups. Abstract + authors verified via
   arXiv API this session (v1 2026-08-24). Below-bar partial-progress item on a non-classical
   conjecture — queued.
+- 2026-08-25 — arXiv:2608.24685 — Damiano Rossi, "The Isaacs-Navarro-Wolf conjecture" —
+  https://arxiv.org/abs/2608.24685 — finite group representation theory (axis 1, math.RT): a proof
+  of the Isaacs-Navarro-Wolf conjecture (finite solvable $G$: if $x\in G$ has $\chi(x)\ne0$ for
+  every irreducible character $\chi$, then $x$ lies in some nilpotent normal subgroup of $G$).
+  AI-ASSISTED — the author states the proof "was discovered with the use of artificial intelligence
+  systems" (the standing AI-assisted-math wave, watch-lane per AGENTS.md axis 5: track the
+  mathematical result, not the AI method). Abstract + author verified via arXiv API this session
+  (v1 2026-08-25). Domain-cadence LANDMARK (named-conjecture resolution) but single-author,
+  unrefereed — flagged "unrefereed preprint — claim," watch for independent verification/referee
+  outcome — queued, also a study pick candidate.
+- 2026-08-25 — arXiv:2608.24843 — Sven Hirsch, Yiyue Zhang, "Classification of Maximally Charged
+  Black Holes" — https://arxiv.org/abs/2608.24843 — mathematical general relativity (axis 1/2,
+  math.DG/gr-qc): characterizes ALL maximally-charged black hole spacetimes in 3+1 dimensions —
+  every initial data set saturating the mass-charge inequality under the charged dominant energy
+  condition must arise from an isometric embedding into a Majumdar-Papapetrou spacetime. A complete
+  classification/rigidity theorem (equality case of the charged Penrose-type inequality). Abstract
+  + authors verified via arXiv API this session (v1 2026-08-25). Domain-cadence landmark-adjacent
+  (first-of-kind full classification, not a named-conjecture resolution) — queued, also a study
+  pick candidate.
+- 2026-08-25 — arXiv:2608.24853 — Daoqiang Liu, "Spectral Geroch conjecture and noncompact area
+  enlargeable summands" — https://arxiv.org/abs/2608.24853 — mathematical general relativity /
+  scalar curvature geometry (axis 1/2, math.DG): extends a theorem of Wang-Zhang (positive scalar
+  curvature obstruction under connected sum with an area-enlargeable manifold) from closed to
+  noncompact enlargeable summands, plus a spectral analogue of the generalized Geroch conjecture.
+  Abstract + author verified via arXiv API this session (v1 2026-08-25). Below-bar technical
+  extension of an existing theorem, not itself a conjecture resolution — queued.
+- 2026-08-25 — arXiv:2608.23797 — Eric M. Friedlander, "The Stable Adams Conjecture" —
+  https://arxiv.org/abs/2608.23797 — algebraic topology (axis 1, math.AT): proves stable-homotopy
+  variants of the (already historically resolved, Quillen/Sullivan-era) Adams conjecture via
+  F-spaces and a rigid Artin-Mazur étale homotopy theory, correcting/completing the author's own
+  2023 reformulation attempt (arXiv:2310.14425). Abstract + author verified via arXiv API this
+  session (v1 2026-08-25). Below-bar single-author foundational/technical result (not a new
+  open-conjecture resolution) — queued.
+- 2026-08-25 — arXiv:2608.23721 — Daniel Carranza, Chunyi Liu, Emily Riehl, Egbert Rijke,
+  "Autoformalizing the calculation of $\pi_3(S^2)$" — https://arxiv.org/abs/2608.23721 —
+  computer-assisted/formalized mathematics (axis 5, homotopy type theory / agda-unimath): reports
+  an experiment autoformalizing the HoTT computation of $\pi_3(S^2)$ using Codex — an AI-assisted
+  FORMALIZATION artifact (track the formalization result per axis 5; AI-assistance noted, not the
+  method itself). Abstract + authors verified via arXiv API this session (v1 2026-08-25). Below-bar
+  single artifact — queued.
+- 2026-08-21 (discovered via a Hacker-News front-page pointer this session, accessed 2026-08-26) —
+  arXiv:2608.21590 — Andrew J. S. Hamilton, Tyler McMaken, "Black hole singularity is a surface not
+  a point" — https://arxiv.org/abs/2608.21590 — mathematical/theoretical general relativity (axis
+  2/3, gr-qc): argues the black-hole central singularity is a 2-dimensional surface, not a point —
+  two infalling observers on different angular trajectories lose causal contact before reaching the
+  singularity; for rotating holes the singular surface sits at the inner horizon via mass-inflation
+  instability. Proposes the black hole's quantum microstates reside on this surface, coevolving
+  unitarily with the Hawking-radiation atmosphere — a quantum-gravity implication. Abstract +
+  authors verified via arXiv API this session. Below-bar single/two-author theoretical proposal,
+  unrefereed — queued.
 
 ## source_rotation
 
@@ -2738,12 +2798,56 @@ Corrections to the source-coverage strategy.
   (2309.01914, 2608.18169, 2608.22350), all three the deliberately-excluded Ramsey-adjacent/
   parafermionic-CFT-revision items named and explicitly NOT queued in today's trend notes above
   (a documented judgment call, not a leak) — 0 file-wide leaks found.
+- 2026-08-26 (daily) — TOOLING: `tvly` still returned "exceeds your plan's set usage limit" on
+  the first call this session (a fresh `pip install -q tavily-cli` was needed since the CLI was
+  absent from this session's environment; installing it did not clear the quota) — 6th
+  consecutive occurrence (08-20, 08-21, 08-22, 08-24, 08-25, 08-26). Already heal-owed and
+  curator-notified at the 3rd occurrence (08-22); not re-notified this session (no new escalation
+  criterion — a 6th identical, already-reported outage is not new information). Worked around
+  entirely via direct `curl`/the arXiv API for every lane.
+- 2026-08-26 (daily) — LIGO RETEST: `ligo.org/news.php` via `curl -A "Mozilla/5.0"` still returns
+  the Cloudflare "Attention Required" challenge page (2nd consecutive occurrence after the first
+  2026-08-25 report) — no working direct-fetch fallback found again this session (`tvly` remains
+  quota-exhausted). Upgrading from "first occurrence, retest" to standing degraded; DESI (same
+  DR2 Lyman-alpha result already tracked 07-30) and CERN (`home.cern/feed/`, routine admin items,
+  no new physics result) both opened cleanly.
+- 2026-08-26 (daily) — HEAL: IceCube's bare `/news/` page returns only a JS-rendered widget shell
+  via direct `curl` (no article titles extractable, matching the Scientific American failure
+  class) — but its RSS feed `https://icecube.wisc.edu/category/news/feed/` (distinct from the
+  empty `/news/feed` path) works cleanly via plain `curl`, returning full titles/dates. Recorded
+  in SOURCES.md; prefer this feed over the bare HTML page going forward.
+- 2026-08-26 (daily) — r/math and r/mathematics: still degraded (direct `curl` served an HTML
+  interstitial, not the `.rss`/Atom feed; `tvly` quota-exhausted so its search fallback is
+  unusable) — 10th+ consecutive degraded daily on this pair, no working fallback found this
+  session.
+- 2026-08-26 (daily) — Source-discovery: no new untracked on-axis domain surfaced this session —
+  today's on-axis primaries came from arXiv (already the core swept venue) and one item
+  (arXiv:2608.21590, the black-hole-singularity paper) was discovered via Hacker News' Algolia
+  front-page API, which is already a tracked DAILY-tier intake channel (not a new domain to
+  stage). No candidate promotions/demotions to SOURCES.md's discovered-source staging list.
+- 2026-08-26 (daily) — capture-leak reconciliation: this session named 6 new arXiv ids
+  (2608.24685, 2608.24843, 2608.24853, 2608.23797, 2608.23721, 2608.21590) — all 6 land on
+  discrete queue lines above, 0 leaked. PLUS the mandatory mechanical file-wide reconciliation
+  (`grep -oE '[0-9]{4}\.[0-9]{5}' TRENDS.md`, 205 unique ids, up from 198 on 2026-08-25) found 36
+  ids without a same-line `arxiv.org/abs/` link — diffed against yesterday's already-verified set
+  of 35: exactly 1 new entry (2310.14425, Eric Friedlander's own 2023 "Reformulation of the stable
+  Adams conjecture," cited in prose in today's queued "The Stable Adams Conjecture" item as the
+  superseded prior attempt the new paper corrects/completes — not itself an independent primary
+  worth a separate queue line, a documented judgment call, not a leak) — 0 file-wide leaks found.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-26 (v1 2026-08-25) — [Classification of Maximally Charged Black Holes (Hirsch, Zhang)](https://arxiv.org/abs/2608.24843)
+  — a complete classification of every maximally-charged (mass-charge-equality-saturating) black
+  hole spacetime in 3+1 dimensions: any such initial data set must embed isometrically into a
+  Majumdar-Papapetrou spacetime; a clean rigidity/equality-case theorem in mathematical GR.
+- 2026-08-26 (v1 2026-08-25) — [The Isaacs-Navarro-Wolf conjecture (Rossi)](https://arxiv.org/abs/2608.24685)
+  — a proof of a standing open conjecture in finite-group character theory, explicitly discovered
+  with AI assistance (the ongoing AI-assisted-math wave); single-author, unrefereed — worth knowing
+  for both the result and as a fresh data point on AI-assisted proof discovery.
 - 2026-08-25 (v1 2026-08-24) — [Counterexamples to Escobar's conjecture (Sun, Wang, Wang)](https://arxiv.org/abs/2608.23063)
   — disproves Escobar's 1999 conjecture bounding the first Steklov eigenvalue below by the boundary
   principal-curvature floor, for every dimension $n\ge3$, via explicit conformal deformations of

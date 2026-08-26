@@ -504,3 +504,68 @@ evidencing the Ramsey trend — blog sighting count unchanged (still 1), held be
 study_shelf: 1 new pick (Escobar's-conjecture disproof). SOURCES.md corrected (MathOverflow
 redirect note) and updated (LIGO new degradation). README.md regenerated from the updated ledger in
 the same commit.
+
+## 2026-08-26 (daily, Pass 1)
+Full DAILY-tier sweep. Primary feeds (radar-source-sweep): CERN Courier RSS opened (same 07-23
+batch, nothing new), Fermilab news RSS opened (one new item 08-25, "Fermilab Team Refines Muon
+Anomaly Correction Via Decay Analysis" — a syndicated third-party (quantumzeitgeist.com) news
+blurb reposted under Fermilab's "In the news" category, wordCount 9, no underlying primary paper
+located this session — reviewed, not queued as its own primary), Simons Foundation RSS opened
+(routine grants/collaborations/fellowships, nothing individually queueable). arXiv (THE core
+lane): swept via the API sorted by submission date across math.NT/CO/AG/RT/DG/PR/AT/GT (in-scope
+category rotation) plus hep-th/hep-ph/gr-qc/math-ph/quant-ph/astro-ph.CO/astro-ph.HE/
+cond-mat.str-el/cond-mat.supr-con (fresh 2026-08-25 batch, the latest posted) — 6 items captured
+to the queue (see TRENDS.md): Isaacs-Navarro-Wolf conjecture proof (AI-assisted, math.RT),
+Classification of Maximally Charged Black Holes (math.DG/gr-qc), a Spectral-Geroch-conjecture
+extension, the Stable Adams Conjecture, an autoformalized π_3(S^2) computation (axis 5), plus a
+gr-qc black-hole-singularity paper caught via the HN pulse (below). Targeted keyword searches for
+the three tracked trends (Ramsey lower bounds, non-invertible symmetries, Stanley-Gasharov) found
+no new independent group for any — all three HELD. PRL/PRX/RMP/Quantum-journal RSS opened (routine
+research output, nothing landmark). Nature Physics/Nature Communications RSS opened — CORRECTED a
+false "empty-CDATA" read from an earlier grep pattern that didn't account for this feed's
+`<title><![CDATA[...]]></title>` wrapping; re-extracted cleanly, confirming the 08-24/08-25 heal is
+genuinely durable (3rd consecutive clean daily), not degraded. INSPIRE-HEP opened (routine
+future-dated detector-instrumentation entries, nothing on-axis). SciPost API opened (25 most
+recent, routine hep-th/cond-mat/quant papers, nothing beyond ordinary research). Experiments block:
+LIGO retested — STILL Cloudflare-blocked via direct curl (2nd consecutive occurrence, `tvly`
+quota-exhausted) — upgraded to standing degraded in SOURCES.md; DESI opened (same DR2 Lyman-alpha
+result already tracked, nothing new); CERN opened via `home.cern/feed/` (routine admin items);
+IceCube — bare `/news/` page is JS-shell (no extractable titles), but
+`https://icecube.wisc.edu/category/news/feed/` HEALED this session (plain curl, full titles/dates)
+— one new item (NSF renewing the IceCube O&M contract, funding news, not queued) — recorded in
+SOURCES.md. Community pulse (radar-pulse, intake only): r/math + r/mathematics STILL degraded
+(HTML interstitial via curl, `tvly` quota-exhausted — 10th+ consecutive degraded daily). Hacker
+News Algolia front_page opened — CAUGHT "Black hole singularity is a surface not a point"
+(arXiv:2608.21590, Hamilton & McMaken), a gr-qc theoretical-GR paper, queued (a genuine
+discovery-lane hit via the intake channel, not a routine story). MathOverflow opened via curl
+(confirmed working — an earlier "no titles" read was a grep-pattern miss, not a real degradation;
+routine Q&A, nothing pointing to a new primary). Mathstodon public timeline opened (mostly
+federated-timeline noise, one math-adjacent toot pointing to an already-ordinary arXiv title, not
+independently significant). Digest/blog lane fully opened: Quanta (same 2 items as prior days, no
+new post); Terry Tao's blog (no new post since 08-22); Not Even Wrong opened — ONE new post today
+("This Week's Hype," 08-26, media-hype commentary on an Economist piece over-claiming a testable
+prediction from Vafa's "dark dimension," not itself a new primary result — reviewed, not queued,
+consistent with the hype-skepticism rule); n-Category Café opened via curl (no new post since
+08-22); Gowers/Kalai opened (no new posts since 08-12/08-15 respectively); Baez/Azimuth opened (no
+new post since 08-22); Strassler confirmed quiet; Backreaction opened (same 08-23 top post, no new
+post today). Scientific American opened (200 OK, still no article-level content extractable from
+static HTML — standing pattern, not a coverage lie). Repo watch (radar-repo-watch, via WebFetch on
+`.atom`, all three watched repos clean): mathlib4 daily tag now master-2026-08-25 (routine);
+lean4 unchanged v4.34.0-rc2/v4.33.1 (08-21, already tracked); Rocq unchanged 9.3+rc1 (07-22).
+Exploration slot (radar-explore, OFF-AXIS rotation): math.LO (mathematical logic/set theory) — top
+20 items read via arXiv API, all routine model-theory/set-theory papers, 0/20 significant
+off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues, next: cs.CC or
+nlin.SI/CD). Trend recalibration (radar-ledger-update): Ramsey — HELD accelerating/medium (no 7th
+group). Non-invertible symmetries — HELD accelerating/high (no 9th group). Stanley-Gasharov — HELD
+seed/medium (no 4th group; last_evidence now 28 days old). Queue 159 → 165 (+6; daily does not
+burn down per domain cadence). capture-leak: 6 new ids checked this session (2608.24685,
+2608.24843, 2608.24853, 2608.23797, 2608.23721, 2608.21590) — all land on discrete queue lines,
+0 leaked; PLUS the mandatory mechanical file-wide reconciliation (205 unique ids, up from 198)
+found 36 ids without a same-line arxiv.org/abs/ link — diffed against yesterday's verified 35,
+exactly 1 new (2310.14425, a superseded prior paper cited in prose, not an independent primary) —
+0 file-wide leaks. Source-discovery: 0 new untracked domains staged (today's primaries came from
+already-swept arXiv/HN-pulse venues). study_shelf: 2 new picks (Classification of Maximally
+Charged Black Holes; the Isaacs-Navarro-Wolf conjecture proof). SOURCES.md updated (LIGO upgraded
+to standing degraded; IceCube RSS heal recorded). tvly: 6th consecutive quota-exhausted occurrence,
+not re-notified (already heal-owed/notified at the 3rd). README.md regenerated from the updated
+ledger in the same commit.

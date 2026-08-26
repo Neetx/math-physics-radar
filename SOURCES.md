@@ -61,13 +61,13 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
   Cover proof, then "Ten Advances in Mathematics and Theoretical Computer Science" 2026-08-01) —
   source-discovery promotion after 2 tracked disclosure events on this channel.
 Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
-- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25: direct `curl` (even with a browser UA) now hits a Cloudflare "Attention Required" challenge page — `tvly extract` needed, but `tvly` was quota-exhausted this session; no working direct-fetch fallback found. First occurrence — retest next daily before treating as standing.]** — gravitational-wave detections/catalogs (e.g. GWTC)
+- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25/08-26 (2 consecutive dailies): direct `curl` (even with a browser UA) hits a Cloudflare "Attention Required" challenge page — `tvly extract` needed, but `tvly` has been quota-exhausted both sessions; no working direct-fetch fallback found either day. Now STANDING degraded, not a one-off — heal owed if a 3rd occurrence lands.]** — gravitational-wave detections/catalogs (e.g. GWTC)
 - DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
 - CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-24:
   the bare `/news` HTML page now Cloudflare/WAF-blocks direct `curl` (`wpewaf.com` challenge), but
   `https://home.cern/feed/` (RSS, NOT `/feed.rss` which 404s) works cleanly via plain `curl` —
   prefer the `/feed/` RSS going forward.]** — collider (ATLAS/CMS) results & data
-- IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`]** — neutrino astrophysics
+- IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-26: the bare `/news/` page is a JS-rendered widget shell (no article titles extractable via plain `curl`), but `https://icecube.wisc.edu/category/news/feed/` (RSS — NOT the empty `/news/feed` path) works cleanly via plain `curl`, returning full titles/dates. Prefer this RSS feed going forward.]** — neutrino astrophysics
 - (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
