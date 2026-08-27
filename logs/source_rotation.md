@@ -569,3 +569,79 @@ Charged Black Holes; the Isaacs-Navarro-Wolf conjecture proof). SOURCES.md updat
 to standing degraded; IceCube RSS heal recorded). tvly: 6th consecutive quota-exhausted occurrence,
 not re-notified (already heal-owed/notified at the 3rd). README.md regenerated from the updated
 ledger in the same commit.
+
+## 2026-08-27 (daily, Pass 1)
+Full DAILY-tier sweep. No orphaned `radar:` commits found (session branch already matched
+`origin/main`'s head at session start; last commit 8072fa7, "radar: daily update 2026-08-26").
+Primary feeds (radar-source-sweep): CERN Courier RSS opened (same 07-23 batch, nothing new),
+Fermilab news RSS opened (same items as 08-26, nothing new), Simons Foundation RSS opened (same
+items as prior days, routine grants/fellowships). arXiv (THE core lane): fetched the fresh
+2026-08-26 batch (147 math entries across the full in-scope category rotation math.AG/AC/RA/KT/
+AT/GT/DG/SG/AP/FA/CA/CV/NT/CO/PR/RT/LO/OA/OC/DS, plus 141 physics entries across hep-th/hep-ph/
+gr-qc/math-ph/quant-ph/astro-ph.CO/astro-ph.HE/cond-mat.str-el/cond-mat.supr-con/cond-mat.mes-hall)
+via the arXiv API sorted by submission date. Captured: Hoffmann-Ostenhof's 3-Decomposition
+Conjecture (arXiv:2608.25385, Jicheng Ma — domain-cadence landmark, full resolution of a
+"wide open" named cubic-graph-decomposition conjecture, verified via a `tvly`-unavailable
+WebSearch of Open Problem Garden/ScienceDirect/Science China listings), a partial answer to the
+Gibbons-Hartnoll-Pope instability conjecture for Böhm's Einstein metrics (2608.25865), a
+completed Wang-Sun practical-numbers conjecture (2608.25591), and a counterexample to Kanalas'
+continuous-type-realisation problem (2608.25688). Targeted keyword/grep searches across both
+fresh batches for the three tracked trends: Ramsey lower bounds — none; Stanley-Gasharov/
+claw-free Schur-positivity — none; non-invertible/categorical symmetries — CAUGHT a 9th
+independent group, arXiv:2608.24385 (Ahn, Bajnok, Elek), appended as evidence (see TRENDS.md).
+PRL/PRX/RMP/Quantum-journal RSS opened (routine, nothing landmark). Nature Physics/Nature
+Communications RSS opened (durable heal holding, 4th consecutive clean daily). INSPIRE-HEP
+opened (routine future-dated instrumentation entries, nothing on-axis). SciPost API opened (15
+most recent — one SymTFT-adjacent item, SciPostPhysCore.9.3.050 "Reflections on time-reversal in
+the symmetry topological field theory," checked and excluded: classifies ordinary unitary+
+anti-unitary symmetry SPT phases via SymTFT, not a non-invertible/fusion-category symmetry — does
+not feed the tracked trend, same exclusion class as the earlier 2-group SymTFT item). Experiments
+block: LIGO retested and HEALED this session (`WebFetch` on `http://www.ligo.org/news` bypasses
+the Cloudflare block that has hit direct `curl` since 08-25 — see SOURCES.md; newest item still
+GWTC-5.0, already tracked); DESI opened (static homepage, nothing new); CERN opened via
+`home.cern/feed/` (one new admin item, FCC positron test, not queued); IceCube opened via the
+healed `category/news/feed/` RSS (same items as 08-26, nothing new). Community pulse (radar-pulse,
+intake only): r/math + r/mathematics STILL degraded (curl blocked, `tvly` quota-exhausted, WebFetch
+"unable to fetch from www.reddit.com" — 11th+ consecutive degraded daily, no working fallback
+found). Hacker News Algolia front_page opened — no math/physics story on today's front page (tech/
+business news dominated). MathOverflow opened via curl on `/feeds` (no trailing slash — routine
+Q&A, nothing pointing to a new primary). Mathstodon public timeline opened (federated-timeline
+noise only, nothing math-specific). Digest/blog lane fully opened: Quanta (one new post, "In
+Hilbert Space, All Things Are Quantumly Possible" 08-26 — a pure explainer on Hilbert-space
+foundations, no new primary named, checked via WebFetch and not queued); Terry Tao's blog (one new
+post, "Rotating needles in space: the road to the Kakeya conjecture, and why it matters" 08-25 —
+an expository piece on the already-tracked, already-resolved 3D Kakeya conjecture, not a new
+primary); Not Even Wrong opened (no new post since 08-26's "This Week's Hype", already tracked);
+n-Category Café opened via curl (no new post since 08-22); Gowers/Kalai opened (no new posts);
+Baez/Azimuth opened (no new post since 08-22's "The Mantle"); Strassler confirmed quiet;
+Backreaction opened (one new post, "Quantum Computing Failure Now Obvious" 08-25 — quantum-
+computing technology, the sibling quantum radar's beat, not queued here). Scientific American
+opened via WebFetch (mainstream science-press headlines only, nothing rising to a primary this
+radar tracks). Repo watch (radar-repo-watch, via WebFetch on `.atom` for lean4/rocq and via
+WebFetch directly for mathlib4, all three clean): lean4 unchanged v4.34.0-rc2/v4.33.1 (08-21,
+already tracked); mathlib4 daily tag now master-2026-08-26 (routine; the 08-25 tag's message
+noted removing an "LLM" credit from an author line — an internal governance/attribution chore,
+not queued); Rocq unchanged 9.3+rc1 (07-22). Exploration slot (radar-explore, OFF-AXIS rotation):
+cs.CC (computational complexity) — top 25 items read via the arXiv API regardless of sub-topic,
+all routine complexity-theory/algorithms papers (including two quantum-ground-state-energy-
+estimation papers, technology-adjacent not physics), 0/25 significant off-axis catch (non-alarm
+per AGENTS.md domain cadence; roster continues, next: nlin.SI/CD or math.NA). Trend recalibration
+(radar-ledger-update): Ramsey — HELD accelerating/medium (no 7th group; arXiv-API metadata
+recheck of all six tracked preprints shows no fresh v-update). Non-invertible symmetries —
+PROMOTED evidence with a 9th independent group (Ahn-Bajnok-Elek, integrable-QFT/TBA
+sub-application), last_evidence advances 2026-08-24 → 2026-08-25; stage HELD accelerating/high
+(no mainstreaming-tier signal). Stanley-Gasharov — HELD seed/medium (no 4th group; last_evidence
+now 29 days old; arXiv-API metadata recheck of all three tracked preprints shows no fresh
+v-update). Queue 165 → 169 (+4 new items this session; daily does not burn down per domain
+cadence). capture-leak: 5 new ids checked this session (2608.24385, 2608.25385, 2608.25865,
+2608.25591, 2608.25688) — all land on discrete queue/evidence lines, 0 leaked. PLUS a corrected
+(whole-file, not same-physical-line) mechanical file-wide reconciliation: 210 unique arXiv ids
+(up from 205), 22 with no `arXiv:<id>`/`abs/<id>` citation anywhere — all 22 verified legitimate
+(18 are ids of items dropped in past weekly burndowns, named only in `strategy_notes`'
+burndown documentation; 4 are ids of items explicitly checked-and-excluded from a trend inside
+that trend's own notes, cited via a shared-prefix style without the `arXiv:` token) — 0 file-wide
+leaks. Source-discovery: 0 new untracked domains staged this session (today's primaries came from
+already-swept arXiv). study_shelf: 1 new pick (the 3-Decomposition Conjecture proof). SOURCES.md
+updated (LIGO healed via WebFetch redirect path). tvly: 7th consecutive quota-exhausted
+occurrence, not re-notified (already heal-owed/notified at the 3rd). README.md regenerated from
+the updated ledger in the same commit.

@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-26
+Last updated: 2026-08-27
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -316,9 +316,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     scanned for Ramsey-number lower bounds — none (only the already-tracked-and-excluded
     2608.22350 threshold-graph variant recurring in a broader keyword search). No 7th independent
     group or referee/vetting outcome. Trend HELD accelerating/medium.
+  - 2026-08-27 (daily): fresh math full in-scope category-rotation batch (2026-08-26, 147
+    entries) scanned for Ramsey lower bounds — none (batch's own landmark item was
+    Hoffmann-Ostenhof's 3-Decomposition Conjecture, a different sub-area, captured below).
+    arXiv-API metadata recheck of all six tracked preprints (2507.12926, 2605.28793,
+    2604.23986, 2605.25843, 2608.02537, 2608.21769): no fresh v-update beyond what was already
+    on file — no referee/vetting outcome. Trend HELD accelerating/medium; last_evidence
+    2026-08-22 now 5 days old.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-24
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-25
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -375,6 +382,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     baryon-number-conserving dimension-six Standard Model Effective Field Theory operators,
     constraining Wilson-coefficient tensor structures. Abstract + authors verified via arXiv API
     this session (v1 2026-08-22).
+  - 2026-08-25 — https://arxiv.org/abs/2608.24385 — Ahn, Bajnok, Elek, "New RG flows between
+    non-Unitary CFTs from exact massless scattering theories": a NINTH fully independent author
+    group (independent of all eight above), on a new sub-application — constructs an infinite
+    family of integrable RG flows (via massless S-matrix bootstrap / thermodynamic-Bethe-ansatz
+    solutions) from higher-fusion-level minimal models to non-unitary Virasoro minimal models
+    (including a flow to the Yang-Lee CFT), and shows a family of non-invertible Verlinde defect
+    lines is preserved along the flows — the first engagement on this trend from the
+    integrable-QFT/TBA sub-community. Abstract + authors verified via arXiv API this session
+    (v1 2026-08-25).
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -510,6 +526,18 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-26 (daily): fresh hep-th/hep-ph 2026-08-25 batch + a direct "non-invertible symmetry"
     abstract search scanned — no 9th independent group and no lattice/continuum cross-citation.
     Trend HELD accelerating/high.
+  - 2026-08-27 (daily, 9th group): fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat/astro-ph
+    batch (2026-08-26, 141 fresh entries) surfaced arXiv:2608.24385 (Ahn, Bajnok, Elek —
+    Ewha Womans University / Wigner Research Centre, fully independent of all eight prior
+    groups) — appended as evidence above. A NINTH sub-application: constructs an infinite
+    family of integrable RG flows (via the massless S-matrix bootstrap / TBA) from
+    higher-fusion-level minimal models to non-unitary Virasoro minimal models (incl. a flow to
+    the Yang-Lee CFT), and shows a family of non-invertible Verlinde defect lines is preserved
+    along the flows — the first engagement on this trend from the integrable-QFT/TBA
+    sub-community, distinct from the prior lattice/CFT/topological-order/VOA/SMEFT
+    sub-applications. last_evidence advances 2026-08-24 → 2026-08-25. Still no explicit
+    lattice/continuum cross-citation. Confidence HELD high (ceiling); stage HELD accelerating
+    (no mainstreaming-tier signal yet). Watch for a 10th group.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -632,6 +660,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-08-26 (daily): fresh math.CO 2026-08-25 batch + a direct Schur-positivity/claw-free
     abstract search — no 4th independent group or referee/vetting outcome. Trend HELD seed/medium;
     last_evidence now 28 days old, well inside the 60-day window.
+  - 2026-08-27 (daily): fresh math.CO 2026-08-26 batch scanned for Schur-positivity/claw-free
+    items — none. arXiv-API metadata recheck of all three tracked preprints (2607.21508,
+    2607.26364, 2607.27166): no fresh v-update — no referee/vetting outcome. No 4th independent
+    group. Trend HELD seed/medium; last_evidence now 29 days old, well inside the 60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2181,6 +2213,39 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   unitarily with the Hawking-radiation atmosphere — a quantum-gravity implication. Abstract +
   authors verified via arXiv API this session. Below-bar single/two-author theoretical proposal,
   unrefereed — queued.
+- 2026-08-26 (v1) — arXiv:2608.25385 — Jicheng Ma, "Matching complements in subcubic graphs and a
+  proof of the 3-Decomposition Conjecture" — https://arxiv.org/abs/2608.25385 — extremal/structural
+  graph theory (axis 1, math.CO): proves Hoffmann-Ostenhof's 3-Decomposition Conjecture in full —
+  every finite connected cubic loopless multigraph decomposes into a spanning tree, a 2-regular
+  subgraph, and a matching — via a new theorem on matching complements in subcubic graphs (a
+  matching equal to the cycle rank whose deletion leaves a single spanning tree plus disjoint
+  cycles). Per a `tvly`-unavailable web search this session (Open Problem Garden, ScienceDirect,
+  Science China Mathematics listings), the conjecture was "wide open" before this paper, with prior
+  partial progress restricted to Hamiltonian/planar cubic graphs and graphs with a 3-cycle 2-factor
+  — a genuine full resolution, not an incremental case. Abstract + author verified via arXiv API
+  this session (v1 2026-08-26). Single-author unrefereed preprint resolving a long-standing named
+  conjecture — PROVISIONAL under the hype-skepticism rule; domain-cadence LANDMARK — queued, also
+  on `study_shelf`.
+- 2026-08-26 (v1) — arXiv:2608.25865 — Guillaume Verger, "Instability of Böhm's Einstein metrics"
+  — https://arxiv.org/abs/2608.25865 — differential geometry / mathematical physics (axis 1/2,
+  math.DG, gr-qc-adjacent): shows the number of negative Lichnerowicz-Laplacian eigenvalues along
+  Böhm's Einstein-metric sequences (on $S^{k+1}\times S^l$ and $S^{k+l+1}$) tends to infinity — a
+  partial answer to a conjecture of Gibbons, Hartnoll and Pope on the instability of the associated
+  generalised black-hole spacetimes. Abstract + author verified via arXiv API this session (v1
+  2026-08-26). Below-bar (a partial, not full, resolution) — queued.
+- 2026-08-26 (v1) — arXiv:2608.25591 — Ting Hon Stanford Li, "A Short Proof of a Conjecture
+  Regarding Quadratic Representations of Practical Numbers" — https://arxiv.org/abs/2608.25591 —
+  number theory (axis 1, math.NT): proves the remaining (second) part of a Wang-Sun conjecture on
+  quadratic representations of practical numbers, which combined with prior work of Somu, Li and
+  Kukla completely settles the conjecture. Abstract + author verified via arXiv API this session
+  (v1 2026-08-26). Below-bar (a young, niche conjecture, completed via combination with prior
+  partial work) — queued.
+- 2026-08-26 (v1) — arXiv:2608.25688 — Morgan Rogers, Joshua Wrigley, "A counterexample to
+  Kanalas' problem of continuously realising types" — https://arxiv.org/abs/2608.25688 —
+  mathematical logic / topos theory (axis 1, math.LO/CT): answers in the negative a problem posed
+  by Kristóf Kanalas on continuously realising model-theoretic types as a sheaf model over a
+  topological space. Abstract + authors verified via arXiv API this session (v1 2026-08-26).
+  Below-bar (a specialized, recently-posed open problem) — queued.
 
 ## source_rotation
 
@@ -2834,12 +2899,52 @@ Corrections to the source-coverage strategy.
   Adams conjecture," cited in prose in today's queued "The Stable Adams Conjecture" item as the
   superseded prior attempt the new paper corrects/completes — not itself an independent primary
   worth a separate queue line, a documented judgment call, not a leak) — 0 file-wide leaks found.
+- 2026-08-27 (daily) — TOOLING: `tvly` still returned "exceeds your plan's set usage limit" on
+  the first call this session (a fresh `pip install -q tavily-cli` did not help) — 7th
+  consecutive occurrence (08-20, 08-21, 08-22, 08-24, 08-25, 08-26, 08-27). Already heal-owed and
+  curator-notified at the 3rd occurrence (08-22); not re-notified (no new escalation criterion).
+  Worked around entirely via direct `curl`/`WebFetch`/`WebSearch`/the arXiv API.
+- 2026-08-27 (daily) — HEAL: LIGO's `ligo.org/news.php` (standing degraded since 2026-08-25,
+  Cloudflare "Attention Required" via `curl`, unhealable via `tvly` while quota-exhausted) can be
+  bypassed with `WebFetch` on the plain `http://www.ligo.org/news` URL (no `.php`, no forced
+  HTTPS) — returns the full LSC news listing cleanly (confirmed this session: newest item still
+  GWTC-5.0, 2026-05-26, already tracked). `WebFetch` on the original `https://www.ligo.org/news.php`
+  URL instead reports a same-host redirect to this URL, which must be re-fetched directly.
+  Recorded in SOURCES.md as the primary access method going forward; downgrading LIGO from
+  standing-degraded to healed.
+- 2026-08-27 (daily) — capture-leak reconciliation: this session named 5 new arXiv ids
+  (2608.24385, 2608.25385, 2608.25865, 2608.25591, 2608.25688) — all 5 land on discrete
+  queue/evidence lines above, 0 leaked. This session ALSO re-ran the mechanical file-wide sweep
+  with a corrected (whole-file, not same-physical-line) citation check — same-line matching
+  produces false positives whenever a paragraph wraps across lines, which is the norm in this
+  file; checking instead whether each unique id appears anywhere as `arXiv:<id>`, `abs/<id>`, or
+  `arxiv.org/abs/<id>` is the actual test daily.md's capture rule cares about ("does this id land
+  on a discrete queue/evidence/shelf line, not merely in prose"). 210 unique ids file-wide (up
+  from 205); 22 have no such citation anywhere — ALL verified legitimate, not leaks: 18 are ids of
+  items DROPPED in the W33/W34 weekly queue burndowns whose ids persist only inside
+  `strategy_notes`' own burndown documentation (e.g. 2607.16695, 2607.15406, 2607.09049,
+  2607.01544 — the burndown notes name what was dropped and why, not a live capture obligation),
+  and 4 are ids of items EXPLICITLY CHECKED AND EXCLUDED from a trend inside that trend's own
+  notes, cited without the `arXiv:` prefix due to a shared-prefix citation style (2606.24863,
+  2608.16434, 2608.16613 — each already reasoned about as "not a Ramsey/Schur-positivity-trend
+  group" the day it was found; 2501.14545 — cited alongside 2306.04799 as background prior work
+  behind the Riemann-zeta ledger item, not an independent primary). 0 actual file-wide leaks.
+  capture-leak: 5 new ids checked + full-file citation-anywhere sweep (210 ids, 22 reviewed, 0
+  leaked).
+- 2026-08-27 (daily) — Source-discovery: no new untracked on-axis domain surfaced this session —
+  today's primaries (the 3-Decomposition Conjecture, the non-invertible-symmetries 9th group, the
+  below-bar items) all came from the already-swept arXiv venue.
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-27 (v1 2026-08-26) — [Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture (Jicheng Ma)](https://arxiv.org/abs/2608.25385)
+  — resolves Hoffmann-Ostenhof's 3-Decomposition Conjecture in full: every finite connected cubic
+  loopless multigraph decomposes into a spanning tree, a 2-regular subgraph, and a matching — a
+  long-standing "wide open" problem in structural graph theory, previously known only for
+  Hamiltonian/planar cubic graphs and a special 2-factor case.
 - 2026-08-26 (v1 2026-08-25) — [Classification of Maximally Charged Black Holes (Hirsch, Zhang)](https://arxiv.org/abs/2608.24843)
   — a complete classification of every maximally-charged (mass-charge-equality-saturating) black
   hole spacetime in 3+1 dimensions: any such initial data set must embed isometrically into a

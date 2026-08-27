@@ -1,14 +1,13 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-165-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--26-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-169-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--27-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-26):**
-- **[Classification of Maximally Charged Black Holes](https://arxiv.org/abs/2608.24843)** (Hirsch, Zhang) — a complete classification of every maximally-charged black hole spacetime in 3+1 dimensions, this scan's top study pick.
-- **[The Isaacs-Navarro-Wolf conjecture](https://arxiv.org/abs/2608.24685)** (Rossi) — a proof of a standing finite-group-theory conjecture, discovered with AI assistance; also a study pick.
-- **[Black hole singularity is a surface not a point](https://arxiv.org/abs/2608.21590)** (Hamilton, McMaken) — a gr-qc theoretical proposal caught via the Hacker News pulse, queued.
-- All three tracked trends ([Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics)) HELD — no new independent group today.
+**Since last scan (2026-08-27):**
+- **[Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture](https://arxiv.org/abs/2608.25385)** (Jicheng Ma) — a full resolution of Hoffmann-Ostenhof's "wide open" cubic-graph-decomposition conjecture, this scan's top study pick.
+- **[Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** gained a 9th independent group ([Ahn, Bajnok, Elek](https://arxiv.org/abs/2608.24385)) — a new sub-application from integrable-QFT/TBA constructions.
+- [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) HELD — no new independent group today.
 
 ## Trends
 
@@ -16,12 +15,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-24](https://scipost.org/SciPostPhysCore.9.3.048) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-25](https://arxiv.org/abs/2608.24385) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-08-22](https://arxiv.org/abs/2608.21769) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- [Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture (Jicheng Ma)](https://arxiv.org/abs/2608.25385) — resolves Hoffmann-Ostenhof's 3-Decomposition Conjecture in full: every finite connected cubic loopless multigraph decomposes into a spanning tree, a 2-regular subgraph, and a matching — previously "wide open" beyond Hamiltonian/planar special cases.
 - [Classification of Maximally Charged Black Holes (Hirsch, Zhang)](https://arxiv.org/abs/2608.24843) — a complete classification of every maximally-charged (mass-charge-equality-saturating) black hole spacetime in 3+1 dimensions: any such initial data set must embed isometrically into a Majumdar-Papapetrou spacetime; a clean rigidity/equality-case theorem in mathematical GR.
 - [The Isaacs-Navarro-Wolf conjecture (Rossi)](https://arxiv.org/abs/2608.24685) — a proof of a standing open conjecture in finite-group character theory, explicitly discovered with AI assistance (the ongoing AI-assisted-math wave); single-author, unrefereed — worth knowing for both the result and as a fresh data point on AI-assisted proof discovery.
 - [Counterexamples to Escobar's conjecture (Sun, Wang, Wang)](https://arxiv.org/abs/2608.23063) — disproves Escobar's 1999 conjecture bounding the first Steklov eigenvalue below by the boundary principal-curvature floor, for every dimension $n\ge3$, via explicit conformal deformations of the unit ball; a clean, complete resolution (in the negative) of a 27-year-old named conjecture, unrefereed.
@@ -75,12 +75,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Hacker News](https://news.ycombinator.com/) front page surfaced [Black hole singularity is a surface not a point](https://arxiv.org/abs/2608.21590) — a genuine discovery-lane catch, queued.
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) remain unreachable (10th+ consecutive daily) — no working fallback found this session either.
-- [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) posted new media-hype commentary on an over-claimed string-theory "dark dimension" test — not itself a new primary result.
+- [Hacker News](https://news.ycombinator.com/) front page carried no math/physics story today — checked, nothing on-axis.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) remain unreachable (11th+ consecutive daily) — no working fallback found this session either.
+- [Terence Tao's blog](https://terrytao.wordpress.com/) posted an expository piece on the road to the (already-resolved) 3D Kakeya conjecture — not a new primary result.
 - [MathOverflow](https://mathoverflow.net/) checked — routine research-level Q&A, nothing on-axis today.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (165) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-26](reports/2026-08-26.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (169) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-27](reports/2026-08-27.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
