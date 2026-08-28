@@ -645,3 +645,67 @@ already-swept arXiv). study_shelf: 1 new pick (the 3-Decomposition Conjecture pr
 updated (LIGO healed via WebFetch redirect path). tvly: 7th consecutive quota-exhausted
 occurrence, not re-notified (already heal-owed/notified at the 3rd). README.md regenerated from
 the updated ledger in the same commit.
+## 2026-08-28 (daily, Pass 1)
+Full DAILY-tier sweep. Local session branch already matched `origin/main`'s head (4f3da91,
+"radar: daily update 2026-08-27") at session start — no orphaned `radar:` commits found.
+Primary feeds (radar-source-sweep): CERN Courier RSS opened (same catalog, nothing new beyond
+what's below), Fermilab news RSS opened (newest item still the 08-25 muon-anomaly piece, already
+seen 08-26/08-27), Simons Foundation RSS opened (routine grants/AI-adjacent items, nothing on-axis
+new). arXiv (THE core lane): fetched the fresh 2026-08-27 batch (356 entries) via the arXiv API
+across the FULL in-scope category set in one sorted-by-submission-date query (math.AG/AC/RA/KT/AT/
+GT/DG/SG/AP/FA/CA/CV/NT/CO/PR/RT/LO/OA/OC/DS + hep-th/hep-ph/gr-qc/math-ph/quant-ph/astro-ph.CO/
+astro-ph.HE/cond-mat.str-el/cond-mat.supr-con/cond-mat.mes-hall). Captured TWO domain-cadence
+LANDMARKS: a full, unconditional proof of the Arnold-Givental conjecture (2608.27242, Bai-
+Shelukhin-Wang-Xu) and an all-level proof of the AGT correspondence at generic β (2608.27447,
+Chen-Zhang) — both routed to `observation_queue` + `study_shelf` (see TRENDS.md). Also captured
+four below-bar items: a partial confirmation of Sarnak's conjecture for specific pseudo-rotation
+classes (2608.26976), a refutation of the Non-Cancelling-Intersections conjecture (2608.27416), a
+higher-dimensional Nitsche-conjecture generalization (2608.27303), and — via the CERN/home.cern
+Experiments-block lane, not arXiv — ATLAS's 2.6σ double-Higgs excess + CMS's ×4-SM limit from
+ICHEP 2026 (home.cern article, no arXiv id given). Targeted keyword/grep searches of the full
+fresh batch for the three tracked trends: Ramsey lower bounds — only a peripheral online-Ramsey
+variant (2608.27405, checked and excluded, see trend notes); Stanley-Gasharov/claw-free
+Schur-positivity — none; non-invertible/categorical symmetries — none. PRL/PRX/RMP/Quantum-journal
+RSS opened (routine). Nature Physics/Nature Communications RSS opened (nothing on-axis).
+INSPIRE-HEP opened (routine future-dated instrumentation entries). SciPost API opened (8 most
+recent — one integrable-lattice-algebra item checked and excluded from the non-invertible-
+symmetries trend, see trend notes). Experiments block: LIGO retested via `WebFetch` on the plain
+`http://www.ligo.org/news` URL (healed method holding; direct `curl` still Cloudflare-blocked;
+newest item still GWTC-5.0, already tracked); DESI opened (static homepage, nothing new); CERN
+opened via `home.cern/feed/` (the double-Higgs item above, captured; the FCC-positron item is an
+already-tracked repeat); IceCube opened via the healed `category/news/feed/` RSS ("Week 34 at the
+Pole," routine operational update, not an on-axis result). Community pulse (radar-pulse, intake
+only): r/math + r/mathematics STILL degraded (`curl` 403, no `tvly` available this session — 12th+
+consecutive degraded daily, no working fallback found). Hacker News Algolia front_page opened — no
+math/physics story today (AI/tech/business news dominated). MathOverflow opened via `curl` on
+`/feeds` (routine Q&A, nothing pointing to a new primary). Mathstodon public timeline opened
+(federated-timeline noise only). Digest/blog lane fully opened: Quanta (no new post since 08-26's
+Hilbert-space explainer, already seen); Terry Tao (no new post since 08-26's Kakeya explainer,
+already seen); Not Even Wrong (no new post since 08-26's "This Week's Hype," already tracked);
+n-Category Café opened via `curl` (no new post since 08-22); Gowers/Kalai opened (no new posts
+since 08-12/08-15); Baez/Azimuth opened (no new post since 08-22); Strassler confirmed quiet;
+Backreaction opened (same 08-25 top post, no new post today). Scientific American opened via
+`WebFetch` on the physics section (mainstream headlines only, nothing rising to a primary this
+radar tracks). Repo watch (radar-repo-watch, via `WebFetch` on `.atom` for lean4/rocq and
+mathlib4 — direct `curl`/API still session-proxy-403'd, same as prior days): mathlib4 daily tag
+now `master-2026-08-27` (routine); lean4 unchanged v4.34.0-rc2/v4.33.1 (08-21, already tracked);
+Rocq unchanged 9.3+rc1 (07-22). Exploration slot (radar-explore, OFF-AXIS rotation): nlin.SI/
+nlin.CD (integrable systems / chaotic dynamics, next in the roster after cs.CC) — top 25 items
+read via the arXiv API regardless of sub-topic, all routine integrable-systems/turbulence/chaos
+papers, 0/25 significant off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues,
+next: math.NA or q-bio.PE). Trend recalibration (radar-ledger-update): Ramsey — HELD
+accelerating/medium (no 7th group; peripheral online-Ramsey item excluded). Non-invertible
+symmetries — HELD accelerating/high (no 10th group; confidence ceiling). Stanley-Gasharov — HELD
+seed/medium (no 4th group; last_evidence now 30 days old). Queue 169 → 175 (+6 new items this
+session; daily does not burn down per domain cadence). capture-leak: 5 new ids checked this
+session — all land on discrete queue/study_shelf lines, 0 leaked; PLUS the mandatory mechanical
+file-wide reconciliation (217 unique ids, up from 210; 23 without citation-anywhere, up from 22,
++1 legitimate checked-and-excluded exclusion) — 0 file-wide leaks (see TRENDS.md strategy_notes
+for the full breakdown). Source-discovery: no new untracked on-axis domain surfaced this session —
+today's primaries came from already-swept arXiv + CERN feed venues. tvly: still entirely absent
+from PATH at session start; a fresh `pip install -q tavily-cli` succeeded but the first live call
+returned "exceeds your plan's set usage limit" — 8th consecutive quota-exhausted occurrence
+(08-20, 08-21, 08-22, 08-24, 08-25, 08-26, 08-27, 08-28), not re-notified (already heal-owed at the
+3rd). study_shelf: 2 new picks (the Arnold-Givental conjecture proof; the AGT-conjecture-at-
+generic-β proof). SOURCES.md: no changes needed this session. README.md regenerated from the
+updated ledger in the same commit.

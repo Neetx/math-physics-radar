@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-27
+Last updated: 2026-08-28
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -323,6 +323,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     2604.23986, 2605.25843, 2608.02537, 2608.21769): no fresh v-update beyond what was already
     on file — no referee/vetting outcome. Trend HELD accelerating/medium; last_evidence
     2026-08-22 now 5 days old.
+  - 2026-08-28 (daily): fresh math full in-scope category-rotation batch (2026-08-27, 356
+    entries) scanned for Ramsey lower bounds — only a peripheral "Online Ramsey Numbers of Stars
+    versus Long Paths and Cycles" (2608.27405, an online-Ramsey variant, not a lower-bound
+    breakthrough on the tracked classical/hypergraph Ramsey numbers). No 7th independent group
+    or referee/vetting outcome. Trend HELD accelerating/medium; last_evidence 2026-08-22 now 6
+    days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-25
@@ -538,6 +544,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     sub-applications. last_evidence advances 2026-08-24 → 2026-08-25. Still no explicit
     lattice/continuum cross-citation. Confidence HELD high (ceiling); stage HELD accelerating
     (no mainstreaming-tier signal yet). Watch for a 10th group.
+  - 2026-08-28 (daily): fresh math+physics full in-scope category-rotation batch (2026-08-27,
+    356 entries) plus SciPost scan for non-invertible/categorical/fusion-category symmetry items
+    — none (SciPost's newest hep-th-adjacent item, "Fusion in the periodic Temperley-Lieb
+    algebra," is an integrable-lattice-algebra paper, not a non-invertible-symmetry application —
+    checked and excluded). No 10th independent group. Trend HELD accelerating/high (confidence
+    ceiling); last_evidence 2026-08-25 now 3 days old.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -664,6 +676,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     items — none. arXiv-API metadata recheck of all three tracked preprints (2607.21508,
     2607.26364, 2607.27166): no fresh v-update — no referee/vetting outcome. No 4th independent
     group. Trend HELD seed/medium; last_evidence now 29 days old, well inside the 60-day window.
+  - 2026-08-28 (daily): fresh math.CO 2026-08-27 batch (part of the full category-rotation
+    fetch) scanned for Schur-positivity/claw-free items — none. No 4th independent group or
+    referee/vetting outcome. Trend HELD seed/medium; last_evidence now 30 days old, well inside
+    the 60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2246,6 +2262,55 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   by Kristóf Kanalas on continuously realising model-theoretic types as a sheaf model over a
   topological space. Abstract + authors verified via arXiv API this session (v1 2026-08-26).
   Below-bar (a specialized, recently-posed open problem) — queued.
+- 2026-08-27 (v1) — arXiv:2608.27242 — Shaoyun Bai, Egor Shelukhin, Yi Wang, Guangbo Xu, "A proof
+  of the Arnold-Givental conjecture" — https://arxiv.org/abs/2608.27242 — symplectic topology
+  (axis 1/2, math.SG): proves the Arnold-Givental conjecture IN FULL GENERALITY — for any closed
+  symplectic manifold with an anti-symplectic involution, the Floer-theoretic lower bound on
+  Lagrangian fixed-point-set intersections holds unconditionally, combining integral Floer theory
+  with a new Z/2-equivariant localization argument. Abstract + authors verified via arXiv API this
+  session (v1 2026-08-27). A long-standing (Givental 1989 generalization of the Arnold conjecture)
+  named conjecture, full resolution by an established Floer-theory team — single-preprint,
+  unrefereed — PROVISIONAL under the hype-skepticism rule; domain-cadence LANDMARK — queued, also
+  on `study_shelf`.
+- 2026-08-27 (v1) — arXiv:2608.27447 — Le-Feng Chen, Kilar Zhang, "Proof of the AGT Conjecture at
+  Generic β" — https://arxiv.org/abs/2608.27447 — mathematical physics (axis 2, hep-th/math-ph):
+  gives an all-level proof of the four-point SU(2) AGT correspondence (Alday-Gaiotto-Tachikawa
+  2009) with four fundamental hypermultiplets at generic β, via an all-level factorization formula
+  for Selberg averages of generalized Jack polynomials and a triangular-recursion argument on the
+  Dotsenko-Fateev charge-balance hyperplane — removing the restriction to special/rational β that
+  limited prior partial proofs. Abstract + authors verified via arXiv API this session (v1
+  2026-08-27). A 17-year-old, field-shaping conjecture linking 4d N=2 gauge theory and 2d Liouville/
+  Toda CFT — single-preprint, unrefereed — PROVISIONAL under the hype-skepticism rule; domain-
+  cadence LANDMARK — queued, also on `study_shelf`.
+- 2026-08-27 — https://home.cern/atlas-and-cms-narrow-in-on-double-higgs-production/ — ATLAS and
+  CMS (ICHEP 2026), "ATLAS and CMS narrow in on double-Higgs production" — HEP/collider (axis 3):
+  ATLAS reports a 2.6σ excess above the no-di-Higgs expectation (combined Run 2 + Run 3 data,
+  ML-assisted bb+ττ channels); CMS rules out double-Higgs production above 4× the Standard Model
+  rate and constrains the Higgs self-coupling. Official CERN collaboration result, opened this
+  session. Below-bar (2.6σ is not a discovery; no arXiv preprint numbers cited in the article) —
+  hype-skepticism: track for a follow-up publication and whether the excess persists or regresses
+  to the mean — queued.
+- 2026-08-27 (v1) — arXiv:2608.26976 — Yinshan Chang, Jian Wang, Junchang Zhou, "Rigidity on the
+  two-torus and Sarnak's conjecture" — https://arxiv.org/abs/2608.26976 — dynamical systems (axis
+  1, math.DS): establishes quantitative C^0/C^k rigidity for several classes of pseudo-rotations
+  and skew products of the two-torus under a deviation condition, and shows these classes satisfy
+  Sarnak's (Möbius-disjointness) conjecture. Abstract + authors verified via arXiv API this session
+  (v1 2026-08-27). Below-bar (confirms Sarnak's conjecture for specific dynamical classes, not the
+  general conjecture) — queued.
+- 2026-08-27 (v1) — arXiv:2608.27416 — Hermann Wilhelm, "Refutation of the Non-Cancelling-
+  Intersections Conjecture" — https://arxiv.org/abs/2608.27416 — combinatorics / lattice theory
+  (axis 1, math.CO, database-theory-adjacent): removes the left-linearity restriction from the
+  author's earlier (arXiv:2608.19414) counterexample and shows the Amarilli-Monet-Suciu NCI
+  conjecture fails in full generality — a finite lattice with no dot-algebra representation of its
+  top element at all. Abstract + author verified via arXiv API this session (v1 2026-08-27).
+  Below-bar (a specialized, recently-posed conjecture from database theory, single author) —
+  queued.
+- 2026-08-27 (v1) — arXiv:2608.27303 — Bin Deng, Jiahuan Li, Yilu Liu, "The Higher-Dimensional
+  Nitsche Conjecture: Sharp Bounds and Rigidity" — https://arxiv.org/abs/2608.27303 — analysis
+  (axis 1, math.AP): extends the (2D, already-resolved) Nitsche conjecture on harmonic mappings
+  between annuli to higher dimensions, proving sharp modulus bounds and rigidity. Abstract +
+  authors verified via arXiv API this session (v1 2026-08-27). Below-bar (a higher-dimensional
+  generalization of an already-settled 2D result, not a first resolution) — queued.
 
 ## source_rotation
 
@@ -2935,11 +3000,38 @@ Corrections to the source-coverage strategy.
   today's primaries (the 3-Decomposition Conjecture, the non-invertible-symmetries 9th group, the
   below-bar items) all came from the already-swept arXiv venue.
 
+- 2026-08-28 (daily) — TOOLING: `tvly` was entirely absent from PATH at session start; a fresh
+  `pip install -q tavily-cli` succeeded but the first live call returned "exceeds your plan's set
+  usage limit" — 8th consecutive quota-exhausted occurrence (08-20, 08-21, 08-22, 08-24, 08-25,
+  08-26, 08-27, 08-28). Already heal-owed and curator-notified at the 3rd occurrence (08-22); not
+  re-notified (no new escalation criterion). Worked around entirely via direct `curl`/`WebFetch`/
+  the arXiv API.
+- 2026-08-28 (daily) — capture-leak reconciliation: 5 new arXiv ids named this session (2608.27242,
+  2608.27447, 2608.26976, 2608.27416, 2608.27303; the 6th capture, the CERN double-Higgs item, has
+  no arXiv id) — all 5 land on discrete queue/study_shelf lines, 0 leaked. Full-file mechanical
+  sweep (citation-anywhere test, per the 08-27 corrected method): 217 unique arXiv ids (up from
+  210); 23 have no `arXiv:<id>`/`abs/<id>` citation anywhere (up from 22) — the +1 is 2608.27405
+  (today's peripheral online-Ramsey item, checked-and-excluded inside the Ramsey trend's own notes
+  without the `arXiv:` prefix — same legitimate exclusion pattern as the 4 prior ones); all 23
+  verified legitimate (18 dropped-burndown ids + 5 checked-and-excluded ids) — 0 file-wide leaks.
+- 2026-08-28 (daily) — Source-discovery: no new untracked on-axis domain surfaced this session —
+  today's primaries came from already-swept arXiv + the already-swept CERN (`home.cern/feed/`)
+  venue.
+
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-28 (v1 2026-08-27) — [A proof of the Arnold-Givental conjecture (Bai, Shelukhin, Wang, Xu)](https://arxiv.org/abs/2608.27242)
+  — proves the Arnold-Givental conjecture in full generality: for a closed symplectic manifold with
+  an anti-symplectic involution, the Floer-theoretic Lagrangian intersection lower bound holds
+  unconditionally — a 1989 conjecture resolved via integral Floer theory and a new Z/2-equivariant
+  localization argument.
+- 2026-08-28 (v1 2026-08-27) — [Proof of the AGT Conjecture at Generic β (Chen, Zhang)](https://arxiv.org/abs/2608.27447)
+  — an all-level proof of the four-point SU(2) AGT correspondence at generic β, completing the
+  17-year-old Alday-Gaiotto-Tachikawa link between 4d N=2 gauge theory and 2d Liouville/Toda CFT
+  beyond the special/rational-β cases covered by prior partial proofs.
 - 2026-08-27 (v1 2026-08-26) — [Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture (Jicheng Ma)](https://arxiv.org/abs/2608.25385)
   — resolves Hoffmann-Ostenhof's 3-Decomposition Conjecture in full: every finite connected cubic
   loopless multigraph decomposes into a spanning tree, a 2-regular subgraph, and a matching — a

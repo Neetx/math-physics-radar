@@ -1,13 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-169-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--27-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-175-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--28-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-27):**
-- **[Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture](https://arxiv.org/abs/2608.25385)** (Jicheng Ma) — a full resolution of Hoffmann-Ostenhof's "wide open" cubic-graph-decomposition conjecture, this scan's top study pick.
-- **[Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)** gained a 9th independent group ([Ahn, Bajnok, Elek](https://arxiv.org/abs/2608.24385)) — a new sub-application from integrable-QFT/TBA constructions.
-- [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) HELD — no new independent group today.
+**Since last scan (2026-08-28):**
+- **[A proof of the Arnold-Givental conjecture](https://arxiv.org/abs/2608.27242)** (Bai, Shelukhin, Wang, Xu) — full, unconditional resolution of a 1989 named conjecture in symplectic topology; today's top study pick.
+- **[Proof of the AGT Conjecture at Generic β](https://arxiv.org/abs/2608.27447)** (Chen, Zhang) — an all-level proof completing the 17-year-old Alday-Gaiotto-Tachikawa correspondence beyond special/rational β.
+- ATLAS/CMS reported a [2.6σ double-Higgs excess](https://home.cern/atlas-and-cms-narrow-in-on-double-higgs-production/) at ICHEP 2026 (CMS rules out >4× the Standard Model rate) — below discovery threshold, queued for follow-up.
+- [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [Non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) HELD — no new independent group today.
 
 ## Trends
 
@@ -21,6 +22,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [A proof of the Arnold-Givental conjecture (Bai, Shelukhin, Wang, Xu)](https://arxiv.org/abs/2608.27242) — proves the Arnold-Givental conjecture in full generality: for a closed symplectic manifold with an anti-symplectic involution, the Floer-theoretic Lagrangian intersection lower bound holds unconditionally, via integral Floer theory and a new Z/2-equivariant localization argument.
+- [Proof of the AGT Conjecture at Generic β (Chen, Zhang)](https://arxiv.org/abs/2608.27447) — an all-level proof of the four-point SU(2) AGT correspondence at generic β, completing the 17-year-old Alday-Gaiotto-Tachikawa link between 4d N=2 gauge theory and 2d Liouville/Toda CFT beyond the special-β cases covered by prior partial proofs.
 - [Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture (Jicheng Ma)](https://arxiv.org/abs/2608.25385) — resolves Hoffmann-Ostenhof's 3-Decomposition Conjecture in full: every finite connected cubic loopless multigraph decomposes into a spanning tree, a 2-regular subgraph, and a matching — previously "wide open" beyond Hamiltonian/planar special cases.
 - [Classification of Maximally Charged Black Holes (Hirsch, Zhang)](https://arxiv.org/abs/2608.24843) — a complete classification of every maximally-charged (mass-charge-equality-saturating) black hole spacetime in 3+1 dimensions: any such initial data set must embed isometrically into a Majumdar-Papapetrou spacetime; a clean rigidity/equality-case theorem in mathematical GR.
 - [The Isaacs-Navarro-Wolf conjecture (Rossi)](https://arxiv.org/abs/2608.24685) — a proof of a standing open conjecture in finite-group character theory, explicitly discovered with AI assistance (the ongoing AI-assisted-math wave); single-author, unrefereed — worth knowing for both the result and as a fresh data point on AI-assisted proof discovery.
@@ -76,11 +79,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 ## Community pulse
 
 - [Hacker News](https://news.ycombinator.com/) front page carried no math/physics story today — checked, nothing on-axis.
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) remain unreachable (11th+ consecutive daily) — no working fallback found this session either.
-- [Terence Tao's blog](https://terrytao.wordpress.com/) posted an expository piece on the road to the (already-resolved) 3D Kakeya conjecture — not a new primary result.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) remain unreachable (12th+ consecutive daily) — no working fallback found this session either.
+- [Terence Tao's blog](https://terrytao.wordpress.com/) and [Quanta Magazine](https://www.quantamagazine.org/) both quiet since 08-26 — no new post naming a primary.
 - [MathOverflow](https://mathoverflow.net/) checked — routine research-level Q&A, nothing on-axis today.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (169) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-27](reports/2026-08-27.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (175) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-08-28](reports/2026-08-28.md)) · weekly: [2026-W34](reports/weekly/2026-W34.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
