@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-28
+Last updated: 2026-08-29
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -329,6 +329,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     breakthrough on the tracked classical/hypergraph Ramsey numbers). No 7th independent group
     or referee/vetting outcome. Trend HELD accelerating/medium; last_evidence 2026-08-22 now 6
     days old, well inside the 60-day window.
+  - 2026-W35 recalibration: HELD accelerating/medium. last_evidence 2026-08-22 is 7 days old,
+    nowhere near the 60-day line (2026-10-21 unchanged). No 7th independent group surfaced this
+    week (five dailies 08-24→08-28 all scanned fresh math.CO batches, none found — confirmed
+    again this session); arXiv-API metadata recheck of all six tracked preprints shows no fresh
+    v-update — no referee/vetting outcome. Confidence held medium (doubled unrefereed-preprint
+    caution stands). Not promoted (no fresh W35 velocity beyond the already-recorded 08-25
+    promotion).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-25
@@ -550,6 +557,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     algebra," is an integrable-lattice-algebra paper, not a non-invertible-symmetry application —
     checked and excluded). No 10th independent group. Trend HELD accelerating/high (confidence
     ceiling); last_evidence 2026-08-25 now 3 days old.
+  - 2026-W35 recalibration: HELD accelerating/high. last_evidence 2026-08-25 is 4 days old,
+    nowhere near the 60-day line. Nine fully independent groups now on file across four venue
+    types (arXiv, SciPost ×2, Nature Physics); no 10th group or explicit lattice/continuum
+    cross-citation surfaced this week (five dailies 08-24→08-28 all scanned fresh hep-th/hep-ph/
+    gr-qc/math-ph/quant-ph/cond-mat batches plus the SciPost API, confirmed again this session).
+    Confidence held at the ceiling (no hype-skepticism caveat). Not promoted to `mainstreaming`
+    (still no standard-practice-adoption signal, only group count/pace) — watch for a 10th group
+    or the cross-citation.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -680,6 +695,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     fetch) scanned for Schur-positivity/claw-free items — none. No 4th independent group or
     referee/vetting outcome. Trend HELD seed/medium; last_evidence now 30 days old, well inside
     the 60-day window.
+  - 2026-W35 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 31 days old, well
+    inside the 60-day window (dormancy line 2026-09-27). arXiv-API metadata recheck of all three
+    tracked preprints (2607.21508, 2607.26364, 2607.27166) this session: no fresh v-update on any
+    — no referee/vetting outcome. No 4th independent group surfaced this week (five dailies
+    08-24→08-28 all scanned fresh math.CO batches, none found — confirmed again this session).
+    Confidence held medium (short, checkable, cross-verified computations — still unrefereed,
+    now a full month quiet without a referee outcome; watch remains a 4th group or a vetting
+    result, not the passage of time alone under domain cadence).
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -1113,36 +1136,11 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     engagement with the same algebraic sub-theme within 2.5 weeks — a FORMING pair (below the
     ≥3-group trend bar; watch for a third). Abstract + author verified via arXiv API this
     session (v1 2026-08-07).
-- 2026-08-07 — arXiv:2608.06681 — He, Sahai, "Refuting a Conjecture of Umans and Wang on
-  Arithmetic-Progression Divisor Covers" — https://arxiv.org/abs/2608.06681 — combinatorial
-  number theory / complexity-adjacent (axis 1, math.NT): unconditionally refutes the
-  arithmetic-progression case of the Umans–Wang Strong divisor conjecture (an
-  arithmetic-progression $n$-divisor set cannot have the conjectured polylogarithmic length).
-  Abstract + authors verified via arXiv API this session (v1 2026-08-07). Below-bar
-  refuted-conjecture item.
-- 2026-08-07 — arXiv:2608.07186 — Thorne, "Towards the Fontaine–Mazur conjecture for GL(2)" —
-  https://arxiv.org/abs/2608.07186 — number theory / automorphic forms (axis 1, math.NT):
-  combines a new modularity result with geometry-of-numbers techniques to prove new cases of the
-  Fontaine–Mazur conjecture for GL(2), by an established leader in modularity-lifting (Jack
-  Thorne). Partial progress, not a full resolution. Abstract + author verified via arXiv API
-  this session (v1 2026-08-07). Below-bar partial-progress item.
 - 2026-08-07 — arXiv:2608.07350 — Xu, "Profinite rigidity in lattices of $\mathrm{PSL}(2,\mathbb{C})$"
   — https://arxiv.org/abs/2608.07350 — geometric group theory (axis 1, math.GR/GT): proves all
   lattices in PSL(2,C) are profinitely rigid among themselves, plus an $\mathrm{Out}$-isomorphism
   result for their profinite completions. Abstract + author verified via arXiv API this session
   (v1 2026-08-07). Below-bar single-group-theory-result item.
-- 2026-08-07 — arXiv:2608.06920 — Valtonen, "Classification of Symmetric Hadamard Matrices Up to
-  Order 32" — https://arxiv.org/abs/2608.06920 — combinatorics / design theory (axis 1, math.CO):
-  completes the Hadamard-equivalence classification of symmetric Hadamard matrices up to order
-  32 (correcting an error in the prior order-28 classification) via a new equivalence-testing
-  algorithm. Abstract + author verified via arXiv API this session (v1 2026-08-07). Below-bar
-  classification/enumeration item.
-- 2026-08-07 — arXiv:2608.07399 — Bondarenko, Heap, "Siegel zeros and small gaps between zeros of
-  the Riemann zeta function" — https://arxiv.org/abs/2608.07399 — analytic number theory (axis 1,
-  math.NT): shows, conditional on RH, that Siegel zeros imply zeta-zero gaps below 0.4733× the
-  normalised spacing, refuting certain strong alternative pair-correlation hypotheses under those
-  assumptions. Abstract + authors verified via arXiv API this session (v1 2026-08-07). Below-bar
-  conditional-result item.
 - 2026-08-07 — arXiv:2608.07396 — de Dios Pont, Liehr, Muñoz-Lahoz, Taylor, Tradacete, "Banach
   lattices and phase retrieval: A case study for the use of AI in mathematics" —
   https://arxiv.org/abs/2608.07396 — AI-WATCH area (scope: track the assistance, not the AI
@@ -1206,20 +1204,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   18-page, unrefereed preprint claiming resolution of a well-known Gromov conjecture is
   PROVISIONAL until independent vetting — same footing as the matroid-intersection-conjecture and
   Gorenstein-symmetry-conjecture claims already on this ledger; track the outcome.
-- 2026-08-06 — arXiv:2608.06272 — Lorist, Meyries, Veraar, "A counterexample to the inverse
-  generator problem and related questions" — https://arxiv.org/abs/2608.06272 — operator theory /
-  semigroup theory (axis 1, math.FA): negative solution to the inverse generator problem on
-  Hilbert spaces — constructs a bounded, dense-range generator $A$ of a bounded strongly stable
-  $C_0$-semigroup whose inverse $A^{-1}$ does NOT generate a $C_0$-semigroup, plus a second
-  example with unbounded, double-logarithmically-growing inverse semigroup. Abstract + authors
-  verified via arXiv API this session (v1 2026-08-06). Single below-bar refuted-open-question item.
-- 2026-08-06 — arXiv:2608.05662 — Pokora, "On the Numerical Terao Conjecture" —
-  https://arxiv.org/abs/2608.05662 — algebraic combinatorics / arrangement theory (axis 1,
-  math.AG/CO): proves the Numerical Terao Conjecture for even-degree conic-line arrangements with
-  only ADE singularities, but shows it FAILS in the broader quasi-homogeneous setting once
-  ordinary quadruple points are allowed, via an explicit degree-9 counterexample. Abstract +
-  author verified via arXiv API this session (v1 2026-08-05). Single below-bar mixed
-  proof/counterexample item.
 - 2026-08-06 — arXiv:2608.06247 — Watkins, Feldman, "Reanalyzing Megamasers: a low value of
   $H_0$ from a local probe changes our view of the Hubble Tension" —
   https://arxiv.org/abs/2608.06247 — cosmology (axis 3, astro-ph.CO): re-analyzes megamaser
@@ -1259,19 +1243,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   completes the proof of the Freiman–Lev conjecture on restricted sumsets $2^\wedge A$ for the
   previously-open range ($a_{k-2}\ge2k-4$, $a_{k-1}\ge2k-2$). Abstract + authors verified via
   arXiv API this session (v1 2026-08-05). Single below-bar resolved-conjecture item.
-- 2026-08-05 — arXiv:2608.04659 — Munaro, "Subdivided expanders and counterexamples to the Tree
-  Product Conjecture" — https://arxiv.org/abs/2608.04659 — combinatorics / graph theory (axis 1,
-  math.CO): extends Illingworth–Norin–Steiner's 2026 disproof of the $d=4$ case of the (2023)
-  Tree Product Conjecture (Distel–Gollin–Harvey–Hendrey–Hickingbotham–Mohar–Wood) to every
-  $d\ge2$ via subdivided cubic expanders, leaving only $d=1$ open. Abstract + author verified via
-  arXiv API this session (v1 2026-08-05). Single below-bar item (a young, ~3-year-old conjecture,
-  not a classical named one).
-- 2026-08-05 — arXiv:2608.04981 — Hu, Xiao, Zhou, "A Counterexample to the Liu–Lou–Zhu
-  $\mathcal Q_p$–Carleson Embedding Conjecture" — https://arxiv.org/abs/2608.04981 — harmonic
-  analysis / operator theory (axis 1, math.CV/FA): disproves a conjecture on Carleson embeddings
-  of $\mathcal Q_p$ spaces into tent spaces for $0<p<1$, via Cantor-type $\mathcal Q_p$ test
-  functions. Abstract + authors verified via arXiv API this session (v1 2026-08-05). Single
-  below-bar refuted-conjecture item.
 - 2026-08-05 — TWO fresh DESI dynamical-dark-energy analyses (axis 3, gr-qc/astro-ph.CO), same
   batch — arXiv:2608.04353 (Zheng, Qiang, You, Kumar, "Revisiting the equation of state of dark
   energy from DESI BAO with SNe Ia and CMB") · arXiv:2608.04763 (Jiang, Shafieloo, "Is Dark
@@ -1346,19 +1317,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   further concrete arXiv artifact in the standing AI-assisted-math wave (this time an explicitly
   multi-model combination). Abstract + authors verified via arXiv API this session (v1 2026-08-04).
   Track the RESULT, not the AI method (sibling AI radars' beat); unrefereed, provisional.
-- 2026-08-04 — arXiv:2608.03488 — Cassese, "A solution to Morrey's problem in $\mathbb{R}^{2\times
-  m}$" — https://arxiv.org/abs/2608.03488 — calculus of variations (axis 1, math.AP/CA): constructs
-  homogeneous rank-one convex integrands on $\mathbb R^{2\times m}$ (2 rows, $m$ columns) that are
-  nowhere quasiconvex for large $m$. NOTE: the famous still-OPEN case of Morrey's conjecture (does
-  rank-one convexity imply quasiconvexity?) is specifically the $2\times2$ case; this is a large-$m$
-  extension of the already-known-false higher-dimensional regime, not a resolution of the open
-  $2\times2$ problem. Abstract + author verified via arXiv API this session (v1 2026-08-04). Below-bar
-  technical-extension item, title notwithstanding.
-- 2026-08-04 — arXiv:2608.03661 — "Refined upper bounds on Schur-like numbers" —
-  https://arxiv.org/abs/2608.03661 — combinatorics (axis 1, math.CO): Ramsey-ADJACENT (Schur numbers
-  are a classical Ramsey-type quantity) but an UPPER-bound refinement, not a Ramsey-NUMBER LOWER
-  bound → does not reactivate/feed the (emerging) Ramsey-lower-bound trend. Title via arXiv listing
-  this session, abstract not opened → below-bar intake.
 - 2026-08-04 — arXiv:2608.03710 — Lei, Song, Chen, Liu, "Entanglement Distillation of some Rank-Five
   Symmetric NPT States in Two-Qutrit Systems" — https://arxiv.org/abs/2608.03710 — quantum
   information theory (axis 4, quant-ph): resolves 1-distillability for a class of rank-five
@@ -3017,6 +2975,73 @@ Corrections to the source-coverage strategy.
 - 2026-08-28 (daily) — Source-discovery: no new untracked on-axis domain surfaced this session —
   today's primaries came from already-swept arXiv + the already-swept CERN (`home.cern/feed/`)
   venue.
+- 2026-08-29 (W35 weekly recalibration) — QUEUE BURNDOWN (same Amendment-D-style criteria as W34:
+  settled, zero-independent-follow-up, non-landmark, non-study_shelf, no live cross-reference, 3+
+  weeks quiet — the W34-reviewed 07-22→08-02 cluster left untouched, this week's newly-eligible
+  08-03→08-07 batch, 37 items, reviewed item-by-item): dropped 10 (2608.06681 Umans-Wang divisor
+  refutation, 2608.07186 Fontaine-Mazur GL(2) partial progress, 2608.06920 Hadamard-matrix order-32
+  classification, 2608.07399 Siegel-zeros conditional result, 2608.06272 inverse-generator-problem
+  counterexample, 2608.05662 Numerical Terao Conjecture, 2608.04659 Tree Product Conjecture
+  extension, 2608.04981 Carleson-embedding-conjecture counterexample, 2608.03488 Morrey's-problem
+  higher-m extension, 2608.03661 Schur-like-numbers upper bound — all single/narrow technical
+  results, no landmark framing, no forming-pair note, no study_shelf tag, no cross-reference from
+  another live item). KEPT despite eligibility: 2608.07350 (Xu, profinite rigidity of PSL(2,C)
+  lattices) — explicitly cross-referenced by the still-live 2026-08-04 Simons-Collaboration
+  ecosystem item ("thematically adjacent... 2607.19012/2608.07350"); dropping it would have
+  repeated the exact stale-cross-reference mistake W34 caught. Queue 175 → 165 (net −10). This AGAIN
+  falls well short of a literal 80-120 (or even 40) numeric target — the SAME finding as W34 (most
+  aged items are landmark/forming-pair/study_shelf/cross-referenced, genuinely protected, not
+  deferred) — now confirmed a SECOND consecutive week under full item-by-item rigor. PROPOSING
+  Amendment E (cooling period, apply W36 if signal persists / no curator veto): replace the fixed
+  numeric queue-size target band with a criterion-completeness metric — the burndown's health is
+  "100% of newly-3+-week-eligible items reviewed against the existing drop criteria" plus
+  "items dropped vs. items protected-with-a-stated-reason," NOT a raw queue-size number. A fixed
+  numeric target structurally conflicts with AGENTS.md's domain-cadence "let below-bar items
+  persist" rule in a landmark-dense stretch; two independent full-rigor weeklies now agree the gap
+  is real protection, not under-effort.
+- 2026-08-29 (W35 weekly) — Source strategy (weekly-swept tier, 21/21 logged opened-or-degraded):
+  9/9 institutes (IHES, MPIM, Fields, KITP, Clay opened directly; SLMath, Newton, Perimeter, IAS all
+  403'd on direct `WebFetch` this session, healed via `WebSearch`) — nothing on-axis beyond
+  already-tracked prize/ceremony/admin news. Slow venues: Forum of Mathematics opened cleanly (8
+  current-issue titles, none landmark); Annals of Mathematics and AMS Notices both degraded again
+  (page opens but no article-level/dated content extractable — standing JS-rendering limitation,
+  unchanged from W34). Low-yield extra-social: r/Physics, r/cosmology, r/ParticlePhysics,
+  r/AskPhysics all degraded — a SECOND consecutive fully-unreachable week, now root-caused (see
+  SOURCES.md): direct `curl` (multiple UAs, `.rss`/`.json`/`old.reddit.com`) all 403 from Reddit's
+  own edge, and `WebSearch` with an `allowed_domains:["reddit.com"]` filter errors outright
+  ("not accessible to our user agent") — a hard, structural block on every access path this radar
+  has, not a `tvly`-quota artifact; HEAL-OWED, escalated (see calibration/curator notification).
+  Physics Stack Exchange HEALED this session: the recorded `/feeds/` form was unreliable, but plain
+  `curl` on `/feeds` (no trailing slash, same pattern as the 08-25 MathOverflow fix) returns a clean
+  live Atom feed — recorded in SOURCES.md. Prizes: Abel, Breakthrough opened directly; Shaw, IMU
+  opened via `WebSearch` (all unchanged from the already-tracked 2026 laureates). Source-discovery:
+  checked all 9 staged candidates against this week's 5 daily reports — only sammattheus.wordpress.com
+  recurred (already counted, Sam Mattheus now co-authoring a Ramsey primary directly — noted in the
+  trend's own evidence, not a fresh staging sighting); the other 8 held with no recurrence, still
+  below the ≥2 bar; 0 promoted. Anchoring/off-axis: exploration ran 5/5 this week (math.OC → q-bio.PE
+  → math.LO → cs.CC → nlin.SI/CD), 0/5 significant off-axis yield — a SECOND consecutive quiet week;
+  per the domain-cadence override still not an alarm on its own, but flagged to watch for a third.
+  Capture-leak: file-wide mechanical sweep (`grep -oE '[0-9]{4}\.[0-9]{5}' TRENDS.md`, 208 unique
+  ids after the burndown) found 24 ids with no same-token `arXiv:`/`abs/` citation — all 24 verified
+  legitimate (dropped-burndown ids named in this file's own documentation, or checked-and-excluded
+  ids cited via a bracket style without the `arXiv:` token, per the established 08-27 pattern) — 0
+  file-wide leaks; this week's 5 daily reports each also independently reported 0 leaked.
+- 2026-08-29 (W35 weekly) — Self-amendment: two-week regression check on Amendments A
+  (cadence-split), B (off-axis rotation), and C (skill-window sync) — all clean (coverage 21/21,
+  exploration 5/5, no skill-window drift found) — NO ROLLBACK. Amendment D (queue-burndown sizing,
+  applied W34) — see the QUEUE BURNDOWN entry above: the target-band shortfall recurred a second
+  week running under full rigor, superseding Amendment D's numeric framing with the PROPOSED
+  Amendment E above (cooling period, decide W36).
+- 2026-08-29 (W35 weekly) — TOOLING: `tvly` hit the same account-level quota-exhaustion error again
+  on the first call this session (a fresh `pip install -q tavily-cli` succeeded, but the live call
+  immediately errored) — the 9th CONSECUTIVE run on this exact failure (08-20, 08-21, 08-22, 08-24,
+  08-25, 08-26, 08-27, 08-28, 08-29), one full week past the original heal-owed notification
+  (08-22). Combined with the newly-root-caused hard Reddit block above (which the `tvly search`
+  heal had been the ONLY working fallback for), this materially widens the coverage gap beyond what
+  was true at the first notification — re-escalated to the curator this session via a push
+  notification (both issues: Tavily plan quota, and that its restoration is now the only known path
+  back into the reddit/r/math/r/mathematics/r/Physics/r/cosmology/r/ParticlePhysics/r/AskPhysics
+  lane).
 
 ## study_shelf
 

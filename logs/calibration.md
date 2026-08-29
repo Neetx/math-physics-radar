@@ -57,3 +57,36 @@ routing-leak n`.
   account-level issue outside the agent's own remediation power, correctly escalated via a push
   notification rather than logged as another "degraded" line. Monthly retrospective not due (day
   22 > 7; M09 due first run of September — next weekly).
+- 2026-08-29 — W35: queue +38/→0/−10/stale 0 (137→175 over the week's 5 dailies, then 175→165 this
+  weekly burndown) · evidence +3 (Ramsey +1 Ihringer-Mattheus 08-25; non-invertible symmetries +2,
+  8th group Kobayashi et al 08-25 + 9th group Ahn-Bajnok-Elek 08-27) · moves 1 (Ramsey
+  emerging→accelerating, via the 08-25 daily, one-stage-max) · exploration 5/5 (math.OC→q-bio.PE→
+  math.LO→cs.CC→nlin.SI/CD) · off-axis 0/5 (SECOND consecutive quiet week — not yet an alarm per
+  the domain-cadence override, but flagged to watch for a third) · coverage (weekly-swept tier,
+  this operator's duty) 21/21 logged opened-or-degraded (0 missing; degraded: AMS Notices + Annals
+  of Mathematics [no article-level content extractable, unchanged]; r/Physics + r/cosmology +
+  r/ParticlePhysics + r/AskPhysics [SECOND consecutive fully-unreachable week, now root-caused as a
+  hard structural block, see TOOLING below]; 3 healed via WebSearch after a direct 403 [Newton,
+  Perimeter, IAS]; Physics SE HEALED this session [feed URL fixed, see SOURCES.md]) · routing-leak
+  0 · capture-leak: 0 found this session (file-wide sweep, 208 unique arXiv ids post-burndown, 24
+  uncited-inline ids all verified as documented burndown-drops or checked-and-excluded references,
+  per the established 08-27 method); this week's 5 daily reports each independently reported 0 ·
+  src-disc 0 promoted/9 held below the ≥2 bar (checked against this week's 5 daily reports — only
+  sammattheus.wordpress.com recurred, already counted via its author's direct Ramsey co-authorship,
+  not a fresh staging sighting) · TOOLING: `tvly` hit the SAME account-level quota-exhaustion error
+  again on its first call this session — the 9th CONSECUTIVE run on this failure (08-20 through
+  08-29), one full week past the original heal-owed notification (08-22). NEW this session: the
+  standing r/math/r/mathematics degradation was root-caused — direct `curl` (multiple UAs, three
+  URL forms) and `WebSearch` with a `reddit.com` domain filter (which errors outright, "not
+  accessible to our user agent") both fail identically, confirming Reddit blocks every access path
+  this radar has at the network/crawler-policy level, not merely a `tvly`-quota gap. Re-escalated
+  to the curator via a push notification this session (both the persisting Tavily quota AND that
+  its restoration is now the ONLY known path back into the full reddit lane — r/math, r/mathematics,
+  r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics). Interpretation: the queue burndown
+  (weekly.md §3) again fell far short of any fixed numeric target (175→165, not 80-120) under the
+  SAME full item-by-item rigor as W34 — a second consecutive week confirms this is genuine
+  domain-cadence protection (most aged items are landmark/forming-pair/study_shelf/cross-referenced),
+  not under-effort; PROPOSED Amendment E (replace the numeric queue-size target with a
+  criterion-completeness metric — see strategy_notes) for W36 decision. One dedicated source heal
+  this session (Physics SE). Monthly retrospective not due (day 29 > 7; M09 due first run of
+  September — next weekly).
