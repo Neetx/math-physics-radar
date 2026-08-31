@@ -709,3 +709,88 @@ returned "exceeds your plan's set usage limit" — 8th consecutive quota-exhaust
 3rd). study_shelf: 2 new picks (the Arnold-Givental conjecture proof; the AGT-conjecture-at-
 generic-β proof). SOURCES.md: no changes needed this session. README.md regenerated from the
 updated ledger in the same commit.
+
+2026-08-31 (Mon, Pass 1, ~scheduled) — FULL CHECK; first daily since W35 weekly (2026-08-29); no
+daily 08-30 (Sun, expected weekend gap, no arXiv batch). No orphaned `radar:` commits found
+(session branch matched `origin/main` head, eb62142, at session start). Primary sweep
+(radar-source-sweep, arXiv API — worked via URL-encoded date-range brackets, `%5B`/`%5D`, after a
+literal-bracket curl-globbing failure this session): full in-scope math category rotation
+(math.NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/CO/PR/RT/LO/OA, 20 cats, one date-filtered API pass,
+124 fresh entries) + physics (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/
+supr-con/astro-ph.CO/HE, 142 fresh entries) — both batches dated 2026-08-28 (the fresh
+post-weekend-announced batch; Fri submissions announce same-day, nothing new posts over the
+weekend). KEY CAPTURE: math.GR 2608.28348 (Fioravanti, "The Twist Conjecture and the Isomorphism
+Problem for Coxeter groups") — proves Mühlherr's Twist Conjecture, completing (with Howlett-
+Mühlherr/Marquis-Mühlherr) the full resolution of the Isomorphism Problem for Coxeter groups —
+domain-cadence LANDMARK → queue + study_shelf. Also captured: math.AG 2608.28038 (Nakamura,
+Shibata, non-klt counterexample to Shokurov's index conjecture) → queue; math.NT 2608.27802
+(Fonga, partial progress on the multiplicative-persistence conjecture's even-target case) → queue.
+Targeted searches confirmed no new evidence for Ramsey / non-invertible symmetries / Stanley-
+Gasharov this session — all three HELD. APS PRL feed opened: KEY CAPTURE, a same-day (2026-08-28)
+pair of companion papers — PRL 137,091806 (arXiv:2512.08065v3, LZ Collaboration, 4.5σ evidence for
+solar-⁸B-neutrino CEνNS) and PRL 137,091807 (arXiv:2604.06002, XENONnT, 3.3σ measurement of the
+same channel) — a first-of-kind detection-channel domain-cadence LANDMARK, 2-collaboration
+same-day convergence → both queued + study_shelf. PRX/RMP opened, nothing beyond routine. CERN
+Courier opened (still unchanged since 07-23 — a standing-quiet venue, not degraded). Fermilab
+opened: KEY CAPTURE, "Fermilab Team Refines Muon Anomaly Correction Via Decay Analysis" (dated
+08-25, missed until this session) — a detector-acceptance refinement narrowing (not confirming)
+the muon g-2 tension → queue (vetting-outcome tracking). Simons Foundation opened (a "Universal
+Statistics in Number Theory" collaboration LAUNCH 08-18 — organizational news, not a result;
+below capture bar). Nature Physics/Communications RSS still empty-CDATA (standing degraded).
+Quantum journal opened (top ≤08-27, quantum-computing-technique papers, below-bar). SciPost API
+opened (top ≤08-28, routine, below-bar). INSPIRE-HEP most-recent opened (routine
+instrumentation/detector papers, below-bar; note: its `earliest_date` sort reflects journal/
+conference dates, not submission recency — treat as a supplementary check, not the primary
+recency signal). Experiments block: LIGO (`WebFetch` on `http://www.ligo.org/news` — direct curl
+Cloudflare-blocked again, same as 08-25/08-26 — top item unchanged, GWTC-5.0 May 2026); DESI
+(`curl` on the homepage — top blog post unchanged, 07-30 Lyman-alpha DR2); CERN (`/feed/` — Meyrin
+site-works news 08-28 and a "Positrons pass test for FCC" 08-26 item, both routine/
+below-bar; double-Higgs 08-27 already tracked); IceCube (`/category/news/feed/` — routine "Week at
+the Pole" + an NSF contract-renewal announcement, below-bar). Community pulse (radar-pulse):
+r/math and r/mathematics still degraded (structural block, standing since prior sessions, no
+working fallback — `tvly` still quota-exhausted, see below); Hacker News front page opened (Algolia
+API) — no math/physics story; MathOverflow feed opened (`/feeds`, no trailing-slash correction still
+holds) — routine research-level Q&A, nothing on-axis; Physics Stack Exchange opened (`/feeds`,
+no-trailing-slash heal from W35 confirmed working) — routine Q&A, nothing on-axis; Mathstodon
+public timeline opened — federated-timeline noise only (one stray math-flavored post glimpsed, not
+named per the never-name-individuals rule), nothing rising above noise. Digest/blog lane fully
+opened: Quanta (new 08-28 essay "Does Computer Science Need Computers?" — general reflection, no
+primary to follow, below-bar); Terry Tao (no new post since 08-26, already tracked); Not Even Wrong
+(no new post since 08-26, already tracked); Gowers (no new post since 08-12); Kalai (no new post
+since 08-15); Baez/Azimuth (no new post since 08-22); n-Category Café opened via `curl` (no new post
+since 08-12, "Three Generations in E7"); Strassler confirmed quiet (standing, last post 02-05);
+Backreaction opened — new 08-29 post ("Warp Drives Can Explain Some UAP Observations") checked via
+WebFetch on the full article: names no physicist and links no paper, so nothing citable — intake
+noise, not evidence. Scientific American opened (mathematics section + homepage): KEY CAPTURE, "NASA's
+Nancy Grace Roman Telescope Launches to Space" (2026-08-30, opened directly) — major dark-energy/
+dark-matter/exoplanet-census mission launch → queue (below-bar for now, a launch not yet a result;
+watch for first data). Mathematics section unchanged since 08-21 (already tracked). Repo watch
+(radar-repo-watch, via `WebFetch` on `.atom` for lean4/rocq/mathlib4 — direct `curl`/API still
+session-proxy-403'd): mathlib4 daily tag now `master-2026-08-30` (routine); lean4 unchanged
+v4.34.0-rc2/v4.33.1 (08-21); Rocq unchanged 9.3+rc1 (07-22). Exploration slot (radar-explore,
+OFF-AXIS rotation): math.NA (numerical analysis, next in the roster after nlin.SI/CD) — top 30
+items read via the arXiv API regardless of sub-topic, all routine numerical-methods/PDE-solver
+papers, 0/30 significant off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues,
+next: q-bio.PE). Trend recalibration (radar-ledger-update): Ramsey — HELD accelerating/medium (no
+7th group, targeted search confirmed). Non-invertible symmetries — HELD accelerating/high (no 10th
+group, targeted search confirmed). Stanley-Gasharov — HELD seed/medium (no 4th group, targeted
+search confirmed; last_evidence now 33 days old, well inside the 60-day window). Queue 165 → 172
+(+7 new items this session; daily does not burn down per domain cadence). capture-leak: 5 new
+arXiv ids checked this session (2608.28348, 2512.08065, 2604.06002, 2608.28038, 2608.27802; the
+Fermilab muon-anomaly and Roman-telescope items have no arXiv id) — all land on discrete
+queue/study_shelf lines, 0 leaked; PLUS the mandatory mechanical file-wide reconciliation: 222
+unique arXiv ids (up from ~217), 33 without a literal `arXiv:`/`abs/`-prefixed citation match (up
+from 24 at the W35 weekly, using a stricter regex than that session's) — all 33 spot-checked and
+verified as the same class already documented as legitimate in `strategy_notes` (dropped-burndown
+records, or checked-and-excluded bracket-style citations without the literal `arXiv:` prefix,
+e.g. `(2608.27405, ...)`) — 0 file-wide leaks. Source-discovery: no new untracked on-axis domain
+surfaced this session — today's primaries came from already-swept arXiv/APS-PRL/Fermilab/
+Scientific-American venues. tvly: absent from PATH at session start; a fresh `pip install -q
+tavily-cli` succeeded but the first live call returned "exceeds your plan's set usage limit" —
+10th consecutive occurrence (08-20 through 08-29, 08-31; no run 08-30), not re-notified (already
+heal-owed and re-escalated at the 3rd and 9th). Worked around entirely via curl/WebFetch/the arXiv
+API; NOTE for future sessions — literal `[`/`]` in a `curl` URL (e.g. an arXiv `submittedDate:
+[...]` range query) trigger curl's own globbing parser and silently break single-file `-o` output;
+always URL-encode as `%5B`/`%5D` or pass `--globoff`. study_shelf: 2 new picks (the LZ+XENONnT
+solar-neutrino CEνNS joint landmark; the Coxeter Isomorphism Problem resolution). SOURCES.md: no
+changes needed this session. README.md regenerated from the updated ledger in the same commit.

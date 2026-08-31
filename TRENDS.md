@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-29
+Last updated: 2026-08-31
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2269,6 +2269,64 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   between annuli to higher dimensions, proving sharp modulus bounds and rigidity. Abstract +
   authors verified via arXiv API this session (v1 2026-08-27). Below-bar (a higher-dimensional
   generalization of an already-settled 2D result, not a first resolution) — queued.
+- 2026-08-31 (v1) — arXiv:2608.28348 — Elia Fioravanti, "The Twist Conjecture and the Isomorphism
+  Problem for Coxeter groups" — https://arxiv.org/abs/2608.28348 — geometric group theory (axis 1,
+  math.GR): proves Mühlherr's Twist Conjecture (any two angle-compatible Coxeter generating sets of
+  a Coxeter group differ by a finite sequence of elementary twists and a conjugation), which
+  combined with earlier work of Howlett-Mühlherr and Marquis-Mühlherr COMPLETES the resolution of
+  the Isomorphism Problem for Coxeter groups — also shows Aut(W) is finitely generated for every
+  Coxeter group W, with an algorithm producing a finite generating set. Abstract + author verified
+  via arXiv API this session (v1 2026-08-28, the fresh post-weekend batch). Single-author,
+  unrefereed preprint resolving a long-standing named classification problem — PROVISIONAL under
+  the hype-skepticism rule; domain-cadence LANDMARK — queued, also on `study_shelf`.
+- 2026-08-31 — Phys. Rev. Lett. 137, 091806 (arXiv:2512.08065v3) — LZ Collaboration (D. S. Akerib
+  et al.), "Searches for Light Dark Matter and Evidence of Coherent Elastic Neutrino-Nucleus
+  Scattering of Solar Neutrinos with the LUX-ZEPLIN (LZ) Experiment" —
+  https://arxiv.org/abs/2512.08065 — particle/astroparticle physics (axis 3, dark-matter
+  direct-detection experiments): reports 4.5σ evidence for coherent elastic scattering (CEνNS) of
+  solar ⁸B neutrinos, published in PRL 2026-08-28 (opened via the APS PRL RSS feed this session).
+  Peer-reviewed journal publication (not a bare preprint). Companion XENONnT result below —
+  2 independent collaborations, same publication date. Evidence-level (4.5σ), not yet a 5σ
+  discovery — hype-skepticism: track for a follow-up exposure crossing the discovery threshold.
+  Domain-cadence LANDMARK (first-of-kind CEνNS-via-dark-matter-detector detection channel) —
+  queued, also on `study_shelf`.
+- 2026-08-31 — Phys. Rev. Lett. 137, 091807 (arXiv:2604.06002) — XENON Collaboration (E. Aprile et
+  al.), "Probing the Solar ⁸B Neutrino Fog with XENONnT" — https://arxiv.org/abs/2604.06002 —
+  particle/astroparticle physics (axis 3): reports a 3.3σ measurement of coherent elastic
+  neutrino-nucleus scattering from solar ⁸B neutrinos using a 6.77 t·yr exposure, published in PRL
+  the SAME DAY (2026-08-28) as the LZ result above — an independent second collaboration
+  corroborating the same first-of-kind physics channel from the "neutrino fog." Below the discovery
+  bar on its own (3.3σ) but paired with LZ as a same-day 2-collaboration convergence — queued
+  alongside LZ, see that item for the primary-source detail.
+- 2026-08-31 (v1) — arXiv:2608.28038 — Yusuke Nakamura, Kohsuke Shibata, "A non-klt counterexample
+  to Shokurov's index conjecture" — https://arxiv.org/abs/2608.28038 — algebraic geometry (axis 1,
+  math.AG, birational geometry / minimal model program): gives a counterexample to Shokurov's index
+  conjecture for minimal log discrepancies in the non-klt setting. Abstract + authors verified via
+  arXiv API this session (v1 2026-08-28). Below-bar (a specific non-klt-setting counterexample, not
+  a refutation of the conjecture's mainline klt case) — queued.
+- 2026-08-31 (v1) — arXiv:2608.27802 — Patrick Nyadjo Fonga, "The Multiplicative Persistence
+  Conjecture: Resolving the 2-Adic Obstruction for Nonzero Even Targets" —
+  https://arxiv.org/abs/2608.27802 — number theory (axis 1, math.NT): extends Brier-Clavier-
+  Gutsche-Naccache's proof of the classical multiplicative-persistence conjecture (no decimal
+  integer needs more than 11 digit-product iterations) — which they established for odd terminal
+  digits — toward the nonzero-even-terminal-digit case, resolving a 2-adic obstruction that blocked
+  their approach. Abstract + author verified via arXiv API this session (v1 2026-08-27). Below-bar
+  (partial progress on one remaining case, single author, unrefereed) — queued.
+- 2026-08-31 — https://news.fnal.gov/2026/08/fermilab-team-refines-muon-anomaly-correction-via-decay-analysis/
+  — Fermilab Muon g-2 Collaboration, "Fermilab Team Refines Muon Anomaly Correction Via Decay
+  Analysis" — particle physics (axis 3, discovery/anomaly vetting status): a refined
+  detector-acceptance correction to the muon anomalous-magnetic-moment measurement brings results
+  into closer agreement with Standard Model predictions, narrowing (not confirming) the long-
+  standing muon g-2 tension. Official Fermilab news primary, opened this session (article dated
+  2026-08-25); no arXiv preprint number given on the page. Vetting-outcome tracking (hype-
+  skepticism: this narrows rather than confirms a new-physics anomaly) — queued.
+- 2026-08-31 — https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-launches-to-space/
+  — NASA, "NASA's Nancy Grace Roman Telescope Launches to Space" — cosmology/instrumentation (axis
+  3): the Nancy Grace Roman Space Telescope launched 2026-08-30 on a Falcon Heavy from Kennedy
+  Space Center, tasked with probing dark energy/dark matter and a wide-field exoplanet census (a
+  coronagraph aiming to grow the known exoplanet count from ~6,000 to ~100,000). A major-mission
+  LAUNCH, not yet a scientific result — below-bar for now, queued as a watch item for its first
+  data releases.
 
 ## source_rotation
 
@@ -3042,12 +3100,33 @@ Corrections to the source-coverage strategy.
   notification (both issues: Tavily plan quota, and that its restoration is now the only known path
   back into the reddit/r/math/r/mathematics/r/Physics/r/cosmology/r/ParticlePhysics/r/AskPhysics
   lane).
+- 2026-08-31 (daily) — TOOLING: `tvly` was again absent from PATH at session start; a fresh
+  `pip install -q tavily-cli` succeeded, but the first live `tvly search` call immediately returned
+  the same account-level "exceeds your plan's set usage limit" error — the 10th CONSECUTIVE run on
+  this exact failure (08-20, 08-21, 08-22, 08-24, 08-25, 08-26, 08-27, 08-28, 08-29, 08-31; no run
+  08-30, expected weekend gap). Already heal-owed/re-escalated at the 3rd and again at the 9th
+  (W35) — not re-notified this session per AGENTS.md (notify only for a NEW degradation or a
+  failed-push/stranded state, not a repeat of an already-flagged one). Worked around entirely via
+  direct `curl` (arXiv API with URL-encoded date-range brackets — literal `[`/`]` in a `curl` URL
+  trigger its globbing parser and silently break `-o` output; use `%5B`/`%5D` or `--globoff`),
+  `WebFetch`, and the arXiv API for every lane that needed it — r/math/r/mathematics remain the one
+  lane with no working fallback while `tvly` stays quota-exhausted (still unresolved from the
+  curator's side; see the W35 report).
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-31 — [Evidence for coherent elastic scattering of solar neutrinos (LZ 4.5σ; XENONnT 3.3σ)](https://arxiv.org/abs/2512.08065)
+  — two independent dark-matter direct-detection collaborations, LZ and XENONnT, each report
+  evidence for coherent elastic neutrino-nucleus scattering (CEνNS) from solar ⁸B neutrinos in
+  companion PRL papers published the same day (2026-08-28) — the "neutrino fog" floor that will
+  also bound future dark-matter search sensitivity; see also the [XENONnT paper](https://arxiv.org/abs/2604.06002).
+- 2026-08-31 (v1) — [The Twist Conjecture and the Isomorphism Problem for Coxeter groups (Fioravanti)](https://arxiv.org/abs/2608.28348)
+  — proves Mühlherr's Twist Conjecture, which combined with prior work completes the resolution of
+  the Isomorphism Problem for Coxeter groups — closing a classification question standing since
+  Coxeter groups were first studied via generators and relations.
 - 2026-08-28 (v1 2026-08-27) — [A proof of the Arnold-Givental conjecture (Bai, Shelukhin, Wang, Xu)](https://arxiv.org/abs/2608.27242)
   — proves the Arnold-Givental conjecture in full generality: for a closed symplectic manifold with
   an anti-symplectic involution, the Floer-theoretic Lagrangian intersection lower bound holds
