@@ -1,27 +1,30 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-3-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-172-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--31-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-180-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--01-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-08-31):**
-- Two independent dark-matter experiments, [LZ (4.5σ) and XENONnT (3.3σ)](https://arxiv.org/abs/2512.08065), both published solar-neutrino coherent-elastic-scattering (CEνNS) results the same day (2026-08-28) — a first-of-kind detection channel for this class of detector.
-- [The Isomorphism Problem for Coxeter groups is now fully resolved](https://arxiv.org/abs/2608.28348) (Fioravanti proves Mühlherr's Twist Conjecture, completing decades of partial results).
-- [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [Non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) and [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) all HELD — no new independent groups since the W35 weekly.
-- Queue 165 → 172 (+7 new items, incl. a [Shokurov's-index-conjecture counterexample](https://arxiv.org/abs/2608.28038) and the [Roman Space Telescope launch](https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-launches-to-space/); domain cadence — no daily burndown).
+**Since last scan (2026-09-01):**
+- New trend: [sharpening the exponent in Marton's conjecture](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) — three independent groups (GGMT 2024, Liao 2024, and today's [Song-Yue](https://arxiv.org/abs/2608.30336)) have sequentially tightened the polynomial-Freiman-Ruzsa constant.
+- A 3-week-old backlog catch: [a 112-vertex counterexample to the Petersen Coloring Conjecture](https://arxiv.org/abs/2608.10012) (Putman), independently hand-verified one day later by [Jooken](https://arxiv.org/abs/2608.10028) — a long-standing conjecture refuted.
+- [A decades-old percolation-theory conjecture resolved](https://arxiv.org/abs/2603.03257) (Diskin, Easo, Radhakrishnan, Sudakov, Tassion) — newly spotlighted by Quanta Magazine as "a gem" of a proof.
+- Queue 172 → 180 (+8 new items; domain cadence — no daily burndown). `tvly` recovered after a 10-run quota outage, reopening the Reddit intake lane.
 
 ## Trends
 
-🌱 1 · 📈 0 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-25](https://arxiv.org/abs/2608.24385) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-08-22](https://arxiv.org/abs/2608.21769) |
+| [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-08-31](https://arxiv.org/abs/2608.30336) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257) — resolves a percolation-theory conjecture open since the 1980s (exponential decay of finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by Quanta Magazine as "a gem" of a proof.
+- [A 112-vertex counterexample to the Petersen Coloring Conjecture (Putman; independently verified by Jooken)](https://arxiv.org/abs/2608.10012) — refutes Jaeger's Petersen Coloring Conjecture via an explicit SAT-verified graph, with a second, fully independent hand-checkable proof published one day later — a backlog catch, dated 2026-08-08/09.
 - [Evidence for coherent elastic scattering of solar neutrinos (LZ 4.5σ; XENONnT 3.3σ)](https://arxiv.org/abs/2512.08065) — two independent dark-matter direct-detection collaborations, LZ and XENONnT, each report evidence for coherent elastic neutrino-nucleus scattering (CEνNS) from solar ⁸B neutrinos in companion PRL papers published the same day — the "neutrino fog" floor that will also bound future dark-matter search sensitivity; see also the [XENONnT paper](https://arxiv.org/abs/2604.06002).
 - [The Twist Conjecture and the Isomorphism Problem for Coxeter groups (Fioravanti)](https://arxiv.org/abs/2608.28348) — proves Mühlherr's Twist Conjecture, which combined with prior work completes the resolution of the Isomorphism Problem for Coxeter groups — closing a classification question standing since Coxeter groups were first studied via generators and relations.
 - [A proof of the Arnold-Givental conjecture (Bai, Shelukhin, Wang, Xu)](https://arxiv.org/abs/2608.27242) — proves the Arnold-Givental conjecture in full generality: for a closed symplectic manifold with an anti-symplectic involution, the Floer-theoretic Lagrangian intersection lower bound holds unconditionally, via integral Floer theory and a new Z/2-equivariant localization argument.
@@ -80,13 +83,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/), [r/mathematics](https://www.reddit.com/r/mathematics/), [r/Physics](https://www.reddit.com/r/Physics/), [r/cosmology](https://www.reddit.com/r/cosmology/), [r/ParticlePhysics](https://www.reddit.com/r/ParticlePhysics/) and [r/AskPhysics](https://www.reddit.com/r/AskPhysics/) remain unreachable — a confirmed hard, structural block on every access path this radar has; escalated to the curator.
-- [Hacker News](https://news.ycombinator.com/) front page carried no math/physics story today — checked, nothing on-axis.
-- [Terence Tao's blog](https://terrytao.wordpress.com/), [Quanta Magazine](https://www.quantamagazine.org/) and [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) all opened, nothing pointing to a new primary beyond what's already tracked.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) are reachable again via a recovered search path (direct feed access still blocked) — a thread there led to today's Petersen-Coloring-Conjecture backlog catch.
+- [Hacker News](https://news.ycombinator.com/) front page carried one expository pointer (Tao on core mathematical concepts) — no new primary.
+- [Quanta Magazine](https://www.quantamagazine.org/) surfaced today's percolation-theory landmark; [Terence Tao's blog](https://terrytao.wordpress.com/), [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) and [Backreaction](https://backreaction.blogspot.com/) otherwise unchanged since last scan.
 - [MathOverflow](https://mathoverflow.net/) and [Physics Stack Exchange](https://physics.stackexchange.com/feeds) checked — routine research-level Q&A, nothing on-axis today.
 - [Mathstodon](https://mathstodon.xyz/public) public timeline checked — federated-timeline noise only, no on-axis signal worth naming.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (172) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-08-31](reports/2026-08-31.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (180) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-01](reports/2026-09-01.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

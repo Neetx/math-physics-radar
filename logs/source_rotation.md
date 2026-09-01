@@ -794,3 +794,75 @@ API; NOTE for future sessions — literal `[`/`]` in a `curl` URL (e.g. an arXiv
 always URL-encode as `%5B`/`%5D` or pass `--globoff`. study_shelf: 2 new picks (the LZ+XENONnT
 solar-neutrino CEνNS joint landmark; the Coxeter Isomorphism Problem resolution). SOURCES.md: no
 changes needed this session. README.md regenerated from the updated ledger in the same commit.
+
+2026-09-01 (Tue, Pass 1, ~scheduled) — first daily since 2026-08-31 (no orphaned `radar:` commits
+found; session branch matched `origin/main`'s head, 2bb269e, at session start). FULL CHECK of
+every DAILY-tier mandatory lane. Primary sweep (radar-source-sweep): arXiv full in-scope category
+rotation via the API in two combined queries (math: AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/NT/CO/PR/
+RT/LO/OA/OC/DS, 250-entry cap reaching back to 08-30; physics: hep-th/hep-ph/gr-qc/math-ph/
+quant-ph/astro-ph.CO/astro-ph.HE/cond-mat.str-el/cond-mat.supr-con/cond-mat.mes-hall, 250-entry cap
+reaching back to 08-29) — fresh 08-31 batch triaged in full (all titles read), 08-29/08-30
+overlap re-confirmed nothing missed. KEY CAPTURES: Song-Yue Marton's-covering-conjecture exponent
+improvement (2608.30336, promoted to a new `emerging` trend with GGMT-2024/Liao-2024 as backdated
+evidence — see strategy_notes); Stadlmann bounded-gaps-between-primes improvement (2608.31126,
+246→240, queue); Hajiaghayi et al. polynomial-time Győri-Lovász algorithm (2608.30945, queue);
+Wang-Tang-Fan Bekenstein-Hod-bound GW250114 test (2608.31039, unrefereed, queue); Zhu et al.
+tellurium-polyhydride superconductivity (2608.30139, unrefereed, queue). Targeted rechecks: no
+new Ramsey-lower-bound, non-invertible-symmetry, or Stanley-Gasharov/claw-free item in the fresh
+batch (two Ramsey-ADJACENT titles — size-Ramsey, anti-Ramsey-for-posets — checked and excluded,
+off-axis for the tracked lower-bound-specific trend); all three trends HELD. APS PRL/PRX/RMP
+opened (100-item RSS each; PRL's LZ CEνNS item confirms already-tracked; nothing else new
+on-axis). Nature Physics + Nature Communications RSS: HEALED — CDATA titles now render (the
+standing empty-CDATA degradation from 08-21 did not reproduce this session) — both opened, nothing
+new on-axis. Quantum journal, SciPost API, INSPIRE-HEP most-recent all opened — routine, nothing
+on-axis. CERN Courier (stale since 07-23, unchanged — standing), Fermilab (newest 08-25, already
+tracked), Simons Foundation (newest 08-24, off-axis) all opened, no new capture. Experiments block:
+LIGO (`WebFetch` on the plain `/news` URL, per the 08-27 heal) unchanged GWTC-5.0; DESI (`tvly
+extract`) unchanged, still the April-2026 survey-completion milestone; CERN home RSS unchanged
+(double-Higgs item already tracked); IceCube category-feed RSS surfaced ONE new item, "Projected
+sensitivities of the IceCube Upgrade" (08-31) — chased via `WebFetch` to its named arXiv primary
+(2608.28395), queued as a below-bar detector-capability milestone. Community pulse (radar-pulse):
+`tvly` RECOVERED this session (see strategy_notes) — used to re-test r/math/r/mathematics via
+`tvly search --include-domains reddit.com --time-range week`, which WORKED (first success since
+the hard-block was root-caused at W35) and surfaced a thread naming a genuine 3-week-old capture
+MISS, chased and verified: Putman's Petersen-Coloring-Conjecture counterexample (2608.10012,
+08-08) + Jooken's independent human-checkable verification (2608.10028, 08-09) — both routed to
+queue + study_shelf as a domain-cadence landmark (see strategy_notes for the backlog-catch note).
+Direct `curl` on reddit `.rss` STILL 403s (only the `tvly search` path works). Hacker News front
+page opened (Algolia API) — one on-axis pointer only ("Terence Tao explains 6 essential
+mathematical concepts [video]," expository, no new primary, not captured). MathOverflow feed
+opened (routine research-level Q&A, nothing on-axis). Mathstodon public timeline opened
+(federated-timeline noise only, nothing above the never-name-individuals noise floor). Digest/blog
+lane fully opened: Quanta (KEY CAPTURE — "'Stunning' Percolation Proof Solves Decades-Old Puzzle
+About Phase Transitions," 2026-08-31, chased via `WebFetch` to arXiv:2603.03257, queued +
+study_shelf'd as a domain-cadence landmark); Terry Tao (no new post since 08-26, already tracked);
+Not Even Wrong ("This Week's Hype," 08-26, already tracked, not new); Gowers (no new post since
+08-12); Kalai (no new post since 08-15); Baez/Azimuth (no new post since 08-17, confirmed via
+`WebFetch` — "Three Generations in E7" still newest); n-Category Café (same, confirmed via
+`WebFetch`); Strassler (confirmed quiet, standing); Backreaction opened via `curl -A "Mozilla/5.0"
+.../feeds/posts/default?alt=rss` — newest post still "Warp Drives Can Explain Some UAP
+Observations" (08-29, already checked/no primary, matches 08-31's known state) — no new post.
+Scientific American opened (`tvly search --include-domains scientificamerican.com --time-range
+week`): newest on-axis hit is the already-tracked LZ/XENONnT dark-matter/neutrino story; nothing
+new. Repo watch (radar-repo-watch, `WebFetch` on `.atom` for all three, direct API still
+session-proxy-403'd): mathlib4 daily tag now `master-2026-08-31` (routine); lean4 unchanged
+v4.34.0-rc2 (08-21); Rocq unchanged 9.3+rc1 (07-22) — no movement. Exploration slot (radar-explore,
+OFF-AXIS rotation): q-bio.PE (next in the roster after math.NA) — top 30 items read via the arXiv
+API regardless of sub-topic, all routine ecology/epidemiology/evolutionary-biology papers, 0/30
+significant off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues, next:
+math.PR↔math.ST interface). Trend recalibration (radar-ledger-update): Ramsey — HELD
+accelerating/medium (no 7th group). Non-invertible symmetries — HELD accelerating/high (no 10th
+group). Stanley-Gasharov — HELD seed/medium (no 4th group; last_evidence now 34 days old, well
+inside the 60-day window). Marton's-conjecture-exponent — NEW `emerging`/medium trend (see
+strategy_notes). Queue 172 → 180 (+8; daily does not burn down per domain cadence). capture-leak:
+11 new arXiv ids checked this session — all land on discrete trend-evidence/queue/study_shelf
+lines, 0 leaked; PLUS the mandatory mechanical file-wide reconciliation: 233 unique arXiv ids (up
+from 222), 33 without a literal `arXiv:`/`abs/`-prefixed citation match — the SAME 33 already
+verified legitimate in prior sessions (unchanged from the 08-31 count) — 0 file-wide leaks.
+Source-discovery: no new untracked on-axis domain surfaced this session — today's primaries came
+from already-swept arXiv/Quanta/IceCube/Reddit (via the registered `tvly search` method) venues.
+tvly: RECOVERED after a 10-consecutive-run account-quota-exhaustion streak (08-20 through 08-31) —
+see strategy_notes; not re-notifying the curator (a recovery, not a new issue). study_shelf: 2 new
+picks (the percolation supercritical-sharpness landmark; the Petersen-Coloring-Conjecture
+counterexample backlog catch). SOURCES.md: no changes needed this session. README.md regenerated
+from the updated ledger in the same commit.

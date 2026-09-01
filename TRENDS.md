@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-08-31
+Last updated: 2026-09-01
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -703,6 +703,35 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Confidence held medium (short, checkable, cross-verified computations — still unrefereed,
     now a full month quiet without a referee outcome; watch remains a 4th group or a vetting
     result, not the passage of time alone under domain cadence).
+
+### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
+- stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-08-31
+- what: THREE independent author groups have now successively shaved the constant in the
+  polynomial-Freiman-Ruzsa bound established by Gowers-Green-Manners-Tao's 2024 resolution of
+  Marton's conjecture — a sequential-improvement DIRECTION trend (the same wave pattern as the
+  Ramsey lower-bound trend above), not a fresh open-conjecture race: the conjecture itself is
+  already settled, and the sub-theme is who can tighten the exponent next.
+- evidence:
+  - 2024-04-02 — https://arxiv.org/abs/2404.02244 — Gowers, Green, Manners, Tao, "Marton's
+    Conjecture in abelian groups with bounded torsion": proves the polynomial Freiman-Ruzsa
+    conjecture in full generality; for $G=\mathbb{F}_2^n$ specializes to a cover by at most
+    $2K^{C}$ cosets with $C=12$. Abstract verified via arXiv API this session.
+  - 2024-04-15 — https://arxiv.org/abs/2404.09639 — Liao, "Improved Exponent for Marton's
+    Conjecture in $\mathbb{F}_2^n$": simple modifications to the GGMT argument improve $C=12$ to
+    $C=9$. Abstract verified via arXiv API this session.
+  - 2026-08-31 — https://arxiv.org/abs/2608.30336 — Song, Yue, "An Improvement to the Upper Bound
+    for Marton's Covering Conjecture": further improves the exponent from $9$ (Liao) to $8.873$.
+    Surfaced in today's fresh math.CO batch; abstract verified via arXiv API this session.
+- notes: 2026-09-01 (daily, PROMOTION): today's math.CO sweep surfaced the Song-Yue exponent
+  improvement, which cites Liao's 2024 improvement of the original GGMT 2024 resolution as its
+  immediate predecessor — three fully independent groups (GGMT; Liao; Song-Yue), each with its
+  own concrete artifact, sequentially tightening one constant → clears the ≥3-independent-group
+  convergence bar for a DIRECTION trend (daily.md §4), backdated evidence opened and verified this
+  session even though the first two artifacts predate this radar. Stage set to `emerging` rather
+  than `seed` given the sequence is already 2+ years and three iterations deep. Confidence medium
+  (each step is a short, checkable refinement of a landmark already fully proved, not an
+  extraordinary claim) — watch for a 4th group or the exponent approaching a plausible final
+  constant.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2327,6 +2356,57 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   coronagraph aiming to grow the known exoplanet count from ~6,000 to ~100,000). A major-mission
   LAUNCH, not yet a scientific result — below-bar for now, queued as a watch item for its first
   data releases.
+- 2026-09-01 (BACKLOG CATCH, chased via a community-pulse pointer to Reddit which named a
+  now-3-week-old result never captured — a genuine miss, not a fresh find) —
+  https://arxiv.org/abs/2608.10012 — Putman, "A 112-Vertex Counterexample to the Petersen
+  Coloring Conjecture": an explicit, SAT-solver-verified (CaDiCaL + drat-trim proof) bridgeless
+  cubic graph on 112 vertices with no Petersen coloring — refutes Jaeger's Petersen Coloring
+  Conjecture, a long-standing open problem in the nowhere-zero-flow / cycle-double-cover family.
+  Independently corroborated one day later by a second, fully independent author: see
+  https://arxiv.org/abs/2608.10028 — Jooken, "A human-checkable proof of the 112-vertex
+  counterexample to the Petersen coloring conjecture" (a hand-checkable structural argument that
+  does not rely on the SAT certificate). DOMAIN-CADENCE LANDMARK (refutation of a long-standing
+  named conjecture) — also routed to `study_shelf`. Both abstracts verified via arXiv API this
+  session; dated 2026-08-08/2026-08-09, so already 3+ weeks old — flagged for the day's
+  capture-leak note as a genuine backlog miss, not a leak (neither id appeared anywhere in
+  `TRENDS.md` before today).
+- 2026-09-01 — https://arxiv.org/abs/2603.03257 — Diskin, Easo, Radhakrishnan, Sudakov, Tassion,
+  "Supercritical sharpness of percolation": proves the supercritical sharpness conjecture for
+  percolation on every infinite transitive graph (exponential decay of the finite-cluster-size
+  tail, sharp in the graph's isoperimetric function) — resolves a percolation-theory problem open
+  since the 1980s (previously known only for lattices). DOMAIN-CADENCE LANDMARK (resolution of a
+  decades-old conjecture) — also routed to `study_shelf`. Posted 2026-03-03 (math.PR); surfaced
+  via today's Quanta Magazine coverage ("'Stunning' Percolation Proof Solves Decades-Old Puzzle
+  About Phase Transitions," 2026-08-31, opened this session) chased to the arXiv abstract, which
+  was verified via the arXiv API this session.
+- 2026-09-01 — https://arxiv.org/abs/2608.31126 — Stadlmann, "Bounded gaps between primes":
+  combines the Bombieri-Vinogradov theorem with newer equidistribution estimates for smooth
+  moduli to improve Polymath8b's bound $H_1=246$ (the smallest proven infinitely-recurring prime
+  gap) to $H_1=240$ — a solo-author incremental advance on the Zhang/Maynard/Polymath8 lineage,
+  below-bar for a standalone trend (single group, single artifact). Abstract verified via arXiv
+  API this session (v1 2026-08-31).
+- 2026-09-01 — https://arxiv.org/abs/2608.30945 — Hajiaghayi, JafariRaviz, Kaviani, Mohammadkhani,
+  "Breaking the Exponential Barrier: The First Polynomial-Time Algorithm for the Győri-Lovász
+  Theorem": gives the first polynomial-time constructive algorithm, 50 years after Lovász's
+  non-constructive existence proof, for partitioning any $k$-connected graph into $k$ disjoint
+  connected subgraphs of prescribed sizes. Below-bar (single group) but a notable algorithmic
+  combinatorics result. Abstract verified via arXiv API this session (v1 2026-08-30).
+- 2026-09-01 — https://arxiv.org/abs/2608.31039 — Wang, Tang, Fan, "Bekenstein-Hod Bound: A
+  $3.3σ$ Confirmation from GW250114": tests the Bekenstein-Hod bound on black-hole relaxation
+  time using GW250114's pre-/post-merger data, reporting $3.3σ$ consistency. UNREFEREED PREPRINT
+  — a single-group observational analysis (not an LZ/LIGO-collaboration paper), extraordinary-
+  claim caution applies; below-bar for a standalone trend, queued to watch for independent
+  reanalysis/vetting. Abstract verified via arXiv API this session (v1 2026-08-31).
+- 2026-09-01 — https://arxiv.org/abs/2608.28395 (via IceCube Collaboration news, "Projected
+  sensitivities of the IceCube Upgrade," https://icecube.wisc.edu/news/research/2026/08/projected-sensitivities-of-the-icecube-upgrade/,
+  opened this session) — a design/projection study (submitted to Phys. Rev. D) showing the
+  completed IceCube Upgrade gains an order-of-magnitude sensitivity improvement to GeV-range
+  transient neutrinos (supernovae, GRBs) — a detector-capability milestone, not a detection;
+  below-bar, queued as a watch item.
+- 2026-09-01 — https://arxiv.org/abs/2608.30139 — Zhu et al., "Superconductivity of Tellurium
+  Polyhydride with Tc above 90K": reports a $T_c \approx 91$ K superconducting phase (TeH4) in a
+  diamond-anvil-cell sample at 263 GPa. UNREFEREED PREPRINT, single group, not a record among
+  hydride superconductors (cf. the already-far-higher LaH10/H3S class) — below-bar, queued.
 
 ## source_rotation
 
@@ -3112,12 +3192,61 @@ Corrections to the source-coverage strategy.
   `WebFetch`, and the arXiv API for every lane that needed it — r/math/r/mathematics remain the one
   lane with no working fallback while `tvly` stays quota-exhausted (still unresolved from the
   curator's side; see the W35 report).
+- 2026-09-01 (daily) — TOOLING RECOVERY: `tvly` was absent from PATH at session start (routine
+  fresh-container state); a fresh `pip install -q tavily-cli` succeeded, and — for the first time
+  since the streak began 08-20 — the first live `tvly search` call SUCCEEDED (no quota error).
+  This ends the 10-CONSECUTIVE-RUN account-quota-exhaustion streak (last seen 08-31). Re-tested
+  specifically on the previously hard-blocked r/math/r/mathematics lane via `tvly search
+  "<query>" --include-domains reddit.com --time-range week`: WORKED, returning live dated August
+  2026 threads (one of which led to today's Petersen-coloring-conjecture backlog catch — see
+  observation_queue). Direct `curl -A "Mozilla/5.0" reddit.com/.rss` STILL 403s (confirms the
+  hard network-level block on direct/WebFetch access is a separate, still-standing issue from the
+  tvly-quota gap; the `tvly search` heal remains the only working path into Reddit). Not
+  re-notifying the curator (this is a recovery, not a new degradation) — noting for the record
+  since it reopens a lane that had been escalated twice.
+- 2026-09-01 (daily) — Trend creation: PROMOTED "Sharpening the exponent in Marton's conjecture /
+  polynomial Freiman-Ruzsa" to a `seed`-bar-clearing `emerging` trend (see Active trends) — three
+  independent groups (GGMT 2024, Liao 2024, Song-Yue 2026) sequentially improving one constant,
+  the same wave-pattern precedent as the Ramsey lower-bound trend. Two of the three evidence
+  artifacts (2024) predate this radar's 2026-07-02 founding; backdated per the established
+  precedent of citing pre-radar primaries when a fresh capture reveals a multi-year pattern
+  (opened and verified via the arXiv API this session, not asserted from memory).
+- 2026-09-01 (daily) — Backlog capture: a community-pulse (Reddit, via the newly-healed `tvly
+  search`) pointer led to a genuine 3-week-old MISS — Putman's Petersen Coloring Conjecture
+  counterexample (arXiv:2608.10012, 08-08) and Jooken's independent verification
+  (arXiv:2608.10028, 08-09) were never captured in any daily report or in this file. Both queued
+  + study_shelf'd this session as a domain-cadence landmark (a major conjecture refuted, with
+  independent same-week corroboration). Root cause: neither id fell inside any 08-08/08-09 arXiv
+  category-rotation batch review this radar can reconstruct from past reports — logged as a
+  reminder that the community-pulse lane is also a backstop against title-triage misses in the
+  primary sweep, not solely an intake-for-unverified-signals lane.
+- 2026-09-01 (daily) — Source-discovery: no new untracked on-axis domain surfaced this session —
+  today's primaries came from already-swept arXiv, Quanta, IceCube, and Reddit (via the
+  already-registered `tvly search --include-domains reddit.com` access method) venues.
+- 2026-09-01 (daily) — capture-leak reconciliation: 11 new arXiv ids named this session
+  (2404.02244, 2404.09639, 2608.30336, 2603.03257, 2608.10012, 2608.10028, 2608.31126, 2608.30945,
+  2608.31039, 2608.28395, 2608.30139) — all 11 land on discrete trend-evidence/queue/study_shelf
+  lines, 0 leaked. Full-file mechanical sweep (citation-anywhere test): 233 unique arXiv ids (up
+  from 222); 33 have no `arXiv:<id>`/`abs/<id>` citation anywhere — the SAME 33 already verified
+  legitimate in prior sessions' documentation (18 dropped-burndown ids + 15 checked-and-excluded
+  bracket-style-citation ids, unchanged from the 08-31 count) — 0 file-wide leaks; none of today's
+  11 new ids appear in the uncited set, confirming today's additions are all properly cited.
+  capture-leak: 11 new ids checked + full-file citation-anywhere sweep (233 ids, 33 reviewed, 0
+  leaked).
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-01 — [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257)
+  — resolves a percolation-theory conjecture open since the 1980s (exponential decay of
+  finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by
+  Quanta Magazine (2026-08-31) as "a gem" of a proof.
+- 2026-09-01 — [A 112-vertex counterexample to the Petersen Coloring Conjecture (Putman; independently verified by Jooken)](https://arxiv.org/abs/2608.10012)
+  — refutes Jaeger's Petersen Coloring Conjecture via an explicit SAT-verified graph, with a
+  second, fully independent hand-checkable proof ([Jooken](https://arxiv.org/abs/2608.10028))
+  published one day later — a backlog catch, dated 2026-08-08/09.
 - 2026-08-31 — [Evidence for coherent elastic scattering of solar neutrinos (LZ 4.5σ; XENONnT 3.3σ)](https://arxiv.org/abs/2512.08065)
   — two independent dark-matter direct-detection collaborations, LZ and XENONnT, each report
   evidence for coherent elastic neutrino-nucleus scattering (CEνNS) from solar ⁸B neutrinos in
