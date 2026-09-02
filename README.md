@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-180-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--01-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-179-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--02-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-01):**
-- New trend: [sharpening the exponent in Marton's conjecture](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) — three independent groups (GGMT 2024, Liao 2024, and today's [Song-Yue](https://arxiv.org/abs/2608.30336)) have sequentially tightened the polynomial-Freiman-Ruzsa constant.
-- A 3-week-old backlog catch: [a 112-vertex counterexample to the Petersen Coloring Conjecture](https://arxiv.org/abs/2608.10012) (Putman), independently hand-verified one day later by [Jooken](https://arxiv.org/abs/2608.10028) — a long-standing conjecture refuted.
-- [A decades-old percolation-theory conjecture resolved](https://arxiv.org/abs/2603.03257) (Diskin, Easo, Radhakrishnan, Sudakov, Tassion) — newly spotlighted by Quanta Magazine as "a gem" of a proof.
-- Queue 172 → 180 (+8 new items; domain cadence — no daily burndown). `tvly` recovered after a 10-run quota outage, reopening the Reddit intake lane.
+**Since last scan (2026-09-02):**
+- [LZ's most compelling dark-matter hint to date](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter) — a single 248 keV nuclear-recoil event in the collaboration's WIMP search window, presented at TeV Particle Astrophysics 2026; explicitly **not** a claimed detection, but already drawing same-day theory papers (e.g. [arXiv:2609.01583](https://arxiv.org/abs/2609.01583)).
+- A claimed proof of [Fraenkel's Conjecture](https://arxiv.org/abs/2609.01570) (Tan, Zhang) — a ~53-year-old open problem on partitioning the integers into Beatty sequences; unrefereed, two-author, queued for vetting.
+- All four active trends HELD (no new independent group today); the four-trend table below is unchanged.
+- Queue 177 → 179 (+2 new items; domain cadence — no daily burndown).
 
 ## Trends
 
@@ -23,6 +23,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [LZ's most compelling dark-matter hint to date: a single 248 keV nuclear-recoil event](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter) — the LUX-ZEPLIN collaboration's own account of an unexplained event in its WIMP search window, presented at TeV Particle Astrophysics 2026; explicitly not a claimed detection ("we are not claiming to have seen dark matter" — spokesperson Rick Gaitskell), but the field's most talked-about single data point of the week, already drawing same-day theoretical interpretation papers; see also [Nature News](https://www.nature.com/articles/d41586-026-01985-9).
 - [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257) — resolves a percolation-theory conjecture open since the 1980s (exponential decay of finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by Quanta Magazine as "a gem" of a proof.
 - [A 112-vertex counterexample to the Petersen Coloring Conjecture (Putman; independently verified by Jooken)](https://arxiv.org/abs/2608.10012) — refutes Jaeger's Petersen Coloring Conjecture via an explicit SAT-verified graph, with a second, fully independent hand-checkable proof published one day later — a backlog catch, dated 2026-08-08/09.
 - [Evidence for coherent elastic scattering of solar neutrinos (LZ 4.5σ; XENONnT 3.3σ)](https://arxiv.org/abs/2512.08065) — two independent dark-matter direct-detection collaborations, LZ and XENONnT, each report evidence for coherent elastic neutrino-nucleus scattering (CEνNS) from solar ⁸B neutrinos in companion PRL papers published the same day — the "neutrino fog" floor that will also bound future dark-matter search sensitivity; see also the [XENONnT paper](https://arxiv.org/abs/2604.06002).
@@ -83,13 +84,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) are reachable again via a recovered search path (direct feed access still blocked) — a thread there led to today's Petersen-Coloring-Conjecture backlog catch.
-- [Hacker News](https://news.ycombinator.com/) front page carried one expository pointer (Tao on core mathematical concepts) — no new primary.
-- [Quanta Magazine](https://www.quantamagazine.org/) surfaced today's percolation-theory landmark; [Terence Tao's blog](https://terrytao.wordpress.com/), [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) and [Backreaction](https://backreaction.blogspot.com/) otherwise unchanged since last scan.
-- [MathOverflow](https://mathoverflow.net/) and [Physics Stack Exchange](https://physics.stackexchange.com/feeds) checked — routine research-level Q&A, nothing on-axis today.
+- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) reachable again via the recovered search path (direct feed access still blocked) — routine/expository threads only today, no new primary.
+- [Hacker News](https://news.ycombinator.com/) front page checked — no on-axis story.
+- [Quanta Magazine](https://www.quantamagazine.org/), [Terence Tao's blog](https://terrytao.wordpress.com/), [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/), [Gowers's Weblog](https://gowers.wordpress.com/) and [Backreaction](https://backreaction.blogspot.com/) all checked — expository/commentary posts only, no new primaries beyond what's already tracked.
+- [MathOverflow](https://mathoverflow.net/) checked — routine research-level Q&A, nothing on-axis today.
 - [Mathstodon](https://mathstodon.xyz/public) public timeline checked — federated-timeline noise only, no on-axis signal worth naming.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (180) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-01](reports/2026-09-01.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (179) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-02](reports/2026-09-02.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

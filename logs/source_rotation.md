@@ -866,3 +866,61 @@ see strategy_notes; not re-notifying the curator (a recovery, not a new issue). 
 picks (the percolation supercritical-sharpness landmark; the Petersen-Coloring-Conjecture
 counterexample backlog catch). SOURCES.md: no changes needed this session. README.md regenerated
 from the updated ledger in the same commit.
+
+2026-09-02 (Wed, Pass 1, ~scheduled) — first daily since 2026-09-01 (no orphaned `radar:` commits
+found on any branch; session branch matched `origin/main`'s head, 4837063, at session start; a
+third stray branch, claude/modest-bohr-9415kc, and claude/peaceful-faraday-n2ehd0 both checked —
+neither carries any commit beyond `origin/main`). FULL CHECK of every DAILY-tier mandatory lane.
+Primary sweep (radar-source-sweep): arXiv full in-scope category rotation via the API in two
+combined queries (math: AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/NT/CO/PR/RT/LO/OA/OC/DS, 250-entry cap;
+physics: hep-th/hep-ph/gr-qc/math-ph/quant-ph/astro-ph.CO/astro-ph.HE/cond-mat.str-el/
+cond-mat.supr-con/cond-mat.mes-hall, 250-entry cap) — fresh 09-01 batch triaged in full by title
+(215 math + 180 physics entries; the remaining cap padding was 08-31, already covered 09-01).
+KEY CAPTURE: Tan-Zhang's claimed proof of Fraenkel's Conjecture (2609.01570, ~53-year-old named
+conjecture, unrefereed 2-author preprint, queued). Targeted rechecks: no new Ramsey-lower-bound,
+non-invertible-symmetry, Stanley-Gasharov, or Marton's-exponent item in the fresh batch (two
+Ramsey-ADJACENT titles — tree-vs-odd-cycle threshold, Ramsey-Turán factors — checked and excluded,
+off-axis for the tracked lower-bound-specific trend); all four trends HELD. APS PRL/PRX/RMP opened
+(RSS, routine, nothing on-axis new beyond what's tracked). Nature Physics + Nature Communications
+RSS opened (CDATA titles render fine, no recurrence of the standing empty-CDATA degradation) —
+nothing new on-axis. Quantum journal, SciPost API, INSPIRE-HEP most-recent all opened — routine.
+CERN Courier (newest "CERN Council updates the European Strategy," administrative not scientific),
+Fermilab (routine), Simons Foundation (routine, incl. a new "Universal Statistics in Number Theory"
+collaboration launch — institutional announcement, not itself a result) all opened, no capture.
+Experiments block: LIGO (`WebFetch`-style `curl` on the plain `/news` URL) — page structure changed
+enough that article titles didn't parse cleanly this session, but no Cloudflare block and the page
+loaded; DESI (`tvly extract`) unchanged, still the April-2026 survey-completion milestone; CERN
+home RSS unchanged (routine items only); IceCube category-feed RSS unchanged (same items as 09-01,
+including the already-tracked IceCube-Upgrade projection). Community pulse (radar-pulse): `tvly`
+present and working on the FIRST call this session (no quota error — the recovery from 09-01
+continues clean, 2nd consecutive healthy run) — r/math/r/mathematics re-tested via `tvly search
+--include-domains reddit.com --time-range week`: WORKED, surfaced only routine/expository threads,
+0 new primaries. Hacker News front page opened (Algolia API) — no on-axis story. MathOverflow feed
+opened — routine research-level Q&A, nothing on-axis. Mathstodon public timeline opened —
+federated-timeline noise only, nothing above the never-name-individuals floor. Digest/blog lane
+fully opened: Quanta (still the 08-31 percolation feature, already tracked, no new post); Terry Tao
+(new post, "Rotating needles in space: the road to the Kakeya conjecture" — expository recap, no
+new primary); Not Even Wrong ("HEP-TH and AI," commentary, no new primary); Gowers ("What sort of
+maths are LLMs good at?" — AI-watch commentary, no new primary); Kalai (a puzzle post, not
+research); Azimuth ("The Mantle," checked, no new primary); Strassler (off-axis personal-commentary
+post, skipped); Backreaction (`curl -A "Mozilla/5.0"` — newest "AI Is Taking Over Physics and
+Nobody Talks About It," AI-watch commentary, no new primary); Scientific American (`tvly search`,
+nothing on-axis this week). Repo watch (radar-repo-watch, `tvly extract` on `.atom` for all three):
+mathlib4 daily tag now `master-2026-09-01` (routine); lean4 unchanged v4.34.0-rc2 (08-21); Rocq
+unchanged 9.3+rc1 (07-22) — no movement. Exploration slot (radar-explore, OFF-AXIS rotation):
+math.PR↔math.ST interface (next in the roster after q-bio.PE) — top 30 items read via the arXiv
+API regardless of sub-topic, all routine statistics/probability-theory papers, 0/30 significant
+off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues, next: econ/q-fin). Trend
+recalibration (radar-ledger-update): all four trends HELD (see strategy_notes for detail). Queue
+177 → 179 (+2, by mechanical `- 2026-` line count; daily does not burn down per domain cadence).
+capture-leak: 3 new arXiv ids checked
+this session — all 3 land on discrete queue/study_shelf lines, 0 leaked; PLUS the mandatory
+mechanical file-wide reconciliation: 236 unique arXiv ids (up from 233), 33 without a literal
+`arXiv:`/`abs/`-prefixed citation match — the SAME 33 already verified legitimate in prior
+sessions (unchanged from the 09-01 count) — 0 file-wide leaks. Source-discovery: TWO new
+untracked on-axis domains staged this session — lz.lbl.gov and newscenter.lbl.gov (both surfaced
+via the LZ dark-matter capture; see strategy_notes and SOURCES.md — recommended for early weekly
+promotion given LZ's standing as a flagship direct-detection experiment). tvly: healthy 2nd
+consecutive run, no quota issue. study_shelf: 1 new pick (the LZ 248 keV dark-matter event).
+SOURCES.md: 2 new discovered-source candidates staged (lz.lbl.gov, newscenter.lbl.gov). README.md
+regenerated from the updated ledger in the same commit.

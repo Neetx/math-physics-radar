@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-01
+Last updated: 2026-09-02
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2407,6 +2407,38 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   Polyhydride with Tc above 90K": reports a $T_c \approx 91$ K superconducting phase (TeH4) in a
   diamond-anvil-cell sample at 263 GPa. UNREFEREED PREPRINT, single group, not a record among
   hydride superconductors (cf. the already-far-higher LaH10/H3S class) — below-bar, queued.
+- 2026-09-02 — https://arxiv.org/abs/2609.01570 — Tan, Zhang, "A Proof of Fraenkel's Conjecture":
+  claims to prove Fraenkel's conjecture (1973, ~53 years open) — that a partition of the integers
+  into ≥3 Beatty sequences with distinct moduli must have the binary density pattern
+  $1,2,4,\ldots,2^{m-1}$ normalized by $2^m-1$ — via a density-bound + induction argument (axis 1,
+  combinatorics on words / number theory). Abstract + authors verified via arXiv API this session
+  (v1 2026-09-01). UNREFEREED PREPRINT, two-author, no independent corroboration yet —
+  hype-skepticism rule applies: PROVISIONAL claim of a long-standing named conjecture, not a
+  resolved conjecture until referee/expert scrutiny; below-bar for a standalone trend (single
+  group), queued as a domain-cadence-caliber claim to watch for vetting.
+- 2026-09-02 — LZ (LUX-ZEPLIN) Collaboration, "A new analysis ... recorded a single particle
+  interaction that researchers have great difficulty explaining with known background signals" —
+  https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter
+  (Berkeley Lab news, official collaboration source, opened this session) — a 248 keV nuclear-recoil
+  event (2023/2024 exposure) in LZ's WIMP dark-matter search region, presented 2026-09-01 at the TeV
+  Particle Astrophysics conference (Tendo, Japan); the arXiv preprint is forthcoming (announced,
+  not yet posted) and submission to PRL is planned. LZ spokesperson Rick Gaitskell (Brown):
+  "we don't want to get ahead of ourselves. We are not claiming to have seen dark matter" — a
+  SINGLE-EVENT hint, explicitly below discovery threshold, not yet a confirmed detection (axis 3,
+  dark-matter direct detection). Corroborated via Nature News commentary (independent-expert quote
+  from Jianglai Liu, Shanghai Jiao Tong — "intriguing, and will undoubtedly excite the field"),
+  https://www.nature.com/articles/d41586-026-01985-9, opened this session. Triggered same-day
+  theoretical interpretation papers on arXiv, e.g. Higgsino/inelastic-dark-matter fits to the event
+  (arXiv:2609.01583, arXiv:2609.01592) — abstracts verified via arXiv API this session — a strong
+  field-attention signal even though the event itself is provisional. DOMAIN-CADENCE-CALIBER watch
+  item (a leading collaboration's own most compelling hint to date) but explicitly NOT a detection
+  per the collaboration's own words — queued (not a trend/seed) to track for more exposure data
+  confirming or diluting the signal. Also on `study_shelf`. NEW SOURCE-DISCOVERY CANDIDATES:
+  lz.lbl.gov (LZ collaboration's own publications page, regular e-print/PRL cadence going back
+  years — comparable to the already-tracked LIGO/DESI/CERN/IceCube Experiments-block sources) and
+  newscenter.lbl.gov (Berkeley Lab news, the official announcement channel) — staged in SOURCES.md
+  this session (see strategy_notes); recommended for weekly promotion given LZ's standing as a
+  flagship direct-detection experiment on par with the already-tracked block.
 
 ## source_rotation
 
@@ -3233,12 +3265,46 @@ Corrections to the source-coverage strategy.
   11 new ids appear in the uncited set, confirming today's additions are all properly cited.
   capture-leak: 11 new ids checked + full-file citation-anywhere sweep (233 ids, 33 reviewed, 0
   leaked).
+- 2026-09-02 (daily) — Trend recalibration: full math (all 20 in-scope categories:
+  AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/NT/CO/PR/RT/LO/OA/OC/DS) and physics (hep-th/hep-ph/gr-qc/
+  math-ph/quant-ph/astro-ph.CO/astro-ph.HE/cond-mat.str-el/cond-mat.supr-con/cond-mat.mes-hall)
+  category rotation swept via the arXiv API, 250-cap each, fresh 09-01 batch (215 math + 180
+  physics entries) triaged in full by title. Ramsey — HELD accelerating/medium (two
+  Ramsey-adjacent titles today — tree-vs-odd-cycle threshold, Ramsey-Turán factors — checked and
+  excluded, off the tracked lower-bound-specific axis). Non-invertible symmetries — HELD
+  accelerating/high (no new artifact). Stanley-Gasharov — HELD seed/medium (no 4th group;
+  last_evidence now 35 days old, well inside the 60-day window). Marton's-conjecture-exponent —
+  HELD emerging/medium (no 4th group). KEY CAPTURES: Tan-Zhang's claimed proof of Fraenkel's
+  Conjecture (2609.01570, a ~53-year-old named conjecture in combinatorics on words, unrefereed
+  two-author preprint — queued as a provisional domain-cadence-caliber claim); the LZ
+  collaboration's 248 keV single-event dark-matter hint, announced 2026-09-01 at TeV Particle
+  Astrophysics (queued + study_shelf'd — see Active trends for the full writeup and caveats).
+- 2026-09-02 (daily) — Source-discovery: STAGED two new candidates in SOURCES.md — lz.lbl.gov (LZ
+  collaboration's own publications page: a decade-plus, regular e-print/PRL cadence, structurally
+  identical to the already-tracked LIGO/DESI/CERN/IceCube Experiments-block sources) and
+  newscenter.lbl.gov (Berkeley Lab's official news channel, the announcement surface for today's
+  LZ result) — both first-seen this session via the LZ dark-matter capture above. Flagged for
+  early weekly promotion given LZ is a flagship direct-detection experiment on par with the
+  existing Experiments block, not a one-off blog.
+- 2026-09-02 (daily) — capture-leak reconciliation: 3 new arXiv ids named this session
+  (2609.01570, 2609.01583, 2609.01592) — all 3 land on discrete queue/study_shelf lines, 0 leaked.
+  Full-file mechanical sweep (citation-anywhere test): 236 unique arXiv ids (up from 233); 33 have
+  no `arXiv:<id>`/`abs/<id>` citation anywhere — the SAME 33 already verified legitimate in prior
+  sessions (unchanged from the 09-01 count) — 0 file-wide leaks; none of today's 3 new ids appear
+  in the uncited set. capture-leak: 3 new ids checked + full-file citation-anywhere sweep (236
+  ids, 33 reviewed, 0 leaked).
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-02 — [LZ's most compelling dark-matter hint to date: a single 248 keV nuclear-recoil event](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter)
+  — the LUX-ZEPLIN collaboration's own account of an unexplained event in its WIMP search window,
+  presented at TeV Particle Astrophysics 2026; explicitly NOT a claimed detection ("we are not
+  claiming to have seen dark matter" — spokesperson Rick Gaitskell), but the field's most talked-
+  about single data point of the week, already drawing same-day theoretical interpretation papers
+  (e.g. [arXiv:2609.01583](https://arxiv.org/abs/2609.01583)); see also [Nature News](https://www.nature.com/articles/d41586-026-01985-9).
 - 2026-09-01 — [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257)
   — resolves a percolation-theory conjecture open since the 1980s (exponential decay of
   finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by
