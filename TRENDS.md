@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-02
+Last updated: 2026-09-03
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -336,6 +336,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     v-update — no referee/vetting outcome. Confidence held medium (doubled unrefereed-preprint
     caution stands). Not promoted (no fresh W35 velocity beyond the already-recorded 08-25
     promotion).
+  - 2026-09-03 (daily): fresh math full in-scope category-rotation batch (2026-09-02, 198
+    entries) scanned for Ramsey lower bounds — only a peripheral "Ramsey-type results for
+    Maker-Breaker games" (2609.02588, a positional-game variant, not a classical/hypergraph
+    lower-bound breakthrough). No 7th independent group or referee/vetting outcome. Trend HELD
+    accelerating/medium; last_evidence 2026-08-22 now 12 days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-25
@@ -565,6 +570,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Confidence held at the ceiling (no hype-skepticism caveat). Not promoted to `mainstreaming`
     (still no standard-practice-adoption signal, only group count/pace) — watch for a 10th group
     or the cross-citation.
+  - 2026-09-03 (daily): fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat/astro-ph batch
+    (2026-09-02, 167 entries) scanned for non-invertible/categorical-symmetry applications —
+    none found. No 10th independent group. Trend HELD accelerating/high; last_evidence
+    2026-08-25 now 9 days old, well inside the 60-day window.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -703,6 +712,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Confidence held medium (short, checkable, cross-verified computations — still unrefereed,
     now a full month quiet without a referee outcome; watch remains a 4th group or a vetting
     result, not the passage of time alone under domain cadence).
+  - 2026-09-03 (daily): fresh math.CO 2026-09-02 batch scanned for Schur-positivity/claw-free
+    items — none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium;
+    last_evidence 2026-07-29 now 36 days old, well inside the 60-day window.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-08-31
@@ -732,6 +744,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   (each step is a short, checkable refinement of a landmark already fully proved, not an
   extraordinary claim) — watch for a 4th group or the exponent approaching a plausible final
   constant.
+  - 2026-09-03 (daily): fresh math.CO 2026-09-02 batch scanned for PFR/Marton-exponent items —
+    none. No 4th independent group. Trend HELD emerging/medium; last_evidence 2026-08-31 now 3
+    days old, well inside the 60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -1057,6 +1072,23 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   formalization (`zeta-23-lean`) is claimed but not independently verified this session (repo
   not opened). Watch for: an arXiv posting, a formal referee/replication outcome, and any public
   comment from Conrey/Goldston beyond the "examined" framing. Also on `study_shelf`.
+  - 2026-09-03 (daily) — INDEPENDENT VETTING SIGNAL (strongest yet on this item): Youness
+    Lamzouri (York University), "A new proof that more than 2/3 of the zeros of the Riemann zeta
+    function are simple and on the critical line," arXiv:2609.02882 —
+    https://arxiv.org/abs/2609.02882 — a fully independent, unconditional, human-authored proof
+    reaching the SAME two numeric bounds (>67.25% simple-and-on-the-line, ≥83.62% distinct) as
+    the Claude/Anthropic claim, via a shorter, more transparent route (a Hilbert-space inequality
+    replacing Claude's finite-dimensional matrix framework, applied directly to Montgomery's
+    pair-correlation theorem in the unconditional Baluyot–Goldston–Suriajaya–Turnage-Butterbaugh
+    form). Lamzouri's own abstract explicitly names the Claude proof and states it "was
+    subsequently verified by Alpöge and Furman" (the two in-house Anthropic mathematicians named
+    in the original paper's acknowledgments) — the clearest public confirmation yet that the
+    claimed bound holds, though this is a NEW independent proof of the same numbers rather than a
+    line-by-line audit of Claude's original argument, and still no formal referee outcome or
+    published statement from Conrey/Goldston. Abstract + author verified via arXiv API this
+    session (v1 2026-09-02). Upgrades this item from "provisional, informally examined" to
+    "provisional, now independently re-derived by a specialist" — track for a peer-reviewed
+    outcome. Also added to `study_shelf` (see below) — the vetting event itself is the story.
 - 2026-08-10 — arXiv:2608.08997 — Kaur, Kumar, "A proof of the cyclotomic conjecture and the
   non-existence of almost Moore digraphs" — https://arxiv.org/abs/2608.08997 — graph theory /
   degree-diameter problem (axis 1, math.CO/NT): proves Gimbert's 1999 cyclotomic conjecture on
@@ -2439,6 +2471,39 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   newscenter.lbl.gov (Berkeley Lab news, the official announcement channel) — staged in SOURCES.md
   this session (see strategy_notes); recommended for weekly promotion given LZ's standing as a
   flagship direct-detection experiment on par with the already-tracked block.
+- 2026-09-03 — https://arxiv.org/abs/2609.02604 — Allikvere, "Fourteen lonely runners": proves
+  the Lonely Runner Conjecture for $n=14$ runners, a computer-assisted extension of Sungkawichai–
+  Trakulthongchai's 13-runner result (certifies 111 prime "gates" via exhaustive modular
+  calculations). Below-bar (single author, one more case of an open-for-all-$n$ conjecture, not a
+  full resolution) but the Lonely Runner Conjecture is a well-known named open problem in
+  combinatorics/number theory (axis 1) — queued to watch for further case extensions or a general
+  proof strategy. Abstract + author verified via arXiv API this session (v1 2026-09-02).
+- 2026-09-03 — https://arxiv.org/abs/2609.02198 — "The Borovik-Cherlin conjecture holds in ACF":
+  proves the Borovik–Cherlin conjecture (on transitive actions of connected groups on irreducible
+  varieties, generically $(n+2)$-transitive, being isomorphic to the natural $PGL_{n+1}$ action on
+  projective space) restricted to algebraically closed fields — a named conjecture in model
+  theory/algebraic group theory (axis 1), resolved in an important special case, not the general
+  finite-Morley-rank setting the conjecture is usually stated in. Below-bar (single result,
+  restricted case). Abstract verified via arXiv API this session (v1 2026-09-02).
+- 2026-09-03 — https://arxiv.org/abs/2608.29746 — IceCube Collaboration, "Searching for Extra
+  Dimensions and Copies of the Standard Model with IceCube" (submitted to Phys. Rev. D): an
+  11-year high-energy-neutrino search for spectral distortions predicted by low-scale-gravity
+  extra-dimension models addressing the hierarchy problem — a NULL result, setting a new
+  constraint (extra dimensions, if they exist, must be smaller than 0.17 μm) (axis 3,
+  experimental HEP/BSM). Official IceCube announcement opened via WebFetch this session
+  (https://icecube.wisc.edu/news/research/2026/09/searching-for-extra-dimensions-with-icecube/,
+  2026-09 news post), arXiv abstract verified via the arXiv API (v1 2026-08-30). Below-bar
+  (a limit-setting search, not a discovery) but a citable primary from a flagship collaboration —
+  queued.
+- 2026-09-03 — LZ 248 keV-event interpretation cluster (below-bar theory follow-ups, axis 3):
+  same-day/same-week theoretical fits to the 2026-09-01 LZ single-recoil-event announcement
+  (already queued 09-02) keep arriving — e.g. https://arxiv.org/abs/2609.02608 ("Dark Matter at
+  the Kinematic Edge: Interpreting the 248 keV LZ Nuclear-Recoil Candidate"),
+  https://arxiv.org/abs/2609.02868 (inelastic dark-photon dark matter fit), and
+  https://arxiv.org/abs/2609.02807 (a Peccei–Quinn-origin inelastic electroweak dark-matter fit) —
+  abstracts verified via the arXiv API this session (all v1 2026-09-02). Noted as a cluster
+  rather than individually evidenced (none is itself a new experimental result); watch the LZ
+  event itself (already queued) for the collaboration's own arXiv/PRL submission.
 
 ## source_rotation
 
@@ -3293,12 +3358,68 @@ Corrections to the source-coverage strategy.
   sessions (unchanged from the 09-01 count) — 0 file-wide leaks; none of today's 3 new ids appear
   in the uncited set. capture-leak: 3 new ids checked + full-file citation-anywhere sweep (236
   ids, 33 reviewed, 0 leaked).
+- 2026-09-03 (daily) — Trend recalibration: full math (20 in-scope categories) and physics (10
+  in-scope categories) rotation swept via the arXiv API, 250-cap each, fresh 09-02 batch (198
+  math + 167 physics entries) triaged in full by title. All four active trends HELD (see their
+  own notes for detail): Ramsey (accelerating/medium, no 7th group — one peripheral
+  Maker-Breaker-game title excluded), Non-invertible symmetries (accelerating/high, no 10th
+  group), Stanley-Gasharov (seed/medium, no 4th group), Marton's-exponent (emerging/medium, no
+  4th group). KEY CAPTURE: Youness Lamzouri's independent, unconditional, human-authored proof of
+  the same >67.25%/≥83.62% Riemann-zeta zero-density bounds an Anthropic Claude research model
+  claimed 2026-08-10 (arXiv:2609.02882) — his own abstract states the Claude proof "was
+  subsequently verified by Alpöge and Furman," the strongest public vetting signal yet on this
+  ledger's single biggest AI-assisted-math claim; appended as a nested update to the existing
+  queue item and added to `study_shelf`. Also captured: a computer-assisted 14-runner case of the
+  Lonely Runner Conjecture (2609.02604); the Borovik-Cherlin conjecture resolved in the ACF case
+  (2609.02198); an IceCube null search constraining extra-dimension size to <0.17 μm
+  (2608.29746, found via the IceCube news RSS, chased to the arXiv abstract); and a 3-paper LZ
+  248-keV-event theoretical-interpretation cluster (2609.02608/02868/02807), noted as a cluster
+  rather than individually evidenced.
+- 2026-09-03 (daily) — Community-pulse lead NOT captured (no citable primary located): a
+  `tvly search --include-domains reddit.com` r/mathematics hit ("Another Leaked Result,"
+  u/New-Committee-4052) references a claimed proof of "a conjecture of Kozma and Nizan" in
+  percolation theory, dimensions 3–10 — snippet-only in Tavily's search index; the underlying
+  Reddit thread and any arXiv id could not be located this session (direct Reddit fetch still
+  403s; targeted `tvly search`/`tvly extract` attempts for the specific thread and for "Kozma
+  Nizan" + percolation/arxiv all came back empty or off-topic). Per the hard rule against
+  inventing URLs, NOT queued — flagged here as an open lead for a future session's community-pulse
+  pass to re-chase (try a direct Reddit permalink search once a `tvly` quota/access window is
+  fresh, or watch for the underlying paper to surface via the ordinary math.PR/math-ph arXiv
+  sweep).
+- 2026-09-03 (daily) — Source-discovery: no new untracked on-axis domain surfaced this session —
+  today's primaries came from already-swept arXiv, IceCube, and reddit (via the already-registered
+  `tvly search --include-domains reddit.com` access method) venues.
+- 2026-09-03 (daily) — Exploration slot (off-axis rotation): econ/q-fin (econ.TH/econ.EM/
+  q-fin.MF/PR/CP, next in the roster after math.PR↔math.ST) — top 34 items read via the arXiv API
+  regardless of sub-topic (mechanism design, econometrics, derivatives pricing, DeFi/AMM theory,
+  etc.), 0/34 significant off-axis catch (non-alarm per AGENTS.md domain cadence). Roster
+  continues; next up: math.DG.
+- 2026-09-03 (daily) — tvly: healthy, 3rd consecutive clean run (no quota error) since the 09-01
+  recovery from the 10-run quota-exhaustion streak — not re-flagging. Direct Reddit access (curl/
+  WebFetch) remains hard-blocked (`tvly search` stays the only working path); no change from the
+  standing W35 finding.
+- 2026-09-03 (daily) — capture-leak reconciliation: 8 new arXiv ids named this session
+  (2609.02882, 2609.02604, 2609.02198, 2608.29746, 2609.02608, 2609.02868, 2609.02807, plus the
+  excluded-and-cited-without-prefix 2609.02588) — all properly routed. Full-file mechanical sweep
+  (citation-anywhere test): 244 unique arXiv ids (up from 236); 34 have no `arXiv:<id>`/`abs/<id>`
+  citation anywhere — the SAME 33 already verified legitimate in prior sessions PLUS 2609.02588
+  (today's checked-and-excluded Maker-Breaker-games title, cited bracket-style in the Ramsey
+  trend's notes, same established pattern as the other 33) — 0 file-wide leaks. capture-leak: 8
+  new ids checked + full-file citation-anywhere sweep (244 ids, 34 reviewed, 0 leaked).
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-03 — [A new, independent proof that >2/3 of the Riemann zeta zeros are simple and on the critical line (Lamzouri)](https://arxiv.org/abs/2609.02882)
+  — a human mathematician (York University) independently re-derives, via a shorter and more
+  transparent unconditional argument, the SAME record bound (>67.25% simple-on-the-line, ≥83.62%
+  distinct) that an unreleased Anthropic Claude research model claimed on 2026-08-10; the paper's
+  own abstract states the Claude proof "was subsequently verified by Alpöge and Furman" — the
+  strongest public vetting signal yet for one of the biggest AI-assisted-math claims this radar
+  has tracked, and a clean worked example (Hilbert-space inequality + Montgomery pair-correlation)
+  a number theorist should read regardless of the AI provenance.
 - 2026-09-02 — [LZ's most compelling dark-matter hint to date: a single 248 keV nuclear-recoil event](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter)
   — the LUX-ZEPLIN collaboration's own account of an unexplained event in its WIMP search window,
   presented at TeV Particle Astrophysics 2026; explicitly NOT a claimed detection ("we are not

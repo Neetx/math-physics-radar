@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-179-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--02-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-183-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--03-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-02):**
-- [LZ's most compelling dark-matter hint to date](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter) — a single 248 keV nuclear-recoil event in the collaboration's WIMP search window, presented at TeV Particle Astrophysics 2026; explicitly **not** a claimed detection, but already drawing same-day theory papers (e.g. [arXiv:2609.01583](https://arxiv.org/abs/2609.01583)).
-- A claimed proof of [Fraenkel's Conjecture](https://arxiv.org/abs/2609.01570) (Tan, Zhang) — a ~53-year-old open problem on partitioning the integers into Beatty sequences; unrefereed, two-author, queued for vetting.
+**Since last scan (2026-09-03):**
+- A human mathematician's [independent, unconditional proof](https://arxiv.org/abs/2609.02882) reaches the same record Riemann-zeta zero-density bounds an Anthropic Claude model claimed in August — the strongest public vetting signal yet on this ledger's biggest AI-assisted-math claim.
+- New captures: a [14-runner case of the Lonely Runner Conjecture](https://arxiv.org/abs/2609.02604), the [Borovik-Cherlin conjecture resolved in ACF](https://arxiv.org/abs/2609.02198), and an [IceCube null search](https://arxiv.org/abs/2608.29746) constraining extra-dimension size to <0.17 μm.
 - All four active trends HELD (no new independent group today); the four-trend table below is unchanged.
-- Queue 177 → 179 (+2 new items; domain cadence — no daily burndown).
+- Queue 179 → 183 (+4 new items; domain cadence — no daily burndown).
 
 ## Trends
 
@@ -23,6 +23,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [A new, independent proof that >2/3 of the Riemann zeta zeros are simple and on the critical line (Lamzouri)](https://arxiv.org/abs/2609.02882) — a human mathematician independently re-derives, via a shorter and more transparent argument, the same record bound an unreleased Anthropic Claude research model claimed on 2026-08-10; the paper's own abstract states the Claude proof "was subsequently verified by Alpöge and Furman" — the strongest public vetting signal yet for one of this radar's biggest AI-assisted-math claims.
 - [LZ's most compelling dark-matter hint to date: a single 248 keV nuclear-recoil event](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter) — the LUX-ZEPLIN collaboration's own account of an unexplained event in its WIMP search window, presented at TeV Particle Astrophysics 2026; explicitly not a claimed detection ("we are not claiming to have seen dark matter" — spokesperson Rick Gaitskell), but the field's most talked-about single data point of the week, already drawing same-day theoretical interpretation papers; see also [Nature News](https://www.nature.com/articles/d41586-026-01985-9).
 - [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257) — resolves a percolation-theory conjecture open since the 1980s (exponential decay of finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by Quanta Magazine as "a gem" of a proof.
 - [A 112-vertex counterexample to the Petersen Coloring Conjecture (Putman; independently verified by Jooken)](https://arxiv.org/abs/2608.10012) — refutes Jaeger's Petersen Coloring Conjecture via an explicit SAT-verified graph, with a second, fully independent hand-checkable proof published one day later — a backlog catch, dated 2026-08-08/09.
@@ -84,13 +85,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/math](https://www.reddit.com/r/math/) and [r/mathematics](https://www.reddit.com/r/mathematics/) reachable again via the recovered search path (direct feed access still blocked) — routine/expository threads only today, no new primary.
-- [Hacker News](https://news.ycombinator.com/) front page checked — no on-axis story.
+- [r/mathematics](https://www.reddit.com/r/mathematics/) checked via the recovered search path (direct feed access still blocked) — a thread claiming a proof of a percolation-theory conjecture could not be chased to a citable primary this session (flagged as an open lead for next time, no individual named).
+- [Hacker News](https://news.ycombinator.com/) front page checked — top science story is the already-tracked LZ dark-matter event, no new on-axis primary.
 - [Quanta Magazine](https://www.quantamagazine.org/), [Terence Tao's blog](https://terrytao.wordpress.com/), [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/), [Gowers's Weblog](https://gowers.wordpress.com/) and [Backreaction](https://backreaction.blogspot.com/) all checked — expository/commentary posts only, no new primaries beyond what's already tracked.
 - [MathOverflow](https://mathoverflow.net/) checked — routine research-level Q&A, nothing on-axis today.
 - [Mathstodon](https://mathstodon.xyz/public) public timeline checked — federated-timeline noise only, no on-axis signal worth naming.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (179) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-02](reports/2026-09-02.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (183) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-03](reports/2026-09-03.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

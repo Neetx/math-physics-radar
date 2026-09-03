@@ -924,3 +924,63 @@ promotion given LZ's standing as a flagship direct-detection experiment). tvly: 
 consecutive run, no quota issue. study_shelf: 1 new pick (the LZ 248 keV dark-matter event).
 SOURCES.md: 2 new discovered-source candidates staged (lz.lbl.gov, newscenter.lbl.gov). README.md
 regenerated from the updated ledger in the same commit.
+
+2026-09-03 (Thu, Pass 1, ~scheduled) — first daily since 2026-09-02 (session branch
+claude/modest-bohr-yzagc1 matched origin/main's head, 46b2d44, at session start; no orphaned
+`radar:` commits found on any other branch). FULL CHECK of every DAILY-tier mandatory lane.
+Primary sweep (radar-source-sweep): arXiv full in-scope category rotation via the API (math: 20
+in-scope categories, 250-cap; physics: 10 in-scope categories, 250-cap) — fresh 09-02 batch
+triaged in full by title (198 math + 167 physics entries). KEY CAPTURE: Youness Lamzouri's
+independent, unconditional, human-authored proof of the same Riemann-zeta zero-density bounds
+(>67.25%/≥83.62%) an Anthropic Claude research model claimed 2026-08-10 (arXiv:2609.02882) —
+his abstract states the Claude proof "was subsequently verified by Alpöge and Furman," the
+strongest public vetting signal yet on this ledger's biggest AI-assisted-math claim. Also
+captured: 14-runner Lonely Runner Conjecture case (2609.02604), Borovik-Cherlin conjecture in ACF
+(2609.02198), an IceCube null search on extra dimensions (<0.17 μm, 2608.29746), and a 3-paper LZ
+248-keV interpretation cluster. All four active trends HELD — no Ramsey/non-invertible-symmetry/
+Stanley-Gasharov/Marton's-exponent item in the fresh batch (one peripheral Maker-Breaker-games
+Ramsey-type title checked and excluded). APS PRL/PRX/RMP opened (RSS, routine, nothing on-axis
+new). Nature Physics + Nature Communications RSS opened — still empty-CDATA (standing
+degradation, no new titles render). Quantum journal, SciPost API, INSPIRE-HEP most-recent all
+opened — routine, nothing on-axis new beyond the arXiv captures above. CERN Courier (routine),
+Fermilab (routine — muon-anomaly/neutrino-detector items, not new results), Simons Foundation
+(routine, off-axis AI-funding/neuroscience items) all opened, no capture. Experiments block: LIGO
+(`WebFetch` on the plain `/news` URL) — newest item still the 2026-05-26 GWTC-5.0 catalog, no
+new item; DESI (`tvly extract`) unchanged, still the April-2026 survey-completion milestone; CERN
+home RSS (`curl`) unchanged (routine/administrative items only); IceCube category-feed RSS
+(`curl`) — ONE NEW item, "Searching for extra dimensions with IceCube" (2026-09), chased to
+arXiv:2608.29746 and queued. Community pulse (radar-pulse): `tvly` present and healthy on the
+first call (3rd consecutive clean run since the 09-01 recovery) — r/math/r/mathematics re-tested
+via `tvly search --include-domains reddit.com --time-range week`: WORKED, surfaced mostly
+routine/expository threads plus one unresolved lead ("Another Leaked Result," a claimed
+Kozma-Nizan percolation-conjecture proof) that could not be chased to a citable primary this
+session (direct Reddit still 403s; no arXiv id located) — logged as an open lead in
+strategy_notes, NOT queued (no invented URL). Hacker News front page opened (Algolia API) — top
+science item is the already-tracked LZ dark-matter story (via science.org), no new on-axis
+primary. MathOverflow feed opened — routine research-level Q&A, nothing on-axis. Mathstodon
+public timeline opened — federated-timeline noise only, nothing above the never-name-individuals
+floor. Digest/blog lane fully opened: Quanta (still the 08-31 percolation feature, no new post);
+Terry Tao ("Mathematical Discourse," meta/expository, no new primary); Not Even Wrong (still
+"HEP-TH and AI," no new post); Gowers (still "What sort of maths are LLMs good at?", no new
+post); Kalai (Perles-birthday slides + a puzzle post, not research); Azimuth (still "The
+Mantle," no new post); Strassler ("The Physicists and Mr. Epstein," off-axis personal-commentary,
+skipped); Backreaction (`curl -A "Mozilla/5.0"` — newest "Dark Matter Finally Detected?",
+commentary on the already-tracked LZ event, no new primary); Scientific American (`tvly search`,
+nothing on-axis this week). Repo watch (radar-repo-watch, `WebFetch` on `.atom` for all three):
+mathlib4 daily tag now `master-2026-09-02` (routine); lean4 unchanged v4.34.0-rc2 (08-21); Rocq
+unchanged 9.3+rc1 (07-22) — no movement. Exploration slot (radar-explore, OFF-AXIS rotation):
+econ/q-fin (next in the roster after math.PR↔math.ST) — top 34 items read via the arXiv API
+regardless of sub-topic, all routine economics/quant-finance papers, 0/34 significant off-axis
+catch (non-alarm per AGENTS.md domain cadence; roster continues, next: math.DG). Trend
+recalibration (radar-ledger-update): all four trends HELD (see strategy_notes for detail). Queue
+179 → 183 (+4; daily does not burn down per domain cadence — queue remains well over the ~40 soft
+cap, a standing weekly-burndown item, not touched today). capture-leak: 8 new arXiv ids checked
+this session — all properly routed; PLUS the mandatory mechanical file-wide reconciliation: 244
+unique arXiv ids (up from 236), 34 without a literal `arXiv:`/`abs/`-prefixed citation match —
+the SAME 33 already verified legitimate in prior sessions PLUS today's one checked-and-excluded
+title (2609.02588), same established pattern — 0 file-wide leaks. Source-discovery: no new
+untracked on-axis domain surfaced this session — today's primaries came from already-swept
+arXiv/IceCube/Reddit (via the registered `tvly search` method) venues. tvly: healthy 3rd
+consecutive run, no quota issue. study_shelf: 1 new pick (the Lamzouri independent Riemann-zeta
+proof / vetting event). SOURCES.md: no changes needed this session. README.md regenerated from
+the updated ledger in the same commit.
