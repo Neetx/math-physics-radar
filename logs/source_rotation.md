@@ -984,3 +984,65 @@ arXiv/IceCube/Reddit (via the registered `tvly search` method) venues. tvly: hea
 consecutive run, no quota issue. study_shelf: 1 new pick (the Lamzouri independent Riemann-zeta
 proof / vetting event). SOURCES.md: no changes needed this session. README.md regenerated from
 the updated ledger in the same commit.
+2026-09-04 (Fri, Pass 1, ~scheduled) — first daily since 2026-09-03 (branch main matched
+origin/main's head, d754155, at session start; no orphaned `radar:` commits found). FULL CHECK
+of every DAILY-tier mandatory lane. Primary sweep (radar-source-sweep): arXiv full in-scope
+category rotation via the API (math: 20 in-scope categories, 250-cap; physics: 10 in-scope
+categories, 250-cap) — fresh 09-03 batch, both hit the 250 cap (high-volume day), triaged in full
+by title. TWO MAJOR CAPTURES via community pulse (Hacker News front page, chased to primaries
+same session): (1) OpenAI GPT-6 Astra launch disclosed two prime-gap results on cdn.openai.com —
+bounded gaps to 186 (first improvement on Polymath8b's 246 since 2014) and an improved
+Ford-Green-Konyagin-Maynard-Tao large-gaps bound, both PDFs opened and read directly, both
+Lean-formalized (openai/PrimeGaps186, openai/LongGapsBetweenPrimes); (2) Anthropic's
+`formal-math` GitHub repo (Justin Leder + Claude) disclosed a complete Lean 4/Mathlib
+formalization of θ(p_c)=0 for Bernoulli bond percolation on Z^d in ALL dimensions d≥2, resolving
+a famous open problem (3≤d≤10, incl. Z^3) from Grimmett's textbook / Duminil-Copin's ICM18
+list, via Kozma-Nitzan's 2024 reduction — surfaced via Gil Kalai's blog, README opened via `tvly
+extract`, and RESOLVING the standing "Kozma-Nizan"/"Another Leaked Result" open lead flagged
+2026-09-01/09-03 (correct spelling: Kozma-Nitzan). Both queued under HEAVY HYPE-SKEPTICISM +
+AI-WATCH CAUTION (unrefereed) and added to study_shelf. Also captured: Volpato's non-invertible-
+symmetries chiral-CFT paper (arXiv:2609.03043, a 10th independent group, appended as evidence —
+evidence list now at the 10-item cap) and a below-bar batch of six single/paired-result math
+items (Daykin-Frankl confirmation, generalized Chui conjecture, Chern's Conjecture special case,
+McKean's-conjecture counterexample, a permutation-polynomials resolution, a forming Oort's-
+conjecture pair). Ramsey, Marton's-exponent and Stanley-Gasharov trends all HELD — no new
+independent group on those three axes today. Experiments block: LIGO (`curl` on plain `/news`
+URL) unchanged, still GWTC-5.0; DESI unchanged; CERN home RSS (`curl` on `/feed/`) unchanged,
+routine items only; IceCube category-feed RSS (`curl`) unchanged since the 09-03 capture, no new
+item. Journal/API sweep: PRL/PRX/RMP RSS, Quantum, SciPost API, Nature Physics RSS (no longer
+empty-CDATA — content restored, not re-flagging as a heal since untracked-when-fixed), Simons
+Foundation RSS, CERN Courier, Fermilab news — all opened, nothing new beyond already-tracked
+items. Community pulse (radar-pulse): `tvly` healthy 4th consecutive clean run — r/math/
+r/mathematics re-tested via `tvly search --include-domains reddit.com --time-range week`: worked,
+mostly routine/joke threads; the "Another Leaked Result" r/mathematics lead re-searched and
+still snippet-only (resolved instead via Kalai's blog, see above). Hacker News front page opened
+(Algolia API) — surfaced the GPT-6 Astra launch and the prime-gaps record thread (both chased and
+captured above). MathOverflow feed opened (routine Q&A, nothing on-axis). Mathstodon public
+timeline opened (federated-timeline noise only). Full digest lane: Quanta (new post: "'Stunning'
+Percolation Proof Solves Decades-Old Puzzle About Phase Transitions" — likely coverage of the
+same Kozma-Nitzan story, not separately opened this session, logged for a future pass), Tao (new
+post on the Kakeya conjecture, expository, no new primary beyond what's already tracked), Not
+Even Wrong (unchanged), Gowers (unchanged), Kalai (source of today's percolation capture, see
+above), Baez (unchanged), Strassler (unchanged), Backreaction (opened, feed format changed —
+title extraction needs a fixed pattern, not yet re-healed this session, logged degraded), n-Category
+Café (opened, no new post found via simple pattern match, not fully re-verified). Repo watch
+(radar-repo-watch): mathlib4/lean4/rocq `releases.atom` all 403'd on direct `curl` (proxy-scoped
+session, per the standing SOURCES.md ACCESS NOTE) — degraded: proxy-403, not healed via `tvly`/
+`WebFetch` fallback this session (time-boxed given the two major captures above); no version
+movement expected based on prior sessions' cadence. Exploration slot (radar-explore, OFF-AXIS
+rotation): substituted cs.CC (computational complexity) for the queued math.DG, since math.DG/OA/
+LO/OC/DS are now already covered by the full daily 20-category math rotation and add no
+incremental explore value — top 40 items read via the arXiv API regardless of sub-topic, all
+routine TCS/complexity papers, 0/40 significant off-axis catch (non-alarm per AGENTS.md domain
+cadence; roster drift flagged for the weekly to reconcile). Trend recalibration
+(radar-ledger-update): Non-invertible symmetries in QFT promoted a 10th independent group
+(Volpato, 2609.03043) — stage HELD accelerating/high (already at ceiling, no mainstreaming
+signal). Ramsey, Stanley-Gasharov, Marton's-exponent all HELD (no new group). Queue +10 (2
+landmark AI-claims + Volpato already routed to the trend, not the queue + 6 below-bar math items
++ 1 forming Oort's-conjecture pair counted once). capture-leak: 8 new arXiv ids checked + full-
+file citation-anywhere sweep (253 ids, 34 reviewed, 0 leaked; the percolation/prime-gaps captures
+use GitHub/PDF URLs, checked by eye, not by the arXiv-id grep). Source-discovery: 2 new
+candidates staged (github.com/anthropics "formal-math" repo, proofsandprompts.com). study_shelf:
+2 new picks (the percolation θ(p_c)=0 formalization, the OpenAI prime-gaps pair). SOURCES.md:
+2 discovered-source-candidate entries added. README.md regenerated from the updated ledger in
+the same commit.

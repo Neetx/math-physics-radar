@@ -189,6 +189,22 @@ survives verification (real feed, on-axis, not SEO). Line format:
   — first seen 2026-09-02 — the announcement channel for LZ (managed by Berkeley Lab); access via
   `tvly extract` or `tvly search` (works cleanly).
 - preprints.org — 1 — Shanmu Jin, "The Numerical Range Is a 2-Spectral Set" (DOI 10.20944/preprints202607.1919, a second independent AI-assisted proof of Crouzeix's conjecture, predating the already-tracked Lorist-Schwenninger arXiv proof) — first seen 2026-08-18 — an MDPI-run general preprint server (broader scope than arXiv), used here as an off-arXiv AI-disclosure-lane venue, same pattern as proofatlas.ai/openai.com/anthropic.com; HELD below the ≥2 bar (1 sighting); access via `tvly extract` on the manuscript page (works cleanly, no feed found).
+- github.com/anthropics (the "formal-math" repo specifically) — 1 — Justin Leder (with Claude),
+  "θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions d ≥ 2" (Lean 4/Mathlib
+  formalization resolving the dying-percolation conjecture via Kozma–Nitzan's reduction) — first
+  seen 2026-09-04 — Anthropic's own GitHub org for released formal-math research artifacts,
+  structurally the same AI-disclosure-lane pattern as the already-tracked
+  anthropic.com/research and openai.com/cdn.openai.com lanes, but a DISTINCT channel (repo-hosted
+  Lean/Mathlib code + PDF, not the research-blog page); discovered via Gil Kalai's blog (see the
+  Combinatorics-and-more entry above/below). No feed; access via `tvly extract` on a
+  `github.com/anthropics/<repo>` path (works cleanly per this session's use).
+- proofsandprompts.com ("Proofs and Prompts") — 1 — Hugo Duminil-Copin (Fields Medal 2022,
+  percolation theory), "Care for a little more AI?" (2026-08-30) — first seen 2026-09-04 — a new
+  multi-author mathematician blog specifically on AI-in-mathematics, with posts from leading
+  researchers commenting on AI-claimed results in their own fields; high-signal for this radar's
+  hype-skepticism/vetting-status tracking. Discovered via a cross-link from Gil Kalai's already-
+  tracked blog. HELD below the ≥2 bar (1 sighting); no feed found this session, access via
+  `tvly extract` on the direct post URL.
 
 PROMOTED 2026-08-08 (W32): nature.com/ncomms (2 sightings → Research/publication venues, DAILY tier),
 scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com/cdn.openai.com

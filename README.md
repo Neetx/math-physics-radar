@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-183-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--03-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-186-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--04-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-03):**
-- A human mathematician's [independent, unconditional proof](https://arxiv.org/abs/2609.02882) reaches the same record Riemann-zeta zero-density bounds an Anthropic Claude model claimed in August — the strongest public vetting signal yet on this ledger's biggest AI-assisted-math claim.
-- New captures: a [14-runner case of the Lonely Runner Conjecture](https://arxiv.org/abs/2609.02604), the [Borovik-Cherlin conjecture resolved in ACF](https://arxiv.org/abs/2609.02198), and an [IceCube null search](https://arxiv.org/abs/2608.29746) constraining extra-dimension size to <0.17 μm.
-- All four active trends HELD (no new independent group today); the four-trend table below is unchanged.
-- Queue 179 → 183 (+4 new items; domain cadence — no daily burndown).
+**Since last scan (2026-09-04):**
+- A Claude-assisted, Lean 4/Mathlib-formalized proof claims [θ(p_c) = 0 for percolation on ℤ^d in every dimension d ≥ 2](https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md) — closing a famous open problem (3 ≤ d ≤ 10, incl. ℤ³) from Grimmett's textbook and Duminil-Copin's ICM18 list. Unrefereed — provisional.
+- OpenAI's GPT-6 Astra launch disclosed two AI-generated prime-gap records: [bounded gaps down to 186](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf) (first improvement on Polymath8b's 246 since 2014) and an [improved large-gaps bound](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps.pdf). Both unrefereed — provisional.
+- [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) gains a 10th independent group ([Volpato, chiral CFTs](https://arxiv.org/abs/2609.03043)); Ramsey, Marton's-exponent and Stanley-Gasharov all HELD.
+- Queue 183 → 186 (+3 new items; domain cadence — no daily burndown).
 
 ## Trends
 
@@ -16,13 +16,15 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-08-25](https://arxiv.org/abs/2608.24385) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-04](https://arxiv.org/abs/2609.03043) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-08-22](https://arxiv.org/abs/2608.21769) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-08-31](https://arxiv.org/abs/2608.30336) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- [θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions (Claude / Justin Leder, Lean 4/Mathlib)](https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md) — a complete formal proof of the "dying percolation" conjecture in every dimension d ≥ 2, closing a famous open problem (3 ≤ d ≤ 10, incl. ℤ³) from Grimmett's textbook and Duminil-Copin's ICM 2018 list, via Kozma–Nitzan's 2024 reduction; unrefereed but formally verified in Lean/Mathlib — a landmark AI-assisted-math claim to watch for independent audit.
+- [Bounded gaps between primes down to 186, and an improved large-gaps bound (OpenAI, GPT-6 Astra)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf) — the first improvement on the bounded-gaps-between-primes record since Polymath8b's 246 (2014), paired with a further improvement on the Ford–Green–Konyagin–Maynard–Tao large-gaps bound (itself built on an intermediate GPT-5.6-Sol result); both Lean-formalized, unrefereed OpenAI preprints disclosed alongside the GPT-6 Astra launch.
 - [A new, independent proof that >2/3 of the Riemann zeta zeros are simple and on the critical line (Lamzouri)](https://arxiv.org/abs/2609.02882) — a human mathematician independently re-derives, via a shorter and more transparent argument, the same record bound an unreleased Anthropic Claude research model claimed on 2026-08-10; the paper's own abstract states the Claude proof "was subsequently verified by Alpöge and Furman" — the strongest public vetting signal yet for one of this radar's biggest AI-assisted-math claims.
 - [LZ's most compelling dark-matter hint to date: a single 248 keV nuclear-recoil event](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter) — the LUX-ZEPLIN collaboration's own account of an unexplained event in its WIMP search window, presented at TeV Particle Astrophysics 2026; explicitly not a claimed detection ("we are not claiming to have seen dark matter" — spokesperson Rick Gaitskell), but the field's most talked-about single data point of the week, already drawing same-day theoretical interpretation papers; see also [Nature News](https://www.nature.com/articles/d41586-026-01985-9).
 - [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257) — resolves a percolation-theory conjecture open since the 1980s (exponential decay of finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by Quanta Magazine as "a gem" of a proof.
@@ -85,13 +87,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [r/mathematics](https://www.reddit.com/r/mathematics/) checked via the recovered search path (direct feed access still blocked) — a thread claiming a proof of a percolation-theory conjecture could not be chased to a citable primary this session (flagged as an open lead for next time, no individual named).
-- [Hacker News](https://news.ycombinator.com/) front page checked — top science story is the already-tracked LZ dark-matter event, no new on-axis primary.
-- [Quanta Magazine](https://www.quantamagazine.org/), [Terence Tao's blog](https://terrytao.wordpress.com/), [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/), [Gowers's Weblog](https://gowers.wordpress.com/) and [Backreaction](https://backreaction.blogspot.com/) all checked — expository/commentary posts only, no new primaries beyond what's already tracked.
+- [Hacker News](https://news.ycombinator.com/) front page checked — surfaced the GPT-6 Astra launch and its accompanying prime-gap-record thread, both chased to primaries and captured above.
+- [r/mathematics](https://www.reddit.com/r/mathematics/) checked via the recovered search path — the "Another Leaked Result" percolation-conjecture lead (open since 2026-09-01) was resolved this session via a mathematician's blog rather than the original thread, no individual named.
+- [Quanta Magazine](https://www.quantamagazine.org/), [Terence Tao's blog](https://terrytao.wordpress.com/), [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/), [Gowers's Weblog](https://gowers.wordpress.com/) and [Backreaction](https://backreaction.blogspot.com/) all checked — expository/commentary posts only, no new primaries beyond what's already tracked (Quanta's newest post likely covers the same percolation story captured above via a different route).
 - [MathOverflow](https://mathoverflow.net/) checked — routine research-level Q&A, nothing on-axis today.
 - [Mathstodon](https://mathstodon.xyz/public) public timeline checked — federated-timeline noise only, no on-axis signal worth naming.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (183) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-03](reports/2026-09-03.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (186) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-04](reports/2026-09-04.md)) · weekly: [2026-W35](reports/weekly/2026-W35.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

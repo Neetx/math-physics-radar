@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-03
+Last updated: 2026-09-04
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -343,7 +343,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     accelerating/medium; last_evidence 2026-08-22 now 12 days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-08-25
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-04
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -409,6 +409,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     lines is preserved along the flows — the first engagement on this trend from the
     integrable-QFT/TBA sub-community. Abstract + authors verified via arXiv API this session
     (v1 2026-08-25).
+  - 2026-09-04 — https://arxiv.org/abs/2609.03043 — Volpato, "Monstrous parafermionic defects and
+    other non-invertible symmetries in chiral CFTs": a TENTH fully independent author (independent
+    of all nine above), constructing non-invertible topological defects (parafermionic and
+    beyond) in chiral CFTs connected to Monstrous Moonshine, extending the non-invertible-defect
+    toolkit to chiral/holomorphic CFTs. Abstract + author verified via arXiv API this session
+    (v1 2026-09-02, surfaced in today's fresh hep-th/physics batch).
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -574,6 +580,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (2026-09-02, 167 entries) scanned for non-invertible/categorical-symmetry applications —
     none found. No 10th independent group. Trend HELD accelerating/high; last_evidence
     2026-08-25 now 9 days old, well inside the 60-day window.
+  - 2026-09-04 (daily, 10th group): fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat/astro-ph
+    batch (2026-09-03, 250 entries) surfaced arXiv:2609.03043 (Volpato) — a TENTH fully
+    independent group, extending the toolkit to chiral CFTs / Monstrous Moonshine, satisfying
+    the standing "watch for a 10th group" note. Evidence list now at the 10-item cap (oldest,
+    2604.02856, to be dropped on the next new capture per the ledger contract). Still no explicit
+    lattice/continuum cross-citation. Confidence HELD high (ceiling); stage HELD accelerating (no
+    mainstreaming-tier signal yet — ten independent groups on group-count/pace alone). last_evidence
+    advances 2026-08-25 → 2026-09-04.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -2504,6 +2518,98 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   abstracts verified via the arXiv API this session (all v1 2026-09-02). Noted as a cluster
   rather than individually evidenced (none is itself a new experimental result); watch the LZ
   event itself (already queued) for the collaboration's own arXiv/PRL submission.
+- 2026-09-04 (surfaced via community pulse — a Hacker-News front-page thread pointing to a
+  Reddit post — chased to the primary same session; also see `study_shelf`) — Claude (Anthropic)
+  with human author Justin Leder, "θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all
+  dimensions d ≥ 2, in Lean 4 / Mathlib" —
+  https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md
+  (proof-sketch PDF at the same commit,
+  .../percolation/summary.pdf) — probability theory / percolation (axis 1, math.PR) / AI-WATCH +
+  axis 5 (formal verification): a complete Lean 4/Mathlib formalization proving the "dying
+  percolation" conjecture — that the percolation probability θ vanishes at the critical point,
+  θ(p_c) = 0, for nearest-neighbour Bernoulli bond percolation on ℤ^d for EVERY d ≥ 2. The result
+  was known only for d = 2 (Harris 1960, Kesten 1980) and d ≥ 11 (lace expansion, Hara–Slade 1990/
+  Fitzner–van der Hofstad 2017); the intermediate cases 3 ≤ d ≤ 10 (crucially including ℤ³) were a
+  famous open problem, cited in Grimmett's *Percolation* (2nd ed., pp. 14, 202–203) and as
+  Conjecture 1 of Duminil-Copin's ICM 2018 problem list. The route: proves Kozma–Nitzan's
+  Conjecture 3 ("near-one gluing," arXiv:2401.12397, 2024) — which Kozma–Nitzan's own Theorem 6
+  shows implies θ(p_c) = 0 — via a new "additive gluing inequality" derived from a "conditioned
+  slack hierarchy" of covariance inequalities; every classical input (Harris, van den Berg–
+  Häggström–Kahn, the four-functions theorem, Gladkov's decision-tree Harris–Kleitman inequality,
+  the Barsky–Grimmett–Newman half-space theorem, Kesten's p_c(ℤ²)=1/2) is re-proved from Mathlib,
+  so the Lean statement has no hypothesis beyond `2 ≤ d`. README + proof-sketch PDF opened via
+  `tvly extract` this session (repo commit 795efb86, README states the toolchain as Lean
+  `v4.32.0` / Mathlib `v4.32.0`). HEAVY HYPE-SKEPTICISM + AI-WATCH CAUTION (track the RESULT and
+  the formalization artifact, not the AI method — sibling AI radars' beat): the repository's own
+  README states plainly "The work has not yet been refereed by anyone independent of the author;
+  correctness rests on the mechanical checks recorded in AUDIT.md" — PROVISIONAL until an
+  independent Lean audit or expert statement, despite the formal (machine-checked, axiom-minimal:
+  only `propext`, `Classical.choice`, `Quot.sound`) nature of the proof, which is a materially
+  stronger evidence class than an unrefereed prose preprint. Surfaced via Gil Kalai's blog
+  ("Amazing: There is no Percolation at the Critical Probability in all Dimensions," posted
+  2026-09-03, h/t Itai Benjamini) — https://gilkalai.wordpress.com/2026/09/03/amazing-there-is-no-percolation-at-the-critical-probability-in-all-dimensions-solved-by-ai-via-a-conjecture-of-gady-kozma-and-shahaf-nitzan/
+  — opened via `tvly extract` this session; Kalai calls it, if verified, "a remarkable
+  breakthrough." RESOLVES a standing open lead from the 2026-09-03 and 2026-09-01 daily reports
+  ("Kozma-Nizan"/"Another Leaked Result" — the correct name is Kozma–Nitzan; the earlier
+  Reddit-sourced spelling was a mishearing, now confirmed via Kalai's primary post). Related
+  expert-commentary context (opened this session, not evidence): Fields medalist Hugo
+  Duminil-Copin (percolation theory; the ICM18 problem-list author cited above) published "Care
+  for a little more AI?" on 2026-08-30 (https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/),
+  predicting AI would likely resolve a famous percolation conjecture before humans do — written
+  four days before this specific claim surfaced, so not a direct comment on it, but relevant
+  standing context from the field's leading authority. Watch for: an independent Lean-proof audit,
+  a statement from Kozma, Nitzan, or Duminil-Copin specifically on this claim, and any arXiv/
+  journal write-up. Also on `study_shelf`. Source-discovery: github.com/anthropics (the
+  `anthropics/formal-math` org/repo) staged below as a new AI-disclosure-lane candidate, distinct
+  from the already-tracked anthropic.com/research pages.
+- 2026-09-04 (surfaced via community pulse — a Hacker-News front-page item on the GPT-6 Astra
+  launch, chased to the primary same session; also see `study_shelf`) — OpenAI (proof "due to
+  GPT 6 Astra"), "Improved short gaps between primes" (dated 30 August 2026) and "Improved long
+  gaps between primes" — https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf
+  and https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps.pdf — analytic
+  number theory (axis 1, math.NT) / AI-WATCH + axis 5 (formal verification): TWO paired claims
+  disclosed alongside the 2026-09-03 GPT-6 Astra model launch. (1) SHORT GAPS: proves DHL[40,2],
+  giving liminf(p_{n+1}-p_n) ≤ 186 — the first improvement on the bounded-gaps-between-primes
+  record since Polymath8b's H₁ ≤ 246 (2014), via stronger equidistribution estimates (Polymath 8a,
+  Stadlmann 2025) combined with a new "triply densely divisible" divisor-support construction;
+  paper states "In independent concurrent work, Stadlmann proves H₁ ≤ 240" (a human/traditional
+  result, not yet public — cited here only as reported by the primary, not independently opened).
+  Comes with a Lean 4 formalization (github.com/openai/PrimeGaps186, "conditional on numerical
+  integral and cap bounds and on finite-field exponential-sum estimates ultimately coming from
+  Deligne's results") plus a Python-FLINT numerical-certificate program. (2) LONG GAPS: proves
+  G(X) ≫ log X (log₂X)² log₄X / (log₃X)², improving the Ford–Green–Konyagin–Maynard–Tao bound by
+  a factor of log₂X, itself explicitly built on "an argument by GPT 5.6 Sol, posted on the Erdős
+  Problems website" (an intermediate, not-independently-opened AI disclosure this session) that
+  had already improved on FGKMT's original bound — a THIRD link in an AI-vs-AI chain on Erdős's
+  $10,000 large-gaps problem. Lean formalization at github.com/openai/LongGapsBetweenPrimes. Both
+  PDFs opened and read directly this session (fetched via `curl` from cdn.openai.com, the
+  already-tracked AI-watch-lane primary channel). HEAVY HYPE-SKEPTICISM + AI-WATCH CAUTION: both
+  are off-arXiv, self-published, unrefereed OpenAI preprints — PROVISIONAL until independent
+  verification (a Lean/Mathlib audit of either repo, or a human referee outcome), despite the
+  accompanying formal proofs. The short-gaps record (186) is now closer to the long-conjectured
+  H₁=2 (twin primes) than any bound since 2014 — a landmark-caliber incremental record on a
+  problem central to the twin prime conjecture, not a resolution of it. Watch for: independent
+  confirmation of either bound (Stadlmann's forthcoming ≤240 paper on short gaps is itself a
+  useful cross-check once public), any Lean-community audit of PrimeGaps186/
+  LongGapsBetweenPrimes, and further installments in the GPT-5.6-Sol→GPT-6-Astra large-gaps
+  chain. Also on `study_shelf`.
+- 2026-09-04 — below-bar single-result math batch (axis 1, from today's fresh arXiv full-category
+  rotation, all not AI-assisted): https://arxiv.org/abs/2609.03087 — Williams, "Confirmation of
+  the Daykin-Frankl Conjecture" (combinatorics of set systems); https://arxiv.org/abs/2609.03134
+  — Bezrukov, "Proof of the generalized Chui conjecture" (approximation theory); 
+  https://arxiv.org/abs/2609.03711 — Tan, Tang, Xie, Yan, "Chern's Conjecture with Constant Cubic
+  Trace" (a special-case resolution of Chern's minimal-submanifold conjecture, not the general
+  conjecture); https://arxiv.org/abs/2609.03847 — Junné, Winter, Yoldaş, "A counterexample to
+  McKean's conjecture for the Landau-Coulomb equation" (kinetic PDE); 
+  https://arxiv.org/abs/2609.03353 — Li, "Resolving a conjecture on permutation polynomials over
+  $\mathbb{F}_{2^n}$" (finite-field combinatorics); https://arxiv.org/abs/2609.04072 (Philippe,
+  Schnelle, Viehmann, "Oort's conjecture for split unitary Shimura varieties") and
+  https://arxiv.org/abs/2609.03188 (Shimada, Takamatsu, "Some generalizations of Oort's
+  conjecture") — two related arithmetic-geometry items on Oort's conjecture (not the resolved
+  André–Oort conjecture), the second an explicit generalization of the first, same-week,
+  independent groups — a FORMING pair below the ≥3-group bar. All abstracts + authors verified
+  via the arXiv API this session (v1 dates 2026-09-02/09-03). None is a landmark resolution of a
+  classical/famous named conjecture — standard below-bar single/paired-result items.
 
 ## source_rotation
 
@@ -3406,12 +3512,73 @@ Corrections to the source-coverage strategy.
   (today's checked-and-excluded Maker-Breaker-games title, cited bracket-style in the Ramsey
   trend's notes, same established pattern as the other 33) — 0 file-wide leaks. capture-leak: 8
   new ids checked + full-file citation-anywhere sweep (244 ids, 34 reviewed, 0 leaked).
+- 2026-09-04 (daily) — KEY CAPTURES: full math (20 in-scope categories) and physics (10 in-scope
+  categories) rotation swept via the arXiv API, 250-cap each, fresh 09-03 batch (250 math + 250
+  physics entries, both hit the API cap — a high-volume day) triaged in full by title. Two major
+  AI-assisted-math/formal-verification captures via community pulse (Hacker News front page,
+  chased same session): (1) OpenAI's GPT-6 Astra model launch (2026-09-03) disclosed two paired
+  prime-gap results — bounded gaps down to 186 (from Polymath8b's 246, 2014) and an improved
+  large-gaps bound — both opened and read directly from cdn.openai.com; (2) Anthropic's
+  `formal-math` GitHub repo (Justin Leder + Claude) disclosed a complete Lean 4/Mathlib
+  formalization of θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in ALL dimensions d ≥ 2,
+  resolving a famous open problem (3 ≤ d ≤ 10, incl. ℤ³) cited in Grimmett's textbook and
+  Duminil-Copin's ICM 2018 problem list — surfaced via Gil Kalai's blog and RESOLVING the
+  standing "Kozma-Nizan"/"Another Leaked Result" open lead first flagged 2026-09-01 and
+  re-flagged 2026-09-03 (the correct spelling is Kozma–Nitzan; the Reddit-sourced "Nizan" was a
+  mishearing, now corrected). Both items are unrefereed/self-published AI disclosures — queued
+  under HEAVY HYPE-SKEPTICISM + AI-WATCH CAUTION per the hard rules, not treated as resolved.
+  Also captured: Volpato's non-invertible-symmetries chiral-CFT paper (2609.03043, a 10th
+  independent group on the already-`accelerating` trend, evidence list now at the 10-item cap)
+  and a below-bar batch of six single/paired-result math items (Daykin-Frankl confirmation, the
+  generalized Chui conjecture, Chern's Conjecture special case, a McKean's-conjecture
+  counterexample, a permutation-polynomials conjecture resolution, and a forming Oort's-conjecture
+  pair). All four PRE-EXISTING trends (Ramsey, Marton's-exponent, Stanley-Gasharov) HELD — no new
+  independent group found on those three axes in today's fresh batch.
+- 2026-09-04 (daily) — Source-discovery: TWO new candidates staged in SOURCES.md —
+  github.com/anthropics (the `formal-math` repo specifically, a distinct AI-disclosure channel
+  from the already-tracked anthropic.com/research pages) and proofsandprompts.com (a new
+  multi-author mathematician blog on AI-in-mathematics, discovered via a cross-link from Kalai's
+  already-tracked blog). Both first-seen this session, held below the ≥2-sighting promotion bar.
+- 2026-09-04 (daily) — Exploration slot (off-axis rotation): cs.CC (computational complexity,
+  genuinely off the in-scope category list, unlike math.DG/OA/LO/OC/DS which are now already
+  covered by the full daily 20-category math rotation and so add no incremental explore value —
+  substituted cs.CC for this run; noting the roster drift for the weekly to reconcile) — top 40
+  items read via the arXiv API regardless of sub-topic, all routine TCS/complexity-theory papers,
+  0/40 significant off-axis catch (non-alarm per AGENTS.md domain cadence).
+- 2026-09-04 (daily) — tvly: healthy, 4th consecutive clean run (no quota error) since the 09-01
+  recovery — not re-flagging. Direct Reddit access (curl/WebFetch) remains hard-blocked (`tvly
+  search` stays the only working path); no change from the standing W35 finding. GitHub repo-watch
+  (mathlib4/lean4/rocq `releases.atom`) 403'd on direct `curl` this session (proxy-scoped
+  environment, per the standing SOURCES.md ACCESS NOTE) — not individually re-verified via `tvly`/
+  `WebFetch` fallback this session (time-boxed given the two major captures above); no known
+  version movement expected (mathlib4 continuous daily tags, lean4/rocq unchanged for weeks per
+  every prior session) — logged as `degraded: proxy-403, not healed this session` rather than
+  silently dropped.
+- 2026-09-04 (daily) — capture-leak reconciliation: 8 new arXiv ids named this session (2609.03043,
+  2609.03087, 2609.03134, 2609.03711, 2609.03847, 2609.03353, 2609.04072, 2609.03188) — all 8 land
+  on discrete trend-evidence/queue lines, 0 leaked. The percolation and prime-gaps captures use
+  GitHub/PDF URLs, not arXiv ids, so they do not appear in the arXiv-id mechanical sweep; both are
+  directly cited by their own opened URLs in the queue (checked by eye). Full-file mechanical sweep
+  (citation-anywhere test): 253 unique arXiv ids (up from 244); 34 have no `arXiv:<id>`/`abs/<id>`
+  citation anywhere — the SAME 34 already verified legitimate in prior sessions (unchanged from the
+  09-03 count) — 0 file-wide leaks; none of today's 8 new ids appear in the uncited set. capture-leak:
+  8 new ids checked + full-file citation-anywhere sweep (253 ids, 34 reviewed, 0 leaked).
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-04 — [θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions (Claude / Justin Leder, Lean 4/Mathlib)](https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md)
+  — a complete formal proof of the "dying percolation" conjecture in every dimension d ≥ 2,
+  closing a famous open problem (3 ≤ d ≤ 10, incl. ℤ³) from Grimmett's textbook and
+  Duminil-Copin's ICM 2018 list, via Kozma–Nitzan's 2024 reduction; unrefereed but formally
+  verified in Lean/Mathlib — a landmark AI-assisted-math claim to watch for independent audit.
+- 2026-09-04 — [Bounded gaps between primes down to 186, and an improved large-gaps bound (OpenAI, GPT-6 Astra)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf)
+  — the first improvement on the bounded-gaps-between-primes record since Polymath8b's 246 (2014),
+  paired with a further improvement on the Ford–Green–Konyagin–Maynard–Tao large-gaps bound
+  (itself built on an intermediate GPT-5.6-Sol result); both Lean-formalized, unrefereed OpenAI
+  preprints disclosed alongside the GPT-6 Astra launch.
 - 2026-09-03 — [A new, independent proof that >2/3 of the Riemann zeta zeros are simple and on the critical line (Lamzouri)](https://arxiv.org/abs/2609.02882)
   — a human mathematician (York University) independently re-derives, via a shorter and more
   transparent unconditional argument, the SAME record bound (>67.25% simple-on-the-line, ≥83.62%
