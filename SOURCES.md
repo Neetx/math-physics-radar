@@ -68,6 +68,14 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   `https://home.cern/feed/` (RSS, NOT `/feed.rss` which 404s) works cleanly via plain `curl` —
   prefer the `/feed/` RSS going forward.]** — collider (ATLAS/CMS) results & data
 - IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-26: the bare `/news/` page is a JS-rendered widget shell (no article titles extractable via plain `curl`), but `https://icecube.wisc.edu/category/news/feed/` (RSS — NOT the empty `/news/feed` path) works cleanly via plain `curl`, returning full titles/dates. Prefer this RSS feed going forward.]** — neutrino astrophysics
+- LZ (LUX-ZEPLIN dark-matter experiment) — https://lz.lbl.gov/publications **[promoted 2026-09-05
+  (W36 weekly); verified via `tvly extract` — clean, regular, years-long e-print/PRL publication
+  list (10+ 2024-2026 entries), structurally identical to the other Experiments-block sources; no
+  feed, re-`tvly extract` the page each sweep]** — flagship dark-matter direct-detection
+  collaboration; source-discovery promotion (1 sighting, but an established multi-year publication
+  cadence — the 2026-09-01 248 keV single-event hint). Companion announcement channel:
+  newscenter.lbl.gov (Berkeley Lab news; `tvly extract`/`tvly search`) for the press-release side
+  of new LZ results.
 - (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
@@ -177,17 +185,6 @@ survives verification (real feed, on-axis, not SEO). Line format:
 - anthropic.com/research (Anthropic research-publication pages) — 1 — "More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line" (Claude, 2026-08-10), discovered via r/math + r/mathematics pointers — first seen 2026-08-11 — a direct off-arXiv AI-lab disclosure channel for AI-claimed math results, the same pattern as the already-tracked openai.com/cdn.openai.com lane; HELD below the ≥2 bar (1 sighting); no RSS, access via `tvly search "anthropic.com research math"` / direct URL checks when a disclosure is flagged elsewhere (paths seen this session: `anthropic.com/research/<slug>`, PDFs under `www-cdn.anthropic.com`).
 - proofatlas.ai — 1 — "A Computer-Assisted Proof of Sendov's Conjecture" (Lech Mazur / OpenAI GPT-5.6 Pro, 2026-08-05), discovered via a Terence Tao blog-post link (2026-08-12) — first seen 2026-08-13 — a dedicated self-publication platform for AI-generated math proofs, structurally the same AI-disclosure-lane pattern as openai.com/cdn.openai.com and anthropic.com/research; HELD below the ≥2 bar (1 sighting); no RSS/feed found, access via direct URL (`proofatlas.ai/papers/<slug>/<FILE>.pdf`) when a disclosure is flagged elsewhere (e.g. via Tao/Quanta/community pulse), or `tvly search "proofatlas.ai <topic>"`.
 
-- lz.lbl.gov (LUX-ZEPLIN dark-matter experiment publications page) — 1 — the 248 keV
-  single-event dark-matter hint announced 2026-09-01 at TeV Particle Astrophysics — first seen
-  2026-09-02 — a flagship direct-detection collaboration with a regular, years-long e-print/PRL
-  publication cadence (list opened this session: 10+ 2024-2026 e-prints), structurally identical
-  to the already-tracked LIGO/DESI/CERN/IceCube Experiments-block sources; recommend early
-  promotion to the Experiments block despite only 1 sighting given this track record. No feed;
-  access via `tvly extract https://lz.lbl.gov/publications` (works cleanly).
-- newscenter.lbl.gov (Lawrence Berkeley National Laboratory news) — 1 — the official LZ
-  248 keV-event announcement, "LZ Sees Surprising Result in Search for Dark Matter" (2026-09-01)
-  — first seen 2026-09-02 — the announcement channel for LZ (managed by Berkeley Lab); access via
-  `tvly extract` or `tvly search` (works cleanly).
 - preprints.org — 1 — Shanmu Jin, "The Numerical Range Is a 2-Spectral Set" (DOI 10.20944/preprints202607.1919, a second independent AI-assisted proof of Crouzeix's conjecture, predating the already-tracked Lorist-Schwenninger arXiv proof) — first seen 2026-08-18 — an MDPI-run general preprint server (broader scope than arXiv), used here as an off-arXiv AI-disclosure-lane venue, same pattern as proofatlas.ai/openai.com/anthropic.com; HELD below the ≥2 bar (1 sighting); access via `tvly extract` on the manuscript page (works cleanly, no feed found).
 - github.com/anthropics (the "formal-math" repo specifically) — 1 — Justin Leder (with Claude),
   "θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions d ≥ 2" (Lean 4/Mathlib
@@ -210,6 +207,11 @@ PROMOTED 2026-08-08 (W32): nature.com/ncomms (2 sightings → Research/publicati
 scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com/cdn.openai.com
 (recurring disclosure channel → Primary feeds AI-watch lane, DAILY tier) — see their entries above;
 cleared from this staging list.
+PROMOTED 2026-09-05 (W36): lz.lbl.gov (1 sighting, but an established multi-year e-print/PRL
+cadence verified this session → Experiments block, DAILY tier; newscenter.lbl.gov folded in as its
+companion announcement channel) — see its entry above; cleared from this staging list. HELD below
+the ≥2 bar (checked against this week's reports, no recurrence — both first seen 2026-09-04, only
+one run old): github.com/anthropics ("formal-math" repo), proofsandprompts.com.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

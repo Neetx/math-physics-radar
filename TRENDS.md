@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-04
+Last updated: 2026-09-05
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -341,6 +341,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Maker-Breaker games" (2609.02588, a positional-game variant, not a classical/hypergraph
     lower-bound breakthrough). No 7th independent group or referee/vetting outcome. Trend HELD
     accelerating/medium; last_evidence 2026-08-22 now 12 days old, well inside the 60-day window.
+  - 2026-W36 recalibration: HELD accelerating/medium. last_evidence 2026-08-22 is 14 days old,
+    nowhere near the 60-day line (2026-10-21). No 7th independent group surfaced across the
+    week's dailies (09-01→09-04, each rechecking a fresh arXiv batch); no referee/vetting outcome
+    on any of the six tracked preprints. Confidence held medium (doubled unrefereed-preprint
+    caution on Steiner's result stands). Not promoted (no mainstreaming-tier signal — group count/
+    pace only).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-04
@@ -588,6 +594,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     lattice/continuum cross-citation. Confidence HELD high (ceiling); stage HELD accelerating (no
     mainstreaming-tier signal yet — ten independent groups on group-count/pace alone). last_evidence
     advances 2026-08-25 → 2026-09-04.
+  - 2026-W36 recalibration: HELD accelerating/high. last_evidence 2026-09-04 is 1 day old. Ten
+    fully independent groups now on file across four venue types (arXiv, SciPost ×2, Nature
+    Physics); no 11th group or the still-outstanding explicit lattice/continuum cross-citation
+    surfaced this week. Confidence held at the ceiling (no hype-skepticism caveat). Not promoted
+    to `mainstreaming` (group count/pace alone is not a standard-practice-adoption signal) —
+    watch for an 11th group or the cross-citation.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -729,6 +741,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-09-03 (daily): fresh math.CO 2026-09-02 batch scanned for Schur-positivity/claw-free
     items — none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium;
     last_evidence 2026-07-29 now 36 days old, well inside the 60-day window.
+  - 2026-W36 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 38 days old — well
+    inside the 60-day window (dormancy line 2026-09-27), but now over five weeks quiet with no
+    4th independent group and no referee/vetting outcome on any of the three tracked preprints.
+    Confidence held medium (unrefereed, cross-verified computations; no fresh corroboration
+    either way). Weakest of the four active trends — per the W35 forward bet, if nothing moves
+    by early October this needs a real decision (accept a 3-group seed indefinitely, or let the
+    60-day dormancy line take it).
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-08-31
@@ -761,6 +780,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-09-03 (daily): fresh math.CO 2026-09-02 batch scanned for PFR/Marton-exponent items —
     none. No 4th independent group. Trend HELD emerging/medium; last_evidence 2026-08-31 now 3
     days old, well inside the 60-day window.
+  - 2026-W36 recalibration: HELD emerging/medium. last_evidence 2026-08-31 is 5 days old. No 4th
+    independent group surfaced across the week's dailies (09-01→09-04). Confidence held medium
+    (each step a short, checkable refinement of an already-proved landmark). Not promoted (no
+    fresh W36 velocity beyond the trend's founding week).
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -826,6 +849,8 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   hype-skepticism rule, but by an established leader in the field (p-adic geometry / Shimura
   varieties). A near-miss capture-leak: this genuinely landmark result sat outside this ledger's
   window for over five months.
+  - 2026-09-05 (W36 weekly): promoted to `study_shelf` this session (queue-cleanup — a landmark
+    resolution should not sit un-shelved for a month+ after capture). Also on `study_shelf`.
 - 2026-08-17 — arXiv:2608.16405 — Valentijn Karemaker, Chia-Fu Yu, "Oort's conjecture on
   supersingular abelian varieties in odd characteristic" — https://arxiv.org/abs/2608.16405 —
   arithmetic geometry (axis 1, math.AG/NT): a same-day follow-up to Viehmann's proof of Oort's
@@ -834,13 +859,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   supersingular locus, refining the boundary/exceptional-locus structure around Viehmann's
   generic result. Abstract + authors verified via arXiv API this session (v1 2026-08-17). Below-
   bar follow-up/refinement item — the paper that led this session to Viehmann's landmark.
-- 2026-08-15 — arXiv:2608.15257 — Qi Wu, Yong Lu, "A Proof of the Chen–Raspaud Conjecture" —
-  https://arxiv.org/abs/2608.15257 — graph theory / flows (axis 1, math.CO): proves the
-  Chen–Raspaud conjecture (2007) — every graph $G$ with odd girth $\ge2k+1$ and maximum average
-  degree $<2+1/k$ admits a $(2k+1{:}k)$-coloring — for every $k\ge2$. Abstract + authors verified
-  via arXiv API this session (v1 2026-08-15). Unrefereed two-author preprint claiming resolution
-  of a named ~19-year-old conjecture — PROVISIONAL under the hype-skepticism rule; a below-bar but
-  notable landmark-adjacent result a graph theorist should watch.
 - 2026-08-17 — arXiv:2608.16693 — Ziran Liu, "Atiyah's Minkowski Space Conjecture Fails for Every
   $n\ge3$" — https://arxiv.org/abs/2608.16693 — mathematical physics / twistor geometry (axis 1/2,
   math.DG): disproves a conjecture of Michael Atiyah on the linear independence of binary forms
@@ -895,20 +913,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   evidence rules — queued, not evidenced; watch for an arXiv posting or official research-page
   disclosure to promote/verify. If confirmed, this would be a notable landmark (closing the
   smallest known gap in the 1893 Hadamard conjecture) in the standing AI-assisted-math wave.
-- 2026-08-13 (W33 weekly-swept institute sweep, Perimeter Institute news page) —
-  Hook, Huang, Shalaby, "No cosmological constraints on dark photon dark matter from
-  resonant conversion: impact of nonlinear plasma dynamics," arXiv:2510.13956, now
-  published Phys. Rev. Lett. 137, 071004 (2026) — https://arxiv.org/abs/2510.13956 —
-  particle/astro-particle phenomenology (axis 3, hep-ph/astro-ph): shows the standard
-  linear treatment of dark-photon-to-photon resonant conversion in the early-universe
-  plasma is invalidated by plasma nonlinearities that self-quench the conversion,
-  invalidating cosmological exclusion bounds and reopening a dark-photon-dark-matter
-  parameter space previously thought ruled out by ~8 orders of magnitude (Perimeter +
-  U. Maryland). Perimeter news page (2026-08-13) + arXiv API metadata + APS journal
-  listing all opened via `tvly` this session (v1 2025-10-15, PRL-published 2026-08-13).
-  Peer-reviewed (PRL) — not provisional. A below-bar but notable phenomenology result
-  a frontier physicist should track; caught only via the weekly institute sweep (the
-  daily arXiv PRL scan reads titles/dates, not every result gets individually chased).
 - 2026-08-07 (CAPTURE-LEAK CATCH, W33 weekly sweep — named in the Ramsey trend's own
   notes since the 08-11 daily but never given its own queue line) — arXiv:2608.07102 —
   "Vertex-Ramsey theorems for Cartesian powers of graphs" — https://arxiv.org/abs/2608.07102
@@ -960,14 +964,16 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   character degree. Abstract + author verified via arXiv API this session (v1 2026-08-12).
   HEAVY CAVEAT (hype-skepticism rule): unrefereed SINGLE-AUTHOR preprint claiming resolution
   of a named 40+-year conjecture → PROVISIONAL until independent vetting; a landmark claim a
-  representation/group theorist should watch.
+  representation/group theorist should watch. Also on `study_shelf` (promoted W36 weekly,
+  queue-cleanup).
 - 2026-08-12 — Peter L. Guo, Mingyang Kang, Rui Xiong, "A solution to Butler's positivity
   conjecture," arXiv:2608.11543 — https://arxiv.org/abs/2608.11543 — algebraic combinatorics
   (axis 1, math.CO/RT): proves Butler's positivity conjecture posed in 1994 (~32 years open):
   the Schur-expansion coefficients of a Macdonald-intersection-polynomial ratio lie in
   Z≥0[q,t]. Abstract + authors verified via arXiv API this session (v1 2026-08-12). Unrefereed
   preprint (three-author, cross-verified internally, not single-author) — PROVISIONAL under
-  the hype-skepticism rule; track the referee outcome.
+  the hype-skepticism rule; track the referee outcome. Also on `study_shelf` (promoted W36
+  weekly, queue-cleanup).
 - 2026-08-12 — Yutong Zhang, Yaoran Yang, "The 196560 auxiliary-function conjecture for the
   Leech lattice," arXiv:2608.12094 — https://arxiv.org/abs/2608.12094 — sphere packing /
   Fourier interpolation (axis 1/2, math.NT/CA, math-ph-adjacent): resolves the Cohn–Kumar
@@ -976,7 +982,8 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   program radial Fourier interpolation basis in dimension 24. Abstract + authors verified via
   arXiv API this session (v1 2026-08-12). Unrefereed two-author preprint — PROVISIONAL; a
   notable resolution in the sphere-packing/interpolation program that produced the Fields-
-  Medal-winning 8D/24D sphere-packing results.
+  Medal-winning 8D/24D sphere-packing results. Also on `study_shelf` (promoted W36 weekly,
+  queue-cleanup).
 - 2026-08-12 — Julie Kiel Holm et al. (8 authors), "Evidence for the First Globular Cluster
   Stellar Stream beyond the Milky Way," arXiv:2608.12254 — https://arxiv.org/abs/2608.12254 —
   observational astrophysics / dark matter (axis 3, astro-ph.GA/CO): Hubble Space Telescope
@@ -985,7 +992,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   generative-stream-modelling dark-matter-halo mass constraint for the host. Abstract + authors
   verified via arXiv API this session (v1 2026-08-12). First-of-kind observational claim from
   a single team ("evidence for," not yet independently confirmed) — track for follow-up/
-  independent confirmation.
+  independent confirmation. Also on `study_shelf` (promoted W36 weekly, queue-cleanup).
 - 2026-08-12 — Yi-Zhong Fan et al., "Evidence for a ~43 GeV γ-ray line signal in a stacking
   analysis of the Virgo, Fornax, and Ophiuchus Galaxy clusters," arXiv:2407.11737, now
   published as Phys. Rev. Lett. 137, 071003 (2026) — https://arxiv.org/abs/2407.11737 —
@@ -1008,16 +1015,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   2026-08-06). Speculative single-author theoretical proposal, not a proof/discovery — below
   the trend bar, worth tracking as part of the standing exceptional-algebra/Standard-Model
   research program.
-- 2026-08-12 — Two below-bar partial-progress items opened this session, captured for the
-  record (neither a full resolution): António Girão, Sergey Norin, Youri Tamitegama, Jane Tan,
-  "Two Relaxations of the Dominating Hadwiger's Conjecture," arXiv:2608.12126,
-  https://arxiv.org/abs/2608.12126 (extremal graph coloring, axis 1, math.CO — proves two
-  weaker forms of a conjecture proposed only recently by Illingworth–Wood, not the conjecture
-  itself); Jake Brukhman, "A dense-case theorem for Seymour's second neighborhood conjecture,"
-  arXiv:2608.11530, https://arxiv.org/abs/2608.11530 (tournament theory, axis 1, math.CO —
-  extends known partial cases of the famous ~1990 second-neighborhood conjecture to a dense
-  regime, not a full resolution). Abstracts verified via arXiv API this session (both v1
-  2026-08-12).
 - 2026-08-12 — Simons Foundation, "New Simons Collaboration Explores Defects in Physics" —
   https://www.simonsfoundation.org/2026/08/new-simons-collaboration-explores-defects-in-physics/
   — ecosystem/recognition (axis 2, hep-th/math-ph): launches the "Simons Collaboration on the
@@ -1037,30 +1034,13 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   gap (the 4d case is a Clay Millennium Problem; this is the 3d/Euclidean analogue) is a famous
   open problem — single-author, program-continuation, explicitly partial ("outlines") →
   PROVISIONAL, watch for a completed rigorous writeup and independent expert engagement.
-- 2026-08-10 — TWO fully independent groups resolve the SAME 2015 Kolokolnikov conjecture on
-  algebraic connectivity, same day — arXiv:2608.09879 (Cioabă, Jayarajan, Kannan, Roy, "Maximizing
-  the algebraic connectivity of graphs of given order and size: a proof of a conjecture of
-  Kolokolnikov") · arXiv:2608.09822 (Chi, Wang, Zheng, "On a conjecture of Kolokolnikov on
-  algebraic connectivity") — https://arxiv.org/abs/2608.09879 ·
-  https://arxiv.org/abs/2608.09822 — spectral graph theory (axis 1, math.CO): both prove
-  Kolokolnikov's 2015 conjecture that the maximum algebraic connectivity α(n,2n−4) over graphs on
-  n vertices with 2n−4 edges equals 2, achieved by K_{2,n−2}. Abstracts + authors verified via
-  arXiv API this session (both v1 2026-08-09). A notable same-day double-discovery of a single
-  named conjecture by two fully independent author groups — below the trend bar (one conjecture,
-  not a multi-artifact sub-theme) but a striking convergence event in its own right.
 - 2026-08-11 — arXiv:2608.11132 — Ning, "Kohayakawa's conjecture and clique coverings of
   complements of paths and cycles" — https://arxiv.org/abs/2608.11132 — extremal combinatorics
   (axis 1, math.CO): proves Kohayakawa's 1991 conjecture on the growth rate of maximum induced
   paths in a specific Kneser-graph-related bipartite construction, with a corollary sharpening
   clique-covering bounds for complements of paths/cycles. Abstract + author verified via arXiv API
-  this session (v1 2026-08-11). A landmark resolution of a 35-year-old named conjecture.
-- 2026-08-11 — arXiv:2608.10889 — Liu, Chen, Zhou, "Katok's intermediate entropy conjecture for
-  amenable group actions" — https://arxiv.org/abs/2608.10889 — ergodic theory / dynamical systems
-  (axis 1, math.DS): shows Katok's intermediate entropy conjecture holds for amenable-group actions
-  with the specification property that are asymptotically entropy expansive — a significant but
-  conditional (restricted system class) advance, not a full general resolution. Abstract + authors
-  verified via arXiv API this session (v1 2026-08-11). Below-bar partial-progress item on a
-  well-known named conjecture.
+  this session (v1 2026-08-11). A landmark resolution of a 35-year-old named conjecture. Also on
+  `study_shelf` (promoted W36 weekly, queue-cleanup).
 - 2026-08-10 (v1; paper dated 2026-08-10, surfaced via community pulse — chased same session) —
   Claude (Anthropic, unreleased research model), "More Than Two Thirds of the Zeros of the
   Riemann Zeta Function Lie on the Critical Line" —
@@ -1152,35 +1132,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   PROVISIONAL pending independent replication and theoretical scrutiny of the interpretation —
   but a genuine first-of-kind experimental test of a specific, well-known foundational proposal,
   worth a frontier physicist's attention.
-- 2026-08-09 — arXiv:2608.08441 — Guu, "A Disproof of Santharoubane's Conjecture on
-  Presentations of Generic Skein Algebras" — https://arxiv.org/abs/2608.08441 — low-dimensional
-  topology / quantum topology (axis 1/2, math.GT): refutes Santharoubane's conjecture that a
-  presentation derived from mapping-class-group data yields an algebra isomorphic to the generic
-  Kauffman-bracket skein algebra, for surfaces of genus ≥3. Abstract + author verified via arXiv
-  API this session (v1 2026-08-09). Below-bar refuted-conjecture item.
-- 2026-08-09 — arXiv:2608.08478 — Prajapati, "A counterexample to the Etzion-Silberstein
-  conjecture" — https://arxiv.org/abs/2608.08478 — coding theory / combinatorics (axis 1,
-  cs.IT, adjacent to math.CO): disproves the Etzion–Silberstein conjecture on Singleton-type
-  bounds for linear Ferrers-diagram rank-metric codes via an explicit Ferrers diagram where the
-  optimal dimension falls one short of the conjectured bound. Abstract + author verified via
-  arXiv API this session (v1 2026-08-09). Category-borderline (cs.IT, not a core math.* listing)
-  but a genuine refuted named conjecture in algebraic/combinatorial coding theory — below-bar
-  intake.
-- 2026-08-10 — arXiv:2608.09191 — Yavari, "A Proof of the Imbalance Conjecture" —
-  https://arxiv.org/abs/2608.09191 — combinatorics / graph theory (axis 1, math.CO): proves the
-  Kozerenko–Skochko imbalance conjecture (the multiset of edge-imbalances of a graph with every
-  edge positively imbalanced is always graphic). Abstract + author verified via arXiv API this
-  session (v1 2026-08-10) — no AI-assistance is claimed or visible in the abstract/comments,
-  despite a community-pulse post title framing it as AI-assisted; not corroborated by the primary,
-  so captured here without that attribution. Below-bar resolved-conjecture item (a young
-  conjecture, not a classical named one).
-- 2026-08-09 — arXiv:2608.08766 — Gu, Luo, Wang, Zhang, "Understanding Non-Split 2-Group
-  Symmetry: (3+1)D SymTFT, Anomaly and Bordism" — https://arxiv.org/abs/2608.08766 —
-  theoretical physics (axis 2, hep-th): classifies anomalies of a non-split ℤ₂×ℤ₂ 2-group
-  symmetry via oriented/spin bordism groups and constructs its (3+1)D Symmetry TFT. Abstract +
-  authors verified via arXiv API this session (v1 2026-08-09). SymTFT-adjacent to the tracked
-  non-invertible-symmetries trend but a DIFFERENT symmetry structure (2-group, not
-  non-invertible/fusion-category) — does not feed that trend; below-bar item in its own right.
 - 2026-08-07 — arXiv:2608.07173 — Feng, Yun, Zhang, "Modularity of Higher Theta Series III:
   Proof of the Modularity Conjecture" — https://arxiv.org/abs/2608.07173 — number theory /
   arithmetic geometry (axis 1, math.NT/AG): proves the Modularity Conjecture for higher theta
@@ -1223,17 +1174,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   incorporating LLM assistance coupled with Lean verification into their research workflow — a
   meta-level account, not a single new theorem. Abstract + authors verified via arXiv API this
   session (v1 2026-08-07). Watch-area intake, not a result.
-- 2026-08-08 — **2026 Frontiers of Science Award (mathematics) → Dennis Gaitsgory** (with Nick
-  Rozenblyum) — https://www.mpim-bonn.mpg.de/ — recognition/ecosystem (axis 1, algebraic
-  geometry / geometric Langlands): the International Congress for Basic Science award cites
-  their "A study in derived algebraic geometry: Volumes I and II" (Math. Surveys and
-  Monographs, 2017) — the foundational derived-algebraic-geometry framework underlying
-  Gaitsgory–Raskin et al.'s geometric Langlands proof program. Caught via this week's
-  weekly-swept institute sweep (MPIM Bonn news page, opened via `tvly extract` this session).
-  BELOW the radar's main prize-capture bar (Fields/Abel/Shaw/Clay) but a substantial
-  international award in a directly on-axis field — noted per the standing "chase the
-  calendar" prize-lane practice (W31 M08 retrospective) rather than left un-routed. Single
-  below-bar ecosystem item.
 - 2026-08-06 — arXiv:2608.05044 — Faulhuber, Petersen, van Velthoven, Voigtlaender, "Linear
   dependence of time-frequency shifts of a Schwartz function" — https://arxiv.org/abs/2608.05044
   — harmonic analysis / time-frequency analysis (axis 1, math.CA/FA): DISPROVES the ~30-year-old
@@ -1742,7 +1682,8 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   Vol(B(p,R)) ≤ C_n R^{n-2} — via the heat-kernel Fisher metric and Nash entropy. Abstract +
   author verified via arXiv API this session (v1 2026-08-13). A landmark resolution of a
   ~40-year-old named conjecture in comparison geometry; unrefereed single-author preprint —
-  PROVISIONAL under the hype-skepticism rule; track the vetting outcome.
+  PROVISIONAL under the hype-skepticism rule; track the vetting outcome. Also on `study_shelf`
+  (promoted W36 weekly, queue-cleanup).
 - 2026-08-13 — arXiv:2608.13497 — Gui, Li, Wei, Ye, "A positive answer to the generalized
   Chang-Yang conjecture on S^N" — https://arxiv.org/abs/2608.13497 — geometric analysis / PDE
   (axis 1, math.AP): proves the generalized Chang-Yang conjecture (a Beckner-inequality
@@ -1750,6 +1691,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   formula and a rigidity theorem for stable critical points. Abstract + authors verified via
   arXiv API this session (v1 2026-08-13). A landmark resolution of a named conjecture by an
   established PDE group (Juncheng Wei); unrefereed — PROVISIONAL; track the vetting outcome.
+  Also on `study_shelf` (promoted W36 weekly, queue-cleanup).
 - 2026-08-13 — arXiv:2608.12844 — Ivanisvili, "The Hayman–Wu constant is π²" —
   https://arxiv.org/abs/2608.12844 — complex analysis / conformal mapping (axis 1, math.CV):
   determines the EXACT value of the classical Hayman–Wu constant (the sharp bound, over all
@@ -1764,7 +1706,8 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   classification-theory stability hierarchy. Abstract + author verified via arXiv API this
   session (v1 2026-08-13). A landmark resolution of a ~22-year-old open question in model
   theory by a leading expert (Artem Chernikov); unrefereed single-author preprint —
-  PROVISIONAL under the hype-skepticism rule; track the vetting outcome.
+  PROVISIONAL under the hype-skepticism rule; track the vetting outcome. Also on `study_shelf`
+  (promoted W36 weekly, queue-cleanup).
 - 2026-08-13 — arXiv:2608.13539 — Jasper, Mixon, "HRT counterexamples with exponential tails" —
   https://arxiv.org/abs/2608.13539 — harmonic analysis / time-frequency analysis (axis 1,
   math.FA/CA): a SECOND, independent engagement with last week's HRT-conjecture disproof
@@ -1774,17 +1717,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   for any HRT counterexample. Abstract + authors verified via arXiv API this session (v1
   2026-08-13). A sharpening/independent-engagement follow-up on an already-tracked landmark, not
   a new named-conjecture resolution in its own right.
-- 2026-08-13 — arXiv:2608.13551 — Park, "Every PPT channel has finite entanglement-breaking
-  index" — https://arxiv.org/abs/2608.13551 — quantum information theory (axis 4, quant-ph):
-  proves every PPT (positive-partial-transpose) linear map has finite entanglement-breaking
-  index, and bounds it by 3 for a large sub-family — strong evidence toward, but not a proof of,
-  the long-standing PPT-cubed conjecture. Abstract + author verified via arXiv API this session
-  (v1 2026-08-13). Below-bar partial-progress item toward a named conjecture.
-- 2026-08-13 — arXiv:2608.13025 — Lavi, "A counterexample to the Foregger-Sinkhorn tie-point
-  conjecture" — https://arxiv.org/abs/2608.13025 — combinatorial matrix theory (axis 1,
-  math.CO): refutes the Foregger–Sinkhorn tie-point conjecture on permanent-minimizing doubly
-  stochastic matrices via an explicit dimension-8 counterexample. Abstract + author verified via
-  arXiv API this session (v1 2026-08-13). Below-bar refuted-conjecture item.
 - 2026-08-13 — arXiv:2608.13021 — Rodrigues, "The Bosch and Simó conjecture on the
   Shilnikov-Hopf bifurcation" — https://arxiv.org/abs/2608.13021 — dynamical systems (axis 1,
   math.DS): proves the 1993 Bosch–Simó conjecture that "large" strange attractors (in the
@@ -1792,6 +1724,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   bifurcation, with SRB measures on a positive-measure parameter set. Abstract + author verified
   via arXiv API this session (v1 2026-08-13). A resolution of a ~33-year-old named conjecture in
   dynamical systems; unrefereed single-author preprint — PROVISIONAL; track the vetting outcome.
+  Also on `study_shelf` (promoted W36 weekly, queue-cleanup).
 - 2026-08-13 — arXiv:2608.13067 — Zheng, "Computer-assisted Proof Under Audit: Typos,
   Certificate Errors, and Reproducible Exact Checks for a Symbolic Invertibility Proof" —
   https://arxiv.org/abs/2608.13067 — VETTING-OUTCOME item (analysis / computer-assisted-proof
@@ -2191,15 +2124,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   semistable, disproving Bruzzo's conjecture on curve semistability for Higgs bundles. Abstract +
   author verified via arXiv API this session (v1 2026-08-23). Below-bar, single-author,
   unrefereed disproof of a modern (non-classical) named conjecture — queued.
-- 2026-01-13 (CAPTURE-LEAK CATCH, ~7 months old, surfaced via today's fresh math.RT sweep,
-  accessed 2026-08-25) — arXiv:2601.08218 — Liron Speyer, "The minimal counterexample to James's
-  conjecture" — https://arxiv.org/abs/2601.08218 — representation theory (axis 1, math.RT):
-  James's conjecture on decomposition matrices of symmetric groups/Hecke algebras was already
-  disproved by Williamson in 2017 (not new); this paper computes an explicit, much smaller
-  counterexample than Williamson's method could detect. Abstract + author verified via arXiv API
-  this session (v1 2026-01-13; a later v2 exists, exact revision date not pinned this session).
-  Below-bar incremental item (sharpens an already-known disproof, not itself a new resolution) —
-  queued for completeness.
 - 2026-08-24 — arXiv:2509.20144 (v3) — Julian Feuerpfeil, "A Hilbert 90 Property for S-Class
   Groups and Applications to the Gross-Kuz'min Conjecture" — https://arxiv.org/abs/2509.20144 —
   algebraic number theory (axis 1, math.NT): establishes an arithmetic criterion for a Hilbert-90-
@@ -3563,12 +3487,162 @@ Corrections to the source-coverage strategy.
   citation anywhere — the SAME 34 already verified legitimate in prior sessions (unchanged from the
   09-03 count) — 0 file-wide leaks; none of today's 8 new ids appear in the uncited set. capture-leak:
   8 new ids checked + full-file citation-anywhere sweep (253 ids, 34 reviewed, 0 leaked).
+- 2026-09-05 (W36 recalibration) — Trends: all four HELD (see their own notes) — Ramsey
+  accelerating/medium (no 7th group all week), non-invertible symmetries accelerating/high (no
+  11th group, still no lattice/continuum cross-citation), Stanley-Gasharov seed/medium (now 38
+  days quiet, flagged weakest — a real decision point approaches by early October per the
+  standing W35 forward bet), Marton's-exponent emerging/medium (no 4th group, 5 days old). No
+  reconcile action needed (nothing currently dormant/archived). No merges.
+- 2026-09-05 (W36) — QUEUE BURNDOWN (first application of proposed Amendment E's
+  criterion-completeness framing — see Amendments below): reviewed the full newly-3+-week-eligible
+  batch (items dated 2026-08-08→2026-08-15, 39 items — the batch immediately following W35's
+  2026-08-03→08-07 review) item-by-item against the established drop criteria (settled,
+  zero-independent-follow-up, non-landmark, non-study_shelf, no live cross-reference, self-
+  described below-bar/partial). Rather than a raw count, health is reported as
+  criterion-completeness: 39/39 reviewed (100%), 13 dropped (self-described below-bar/partial-
+  progress/refuted-conjecture items with no forward hook — a Chen–Raspaud-conjecture preprint, a
+  below-bar Perimeter dark-photon phenomenology result, Katok's-intermediate-entropy partial
+  progress, a Santharoubane's-conjecture disproof, an Etzion–Silberstein counterexample, the
+  Imbalance Conjecture, a non-split-2-group-symmetry paper, the Gaitsgory Frontiers-of-Science
+  ecosystem note, a PPT-channel partial-progress item, a Foregger–Sinkhorn counterexample, and a
+  same-day Kolokolnikov-conjecture double-discovery — full list + one-line reasons per item
+  recorded in this session's edits), 26 KEPT as protected-with-a-stated-reason (an unverified
+  open Hadamard-matrix watch, an active Yang-Mills-mass-gap-outline watch, an extraordinary-claim
+  γ-ray-line-signal watch under the hype-skepticism rule, a counterfactual-conservation-laws
+  extraordinary-claim watch, a forming hyperkähler-period-index pair, two cross-referenced
+  computer-assisted-proof-pattern follow-ups [Berenstein, Batyrev-dimension-threshold], an active
+  HRT-conjecture follow-up, a Boussinesq-audit item with an explicit "watch for the authors'
+  response," the still-live Simons-Collaboration ecosystem anchor, and 15 items promoted to
+  `study_shelf` this session as genuine landmarks rather than dropped — see below). SEPARATELY,
+  per the hard 60-day staleness rule (not the 3-week Amendment-E batch), the one remaining
+  queue item older than 60 days with no protection was dropped: arXiv:2601.08218 (Speyer, a
+  ~7.5-month-old incremental sharpening of an already-known 2017 disproof, explicitly
+  self-described "queued for completeness" with zero follow-up since capture). Net queue: 186 →
+  175 (net −11, after the 13 drops + the 2 items that were dropped-as-narrow but are separately
+  represented by their `study_shelf` promotion, per the ledger contract's "drop OR promote, not
+  both" resolution — see the study_shelf entry below for the precise accounting). Nothing else
+  is stale (oldest live, unprotected item now well under the 60-day line).
+- 2026-09-05 (W36) — study_shelf: 11 items PROMOTED this session — a genuine backlog of
+  landmark-caliber unpromoted queue items, mostly from the 2026-08-12→08-13 landmark-dense
+  stretch that the 08-14 daily itself flagged as too dense to individually shelf at capture time:
+  Viehmann's Oort's-conjecture resolution (2603.06033, a 5.5-month-old near-miss capture-leak
+  catch, now doubly relevant given this week's fresh Oort's-conjecture-pair capture), Gluck's
+  Conjecture (2608.11525), Butler's positivity conjecture (2608.11543), the Leech-lattice 196560
+  auxiliary-function conjecture (2608.12094), Kohayakawa's conjecture (2608.11132), Gromov's
+  volume growth conjecture (2608.13553), the generalized Chang-Yang conjecture (2608.13497),
+  SOP₂=SOP₃ (2608.13291), the Bosch-Simó conjecture (2608.13021), the Hayman–Wu constant
+  (2608.12844 — this queue line already claimed "Also on `study_shelf`" but the item was in fact
+  NOT on the shelf, a pre-existing ledger inconsistency now corrected), and the first
+  extragalactic globular-cluster tidal stream (2608.12254, a first-of-kind observational
+  landmark). No pruning needed this session (oldest content-dated pick, Viehmann 2026-03-06, is
+  explicitly override-flagged per the established Barontini precedent so a future 120-day check
+  does not misread it as stale; the oldest ordinarily-dated pick, 2026-07-01, is 66 days old,
+  well inside the 120-day window).
+- 2026-09-05 (W36) — Capture-leak sweep (mandatory backstop): full-file mechanical check
+  (`grep -oE '[0-9]{4}\.[0-9]{5}'`, 243 unique arXiv ids post-burndown, down from 253 — the net
+  effect of removing 13 queue lines while adding 11 study_shelf entries that cite already-present
+  ids) found 0 leaks — every id newly touched this session (the 11 promoted + the 1 additionally
+  dropped) already carries its own `arXiv:`/`abs/` citation on the line that introduced it, and
+  spot-checking confirms the small number of dropped ids that still appear in old dated daily-note
+  prose (2608.15257, 2510.13956, 2608.08766, 2601.08218) are historical narration of what was true
+  on that day, the same pattern already established for every prior burndown (dropped ids remain
+  named in the file's own history without requiring a live queue line).
+- 2026-09-05 (W36) — Source strategy (weekly-swept tier, this operator's duty): full 21-entry
+  list-vs-log diff and a LIVE sweep this session (institutes: `curl`/`tvly extract` — IHES, MPIM,
+  Fields, Newton, KITP, Clay opened directly; SLMath, Perimeter, IAS 403'd/failed on direct
+  fetch, healed via `tvly search` — nothing on-axis beyond already-tracked prize/ceremony/admin
+  news, incl. the already-tracked Gaitsgory and Faltings items on MPIM's own page; slow venues:
+  Forum of Mathematics opened cleanly [8 current titles, all routine, none landmark], Annals
+  unchanged [Vol 203/204, no article-level content — standing JS limitation], AMS Notices
+  degraded [generic landing, same standing limitation]; extra-social: r/Physics, r/cosmology,
+  r/ParticlePhysics, r/AskPhysics all opened via `tvly search --include-domains reddit.com`
+  [routine Q&A/discussion, the LZ 248 keV item recirculating on r/ParticlePhysics but already
+  tracked], Physics SE opened directly via the W35-healed `/feeds` URL [routine Q&A]; prizes: Abel
+  healed via `tvly search` [unchanged, Faltings], Breakthrough opened directly [unchanged], Shaw
+  confirmed via `tvly search` [unchanged, Candès/De Lellis], IMU/Fields confirmed via `tvly
+  search` [unchanged, the 2026 medals]). 21/21 logged opened-or-degraded-and-healed — NOT a
+  coverage lie; nothing new on-axis beyond what the dailies already captured this week.
+- 2026-09-05 (W36) — Source-discovery (drain staged candidates): PROMOTED lz.lbl.gov (1 sighting,
+  but this session's own `tvly extract` verified a genuine, regular, years-long e-print/PRL
+  publication cadence structurally identical to the already-tracked Experiments-block sources —
+  early promotion per the staging note's own recommendation) → Primary feeds Experiments block,
+  DAILY tier, with newscenter.lbl.gov folded in as its companion announcement channel rather than
+  a separate line. HELD below the ≥2 bar (checked against this week's reports; both first seen
+  2026-09-04, only one run old, no recurrence expected yet): github.com/anthropics
+  ("formal-math" repo), proofsandprompts.com. The 6 longer-staged candidates (sammattheus.
+  wordpress.com, journals.aps.org/prresearch, leodemoura.github.io, sbseminar.wordpress.com,
+  ams.org/journals/jams, bourbaki.fr, anthropic.com/research, proofatlas.ai, preprints.org) were
+  not re-checked individually this session (no new sighting reported against any this week) —
+  hold unchanged.
+- 2026-09-05 (W36) — Anchoring / off-axis: this week's 5 dailies (08-31→09-04) ran the off-axis
+  exploration slot every run (5/5 compliance; roster: math.NA → q-bio.PE → math.PR↔math.ST →
+  econ/q-fin → cs.CC) with 0/5 significant off-axis yield — a THIRD consecutive quiet week (after
+  W34's 0/5 and W35's 0/5, which flagged "watch for a third"). Per AGENTS.md § Domain cadence
+  this is still not an automatic alarm in a field this narrow, but three in a row is worth acting
+  on rather than merely re-noting: the roster has now cycled through most of its original list
+  (math.DS, math.OC, math.LO, math.OA, math.DG, math.NA, cs.CC, nlin.SI/CD, q-bio.PE,
+  math.PR↔math.ST, econ/q-fin) without a hit since W33's Grothendieck-constant catch — flagging
+  for the next weekly to consider whether the off-axis venue LIST itself (not just rotation
+  compliance) needs refreshing, e.g. toward venues with less overlap with the now-comprehensive
+  20-category daily math rotation (per the 09-04 daily's own roster-drift note). Tunnel-vision
+  check: NOT all evidence landed on pre-existing trends this week — a new trend (Marton's-
+  exponent) was created 09-01 — so no hoarding signal.
+- 2026-09-05 (W36) — Self-amendment: Amendment E APPLIED (cooling period elapsed since the
+  2026-08-29/W35 proposal; signal persisted — no dated curator veto). This session's own
+  burndown was run under the new criterion-completeness framing from the start (see QUEUE
+  BURNDOWN above: 39/39 newly-eligible items reviewed, 13 dropped / 26 protected-with-a-reason,
+  reported as completeness + a drop/protect breakdown rather than a queue-size delta chased
+  against a numeric band) — it replaces Amendment D's fixed 80-120 (or ~40) numeric target band
+  for judging burndown health; the underlying item-by-item mechanics (review every newly-3+-
+  week-eligible item against the stated drop criteria) are unchanged. One dedicated commit this
+  session. Regression checks: Amendments A (cadence-split) and B (off-axis rotation) both clean
+  this week (coverage 21/21; exploration compliance 5/5, though see the off-axis YIELD concern
+  above — that is a venue-list question, not a rotation-compliance regression, so B itself is not
+  rolled back). Amendment C (skill-window sync, applied W30) re-checked clean again this session
+  (`radar-ledger-update` SKILL.md still states the correct 60+/120+/~40/~60-day domain-cadence
+  numbers, no drift). NO ROLLBACK on any amendment.
+- 2026-09-05 (W36) — New proposals (cooling period; apply W37 if the signal persists and no
+  dated curator veto — silence = consent): **(F) refresh the off-axis exploration roster.**
+  Motivated by the three-consecutive-quiet-week finding above (W34/W35/W36 all 0/5 genuine
+  off-axis yield) — the current roster has cycled through nearly every entry at least once since
+  W29 with only one hit (W33's Grothendieck-constant catch, itself filed under cs.CC). Proposal:
+  add venues with LESS topical overlap with the daily's now-comprehensive 20-category math
+  rotation and the already-covered physics categories — candidates to verify before adding:
+  stat.ME/stat.ML (statistics, methodologically math-adjacent but a distinct community),
+  physics.hist-ph (history/philosophy of physics, where foundational reinterpretations sometimes
+  first surface), or a non-arXiv venue entirely (e.g. a philosophy-of-science or general-science
+  top-attention feed) — decide the specific additions at W37 rather than pre-committing here.
+  **(G) add a periodic older-paper/citation-chase pass to the exploration or source-sweep
+  lanes.** Motivated by this session's monthly retrospective (`logs/calibration.md`, retro M09):
+  both of the two items independently verified as "big this month" (the percolation
+  supercritical-sharpness proof, the Beck-Fiala/Komlós decoupling result) were HIT-late — caught
+  only once a Quanta feature pointed at them, 6-12 months after the underlying preprint was
+  already on arXiv, because the routine category-rotation sweep triages by RECENCY and has no
+  mechanism to revisit older, uncited-at-the-time papers. This is the same root cause behind
+  several of this ledger's own past capture-leak catches (Viehmann/Oort's-conjecture this
+  session, the BESIII glueball catch, the Mathieu-conjecture-SU(2) catch). Proposal: once every
+  2-3 weeks, the exploration slot (or a dedicated rotation) checks arXiv's own "cites" /
+  INSPIRE-HEP most-cited-this-month, or SciRate's top-scited, filtered to papers 3+ months old —
+  a genuinely different discovery mechanism than recency-sorted listings or the community-pulse
+  digest lane, targeting exactly the gap this retrospective found. Decide the specific mechanism
+  at W37.
+
 
 ## study_shelf
 
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-03-06 (shelf-added 2026-09-05, W36 weekly queue-cleanup — leading date is the original
+  preprint's v1, not the add date, so a future 120-day shelf-pruning check does not misread this
+  as stale) — [Oort's conjecture on automorphisms of generic supersingular abelian varieties (Viehmann)](https://arxiv.org/abs/2603.06033)
+  — proves Oort's conjecture in full generality: generically on the supersingular locus of the
+  moduli space of principally polarized abelian varieties of genus g in characteristic p, the
+  automorphism group of the universal abelian variety is {±1} (explicit exceptions at g=2,3, p=2);
+  a domain-cadence landmark that sat as an unpromoted queue item for 5.5 months (a near-miss
+  capture-leak) until a same-day follow-up (Karemaker–Yu, arXiv:2608.16405) cited it, and now a
+  further pair of Oort's-conjecture papers (2609.03711, 2609.04072/2609.03188) is active in the
+  queue — worth surfacing here rather than leaving buried.
 - 2026-09-04 — [θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions (Claude / Justin Leder, Lean 4/Mathlib)](https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md)
   — a complete formal proof of the "dying percolation" conjecture in every dimension d ≥ 2,
   closing a famous open problem (3 ≤ d ≤ 10, incl. ℤ³) from Grimmett's textbook and
@@ -3696,6 +3770,46 @@ why`). The trend bar does NOT apply here; opened primary sources only.
   spaces via an explicit 58-point construction in $\mathbb{R}^{56}$, the first such counterexample
   for any finite $p\ge2$ (axis 1, convex/functional analysis). Abstract verified via arXiv API
   this session (v1 2026-08-14). Unrefereed preprint — standard caution.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The Hayman–Wu constant is π² (Ivanisvili)](https://arxiv.org/abs/2608.12844) —
+  determines the exact sharp constant in the 1981 Hayman–Wu problem (the bound, over every
+  conformal map from the disk and every line, on the length of the preimage of the line intersected
+  with the image domain); a ~45-year-old sharp-constant question settled by an established harmonic
+  analyst. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Heat kernel geometry and Gromov's volume growth conjecture (Ge)](https://arxiv.org/abs/2608.13553)
+  — answers Gromov's 1986 question affirmatively via the heat-kernel Fisher metric and Nash entropy,
+  bounding the volume growth of complete noncompact manifolds with nonnegative Ricci and scalar
+  curvature ≥1; a ~40-year-old named conjecture in comparison geometry. Unrefereed — PROVISIONAL.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A positive answer to the generalized Chang-Yang conjecture on S^N (Gui, Li, Wei, Ye)](https://arxiv.org/abs/2608.13497)
+  — proves a Beckner-inequality rigidity statement on spheres of every dimension N≥3, by an
+  established PDE group (Juncheng Wei). Unrefereed — PROVISIONAL, track the vetting outcome.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [SOP₂=SOP₃ (Chernikov)](https://arxiv.org/abs/2608.13291) — proves the classes of
+  SOP₂ and SOP₃ first-order theories coincide, answering a 2004 Džamonja–Shelah question in
+  Shelah's classification-theory stability hierarchy, by a leading model theorist. Unrefereed —
+  PROVISIONAL, track the vetting outcome.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The Bosch and Simó conjecture on the Shilnikov-Hopf bifurcation (Rodrigues)](https://arxiv.org/abs/2608.13021)
+  — proves the 1993 conjecture that "large" strange attractors persistently and robustly arise in
+  the unfolding of a Shilnikov–Hopf bifurcation, with SRB measures on a positive-measure parameter
+  set. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A Proof of Gluck's Conjecture (Zhang)](https://arxiv.org/abs/2608.11525) — settles
+  a ~41-year-old open problem in finite solvable-group theory (|G:F(G)| ≤ b(G)²). Unrefereed
+  single-author preprint — PROVISIONAL, track the vetting outcome.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A solution to Butler's positivity conjecture (Guo, Kang, Xiong)](https://arxiv.org/abs/2608.11543)
+  — proves the 1994 Butler positivity conjecture (Schur-expansion coefficients of a
+  Macdonald-intersection-polynomial ratio lie in Z≥0[q,t]); a three-author, internally
+  cross-verified preprint — lower epistemic risk than a single-author claim. PROVISIONAL, track
+  the vetting outcome.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The 196560 auxiliary-function conjecture for the Leech lattice (Zhang, Yang)](https://arxiv.org/abs/2608.12094)
+  — resolves Cohn–Kumar's 2009 conjecture on a radial Schwartz function realizing the Leech-lattice
+  kissing-number identity, building on the Viazovska-program Fourier-interpolation basis that
+  produced the Fields-Medal-winning 8D/24D sphere-packing results. Unrefereed — PROVISIONAL.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Evidence for the First Globular Cluster Stellar Stream beyond the Milky Way (Holm et al.)](https://arxiv.org/abs/2608.12254)
+  — Hubble Space Telescope imaging of ultra-diffuse galaxy UGC9050-Dw1 gives the first evidence for
+  an extragalactic globular-cluster tidal stream, with a dark-matter-halo mass constraint for the
+  host; a first-of-kind observational claim from a single team, track for independent confirmation.
+- 2026-08-11 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Kohayakawa's conjecture and clique coverings of complements of paths and cycles (Ning)](https://arxiv.org/abs/2608.11132)
+  — proves Kohayakawa's 1991 conjecture on the growth rate of maximum induced paths in a
+  Kneser-graph-related bipartite construction, a ~35-year-old named conjecture in extremal
+  combinatorics. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
 - 2026-08-13 — [Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State (Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky, Heiblum, Sim), arXiv:2608.12897](https://arxiv.org/abs/2608.12897)
   — the first experimental evidence of non-Abelian anyon braiding, via a time-domain
   partition-noise signature in the ν=5/2 fractional quantum Hall state (axis 3, condensed

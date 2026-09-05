@@ -90,3 +90,44 @@ routing-leak n`.
   criterion-completeness metric — see strategy_notes) for W36 decision. One dedicated source heal
   this session (Physics SE). Monthly retrospective not due (day 29 > 7; M09 due first run of
   September — next weekly).
+- 2026-09-05 — W36: queue 165→175 (net +10 across the week: 5 dailies' intake netted against this
+  weekly's burndown of 13 dropped items, the first run under the newly-applied Amendment E
+  criterion-completeness framing — 39/39 newly-eligible items reviewed, 13 dropped / 26 protected)
+  · evidence +1 direct (non-invertible symmetries, 10th group) + 3 backdated (Marton's-exponent
+  trend founding evidence, 2 predating the radar) · moves 1 (Marton's-exponent: queue → `emerging`
+  trend, 09-01) · exploration 5/5 · off-axis 0/5 (THIRD consecutive quiet week — not yet an alarm
+  per domain cadence, but proposed Amendment F to refresh the venue roster) · coverage
+  (weekly-swept tier, this operator's duty) 21/21 logged opened-or-degraded-and-healed (0 missing;
+  degraded-and-healed: SLMath, Perimeter, IAS, Abel via `tvly search`; standing limitation: Annals,
+  AMS Notices [no article-level content, unchanged]) · routing-leak 0 · capture-leak 0 (243 unique
+  arXiv ids post-burndown, down from 253) · src-disc 1 promoted (lz.lbl.gov, verified live via
+  `tvly extract` this session)/2 held below the ≥2 bar (github.com/anthropics,
+  proofsandprompts.com, both too recent) · study_shelf: 11 promoted this session, correcting a
+  genuine backlog of un-shelved landmarks from the 2026-08-12/08-13 stretch (see strategy_notes) ·
+  self-amendment: Amendment E APPLIED, Amendments A/B/C re-checked clean, no rollback; Amendment F
+  proposed. Monthly retrospective DUE (day 05 ≤ 7; M09) — see below.
+- 2026-09-05 — retro M09: picked 2 items via a live Quanta Magazine feed/crawl browse this
+  session (not from memory) — (1) "Supercritical sharpness of percolation" (Diskin, Easo,
+  Radhakrishnan, Sudakov, Tassion; arXiv:2603.03257, originally posted 2026-03) — Quanta featured
+  it 2026-08-31 ("'Stunning' Percolation Proof..."); the radar's own capture (2026-09-01,
+  `study_shelf`) explicitly credits the Quanta spotlight as the discovery trigger — **HIT-late**
+  (caught the day after it became a story, via the press pointer, not independently ahead of it;
+  6 months late relative to the underlying preprint itself, which no swept source surfaced until
+  the press picked it up). (2) "Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós
+  Bounds Beyond Banaszczyk" (Bansal, Jiang; arXiv:2508.03961, originally posted 2025-08, "fall
+  2025" per Quanta) — Quanta featured it ("'Huge Breakthrough' in the Math of Imbalance," dated
+  around 2026-08-21 per the feature's own framing); the radar's capture (2026-08-24,
+  `study_shelf`) again explicitly credits the Quanta feature — **HIT-late**, same pattern, ~1 year
+  late relative to the original result. A candidate third item, a Quanta piece titled "The New
+  Math of Wrinkling Patterns" surfaced via search, was VERIFIED this session (via `tvly crawl`) to
+  be a **2022-09-22** article (URL slug `-20220922`), not a fresh August 2026 piece — a search-index
+  false positive, correctly excluded, not counted as a miss. INTERPRETATION: both real hits this
+  month share one pattern — the radar caught the RIGHT results but only once a digest (Quanta)
+  amplified them, not independently ahead of the curve; both underlying papers were freely
+  available on arXiv for 6-12 months before this radar (or its Quanta trigger) ever surfaced them.
+  This is a genuine, repeat structural gap: routine arXiv category-rotation sweeps triage by
+  RECENCY (newest submissions), so an older paper only enters view via a digest/press pointer or a
+  citing follow-up (the same mechanism behind this week's Viehmann/Oort's-conjecture and several
+  prior capture-leak catches) — not a one-off. No MISS found this session (both candidates were
+  hits, if late ones; the wrinkling-patterns false lead was excluded before being queued). Feeds
+  into the W36 proposals below.

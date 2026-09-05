@@ -1046,3 +1046,38 @@ candidates staged (github.com/anthropics "formal-math" repo, proofsandprompts.co
 2 new picks (the percolation θ(p_c)=0 formalization, the OpenAI prime-gaps pair). SOURCES.md:
 2 discovered-source-candidate entries added. README.md regenerated from the updated ledger in
 the same commit.
+
+## 2026-09-05 (W36 weekly recalibration)
+Weekly-swept tier (21/21 logged opened-or-degraded-and-healed, this operator's duty): institutes —
+IHES, MPIM, Fields, Newton, KITP, Clay opened directly (`curl`/`tvly extract`); SLMath, Perimeter,
+IAS 403'd/failed on direct fetch, healed via `tvly search` — 9/9, nothing on-axis beyond
+already-tracked prize/ceremony/admin news (incl. the Gaitsgory/Faltings items already on MPIM's own
+page). Slow venues: Forum of Mathematics opened cleanly (8 current titles, all routine technical
+results, none landmark); Annals of Mathematics unchanged (Vol 203/204, no article-level content —
+standing JS-rendering limitation); AMS Notices degraded (generic landing, same limitation) — 3/3.
+Extra-social: r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics all opened via `tvly search
+--include-domains reddit.com` (routine Q&A/discussion; the LZ 248 keV hint recirculating on
+r/ParticlePhysics but already tracked); Physics SE opened directly via the W35-healed `/feeds` URL
+(routine Q&A) — 5/5. Prizes: Abel healed via `tvly search` (unchanged, Faltings); Breakthrough
+opened directly (unchanged); Shaw confirmed via `tvly search` (unchanged, Candès/De Lellis);
+IMU/Fields confirmed via `tvly search` (unchanged, 2026 medals) — 4/4. Total 21/21, not a coverage
+lie. Trend recalibration (radar-ledger-update): all four trends HELD (Ramsey accelerating/medium,
+non-invertible symmetries accelerating/high, Stanley-Gasharov seed/medium [flagged weakest, 38
+days quiet], Marton's-exponent emerging/medium). Queue burndown (first application of proposed
+Amendment E's criterion-completeness framing): 39-item newly-eligible batch (2026-08-08→08-15)
+reviewed 39/39; 13 dropped (self-described below-bar/partial/settled, one-line reasons in
+strategy_notes), 26 protected (11 promoted to `study_shelf`, 15 kept as active watches/forming
+pairs/cross-references); separately dropped 1 item under the hard 60-day staleness rule
+(2601.08218, ~7.5 months quiet). Queue 186 → 175. study_shelf: 11 new picks (see strategy_notes for
+the full list — a genuine backlog of unshelved landmarks from the 2026-08-12/08-13 landmark-dense
+stretch, plus a 5.5-month-old near-miss capture-leak catch). Source-discovery: PROMOTED lz.lbl.gov
+(→ Experiments block, DAILY tier; newscenter.lbl.gov folded in as its companion channel); HELD
+below the ≥2 bar: github.com/anthropics, proofsandprompts.com (both 1 sighting, too recent).
+Anchoring/off-axis: exploration ran 5/5 this week (math.NA→q-bio.PE→math.PR↔ST→econ/q-fin→cs.CC),
+0/5 genuine off-axis yield — a THIRD consecutive quiet week; not an automatic alarm per domain
+cadence, but proposed Amendment F (refresh the off-axis venue roster) for W37. Tunnel-vision: not
+triggered (a new trend, Marton's-exponent, was created this week — evidence did not all land on
+pre-existing trends). Capture-leak: full-file mechanical sweep (243 unique arXiv ids post-burndown,
+down from 253), 0 leaks. Self-amendment: Amendment E APPLIED (cooling period elapsed, signal
+persisted, no curator veto); Amendments A/B/C re-checked clean, no rollback. README.md regenerated
+from the updated ledger in the same commit.
