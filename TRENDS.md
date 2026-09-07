@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-05
+Last updated: 2026-09-07
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -347,6 +347,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     on any of the six tracked preprints. Confidence held medium (doubled unrefereed-preprint
     caution on Steiner's result stands). Not promoted (no mainstreaming-tier signal — group count/
     pace only).
+  - 2026-09-07 (daily): first daily since 09-04 (weekend gap, expected). Fresh math.CO full
+    in-scope category-rotation batch (2026-09-04→09-07, 168 fresh entries) scanned for Ramsey
+    lower bounds — none (batch held "An Improved Upper Bound for Multicolour Ramsey Numbers"
+    [2609.04596, an UPPER bound, not a lower bound — own queue item] and the Reed-Stein
+    Erdős-Sós/tree-Ramsey landmark [queued separately, a different sub-theme], neither a
+    classical/hypergraph asymptotic-exponent lower-bound breakthrough). No 7th independent group
+    or referee/vetting outcome on any of the six tracked preprints. Trend HELD
+    accelerating/medium; last_evidence 2026-08-22 now 16 days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-04
@@ -600,6 +608,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     surfaced this week. Confidence held at the ceiling (no hype-skepticism caveat). Not promoted
     to `mainstreaming` (group count/pace alone is not a standard-practice-adoption signal) —
     watch for an 11th group or the cross-citation.
+  - 2026-09-07 (daily): first daily since 09-04. Fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/
+    cond-mat/astro-ph batch (2026-09-04→09-07, 131 fresh entries) and SciPost API (7 new
+    publications since SciPostPhysCore.9.3.053: SciPostPhysLectNotes.134, SciPostPhys.21.3.053,
+    SciPostPhysCommRep.29, SciPostPhys.21.3.052, .051, .050, SciPostPhysCore.9.3.055/.054,
+    SciPostPhysCommRep.28 — none on non-invertible/categorical symmetries) both scanned — no 11th
+    independent group, no explicit lattice/continuum cross-citation. Trend HELD accelerating/high
+    (confidence ceiling); last_evidence 2026-09-04 now 3 days old.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -748,6 +763,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     either way). Weakest of the four active trends — per the W35 forward bet, if nothing moves
     by early October this needs a real decision (accept a 3-group seed indefinitely, or let the
     60-day dormancy line take it).
+  - 2026-09-07 (daily): first daily since 09-04. Fresh math.CO full in-scope category-rotation
+    batch (2026-09-04→09-07, 168 fresh entries) scanned for Schur-positivity/claw-free items —
+    none. arXiv-API metadata recheck of all three tracked preprints (2607.21508, 2607.26364,
+    2607.27166): no fresh v-update — no referee/vetting outcome. No 4th independent group. Trend
+    HELD seed/medium; last_evidence 2026-07-29 now 40 days old, still inside the 60-day window
+    (dormancy line 2026-09-27, 20 days out).
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-08-31
@@ -784,6 +805,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     independent group surfaced across the week's dailies (09-01→09-04). Confidence held medium
     (each step a short, checkable refinement of an already-proved landmark). Not promoted (no
     fresh W36 velocity beyond the trend's founding week).
+  - 2026-09-07 (daily): first daily since 09-04. Fresh math.CO full in-scope category-rotation
+    batch (2026-09-04→09-07, 168 fresh entries) scanned for PFR/Marton-exponent items — none. No
+    4th independent group. Trend HELD emerging/medium; last_evidence 2026-08-31 now 7 days old,
+    well inside the 60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2534,6 +2559,75 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   independent groups — a FORMING pair below the ≥3-group bar. All abstracts + authors verified
   via the arXiv API this session (v1 dates 2026-09-02/09-03). None is a landmark resolution of a
   classical/famous named conjecture — standard below-bar single/paired-result items.
+- 2026-09-04 — https://arxiv.org/abs/2609.04659 — Colbrook, Stepaniants, Townsend, "A Complete
+  Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients" — numerical analysis /
+  matrix iterations (axis 1, math.NA): Forsythe's 1968 conjecture (~58 years open) asked whether
+  restarted conjugate-gradient residuals always converge in even/odd subsequences; this paper gives
+  a COMPLETE classification by restart length s — true for s∈{1,2,3} (Akaike's theorem covers s=1),
+  FALSE for every s≥4 via an explicit diagonal counterexample constructed through a transverse-Hopf-
+  point analysis (rational interval arithmetic + Sturm sequences) and analytic periodic-orbit/
+  shadowing arguments. Same author trio (Colbrook, Stepaniants, +Townsend replacing Sadeghi) already
+  on this ledger for the Pompeiu/Schiffer/Berenstein computer-assisted-counterexample cluster
+  (queued 08-03/08-05/08-09) — a fourth classical rigidity/convergence conjecture falling to this
+  group's computer-assisted method, this time in numerical linear algebra rather than spectral
+  geometry. Abstract + authors verified via arXiv API this session (v1 2026-09-04). A domain-cadence
+  landmark (complete resolution of a ~58-year-old named conjecture, sharp threshold identified) —
+  unrefereed but a full classification (not a single counterexample), lower epistemic risk than a
+  from-scratch claim. Also on `study_shelf`.
+- 2026-09-04 — https://arxiv.org/abs/2609.05417 (Reed, Stein, "The Erdős-Sós conjecture in dense
+  graphs") and https://arxiv.org/abs/2609.05411 (Reed, Stein, "The extremal cases of the
+  Erdős-Sós conjecture") — extremal graph theory (axis 1, math.CO): two companion papers (same
+  day) making major progress on the 1962 Erdős-Sós conjecture (every n-vertex graph with more than
+  (k-2)n/2 edges contains every k-vertex tree) — proving it for all k≥γn (any fixed γ, n large) and
+  separately resolving its extremal cases (graphs minimally satisfying the hypothesis with a
+  near-complete or near-complete-bipartite subgraph). NOT a full resolution of the general
+  conjecture (small-k/sparse regime remains open), but as a COROLLARY of the dense-case result the
+  authors obtain a full solution to a 51-year-old open problem of Erdős and Graham on multicolor
+  Ramsey numbers of trees — a genuine domain-cadence landmark (a named half-century-old problem
+  fully resolved) riding on substantial-but-partial progress on the parent conjecture. Ramsey-
+  ADJACENT (tree Ramsey numbers, not the tracked classical/hypergraph asymptotic-exponent lower-
+  bound sub-theme) — does NOT feed the Ramsey-lower-bound trend. Abstracts + authors verified via
+  arXiv API this session (v1 2026-09-04, both). Also on `study_shelf`.
+- 2026-09-04 — https://arxiv.org/abs/2609.04596 — "An Improved Upper Bound for Multicolour Ramsey
+  Numbers" — extremal combinatorics (axis 1, math.CO): Ramsey-ADJACENT but an UPPER bound, not a
+  lower bound → does not feed the tracked Ramsey-lower-bound trend (same exclusion pattern as prior
+  upper-bound items on this ledger). Abstract verified via arXiv API this session (v1 2026-09-04).
+  Below-bar item.
+- 2026-09-05 — https://arxiv.org/abs/2609.05410 — "Early against Late: A contrast on dark energy in
+  the light of DESI DR2" — cosmology (axis 3, astro-ph.CO/gr-qc): a Bayesian-evidence (not
+  parameter-exclusion) model comparison of the DESI dynamical-dark-energy signal — finds Early Dark
+  Energy decisively rejected but the late-time CPL extension only "moderately disfavoured"
+  (ln B ≈ 2.3) once prior-volume penalties are accounted for, i.e. Bayesian evidence WEAKENS the
+  reported preference for dark-energy dynamics relative to naive parameter exclusion. A further
+  independent statistical critique of the standing DESI dynamical-dark-energy saga (07-15/07-16,
+  07-29/07-31, 08-05), in the same vein as the already-tracked Kim-Mota-Tamosiunas e-process
+  critique. Abstract verified via arXiv API this session (v1 2026-09-04). Below-bar (a critique/
+  reanalysis, not a new detection), extraordinary-claim caution continues to apply.
+- 2026-09-05 — LZ 248 keV-event interpretation cluster continues (below-bar theory follow-ups, axis
+  3): https://arxiv.org/abs/2609.05204 ("Exothermic Dark Matter at LZ") and
+  https://arxiv.org/abs/2609.05291 ("Inelastic from the Other Side: Xenon Excitation Signals in
+  Light of the LZ High-Recoil Event") — abstracts verified via arXiv API this session (both v1
+  2026-09-04). Noted as a continuing cluster (already queued 09-02/09-03); the collaboration's own
+  arXiv/PRL submission for the event itself is still not posted as of this session (LZ publications
+  page checked, newest e-print still 2604.21503).
+- 2026-09-06 (via CERN Courier, opened this session) — "arXiv's one-strike rule on AI" —
+  https://cerncourier.com/a/arxivs-one-strike-rule-on-ai/ — AI-WATCH area (axis 5-adjacent, ecosystem
+  policy, not a result): reports arXiv's enforcement of a one-year submission ban for authors whose
+  papers contain unchecked AI-generated hallucinations (content/scholarly-standards policy applied
+  consistently, not a new rule) — direct ecosystem context for this ledger's standing AI-assisted-
+  math wave (the OpenAI/Anthropic/proofatlas.ai disclosures already tracked all rely on arXiv or
+  arXiv-adjacent venues for eventual formal publication). Corroborated via a ChemistryViews summary
+  opened this session. Below-bar policy/ecosystem item, not a mathematical result — watch for any
+  effect on how future AI-claimed results reach this ledger's primary sources.
+- 2026-09-06 (via Simons Foundation feed, opened this session) — "Simons Foundation Launches
+  Collaboration on Universal Statistics in Number Theory" —
+  https://www.simonsfoundation.org/2026/09/simons-foundation-launches-collaboration-on-universal-statistics-in-number-theory/
+  — ecosystem/recognition (axis 1, number theory / math-ph interface): a new Simons Collaboration
+  (director Jon Keating, Oxford) applying statistical-physics models of correlated randomness
+  (Gaussian multiplicative chaos, random matrix theory) to number theory — the Riemann zeta function,
+  prime gaps, and related randomness/correlation questions. Page opened via `tvly extract` this
+  session. Funding/ecosystem launch, not a result — same pattern as the already-tracked
+  Discrete-Subgroups and Virtues-of-Defects Simons Collaborations. Below-bar item.
 
 ## source_rotation
 
@@ -3633,6 +3727,17 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-04 — [A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients (Colbrook, Stepaniants, Townsend)](https://arxiv.org/abs/2609.04659)
+  — settles a 1968 conjecture on restarted conjugate-gradient convergence after ~58 years: true
+  for restart lengths 1-3, false for every length ≥4, via an explicit counterexample built from a
+  transverse-Hopf-point analysis; the same author group's fourth classical-conjecture refutation
+  this ledger has tracked (after the Pompeiu, Schiffer and Berenstein counterexamples), this time
+  in numerical linear algebra.
+- 2026-09-04 — [Major progress on the Erdős-Sós conjecture, and a 51-year-old Erdős-Graham problem solved as a corollary (Reed, Stein)](https://arxiv.org/abs/2609.05417)
+  — two companion papers prove the 1962 Erdős-Sós tree-embedding conjecture for all k ≥ γn and
+  resolve its extremal cases; en route, a corollary fully answers a half-century-old Erdős-Graham
+  question on multicolor Ramsey numbers of trees — a clean example of partial progress on a famous
+  open conjecture yielding a complete resolution of a named companion problem.
 - 2026-03-06 (shelf-added 2026-09-05, W36 weekly queue-cleanup — leading date is the original
   preprint's v1, not the add date, so a future 120-day shelf-pruning check does not misread this
   as stale) — [Oort's conjecture on automorphisms of generic supersingular abelian varieties (Viehmann)](https://arxiv.org/abs/2603.06033)

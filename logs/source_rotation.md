@@ -1081,3 +1081,82 @@ pre-existing trends). Capture-leak: full-file mechanical sweep (243 unique arXiv
 down from 253), 0 leaks. Self-amendment: Amendment E APPLIED (cooling period elapsed, signal
 persisted, no curator veto); Amendments A/B/C re-checked clean, no rollback. README.md regenerated
 from the updated ledger in the same commit.
+
+2026-09-07 (Mon, Pass 1, ~scheduled) — first daily since 2026-09-04 (weekend gap, expected).
+`git fetch origin main` initially used a bad `--all <repo>` invocation that silently no-op'd,
+briefly reading a stale local `origin/main` ref one commit behind HEAD (the W36 weekly commit,
+d37b3a1) — re-fetched correctly; `origin/main` already carried d37b3a1, so this was a stale-ref
+artifact of the bad fetch command, NOT an actual stranded/orphaned branch (no push was needed to
+recover it). FULL CHECK of every DAILY-tier mandatory lane. Primary sweep (radar-source-sweep):
+arXiv full in-scope category rotation via the API, date-ranged `submittedDate:[202609040000 TO
+202609080000]` to cover the weekend gap (math: 20 in-scope categories, 168 fresh entries, under
+the 250 cap; physics: 10 in-scope categories, 131 fresh entries, under the cap) — both triaged in
+full by title, several borderline abstracts opened via the API for full text. TWO landmark
+captures: (1) Colbrook, Stepaniants, Townsend, "A Complete Resolution of Forsythe's Conjecture for
+Restarted Conjugate Gradients" (arXiv:2609.04659) — a 58-year-old numerical-analysis conjecture
+fully classified by restart length (true s≤3, false s≥4), the same author trio's fourth classical-
+conjecture refutation on this ledger (after Pompeiu/Schiffer/Berenstein); (2) Reed, Stein, two
+companion papers on the Erdős-Sós conjecture (arXiv:2609.05417 dense case, arXiv:2609.05411
+extremal cases) — substantial partial progress on the 1962 conjecture itself, plus a corollary
+fully solving a 51-year-old Erdős-Graham problem on multicolor Ramsey numbers of trees (Ramsey-
+ADJACENT, tree Ramsey numbers — does not feed the tracked classical/hypergraph Ramsey-lower-bound
+trend). Both queued + added to `study_shelf`. All four active trends (Ramsey lower bounds,
+non-invertible symmetries, Stanley-Gasharov, Marton's-exponent) HELD — the full math+physics
+rotation found no new independent group on any of the three math trends and no non-invertible-
+symmetry item in the physics batch or SciPost. Also captured (below-bar): a Ramsey-adjacent
+upper-bound paper (2609.04596, explicitly excluded from the trend); a Bayesian-evidence critique
+continuing the standing DESI dynamical-dark-energy saga (2609.05410, finding the CPL preference
+only "moderately disfavoured" once prior-volume penalties apply); two more LZ 248-keV-event
+interpretation papers continuing the standing cluster (2609.05204, 2609.05291 — collaboration's
+own arXiv/PRL submission still not posted, LZ publications page rechecked); arXiv's AI-
+hallucination one-strike enforcement policy (via CERN Courier, AI-watch ecosystem context, not a
+result); a new Simons Collaboration on Universal Statistics in Number Theory (via Simons
+Foundation feed, ecosystem launch). Experiments block: LIGO (Cloudflare-blocked on direct `curl`,
+healed via `WebFetch` on the plain `/news` URL per the standing SOURCES.md method — unchanged,
+still GWTC-5.0), DESI (unchanged), CERN home RSS (unchanged, routine NA64/ElQA/safety items),
+IceCube category-feed RSS (unchanged since the extra-dimensions/Upgrade items already tracked),
+LZ publications page (`tvly extract`, rechecked — no new e-print). Journal/API sweep: PRL/PRX/RMP
+RSS, Quantum, SciPost API (7 new publications since SciPostPhysCore.9.3.053, none on-axis for the
+tracked trend), Nature Physics RSS, Nature Communications RSS, CERN Courier, Fermilab news, Simons
+Foundation RSS — all opened, nothing new beyond the items captured above. Community pulse
+(radar-pulse): `tvly` healthy — r/math/r/mathematics via `tvly search --include-domains
+reddit.com --time-range week` (routine discussion, nothing new); Hacker News front page (Algolia
+API) opened, nothing on-scope beyond a philosophy-of-AI-in-math piece (not chased, meta-commentary
+only); MathOverflow feed opened (routine research-level Q&A, several AI-in-math meta-questions,
+nothing pointing to a new primary); Mathstodon public timeline opened (federated-timeline noise
+only). Full digest lane: Quanta (two new ICM-2026-retrospective podcast posts on AI's impact on
+mathematicians, meta-commentary, no new primary — not queued); Tao (unchanged since 08-26); Not
+Even Wrong (unchanged since 08-26); Gowers (unchanged since 08-12); Kalai (unchanged since the
+already-tracked 09-03 percolation post); Baez (new post "The E6 Root Polytope" 09-06 — continues
+the already-tracked E7/exceptional-Jordan-algebra Standard-Model program, not independently
+queued as a new item); Backreaction (RE-HEALED this session — the Atom feed parses cleanly again
+via `curl -A "Mozilla/5.0"`, the 09-04 "feed format changed" degradation was a title-extraction
+regex issue on this operator's side, not a genuine source break; two new posts chased: a
+meteorology paper on a quantum-uncertainty-derived 129-day weather-predictability limit, correctly
+excluded as OFF-AXIS [atmospheric/climate science, not fundamental physics or math]; and a
+skeptical take on Economist hype around Vafa's "dark dimension" (2022 theory) being newly
+"testable" via a proposed torsion-balance experiment — NOT queued as evidence: no new primary
+artifact [experiment not yet run], Economist is not a primary source, and this ledger's own
+tracked skeptic sources (Woit's "This Week's Hype" 08-26, already logged; Hossenfelder's post)
+both read it as media hype, consistent with the hype-skepticism rule). n-Category Café (opened,
+newest post is Baez's already-tracked "Three Generations in E7" cross-post, nothing new). Repo
+watch (radar-repo-watch): `WebFetch` on `.atom`/`releases.atom` for all three watched repos
+(RESOLVES the 09-04 "degraded: proxy-403, not healed" item — WebFetch worked cleanly this
+session, no proxy-403 encountered): mathlib4 daily auto-tag now `master-2026-09-06` (routine,
+elliptic-curve/subgroup/linear-map lemmas), lean4 unchanged v4.34.0-rc2/v4.33.1 (08-21), Rocq
+unchanged 9.3+rc1 (07-22) — no formalization-milestone movement. Exploration slot (radar-explore,
+OFF-AXIS rotation): `nlin.SI`/`nlin.CD` (next in the roster after cs.CC) — top 40 items read via
+the arXiv API regardless of sub-topic, all routine integrable-systems/nonlinear-dynamics papers,
+0/40 significant off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues, next:
+math.OC or math.LO per the standing list — final choice deferred to the weekly's Amendment F
+roster-refresh decision). Trend recalibration (radar-ledger-update): all four trends HELD (see
+strategy_notes/TRENDS.md for per-trend detail). Queue 175 → 182 (+7: 2 landmark items + 5
+below-bar items; daily does not burn down per domain cadence). capture-leak: 8 new arXiv ids
+checked this session — all properly routed; full-file mechanical sweep: 251 unique arXiv ids (up
+from 243), consistent with the +8 new ids from today's captures — 0 file-wide leaks.
+Source-discovery: no new untracked on-axis domain surfaced this session (today's primaries came
+from already-swept arXiv/CERN-Courier/Simons-Foundation/Backreaction venues); github.com/anthropics
+and proofsandprompts.com (staged 09-04) had no recurrence today, held unchanged for the weekly.
+study_shelf: 2 new picks (Forsythe's conjecture resolution, the Reed-Stein Erdős-Sós/Erdős-Graham
+pair). SOURCES.md: no changes needed this session. README.md regenerated from the updated ledger
+in the same commit.
