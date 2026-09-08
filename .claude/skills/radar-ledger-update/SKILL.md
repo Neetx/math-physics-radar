@@ -27,7 +27,7 @@ established structure (2000+ lines, many prior sessions).
   `## observation_queue` H2 — the queue lives inside `## Active trends`; link to
   it as `TRENDS.md#observation_queue` by convention only (README practice), not
   a real anchor.
-- `## source_rotation` and `## calibration` are POINTER stubs only: their real
+- `## source_rotation`, `## strategy_notes` and `## calibration` are POINTER stubs only: their real
   append-only content lives in `logs/source_rotation.md` and `logs/calibration.md`
   respectively. Keep the two stub headers (the section order is the contract) but
   NEVER inline log lines back into TRENDS.md — appends go to the `logs/` files.
@@ -84,8 +84,9 @@ established structure (2000+ lines, many prior sessions).
   delete — every removal is a promotion or a recorded drop, so shrinking the queue
   loses no knowledge. Re-date an item only if it is genuinely still worth watching.
 - Append one dated line per session to `logs/source_rotation.md` (the coverage
-  log; not the TRENDS.md stub). Append dated corrections to the `strategy_notes`
-  section of TRENDS.md; never delete curator entries.
+  log; not the TRENDS.md stub). Append dated corrections to `logs/strategy_notes.md`
+  (the strategy log; not the TRENDS.md stub — externalized 2026-09-08); read only its
+  recent tail (~10 entries). Never delete or edit curator entries.
 - `study_shelf`: newest first, format `date — [name](url) — one line of why`;
   single-artifact items allowed (the trend bar does not apply), opened primary
   sources only.
