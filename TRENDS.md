@@ -2027,7 +2027,7 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   protected photonic memory. Peer-reviewed (Nature-family journal); title/authors/DOI/abstract
   verified via direct `curl` fetch of the article page this session (the usual `idp.nature.com`
   auth-wall that blocks `WebFetch` on Nature-family articles was bypassed with a browser
-  user-agent header — see Coverage/degraded and `strategy_notes` for the healed access method).
+  user-agent header — see Coverage/degraded and `logs/strategy_notes.md` for the healed access method).
   Domain-cadence landmark first-of-kind observation — queued, also on `study_shelf`.
 - 2025-08-05 (v1; MAJOR CAPTURE-LEAK CATCH, ~1-year-old primary, surfaced this session via a
   2026-08-21 Quanta feature and independently opened) — Nikhil Bansal, Haotian Jiang, "Decoupling

@@ -1120,5 +1120,3 @@ Corrections to the source-coverage strategy.
   other new captures (the Alpöge-Buckmaster PDF, the two PRL items) use non-arXiv-id URLs and are
   cited directly by eye on their own queue lines. Full-file mechanical sweep: 252 unique arXiv
   ids (up from 251), consistent with the one new id — 0 file-wide leaks.
-
-

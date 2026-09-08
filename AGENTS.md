@@ -76,7 +76,7 @@ are not a frozen list):
   ledger's current axes (`radar-explore`): browse listings where new work surfaces
   rather than re-querying tracked topics. Log it even when it yields nothing.
 - Weekly runs check for anchoring: a week where all new evidence lands on pre-existing
-  trends gets flagged in `strategy_notes`, and exploration is redirected.
+  trends gets flagged in `logs/strategy_notes.md`, and exploration is redirected.
 - Weekly runs self-evaluate (`radar-self-eval`): calibration metrics every week
   (including a `coverage` metric = registered sources vs the week's logs, and a
   `routing-leak` metric), a hit/miss retrospective monthly, and up to 3 proposed
@@ -181,11 +181,11 @@ Because `routines/*.md` are the live operating instructions, they are amendable:
 - Every amendment must cite the calibration metric or retrospective that motivates it.
 - Cooling period: PROPOSED in one weekly report, APPLIED on the next weekly run only if
   the motivating signal persists. Silence is consent; the curator may veto with a dated
-  entry in `strategy_notes`.
+  entry in `logs/strategy_notes.md`.
 - One dedicated commit per applied amendment: `radar: amend <target> — <reason>`.
 - Auto-rollback: if calibration metrics worsen for two consecutive weeks after an
   amendment, `git revert` it and log the rollback in `calibration`.
-- Scope axes evolve the same way: a "radar-adopted" dated entry in `strategy_notes` may
+- Scope axes evolve the same way: a "radar-adopted" dated entry in `logs/strategy_notes.md` may
   supersede an older axis. Curator entries are never deleted or edited.
 
 Immutable (curator-only): the Hard rules, Coverage discipline and this Self-amendment

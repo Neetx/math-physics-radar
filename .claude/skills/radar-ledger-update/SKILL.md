@@ -103,11 +103,15 @@ grep -n '^## ' TRENDS.md
 grep -c '^### ' TRENDS.md                # trend count matches expectations
 grep -nE '^  - [0-9]{4}-[0-9]{2}-[0-9]{2} — ' TRENDS.md | head -3   # evidence format
 grep -n '^Last updated:' TRENDS.md       # date is today
-# the two externalized logs must exist and only grow (append-only):
-test -f logs/source_rotation.md && tail -1 logs/source_rotation.md | head -c 80
-test -f logs/calibration.md && tail -1 logs/calibration.md | head -c 80
-# TRENDS.md must NOT have regrown a log body (the stubs stay one-line pointers):
-awk '/^## source_rotation/{n=0} /^## strategy_notes/{print "rotation stub lines:", n} {n++}' TRENDS.md
+# the three externalized logs must exist and only grow (append-only):
+for f in source_rotation strategy_notes calibration; do
+  test -f logs/$f.md && printf '%-16s ' $f && tail -1 logs/$f.md | head -c 70 && echo
+done
+# TRENDS.md must NOT have regrown a log body — all three stay short POINTER stubs.
+# A stub over ~10 lines means a run wrote the log INTO the ledger instead of logs/:
+awk '/^## /{if(s)printf "  %-16s %d lines%s\n",s,n,(n<10?"  ok":"  <- REGROWN, move it to logs/");s="";n=0}
+     /^## (source_rotation|strategy_notes|calibration)/{s=substr($0,4)} {n++}
+     END{if(s)printf "  %-16s %d lines%s\n",s,n,(n<10?"  ok":"  <- REGROWN, move it to logs/")}' TRENDS.md
 ```
 
 If a check fails, fix the file before committing. Commit and push per the
