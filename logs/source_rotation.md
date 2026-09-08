@@ -1160,3 +1160,82 @@ and proofsandprompts.com (staged 09-04) had no recurrence today, held unchanged 
 study_shelf: 2 new picks (Forsythe's conjecture resolution, the Reed-Stein Erdős-Sós/Erdős-Graham
 pair). SOURCES.md: no changes needed this session. README.md regenerated from the updated ledger
 in the same commit.
+
+2026-09-08 (Tue, Pass 1, ~scheduled) — first daily since 2026-09-07. Load-state check: local
+session branch was 2 commits ahead of a stale `origin/main` ref from an earlier fetch in this
+session; a clean re-fetch confirmed `origin/main` already carried both commits (W36 weekly +
+09-07 daily) — no stranded/orphaned state, `git reset --hard origin/main` used to sync (safe:
+working tree was clean and identical to the fetched commit). FULL CHECK of every DAILY-tier
+mandatory lane. Primary sweep (radar-source-sweep, arXiv API): direct date-range probes across
+the full in-scope math (20 categories) and physics (10 categories) category set found the
+underlying arXiv corpus has NOT advanced past 2026-09-04 for any category (confirmed via a
+control query against an earlier known-populated window, ruling out a query-syntax fault) — the
+same ceiling the 09-07 daily's batch already scanned; a genuine posting gap, not a skipped check.
+PRL/PRX/RMP RSS opened — TWO new items beyond what 09-07 captured: "Distinguishing the Nature of
+Dark Matter by Mapping Cosmic Filaments from Lyman-Alpha Emission" (Liu, Gao, Liao, Zhu, Jing, Hu)
+and "Measurement of Reactor Antineutrino Oscillations with 1.46 Kilotonne-Years of Data at SNO+"
+(SNO+ Collaboration), both dated 2026-09-04, both queued below-bar. Quantum journal, Nature
+Physics (standing empty-CDATA-title degradation, unchanged), Nature Communications (same) all
+opened, nothing on-axis beyond routine QC-tech/off-axis biology. CERN Courier, Fermilab news,
+Simons Foundation RSS all opened — routine/off-axis items only (a thin "In the news" Fermilab
+stub on millicharged-particle detection, 8-word body, not substantive enough to cite; AI-funding/
+neuroscience/fellowship items on Simons, correctly out of scope). SciPost API DEGRADED (NEW
+failure mode this session): both direct `curl` (multiple UAs) and `tvly extract` now hit an
+Anubis proof-of-work bot-check challenge page requiring JS execution — logged degraded in
+SOURCES.md, not healed (first occurrence; heal owed if it recurs). INSPIRE-HEP opened — routine
+instrumentation/detector papers only, nothing above-bar. Experiments block: LIGO (via `WebFetch`
+on the standing healed `/news` URL — unchanged, still GWTC-5.0 top item), DESI (`tvly extract`
+fallback after a direct 403 — unchanged, still the April 2026 survey-completion milestone), CERN
+home RSS (routine — an obituary, NA64/ElQA/safety items, none new/substantive), IceCube
+category-feed RSS ("Week 35 at the Pole," routine ops post, same pattern as prior weeks' excluded
+"Week NN" posts), LZ publications page (`tvly extract`, rechecked — newest e-print still
+2604.21503, no collaboration submission yet for the 248 keV event). Community pulse (radar-pulse):
+`tvly` healthy (installed fresh this session) — r/math/r/mathematics via `tvly search
+--include-domains reddit.com --time-range week` (routine, nothing new); Hacker News front page
+(Algolia API) opened — TWO on-axis stories chased to primary: "Scientists observe Einstein's
+gravity in the quantum world" (→ arXiv:2502.14535 / Science Advances, verified via arXiv API +
+EurekAlert/Oxford press releases) and a Caltech "Mathathon" hackathon announcement (ecosystem, not
+chased further); MathOverflow feed opened — a same-day thread "Relevance of the work of
+Buckmaster et al to Navier-Stokes?" corroborates today's second landmark capture (community
+engagement, not independent evidence); Mathstodon public timeline opened (federated-timeline
+noise only). Full digest lane: Quanta (ICM-2026-retrospective posts, unchanged pattern, no new
+primary); Tao's blog — NEW POST "Finite time blowup with smooth forcing term for the
+incompressible porous medium, Boussinesq, and incompressible Euler equations" (2026-09-07),
+chased to the self-published Alpöge-Buckmaster PDF at cims.nyu.edu (opened via `tvly extract`,
+confirms title/authors/abstract; Tao's own commentary opened via `curl`+`WebFetch`); Not Even
+Wrong — new post "The 92-Year-Old Mathematician and the Teenage Apprentice" (2026-09-07), chased
+and found to point to the ALREADY-TRACKED Bharathram-Birman-Brendle Burau-representation result
+via new NYT coverage, not a new primary, not re-queued; also a new "The Situation at Columbia
+XXXVII" post, off-axis (standing non-research series, not tracked); Gowers unchanged since 08-12;
+Kalai unchanged since the already-tracked 09-03 percolation post; Baez unchanged (newest post
+still the already-tracked "E6 Root Polytope," 09-06); Backreaction opened (correct feed params
+this time, `?max-results=8`) — newest posts checked and excluded: "Just One More Dimension and
+Dark Matter Is Solved" (matches the already-tracked/excluded Vafa dark-dimension hype thread),
+"Dark Matter Finally Detected?" (LZ 248 keV event, already tracked), "This New Result Changes What
+We Know About The Butterfly Effect" (the already-tracked/excluded 129-day weather-predictability
+meteorology paper), remainder (AI-hype meta-commentary, warp-drive/UAP fringe claim, quantum-
+computing tech, nuclear fusion) all off-axis/out of scope. Scientific American searched (`tvly
+search`) — a recreational picture-hanging puzzle piece and a gerrymandering-geometry piece, both
+off-axis/non-frontier; "Have we finally found dark matter?" continues the already-tracked LZ
+event. Repo watch (radar-repo-watch): `WebFetch` on `.atom`/`releases.atom` for all three watched
+repos — mathlib4 daily auto-tag now `master-2026-09-07` (routine), lean4 unchanged v4.34.0-rc2/
+v4.33.1 (08-21), Rocq unchanged 9.3+rc1 (07-22) — no formalization-milestone movement.
+Exploration slot (radar-explore, OFF-AXIS rotation): math.OC (next in the roster after
+nlin.SI/CD) — top 40 items read via the arXiv API regardless of sub-topic, all routine
+optimization/control-theory papers (several ML-adjacent, correctly out of scope), 0/40
+significant off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues, next:
+math.LO per the standing list, pending the W37 Amendment-F roster-refresh decision). Trend
+recalibration (radar-ledger-update): all four trends HELD — Ramsey accelerating/medium (17 days
+quiet), non-invertible symmetries accelerating/high (4 days quiet), Stanley-Gasharov seed/medium
+(41 days quiet, still weakest), Marton's-exponent emerging/medium (8 days quiet) — none found new
+evidence via any lane swept this session. Queue additions: 4 new items (2 landmark-caliber:
+quantum-free-fall equivalence-principle test, Alpöge-Buckmaster Boussinesq blowup; 2 below-bar:
+the two PRL items). Queue 182 → 186 (+4; daily does not burn down per domain cadence).
+capture-leak: 1 new arXiv id checked this session (2502.14535) — lands on its own queue/shelf
+line, 0 leaked; full-file mechanical sweep: 252 unique arXiv ids (up from 251), consistent with
+the one new id — 0 file-wide leaks. Source-discovery: TWO new candidates staged in SOURCES.md —
+science.org/Science Advances (AAAS, via the equivalence-principle capture) and cims.nyu.edu
+(Buckmaster's own institutional page, via the Boussinesq capture, discovered through the
+already-tracked Tao blog); both first-seen this session, held below the ≥2-sighting bar.
+study_shelf: 2 new picks (the quantum-free-fall equivalence-principle test, the Alpöge-Buckmaster
+Boussinesq blowup). README.md regenerated from the updated ledger in the same commit.

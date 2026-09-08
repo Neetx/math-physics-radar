@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-07
+Last updated: 2026-09-08
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -355,6 +355,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     classical/hypergraph asymptotic-exponent lower-bound breakthrough). No 7th independent group
     or referee/vetting outcome on any of the six tracked preprints. Trend HELD
     accelerating/medium; last_evidence 2026-08-22 now 16 days old, well inside the 60-day window.
+  - 2026-09-08 (daily): arXiv's underlying math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/
+    LO/DS/PR/RT category-rotation query returned 0 fresh entries past the 2026-09-04 ceiling
+    already scanned by the 09-07 daily (confirmed via direct arXiv-API date-range probes on
+    multiple categories this session — a genuine posting gap, not a query fault); the math.OC
+    exploration-slot read (below) independently confirms no fresh Ramsey item. No 7th independent
+    group or referee/vetting outcome. Trend HELD accelerating/medium; last_evidence 2026-08-22 now
+    17 days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-04
@@ -615,6 +622,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     SciPostPhysCommRep.28 — none on non-invertible/categorical symmetries) both scanned — no 11th
     independent group, no explicit lattice/continuum cross-citation. Trend HELD accelerating/high
     (confidence ceiling); last_evidence 2026-09-04 now 3 days old.
+  - 2026-09-08 (daily): no fresh arXiv batch past the 09-04 ceiling (see Ramsey trend note, same
+    session-wide finding); SciPost API blocked this session by a new Anubis bot-check challenge on
+    both direct `curl` and `tvly extract` (logged `degraded`, not yet healed — first occurrence).
+    No 11th independent group found via the other lanes swept (PRL/PRX/RMP, digest blogs,
+    MathOverflow). Trend HELD accelerating/high (confidence ceiling); last_evidence 2026-09-04 now
+    4 days old.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -769,6 +782,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     2607.27166): no fresh v-update — no referee/vetting outcome. No 4th independent group. Trend
     HELD seed/medium; last_evidence 2026-07-29 now 40 days old, still inside the 60-day window
     (dormancy line 2026-09-27, 20 days out).
+  - 2026-09-08 (daily): no fresh arXiv batch past the 09-04 ceiling; the math.OC exploration-slot
+    read (below) and the day's other captures (Alpöge-Buckmaster blowup, quantum-free-fall
+    equivalence-principle test) are both off this trend's axis. No 4th independent group or
+    referee/vetting outcome on the three tracked preprints. Trend HELD seed/medium; last_evidence
+    2026-07-29 now 41 days old, still inside the 60-day window (dormancy line 2026-09-27, 19 days
+    out) — still the weakest of the four active trends per the standing W35/W36 forward bet.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-08-31
@@ -809,6 +828,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     batch (2026-09-04→09-07, 168 fresh entries) scanned for PFR/Marton-exponent items — none. No
     4th independent group. Trend HELD emerging/medium; last_evidence 2026-08-31 now 7 days old,
     well inside the 60-day window.
+  - 2026-09-08 (daily): no fresh arXiv batch past the 09-04 ceiling (confirmed via direct API
+    probes on math.CO/NT and the full in-scope category set this session — the underlying arXiv
+    source has not advanced past 2026-09-04 despite two elapsed calendar days). No 4th independent
+    group. Trend HELD emerging/medium; last_evidence 2026-08-31 now 8 days old, well inside the
+    60-day window.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2628,6 +2652,71 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   prime gaps, and related randomness/correlation questions. Page opened via `tvly extract` this
   session. Funding/ecosystem launch, not a result — same pattern as the already-tracked
   Discrete-Subgroups and Virtues-of-Defects Simons Collaborations. Below-bar item.
+- 2026-09-07 (v1 2025-02-20, published Science Advances 2026-09-02; surfaced via Hacker-News
+  front-page community pulse this session, chased to both the peer-reviewed article and the
+  underlying preprint) — Dobkowski, Trok, Skakunenko, Japha, Groswasser, Efremov, Marletto,
+  Fuentes, Penrose, Vedral, Schleich, Folman, "Observation of quantum free fall and the
+  consistency with the equivalence principle," arXiv:2502.14535 —
+  https://arxiv.org/abs/2502.14535 — quantum foundations / gravity interface (axis 4,
+  quant-ph/gr-qc): an international collaboration (Ben-Gurion University of the Negev,
+  Universität Ulm, University of Oxford; co-authors include Nobel laureate Roger Penrose and
+  quantum-foundations physicists Vlatko Vedral and Chiara Marletto) built a new "Quantum Galileo
+  Interferometer" and directly measured the quantum phase acquired by a falling ultracold-atom
+  matter wave, finding it consistent with the phase predicted by applying Einstein's equivalence
+  principle to a quantum object — the FIRST direct observation of this long-predicted effect.
+  Abstract + full author list verified via arXiv API this session (v1 2025-02-20, updated
+  2025-12-07); publication in Science Advances (2026-09-02) corroborated via the University of
+  Oxford and EurekAlert press releases (`tvly extract`, this session). A domain-cadence landmark
+  (first-of-kind experimental probe at the quantum/general-relativity interface), now
+  peer-reviewed — no unrefereed-preprint caveat applies. Watch for independent replication and
+  any connection to the already-shelved Barontini "problem of time" cold-atom result (same
+  quantum-foundations/gravity sub-field). Also on `study_shelf`. NEW SOURCE-DISCOVERY CANDIDATE:
+  science.org / Science Advances (AAAS) — first sighting, staged in SOURCES.md this session.
+- 2026-09-07 (self-published PDF, author's own institutional page; surfaced via Terence Tao's
+  blog, an already-tracked digest source, this session) — Levent Alpöge, Tristan Buckmaster,
+  "Blowup for the Boussinesq Equations with Smooth Forcing" —
+  https://cims.nyu.edu/~tristanb/boussinesq.pdf — PDE / mathematical physics (axis 1/2,
+  math.AP; axis 5 AI-watch): building on Córdoba–Martínez-Zoroa's multiscale program (already
+  established for the incompressible porous medium equation), constructs finite-time blowup
+  for the 2D inviscid Boussinesq system with smooth, compactly-supported forcing — the
+  companion Euler-equations construction is described in a sibling paper per Tao's post,
+  neither yet located on arXiv. Substantial partial progress toward the Clay Millennium
+  Navier-Stokes global-regularity problem (constructs the target pathology for simpler model
+  equations, not yet for Navier-Stokes itself), with the authors' own paper containing an
+  explicit "AI statement" section and self-described as originating from "the worst writeup we
+  had ever seen in the history of mathematics" before extensive rewriting. PDF opened directly
+  via `tvly extract` this session (confirms title/authors/abstract); Tao's own commentary
+  opened via `curl`/`WebFetch` this session — Tao states the authors "were forced to release
+  their preliminary preprints before they were completely digested and polished," and that the
+  method has "a high likelihood of also extending to Navier-Stokes." HEAVY CAVEATS
+  (hype-skepticism + AI-watch rules): off-arXiv, self-published, heavily AI-assisted, explicitly
+  unpolished by the authors' own description → PROVISIONAL; a claimed accompanying Lean
+  formalization (per Tao) was not independently located/verified this session. Corroborating
+  community engagement: a same-day MathOverflow question ("Relevance of the work of Buckmaster
+  et al to Navier-Stokes?") opened this session, confirming active expert discussion — not
+  independent verification. Track for the Euler-equations companion paper, an arXiv posting,
+  the promised Lean formalization, and expert vetting. Also on `study_shelf`.
+  NEW SOURCE-DISCOVERY CANDIDATE: cims.nyu.edu (Tristan Buckmaster's institutional page) — a
+  direct off-arXiv self-publication channel for a working mathematician, structurally similar to
+  the already-tracked proofatlas.ai/preprints.org AI-disclosure lanes but hosted on the author's
+  own university page — first sighting, staged in SOURCES.md this session.
+- 2026-09-04 (v1; PRL, opened via the daily RSS sweep this session) — Yizhou Liu, Liang Gao,
+  Shihong Liao, Kai Zhu, Yingjie Jing, Huijie Hu, "Distinguishing the Nature of Dark Matter by
+  Mapping Cosmic Filaments from Lyman-Alpha Emission," Phys. Rev. Lett. —
+  https://link.aps.org/doi/10.1103/zprj-xzrj — cosmology (axis 3, astro-ph.CO): proposes and
+  demonstrates a method to distinguish cold vs. warm dark matter using the clumpiness of cosmic
+  filaments as traced by Lyman-alpha emission, since ΛCDM predicts highly clumpy filaments while
+  warm dark matter (invoked for small-scale-structure challenges) predicts smoother ones.
+  Abstract + authors verified via the PRL RSS feed this session. Below-bar (a methodology/
+  diagnostic proposal, not a detection or exclusion result) — track for an actual application to
+  survey data.
+- 2026-09-04 (v1; PRL, opened via the daily RSS sweep this session) — M. Abreu et al. (SNO+
+  Collaboration), "Measurement of Reactor Antineutrino Oscillations with 1.46 Kilotonne-Years of
+  Data at SNO+," Phys. Rev. Lett. — https://link.aps.org/doi/10.1103/mv5z-pfb7 — neutrino
+  physics (axis 3, hep-ex): a precision reactor-antineutrino-oscillation measurement from the
+  SNO+ collaboration using data from May 2022 through July 2025. Abstract + author list
+  (collaboration) verified via the PRL RSS feed this session. Below-bar (a routine precision
+  update, not a first-of-kind or anomalous result).
 
 ## source_rotation
 
@@ -3720,6 +3809,32 @@ Corrections to the source-coverage strategy.
   a genuinely different discovery mechanism than recency-sorted listings or the community-pulse
   digest lane, targeting exactly the gap this retrospective found. Decide the specific mechanism
   at W37.
+- 2026-09-08 (daily) — Arxiv-source ceiling: the arXiv API's underlying corpus has not advanced
+  past 2026-09-04 for ANY in-scope math or physics category as of this session (confirmed via
+  direct date-range probes on math.NT/CO/AG, hep-th/hep-ph/gr-qc/quant-ph/astro-ph.CO/
+  cond-mat.str-el — all return 0 results for submittedDate windows after 09-04, while a control
+  query against an earlier known-populated window returns results normally, ruling out a query-
+  syntax fault). This is the SAME ceiling the 09-07 daily's batch already scanned in full
+  (submittedDate 202609040000-202609080000) — today's arXiv CHECK is genuinely quiet, not a
+  skipped check; the two new landmark captures today (below) both came from non-arXiv-API lanes
+  (PRL RSS, a digest-blog pointer to a self-published PDF). Flagging for the weekly in case this
+  persists into a genuine multi-day gap worth a heal note.
+- 2026-09-08 (daily) — Source-discovery: two new candidates staged in SOURCES.md — science.org/
+  Science Advances (AAAS, via the quantum-free-fall equivalence-principle capture) and
+  cims.nyu.edu (Tristan Buckmaster's own institutional page, via the Alpöge-Buckmaster Boussinesq
+  capture, discovered through Tao's already-tracked blog). Both first-seen this session, held
+  below the ≥2-sighting promotion bar.
+- 2026-09-08 (daily) — Self-heal note: SciPost's publications API now returns an Anubis
+  proof-of-work bot-check challenge to both direct `curl` and `tvly extract` — a NEW failure
+  mode (first occurrence this session, not the standing pattern of any prior degradation).
+  Logged `degraded` in SOURCES.md rather than healed (per `radar-source-heal`, healing is owed
+  once a failure recurs); the non-invertible-symmetries and Stanley-Gasharov trends both rely on
+  this feed, so a second consecutive miss should trigger a heal attempt next session.
+- 2026-09-08 (daily) — capture-leak reconciliation: 1 new arXiv id named this session
+  (2502.14535) — lands on its own discrete queue line + study_shelf entry, 0 leaked; the two
+  other new captures (the Alpöge-Buckmaster PDF, the two PRL items) use non-arXiv-id URLs and are
+  cited directly by eye on their own queue lines. Full-file mechanical sweep: 252 unique arXiv
+  ids (up from 251), consistent with the one new id — 0 file-wide leaks.
 
 
 ## study_shelf
@@ -3727,6 +3842,18 @@ Corrections to the source-coverage strategy.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-07 (v1 2025-02-20, published Science Advances 2026-09-02) — [Observation of quantum free fall and the consistency with the equivalence principle (Dobkowski, Trok, Skakunenko, Japha, Groswasser, Efremov, Marletto, Fuentes, Penrose, Vedral, Schleich, Folman)](https://arxiv.org/abs/2502.14535)
+  — the first direct observation of the quantum phase of a freely-falling matter wave, confirming
+  consistency with Einstein's equivalence principle at the quantum level via a new "Quantum
+  Galileo Interferometer"; an international collaboration including Nobel laureate Roger Penrose,
+  now peer-reviewed in Science Advances — a landmark first-of-kind test at the quantum/general-
+  relativity interface a physicist should know.
+- 2026-09-07 — [Blowup for the Boussinesq Equations with Smooth Forcing (Alpöge, Buckmaster)](https://cims.nyu.edu/~tristanb/boussinesq.pdf)
+  — building on Córdoba–Martínez-Zoroa's multiscale program, constructs finite-time blowup with
+  smooth forcing for the 2D Boussinesq equations (with a companion Euler-equations result per
+  Terence Tao's commentary) — substantial, heavily AI-assisted, unrefereed partial progress on the
+  approach toward the Clay Millennium Navier-Stokes problem, discussed in detail by Tao himself;
+  worth knowing as the story the analysis community is actively discussing, not as settled math.
 - 2026-09-04 — [A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients (Colbrook, Stepaniants, Townsend)](https://arxiv.org/abs/2609.04659)
   — settles a 1968 conjecture on restarted conjugate-gradient convergence after ~58 years: true
   for restart lengths 1-3, false for every length ≥4, via an explicit counterexample built from a

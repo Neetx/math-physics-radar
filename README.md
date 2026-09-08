@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-182-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--07-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-186-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--08-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-07):**
-- Two fresh landmarks: [a complete resolution of Forsythe's 1968 conjecture](https://arxiv.org/abs/2609.04659) on restarted conjugate gradients (Colbrook, Stepaniants, Townsend — their fourth classical-conjecture refutation on this ledger), and [Reed & Stein's major progress on the Erdős-Sós conjecture](https://arxiv.org/abs/2609.05417), whose corollary fully solves a 51-year-old Erdős-Graham problem on multicolor Ramsey numbers of trees. Both added to [Worth studying](#worth-studying).
-- All four trends HELD (first daily since the weekend): [Ramsey lower bounds](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) accelerating, [non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) accelerating, [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) seed (weakest, 40 days quiet), [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) emerging — a full math+physics arXiv rotation and SciPost recheck found no new independent group on any of them.
-- A fresh Bayesian-evidence critique further complicates the standing [DESI dynamical-dark-energy saga](https://arxiv.org/abs/2609.05410); the LZ 248 keV-event interpretation cluster continues, still awaiting the collaboration's own arXiv/PRL submission.
-- Queue 175 → 182 (net +7); the GitHub-repo-watch proxy-403 and Backreaction feed-parsing degradations from 09-04 are both re-healed.
+**Since last scan (2026-09-08):**
+- Two fresh landmarks, both from off-arXiv-API lanes: [the first observation of the quantum phase of free fall](https://arxiv.org/abs/2502.14535), confirming Einstein's equivalence principle in the quantum regime (an international team including Nobel laureate Roger Penrose, now peer-reviewed in Science Advances), and [Alpöge & Buckmaster's finite-time blowup for the Boussinesq equations with smooth forcing](https://cims.nyu.edu/~tristanb/boussinesq.pdf), a heavily AI-assisted, unrefereed step in the multiscale program toward the Navier-Stokes Millennium Problem (surfaced via Terence Tao's blog). Both added to [Worth studying](#worth-studying).
+- All four trends HELD: [Ramsey lower bounds](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) accelerating, [non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) accelerating, [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) seed (weakest, 41 days quiet), [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) emerging — the arXiv API's underlying corpus has not advanced past 2026-09-04 (confirmed via direct probes), a genuine posting gap rather than a skipped check.
+- Two below-bar PRL captures queued: a [Lyman-alpha cosmic-filament method for distinguishing dark-matter models](https://link.aps.org/doi/10.1103/zprj-xzrj) and a [SNO+ reactor-antineutrino-oscillation precision measurement](https://link.aps.org/doi/10.1103/mv5z-pfb7).
+- Queue 182 → 186 (net +4); SciPost's API newly hit an Anubis bot-check wall (first occurrence, logged degraded, not yet healed).
 
 ## Trends
 
@@ -23,6 +23,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Observation of quantum free fall and the consistency with the equivalence principle (Dobkowski, Trok, Skakunenko, Japha, Groswasser, Efremov, Marletto, Fuentes, Penrose, Vedral, Schleich, Folman)](https://arxiv.org/abs/2502.14535) — the first direct observation of the quantum phase of a freely-falling matter wave, confirming Einstein's equivalence principle at the quantum level via a new "Quantum Galileo Interferometer"; peer-reviewed in Science Advances, co-authored by Nobel laureate Roger Penrose.
+- [Blowup for the Boussinesq Equations with Smooth Forcing (Alpöge, Buckmaster)](https://cims.nyu.edu/~tristanb/boussinesq.pdf) — building on Córdoba–Martínez-Zoroa's multiscale program, constructs finite-time blowup with smooth forcing for the 2D Boussinesq equations (with a companion Euler-equations result per Tao's commentary) — heavily AI-assisted, unrefereed partial progress toward the Navier-Stokes Millennium Problem.
 - [A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients (Colbrook, Stepaniants, Townsend)](https://arxiv.org/abs/2609.04659) — settles a 1968 conjecture on restarted conjugate-gradient convergence after ~58 years (true for restart lengths 1-3, false for every length ≥4); the same trio's fourth classical-conjecture refutation on this ledger.
 - [Major progress on the Erdős-Sós conjecture, and a 51-year-old Erdős-Graham problem solved as a corollary (Reed, Stein)](https://arxiv.org/abs/2609.05417) — proves the 1962 tree-embedding conjecture for all k≥γn and resolves its extremal cases; a corollary fully answers a half-century-old Erdős-Graham question on multicolor Ramsey numbers of trees.
 - [Oort's conjecture on automorphisms of generic supersingular abelian varieties (Viehmann)](https://arxiv.org/abs/2603.06033) — proves Oort's conjecture in full generality on the supersingular locus of the moduli space of principally polarized abelian varieties; a 5.5-month-old near-miss capture-leak catch, promoted this week now that a fresh pair of Oort's-conjecture papers is active in the queue.
@@ -99,13 +101,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Hacker News](https://news.ycombinator.com/) front page checked — nothing on-scope beyond meta-commentary on AI's impact on mathematics (not chased as a result).
-- [r/math / r/mathematics](https://www.reddit.com/r/math/) checked via the `tvly search` recovery path — routine discussion, nothing new.
-- [Quanta Magazine](https://www.quantamagazine.org/) checked live this session — two new ICM-2026-retrospective podcast episodes on AI's impact on mathematicians (meta-commentary, no new primary result).
-- [Terence Tao's blog](https://terrytao.wordpress.com/), [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/), [Gowers's Weblog](https://gowers.wordpress.com/) and [Gil Kalai's blog](https://gilkalai.wordpress.com/) checked — unchanged since already-tracked posts. [Backreaction](https://backreaction.blogspot.com/) re-healed this session; its Vafa "dark dimension" post was read and excluded as media hype (no new primary, consistent with this ledger's own tracked skeptics).
-- [MathOverflow](https://mathoverflow.net/) and [Mathstodon](https://mathstodon.xyz/public) checked — routine research-level Q&A / federated-timeline noise, no on-axis signal worth naming.
+- [Hacker News](https://news.ycombinator.com/) front page surfaced both of today's landmark chases (the equivalence-principle test, the Boussinesq blowup) plus a Caltech "Mathathon" research-math hackathon announcement (ecosystem, not chased).
+- [r/math / r/mathematics](https://www.reddit.com/r/math/) checked via `tvly search` — routine discussion, nothing new.
+- [Terence Tao's blog](https://terrytao.wordpress.com/) posted fresh commentary on the Alpöge-Buckmaster blowup result (linked in Worth studying); a same-day [MathOverflow](https://mathoverflow.net/) thread on its relevance to Navier-Stokes confirms active expert discussion.
+- [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) pointed to New York Times coverage of the already-tracked Bharathram–Birman–Brendle braid-group result — media follow-up, not a new primary.
+- [Backreaction](https://backreaction.blogspot.com/) checked — its "dark dimension" and 129-day weather-predictability posts continue already-tracked/excluded threads (media hype and an off-axis meteorology result, respectively).
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (182) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-07](reports/2026-09-07.md)) · weekly: [2026-W36](reports/weekly/2026-W36.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (186) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-08](reports/2026-09-08.md)) · weekly: [2026-W36](reports/weekly/2026-W36.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
