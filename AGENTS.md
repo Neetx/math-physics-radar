@@ -26,8 +26,9 @@ are not a frozen list):
 
 | Path | Contents | Edit policy |
 |---|---|---|
-| `TRENDS.md` | Trend ledger + `observation_queue`, `strategy_notes`, `study_shelf`; `source_rotation` and `calibration` are one-line pointer stubs | follow the `radar-ledger-update` skill |
+| `TRENDS.md` | Trend ledger + `observation_queue`, `study_shelf`; `strategy_notes`, `source_rotation` and `calibration` are one-line pointer stubs | follow the `radar-ledger-update` skill |
 | `logs/source_rotation.md` | Append-only daily coverage log (externalized to keep the ledger small); read only the recent tail | append-only; never edit/reorder past lines |
+| `logs/strategy_notes.md` | Append-only strategy log (externalized 2026-09-08 to keep the ledger small: it was 26% of the file); read only the recent tail (~10 entries) | append-only; curator entries never edited |
 | `logs/calibration.md` | Append-only weekly self-evaluation log | append-only; written by weekly runs only |
 | `README.md` | THE output surface (repo landing page): badges, digest, clickable trend table, study shelf | fully derived — regenerate via `radar-render-dashboard`; never edit by hand |
 | `SOURCES.md` | Agent-owned registry: primary feeds, watched repos, social channels, discovery venues — the lists the skills iterate | maintained by the radar itself |

@@ -60,9 +60,9 @@ diff. Any source MISSING all week is a coverage lie: heal it
 now (`radar-source-heal`), or if already healed and still un-sweepable, propose
 heal-or-REMOVE (don't list what you won't sweep).
 Then compare the coverage log against the ledger: which sources produced evidence, which
-produced nothing repeatedly; are the scope priorities in `strategy_notes` actually covered?
+produced nothing repeatedly; are the scope priorities in `logs/strategy_notes.md` actually covered?
 Tunnel-vision check: if ALL of this week's new evidence landed on pre-existing trends, record
-an anchoring warning in `strategy_notes` and redirect next week's exploration.
+an anchoring warning in `logs/strategy_notes.md` and redirect next week's exploration.
 Grow the curator/source lists (add recurring high-hit sources; drop noisy/dead ones — VERIFY
 new sources by opening them, never assert from memory).
 **Source discovery (drain the auto-staged candidates — the lab/vendor/repo analog of curator
@@ -74,7 +74,7 @@ on-axis primary source, PROMOTE it into the matching swept list as `[verified YY
 clear its staging line; drop one-off noise with a one-line reason. Curators are one source-type
 in this same loop. A recurring on-axis org left un-promoted week after week is a coverage leak
 (the `source-discovery` metric in `radar-self-eval`).
-Append a dated correction entry to `strategy_notes`.
+Append a dated correction entry to `logs/strategy_notes.md` (append-only; never into TRENDS.md).
 
 ## 5. Self-evaluation
 Follow `radar-self-eval`:

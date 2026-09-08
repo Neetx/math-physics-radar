@@ -23,7 +23,7 @@ skipped check.
   from your history; fetch and merge it (fast-forward preferred, never force) before work.
 - Read `TRENDS.md` in full.
 - Read the most recent report in `reports/` (skip if none yet).
-- Read `strategy_notes` and the recent tail (~7 days) of `logs/source_rotation.md` to
+- Read the recent tail (~10 entries) of `logs/strategy_notes.md` and the recent tail (~7 days) of `logs/source_rotation.md` to
   decide today's coverage.
 
 ## 2. Scan
@@ -109,6 +109,12 @@ every run.
   weekly VERIFIES and PROMOTES. This is what lets the radar grow its own lab/vendor/repo coverage
   instead of waiting for the curator — an on-axis source that announces only on its own channel
   must surface as a staged candidate the first run any lane names it.
+- NOTE DISCIPLINE — the ledger is STATE, not a diary. Append a dated note to a trend ONLY when
+  something about that trend CHANGED this run: a stage/confidence move, an evidence append or cap
+  rotation, or a decision that binds a future run (a dormancy re-check date, an archive decision).
+  A run that checked a trend and found nothing new writes NOTHING into it — that non-event already
+  lives in today's report and in `logs/source_rotation.md`, and copying it into the trend is how a
+  ledger silently turns into a run-log. If a note would only say "checked, unchanged", omit it.
 - Stage moves: at most ONE stage up per trend per day, on new independent evidence. **60+ days
   quiet → `dormant` (weekly archives at 120+)** — the domain-cadence windows (AGENTS.md → *Domain
   cadence*), NOT 21/45: this is a slow field, a months-old `last_evidence` is normal for a live
