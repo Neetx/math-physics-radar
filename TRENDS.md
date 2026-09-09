@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-08
+Last updated: 2026-09-09
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -364,16 +364,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     17 days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-04
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-06
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
   gapless-phase classification via the Symmetry TFT. Three fully independent author groups now hold
   concrete artifacts on this sub-theme, clearing the ≥3-group + artifact convergence bar today.
 - evidence:
-  - 2026-04-03 — https://arxiv.org/abs/2604.02856 — Oishi, Ebisu, "Type-IV 't Hooft Anomalies on the
-    Lattice: Emergent Higher-Categorical Symmetries and Applications to LSM Systems" (abstract
-    verified via arXiv API this session).
   - 2026-07-06 — https://scipost.org/SciPostPhys.21.1.005 — Antunes, Rong, "Irrational CFTs from
     coupled anyon chains with non-invertible symmetries?" (SciPost API metadata + page opened this
     session).
@@ -436,6 +433,20 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     beyond) in chiral CFTs connected to Monstrous Moonshine, extending the non-invertible-defect
     toolkit to chiral/holomorphic CFTs. Abstract + author verified via arXiv API this session
     (v1 2026-09-02, surfaced in today's fresh hep-th/physics batch).
+  - 2026-09-06 — https://arxiv.org/abs/2609.06751 — Ravindran, Eck, Chen (Caltech), "Ginzburg-Landau
+    Theory for Non-Invertible Symmetry-Breaking Transitions": an ELEVENTH fully independent author
+    group (independent of all ten above), develops a Symmetry-TFT-based field-theoretic
+    (Ginzburg-Landau) description of critical points for symmetry-breaking transitions of
+    non-invertible symmetries in (1+1)d, identifying the algebra of local order parameters from the
+    Lagrangian algebra. Abstract + authors verified via arXiv API this session (v1 2026-09-06,
+    surfaced in today's fresh cond-mat.str-el batch); oldest evidence line (2604.02856,
+    Oishi–Ebisu) dropped to hold the 10-item cap, per `radar-ledger-update`.
+- notes: 2026-09-09 (daily): today's full math+physics category-rotation batch (2026-09-05→09-09,
+  ~1.4k fresh entries) surfaced an eleventh independent group's artifact on this trend
+  (Ravindran–Eck–Chen, Ginzburg-Landau theory for non-invertible symmetry-breaking transitions,
+  Caltech condensed-matter group) — appended as evidence; oldest evidence line dropped to hold the
+  cap. Stage HELD accelerating/high (already well past the convergence bar); last_evidence moves
+  2026-09-04 → 2026-09-06.
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -2717,6 +2728,113 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   SNO+ collaboration using data from May 2022 through July 2025. Abstract + author list
   (collaboration) verified via the PRL RSS feed this session. Below-bar (a routine precision
   update, not a first-of-kind or anomalous result).
+- 2026-09-08 (published 2026-09-08; discovered via Hacker News front page this session) — OpenAI,
+  "On the Navier–Stokes Millennium Prize Problem" —
+  https://openai.com/index/navier-stokes-solution/ (writeup PDF:
+  https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf) — PDE / analysis
+  (axis 1, math.AP; axis 5 AI-watch): OpenAI states an internal model beyond GPT-6 Astra produced an
+  analytical proof AND a Lean formalization that an initially-smooth, finite-energy, at-rest 3D
+  incompressible fluid under smooth forcing develops a finite-time singularity — claimed to resolve
+  the Navier-Stokes existence-and-smoothness Millennium Prize Problem (Clay Institute), establishing
+  Fefferman statement "C" (and "D"). OpenAI's own page opened via `tvly extract` this session
+  (confirms date, claim, and that both a writeup and Lean formalization are offered); the writeup PDF
+  itself opened and confirmed genuine (2.9MB, real PDF, entitled "FINITE TIME BLOWUP FOR
+  NAVIER-STOKES") via direct download this session, not read in full. THE single biggest possible
+  landmark this radar can register (a claimed resolution of a Millennium Prize problem) — HEAVIEST
+  hype-skepticism + AI-watch caveats apply: wholly AI-generated by an unreleased internal model,
+  UNREFEREED, and its announcement circumstances are themselves publicly disputed. Track the
+  mathematical RESULT/claim and its vetting outcome, not the AI method (sibling AI radars' beat).
+  See the companion queue entry below (Buckmaster's public statement) for the vetting-status context;
+  Scientific American ("OpenAI claims blockbuster math breakthrough amid swirl of controversy,"
+  Joseph Howlett, 2026-09-08, opened via `tvly search`/`extract` this session, subhead: "rumors were
+  circulating online among mathematicians over the proof's origins—OpenAI has denied all
+  allegations") independently corroborates that a public dispute over priority/circumstances exists,
+  without this radar adjudicating it. Watch for independent expert refereeing/replication — this is
+  PROVISIONAL, not a resolved Millennium Prize problem, until the community confirms. Also on
+  `study_shelf`.
+- 2026-09-08 (self-published statement, author's own institutional page; discovered via Hacker News
+  front page this session, same story as the OpenAI entry above) — Tristan Buckmaster (NYU Courant),
+  public statement — https://cims.nyu.edu/~tristanb/statement.pdf — axis 5 AI-watch /
+  vetting-status record (not itself a math result): a first-person, dated account by one of the two
+  authors of the companion Euler/Boussinesq/IPM blowup program (below) describing the circumstances
+  and timeline of OpenAI's Navier-Stokes announcement from his perspective, including a disputed
+  claim about the announcement's timing/priority relative to his own unpublished work. PDF opened and
+  read in full via `curl`+ direct read this session (primary, dated, signed). This radar records ONLY
+  that this public, primary-source dispute exists and is itself part of assessing the OpenAI claim's
+  vetting status (per the hype-skepticism hard rule) — it does not adjudicate the dispute or repeat
+  unverified allegations against named individuals as fact. Track for any institutional/community
+  response or resolution.
+- 2026-09-08 (self-published PDF, author's own institutional page; companion to the already-tracked
+  2026-09-07 Boussinesq entry above, same discovery chain via Tao's blog) — Levent Alpöge, Tristan
+  Buckmaster, "Blowup for the Euler Equations with Smooth Forcing" —
+  https://cims.nyu.edu/~tristanb/euler.pdf — PDE / mathematical physics (axis 1/2, math.AP; axis 5
+  AI-watch): the Euler-equations companion paper explicitly promised in the 09-07 Boussinesq entry,
+  now released — constructs, for the 3D incompressible Euler equations, a finite-time singularity
+  from smooth axisymmetric-with-swirl initial data under a force smooth in space and time through
+  the blowup time, continuing the Córdoba–Martínez-Zoroa layered-amplification program (companion
+  IPM result below). Full 112-page paper opened and read this session (primary; theorem statement,
+  full construction and references verified directly, not merely the abstract) — a substantial,
+  technically serious construction, not a stub. HEAVY CAVEATS unchanged from the Boussinesq entry:
+  heavily LLM-assisted (the authors' own statement, above, discloses extensive use of Claude, Codex/
+  GPT-5.6 Sol and GPT-6 Astra), unrefereed, self-published off-arXiv → PROVISIONAL. The authors'
+  statement also discloses that blowup for hypo-dissipative Navier-Stokes is believed achieved but
+  NOT yet released (Lean verification incomplete) — a further, not-yet-public escalation toward the
+  same Millennium problem as the OpenAI entry above. A significant step closer to Navier-Stokes than
+  Boussinesq/IPM alone; track for an arXiv posting, the promised Lean formalizations, and expert
+  vetting (a same-day MathOverflow thread on the OpenAI claim already shows active expert
+  engagement). Also on `study_shelf`.
+- 2026-09-08 (self-published PDF, same source page as the Euler entry above) — Levent Alpöge,
+  Tristan Buckmaster, "Blowup for the Incompressible Porous Media Equation with Smooth Forcing" —
+  https://cims.nyu.edu/~tristanb/ipm.pdf — PDE (axis 1, math.AP): the third paper of the same-day
+  trio (with Boussinesq, already tracked, and Euler, above) — finite-time blowup for the 2D
+  incompressible porous media equation with smooth forcing, completing the authors' extension of
+  Córdoba–Martínez-Zoroa's program (who had rough-forcing IPM blowup) to the smooth-forcing case.
+  PDF downloaded and confirmed genuine this session (title/authors verified); not read in full given
+  its companion Euler paper (above) already verified the same program and authorship. Same HEAVY
+  CAVEATS as the Euler/Boussinesq entries — heavily AI-assisted, unrefereed, off-arXiv → PROVISIONAL.
+- 2026-09-07 (v1 2026-09-07; discovered via today's fresh math.CO batch, following up on the
+  already-tracked Reed-Stein Erdős-Sós/Erdős-Graham pair on `study_shelf`) — Dhruv Mubayi, Jacques
+  Verstraete, "Kalai's Conjecture for Tight Trees" — https://arxiv.org/abs/2609.08012 — combinatorics
+  (axis 1, math.CO; axis 5 AI-watch): establishes Kalai's Conjecture, the r-uniform hypergraph
+  generalization of the Erdős–Sós conjecture (whose r=2 case IS Erdős-Sós), via a shadow-density bound
+  tight infinitely often. Abstract verified via arXiv API this session (v1 2026-09-07). Notable for
+  axis 5: the abstract states "the proof was found by GPT-6 Astra, extending its method of proof for
+  the Erdős-Sós conjecture" — the SAME model already tracked on `study_shelf` for the bounded-gaps-
+  between-primes record (2026-09-04) — a further data point in the standing AI-assisted-math wave,
+  now extending an AI-found method from one open problem to its hypergraph generalization. Track the
+  RESULT, not the AI method (sibling AI radars' beat); unrefereed preprint → provisional under the
+  hype-skepticism rule, though the underlying Erdős-Sós case is itself independently corroborated by
+  the human-authored Reed-Stein papers already on this ledger.
+- 2026-09-07 (v1 2026-09-07; discovered via today's fresh math.RA batch) — Tom Adamczewski, Bernhard
+  Böhmler, Rene Marczinzik, "A counterexample to Köthe's conjecture and a question of Rowen" —
+  https://arxiv.org/abs/2609.07996 — ring theory (axis 1, math.RA): claims a counterexample to
+  KÖTHE'S CONJECTURE — that the sum of two nil left ideals in a ring is nil — a famous problem open
+  since 1930, and simultaneously answers a related question of Rowen. Abstract verified via arXiv API
+  this session (v1 2026-09-07); the abstract itself is a single terse sentence with no further
+  elaboration accessible this session. If correct, a landmark resolution of a 96-year-old open
+  problem in ring theory — but HEAVY CAVEATS apply: single-day-old, completely unrefereed preprint
+  with an unusually terse abstract → PROVISIONAL under the hype-skepticism rule; track closely for
+  expert scrutiny (Köthe's conjecture is prominent enough that a correct disproof would draw rapid
+  attention) and for any retraction/gap report.
+- 2026-09-06 (v1 2026-09-06; discovered via today's fresh cond-mat.supr-con batch) — Subham Naik,
+  Paul Monson, Susanta Manna, Prabuddhakant Mishra, Soumyojit Chatterjee, Sandip Kuila, Partha
+  Pratim Jana, M. B. Sreedhara, Rahul Sharma, Gohil S. Thakur, "Discovery of Superconductivity in a
+  Bulk Moire Superlattice Material" — https://arxiv.org/abs/2609.06622 — condensed matter (axis 3,
+  cond-mat.supr-con): reports the first observation of bulk superconductivity (Tc = 2.5 K) in single
+  crystals of the intrinsically-grown bulk moiré material (Sr6TaS8)(1+x)(TaS2)8, plus a ~270 K
+  charge-density-wave anomaly — moiré phenomena (superconductivity, correlated flat-band physics)
+  had previously been seen only in artificially-assembled twisted 2D van der Waals heterostructures,
+  not intrinsic bulk crystals. Abstract + authors verified via arXiv API this session (v1 2026-09-06).
+  A domain-cadence landmark first-of-kind experimental result opening a new bulk-crystal platform for
+  correlated moiré physics. Also on `study_shelf`.
+- 2026-09-06 (v1 2026-09-06; discovered via today's fresh math.DG batch) — Tianze Hao, Jintian Zhu,
+  "A Counterexample to Yau's Conjectured Asymptotic Scalar-Curvature Integral Bound" —
+  https://arxiv.org/abs/2609.06533 — Riemannian geometry (axis 1, math.DG): constructs a complete,
+  one-ended 3-manifold with strictly positive Ricci curvature whose scalar-curvature integral over
+  balls of radius R diverges as R → ∞, refuting a conjectured asymptotic bound of Yau. Abstract +
+  authors verified via arXiv API this session (v1 2026-09-06). Below-bar (a single-author-pair
+  counterexample to a named conjecture, not yet corroborated) but named-conjecture-prominent enough
+  to track.
 
 ## source_rotation
 
@@ -2734,6 +2852,18 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-08 — [On the Navier–Stokes Millennium Prize Problem (OpenAI, internal model)](https://openai.com/index/navier-stokes-solution/)
+  — OpenAI claims an internal AI system produced an analytical proof and Lean formalization that a
+  smooth, finite-energy 3D incompressible fluid under smooth forcing can blow up in finite time,
+  resolving the Navier-Stokes Millennium Prize Problem; the single biggest claim this radar has ever
+  tracked, but wholly AI-generated, unrefereed, and its announcement circumstances are themselves
+  publicly disputed (see the queue entries for full context) — essential to know, not to trust yet.
+- 2026-09-08 (v1 2026-09-08) — [Blowup for the Euler Equations with Smooth Forcing (Alpöge, Buckmaster)](https://cims.nyu.edu/~tristanb/euler.pdf)
+  — a genuine, substantial 112-page construction of finite-time singularity formation for the 3D
+  incompressible Euler equations under smooth forcing, continuing the Córdoba–Martínez-Zoroa program
+  and the same authors' already-shelved Boussinesq result; heavily AI-assisted and unrefereed, but
+  the clearest human-legible technical escalation this week toward the Navier-Stokes Millennium
+  problem, independent of the OpenAI claim above.
 - 2026-09-07 (v1 2025-02-20, published Science Advances 2026-09-02) — [Observation of quantum free fall and the consistency with the equivalence principle (Dobkowski, Trok, Skakunenko, Japha, Groswasser, Efremov, Marletto, Fuentes, Penrose, Vedral, Schleich, Folman)](https://arxiv.org/abs/2502.14535)
   — the first direct observation of the quantum phase of a freely-falling matter wave, confirming
   consistency with Einstein's equivalence principle at the quantum level via a new "Quantum

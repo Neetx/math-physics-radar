@@ -103,7 +103,7 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
 - Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]** — **[WEEKLY-SWEPT tier]**
 - Quantum (open journal) — https://quantum-journal.org/feed/ **[verified 2026-07-02; RSS]** (quantum information / foundations)
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
-- SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API. DEGRADED 2026-09-08: the API endpoint now serves an Anubis proof-of-work bot-check challenge page (requires JS execution) to both direct `curl` (any UA tried) and `tvly extract` — a new failure mode, first occurrence, not yet healed (heal owed if it recurs).]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
+- SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API. DEGRADED 2026-09-08, STILL DEGRADED 2026-09-09 (2nd consecutive daily, heal owed): the API endpoint continues to serve an Anubis proof-of-work bot-check challenge page (requires JS execution) to both direct `curl` (any UA tried) and `tvly extract`. PARTIAL WORKAROUND found this session: `tvly search "<topic> scipost"` (not extract) returns live, dated individual publication pages from SciPost's own search index — usable for spot-checking a specific topic (e.g. confirming/extending a tracked trend) but NOT a "what's new" browse, so the degradation stands for the primary-feed sweep purpose.]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
 - AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result) — **[WEEKLY-SWEPT tier]**
 - Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier]**
 - **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, JHEP (open-access hep-th; also on arXiv/INSPIRE), PRD, PRB, PRResearch, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
@@ -209,13 +209,16 @@ survives verification (real feed, on-axis, not SEO). Line format:
   Hacker-News front-page pointer. HELD below the ≥2 bar (1 sighting); no RSS found this session,
   access via `tvly search "site:science.org <title>"` or direct DOI-link checks when a
   disclosure is flagged elsewhere.
-- cims.nyu.edu (Tristan Buckmaster's NYU Courant institutional page) — 1 — Alpöge, Buckmaster,
-  "Blowup for the Boussinesq Equations with Smooth Forcing" — first seen 2026-09-08 — a working
-  mathematician's own self-publication page for an off-arXiv preprint, structurally similar to
-  the already-tracked proofatlas.ai/preprints.org AI-disclosure lanes but hosted on a personal
-  academic page rather than a dedicated platform; discovered via Terence Tao's already-tracked
-  blog. HELD below the ≥2 bar (1 sighting); direct URL access (`tvly extract` on the PDF path
-  worked cleanly this session).
+- cims.nyu.edu (Tristan Buckmaster's NYU Courant institutional page) — 2 — Alpöge, Buckmaster,
+  "Blowup for the Boussinesq Equations with Smooth Forcing" (09-07) then, same page, "Blowup for
+  the Euler Equations with Smooth Forcing" + "...for the Incompressible Porous Media Equation..."
+  + a signed public statement (all 09-08) — first seen 2026-09-08 — a working mathematician's own
+  self-publication page for off-arXiv preprints, structurally similar to the already-tracked
+  proofatlas.ai/preprints.org AI-disclosure lanes but hosted on a personal academic page rather
+  than a dedicated platform; discovered via Terence Tao's already-tracked blog. CLEARS the ≥2-sighting
+  bar this session (3 distinct artifacts across 2 daily runs) — ready for weekly promotion to the
+  swept registry; direct URL access (predictable filename pattern `<slug>.pdf`; plain `curl -A
+  "Mozilla/5.0"` works cleanly, no `tvly` needed) worked cleanly this session.
 
 PROMOTED 2026-08-08 (W32): nature.com/ncomms (2 sightings → Research/publication venues, DAILY tier),
 scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com/cdn.openai.com

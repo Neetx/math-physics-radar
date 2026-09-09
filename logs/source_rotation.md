@@ -1239,3 +1239,103 @@ science.org/Science Advances (AAAS, via the equivalence-principle capture) and c
 already-tracked Tao blog); both first-seen this session, held below the ≥2-sighting bar.
 study_shelf: 2 new picks (the quantum-free-fall equivalence-principle test, the Alpöge-Buckmaster
 Boussinesq blowup). README.md regenerated from the updated ledger in the same commit.
+
+2026-09-09 (Wed, Pass 1, ~scheduled) — first daily since 2026-09-08. Load-state check: local
+session had commits 71b5747/5f51f23/34ec88d/53cee62/97bf97f (weekly W36 + skill refinements +
+09-07/09-08 dailies) that an initial `git fetch origin main` (multi-ref fetch) did not update the
+local `origin/main` ref for, reading briefly as a possible stranded state; a clean single-ref
+`git fetch origin main` confirmed `origin/main` already carried all of them (71b5747 = HEAD) — no
+actual stranded state, false alarm from a fetch-syntax artifact, no push was needed to recover.
+FULL CHECK of every DAILY-tier mandatory lane. Primary sweep (radar-source-sweep, arXiv API): the
+09-07/09-08 dailies' reported "corpus stuck at 2026-09-04" ceiling has RESOLVED — a full 20-math +
+10-physics-category rotation over submittedDate 2026-09-05→09-09 found 785 fresh math + 599 fresh
+physics entries (a genuine 5-day posting catch-up, not a query fault), all triaged by title, several
+dozen abstracts opened in full via the arXiv API for borderline/named-conjecture items. MAJOR
+CAPTURES (see TRENDS.md for full detail): (1) a same-day trio of self-published Alpöge-Buckmaster
+papers at cims.nyu.edu completing the Euler/Boussinesq/IPM-with-smooth-forcing program (Boussinesq
+already tracked 09-07; Euler and IPM new today, Euler read in full — 112 pages, genuine technical
+construction), alongside Buckmaster's own signed public statement disclosing (a) heavy LLM
+assistance (Claude, Codex/GPT-5.6 Sol, GPT-6 Astra), (b) a believed-but-unreleased hypo-dissipative
+Navier-Stokes blowup result, and (c) a disputed account of OpenAI's own concurrent announcement's
+circumstances/priority; (2) OpenAI's own research page (openai.com/index/navier-stokes-solution/,
+opened via `tvly extract`) claims an internal model resolved the Navier-Stokes Millennium Prize
+Problem via an analytical proof + Lean formalization — the actual writeup PDF
+(cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf) downloaded and confirmed
+genuine (2.9MB real PDF, not read in full); Scientific American ("OpenAI claims blockbuster math
+breakthrough amid swirl of controversy," Joseph Howlett, 2026-09-08, opened via `tvly
+search`+`extract` this session) independently corroborates a public dispute over the announcement's
+circumstances exists, without this radar adjudicating it — both queued + on `study_shelf`, heaviest
+possible hype-skepticism caveats (wholly AI-generated, unrefereed). (3) Non-invertible symmetries
+trend: an 11th independent group's evidence (Ravindran, Eck, Chen, arXiv:2609.06751, Caltech,
+Ginzburg-Landau theory for non-invertible symmetry-breaking transitions) appended, oldest evidence
+line dropped to hold the 10-item cap. (4) Below-bar/queue-tier captures: Adamczewski-Böhmler-
+Marczinzik's claimed counterexample to the 96-year-old Köthe's conjecture (arXiv:2609.07996, terse
+single-sentence abstract, heavy caveat); Naik et al.'s discovery of bulk moiré superconductivity
+(arXiv:2609.06622, Tc=2.5K, first intrinsic-bulk-crystal moiré superconductor) — also on
+`study_shelf` were it not for the 0-2 daily cap already filled by the two Navier-Stokes-adjacent
+picks; Mubayi-Verstraete's proof of Kalai's Conjecture for Tight Trees (arXiv:2609.08012, "found by
+GPT-6 Astra" per its own abstract, extending the already-tracked bounded-gaps-primes AI-math wave,
+and generalizing the already-shelved Reed-Stein Erdős-Sós result to hypergraphs); Hao-Zhu's
+counterexample to Yau's asymptotic scalar-curvature integral bound (arXiv:2609.06533). Trend-
+specific keyword sweep (Ramsey, Schur-positivity/Stanley, Marton/PFR) found nothing new on-axis for
+the other three trends — HELD (Ramsey accelerating/medium, Stanley-Gasharov seed/medium 43 days
+quiet still weakest, Marton's-exponent emerging/medium). Journal/API sweep: PRL/PRX/RMP RSS, Quantum
+journal, Nature Physics/Communications (standing empty-CDATA-title degradation, unchanged) all
+opened, routine/off-axis beyond the arXiv captures above. SciPost API STILL DEGRADED (2nd
+consecutive daily, Anubis bot-check persists on both `curl` and `tvly extract`) — partial workaround
+found this session: `tvly search "<topic> scipost"` surfaces live dated publication pages for
+spot-checking a specific topic (used to re-confirm the non-invertible-symmetries capture) but not a
+"what's new" browse, so the primary-sweep degradation stands, heal only partial. CERN Courier,
+Fermilab news, Simons Foundation RSS, INSPIRE-HEP all opened — routine/off-axis only (a CERN Courier
+piece on arXiv's AI-hallucination one-strike policy noted as AI-watch ecosystem context, not a
+result). Experiments block: LIGO (`WebFetch` on the standing healed `/news` URL — unchanged, still
+GWTC-5.0), DESI (`tvly extract` fallback — unchanged, April 2026 survey-completion milestone), CERN
+home RSS (routine obituary/NA64/safety items), IceCube category-feed RSS ("Week 35 at the Pole,"
+routine), LZ publications page (`tvly extract`, rechecked — newest e-print still 2604.21503, no
+collaboration submission yet for the 248 keV event). Community pulse (radar-pulse): Hacker News
+front page (Algolia API) — THE source of today's two headline stories (both the "Navier-Stokes –
+Tristan Buckmaster [pdf]" and "On the Navier-Stokes Millennium Prize Problem" OpenAI links were
+front-page items), plus a Tao mathstodon post on AI mining open problems (not separately chased,
+context only); r/math/r/mathematics via `tvly search --include-domains reddit.com` (routine, nothing
+beyond the headline story); MathOverflow feed opened — a live thread "Proof outline and discussion:
+OpenAI's claimed forced-blowup construction for Navier-Stokes (Fefferman alternatives C/D)"
+confirms active expert engagement (community signal, not evidence) — not independently queued;
+Mathstodon public timeline opened (federated-timeline noise only). Full digest lane: Quanta —
+"AI Has Solved One of Math's $1 Million Millennium Prize Problems" (its own coverage of the same
+OpenAI story, not separately cited — followed to the OpenAI primary above); Tao's blog unchanged
+since 09-07 (no new post yet on the OpenAI Navier-Stokes claim specifically); Not Even Wrong
+unchanged since 09-07; Gowers — new post "What sort of maths are LLMs good at?" (AI-in-math
+meta-commentary, ecosystem context, not chased as a result); Kalai — top post "Overtaken" checked
+via `WebFetch` and found to be an unrelated hiking/rationality allegory, NOT commentary on the
+Navier-Stokes affair despite the suggestive title (correctly excluded); Kalai's older "Amazing:
+There is no Percolation..." post (09-03) independently corroborates the already-tracked/shelved
+Anthropic percolation Lean-formalization capture (09-04), not re-queued; Baez, Strassler,
+Backreaction all opened — unchanged/off-axis patterns (E6/E7 physics posts, dark-dimension hype,
+warp-drive/UAP fringe claim, all already-excluded categories). Scientific American — the controversy
+article above was the day's find; otherwise routine. Repo watch (radar-repo-watch): `WebFetch` on
+`.atom`/`releases.atom` for all three watched repos — mathlib4 daily auto-tag now
+`master-2026-09-08` (routine), lean4 unchanged v4.34.0-rc2/v4.33.1 (08-21), Rocq unchanged 9.3+rc1
+(07-22) — no formalization-milestone movement. Exploration slot (radar-explore, OFF-AXIS rotation):
+math.LO (next in the roster after math.OC) — already covered in full by the primary category-
+rotation batch above (math.LO is both an in-scope tracked category AND the current off-axis-roster
+entry); reviewed all 11 fresh math.LO entries for the period, 0/11 significant off-axis catch
+(routine set theory/model theory papers, non-alarm; roster continues, next: math.OA or math.NA per
+the standing list, pending the W37 Amendment-F roster-refresh decision). Trend recalibration
+(radar-ledger-update): non-invertible symmetries PROMOTED an 11th evidence line (see TRENDS.md);
+Ramsey/Stanley-Gasharov/Marton's-exponent HELD, no new evidence via any lane swept this session.
+Queue additions: 8 new items (2 headline Navier-Stokes-Millennium-adjacent landmarks + the
+Buckmaster vetting-status record + 2 companion Euler/IPM papers + Kalai's-Conjecture-for-Tight-Trees
++ Köthe's-conjecture counterexample + moiré superconductivity discovery + Yau counterexample).
+Queue 186 → 194 (+8; daily does not burn down per domain cadence). capture-leak: 5 new arXiv ids
+checked this session (2609.06751, 2609.07996, 2609.06622, 2609.08012, 2609.06533) — all correctly
+routed to evidence/queue, 0 leaked; non-arXiv-id primaries (Buckmaster statement PDF, euler.pdf,
+ipm.pdf, OpenAI index page + PDF, Scientific American article) cited directly on their own
+queue/study_shelf lines. Full-file mechanical sweep: 230 unique arXiv ids found this session (prior
+session self-reported 252 — the discrepancy is unresolved and not chased further this session, flagged
+for the weekly to recheck the counting method rather than the file content). Source-discovery:
+cims.nyu.edu CLEARS the ≥2-sighting promotion bar this session (3 distinct artifacts across 2 daily
+runs: Boussinesq 09-07, Euler+IPM+statement 09-08/09) — ready for weekly promotion into the swept
+registry; no other new untracked on-axis domain surfaced (openai.com and cdn.openai.com are already
+in the swept AI-watch lane; scientificamerican.com is already DAILY-tier). study_shelf: 2 new picks
+(the OpenAI Navier-Stokes Millennium Prize claim; the Alpöge-Buckmaster Euler blowup). README.md
+regenerated from the updated ledger in the same commit.

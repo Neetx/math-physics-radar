@@ -1120,3 +1120,25 @@ Corrections to the source-coverage strategy.
   other new captures (the Alpöge-Buckmaster PDF, the two PRL items) use non-arXiv-id URLs and are
   cited directly by eye on their own queue lines. Full-file mechanical sweep: 252 unique arXiv
   ids (up from 251), consistent with the one new id — 0 file-wide leaks.
+- 2026-09-09 (daily) — Capture-leak count discrepancy: this session's mechanical sweep
+  (`grep -oE '[0-9]{4}\.[0-9]{4,5}' TRENDS.md | sort -u | wc -l`) found 230 unique arXiv ids, not
+  ~252-253 as the trend from recent dailies' self-reports would predict (251→252 over 09-07→09-08,
+  +5 new ids expected today ≈ 257). The discrepancy (230 vs. ~257 expected) was NOT chased down
+  this session — flagging for the weekly to determine whether it is a genuine regex/counting-method
+  drift between sessions (e.g. a prior session counting substring occurrences rather than unique
+  ids, or a different digit-width pattern) or an actual content change; no evidence of accidental
+  content loss was found in a spot-check of the file structure (headers, evidence caps, and the
+  known older entries all verified intact this session).
+- 2026-09-09 (daily) — Load-state near-miss: a `git fetch origin main claude/modest-bohr-wg8j3e`
+  (two refs in one invocation) failed to update the local `origin/main` tracking ref for one of the
+  two refspecs, briefly reading as a possible stranded-branch state (matching the AGENTS.md
+  BRANCH WARNING pattern). A clean single-ref `git fetch origin main` immediately resolved it —
+  `origin/main` was already fully current with local HEAD (71b5747), no push needed. This is the
+  SAME multi-ref-fetch artifact class already flagged in the 09-07 daily's log — now seen twice.
+  Recommend: weekly should consider adding "always fetch `origin main` as its own single-ref
+  invocation during load-state" as a standing operating note (not a routine amendment, since this
+  is a tooling-usage habit, not a scope/skill change) to stop this false-alarm pattern recurring.
+- 2026-09-09 (daily) — Source-discovery: cims.nyu.edu now clears the ≥2-sighting promotion bar (3
+  distinct on-axis primary artifacts — Boussinesq 09-07, Euler + IPM + a public statement 09-08/09
+  — across 2 separate daily runs); flagged ready for weekly promotion into the swept registry
+  rather than promoted here (daily stages, weekly promotes, per the source-discovery convention).
