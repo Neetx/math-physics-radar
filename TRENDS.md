@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-09
+Last updated: 2026-09-10
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -364,16 +364,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     17 days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-06
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-09
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
   gapless-phase classification via the Symmetry TFT. Three fully independent author groups now hold
   concrete artifacts on this sub-theme, clearing the ≥3-group + artifact convergence bar today.
 - evidence:
-  - 2026-07-06 — https://scipost.org/SciPostPhys.21.1.005 — Antunes, Rong, "Irrational CFTs from
-    coupled anyon chains with non-invertible symmetries?" (SciPost API metadata + page opened this
-    session).
   - 2026-07-23 — https://scipost.org/SciPostPhys.21.1.019 — Bhardwaj, Gai, Huang, Inamura,
     Schäfer-Nameki, Tiwari, Warman, "Gapless phases in (2+1)d with non-invertible symmetries": a
     systematic Symmetry-TFT framework for phase transitions with categorical symmetries in (2+1)d,
@@ -441,6 +438,20 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Lagrangian algebra. Abstract + authors verified via arXiv API this session (v1 2026-09-06,
     surfaced in today's fresh cond-mat.str-el batch); oldest evidence line (2604.02856,
     Oishi–Ebisu) dropped to hold the 10-item cap, per `radar-ledger-update`.
+  - 2026-09-09 — https://arxiv.org/abs/2609.09550 — Chen, Jia, "On general background of quantum
+    non-invertible symmetry in 2D": a TWELFTH fully independent author group (independent of all
+    eleven above), develops a general framework for computing partition functions of the dual
+    Rep(G) theory obtained by gauging a non-abelian symmetry G, in arbitrary non-invertible-symmetry
+    (topological-defect-network) backgrounds, with worked examples for finite groups and a formal
+    extension to compact Lie groups (Rep(SU(2))). Abstract + authors verified via arXiv API this
+    session (v1 2026-09-09, surfaced in today's fresh hep-th batch); oldest evidence line
+    (2026-07-06, Antunes–Rong) dropped to hold the 10-item cap.
+- notes: 2026-09-10 (daily): today's fresh hep-th batch (2026-09-09) surfaced a twelfth independent
+  group's artifact on this trend (Chen–Jia, general partition-function framework for Rep(G)
+  non-invertible-symmetry backgrounds) — appended as evidence; oldest evidence line dropped to hold
+  the cap. Stage HELD accelerating/high (confidence ceiling, already well past the convergence bar
+  on both group-count and pace); last_evidence moves 2026-09-06 → 2026-09-09. Still no explicit
+  lattice/continuum cross-citation (the standing watch item since W34).
 - notes: 2026-09-09 (daily): today's full math+physics category-rotation batch (2026-09-05→09-09,
   ~1.4k fresh entries) surfaced an eleventh independent group's artifact on this trend
   (Ravindran–Eck–Chen, Ginzburg-Landau theory for non-invertible symmetry-breaking transitions,
@@ -2752,6 +2763,21 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   without this radar adjudicating it. Watch for independent expert refereeing/replication — this is
   PROVISIONAL, not a resolved Millennium Prize problem, until the community confirms. Also on
   `study_shelf`.
+  - 2026-09-10 (daily, VETTING-STATUS DEVELOPMENT) — Peter Woit, "A Modest Proposal," Not Even Wrong
+    — https://www.math.columbia.edu/~woit/wordpress/?p=15864 — a same-blog follow-up to the already-
+    tracked "Situation at Columbia" digest source (DAILY-tier), posted 2026-09-09: Woit reports (as
+    secondhand, explicitly attributed) Sam Altman's own stated motivation for OpenAI's attempt
+    ("there were rumors on the internet last week that Anthropic's models had solved a millennium
+    problem and we were curious if ours could do it too") and a circulating account that
+    Alpöge/Buckmaster's own near-solution, developed with Anthropic-affiliated help, may have reached
+    OpenAI before its announcement — deepens, but does not resolve, the priority/circumstances dispute
+    already flagged via the 2026-09-08 Scientific American item and Buckmaster's own statement (queued
+    below). Blog post opened in full via `tvly extract` this session (dated 2026-09-09). Tracked as
+    part of this claim's vetting-status record per the hype-skepticism hard rule — this radar reports
+    that the dispute exists and what its participants have said on the record, it does not adjudicate
+    priority. Watch for a direct on-record response from OpenAI/Altman beyond the quoted remark, and
+    for any editorial-standards proposal (Woit's own "modest proposal": AI-agent usage disclosure
+    norms for claimed proofs) gaining traction in the community.
 - 2026-09-08 (self-published statement, author's own institutional page; discovered via Hacker News
   front page this session, same story as the OpenAI entry above) — Tristan Buckmaster (NYU Courant),
   public statement — https://cims.nyu.edu/~tristanb/statement.pdf — axis 5 AI-watch /
@@ -2835,6 +2861,86 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   authors verified via arXiv API this session (v1 2026-09-06). Below-bar (a single-author-pair
   counterexample to a named conjecture, not yet corroborated) but named-conjecture-prominent enough
   to track.
+- 2026-09-09 (v1 2026-09-09; discovered via today's fresh math.AG batch) — Zehua Lai, Lek-Heng Lim,
+  Junyu Ren, "Pierce-Birkhoff conjecture is false" — https://arxiv.org/abs/2609.10420 — real
+  algebraic geometry (axis 1, math.AG; axis 5 AI-watch): refutes the PIERCE-BIRKHOFF CONJECTURE
+  (Pierce & Birkhoff, 1956; ~70 years open) via an explicit continuous piecewise-quadratic function
+  on a finite semialgebraic partition of $\mathbb{R}^n$ that cannot be expressed as a finite lattice
+  combination of polynomials. Abstract + authors verified via arXiv API this session (v1 2026-09-09);
+  the conjecture's 1956 origin and standing corroborated via Wikipedia and a Delzell survey, both
+  opened via `tvly` this session. A genuine domain-cadence landmark (a named ~70-year-old conjecture
+  in real algebraic geometry now refuted). HEAVY CAVEAT (hype-skepticism + AI-watch rules): the
+  authors' own abstract states the counterexample "was found with the assistance of our multi-agent,
+  multi-model setup that chains together GPT 5.6, GPT 6, Claude Opus 5, and Claude Fable 5.1" —
+  unrefereed → PROVISIONAL until independent vetting; track the mathematical RESULT, not the AI
+  method (sibling AI radars' beat). Also on `study_shelf`.
+- 2026-09-09 (v1 2026-09-09; discovered via today's fresh math.AP batch, follow-up to the standing
+  OpenAI Navier-Stokes queue entry above) — Shaozhen Cao, Zhuoni Chi, "Distribution of Singular Data
+  Generated by Compact Forced Navier-Stokes Blowup" — https://arxiv.org/abs/2609.10262 — PDE (axis 1,
+  math.AP; axis 5 AI-watch / vetting-status record): the FIRST independent arXiv engagement with
+  OpenAI's claimed Navier-Stokes blowup construction (queued above, 2026-09-08) — takes the OpenAI
+  solution as a given starting point ("Starting from the compact, smoothly forced Navier-Stokes
+  blowup solution constructed by OpenAI") and studies, for fixed viscosity/time horizon on the 3-torus,
+  the $H^s$-topology density of smooth forces producing blowup from rest, finding a sharp threshold at
+  $s=1/2$. Abstract + authors verified via arXiv API this session (v1 2026-09-09). IMPORTANT
+  DISTINCTION: this is mathematical ENGAGEMENT with (builds on top of) the OpenAI construction, NOT an
+  independent re-derivation or verification of it — the underlying blowup solution itself remains
+  unrefereed and PROVISIONAL; this paper is evidence the claim is already being treated as a working
+  object by outside researchers, one day after the announcement, not evidence the claim is correct.
+  Also on `study_shelf`.
+- 2026-09-09 (v1 2026-09-09; discovered via today's fresh math.GT batch) — Seong-Jin Lee,
+  "Computation of unknotting numbers: which knot breaks the Bernhard-Jablan Conjecture" —
+  https://arxiv.org/abs/2609.09861 — knot theory (axis 1, math.GT): determines 2,525 previously-
+  unknown unknotting numbers for prime knots up to 13 crossings (Heegaard Floer correction-term
+  obstructions + Greene's spanning-tree model for lower bounds, explicit crossing-change constructions
+  for upper bounds), and identifies the knot 13n3370 as an explicit counterexample to the original
+  Bernhard-Jablan conjecture (a standing conjecture on unknotting number vs. minimal-diagram crossing
+  changes). Abstract + author verified via arXiv API this session (v1 2026-09-09). Below-bar
+  (single-author, unrefereed, a more specialized named conjecture than this session's Pierce-Birkhoff
+  catch) but a concrete refutation of a real, cited open conjecture — worth tracking.
+- 2026-09-09 (v1 2026-09-09; discovered via today's fresh math.CA batch) — K. Castillo, S. Yakubovich,
+  "A proof of Askey's convexity conjecture" — https://arxiv.org/abs/2609.10209 — special functions
+  (axis 1, math.CA): proves (strengthens, as strict convexity) Askey's 1993 convexity conjecture on
+  the function $\beta(\alpha)$ defined via zeros of Bessel functions of the first kind. Abstract +
+  authors verified via arXiv API this session (v1 2026-09-09). Below-bar (a ~33-year-old named
+  conjecture, not classical-scale, but resolved by established special-functions researchers) —
+  unrefereed, standard caution.
+- 2026-09-09 (discovered via today's fresh math.AG/math.RA/math.FA batch; three unrelated below-bar
+  counterexamples to named conjectures, grouped for brevity) — Xiuqing Duan, "Counterexamples to GNS
+  Conjecture 1.8," https://arxiv.org/abs/2609.09637 (disproves both parts of a Gabrielov-Novikov-
+  Shapiro conjecture on Coulomb-potential critical points via explicit charge configurations);
+  Haruhisa Enomoto, "A counterexample to the periodicity conjecture for finite-dimensional algebras,"
+  https://arxiv.org/abs/2609.09732 (a 36-dimensional algebra whose simple modules are periodic but the
+  algebra itself is not); Shuo Shi, Juan Zhang, Yun Zhang, "A counterexample to Huang's weak
+  majorization conjecture," https://arxiv.org/abs/2609.09749 (an explicit $3\times3$ matrix pair
+  refuting a 2011 singular-value majorization inequality for Hadamard products). Abstracts + authors
+  verified via arXiv API this session (all v1 2026-09-09). All single/few-author, unrefereed,
+  specialized (not classical-scale) named-conjecture refutations — below-bar, standard caution.
+- 2026-09-09 (v1 2026-09-09; discovered via today's fresh cond-mat.supr-con batch) — Yingnan Liu, Yan
+  Liu, Renyu Duan, Menghui Wang, Meiling Xu, Hanyu Liu, Shoutao Zhang, "Record-Breaking Elemental
+  Superconductivity in Tetralayer Kagome Borophene" — https://arxiv.org/abs/2609.09730 — condensed
+  matter (axis 3, cond-mat.supr-con): first-principles (fully anisotropic Migdal-Eliashberg) prediction
+  of a liquid-nitrogen-temperature elemental 2D superconductor (Tc = 102 K, a record among predicted
+  elemental superconductors) in tetralayer kagome borophene, via a distinct out-of-plane s-pz-bonding
+  pairing channel. Abstract + authors verified via arXiv API this session (v1 2026-09-09). Below-bar —
+  a THEORETICAL PREDICTION only, not yet synthesized/measured; track for an experimental follow-up.
+- 2026-09-09 (ecosystem/milestone, via CERN Courier, opened this session) — "The LHC completes its
+  third run" — https://cerncourier.com/a/the-lhc-completes-its-third-run/ — particle physics (axis 3):
+  on 2026-06-27 the LHC completed Run 3, delivering ~550 fb⁻¹ of integrated luminosity (nearly double
+  the ~300 fb⁻¹ original target, per accelerator director Oliver Brüning) before entering Long
+  Shutdown 3 to become the High-Luminosity LHC. Page opened via `tvly extract` this session. Below-bar
+  ecosystem/operations milestone, not a new physics result — context for any ATLAS/CMS Run-3 final
+  analyses expected over the coming shutdown.
+- 2026-09-09 (SIGNIFICANT, OFF-AXIS — `radar-explore`, cs.CC rotation slot) — Sergei Kudria, Jason
+  Luo, Mahbod Majid, "Subexponential Approximation of the Permanent in Deterministic Polynomial Time"
+  — https://arxiv.org/abs/2609.10516 — theoretical computer science (off-axis, computational
+  complexity): the first deterministic polynomial-time algorithm approximating the permanent of an
+  arbitrary nonnegative rational matrix to within a SUBEXPONENTIAL factor ($\exp(o(n))$), improving
+  every previously known deterministic guarantee for unrestricted inputs (all $\exp(\Omega(n))$), via
+  convex optimization tightening a matching-sum upper bound. Abstract + authors verified via arXiv API
+  this session (v1 2026-09-09). Outside this radar's five core axes (computational complexity, not
+  math/physics research per se) but a genuine, significant advance on a classical hard-approximation
+  problem — queued per the exploration slot's significance-first rule.
 
 ## source_rotation
 
@@ -2852,6 +2958,17 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-09 (v1 2026-09-09) — [Pierce-Birkhoff conjecture is false (Lai, Lim, Ren)](https://arxiv.org/abs/2609.10420)
+  — refutes the Pierce-Birkhoff conjecture (1956, ~70 years open) via an explicit piecewise-quadratic
+  counterexample not expressible as a finite lattice combination of polynomials in real algebraic
+  geometry; unrefereed and found with multi-agent AI assistance (GPT 5.6/6, Claude Opus 5, Claude
+  Fable 5.1), but a genuine landmark-scale claim against one of the field's classical named conjectures.
+- 2026-09-09 (v1 2026-09-09) — [Distribution of Singular Data Generated by Compact Forced Navier-Stokes Blowup (Cao, Chi)](https://arxiv.org/abs/2609.10262)
+  — the first independent mathematical engagement with OpenAI's claimed Navier-Stokes blowup
+  construction, one day after its announcement: takes the construction as given and derives a sharp
+  $H^{1/2}$ density threshold for which smooth forces reproduce it — a notable vetting-status data
+  point (the claim is already being worked with, not yet independently verified) worth knowing
+  alongside the OpenAI item below.
 - 2026-09-08 — [On the Navier–Stokes Millennium Prize Problem (OpenAI, internal model)](https://openai.com/index/navier-stokes-solution/)
   — OpenAI claims an internal AI system produced an analytical proof and Lean formalization that a
   smooth, finite-energy 3D incompressible fluid under smooth forcing can blow up in finite time,

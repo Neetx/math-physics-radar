@@ -1142,3 +1142,16 @@ Corrections to the source-coverage strategy.
   distinct on-axis primary artifacts — Boussinesq 09-07, Euler + IPM + a public statement 09-08/09
   — across 2 separate daily runs); flagged ready for weekly promotion into the swept registry
   rather than promoted here (daily stages, weekly promotes, per the source-discovery convention).
+- 2026-09-10 (daily) — Self-heal note (partial): SciPost's Anubis bot-check now blocks individual
+  article pages too (not just the `/api/publications/` endpoint), a 3rd consecutive degraded daily —
+  full heal still owed. A second partial workaround found this session: `scipost.org/sitemap.xml`
+  loads via plain `curl` with no bot-check and lists every publication's short-code URL, letting the
+  radar detect THAT new publications exist (issue-number advancement) even though titles/abstracts
+  stay blocked on both the API and article pages. Recorded in SOURCES.md; if the Anubis block persists
+  a 4th consecutive daily this becomes a genuine heal-owed escalation per `radar-source-heal`.
+- 2026-09-10 (daily) — Capture-leak count still unreconciled: this session's mechanical sweep found
+  240 unique arXiv ids (up from 230 pre-session), consistent with exactly the 10 ids captured this
+  session — 0 new leaks. The 09-09 daily's flagged discrepancy (230 found vs. ~257 predicted by the
+  prior self-reported trend) was NOT chased down this session either; still flagged for the weekly to
+  determine whether it is a counting-method drift between sessions or something else — no evidence of
+  content loss found in either session's spot-checks.
