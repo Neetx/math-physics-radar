@@ -1155,3 +1155,23 @@ Corrections to the source-coverage strategy.
   prior self-reported trend) was NOT chased down this session either; still flagged for the weekly to
   determine whether it is a counting-method drift between sessions or something else — no evidence of
   content loss found in either session's spot-checks.
+- 2026-09-11 (daily) — Self-heal: SciPost's publications API is WORKING again this session (4th
+  consecutive degraded daily broken) — `/api/publications/` returns full JSON with no Anubis
+  challenge; individual article pages (e.g. `/SciPostPhys.21.3.058`) remain Anubis-blocked, so this
+  is a partial heal (browse/list restored via the API; direct article-page reading still needs the
+  sitemap-existence + `tvly search`-title workarounds recorded 09-09/09-10). Using the restored API
+  this session caught a 13th independent-group artifact on the non-invertible-symmetries trend
+  (Kaidi-Shi-Shimamori-Sun, SciPostPhys.21.3.058, published 2026-09-09) that yesterday's degraded
+  sweep had missed — closing a 2-day capture-leak window. Recommend the next daily re-confirm the
+  API stays up before declaring the block fully resolved.
+- 2026-09-11 (daily) — Source-discovery: staged anima-ai.org (Anima Anandkumar's lab blog) — 1
+  sighting (the Ganeshram-Duruisseaux-Anandkumar unforced-Euler self-similar-singularity claim,
+  self-published 2026-09-07, discovered via Terence Tao's blog) — structurally the same off-arXiv
+  AI-disclosure-lane pattern as the already-tracked proofatlas.ai/preprints.org/cims.nyu.edu
+  candidates; access via direct URL (the blog post links the manuscript PDF) or `tvly search
+  "anima-ai.org <topic>"`. HELD below the ≥2-sighting promotion bar (1 sighting).
+- 2026-09-11 (daily) — Capture-leak count still unreconciled: this session's mechanical sweep found
+  256 unique arXiv ids (up from 240 pre-session), consistent with exactly the 16 new ids captured
+  this session (15 landing on discrete lines + 1 pure background-reference citation) — 0 new leaks.
+  The 09-09 daily's flagged discrepancy (230 found vs. ~257 predicted by the prior self-reported
+  trend) was NOT chased down this session either — still flagged for the weekly.

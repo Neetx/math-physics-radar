@@ -1413,3 +1413,122 @@ math.columbia.edu/~woit already DAILY-tier; Wikipedia used only for non-evidence
 corroboration, not itself a tracked source class). study_shelf: 2 new picks (Pierce-Birkhoff
 conjecture refuted; the Cao-Chi Navier-Stokes engagement paper). README.md regenerated from the
 updated ledger in the same commit.
+2026-09-11 (Fri, ~scheduled) — first daily since 2026-09-10. Load-state: single-ref `git fetch
+origin` confirmed local HEAD (ee78fe5) already matches origin/main; two other feature branches
+(modest-bohr-9415kc, peaceful-faraday-n2ehd0) both fully merged ancestors — no orphaned radar
+commit, no stranded state. FULL CHECK of every DAILY-tier mandatory lane. Primary sweep
+(radar-source-sweep, arXiv API): full in-scope math category-rotation set (math.CO/NT/AG/AC/RA/
+KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT, 500-entry cap, 246 fresh 2026-09-10 entries
+triaged) + physics (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/
+astro-ph.CO/HE/GA/nucl-th/nlin.SI, 500-entry cap, 199 fresh 2026-09-10 entries) both via arXiv API
+this session — an unusually LANDMARK-DENSE math batch. HEADLINE CAPTURES (abstracts opened via
+arXiv API): Houdayer-Marrakchi, "The classification of flows on II_1 factors and Connes'
+bicentralizer problem" (2609.11462) — settles a foundational 1970s-open problem in von Neumann
+algebra theory (+ Takesaki's flow-classification problem) → queue + study_shelf, today's top
+story; Chen-Ghomi-Wang, "The Cartan-Hadamard conjecture in dimension five" (2609.11005) → queue;
+Han-Khuri-Weinstein-Xiong, "Electrovacuum Black Hole Uniqueness" (2609.11140) → queue; Bucić, "The
+uniform Turán density of K4^(3)" (2609.11802, answers a 1982 Erdős-Sós question) → queue. A
+CAPTURE-LEAK CATCH via today's Quanta feature ("The Four-Color Theorem Gets a Rare New Proof",
+Gregory Barber, 09-10, opened in full via direct fetch): Inoue-Kawarabayashi-Miyashita-Mohar-
+Thomassen-Thorup, "The Four Color Theorem with Linearly Many Reducible Configurations and
+Near-Linear Time Coloring" (arXiv:2603.24880, v1 2026-03-25, missed for ~5.5 months) — a
+near-linear-time 4-coloring algorithm via a structurally new proof → queue + study_shelf. Also
+captured (grouped, below-bar): Koymans-Pagano-Shusterman's Chowla non-vanishing conjecture over
+F_q(T) (2609.11855), Huang-Wang's proof of Füredi's Conjecture (2609.11742), Ren's wrapping-number-
+conjecture counterexample (2609.11084), Luo's Ball-Nayar-Tkocz entropy-concavity counterexample
+(2609.11418), Luo-Xu's bounded-conductor finiteness conjecture (partial pos./fails in general,
+2609.11456), Bai's irrationality-measure-of-π refinement (2609.11276). Ramsey/Stanley-Gasharov/
+Marton's-exponent trends: keyword-swept against the full fresh batch — only a peripheral "Every
+subset of a topological Ramsey space is Ramsey in the Solovay model" (set-theoretic, not a
+Ramsey-NUMBER lower bound) — all three trends HELD, no notes written (nothing changed). Physics
+batch: non-invertible symmetries trend gained a 14th independent group (Ohki-Uemura,
+"Non-invertible Selection Rules from Generalized Discrete Gauging of Finite Non-Abelian
+Symmetries", 2609.11895) — appended as evidence, oldest line dropped to hold the cap. Also
+captured from the physics batch: Hernández Iglesias's proof of the Hodge universality conjecture
+at nonzero dispersion (2609.11469, math-ph/nlin.SI) and Shen's Chen-Yang volume conjecture for
+long integral fillings (2609.11839, math.GT) — both queue items. A generalised-semi-Clifford-
+conjecture disproof (2609.11903, de Silva-Lautsch) was reviewed and correctly EXCLUDED — Clifford-
+hierarchy/fault-tolerant-quantum-computing territory, the sibling quantum radar's beat, not this
+radar's axis 4 (quantum foundations/physics, not computing technology). APS PRL/PRX/RMP opened
+(RSS): PRL routine (particle/AMO/cond-mat batch); PRX surfaced a peer-reviewed publication of a
+quantum-foundations preprint on-axis 4 — Vilasini-Woods, "General Quantum Circuit Framework for
+Extended Wigner's Friend Scenarios" (arXiv:2209.09281, originally 2022, now in PRX) → queue; RMP
+unchanged. Nature Physics RSS opened — titles now populate again (the standing CDATA-empty
+degradation appears resolved this session, worth re-confirming next daily before declaring a
+full heal) — routine condensed-matter highlights, nothing on-axis beyond routine. SciPost API
+opened — HEALED this session after a 4th consecutive degraded daily: the `/api/publications/`
+endpoint now returns full JSON (Anubis bot-check no longer blocks it); individual article pages
+(e.g. `/SciPostPhys.21.3.058`) remain Anubis-blocked (confirmed via direct fetch this session) —
+a partial heal, API-only. Using the restored API, caught Kaidi-Shi-Shimamori-Sun, "The SymTFT for
+N-ality defects: Part I" (SciPostPhys.21.3.058, published 2026-09-09) — a 13th independent group
+on the non-invertible-symmetries trend, missed by yesterday's degraded sweep (a 2-day capture-leak
+catch now closed) → appended as evidence. INSPIRE-HEP opened (most-recent dominated by detector/
+instrumentation again, standing pattern, nothing on-axis). CERN Courier opened (same known batch
+as prior sessions, unchanged). Fermilab opened (routine AI/ops news). Simons Foundation opened
+(routine; the "Universal Statistics in Number Theory" collaboration item recurring in the feed
+window was already captured 08-18/08-2x — correctly NOT re-queued as new, checked against TRENDS.md
+before adding). Experiments block (LIGO/DESI/CERN/IceCube/LZ): LIGO Cloudflare-blocked to direct
+`curl` again this session, healed via `tvly extract` on the plain `/news` URL (unchanged, still
+GWTC-5.0); DESI unchanged (static homepage); CERN home `/feed/` routine (obituary/ops/safety, no
+new research); IceCube `/category/news/feed/` surfaced "Search for neutrino emission from tidal
+disruption events" (09-09) — a general/stacking TDE-neutrino search, reviewed via `tvly
+search`/extract, appears to be a routine null-result-class collaboration search (no announced
+detection) — below the individual-capture significance bar, not queued, consistent with how
+similar null-result searches (e.g. KM3NeT) have been treated; LZ publications page unchanged
+(still 2604.21503, no new 248 keV collaboration submission). Community pulse (radar-pulse): HN
+front page (Algolia API) surfaced "More questions about whether researchers can trust OpenAI with
+unpublished math" → chased to a Mathstodon thread (bare URL per the pulse intake rule, individual
+not named in this ledger's own prose) containing a credentialed mathematician's on-record
+allegation of OpenAI dishonesty about private-conversation data use, plus OpenAI's own quoted
+qualified statement on the Buckmaster-Alpöge case — appended as an UNVERIFIED dated sub-note on
+the standing OpenAI queue entry; r/math and r/mathematics STILL the standing hard network-level
+block (403, escalated to curator, unchanged, not re-diagnosed again this session); MathOverflow
+`/feeds` returned empty this pass (transient, standing pattern, logged opened); Mathstodon public
+timeline opened (generic federated-timeline noise, standing). Full digest lane: Quanta surfaced
+TWO major items — "AI Has Solved One of Math's $1 Million Millennium Prize Problems" (Kakaes,
+09-08, opened in full) synthesizing the standing OpenAI/Buckmaster-Alpöge saga with a new detail
+(OpenAI's Lean-verification claim, the "12 hours after" near-simultaneous timing) → appended as a
+dated sub-note on the OpenAI entry; and "The Four-Color Theorem Gets a Rare New Proof" (Barber,
+09-10) → the capture-leak catch above. Tao's blog surfaced a FOURTH, DISTINCT AI-assisted
+fluid-blowup claim via a guest post: Ganeshram-Duruisseaux-Anandkumar, "Stable Singularity of the
+Euler Equations on R^3 [without forcing]" (self-published, anima-ai.org, dated 09-07, opened in
+full) — a PINN-discovered + interval-arithmetic-argued self-similar singularity for the UNFORCED
+Euler equations in free space, reviewed pre-release by Tom Hou and Terence Tao → queue +
+study_shelf. Not Even Wrong unchanged since "A Modest Proposal" (09-09, already tracked); Kalai's
+new post ("Overtaken") is a personal anecdote, off-topic, not queued; Gowers/Baez/Strassler/
+Backreaction all opened, routine/off-axis, nothing on-axis beyond already-tracked threads;
+Scientific American searched, nothing new on-axis. Repo watch (radar-repo-watch, `.atom` feeds via
+`tvly extract`): mathlib4 daily tag advanced to master-2026-09-09 (routine); lean4 unchanged
+v4.34.0-rc2/v4.33.1 (08-21); Rocq unchanged 9.3+rc1 (07-22) — no formalization-milestone movement.
+Exploration slot (radar-explore, OFF-AXIS rotation): math.NA (numerical analysis, not read in the
+recent rotation window; math.OA — also nominally on the off-axis roster — is already fully covered
+by the routine in-scope primary sweep this session, so math.NA was chosen instead for a genuinely
+distinct venue) — top 40 items read via arXiv API regardless of sub-topic — all routine numerical-
+methods papers (finite-element/spectral/stochastic-integrator methods), nothing above the
+significance bar → off-axis rate 0 this run (non-alarm per AGENTS.md domain cadence; roster
+continues, next: cs.CC, nlin.SI/CD, q-bio.PE, or econ/q-fin). Trend recalibration
+(radar-ledger-update): non-invertible symmetries PROMOTED two evidence lines (13th + 14th
+independent groups, see above), stage HELD accelerating/high (confidence ceiling); Ramsey/
+Stanley-Gasharov/Marton's-exponent HELD, no new evidence via any lane swept this session. Queue
+additions: 15 new items (5 landmark-tier: Connes' bicentralizer, Cartan-Hadamard dim 5,
+Electrovacuum uniqueness, Turán density of K4^(3), the Four-Color capture-leak catch; 4 grouped
+below-bar named-conjecture results; bounded-conductor finiteness; irrationality-measure-of-π;
+Hodge universality conjecture; Chen-Yang volume conjecture; the Wigner's-Friend PRX publication)
++ 2 dated sub-notes on the standing OpenAI entry (Quanta feature, the Mathstodon allegation) + 1
+new top-level queue entry for the Anandkumar unforced-Euler claim. Queue 202 → 213 (+11; daily
+does not burn down per domain cadence). capture-leak: 16 new arXiv/non-arXiv ids named this
+session (2609.11462, 2609.11005, 2609.11140, 2609.11802, 2603.24880, 2609.11855, 2609.11742,
+2609.11084, 2609.11418, 2609.11456, 2609.11276, 2609.11469, 2609.11839, 2609.11895, 2209.09281 —
+all land on discrete queue/evidence/study_shelf lines; 2602.17570 [Constantin-Ignatova-Vicol] is a
+pure background-context reference cited to interpret the Anandkumar PINN result's scaling
+exponent, not itself a captured primary this session) — 0 leaked; the Anandkumar manuscript and
+Mathstodon/Quanta items cited directly by URL (off-arXiv/non-preprint). Full-file mechanical
+sweep: 256 unique arXiv ids found this session (up from 240 pre-session), consistent with exactly
+the 16 new ids — 0 file-wide leaks (the standing 230-vs-~257-expected count discrepancy from
+09-09/09-10 remains unresolved, still flagged for the weekly). Source-discovery: no new untracked
+on-axis domain surfaced this session (anima-ai.org is a single-sighting off-arXiv AI-disclosure-
+lane candidate, structurally identical to the already-tracked proofatlas.ai/preprints.org/cims.nyu.
+edu pattern — staged below the promotion bar, see strategy_notes). study_shelf: 3 new picks
+(Connes' bicentralizer problem settled; the Four Color Theorem near-linear-time proof; the
+Anandkumar unforced-Euler singularity claim). README.md regenerated from the updated ledger in the
+same commit.

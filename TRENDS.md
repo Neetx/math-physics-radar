@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-10
+Last updated: 2026-09-11
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -364,26 +364,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     17 days old, well inside the 60-day window.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-09
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-10
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
   gapless-phase classification via the Symmetry TFT. Three fully independent author groups now hold
   concrete artifacts on this sub-theme, clearing the ≥3-group + artifact convergence bar today.
 - evidence:
-  - 2026-07-23 — https://scipost.org/SciPostPhys.21.1.019 — Bhardwaj, Gai, Huang, Inamura,
-    Schäfer-Nameki, Tiwari, Warman, "Gapless phases in (2+1)d with non-invertible symmetries": a
-    systematic Symmetry-TFT framework for phase transitions with categorical symmetries in (2+1)d,
-    building on the same group's (2+1)d gapped-phase program (SciPost API metadata + page opened this
-    session).
-  - 2026-08-07 — https://www.nature.com/articles/s41567-026-03390-5 — Ueda, Vander Linden, De Vos,
-    Lootens, Haegeman, Fendley, Verstraete, "Perfect particle transmission through duality defects"
-    (Nature Physics, published online 2026-08-07): a FOURTH fully independent author group (Ghent
-    University tensor-network/quantum-many-body group + Fendley, Oxford — independent of Oishi–Ebisu,
-    Antunes–Rong, and Bhardwaj et al.), peer-reviewed in Nature Physics, constructs topological
-    interfaces/duality defects in quantum spin systems with non-invertible symmetries giving perfect
-    particle transmission (a lattice analogue of the Callan–Rubakov monopole-paradox resolution).
-    Abstract + author list verified via `tvly extract` on the publisher page this session.
   - 2026-08-19 — https://arxiv.org/abs/2608.16520 — Flores-Calderón, Pollmann, Knap (TU Munich),
     "Non-invertible Lattice 1-Form Symmetries for Non-Abelian Topological Order": a FIFTH fully
     independent author group (condensed-matter/quantum-many-body, TUM — independent of Oishi–Ebisu,
@@ -446,6 +433,33 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     extension to compact Lie groups (Rep(SU(2))). Abstract + authors verified via arXiv API this
     session (v1 2026-09-09, surfaced in today's fresh hep-th batch); oldest evidence line
     (2026-07-06, Antunes–Rong) dropped to hold the 10-item cap.
+  - 2026-09-09 — https://scipost.org/SciPostPhys.21.3.058 — Kaidi, Shi, Shimamori, Sun, "The SymTFT
+    for N-ality defects: Part I" (SciPost Physics, published 2026-09-09): a THIRTEENTH fully
+    independent author group (independent of all twelve above), constructs the Symmetry TFT for
+    theories with an N-ality extension of a discrete Abelian symmetry group, determining boundary
+    F-symbols from the choice of bulk Z_N symmetry (Tambara-Yamagami-like structures for prime N).
+    Title/authors/abstract/dates verified via the SciPost publications API this session (API healed
+    this session — see coverage log; individual article pages remain Anubis-blocked). Oldest
+    evidence line (2026-07-23, Bhardwaj et al.) dropped to hold the 10-item cap.
+  - 2026-09-10 — https://arxiv.org/abs/2609.11895 — Ohki, Uemura, "Non-invertible Selection Rules
+    from Generalized Discrete Gauging of Finite Non-Abelian Symmetries": a FOURTEENTH fully
+    independent author group (independent of all thirteen above), develops a general framework for
+    non-invertible selection rules from discrete H-gauging of non-Abelian discrete global symmetries,
+    with non-Abelian multidimensional-irrep effects central to the construction. Abstract + authors
+    verified via arXiv API this session (v1 2026-09-10, surfaced in today's fresh hep-th/hep-ph
+    batch). Oldest evidence line (2026-08-07, Ueda et al., Nature Physics) dropped to hold the
+    10-item cap.
+- notes: 2026-09-11 (daily): today's fresh hep-th/hep-ph batch surfaced a fourteenth independent
+  group (Ohki–Uemura, arXiv:2609.11895) and the SciPost API — HEALED this session after a 4th
+  consecutive degraded daily (the Anubis block on the API endpoint itself has lifted; individual
+  article pages remain blocked) — surfaced a thirteenth (Kaidi–Shi–Shimamori–Sun,
+  SciPostPhys.21.3.058, "The SymTFT for N-ality defects: Part I", published 2026-09-09, missed by
+  yesterday's degraded sweep — a 2-day capture-leak catch now closed). Both appended as evidence;
+  two oldest evidence lines (Bhardwaj et al. 07-23, Ueda et al. 08-07 Nature Physics) dropped to
+  hold the cap — both remain named in this trend's own dated history above. Stage HELD
+  accelerating/high (confidence ceiling, already well past the convergence bar); last_evidence
+  moves 2026-09-09 → 2026-09-10. Still no explicit lattice/continuum cross-citation (standing watch
+  item since W34).
 - notes: 2026-09-10 (daily): today's fresh hep-th batch (2026-09-09) surfaced a twelfth independent
   group's artifact on this trend (Chen–Jia, general partition-function framework for Rep(G)
   non-invertible-symmetry backgrounds) — appended as evidence; oldest evidence line dropped to hold
@@ -2778,6 +2792,51 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     priority. Watch for a direct on-record response from OpenAI/Altman beyond the quoted remark, and
     for any editorial-standards proposal (Woit's own "modest proposal": AI-agent usage disclosure
     norms for claimed proofs) gaining traction in the community.
+  - 2026-09-11 (daily, VETTING-STATUS DEVELOPMENT ×2) — (a) Quanta Magazine, "AI Has Solved One of
+    Math's $1 Million Millennium Prize Problems" (Konstantin Kakaes, published 2026-09-08, opened in
+    full via direct fetch this session) — https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/
+    — Quanta's own feature synthesizes the full episode for a general mathematical audience and adds
+    a detail not previously on this ledger: OpenAI's announcement came "12 hours after" the
+    Buckmaster-Alpöge disclosure (near-simultaneous, not independently timed), and states the OpenAI
+    proof "has been formally checked in the programming language Lean, giving mathematicians
+    confidence" — framing repeated from OpenAI's own claim, not independently re-verified by this
+    radar. Quanta itself calls the result "not without controversy." (b) An UNVERIFIED community-pulse
+    signal (Mathstodon, bare URL per the pulse intake rule — https://mathstodon.xyz/@andreasthom/117240535270608201,
+    posted 2026-09-09) from a credentialed mathematician alleges OpenAI gave a misleading answer, after
+    its earlier non-sofic-groups announcement, to a direct question about whether private ChatGPT
+    conversations had entered training data or were accessible to the model's reasoning process, and
+    quotes OpenAI's own qualified statement on the Buckmaster-Alpöge case that it "cannot rule out that
+    de-identified data derived from their usage of our products helped improve our models." This radar
+    records that this allegation and quoted statement exist as a further, unverified data point in the
+    standing vetting-status/trust dispute — it does not adjudicate the claim. Track for an on-record
+    OpenAI response.
+- 2026-09-07 (self-published PDF, author's own lab page; a FOURTH, DISTINCT AI-assisted fluid-blowup
+  claim, independent authorship from the OpenAI and Buckmaster-Alpöge entries above, discovered via
+  Terence Tao's blog today — a guest post by one of the paper's authors) — Adarsh Ganeshram (UC
+  Berkeley), Valentin Duruisseaux, Anima Anandkumar (Caltech/NVIDIA), "Stable Singularity of the
+  Euler Equations on R^3" — https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/
+  (manuscript linked from that page) — PDE / mathematical physics (axis 1/2, math.AP): claims a
+  stable, self-similar finite-time singularity for the 3D incompressible EULER equations WITHOUT
+  forcing or boundary (in free space) — a harder, more direct case than the forced variants tracked
+  above (OpenAI's forced Navier-Stokes, Alpöge-Buckmaster's forced Euler/Boussinesq/IPM), closer in
+  spirit to the actual open Euler-in-R^3 problem. Method: a physics-informed neural network (PINN)
+  discovers the numerical self-similar profile (scaling exponent converging near the theoretically
+  "distinguished" 0.5 of Constantin et al., arXiv:2602.17570), then the authors claim to convert this
+  into a rigorous stability argument via piecewise-polynomial spline fitting and arbitrary-precision
+  interval arithmetic, with LLMs (OpenAI's and others') used to simplify the resulting nonlinear
+  energy-estimate bounds. Blog post opened and read in full via `tvly extract` this session (dated
+  2026-09-07); the full 100+-page manuscript was NOT read in full this session (evidence rules require
+  opening the primary — the landing page + linked-PDF existence were verified; the interior technical
+  claims are cited from the authors' own summary, not independently checked). NOTABLE VETTING SIGNAL:
+  disclosed via a guest post on Terence Tao's own blog, with Tao's post explicitly stating he
+  encouraged the authors to release publicly after reviewing an early draft alongside Tom Hou (the
+  field's leading expert on Euler-equation self-similar blowup, Hou-Chen 2022) — an expert-engagement
+  pattern comparable to the Sendov-conjecture/Tao precedent already on this ledger, though this is
+  authorial encouragement to publish, not a completed independent re-derivation. HEAVY CAVEATS
+  (hype-skepticism + AI-watch rules unchanged): off-arXiv, self-published, PINN-assisted discovery
+  with LLM-assisted proof-writing, UNREFEREED → PROVISIONAL. A fourth entry in the same-week
+  fluid-blowup cluster; track for an arXiv posting, the promised code/interval-arithmetic
+  verification artifacts, and independent expert review (Hou/Tao's own). Also on `study_shelf`.
 - 2026-09-08 (self-published statement, author's own institutional page; discovered via Hacker News
   front page this session, same story as the OpenAI entry above) — Tristan Buckmaster (NYU Courant),
   public statement — https://cims.nyu.edu/~tristanb/statement.pdf — axis 5 AI-watch /
@@ -2941,6 +3000,111 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   this session (v1 2026-09-09). Outside this radar's five core axes (computational complexity, not
   math/physics research per se) but a genuine, significant advance on a classical hard-approximation
   problem — queued per the exploration slot's significance-first rule.
+- 2026-09-10 (v1 2026-09-10; primary math category-rotation batch, opened this session) — Cyril
+  Houdayer, Amine Marrakchi, "The classification of flows on II_1 factors and Connes' bicentralizer
+  problem" — https://arxiv.org/abs/2609.11462 — operator algebras (axis 2, math.OA/math-ph): settles
+  Connes' bicentralizer problem (open since the 1970s, central to the classification program for
+  type III von Neumann algebra factors) together with Takesaki's classification problem for flows on
+  the hyperfinite II_1 factor, by developing a bicentralizer machinery for trace-preserving group
+  actions and relating it to the Rokhlin property. Abstract + authors verified via arXiv API this
+  session (v1 2026-09-10). LANDMARK — a foundational, decades-old open problem in operator-algebra
+  theory; unrefereed single-preprint, standard caution. Today's top story; also on `study_shelf`.
+- 2026-09-10 (v1 2026-09-10; primary math category-rotation batch, opened this session) — Shibing
+  Chen, Mohammad Ghomi, Peng Wang, "The Cartan-Hadamard conjecture in dimension five" —
+  https://arxiv.org/abs/2609.11005 — differential geometry (axis 1, math.DG/MG): establishes the
+  sharp Euclidean isoperimetric inequality for domains in complete simply-connected Riemannian
+  5-manifolds of nonpositive sectional curvature (the Cartan-Hadamard conjecture in dimension 5),
+  extending the known dimension-2/3/4 cases via a Banchoff-Pohl-style boundary-pair integral
+  inequality for constant-mean-curvature hypersurfaces plus a Jacobi-field estimate. Abstract +
+  authors verified via arXiv API this session (v1 2026-09-10). LANDMARK — a long-standing named
+  geometric conjecture advanced by a full dimension; unrefereed, standard caution.
+- 2026-09-10 (v1 2026-09-10; primary math category-rotation batch, opened this session) — Qing Han,
+  Marcus Khuri, Gilbert Weinstein, Jingang Xiong, "Electrovacuum Black Hole Uniqueness" —
+  https://arxiv.org/abs/2609.11140 — mathematical general relativity (axis 3, gr-qc/math.DG): proves
+  the black hole uniqueness conjecture in the axially symmetric, stationary electrovacuum
+  (Einstein-Maxwell) setting with more than one horizon component (subject to an analyticity
+  hypothesis at the symmetry axes and a refined singular-harmonic-map asymptotic analysis), extending
+  the classical Israel-Carter-Robinson-Mazur uniqueness program to the multi-black-hole electrovacuum
+  case. Abstract + authors verified via arXiv API this session (v1 2026-09-10). LANDMARK — established
+  authors in exactly this sub-field; unrefereed, standard caution.
+- 2026-09-10 (v1 2026-09-10; primary math category-rotation batch, opened this session) — Matija
+  Bucić, "The uniform Turán density of $K_4^{(3)}$" — https://arxiv.org/abs/2609.11802 — extremal
+  combinatorics (axis 1, math.CO): proves the uniform Turán density of the complete 3-uniform
+  4-vertex hypergraph $K_4^{(3)}$ equals $1/2$, answering a question posed by Erdős and Sós in their
+  founding 1982 paper on the topic (~44 years open). Abstract + author verified via arXiv API this
+  session (v1 2026-09-10). LANDMARK — resolves a classical, explicitly-posed Erdős-Sós question;
+  unrefereed single-author preprint, standard caution.
+- 2026-03-25 (v1; a ~5.5-month CAPTURE-LEAK CATCH, surfaced today via a Quanta Magazine feature
+  opened in full this session) — Yuta Inoue, Ken-ichi Kawarabayashi, Atsuyuki Miyashita, Bojan Mohar,
+  Carsten Thomassen, Mikkel Thorup, "The Four Color Theorem with Linearly Many Reducible
+  Configurations and Near-Linear Time Coloring" — https://arxiv.org/abs/2603.24880 — graph theory
+  (axis 1, math.CO): gives a near-linear ($n\log n$, vs. the 1996 Robertson-Sanders-Seymour-Thomas
+  quadratic algorithm) time 4-coloring algorithm for planar graphs, via a significant generalization
+  of the Four Color Theorem — every planar triangulation contains linearly many pairwise
+  non-interfering reducible configurations drawn from previously-unexploited "flat" (degree-6,
+  triangular-lattice-like) regions of the graph, not just the low-degree clusters used by the 1976/1997
+  proofs. Quanta feature ("The Four-Color Theorem Gets a Rare New Proof," Gregory Barber, published
+  2026-09-10) opened in full via direct fetch this session (confirms authors, venue, and the
+  Fulkerson-Prize pedigree of Kawarabayashi-Thorup's prior collaboration); arXiv abstract + author
+  list independently verified via the arXiv API this session. A genuine structural advance on one of
+  mathematics' most famous theorems, missed by the routine arXiv sweep for over 5 months (its March
+  posting predates this ledger's earliest coverage). Also on `study_shelf`.
+- 2026-09-10 (v1 2026-09-10; primary math category-rotation batch, opened this session, grouped for
+  brevity — four independent named-conjecture results, none individually landmark-scale) — Peter
+  Koymans, Carlo Pagano, Mark Shusterman, "Chowla's non-vanishing conjecture over $\mathbb F_q(T)$,"
+  https://arxiv.org/abs/2609.11855 (proves $L(1/2,\chi)\neq0$ for 100% of imaginary quadratic Dirichlet
+  characters of $\mathbb F_q(T)$, a function-field analogue of Chowla's conjecture); Zihao Huang, Suijie
+  Wang, "A Proof of Füredi's Conjecture," https://arxiv.org/abs/2609.11742 (a sharp inequality for
+  strong Bollobás $t$-systems, via a local inequality for graded exterior ideals); Qiuyu Ren, "A
+  counterexample to the wrapping number conjecture," https://arxiv.org/abs/2609.11084 (an annular
+  knot with wrapping number four and annular Kauffman-bracket degree at most two disproves the
+  conjecture); Congyi Luo, "Entropy concavity for log-concave random variables: an asymmetric
+  counterexample," https://arxiv.org/abs/2609.11418 (disproves the Ball-Nayar-Tkocz entropy-concavity
+  conjecture via an explicit asymmetric log-concave density). Abstracts + authors verified via arXiv
+  API this session (all v1 2026-09-10). All unrefereed preprints, standard caution; below the
+  domain-cadence landmark bar (specialized/non-classical-scale conjectures) but genuine named-result
+  resolutions.
+- 2026-09-10 (v1 2026-09-10; primary math category-rotation batch, opened this session) — Yufan Luo,
+  Yiqi Xu, "On the bounded-conductor finiteness conjecture in equal characteristic" —
+  https://arxiv.org/abs/2609.11456 — arithmetic geometry (axis 1, math.NT): investigates the
+  equal-characteristic case of the Moon-Taguchi bounded-conductor finiteness conjecture for mod-$p$
+  Galois representations over global function fields — proves a conditional finiteness theorem, but
+  also shows the conjecture FAILS in general in this setting. Abstract + authors verified via arXiv
+  API this session (v1 2026-09-10). Below-bar (a mixed positive/negative partial resolution); track
+  for the conjecture's proposed correct reformulation, if any.
+- 2026-09-10 (v1 2026-09-10; primary math category-rotation batch, opened this session) — Yufei Bai,
+  "The irrationality measure of $\pi$ is at most 7.101862832357" — https://arxiv.org/abs/2609.11276 —
+  number theory (axis 1, math.NT): sharpens the Zeilberger-Zudilin bound on the irrationality measure
+  of $\pi$ by ~0.0013, via an extra pair of numerator exponents in the Zeilberger-Zudilin integral.
+  Abstract + author verified via arXiv API this session (v1 2026-09-10). Below-bar — an incremental
+  numerical-bound refinement in a well-established program, not a new conjecture resolution.
+- 2026-09-10 (v1 2026-09-10; primary physics category-rotation batch, opened this session) —
+  Francisco Hernández Iglesias, "A proof of the Hodge universality conjecture at nonzero dispersion"
+  — https://arxiv.org/abs/2609.11469 — mathematical physics / integrable systems (axis 2, math-ph/
+  nlin.SI): proves that a scalar tau-symmetric Hamiltonian deformation of the Riemann hierarchy is
+  uniquely determined (up to normal Miura transformations) by two families of coefficients in its
+  first Hamiltonian density, which combined with the Buryak-Rossi construction of Hodge-class double
+  ramification hierarchies establishes Hodge universality at nonzero dispersion. Abstract + author
+  verified via arXiv API this session (v1 2026-09-10). Below-bar (a technical advance completing a
+  known program) but a genuine named-conjecture resolution in integrable systems.
+- 2026-09-10 (v1 2026-09-10; primary physics category-rotation batch, opened this session) — Ce
+  Shen, "The Chen-Yang volume conjecture for long integral fillings of fundamental shadow links" —
+  https://arxiv.org/abs/2609.11839 — quantum topology (axis 2, math-ph/math.GT): proves the Chen-Yang
+  volume conjecture (relating the exponential growth of $SO(3)$ Turaev-Viro invariants to hyperbolic
+  volume) for all sufficiently long integral Dehn fillings of any fixed marked fundamental
+  shadow-link exterior, with mixed-sign filling coefficients. Abstract + author verified via arXiv
+  API this session (v1 2026-09-10). Below-bar (a partial, asymptotic-regime resolution of a named
+  conjecture, not the fully general case).
+- 2026-09-10 (PRX, published 2026; discovered via the daily APS RSS sweep this session) — V.
+  Vilasini, Mischa P. Woods, "General Quantum Circuit Framework for Extended Wigner's Friend
+  Scenarios: Logically and Causally Consistent Reasoning without Absolute Measurement Events" —
+  https://arxiv.org/abs/2209.09281 — quantum foundations (axis 4, quant-ph): a peer-reviewed
+  (Physical Review X) framework modeling agents in Extended Wigner's-Friend Scenarios as unitarily
+  evolving quantum systems via a quantum-circuit formalization of Heisenberg cuts, resolving
+  Frauchiger-Renner-type logical paradoxes while keeping events "fundamentally subjective." Abstract +
+  authors verified via arXiv API this session (originally posted 2022, now peer-reviewed and
+  published in PRX). Below-bar (a mature research-program result now reaching peer review, not a new
+  claim) but a solid quantum-foundations primary, squarely on axis 4.
 
 ## source_rotation
 
@@ -2958,6 +3122,19 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-10 (v1 2026-09-10) — [Connes' bicentralizer problem settled (Houdayer, Marrakchi)](https://arxiv.org/abs/2609.11462)
+  — settles a 1970s-open foundational problem in von Neumann algebra theory (together with Takesaki's
+  classification problem for flows on the hyperfinite II_1 factor), central to the classification of
+  type III factors; unrefereed single preprint, but arguably today's top story.
+- 2026-03-25 (v1; surfaced via Quanta Magazine, 2026-09-10) — [The Four Color Theorem with linearly many reducible configurations (Inoue, Kawarabayashi, Miyashita, Mohar, Thomassen, Thorup)](https://arxiv.org/abs/2603.24880)
+  — a structurally new proof of the Four Color Theorem giving a near-linear-time 4-coloring
+  algorithm (vs. the 1996 quadratic-time algorithm), by exploiting previously-overlooked "flat"
+  regions of planar graphs; a ~5.5-month capture-leak catch, now peer-attention-confirmed via Quanta.
+- 2026-09-07 (self-published, opened via Terence Tao's blog, 2026-09-10) — [Stable Singularity of the Euler Equations on R^3 without forcing (Ganeshram, Duruisseaux, Anandkumar)](https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/)
+  — a PINN-discovered, interval-arithmetic-argued self-similar blowup for UNFORCED 3D incompressible
+  Euler, the fourth entry in this week's AI-assisted fluid-blowup cluster and the closest yet to the
+  actual open free-space problem; reviewed pre-release by Tom Hou and Terence Tao. Off-arXiv,
+  unrefereed, heavily AI-assisted — provisional.
 - 2026-09-09 (v1 2026-09-09) — [Pierce-Birkhoff conjecture is false (Lai, Lim, Ren)](https://arxiv.org/abs/2609.10420)
   — refutes the Pierce-Birkhoff conjecture (1956, ~70 years open) via an explicit piecewise-quadratic
   counterexample not expressible as a finite lattice combination of polynomials in real algebraic

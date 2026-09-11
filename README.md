@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-202-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--10-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-213-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--11-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-10):**
-- **New landmark:** [Pierce-Birkhoff conjecture is false (Lai, Lim, Ren)](https://arxiv.org/abs/2609.10420) refutes a 1956 real-algebraic-geometry conjecture open ~70 years — found with multi-agent AI assistance (GPT 5.6/6, Claude Opus 5, Claude Fable 5.1), unrefereed. Added to [Worth studying](#worth-studying).
-- The OpenAI Navier–Stokes claim's vetting status deepens: [Cao & Chi](https://arxiv.org/abs/2609.10262) publish the first independent arXiv paper to *engage with* (not verify) the OpenAI construction, and [Peter Woit reports](https://www.math.columbia.edu/~woit/wordpress/?p=15864) Sam Altman's own account of the announcement's circumstances — see the [queue entry](TRENDS.md#observation_queue) for both.
-- [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) gained a 12th independent group's [artifact](https://arxiv.org/abs/2609.09550); the other three trends HELD.
-- Also queued: a refutation of the [Bernhard-Jablan conjecture](https://arxiv.org/abs/2609.09861) in knot theory, a proof of [Askey's 1993 convexity conjecture](https://arxiv.org/abs/2609.10209), and a [subexponential deterministic permanent-approximation algorithm](https://arxiv.org/abs/2609.10516) (significant, off-axis). Queue 194 → 202 (+8).
+**Since last scan (2026-09-11):**
+- **New landmark:** [Connes' bicentralizer problem settled (Houdayer, Marrakchi)](https://arxiv.org/abs/2609.11462) resolves a foundational 1970s-open problem in von Neumann algebra theory — unrefereed but today's top story. Four more math landmarks landed the same day: the [Cartan-Hadamard conjecture in dimension five](https://arxiv.org/abs/2609.11005), [Electrovacuum Black Hole Uniqueness](https://arxiv.org/abs/2609.11140), the [uniform Turán density of K₄⁽³⁾](https://arxiv.org/abs/2609.11802) (a 1982 Erdős-Sós question), and a ~5.5-month-old capture-leak catch — a structurally new, near-linear-time [proof of the Four Color Theorem](https://arxiv.org/abs/2603.24880). All added to [Worth studying](#worth-studying).
+- The OpenAI/Buckmaster-Alpöge fluid-blowup saga gains a **fourth, distinct claim**: [Ganeshram, Duruisseaux & Anandkumar](https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/) self-publish a PINN-discovered self-similar singularity for the *unforced* 3D Euler equations, reviewed pre-release by Tom Hou and Terence Tao — see the [queue entry](TRENDS.md#observation_queue).
+- [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) gained a 13th and 14th independent group's [artifact](https://arxiv.org/abs/2609.11895); the other three trends HELD.
+- Also queued: proofs of [Chowla's non-vanishing conjecture over 𝔽_q(T)](https://arxiv.org/abs/2609.11855) and [Füredi's Conjecture](https://arxiv.org/abs/2609.11742), and a peer-reviewed [Extended Wigner's Friend](https://arxiv.org/abs/2209.09281) framework in PRX. Queue 202 → 213 (+11).
 
 ## Trends
 
@@ -16,13 +16,16 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-09](https://arxiv.org/abs/2609.09550) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11895) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-08-22](https://arxiv.org/abs/2608.21769) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-08-31](https://arxiv.org/abs/2608.30336) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- [Connes' bicentralizer problem settled (Houdayer, Marrakchi)](https://arxiv.org/abs/2609.11462) — settles a foundational 1970s-open problem in von Neumann algebra theory, together with Takesaki's classification problem for flows on the hyperfinite II₁ factor; unrefereed, but arguably the biggest single result this ledger has tracked in pure operator-algebra theory.
+- [The Four Color Theorem with linearly many reducible configurations (Inoue, Kawarabayashi, Miyashita, Mohar, Thomassen, Thorup)](https://arxiv.org/abs/2603.24880) — a structurally new proof of the Four Color Theorem giving a near-linear-time 4-coloring algorithm, by exploiting previously-overlooked "flat" regions of planar graphs; a ~5.5-month capture-leak catch, surfaced via a Quanta Magazine feature.
+- [Stable Singularity of the Euler Equations on R^3 without forcing (Ganeshram, Duruisseaux, Anandkumar)](https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/) — a PINN-discovered, interval-arithmetic-argued self-similar blowup for the *unforced* 3D incompressible Euler equations, the fourth entry in this week's AI-assisted fluid-blowup cluster and the closest yet to the actual open free-space problem; reviewed pre-release by Tom Hou and Terence Tao. Off-arXiv, unrefereed, heavily AI-assisted — provisional.
 - [Pierce-Birkhoff conjecture is false (Lai, Lim, Ren)](https://arxiv.org/abs/2609.10420) — refutes the 1956 Pierce-Birkhoff conjecture (~70 years open) in real algebraic geometry via an explicit piecewise-quadratic counterexample; unrefereed and found with multi-agent AI assistance, but a genuine landmark-scale claim.
 - [Distribution of Singular Data Generated by Compact Forced Navier-Stokes Blowup (Cao, Chi)](https://arxiv.org/abs/2609.10262) — the first independent mathematical engagement with OpenAI's claimed Navier-Stokes blowup, one day after its announcement; takes the construction as given and derives a sharp density threshold — a vetting-status data point, not a verification.
 - [On the Navier–Stokes Millennium Prize Problem (OpenAI, internal model)](https://openai.com/index/navier-stokes-solution/) — OpenAI claims an internal AI system produced an analytical proof and Lean formalization that a smooth, finite-energy 3D incompressible fluid under smooth forcing can blow up in finite time, resolving the Navier-Stokes Millennium Prize Problem; wholly AI-generated, unrefereed, and its announcement circumstances are themselves publicly disputed — essential to know, not yet to trust.
@@ -105,13 +108,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) posted new context on the OpenAI Navier-Stokes announcement's circumstances, including Sam Altman's own stated motivation for the attempt.
-- [MathOverflow](https://mathoverflow.net/) has a live thread on whether the Alpöge-Buckmaster program extends to the compressible Navier-Stokes equations — continuing expert engagement, not independent verification.
-- [Hacker News](https://news.ycombinator.com/) front page carried no math/physics story today — yesterday's Navier-Stokes headline has scrolled off.
+- [Hacker News](https://news.ycombinator.com/) front page carried a story questioning whether researchers can trust OpenAI with unpublished mathematics, pointing to a [Mathstodon thread](https://mathstodon.xyz/@andreasthom/117240535270608201) with an unverified allegation about private-conversation data use.
+- [Terence Tao's blog](https://terrytao.wordpress.com/) hosted a guest post disclosing a fourth, distinct AI-assisted fluid-blowup claim (unforced 3D Euler), reviewed pre-release by Tao and Tom Hou.
+- [Quanta Magazine](https://www.quantamagazine.org/) ran two major features this week: a synthesis of the OpenAI/Buckmaster-Alpöge Navier-Stokes saga, and the Four Color Theorem capture-leak catch above.
 - [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (escalated to the curator; unchanged this session).
 - [Gil Kalai's blog](https://gilkalai.wordpress.com/), [Baez's Azimuth](https://johncarlosbaez.wordpress.com/) and [Backreaction](https://backreaction.blogspot.com/) checked — routine/off-axis, nothing new on this week's stories.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (202) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-10](reports/2026-09-10.md)) · weekly: [2026-W36](reports/weekly/2026-W36.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (213) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-11](reports/2026-09-11.md)) · weekly: [2026-W36](reports/weekly/2026-W36.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
