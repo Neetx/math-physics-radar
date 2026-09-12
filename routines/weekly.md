@@ -76,6 +76,17 @@ in this same loop. A recurring on-axis org left un-promoted week after week is a
 (the `source-discovery` metric in `radar-self-eval`).
 Append a dated correction entry to `logs/strategy_notes.md` (append-only; never into TRENDS.md).
 
+**Older-paper / citation-chase pass (Amendment G, applied 2026-W37 — motivated by the M09
+retrospective's finding that both verified September hits were caught only via a Quanta pointer,
+months after their arXiv posting, never independently ahead of the curve; the W37 queue burndown
+found a same-pattern instance again, a 5.5-month-old capture-leak catch via Quanta):** once per
+weekly, run ONE citation/attention-ranked scan filtered to items 3+ months old — arXiv "cited by"
+on a handful of this ledger's own landmark trend anchors, INSPIRE-HEP most-cited
+(`sort=mostcited`), or SciRate top-scited — to catch a landmark result that recency-triaged daily
+sweeps structurally cannot see until a digest points to it. Route any on-axis hit through the
+normal capture rule (evidence/queue/study_shelf); log the pass (even at zero yield) in this
+week's report and `logs/strategy_notes.md`.
+
 ## 5. Self-evaluation
 Follow `radar-self-eval`:
 - Every run: compute the FULL metric set (queue funnel, evidence/stage moves, exploration
