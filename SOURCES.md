@@ -77,6 +77,14 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   newscenter.lbl.gov (Berkeley Lab news; `tvly extract`/`tvly search`) for the press-release side
   of new LZ results.
 - (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
+- cims.nyu.edu (Tristan Buckmaster's NYU Courant institutional page) — **[promoted 2026-09-12
+  (W37 weekly); verified live via direct `curl` this session (200 OK)]** — a working
+  mathematician's own self-publication page for off-arXiv preprints, structurally the same
+  AI-disclosure-lane pattern as openai.com/anthropic.com/proofatlas.ai; source-discovery
+  promotion (3 distinct on-axis primary artifacts across 2 daily runs, 09-07/09-08: the
+  Boussinesq blowup, the Euler blowup, the incompressible-porous-media result, plus a signed
+  public statement) — access via direct URL (predictable `<slug>.pdf` filenames; plain `curl -A
+  "Mozilla/5.0"` works, no `tvly` needed), no feed.
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
 - IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops)
@@ -105,7 +113,7 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
 - SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API. DEGRADED 2026-09-08, STILL DEGRADED 2026-09-09/09-10 (3rd consecutive daily, heal owed): the API endpoint AND individual article pages (e.g. `/SciPostPhys.21.3.054`) both continue to serve an Anubis proof-of-work bot-check challenge page (requires JS execution) to direct `curl` (any UA tried) and `tvly extract` alike. PARTIAL WORKAROUND found 2026-09-09: `tvly search "<topic> scipost"` (not extract) returns live, dated individual publication pages from SciPost's own search index — usable for spot-checking a specific topic but NOT a "what's new" browse. SECOND PARTIAL WORKAROUND found 2026-09-10: `https://scipost.org/sitemap.xml` (plain `curl`, NO Anubis challenge, NOT bot-checked) lists every publication's short-code URL (e.g. `SciPostPhys.21.3.059`) — this proves EXISTENCE/COUNT of new publications (this session: SciPostPhys.21.3 issue advanced .053→.059, 6 new; SciPostPhysCore.9.3 advanced to .055) even though titles/abstracts remain blocked on both the API and article pages; `tvly search "<code>"` occasionally resolves a title (worked for .054) but is unreliable (returned stale/unrelated results for .055-.059 this session). Net effect: the "what's new" browse is still not fully restored (titles for most new codes remain inaccessible), but the sitemap closes the "did we miss anything" blind spot — a real, if partial, heal. Full heal still owed if the Anubis block persists a 4th consecutive daily.]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
 - AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result) — **[WEEKLY-SWEPT tier]**
-- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier]**
+- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier. DEGRADED 2026-09-12 (W37 weekly): Cambridge Core now serves a "Temporary Disruption" security-measures page to `tvly extract` on the latest-issue URL (a new failure mode, distinct from the prior clean opens through W36) — heal owed if this recurs next weekly.]**
 - **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, JHEP (open-access hep-th; also on arXiv/INSPIRE), PRD, PRB, PRResearch, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
 
 ## GitHub watch (Phase 5 — repos, profiles, and fork trees)
@@ -226,9 +234,19 @@ scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com
 cleared from this staging list.
 PROMOTED 2026-09-05 (W36): lz.lbl.gov (1 sighting, but an established multi-year e-print/PRL
 cadence verified this session → Experiments block, DAILY tier; newscenter.lbl.gov folded in as its
-companion announcement channel) — see its entry above; cleared from this staging list. HELD below
-the ≥2 bar (checked against this week's reports, no recurrence — both first seen 2026-09-04, only
-one run old): github.com/anthropics ("formal-math" repo), proofsandprompts.com.
+companion announcement channel) — see its entry above; cleared from this staging list.
+PROMOTED 2026-09-12 (W37): cims.nyu.edu (2+ sightings, verified live → Primary feeds, AI-watch
+lane, DAILY tier) — see its entry above; cleared from this staging list. HELD below the ≥2 bar
+(checked against this week's reports, no recurrence): github.com/anthropics ("formal-math" repo),
+proofsandprompts.com, science.org/Science Advances (1 sighting, first seen 2026-09-08).
+- anima-ai.org (Anima Anandkumar's lab blog) — 1 — Ganeshram, Duruisseaux, Anandkumar, "Stable
+  Singularity of the Euler Equations on R^3 without forcing" (self-published, 2026-09-07),
+  reviewed pre-release by Tom Hou and Terence Tao — first seen 2026-09-11 — discovered via
+  Terence Tao's blog; structurally the same off-arXiv AI-disclosure-lane pattern as the
+  already-tracked proofatlas.ai/preprints.org/cims.nyu.edu candidates (flagged in the 09-11
+  daily's strategy_notes entry but not yet appended here until this weekly — corrected). HELD
+  below the ≥2 bar (1 sighting); access via direct URL (the blog post links the manuscript PDF)
+  or `tvly search "anima-ai.org <topic>"`.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

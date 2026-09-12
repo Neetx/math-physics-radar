@@ -131,3 +131,30 @@ routing-leak n`.
   prior capture-leak catches) — not a one-off. No MISS found this session (both candidates were
   hits, if late ones; the wrinkling-patterns false lead was excluded before being queued). Feeds
   into the W36 proposals below.
+- 2026-09-12 — W37: queue +38/→0/−18/stale 0 (mechanically recounted 214→196 across the week: five
+  dailies added 39 net 09-07→09-11, this weekly's criterion-completeness burndown of the
+  2026-08-16→08-22 batch dropped 18/37 reviewed [100%], 19 kept protected, 4 of those newly
+  promoted in-place to `study_shelf`) · evidence +0 this session (all four trends HELD; the week's
+  evidence gains — non-invertible symmetries' 11th-14th groups — landed in the dailies before this
+  weekly) · moves 0 · exploration 5/5 (dailies) + 1 new weekly-tier pass (Amendment G's first
+  citation-chase run, 0/1 yield — logged, not an alarm) · off-axis 1/5 (09-10 cs.CC catch — BREAKS
+  the 3-consecutive-0/5-week streak that motivated proposed Amendment F) · lag expl n/a / backfill
+  n/a (0 off-axis catches needing a lag figure this week) · coverage (weekly-swept tier, this
+  operator's duty) 21/21 logged opened-or-degraded (9 institutes + Physics SE opened cleanly; 4
+  reddit subs opened via `tvly search` fallback; Annals/AMS Notices standing-degraded; Forum of
+  Mathematics NEWLY degraded — a Cambridge Core security page, a different failure mode than
+  before; 4 prizes opened, all unchanged) · routing-leak 4 found/4 fixed (landmark items flagged
+  at capture but never shelved — Albertson-Berman counterexample, Thompson's Conjecture, POLONAISE
+  ultraheavy-DM search, Grbić BKT-correlations PRL — same class as W36's 11-item fix, caught within
+  3-4 weeks this time instead of 5+ months) · capture-leak 0 (239 unique arXiv ids post-burndown,
+  13 legitimate bare mentions verified, 0 leaks; ALSO root-caused and closed the standing
+  230-vs-~257 count-discrepancy flagged 09-09/09-10/09-11 — a regex-pattern inconsistency across
+  sessions, not content loss) · src-disc 1 promoted (cims.nyu.edu, DAILY tier)/1 corrected-into-
+  registry (anima-ai.org, flagged by the 09-11 daily but never actually staged — a process gap,
+  fixed)/3 held below the ≥2 bar (github.com/anthropics, proofsandprompts.com, science.org).
+  Self-amendment: Amendments A/B/C re-checked clean, NO ROLLBACK; Amendment E (applied W36) one
+  week in, too early for the 2-week regression check, this week's own 100%-reviewed burndown is
+  its health signal; PROPOSED Amendment F NOT APPLIED (motivating drought broke this week);
+  APPLIED Amendment G (older-paper/citation-chase pass — motivating late-catch-via-digest pattern
+  recurred again this week, the Four Color Theorem's 5.5-month capture-leak catch). No monthly
+  retrospective due (day 12 > 7; M09 already ran at W36).

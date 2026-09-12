@@ -1175,3 +1175,92 @@ Corrections to the source-coverage strategy.
   this session (15 landing on discrete lines + 1 pure background-reference citation) — 0 new leaks.
   The 09-09 daily's flagged discrepancy (230 found vs. ~257 predicted by the prior self-reported
   trend) was NOT chased down this session either — still flagged for the weekly.
+- 2026-09-12 (W37 recalibration) — Capture-leak count discrepancy RESOLVED: this session's
+  mechanical sweep with the established 5-digit-only pattern (`grep -oE '[0-9]{4}\.[0-9]{5}'`)
+  found 239 unique arXiv ids post-burndown. Root-caused the standing 230-vs-~257 drift flagged
+  09-09/09-10/09-11: a looser 4-or-5-digit variant of the regex (tried this session for comparison)
+  spuriously matches `202607.1919` inside a preprints.org DOI string (`10.20944/preprints202607.1919`,
+  the already-tracked Numerical-Range/Crouzeix-conjecture item) as a fake arXiv id `2607.1919` — a
+  false positive that inflates or deflates the count depending on which exact pattern a given
+  session happened to type. Not a content-loss issue (no evidence of missing captures in any
+  session's spot-checks, confirmed again this session) — a tooling-consistency issue. Recommend:
+  standardize on the 5-digit-only pattern in all future capture-leak sweeps (recorded in AGENTS.md
+  → Tooling would be the natural home, but this is a grep-invocation habit, not a scope/skill
+  change — noting it here as a standing operating note instead, per the same class of decision as
+  the 09-09 daily's git-fetch-invocation note). 13 bare (non-`arXiv:`/`abs/`-prefixed) mentions
+  found, all verified legitimate historical narration or checked-and-excluded citations (0 leaks).
+- 2026-09-12 (W37 recalibration) — Queue burndown (second application of Amendment E's
+  criterion-completeness framing, first application to a batch with NO landmark-dense-stretch
+  backlog): reviewed the full newly-eligible batch (items captured 2026-08-16→08-22, the batch
+  immediately following W36's 08-08→08-15 review), 37 items, item-by-item against the established
+  drop criteria. 37/37 reviewed (100%): 18 dropped (settled/self-described-below-bar/no-independent-
+  follow-up items: an Atiyah's-Minkowski-space counterexample, a Tang-Zhang Schatten-norm
+  counterexample, a Generalized-Gaifman-conjecture counterexample, a Makarov multigraph companion
+  result, a Quartic-Hessian partial case, a Lei-Bai-conjecture disproof, a Fino-Vezzoni partial
+  result, an AI-assisted ADMM counterexample, a Sato's-weak-F-equivalence counterexample, a
+  Mahmoodian-Mirzakhani boundary case, a Snashall-Solberg counterexample, a Lichiardopol's-conjecture
+  proof, a Generalized-Rational-Exponents proof, a Krause-Mousavi-Tao-Teräväinen technical advance, a
+  Demailly-Peternell-Schneider Kähler-case extension, a Parafree-Conjecture disproof, a Henning-Yeo
+  counterexample, and a bounded-mass-property counterexample), 19 KEPT as protected-with-a-stated-
+  reason (an active Oort's-conjecture convergence watch [Karemaker-Yu], a Weibel's-conjecture
+  clarification watch, a Simons-Collaboration ecosystem anchor, a Quanta-fluids-EFT follow-up
+  chase, a hype-skepticism-flagged Calabi-Yau/axiverse watch, plus 14 items already protected via
+  `study_shelf`, 4 of which were NEWLY promoted this session — see below). Queue 214 (mechanically
+  recounted; the 09-11 daily's self-reported running tally of 213 was off by one — the same class
+  of small self-reported-vs-mechanical drift as the arXiv-id count above, not a content issue) → 196
+  (net −18).
+- 2026-09-12 (W37 recalibration) — study_shelf / routing-leak fix: found and corrected 4 items from
+  the reviewed batch that were explicitly flagged "Domain-cadence LANDMARK" (or, for the two
+  experimental items, "Domain-cadence landmark") at capture time but never actually promoted to
+  `study_shelf` — a genuine process gap (routing-leak), the same class W36 fixed for 11 older items
+  from the 08-12/08-13 stretch, now caught within 3-4 weeks instead of 5+ months: the
+  Albertson-Berman-conjecture counterexample (2608.13964), Thompson's Conjecture (2608.17891), the
+  POLONAISE ultraheavy-dark-matter search (2608.20464), and the Grbić et al. BKT-correlations PRL
+  discovery. All 4 added to `study_shelf` and the queue lines annotated. No pruning needed (oldest
+  shelf pick, 2026-07-02, is 72 days old, well inside the 120-day line).
+- 2026-09-12 (W37 recalibration) — Source strategy: full weekly-swept-tier list-vs-log diff plus a
+  LIVE sweep this session (via `tvly` + direct `curl`) — 9/9 institutes (IHES, SLMath, MPIM, Fields,
+  Newton, KITP all opened, routine seminars/workshops/programs, nothing on-axis beyond
+  already-tracked); slow venues: Annals + AMS Notices standing-degraded (unchanged JS-rendering
+  limitation); Forum of Mathematics NEWLY degraded this session (Cambridge Core now serves a
+  "Temporary Disruption" security-measures page to `tvly extract`, a different failure mode than
+  the prior clean opens through W36 — logged, heal owed if it recurs); extra-social: r/Physics,
+  r/cosmology, r/ParticlePhysics, r/AskPhysics all direct-`curl`-blocked (same hard edge block as
+  r/math/r/mathematics) but opened via `tvly search --include-domains reddit.com` (routine
+  discussion, nothing on-axis); Physics SE opened cleanly via direct `curl` (live 2026-09-12 feed);
+  prizes: Abel, Breakthrough, Shaw, IMU/Fields all opened, all confirmed unchanged from the
+  already-tracked 2026 laureates. 21/21 logged opened-or-degraded. Source-discovery: PROMOTED
+  cims.nyu.edu (3 on-axis artifacts across 2 daily runs, flagged ready since 09-09, verified live
+  via direct `curl` this session — 200 OK) into the Primary-feeds AI-watch lane, DAILY tier. Also
+  found and fixed a process gap: the 09-11 daily's strategy_notes entry said it "staged anima-ai.org"
+  but never actually appended it to `SOURCES.md`'s Discovered-source candidates list — corrected
+  this session (now properly staged, held below the ≥2 bar at 1 sighting). Held below the ≥2 bar
+  (no recurrence): github.com/anthropics, proofsandprompts.com, science.org/Science Advances.
+- 2026-09-12 (W37 recalibration) — Anchoring/off-axis: exploration ran 5/5 this week (nlin.SI/CD →
+  math.OC → math.LO → cs.CC → math.NA), 1/5 significant yield (09-10's cs.CC catch, a
+  subexponential deterministic permanent-approximation algorithm) — BREAKS the 3-consecutive-quiet-
+  week streak that motivated the W36-proposed Amendment F. Tunnel-vision check: NOT triggered (fresh
+  evidence landed across multiple sub-themes this week, not just pre-existing trends).
+- 2026-09-12 (W37 recalibration) — Amendment G first application (older-paper/citation-chase pass,
+  applied this session — see Self-amendment below): ran an INSPIRE-HEP most-cited scan restricted to
+  a 2026-04-01→06-30 date window (3+ months old) — returned niche astrophysics-instrumentation/
+  X-ray-binary items, none landmark or on-axis-significant; and a SciRate top-scited check, which
+  this session confirmed is dominated by quantum-computing/error-correction papers — off this
+  radar's axis (the sibling quantum radar's beat), not a useful signal source for THIS ledger. 0
+  significant yield this first run — logged per the exploration-slot convention (a zero-yield read
+  is still a complete, owed check). Next application: try an arXiv "cited by" chase on one of this
+  ledger's own landmark trend anchors (e.g. the GGMT Marton's-conjecture paper) instead of a
+  field-wide most-cited ranking.
+- 2026-09-12 (W37 recalibration) — Self-amendment: Amendments A (cadence-split), B (off-axis
+  rotation), C (skill-window sync) all re-checked clean this session (coverage 21/21, exploration
+  5/5) — NO ROLLBACK. Amendment E (queue criterion-completeness, applied W36): only one week
+  elapsed since application — too early for the 2-week regression check; this week's own
+  application (37/37 reviewed, 100%) is itself the health signal, consistent with W36's. PROPOSED
+  Amendment F (off-axis venue-roster refresh, W36): motivating signal (3 consecutive 0/5-yield
+  weeks) BROKE this week (1/5, see above) — NOT APPLIED; the underlying drought resolved on its own,
+  so the amendment lapses rather than being carried forward. Will re-propose only if a fresh
+  multi-week drought recurs. APPLIED Amendment G (older-paper/citation-chase pass): the motivating
+  signal (a landmark result caught only via a late digest pointer) recurred a further time this
+  week (the Four Color Theorem's 5.5-month-old near-linear-time proof, caught 09-11 via Quanta) —
+  cooling period elapsed, signal persisted, no curator veto → applied to `routines/weekly.md` this
+  session (dedicated commit), first run above.

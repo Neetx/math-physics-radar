@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-11
+Last updated: 2026-09-12
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -362,6 +362,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     exploration-slot read (below) independently confirms no fresh Ramsey item. No 7th independent
     group or referee/vetting outcome. Trend HELD accelerating/medium; last_evidence 2026-08-22 now
     17 days old, well inside the 60-day window.
+  - 2026-W37 recalibration: HELD accelerating/medium. last_evidence 2026-08-22 is 21 days old,
+    well inside the 60-day window (dormancy line 2026-10-21). No 7th independent group or
+    referee/vetting outcome surfaced across the week's dailies (09-07→09-11, each rechecking fresh
+    arXiv batches — a landmark-dense week on OTHER sub-themes, but nothing on Ramsey-number lower
+    bounds specifically). Confidence held medium (unrefereed-preprint caution stands). Not promoted
+    (no fresh W37 velocity).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-10
@@ -460,6 +466,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   accelerating/high (confidence ceiling, already well past the convergence bar); last_evidence
   moves 2026-09-09 → 2026-09-10. Still no explicit lattice/continuum cross-citation (standing watch
   item since W34).
+- 2026-W37 recalibration: HELD accelerating/high. last_evidence 2026-09-10 is 2 days old, nowhere
+  near the 60-day line. Fourteen fully independent groups now on file across five venue types
+  (arXiv, SciPost ×2, Nature Physics); no 15th group or the still-outstanding explicit
+  lattice/continuum cross-citation surfaced since 09-11. Confidence held at the ceiling (no
+  hype-skepticism caveat) — still the strongest of the four active trends. Not promoted to
+  `mainstreaming` (group count/pace alone is not a standard-practice-adoption signal). Watch for a
+  15th group or the cross-citation.
 - notes: 2026-09-10 (daily): today's fresh hep-th batch (2026-09-09) surfaced a twelfth independent
   group's artifact on this trend (Chen–Jia, general partition-function framework for Rep(G)
   non-invertible-symmetry backgrounds) — appended as evidence; oldest evidence line dropped to hold
@@ -824,6 +837,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     referee/vetting outcome on the three tracked preprints. Trend HELD seed/medium; last_evidence
     2026-07-29 now 41 days old, still inside the 60-day window (dormancy line 2026-09-27, 19 days
     out) — still the weakest of the four active trends per the standing W35/W36 forward bet.
+  - 2026-W37 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 45 days old, inside the
+    60-day window but only 15 days from the 2026-09-27 dormancy line. No 4th independent group or
+    referee/vetting outcome on any of the three tracked preprints surfaced across the week's
+    dailies (09-07→09-11); arXiv-API metadata recheck this session: no fresh v-update on any of
+    the three. Confidence held medium (short, checkable, cross-verified computations — still
+    unrefereed, now six-plus weeks quiet). Still the weakest of the four active trends. DECISION
+    POINT UNCHANGED from W35/W36: if no 4th group or vetting outcome lands by the 2026-09-27
+    dormancy line (next weekly, W38), the trend goes `dormant` under the domain-cadence rule rather
+    than being held open indefinitely — this is the expected, routine outcome of the rule, not a
+    failure to chase harder.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-08-31
@@ -869,6 +892,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     source has not advanced past 2026-09-04 despite two elapsed calendar days). No 4th independent
     group. Trend HELD emerging/medium; last_evidence 2026-08-31 now 8 days old, well inside the
     60-day window.
+  - 2026-W37 recalibration: HELD emerging/medium. last_evidence 2026-08-31 is 12 days old, well
+    inside the 60-day window (dormancy line 2026-10-30). No 4th independent group surfaced across
+    the week's dailies (09-07→09-11, each rechecking fresh math.CO batches). Confidence held medium
+    (each step a short, checkable refinement of an already-proved landmark). Not promoted (no fresh
+    W37 velocity).
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -944,14 +972,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   supersingular locus, refining the boundary/exceptional-locus structure around Viehmann's
   generic result. Abstract + authors verified via arXiv API this session (v1 2026-08-17). Below-
   bar follow-up/refinement item — the paper that led this session to Viehmann's landmark.
-- 2026-08-17 — arXiv:2608.16693 — Ziran Liu, "Atiyah's Minkowski Space Conjecture Fails for Every
-  $n\ge3$" — https://arxiv.org/abs/2608.16693 — mathematical physics / twistor geometry (axis 1/2,
-  math.DG): disproves a conjecture of Michael Atiyah on the linear independence of binary forms
-  built from admissible configurations of $n$ worldlines' retarded celestial directions, for every
-  $n\ge3$, via an explicit planar counterexample at $n=3$. Abstract + author verified via arXiv
-  API this session (v1 2026-08-17). Single-author unrefereed preprint refuting a named conjecture
-  of a major 20th-century figure — provenance/age of the specific conjecture not independently
-  dated this session; below-bar item.
 - 2026-08-17 — arXiv:2608.16066 — Shane Kelly, "Some explicit counter-examples to Weibel's
   conjecture" — https://arxiv.org/abs/2608.16066 — algebraic K-theory (axis 1, math.AG/KT):
   constructs rings $R$ of Krull dimension 1 with $K_{-d}(R)\ne0$ for $d\ge2$. NOTE (caution
@@ -960,18 +980,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   it is unclear this genuinely contradicts the proven theorem rather than showing the necessity
   of a hypothesis outside it; not independently resolved this session. Abstract + author verified
   via arXiv API this session (v1 2026-08-17). Below-bar, caveated item — track for clarification.
-- 2026-08-16 — arXiv:2608.15558 — Zijian Zeng, Houde Liu, Kurunathan Ratnavelu, "A Counterexample
-  to the Tang Zhang Schatten Norm Conjecture and Sharp Positive Results" —
-  https://arxiv.org/abs/2608.15558 — matrix analysis (axis 1, math.FA/CO): disproves a conjectured
-  explicit formula (Tang–Zhang) for the best Schatten-$p$-norm subadditivity constant via two
-  explicit $2\times2$ rank-one matrices at $p=3/2$. Abstract + authors verified via arXiv API this
-  session (v1 2026-08-16). Single below-bar refuted-conjecture item (a recent, not classical,
-  named conjecture).
-- 2026-08-17 — arXiv:2608.16099 — Yi Zhang, "Counterexamples to the Generalized Gaifman
-  Conjecture" — https://arxiv.org/abs/2608.16099 — mathematical logic / model theory (axis 1,
-  math.LO): a negative answer to a 2025 conjecture of Shelah and Usvyatsov. Abstract + author
-  verified via arXiv API this session (v1 2026-08-17). Single below-bar item (a young conjecture,
-  not a classical named one).
 - 2026-08-04 (CAPTURE-LEAK CATCH, ~2 weeks old, surfaced via the Simons Foundation feed this
   session, accessed 2026-08-18) — Simons Foundation, "New Simons Collaboration Will Explore
   Discrete Subgroups of Lie Groups" —
@@ -1883,40 +1891,9 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   evidence here). Abstract verified via arXiv API this session (v1 2026-08-14). Domain-cadence
   LANDMARK single result on its own terms (a 46-year-old named conjecture independently refuted
   by a human-only proof) — unrefereed preprint, standard caution; the same author (Makarov) has a
-  January 2026 companion paper on the multigraph variant, queued separately below
-  (arXiv:2601.04637).
-- 2026-08-17 (daily, CAPTURE — named in the Albertson-Berman item above, given its own line per
-  the capture rule) — arXiv:2601.04637 — Makarov, "Large induced forests in planar multigraphs"
-  — https://arxiv.org/abs/2601.04637 — extremal combinatorics (axis 1, math.CO): a companion,
-  below-bar result (not the counterexample itself) proving $a(M)\ge n/4$ for planar multigraphs
-  and a refined bound $a(M) \ge \frac{2}{5}n - \frac{k}{10}$ for graphs with $k$ parallel-edge
-  pairs; relates the Albertson-Berman conjecture for simple graphs to a multigraph variant.
-  Abstract verified via arXiv API this session (v1 2026-01-08).
-- 2026-08-17 (daily) — arXiv:2608.14217 — Ni, "The Quartic Hessian Conjecture in Dimension Four"
-  — https://arxiv.org/abs/2608.14217 — algebraic geometry / polynomial-map theory (axis 1,
-  math.AG, Jacobian-conjecture-ADJACENT — a distinct but related polynomial-map problem, not the
-  same conjecture as the standing Jacobian-conjecture/AI-wave cluster): proves the four-variable
-  quartic case of the open dimension-4 Hessian conjecture (known true for dimensions ≤3, false
-  for dimensions ≥5). A partial case, not a full resolution — below the landmark bar. Abstract
-  verified via arXiv API this session (v1 2026-08-14).
-- 2026-08-17 (daily) — arXiv:2608.13946 — Wang, Sun, Yang, "On the Lei-Bai conjecture on
-  5-regular Lin-Lu-Yau Ricci-flat graphs" — https://arxiv.org/abs/2608.13946 — graph theory /
-  discrete Ricci curvature (axis 1, math.CO): disproves the Lei-Bai conjecture (that every
-  5-regular Ricci-flat graph is either a specific 72-vertex graph or a nontrivial Cartesian
-  product) via an infinite counterexample family. A narrower, recent conjecture (not a
-  long-standing landmark) — below-bar intake. Abstract verified via arXiv API this session (v1
-  2026-08-14).
-- 2026-08-17 (daily) — arXiv:2608.13887 — Chen, Zheng, "The Fino-Vezzoni conjecture on balanced
-  Bismut torsion-parallel manifolds" — https://arxiv.org/abs/2608.13887 — complex geometry (axis
-  1, math.DG): a PARTIAL result (proves the conjecture under an added pluriclosed-metric
-  hypothesis), not a full resolution — below-bar intake. Abstract verified via arXiv API this
-  session (v1 2026-08-14).
-- 2026-08-17 (daily) — arXiv:2608.14396 — "AI-Assisted Discovery and Construction of a
-  Counterexample to the Convergence of Three-Block ADMM with the Identity Matrix as its Third
-  Constraint Block" — https://arxiv.org/abs/2608.14396 — optimization (axis 1, math.OC):
-  AI-ASSISTED counterexample construction — another entry in the standing AI-assisted-math wave
-  (axis-5 WATCH area; track the mathematical result, not the AI method). Below-bar intake.
-  Abstract verified via arXiv API this session (v1 2026-08-14).
+  January 2026 companion paper on the multigraph variant (arXiv:2601.04637, reviewed and dropped
+  in this week's queue burndown — settled, no independent follow-up). Also on `study_shelf`
+  (promoted W37 weekly, queue-cleanup — a domain-cadence landmark that had sat un-shelved).
 - 2026-08-19 (daily) — arXiv:2608.18053 — Cárdenes Wuttig, Tindall, "A Complete Classification of
   Complex Hadamard Matrices of Order Six" — https://arxiv.org/abs/2608.18053 — quantum
   information / matrix analysis (axis 4, quant-ph/math.OA): gives the first complete, exact
@@ -1934,28 +1911,8 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   established cases, this completes the proof of Thompson's conjecture (J. G. Thompson) in full.
   Abstract + authors verified via arXiv API this session (v1 2026-08-18). Domain-cadence LANDMARK
   single result (a long-standing named conjecture in finite group theory, now fully resolved) —
-  unrefereed preprint, standard caution.
-- 2026-08-19 (daily) — arXiv:2608.18054 — Chakravarty, Choi, Xu, "Counterexamples to Sato's Weak
-  F-Equivalence Conjecture and a Gorenstein Refinement" — https://arxiv.org/abs/2608.18054 —
-  algebraic/toric geometry (axis 1, math.AG): disproves Sato's weak F-equivalence conjecture for
-  nonsingular projective toric weak Fano varieties in every dimension d≥3, via smooth projective
-  crepant models of centered reflexive simplices. Abstract + authors verified via arXiv API this
-  session (v1 2026-08-18). Below-bar intake (a specialized toric-geometry conjecture, not a
-  broadly landmark named problem).
-- 2026-08-19 (daily) — arXiv:2608.17227 — Pournader, "Completing the Boundary Case of the
-  Mahmoodian-Mirzakhani Conjecture and 117 New Computational 5-Cycle Decompositions of Complete
-  Tripartite Graphs" — https://arxiv.org/abs/2608.17227 — combinatorial design theory (axis 1,
-  math.CO): proves the Mahmoodian-Mirzakhani conjecture (5-cycle decomposability of complete
-  tripartite graphs $K_{r,s,t}$) on the extremal boundary case $t=4rs/(r+s)$ for every odd triple,
-  constructively. Abstract verified via arXiv API this session (v1 2026-08-18). Below-bar intake
-  (a boundary case of a design-theory conjecture, not a full resolution).
-- 2026-08-19 (daily) — arXiv:2608.17706 — Wang, Zhou, "A Symmetric Counterexample to the
-  Snashall–Solberg Conjecture" — https://arxiv.org/abs/2608.17706 — representation theory /
-  homological algebra (axis 1, math.RT): the trivial extension of the Xu–Snashall algebra gives
-  the first known selfinjective counterexample to the Snashall–Solberg conjecture (that the
-  Hochschild cohomology ring of a finite-dimensional algebra modulo nilpotence is finitely
-  generated). Abstract + authors verified via arXiv API this session (v1 2026-08-18). Below-bar
-  intake (a specialized homological-algebra conjecture).
+  unrefereed preprint, standard caution. Also on `study_shelf` (promoted W37 weekly,
+  queue-cleanup — a domain-cadence landmark that had sat un-shelved).
 - 2026-08-19 (daily, source-discovery + ecosystem) — Simons Foundation, "Simons Foundation
   Launches Collaboration on Universal Statistics in Number Theory" (2026-08-18) —
   https://www.simonsfoundation.org/2026/08/18/simons-foundation-launches-collaboration-on-universal-statistics-in-number-theory/
@@ -2027,29 +1984,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   $n$-sphere. Abstract + authors verified via arXiv API this session (v1 2026-08-20). Three-author
   unrefereed preprint resolving a named ~29-year-old conjecture in comparison geometry —
   PROVISIONAL under the hype-skepticism rule; domain-cadence landmark-tier. Also on `study_shelf`.
-- 2026-08-20 — arXiv:2608.20012 — Sandra Albrechtsen, Raphael Steiner, "Proof of Lichiardopol's
-  conjecture on disjoint directed cycles of distinct lengths" — https://arxiv.org/abs/2608.20012
-  — digraph structure theory (axis 1, math.CO): confirms Lichiardopol's 2014 conjecture that
-  there is a function $g:\mathbb N\to\mathbb N$ such that every digraph of minimum out-degree
-  $\ge g(k)$ contains $k$ vertex-disjoint directed cycles of pairwise distinct lengths. Abstract +
-  authors verified via arXiv API this session (v1 2026-08-20). Two-author unrefereed preprint
-  resolving a named conjecture — PROVISIONAL; below-bar but notable landmark-adjacent item.
-- 2026-08-20 — arXiv:2608.19923 — Jianfeng Hou, Caihong Yang, "On the Generalized Rational
-  Exponents Conjecture" — https://arxiv.org/abs/2608.19923 — extremal graph theory (axis 1,
-  math.CO): proves the generalized rational exponents conjecture of Gerbner and Palmer — for
-  every rational $\alpha\ge1$ there exist graphs $H_\alpha,F_\alpha$ with
-  $\mathrm{ex}(n,H_\alpha,F_\alpha)=\Theta(n^\alpha)$. Abstract + authors verified via arXiv API
-  this session (v1 2026-08-20). Below-bar (a named but comparatively young/niche conjecture),
-  unrefereed two-author preprint — PROVISIONAL.
-- 2026-08-20 — arXiv:2608.19525 — Ben Krause, Hamed Mousavi, Terence Tao, Joni Teräväinen,
-  "Quantitative bounds for sets lacking polynomial progressions with shifted prime difference" —
-  https://arxiv.org/abs/2608.19525 — additive combinatorics / analytic number theory (axis 1,
-  math.NT/CO): proves the first quantitative polynomial Szemerédi-type theorems for nonlinear
-  polynomial progressions with shift restricted to the shifted primes $\mathbb P-1$, and improves
-  prior quantitative bounds in the linear case. Surfaced via Tao's blog ("What's new," 2026-08-20,
-  https://terrytao.wordpress.com/2026/08/20/quantitative-bounds-for-sets-lacking-polynomial-progressions-with-shifted-prime-difference/,
-  opened this session); abstract + authors verified via arXiv API this session (v1 2026-08-20).
-  Below-bar technical advance, notable for Tao's own co-authorship — queued.
 - 2026-07-14 (v1; CAPTURE-LEAK-adjacent, ~5-week-old peer-reviewed primary, surfaced this session
   via a Backreaction post 2026-08-20 and independently opened) — Feifei Xin, Yehonatan Gelkop,
   Ewout van der Veer, Beatriz Noheda, Ludovica Falsi, Guoquan Zhang, Fang Bo, Aharon J. Agranat,
@@ -2086,34 +2020,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   as superpositions of "simple" concentrations. Abstract + authors verified via arXiv API this
   session. Domain-cadence landmark (a 23-year-old named conjecture fully resolved) — queued, also
   on `study_shelf`.
-- 2026-08-21 (v1) — Xin Fu, Juanyong Wang, "On a conjecture of Demailly-Peternell-Schneider: the
-  Kähler case," arXiv:2608.20679 — https://arxiv.org/abs/2608.20679 — complex/algebraic geometry
-  (axis 1, math.AG/CV): proves pseudo-effectivity of $-K_Y$ for a surjective holomorphic map between
-  normal Kähler varieties (log canonical pair, $-(K_X+\Delta)$ nef, $Y$ Q-Gorenstein) without the
-  projective-morphism hypothesis used in the authors' own prior work — extending a conjecture of
-  Demailly-Peternell-Schneider to the Kähler setting. Abstract + authors verified via arXiv API
-  this session. Below-bar (a specialized extension, not a fully independent named-conjecture
-  resolution) — queued.
-- 2026-08-20 (v1) — Vasily Ionin, Roman Mikhailov, "The Parafree Conjecture for associative
-  algebras," arXiv:2608.20570 — https://arxiv.org/abs/2608.20570 — algebra (axis 1, math.RA/AT):
-  DISPROVES the associative-algebra analogue of the Parafree Conjecture — constructs a finitely
-  generated parafree augmented associative algebra with countably infinite-dimensional second
-  homology (the monoid algebra of a finitely generated but not finitely presented submonoid of a
-  free monoid) — answering a question of Ivanov and Lopatkin. Abstract + authors verified via arXiv
-  API this session. Below-bar (a two-author disproof of a conjecture-analogue, not the original
-  named conjecture) — queued.
-- 2026-08-19 (v2) — Yufeng Wang, "Counterexamples to the Henning-Yeo Conjecture: Unbounded
-  Fixed-Degree Gaps and Sharp First-Order Asymptotics," arXiv:2608.19455 —
-  https://arxiv.org/abs/2608.19455 — extremal graph theory (axis 1, math.CO): DISPROVES the
-  Henning-Yeo conjectured upper bound on the identifying vertex cover number, via a two-parameter
-  family of diameter-two graphs with an unbounded margin for every maximum degree $\ge4$. Abstract
-  + author verified via arXiv API this session. Below-bar (single-author disproof of a
-  comparatively young/niche conjecture) — queued.
-- 2026-08-21 (v1) — Mingchen Xia, Kewei Zhang, "A counterexample to the bounded mass property,"
-  arXiv:2608.21053 — https://arxiv.org/abs/2608.21053 — complex geometry (axis 1, math.AG/CV/DG):
-  shows the bounded mass property fails on the Hopf threefold $(\mathbb C^3\setminus\{0\})/\langle
-  z\mapsto e^{-1}z\rangle$, answering a question of Boucksom-Guedj-Lu. Abstract + authors verified
-  via arXiv API this session. Below-bar (answers an open question, not a named conjecture) — queued.
 - 2026-08-20 (v1) — Dennis G. Uitenbroek et al. (POLONAISE collaboration), "First Search for
   Ultraheavy Dark Matter Using a Magnetically Levitated Particle," arXiv:2608.20464 —
   https://arxiv.org/abs/2608.20464 — dark-matter detection (axis 3, hep-ph): the FIRST search for
@@ -2121,7 +2027,9 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   superconducting trap (force sensitivity $0.07\,\mathrm{fN\,Hz^{-1/2}}$, impulse resolution down
   to $1\,\mathrm{TeV}/c$), setting new optimum-interval upper limits on the neutron coupling for a
   light-mediator dark-matter interaction. Abstract + authors verified via arXiv API this session.
-  Domain-cadence landmark (first-of-kind detection technique/search) — queued.
+  Domain-cadence landmark (first-of-kind detection technique/search) — queued. Also on
+  `study_shelf` (promoted W37 weekly, queue-cleanup — a domain-cadence landmark that had sat
+  un-shelved).
 - 2026-08-18 (published Phys. Rev. Lett. 137, 086501) — M. S. Grbić, I. Jakovac, I. Kupčić, H.
   Tanaka, M. Horvatić, "Discovery of Berezinskii-Kosterlitz-Thouless Correlations in the Quantum
   Kagome Compound Cs2Cu3SnF12" — http://link.aps.org/doi/10.1103/bm42-z87g — condensed-matter
@@ -2130,7 +2038,8 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   kagome antiferromagnet. Full abstract, author list and publication date verified directly from
   the APS PRL RSS feed's `content:encoded` field this session (article page itself Cloudflare-
   blocked to direct `curl`/`WebFetch`). Domain-cadence landmark (first-of-kind observation in this
-  compound) — queued.
+  compound) — queued. Also on `study_shelf` (promoted W37 weekly, queue-cleanup — a domain-cadence
+  landmark that had sat un-shelved).
 - 2026-07-22 (CAPTURE-LEAK CATCH, chased via today's CERN Courier sweep, accessed 2026-08-24) —
   LHCb Collaboration, "A new doubly charmed baryon" (CERN Courier feature, 2026-07-23) —
   https://cerncourier.com/a/a-new-doubly-charmed-baryon/ — hadron/particle physics (axis 3,
@@ -3273,6 +3182,10 @@ why`). The trend bar does NOT apply here; opened primary sources only.
 - 2026-08-21 — [On the proof of Bray's conjecture (Jiang, Li, Wang)](https://arxiv.org/abs/2608.20215)
   — resolves a 1997 conjecture of Hubert Bray bounding the volume of closed manifolds with a
   Ricci/scalar-curvature comparison condition by that of the standard sphere.
+- 2026-08-20 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [First Search for Ultraheavy Dark Matter Using a Magnetically Levitated Particle (POLONAISE collaboration), arXiv:2608.20464](https://arxiv.org/abs/2608.20464)
+  — the first search for ultraheavy dark matter using a milligram-scale ferromagnet magnetically
+  levitated in a superconducting trap, a first-of-kind detection technique (axis 3, dark-matter
+  detection). Abstract + authors verified via arXiv API this session.
 - 2026-08-20 — [Existence of a Periodic Orbit for Billiards in Polygons (Giovanni Forni)](https://arxiv.org/abs/2606.10102)
   — resolves one of Katok's "Five Most Resistant Problems in Dynamics": every finite polygon's
   billiard flow has a periodic orbit, closing the general (irrational-angle) case left open since
@@ -3287,6 +3200,11 @@ why`). The trend bar does NOT apply here; opened primary sources only.
   advisory board including Tao, Avigad, Ballard, Kra, Vakil and Venkatesh — direct infrastructure
   for the AI-generated-proof wave this ledger has tracked all summer (axis 5). Surfaced via
   Hacker News, blog post opened via `tvly extract` this session (post dated 2026-08-18).
+- 2026-08-19 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [Thompson's Conjecture for Finite Simple Groups of Lie Type over Small Fields (Liao, Wang, Zhang), arXiv:2608.17891](https://arxiv.org/abs/2608.17891)
+  — completes the proof of J. G. Thompson's conjecture in full, by settling the remaining case of
+  finite simple groups of Lie type over fields of order ≤8 (axis 1, finite group theory). Abstract
+  + authors verified via arXiv API this session (v1 2026-08-18). Unrefereed preprint — standard
+  caution.
 - 2026-08-19 (v1 2026-08-18) — [A Complete Classification of Complex Hadamard Matrices of Order Six (Cárdenes Wuttig, Tindall), arXiv:2608.18053](https://arxiv.org/abs/2608.18053)
   — completes a decades-open classification problem in quantum information / matrix analysis:
   order six was the first dimension where continuous families of complex Hadamard matrices
@@ -3300,6 +3218,11 @@ why`). The trend bar does NOT apply here; opened primary sources only.
   triumph" — Colin Morningstar, CMU). Not yet a "single smoking gun" per outside commentary
   (Bruce Yabsley, U. Sydney) — a landmark, near-consensus first-of-kind result worth knowing, with
   the community's own caution about definitiveness intact.
+- 2026-08-18 (shelf-added 2026-09-12, W37 weekly queue-cleanup, published Phys. Rev. Lett. 137, 086501) — [Discovery of Berezinskii-Kosterlitz-Thouless Correlations in the Quantum Kagome Compound Cs2Cu3SnF12 (Grbić, Jakovac, Kupčić, Tanaka, Horvatić)](http://link.aps.org/doi/10.1103/bm42-z87g)
+  — $^{63,65}$Cu NQR below $T_N=20\,$K finds signatures of Berezinskii-Kosterlitz-Thouless
+  correlations in this quantum kagome antiferromagnet, a first-of-kind observation in this
+  compound (axis 3, condensed-matter physics). Abstract/authors/date verified via the APS PRL RSS
+  feed this session. Peer-reviewed.
 - 2026-08-18 (v1 2026-08-15) — [Prüfer $2$-group and Milnor's Conjecture on Fundamental Groups (Wu, Yan), arXiv:2608.15505](https://arxiv.org/abs/2608.15505)
   — completes the disproof of Milnor's 1968 conjecture (fundamental groups of complete
   nonnegative-Ricci manifolds are finitely generated) in the two dimensions (4 and 5) left open
@@ -3318,6 +3241,11 @@ why`). The trend bar does NOT apply here; opened primary sources only.
   spaces via an explicit 58-point construction in $\mathbb{R}^{56}$, the first such counterexample
   for any finite $p\ge2$ (axis 1, convex/functional analysis). Abstract verified via arXiv API
   this session (v1 2026-08-14). Unrefereed preprint — standard caution.
+- 2026-08-17 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [A counterexample to the Albertson-Berman conjecture about induced forests in planar graphs (Makarov), arXiv:2608.13964](https://arxiv.org/abs/2608.13964)
+  — an independent, non-AI 39-vertex counterexample to the Albertson-Berman conjecture (open since
+  1979) on induced forests in planar graphs, a 46-year-old named conjecture independently refuted
+  by a human-only proof (axis 1, extremal/structural combinatorics). Abstract verified via arXiv
+  API this session (v1 2026-08-14). Unrefereed preprint — standard caution.
 - 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The Hayman–Wu constant is π² (Ivanisvili)](https://arxiv.org/abs/2608.12844) —
   determines the exact sharp constant in the 1981 Hayman–Wu problem (the bound, over every
   conformal map from the disk and every line, on the length of the preimage of the line intersected
