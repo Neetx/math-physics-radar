@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-12
+Last updated: 2026-09-14
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2334,6 +2334,19 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   session; dated 2026-08-08/2026-08-09, so already 3+ weeks old — flagged for the day's
   capture-leak note as a genuine backlog miss, not a leak (neither id appeared anywhere in
   `TRENDS.md` before today).
+  - 2026-09-14 (daily, EVIDENCE STRENGTHENED): arXiv:2608.10028 was REVISED (v3, last revised
+    2026-09-11 per the arXiv submission history, caught via today's fresh math.CO category-rotation
+    batch) — the solo Jooken hand-checkable-proof
+    note has been superseded by a full joint paper, Goedgebeur, Jooken, Máčajová, Mattiolo,
+    Mazzuoccolo, Ulyanov, "Disproving the Petersen Coloring Conjecture: Theoretical Analysis and an
+    Infinite Family of Counterexamples" — https://arxiv.org/abs/2608.10028 — now gives a full
+    theoretical analysis plus an INFINITE FAMILY of counterexamples (not just the two known 68-/
+    112-vertex examples), and folds in an established graph-theory team (Goedgebeur, Máčajová,
+    Mattiolo, Mazzuoccolo are recognized snark/flow-conjecture researchers). Title/authors/abstract
+    verified via direct arXiv abstract-page fetch this session. Strengthens the already-landmark
+    refutation from "two isolated counterexamples" to "an infinite family with a structural
+    explanation" — still the same underlying arXiv id, so no new queue line, but a genuine content
+    upgrade worth recording.
 - 2026-09-01 — https://arxiv.org/abs/2603.03257 — Diskin, Easo, Radhakrishnan, Sudakov, Tassion,
   "Supercritical sharpness of percolation": proves the supercritical sharpness conjecture for
   percolation on every infinite transitive graph (exponential decay of the finite-cluster-size
@@ -2719,6 +2732,38 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     records that this allegation and quoted statement exist as a further, unverified data point in the
     standing vetting-status/trust dispute — it does not adjudicate the claim. Track for an on-record
     OpenAI response.
+  - 2026-09-14 (daily, VETTING-STATUS DEVELOPMENT ×2 + a watch item): (a) Terence Tao, "A Severe
+    Misalignment of AI in Mathematics" — https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/
+    (posted 2026-09-11, opened in full this session) — Tao is among 25 initial signatories, ALL Fields
+    Medallists, of a public declaration that "the push by AI companies to solve mathematical problems
+    as a benchmark is detrimental to the science of mathematics, and to the mathematical community,"
+    calling the AI companies' and the mathematical community's goals "severely misaligned" (explicitly
+    modeled on the earlier Leiden Declaration). A genuinely field-shaping community response, directly
+    motivated by the OpenAI/Buckmaster-Alpöge/Anandkumar Navier-Stokes-Euler saga above and by
+    unconfirmed rumors of further Millennium-Problem attempts (see (c)). (b) Andreas Thom, guest post
+    on Tao's blog, "On the existence of non-sofic groups" —
+    https://terrytao.wordpress.com/2026/09/11/on-the-existence-of-non-sofic-groups/ (posted
+    2026-09-11, opened in full this session) — a firsthand account from the mathematician whose own
+    2019 work (with Gábor Kun) was used in the OpenAI nonsofic-group paper's Proposition 2.3: Thom
+    states he wrote directly to Mark Sellke and Sébastien Bubeck objecting that the public
+    announcement's "no progress in the last decade" framing was "intellectually dishonest" given its
+    reliance on his 2019 paper, and that Sellke agreed and the announcement was subsequently revised —
+    deepens (does not resolve) the already-tracked attribution/novelty dispute over the OpenAI
+    nonsofic-group result (result 3 of the 2026-08-01 "Ten Advances" disclosure, above; still no
+    arXiv listing for the original OpenAI paper itself). (c) WATCH, NOT QUEUED (no primary artifact opened; hard-rule "never cite unopened
+    sources"): the above declaration and two further guest posts opened this session on Tao's blog —
+    Claire Voisin, "The status of the Hodge conjecture" (https://terrytao.wordpress.com/2026/09/12/the-status-of-the-hodge-conjecture/,
+    2026-09-12) and Burt Totaro, "On the Hodge conjecture" (https://terrytao.wordpress.com/2026/09/11/on-the-hodge-conjecture/,
+    2026-09-11) — are both expository/reflective pieces explicitly prompted by unconfirmed social-media
+    rumors (Totaro's own words: "It now seems possible that AI companies will burn through vast
+    resources in order to prove some new fact about the Hodge conjecture") that OpenAI and/or Anthropic
+    are close to results on the Hodge conjecture and/or the Birch–Swinnerton-Dyer conjecture — both
+    still-open Millennium Prize Problems distinct from the already-tracked Navier-Stokes claim. This
+    session searched openai.com/research, Hacker News, and NYT/Guardian/WSJ/Quanta coverage for an
+    actual primary disclosure and found none beyond the already-tracked 2026-09-08 Navier-Stokes page —
+    every "OpenAI Millennium Problem" headline found traces back to that same claim. No queue item
+    created (nothing to cite); flagged as tomorrow's first watch item — chase openai.com/anthropic.com
+    directly if a Hodge/BSD claim actually posts.
 - 2026-09-07 (self-published PDF, author's own lab page; a FOURTH, DISTINCT AI-assisted fluid-blowup
   claim, independent authorship from the OpenAI and Buckmaster-Alpöge entries above, discovered via
   Terence Tao's blog today — a guest post by one of the paper's authors) — Adarsh Ganeshram (UC
@@ -3014,6 +3059,26 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   authors verified via arXiv API this session (originally posted 2022, now peer-reviewed and
   published in PRX). Below-bar (a mature research-program result now reaching peer review, not a new
   claim) but a solid quantum-foundations primary, squarely on axis 4.
+- 2026-08-31 (v1; discovered via Gil Kalai's blog this session, dated 2026-09-11) —
+  https://arxiv.org/abs/2609.00397 — De Loera, Fang, Guo, Lu, Zheng, "On Unavoidable Faces of
+  High-Dimensional Polytopes" — polytope combinatorics (axis 1, math.CO/MG): proves that Kalai's
+  1990 cube–simplex conjecture (every sufficiently high-dimensional polytope has a simplex face or
+  a cube face of each dimension) holds, with explicit bounds, for the restricted class of SIMPLE
+  polytopes — the general conjecture (all polytopes) remains open, previously known only for faces
+  of dimension ≤2. Title/authors/abstract verified via direct arXiv abstract-page fetch this
+  session (v1 2026-08-31); Kalai's own post (opened in full) confirms this resolves his 35-year-old
+  Conjecture A in the simple-polytope case. Below-bar (a significant but RESTRICTED-CASE resolution
+  of a named conjecture, not the general case) — a genuine, citable primary nonetheless.
+- 2026-09-11 (blog announcement, not yet a result; discovered via Terence Tao's blog this session) —
+  https://terrytao.wordpress.com/2026/09/11/sair-competition-andrew-curtis-challenge/ — Lucas Fagan
+  (guest post), "SAIR competition: Andrews-Curtis challenge" — combinatorial/geometric group theory
+  (axis 1, math.GR): announces the Andrews–Curtis Conjecture Challenge, a SAIR Foundation /
+  Caltech Math-AI collaboration (organized by Sergei Gukov, Terence Tao, Lucas Fagan) inviting
+  reinforcement-learning/combinatorial-search submissions to resolve specific potential
+  counterexamples to the Andrews-Curtis conjecture (relevant to the smooth 4D Poincaré conjecture
+  and exotic 4-spheres). Blog post opened in full this session. NOT a result — a competition launch
+  — queued purely as a WATCH item for future submissions/resolutions on this named conjecture, not
+  as evidence of anything proved.
 
 ## source_rotation
 
@@ -3031,6 +3096,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-11 — [A Severe Misalignment of AI in Mathematics (25 Fields Medallists, incl. Terence Tao)](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/)
+  — a public declaration, modeled on the Leiden Declaration, that AI companies' push to solve
+  mathematical problems as a benchmark is "severely misaligned" with the goals of the mathematical
+  community; not a research result, but a field-shaping community event every frontier researcher in
+  this ledger's scope should know about, directly tied to the OpenAI/Buckmaster-Alpöge/Anandkumar
+  Navier-Stokes-Euler saga tracked above.
 - 2026-09-10 (v1 2026-09-10) — [Connes' bicentralizer problem settled (Houdayer, Marrakchi)](https://arxiv.org/abs/2609.11462)
   — settles a 1970s-open foundational problem in von Neumann algebra theory (together with Takesaki's
   classification problem for flows on the hyperfinite II_1 factor), central to the classification of

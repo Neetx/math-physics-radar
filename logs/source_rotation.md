@@ -1532,3 +1532,85 @@ edu pattern — staged below the promotion bar, see strategy_notes). study_shelf
 (Connes' bicentralizer problem settled; the Four Color Theorem near-linear-time proof; the
 Anandkumar unforced-Euler singularity claim). README.md regenerated from the updated ledger in the
 same commit.
+2026-09-14 (Mon, ~scheduled) — first daily since 2026-09-11 (weekend skipDays as expected; W37
+weekly ran 2026-09-12 in between). Load-state: branch `claude/modest-bohr-d0wr92` had been merged
+into `main` and its remote deleted since last session; restarted the working branch from
+`origin/main` (1176013, matches the W37 amendment-G commit) per the merged-PR restart procedure —
+no orphaned `radar:` commit found on any other branch, no stranded state. FULL CHECK of every
+DAILY-tier mandatory lane. Primary sweep (radar-source-sweep): arXiv API was rate-limited
+(503→429) this session — switched to the healed per-category RSS fallback for the full in-scope
+set: 20 math categories (CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT, 527 fresh
+entries) + 13 physics categories (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/
+supr-con/astro-ph.CO/HE/GA/nucl-th/nlin.SI, 517 fresh entries), all opened and keyword+significance
+triaged. Two genuine below-bar catches: De Loera-Fang-Guo-Lu-Zheng's restricted-case resolution of
+Kalai's cube-simplex conjecture (2609.00397, via Kalai's own blog) and a major revision (v3) of the
+already-tracked Petersen-coloring-conjecture refutation (2608.10028), now an infinite family with a
+full author team, not just a hand-checkable single example — both routed (see TRENDS.md). No new
+trend evidence (Ramsey/non-invertible-symmetries/Stanley-Gasharov/Marton's-exponent keyword-swept
+against the full fresh batch — only an already-captured non-invertible-symmetries item, 2609.03043,
+re-confirmed present, no leak — all four trends HELD, no notes written per note discipline). APS
+PRL/PRX/RMP RSS opened (routine condensed-matter/HEP/AMO batch; PRX's Wigner's-Friend item already
+captured 09-11, no dup). Nature Physics + Nature Communications RSS opened, routine, nothing on-axis
+beyond routine (Nature Comms dominated by chemistry/biology this batch). Quantum journal opened,
+routine LDPC/simulation papers. INSPIRE-HEP most-recent opened, detector/instrumentation-dominated
+as usual, nothing on-axis. SciPost: FULL HEAL CONFIRMED this session (the `/api/publications/`
+endpoint served clean JSON with no Anubis block on either the API or the sitemap; publication count
+advanced .058→.063, all five new titles routine hep-th/quant-ph technical papers, nothing on-axis) —
+closing the partial-heal flag from 09-11. CERN Courier opened but STILL shows the same static
+2026-07-23 batch as prior sessions (standing stale-feed pattern, unchanged, not re-escalated).
+Fermilab and Simons Foundation opened, routine (Simons: "Quanta Magazine Launches Weekly Dispatch to
+Cover How AI Is Changing Math," 09-11 — a meta/media item, noted for context, not queued). Experiments
+block: LIGO Cloudflare-blocked to direct fetch again, healed via `tvly extract` on the plain `/news`
+URL (unchanged, still GWTC-5.0); DESI unchanged (static JS-shell homepage); CERN home `/feed/`
+routine (obituary/safety/ops, no new research); IceCube `/category/news/feed/` routine (same
+tidal-disruption-event null-result search noted 09-09, no new item); LZ publications page unchanged
+(still max arXiv id 2604.21503, no new submission). Community pulse (radar-pulse): r/math and
+r/mathematics STILL the standing hard network-level block (403 direct, unchanged, not re-diagnosed);
+Hacker News front page opened, nothing on-axis; MathOverflow opened, routine (one meta thread on
+"Different publication model in the new era of AI generated math," not itself evidence); Mathstodon
+public timeline opened, generic federated-timeline noise, standing. Full digest lane: a genuinely
+newsworthy sweep — Terence Tao's blog carried FIVE posts in three days (09-11/09-12/09-13) tied to
+the AI-in-mathematics story: "A Severe Misalignment of AI in Mathematics" (25 Fields Medallists'
+declaration, Tao among the signatories) → new study_shelf pick + dated sub-note on the standing
+OpenAI thread; Andreas Thom's guest post "On the existence of non-sofic groups" (firsthand account
+of the nonsofic-group attribution dispute, Sellke/Bubeck correspondence) → dated sub-note on the
+same thread; Claire Voisin's "The status of the Hodge conjecture" and Burt Totaro's "On the Hodge
+conjecture" (both expository guest posts explicitly prompted by UNCONFIRMED social-media rumors of
+an OpenAI/Anthropic Hodge-conjecture or Birch-Swinnerton-Dyer claim) — searched openai.com/research,
+HN, and NYT/Guardian/WSJ/Quanta coverage for an actual primary; found none beyond the already-tracked
+09-08 Navier-Stokes claim, so NOT queued (no primary to cite), flagged as tomorrow's first watch
+item instead; and Lucas Fagan's guest post announcing the SAIR/Caltech Andrews-Curtis Conjecture
+Challenge (Gukov/Tao/Fagan) → queued as a pure watch item (a competition launch, not a result). Gil
+Kalai's blog surfaced the De Loera et al. cube-simplex-conjecture catch (above) plus "Amazing: There
+is no Percolation..." (09-03, already captured 09-04, re-confirmed no leak). Woit's blog: "The
+92-Year-Old Mathematician and the Teenage Apprentice" (09-07, a human-interest NYT story on Joan
+Birman, off-axis for this ledger, not queued) and "A Modest Proposal" (already tracked). n-Category
+Café, Gowers, Baez, Strassler, Backreaction all opened, routine/off-axis (Backreaction's "Dark Matter
+Finally Detected?" 09-02 is the already-tracked LZ 248 keV item, re-confirmed no leak). Scientific
+American searched, nothing new beyond the already-tracked OpenAI story. Repo watch
+(radar-repo-watch, `.atom` via `tvly extract`, GitHub direct API still session-proxy-403'd):
+mathlib4 daily tag advanced to master-2026-09-13 (routine); lean4 unchanged v4.34.0-rc2/v4.33.1
+(08-21); Rocq unchanged 9.3+rc1 (07-22) — no formalization-milestone movement. AI-watch lane:
+cims.nyu.edu checked directly — the personal page was reorganized to a Jekyll/al-folio academic
+template since 09-08 (the ad-hoc preprint-listing page is gone), but all four previously-captured
+PDFs (boussinesq/euler/ipm/statement) still resolve at their known direct URLs, unchanged, no new
+preprint; openai.com/research searched, nothing beyond the already-tracked Navier-Stokes page;
+anima-ai.org re-checked, same 09-07/09-08 post, unchanged. Exploration slot (radar-explore, OFF-AXIS
+rotation): q-bio.PE (next in the roster after math.NA) — all 4 fresh entries read via RSS regardless
+of sub-topic, all routine (human-evolution/lateral-gene-transfer/astrobiology/eco-epidemiology),
+0/4 significant off-axis catch (non-alarm per AGENTS.md domain cadence; roster continues, next:
+econ/q-fin or cs.CC). Trend recalibration (radar-ledger-update): all four trends HELD, no new
+evidence found via any lane swept this session (Stanley-Gasharov now 47 days quiet, 13 days from the
+2026-09-27 dormancy line — a W38 weekly decision, not a daily one). Queue additions: 2 new below-bar
+items (cube-simplex conjecture restricted case; SAIR Andrews-Curtis Challenge watch) + 2 dated
+sub-notes on standing entries (Petersen-coloring revision; OpenAI-thread Fields-declaration/Thom/
+Hodge-rumor-watch cluster) — no pruning (below cap, domain cadence). Queue 196 → 198 (+2; daily does
+not burn down per domain cadence). capture-leak: 2 new arXiv ids named this session (2609.00397,
+2608.10028 [pre-existing id, revision only, not a new id]) — 1 genuinely new id, landing on its own
+queue line; 0 leaked. Full-file mechanical sweep: 240 unique arXiv ids found this session (up from
+239 post-W37-burndown), consistent with exactly the 1 new id — 0 file-wide leaks. Source-discovery:
+no new untracked on-axis domain surfaced this session (all captures came from already-tracked
+sources — Kalai's blog, Tao's blog, arXiv). study_shelf: 1 new pick (the Fields Medallists' AI
+declaration, a field-shaping community event rather than a research result, still squarely
+"something a frontier researcher should know"). README.md regenerated from the updated ledger in
+the same commit.

@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-196-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--12-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-198-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--14-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-12, weekly recalibration):**
-- **Weekly queue burndown** (criterion-completeness pass over the 2026-08-16→08-22 batch): 18 settled/no-follow-up items dropped; 4 domain-cadence landmarks that had sat un-shelved were promoted to [Worth studying](#worth-studying) — the [Albertson-Berman counterexample](https://arxiv.org/abs/2608.13964), [Thompson's Conjecture](https://arxiv.org/abs/2608.17891), the [POLONAISE ultraheavy dark-matter search](https://arxiv.org/abs/2608.20464), and a [BKT-correlations discovery](http://link.aps.org/doi/10.1103/bm42-z87g). Queue 214 → 196.
-- All four trends **HELD** this week: [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) stays strongest (14 groups, still no lattice/continuum cross-citation); [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) is now 45 days quiet — a real dormancy decision looms at the next weekly if nothing moves.
-- Source registry: [cims.nyu.edu](https://cims.nyu.edu/~tristanb/) promoted into the swept registry (3 on-axis artifacts); `anima-ai.org` staged as a new candidate.
-- Self-eval: a mechanical capture-leak recount resolved a standing arXiv-id-count discrepancy (root cause: a stray non-arXiv DOI fragment inflating an earlier regex) — 239 unique ids, 0 leaks.
+**Since last scan (2026-09-14, daily):**
+- **25 Fields Medallists, including Terence Tao, signed a public declaration** — ["A Severe Misalignment of AI in Mathematics"](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/) — that AI companies' push to solve math problems as a benchmark is "severely misaligned" with the mathematical community's goals; a field-shaping event tied to the standing OpenAI/Buckmaster-Alpöge/Anandkumar saga. New [Worth studying](#worth-studying) pick.
+- Two below-bar catches: a restricted-case resolution of Kalai's 35-year-old [cube-simplex conjecture](https://arxiv.org/abs/2609.00397) (De Loera, Fang, Guo, Lu, Zheng), and a major revision of the already-tracked [Petersen-coloring refutation](https://arxiv.org/abs/2608.10028) — now a full paper with an infinite family of counterexamples, not just a single hand-checked example.
+- **Watch, not queued:** unconfirmed social-media rumors of an OpenAI/Anthropic claim on the Hodge conjecture or Birch-Swinnerton-Dyer prompted expository guest posts on Tao's blog by Claire Voisin and Burt Totaro — no primary disclosure found this session (searched openai.com, HN, NYT/Guardian/WSJ/Quanta); flagged as tomorrow's first check.
+- All four trends **HELD** — a genuinely quiet day for the tracked axes themselves; [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) is now 47 days quiet, 13 days from the dormancy line.
 
 ## Trends
 
@@ -23,6 +23,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [A Severe Misalignment of AI in Mathematics (25 Fields Medallists, incl. Terence Tao)](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/) — a public declaration, modeled on the Leiden Declaration, that AI companies' push to solve mathematical problems as a benchmark is "severely misaligned" with the goals of the mathematical community; a field-shaping community event, not a research result.
 - [Connes' bicentralizer problem settled (Houdayer, Marrakchi)](https://arxiv.org/abs/2609.11462) — settles a foundational 1970s-open problem in von Neumann algebra theory, together with Takesaki's classification problem for flows on the hyperfinite II₁ factor; unrefereed, but arguably the biggest single result this ledger has tracked in pure operator-algebra theory.
 - [The Four Color Theorem with linearly many reducible configurations (Inoue, Kawarabayashi, Miyashita, Mohar, Thomassen, Thorup)](https://arxiv.org/abs/2603.24880) — a structurally new proof of the Four Color Theorem giving a near-linear-time 4-coloring algorithm, by exploiting previously-overlooked "flat" regions of planar graphs; a ~5.5-month capture-leak catch, surfaced via a Quanta Magazine feature.
 - [Stable Singularity of the Euler Equations on R^3 without forcing (Ganeshram, Duruisseaux, Anandkumar)](https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/) — a PINN-discovered, interval-arithmetic-argued self-similar blowup for the *unforced* 3D incompressible Euler equations, the fourth entry in this week's AI-assisted fluid-blowup cluster and the closest yet to the actual open free-space problem; reviewed pre-release by Tom Hou and Terence Tao. Off-arXiv, unrefereed, heavily AI-assisted — provisional.
@@ -112,13 +113,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Hacker News](https://news.ycombinator.com/) front page carried a story questioning whether researchers can trust OpenAI with unpublished mathematics, pointing to a [Mathstodon thread](https://mathstodon.xyz/@andreasthom/117240535270608201) with an unverified allegation about private-conversation data use.
-- [Terence Tao's blog](https://terrytao.wordpress.com/) hosted a guest post disclosing a fourth, distinct AI-assisted fluid-blowup claim (unforced 3D Euler), reviewed pre-release by Tao and Tom Hou.
-- [Quanta Magazine](https://www.quantamagazine.org/) ran two major features this week: a synthesis of the OpenAI/Buckmaster-Alpöge Navier-Stokes saga, and the Four Color Theorem capture-leak catch above.
+- [Terence Tao's blog](https://terrytao.wordpress.com/) carried five posts in three days: the Fields Medallists' AI declaration above, Andreas Thom's firsthand account of the nonsofic-groups attribution dispute, guest expository posts on the Hodge conjecture by Claire Voisin and Burt Totaro (prompted by unconfirmed rumors, not a claim), and the launch of the SAIR/Caltech Andrews-Curtis Conjecture Challenge.
+- [Gil Kalai's blog](https://gilkalai.wordpress.com/) surfaced a restricted-case resolution of his own 1990 cube-simplex conjecture (De Loera, Fang, Guo, Lu, Zheng).
 - [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (escalated to the curator; unchanged this session).
-- [Gil Kalai's blog](https://gilkalai.wordpress.com/), [Baez's Azimuth](https://johncarlosbaez.wordpress.com/) and [Backreaction](https://backreaction.blogspot.com/) checked — routine/off-axis, nothing new on this week's stories.
+- SciPost's API is fully healed (confirmed this session, closing the 09-11 partial-heal flag); CERN Courier's feed remains stuck on its 2026-07-23 batch.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (196) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-11](reports/2026-09-11.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (198) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-14](reports/2026-09-14.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
