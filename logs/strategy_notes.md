@@ -1264,3 +1264,14 @@ Corrections to the source-coverage strategy.
   week (the Four Color Theorem's 5.5-month-old near-linear-time proof, caught 09-11 via Quanta) —
   cooling period elapsed, signal persisted, no curator veto → applied to `routines/weekly.md` this
   session (dedicated commit), first run above.
+- 2026-09-15 (daily) — Coverage-gap signal: caught an 11-day-late capture-leak (Anthropic's
+  2026-09-04 Fermat's Last Theorem Lean formalization, verified by Kevin Buzzard — see TRENDS.md/
+  study_shelf) purely as a side-effect of a Tavily search for an UNRELATED watch item (the
+  Hodge-conjecture/BSD rumor) — no swept DAILY-tier lane this session or in the 8 dailies between
+  09-04 and today named it. Root cause: anthropic.com/research sat in `SOURCES.md`'s
+  Discovered-source candidates staging area (1 sighting, held below the ≥2 promotion bar) rather
+  than the DAILY-tier swept registry, so no run was actively checking it — unlike openai.com/
+  cdn.openai.com (promoted DAILY tier after 2 sightings W32) and cims.nyu.edu (promoted W37), which
+  get checked every run. This 2nd sighting now clears anthropic.com/research's own ≥2 bar (staged
+  in SOURCES.md this session) — flagging for W38 promotion to DAILY tier so a channel this
+  productive (Riemann-zeta 08-10, now FLT 09-04) isn't left to chance discovery again.

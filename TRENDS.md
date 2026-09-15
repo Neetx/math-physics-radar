@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3079,6 +3079,98 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   and exotic 4-spheres). Blog post opened in full this session. NOT a result — a competition launch
   — queued purely as a WATCH item for future submissions/resolutions on this named conjecture, not
   as evidence of anything proved.
+- 2026-09-04 (CAPTURE-LEAK CATCH, 11 days late — found this session while chasing the standing
+  Hodge-conjecture/BSD rumor watch item via a Tavily search that surfaced it as a side result; not
+  previously on this ledger under any term) — Anthropic (Claude, an internal general-purpose
+  research model, via the Prove2Me collaborative-formalization platform) — "Formalizing Fermat's
+  Last Theorem" — https://www.anthropic.com/research/formalizing-fermats-last-theorem · code
+  https://github.com/anthropics/fermats-last-theorem — formalized/computer-assisted mathematics
+  (axis 5, Lean/Mathlib; axis 5 AI-watch): the FIRST complete, end-to-end computer-checked Lean
+  proof of Fermat's Last Theorem — 13.4M lines of Lean, ~29,500 intermediate theorems used in the
+  final proof (30,300 proved along the way), following the Darmon–Diamond–Taylor exposition of the
+  Wiles–Taylor–Wiles argument (via Langlands–Tunnell + Ribet level-lowering), built largely
+  autonomously by a multi-agent Claude harness over 11 days (completed ~2026-08-18, announced
+  2026-09-04); completes Freek Wiedijk's 20-year-old "100 formalization challenges" list (the final
+  entry). Kevin Buzzard (Imperial College London — the actual academic lead of the human-led,
+  EPSRC-funded FLT-in-Lean formalization project this result leapfrogs) personally compiled the
+  codebase and ran Lean's `comparator` against Mathlib's own FLT statement on his own machine — "I
+  ... run comparator on it — it checks out" (his own blog, xenaproject.wordpress.com/2026/09/04/
+  flt-anthropic-has-beaten-me-to-it, opened in full this session) — genuine independent-expert
+  verification, not merely a corporate claim. Technical caveat from Buzzard's own account: the new
+  proof covers p≥17 via a fresh Fontaine-theory / Mazur-Eisenstein-ideal argument bounding Frey-curve
+  torsion, combined with the PRE-EXISTING formalization of the odd-regular-prime case
+  (Best–Birkbeck–Brasca–Rodriguez-van-der-Velde–Yang) to cover all primes (smallest irregular prime
+  is 37) — a real, complete proof, assembled from two formalization efforts, not a single one.
+  Anthropic's page and Buzzard's blog both opened and read in full this session (primary +
+  independent-expert corroboration). LANDMARK — first-of-its-kind formalization milestone (domain
+  cadence: seed-worthy on its own). Also on `study_shelf`. Side note, same disclosure, not
+  separately queued: the same post reports a 3-day side-experiment formalizing Vinogradov's Three
+  Primes Theorem via Prove2Me on personal Claude subscriptions. Source-discovery: this clears the
+  ≥2-sighting bar for BOTH anthropic.com/research (2nd sighting after the 2026-08-10 Riemann-zeta
+  entry) and github.com/anthropics (2nd on-axis artifact after the percolation-conjecture repo) —
+  staged/incremented in SOURCES.md, ready for weekly promotion.
+- 2026-09-15 — https://arxiv.org/abs/2609.15893 — Riordan, Scott, "A short proof of the Erdős–Sós
+  Conjecture": a human-authored, simplified write-up of a FULL proof of the ~63-year-old Erdős–Sós
+  conjecture (every graph with more than (k−1)n/2 edges contains every tree on k+1 vertices) — the
+  abstract states the conjecture "was recently proved by GPT-6 Astra" and this note gives "a
+  simplified version of this argument in an (arguably) more natural form," also determines the
+  extremal graphs and proves a related conjecture of Addario-Berry, Havet, Linhares Sales, Reed and
+  Thomassé. Authors are established Oxford combinatorialists (Oliver Riordan, Alex Scott). Abstract +
+  authors verified via arXiv RSS this session (v1 2026-09-15). Significance: escalates the standing
+  GPT-6 Astra claim from "unrefereed AI output" toward genuine independent human engagement — beyond
+  the already-tracked Reed–Stein DENSE-case-only human proof (`study_shelf`), two senior
+  mathematicians have now reproduced/simplified the FULL argument — still not a formal referee
+  report, but the strongest vetting signal yet on any GPT-6 Astra math claim. LANDMARK single result
+  (domain cadence: full resolution of a named 60+-year conjecture). Also on `study_shelf`.
+- 2026-09-15 — https://arxiv.org/abs/2609.14893 — Burungale, Tian, "A proof of Sylvester's
+  conjecture": completes Sylvester's 1879 conjecture (every prime p≡4,7,8 mod 9 is a sum of two
+  rational cubes) by resolving the last remaining case p≡8 mod 9, proving the elliptic curve
+  E_p: y²=x³+p²/4 has analytic rank one (as BSD predicts) via a Rankin–Selberg/Heegner-point
+  argument building on the authors' own prior work on the rank-one converse for CM elliptic curves;
+  the classes 4 and 7 were settled by Elkies (1994, announced) and Yin (complete proof). Abstract +
+  authors verified via arXiv RSS this session (v1 2026-09-15). LANDMARK — full resolution of a
+  147-year-old named number-theory conjecture, human-authored (Ashay Burungale, Ye Tian, established
+  number theorists), via deep BSD-adjacent techniques.
+- 2026-09-15 — https://arxiv.org/abs/2609.14794 — Xiong, "Kusner's conjecture is false for p>4":
+  disproves Kusner's conjecture (max equilateral-set cardinality in R^n under the l_p metric is n+1,
+  for all 1<p<∞) for every p>4, via an explicit construction of 8m points in R^(8m−2); combined with
+  Swanepoel's prior disproof for 1<p<2 and Ge–Xu–Zhou's prior proof for 2≤p≤4, this RESOLVES Kusner's
+  conjecture completely across the full range 1<p<∞. Single author (Nathan Xiong). Abstract + author
+  verified via arXiv RSS this session (v1 2026-09-15, cross-listed math.MG/math.CO). LANDMARK — full
+  resolution of a well-known combinatorial-geometry conjecture.
+- 2026-09-15 — https://arxiv.org/abs/2609.15930 — Alexeev, Schreieder, "Two proofs of the
+  Cassels–Swinnerton-Dyer conjecture for cubic surfaces": proves the last missing case (degree-4
+  points, via two independent arguments) of the Cassels–Swinnerton-Dyer conjecture for smooth cubic
+  surfaces in characteristic zero (reduced to this case by Coray–Voisin), extends to arbitrary fields
+  via a lifting argument, and separately settles the singular-cubic-surface case over perfect fields
+  (extending Coray) — altogether a full proof of the conjecture for cubic surfaces. Abstract +
+  authors verified via arXiv RSS this session (v1 2026-09-15). LANDMARK — full resolution of a named
+  arithmetic-geometry conjecture (rational points on cubic hypersurfaces).
+- 2026-09-15 — https://arxiv.org/abs/2609.15591 — Xu, "A 3-regular counterexample to the
+  Bilu–Linial signing conjecture": disproves the Bilu–Linial signing conjecture for general
+  d-regular graphs (that every regular graph has a Ramanujan-type edge signing with spectral radius
+  ≤ 2√(d−1)) via an explicit cubic counterexample. Same-day companion (different, independent
+  author group) — https://arxiv.org/abs/2609.15715 — Lin, Zhou, "Improved Bounds for the
+  Bilu–Linial Conjecture via Spectral Recovery from Mixed Determinantal Polynomials": improves the
+  constant in the still-standing weaker two-sided spectral bound (the Marcus–Spielman–Srivastava /
+  Ravichandran–Srivastava interlacing-families direction) from 2√2 to (3+√5)/2 ≈ 2.618 (√6 for
+  triangle-free graphs). Both abstracts + authors verified via arXiv RSS this session (v1
+  2026-09-15). Below-bar as a DIRECTION trend (2 groups, same day, on related-but-distinct
+  formulations of the conjecture) but a genuine spectral-graph-theory landmark cluster — watch for a
+  3rd independent group.
+- 2026-09-15 — https://arxiv.org/abs/2609.14525 — Lu, Wang, "Retained-Set Descent for Diagonal
+  Ramsey Numbers": an UPPER bound on the diagonal Ramsey number, R(k,k) ≤ 3.69507^k for large k
+  (infimum diagonal exponent in [1.305, 1.307]) — Ramsey-ADJACENT but an UPPER bound, not the tracked
+  LOWER-bound wave (does not feed the accelerating Ramsey trend above), on the specific DIAGONAL
+  r(k,k) case that trend's own notes flagged as the next barrier to watch. Abstract + authors
+  verified via arXiv RSS this session (v1 2026-09-15).
+- 2026-09-15 (exploration slot, off-axis rotation: cs.CC) — https://arxiv.org/abs/2609.14393 —
+  Yang, "New lower bounds on tensor rank of (2,n,m) matrix multiplication with GPT-6": AI-assisted
+  (GPT-6) new tensor-rank lower bounds for small matrix-multiplication instances. Same-batch,
+  independent companion — https://arxiv.org/abs/2609.13596 — Agarwal, "Certified local rank and
+  uniqueness barriers for a 48-term matrix-multiplication decomposition." Algebraic-complexity
+  results, borderline on this ledger's axis 1 but filed under cs.CC (off-axis by category); queued
+  as below-bar off-axis watch items, titles/abstracts only this session, not read in full.
 
 ## source_rotation
 
@@ -3096,6 +3188,14 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-04 (capture-leak catch, found 2026-09-15) — [Formalizing Fermat's Last Theorem (Anthropic/Claude, verified by Kevin Buzzard)](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
+  — the first complete, end-to-end computer-checked Lean proof of FLT (13.4M lines, largely
+  autonomous), independently compiled and confirmed ("it checks out") by Kevin Buzzard, the human
+  academic lead of the EPSRC-funded FLT-in-Lean project this leapfrogs — see `observation_queue`.
+- 2026-09-15 — [A short proof of the Erdős–Sós Conjecture (Riordan, Scott)](https://arxiv.org/abs/2609.15893)
+  — established human mathematicians reproduce and simplify GPT-6 Astra's claimed full proof of the
+  ~63-year-old Erdős–Sós conjecture, the strongest independent-vetting signal yet on any GPT-6 Astra
+  math claim — see `observation_queue`.
 - 2026-09-11 — [A Severe Misalignment of AI in Mathematics (25 Fields Medallists, incl. Terence Tao)](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/)
   — a public declaration, modeled on the Leiden Declaration, that AI companies' push to solve
   mathematical problems as a benchmark is "severely misaligned" with the goals of the mathematical

@@ -1614,3 +1614,69 @@ sources — Kalai's blog, Tao's blog, arXiv). study_shelf: 1 new pick (the Field
 declaration, a field-shaping community event rather than a research result, still squarely
 "something a frontier researcher should know"). README.md regenerated from the updated ledger in
 the same commit.
+2026-09-15 (Tue, ~scheduled) — first daily since 09-14 (no weekend/weekly gap). Load-state: branch
+`claude/modest-bohr-9c6438` restarted from `origin/main` (30b77d3, the 09-14 daily commit) — the
+prior working branch had already been merged and its remote deleted, no stranded state found. FULL
+CHECK of every DAILY-tier mandatory lane. Primary sweep (radar-source-sweep): arXiv API was
+rate-limited ("Rate exceeded") this session — used the healed per-category RSS fallback for the
+full in-scope set: 20 math categories (CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT,
+1,644 fresh entries) + 13 physics categories (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/
+mes-hall/supr-con/astro-ph.CO/HE/GA/nucl-th/nlin.SI, 744 fresh entries), all opened and
+keyword+significance triaged (2,388 titles total). Exceptionally rich batch: 6 landmark-tier
+captures (Riordan-Scott's human-simplified full proof of Erdős-Sós 2609.15893; Burungale-Tian's
+completion of Sylvester's 1879 conjecture 2609.14893; Xiong's full resolution of Kusner's conjecture
+2609.14794; Alexeev-Schreieder's full proof of Cassels-Swinnerton-Dyer for cubic surfaces 2609.15930;
+the Bilu-Linial signing-conjecture counterexample+improved-bound cluster 2609.15591/2609.15715) plus
+a Ramsey-adjacent diagonal-upper-bound catch (2609.14525) and an off-axis cs.CC exploration-slot
+catch (matrix-multiplication tensor-rank cluster, 2609.14393/2609.13596) — all routed to
+`observation_queue` (see TRENDS.md). All four trends keyword-swept against the full fresh batch (
+Ramsey, Marton/PFR-exponent, Stanley-Gasharov, non-invertible-symmetries) — no new evidence on any
+(the diagonal-Ramsey catch is an UPPER bound, does not feed the tracked LOWER-bound trend) — all
+HELD, no notes written per note discipline. Separately, chasing yesterday's flagged Hodge-conjecture/
+BSD-rumor watch item via Tavily surfaced an 11-day-late CAPTURE-LEAK CATCH: Anthropic's 2026-09-04
+"Formalizing Fermat's Last Theorem" (first complete Lean proof of FLT), independently compiled and
+confirmed by Kevin Buzzard on his own blog — today's top story (see TRENDS.md/study_shelf and
+`logs/strategy_notes.md` for the root-cause note). The Hodge/BSD rumor itself remains UNCONFIRMED:
+searched openai.com/research (403 to WebFetch, tavily search/extract found only SEO aggregators —
+kucoin.com, vocal.media, biggo.com — and a paywalled NYT briefing snippet, none a primary), and
+anthropic.com/research (no BSD page found) — still no primary beyond the already-tracked 09-08
+Navier-Stokes claim; remains tomorrow's first watch item. APS PRL/PRX/RMP RSS opened (routine
+batch; PRX's already-tracked Wigner's-Friend item re-confirmed present, no dup). Nature Physics RSS
+still empty-CDATA (standing degraded, unchanged); Nature Communications routine (chemistry/biology-
+dominated). Quantum journal opened, routine LDPC/simulation papers. INSPIRE-HEP most-recent opened,
+detector/instrumentation-dominated as usual; one PhD thesis on CFT topological defects/generalized
+symmetries noted but NOT captured (a thesis, not a fresh independent-group primary). SciPost:
+sitemap re-checked (still the lightest-touch heal), routine. CERN Courier opened (162 items,
+including a meta "arXiv's one-strike rule on AI" piece, off-axis policy news, not queued); Fermilab,
+Simons Foundation opened, routine. Experiments block: LIGO opened via the healed plain `/news` URL
+(unchanged, still GWTC-5.0, 2026-05-26); DESI still 403-blocked (standing, unchanged); CERN home
+`/feed/` routine (obituary/ops, no new research); IceCube `/category/news/feed/` routine (Week 36 at
+the Pole, no new physics result); LZ publications page unchanged (still max arXiv id 2604.21503).
+Community pulse (radar-pulse): r/math/r/mathematics not re-attempted (standing hard network-level
+block, unchanged); Hacker News front page opened via the Algolia API — Daniel Litt's "A Beginning
+for Mathematics" (2026-09-13) front-paged, read in full: pure commentary on the AI-in-mathematics
+saga, no new primary named beyond his own unrelated April paper, not queued (no primary to capture).
+MathOverflow opened (routine questions, incl. a "Research statements in the era of AI scooping" meta
+thread, not itself evidence); Mathstodon public timeline opened, generic federated noise, standing.
+Repo watch (radar-repo-watch, `WebFetch` on `.atom`, GitHub direct API still session-proxy-403'd):
+mathlib4 daily tag advanced to master-2026-09-14 (routine); lean4 advanced v4.34.0-rc2 -> v4.34.0
+FULL RELEASE (2026-09-14) — a genuine version milestone; Rocq unchanged 9.3+rc1 (07-22). AI-watch
+lane: cims.nyu.edu re-checked, same reorganized Jekyll page, all four known PDFs still resolve,
+unchanged; openai.com/research 403'd to WebFetch (no disclosure page located via tavily beyond the
+already-tracked items); anima-ai.org re-checked, same 09-07 post, unchanged. Exploration slot
+(radar-explore, OFF-AXIS rotation): cs.CC (next after q-bio.PE) — all 18 fresh entries read
+regardless of sub-topic; 2/18 flagged significant-off-axis (the matrix-multiplication cluster
+above, queued as below-bar watch items; algebraic-complexity, borderline axis 1). Trend
+recalibration (radar-ledger-update): all four trends HELD (Stanley-Gasharov now 48 days quiet, 12
+days from the 2026-09-27 dormancy line — a W38 weekly decision, not a daily one). Queue additions: 8
+new items (7 today's-batch landmarks/clusters + the backdated FLT catch) — no pruning (well below
+the ~40 soft cap in absolute terms, though the queue's mechanical count is high; domain cadence, no
+number-driven burndown on a daily). Queue 198 -> 206 (+8). capture-leak: 9 new arXiv ids named this
+session (2609.15893, 2609.14893, 2609.14794, 2609.15930, 2609.15591, 2609.15715, 2609.14525,
+2609.14393, 2609.13596; the Anthropic FLT item is off-arXiv, cited by URL) — all land on discrete
+queue/study_shelf lines, 0 leaked. Full-file mechanical sweep: 249 unique arXiv ids found this
+session (up from 240 pre-session), consistent with exactly the 9 new ids — 0 file-wide leaks.
+Source-discovery: anthropic.com/research and github.com/anthropics both cleared their ≥2-sighting
+promotion bar this session via the FLT disclosure (staged/incremented in SOURCES.md, flagged for
+W38 promotion). study_shelf: 2 new picks (the Anthropic/Buzzard FLT formalization; the Riordan-Scott
+Erdős-Sós proof). README.md regenerated from the updated ledger in the same commit.
