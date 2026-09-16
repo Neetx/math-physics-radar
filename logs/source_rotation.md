@@ -1680,3 +1680,78 @@ Source-discovery: anthropic.com/research and github.com/anthropics both cleared 
 promotion bar this session via the FLT disclosure (staged/incremented in SOURCES.md, flagged for
 W38 promotion). study_shelf: 2 new picks (the Anthropic/Buzzard FLT formalization; the Riordan-Scott
 Erdős-Sós proof). README.md regenerated from the updated ledger in the same commit.
+
+- 2026-09-16 (daily) — first daily since 2026-09-15 (no weekend/weekly gap). Load-state: working
+  branch already at origin/main (b456228), no stranded state, no orphaned branch found. FULL CHECK
+  of every DAILY-tier lane. Primary sweep: arXiv API (not RSS — API responded normally this
+  session, no rate limit) full in-scope math category-rotation (math.CO/NT/AG/AC/RA/KT/AT/GT/DG/
+  SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR, 400-entry pull, covering every fresh id since the 09-15
+  daily's ceiling) and physics (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/
+  supr-con/astro-ph.CO/HE/GA/nucl-th/nlin.SI, 400-entry pull) both opened — 309 fresh math + ~300
+  fresh physics titles triaged. Math: 9 below-bar named-conjecture-resolution captures (Gao's
+  zero-sum conjecture disproof, Arazy's Schur-multiplier conjecture, Fong-Tsui conjecture, Cowling's
+  Lp-integrability conjecture, Szpiro's-conjecture bound improvement, Cartan-Hadamard/Aubin
+  small-volume case, Sarnak-Strömbergsson lattice-theta conjecture, a terse single-sentence Uniform
+  Mordell-Lang claim flagged with the same caution as the standing Köthe's-conjecture watch item,
+  and a classifiable-C*-algebras/quantum-symmetries structural result) — all routed to
+  `observation_queue`. Physics batch: quiet, no landmark or non-invertible-symmetry-application
+  catch (one adjacent fusion-category CONSTRUCTION paper, 2609.15986, checked and excluded — pure
+  category-theory construction, not an application to a physical symmetry). All four trends
+  (Ramsey, non-invertible symmetries, Stanley-Gasharov, Marton/PFR-exponent) keyword-swept against
+  the full fresh batch — no new evidence on any (two peripheral Ramsey-labelled titles checked and
+  excluded, neither a lower-bound breakthrough) — all HELD, no notes written per note discipline.
+  SciPost API: healthy this session (no Anubis block), 15 most-recent publications opened, routine
+  (nothing on non-invertible/categorical symmetries). PRL/PRX/RMP RSS opened, routine batches.
+  Nature Physics RSS still empty-CDATA (standing degraded, unchanged, 4+ weeks). Nature
+  Communications opened, routine chemistry/biology-dominated. Quantum journal opened, routine.
+  INSPIRE-HEP most-recent opened, detector/instrumentation-dominated as usual, one CFT-topological-
+  defects item noted but not captured (no arXiv eprint, likely a thesis/proceedings entry). CERN
+  Courier, Fermilab, Simons Foundation opened, routine (a Serre-100th-birthday HN mention and a
+  Simons "Quanta AI-math dispatch" launch noted, neither a result). Experiments block: LIGO 403
+  Cloudflare-blocked again this session (the 08-27 heal via the plain `/news` URL no longer works —
+  re-degraded, heal owed if it recurs); DESI opened, unchanged (newest still 2026-04-15); CERN
+  `/feed/` opened, routine (obituary/ops, no new research); IceCube `/category/news/feed/` opened,
+  two new null-result search papers captured (queued above); LZ publications page re-checked,
+  unchanged (still max arXiv id 2604.21503, no new preprint on the standing 248 keV event watch
+  item). Community pulse (radar-pulse): r/math/r/mathematics not re-attempted (standing hard
+  network-level block, unchanged); Hacker News front page opened via the Algolia API — no new
+  on-axis math/physics story beyond a "Jean-Pierre Serre turns 100" mention (not a result, not
+  queued); MathOverflow opened, routine (two more AI-in-math meta-discussion threads, no new
+  primary); Mathstodon public timeline opened, generic federated noise, standing. Digest/explainer
+  lane: Quanta, Tao, Woit, Gowers, Kalai, Baez, Strassler, Hossenfelder all opened. Tao's blog
+  posted three new entries since 09-14 continuing the AI-in-mathematics values debate (a guest post
+  by Henry Cohn, "The technical debt of AI-generated mathematics," 09-15, opened in full this
+  session, plus Tao's own "Fast math/slow math" and "Why I do mathematical research") — reflective/
+  philosophical essays, no new primary artifact or vetting-status fact on the standing OpenAI/
+  Buckmaster-Alpöge/Anandkumar saga, not individually queued (context noted in today's report).
+  Kalai's blog: "Overtaken" (09-08, an unrelated personal anecdote, checked and excluded) and
+  "Alef's corner: AI and Percolation" (09-15, a cartoon with no text, checked and excluded); the
+  already-tracked cube-simplex-conjecture post (09-11) reconfirmed, no new item. Woit, Gowers,
+  Baez, Strassler, Hossenfelder: no new on-axis post since the last capture (Baez's "The E6 Root
+  Polytope," 09-06, checked — pure exposition, no accompanying arXiv id found, not queued).
+  Hodge-conjecture/BSD rumor: re-chased via `tvly search` this session — still no primary beyond
+  the already-tracked 09-08 Navier-Stokes page; only X/Reddit/LinkedIn rumor chatter located
+  (unverified, not queued, per the standing watch item). Repo watch (radar-repo-watch, `WebFetch`
+  on `.atom`): lean4 and mathlib4 both advanced to v4.35.0-rc1 (2026-09-15, a new release-candidate
+  cycle immediately following the 09-14 v4.34.0 full release) — routine toolchain chore, not
+  queued as its own TRENDS.md line per the established practice (toolchain bumps logged here, not
+  as standalone queue entries, since 2026-08-08); Rocq unchanged 9.3+rc1. AI-watch lane: cims.nyu.edu
+  re-checked (same four PDFs resolve, no fifth — the promised hypo-dissipative-Navier-Stokes/Lean
+  verification still not released); openai.com/anthropic.com re-checked via `tvly search`, no new
+  disclosure; anima-ai.org re-checked, same 09-07 post, unchanged. Exploration slot (radar-explore,
+  OFF-AXIS rotation): econ/q-fin (next after cs.CC) — 30 fresh entries read regardless of sub-topic,
+  0/30 significant-off-axis (all AI-economics/mechanism-design papers, off this radar's beat
+  entirely — no catch, logged per the exploration-slot convention). Trend recalibration
+  (radar-ledger-update): all four trends HELD, no notes written (nothing new on any). Queue
+  additions: 11 new items (9 below-bar named-conjecture resolutions + a C*-algebras structural
+  result + 2 IceCube null-result searches, grouped into 4 TRENDS.md queue lines) — no pruning
+  (well below the ~40 soft cap; domain cadence, no number-driven burndown on a daily). Queue
+  206 -> 210 (+4 queue lines / +11 individually-named items; daily does not burn down per domain
+  cadence). capture-leak: 9 new arXiv ids named this session (2609.17127, 2609.17144, 2609.16236,
+  2609.17052, 2609.17390, 2609.17093, 2609.17356, 2609.17233, 2609.16999) — all land on discrete
+  queue lines, 0 leaked. Full-file mechanical sweep: 259 unique arXiv ids found this session (up
+  from 250 pre-session), consistent with exactly the 9 new ids — 0 file-wide leaks. Source-
+  discovery: no new untracked domain named by an on-axis primary this session (all captures came
+  from already-swept arXiv/IceCube channels). study_shelf: 0 new picks this session (a quiet day of
+  specialized/non-classical-scale results relative to the 09-15 landmark batch — no item clears the
+  study-pick bar). README.md regenerated from the updated ledger in the same commit.

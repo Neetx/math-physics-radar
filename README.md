@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-206-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--15-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-210-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--16-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-15, daily):**
-- **Capture-leak catch (11 days late):** Anthropic's Claude produced the [first complete Lean proof of Fermat's Last Theorem](https://www.anthropic.com/research/formalizing-fermats-last-theorem) (2026-09-04) — independently compiled and confirmed ("it checks out") by Kevin Buzzard, the human academic lead of the project it leapfrogs. New top [Worth studying](#worth-studying) pick.
-- Established mathematicians Oliver Riordan and Alex Scott published a [human-simplified full proof of the Erdős–Sós conjecture](https://arxiv.org/abs/2609.15893), reproducing GPT-6 Astra's claimed result — the strongest independent-vetting signal yet on any GPT-6 Astra math claim.
-- Three more landmark single-conjecture resolutions today: [Sylvester's 1879 conjecture](https://arxiv.org/abs/2609.14893) (Burungale, Tian), [Kusner's conjecture](https://arxiv.org/abs/2609.14794) across its full range (Xiong), and the [Cassels–Swinnerton-Dyer conjecture for cubic surfaces](https://arxiv.org/abs/2609.15930) (Alexeev, Schreieder) — plus a same-day [Bilu–Linial signing-conjecture counterexample + improved-bound cluster](https://arxiv.org/abs/2609.15591).
-- All four trends **HELD** — a quiet day for the tracked axes themselves (a diagonal-Ramsey [upper-bound catch](https://arxiv.org/abs/2609.14525) is adjacent but does not feed the tracked lower-bound wave); [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) is now 48 days quiet, 12 days from the dormancy line.
+**Since last scan (2026-09-16, daily):**
+- All four trends **HELD** — a quiet day after yesterday's landmark-dense batch: no fresh evidence on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics).
+- A cluster of specialized named-conjecture resolutions queued: [Arazy's Schur-multiplier conjecture](https://arxiv.org/abs/2609.17144), the [Fong–Tsui conjecture](https://arxiv.org/abs/2609.16236), [Cowling's Lᵖ-integrability conjecture](https://arxiv.org/abs/2609.17052), an [improved unconditional bound on Szpiro's conjecture](https://arxiv.org/abs/2609.17390) (Pasten), and a disproof of [Gao's 2000 zero-sum conjecture](https://arxiv.org/abs/2609.17127) — none individually landmark-scale.
+- A terse, single-sentence claimed proof of the [uniform Mordell-Lang conjecture](https://arxiv.org/abs/2609.17233) — flagged heavily provisional (same caution as the standing Köthe's-conjecture watch item): a major claim if it survives scrutiny, but nothing to assess from the abstract alone yet.
+- Toolchain: `lean4`/`mathlib4` both cut a new [v4.35.0-rc1](https://github.com/leanprover/lean4/releases) pre-release cycle; IceCube posted two new null-result neutrino searches.
 
 ## Trends
 
@@ -115,13 +115,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Hacker News](https://news.ycombinator.com/) front-paged Daniel Litt's ["A Beginning for Mathematics"](https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics) — another mathematician's commentary on the AI-in-math saga, no new primary named.
-- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed**: searched openai.com/research, Tavily, and mainstream coverage again this session — still no primary beyond the already-tracked 2026-09-08 Navier-Stokes claim.
-- [MathOverflow](https://mathoverflow.net/) carries a "Research statements in the era of AI scooping" meta-thread — more community anxiety, not itself a result.
+- Terence Tao's blog continues the AI-in-mathematics values debate: a guest post by Henry Cohn, ["The technical debt of AI-generated mathematics"](https://terrytao.wordpress.com/2026/09/15/the-technical-debt-of-ai-generated-mathematics/), plus Tao's own reflective posts — no new primary result, part of the standing post-declaration discourse.
+- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed**: re-searched openai.com/anthropic.com and mainstream coverage this session — only X/Reddit/LinkedIn chatter located, still no primary beyond the already-tracked 2026-09-08 Navier-Stokes claim.
+- [MathOverflow](https://mathoverflow.net/) carries more AI-in-math meta-discussion threads — community anxiety, not itself a result.
+- [Hacker News](https://news.ycombinator.com/) front page noted mathematician Jean-Pierre Serre turning 100 — a milestone, not a research result.
 - [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (unchanged this session).
-- `lean4` cut its [v4.34.0](https://github.com/leanprover/lean4/releases) full release (from rc2) — a real toolchain milestone, routine otherwise.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (206) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-15](reports/2026-09-15.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (210) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-16](reports/2026-09-16.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

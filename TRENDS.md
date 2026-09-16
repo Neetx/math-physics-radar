@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-15
+Last updated: 2026-09-16
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3171,6 +3171,56 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   uniqueness barriers for a 48-term matrix-multiplication decomposition." Algebraic-complexity
   results, borderline on this ledger's axis 1 but filed under cs.CC (off-axis by category); queued
   as below-bar off-axis watch items, titles/abstracts only this session, not read in full.
+- 2026-09-16 (fresh math full in-scope category-rotation batch, 2026-09-15 postings) — a cluster of
+  independent named-conjecture resolutions, none individually landmark-scale, grouped for brevity —
+  Alfred Geroldinger, Guoqing Wang, Wenkai Yang, "On a classical zero-sum invariant II: Disproof of
+  a long-standing conjecture," https://arxiv.org/abs/2609.17127 (disproves Gao's year-2000
+  conjecture, ν(G)=𝖽(G)−1, on zero-sum-free sequences over finite abelian groups — confirmed for
+  many families since 2000); Jinghao Huang, Fedor Sukochev, "Arazy's conjecture concerning Schur
+  multipliers: revisited and resolved," https://arxiv.org/abs/2609.17144 (determines the full range
+  of $(p,q)$ boundedness for Schur–Hadamard multipliers, resolving Arazy's operator-theory
+  conjecture); Mohamed Amine Aouichaoui, Fuad Kittaneh, Yicen Ma, "A proof of the Fong–Tsui
+  conjecture," https://arxiv.org/abs/2609.16236 (a bounded operator with $|T|\le|\operatorname{Re}
+  T|$ is self-adjoint); Siwei Liang, "On Cowling's $L^p$-integrability conjecture for Kunze–Stein
+  groups," https://arxiv.org/abs/2609.17052 (proves a stronger form for an admissible class of
+  Kunze–Stein groups, disproves a related Samei–Wiersma cyclic variant); Hector Pasten, "Improved
+  bounds for Szpiro's conjecture," https://arxiv.org/abs/2609.17390 (sharpens the unconditional
+  bound $\log\Delta\ll N\log\log N$, previously known only under GRH, via the author's Shimura-curve
+  $abc$-conjecture methods; unconditional $\log\Delta\ll N$ for semistable curves); Marcos
+  Agnoletto, Márcio Fabiano Da Silva, Stefano Nardulli, Reinaldo Resende, "A proof of the
+  Cartan-Hadamard conjecture for small volumes under a Ricci curvature lower bound,"
+  https://arxiv.org/abs/2609.17093 (the generalized Cartan-Hadamard/Aubin conjecture in the small-
+  volume regime, any dimension $n\ge2$ — complements the already-tracked dimension-5 case,
+  2609.11005, 09-10); Senping Luo, Juncheng Wei, "On Sarnak–Strömbergsson conjecture,"
+  https://arxiv.org/abs/2609.17356 (identifies the FCC/BCC lattices as theta-function minimizers in
+  dimension 3 depending on the parameter regime — math↔physics interface, lattice energy). All
+  abstracts + authors verified via arXiv API this session (v1 dates 2026-09-14/09-15). Unrefereed
+  preprints, standard hype-skepticism caution; none clears the domain-cadence landmark bar on its
+  own (specialized/non-classical-scale conjectures, unlike yesterday's FLT/Erdős-Sós/Sylvester
+  batch) but genuine named-result resolutions worth tracking.
+- 2026-09-16 (fresh math batch, terse single-sentence abstract — same caution pattern as the
+  2609.07996 Köthe's-conjecture entry) — Zhaobo Han, Wenbin Luo, Jiawei Yu, "Uniform Mordell-Lang
+  conjecture for semiabelian varieties," https://arxiv.org/abs/2609.17233 — arithmetic geometry
+  (axis 1, math.AG/NT): the abstract states only "We prove the uniform Mordell-Lang conjecture for
+  semiabelian varieties," with no further elaboration accessible this session. If correct, a major
+  landmark (the uniform Mordell-Lang conjecture is a well-known hard problem in the Vojta/Faltings
+  circle of ideas) — but HEAVY CAVEAT: a single-day-old, completely unrefereed preprint with an
+  unusually terse abstract → PROVISIONAL under the hype-skepticism rule; track closely for expert
+  scrutiny and any retraction/gap report, same pattern as the still-unresolved Köthe's-conjecture
+  watch item above. Abstract + authors verified via arXiv API this session (v1 2026-09-15).
+- 2026-09-16 (fresh math batch) — Kan Kitamura, "Classifiable C*-algebras have quantum symmetries,"
+  https://arxiv.org/abs/2609.16999 — operator algebras (axis 2, math.OA): shows every classifiable
+  simple C*-algebra (incl. the Jiang–Su algebra) admits outer actions of several discrete quantum
+  groups, with new hyperfinite-subfactor examples as a consequence. Abstract + author verified via
+  arXiv API this session (v1 2026-09-15). Below-bar (a structural result, not a named-conjecture
+  resolution) but a genuine operator-algebra advance.
+- 2026-09-16 (IceCube Collaboration news feed, opened this session) — two fresh null-result search
+  papers, https://icecube.wisc.edu/news/research/2026/09/search-for-steady-state-neutrino-emission-using-icecube-deepcore/
+  ("Search for steady-state neutrino emission using IceCube DeepCore") and
+  https://icecube.wisc.edu/news/research/2026/09/search-for-neutrino-emission-from-tidal-disruption-events/
+  ("Search for neutrino emission from tidal disruption events") — neutrino astrophysics (axis 3):
+  both set new non-detection limits, not discoveries. Pages opened this session; below-bar, routine
+  limit-setting searches from a flagship collaboration — queued.
 
 ## source_rotation
 
