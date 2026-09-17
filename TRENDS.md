@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-16
+Last updated: 2026-09-17
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3221,6 +3221,53 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   ("Search for neutrino emission from tidal disruption events") — neutrino astrophysics (axis 3):
   both set new non-detection limits, not discoveries. Pages opened this session; below-bar, routine
   limit-setting searches from a flagship collaboration — queued.
+- 2026-09-17 (v1 2026-09-16; fresh math category-rotation batch, opened this session) — Fan Chang,
+  Hong Liu, Miao Liu, "A proof of Chvátal's conjecture via a sharp correlation inequality" —
+  https://arxiv.org/abs/2609.19123 — extremal set theory (axis 1, math.CO): proves Chvátal's
+  conjecture, posed in 1972 (~54 years open) — every hereditary family of subsets of a finite set
+  has a largest intersecting subfamily that is a star — via a sharp correlation inequality for
+  increasing Boolean functions (a Cov(f,g) ≥ ¼min Inf_i[f] bound for antipodal g), a self-contained
+  general-purpose tool beyond the conjecture itself. Abstract + authors verified via arXiv API this
+  session (v1 2026-09-16). Domain-cadence LANDMARK single result (a half-century-old, textbook-cited
+  named conjecture in combinatorics fully resolved) — unrefereed preprint, standard hype-skepticism
+  caution — queued, also on `study_shelf`.
+- 2026-09-17 (v1 2026-09-16; fresh math category-rotation batch, opened this session) — Thomas
+  Polstra, Austyn Simpson, "Bertini's theorem for $F$-rationality is false" —
+  https://arxiv.org/abs/2609.18921 — commutative algebra / F-singularities (axis 1, math.AC):
+  constructs a 9-dimensional $F$-rational affine variety over $\overline{\mathbb F_2}$ whose generic
+  hyperplane section is NOT $F$-rational (not even $F$-injective) — refutes the natural
+  Bertini-type expectation that $F$-rationality is preserved under generic hyperplane sections, the
+  positive-characteristic analogue of a classical Bertini theorem. Abstract + authors verified via
+  arXiv API this session (v1 2026-09-16). Below-bar (a natural-expectation refutation in a
+  specialized sub-field, not a classical-scale named conjecture) — unrefereed, standard caution —
+  queued.
+- 2026-09-17 (v1 2026-09-16; fresh math category-rotation batch, opened this session; further
+  independent human engagement with the standing GPT-6 Astra Erdős-Sós claim already on
+  `study_shelf` via Riordan-Scott, 2026-09-15) — David R. Wood, "The Erdős–Sós Theorem" —
+  https://arxiv.org/abs/2609.17877 — a SECOND, independent expository write-up of GPT-6 Astra's
+  claimed proof of the Erdős-Sós conjecture, by another established combinatorialist (Monash
+  University). Abstract + author verified via arXiv API this session (v1 2026-09-16). A further
+  vetting-status data point on the same underlying AI claim (two independent human expositions now
+  on file, Riordan-Scott + Wood) — not a new result in its own right, folded in as a below-bar
+  queue item rather than a new trend line.
+- 2026-09-17 (v1 2026-09-16; fresh math category-rotation batch, opened this session; further
+  independent engagement with the standing AI-assisted Jacobian-conjecture counterexample cluster)
+  — Arno van den Essen, "An elementary way to find a counterexample to the Jacobian Conjecture" —
+  https://arxiv.org/abs/2609.17795 — shows the Alpöge/Claude-Fable-5-assisted counterexample to the
+  Jacobian Conjecture (already tracked, 2026-07) can be found by elementary means, reproducing (up
+  to linear coordinate change) the same example. Abstract + author verified via arXiv API this
+  session (v1 2026-09-16). A further human/elementary re-derivation of an already-tracked AI-assisted
+  claim (in the same vein as Tao's own digestion) — below-bar, queued as a vetting-signal item.
+- 2026-09-17 (blog announcement, not a result; discovered via Terence Tao's blog this session) —
+  https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/ — Terence Tao
+  (SAIR Foundation, with Joachim Breitner, Kim Morrison, Leonardo de Moura), "SAIR competition –
+  Lean Kernel Challenge" — axis 5 (computer-assisted & formalized mathematics, ecosystem/tooling):
+  launches Stage 1 of a multi-stage competition to develop faster verified-computation algorithms/
+  representations for the Lean 4 kernel (eight fixed problems: Fibonacci, integer partitions, the
+  Mertens function, prime counting, matrix permanent, Rule 110, SHA-256, polynomial discriminant;
+  deadline 2026-11-20). Blog post opened in full via `tvly extract` this session. NOT a result — a
+  second axis-5 competition launch this month (after the Andrews-Curtis Conjecture Challenge,
+  09-11, already queued) — queued purely as a WATCH item for future submissions, same pattern.
 
 ## source_rotation
 
@@ -3238,6 +3285,11 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-17 (v1 2026-09-16) — [A proof of Chvátal's conjecture via a sharp correlation inequality (Chang, Liu, Liu)](https://arxiv.org/abs/2609.19123)
+  — resolves Chvátal's 1972 conjecture that every hereditary family of subsets has a largest
+  intersecting subfamily that is a star, via a sharp correlation inequality for increasing Boolean
+  functions with independent interest beyond the conjecture itself — a clean half-century-old
+  combinatorics landmark.
 - 2026-09-04 (capture-leak catch, found 2026-09-15) — [Formalizing Fermat's Last Theorem (Anthropic/Claude, verified by Kevin Buzzard)](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
   — the first complete, end-to-end computer-checked Lean proof of FLT (13.4M lines, largely
   autonomous), independently compiled and confirmed ("it checks out") by Kevin Buzzard, the human

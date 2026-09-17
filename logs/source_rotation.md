@@ -1755,3 +1755,80 @@ Erdős-Sós proof). README.md regenerated from the updated ledger in the same co
   from already-swept arXiv/IceCube channels). study_shelf: 0 new picks this session (a quiet day of
   specialized/non-classical-scale results relative to the 09-15 landmark batch — no item clears the
   study-pick bar). README.md regenerated from the updated ledger in the same commit.
+
+- 2026-09-17 (daily, Pass 1) — Working branch already matched `origin/main` (b585cc3), no stranded
+  state, no orphaned branch found. Primary-feed sweep: fresh math full in-scope category-rotation
+  batch (math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR, arXiv API, 300-entry
+  pull, window 2026-09-15T17:57Z→2026-09-16T17:46Z) and physics batch (hep-th/hep-ph/gr-qc/quant-ph/
+  math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/GA/nucl-th/nlin.SI, 300-entry pull, window
+  2026-09-15T14:37Z→2026-09-16T17:53Z) both opened and keyword-triaged. Four captures from the math
+  batch: Chvátal's 1972 conjecture proved (2609.19123, landmark), Bertini's theorem for F-rationality
+  refuted (2609.18921), a second independent human exposition of the GPT-6-Astra Erdős-Sós claim
+  (David R. Wood, 2609.17877), and an elementary re-derivation of the Jacobian-conjecture
+  counterexample (van den Essen, 2609.17795) — all four queued. Physics batch quiet: no landmark, no
+  new non-invertible-symmetries application. All four active trends (Ramsey, non-invertible
+  symmetries, Stanley-Gasharov, Marton/PFR-exponent) keyword-swept against both fresh batches — no
+  new evidence on any — all HELD, no notes written per note discipline. SciPost API: healthy this
+  session (no Anubis block), 15 most-recent publications opened via the API, routine (nothing on
+  non-invertible/categorical symmetries). PRL/PRX/RMP RSS opened, routine batches. Nature Physics RSS
+  still empty-CDATA (standing degraded, 5+ weeks, unchanged). Nature Communications RSS also
+  empty-CDATA this session (same failure mode as Nature Physics — first time observed on this feed;
+  not yet a 2nd-consecutive-daily heal-owed flag). INSPIRE-HEP most-recent opened (15 entries),
+  detector/instrumentation-dominated as usual; one CFT-topological-defects item noted (Sinha, Roy,
+  "Topological defects in two-dimensional CFTs") but NOT captured — no arXiv eprint listed (thesis/
+  proceedings entry, same exclusion pattern as the 09-16 note). Experiments block: LIGO HEALED again
+  this session — `http://www.ligo.org/news` (no `.php`, plain HTTP) returns 200 and the full news
+  listing cleanly (the `.php` URL still 403s Cloudflare); unchanged content (GWTC-5.0 still newest).
+  DESI opened, unchanged (newest still 2026-04-15). CERN `/feed/` opened, routine (ops/obituary
+  items, no new research). IceCube `/category/news/feed/` opened, unchanged since yesterday's two
+  captures. LZ publications page re-checked via `tvly extract`, unchanged (still max e-print
+  2604.21503, no new preprint on the standing 248 keV event watch item). Community pulse
+  (radar-pulse): r/math/r/mathematics re-tested directly this session (both `www.reddit.com/.rss` and
+  `old.reddit.com/.rss`) — still 403, standing hard network-level block confirmed unchanged (5+
+  weeks). Hacker News front page opened via the Algolia API — no on-axis math/physics story today.
+  MathOverflow opened, routine (two AI-in-math meta-discussion threads — "Why AI cannot develop
+  mathematical theories?", "Are mathematicians engaging with AI results?" — no new primary).
+  Mathstodon public timeline opened, generic federated noise, standing. Digest/explainer lane: Quanta,
+  Tao, Woit, Gowers, Kalai, Baez, Strassler, Hossenfelder, n-Category Café all opened. Tao's blog
+  posted four new entries since 09-15: "SAIR competition – Lean Kernel Challenge" (09-16, a Lean-4-
+  kernel verified-computation competition launch, captured as its own queue item), "Proofs, Prompts
+  and Posts" and "Let the Diners Into the Kitchen" (guest post, an AI-in-mathematics allegorical
+  essay — no new primary/vetting fact) and "Open letter from Fellows of the Royal Society on AI
+  existential risk" (off-axis AI-policy, not mathematical) — none individually queued beyond the SAIR
+  item. Woit: no new post since the already-tracked 09-09 "A Modest Proposal". Gowers/Baez/Strassler/
+  n-Category Café: no new post since already-tracked entries. Kalai: "Jesús A. De Loera... Proved the
+  Simplex–Cube Conjecture" reconfirms the already-queued 2609.00397 item (no new content); "Alef's
+  corner" and "Overtaken" unchanged/excluded. Hossenfelder: one new post ("Einstein Refused to
+  Believe This, But It Could Explain the Universe," 09-15) — a YouTube-linked general-audience video
+  essay; page extraction failed (blogspot template blocked both `tvly extract` and direct-body
+  parsing) and no specific arXiv primary was identifiable from the title/metadata alone — not
+  captured (no primary opened, per the hard rule), logged as checked. Hodge-conjecture/BSD rumor:
+  re-chased via `tvly search` — still only SEO/aggregator rumor chatter (vocal.media, kucoin.com), no
+  primary; openai.com/anthropic.com re-checked directly via `tvly search`, no new disclosure beyond
+  the already-tracked FLT page. AI-watch lane: cims.nyu.edu re-checked (direct HEAD-equivalent GET on
+  all four known PDF slugs, all still 200; no fifth PDF found under `statement`/`hypodissipative`-
+  style guesses); anima-ai.org re-checked, same single 09-07 post, unchanged. Repo watch
+  (radar-repo-watch, `WebFetch` on `.atom`, `tvly` on this occasion returned a STALE cached snapshot
+  ~4 weeks old for lean4/rocq — `WebFetch` used instead and confirms live state): lean4 advanced
+  v4.34.0-rc2(08-21)→v4.34.0 full release (09-14)→v4.35.0-rc1 (09-15)→v4.35.0-rc2 (09-16); mathlib4
+  continuing its daily `master-YYYY-MM-DD` auto-tag cadence (latest 09-13 per the `tvly`-cached read,
+  not independently re-verified live this session); Rocq unchanged 9.3+rc1. Routine toolchain chore,
+  not queued as its own TRENDS.md line (established practice since 2026-08-08) — NOTE for next
+  session: `tvly extract`/`tvly search` returned STALE (~4-week-old) content for the lean4/rocq
+  releases.atom this session while `WebFetch` returned live data — prefer `WebFetch` on `.atom` as
+  primary for repo-watch until `tvly`'s cache freshens. Exploration slot (radar-explore, OFF-AXIS
+  rotation): q-bio.PE (next after econ/q-fin) — 30 fresh entries read regardless of sub-topic, 0/30
+  significant-off-axis (population/ecology/epidemiology modeling papers, off this radar's beat
+  entirely — no catch, logged per the exploration-slot convention). Trend recalibration
+  (radar-ledger-update): all four trends HELD, no notes written (nothing new on any). Queue
+  additions: 5 new queue lines (Chvátal's-conjecture landmark, Bertini-for-F-rationality refutation,
+  the Wood Erdős-Sós exposition, the van den Essen Jacobian-conjecture re-derivation, the SAIR Lean
+  Kernel Challenge launch) — no pruning (well below the ~40 soft cap; domain cadence, no
+  number-driven burndown on a daily). capture-leak: 4 new arXiv ids named this session (2609.19123,
+  2609.18921, 2609.17877, 2609.17795) — all land on discrete queue lines, 0 leaked; the SAIR
+  competition item carries no arXiv id (a blog announcement). Full-file mechanical id sweep not
+  independently rerun this session (established 0-leak baseline from 09-16: 259 unique ids; today
+  adds exactly 4 new ones, consistent). Source-discovery: no new untracked domain named by an on-axis
+  primary this session (all captures came from already-swept arXiv/Tao-blog channels). study_shelf: 1
+  new pick this session (Chvátal's conjecture, 2609.19123 — a clean half-century-old landmark).
+  README.md regenerated from the updated ledger in the same commit.

@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-210-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--16-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-215-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--17-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-16, daily):**
-- All four trends **HELD** — a quiet day after yesterday's landmark-dense batch: no fresh evidence on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics).
-- A cluster of specialized named-conjecture resolutions queued: [Arazy's Schur-multiplier conjecture](https://arxiv.org/abs/2609.17144), the [Fong–Tsui conjecture](https://arxiv.org/abs/2609.16236), [Cowling's Lᵖ-integrability conjecture](https://arxiv.org/abs/2609.17052), an [improved unconditional bound on Szpiro's conjecture](https://arxiv.org/abs/2609.17390) (Pasten), and a disproof of [Gao's 2000 zero-sum conjecture](https://arxiv.org/abs/2609.17127) — none individually landmark-scale.
-- A terse, single-sentence claimed proof of the [uniform Mordell-Lang conjecture](https://arxiv.org/abs/2609.17233) — flagged heavily provisional (same caution as the standing Köthe's-conjecture watch item): a major claim if it survives scrutiny, but nothing to assess from the abstract alone yet.
-- Toolchain: `lean4`/`mathlib4` both cut a new [v4.35.0-rc1](https://github.com/leanprover/lean4/releases) pre-release cycle; IceCube posted two new null-result neutrino searches.
+**Since last scan (2026-09-17, daily):**
+- All four trends **HELD** — another quiet day for the trend table: no fresh evidence on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics).
+- New landmark: [Chvátal's conjecture (1972) proved](https://arxiv.org/abs/2609.19123) (Chang, Liu, Liu) — a half-century-old named conjecture in extremal set theory, resolved via a sharp correlation inequality for increasing Boolean functions.
+- [Bertini's theorem for F-rationality is false](https://arxiv.org/abs/2609.18921) (Polstra, Simpson) queued, plus two further independent human engagements with standing AI-assisted claims: a [second exposition of the GPT-6-Astra Erdős-Sós proof](https://arxiv.org/abs/2609.17877) (Wood) and an [elementary re-derivation of the Jacobian-conjecture counterexample](https://arxiv.org/abs/2609.17795) (van den Essen).
+- Ecosystem: Terence Tao/SAIR launched the [Lean Kernel Challenge](https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/), a new verified-computation performance competition; `lean4` cut a full v4.34.0 release then two more pre-releases (now v4.35.0-rc2).
 
 ## Trends
 
@@ -23,6 +23,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [A proof of Chvátal's conjecture via a sharp correlation inequality (Chang, Liu, Liu)](https://arxiv.org/abs/2609.19123) — resolves Chvátal's 1972 conjecture that every hereditary family of subsets has a largest intersecting subfamily that is a star, via a sharp correlation inequality for increasing Boolean functions with independent interest beyond the conjecture itself.
 - [Formalizing Fermat's Last Theorem (Anthropic/Claude, verified by Kevin Buzzard)](https://www.anthropic.com/research/formalizing-fermats-last-theorem) — the first complete, end-to-end computer-checked Lean proof of FLT (13.4M lines, largely autonomous, 2026-09-04); independently compiled and confirmed by Kevin Buzzard, the human academic lead of the EPSRC-funded FLT-in-Lean project this leapfrogs — a genuine independent-expert verification, not just a corporate claim. An 11-day-late capture-leak catch.
 - [A short proof of the Erdős–Sós Conjecture (Riordan, Scott)](https://arxiv.org/abs/2609.15893) — established Oxford mathematicians reproduce and simplify GPT-6 Astra's claimed full proof of the ~63-year-old Erdős–Sós conjecture; the strongest independent-vetting signal yet on any GPT-6 Astra math claim.
 - [A Severe Misalignment of AI in Mathematics (25 Fields Medallists, incl. Terence Tao)](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/) — a public declaration, modeled on the Leiden Declaration, that AI companies' push to solve mathematical problems as a benchmark is "severely misaligned" with the goals of the mathematical community; a field-shaping community event, not a research result.
@@ -115,13 +116,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Terence Tao's blog continues the AI-in-mathematics values debate: a guest post by Henry Cohn, ["The technical debt of AI-generated mathematics"](https://terrytao.wordpress.com/2026/09/15/the-technical-debt-of-ai-generated-mathematics/), plus Tao's own reflective posts — no new primary result, part of the standing post-declaration discourse.
-- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed**: re-searched openai.com/anthropic.com and mainstream coverage this session — only X/Reddit/LinkedIn chatter located, still no primary beyond the already-tracked 2026-09-08 Navier-Stokes claim.
-- [MathOverflow](https://mathoverflow.net/) carries more AI-in-math meta-discussion threads — community anxiety, not itself a result.
-- [Hacker News](https://news.ycombinator.com/) front page noted mathematician Jean-Pierre Serre turning 100 — a milestone, not a research result.
-- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (unchanged this session).
+- Terence Tao's blog continues to be the highest-signal pulse channel: a guest post allegorizing AI-generated mathematics (["Let the Diners Into the Kitchen"](https://terrytao.wordpress.com/2026/09/16/let-the-diners-into-the-kitchen/)) and the new [Lean Kernel Challenge](https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/) competition launch — no new primary math result, part of the standing post-declaration discourse.
+- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed**: re-searched openai.com/anthropic.com and mainstream coverage this session — only SEO/aggregator chatter located, still no primary beyond the already-tracked 2026-09-08 Navier-Stokes claim.
+- [MathOverflow](https://mathoverflow.net/) carries more AI-in-math meta-discussion threads ("Why AI cannot develop mathematical theories?", "Are mathematicians engaging with AI results?") — community anxiety, not itself a result.
+- [Hacker News](https://news.ycombinator.com/) front page had no on-axis math/physics story today.
+- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session).
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (210) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-16](reports/2026-09-16.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (215) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-17](reports/2026-09-17.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
