@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-215-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--17-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-225-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--18-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-17, daily):**
-- All four trends **HELD** — another quiet day for the trend table: no fresh evidence on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics).
-- New landmark: [Chvátal's conjecture (1972) proved](https://arxiv.org/abs/2609.19123) (Chang, Liu, Liu) — a half-century-old named conjecture in extremal set theory, resolved via a sharp correlation inequality for increasing Boolean functions.
-- [Bertini's theorem for F-rationality is false](https://arxiv.org/abs/2609.18921) (Polstra, Simpson) queued, plus two further independent human engagements with standing AI-assisted claims: a [second exposition of the GPT-6-Astra Erdős-Sós proof](https://arxiv.org/abs/2609.17877) (Wood) and an [elementary re-derivation of the Jacobian-conjecture counterexample](https://arxiv.org/abs/2609.17795) (van den Essen).
-- Ecosystem: Terence Tao/SAIR launched the [Lean Kernel Challenge](https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/), a new verified-computation performance competition; `lean4` cut a full v4.34.0 release then two more pre-releases (now v4.35.0-rc2).
+**Since last scan (2026-09-18, daily):**
+- New landmark: [strong evidence of quantum entanglement between Z bosons (ATLAS, with an independent CMS result)](https://arxiv.org/abs/2603.26463) — the first measurement of entanglement between Z-boson pairs from Higgs decays at the LHC (4.7σ), jointly announced by [CERN](https://home.cern/strong-evidence-for-quantum-entanglement-between-z-bosons-found-by-atlas-and-cms/).
+- New landmark: [proof of the Pach-Tardos conjecture (Gishboliner, Li)](https://arxiv.org/abs/2609.20726) — resolves the ~20-year-old open problem on the extremal function of acyclic forbidden 0-1 matrix patterns, in its surviving form after the stronger 2005 version was refuted in 2024.
+- Also queued: a proof of [Shor's conjecture on quantum-dichotomy accessible information](https://arxiv.org/abs/2609.20600) (~30 years open), and a single-author claim resolving [the unramified Grothendieck-Serre conjecture](https://arxiv.org/abs/2609.20015) in full.
+- All four trends **HELD** — no fresh evidence today on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) (a related algorithmic paper, [2609.20771](https://arxiv.org/abs/2609.20771), queued below-bar rather than counted as exponent-trend evidence).
 
 ## Trends
 
@@ -23,6 +23,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Strong evidence of quantum entanglement between Z bosons (ATLAS, with an independent CMS result)](https://arxiv.org/abs/2603.26463) — the first measurement of entanglement between Z-boson pairs (spin qutrits) from Higgs decays at the LHC, disfavoring separability at 4.7σ; extends the collaborations' 2023-24 top-quark-entanglement observation to a new energy/spin regime — jointly announced by [CERN](https://home.cern/strong-evidence-for-quantum-entanglement-between-z-bosons-found-by-atlas-and-cms/).
+- [Proof of the Pach-Tardos conjecture (Gishboliner, Li)](https://arxiv.org/abs/2609.20726) — resolves the ~20-year-old central open problem on the extremal function of acyclic forbidden 0-1 matrix patterns (Ex(n,P)=n^(1+o(1))), the surviving qualitative form of the 2005 conjecture after its stronger polylog version was refuted in 2024.
 - [A proof of Chvátal's conjecture via a sharp correlation inequality (Chang, Liu, Liu)](https://arxiv.org/abs/2609.19123) — resolves Chvátal's 1972 conjecture that every hereditary family of subsets has a largest intersecting subfamily that is a star, via a sharp correlation inequality for increasing Boolean functions with independent interest beyond the conjecture itself.
 - [Formalizing Fermat's Last Theorem (Anthropic/Claude, verified by Kevin Buzzard)](https://www.anthropic.com/research/formalizing-fermats-last-theorem) — the first complete, end-to-end computer-checked Lean proof of FLT (13.4M lines, largely autonomous, 2026-09-04); independently compiled and confirmed by Kevin Buzzard, the human academic lead of the EPSRC-funded FLT-in-Lean project this leapfrogs — a genuine independent-expert verification, not just a corporate claim. An 11-day-late capture-leak catch.
 - [A short proof of the Erdős–Sós Conjecture (Riordan, Scott)](https://arxiv.org/abs/2609.15893) — established Oxford mathematicians reproduce and simplify GPT-6 Astra's claimed full proof of the ~63-year-old Erdős–Sós conjecture; the strongest independent-vetting signal yet on any GPT-6 Astra math claim.
@@ -116,13 +118,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Terence Tao's blog continues to be the highest-signal pulse channel: a guest post allegorizing AI-generated mathematics (["Let the Diners Into the Kitchen"](https://terrytao.wordpress.com/2026/09/16/let-the-diners-into-the-kitchen/)) and the new [Lean Kernel Challenge](https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/) competition launch — no new primary math result, part of the standing post-declaration discourse.
-- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed**: re-searched openai.com/anthropic.com and mainstream coverage this session — only SEO/aggregator chatter located, still no primary beyond the already-tracked 2026-09-08 Navier-Stokes claim.
-- [MathOverflow](https://mathoverflow.net/) carries more AI-in-math meta-discussion threads ("Why AI cannot develop mathematical theories?", "Are mathematicians engaging with AI results?") — community anxiety, not itself a result.
-- [Hacker News](https://news.ycombinator.com/) front page had no on-axis math/physics story today.
-- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session).
+- Timothy Gowers published ["Why I didn't sign the Fields medallists' letter"](https://terrytao.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/) (guest post on Terence Tao's blog) — a substantive dissent from the already-shelved "Severe Misalignment" declaration, disclosing his own early OpenAI model access.
+- Terence Tao's blog also hosted two off-axis AI-policy essays (a call for publicly-funded research AI, and a reflection on AI-in-programming) — ecosystem commentary, not mathematical results, not captured.
+- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed** as of 2026-09-17 per multiple outlets — still no primary paper, code, or institutional statement.
+- [MathOverflow](https://mathoverflow.net/) carries more AI-in-math meta-discussion — community anxiety, not itself a result.
+- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session, 6+ weeks running).
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (215) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
-- Reports: [`reports/`](reports/) (newest daily [2026-09-17](reports/2026-09-17.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (225) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Sources: [`SOURCES.md`](SOURCES.md)
+- Reports: [`reports/`](reports/) (newest daily [2026-09-18](reports/2026-09-18.md)) · weekly: [2026-W37](reports/weekly/2026-W37.md) · Logs: [`logs/`](logs/) · Rules & autonomy contract: [`AGENTS.md`](AGENTS.md)

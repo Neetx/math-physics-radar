@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-17
+Last updated: 2026-09-18
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3268,6 +3268,100 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   deadline 2026-11-20). Blog post opened in full via `tvly extract` this session. NOT a result — a
   second axis-5 competition launch this month (after the Andrews-Curtis Conjecture Challenge,
   09-11, already queued) — queued purely as a WATCH item for future submissions, same pattern.
+- 2026-09-18 (v1 2026-09-17; fresh math category-rotation batch, opened this session) — Lior
+  Gishboliner, Xiangyu Li, "Proof of the Pach-Tardos conjecture" —
+  https://arxiv.org/abs/2609.20726 — extremal combinatorics / forbidden 0-1 matrices (axis 1,
+  math.CO): proves $\operatorname{Ex}(n,P) \le n^{1+O_P(1/\log\log n)}$ for every acyclic matrix
+  pattern $P$ — the near-linear growth rate Pach and Tardos conjectured in 2005. CONTEXT: the
+  original STRONGER polylog form of the conjecture ($\operatorname{Ex}(n,P)=O(n\log^{C_P}n)$) was
+  refuted in 2024 (arXiv:2407.02638, verified via web search this session); this result resolves
+  the surviving qualitative form ($\operatorname{Ex}(n,P)=n^{1+o(1)}$), the ~20-year-old central
+  open problem for acyclic forbidden-pattern extremal functions. Abstract + authors verified via
+  arXiv API this session (v1 2026-09-17). Domain-cadence LANDMARK (a ~20-year-old named conjecture,
+  in its surviving form, fully resolved) — unrefereed two-author preprint, standard hype-skepticism
+  caution — queued, also on `study_shelf`.
+- 2026-09-18 (v1 2026-09-17; same batch) — Michele Dall'Arno, "Proof of Shor's conjecture on the
+  accessible information of quantum dichotomies" — https://arxiv.org/abs/2609.20600 — quantum
+  information theory (axis 4, quant-ph): conclusively settles Shor's ~30-year-old conjecture that
+  the accessible information of any quantum dichotomy (a two-state ensemble) is attained by a
+  projective measurement, in arbitrary dimension (previously known only for the qubit case, via
+  Keil). Abstract + author verified via arXiv API this session (v1 2026-09-17). Domain-cadence
+  LANDMARK (a ~30-year-old named conjecture in quantum information theory) — unrefereed
+  SINGLE-AUTHOR preprint — PROVISIONAL under the hype-skepticism rule; track for referee outcome —
+  queued.
+- 2026-09-18 (CERN news + arXiv, both opened this session) — ATLAS Collaboration, "Measurements of
+  $Z$-boson pair entanglement in decays of Higgs bosons at the ATLAS experiment" —
+  https://arxiv.org/abs/2603.26463 (v1 2026-03-27) — particle physics / quantum foundations
+  interface (axis 3/4): the FIRST measurement of quantum entanglement between spins in pairs of Z
+  bosons (spin qutrits), via $H\to ZZ^*\to\ell^+\ell^-\ell^+\ell^-$ angular observables using full
+  LHC Run 2+3 data; disfavors the separable-state hypothesis at 4.7σ (expected 4.9σ) relative to
+  the entangled Standard Model hypothesis — "strong evidence," not yet a 5σ discovery. CERN's news
+  page (https://home.cern/strong-evidence-for-quantum-entanglement-between-z-bosons-found-by-atlas-and-cms/,
+  opened this session, published 2026-09-17) reports CMS independently found the same effect (the
+  CMS paper/preprint itself was not located this session — a watch item for its arXiv id). Extends
+  the collaborations' earlier top-quark-entanglement observation to a new (Higgs-mediated,
+  three-state) regime. Domain-cadence LANDMARK (first-of-kind measurement) — evidence-level (4.7σ,
+  below the 5σ discovery threshold) — queued, also on `study_shelf`.
+- 2026-09-18 (v1 2026-09-17; same batch) — Fei Liu, "The unramified Grothendieck-Serre conjecture"
+  — https://arxiv.org/abs/2609.20015 — algebraic geometry / torsors (axis 1, math.AG): claims a
+  generically trivial torsor under a reductive group scheme over an UNRAMIFIED regular local ring
+  is always trivial — i.e., the full unramified case of the Grothendieck-Serre conjecture, without
+  the isotropy restriction the prior state-of-the-art (Česnavičius-Fedorov 2023,
+  arXiv:2311.08660) required. The general (ramified/mixed-characteristic) conjecture remains open
+  (verified via web search this session). Abstract + author verified via arXiv API this session (v1
+  2026-09-17). HEAVY CAVEAT: unrefereed SINGLE-AUTHOR preprint claiming to close a hard sub-case of
+  one of algebraic geometry's most famous open conjectures — PROVISIONAL under the hype-skepticism
+  rule; track for referee outcome/gap reports — queued.
+- 2026-09-18 (v1 2026-09-17; same batch; related to the active Marton/PFR-exponent trend but NOT
+  counted as trend evidence) — Srinivasan Arunachalam, Arkopal Dutt, Sabee Grewal, Aparna Gupte,
+  "Marton's conjecture in polynomial time" — https://arxiv.org/abs/2609.20771 — an algorithmic
+  counterpart to GGMT's 2024 resolution: given oracle access to a doubling-constant-$K$ set
+  $A\subseteq\mathbb F_2^n$, outputs (in $\mathrm{poly}(n,K)$ time) a subspace whose $K^{O(1)}$
+  translates cover $A$, with applications to quadratic Goldreich-Levin and stabilizer-state
+  tomography. Abstract + authors verified via arXiv API this session (v1 2026-09-17). Below-bar for
+  the tracked exponent-improvement trend (a different sub-contribution — algorithmic, not a tighter
+  constant — so NOT appended as trend evidence, per the same-sub-theme-only rule already applied to
+  Ramsey-adjacent items) — queued as its own below-bar item.
+- 2026-09-18 (v1 2026-09-17; same batch) — Tuan Tran, "Fractional expectation thresholds and the
+  'second' Kahn-Kalai conjecture" — https://arxiv.org/abs/2609.20546 — proves the "second"
+  Kahn-Kalai conjecture (a fractional-expectation-threshold sharpening) for trees and for graphs
+  with maximum degree at most exponential in their average degree — a partial, not fully general,
+  resolution. Abstract + author verified via arXiv API this session (v1 2026-09-17). Below-bar
+  (partial resolution of a named conjecture) — queued.
+- 2026-09-18 (v1 2026-09-16; same batch) — Matteo Giardi, László Székelyhidi, "Onsager's Conjecture
+  for Ideal Magnetohydrodynamics" — https://arxiv.org/abs/2609.19506 — constructs Hölder-continuous
+  ($C^\gamma$, $\gamma<1/3$) weak solutions of ideal MHD conserving neither energy nor
+  cross-helicity, extending convex-integration flexibility results (Onsager-type) from Euler to
+  MHD. Abstract + authors verified via arXiv API this session (v1 2026-09-16). Below-bar (a
+  technical extension of an established flexibility program, not itself resolving a rigidity/
+  flexibility threshold) — queued.
+- 2026-09-18 (math.DS exploration slot, off-axis rotation, opened this session) — Timothée Bénard,
+  "Proof of the singularity conjecture for discrete subgroups of $\mathrm{SL}_2(\mathbb{R})$" —
+  https://arxiv.org/abs/2609.17506 — homogeneous dynamics / ergodic theory: proves the stationary
+  measure on $\mathbb{P}^1(\mathbb{R})$ of a Zariski-dense discrete subgroup of $\mathrm{SL}_2(\mathbb
+  R)$ is singular w.r.t. the $\mathrm{SO}(2)$-invariant measure. Abstract + author verified via
+  arXiv API this session (v1 2026-09-15; a 2-3-day-old item caught via the exploration slot, not
+  the primary sweep — its submission date predates today's primary-sweep window). Below-bar (a
+  specialized homogeneous-dynamics conjecture, single author, unclear how long-standing) — queued
+  as a significant-off-axis exploration catch.
+- 2026-09-18 (CAPTURE-LEAK CATCH — named in the 2026-09-16 report's prose as "checked and excluded"
+  but never routed to a discrete queue line; found via this session's mechanical id-reconciliation
+  sweep) — Tzu-Chen Huang, "Cyclic Haagerup-Izumi fusion categories at every odd order" —
+  https://arxiv.org/abs/2609.15986 — pure fusion-category theory (axis 1/2 boundary, math.QA/
+  hep-th): constructs a complex spherical fusion category with cyclic Haagerup-Izumi fusion rules
+  for every odd $n\ge3$. Correctly excluded from the non-invertible-symmetries trend (a category-
+  theory construction, not an application to a physical/lattice symmetry) — but should have been
+  queued in its own right rather than left only in report prose. Abstract + author verified via
+  arXiv API this session (v1 2026-09-15). Below-bar — queued now.
+- 2026-09-18 (community pulse / digest lane, opened this session) — Timothy Gowers, "Why I didn't
+  sign the Fields medallists' letter" —
+  https://terrytao.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/ (a guest
+  post on Terence Tao's blog) — a substantive dissent, by a Fields Medalist, from the already-tracked
+  "A Severe Misalignment of AI in Mathematics" open letter (`study_shelf`, 2026-09-11): Gowers
+  argues the letter risks privileging conceptual understanding over problem-solving as the "right"
+  attitude, drawing on his own "Two Cultures of Mathematics" framework, and discloses his own early
+  OpenAI model access. Not a research result — a vetting-status/community-reaction data point on an
+  already-shelved item — queued.
 
 ## source_rotation
 
@@ -3285,6 +3379,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-18 (CERN news 2026-09-17; primary arXiv:2603.26463, v1 2026-03-27) — [Strong evidence of quantum entanglement between Z bosons (ATLAS, with an independent CMS result)](https://arxiv.org/abs/2603.26463)
+  — the first measurement of entanglement between Z-boson pairs (spin qutrits) from Higgs decays at
+  the LHC, disfavoring separability at 4.7σ; extends the collaborations' 2023-24 top-quark-
+  entanglement observation to a new energy/spin regime — jointly announced by CERN,
+  https://home.cern/strong-evidence-for-quantum-entanglement-between-z-bosons-found-by-atlas-and-cms/.
+- 2026-09-18 (v1 2026-09-17) — [Proof of the Pach-Tardos conjecture (Gishboliner, Li)](https://arxiv.org/abs/2609.20726)
+  — resolves the ~20-year-old central open problem on the extremal function of acyclic forbidden
+  0-1 matrix patterns ($\operatorname{Ex}(n,P)=n^{1+o(1)}$), the surviving qualitative form of the
+  2005 conjecture after its stronger polylog version was refuted in 2024.
 - 2026-09-17 (v1 2026-09-16) — [A proof of Chvátal's conjecture via a sharp correlation inequality (Chang, Liu, Liu)](https://arxiv.org/abs/2609.19123)
   — resolves Chvátal's 1972 conjecture that every hereditary family of subsets has a largest
   intersecting subfamily that is a star, via a sharp correlation inequality for increasing Boolean

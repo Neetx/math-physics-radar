@@ -1832,3 +1832,89 @@ Erdős-Sós proof). README.md regenerated from the updated ledger in the same co
   primary this session (all captures came from already-swept arXiv/Tao-blog channels). study_shelf: 1
   new pick this session (Chvátal's conjecture, 2609.19123 — a clean half-century-old landmark).
   README.md regenerated from the updated ledger in the same commit.
+
+- 2026-09-18 (daily) — Load-state: working branch (`claude/modest-bohr-9dyl7s`) already matched
+  `origin/main` (a45f5c3); one orphaned branch found (`claude/modest-bohr-9415kc`, a July-27 root
+  commit predating main's own July-31 root — an unrelated/superseded repo-history snapshot from
+  before main's current lineage, NOT a stranded incremental daily commit) — correctly NOT merged
+  (unrelated histories, would corrupt the ledger; noted for the record, no action needed). Tooling
+  note: `tvly` CLI unavailable this session — both `pip install tavily-cli` (PyPI 503/timeout) and
+  the official `curl -fsSL https://cli.tavily.com/install.sh | bash` installer (its own `uv`-based
+  PyPI fetch also 503'd) failed; per AGENTS.md's "fall back to built-in tools only if Tavily
+  fails," used `WebFetch`/`WebSearch`/direct `curl` for the entire session instead — logged, no
+  daily-tier source went unchecked as a result. Primary-feed sweep: fresh math full in-scope
+  category-rotation batch (math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR,
+  arXiv API, 300-entry pull, window 2026-09-16T17:59Z→2026-09-17T17:58Z) and physics batch
+  (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/GA/nucl-th/
+  nlin.SI, 300-entry pull, window 2026-09-16T17:17Z→2026-09-17T18:00Z) both opened and
+  keyword-triaged (both windows overlap/abut the 09-17 daily's ceiling, no gap). Six captures from
+  the math batch: the Pach-Tardos-conjecture proof (2609.20726, landmark — also `study_shelf`),
+  Shor's-conjecture-on-quantum-dichotomies proof (2609.20600, landmark, PROVISIONAL single-author),
+  the unramified Grothendieck-Serre conjecture claim (2609.20015, landmark-adjacent, HEAVY CAVEAT
+  single-author), a Marton's-conjecture polynomial-time algorithm (2609.20771, related-but-distinct
+  from the tracked exponent trend), a partial "second" Kahn-Kalai-conjecture resolution
+  (2609.20546), and an Onsager's-conjecture-for-MHD extension (2609.19506) — all six queued. Physics
+  batch: no new non-invertible-symmetries or Ramsey-lower-bound application (keyword-checked
+  explicitly, 0 hits on both). PRL/PRX/RMP RSS opened, routine batches, nothing on-axis. Nature
+  Physics RSS: still empty-CDATA titles, but a FURTHER PARTIAL HEAL found this session — the raw
+  feed's `rdf:li` article-URL list survives even with empty titles, so looping
+  `curl -A "Mozilla/5.0" <url>` + `citation_title` grep over all 8 linked articles recovers the full
+  "what's new" title list (all 8 routine condensed-matter/soft-matter/editorial, none on-axis) —
+  closes the standing "does not fix browse" gap (see SOURCES.md). Nature Communications RSS: same
+  empty-CDATA failure, 2nd consecutive daily (heal-owed per policy) — same workaround applied (8/8
+  titles recovered, all off-axis biology/chemistry/environmental — NC is broad-multidisciplinary so
+  this is expected base rate, not itself concerning). INSPIRE-HEP most-recent opened (15 entries),
+  detector/instrumentation-dominated as usual, nothing on-axis. SciPost API: healthy this session (no
+  Anubis block), 15 most-recent publications opened via the API, routine (nothing on
+  non-invertible/categorical symmetries). Experiments block: LIGO DEGRADED this session — both
+  `http://www.ligo.org/news` and `https://www.ligo.org/news.php` return 503/403 (a fresh failure
+  mode, distinct from the 08-25/08-26 Cloudflare-challenge block; logged as a single-daily
+  transient per SOURCES.md, re-test next session). DESI opened, unchanged (newest still 2026-04-15).
+  CERN `/feed/` opened — CAPTURED a landmark: "Strong evidence for quantum entanglement between Z
+  bosons found by ATLAS and CMS" (home.cern, published 2026-09-17), chased to the underlying ATLAS
+  primary via INSPIRE-HEP (arXiv:2603.26463, v1 2026-03-27, opened) — first measurement of Z-boson
+  pair entanglement, 4.7σ — queued, also `study_shelf`. IceCube `/category/news/feed/` opened,
+  unchanged/routine. LZ publications page re-checked via `curl`, unchanged (still max e-print
+  2604.21503). Community pulse: r/math/r/mathematics re-tested directly this session (`.rss` via
+  `curl`) — still 403, standing hard network-level block confirmed unchanged (6+ weeks). Hacker News
+  front page opened via the Algolia API — surfaced a pointer to Gowers's "Why I didn't sign the
+  Fields medallists' letter" (a guest post on Tao's already-tracked blog), captured as a below-bar
+  community-reaction item on the already-shelved Severe-Misalignment letter. MathOverflow opened,
+  routine (AI-in-math meta-discussion threads, no new primary). Mathstodon opened, generic
+  federated noise, standing. Digest/explainer lane: Quanta, Tao, Woit, Gowers, Kalai, Baez,
+  Strassler, Hossenfelder, n-Category Café all opened. Tao's blog posted three new entries since
+  09-17: "A CERN for AI-assisted science?" (guest post, Koukoulopoulos, an AI-research-funding
+  policy essay) and "Becoming a benchmark" (guest post, Ringer, an AI-in-programming commentary
+  essay) — both off-axis AI-policy/ecosystem, not mathematical, not captured; and the Gowers guest
+  post (captured above). Woit/Kalai/Baez/Strassler/n-Category Café: no new post since already-tracked
+  entries. Hossenfelder: no new post since 09-15 (already excluded, unchanged). Hodge-conjecture/BSD
+  rumor: re-chased via `WebSearch` — still only rumor/no primary as of 2026-09-17 per multiple
+  outlets, openai.com/anthropic.com still show no new disclosure beyond the already-tracked FLT page
+  (confirmed via `WebSearch`, `tvly` unavailable). AI-watch lane: cims.nyu.edu re-checked (known PDF
+  slugs still 200, no new slug found); anima-ai.org re-checked, same single 09-07 post, unchanged.
+  Repo watch (`WebFetch` on `.atom`, direct `curl`/API 403'd as expected — session-proxy-scoped
+  GitHub): lean4 unchanged at v4.35.0-rc2 (09-16); mathlib4 continuing its daily `master-YYYY-MM-DD`
+  auto-tag cadence (latest 09-17); Rocq unchanged 9.3+rc1. Routine toolchain chore, not queued.
+  Exploration slot (radar-explore, OFF-AXIS rotation): math.DS (dynamical systems; not read in the
+  recent rotation window, though it doubles as an in-scope tracked category — noted, same pattern
+  as the earlier math.LO/OA precedent) — top 40 fresh entries read via the arXiv API regardless of
+  sub-topic; 1/40 significant-off-axis catch (a homogeneous-dynamics "singularity conjecture" proof,
+  2609.17506, Bénard — queued as a below-bar significant catch); next: rotate to a venue not
+  recently used (math.OA, math.OC, or cs.CC). Trend recalibration (radar-ledger-update): all four
+  trends HELD, no notes written (nothing new on any this session — explicitly keyword-checked for
+  Ramsey-lower-bound, non-invertible-symmetry, and Stanley-Gasharov terms in both fresh batches; the
+  Marton's-conjecture-polytime item is related but NOT counted as exponent-trend evidence, see
+  above). Queue additions: 9 new queue lines (the six math-batch captures above, the Z-boson-
+  entanglement landmark, the math.DS exploration catch, and the Gowers below-bar item) — no pruning
+  (well below the ~40 soft cap in spirit, though the queue's actual running length is far past 40 —
+  established practice, domain-cadence "let it persist" policy, no number-driven burndown on a
+  daily). capture-leak: mechanical id-reconciliation sweep run against the last 3 reports'
+  (09-15/09-16/09-17) 23 named arXiv ids — 1 LEAK FOUND: 2609.15986 (Huang, cyclic Haagerup-Izumi
+  fusion categories) was named in the 09-16 report as "checked and excluded" from the
+  non-invertible-symmetries trend but never routed to its own queue line — queued now (see
+  TRENDS.md). Plus 8 new ids from today's own captures, all land on discrete queue lines this same
+  session, 0 leaked among today's. capture-leak: 23 ids checked / 1 queued (today's own 8 not
+  double-counted in the 23). Source-discovery: no new untracked domain named by an on-axis primary
+  this session (all captures came from already-swept arXiv/home.cern/Tao-blog/INSPIRE-HEP channels).
+  study_shelf: 2 new picks this session (Z-boson-pair entanglement; Pach-Tardos conjecture).
+  README.md regenerated from the updated ledger in the same commit.

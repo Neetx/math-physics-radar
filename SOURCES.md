@@ -61,7 +61,7 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
   Cover proof, then "Ten Advances in Mathematics and Theoretical Computer Science" 2026-08-01) —
   source-discovery promotion after 2 tracked disclosure events on this channel.
 Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
-- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25/08-26 (direct `curl`, even with a browser UA, hits a Cloudflare "Attention Required" challenge page). HEALED 2026-08-27: `WebFetch` on the plain `http://www.ligo.org/news` URL (no `.php`, no forced HTTPS) returns the full LSC news listing cleanly — `WebFetch` on the original `https://www.ligo.org/news.php` URL instead reports a same-host redirect to this URL, so fetch the redirected URL directly. Prefer this over `tvly extract` going forward (works even while `tvly` is quota-exhausted).]** — gravitational-wave detections/catalogs (e.g. GWTC)
+- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25/08-26 (direct `curl`, even with a browser UA, hits a Cloudflare "Attention Required" challenge page). HEALED 2026-08-27: `WebFetch` on the plain `http://www.ligo.org/news` URL (no `.php`, no forced HTTPS) returns the full LSC news listing cleanly — `WebFetch` on the original `https://www.ligo.org/news.php` URL instead reports a same-host redirect to this URL, so fetch the redirected URL directly. Prefer this over `tvly extract` going forward (works even while `tvly` is quota-exhausted). DEGRADED AGAIN 2026-09-18: both the plain `/news` URL (curl and `WebFetch`) and `/news.php` return 503/403 this session — a fresh, different failure from the 08-25/08-26 Cloudflare block (that one was a challenge page; this is a clean server error) — logged as a single-daily transient, not yet heal-owed (re-test next session before escalating).]** — gravitational-wave detections/catalogs (e.g. GWTC)
 - DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
 - CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-24:
   the bare `/news` HTML page now Cloudflare/WAF-blocks direct `curl` (`wpewaf.com` challenge), but
@@ -101,10 +101,20 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
   2026-08-21: for an ALREADY-NAMED Nature-family article (found via a digest/pulse pointer), `curl
   -A "Mozilla/5.0" <article-url>` returns HTTP 200 with full `citation_*` meta tags
   (title/authors/journal/DOI/date), bypassing the `idp.nature.com` auth-wall that blocks `WebFetch`
-  on the same URL — use this to cite a named article. Does NOT fix "browse what's new": the
-  `current-issue` HTML index is client-rendered and returns no article list via plain `curl`.]**
+  on the same URL — use this to cite a named article. FURTHER PARTIAL HEAL 2026-09-18: this closes
+  the "browse what's new" gap too — even with empty `<title>` CDATA, the raw feed XML's
+  `<rdf:li rdf:resource="…">` entries still list the current batch's article URLs; loop
+  `curl -A "Mozilla/5.0" <url>` over each and grep `citation_title` to reconstruct the full "what's
+  new" title list (verified this session: 8/8 titles recovered this way, all routine/off-axis —
+  none on-axis). Still no fix for the feed's own titles; this is a workaround, not a heal of the
+  root Anubis/CDN issue.]**
 - Nature Communications — RSS https://www.nature.com/ncomms.rss **[promoted + verified 2026-08-08;
-  redirects to feeds.nature.com/ncomms/rss/current; RSS]** — peer-reviewed open-access Nature-group
+  redirects to feeds.nature.com/ncomms/rss/current; RSS. DEGRADED 2026-09-17/09-18 (2nd consecutive
+  daily, heal-owed): same empty-CDATA-title failure as Nature Physics. Same workaround applies
+  (loop `curl -A "Mozilla/5.0" <article-url>` over the feed's `rdf:li` links, grep
+  `citation_title`) — verified this session (8/8 titles recovered, all off-axis biology/chemistry/
+  environmental, none on-axis; NC is broad multidisciplinary so most batches will be off-axis by
+  base rate).]** — peer-reviewed open-access Nature-group
   journal distinct from Nature Physics; source-discovery promotion (2 on-axis math↔physics-interface
   primaries in one week: RH↔quantum-phase-transitions 07-01, aperiodic-monotile chirality 07-29,
   both discovered via r/math pointers)

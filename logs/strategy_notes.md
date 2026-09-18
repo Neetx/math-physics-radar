@@ -1275,3 +1275,26 @@ Corrections to the source-coverage strategy.
   get checked every run. This 2nd sighting now clears anthropic.com/research's own ≥2 bar (staged
   in SOURCES.md this session) — flagging for W38 promotion to DAILY tier so a channel this
   productive (Riemann-zeta 08-10, now FLT 09-04) isn't left to chance discovery again.
+- 2026-09-18 (daily) — Tooling: `tvly` CLI could not be installed this session (both `pip install
+  tavily-cli` and the official `cli.tavily.com/install.sh` installer failed identically — PyPI
+  returning 503 to both the direct pip resolver and the installer's own internal `uv`-based fetch).
+  `TAVILY_API_KEY` is present in the environment, so this reads as a transient PyPI-availability
+  issue in this session's network path, not a missing-credential problem. Per AGENTS.md's own
+  fallback clause ("fall back to built-in web tools only if Tavily fails"), ran the entire session
+  on `WebFetch`/`WebSearch`/direct `curl` instead — full DAILY-tier coverage was still achieved (see
+  today's `source_rotation.md` line), so this was a tooling substitution, not a coverage gap. Watch
+  whether this recurs next session; if `tvly` fails 2+ consecutive dailies it would be worth a
+  `radar-source-heal` pass on the install path itself (e.g. a pinned/cached wheel) rather than
+  re-attempting the network installer each time.
+- 2026-09-18 (daily) — Load-state / orphaned-branch judgment call: found `claude/modest-bohr-9415kc`
+  holding a `radar:` commit (`radar: daily update 2026-07-27`) absent from the current history —
+  but on inspection this is a ROOT commit (no parent) dated 2026-07-27, i.e. an entire earlier
+  repo-history snapshot that PREDATES main's own current root commit (`radar: daily update
+  2026-07-31`, 609c910) by 4 days. This is not a stranded incremental daily update (the scenario
+  daily.md's "recover orphaned state" step is meant to catch — a session whose push to `main` was
+  rejected and fell back to its session branch); it is leftover debris from an earlier reset of the
+  repo's own history (main itself was rebuilt from a fresh root at some point after 07-27,
+  orphaning this older snapshot branch). Merging unrelated root histories would corrupt the ledger,
+  so this was correctly left unmerged. Flagging for awareness only — no action needed unless the
+  curator wants stale `claude/*` branches from before the 07-31 reset pruned (a housekeeping choice,
+  not something a daily/weekly run should do unilaterally).
