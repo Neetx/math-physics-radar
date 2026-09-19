@@ -158,3 +158,42 @@ routing-leak n`.
   APPLIED Amendment G (older-paper/citation-chase pass — motivating late-catch-via-digest pattern
   recurred again this week, the Four Color Theorem's 5.5-month capture-leak catch). No monthly
   retrospective due (day 12 > 7; M09 already ran at W36).
+
+- 2026-09-19 — W38: queue +33/→0/−22/stale 0 (225→206 across the week: five dailies 09-14→09-18
+  added 33 net new lines, this weekly's criterion-completeness burndown of the 2026-07-22→08-31
+  batch dropped 22/35 reviewed [100%], 13 kept protected [all already-shelved landmarks + 3 active
+  hype-skepticism watch items], then 3 new grouped entries added this session carrying 8
+  individually-named primaries: 5 capture-leak catches + 2 citation-chase catches + 1 weekly-tier
+  coverage catch) · evidence +0 this session (all four trends HELD all week; dailies found nothing
+  new on any of the four tracked sub-themes) · moves 0 · exploration 5/5 (dailies: q-bio.PE, cs.CC,
+  econ/q-fin, q-bio.PE, math.DS) · off-axis 2/5 (09-15 cs.CC matrix-multiplication-tensor-rank
+  cluster; 09-18 math.DS singularity-conjecture catch) — a healthy week, no anchoring concern ·
+  lag n/a (both off-axis catches routed same-session) · coverage (weekly-swept tier, this
+  operator's duty) 21/21 logged opened-or-degraded this session (9 institutes opened, incl. a
+  MAJOR catch — the Clay Mathematics Institute's own 2026-09-11 Navier-Stokes vetting-status
+  statement, missed 8 days by every DAILY-tier run because Clay is weekly-tier; SLMath/Shaw needed
+  a `tvly search` fallback after a direct-extract failure, both opened; Annals/AMS Notices opened
+  cleanly; Forum of Mathematics STILL degraded — 2nd consecutive weekly, HEAL OWED, partial
+  `tvly search` workaround found; 4 reddit subs opened via `tvly search` fallback, Physics SE
+  direct; 4 prizes opened, all unchanged 2026 laureates) · routing-leak 0 found (all 7 landmark
+  items in this week's burndown batch independently re-verified already present on `study_shelf`)
+  · capture-leak 5 found/5 queued (mechanical grep of every trend's `notes` field against a
+  discrete queue/evidence line surfaced 5 ids named-but-never-routed inside the Ramsey-trend and
+  Shannon-capacity daily notes — Atiyah's Minkowski-space conjecture disproof, the Chen-Raspaud
+  conjecture proof, a Ramsey-tilings structural paper, a Shannon-capacity-of-C7 recursive
+  extension, and refined Schur-like-number bounds — all queued this session); 251 unique arXiv ids
+  post-burndown, consistent with the queue's own accounting. Amendment G's SECOND application
+  (this week's older-paper/citation-chase pass, per the W37 forward bet): a Semantic Scholar
+  "cited by" chase on GGMT's own Marton's-conjecture trend-anchor paper (34 citing papers reviewed)
+  — 2/34 yield, both on-axis (a ~9.5-month-old claimed PFR resolution for the integers, and a
+  near-miss general-abelian-group PFR bound) — the pass's FIRST genuine positive yield after a
+  zero-yield first run, confirming the method works when aimed at a ledger's own anchor rather
+  than a field-wide most-cited ranking · src-disc 2 promoted (anthropic.com/research → DAILY tier
+  AI-watch lane; github.com/anthropics → GitHub-watch Watched repositories, both verified live this
+  session) / 4 held below the ≥2 bar (proofsandprompts.com, science.org, anima-ai.org,
+  preprints.org). Self-amendment: Amendments A/B/C re-checked clean, NO ROLLBACK. Amendment E
+  (queue criterion-completeness, applied W36): now 3 weeks of consistent 100%-reviewed-batch
+  application (W36/W37/W38) — healthy, no rollback signal. Amendment G (citation-chase pass,
+  applied W37): 2nd application found real on-axis yield (above) — signal confirms the amendment
+  is working as intended, no rollback. No new amendments proposed this week (no motivating metric
+  crossed a threshold). No monthly retrospective due (day 19 > 7; M09 already ran at W36).

@@ -60,6 +60,17 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
   a recurring direct off-arXiv disclosure channel for AI-claimed math/TCS results (the Cycle-Double-
   Cover proof, then "Ten Advances in Mathematics and Theoretical Computer Science" 2026-08-01) —
   source-discovery promotion after 2 tracked disclosure events on this channel.
+- Anthropic research-publication pages — https://www.anthropic.com/research **[promoted 2026-09-19
+  (W38 weekly); no subscribable feed — access via `tvly search "anthropic.com research math"` /
+  direct URL checks when a disclosure is flagged elsewhere (paths seen: `anthropic.com/research/
+  <slug>`, PDFs under `www-cdn.anthropic.com`)]** — AI-WATCH-LANE PRIMARY (track the mathematical
+  RESULTS disclosed, never the AI method): a recurring direct off-arXiv disclosure channel for
+  AI-claimed math results (the Riemann-zeta-zeros result 2026-08-10, then the first complete Lean
+  proof of Fermat's Last Theorem 2026-09-04, independently verified by Kevin Buzzard) —
+  source-discovery promotion after 2 tracked disclosure events on this channel, 11 days late (root
+  cause: this channel sat in the staging area rather than a swept list, so no DAILY run was
+  actively checking it until the 09-15 daily's side-effect catch — see `logs/strategy_notes.md`
+  2026-09-15).
 Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
 - LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25/08-26 (direct `curl`, even with a browser UA, hits a Cloudflare "Attention Required" challenge page). HEALED 2026-08-27: `WebFetch` on the plain `http://www.ligo.org/news` URL (no `.php`, no forced HTTPS) returns the full LSC news listing cleanly — `WebFetch` on the original `https://www.ligo.org/news.php` URL instead reports a same-host redirect to this URL, so fetch the redirected URL directly. Prefer this over `tvly extract` going forward (works even while `tvly` is quota-exhausted). DEGRADED AGAIN 2026-09-18: both the plain `/news` URL (curl and `WebFetch`) and `/news.php` return 503/403 this session — a fresh, different failure from the 08-25/08-26 Cloudflare block (that one was a challenge page; this is a clean server error) — logged as a single-daily transient, not yet heal-owed (re-test next session before escalating).]** — gravitational-wave detections/catalogs (e.g. GWTC)
 - DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
@@ -123,7 +134,7 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
 - SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API. DEGRADED 2026-09-08, STILL DEGRADED 2026-09-09/09-10 (3rd consecutive daily, heal owed): the API endpoint AND individual article pages (e.g. `/SciPostPhys.21.3.054`) both continue to serve an Anubis proof-of-work bot-check challenge page (requires JS execution) to direct `curl` (any UA tried) and `tvly extract` alike. PARTIAL WORKAROUND found 2026-09-09: `tvly search "<topic> scipost"` (not extract) returns live, dated individual publication pages from SciPost's own search index — usable for spot-checking a specific topic but NOT a "what's new" browse. SECOND PARTIAL WORKAROUND found 2026-09-10: `https://scipost.org/sitemap.xml` (plain `curl`, NO Anubis challenge, NOT bot-checked) lists every publication's short-code URL (e.g. `SciPostPhys.21.3.059`) — this proves EXISTENCE/COUNT of new publications (this session: SciPostPhys.21.3 issue advanced .053→.059, 6 new; SciPostPhysCore.9.3 advanced to .055) even though titles/abstracts remain blocked on both the API and article pages; `tvly search "<code>"` occasionally resolves a title (worked for .054) but is unreliable (returned stale/unrelated results for .055-.059 this session). Net effect: the "what's new" browse is still not fully restored (titles for most new codes remain inaccessible), but the sitemap closes the "did we miss anything" blind spot — a real, if partial, heal. Full heal still owed if the Anubis block persists a 4th consecutive daily.]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
 - AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result) — **[WEEKLY-SWEPT tier]**
-- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier. DEGRADED 2026-09-12 (W37 weekly): Cambridge Core now serves a "Temporary Disruption" security-measures page to `tvly extract` on the latest-issue URL (a new failure mode, distinct from the prior clean opens through W36) — heal owed if this recurs next weekly.]**
+- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier. DEGRADED 2026-09-12 (W37 weekly): Cambridge Core now serves a "Temporary Disruption" security-measures page to `tvly extract` on the latest-issue URL. STILL DEGRADED 2026-09-19 (W38 weekly, 2nd consecutive weekly — HEAL OWED): same "Temporary Disruption" page persists on direct `tvly extract`. PARTIAL WORKAROUND found this session: `tvly search "Forum of Mathematics Pi Sigma new issue <month>"` returns live Cambridge Core index snippets (incl. the "Mathematics blog entries" sidebar) even while the direct journal-page extract is blocked — usable for a coarse "anything on-axis this cycle" check, not a full ToC browse. Full heal still owed if the Temporary Disruption page persists a 3rd consecutive weekly.]**
 - **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, JHEP (open-access hep-th; also on arXiv/INSPIRE), PRD, PRB, PRResearch, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
 
 ## GitHub watch (Phase 5 — repos, profiles, and fork trees)
@@ -150,6 +161,12 @@ interception), or `tvly search` repo/tool + version + month. Lower fidelity (no 
 diff) but catches release tags. Retest direct `releases.atom` occasionally.
 
 ### Watched repositories
+- github.com/anthropics (Anthropic's GitHub org for released formal-math artifacts) — **[promoted
+  2026-09-19 (W38 weekly); no feed, access via `tvly extract`/`tvly search` on a
+  `github.com/anthropics/<repo>` path]** — repo-hosted Lean/Mathlib formalization releases,
+  distinct from the anthropic.com/research disclosure-blog channel above; source-discovery
+  promotion after 2 tracked artifacts (the percolation-conjecture Lean formalization 2026-09-04,
+  then github.com/anthropics/fermats-last-theorem, the full FLT-proof Lean codebase).
 - leanprover-community/mathlib4 — **[verified 2026-07-02 via API; ~3.5k★, pushed daily]** — the Lean 4 mathematics library; a new formalization of a theorem is a citable artifact
 - leanprover/lean4 — **[verified 2026-07-02 via API; active]** — the Lean theorem prover
 - rocq-prover/rocq — **[verified 2026-07-02 via API; the former `coq/coq`, renamed to Rocq]** — the Rocq (ex-Coq) proof assistant
@@ -200,19 +217,9 @@ survives verification (real feed, on-axis, not SEO). Line format:
 - sbseminar.wordpress.com ("Secret Blogging Seminar", incl. David Speyer) — 1 — "The new counterexample to the Jacobian conjecture" working-through of the announced 3-variable Keller-map counterexample (2026-07) — first seen 2026-07-23 — research-mathematician group blog; high-signal pointer surface for the AI-assisted-math-wave / Jacobian-conjecture story (found via community pulse). HELD below the ≥2 bar (W32 recheck: no recurrence in 2 weeks).
 - ams.org/journals/jams (Journal of the American Mathematical Society) — 1 — Smith, "The distribution of ℓ∞-Selmer groups in degree ℓ twist families I/II" (JAMS 39(1)/39(2), 2026, resolving the 2-primary Cohen-Lenstra problem) — first seen 2026-08-06 — a specific top-tier AMS journal distinct from the already-tracked AMS Notices & Bulletin; discovered via Scientific American science coverage. HELD below the ≥2 bar (W32: 1 sighting still); no RSS, `tvly extract` works (curl 403s) — access method recorded for next verification pass.
 - bourbaki.fr (Séminaire Bourbaki) — 1 — "Recent Progress around Cohen-Lenstra Heuristics" survey (arXiv:2606.06024, used this session to corroborate the Smith JAMS landmark) — first seen 2026-08-06 — an expository survey venue (like AMS Notices), useful for spotting "what's big" in a subfield; the surveys themselves are exposition, cite through to the actual primaries. HELD below the ≥2 bar (W32: 1 sighting still); no RSS, `tvly extract` works on the static page.
-- anthropic.com/research (Anthropic research-publication pages) — 2 — "More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line" (Claude, 2026-08-10), discovered via r/math + r/mathematics pointers — first seen 2026-08-11; 2nd sighting 2026-09-15 (session found 2026-09-04): "Formalizing Fermat's Last Theorem" (Claude/Prove2Me, first complete Lean proof of FLT, verified by Kevin Buzzard) — found via a Tavily search this session while chasing the Hodge/BSD rumor watch item — a direct off-arXiv AI-lab disclosure channel for AI-claimed math results, the same pattern as the already-tracked openai.com/cdn.openai.com lane. CLEARS the ≥2-sighting bar this session — ready for weekly promotion to the swept registry; no RSS, access via `tvly search "anthropic.com research math"` / direct URL checks when a disclosure is flagged elsewhere (paths seen: `anthropic.com/research/<slug>`, PDFs under `www-cdn.anthropic.com`).
 - proofatlas.ai — 1 — "A Computer-Assisted Proof of Sendov's Conjecture" (Lech Mazur / OpenAI GPT-5.6 Pro, 2026-08-05), discovered via a Terence Tao blog-post link (2026-08-12) — first seen 2026-08-13 — a dedicated self-publication platform for AI-generated math proofs, structurally the same AI-disclosure-lane pattern as openai.com/cdn.openai.com and anthropic.com/research; HELD below the ≥2 bar (1 sighting); no RSS/feed found, access via direct URL (`proofatlas.ai/papers/<slug>/<FILE>.pdf`) when a disclosure is flagged elsewhere (e.g. via Tao/Quanta/community pulse), or `tvly search "proofatlas.ai <topic>"`.
 
 - preprints.org — 1 — Shanmu Jin, "The Numerical Range Is a 2-Spectral Set" (DOI 10.20944/preprints202607.1919, a second independent AI-assisted proof of Crouzeix's conjecture, predating the already-tracked Lorist-Schwenninger arXiv proof) — first seen 2026-08-18 — an MDPI-run general preprint server (broader scope than arXiv), used here as an off-arXiv AI-disclosure-lane venue, same pattern as proofatlas.ai/openai.com/anthropic.com; HELD below the ≥2 bar (1 sighting); access via `tvly extract` on the manuscript page (works cleanly, no feed found).
-- github.com/anthropics (the "formal-math" repo specifically) — 1 — Justin Leder (with Claude),
-  "θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions d ≥ 2" (Lean 4/Mathlib
-  formalization resolving the dying-percolation conjecture via Kozma–Nitzan's reduction) — first
-  seen 2026-09-04 — Anthropic's own GitHub org for released formal-math research artifacts,
-  structurally the same AI-disclosure-lane pattern as the already-tracked
-  anthropic.com/research and openai.com/cdn.openai.com lanes, but a DISTINCT channel (repo-hosted
-  Lean/Mathlib code + PDF, not the research-blog page); discovered via Gil Kalai's blog (see the
-  Combinatorics-and-more entry above/below). No feed; access via `tvly extract` on a
-  `github.com/anthropics/<repo>` path (works cleanly per this session's use).
 - proofsandprompts.com ("Proofs and Prompts") — 1 — Hugo Duminil-Copin (Fields Medal 2022,
   percolation theory), "Care for a little more AI?" (2026-08-30) — first seen 2026-09-04 — a new
   multi-author mathematician blog specifically on AI-in-mathematics, with posts from leading
@@ -227,17 +234,6 @@ survives verification (real feed, on-axis, not SEO). Line format:
   Hacker-News front-page pointer. HELD below the ≥2 bar (1 sighting); no RSS found this session,
   access via `tvly search "site:science.org <title>"` or direct DOI-link checks when a
   disclosure is flagged elsewhere.
-- cims.nyu.edu (Tristan Buckmaster's NYU Courant institutional page) — 2 — Alpöge, Buckmaster,
-  "Blowup for the Boussinesq Equations with Smooth Forcing" (09-07) then, same page, "Blowup for
-  the Euler Equations with Smooth Forcing" + "...for the Incompressible Porous Media Equation..."
-  + a signed public statement (all 09-08) — first seen 2026-09-08 — a working mathematician's own
-  self-publication page for off-arXiv preprints, structurally similar to the already-tracked
-  proofatlas.ai/preprints.org AI-disclosure lanes but hosted on a personal academic page rather
-  than a dedicated platform; discovered via Terence Tao's already-tracked blog. CLEARS the ≥2-sighting
-  bar this session (3 distinct artifacts across 2 daily runs) — ready for weekly promotion to the
-  swept registry; direct URL access (predictable filename pattern `<slug>.pdf`; plain `curl -A
-  "Mozilla/5.0"` works cleanly, no `tvly` needed) worked cleanly this session.
-
 PROMOTED 2026-08-08 (W32): nature.com/ncomms (2 sightings → Research/publication venues, DAILY tier),
 scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com/cdn.openai.com
 (recurring disclosure channel → Primary feeds AI-watch lane, DAILY tier) — see their entries above;
@@ -249,13 +245,11 @@ PROMOTED 2026-09-12 (W37): cims.nyu.edu (2+ sightings, verified live → Primary
 lane, DAILY tier) — see its entry above; cleared from this staging list. HELD below the ≥2 bar
 (checked against this week's reports, no recurrence): proofsandprompts.com, science.org/Science
 Advances (1 sighting, first seen 2026-09-08).
-- github.com/anthropics (Anthropic's GitHub org for released formal-math artifacts) — 2 — Justin
-  Leder (with Claude), percolation-conjecture Lean formalization (first seen 2026-09-04); 2nd
-  sighting 2026-09-15 (session found 2026-09-04): github.com/anthropics/fermats-last-theorem, the
-  full Lean codebase for the first complete FLT formalization (same disclosure as the
-  anthropic.com/research FLT entry above, a distinct repo-hosted channel). CLEARS the ≥2-sighting
-  bar this session — ready for weekly promotion into the GitHub-watch "Watched repositories" list;
-  no feed, access via `tvly extract` on a `github.com/anthropics/<repo>` path.
+PROMOTED 2026-09-19 (W38): anthropic.com/research (2 sightings, verified live → Primary feeds,
+AI-watch lane, DAILY tier), github.com/anthropics (2 sightings, verified live → GitHub watch,
+Watched repositories) — see their entries above; cleared from this staging list. HELD below the
+≥2 bar (checked against this week's reports, no recurrence): proofsandprompts.com, science.org/
+Science Advances, anima-ai.org, preprints.org (all 1 sighting still).
 - anima-ai.org (Anima Anandkumar's lab blog) — 1 — Ganeshram, Duruisseaux, Anandkumar, "Stable
   Singularity of the Euler Equations on R^3 without forcing" (self-published, 2026-09-07),
   reviewed pre-release by Tom Hou and Terence Tao — first seen 2026-09-11 — discovered via

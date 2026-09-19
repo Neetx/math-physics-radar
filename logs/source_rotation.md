@@ -1918,3 +1918,22 @@ Erdős-Sós proof). README.md regenerated from the updated ledger in the same co
   this session (all captures came from already-swept arXiv/home.cern/Tao-blog/INSPIRE-HEP channels).
   study_shelf: 2 new picks this session (Z-boson-pair entanglement; Pach-Tardos conjecture).
   README.md regenerated from the updated ledger in the same commit.
+
+- 2026-09-19 (W38 weekly) — WEEKLY-SWEPT tier: 21/21 logged opened-or-degraded this session. Math
+  institutes (9/9): IHES, MPIM Bonn, Fields Institute, Isaac Newton, KITP, Perimeter, IAS all
+  opened cleanly via `tvly extract`; SLMath direct extract failed, opened via `tvly search`
+  fallback; Clay Mathematics Institute opened — CAPTURED a major weekly-tier-only catch, its own
+  2026-09-11 "Navier-Stokes Announcement" (queued/study_shelf, see TRENDS.md). Slow venues (3/3):
+  Annals of Mathematics and AMS Notices & Bulletin both opened cleanly; Forum of Mathematics STILL
+  degraded (2nd consecutive weekly — Cambridge Core "Temporary Disruption" page persists), a
+  `tvly search` workaround found (index snippets only, not a full ToC) — heal-owed if a 3rd
+  consecutive weekly recurs. Low-yield extra-social (5/5): r/Physics, r/cosmology,
+  r/ParticlePhysics, r/AskPhysics all opened via `tvly search --include-domains reddit.com
+  --time-range week` (direct `.rss` still hard-blocked, unchanged standing issue), nothing on-axis;
+  Physics Stack Exchange opened cleanly via direct `curl`. Prizes (4/4): Abel (2026 laureate Gerd
+  Faltings, unchanged), Breakthrough Prize, IMU/Fields all opened cleanly; Shaw Prize direct extract
+  failed, opened via `tvly search` fallback — all unchanged from tracked 2026 laureates, no new
+  cycle. Source-discovery: promoted anthropic.com/research and github.com/anthropics to their
+  swept registries (both verified live this session — see SOURCES.md). Amendment G citation-chase
+  pass: Semantic Scholar "cited by" query on GGMT's Marton-trend-anchor paper (2404.02244),
+  34 citing papers reviewed sorted by date — 2 on-axis landmark-adjacent catches (see TRENDS.md).

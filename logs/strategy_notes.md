@@ -1298,3 +1298,26 @@ Corrections to the source-coverage strategy.
   so this was correctly left unmerged. Flagging for awareness only — no action needed unless the
   curator wants stale `claude/*` branches from before the 07-31 reset pruned (a housekeeping choice,
   not something a daily/weekly run should do unilaterally).
+
+- 2026-09-19 (W38 recalibration) — Source strategy review: weekly-swept tier 21/21 opened-or-
+  degraded this session (all verified live, never from memory). Biggest catch: Clay Mathematics
+  Institute's own 2026-09-11 "Navier-Stokes Announcement" — an official vetting-status statement on
+  the already-tracked OpenAI Navier-Stokes claim, invisible to every DAILY-tier run for 8 days
+  purely because Clay sits in the WEEKLY-SWEPT tier (per Amendment A's cadence split). This is the
+  cadence split working as designed (the weekly owes the slow-institute lane so the daily doesn't
+  have to), but also a reminder that a genuinely live, fast-moving story (Millennium Prize
+  vetting) can still fall into a weekly-only blind spot for up to 6 days after it breaks — noted
+  for awareness, no amendment proposed (the alternative, promoting Clay to daily tier, would
+  re-create the exact coverage-cost problem Amendment A was designed to fix, for a source that is
+  routine 51 weeks a year). Forum of Mathematics is now degraded 2 consecutive weeklies (W37, W38)
+  — heal-owed threshold reached; a `tvly search` workaround was found this session (returns index
+  snippets, not a full ToC) — escalate to a dedicated `radar-source-heal` pass next weekly if the
+  Cambridge Core "Temporary Disruption" page persists a 3rd time. Source-discovery: promoted
+  anthropic.com/research and github.com/anthropics to their respective swept registries (both
+  cleared the ≥2-sighting bar in the 09-15/09-18 dailies, both verified live this session) — closes
+  the coverage gap flagged by the 09-15 daily (an 11-day-late FLT capture-leak catch, root-caused
+  to this exact channel sitting in staging rather than a swept list). Amendment G's second
+  application (a Semantic Scholar citation-chase on the Marton-trend anchor paper) found genuine
+  on-axis yield for the first time — 2 landmark-adjacent items missed for ~9.5 months by every
+  recency-triaged sweep — validating the amendment's premise; no change to its cooling-period
+  status (already applied W37, working as intended).
