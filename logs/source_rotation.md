@@ -1937,3 +1937,66 @@ Erdős-Sós proof). README.md regenerated from the updated ledger in the same co
   swept registries (both verified live this session — see SOURCES.md). Amendment G citation-chase
   pass: Semantic Scholar "cited by" query on GGMT's Marton-trend-anchor paper (2404.02244),
   34 citing papers reviewed sorted by date — 2 on-axis landmark-adjacent catches (see TRENDS.md).
+
+- 2026-09-21 (daily) — First daily since 2026-09-18 (weekend + this branch's PR merging to `main`
+  in between, expected/routine). Load-state: this session's designated working branch had already
+  been merged into `main` (confirmed via `git merge-base --is-ancestor`) and the remote branch
+  deleted — restarted the branch from fresh `origin/main` per the platform's merged-branch protocol,
+  no orphaned incremental-daily state found beyond that. `tvly` CLI: unavailable at session start
+  (`command not found`) but `pip install -q tavily-cli` succeeded cleanly this session — closes the
+  09-18 "watch for tvly recurrence" item; used `tvly` throughout for extracts/searches this session.
+  arXiv API primary sweep: full in-scope math category-rotation (math.CO/NT/AG/AC/RA/KT/AT/GT/DG/
+  SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR/GN/SP) and physics (hep-th/hep-ph/gr-qc/quant-ph/math-ph/
+  cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/GA/nucl-th/nucl-ex/hep-ex/nlin.SI) both queried
+  with an explicit submittedDate window (2026-09-17T20:00Z→2026-09-22T00:00Z) to target exactly the
+  slice not yet reviewed by the 09-18 daily (whose own window ended 09-17T17:58-18:00Z); ceiling
+  came back at 2026-09-18T17:58/17:59Z on both — confirms the arXiv weekend/Monday-lag posting gap
+  is genuine (no batch past 09-18 yet at 05:37 UTC run time), not a query fault. 405 fresh entries
+  (219 math + 186 physics) triaged by title/keyword; 5 opened in full via the arXiv API (De Giorgi
+  R^4, LHCb Ω⁺cc, Orlov rationality, Hinrichs-Vybiral, plus the already-queued Eremenko's-conjecture
+  expository note excluded as non-new). All four active trends (Ramsey, non-invertible symmetries,
+  Stanley-Gasharov, Marton/PFR-exponent) keyword-swept against both fresh batches — no new evidence
+  on any — all HELD, no notes written per note discipline. Community pulse: Hacker News front page
+  (Algolia API) opened — surfaced Terence Tao's "Why Do We Need Human Mathematicians Anymore?"
+  (09-19), an AI-in-math commentary essay, off-axis (AI-watch rule, not a mathematical result) —
+  not captured; Tao's own RSS feed opened directly, showing 3 more new posts since 09-17 (a
+  lecture-notes post, an AI-culture essay, and his own non-profit SAIR's "Open Math Model"
+  funding/ecosystem announcement) — all off-axis, not captured (ecosystem/AI-policy, no primary
+  math result named); the Quanta RSS feed's 09-18 feature "Mathematicians Build Long-Awaited Graph
+  Sandwich" led to the Kim-Vu sandwich-conjecture proof capture above (a genuine community-pulse
+  discovery-lane catch). Woit, Gowers, Kalai, Baez, Strassler, Hossenfelder, n-Category Café, Simons
+  Foundation, MathOverflow, Mathstodon all opened directly — routine, nothing else on-axis (Baez's
+  09-20 post is exposition; Hossenfelder's recent posts are speculative commentary, no primary
+  named). r/math re-tested directly (`.rss`, UA-spoofed `curl`) — still hard-blocked ("Blocked" page
+  from Reddit's own edge), unchanged standing issue (5+ consecutive weeks). Repo/release watch:
+  GitHub session-proxy-scoped as expected (`releases.atom` 403s with the documented "sessions are
+  bound to their configured repositories" message) — routed through `tvly extract` per the SOURCES.md
+  fallback: lean4 unchanged (v4.35.0-rc2, 09-16), mathlib4 continuing its daily `master-*` auto-tag
+  cadence (now master-2026-09-20), Rocq shipped stable 9.3.0 (09-19, up from 9.3+rc1) — routine
+  toolchain versioning, not queued (see SOURCES.md); github.com/anthropics re-checked via `tvly
+  search` — no new formal-math artifact since the already-tracked FLT repo. Exploration slot
+  (radar-explore, OFF-AXIS rotation): math.OA (operator algebras; not read in the recent rotation
+  after math.OC/cs.CC/math.NA/math.DS) — top 40 fresh entries read via the arXiv API regardless of
+  sub-topic; the one significant title found, "Arazy's conjecture concerning Schur multipliers:
+  revisited and resolved" (2609.17144), was ALREADY on this ledger's queue from a prior session
+  (confirmed via `grep` before writing — no duplicate created); next: rotate to a venue not recently
+  used (math.LO, math.DG, or cs.CC repeat-check). Self-healing: LIGO direct `curl`/`WebFetch` on
+  `/news` and `/news.php` both still return 403/503 (Cloudflare challenge page, 2nd consecutive
+  daily of this failure mode) — `tvly extract` on `/news.php` works cleanly, no new items since
+  GWTC-5.0, so NOT escalated to heal-owed (a working method exists this session). SciPost API:
+  HEALTHY, no Anubis block, clean JSON through SciPostPhys.21.3.070 (30 latest publications
+  reviewed, none on the four active trends' axes). Nature Physics / Nature Communications RSS:
+  STILL degraded (empty-CDATA titles, 3rd+ consecutive daily) — same workaround applied (loop
+  `curl -A "Mozilla/5.0"` over each feed's `rdf:li` article links, grep `citation_title`): 8/8
+  Nature Physics titles and 8/8 Nature Communications titles recovered, all off-axis (routine
+  condensed-matter/biology/engineering/education, none on the tracked axes). CERN Courier,
+  Fermilab, DESI, CERN /feed/, IceCube, LZ, PRL/PRX/RMP, Quantum journal all opened, routine beyond
+  the captures above (Fermilab's own front items are quantum-COMPUTING-technology, correctly
+  off-axis per the science/tech distinction). Vetting-status re-check: the already-tracked OpenAI
+  Navier-Stokes page re-opened — see TRENDS.md queue entry for the Buckmaster-Codex-investigation
+  development. Queue: +6 lines (3 domain-cadence landmarks, 2 below-bar math captures, 1
+  vetting-status update on an existing item). No pruning (domain-cadence soft-cap policy — let it
+  persist). study_shelf: 2 new picks this session (LHCb Ω⁺cc; De Giorgi R^4). capture-leak:
+  mechanical id-reconciliation sweep against the last 3 reports' (09-16/09-17/09-18) 22 named arXiv
+  ids — all 22 confirmed present in the observation_queue/evidence block — 0 leaked. README.md
+  regenerated from the updated ledger in the same commit.

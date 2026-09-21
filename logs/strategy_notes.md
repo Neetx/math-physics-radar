@@ -1321,3 +1321,20 @@ Corrections to the source-coverage strategy.
   on-axis yield for the first time — 2 landmark-adjacent items missed for ~9.5 months by every
   recency-triaged sweep — validating the amendment's premise; no change to its cooling-period
   status (already applied W37, working as intended).
+
+- 2026-09-21 (daily) — Tooling: `tvly` CLI, unavailable at the start of the 09-18 daily (PyPI 503)
+  and flagged there as "watch whether this recurs next session," installed cleanly via
+  `pip install -q tavily-cli` this session — a one-off PyPI transient, not a standing install-path
+  problem; closing the watch item without a `radar-source-heal` pass (the 2-consecutive-failure
+  threshold for escalation was never reached — only 1 affected daily, 09-18). Load-state: this
+  session's designated working branch (`claude/modest-bohr-zpvbcw`) had already been merged into
+  `main` and its remote ref deleted by the time this session started (confirmed via `git
+  merge-base --is-ancestor HEAD origin/main`) — restarted the branch from fresh `origin/main` per
+  the platform's merged-branch protocol; no incremental-daily work was lost (the merge commit
+  carried everything through the 09-19 W38 weekly). Process note: today's math.OA exploration-slot
+  read surfaced a title ("Arazy's conjecture concerning Schur multipliers," 2609.17144) that turned
+  out to be ALREADY on the queue from a prior session — caught by grepping TRENDS.md before writing,
+  not after. Worth normalizing as a standing habit for the exploration slot specifically (its whole
+  point is reading outside the recently-swept axes, which is exactly where a session is most likely
+  to re-discover something already captured under a different rotation) — no amendment proposed,
+  just a practice note for future dailies.

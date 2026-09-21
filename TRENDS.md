@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-19
+Last updated: 2026-09-21
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3327,6 +3327,57 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   via arXiv API this session. No other on-axis landmark found among the 34 citing papers reviewed
   (the remainder are routine incremental additive-combinatorics/entropy-inequality papers, several
   already adjacent to already-tracked items).
+- 2026-09-21 (v1 2026-09-17) — [The full De Giorgi conjecture in R^4 is true (Liu, Luo, Wang, J. Wei, Y. Wei, Wu)](https://arxiv.org/abs/2609.21680)
+  — proves every bounded, stable entire solution of the Allen–Cahn equation in $\mathbb R^3$ is
+  one-dimensional, and as a consequence establishes the full De Giorgi conjecture (1978) in
+  $\mathbb R^4$ (axis 1/2, math.AP / the PDE↔minimal-surfaces interface). Builds on the recent
+  Chan–Fernández-Real–Figalli–Serra breakthrough (JAMS 2026, cited in the abstract but not
+  independently opened this session). Abstract + six authors verified via arXiv API this session
+  (v1 2026-09-17, surfaced in this session's fresh math.AP batch, the first slice not yet reviewed
+  by the 09-18 daily). Domain-cadence LANDMARK (a named conjecture in a specific dimension now fully
+  resolved, unconditionally) — unrefereed, six-author preprint, lower single-author risk; track the
+  vetting outcome. Also on `study_shelf`.
+- 2026-09-21 (v1 2026-09-17) — [Observation of the doubly charmed baryon $\Omega^+_{cc}$ (LHCb Collaboration)](https://arxiv.org/abs/2609.21921)
+  — an $8.7\sigma$ peaking structure in the $\Omega^0_c\pi^+$ mass spectrum ($6.3\,\mathrm{fb}^{-1}$,
+  LHCb Run 3 data), identified as the doubly charmed baryon $\Omega^+_{cc}$, mass
+  $3725.9\pm1.0\,(\mathrm{stat})\,\mathrm{MeV}/c^2$ (axis 3, hep-ex). Abstract + collaboration
+  authorship verified via arXiv API this session (v1 2026-09-17). Domain-cadence LANDMARK
+  (first-of-kind observation — only the second doubly-charmed baryon ever seen, after LHCb's own
+  2017 $\Xi^{++}_{cc}$ discovery) — a collaboration-level result, high confidence despite being
+  pre-refereed-journal-publication. Also on `study_shelf`.
+- 2026-09-21 (v1 2025-10-23; capture-leak-adjacent — a 2025 landmark surfaced via Quanta's 2026-09-18
+  feature, discovered this session) — [A proof of the Kim-Vu sandwich conjecture (Behague, Il'kovič, Montgomery)](https://arxiv.org/abs/2510.20765)
+  — proves Kim and Vu's 2004 conjecture that the random $d$-regular graph $G_d(n)$ can be sandwiched
+  with high probability between two binomial random graphs $G(n,p_*)$, $G(n,p^*)$ for
+  $d=\omega(\log n)$, extending Gao–Isaev–McKay's partial $d\gg\log^4n$ resolution to the full
+  conjectured range (axis 1, math.CO, extremal/probabilistic graph theory). Abstract + authors
+  verified via arXiv API this session; Quanta feature ("Mathematicians Build Long-Awaited Graph
+  Sandwich," Rowińska, 2026-09-18) opened via `tvly extract` this session, confirming the result's
+  reception as a genuine 20-year-conjecture resolution. Domain-cadence LANDMARK, missed by every
+  recency-triaged sweep for ~11 months until today's community-pulse (Quanta) chase.
+- 2026-09-21 (v1 2026-09-17) — [Orlov's rationality conjecture for surfaces (Lin, Zhang)](https://arxiv.org/abs/2609.21807)
+  — proves that a smooth projective surface over $\mathbb C$ admitting a full exceptional collection
+  of line bundles is rational, a case of Orlov's rationality conjecture connecting derived-category
+  structure to birational geometry (axis 1, math.AG). Abstract + authors verified via arXiv API this
+  session. Below-bar (a specific case, not the full conjecture; two-author, unrefereed) — queued.
+- 2026-09-21 (v1 2026-09-17) — [An explicit counterexample to the Hinrichs-Vybiral conjecture (Vybiral)](https://arxiv.org/abs/2609.21733)
+  — an explicit trigonometric polynomial on $\mathbb R^7$ refuting Conjecture 2 of Hinrichs and
+  Vybiral on positive-definite functions (axis 1, math.FA/CA), disproved here by one of the
+  conjecture's own two namesakes. Abstract + author verified via arXiv API this session. Below-bar
+  (a niche functional-analysis conjecture, single-author) — queued.
+- 2026-09-21 (VETTING-STATUS DEVELOPMENT, re-check of the already-tracked OpenAI Navier-Stokes page)
+  — OpenAI, "On the Navier–Stokes Millennium Prize Problem," https://openai.com/index/navier-stokes-solution/
+  — re-opened via `tvly extract` this session (partial; corroborated via multiple independent
+  outlets quoting the identical passage verbatim, incl. a Hacker News discussion thread and a Law
+  Commentary piece, both opened this session): the page now states "Following an investigation, we
+  have confirmed that Buckmaster's Codex prompts over the two months preceding this announcement and
+  paper on September 8, 2026, could not have influenced the system in any way, including through
+  training" — a stronger, more resolved claim than the "cannot rule out" wording this ledger recorded
+  from the same dispute on 2026-09-11. Whether this reflects an edit to the page since 09-11 or
+  content this radar's earlier truncated extracts simply missed is NOT established this session —
+  flagged honestly as uncertain. This radar records that OpenAI has now made an on-record denial
+  addressing the Buckmaster-Alpöge priority/influence dispute; it does not adjudicate the claim.
+  Watch for a direct on-record response from Buckmaster or Alpöge to this specific denial.
 
 ## source_rotation
 
@@ -3344,6 +3395,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-17 (arXiv v1; shelf-added 2026-09-21) — [Observation of the doubly charmed baryon $\Omega^+_{cc}$ (LHCb Collaboration)](https://arxiv.org/abs/2609.21921)
+  — first observation (8.7σ) of a new doubly-charmed baryon, only the second ever seen after LHCb's
+  2017 $\Xi^{++}_{cc}$ discovery.
+- 2026-09-17 (arXiv v1; shelf-added 2026-09-21) — [The full De Giorgi conjecture in R^4 is true (Liu, Luo, Wang, J. Wei, Y. Wei, Wu)](https://arxiv.org/abs/2609.21680)
+  — resolves the 1978 De Giorgi conjecture unconditionally in dimension 4, building on this year's
+  Chan-Fernández-Real-Figalli-Serra breakthrough.
 - 2025-12-04 (citation-chase catch, found 2026-09-19) — [The PFR/Marton Conjecture in Integers and Finite Fields via Spectral Stability (Kazemi Moghadam)](https://arxiv.org/abs/2512.04433)
   — claims to extend GGMT's 2024 resolution of Marton's conjecture from bounded-torsion groups to
   the integers and cyclic groups; single-author, unrefereed, ~9.5 months old and missed by every

@@ -188,6 +188,10 @@ diff) but catches release tags. Retest direct `releases.atom` occasionally.
   do — its `releases.atom` instead shows continuous daily `master-YYYY-MM-DD` auto-tags; a
   "latest version tag" search for mathlib4 will legitimately come up empty/stale because there is
   no such tag — read its daily `master-*` tag instead, don't treat the absence as degraded.
+- **[2026-09-21]** Rocq shipped the stable **9.3.0** release (2026-09-19, up from the standing
+  9.3+rc1); lean4 unchanged at v4.35.0-rc2 (rc1 09-15, v4.34.0 09-14, all already on file);
+  mathlib4 continuing its daily `master-YYYY-MM-DD` auto-tag cadence (latest master-2026-09-20).
+  Routine toolchain versioning, not queued (no specific new formalized theorem named).
 - (agent: add proof libraries / CAS as they prove high-signal — e.g. sagemath, or a repo formalizing a major theorem)
 
 ### Watched profiles/users

@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-206-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--19-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-212-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--21-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-19, weekly recalibration):**
-- Coverage catch: the [Clay Mathematics Institute's own 2026-09-11 statement](https://www.claymath.org/news/navier-stokes-announcement/) on the OpenAI Navier-Stokes claim — CMI "shares in the excitement" the problem "has apparently been settled" but its evaluation "is deliberately unhurried" — missed 8 days because Clay is weekly-swept tier.
-- Queue burndown: **225 → 206** (35 items reviewed 100%, 22 dropped as settled/below-bar); a mandatory notes-field capture-leak sweep found and queued 5 previously-orphaned ids, incl. [a disproof of Atiyah's Minkowski Space Conjecture](https://arxiv.org/abs/2608.16693).
-- A citation-chase pass on this ledger's own Marton's-conjecture anchor paper caught [a ~9.5-month-old claimed PFR resolution for the integers](https://arxiv.org/abs/2512.04433), missed by every recency-triaged daily sweep.
-- All four trends **HELD** — no fresh evidence this week on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics).
+**Since last scan (2026-09-21, daily):**
+- Two fresh domain-cadence landmarks straight from arXiv: [the full De Giorgi conjecture proved in R⁴](https://arxiv.org/abs/2609.21680) (Liu, Luo, Wang, J. Wei, Y. Wei, Wu) and [LHCb's 8.7σ observation of the doubly charmed baryon Ω⁺cc](https://arxiv.org/abs/2609.21921) — only the second doubly-charmed baryon ever seen.
+- A community-pulse (Quanta) catch on an 11-month-old preprint: [the Kim-Vu sandwich conjecture](https://arxiv.org/abs/2510.20765) (Behague, Il'kovič, Montgomery), resolving a 2004 random-graph-coupling conjecture.
+- Vetting-status update on the already-tracked OpenAI Navier-Stokes claim: OpenAI's own page now states an investigation "confirmed" Buckmaster's Codex prompts "could not have influenced the system in any way" — a stronger denial than the "cannot rule out" wording recorded 2026-09-11.
+- All four trends **HELD** — no fresh evidence on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) (a genuine arXiv weekend/Monday-lag posting gap — confirmed via explicit date-range API probes, not a query fault).
 
 ## Trends
 
@@ -23,6 +23,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- [Observation of the doubly charmed baryon $\Omega^+_{cc}$ (LHCb Collaboration)](https://arxiv.org/abs/2609.21921) — first observation (8.7σ) of a new doubly-charmed baryon, only the second ever seen after LHCb's 2017 $\Xi^{++}_{cc}$ discovery.
+- [The full De Giorgi conjecture in R^4 is true (Liu, Luo, Wang, J. Wei, Y. Wei, Wu)](https://arxiv.org/abs/2609.21680) — resolves the 1978 De Giorgi conjecture unconditionally in dimension 4, building on this year's Chan-Fernández-Real-Figalli-Serra breakthrough.
 - [The PFR/Marton Conjecture in Integers and Finite Fields via Spectral Stability (Kazemi Moghadam)](https://arxiv.org/abs/2512.04433) — claims to extend GGMT's 2024 resolution of Marton's conjecture from bounded-torsion groups to the integers and cyclic groups; single-author, unrefereed, ~9.5 months old and missed by every recency-triaged daily sweep until this week's arXiv-citation chase.
 - [Navier-Stokes Announcement (Clay Mathematics Institute)](https://www.claymath.org/news/navier-stokes-announcement/) — the Millennium Prize steward's own first public statement on the OpenAI Navier-Stokes claim: CMI "shares in the excitement" that the problem "has apparently been settled" but stresses its evaluation process "is deliberately unhurried" — acknowledgment without an outcome, on a live $1M-prize claim.
 - [Strong evidence of quantum entanglement between Z bosons (ATLAS, with an independent CMS result)](https://arxiv.org/abs/2603.26463) — the first measurement of entanglement between Z-boson pairs (spin qutrits) from Higgs decays at the LHC, disfavoring separability at 4.7σ; extends the collaborations' 2023-24 top-quark- entanglement observation to a new energy/spin regime — jointly announced by CERN, https://home.cern/strong-evidence-for-quantum-entanglement-between-z-bosons-found-by-atlas-and-cms/.
@@ -120,12 +122,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Timothy Gowers published ["Why I didn't sign the Fields medallists' letter"](https://terrytao.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/) (guest post on Terence Tao's blog) — a substantive dissent from the already-shelved "Severe Misalignment" declaration, disclosing his own early OpenAI model access.
-- Terence Tao's blog also hosted two off-axis AI-policy essays this week (publicly-funded research AI; AI-in-programming) — ecosystem commentary, not mathematical results, not captured.
-- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed** as of 2026-09-17 per multiple outlets — still no primary paper, code, or institutional statement.
-- [MathOverflow](https://mathoverflow.net/) continues carrying AI-in-math meta-discussion — community anxiety, not itself a result.
-- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session, 6+ weeks running).
+- Terence Tao's blog posted four new entries since 09-17 (lecture notes; an AI-in-math culture essay, ["Why Do We Need Human Mathematicians Anymore?"](https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/), which topped Hacker News; a "celebrate the rest of math" reflection; and his own non-profit SAIR's "Open Math Model" funding announcement) — all off-axis ecosystem/policy commentary, no primary math result named, not captured.
+- The Kim-Vu sandwich conjecture catch above came via Quanta's own community-pulse-adjacent coverage, not a keyword sweep — a reminder that the digest lane still finds landmarks the recency-triaged arXiv scan misses.
+- The Hodge-conjecture/Birch–Swinnerton-Dyer rumor remains **unconfirmed** as of 2026-09-17 per the last check — still no primary paper, code, or institutional statement.
+- [MathOverflow](https://mathoverflow.net/) continues carrying routine research-level Q&A — nothing on-axis this pass.
+- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session, 5+ weeks running).
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (206) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-18](reports/2026-09-18.md)) · Weekly: [2026-W38](reports/weekly/2026-W38.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (212) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-21](reports/2026-09-21.md)) · Weekly: [2026-W38](reports/weekly/2026-W38.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
