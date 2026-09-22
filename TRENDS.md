@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-21
+Last updated: 2026-09-22
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3378,6 +3378,98 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   flagged honestly as uncertain. This radar records that OpenAI has now made an on-record denial
   addressing the Buckmaster-Alpöge priority/influence dispute; it does not adjudicate the claim.
   Watch for a direct on-record response from Buckmaster or Alpöge to this specific denial.
+- 2026-09-22 (CAPTURE-LEAK CATCH, ~12 days late — surfaced via today's Hacker-News front-page
+  pointer, chased to two primaries) — OpenAI, "Advisory Group on Mathematics and Artificial
+  Intelligence," https://openai.com/index/advisory-group-on-mathematics-and-ai (page dateline shown
+  "September 10, 2026" though it explicitly references the 2026-09-11 Fields-medallists' open letter
+  already on this ledger — a dating inconsistency flagged honestly, not resolved this session) —
+  states that on August 28 OpenAI began training a new internal model which, IN ADDITION to the
+  already-tracked Navier-Stokes claim, "has now resolved more than 100 long-standing open problems
+  across most areas of mathematics," and that the pace "has surprised the mathematicians within
+  OpenAI." NO list of the 100+ problems, no papers, and no independent corroboration are given on
+  this page — an EXTRAORDINARY, self-reported, presently UNVERIFIABLE claim (hype-skepticism rule:
+  PROVISIONAL, track the vetting, not the number). SAME-STORY, independently confirmed —
+  https://agmai.org (Institute for Advanced Study; new primary institutional page, opened this
+  session, 200 OK) and Terence Tao's guest-post announcement
+  https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/
+  (both opened via `tvly extract` this session) — confirm OpenAI approached mathematicians to form an
+  INDEPENDENT "Advisory Group on Mathematics and Artificial Intelligence" (AGMAI), hosted at IAS, to
+  advise specifically on "how to coordinate the release of a large number of significant results in
+  mathematics that they report have been produced by their internal model." Members (per agmai.org):
+  François Charles, Camillo De Lellis, Timothy Gowers, Martin Hairer, Nikhil Srivastava, Ulrike
+  Tillmann, Ravi Vakil, Edward Witten, Melanie Matchett Wood — nine of the field's most senior figures
+  (several Fields Medalists), several already named on this ledger's tracked "Severe Misalignment"
+  open letter. A field-shaping ecosystem/governance event directly continuing the already-tracked
+  OpenAI/AI-assisted-math-wave and Severe-Misalignment threads; also on `study_shelf`. NEW
+  SOURCE-DISCOVERY CANDIDATE: agmai.org (first sighting, staged in SOURCES.md this session — the
+  group states it will publish its recommendations there, a future primary-artifact stream to watch).
+  Watch for: (a) any actual list/paper naming the 100+ claimed results, (b) AGMAI's first published
+  recommendation, (c) on-record mathematician reaction to the claim itself (distinct from reaction to
+  the advisory group's formation).
+- 2026-09-22 (v1 2026-09-20) — [The Partial List Colouring Conjecture is False (Jonathan A. Noel)](https://arxiv.org/abs/2609.23291)
+  — combinatorics (axis 1, math.CO; axis 5 AI-watch): exhibits an explicit 14-vertex, list-chromatic-
+  number-3 graph disproving the Partial List Colouring Conjecture of Albertson, Grossman and Haas.
+  Abstract + author verified via arXiv API this session. Domain-cadence LANDMARK (disproof of a named
+  conjecture) AND a striking AI-watch data point: the author's own abstract states the counterexample
+  "was discovered and fully verified by ChatGPT 6 Astra Ultra after some persistent prompting, but
+  almost no mathematical input, from the author" — a further entry in the standing AI-assisted-math
+  wave (same OpenAI "Astra"-family model lineage already tracked for Erdős-Sós/Kalai's-conjecture
+  results), single-author, unrefereed → PROVISIONAL under the hype-skepticism rule. Track the RESULT,
+  not the AI method (sibling AI radars' beat).
+- 2026-09-22 (v1 2026-09-21) — [The Generalized Lax Conjecture for Strictly Hyperbolic Polynomials (Kummer, Netzer)](https://arxiv.org/abs/2609.24542)
+  — convex algebraic geometry (axis 1, math.AG/OC; axis 5 AI-watch): "We report a proof found by an
+  artificial intelligence system" that the hyperbolicity cone of every strictly hyperbolic polynomial
+  is spectrahedral, establishing the Generalized Lax Conjecture for the GENERIC case (the full
+  conjecture remains open). Abstract + authors verified via arXiv API this session. Domain-cadence
+  LANDMARK (partial resolution of a well-known named conjecture in optimization/real algebraic
+  geometry) reported under the names of two established human mathematicians (not an AI company's own
+  disclosure channel) — a distinct pattern from the OpenAI/Anthropic self-disclosure cases already
+  tracked, worth watching as its own sub-pattern (mathematicians reporting AI-found proofs under their
+  own byline). Unrefereed preprint → PROVISIONAL under the hype-skepticism rule; track the RESULT, not
+  the AI method.
+- 2026-09-22 (v1 2026-09-20) — [Fractional illumination and the optimal exponential rate in Hadwiger's covering conjecture (Yegor Gorodzha)](https://arxiv.org/abs/2609.23913)
+  — convex geometry (axis 1, math.MG/CO): proves the fractional illumination number of every convex
+  body in $\mathbb R^d$ is at most $2^d$ (equality only for parallelotopes) and that every such body
+  can be covered by at most $2^d(d\log d+d\log\log d+O(d))$ smaller homothetic copies as $d\to\infty$
+  — establishing the OPTIMAL EXPONENTIAL RATE in Hadwiger's covering conjecture (open since 1957, one
+  of convex geometry's most famous problems; the conjecture's exact constant remains open). Abstract +
+  author verified via arXiv API this session. Domain-cadence LANDMARK (pins the correct growth rate on
+  a marquee open problem); single-author, unrefereed → PROVISIONAL under the hype-skepticism rule (NOT
+  AI-assisted — ordinary human proof). Also on `study_shelf`.
+- 2026-09-22 (v1 2026-09-19) — [The Zygmund conjecture and Rey's exponential integrability conjecture (Henri Martikainen)](https://arxiv.org/abs/2609.23895)
+  — harmonic analysis (axis 1, math.CA): proves the Zygmund conjecture in full generality (the maximal
+  operator for products of cubes with one side a positive coordinatewise-nondecreasing function of the
+  others satisfies the weak $L(\log L)^{m-2}$ estimate for every $m\ge3$) by first proving Rey's 2026
+  conjecture on exponential integrability of the overlap function for sparse dyadic-rectangle
+  families. Abstract + author verified via arXiv API this session. Domain-cadence landmark (full
+  resolution of a named conjecture); single-author, unrefereed — queued.
+- 2026-09-22 (v1 2026-09-20) — [On Kahn's flow conjecture (Peter Keevash)](https://arxiv.org/abs/2609.23595)
+  — extremal combinatorics (axis 1, math.CO): proves Kahn's flow conjecture, a strong form of
+  Chvátal's conjecture (itself resolved on this ledger's `study_shelf` 2026-09-17) on the largest
+  intersecting subfamily of a downset. Abstract + author verified via arXiv API this session
+  (Keevash, a leading combinatorialist). Below-bar (terse announcement-style preprint, single author,
+  unrefereed) but a named-conjecture resolution directly following up the already-shelved Chvátal
+  result — queued.
+- 2026-09-22 (v1 2026-09-20) — [The Coulhon-Duong conjecture for the Riesz transform on complete Riemannian manifolds (Chen, Jiang, Li, Li)](https://arxiv.org/abs/2609.23503)
+  — geometric analysis (axis 1, math.CA/DG): proves the Riesz transform on any complete non-compact
+  Riemannian manifold is of weak type (1,1), resolving the Coulhon-Duong conjecture with no geometric
+  or heat-kernel assumptions. Abstract + authors verified via arXiv API this session. Below-bar
+  (technical, specialist-audience named-conjecture resolution) — queued.
+- 2026-09-22 (v1 2026-09-20) — [Proof of Nobori's generalized Böttcher-Wenzel inequality conjecture (Shi, Zhang)](https://arxiv.org/abs/2609.23520)
+  — linear algebra (axis 1, math.RA/FA): proves a 2025-posed matrix-commutator norm inequality
+  conjectured by Nobori. Abstract + authors verified via arXiv API this session. Below-bar (a narrow,
+  recently-posed inequality conjecture, not a long-standing landmark) — queued.
+- 2026-09-22 (v1 2026-09-20) — [The Auslander-Reiten conjecture for quantum complete intersections (Weiheng Xia)](https://arxiv.org/abs/2609.24007)
+  — representation theory (axis 1, math.RA/RT): proves the Auslander-Reiten conjecture (and
+  Tachikawa's second conjecture) for finite-dimensional quantum complete intersections, with no
+  restriction on commutation-parameter orders. Abstract + author verified via arXiv API this session.
+  Below-bar (a specific algebra class, specialist audience) — queued.
+- 2026-09-22 (v1 2026-09-21) — [Complete classification of algebraically primitive Teichmüller curves in $\Omega\mathcal M_g(g-1,g-1)^{\mathrm{hyp}}$ (Myeongjae Lee)](https://arxiv.org/abs/2609.24587)
+  — Teichmüller dynamics (axis 1, math.DS/AG/GT): gives a complete classification of algebraically
+  primitive Teichmüller curves in this stratum for $g>2$ (precisely those from Veech $2p$-gons,
+  $p=2g+1$ prime). Abstract + author verified via arXiv API this session. Below-bar (a complete
+  classification result, but specialist Teichmüller-dynamics audience, not a named open-conjecture
+  resolution) — queued.
 
 ## source_rotation
 
@@ -3395,6 +3487,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-21 (guest post; shelf-added 2026-09-22) — [Announcing the Advisory Group on Mathematics and Artificial Intelligence](https://agmai.org)
+  — nine senior mathematicians (Charles, De Lellis, Gowers, Hairer, Srivastava, Tillmann, Vakil,
+  Witten, Wood), hosted at IAS, formed to advise OpenAI on releasing the 100+ open-problem claims its
+  internal model reportedly resolved — a field-shaping governance response every frontier researcher
+  in this ledger's scope should know about; see `observation_queue` for the underlying (still
+  unverified) claim.
+- 2026-09-22 (v1 2026-09-20; shelf-added 2026-09-22) — [Fractional illumination and the optimal exponential rate in Hadwiger's covering conjecture (Yegor Gorodzha)](https://arxiv.org/abs/2609.23913)
+  — pins the correct exponential growth rate on Hadwiger's covering conjecture, open since 1957 and
+  one of convex geometry's most famous unsolved problems.
 - 2026-09-17 (arXiv v1; shelf-added 2026-09-21) — [Observation of the doubly charmed baryon $\Omega^+_{cc}$ (LHCb Collaboration)](https://arxiv.org/abs/2609.21921)
   — first observation (8.7σ) of a new doubly-charmed baryon, only the second ever seen after LHCb's
   2017 $\Xi^{++}_{cc}$ discovery.

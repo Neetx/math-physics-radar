@@ -231,13 +231,22 @@ survives verification (real feed, on-axis, not SEO). Line format:
   hype-skepticism/vetting-status tracking. Discovered via a cross-link from Gil Kalai's already-
   tracked blog. HELD below the ≥2 bar (1 sighting); no feed found this session, access via
   `tvly extract` on the direct post URL.
-- science.org / Science Advances (AAAS) — 1 — Dobkowski et al., "Observation of quantum free
+- science.org / Science Advances (AAAS) — 2 — Dobkowski et al., "Observation of quantum free
   fall and the consistency with the equivalence principle" (arXiv:2502.14535, Science Advances
-  2026-09-02) — first seen 2026-09-08 — a peer-reviewed AAAS journal distinct from the
-  already-tracked Nature/Nature Physics/Nature Communications/APS lanes; discovered via a
-  Hacker-News front-page pointer. HELD below the ≥2 bar (1 sighting); no RSS found this session,
-  access via `tvly search "site:science.org <title>"` or direct DOI-link checks when a
+  2026-09-02) — first seen 2026-09-08, 2nd sighting 2026-09-22 (same underlying paper, resurfaced via
+  a University of Oxford Physics Dept. press page reached through the Simons Foundation feed) — a
+  peer-reviewed AAAS journal distinct from the already-tracked Nature/Nature Physics/Nature
+  Communications/APS lanes. CLEARS the ≥2-sighting bar — ready for weekly promotion; no RSS found
+  this session, access via `tvly search "site:science.org <title>"` or direct DOI-link checks when a
   disclosure is flagged elsewhere.
+- agmai.org (Advisory Group on Mathematics and Artificial Intelligence, hosted at IAS) — 1 —
+  "Advisory Group on Mathematics and Artificial Intelligence" launch page, confirming OpenAI's
+  100+-open-problems claim and the group's formation (2026-09-21/22, see `observation_queue`) — first
+  seen 2026-09-22 — a new institutional primary distinct from the general IAS news feed; the group
+  states it will publish its recommendations on this exact page going forward, making it a future
+  primary-artifact stream for the AI-assisted-math-wave watch item. Discovered via a Hacker News
+  front-page pointer to Terence Tao's guest-post announcement. HELD below the ≥2 bar (1 sighting);
+  verified live this session (200 OK, plain `curl`/`tvly extract` both work, no feed).
 PROMOTED 2026-08-08 (W32): nature.com/ncomms (2 sightings → Research/publication venues, DAILY tier),
 scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com/cdn.openai.com
 (recurring disclosure channel → Primary feeds AI-watch lane, DAILY tier) — see their entries above;

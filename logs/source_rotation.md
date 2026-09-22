@@ -2000,3 +2000,58 @@ Erdős-Sós proof). README.md regenerated from the updated ledger in the same co
   mechanical id-reconciliation sweep against the last 3 reports' (09-16/09-17/09-18) 22 named arXiv
   ids — all 22 confirmed present in the observation_queue/evidence block — 0 leaked. README.md
   regenerated from the updated ledger in the same commit.
+
+2026-09-22 (Pass 1, ~scheduled) — first daily since 09-21 (same-week continuation, no weekend gap).
+Load-state: `origin/main` and this session's designated branch were already in sync (no orphaned
+`radar:` commit found on any other branch); `tvly` CLI reinstalled cleanly this session
+(`pip install -q tavily-cli`, no PyPI issue today) — used throughout. Primary sweep: full in-scope
+arXiv math category-rotation (math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR/
+GN/SP, 615 fresh entries) and physics (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/
+supr-con/astro-ph.CO/HE/GA/nucl-th/nucl-ex/hep-ex/nlin.SI, 459 fresh entries) both queried via the
+arXiv API with an explicit submittedDate window (2026-09-18T17:58Z→2026-09-22T23:59Z) covering
+exactly the slice not yet reviewed by the 09-21 daily; both batches triaged by title/keyword
+(conjecture/theorem/counterexample/resolved/proof-of etc.) then selectively opened in full via the
+API. All four active trends (Ramsey, non-invertible symmetries, Stanley-Gasharov, Marton/PFR-exponent)
+keyword-swept against both fresh batches — no new evidence on any — all HELD, no notes written per
+note discipline. 9 math items captured (2 AI-assisted-math landmarks, 5 below-bar named-conjecture
+resolutions, plus the AGMAI/OpenAI capture below); physics batch quiet (routine phenomenology/theory,
+no new collaboration data release or first-of-kind detection). Community pulse: Hacker News front page
+(Algolia API) opened — surfaced Terence Tao's "Advisory Group on Mathematics and Artificial
+Intelligence" post, chased to the primary OpenAI page (openai.com/index/advisory-group-on-mathematics-
+and-ai) and the new agmai.org institutional page (both opened via `tvly extract` this session) — the
+day's biggest catch, an ~12-day-late capture-leak (OpenAI's page dated ~09-10, Tao's post 09-21); see
+TRENDS.md/observation_queue and study_shelf. Reddit (r/math) re-tested directly — still hard-blocked
+("Blocked" page from Reddit's own edge, 6+ consecutive weeks unchanged); `tvly search
+--include-domains reddit.com` workaround used instead, surfaced only AI-in-math discussion threads
+(off-axis, intake-only, not named/quoted). MathOverflow, Mathstodon (noisy federated timeline, no
+on-scope signal today) both opened directly. Quanta RSS, Tao's own feed (7 new posts since 09-17, all
+AI-in-math ecosystem/policy essays or lecture notes — off-axis, not captured beyond the AGMAI item
+above), Woit, Gowers, Kalai, Baez, Strassler, Hossenfelder, n-Category Café, Scientific American
+(`tvly search`) all opened — routine, nothing else on-axis. Simons Foundation feed surfaced a 2nd
+sighting of science.org/Science Advances (Oxford press page for the already-tracked Dobkowski et al.
+quantum-free-fall result) — incremented in SOURCES.md, clears the ≥2 promotion bar for the next
+weekly. Repo/release watch: GitHub session-proxy-scoped as expected, routed through `tvly
+extract`/`search`: lean4 unchanged (v4.35.0-rc2), mathlib4 continuing its daily `master-*` auto-tag
+(now master-2026-09-21), Rocq unchanged (9.3.0); confirmed `github.com/anthropics/formal-math` (the
+repo hosting the already-tracked Riemann-zeta-zeros Lean formalization) — no new formalized theorem,
+not queued. Exploration slot (radar-explore, OFF-AXIS rotation): cs.CC (computational complexity; not
+on any on-axis category list) — top 21 fresh entries (2026-09-18→09-22) read regardless of sub-topic;
+routine complexity-theory results (PSPACE-completeness, derandomization, proof-complexity lower
+bounds), including a Lean-formalization-adjacent title ("Formalizing PARITY Circuit Lower Bounds in
+Lean") judged off-axis (circuit complexity, not a math.* result) — zero significant-off-axis yield
+this session, logged per the exploration-slot convention. Self-healing: LIGO direct `curl`/`WebFetch`
+on `/news.php`/`/news` still Cloudflare-blocked (3rd+ consecutive daily) but `tvly extract` on
+`ligo.org/news/` works cleanly, no new items since GWTC-5.0 — not escalated (working method exists).
+SciPost API: HEALTHY, no Anubis block, unchanged since 09-21 (still SciPostPhys.21.3.070, no new
+publication). Nature Physics / Nature Communications RSS: still empty-CDATA titles (4th+ consecutive
+daily) but the `curl -A "Mozilla/5.0" -L <article-url>` + grep `citation_title` workaround (this
+session added `-L` — the article URLs 303-redirect before serving the meta tags, a small refinement on
+the recorded method) recovered 7/7 Nature Physics and 8/8 Nature Communications titles, all off-axis.
+CERN Courier, Fermilab, DESI, CERN /feed/, IceCube, PRL/PRX/RMP, Quantum journal, IAS, Clay (routine —
+Navier-Stokes Announcement + 2026 Clay Research Conference 23 Sep — watch) all opened, routine beyond
+the captures above. Queue: +9 lines (1 major AI-governance capture, 2 AI-assisted-math landmarks, 6
+below-bar named-conjecture resolutions). study_shelf: 2 new picks (AGMAI announcement; Hadwiger
+covering-conjecture rate). capture-leak: 19 ids checked this session (mechanical sweep against
+reports/2026-09-17,18,21) / 0 queued (all 19 confirmed already present in the
+observation_queue/evidence block — 0 leaked). README.md regenerated from the updated ledger in the
+same commit.

@@ -1338,3 +1338,24 @@ Corrections to the source-coverage strategy.
   point is reading outside the recently-swept axes, which is exactly where a session is most likely
   to re-discover something already captured under a different rotation) — no amendment proposed,
   just a practice note for future dailies.
+
+- 2026-09-22 (daily) — Coverage-gap signal: caught a ~12-day-late capture-leak (OpenAI's "Advisory
+  Group on Mathematics and Artificial Intelligence" page, dated ~2026-09-10, disclosing that an
+  internal model has "resolved more than 100 long-standing open problems across most areas of
+  mathematics" in addition to the already-tracked Navier-Stokes claim) purely as a side-effect of a
+  Hacker-News front-page pointer to Terence Tao's 09-21 guest-post announcement of the resulting
+  AGMAI advisory group — no swept DAILY-tier lane (including the openai.com AI-watch primary feed
+  entry itself) surfaced this page directly in the ~12 days between its dateline and today. Root
+  cause is likely the same pattern as the 09-15 Anthropic catch: `openai.com/research` is checked via
+  periodic `tvly search`/direct URL probes rather than a subscribable feed, so a page not linked from
+  the site's own recent-news listing (this one lives under `/index/`, not `/research/`) can sit
+  unseen until an external pointer (here, community pulse) surfaces it. Unlike the Anthropic case,
+  this one is now closed by the corroborating agmai.org primary (staged as its own source-discovery
+  candidate this session) rather than requiring a promotion decision — but it reinforces that the
+  AI-watch disclosure channels (openai.com, anthropic.com/research, and now agmai.org) remain
+  structurally harder to sweep exhaustively than a real feed, and community-pulse chasing continues
+  to be this radar's actual safety net for them, not the primary-feed sweep itself. No amendment
+  proposed (the existing AI-watch access method — periodic `tvly search` plus community-pulse
+  chasing — already caught this within a reasonable window relative to the story's actual public
+  emergence via Tao's 09-21 post, one day after Tao's post, not ~12 days after OpenAI's own page);
+  flagged for awareness, and as a data point if this pattern recurs a further time.
