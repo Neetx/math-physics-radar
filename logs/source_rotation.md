@@ -2055,3 +2055,81 @@ covering-conjecture rate). capture-leak: 19 ids checked this session (mechanical
 reports/2026-09-17,18,21) / 0 queued (all 19 confirmed already present in the
 observation_queue/evidence block — 0 leaked). README.md regenerated from the updated ledger in the
 same commit.
+
+2026-09-23 (Pass 1, ~scheduled, early-UTC run ~05:45-06:10Z) — first daily since 09-22 (no gap).
+Load-state: `origin/main` and this session's designated branch were already in sync at
+`f42ae20` (no orphaned `radar:` commit on any other branch beyond the already-flagged, non-
+actionable pre-08-05-reset debris on `claude/modest-bohr-9415kc`, per the 09-18 daily's
+strategy-notes judgment — re-confirmed unrelated-history, left unmerged). Tooling: `tvly` CLI
+required a fresh install this session (not present); `tvly login` (interactive/browser OAuth)
+cannot complete headless, but `TAVILY_API_KEY` is set and a direct `tvly search` call was
+attempted — returned `"This request exceeds your plan's set usage limit"` (a NEW failure mode,
+distinct from the prior PyPI-install transients on 09-18/09-21). Per AGENTS.md's fallback
+clause, ran the entire session on `WebFetch`/`WebSearch`/direct `curl` instead — full DAILY-tier
+coverage still achieved below; a tooling substitution, not a coverage gap. Primary sweep: full
+in-scope arXiv math category-rotation (CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/
+OC/MG/GR/GN/SP) and physics (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/
+supr-con/astro-ph.CO/HE/GA/nucl-th/nucl-ex/hep-ex/nlin.SI) both queried via the arXiv API with an
+explicit submittedDate window (2026-09-22T23:59Z→2026-09-24T06:00Z) — genuinely 0 entries in
+either query, cross-checked with a category-agnostic sanity query (single most-recent global
+submission per spot-checked category, e.g. math.CO and hep-th both max out at ~2026-09-22T17:4xZ)
+confirming this is a real quiet window (the run landed unusually early in the arXiv processing
+cycle, before the next batch posts), not a query defect. APS (PRL/PRX/RMP RSS), Quantum journal
+RSS, CERN Courier RSS, Fermilab RSS, Simons Foundation RSS, CERN /feed/, IceCube category-feed
+all opened directly via `curl` — routine, no on-axis novelty since 09-22 (Simons Foundation's
+newest, "Funding Awarded for 16 Courses...", is off-axis). LIGO (`WebFetch` on the plain
+`/news` URL) and DESI (`WebFetch`) both opened — unchanged since the last-known state (LIGO
+still GWTC-5.0 as newest; DESI still the 07-30 Lyman-alpha DR2 result). SciPost: still Anubis-
+blocked on both the API/article pages (direct `curl`) AND the `tvly search` workaround (tvly
+itself down this session) — the `sitemap.xml` existence-check workaround (still open to plain
+`curl`, no Anubis) shows SciPostPhys.21.3 advanced .070→.073 (3 new) and SciPostPhysCore.9.3
+unchanged; titles inaccessible by any method this session (existence-only, same partial-heal
+status as prior dailies — 5th+ consecutive day, no new heal attempted, tvly unavailable to try
+the search-title workaround today). Nature Physics + Nature Communications RSS: both still
+empty-CDATA titles; the `curl -A "Mozilla/5.0" -L <article-url>` + grep `citation_title`
+workaround applied per-article (8/8 + 8/8 titles recovered), all off-axis (condensed matter/
+biophysics/muonium-beam engineering for NPhys; biology/chemistry/corrections for NComms).
+INSPIRE-HEP API queried (mostrecent sort) — noisy/low-signal this session (dominated by future-
+dated conference-proceedings metadata, not a reliable "what's new" view when arXiv itself shows
+zero fresh hep-th/hep-ph/gr-qc submissions in the window); no on-axis yield, not escalated (arXiv
+API remains the primary hep-th/ph/gr-qc lane; INSPIRE is a secondary cross-check that had nothing
+to add on a genuinely quiet arXiv day). Community pulse: Hacker News (Algolia front-page API)
+opened — top science story was an AI-capability item (GPT-6 Astra breaking a 2005 Enigma cipher
+challenge) judged off-axis per the hard AI-radar-boundary rule (cryptography/AI-capability, not a
+math/physics result); MathOverflow (`curl`, direct HTML parse of `/questions?tab=Newest`) opened
+— routine research-level Q&A, one AGMAI-adjacent question (off-axis community reaction, not a new
+primary); Reddit r/math re-tested directly (`curl`) — still hard-blocked (7+ consecutive weeks,
+unchanged; `tvly search` workaround unavailable this session, tvly down); Mathstodon (Baez's
+account specifically) returned only profile-header content via `WebFetch`, no post list — logged
+as a same-session access gap, not escalated (single day, and the broader Mathstodon federated-
+timeline check was already established as low-signal); Quanta (math + physics section pages),
+Tao's blog (RSS — two new AGMAI-adjacent guest posts, 09-22, both community reaction to the
+already-tracked story, not new primaries), Woit/Not Even Wrong, Gowers, Gil Kalai (surfaced two
+already-tracked stories — the De Loera Simplex-Cube-conjecture paper 2609.00397 and the AI
+percolation-conjecture proof — both re-confirmed present in TRENDS.md, no leak), Hossenfelder/
+Backreaction, Strassler (stale since Feb 2026, unchanged), n-Category Café all opened — routine,
+nothing further on-axis. Repo/release watch: `github.com` session-proxy-scoped as expected,
+routed through direct `WebFetch` (tvly down): lean4 unchanged (v4.35.0-rc2), mathlib4 continuing
+its daily `master-*` auto-tag (now master-2026-09-22, routine, not queued), Rocq unchanged
+(9.3.0, released 09-19), `anthropics/formal-math` unchanged (last commit 09-05, a dependency
+bump — no new formalized theorem). AI-watch lane: openai.com/index/ and openai.com/news/ both
+403'd to direct `WebFetch` this session (session-proxy/bot-check interaction); substituted
+`WebSearch` — no new on-axis disclosure surfaced beyond the already-tracked Navier-Stokes/"Ten
+Advances" cluster (a Sawhney/Sellke sphere-packing mention in one search snippet was NOT chased
+into a primary open this session — the underlying arXiv sphere-packing item, 2608.12094, and the
+Sellke/Bubeck correction episode are already on the ledger; no unopened claim was cited per the
+evidence hard rule). agmai.org re-opened directly (`WebFetch`) — unchanged since launch (no
+published recommendation yet). Exploration slot (radar-explore, OFF-AXIS rotation per 09-22's
+"Next" note): math.NA (numerical analysis) — top 25 fresh entries (2026-09-22) read regardless of
+sub-topic; routine numerical-methods/PINN/FEM titles, one narrow "Conjecture Related to Eigenvalue
+Perturbations" judged a specialist technical conjecture, not landmark-scale — zero significant
+off-axis yield this session, logged. Self-healing: no repeat-failure source had a new heal
+avenue available this session (SciPost's Anubis block persists with its existing partial
+workaround; the tvly quota failure is an account-level ceiling, not a code/access-path problem —
+nothing to heal, flagged in strategy_notes for awareness/recurrence-watch instead). Queue: +0
+lines (genuinely quiet day — the arXiv primary sweep window held zero fresh entries across every
+in-scope category, and every community-pulse/repo-watch/exploration hit this session was either
+off-axis, routine, or already present on the ledger). study_shelf: 0 new picks. capture-leak: 24
+ids checked this session (mechanical sweep against reports/2026-09-18,21,22) / 0 queued (all 24
+confirmed already present in the observation_queue/evidence/study_shelf block — 0 leaked).
+README.md regenerated (Last-updated bump only — no content changes) in the same commit.

@@ -1,13 +1,11 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-222-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--22-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-222-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--23-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-22, daily):**
-- The [Advisory Group on Mathematics and Artificial Intelligence](https://agmai.org) — nine senior mathematicians (incl. Witten, Gowers, Tao) hosted at IAS — confirms OpenAI's internal model has reportedly "resolved more than 100 long-standing open problems," an ~12-day-late capture-leak catch, extraordinary and still unverified.
-- Two AI-assisted-math landmarks straight from arXiv: [the Partial List Colouring Conjecture disproved by ChatGPT 6 Astra Ultra](https://arxiv.org/abs/2609.23291) (Noel) and [the Generalized Lax Conjecture's generic case via an AI-found proof](https://arxiv.org/abs/2609.24542) (Kummer, Netzer).
-- A single-author landmark on one of convex geometry's most famous open problems: [the optimal exponential rate in Hadwiger's covering conjecture](https://arxiv.org/abs/2609.23913) (Gorodzha).
+**Since last scan (2026-09-23, daily):**
+- Quiet scan — no ledger changes. The arXiv primary sweep (all in-scope math + physics categories) landed a genuinely empty window this early-UTC run; every community-pulse, repo-watch and exploration hit this session was off-axis, routine, or already on the ledger (see [today's report](reports/2026-09-23.md)).
 - All four trends **HELD** — no fresh evidence on [Ramsey](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics), [non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries), [Stanley-Gasharov](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) or [Marton's-exponent](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics).
 
 ## Trends
@@ -124,12 +122,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Hacker News' front page led (89 pts) to Terence Tao's guest-post announcing the [Advisory Group on Mathematics and Artificial Intelligence](https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/) — the session's biggest catch, chased to its primary sources (see Trends/shelf above).
-- [MathOverflow](https://mathoverflow.net/) carried a live discussion thread on the advisory group vs. open-access norms — routine Q&A otherwise, nothing else on-axis this pass.
-- Terence Tao's blog posted 7 further entries since 09-17 (lecture notes, AI-in-math culture/policy essays) — all off-axis ecosystem commentary, no other primary result named, not captured.
-- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session, 6+ weeks running); `tvly search` over reddit.com surfaced only AI-in-math discussion threads, off-axis.
-- [Mathstodon](https://mathstodon.xyz/) federated public timeline was pure noise this pass (spam/unrelated toots) — no on-scope research signal.
+- [Hacker News](https://news.ycombinator.com/) front page led with an AI-capability story (a classical cipher challenge broken by a model) — off-axis per the AI-radar-boundary rule, nothing on-scope surfaced today.
+- [Terence Tao's blog](https://terrytao.wordpress.com/) posted two further guest-post reactions to the Advisory Group on Mathematics and Artificial Intelligence (see study shelf) — community commentary, no new primary result.
+- [Gil Kalai's blog](https://gilkalai.wordpress.com/) and [MathOverflow](https://mathoverflow.net/) both surfaced only already-tracked stories (the Simplex-Cube-conjecture proof, an AI percolation-conjecture proof) — routine otherwise.
+- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session, 7+ weeks running).
+- [Mathstodon](https://mathstodon.xyz/) gave no accessible post list this pass (access gap, not escalated) — no on-scope research signal either way.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (222) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-22](reports/2026-09-22.md)) · Weekly: [2026-W38](reports/weekly/2026-W38.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (222) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-23](reports/2026-09-23.md)) · Weekly: [2026-W38](reports/weekly/2026-W38.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

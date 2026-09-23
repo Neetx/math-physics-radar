@@ -1359,3 +1359,31 @@ Corrections to the source-coverage strategy.
   chasing — already caught this within a reasonable window relative to the story's actual public
   emergence via Tao's 09-21 post, one day after Tao's post, not ~12 days after OpenAI's own page);
   flagged for awareness, and as a data point if this pattern recurs a further time.
+
+- 2026-09-23 (daily) — Tooling: `tvly search` returned `"This request exceeds your plan's set
+  usage limit. Please upgrade your plan or contact support@tavily.com"` this session — a NEW
+  failure mode (an account-level quota ceiling, not a PyPI-install transient like 09-18/09-21 or
+  a network-path issue). Ran the full session on `WebFetch`/`WebSearch`/direct `curl` instead per
+  AGENTS.md's fallback clause; full DAILY-tier coverage was still achieved (see today's
+  `source_rotation.md` line), so this was a tooling substitution, not a coverage gap. Nothing to
+  self-heal here (no access path is broken — the plan's usage cap is an external/billing
+  constraint outside this radar's control). Flagging for awareness and recurrence-watch: if the
+  quota failure persists across multiple future dailies, worth noting in a weekly report as a
+  standing capability constraint (WebFetch/WebSearch are viable substitutes for every lane
+  exercised this session, so this is not currently blocking, just slower/more verbose per source).
+- 2026-09-23 (daily) — Ledger-health observation (no amendment proposed, a data point for the next
+  weekly self-eval): the unheaded `observation_queue` block inside `## Active trends` now runs
+  exactly 222 top-level items (`sed -n '941,3473p' TRENDS.md | grep -c '^- '`, matching the
+  README badge, which the badge/table checks confirm is accurate), well past the domain-cadence
+  SOFT cap of ~40 (AGENTS.md § Domain cadence / the `radar-ledger-update` skill). Per that skill,
+  resolution should target "the lowest tier (never-opened title-only intake)" and happen "only
+  when GENUINELY over the soft cap" — this queue is ~5.5x over, which reads as genuinely over
+  rather than a normal slow-domain persistence case. Prior weeklies (W36 per several
+  `queue-cleanup` notes already in the ledger) have done partial burndowns by promoting landmark
+  items to `study_shelf`, but the raw item count has kept growing net of those promotions. Not
+  something a daily run should attempt (a mechanical count-driven burndown of ~180 items in one
+  session risks exactly the "prune to hit a number" failure mode the domain-cadence rule warns
+  against, and picking which below-bar items to drop needs the fuller weekly-scale judgment pass
+  — flagged here so the next weekly self-eval can
+  size a deliberate burndown pass (e.g. resolve the oldest never-reopened title-only entries
+  first, per the skill's own tiering) rather than let the count keep climbing unnoticed.
