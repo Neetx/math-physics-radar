@@ -1387,3 +1387,55 @@ Corrections to the source-coverage strategy.
   — flagged here so the next weekly self-eval can
   size a deliberate burndown pass (e.g. resolve the oldest never-reopened title-only entries
   first, per the skill's own tiering) rather than let the count keep climbing unnoticed.
+
+- 2026-09-24 (daily) — Tooling: `tvly search` failed again with the identical account-level
+  "exceeds your plan's set usage limit" error as 2026-09-23 — now 2 consecutive dailies with this
+  exact failure mode (distinct from the earlier PyPI-install transients). Per the 09-23 note's own
+  threshold ("if the quota failure persists across multiple future dailies, worth noting in a
+  weekly report as a standing capability constraint"), flagging this explicitly for the next
+  weekly: WebFetch/WebSearch/direct curl remain viable substitutes for every lane exercised so far
+  (2 full dailies of coverage achieved without `tvly`), so this is a slowness/verbosity cost, not a
+  coverage gap — but it has now met the recurrence bar the prior daily set for weekly attention.
+  Separately, a NEW degradation appeared this session: `export.arxiv.org/api/query` (the arXiv
+  metadata API used for exact author/date verification) returned HTTP 406 to every request tried
+  (plain, URL-encoded params, explicit Accept header, forced HTTP/1.1, browser User-Agent) — a
+  different failure from anything logged before (previous arXiv-side issues were rate-limiting or
+  category-RSS quirks, never the API itself). WORKED AROUND this session via `rss.arxiv.org/rss/
+  <category>` for discovery and direct `arxiv.org/abs/<id>` HTML pages for verification (title,
+  authors, abstract, and submission date are all present and reliable there) — full DAILY-tier
+  coverage was achieved despite the API outage. Not yet escalating to a dedicated `radar-source-
+  heal` pass (single-daily occurrence, and a full working substitute already exists), but flagging
+  for recurrence-watch: if the API 406 persists next session, it should get a proper heal entry in
+  SOURCES.md's arXiv tooling note (AGENTS.md's `curl -sL 'https://export.arxiv.org/api/query?...'`
+  line would then need a documented caveat).
+- 2026-09-24 (daily) — Coverage-gap signal, same shape as the 09-15/09-22 catches: a follow-up
+  paper ("An exposition of the proof of the Komlós conjecture," arXiv:2609.27172, and "An
+  elementary proof of the Komlós conjecture," arXiv:2609.20979) both referenced "the recent proof
+  of Guo, Fang, and Lu" resolving the Komlós conjecture WITHOUT giving its arXiv id in the abstract
+  — the original paper, "Vector Balancing via Directional Total Variation" (arXiv:2609.11189,
+  v1 2026-09-10), sat uncaptured on this ledger for two weeks. Root cause: its title contains
+  neither "Komlós" nor "discrepancy," so it was invisible to every title-keyword scan across two
+  math.CO/FA daily category sweeps despite being squarely on-axis and landmark-scale (it resolves
+  BOTH the Komlós conjecture and the Beck-Fiala square-root-dependence conjecture in one paper).
+  It was only located this session by treating the two follow-ups' unattributed citation as a
+  citation-chase trigger (per the existing Amendment G pattern — chase a named-but-unlinked
+  result) via `arxiv.org/search` + WebSearch, the same play that closed the Cohen-Lenstra /
+  Marton-preprint gaps in prior weeks. No amendment proposed (the existing citation-chase practice
+  already catches this pattern reliably when a follow-up paper exists to trigger it — the residual
+  risk is a landmark result with NO follow-up paper and an unrecognizable title, which no title-
+  keyword scan can catch; noted as a structural blind spot, not something this session's tooling
+  can close). Separately worth flagging: the underlying proof itself is credited to "the Odin
+  Automatic AI Research Agent" — another entry in the standing AI-assisted-math wave (Navier-
+  Stokes, Jacobian conjecture, Batyrev, Pierce-Birkhoff, etc.), tracked per the hard AI-watch rule
+  (the mathematical result, not the AI method).
+- 2026-09-24 (daily) — Ledger-health: the `observation_queue` grew by +8 lines and a new `seed`
+  trend was added this session (a rich single-batch day after 09-23's zero-yield window), pushing
+  the queue further past the ~40 soft cap flagged 09-23 (was 222, now ~230). Reaffirming the 09-23
+  note's own conclusion: this is a weekly-scale burndown decision (which below-bar items to drop,
+  targeting the lowest tier per the `radar-ledger-update` skill), not something today's daily
+  should attempt — flagged again for the next weekly self-eval to size that pass. Also noting a
+  further degradation on the Nature Physics/Nature Communications article-page workaround (see
+  today's `source_rotation.md` entry): the `citation_title` meta-tag workaround that had recovered
+  titles since 2026-08-21 now 303-redirects to `idp.nature.com/authorize` on every article URL
+  tried (both plain `curl` and `WebFetch`) — a further failure mode on an already-degraded source,
+  worth a `radar-source-heal` pass next session if it recurs.

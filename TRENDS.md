@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-23
+Last updated: 2026-09-24
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -934,6 +934,45 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     correctly queued below-bar in its own right rather than as trend evidence (re-confirmed this
     session). Confidence held medium (each step a short, checkable refinement of an already-proved
     landmark). Not promoted (no fresh W38 velocity).
+
+### Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)
+- stage: seed | confidence: medium | first_seen: 2026-09-24 | last_evidence: 2026-09-23
+- what: an AI research agent ("Odin Automatic AI Research Agent") is credited with discovering a
+  proof of the ~50-year-old Komlós conjecture (vector-signing/discrepancy problem) AND, as a
+  corollary, the square-root dependence predicted by the Beck-Fiala conjecture, in one paper
+  (2026-09-10); TWO independent human author groups have already built on it within two weeks —
+  an elementary re-proof and an exposition with a further tightened constant — a fast, multi-group
+  human-confirmation pattern on a single AI-discovered result (axis 1, combinatorics/discrepancy
+  theory; axis 5 AI-assisted-math watch). HEAVY CAVEATS (hype-skepticism + AI-watch rules):
+  unrefereed preprints throughout; the ORIGINAL proof is AI-discovered → PROVISIONAL until
+  independent vetting. Track the mathematical RESULT (two named conjectures), NOT the AI method
+  (the sibling AI radars' beat) — noted here only because the human re-derivations are themselves
+  primary mathematical contributions.
+- evidence:
+  - 2026-09-10 — https://arxiv.org/abs/2609.11189 — Guo, Fang, Lu, "Vector Balancing via
+    Directional Total Variation": proves a $3\sqrt{2\pi}$ bound for the Komlós signing problem
+    (dimension/family-size independent) and the square-root Beck-Fiala dependence via a
+    Banaszczyk-transform + directional-total-variation argument; abstract states "the proof was
+    discovered by the Odin Automatic AI Research Agent." Abstract + authors + AI-discovery
+    statement verified via direct arXiv page this session (arXiv API itself 406-erroring this
+    session, worked around via `arxiv.org/abs/<id>` + RSS).
+  - 2026-09-17 (v2 2026-09-22) — https://arxiv.org/abs/2609.20979 — Karingula, Lovett, "An
+    elementary proof of the Komlós conjecture": simplifies the Guo-Fang-Lu proof to an elementary
+    combinatorial/probabilistic argument, $\|\cdot\|_\infty\le 36$. Abstract + authors verified via
+    direct arXiv page this session.
+  - 2026-09-23 — https://arxiv.org/abs/2609.27172 — Akbas, Sra, "An exposition of the proof of the
+    Komlós conjecture": independent short exposition via a "quadratic Dirichlet energy" argument,
+    further tightening the constant to $C_0\approx7.515$ using log-concavity. Abstract + authors
+    verified via direct arXiv page this session.
+- notes: 2026-09-24 (daily, SEED): today's math.CO/FA fresh-batch triage surfaced the two follow-up
+  papers (elementary proof + exposition), both explicitly crediting an underlying "recent proof of
+  Guo, Fang, and Lu" without giving its arXiv id; `arxiv.org/search` + WebSearch located and opened
+  the original (2609.11189, 2026-09-10, previously uncaptured — a 2-week-old miss, likely because
+  its title ("Vector Balancing via Directional Total Variation") doesn't surface on a
+  Komlós/discrepancy keyword title-scan). Three independent author groups + three concrete arXiv
+  artifacts on one sub-theme within two weeks clears the domain's convergence bar; set to `seed`
+  rather than `emerging` given the founding artifact is AI-discovered and wholly unrefereed —
+  watch for a fourth group, a referee outcome, or a gap found in the underlying proof.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -3470,6 +3509,60 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   $p=2g+1$ prime). Abstract + author verified via arXiv API this session. Below-bar (a complete
   classification result, but specialist Teichmüller-dynamics audience, not a named open-conjecture
   resolution) — queued.
+- 2026-09-22 (v1) — [A separably representable counterexample to Naimark's problem in ZFC (Ryotaro Tanaka)](https://arxiv.org/abs/2609.26930)
+  — operator algebras / set theory (axis 1, math.OA/LO): constructs, unconditionally in ZFC, a
+  unital simple infinite-dimensional C*-algebra with a single unitary-equivalence class of nonzero
+  irreducible representations that nonetheless admits a faithful representation on a *separable*
+  Hilbert space — distinct from Akemann-Weaver's 2004 counterexample, which required an extra
+  set-theoretic axiom (◊). Domain-cadence landmark candidate (Naimark's problem is a ~70-year-old
+  named problem on the classification side of C*-algebra theory); single-author, unrefereed,
+  genuinely subtle set-theory/operator-algebra territory — track vetting closely before treating as
+  resolved. Abstract + author verified via direct arXiv page this session (arXiv API 406-erroring,
+  see today's source_rotation note).
+- 2026-09-24 (v1 2026-09-13) — [Nagata's conjecture on a polynomial automorphism in positive characteristic (Shigeru Kuroda)](https://arxiv.org/abs/2609.14611)
+  — algebra (axis 1, math.AC/RA): proves Nagata's 1972 automorphism conjecture (a specific
+  automorphism of $k[x_1,x_2,x_3]$ is wild) in positive characteristic, completing the case left
+  open after Shestakov-Umirbaev's 2003 characteristic-0 proof — closes out a named 54-year-old
+  conjecture in every characteristic. Single-author, unrefereed preprint; abstract + author verified
+  via direct arXiv page this session.
+- 2026-09-24 (v1 2026-09-23) — [Chvátal's conjecture: a proof from The Book (Ellis, Filmus, Friedgut)](https://arxiv.org/abs/2609.28404)
+  — a second, independent, short spectral proof of Chvátal's conjecture (already resolved on this
+  ledger's `study_shelf` by Chang-Liu-Liu, 2026-09-17, via Kleitman's/Kahn's conjectures), plus a
+  strengthening; the pair now gives the field two independent routes to the same 1972 conjecture
+  within a week. Abstract + authors verified via direct arXiv page this session.
+- 2026-09-24 (v1 2026-09-23) — [Counterexamples to the Reiner-Shimozono conjecture and the failure of Schubert filtrations (Reuven Hodges)](https://arxiv.org/abs/2609.28169)
+  — algebraic combinatorics (axis 1, math.CO/RT): disproves the Reiner-Shimozono conjecture that
+  products of key polynomials expand nonnegatively in Demazure atoms, with an explicit infinite
+  counterexample family. Single-author, unrefereed; specialist Schubert-calculus audience — queued.
+  Abstract + author verified via direct arXiv page this session.
+- 2026-09-24 (v1 2026-09-23) — [A counterexample to Fuchs's conjecture (Eremenko, Zhang)](https://arxiv.org/abs/2609.28443)
+  — complex analysis (axis 1, math.CV): for every order $\rho\in(0,1/2)$, constructs an entire
+  function whose logarithmic derivative has zero as a deficient value, disproving W.H.J. Fuchs's
+  old conjecture. Abstract + authors verified via direct arXiv page this session.
+- 2026-09-24 (v1 2026-09-23) — [A Spectral Proof of Khachiyan's Ellipsoid Conjecture (Zhou, Zou, Liu)](https://arxiv.org/abs/2609.28447)
+  — convex geometry (axis 1, math.MG/OC): proves a sharp, dimension-uniform bound on the volume of
+  a maximum-volume inscribed ellipsoid cut by a halfspace through its center. Abstract + authors
+  verified via direct arXiv page this session.
+- 2026-09-24 (v1 2026-09-10) — [The Tate conjecture for powers of abelian fourfolds and the Hodge conjecture for powers of CM fourfolds (Ningyi Li)](https://arxiv.org/abs/2609.27916)
+  — arithmetic/algebraic geometry (axis 1, math.AG/NT): proves the Tate conjecture in every
+  codimension for powers of low-dimensional (≤4) abelian varieties over finite fields, and the Hodge
+  conjecture for powers of complex CM abelian fourfolds — meaningful incremental progress on two
+  Millennium-adjacent named conjectures (Hodge is a Clay Millennium Problem), restricted to a
+  special case, not a general resolution. Abstract + author verified via direct arXiv page this
+  session.
+- 2026-09-24 (v1 2026-09-23) — [A Proof of Shor's Orthogonal-Measurement Conjecture and the Structure of Information-Optimal Quantum Measurements (Wang, Wang, Chen)](https://arxiv.org/abs/2609.27992)
+  — quantum information theory / foundations (axis 4, quant-ph): introduces the "posterior algebra"
+  framework and proves Peter Shor's finite-dimensional binary orthogonal-measurement conjecture on
+  optimal information extraction from quantum ensembles. Domain-cadence landmark candidate (named
+  conjecture of a leading quantum-information theorist); unrefereed preprint. Abstract + authors
+  verified via direct arXiv page this session.
+- 2026-09-24 (v1 2026-09-23) — [JWST evidence for a sharp "Cosmic Daybreak" at z = 15 (Zhang, Broadhurst, Chiueh et al.)](https://arxiv.org/abs/2609.28257)
+  — cosmology (axis 3, astro-ph.CO): claims JWST spectroscopy shows measured stellar ages of
+  high-redshift galaxies converging to zero at z=15 — a sharp transition rather than a gradual
+  Cosmic Dawn — framed by the authors as confirming a prediction of Wave/Fuzzy Dark Matter ($\psi$DM).
+  HEAVY CAVEATS (hype-skepticism rule): single-group, unrefereed, an extraordinary claim tied to a
+  non-standard dark-matter model — provisional pending independent analysis of the same JWST data.
+  Abstract + authors verified via direct arXiv page this session.
 
 ## source_rotation
 
@@ -3487,6 +3580,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2025-10-23 (v1; capture-leak catch via a 2026-09-18 Quanta piece, shelf-added 2026-09-24) — [A proof of the Kim-Vu sandwich conjecture (Behague, Iľkovič, Montgomery)](https://arxiv.org/abs/2510.20765)
+  — proves in full generality (all $d=\omega(\log n)$) the 2004 Kim-Vu sandwich conjecture, that a
+  random $d$-regular graph can be coupled between two random binomial graphs of asymptotically equal
+  edge probability; extends Gao-Isaev-McKay's 2020 partial result. A landmark ~20-year-old
+  random-graph-theory conjecture, missed for ~11 months until Quanta's coverage.
+- 2026-09-22 (v1; shelf-added 2026-09-24) — [A separably representable counterexample to Naimark's problem in ZFC (Ryotaro Tanaka)](https://arxiv.org/abs/2609.26930)
+  — an unconditional (ZFC, no extra set-theoretic axiom) counterexample to Naimark's ~70-year-old
+  problem on C*-algebras with a unique irreducible representation, going beyond Akemann-Weaver's
+  2004 ◊-dependent example; single-author, unrefereed — see `observation_queue` for the full caveat.
 - 2026-09-21 (guest post; shelf-added 2026-09-22) — [Announcing the Advisory Group on Mathematics and Artificial Intelligence](https://agmai.org)
   — nine senior mathematicians (Charles, De Lellis, Gowers, Hairer, Srivastava, Tillmann, Vakil,
   Witten, Wood), hosted at IAS, formed to advise OpenAI on releasing the 100+ open-problem claims its

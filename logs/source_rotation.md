@@ -2133,3 +2133,84 @@ off-axis, routine, or already present on the ledger). study_shelf: 0 new picks. 
 ids checked this session (mechanical sweep against reports/2026-09-18,21,22) / 0 queued (all 24
 confirmed already present in the observation_queue/evidence/study_shelf block — 0 leaked).
 README.md regenerated (Last-updated bump only — no content changes) in the same commit.
+
+2026-09-24 (daily) — FULL CHECK. Load-state: `git fetch --unshallow` run first (prior sessions
+only had a shallow clone, making `claude/modest-bohr-9415kc` look like an unrelated-root orphan —
+confirmed with full history that it and `claude/peaceful-faraday-n2ehd0` are both fully contained
+in `origin/main`, 0 commits ahead; no actionable orphaned state, false alarm resolved). Tooling:
+`tvly` reinstalled cleanly but `tvly search` still returns the same account-level "exceeds your
+plan's set usage limit" error as 09-23 — 2nd consecutive daily, flagged for the next weekly as a
+standing capability constraint. `export.arxiv.org/api/query` newly 406-erroring this session on
+every query tried (plain, URL-encoded, custom Accept header, HTTP/1.1, browser UA) — a fresh
+degradation distinct from the tvly quota issue; WORKED AROUND via `rss.arxiv.org/rss/<cat>` for
+discovery + direct `arxiv.org/abs/<id>` page fetches (title/authors/abstract/date all present in
+the HTML) for verification — full coverage still achieved, logged for recurrence-watch (heal-owed
+if it persists a 2nd daily). Primary sweep (radar-source-sweep): full in-scope math category set
+(CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/GR/MG, 22 RSS feeds) — the prior
+2026-09-23 zero-yield window ended right at this run's start (fresh batch pubDate 2026-09-24
+00:00 EDT / 04:00Z), giving a single rich overnight batch: 586 unique fresh math entries triaged
+by title, ~19 abstracts opened via direct `arxiv.org/abs/<id>` pages. CAPTURED: a new seed trend
+(Komlós/Beck-Fiala discrepancy conjectures, AI-discovered by "Odin," 3 independent arXiv artifacts
+located and opened — the two 09-24 follow-ups plus the original 2609.11189 found via
+`arxiv.org/search` + WebSearch after the follow-ups cited it without an id); Naimark's problem ZFC
+counterexample (2609.26930, operator algebras/logic); Nagata's conjecture positive-characteristic
+case (2609.14611); a second independent proof of Chvátal's conjecture (2609.28404); Reiner-
+Shimozono counterexample (2609.28169); Fuchs's-conjecture counterexample (2609.28443); Khachiyan's
+Ellipsoid Conjecture proof (2609.28447); Tate/Hodge-conjecture progress on CM fourfolds
+(2609.27916). Physics category set (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/
+supr-con/astro-ph.CO/HE, 10 RSS feeds, 446 unique entries) triaged by title: CAPTURED a proof of
+Shor's orthogonal-measurement conjecture (2609.27992, quant-ph) and a provisional JWST "Cosmic
+Daybreak" z=15 claim tied to Wave Dark Matter (2609.28257, astro-ph.CO, heavy caveat). APS (PRL/
+PRX/RMP RSS, RDF format — titles extracted directly, not via `<item>` count), Quantum journal RSS,
+CERN Courier RSS, Fermilab RSS, Simons Foundation RSS, CERN `/feed/`, IceCube category-feed all
+opened via plain `curl` — routine, no on-axis novelty (Simons Foundation's own newest item is
+arXiv's own multiyear-funding announcement — infra news, not a research result, not queued).
+LIGO (`WebFetch` on `/news`, curl 403s as it has since 09-18) and DESI (`WebFetch`) both opened —
+unchanged since last-known state (LIGO still GWTC-5.0 newest; DESI still 07-30 Lyman-alpha DR2).
+SciPost: still Anubis-blocked on API/article pages; sitemap-existence workaround (plain `curl`,
+no Anubis) shows SciPostPhys.21.3 advanced .073→ still .073 (no change since 09-23) and
+SciPostPhysCore.9.3 advanced .055→.058 (3 new); titles inaccessible by any method this session —
+6th+ consecutive daily, no new heal attempted (tvly unavailable to try the search-title
+workaround). Nature Physics + Nature Communications RSS: both opened (8+8 items) but the prior
+curl-UA article-page workaround (`citation_title` meta tag) NEWLY FAILED this session — every
+article URL now 303-redirects to `idp.nature.com/authorize` even for plain `curl` and `WebFetch`
+(confirmed both), a genuine further degradation of an already-partial heal (2 consecutive-ish
+failure modes on this source now: empty RSS titles AND a now-blocked article-page workaround) —
+heal-owed next session if it persists. INSPIRE-HEP API queried (mostrecent sort) — noisy/low-
+signal again (routine solid-state/QKD-simulator/plasma-instability titles), no on-axis yield, not
+escalated (arXiv remains primary hep lane). Community pulse: Hacker News (Algolia front-page API)
+opened — top science-adjacent story is arXiv's own multiyear nonprofit-funding announcement
+(infra news, cross-checked against the same Simons Foundation item, not queued as a research
+result); no math/physics research story on the front page today. MathOverflow (`curl -sL`, Atom)
+opened — routine. Reddit r/math direct `curl` re-tested — still 403 (8th+ consecutive week,
+standing hard block, tvly unavailable to try its workaround). Mathstodon public timeline opened —
+generic federated noise, no math content, same low-signal status as before. Quanta, Tao's blog
+(RSS — 3 new posts, 2 AGMAI-adjacent community reaction already-tracked, 1 "Headlines and inside
+stories" guest post on AI/Navier-Stokes commentary, checked via WebFetch, no new primary), Woit/
+Not Even Wrong, Gowers (a post on the Fields-medallists AI letter — already-tracked story), Gil
+Kalai, Azimuth/Baez (routine octonion/E7 expository series), Strassler, Backreaction (empty feed
+response this session — logged, not escalated, single day), n-Category Café (routine expository
+posts, `curl -A "Mozilla/5.0"` direct) all opened. Quanta's "Mathematicians Build Long-Awaited
+Graph Sandwich" (2026-09-18) led to a genuine capture-leak catch: the actual primary (Behague,
+Iľkovič, Montgomery, "A proof of the Kim-Vu sandwich conjecture," arXiv:2510.20765, v1 2025-10-23,
+~11 months old) had never been opened on this ledger — verified directly via `arxiv.org/abs/
+2510.20765` this session, added to `study_shelf`. A Simons-Foundation-linked Oxford Physics press
+item ("Scientists Observe Einstein's Gravity in the Quantum World," 2026-08-28) was checked and
+confirmed to be the SAME already-tracked Dobkowski et al. quantum-free-fall result (Vedral/
+Marletto/Penrose match) — correctly NOT re-queued as a new item. AI-watch lane: agmai.org
+re-opened (`WebFetch`) — unchanged since launch, still no published recommendation. Repo/release
+watch: `github.com/<repo>/releases.atom` still session-proxy-scoped (403 to direct `curl`);
+`WebFetch` on the plain `.atom` URL worked for all three watched repos — lean4 unchanged
+(v4.35.0-rc2), Rocq unchanged (9.3.0, 09-19), mathlib4 continuing its daily `master-*` auto-tag
+(now through master-2026-09-23) — routine, nothing queued. Exploration slot (radar-explore,
+OFF-AXIS rotation per 09-23's "Next" note): nlin.CD — only 5 fresh entries, all routine physics-
+adjacent numerics, zero significant off-axis yield, logged. Self-healing: no repeat-failure source
+had a viable new heal avenue this session beyond the workarounds already applied above (SciPost
+Anubis block persists; Nature Physics/Communications workaround newly broken — flagged, not yet
+2-consecutive so not escalated to a dedicated heal pass). Queue: +8 lines (Naimark, Nagata,
+Chvátal 2nd proof, Reiner-Shimozono, Fuchs, Khachiyan Ellipsoid, Tate/Hodge CM fourfolds, JWST
+Cosmic Daybreak). New seed trend: +1 (Komlós/Beck-Fiala). study_shelf: +2 (Kim-Vu sandwich
+conjecture capture-leak catch; Naimark's problem ZFC counterexample). capture-leak: 15 ids checked
+this session (mechanical sweep against reports/2026-09-21,22,23) / 0 queued (all 15 confirmed
+already present in the observation_queue/evidence/study_shelf block — 0 leaked). README.md
+regenerated in the same commit.
