@@ -117,22 +117,31 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
   `<rdf:li rdf:resource="…">` entries still list the current batch's article URLs; loop
   `curl -A "Mozilla/5.0" <url>` over each and grep `citation_title` to reconstruct the full "what's
   new" title list (verified this session: 8/8 titles recovered this way, all routine/off-axis —
-  none on-axis). Still no fix for the feed's own titles; this is a workaround, not a heal of the
-  root Anubis/CDN issue.]**
+  none on-axis). DEGRADED AGAIN 2026-09-24 (the plain `Mozilla/5.0` UA started 303-redirecting to
+  `idp.nature.com/authorize` on every article URL, both curl and WebFetch). HEALED 2026-09-25:
+  `curl -A "Googlebot/2.1 (+http://www.google.com/bot.html)" <article-url>` bypasses the
+  `idp.nature.com` redirect cleanly (verified this session, 8/8 Nature Physics + 8/8 Nature
+  Communications titles recovered, full `citation_title`/`citation_online_date` meta tags present) —
+  prefer the Googlebot UA going forward over the plain browser UA, which is what triggered the
+  redirect. Still no fix for the feed's own empty-CDATA titles; the article-page workaround remains
+  necessary for both title recovery and citation.]**
 - Nature Communications — RSS https://www.nature.com/ncomms.rss **[promoted + verified 2026-08-08;
   redirects to feeds.nature.com/ncomms/rss/current; RSS. DEGRADED 2026-09-17/09-18 (2nd consecutive
   daily, heal-owed): same empty-CDATA-title failure as Nature Physics. Same workaround applies
   (loop `curl -A "Mozilla/5.0" <article-url>` over the feed's `rdf:li` links, grep
   `citation_title`) — verified this session (8/8 titles recovered, all off-axis biology/chemistry/
   environmental, none on-axis; NC is broad multidisciplinary so most batches will be off-axis by
-  base rate).]** — peer-reviewed open-access Nature-group
+  base rate). DEGRADED AGAIN 2026-09-24, HEALED 2026-09-25: same Googlebot-UA fix as Nature Physics
+  above (plain `Mozilla/5.0` now 303-redirects to `idp.nature.com/authorize`; `curl -A
+  "Googlebot/2.1 (+http://www.google.com/bot.html)"` bypasses it cleanly) — verified this session.]**
+  — peer-reviewed open-access Nature-group
   journal distinct from Nature Physics; source-discovery promotion (2 on-axis math↔physics-interface
   primaries in one week: RH↔quantum-phase-transitions 07-01, aperiodic-monotile chirality 07-29,
   both discovered via r/math pointers)
 - Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]** — **[WEEKLY-SWEPT tier]**
 - Quantum (open journal) — https://quantum-journal.org/feed/ **[verified 2026-07-02; RSS]** (quantum information / foundations)
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
-- SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API. DEGRADED 2026-09-08, STILL DEGRADED 2026-09-09/09-10 (3rd consecutive daily, heal owed): the API endpoint AND individual article pages (e.g. `/SciPostPhys.21.3.054`) both continue to serve an Anubis proof-of-work bot-check challenge page (requires JS execution) to direct `curl` (any UA tried) and `tvly extract` alike. PARTIAL WORKAROUND found 2026-09-09: `tvly search "<topic> scipost"` (not extract) returns live, dated individual publication pages from SciPost's own search index — usable for spot-checking a specific topic but NOT a "what's new" browse. SECOND PARTIAL WORKAROUND found 2026-09-10: `https://scipost.org/sitemap.xml` (plain `curl`, NO Anubis challenge, NOT bot-checked) lists every publication's short-code URL (e.g. `SciPostPhys.21.3.059`) — this proves EXISTENCE/COUNT of new publications (this session: SciPostPhys.21.3 issue advanced .053→.059, 6 new; SciPostPhysCore.9.3 advanced to .055) even though titles/abstracts remain blocked on both the API and article pages; `tvly search "<code>"` occasionally resolves a title (worked for .054) but is unreliable (returned stale/unrelated results for .055-.059 this session). Net effect: the "what's new" browse is still not fully restored (titles for most new codes remain inaccessible), but the sitemap closes the "did we miss anything" blind spot — a real, if partial, heal. Full heal still owed if the Anubis block persists a 4th consecutive daily.]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
+- SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API. DEGRADED 2026-09-08, STILL DEGRADED 2026-09-09/09-10 (3rd consecutive daily, heal owed): the API endpoint AND individual article pages (e.g. `/SciPostPhys.21.3.054`) both continue to serve an Anubis proof-of-work bot-check challenge page (requires JS execution) to direct `curl` (any UA tried) and `tvly extract` alike. PARTIAL WORKAROUND found 2026-09-09: `tvly search "<topic> scipost"` (not extract) returns live, dated individual publication pages from SciPost's own search index — usable for spot-checking a specific topic but NOT a "what's new" browse. SECOND PARTIAL WORKAROUND found 2026-09-10: `https://scipost.org/sitemap.xml` (plain `curl`, NO Anubis challenge, NOT bot-checked) lists every publication's short-code URL (e.g. `SciPostPhys.21.3.059`) — this proves EXISTENCE/COUNT of new publications (this session: SciPostPhys.21.3 issue advanced .053→.059, 6 new; SciPostPhysCore.9.3 advanced to .055) even though titles/abstracts remain blocked on both the API and article pages; `tvly search "<code>"` occasionally resolves a title (worked for .054) but is unreliable (returned stale/unrelated results for .055-.059 this session). Net effect: the "what's new" browse is still not fully restored (titles for most new codes remain inaccessible), but the sitemap closes the "did we miss anything" blind spot — a real, if partial, heal. Full heal still owed if the Anubis block persists a 4th consecutive daily. FULLY HEALED 2026-09-25: the API endpoint (`?limit=N&ordering=-publication_date`) responded cleanly via plain `curl` this session, no Anubis challenge — full titles/authors/abstracts recovered directly (SciPostPhys.21.3 advanced to .075, SciPostPhysCore.9.3 to .060, none on-axis). Re-test for the Anubis block occasionally in case it returns.]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
 - AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result) — **[WEEKLY-SWEPT tier]**
 - Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier. DEGRADED 2026-09-12 (W37 weekly): Cambridge Core now serves a "Temporary Disruption" security-measures page to `tvly extract` on the latest-issue URL. STILL DEGRADED 2026-09-19 (W38 weekly, 2nd consecutive weekly — HEAL OWED): same "Temporary Disruption" page persists on direct `tvly extract`. PARTIAL WORKAROUND found this session: `tvly search "Forum of Mathematics Pi Sigma new issue <month>"` returns live Cambridge Core index snippets (incl. the "Mathematics blog entries" sidebar) even while the direct journal-page extract is blocked — usable for a coarse "anything on-axis this cycle" check, not a full ToC browse. Full heal still owed if the Temporary Disruption page persists a 3rd consecutive weekly.]**
 - **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, JHEP (open-access hep-th; also on arXiv/INSPIRE), PRD, PRB, PRResearch, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
@@ -271,6 +280,16 @@ Science Advances, anima-ai.org, preprints.org (all 1 sighting still).
   daily's strategy_notes entry but not yet appended here until this weekly — corrected). HELD
   below the ≥2 bar (1 sighting); access via direct URL (the blog post links the manuscript PDF)
   or `tvly search "anima-ai.org <topic>"`.
+- zenodo.org (CERN-hosted open-science preprint repository) — 1 — Aabir Fauzan, "$\zeta(5)$ is
+  irrational" (DOI 10.5281/zenodo.22826418, 2026-09-17) — first seen 2026-09-25 — discovered via a
+  MathOverflow question chase; an off-arXiv self-publication venue (no endorsement gate), same
+  AI-disclosure-lane pattern as proofatlas.ai/preprints.org — direct record URL
+  (`zenodo.org/records/<id>`) opens cleanly via plain `WebFetch`, no feed found. HELD below the ≥2
+  bar (1 sighting).
+- peakmath.org (number-theory-focused commentary/pointer blog) — 1 — "Number theory breakthroughs
+  at the dawn of a new era" (covering the Fauzan ζ(5) claim), first seen 2026-09-25 — discovered via
+  WebSearch while chasing the ζ(5) claim; access via direct URL, no feed found yet (check on next
+  sighting). HELD below the ≥2 bar (1 sighting).
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

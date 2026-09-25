@@ -1,29 +1,32 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-5-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-231-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--24-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-6-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-241-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--25-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-24, daily):**
-- New **seed** trend: the [Komlós / Beck-Fiala discrepancy conjectures](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) resolved by an AI research agent ("Odin"), with two independent human re-derivations already following up within two weeks — [original proof](https://arxiv.org/abs/2609.11189), [elementary re-proof](https://arxiv.org/abs/2609.20979).
-- Two new study picks: a ~20-year-old capture-leak catch, the [Kim-Vu sandwich conjecture](https://arxiv.org/abs/2510.20765), fully resolved; and an unconditional ZFC counterexample to [Naimark's problem](https://arxiv.org/abs/2609.26930) in operator algebras.
-- 8 new watchlist items from a rich overnight arXiv batch, incl. a positive-characteristic resolution of [Nagata's conjecture](https://arxiv.org/abs/2609.14611), a second independent proof of [Chvátal's conjecture](https://arxiv.org/abs/2609.28404), and a proof of [Shor's orthogonal-measurement conjecture](https://arxiv.org/abs/2609.27992).
-- The other four trends **HELD** — see [today's report](reports/2026-09-24.md) for the full sweep (`export.arxiv.org`'s API 406-erroring this session, worked around via RSS + direct abstract pages).
+**Since last scan (2026-09-25, daily):**
+- New **seed** trend: [Bogachev's proof of Sarnak's positive trace gap conjecture](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices), an 18-year-old named open problem in hyperbolic lattices resolved by a credible single-author specialist — [paper](https://arxiv.org/abs/2609.29033).
+- Highest-attention **provisional** watchlist item: a claimed proof that [$\zeta(5)$ is irrational](https://zenodo.org/records/22826418) (Aabir Fauzan) — the first individual-odd-zeta irrationality claim since Apéry 1978, but off-arXiv, AI-vetted only (not peer-reviewed), with an incomplete community Lean formalization — track, do not trust yet.
+- New study pick: the first direct experimental test of [Feynman's path-integral postulates](https://pmc.ncbi.nlm.nih.gov/articles/PMC13510607/) with single photons (Science Advances), an ~1-month-old capture-leak catch via a Sabine Hossenfelder pointer.
+- Other watchlist catches: a disproof of the [Davenport Constant](https://arxiv.org/abs/2609.29878) upper-bound conjecture, a disproof of [Yang's Conjecture](https://arxiv.org/abs/2609.29898) on tempered-xi-function zeros, and a heavily-caveated (crank-risk) claimed proof of the [4D sphere-packing / twenty-four-cell conjecture](https://arxiv.org/abs/2609.25120).
 
 ## Trends
 
-🌱 2 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 3 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11895) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-08-22](https://arxiv.org/abs/2608.21769) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-08-31](https://arxiv.org/abs/2608.30336) |
+| [Positive trace gap conjecture resolved](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.29033) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 🌱 seed | [2026-09-23](https://arxiv.org/abs/2609.27172) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 🌱 seed | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- 2026-09-25 (v1; shelf-added 2026-09-25) — [Proof of the positive trace gap conjecture (Nikolay Bogachev)](https://arxiv.org/abs/2609.29033) — resolves Sarnak's ~18-year-old positive trace gap conjecture for cocompact Fuchsian/Kleinian lattices via a quaternion-algebra characterization, also extended to lattices in $SL_d(\mathbb R)$, $d\ge3$. Credible single-author landmark; unrefereed-preprint caution stands. Also a new seed trend, above.
+- 2026-08-26 (Science Advances, published; shelf-added 2026-09-25) — [Direct experimental test of Feynman's path integral postulates with single photons (Wen, Zhu et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13510607/) — first direct experimental verification of Feynman's 1948 path-integral postulates, reconstructing amplitudes for >1.4M single-photon paths; peer-reviewed, but note Sabine Hossenfelder's skeptical read of the press framing vs. the measured precision (17.4% MAPE on postulate II) — see the watchlist for the full caveat.
 - 2025-10-23 (v1; capture-leak catch via a 2026-09-18 Quanta piece, shelf-added 2026-09-24) — [A proof of the Kim-Vu sandwich conjecture (Behague, Iľkovič, Montgomery)](https://arxiv.org/abs/2510.20765) — proves in full generality (all $d=\omega(\log n)$) the 2004 Kim-Vu sandwich conjecture, that a random $d$-regular graph can be coupled between two random binomial graphs of asymptotically equal edge probability; extends Gao-Isaev-McKay's 2020 partial result. A landmark ~20-year-old random-graph-theory conjecture, missed for ~11 months until Quanta's coverage.
 - 2026-09-22 (v1; shelf-added 2026-09-24) — [A separably representable counterexample to Naimark's problem in ZFC (Ryotaro Tanaka)](https://arxiv.org/abs/2609.26930) — an unconditional (ZFC, no extra set-theoretic axiom) counterexample to Naimark's ~70-year-old problem on C*-algebras with a unique irreducible representation, going beyond Akemann-Weaver's 2004 ◊-dependent example; single-author, unrefereed — see `observation_queue` for the full caveat.
 - 2026-09-21 (guest post; shelf-added 2026-09-22) — [Announcing the Advisory Group on Mathematics and Artificial Intelligence](https://agmai.org) — nine senior mathematicians (Charles, De Lellis, Gowers, Hairer, Srivastava, Tillmann, Vakil, Witten, Wood), hosted at IAS, formed to advise OpenAI on releasing the 100+ open-problem claims its internal model reportedly resolved — a field-shaping governance response every frontier researcher in this ledger's scope should know about; see `observation_queue` for the underlying (still unverified) claim.
@@ -127,12 +130,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Hacker News](https://news.ycombinator.com/) front page led with arXiv's own multiyear philanthropic-funding announcement (infra news, cross-checked against the Simons Foundation feed) — no math/physics research story on the front page today.
-- [Terence Tao's blog](https://terrytao.wordpress.com/) posted a further AGMAI-adjacent guest post plus commentary on the OpenAI Navier-Stokes claim's physical (non-)relevance — community reaction, no new primary result.
-- [Gowers's blog](https://gowers.wordpress.com/) commented on the Fields-medallists' AI-misalignment letter (already tracked); [MathOverflow](https://mathoverflow.net/) and [Gil Kalai's blog](https://gilkalai.wordpress.com/) both routine.
-- [r/math / r/mathematics](https://www.reddit.com/r/math/) remain under a standing hard network-level block (re-confirmed this session, 8+ weeks running).
-- [Mathstodon](https://mathstodon.xyz/) public timeline carried only generic federated noise — no on-scope research signal.
+- [Hacker News](https://news.ycombinator.com/) front page carried no math/physics research story today (generic tech/misc day).
+- [MathOverflow](https://mathoverflow.net/) hosted the live discussion that pointed to the ζ(5)-irrationality claim (see watchlist); routine research-level Q&A otherwise.
+- [Terence Tao's blog](https://terrytao.wordpress.com/) posted further AGMAI-adjacent commentary; [Sabine Hossenfelder's Backreaction](https://backreaction.blogspot.com/) offered a skeptical read of the Feynman path-integral experiment (see study shelf).
+- [Gowers's blog](https://gowers.wordpress.com/) and [Gil Kalai's blog](https://gilkalai.wordpress.com/) both unchanged since their last-tracked posts; routine.
+- [r/math](https://www.reddit.com/r/math/) remains under a standing hard network-level block (re-confirmed this session, 9+ weeks running); [Mathstodon](https://mathstodon.xyz/) carried only generic federated noise.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (231) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-24](reports/2026-09-24.md)) · Weekly: [2026-W38](reports/weekly/2026-W38.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (241) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-25](reports/2026-09-25.md)) · Weekly: [2026-W38](reports/weekly/2026-W38.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

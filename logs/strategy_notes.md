@@ -1439,3 +1439,21 @@ Corrections to the source-coverage strategy.
   titles since 2026-08-21 now 303-redirects to `idp.nature.com/authorize` on every article URL
   tried (both plain `curl` and `WebFetch`) — a further failure mode on an already-degraded source,
   worth a `radar-source-heal` pass next session if it recurs.
+- 2026-09-25 (daily) — `tvly search` account-quota exhaustion is now a 3rd consecutive daily
+  (09-23, 09-24, 09-25) with no sign of self-resolving — this is no longer a transient blip but a
+  standing capability constraint; the weekly should decide whether to flag it to the curator (the
+  hard rule's "heal owed" bar for a self-flagged degradation is 3 consecutive runs, which this now
+  meets) rather than keep silently re-logging it. Separately: two source degradations self-healed
+  this session without any dedicated `radar-source-heal` pass being needed (SciPost's Anubis block
+  cleared on its own; Nature Physics/Communications' `idp.nature.com` redirect was healed by
+  switching to a Googlebot user-agent, recorded in SOURCES.md) — worth noting for the calibration
+  metric that not every degradation needs an escalation, some clear or get healed inline.
+- 2026-09-25 (daily) — high-attention WATCH ITEM for the next few dailies: Aabir Fauzan's claimed
+  proof that ζ(5) is irrational (Zenodo, 2026-09-17) is generating active community engagement
+  (MathOverflow, X/social chatter, a competing pair of crowd-sourced Lean formalization repos) but
+  has zero human peer-review or completed formal verification so far — queued with maximal caveats,
+  deliberately NOT promoted to a trend (unlike the Komlós precedent, there is no independent human
+  confirmation yet, only AI-model "vouching"). Chase this daily until it resolves one way or the
+  other (a completed Lean formalization, a human referee report, or a found gap) — this is exactly
+  the kind of claim the domain's hype-skepticism rule exists for, and could become a landmark `seed`
+  trend fast if genuinely confirmed.

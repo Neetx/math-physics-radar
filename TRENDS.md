@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-24
+Last updated: 2026-09-25
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -974,8 +974,112 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   rather than `emerging` given the founding artifact is AI-discovered and wholly unrefereed —
   watch for a fourth group, a referee outcome, or a gap found in the underlying proof.
 
+### Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)
+- stage: seed | confidence: medium | first_seen: 2026-09-25 | last_evidence: 2026-09-25
+- what: a single-author resolution of the ~18-year-old positive trace gap conjecture, attributed to
+  Sarnak by Geninska and Leuzinger (2008), for lattices in PSL_2(R)/PSL_2(C) — a named, long-standing
+  open problem in the geometry of discrete groups (domain-cadence landmark single result, axis 1,
+  hyperbolic geometry/number theory). Author is an established specialist in this exact sub-field
+  (arithmetic/quasi-arithmetic hyperbolic lattices, PhD HSE under Ernest Vinberg, now UofT Scarborough
+  faculty) — credible, not a hype/crank pattern, but still an unrefereed preprint.
+- evidence:
+  - 2026-09-25 — https://arxiv.org/abs/2609.29033 — Bogachev, "Proof of the positive trace gap
+    conjecture": proves a lattice in PSL_2(R) or PSL_2(C) has positive trace gap iff it is derived
+    from an admissible quaternion algebra, resolving the conjecture for cocompact Fuchsian groups;
+    extends to a similar characterization for lattices in SL_d(R), d≥3. Abstract + author verified
+    via direct arXiv page this session (v1 2026-09-25, cross-listed math.DS/GR/GT/NT).
+- notes: 2026-09-25 (daily, SEED): caught in today's full in-scope math category-rotation sweep
+  (cross-listed in four categories, which flagged it for a closer look). Single credible-author
+  landmark resolution of a named 2008 conjecture — clears the domain-cadence adaptation bar on its
+  own. Confidence held medium (unrefereed-preprint caution; no independent confirmation yet) — watch
+  for a referee outcome or a second group engaging with the quaternion-algebra characterization. Also
+  on `study_shelf`.
+
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-09-17 (Zenodo, Aalto University; discovered via a MathOverflow question + WebSearch chase this
+  session, accessed 2026-09-25) — Aabir Fauzan, "$\zeta(5)$ is irrational," Zenodo DOI
+  10.5281/zenodo.22826418 — https://zenodo.org/records/22826418 — number theory (axis 1): a claimed
+  proof that $\zeta(5)$ is irrational, via integer polynomials $Q_n$ of degree $37n$ with
+  $0<Q_n(\zeta(5))<\exp(-139n^2/5)$ (Hankel determinants + moment representations + log-energy
+  estimates), giving $|\zeta(5)-a/b|>b^{-260}$ for large $b$ — if correct, the first individual-odd-
+  zeta-value irrationality result since Apéry's 1978 proof for $\zeta(3)$. EXTREME CAVEATS (hard
+  hype-skepticism rule): off-arXiv (no arXiv endorsement), author has no prior publication history,
+  "verification" so far is AI-model review only (reported "Astra"/GPT-6 Pro vouching on social media,
+  not human peer review), and a community-driven Lean formalization effort (two competing GitHub
+  repos, `long-mathematics/zeta5-irrationality` and `danromik/zeta5-irrationality`) is IN PROGRESS,
+  not complete. Zenodo record opened directly this session (title/author/date/abstract verified);
+  MathOverflow question (mathoverflow.net/questions/515519) and peakmath.org commentary piece also
+  opened, both confirming no peer-review/formal-verification outcome yet and no named-mathematician
+  endorsement of correctness. PROVISIONAL — track the vetting outcome (Lean formalization completion
+  or a human referee/gap report), do NOT treat as resolved. NEW SOURCE-DISCOVERY CANDIDATES: zenodo.org
+  (off-arXiv self-publication venue, same AI-disclosure-lane pattern as proofatlas.ai/preprints.org)
+  and peakmath.org (a number-theory-focused commentary/pointer blog) — staged in SOURCES.md.
+- 2026-09-20 (v2 2026-09-24; discovered via today's full in-scope math category-rotation sweep) —
+  Deep Bhattacharjee, Ushashi Bhattacharya, Priyabrata Mandal, Shounak Bhattacharya, "The Sphere
+  Packing Problem in Dimension 4 and the Twenty-Four-Cell Conjecture," arXiv:2609.25120 —
+  https://arxiv.org/abs/2609.25120 — geometry/number theory (axis 1): claims every Voronoi cell of a
+  unit-ball packing of $\mathbb R^4$ has volume ≥8 (equality only at $D_4$), resolving the
+  twenty-four-cell conjecture and bounding the 4D sphere-packing density at $\pi^2/16$ — if genuine, a
+  landmark on par with Viazovska's 8D/24D proofs. HEAVY CRANK-RISK CAVEAT: lead author (Deep
+  Bhattacharjee) has a documented, extensive pattern of simultaneous self-published claimed
+  resolutions of multiple unrelated Millennium-tier problems (RH, Hodge conjecture, P vs NP, per a
+  2026 PhilArchive "Consolidated Closure Dossier" found via WebSearch this session) — a classic
+  crank-authorship signature. Abstract verified via direct arXiv page this session. PROVISIONAL,
+  filed with maximal skepticism — do NOT promote absent independent verification from a specialist
+  outside this author group.
+- 2026-08-26 (Science Advances, published; discovered via a Sabine Hossenfelder/Backreaction blog
+  pointer this session, accessed 2026-09-25) — Wen, Tian, Wang, Zhang, Li, Wang, Yan, Zhu (South China
+  Normal University), "Direct experimental test of Feynman's path integral postulates with single
+  photons," Science Advances 12(35):eaeh1011, DOI 10.1126/sciadv.aeh1011 —
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC13510607/ — quantum foundations (axis 4, peer-reviewed,
+  received 2026-03-10, accepted 2026-07-10, published 2026-08-26): first direct experimental test of
+  Feynman's two 1948 path-integral postulates, reconstructing probability amplitudes for >1.4 million
+  single-photon paths (98.5% propagator fidelity; 4.45% MAPE for postulate I, 17.4% for postulate II).
+  Domain-cadence landmark first-of-kind experimental test. Full text opened via PMC this session
+  (curl/WebFetch both 403 on science.org directly). CAVEAT: Hossenfelder's 2026-09-24 Backreaction
+  post (opened this session) is skeptical of the "proof of physical reality" press framing relative to
+  what was actually measured — track for a more detailed critique/rebuttal. Also on `study_shelf`.
+- 2026-09-25 — arXiv:2609.29878 — Guoqing Wang, "Disproof of a Conjectured Upper Bound for the
+  Davenport Constant" — https://arxiv.org/abs/2609.29878 — additive combinatorics (axis 1, math.CO/
+  NT): disproves the general upper-bound conjecture $D(G)\le D^*(G)+r(G)-1$ for the Davenport constant
+  of finite abelian groups (Conjecture 3.7 of Girard-Grynkiewicz 2006). Abstract verified via direct
+  arXiv page this session (v1 2026-09-25).
+- 2026-09-25 — arXiv:2609.29898 — Aiken Kazin, Shirali Kadyrov, "Infinitely Many Off-Critical-Line
+  Zeros of the Tempered Xi Function: A Disproof of Yang's Conjecture" —
+  https://arxiv.org/abs/2609.29898 — analytic number theory (axis 1, math.CV/NT): disproves Yang's
+  conjecture that all zeros of a "tempered" variant xi function (hyperbolic sine in place of cosine in
+  the classical integral representation) lie on the critical line — a variant construction, NOT the
+  Riemann Hypothesis itself. Abstract verified via direct arXiv page this session (v1 2026-09-25).
+- 2026-09-25 — arXiv:2609.20546 — Tuan Tran, "Fractional expectation thresholds and the 'second'
+  Kahn-Kalai conjecture" — https://arxiv.org/abs/2609.20546 — probabilistic combinatorics (axis 1,
+  math.CO/PR): proves the "second" Kahn-Kalai conjecture (spread measure vs. fractional expectation
+  threshold) for trees and for graphs with average degree ≥ log(max degree) — a distinct, still-open
+  companion to the main Kahn-Kalai conjecture already resolved by Park-Pham (2022). Abstract verified
+  via direct arXiv page this session.
+- 2026-09-25 — arXiv:2609.14832 — Othmane Mazhar, "A constructive solution to Talagrand's Gaussian
+  convexification problem" — https://arxiv.org/abs/2609.14832 — geometric probability (axis 1,
+  math.MG/PR): gives an explicit, constructive polytope solution to a convexification question posed
+  by Talagrand (large convex subset of a Minkowski sum of a large Gaussian set). Abstract verified via
+  direct arXiv page this session (v1 posted 2026-09-17, surfaced in today's sweep).
+- 2026-09-25 — arXiv:2609.28623 — Sauliere, Lami, Lóio, Maldonado, Kumar, Roushan, De Luca, De Nardis,
+  "Observation of Universal Quantum Chaos at Shallow Depths" — https://arxiv.org/abs/2609.28623 —
+  quantum information/foundations (axis 4, quant-ph): theory + experiment (Google superconducting
+  processor) showing universal output-probability-fluctuation statistics emerge already at shallow
+  circuit depth, with distinct universality classes for different lattice topologies. Abstract
+  verified via direct arXiv page this session.
+- 2026-09-24 (Nature Physics, published; Googlebot-UA workaround this session — see Coverage note) —
+  arXiv-less, s41567-026-03397-y — "An information-theoretic proof of the Planckian bound for
+  thermalization" — https://www.nature.com/articles/s41567-026-03397-y — condensed-matter theory
+  (axis 3, math↔physics interface): an information-theoretic derivation of the conjectured Planckian
+  bound (thermalization/scattering time $\gtrsim\hbar/k_BT$) central to strange-metal phenomenology.
+  Title/date verified via Googlebot-UA workaround this session (full text paywalled).
+- 2026-09-25 — arXiv:2609.29852 — Xu, Benitez-Llambay, Zhu, Zhang, Yu, Liu, Ai, Zhou, Liu, "Discovery
+  of an isolated RELHIC Candidate: J1351+0039" — https://arxiv.org/abs/2609.29852 — cosmology/dark
+  matter (axis 3, astro-ph.CO): FAST HI blind survey + DESI Legacy optical imaging identify an
+  isolated dark-galaxy candidate (no optical counterpart), a rare "Reionization-Limited HI Cloud"
+  type object relevant to small-scale dark-matter/galaxy-formation tests. Minor/niche single-object
+  discovery. Abstract verified via direct arXiv page this session.
 
 - 2026-07-22 (CAPTURE-LEAK CATCH, chased via a Hacker-News-front-page pointer this session,
   accessed 2026-08-18) — BESIII Collaboration, "Lightest $0^{-+}$ Glueball as Dominant
@@ -3580,6 +3684,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-25 (v1; shelf-added 2026-09-25) — [Proof of the positive trace gap conjecture (Nikolay Bogachev)](https://arxiv.org/abs/2609.29033)
+  — resolves Sarnak's ~18-year-old positive trace gap conjecture for cocompact Fuchsian/Kleinian
+  lattices via a quaternion-algebra characterization; also new for lattices in $SL_d(\mathbb R)$,
+  $d\ge3$. Credible single-author landmark; unrefereed-preprint caution stands. Also a new `seed`
+  trend.
+- 2026-08-26 (Science Advances, published; shelf-added 2026-09-25) — [Direct experimental test of Feynman's path integral postulates with single photons (Wen, Zhu et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13510607/)
+  — first direct experimental verification of Feynman's 1948 path-integral postulates, reconstructing
+  amplitudes for >1.4M single-photon paths; peer-reviewed, but note Hossenfelder's skeptical read of
+  the press framing vs. the measured precision (17.4% MAPE on postulate II) — see `observation_queue`.
 - 2025-10-23 (v1; capture-leak catch via a 2026-09-18 Quanta piece, shelf-added 2026-09-24) — [A proof of the Kim-Vu sandwich conjecture (Behague, Iľkovič, Montgomery)](https://arxiv.org/abs/2510.20765)
   — proves in full generality (all $d=\omega(\log n)$) the 2004 Kim-Vu sandwich conjecture, that a
   random $d$-regular graph can be coupled between two random binomial graphs of asymptotically equal
