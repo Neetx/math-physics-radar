@@ -1457,3 +1457,48 @@ Corrections to the source-coverage strategy.
   other (a completed Lean formalization, a human referee report, or a found gap) — this is exactly
   the kind of claim the domain's hype-skepticism rule exists for, and could become a landmark `seed`
   trend fast if genuinely confirmed.
+
+- 2026-09-26 — W39 weekly, source-strategy review. Coverage: weekly-swept tier 21/21 logged
+  opened-or-degraded (see source_rotation.md for the full account); Forum of Mathematics HEALED
+  after 2 consecutive degraded weeklies (W37/W38) — plain WebFetch got a clean article list this
+  session, no "Temporary Disruption" page; SLMath returned an empty body (a new, single-instance
+  degradation, not yet heal-owed). Source-discovery: promoted science.org/Science Advances (cleared
+  the ≥2-sighting bar per the 09-08/09-22 sightings) to the Research/publication venues DAILY tier;
+  held below bar (1 sighting each, no recurrence this week): proofsandprompts.com, anima-ai.org,
+  preprints.org, zenodo.org, peakmath.org.
+- Tooling escalation: `tvly search`/`tvly extract` account-quota exhaustion is now a 4th consecutive
+  occurrence (09-23, 09-24, 09-25 dailies, and this W39 weekly) with no sign of self-resolving — this
+  meets AGENTS.md's "heal-owed for ≥3 consecutive runs" bar for a curator push notification (sent
+  this session). This is a billing/plan-tier constraint, not a broken access path — nothing for
+  `radar-source-heal` to repair; WebFetch/WebSearch/direct curl remain full substitutes for every
+  lane exercised across four sessions now, so this has cost verbosity/session length, not coverage.
+  Recommend the curator either upgrade the Tavily plan or accept WebFetch/WebSearch as the standing
+  primary tool (demote `tvly` from "prefer" to "fallback" in AGENTS.md's Tooling section) if the quota
+  constraint persists — flagged as a candidate amendment, not applied this week (needs the curator's
+  input on the underlying account, which this radar cannot change itself).
+- Amendment G (older-paper/citation-chase pass), THIRD application: two chases run this week (the
+  routine calls for one; a second was added given the Stanley-Gasharov dormancy decision needed a
+  fresh check anyway). (1) Ramsey trend anchor (Ma–Shen–Xie, 2507.12926) — 22 citing papers reviewed,
+  found Du–Hu–Liu–Wang's own r₄(6,n) full-conjecture-resolution follow-up (2609.26563, missed 4 days)
+  and an independent-author-list r₄(5,n) improvement whose co-author is already tracked via a
+  different paper (2605.04105, queued not counted as a new group). (2) Stanley-Gasharov's three
+  anchors — found two genuinely new but non-qualifying items (an AI-counterexample survey paper, an
+  unrelated AI-assisted conjecture refutation) and confirmed no 4th independent group exists. Both
+  applications yielded real, if modest, catches — the method continues to earn its keep (3rd
+  consecutive weekly with positive or informative yield: W37 first tried it at 0/1, W38 found 2/34,
+  this week found 2 genuine catches across 2 chases). No amendment change needed; Amendment G stays
+  as applied.
+- Anchoring/off-axis check: this week's five dailies (09-21→09-25) ran the exploration slot 5/5
+  (math.OA, cs.CC, math.NA, nlin.CD, q-bio.PE) but found ZERO significant off-axis yield across all
+  five — the first fully-zero week since tracking began (W38 had 2/5). Per AGENTS.md's domain-cadence
+  adaptation, a single 0/5 week is explicitly NOT an anchoring alarm in a field this narrow; flagged
+  here for awareness and to watch whether it becomes a 2-week pattern (which WOULD warrant redirecting
+  the rotation, per the standing rule).
+- Process gap identified this session (feeds a proposed amendment, see the weekly report): no
+  standing step existed for periodically re-checking an ACTIVE trend's own tracked preprints for
+  silent v2/v3 revisions (as opposed to brand-new arXiv ids). This week's arXiv-API version-history
+  check caught an 11-day-old miss on the Marton trend (Song-Yue's own exponent tightened from 8.873
+  to 5.287 via a same-id v2) that no title-keyword daily scan could have found. Proposed: add a
+  cheap per-trend v-history spot-check (arXiv abs-page `[v2]`/`[v3]` markers on each trend's own
+  tracked preprint ids) to the weekly routine, since it costs one fetch per tracked id and closes a
+  real blind spot distinct from the new-id capture-leak sweep.

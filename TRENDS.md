@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-25
+Last updated: 2026-09-26
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -10,7 +10,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 ## Active trends
 
 ### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
-- stage: accelerating | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-08-22
+- stage: accelerating | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-09-22
 - what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
   decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
   graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
@@ -24,7 +24,22 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-05-27 — https://arxiv.org/abs/2605.28793 — Bradač, "Off-diagonal Ramsey numbers": r(s,k) ≥ Ω(k^{s-1}/(log k)^{2s-4}), matching Erdős–Szekeres up to polylog, improving Spencer 1977 (abstract via arXiv API this session).
   - 2026-08-03 — https://arxiv.org/abs/2608.02537 — Steiner, "Multicolor Ramsey numbers of odd cycles are superexponential": extends a claimed OpenAI-model ("Astra") superexponential k-color triangle Ramsey lower bound (R_k(3)=k^Θ(k), OpenAI's "Ten Advances" announcement, queued below) to multicolor Ramsey numbers of fixed odd cycles, R_k(O_p) ≥ (log^{(p-1)}k)^{k/3-o(k)} for every fixed p (abstract + author via arXiv API this session, v1 2026-08-03).
   - 2026-08-22 — https://arxiv.org/abs/2608.21769 — Ihringer, Mattheus, "An improved algebraic construction for Ramsey numbers": explicit algebraic construction giving R(s,t) ≥ t^{(1-o(1))log s/log(log s+1)} uniformly for 3≤s≤t, improving the s-dependence in the Alon–Pudlák off-diagonal construction; first explicit construction with R(s,t) ≥ t^c for fixed s and c>2 (e.g. R(33,t) ≥ t^{2.1-o(1)}), also improving the diagonal case. Abstract + authors verified via arXiv API this session (v1 2026-08-22). A SIXTH independent author group (Sam Mattheus, of the already-staged sammattheus.wordpress.com source-discovery candidate, co-authoring a primary directly on this trend for the first time).
+  - 2026-09-22 — https://arxiv.org/abs/2609.26563 — Du, Hu, Liu, Wang, "The Erdős–Hajnal hypergraph Ramsey problem for r₄(6,n)": the SAME group as the trend's r₄(5,n) evidence line (2604.23986) extends their own method to prove r₄(6,n) ≥ 2^{2^{cn}} — as a consequence, CONFIRMS THE FULL Erdős–Hajnal hypergraph-Ramsey conjecture for k=4 (previously only the s≥k+3 cases were known, via Mubayi–Suk and Conlon–Fox–Sudakov). Own-group escalation, not a new independent group, but a substantially stronger result (a full named-conjecture resolution, not just a lower-bound improvement) on the same tracked sub-theme. Found via a Semantic Scholar citation chase on the trend's own Ma–Shen–Xie anchor (this week's Amendment G pass) — missed 4 days by the daily sweep (title has no obvious Ramsey-lower-bound keyword match). Abstract + authors verified via direct arXiv page this session (v1 2026-09-22).
 - notes: ≥4 independent author groups on one sub-theme (Ma–Shen–Xie; Bradač; Du–Hu–Liu–Wang; Lin–Niu) + concrete artifacts → clears the trend bar. Community framing: Quanta ("Erdős method upgrade", 2026-06-26) and Gil Kalai / Sam Mattheus blogs ("a sensational Ramsey breakthrough by Bradač"). Ma–Shen–Xie also on `study_shelf`. Watch for referee outcomes and whether the diagonal r(k,k) barrier is next.
+  - 2026-W39 recalibration (Amendment G citation-chase catch): HELD accelerating/medium; last_evidence
+    advances 2026-08-22 → 2026-09-22 (Du–Hu–Liu–Wang's own r₄(6,n) full-conjecture resolution, above).
+    Semantic Scholar "cited by" chase on the Ma–Shen–Xie anchor (2507.12926, 22 citing papers reviewed)
+    also surfaced Fan, Li, Lin, Ning, "An improved double-exponential lower bound for r₄(5,n)"
+    (arXiv:2605.04105, 2026-05-04) — an independent-author-list improvement on the SAME r₄(5,n) bound,
+    but co-authored by Lin Qizhong, who is already one of this trend's tracked authors via the
+    off-diagonal Lin–Niu evidence line (2605.25843) — judged an extension of an already-counted
+    author's portfolio, not a clean 7th independent group, so queued in its own right rather than
+    counted toward group-count promotion (honesty over the independent-group tally). No referee/
+    vetting outcome on any of the six tracked preprints (arXiv version-history check this session:
+    only the three Stanley-Gasharov-adjacent papers and the Marton exponent paper show v2s, all
+    predating this week — see that trend's own note). Not promoted to a 7th-group confidence bump;
+    confidence held medium (unrefereed-preprint caution unchanged). Watch continues for a genuine 7th
+    independent group or a referee outcome.
   - 2026-W27 recalibration: HELD at emerging/medium. All 4 evidence items predate the trend's
     creation (latest 2026-05-27, ~5–6 weeks old) — a backlog cluster caught at creation, not fresh
     weekly velocity, so NOT promoted; confidence held at medium under the unrefereed-preprint caution
@@ -694,7 +709,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     and venue breadth. Not promoted to `mainstreaming`. Watch for a 15th group or the cross-citation.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
-- stage: seed | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
+- stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
 - what: THREE fully independent author groups, within a single week, produced concrete
   counterexamples to the ~28-year-old Stanley–Gasharov conjecture (recorded by Stanley 1998,
   credited to Gasharov) that the chromatic symmetric function of every claw-free graph is
@@ -875,9 +890,27 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     group or vetting outcome lands by 2026-09-27 (the first daily on/after that date, or W39 if
     sooner), the trend goes `dormant` under the domain-cadence rule — the routine, expected outcome
     of a quiet single-week convergence burst, not a failure to chase harder.
+  - 2026-W39 recalibration (DEMOTION, seed → dormant, per the standing W35–W38 decision point): today
+    (2026-09-26) is W39, one day BEFORE the fixed 2026-09-27/60-day dormancy line, but the standing
+    plan explicitly named "W39 if sooner" as the trigger — so this run resolves it rather than waiting
+    the one remaining day. A Semantic Scholar "cited by" check on all three tracked preprints
+    (2607.21508, 2607.26364, 2607.27166; this week's Amendment G pass) found only already-excluded
+    peripheral Schur-positivity papers plus two genuinely new but non-qualifying items: Suvrit Sra,
+    "GPT, the Counterexample Machine" (arXiv:2608.29595, a compiled report of 15+ GPT-found
+    counterexamples across many fields, citing Matherne-Morales as one instance — a survey of the AI
+    method itself, not a 4th independent Stanley-Gasharov proof, and out of scope per the AI-watch
+    rule) and Li, St. Dizier, "Schubitopes are not Ehrhart positive" (arXiv:2608.00377, an unrelated
+    AI-assisted conjecture refutation, queued separately below). No 4th independent group, no referee/
+    vetting outcome on any of the three tracked preprints (arXiv version-history recheck this
+    session: no v-update since each paper's already-recorded v2, both from July). last_evidence
+    2026-07-29 is now 59 days quiet, one day short of the formal 60-day line but the trend has had no
+    new signal for two full months and the standing decision point is reached — DEMOTED to `dormant`.
+    Confidence held medium (unchanged; dormancy is a velocity call, not a correctness downgrade — the
+    three counterexamples remain valid, checkable, unrefereed). Reactivation trigger unchanged: a 4th
+    independent group or a referee/vetting outcome on any of the three preprints.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
-- stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-08-31
+- stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-09-15
 - what: THREE independent author groups have now successively shaved the constant in the
   polynomial-Freiman-Ruzsa bound established by Gowers-Green-Manners-Tao's 2024 resolution of
   Marton's conjecture — a sequential-improvement DIRECTION trend (the same wave pattern as the
@@ -891,8 +924,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2024-04-15 — https://arxiv.org/abs/2404.09639 — Liao, "Improved Exponent for Marton's
     Conjecture in $\mathbb{F}_2^n$": simple modifications to the GGMT argument improve $C=12$ to
     $C=9$. Abstract verified via arXiv API this session.
-  - 2026-08-31 — https://arxiv.org/abs/2608.30336 — Song, Yue, "An Improvement to the Upper Bound
-    for Marton's Covering Conjecture": further improves the exponent from $9$ (Liao) to $8.873$.
+  - 2026-08-31 (v2 2026-09-15) — https://arxiv.org/abs/2608.30336 — Song, Yue, "An Improvement to
+    the Upper Bound for Marton's Covering Conjecture": further improves the exponent from $9$ (Liao);
+    v1 (08-31) gave $8.873$, v2 (09-15, this week's catch — see note) tightens it further to $5.287$.
     Surfaced in today's fresh math.CO batch; abstract verified via arXiv API this session.
 - notes: 2026-09-01 (daily, PROMOTION): today's math.CO sweep surfaced the Song-Yue exponent
   improvement, which cites Liao's 2024 improvement of the original GGMT 2024 resolution as its
@@ -934,6 +968,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     correctly queued below-bar in its own right rather than as trend evidence (re-confirmed this
     session). Confidence held medium (each step a short, checkable refinement of an already-proved
     landmark). Not promoted (no fresh W38 velocity).
+  - 2026-W39 recalibration (CORRECTION — an 11-day-old miss): Song-Yue's own preprint (2608.30336)
+    posted a v2 on 2026-09-15, tightening their exponent from 8.873 to 5.287 — missed by every daily
+    between 09-15 and 09-25 (a same-author revision, not a new arXiv id, so invisible to a
+    title-keyword scan; caught this session via a routine arXiv-API version-history check on the
+    trend's own tracked preprints). last_evidence advances 2026-08-31 → 2026-09-15. A same-author
+    revision, not a 4th independent group — HELD emerging/medium (no promotion; the revision
+    tightens existing evidence, it does not add a new corroborating group). Process gap: no dated
+    v-history spot-check on active trends' own tracked preprints existed as a standing weekly step —
+    proposed as this week's amendment (see report).
 
 ### Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)
 - stage: seed | confidence: medium | first_seen: 2026-09-24 | last_evidence: 2026-09-23
@@ -973,6 +1016,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   artifacts on one sub-theme within two weeks clears the domain's convergence bar; set to `seed`
   rather than `emerging` given the founding artifact is AI-discovered and wholly unrefereed —
   watch for a fourth group, a referee outcome, or a gap found in the underlying proof.
+  - 2026-W39 recalibration (cross-reference correction, no promotion): the `observation_queue`
+    already held an older, PARTIAL prior result on exactly these two conjectures —
+    Bansal, Jiang, "Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond
+    Banaszczyk" (arXiv:2508.03961, 2025-08-05, capture-leak-caught 2026-08-21) — which already
+    resolved the Beck-Fiala conjecture for $k\ge\log^2 n$ and improved (not resolved) the Komlós
+    bound to $O((\log N)^{1/4})$. Guo-Fang-Lu's dimension/family-size-INDEPENDENT constant bound
+    (this trend's founding artifact) is the genuine full generalization Bansal-Jiang's regime-
+    restricted result did not reach — the two are complementary, not duplicative, and Guo-Fang-Lu's
+    abstract does not cite Bansal-Jiang (checked this session) — flagged here so a future referee
+    pass on the AI-discovered proof has this prior-art context on file. No evidence/stage change;
+    HELD seed/medium. Held for a fourth group, a referee outcome, or a gap report.
 
 ### Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)
 - stage: seed | confidence: medium | first_seen: 2026-09-25 | last_evidence: 2026-09-25
@@ -995,8 +1049,99 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   for a referee outcome or a second group engaging with the quaternion-algebra characterization. Also
   on `study_shelf`.
 
+### Irrationality of ζ(5) (Fauzan; independently Lean-verified by Firsching)
+- stage: seed | confidence: medium | first_seen: 2026-09-26 | last_evidence: 2026-09-23
+- what: a claimed proof that ζ(5) is irrational (Aabir Fauzan, off-arXiv, Zenodo, 2026-09-17) — the
+  first individual-odd-zeta-value irrationality result since Apéry's 1978 proof for ζ(3) — held on
+  this ledger's `observation_queue` since 2026-09-25 with EXTREME hype-skepticism caveats (no author
+  publication history, AI-model-only "vouching," two competing INCOMPLETE Lean formalizations).
+  PROMOTED this week: a THIRD, INDEPENDENT Lean formalization (Moritz Firsching — Google DeepMind,
+  an established Lean/Mathlib contributor who leads the `formal-conjectures` project — not affiliated
+  with Fauzan) is now COMPLETE and `sorry`-free, closing the domain-cadence "landmark + independent
+  confirmation" bar this ledger applied to the Komlós/Beck-Fiala precedent. Still short of formal
+  peer review — this is the strongest vetting signal available for an off-arXiv claim, not a
+  publication-grade outcome.
+- evidence:
+  - 2026-09-17 — https://zenodo.org/records/22826418 — Aabir Fauzan, "ζ(5) is irrational": via integer
+    polynomials $Q_n$ of degree $37n$ with $0<Q_n(\zeta(5))<\exp(-139n^2/5)$ (Hankel determinants +
+    moment representations + log-energy estimates), giving $|\zeta(5)-a/b|>b^{-260}$ for large $b$.
+    Off-arXiv (Zenodo, no endorsement gate); author has no prior publication history. Zenodo record
+    opened directly (title/author/date/abstract verified, this session and 2026-09-25).
+  - 2026-09-23 — https://github.com/mo271/zeta5 — Moritz Firsching, complete Lean 4 formalization:
+    `irrational_five` proved with no `sorry`, axioms limited to `propext`, `Classical.choice`,
+    `Quot.sound` (the Lean/Mathlib standard set) — confirmed via the repo's own
+    `#print axioms Apery.irrational_five`. TECHNICAL CAVEAT (verified this session): the Lean proof
+    deviates from Fauzan's own construction at one step — "direct class-wise partial fractions
+    instead of the Tate-algebra functional" and different normalizer bounds — but reproduces the
+    same numerical threshold (constant ≈1.345, required <1.36) with matching intermediate values
+    against the original paper's appendix. So this is an INDEPENDENT re-derivation confirming the
+    same result via a formally verified but not identical route, not a literal proof-check of
+    Fauzan's exact argument. Repo, commit history and README opened directly this session; public
+    reaction from Alex Kontorovich (Rutgers, analytic number theory) opened via WebSearch ("WOW!!
+    Zeta(5) is irrational!... Amazing what we'll learn (with AI help)") — enthusiasm from a credible
+    specialist, not a formal correctness statement.
+- notes: 2026-W39 recalibration (PROMOTION, queue → seed): the queue item's own standing instruction
+  ("chase this daily until it resolves... a completed Lean formalization, a human referee report, or
+  a found gap") is satisfied by Firsching's complete, sorry-free, independently-authored
+  formalization — a materially stronger signal than the AI-model-only "vouching" that held this back
+  on 2026-09-25, and the same class of event (independent human/tooling confirmation) that promoted
+  the Komlós/Beck-Fiala trend. Confidence held medium, not high: the Lean proof takes a technically
+  different route at one step rather than literally re-checking Fauzan's exact argument, so this is
+  strong corroboration of the NUMERICAL RESULT, not a line-by-line audit of the original manuscript;
+  no traditional peer review yet; the two other, still-incomplete formalization efforts
+  (danromik/zeta5-irrationality — two axiomatized classical lemmas, one unproved inequality;
+  long-mathematics/zeta5-irrationality — 3/49 targets proved) remain open and are themselves worth
+  watching for whether they close on Fauzan's literal construction. Watch for: either incomplete
+  formalization reaching completion (which would audit Fauzan's exact argument rather than
+  Firsching's variant), a named-mathematician on-record statement beyond Kontorovich's social-media
+  reaction, or a found gap in any of the three efforts.
+
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-09-26 (W39 CAPTURE-LEAK CATCH ×7 — mandatory weekly notes-field grep found seven arXiv ids
+  named inside trend notes as "checked and correctly excluded" but never given their own queue line)
+  — (a) https://arxiv.org/abs/2608.16434 — a finite-group enhanced-power-graph claw-free
+  characterization (group theory), named in the Stanley-Gasharov trend's 2026-08-18 note as an
+  unrelated peripheral title. (b) https://arxiv.org/abs/2608.16613 — "Three Infinite Families
+  Separating Schur Positivity, the Strongly Nice Property, and the Nice Property," a different
+  Schur-positivity question, same note. (c) https://arxiv.org/abs/2608.08766 — Gu, Luo, Wang, Zhang,
+  "Understanding Non-Split 2-Group Symmetry" — a related but distinct (2-group, not non-invertible/
+  fusion-category) generalized-symmetries construction, named in the non-invertible-symmetries
+  trend's 2026-08-11 note. (d) https://arxiv.org/abs/2608.18169 — Yu, a classical circulant-graph
+  small-Ramsey-number improvement (R(4,20)≥252), Ramsey-adjacent but not the tracked asymptotic
+  lower-bound sub-theme, named in a Ramsey-trend daily note. (e) https://arxiv.org/abs/2608.18769 —
+  a companion method paper for classical small-Ramsey-number lower bounds via circulant graphs, same
+  note. (f) https://arxiv.org/abs/2608.27405 — "Online Ramsey Numbers of Stars versus Long Paths and
+  Cycles," an online-Ramsey variant, named in a Ramsey-trend daily note. (g)
+  https://arxiv.org/abs/2609.02588 — "Ramsey-type results for Maker-Breaker games," a positional-game
+  variant, named in a Ramsey-trend daily note. All seven correctly excluded from their respective
+  trends (below-bar/different-sub-theme, not capture-leak in the "missed" sense) but never routed to
+  a discrete queue line of their own, per the capture rule — queued now, not independently re-opened
+  this session (routed on each trend note's own prior characterization).
+- 2026-05-04 (v1; found via this week's Amendment G Semantic Scholar citation chase on the Ramsey
+  trend's Ma–Shen–Xie anchor) — Fan, Li, Lin (Qizhong), Ning, "An improved double-exponential lower
+  bound for $r_4(5,n)$" — https://arxiv.org/abs/2605.04105 — hypergraph Ramsey (axis 1, math.CO):
+  improves Du–Hu–Liu–Wang's r₄(5,n) breakthrough one week after it posted, via an independent author
+  list — but co-author Lin Qizhong is already tracked on the Ramsey trend via a DIFFERENT paper
+  (2605.25843, the off-diagonal Lin–Niu evidence line), so this is not counted as a clean 7th
+  independent group (see this week's Ramsey-trend note). Abstract + authors verified via direct
+  arXiv page this session (v1 2026-05-04).
+- 2026-08-30 (found via this week's Amendment G Semantic Scholar citation chase on the
+  Stanley-Gasharov trend's three anchors) — Suvrit Sra, "GPT, the Counterexample Machine" —
+  https://arxiv.org/abs/2608.29595 — AI-watch area (axis 5, not a math result in its own right):
+  a self-published compilation/report of 15+ counterexamples GPT models found over 12 months across
+  combinatorics, number theory, convexity and analysis, with an open-source "count-ex-machina"
+  GitHub repo inviting further contributions. Cites the already-tracked Matherne–Morales
+  Stanley-Gasharov counterexample as one cataloged instance. Track the RESULT-cataloging effort as an
+  AI-watch data point, not the AI method; a candidate GitHub source to watch if it keeps surfacing
+  on-axis catches. Abstract + author verified via direct arXiv page this session.
+- 2026-08-01 (found via the same Amendment G chase) — Li, St. Dizier, "Schubitopes are not Ehrhart
+  positive" — https://arxiv.org/abs/2608.00377 — algebraic/polytope combinatorics (axis 1, math.CO):
+  disproves the Monical-Tokcan-Yong conjecture that Schubitopes (Newton polytopes of Schubert
+  polynomials/Demazure characters) are Ehrhart positive, via an explicit counterexample found using
+  GPT-5.6 Sol Pro. AI-ASSISTED (WATCH area per scope) — same pattern as the already-tracked
+  Matherne-Morales/Batyrev/Kawauchi AI-assisted-math-wave entries; below-bar (single below-bar
+  refuted-conjecture item). Abstract + authors verified via direct arXiv page this session.
 - 2026-09-17 (Zenodo, Aalto University; discovered via a MathOverflow question + WebSearch chase this
   session, accessed 2026-09-25) — Aabir Fauzan, "$\zeta(5)$ is irrational," Zenodo DOI
   10.5281/zenodo.22826418 — https://zenodo.org/records/22826418 — number theory (axis 1): a claimed
@@ -1015,6 +1160,11 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   or a human referee/gap report), do NOT treat as resolved. NEW SOURCE-DISCOVERY CANDIDATES: zenodo.org
   (off-arXiv self-publication venue, same AI-disclosure-lane pattern as proofatlas.ai/preprints.org)
   and peakmath.org (a number-theory-focused commentary/pointer blog) — staged in SOURCES.md.
+  - 2026-W39 recalibration (PROMOTED to trend): Moritz Firsching's independent, complete, `sorry`-free
+    Lean formalization (github.com/mo271/zeta5, 2026-09-23) satisfies this item's own standing vetting
+    trigger — see the new "Irrationality of ζ(5)" trend above for the full evidence and caveats. This
+    queue entry stays on file as the original capture (per append-only history) but no longer needs
+    daily chasing under the old "unverified claim" framing.
 - 2026-09-20 (v2 2026-09-24; discovered via today's full in-scope math category-rotation sweep) —
   Deep Bhattacharjee, Ushashi Bhattacharya, Priyabrata Mandal, Shounak Bhattacharya, "The Sphere
   Packing Problem in Dimension 4 and the Twenty-Four-Cell Conjecture," arXiv:2609.25120 —
@@ -1152,14 +1302,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   supersingular locus, refining the boundary/exceptional-locus structure around Viehmann's
   generic result. Abstract + authors verified via arXiv API this session (v1 2026-08-17). Below-
   bar follow-up/refinement item — the paper that led this session to Viehmann's landmark.
-- 2026-08-17 — arXiv:2608.16066 — Shane Kelly, "Some explicit counter-examples to Weibel's
-  conjecture" — https://arxiv.org/abs/2608.16066 — algebraic K-theory (axis 1, math.AG/KT):
-  constructs rings $R$ of Krull dimension 1 with $K_{-d}(R)\ne0$ for $d\ge2$. NOTE (caution
-  warranted): Weibel's vanishing conjecture was proved by Kerz–Strunk–Tamme (2018) for NOETHERIAN
-  schemes of finite Krull dimension — this abstract does not state whether $R$ is Noetherian, so
-  it is unclear this genuinely contradicts the proven theorem rather than showing the necessity
-  of a hypothesis outside it; not independently resolved this session. Abstract + author verified
-  via arXiv API this session (v1 2026-08-17). Below-bar, caveated item — track for clarification.
 - 2026-08-04 (CAPTURE-LEAK CATCH, ~2 weeks old, surfaced via the Simons Foundation feed this
   session, accessed 2026-08-18) — Simons Foundation, "New Simons Collaboration Will Explore
   Discrete Subgroups of Lie Groups" —
@@ -2358,6 +2500,30 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     muon g-2 anomaly narrowing, and the Roman Telescope pre-data watch). No routing-leak found in
     this batch (all seven landmark items claimed "study pick candidate"/"also on study_shelf" were
     independently verified actually present on `study_shelf`).
+  - 2026-09-26 (W39 weekly, targeted burndown + dedup): reviewed the full queue this session (241
+    items — 5.5x the ~40 soft cap, first flagged 2026-09-23) rather than a sampled subset. FINDING:
+    unlike a truly stale below-bar backlog, the overwhelming majority of surviving items are either
+    active landmark/vetting-status watches (unrefereed named-conjecture resolutions still awaiting a
+    referee outcome — exactly what domain cadence says should PERSIST for months) or already-shelved
+    context — genuinely "settled, no follow-up expected" candidates are now rare after two prior
+    weeklies' burndowns (W37/W38) already cleared the bulk of them. DROPPED 3, each with its own
+    reason (not a mechanical count-driven purge): (a) Shane Kelly's Weibel's-conjecture "counter-
+    example" (2608.16066, 08-17) — the note itself flagged this as possibly not even genuinely
+    contradicting the proven (Noetherian) theorem; 40 days with no clarification and no independent
+    engagement — dropped as an unresolved ambiguity unlikely to develop further without the author's
+    own follow-up. (b) A duplicate: "Simons Foundation Launches Collaboration on Universal Statistics
+    in Number Theory" was queued TWICE (2026-08-19 and again 2026-09-06, same announcement, same
+    director Jon Keating) — the 09-06 duplicate dropped, the original 08-19 entry kept. (c) "The LHC
+    completes its third run" (09-09) — a pure operations/milestone announcement with no physics
+    result and no watch condition attached — dropped as context-only, the same class as W38's
+    black-hole-singularity-surface/Böhm's-metrics drops. Everything else reviewed this session was
+    judged to still carry either an open watch condition (a referee/vetting outcome could land any
+    week) or standing historical value as a landmark record — KEPT. Proposed amendment (see report):
+    the ~40 soft cap was calibrated assuming a queue of live unresolved signals; this ledger's queue
+    has evolved into more of a dated landmark log (see AGENTS.md's own "track, don't reproduce" +
+    "let below-bar items persist" language) — the count metric may need a companion metric that
+    distinguishes still-live watches from settled-but-historically-valuable entries, so a healthy,
+    well-curated queue doesn't keep reading as "5.5x over cap" every week.
 - 2026-09-01 (BACKLOG CATCH, chased via a community-pulse pointer to Reddit which named a
   now-3-week-old result never captured — a genuine miss, not a fresh find) —
   https://arxiv.org/abs/2608.10012 — Putman, "A 112-Vertex Counterexample to the Petersen
@@ -2639,15 +2805,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   arXiv-adjacent venues for eventual formal publication). Corroborated via a ChemistryViews summary
   opened this session. Below-bar policy/ecosystem item, not a mathematical result — watch for any
   effect on how future AI-claimed results reach this ledger's primary sources.
-- 2026-09-06 (via Simons Foundation feed, opened this session) — "Simons Foundation Launches
-  Collaboration on Universal Statistics in Number Theory" —
-  https://www.simonsfoundation.org/2026/09/simons-foundation-launches-collaboration-on-universal-statistics-in-number-theory/
-  — ecosystem/recognition (axis 1, number theory / math-ph interface): a new Simons Collaboration
-  (director Jon Keating, Oxford) applying statistical-physics models of correlated randomness
-  (Gaussian multiplicative chaos, random matrix theory) to number theory — the Riemann zeta function,
-  prime gaps, and related randomness/correlation questions. Page opened via `tvly extract` this
-  session. Funding/ecosystem launch, not a result — same pattern as the already-tracked
-  Discrete-Subgroups and Virtues-of-Defects Simons Collaborations. Below-bar item.
 - 2026-09-07 (v1 2025-02-20, published Science Advances 2026-09-02; surfaced via Hacker-News
   front-page community pulse this session, chased to both the peer-reviewed article and the
   underlying preprint) — Dobkowski, Trok, Skakunenko, Japha, Groswasser, Efremov, Marletto,
@@ -2975,13 +3132,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   elemental superconductors) in tetralayer kagome borophene, via a distinct out-of-plane s-pz-bonding
   pairing channel. Abstract + authors verified via arXiv API this session (v1 2026-09-09). Below-bar —
   a THEORETICAL PREDICTION only, not yet synthesized/measured; track for an experimental follow-up.
-- 2026-09-09 (ecosystem/milestone, via CERN Courier, opened this session) — "The LHC completes its
-  third run" — https://cerncourier.com/a/the-lhc-completes-its-third-run/ — particle physics (axis 3):
-  on 2026-06-27 the LHC completed Run 3, delivering ~550 fb⁻¹ of integrated luminosity (nearly double
-  the ~300 fb⁻¹ original target, per accelerator director Oliver Brüning) before entering Long
-  Shutdown 3 to become the High-Luminosity LHC. Page opened via `tvly extract` this session. Below-bar
-  ecosystem/operations milestone, not a new physics result — context for any ATLAS/CMS Run-3 final
-  analyses expected over the coming shutdown.
 - 2026-09-09 (SIGNIFICANT, OFF-AXIS — `radar-explore`, cs.CC rotation slot) — Sergei Kudria, Jason
   Luo, Mahbod Majid, "Subexponential Approximation of the Permanent in Deterministic Polynomial Time"
   — https://arxiv.org/abs/2609.10516 — theoretical computer science (off-axis, computational
@@ -3684,6 +3834,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-17 (Fauzan claim; Firsching's independent Lean verification 2026-09-23; shelf-added
+  2026-09-26) — [Irrationality of ζ(5) (Fauzan; Lean-verified by Firsching)](https://github.com/mo271/zeta5)
+  — the first individual-odd-zeta irrationality result since Apéry 1978; an off-arXiv, no-track-record
+  claim now backed by a Google DeepMind Lean/Mathlib contributor's complete, `sorry`-free independent
+  formalization (technically a variant derivation, not a literal check of the original argument). Also
+  a new `seed` trend.
 - 2026-09-25 (v1; shelf-added 2026-09-25) — [Proof of the positive trace gap conjecture (Nikolay Bogachev)](https://arxiv.org/abs/2609.29033)
   — resolves Sarnak's ~18-year-old positive trace gap conjecture for cocompact Fuchsian/Kleinian
   lattices via a quaternion-algebra characterization; also new for lattices in $SL_d(\mathbb R)$,

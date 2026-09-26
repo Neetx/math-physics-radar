@@ -138,12 +138,20 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
   journal distinct from Nature Physics; source-discovery promotion (2 on-axis math↔physics-interface
   primaries in one week: RH↔quantum-phase-transitions 07-01, aperiodic-monotile chirality 07-29,
   both discovered via r/math pointers)
+- Science Advances (AAAS) — https://www.science.org/journal/sciadv **[promoted 2026-09-26 (W39
+  weekly); no working RSS found this session — access via `tvly search "site:science.org <title>"`
+  or a direct DOI-link check when a disclosure is flagged elsewhere (the article page itself
+  403's to direct `curl`/`WebFetch`; PMC mirrors — e.g. `pmc.ncbi.nlm.nih.gov/articles/PMC...` —
+  open cleanly and are the preferred full-text access route)]** — peer-reviewed AAAS journal
+  distinct from the already-tracked Nature/Nature Physics/Nature Communications/APS lanes;
+  source-discovery promotion (2 sightings: the Dobkowski et al. quantum-free-fall equivalence-
+  principle test, 09-08 then resurfaced 09-22; the Wen et al. Feynman path-integral test, 09-25).
 - Annals of Mathematics — https://annals.math.princeton.edu/ **[verified 2026-07-02; HTML → `tvly extract` the latest issue]** — **[WEEKLY-SWEPT tier]**
 - Quantum (open journal) — https://quantum-journal.org/feed/ **[verified 2026-07-02; RSS]** (quantum information / foundations)
 - INSPIRE-HEP — API https://inspirehep.net/api/literature?sort=mostrecent&q=<query> **[verified 2026-07-02; JSON]** — the high-energy-physics literature database (papers + citations); primary lane for hep-th/hep-ph/gr-qc and a discovery signal (most-recent / most-cited).
 - SciPost Physics — API `https://scipost.org/api/publications/?limit=N` **[verified/healed 2026-07-04; JSON, newest-first — the `/rss/…` and `/journals/…` paths serve JS-rendered HTML, not a feed; use the API. DEGRADED 2026-09-08, STILL DEGRADED 2026-09-09/09-10 (3rd consecutive daily, heal owed): the API endpoint AND individual article pages (e.g. `/SciPostPhys.21.3.054`) both continue to serve an Anubis proof-of-work bot-check challenge page (requires JS execution) to direct `curl` (any UA tried) and `tvly extract` alike. PARTIAL WORKAROUND found 2026-09-09: `tvly search "<topic> scipost"` (not extract) returns live, dated individual publication pages from SciPost's own search index — usable for spot-checking a specific topic but NOT a "what's new" browse. SECOND PARTIAL WORKAROUND found 2026-09-10: `https://scipost.org/sitemap.xml` (plain `curl`, NO Anubis challenge, NOT bot-checked) lists every publication's short-code URL (e.g. `SciPostPhys.21.3.059`) — this proves EXISTENCE/COUNT of new publications (this session: SciPostPhys.21.3 issue advanced .053→.059, 6 new; SciPostPhysCore.9.3 advanced to .055) even though titles/abstracts remain blocked on both the API and article pages; `tvly search "<code>"` occasionally resolves a title (worked for .054) but is unreliable (returned stale/unrelated results for .055-.059 this session). Net effect: the "what's new" browse is still not fully restored (titles for most new codes remain inaccessible), but the sitemap closes the "did we miss anything" blind spot — a real, if partial, heal. Full heal still owed if the Anubis block persists a 4th consecutive daily. FULLY HEALED 2026-09-25: the API endpoint (`?limit=N&ordering=-publication_date`) responded cleanly via plain `curl` this session, no Anubis challenge — full titles/authors/abstracts recovered directly (SciPostPhys.21.3 advanced to .075, SciPostPhysCore.9.3 to .060, none on-axis). Re-test for the Anubis block occasionally in case it returns.]** — open-access, community-refereed physics (hep-th / quant / cond-mat), high signal
 - AMS Notices & Bulletin — https://www.ams.org/journals/notices/ **[verified 2026-07-02; HTML → `tvly extract`]** — surveys / "what's big in math" expository pieces (great for spotting a field-shaping result) — **[WEEKLY-SWEPT tier]**
-- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier. DEGRADED 2026-09-12 (W37 weekly): Cambridge Core now serves a "Temporary Disruption" security-measures page to `tvly extract` on the latest-issue URL. STILL DEGRADED 2026-09-19 (W38 weekly, 2nd consecutive weekly — HEAL OWED): same "Temporary Disruption" page persists on direct `tvly extract`. PARTIAL WORKAROUND found this session: `tvly search "Forum of Mathematics Pi Sigma new issue <month>"` returns live Cambridge Core index snippets (incl. the "Mathematics blog entries" sidebar) even while the direct journal-page extract is blocked — usable for a coarse "anything on-axis this cycle" check, not a full ToC browse. Full heal still owed if the Temporary Disruption page persists a 3rd consecutive weekly.]**
+- Forum of Mathematics (Pi / Sigma) — https://www.cambridge.org/core/journals/forum-of-mathematics-pi **[verified 2026-07-02; HTML → `tvly extract`]** — open-access top-tier math — **[WEEKLY-SWEPT tier. DEGRADED 2026-09-12/09-19 (W37/W38 weeklies, `tvly extract` "Temporary Disruption"). HEALED 2026-09-26 (W39 weekly, `tvly` unavailable this session — account-quota exhaustion, see strategy_notes): plain `WebFetch` on the journal-listing URL returned the current Volume 14 article list cleanly, no disruption page — prefer `WebFetch` first going forward, `tvly extract`/`tvly search` as fallback if `WebFetch` ever fails. NOTE: the listing gives no per-article publication dates, so a "what's new since last week" check still requires opening individual article URLs or cross-checking arXiv IDs already tracked.]**
 - **[candidate]** Inventiones Mathematicae, JAMS, Acta Mathematica, Communications in Mathematical Physics, JHEP (open-access hep-th; also on arXiv/INSPIRE), PRD, PRB, PRResearch, Nature/Science research articles — verify feeds/ToC on first sweep; most pure-math journals lack clean RSS → `tvly extract` the current issue.
 
 ## GitHub watch (Phase 5 — repos, profiles, and fork trees)
@@ -240,14 +248,6 @@ survives verification (real feed, on-axis, not SEO). Line format:
   hype-skepticism/vetting-status tracking. Discovered via a cross-link from Gil Kalai's already-
   tracked blog. HELD below the ≥2 bar (1 sighting); no feed found this session, access via
   `tvly extract` on the direct post URL.
-- science.org / Science Advances (AAAS) — 2 — Dobkowski et al., "Observation of quantum free
-  fall and the consistency with the equivalence principle" (arXiv:2502.14535, Science Advances
-  2026-09-02) — first seen 2026-09-08, 2nd sighting 2026-09-22 (same underlying paper, resurfaced via
-  a University of Oxford Physics Dept. press page reached through the Simons Foundation feed) — a
-  peer-reviewed AAAS journal distinct from the already-tracked Nature/Nature Physics/Nature
-  Communications/APS lanes. CLEARS the ≥2-sighting bar — ready for weekly promotion; no RSS found
-  this session, access via `tvly search "site:science.org <title>"` or direct DOI-link checks when a
-  disclosure is flagged elsewhere.
 - agmai.org (Advisory Group on Mathematics and Artificial Intelligence, hosted at IAS) — 1 —
   "Advisory Group on Mathematics and Artificial Intelligence" launch page, confirming OpenAI's
   100+-open-problems claim and the group's formation (2026-09-21/22, see `observation_queue`) — first
@@ -272,6 +272,12 @@ AI-watch lane, DAILY tier), github.com/anthropics (2 sightings, verified live �
 Watched repositories) — see their entries above; cleared from this staging list. HELD below the
 ≥2 bar (checked against this week's reports, no recurrence): proofsandprompts.com, science.org/
 Science Advances, anima-ai.org, preprints.org (all 1 sighting still).
+PROMOTED 2026-09-26 (W39): science.org / Science Advances (2 sightings — Dobkowski et al. quantum-
+free-fall test 09-08/09-22, Wen et al. Feynman path-integral test 09-25 — verified live this
+session, PMC mirrors preferred for full text) → Research/publication venues, DAILY tier — see its
+entry above; cleared from this staging list. HELD below the ≥2 bar (checked against this week's
+reports, no recurrence): proofsandprompts.com, anima-ai.org, preprints.org, zenodo.org, peakmath.org
+(all 1 sighting still).
 - anima-ai.org (Anima Anandkumar's lab blog) — 1 — Ganeshram, Duruisseaux, Anandkumar, "Stable
   Singularity of the Euler Equations on R^3 without forcing" (self-published, 2026-09-07),
   reviewed pre-release by Tom Hou and Terence Tao — first seen 2026-09-11 — discovered via

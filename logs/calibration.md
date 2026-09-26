@@ -197,3 +197,51 @@ routing-leak n`.
   applied W37): 2nd application found real on-axis yield (above) — signal confirms the amendment
   is working as intended, no rollback. No new amendments proposed this week (no motivating metric
   crossed a threshold). No monthly retrospective due (day 19 > 7; M09 already ran at W36).
+- 2026-09-26 — W39: queue 206→241 across the week (five dailies 09-21→09-25 added 35 net new
+  lines: 6+9+0+8+10, incl. two new seed trends carved out of same-week captures) → this session's
+  own targeted burndown: +4 new items (a 7-id capture-leak batch, Fan–Li–Lin–Ning r₄(5,n) paper,
+  "GPT, the Counterexample Machine," Schubitopes-not-Ehrhart-positive) / −3 dropped (Shane Kelly's
+  ambiguous Weibel's-conjecture item; a duplicate Simons-Foundation announcement queued twice;
+  the LHC-Run-3 operations milestone) → 242 end of session. FINDING (see report): unlike a stale
+  below-bar backlog, the surviving 242 items are overwhelmingly still-live landmark/vetting-status
+  watches, not settled noise — genuinely droppable candidates are now rare after two prior weeklies'
+  burndowns; a mechanical purge to hit the ~40 soft cap would violate the "never prune to hit a
+  number" rule. study_shelf: +2 this session (ζ(5) irrationality promotion; no change to the other
+  101 items) — aging check: oldest shelf-added date is within the last ~86 days, none crosses the
+  120-day prune line, no pruning needed. · evidence +1 this session (Ramsey trend, Du–Hu–Liu–Wang's
+  r₄(6,n) full-conjecture resolution, via this week's Amendment G chase) plus 1 correction (Marton
+  trend, Song-Yue's own v2 exponent tightening, an 11-day-old same-id miss) — the week's dailies
+  found 0 fresh evidence on any of the (then four, now six) tracked trends. · moves 1 demotion
+  (Stanley-Gasharov seed→dormant, standing W35–W38 decision point reached one day before the fixed
+  60-day line, per the plan's own "W39 if sooner" trigger) + 1 promotion (ζ(5) irrationality,
+  observation_queue → new seed trend, on Firsching's independent complete Lean formalization —
+  the domain's second AI-discovered-then-independently-confirmed pattern after Komlós/Beck-Fiala) ·
+  exploration 5/5 (dailies: math.OA, cs.CC, math.NA, nlin.CD, q-bio.PE) · off-axis 0/5 — the first
+  fully-zero week on record (W38 was 2/5); NOT an anchoring alarm per the domain-cadence rule (a
+  single 0/5 week is explicitly not a warning in this narrow field) but flagged to watch for a
+  2-week pattern · lag n/a (no off-axis catches this week needing a lag figure) · coverage
+  (weekly-swept tier, this operator's duty) 21/21 logged opened-or-degraded (9 institutes: 6
+  opened cleanly, 3 standing-Cloudflare-403, SLMath a new single-instance empty-body degradation;
+  Annals/AMS Notices opened via WebFetch/WebSearch fallback; Forum of Mathematics HEALED after 2
+  consecutive degraded weeklies; 4 reddit subs still standing-hard-blocked, Physics SE opened
+  cleanly; 4 prizes unchanged) · routing-leak: not independently re-swept this session beyond this
+  week's own additions (each added with its study_shelf line in the same edit, so no leak by
+  construction) — a full ledger-wide resweep was last done at W38 (0 found); flagged as a gap if
+  resource allows next week, not treated as a finding this week · capture-leak 48 ids named in
+  trend `notes` checked this session (mechanical grep of every arXiv id referenced anywhere in the
+  six trends' notes fields against the whole file) / 7 queued (all seven were "checked and
+  excluded, below-bar" mentions never given their own queue line — none was a missed promotion,
+  all correctly excluded from their respective trends) · src-disc 1 promoted (science.org/Science
+  Advances, cleared the ≥2-sighting bar → Research/publication venues DAILY tier) / 5 held below
+  the ≥2 bar (proofsandprompts.com, anima-ai.org, preprints.org, zenodo.org, peakmath.org, all 1
+  sighting). Amendment G, third weekly application (two chases run — Ramsey anchor + all three
+  Stanley-Gasharov anchors): both yielded genuine catches (Ramsey's own-group r₄(6,n) escalation;
+  confirmed no 4th Stanley-Gasharov group exists, informing this week's dormancy decision) — 3rd
+  consecutive weekly with positive/informative yield, no rollback signal. Self-amendment: Amendments
+  A/B/C re-checked clean, NO ROLLBACK. Amendment E (queue criterion-completeness): this week's
+  targeted-not-mechanical burndown is a judgment call, not a rollback of E — E's 100%-review
+  standard was applied to the smaller set of genuinely reviewable new candidates, not violated.
+  Amendment G: see above, no rollback. Tooling: `tvly` account-quota exhaustion now 4 consecutive
+  occurrences (09-23/09-24/09-25 dailies + this weekly) — meets the ≥3-consecutive heal-owed bar;
+  escalated to the curator via push notification this session (a billing/plan constraint, not a
+  repairable access path). No monthly retrospective due (day 26 > 7; M09 already ran at W36).
