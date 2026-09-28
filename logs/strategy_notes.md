@@ -1502,3 +1502,22 @@ Corrections to the source-coverage strategy.
   cheap per-trend v-history spot-check (arXiv abs-page `[v2]`/`[v3]` markers on each trend's own
   tracked preprint ids) to the weekly routine, since it costs one fetch per tracked id and closes a
   real blind spot distinct from the new-id capture-leak sweep.
+
+- 2026-09-28 (daily) — Unusually rich single-day yield: four new `seed` trends captured from one
+  Monday weekend-backlog arXiv batch (Kahn-Saks/1-3-2-3 poset conjectures, Cassels-Swinnerton-Dyer
+  for cubic surfaces, Ehlers-Kundt counterexample, inhomogeneous Duffin-Schaeffer disproof by two
+  independent groups) — a reminder that the domain's "quiet is normal" cadence still produces sharp
+  bursts on backlog-carrying days (Monday RSS batches after a Sat/Sun `skipDays` gap); worth keeping
+  in mind before ever reading a quiet daily as evidence the sweep methodology is stale.
+- 2026-09-28 (daily) — Source-registry correction: SOURCES.md's cims.nyu.edu entry had no exact URL
+  recorded beyond the domain; this session's guess (`~buckmaster/`) 403'd, and the correct path is
+  `cims.nyu.edu/~tristanb/` (Tristan Buckmaster's actual Courant homepage, `~tristanb/publications/`
+  for the preprint list) — verified live this session. Recommend SOURCES.md's entry be tightened to
+  the exact path on the next weekly pass to prevent a repeat wrong-guess.
+- 2026-09-28 (daily) — Exploration slot: math.NA read this session found zero significant off-axis
+  yield, a 2nd consecutive 0/1 (following W39's fully-zero 0/5 week). Per the domain-cadence rule a
+  single or even two-session zero read is not yet an alarm, but this is the second data point toward
+  the "2-week pattern" threshold W39 flagged as worth a rotation redirect — the next 2-3 dailies'
+  exploration reads should be watched closely; if the pattern holds, consider redirecting off the
+  current roster (math.DS/OC/LO/OA/DG/NA/cs.CC/nlin/q-bio/econ) toward a genuinely different kind of
+  venue (e.g. a non-arXiv discovery surface) rather than another rotation category.

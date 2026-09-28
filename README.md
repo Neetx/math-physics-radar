@@ -1,31 +1,37 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-7-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-242-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--26-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-11-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-246-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--28-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-26, weekly):**
-- New **seed** trend: [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching), promoted off the watchlist after an independent, complete Lean 4 formalization by a Google DeepMind/Mathlib contributor — [github.com/mo271/zeta5](https://github.com/mo271/zeta5).
-- [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) gained fresh evidence via a citation chase: the trend's own Du–Hu–Liu–Wang group extended their r₄(5,n) result to fully confirm the Erdős–Hajnal hypergraph-Ramsey conjecture for k=4 — [paper](https://arxiv.org/abs/2609.26563).
-- [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) moved to **dormant**: two months quiet with no 4th independent group or referee outcome, the standing decision point reached.
-- Correction: the [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) evidence was stale — Song–Yue's own preprint quietly tightened its exponent from 8.873 to 5.287 eleven days ago — [paper](https://arxiv.org/abs/2608.30336).
+**Since last scan (2026-09-28):**
+- **Four new seed trends** from a rich Monday weekend-backlog arXiv batch: [Kahn-Saks conjecture resolved + first 1/3–2/3 conjecture progress in 30 years](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) ([paper](https://arxiv.org/abs/2609.30895)); [the Cassels–Swinnerton-Dyer conjecture proved for smooth cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) ([paper](https://arxiv.org/abs/2609.15930)); [a counterexample to the Ehlers–Kundt conjecture](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) by Hannah Cairo ([paper](https://arxiv.org/abs/2609.30419)); and [the inhomogeneous Duffin-Schaeffer conjecture disproved by two independent groups](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) the same day, one including James Maynard ([paper](https://arxiv.org/abs/2609.30921)).
+- New study-shelf picks: the Cassels–Swinnerton-Dyer proof (above), and [Anthropic's Claude computing the nine-loop MHV amplitude in planar N=4 super Yang-Mills](https://www.anthropic.com/research/yes-claude-can-do-nine-loops), independently verified by Lance Dixon (SLAC/Stanford) — AI-watch, see the watchlist for the caveat.
+- Watchlist +4: a significant partial case of the transcendental Yau-Tian-Donaldson conjecture ([paper](https://arxiv.org/abs/2609.31089)); an EXTREME-caveat room-temperature-superconductor claim in baked graphite ([paper](https://arxiv.org/abs/2609.15712)); and a capture-leak catch resolving the undecidability of algebraic-matroid recognition ([paper](https://arxiv.org/abs/2607.14907)).
+- [ζ(5) irrationality](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) watch: first named-mathematician engagement beyond social reaction — a University of Chicago professor's blog is skeptical of the paper's AI-authorship disclosure but confirms the Lean verification — [post](https://galoisrepresentations.org/2026/09/24/zeta5-is-irrational/).
 
 ## Trends
 
-🌱 3 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 7 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11895) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11895) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
 | [Positive trace gap conjecture resolved](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.29033) |
-| [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-09-23](https://github.com/mo271/zeta5) |
+| [Kahn-Saks / 1-3-2-3 conjecture advances](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30895) |
+| [Cassels–Swinnerton-Dyer for cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
+| [Inhomogeneous Duffin-Schaeffer disproved](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30870) |
+| [Ehlers–Kundt conjecture counterexample](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 🌱 seed | [2026-09-23](https://arxiv.org/abs/2609.27172) |
+| [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-09-23](https://github.com/mo271/zeta5) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- 2026-09-14 (v1; shelf-added 2026-09-28) — [Two proofs of the Cassels–Swinnerton-Dyer conjecture for cubic surfaces (Alexeev, Schreieder)](https://arxiv.org/abs/2609.15930) — completes a ~50-year reduction chain (Coray 1976, Voisin 2026) to resolve the Cassels–Swinnerton-Dyer conjecture for smooth cubic surfaces over arbitrary fields. Also a new seed trend, above.
+- 2026-08-late (computation); 2026-09-25 (guest post; shelf-added 2026-09-28) — [Yes, Claude Can Do Nine Loops (Anthropic)](https://www.anthropic.com/research/yes-claude-can-do-nine-loops) — an AI-assisted computation of the nine-loop MHV six-particle amplitude in planar N=4 super Yang-Mills, independently verified by Lance Dixon (SLAC/Stanford); notable technique demonstration for computational amplitudeology. AI-watch: track the physics result, not the method — see the watchlist.
 - 2026-09-17 (Fauzan claim; Firsching's independent Lean verification 2026-09-23; shelf-added 2026-09-26) — [Irrationality of ζ(5) (Fauzan; Lean-verified by Firsching)](https://github.com/mo271/zeta5) — the first individual-odd-zeta irrationality result since Apéry 1978; an off-arXiv, no-track-record claim now backed by a Google DeepMind Lean/Mathlib contributor's complete, `sorry`-free independent formalization (technically a variant derivation, not a literal check of the original argument). Also a new seed trend, above.
 - 2026-09-25 (v1; shelf-added 2026-09-25) — [Proof of the positive trace gap conjecture (Nikolay Bogachev)](https://arxiv.org/abs/2609.29033) — resolves Sarnak's ~18-year-old positive trace gap conjecture for cocompact Fuchsian/Kleinian lattices via a quaternion-algebra characterization, also extended to lattices in $SL_d(\mathbb R)$, $d\ge3$. Credible single-author landmark; unrefereed-preprint caution stands. Also a new seed trend, above.
 - 2026-08-26 (Science Advances, published; shelf-added 2026-09-25) — [Direct experimental test of Feynman's path integral postulates with single photons (Wen, Zhu et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13510607/) — first direct experimental verification of Feynman's 1948 path-integral postulates, reconstructing amplitudes for >1.4M single-photon paths; peer-reviewed, but note Sabine Hossenfelder's skeptical read of the press framing vs. the measured precision (17.4% MAPE on postulate II) — see the watchlist for the full caveat.
@@ -132,11 +138,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [MathOverflow](https://mathoverflow.net/) hosted the live discussion (10+ days ago) that pointed to the ζ(5)-irrationality claim, now promoted to a trend above; a public [X post from Alex Kontorovich](https://x.com/AlexKontorovich) reacted with enthusiasm to the independent Lean verification.
-- [Terence Tao's blog](https://terrytao.wordpress.com/) continues carrying AGMAI-adjacent commentary; [Sabine Hossenfelder's Backreaction](https://backreaction.blogspot.com/) offered a skeptical read of the Feynman path-integral experiment (see study shelf).
-- [Gowers's blog](https://gowers.wordpress.com/) and [Gil Kalai's blog](https://gilkalai.wordpress.com/) both quiet this week; routine.
-- [r/math](https://www.reddit.com/r/math/) and the wider r/Physics/r/cosmology/r/ParticlePhysics/r/AskPhysics cluster remain under a standing hard network-level block (re-confirmed this session, 9+ weeks running for r/math); [Mathstodon](https://mathstodon.xyz/) and [Physics Stack Exchange](https://physics.stackexchange.com/) carried only routine, non-research traffic.
+- [Gil Kalai's blog](https://gilkalai.wordpress.com/) pointed to a ~2.5-month-old undecidability result (algebraic-matroid recognition) that had never surfaced on this radar — now on the watchlist.
+- [Not Even Wrong (Peter Woit)](https://www.math.columbia.edu/~woit/wordpress/) linked Anthropic's nine-loop N=4 SYM amplitude computation, now on the study shelf.
+- [Sabine Hossenfelder's Backreaction](https://backreaction.blogspot.com/) flagged a new room-temperature-superconductor claim in baked graphite from a Russia-based group — EXTREME caveats, see the watchlist.
+- [MathOverflow](https://mathoverflow.net/) and Hacker News carried only routine traffic this session; [r/math](https://www.reddit.com/r/math/) and the wider r/Physics/r/cosmology/r/ParticlePhysics/r/AskPhysics cluster remain under a standing hard network-level block (10+ weeks running for r/math); [Mathstodon](https://mathstodon.xyz/) carried only routine, non-research traffic.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (242) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-25](reports/2026-09-25.md)) · Weekly: [2026-W39](reports/weekly/2026-W39.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (246) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-28](reports/2026-09-28.md)) · Weekly: [2026-W39](reports/weekly/2026-W39.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

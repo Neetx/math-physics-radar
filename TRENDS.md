@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-26
+Last updated: 2026-09-28
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1095,9 +1095,142 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   formalization reaching completion (which would audit Fauzan's exact argument rather than
   Firsching's variant), a named-mathematician on-record statement beyond Kontorovich's social-media
   reaction, or a found gap in any of the three efforts.
+  - 2026-09-28 (daily): first NAMED-MATHEMATICIAN on-record engagement beyond Kontorovich's social
+    reaction — "Persiflage" (a pseudonymous blog by a University of Chicago mathematics professor,
+    galoisrepresentations.org), 2026-09-24, expresses skepticism about Fauzan's own paper ("gives me
+    the impression of being almost entirely AI generated (if so, it then comes with a very dishonest
+    disclosure)") but confirms the result "has now been verified in Lean" and traces the technique to
+    prior literature (Prévost, Uvarov, Krattenthaler, Zudilin) — i.e. engaging with the mathematical
+    substance/provenance rather than a bare reaction. Neither confirms nor refutes correctness; a
+    genuine vetting SIGNAL (authorship-honesty concern + provenance work), not an OUTCOME. Confidence
+    held medium; stage held seed. Post opened directly this session.
+
+### Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)
+- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
+- what: two companion results posted the same day resolve/advance two of order theory's most famous
+  conjectures on linear extensions of posets. Max Aires proves the Kahn-Saks conjecture (1984)
+  outright: sufficiently large poset width forces the balancing coefficient δ(P) arbitrarily close to
+  1/2. A companion paper by Aires with Swee Hong Chan, Igor Pak, and Greta Panova gives the first
+  general improvement to the classical 1/3–2/3 conjecture's balance constant in over 30 years,
+  beating the Brightwell–Felsner–Trotter (1995) bound by a small ε. Domain-cadence landmark (a
+  decades-old named conjecture resolved outright) with directly related progress on an even more
+  famous, still-open conjecture in the same subfield, by credible authors (Pak, Panova are
+  established combinatorialists).
+- evidence:
+  - 2026-09-25 — https://arxiv.org/abs/2609.30895 — Max Aires, "Proof of the Kahn Saks Conjecture":
+    resolves the 1984 Kahn-Saks conjecture that large poset width forces the balancing coefficient
+    toward 1/2 (abstract verified via direct arXiv page this session, v1 2026-09-25).
+  - 2026-09-25 — https://arxiv.org/abs/2609.30888 — Aires, Chan, Pak, Panova, "Breaking the Infinite
+    Barrier in the 1/3–2/3 Conjecture": first general improvement to the balance constant since
+    Brightwell-Felsner-Trotter 1995 — "the first general result towards the 1/3-2/3 conjecture in
+    over 30 years" (abstract verified via direct arXiv page this session, v1 2026-09-25).
+- notes: 2026-09-28 (daily, seed creation): both posted the same day by an overlapping author team
+  (Aires common to both); captured via the full math category-rotation sweep (math.CO), part of the
+  Monday weekend-backlog batch. Not yet an independent-multi-group DIRECTION trend (one author
+  cluster) but qualifies under the domain's landmark-single-result bar (Kahn-Saks resolved outright),
+  with the 1/3-2/3 progress bundled as directly related context. Unrefereed preprints — watch for
+  referee outcomes and whether a second group engages with the 1/3-2/3 improvement.
+
+### Proof of the Cassels–Swinnerton-Dyer conjecture for smooth cubic surfaces
+- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
+- what: Valery Alexeev and Stefan Schreieder give two independent proofs completing the
+  Cassels–Swinnerton-Dyer conjecture (a cubic hypersurface has a rational point iff it has a
+  zero-cycle of degree 1) for smooth cubic surfaces over arbitrary fields, closing the missing
+  degree-4-point case that a ~50-year reduction chain (Coray 1976, extended by Voisin earlier in
+  2026) had left open; they also separately settle the singular-cubic-surface case. Landmark single
+  result in arithmetic/algebraic geometry — a classical named conjecture fully resolved in its
+  cubic-surface case.
+- evidence:
+  - 2026-09-14 (v1), last revised 2026-09-25 (v3) — https://arxiv.org/abs/2609.15930 — Alexeev,
+    Schreieder, "Two proofs of the Cassels-Swinnerton-Dyer conjecture for cubic surfaces": completes
+    Coray (1976)/Voisin (2026)'s reduction to the degree-4-point case with two independent arguments,
+    plus a separate treatment of singular cubic surfaces (abstract verified via direct arXiv page
+    this session).
+- notes: 2026-09-28 (daily, seed creation): captured via the full math category-rotation sweep
+  (math.AG, cross-listed math.NT); the v3 revision (09-25) is what surfaced it in today's fresh-batch
+  window even though v1 predates by ~2 weeks. Single-group landmark; unrefereed preprint — watch for
+  referee/community reaction, and check whether Voisin's own cited 2026 reduction paper (not
+  independently opened this session) belongs on this ledger too.
+
+### Counterexample to the Ehlers–Kundt conjecture (gravitational pp-wave spacetimes)
+- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-24
+- what: Hannah Cairo (known for last year's disproof of the Mizohata-Takeuchi conjecture) disproves
+  the 1962 Ehlers-Kundt conjecture on gravitational pp-wave spacetimes, showing geodesic completeness
+  is in fact GENERIC (in the Baire-category sense) among pp-waves — the opposite of what the
+  conjecture predicted — and constructs geodesically complete "universal pp-waves"; also gives a new
+  proof of the conjecture's previously-known polynomial case (Flores-Sánchez). Mathematical general
+  relativity (axis 2), landmark single result disproving a 60+-year-old named conjecture by a
+  credible author with a track record of resolving classical conjectures.
+- evidence:
+  - 2026-09-24 — https://arxiv.org/abs/2609.30419 — Hannah Cairo, "On the completeness of
+    gravitational pp-wave spacetimes: A counterexample to the Ehlers-Kundt conjecture": geodesic
+    completeness is Baire-generic among pp-waves; new proof of the polynomial case (abstract verified
+    via direct arXiv page this session, v1 2026-09-24).
+- notes: 2026-09-28 (daily, seed creation): captured via the physics category sweep (gr-qc,
+  cross-listed from math.DG). Single-author landmark; unrefereed preprint — watch for referee/
+  community reaction from the mathematical-relativity community.
+
+### Inhomogeneous Duffin-Schaeffer conjecture disproved (two independent groups)
+- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
+- what: two independent author groups, posting the same day, construct counterexamples showing the
+  natural inhomogeneous analogue of the (now-proved, Koukoulopoulos-Maynard 2020) Duffin-Schaeffer
+  conjecture is FALSE — the zero-full measure dichotomy for shifted Diophantine approximation fails.
+  He–Liao construct counterexamples for a residual set of rational shifts; Hauke-Treuer, Maynard (one
+  of the original 2020 Duffin-Schaeffer provers) and Pollington construct counterexamples for all
+  nonzero rationals and certain Liouville numbers. Landmark: settles a natural open follow-up question
+  to a major solved conjecture, with the original theorem's own co-prover among the disprovers.
+- evidence:
+  - 2026-09-25 — https://arxiv.org/abs/2609.30870 — He, Liao, "Counterexamples to the inhomogeneous
+    Duffin-Schaeffer conjecture for a residual set of shifts" (abstract verified via direct arXiv page
+    this session, v1 2026-09-25).
+  - 2026-09-25 — https://arxiv.org/abs/2609.30921 — Hauke-Treuer, Maynard, Pollington,
+    "Counterexamples to the inhomogeneous Duffin-Schaeffer Conjecture" (abstract verified via direct
+    arXiv page this session, v1 2026-09-25).
+- notes: 2026-09-28 (daily, seed creation): two independent groups disproving the same open question
+  the same day is itself a mini-convergence signal (short of the ≥3-group DIRECTION bar, but a
+  landmark single result on its own under the domain-adaptation bar). Captured via the full math
+  category-rotation sweep (math.NT). Pollington co-authored the ORIGINAL Duffin-Schaeffer conjecture
+  statement decades ago and Maynard co-proved the homogeneous case in 2020 — high-credibility
+  disproof. Watch for a third group or community/referee reaction.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-09-25 (v1) — Antonio Trusiani, "On the transcendental Yau-Tian-Donaldson Conjecture" —
+  https://arxiv.org/abs/2609.31089 — Kähler geometry (axis 1, math.AG/DG): proves the (uniform)
+  Yau-Tian-Donaldson conjecture for transcendental Kähler classes in the trivial-automorphisms case,
+  via Special Kähler Fujita Approximations of big cohomology classes. Significant case-resolution of
+  a major conjecture but not a full/general resolution — below the domain's landmark bar for a `seed`
+  on its own. Abstract verified via direct arXiv page this session (v1 2026-09-25).
+- 2026-09-25 (Anthropic guest post) — "Yes, Claude Can Do Nine Loops" —
+  https://www.anthropic.com/research/yes-claude-can-do-nine-loops — theoretical/mathematical physics
+  (axis 2, hep-th, AI-watch lane): Claude (Fable 5.1, via Claude Science) computed the nine-loop MHV
+  six-particle scattering amplitude in planar N=4 super Yang-Mills via two independent approaches
+  (bootstrap + indirect form-factor), computed by Anthropic physicists Liam Fitzpatrick and Siddharth
+  Mishra-Sharma, independently verified by Lance Dixon (SLAC/Stanford, a leading amplitudes
+  physicist); concurrent partial replication reported from Song He's group (Chinese Academy of
+  Sciences) using GPT-6 (not independently verified this session — cited only as reported by the
+  Anthropic post). AI-watch: track the physics RESULT (extending known-computable loop order in a toy
+  QFT model), not the AI method. Also on `study_shelf`. Page opened directly this session, 2026-09-25
+  guest-post date (computation performed late August 2026).
+- 2026-09-28 (found via community-pulse chase on a 2026-09-27 Backreaction post) — Saad, Nikitin,
+  Tayurskii, Yusupov, "Wrinkles and Magnetic Flux Trapping in Graphite Nanoflakes: A Possible Source
+  and Manifestation of Room-Temperature Superconductivity" — https://arxiv.org/abs/2609.15712 —
+  condensed matter (axis 3, cond-mat): EXTREME hype-skepticism caveats — an unrefereed preprint
+  claiming magnetic-flux-trapping (one of several standard signatures, not a full Meissner-effect +
+  zero-resistance demonstration) persisting to 390 K in ground-and-annealed pyrolytic graphite
+  nanoflakes; graphite room-temperature-superconductivity claims have a documented history of
+  non-replication (2016, 2024 prior claims). Flag "unrefereed preprint — claim"; track vetting
+  outcome, do not promote without independent replication. Abstract verified via direct arXiv page
+  this session (v1 2026-09-14).
+- 2026-09-22 (v1 2026-07-16; capture-leak catch via a 2026-09-22 Gil Kalai blog post) — Tobias Boege,
+  Geva Yashfe, "Recognition of algebraic matroids is undecidable" —
+  https://arxiv.org/abs/2607.14907 — combinatorics / matroid theory (axis 1, math.CO): proves the
+  recognition problem for algebraic matroids (does a given rank function admit a field-extension
+  transcendence-degree realization) is undecidable, resolving an open decidability question (known
+  decidable only in characteristic zero). ~2.5-months-old, missed by title-keyword sweeps (no obvious
+  "matroid" landmark keyword) until this blog pointer. Below-bar for a `seed` pending an assessment of
+  how long-standing/named this open problem is (flagged for the weekly to reconsider for promotion).
+  Abstract verified via direct arXiv page this session.
 - 2026-09-26 (W39 CAPTURE-LEAK CATCH ×7 — mandatory weekly notes-field grep found seven arXiv ids
   named inside trend notes as "checked and correctly excluded" but never given their own queue line)
   — (a) https://arxiv.org/abs/2608.16434 — a finite-group enhanced-power-graph claw-free
@@ -3834,6 +3967,14 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-14 (v1; shelf-added 2026-09-28) — [Two proofs of the Cassels–Swinnerton-Dyer conjecture for cubic surfaces (Alexeev, Schreieder)](https://arxiv.org/abs/2609.15930)
+  — completes a ~50-year reduction chain (Coray 1976, Voisin 2026) to resolve the Cassels–
+  Swinnerton-Dyer conjecture for smooth cubic surfaces over arbitrary fields. Also a new `seed` trend.
+- 2026-08-late (computation); 2026-09-25 (guest post; shelf-added 2026-09-28) — [Yes, Claude Can Do Nine Loops (Anthropic)](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
+  — an AI-assisted computation of the nine-loop MHV six-particle amplitude in planar N=4 super
+  Yang-Mills, independently verified by Lance Dixon (SLAC/Stanford); notable technique demonstration
+  for computational amplitudeology. AI-watch: track the physics result, not the method — see
+  `observation_queue`.
 - 2026-09-17 (Fauzan claim; Firsching's independent Lean verification 2026-09-23; shelf-added
   2026-09-26) — [Irrationality of ζ(5) (Fauzan; Lean-verified by Firsching)](https://github.com/mo271/zeta5)
   — the first individual-odd-zeta irrationality result since Apéry 1978; an off-arXiv, no-track-record

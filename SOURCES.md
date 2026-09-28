@@ -95,7 +95,9 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   promotion (3 distinct on-axis primary artifacts across 2 daily runs, 09-07/09-08: the
   Boussinesq blowup, the Euler blowup, the incompressible-porous-media result, plus a signed
   public statement) — access via direct URL (predictable `<slug>.pdf` filenames; plain `curl -A
-  "Mozilla/5.0"` works, no `tvly` needed), no feed.
+  "Mozilla/5.0"` works, no `tvly` needed), no feed. **CORRECTED 2026-09-28: the exact path is
+  `https://cims.nyu.edu/~tristanb/` (publications list: `~tristanb/publications/`) — a
+  `~buckmaster/` guess 403's; verified live via `WebFetch` this session.**
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
 - IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops)
@@ -296,6 +298,12 @@ reports, no recurrence): proofsandprompts.com, anima-ai.org, preprints.org, zeno
   at the dawn of a new era" (covering the Fauzan ζ(5) claim), first seen 2026-09-25 — discovered via
   WebSearch while chasing the ζ(5) claim; access via direct URL, no feed found yet (check on next
   sighting). HELD below the ≥2 bar (1 sighting).
+- galoisrepresentations.org ("Persiflage", a pseudonymous research-mathematician blog — a University
+  of Chicago math professor) — 1 — commentary on the Fauzan ζ(5)-irrationality claim (2026-09-24),
+  first seen 2026-09-28 — discovered via WebSearch while chasing the ζ(5) claim's vetting status;
+  a credible number-theory research blog with the same pointer-surface value as Tao/Kalai/Woit;
+  access via direct URL, no feed located yet (check on next sighting). HELD below the ≥2 bar
+  (1 sighting).
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
