@@ -2298,3 +2298,90 @@ traces technique to prior literature; new source-discovery candidate staged, gal
 capture-leak: 21 ids checked this session (mechanical sweep against reports/2026-09-23,24,25) / 0
 queued (all 21 confirmed already present in evidence/queue/study_shelf — 0 leaked). README.md
 regenerated in the same commit.
+
+- 2026-09-29 (daily). Load-state: local branch already exactly at `origin/main` tip (9fb51aa).
+  Orphan-branch check found `claude/modest-bohr-9415kc` and `claude/peaceful-faraday-n2ehd0` have
+  NO common git ancestor with `main` or each other (`git merge-base` returns nothing for every
+  pair) — a change from 09-28's "0 commits ahead, fully contained" finding. Investigated: each
+  branch's tip `TRENDS.md` trend-header set is a strict subset of the next branch's (9415kc's 2
+  headers ⊂ peaceful-faraday's 3 ⊂ main's 3-at-Aug11), and main's Aug-11 root commit already
+  contains the full accumulated file tree (skills, AGENTS.md, SOURCES.md) — conclusive evidence
+  these are sequential predecessor states whose content is already folded into main via prior
+  environment-level history resets (orphan re-roots), not divergent work needing a merge. No
+  content is missing; merging unrelated histories would be destructive/spurious, so none attempted.
+  No action needed beyond this note; not curator-notification-worthy (no data at risk, no rejected
+  push). Tooling: `tvly` reinstalled, `tvly search` still account-quota-exhausted (7th+ consecutive
+  occurrence including the W39 weekly escalation) — not re-escalated (already flagged, no new
+  threshold crossed); full session on WebFetch/direct `curl` per the fallback clause.
+  Primary sweep (radar-source-sweep): full in-scope math category set (all 22 RSS feeds: CO NT AG
+  AC RA KT AT GT DG SG AP FA CA CV PR RT DS LO OA OC MG GR, 1497 fresh titles) + full physics
+  category set (14 feeds: hep-th hep-ph gr-qc quant-ph math-ph cond-mat.str-el/mes-hall/supr-con
+  astro-ph.CO/HE nucl-th nucl-ex hep-ex nlin.SI, 1106 fresh titles) fetched via plain `curl` and
+  keyword-triaged (conjectur/proof/disprov/resolv/counterexample/refut/discover/breakthrough/
+  classif/solv). A RICH batch: captured Graham's rearrangement conjecture's resolution (via the
+  Quanta digest pointer, below, then verified the underlying 4 arXiv ids in this sweep's own
+  math.NT/CO cross-listings), the Lean-Perelman-Poincaré formalization (2609.33842, math.DG), the
+  Kaplansky semifield-conjecture disproof (2609.32651, math.RA/CO), a v2 resurfacing of Miyanishi's
+  conjecture proof (2602.16168, math.AG — v1 from Feb missed, capture-leak catch), the dominating
+  Hadwiger conjecture disproof (2609.35361), Erdős Problem #306 solved (2609.32140), and three
+  AI-assisted-math-wave watch items (Qin's quasimodularity conjecture 2609.33884 "with GPT-5.6
+  Sol," Talagrand's Conjecture 9.1 2609.33644, 7-adic Galois images 2609.35460). Experiments &
+  journals: CERN Courier, Fermilab, Simons Foundation (RSS, `curl`), LIGO (`curl` on plain `/news`
+  — healed, still GWTC-5.0 newest, unchanged), CERN `/feed/`, IceCube category-feed, PRL/PRX/RMP
+  (RSS), Quantum journal (RSS), cims.nyu.edu `~tristanb/publications/` (unchanged since 09-07/08)
+  all opened via plain `curl` — routine/on-file, no new capture beyond the CERN Z-boson item
+  (already tracked 09-18). INSPIRE-HEP (API) — same noisy conference-proceedings pattern, no
+  on-axis yield. SciPost — DEGRADED AGAIN this session: both the API and individual article pages
+  (SciPostPhys.21.3.076-078, tried directly) serve the Anubis bot-check challenge again (the 09-25
+  heal did not hold); the `sitemap.xml` partial workaround still confirms EXISTENCE (.21.3 advanced
+  075→078, PhysCore .9.3 advanced 060→062) but not titles — single-daily degradation so far, not
+  yet heal-owed (re-test next session). Nature Physics + Nature Communications (Googlebot-UA
+  article-page workaround, still holding) — 8/8 + 8/8 titles recovered, all routine QFT-quantum-
+  computer-simulation/condensed-matter (NPhys) and off-axis biology/chemistry (NComms), none
+  on-axis. Science Advances — not independently chased this session (`tvly` unavailable for its
+  usual search-based access method; no PMC-mirror lead to chase without a named article) — logged
+  degraded: no access path this session, watch for a WebSearch-based route next time. Community
+  pulse (radar-pulse): Hacker News front page (Algolia API) — zero math/physics stories (general
+  tech/misc). MathOverflow (Atom) — 30 entries; one genuine engagement signal, a research-level
+  question relating Fauzan's ζ(5) construction to Francis Brown's motivic framework (note appended
+  to the ζ(5) trend). Physics Stack Exchange (Atom) — routine intro-physics questions, nothing
+  pointing to an unopened primary. Mathstodon (public timeline API) — generic federated noise, no
+  research content. Reddit r/math + r/mathematics (`curl`) — still hard-blocked ("Blocked" page,
+  11th+ consecutive week, standing escalated issue, not re-escalated). Digest/explainer blogs:
+  Quanta (RSS) — HEADLINE CATCH, "Mathematicians Harness Randomness To Crack a 55-Year-Old
+  Conjecture" (2026-09-28), chased to Graham's rearrangement conjecture's 4-paper resolution chain,
+  new seed trend + study_shelf; "Mathematicians Build Long-Awaited Graph Sandwich" re-surfaced but
+  already captured 09-21 (Kim-Vu sandwich conjecture), no leak. Tao's blog (RSS) — unchanged since
+  09-25 (same 6 AI/community-governance posts, no new discrete primary). Woit/Not Even Wrong (RSS)
+  — unchanged since 09-25 ("Some HEP-TH News" still newest). Gil Kalai's blog (RSS) — the
+  percolation-critical-probability post (09-03) and the simplex-cube-conjecture post (09-11) both
+  re-surfaced in the feed window but are already tracked (percolation: queue since 09-04, github.com/
+  anthropics/formal-math; simplex-cube: queue since ~09-11 via arXiv:2609.00397) — confirmed no
+  leak via a targeted grep. Gowers, Baez/n-Category Café (`curl -A "Mozilla/5.0"`), Strassler,
+  Backreaction all opened — no posts newer than what's already on file (Strassler still dormant
+  since Feb; Backreaction's newest, the graphite RTSC claim, already tracked 09-28). GitHub watch
+  (radar-repo-watch): `releases.atom` for lean4/mathlib4/rocq-prover/rocq still session-proxy-scoped
+  (403, "sessions are bound to their configured repositories") — `WebFetch` on the plain `.atom`
+  URLs worked for all three (lean4 v4.35.0-rc3 + v4.34.1 both 09-24, Rocq 9.3.0, mathlib4 through
+  master-2026-09-28 — all unchanged/already on file, routine toolchain versioning, not queued).
+  `github.com/anthropics/formal-math` commit history (`WebFetch`) — no activity since 09-05
+  (dependency bump), unchanged. `github.com/anthropics` org repo listing (`WebFetch`) — top-10 by
+  activity are all AI-tooling repos (skills, claude-code, SDKs), no new formal-math repo surfaced.
+  Exploration slot (radar-explore, OFF-AXIS rotation): cs.CC (computational complexity) — 38 fresh
+  entries read regardless of sub-topic; one AI-assisted-math-wave-adjacent item found ("New lower
+  bounds on tensor rank... with GPT-6," 2609.14393, queued unverified — title/authors only, abstract
+  not opened); otherwise routine complexity-theory titles, ending the 2-week off-axis-zero-yield
+  watch flagged in `logs/strategy_notes.md` (one genuine hit this session, below the "significant
+  landmark" bar but non-zero). Self-healing: none needed this session beyond the standing SciPost/
+  Reddit/tvly/Science-Advances degradations already logged above (no new repeat-failure source
+  found a fresh avenue). Ledger changes: +1 new seed trend (Graham's rearrangement conjecture,
+  `high` confidence — multi-group DIRECTION bar cleanly met); +1 note on the ζ(5) trend (MathOverflow
+  engagement); queue +9 (Lean-Poincaré formalization, Kaplansky disproof, Miyanishi proof,
+  dominating-Hadwiger disproof, Erdős #306, Qin's quasimodularity conjecture, Talagrand's Conjecture
+  9.1, 7-adic Galois images, GPT-6 tensor-rank paper) / 0 dropped → 246→255 (well over the ~40 soft
+  cap — flagged again for the weekly's attention, per 09-28's standing note; not pruned per the
+  "do not aggressively burn down a slow queue" rule). study_shelf +2 (Lean-Poincaré formalization;
+  Graham's rearrangement conjecture resolution). capture-leak: 9 ids checked this session
+  (mechanical sweep against reports/2026-09-28, plus self-check on today's own 13 new ids) / 0
+  queued (all confirmed present in their own evidence/queue/study_shelf lines — 0 leaked).
+  README.md regenerated in the same commit.

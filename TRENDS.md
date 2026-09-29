@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-28
+Last updated: 2026-09-29
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1104,6 +1104,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     substance/provenance rather than a bare reaction. Neither confirms nor refutes correctness; a
     genuine vetting SIGNAL (authorship-honesty concern + provenance work), not an OUTCOME. Confidence
     held medium; stage held seed. Post opened directly this session.
+  - 2026-09-29 (daily): further research-level engagement — a MathOverflow question ("On the recent
+    irrationality proof for ζ(5)," asked 2026-09-25, https://mathoverflow.net/questions/515519)
+    treats Fauzan's Hankel-determinant construction as a serious object, asking whether it embeds in
+    Francis Brown's motivic/moduli-space framework for irrationality proofs — implicit substantive
+    engagement (not dismissal), still no referee outcome. Confidence held medium; stage held seed.
+    Question opened directly this session.
 
 ### Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)
 - stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
@@ -1193,8 +1199,96 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   statement decades ago and Maynard co-proved the homogeneous case in 2020 — high-credibility
   disproof. Watch for a third group or community/referee reaction.
 
+### Resolution of Graham's rearrangement conjecture (additive combinatorics)
+- stage: seed | confidence: high | first_seen: 2026-09-29 | last_evidence: 2026-02-17
+- what: Ronald Graham's 1971 conjecture — that any sequence of distinct nonzero residues mod a
+  prime p can be reordered so that all partial sums are distinct — is fully resolved via a
+  four-paper chain spanning four independent author groups (2022-2026), each extending the
+  randomized method further, closing with a February 2026 paper giving the general case. Meets
+  the multi-group DIRECTION bar directly (≥3 independent groups + concrete artifacts), not only
+  the domain's landmark-single-result adaptation.
+- evidence:
+  - 2022-04-20 — https://arxiv.org/abs/2204.09666 — Müyesser, Pokrovskiy, "A random Hall-Paige
+    conjecture": the randomized method later adapted to Graham's conjecture (abstract + authors
+    verified via arXiv API this session).
+  - 2024-09-11 — https://arxiv.org/abs/2409.07403 — Bedert, Kravitz, "Graham's rearrangement
+    conjecture beyond the rectification barrier" (abstract + authors verified via arXiv API this
+    session).
+  - 2025-08-25 — https://arxiv.org/abs/2508.18254 — Bedert, Bucić, Kravitz, Montgomery, Müyesser,
+    "On Graham's rearrangement conjecture over $\mathbb{F}_2^n$" (abstract + authors verified via
+    arXiv API this session).
+  - 2026-02-17 — https://arxiv.org/abs/2602.15797 — Pham, Sauermann, "On Graham's rearrangement
+    conjecture": the general case, officially closing the 55-year-old problem (abstract + authors
+    verified via arXiv API this session).
+- notes: 2026-09-29 (daily, seed creation): caught via a Quanta Magazine piece ("Mathematicians
+  Harness Randomness To Crack a 55-Year-Old Conjecture," 2026-09-28, Shalma Wegsman) found in the
+  community-pulse digest sweep; all four arXiv ids opened and verified this session (a ~7-month-old
+  capture-leak catch on the final paper, which posted quietly in February). Four distinct author
+  groups across four years is itself a DIRECTION-bar case, seeded at `high` confidence given the
+  closing paper plus named-expert corroboration (Noga Alon, quoted in the Quanta piece, on the
+  proof's significance). Watch for follow-on generalizations (the conjecture's higher-order/
+  non-prime-modulus variants).
+
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-09-29 (v1) — Ziyang Qin, Yuan Liao, Ayush Khaitan, Bennett Chow, "A Lean Formalization of the
+  Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture" —
+  https://arxiv.org/abs/2609.33842 — computer-assisted/formalized math (axis 5): formalizes the
+  smooth 3D Poincaré conjecture (Ricci flow with surgery + finite-time extinction) plus the Moise
+  smoothing theorem, yielding the topological 3D Poincaré conjecture — a formalization landmark on
+  the scale of the already-tracked Lean FLT proof. Single-group, unrefereed (no independent
+  verification of the Lean artifact yet, unlike FLT's Buzzard confirmation) — domain-cadence landmark
+  candidate, held at queue pending independent scrutiny (per the FLT-in-Lean precedent, also on
+  `study_shelf`). Abstract + authors verified via arXiv API this session.
+- 2026-09-29 (v1) — Gábor P. Nagy, Yue Zhou, "Semifields in prime dimensions and counterexamples to
+  Kaplansky's conjecture" — https://arxiv.org/abs/2609.32651 — algebra (axis 1, math.RA/CO): disproves
+  Kaplansky's 1975 conjecture that every 5-dimensional division algebra over a sufficiently large
+  finite field is a field or twisted field, via an explicit semifield construction for all primes
+  q≡1 mod 3 and coprime-to-6 dimensions ≥5. A 50-year-old named conjecture disproved; single-group,
+  unrefereed — domain-cadence landmark candidate, held at queue pending referee/community reaction
+  (flagged for weekly reconsideration). Abstract + authors verified via arXiv API this session.
+- 2026-09-29 (v2, orig. 2026-02) — Supravat Sarkar, "Proof of Miyanishi's conjecture on endomorphisms
+  of varieties" — https://arxiv.org/abs/2602.16168 — algebraic geometry (axis 1, math.AG): proves
+  that a birational endomorphism of a quasi-projective variety, injective outside codimension ≥2,
+  must be an automorphism — generalizing Ax's theorem and resolving Miyanishi's conjecture. A
+  ~7-month-old v1 resurfaced as v2 in today's math.AG sweep (capture-leak catch — v1 missed by prior
+  title-keyword sweeps). Single-author, unrefereed. Abstract + author verified via arXiv API this
+  session.
+- 2026-09-29 (v1) — Freddie Illingworth, Raphael Steiner, "Disproof of the dominating Hadwiger
+  conjecture" — https://arxiv.org/abs/2609.35361 — extremal graph theory (axis 1, math.CO): disproves
+  the "dominating" strengthening of Hadwiger's conjecture that Illingworth-Wood themselves posed in
+  2024 — a recent (2-year-old), not long-standing, open question, so below the domain's landmark bar
+  despite resolving a named conjecture; the ORIGINAL 1943 Hadwiger conjecture remains open. Abstract
+  + authors verified via arXiv API this session.
+- 2026-09-29 (v1) — Shisheng Li, "Unit fractions with semiprime denominators: an elementary proof of
+  Erdős Problem #306" — https://arxiv.org/abs/2609.32140 — combinatorial number theory (axis 1,
+  math.NT/CO): proves every positive rational a/b with b squarefree is a finite sum of distinct unit
+  fractions 1/n with each n a semiprime, resolving a cataloged open Erdős problem. Single-author,
+  unrefereed. Abstract + author verified via arXiv API this session.
+- 2026-09-29 (v1) — Victor Alekseev, Avik Chakravarty, Daebeom Choi, Shengjing Xu, "Qin's
+  quasimodularity conjecture for Hilbert schemes of points" — https://arxiv.org/abs/2609.33884 —
+  algebraic geometry / enumerative geometry (axis 1, math.AG), AI-WATCH: proves Qin's conjecture on
+  quasimodularity of tautological-bundle intersection numbers on Hilbert schemes of points, explicitly
+  "with the help of GPT-5.6 Sol" — track the math result, not the AI method, per AI-assisted-math-wave
+  watch. Abstract + authors verified via arXiv API this session.
+- 2026-09-29 (v1) — Jinyoung Park, Michel Talagrand, "AI's solution of Conjecture 9.1" —
+  https://arxiv.org/abs/2609.33644 — probability / combinatorics (axis 1, math.CO/PR), AI-WATCH: an
+  AI model provides a proof of one of Talagrand's (Abel Prize 2024) own "daring conjectures," written
+  up by Park and Talagrand — track the math result, not the AI method. Abstract + authors verified
+  via arXiv API this session.
+- 2026-09-29 (v1) — Tho Nguyen Xuan, "Complete classification of 7-adic Galois images for non-CM
+  elliptic curves over Q" — https://arxiv.org/abs/2609.35460 — arithmetic geometry (axis 1, math.NT),
+  AI-WATCH: solves Conjecture 1.6 of Furio-Lombardo (2026) via, per the author's own account, "a long
+  AI-training period... working alone" — a recent (2026) conjecture, not long-standing, and an
+  unusual solo AI-assisted disclosure worth tracking for the AI-assisted-math-wave watch rather than
+  as a landmark in its own right. Abstract + author verified via arXiv API this session.
+- 2026-09-29 (v1, found via the cs.CC off-axis exploration slot) — "New lower bounds on tensor rank
+  of (n,2,m) matrix multiplication with GPT-6" — https://arxiv.org/abs/2609.14393 — computational
+  complexity / algebraic complexity (off-axis, cs.CC, adjacent to math math.CO/AG), AI-WATCH:
+  explicitly GPT-6-assisted matrix-multiplication tensor-rank lower bounds, the same
+  AI-assisted-math-wave pattern as the tracked Ramsey/OpenAI and Hilbert-scheme/GPT items above,
+  discovered off-axis rather than in the math category-rotation. Abstract not independently opened
+  this session (title/authors from the RSS listing only) — flagged unverified.
 - 2026-09-25 (v1) — Antonio Trusiani, "On the transcendental Yau-Tian-Donaldson Conjecture" —
   https://arxiv.org/abs/2609.31089 — Kähler geometry (axis 1, math.AG/DG): proves the (uniform)
   Yau-Tian-Donaldson conjecture for transcendental Kähler classes in the trivial-automorphisms case,
@@ -3967,6 +4061,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-28 (v1; shelf-added 2026-09-29) — [A Lean Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture (Qin, Liao, Khaitan, Chow)](https://arxiv.org/abs/2609.33842)
+  — formalizes the full Ricci-flow-with-surgery proof of the smooth (and, via Moise smoothing, the
+  topological) 3D Poincaré conjecture in Lean; a formalization landmark on the scale of the
+  already-shelved Lean FLT proof. Unrefereed, no independent verification of the artifact yet — see
+  `observation_queue`.
+- 2026-02-17 (final paper; shelf-added 2026-09-29) — [Resolution of Graham's rearrangement conjecture (Pham, Sauermann, closing a 4-paper, 4-group chain from 2022-2026)](https://arxiv.org/abs/2602.15797)
+  — a 1971 conjecture on rearranging residues mod p so all partial sums are distinct, resolved
+  across four independent groups' papers; caught via a 2026-09-28 Quanta piece. Also a new `seed`
+  trend.
 - 2026-09-14 (v1; shelf-added 2026-09-28) — [Two proofs of the Cassels–Swinnerton-Dyer conjecture for cubic surfaces (Alexeev, Schreieder)](https://arxiv.org/abs/2609.15930)
   — completes a ~50-year reduction chain (Coray 1976, Voisin 2026) to resolve the Cassels–
   Swinnerton-Dyer conjecture for smooth cubic surfaces over arbitrary fields. Also a new `seed` trend.

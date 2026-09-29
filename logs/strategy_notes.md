@@ -1521,3 +1521,30 @@ Corrections to the source-coverage strategy.
   exploration reads should be watched closely; if the pattern holds, consider redirecting off the
   current roster (math.DS/OC/LO/OA/DG/NA/cs.CC/nlin/q-bio/econ) toward a genuinely different kind of
   venue (e.g. a non-arXiv discovery surface) rather than another rotation category.
+
+- 2026-09-29 (daily) — Repo-hygiene observation, not an amendment: this session's orphan-branch
+  check found `claude/modest-bohr-9415kc` and `claude/peaceful-faraday-n2ehd0` now share NO common
+  git ancestor with `main` (a regression from 09-28's "fully contained" finding). Investigation
+  (trend-header subset comparison + main's Aug-11 root commit already containing the full
+  accumulated file tree) confirms these are pre-existing predecessor states from earlier
+  environment-level history resets, already superseded by main's content — not lost work. No
+  merge attempted (would be destructive/spurious against unrelated histories); flagging only so a
+  future session doesn't waste a cycle attempting a merge if the same disconnected-ancestry state
+  recurs. See today's `logs/source_rotation.md` entry for the detail.
+- 2026-09-29 (daily) — `observation_queue` growth: 246→255 this session (9 genuinely new below-bar
+  landmark-candidate/AI-watch items routed, 0 dropped), now well past the ~40 soft cap flagged
+  09-28. Per AGENTS.md this is not itself a fault (low intake means persistence is correct
+  behavior), but the gap between the nominal soft cap and actual size (6x+) suggests the cap
+  itself may need recalibrating for this domain's actual sustained intake rate, or the weekly
+  needs a genuine (non-aggressive, promote-or-drop-with-reason) pass targeting the oldest
+  never-reopened title-only entries. Flagged for the next weekly self-eval to size up, not
+  proposed as an amendment yet (one data point on the growth rate is not enough to size a new
+  cap).
+- 2026-09-29 (daily) — Off-axis exploration streak resolved: cs.CC (today's rotation pick) found
+  one AI-assisted-math-wave-adjacent item (a GPT-6 tensor-rank paper, queued unverified), ending
+  the 2-consecutive-zero-yield watch from 09-25/09-28 before it reached the "2-week pattern"
+  redirect threshold. No rotation change needed.
+- 2026-09-29 (daily) — SciPost's Anubis bot-check DEGRADED AGAIN (API + article pages both
+  challenge-walled), reversing the 09-25 heal; the `sitemap.xml` workaround still proves
+  existence-of-new-publications but not titles. Single-daily so far, not yet heal-owed (3-daily
+  bar) — re-test next session before escalating.
