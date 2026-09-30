@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-12-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-255-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--29-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-12-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-262-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--30-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-29):**
-- **New seed trend**: [Graham's 1971 rearrangement conjecture fully resolved](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics), closing a four-paper, four-independent-group chain (2022-2026) — caught via a Quanta Magazine feature; final paper [here](https://arxiv.org/abs/2602.15797).
-- New study-shelf picks: [a Lean formalization of the Hamilton–Perelman proof of the 3D Poincaré conjecture](https://arxiv.org/abs/2609.33842) — a formalization landmark on the scale of the already-shelved Lean FLT proof — and the Graham's-conjecture resolution (above).
-- Watchlist +9, led by two more 50-year-old named-conjecture landmarks: [Kaplansky's 1975 semifield conjecture disproved](https://arxiv.org/abs/2609.32651), and [Miyanishi's conjecture on variety endomorphisms proved](https://arxiv.org/abs/2602.16168) (a ~7-month-old capture-leak catch); plus three AI-assisted-math-wave watch items (Qin's quasimodularity conjecture, Talagrand's Conjecture 9.1, a GPT-6 tensor-rank paper).
-- [ζ(5) irrationality](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) watch: a MathOverflow thread treats the construction as serious enough to relate to Francis Brown's motivic framework for irrationality proofs — further research-level engagement, still no referee outcome.
+**Since last scan (2026-09-30):**
+- New study-shelf pick: [a possible peer-reviewed (PRL) resolution of the 30-year gallium anomaly](https://arxiv.org/abs/2512.20560) via a revised neutrino-capture cross-section, without invoking sterile-neutrino new physics — a theoretical proposal, not yet an experimental confirmation.
+- Watchlist +7, a cluster of long-standing named-conjecture landmarks: [Fishburn's 1987 latent-subset conjecture proved](https://arxiv.org/abs/2609.35920), [Smyth's ~55-year-old Mahler-measure trinomial conjecture proved](https://arxiv.org/abs/2609.37886), and [Goss's conjecture on cyclotomic-function-field L-functions disproved](https://arxiv.org/abs/2609.37466); plus three partial/special-case results (Boston's Unramified Conjecture for GL₂, O'Grady's Franchetta conjecture, the Berry-Esseen Constant Conjecture).
+- No new seed trend or stage move today — a quiet-but-rich queue day, typical of this domain's cadence.
+- [ζ(5) irrationality](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) watch: no new development since 09-24 — chased again this session, still no referee outcome.
 
 ## Trends
 
@@ -31,6 +31,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-09-24 (PRL publication; v1 2025-12; shelf-added 2026-09-30) — [A possible resolution of the gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis)](https://arxiv.org/abs/2512.20560) — a revised, peer-reviewed (PRL) neutrino-capture cross-section calculation that potentially closes a ~30-year, >5σ discrepancy (GALLEX/SAGE/BEST) without new physics; found via the PRL RSS sweep. Theoretical proposal, not yet an experimental confirmation — see the watchlist.
 - 2026-09-28 (v1; shelf-added 2026-09-29) — [A Lean Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture (Qin, Liao, Khaitan, Chow)](https://arxiv.org/abs/2609.33842) — formalizes the full Ricci-flow-with-surgery proof of the smooth (and, via Moise smoothing, the topological) 3D Poincaré conjecture in Lean; a formalization landmark on the scale of the already-shelved Lean FLT proof. Unrefereed, no independent verification of the artifact yet — see the watchlist.
 - 2026-02-17 (final paper; shelf-added 2026-09-29) — [Resolution of Graham's rearrangement conjecture (Pham, Sauermann, closing a 4-paper, 4-group chain from 2022-2026)](https://arxiv.org/abs/2602.15797) — a 1971 conjecture on rearranging residues mod p so all partial sums are distinct, resolved across four independent groups' papers; caught via a 2026-09-28 Quanta piece. Also a new seed trend, above.
 - 2026-09-14 (v1; shelf-added 2026-09-28) — [Two proofs of the Cassels–Swinnerton-Dyer conjecture for cubic surfaces (Alexeev, Schreieder)](https://arxiv.org/abs/2609.15930) — completes a ~50-year reduction chain (Coray 1976, Voisin 2026) to resolve the Cassels– Swinnerton-Dyer conjecture for smooth cubic surfaces over arbitrary fields. Also a new seed trend, above.
@@ -140,10 +141,10 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 ## Community pulse
 
-- [Gil Kalai's blog](https://gilkalai.wordpress.com/) and [Quanta Magazine](https://www.quantamagazine.org/) both pointed to this week's landmark resolutions (Graham's rearrangement conjecture, the simplex-cube conjecture, the Kozma-Nitzan percolation claim) — all already tracked, no new leak found.
-- [MathOverflow](https://mathoverflow.net/) carried one genuine research-level engagement with the ζ(5) irrationality claim, now noted on that trend.
-- Hacker News, Physics Stack Exchange and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic this session; [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (11+ weeks running).
+- [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) and [Backreaction](https://backreaction.blogspot.com/) both chased headline stories this session (the OpenAI/Buckmaster-Alpöge Navier-Stokes transparency debate; the Feynman path-integral test) — both already fully tracked, no new leak found.
+- [Gil Kalai's blog](https://gilkalai.wordpress.com/) posted his own retrospective on his 2006 depolarizing-noise conjecture — still open, not a resolution, more quantum-computing-technology-adjacent than physics-foundations.
+- Hacker News, MathOverflow, Physics Stack Exchange and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic this session; [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (12+ weeks running).
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (255) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-29](reports/2026-09-29.md)) · Weekly: [2026-W39](reports/weekly/2026-W39.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (262) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-30](reports/2026-09-30.md)) · Weekly: [2026-W39](reports/weekly/2026-W39.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

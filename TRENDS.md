@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-29
+Last updated: 2026-09-30
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -4044,6 +4044,49 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   HEAVY CAVEATS (hype-skepticism rule): single-group, unrefereed, an extraordinary claim tied to a
   non-standard dark-matter model — provisional pending independent analysis of the same JWST data.
   Abstract + authors verified via direct arXiv page this session.
+- 2026-09-30 (v1) — [Proof of Fishburn's latent-subset conjecture (Yuxian Dong, Jianxi Mao)](https://arxiv.org/abs/2609.35920)
+  — combinatorics (axis 1, math.CO): proves Peter Fishburn's 1987 (revisited 1988) latent-subset
+  conjecture on dual intersecting families, via the recent Chang-Liu-Liu weighted star inequality.
+  Domain-cadence landmark candidate (a 39-year-old named conjecture); single-group, unrefereed —
+  queued pending referee/community reaction. Abstract + authors verified via arXiv API this session.
+- 2026-09-30 (v1) — [Smyth's Conjecture on the Mahler Measure of non-reciprocal trinomials of height 1 (Paul M. Voutier)](https://arxiv.org/abs/2609.37886)
+  — number theory (axis 1, math.NT/CA): proves Chris Smyth's ~55-year-old conjecture (dating to his
+  1971 extremal-Mahler-measure result) on exactly when non-reciprocal height-1 trinomials have Mahler
+  measure above ρ=1.381356…, the conjectured smallest limit point for non-reciprocal polynomials
+  (vintage confirmed via a WebSearch cross-check this session: Smyth 1971, partial progress by
+  Dubickas 2013). Domain-cadence landmark candidate; single-author, unrefereed — queued pending
+  referee/community reaction. Abstract + author verified via arXiv API this session.
+- 2026-09-30 (v1) — [An infinite family of counterexamples to Goss's conjecture on L-functions of cyclotomic function fields (David Niedbala Giraudin)](https://arxiv.org/abs/2609.37466)
+  — number theory (axis 1, math.NT): disproves David Goss's conjecture (a function-field analogue of
+  Vandiver's conjecture, raised as an open problem by Angles) bounding the degree of the "≡1 mod p"
+  part of certain Artin L-functions. Single-author, unrefereed, specialist function-field-arithmetic
+  audience — below the general landmark bar (vintage/prominence not established as comparable to the
+  other items here) — queued. Abstract + author verified via arXiv API this session.
+- 2026-09-30 (v1) — [On Boston's Unramified Conjecture for GL_2 and McLeman's (3,3)-Conjecture (Yufan Luo)](https://arxiv.org/abs/2609.37252)
+  — number theory (axis 1, math.NT): proves the two-dimensional odd case of Nigel Boston's
+  strengthening of the unramified Fontaine-Mazur conjecture (building on recent work of Zhang) — a
+  partial/special case, not a general resolution, so below the landmark bar. Single-author,
+  unrefereed. Abstract + author verified via arXiv API this session.
+- 2026-09-30 (v1) — [Rationally connectedness and O'Grady's generalized Franchetta conjecture for K3 surfaces (Yuan Lu)](https://arxiv.org/abs/2609.36909)
+  — algebraic geometry (axis 1, math.AG): gives an affirmative answer to O'Grady's generalized
+  Franchetta conjecture (codimension-two cycles on universal K3 surfaces restrict to a multiple of
+  the Beauville-Voisin class) when the universal K3 surface is rationally connected, incl. genus 22 —
+  a partial/special case via Bergeron-Li's cohomology result, not a general resolution. Single-author,
+  unrefereed. Abstract + author verified via arXiv API this session.
+- 2026-09-30 (v1) — [The Berry-Esseen Constant Conjecture is Eventually True (Hengzhi He, Guang Cheng)](https://arxiv.org/abs/2609.06358)
+  — probability (axis 1, math.PR/ST): proves Esseen's 1956 conjectured optimal constant (0.4097…) in
+  the iid Berry-Esseen inequality holds for all sample sizes n ≥ N, for a universal (astronomically
+  large, N = 2⌈exp(10^17)⌉) threshold — a qualified/asymptotic resolution of a ~70-year-old conjecture,
+  not the full finite-n statement, so below the landmark bar. Single-group, unrefereed. Abstract +
+  authors verified via arXiv API this session.
+- 2026-09-30 — [A possible resolution of the 30-year gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis; Phys. Rev. Lett., published 2026-09-24)](https://arxiv.org/abs/2512.20560)
+  — phenomenological/experimental physics (axis 3, hep-ph): a revised neutrino-capture cross-section
+  calculation (moving beyond the standard leptonic wave-function factorization) that "potentially
+  resolves" the ~30-year, >5σ gallium anomaly (GALLEX/SAGE/BEST) without invoking sterile-neutrino new
+  physics. Found via the PRL RSS sweep (published 2026-09-24, arXiv preprint originally 2025-12).
+  PEER-REVIEWED (PRL) but a single-group theoretical proposal, not yet an experimental confirmation
+  that the anomaly is closed — vetting outcome to watch. Abstract + authors verified via arXiv API
+  this session.
 
 ## source_rotation
 
@@ -4061,6 +4104,10 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-24 (PRL publication; v1 2025-12; shelf-added 2026-09-30) — [A possible resolution of the gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis)](https://arxiv.org/abs/2512.20560)
+  — a revised, peer-reviewed (PRL) neutrino-capture cross-section calculation that potentially closes
+  a ~30-year, >5σ discrepancy (GALLEX/SAGE/BEST) without new physics; found via the PRL RSS sweep.
+  Theoretical proposal, not yet an experimental confirmation — see `observation_queue`.
 - 2026-09-28 (v1; shelf-added 2026-09-29) — [A Lean Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture (Qin, Liao, Khaitan, Chow)](https://arxiv.org/abs/2609.33842)
   — formalizes the full Ricci-flow-with-surgery proof of the smooth (and, via Moise smoothing, the
   topological) 3D Poincaré conjecture in Lean; a formalization landmark on the scale of the

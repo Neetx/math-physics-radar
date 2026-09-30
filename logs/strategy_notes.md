@@ -1548,3 +1548,19 @@ Corrections to the source-coverage strategy.
   challenge-walled), reversing the 09-25 heal; the `sitemap.xml` workaround still proves
   existence-of-new-publications but not titles. Single-daily so far, not yet heal-owed (3-daily
   bar) — re-test next session before escalating.
+- 2026-09-30 (daily) — Process correction: this session's local git clone was SHALLOW
+  (`git rev-parse --is-shallow-repository` → true), which is why 09-29's orphan-branch check found
+  "no common ancestor" for `claude/modest-bohr-9415kc`/`claude/peaceful-faraday-n2ehd0` against
+  `main` — the shallow depth simply couldn't see the shared history, not an actual disconnected-
+  history state. This session ran `git fetch --unshallow` and re-checked: both branches ARE
+  ancestors of `main` (`git merge-base --is-ancestor` confirms). No data was ever at risk and no
+  merge was needed either day, but 09-29's "prior environment-level history reset" theory was
+  wrong — worth recording so a future session facing the same shallow-clone symptom unshallows
+  before concluding history was rewritten (which would otherwise look like a hard-rule violation).
+  Recommend the daily's "load state" step add `git rev-parse --is-shallow-repository` + unshallow
+  as a standing check before any orphan-branch conclusion — flagged as a candidate amendment for
+  the next weekly, not applied here (daily runs execute, only weekly amends routines).
+- 2026-09-30 (daily) — SciPost API healed again this session (2nd flip since 09-25: healed→
+  degraded 09-29→healed 09-30), no Anubis challenge. Two flips in two days suggests the block is
+  intermittent/load-dependent rather than a stable state; not yet worth a dedicated heal action
+  (nothing to fix when it's already working), but worth the weekly noting if a 3rd flip occurs.

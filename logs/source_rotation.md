@@ -2385,3 +2385,89 @@ regenerated in the same commit.
   (mechanical sweep against reports/2026-09-28, plus self-check on today's own 13 new ids) / 0
   queued (all confirmed present in their own evidence/queue/study_shelf lines — 0 leaked).
   README.md regenerated in the same commit.
+
+- 2026-09-30 (daily). Load-state: local branch already exactly at `origin/main` tip (5bdce2e),
+  full unshallow fetch performed this session (was a shallow clone). Orphan-branch check re-run:
+  `claude/modest-bohr-9415kc` and `claude/peaceful-faraday-n2ehd0` ARE ancestors of `main`
+  (`git merge-base --is-ancestor` confirms both) once the full history is present — the 09-29
+  "no common ancestor" finding was a shallow-clone artifact (the local clone lacked the depth to
+  see the common history), not a real disconnected-history state. No merge needed, no data at
+  risk; corrects 09-29's speculative "prior environment-level history reset" theory. Tooling:
+  `tvly` not attempted this session (standing account-quota exhaustion, already escalated); full
+  session on WebFetch/WebSearch/direct `curl` per the fallback clause.
+  Primary sweep (radar-source-sweep): full in-scope math category set (22 RSS feeds: CO NT AG AC
+  RA KT AT GT DG SG AP FA CA CV PR RT DS LO OA OC MG GR, 788 fresh titles) + full physics category
+  set (14 feeds: hep-th hep-ph gr-qc quant-ph math-ph cond-mat.str-el/mes-hall/supr-con
+  astro-ph.CO/HE nucl-th nucl-ex hep-ex nlin.SI, 904 fresh titles) fetched via plain `curl` and
+  keyword-triaged. Captures: Fishburn's latent-subset conjecture proved (2609.35920, 1987
+  conjecture), Smyth's Mahler-measure trinomial conjecture proved (2609.37886, ~55-year-old,
+  vintage cross-checked via WebSearch), Goss's conjecture on cyclotomic-function-field L-functions
+  disproved (2609.37466), a partial (2D odd case) proof of Boston's Unramified Conjecture for GL_2
+  (2609.37252), a partial (rationally-connected case) resolution of O'Grady's generalized
+  Franchetta conjecture (2609.36909), and an asymptotic ("eventually true") resolution of the
+  Berry-Esseen Constant Conjecture (2609.06358) — all single-group/single-author unrefereed
+  preprints, routed to `observation_queue` per the established below-bar-landmark precedent (cf.
+  09-29's Kaplansky/Miyanishi/Hadwiger/Erdős#306 entries). Checked and confirmed NOT new: the
+  already-tracked Bilu–Linial signing-conjecture counterexample (2609.15591) resurfaced as v4, no
+  leak. Experiments & journals: CERN Courier, Fermilab, Simons Foundation, CERN `/feed/`, IceCube
+  category-feed all opened via plain `curl` — routine/on-file (Fermilab/Simons dominated by
+  quantum-computing-tech PR, off-axis; CERN's Z-boson-entanglement item still the already-tracked
+  09-18 story). LIGO (`curl -L` on plain `/news`) and DESI (`curl -L`) both opened — unchanged
+  (LIGO still GWTC-5.0 newest; DESI still April-2026 "3D Map" newest). PRL/PRX/RMP (RDF, plain
+  `curl`, 100+100+? items) — ONE genuine catch: "Possible Solution to the Gallium Anomaly Moving
+  beyond the Leptonic Wave-Function Factorization" (PRL, published 2026-09-24, arXiv:2512.20560,
+  originally posted 2025-12) — a peer-reviewed, single-group proposed resolution of a ~30-year,
+  >5σ neutrino-capture anomaly; queued + shelved. RMP's "Colloquium: The cosmic dipole anomaly"
+  checked and found to be a stale Dec-2025 entry still sitting in the feed window, not new —
+  correctly not captured. Quantum journal (RSS, 30 items) — routine. SciPost API — HEALED AGAIN
+  this session (no Anubis challenge, clean JSON; advanced to SciPostPhys.21.3.078/
+  SciPostPhysCore.9.3.062, both routine), reversing 09-29's degradation — 2 consecutive
+  degraded/healed flips now, worth a closer look if it recurs a 3rd time. Nature Physics + Nature
+  Communications (Googlebot-UA article-page workaround, still holding) — 7+7 titles recovered, all
+  routine condensed-matter/quantum-simulation (NPhys) and off-axis biology/materials/social-science
+  (NComms), none on-axis. INSPIRE-HEP (API, mostrecent) — same noisy pattern, no on-axis yield.
+  cims.nyu.edu (`~tristanb/publications/`, `curl -A "Mozilla/5.0"`) — unchanged since 09-07/09-08.
+  Science Advances — not independently chased this session (no working RSS, `tvly` unavailable,
+  WebSearch site-filtered query returned no on-topic hits) — logged degraded again, still no access
+  route found. AI-watch lane: openai.com/news 403'd via WebFetch (single-daily, not escalated,
+  `tvly`'s usual workaround unavailable); anthropic.com/research opened — only the already-tracked
+  FLT (09-04) and nine-loop (09-25) posts, no new item. Community pulse (radar-pulse): Reddit
+  r/math + r/mathematics (`curl`) — still hard-blocked (empty response, 12th+ consecutive week, not
+  re-escalated). Hacker News (Algolia front-page API) — zero math/physics stories (general
+  tech/misc). MathOverflow (Atom, 30 entries) and Physics Stack Exchange (Atom, 30 entries) —
+  routine research-level Q&A, nothing pointing to an unopened primary. Mathstodon (public timeline
+  API) — generic federated noise. Digest/explainer blogs: Quanta, Gowers, Baez/n-Category Café
+  (`curl -A "Mozilla/5.0"`), Strassler all opened — no post newer than what's already on file.
+  Tao's blog — new post "How AI does, and does not, change the way I do math" (AI/community-
+  governance commentary, no discrete new primary named, not queued individually, same
+  already-tracked ecosystem thread as 09-25/09-29). Woit/Not Even Wrong — HEADLINE CHASED: "A
+  Modest Proposal" (WebFetch) discusses the OpenAI Navier-Stokes Millennium-Problem claim and the
+  Buckmaster-Alpöge priority dispute in general terms (transparency advocacy) — confirmed via a
+  targeted capture-leak check that the entire OpenAI/Buckmaster-Alpöge Navier-Stokes saga is
+  already extensively tracked (queue since 2026-09-08); no new primary named, 0 leak. Gil Kalai's
+  blog — new post is Kalai's own arXiv survey (2609.33508, "The Fully Depolarizing Noise Conjecture
+  ... A Twenty-Year Perspective") revisiting his own OPEN 2006 conjecture — not a resolution, and
+  more QC-technology-adjacent (sibling quantum radar's beat) than physics-foundations; not queued.
+  Backreaction — HEADLINE CHASED: "FINALLY: A Proof that Particles Take All Paths At Once?"
+  (WebFetch) covers the Wen et al. Feynman-path-integral test, already tracked via Science Advances
+  (2026-09-25); no leak. GitHub watch (radar-repo-watch): `releases.atom` for lean4/mathlib4/
+  rocq-prover/rocq (`WebFetch`, direct `curl` still session-proxy-scoped) — lean4 unchanged
+  (v4.35.0-rc3 + v4.34.1, both 09-24), Rocq unchanged (9.3.0), mathlib4 through master-2026-09-29,
+  all routine/on-file. `github.com/orgs/anthropics` repo listing (`WebFetch`) — top repos all
+  AI-tooling, no new formal-math repo. Exploration slot (radar-explore, per 09-29's "Next" note):
+  math.LO (16 fresh entries, full read) — routine logic/set-theory titles, zero significant
+  off-axis yield; math.OC (97 entries, sampled ~85) also read as part of the full category sweep —
+  overwhelmingly ML/optimization-technique papers (explicitly off-scope per this radar's AI-method
+  exclusion), zero yield. Third-in-a-row weak off-axis read (following 09-25 math.NA 0/1, 09-28
+  math.NA 0/1 — note: 09-29's cs.CC read is the one exception with a genuine hit) — watch per the
+  standing anchoring-check rule; consider a non-arXiv discovery venue next if this continues.
+  ζ(5) daily chase: galoisrepresentations.org (Persiflage) and a WebSearch sweep both checked — no
+  new post/development since 09-24 (newest posts, "AI disclosures done right" 09-27 and "Roots of
+  Unity" 09-26, are unrelated). Self-healing: none needed beyond the standing degradations already
+  logged (SciPost flip-flopped healed again, Science Advances/openai.com/Reddit/tvly all unchanged
+  degraded states, none yet crossing a new heal-owed threshold). Queue: +7 (Fishburn, Smyth, Goss,
+  Boston-GL2, O'Grady-Franchetta, Berry-Esseen, gallium-anomaly) / 0 dropped → 255→262 (still well
+  over the ~40 soft cap, flagged again for the weekly). study_shelf +1 (gallium-anomaly PRL
+  publication). capture-leak: 27 ids checked this session (mechanical sweep against
+  reports/2026-09-25/28/29) / 0 queued (all 27 confirmed present in evidence/queue/study_shelf
+  lines — 0 leaked). README.md regenerated in the same commit.
