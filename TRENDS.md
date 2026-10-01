@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-09-30
+Last updated: 2026-10-01
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1228,6 +1228,49 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   closing paper plus named-expert corroboration (Noga Alon, quoted in the Quanta piece, on the
   proof's significance). Watch for follow-on generalizations (the conjecture's higher-order/
   non-prime-modulus variants).
+
+### The Hopf problem — a complex structure on S⁶ (Alpöge/Claude, 1947 problem)
+- stage: seed | confidence: medium | first_seen: 2026-10-01 | last_evidence: 2026-09-27
+- what: Heinz Hopf's 1947 problem — does the six-dimensional sphere S⁶ admit an integrable complex
+  structure? — one of the most famous open problems in differential geometry (Borel–Serre: only S²
+  and S⁶ even admit *almost*-complex structures). Levent Alpöge (Anthropic), using an internal
+  Claude model, self-published a claimed construction on 2026-08-23/24: a family of complex
+  threefolds diffeomorphic to S⁶, built from a (3,4,∞)-triangle-group modular family of 2-tori
+  completed at three special fibres. DOMAIN-CADENCE LANDMARK (resolution of a 79-year-old named
+  problem) — EXTREME unrefereed-preprint caution: off-arXiv, self-published, and this exact problem
+  has a troubled history (Gábor Etesi's 2015 *J. Math. Phys.* claim is now widely regarded as flawed
+  per the MathOverflow thread below). AI-WATCH: note the Claude assistance, track the mathematical
+  result.
+- evidence:
+  - 2026-08-23/24 — https://alpo.ge/s6.pdf — Alpöge (communicating a Claude-generated construction),
+    "The (3,4,∞) modular family of 2-tori, completed at its three special points, is a complex
+    structure on S⁶": the original manuscript. Opened directly this session (PDF fetched and read).
+  - 2026-08-27 — https://philip-engel.github.io/S6.pdf — Philip Engel (U. Illinois Chicago),
+    "Complex structures on S6": an independent expository write-up reconstructing and explaining the
+    geometric ideas of the construction (period maps, Kodaira fillings at the three special fibres).
+    Opened directly this session.
+  - 2026-09-27 — https://arxiv.org/abs/2609.33785 — Jeff Viaclovsky (UC Irvine), "A two-parameter
+    family of complex structures on S⁶": an INDEPENDENT arXiv paper constructing a second, different
+    two-parameter family of complex structures on S⁶ (from a rational elliptic surface with singular
+    fibers III*,I₁,I₁,I₁), explicitly built atop and contrasted with "the original Alpöge–Claude
+    examples" — the strongest peer-track-record corroboration signal found this session (an
+    established differential geometer treating the base construction as solid enough to extend).
+    Abstract + author verified via arXiv API this session.
+- notes: 2026-10-01 (daily, seed creation, COVERAGE-GAP): caught via a Scientific American piece
+  ("AI solves 79-year-old math mystery of six-dimensional spheres") found in today's community-pulse
+  digest sweep — a 5+ week-late capture (original claim 2026-08-23/24), flagged in today's report as
+  a genuine coverage miss, not a fresh find (none of alpo.ge/philip-engel.github.io/2609.33785 were
+  in `TRENDS.md` before today). Vetting status: Boris Alexeev (OpenAI) reportedly posted a Lean
+  formalization of the construction to GitHub on 2026-08-27 (per a MathOverflow answer — NOT
+  independently opened this session, so not logged as its own evidence line); MathOverflow's thread
+  on "Is there a complex structure on the 6-sphere?" shows a MIXED reaction — at least one answer
+  states "I do not think that proof is correct" — alongside Robert Bryant's (Duke) more cautiously
+  positive "there seems to be an emerging consensus that the construction is plausible" (quoted in
+  the Scientific American piece). Confidence held medium (not high): a real independent-mathematician
+  extension (Viaclovsky) plus a reported Lean formalization are meaningful technical signals, but
+  there is no completed peer review and open mathematician-level disagreement on correctness. Watch
+  for: a peer-reviewed outcome, direct confirmation/refutation from a named specialist, or the
+  Alexeev Lean repo opened and verified directly.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -4087,6 +4130,76 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   PEER-REVIEWED (PRL) but a single-group theoretical proposal, not yet an experimental confirmation
   that the anomaly is closed — vetting outcome to watch. Abstract + authors verified via arXiv API
   this session.
+- 2026-09-18 (v1) — Liudmyla Kryvonos, Lukas Liehr, Mitchell A. Taylor, "Energy minimization for eight
+  points on the sphere" — https://arxiv.org/abs/2609.22077 — discrete geometry / formalized math
+  (axes 1 + 5, math.MG): a computer-assisted, FULLY Lean-verified proof that the square antiprism is
+  the unique global minimizer for the Coulomb/logarithmic energy of 8 points on S² (part of the
+  Thomson-problem / Smale's-7th-problem family), plus a Lean-verified Riesz-energy generalization.
+  12-day-late capture (missed by the daily's prior math.MG sweeps) — flagged in today's capture-leak
+  note. Single-group but established authors, Lean-verified — domain-cadence landmark candidate, held
+  at queue (specific finite-N case, not the general open problem). Cross-reference: see the two
+  related N=7/N=8 items below (Vals AI; Tooby-Smith/Zughaid, unverified) — THREE roughly-simultaneous
+  independent efforts on the same narrow problem this month is a pattern worth watching for a future
+  DIRECTION-trend promotion once all three are independently opened. Abstract + authors verified via
+  arXiv API this session.
+- 2026-09-28 — "A Lean Proof of the Thomson Problem for Seven Electrons" (Vals AI blog; GitHub
+  github.com/huwngtran/thomson-n7-lean) — https://www.vals.ai/blogs/thomson-n7-lean-proof —
+  formalized math (axis 5) + AI-WATCH: ten Claude Sonnet 5.5 agents produced a 17,895-line Lean proof
+  (standard axioms only, independently re-verified by a second kernel implementation per the post)
+  that the pentagonal bipyramid uniquely minimizes Coulomb energy for 7 points on S² — the N=7 case of
+  the Thomson problem, building on the N=8 result above and a Lean development by Joseph Tooby-Smith
+  and Alex Zughaid (mentioned in the post but NOT independently opened this session — not logged as
+  its own queue line). AI-assisted: note the assistance, track the result — self-published by an AI
+  benchmarking company, not peer-reviewed; source-discovery candidate (vals.ai, staged in SOURCES.md).
+  Opened directly this session.
+- 2026-09-29 (v1) — Jonathan A. Noel, "The List Total Colouring Conjecture is False" —
+  https://arxiv.org/abs/2609.38417 — graph theory (axis 1, math.CO), AI-WATCH: a cubic graph with
+  total chromatic number 4 but list total chromatic number 5, disproving the late-1990s List Total
+  Colouring Conjecture (Borodin–Kostochka–Woodall; Juvan–Mohar–Škrekovski; Hilton–Johnson) — a
+  ~30-year-old named conjecture by three independent proposing groups. "ChatGPT 6 Astra Ultra
+  discovered the counterexample with little input from the author" per the abstract — note the AI
+  assistance, do not track the method. Single-author, unrefereed. Abstract + author verified via
+  arXiv API this session.
+- 2026-09-30 (v1) — Tung Nguyen, Bartosz Walczak, "On the solution to the Erdős–Hajnal problem on
+  high-girth high-chromatic subgraphs" — https://arxiv.org/abs/2609.40192 — extremal graph theory
+  (axis 1, math.CO): expository/optimizing paper on a 1960s Erdős–Hajnal problem (does every graph of
+  huge chromatic number contain a large-girth, large-chromatic subgraph?), reporting a "strong
+  negative solution" by Liam Kruer and Jensen Kohlmeyer and sharpening their bound from 6 to 3.
+  CAUTION: the underlying Kruer–Kohlmeyer negative solution is NOT on arXiv — it is hosted as a
+  formally-verified (Lean-based) submission on conjectures.io, tagged "Erdős Problem 108"; this
+  session located and read the Nguyen–Walczak arXiv exposition directly but did NOT independently
+  open/verify the conjectures.io submission itself (provenance/vetting status unclear — flagged
+  "unrefereed — claim," source-discovery staged in SOURCES.md). Abstract + authors verified via arXiv
+  API this session.
+- 2024-06-25 (v1); 2026-09-30 (v3) — Renato Calleja, Carlos García-Azpeitia, Olivier Hénot,
+  Jean-Philippe Lessard, Jason D. Mireles James, "From the Lagrange Triangle to the Figure Eight
+  Choreography: Proof of Marchal's Conjecture" — https://arxiv.org/abs/2406.17564 — dynamical systems
+  / celestial mechanics (axis 1, math.DS): a computer-assisted proof that the P₁₂ continuation family
+  of Lagrange's equilateral-triangle three-body solution contains Moore's 1993 figure-eight
+  choreography, settling a 1999 conjecture of Christian Marchal. PRE-DATES this radar (first posted
+  2024, before the 2026-07 scaffold) — a genuine backlog item, not a fresh-week leak; caught via
+  today's math.DS sweep on the v3 revision. Abstract + authors verified via arXiv API this session.
+- 2026-09-30 (v1) — Simon Machado, Yuval Yifrach, "Local spectral gap and the Stuck–Zimmer
+  conjecture" — https://arxiv.org/abs/2609.39424 — ergodic theory / arithmetic groups (axis 1,
+  math.GR/DS): proves new cases of the 1994 Stuck–Zimmer conjecture (ergodic p.m.p. actions of
+  higher-rank irreducible lattices) — partial progress on a long-standing conjecture, not a full
+  resolution, so below the domain's landmark bar. Abstract + authors verified via arXiv API this
+  session.
+- 2026-09-28 (v1) — Junwu Wang, "Strong Artin Conjecture for Generalized Octahedral Representations
+  in GL₃" — https://arxiv.org/abs/2609.38231 — number theory (axis 1, math.NT): proves the strong
+  Artin conjecture for the last remaining solvable case in dimension 3 (projective image
+  C₃²⋊SL(2,3)), via new automorphic-induction/base-change results. Specialized, single-author,
+  unrefereed. Abstract + author verified via arXiv API this session.
+- 2026-09-30 (v1) — Lie Fu, Xuanlin Huang, Zhiyuan Li, "Supersingular Tate conjecture for irreducible
+  symplectic varieties of known types: I" — https://arxiv.org/abs/2609.38801 — algebraic geometry
+  (axis 1, math.AG): proves the supersingular Tate conjecture for several known deformation types
+  (K3^[n], OG6, OG10, Kum^n, with Artin-invariant exclusions). Partial (known-types) resolution,
+  specialized. Abstract + authors verified via arXiv API this session.
+- 2026-09-30 (v1) — Maxwell Marcus, Sathyawageeswar Subramanian, Marcel Dall'Agnol, "The Generalized
+  Semi-Clifford Conjecture Holds at Level 4" — https://arxiv.org/abs/2609.38751 — quantum information
+  / complexity (axis 4, quant-ph): proves the Generalized Semi-Clifford Conjecture (on the Clifford
+  hierarchy's gate-teleportation structure) at level k=4, the first level beyond k=3 where this was
+  known. Specialized, unrefereed. Abstract + authors verified via arXiv API this session.
 
 ## source_rotation
 
@@ -4104,6 +4217,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-23/24 (original claim); 2026-09-27 (independent extension); shelf-added 2026-10-01 —
+  [The Hopf problem: a complex structure on S⁶ (Alpöge/Claude; independently extended by Viaclovsky)](https://arxiv.org/abs/2609.33785)
+  — a claimed resolution of one of differential geometry's most famous 20th-century open problems
+  (1947), via an AI-assisted construction now also independently extended by a credentialed
+  geometer; EXTREME unrefereed-preprint caution (mixed MathOverflow reaction, a history of prior
+  flawed claims on this exact problem) — see `observation_queue`, new `seed` trend.
 - 2026-09-24 (PRL publication; v1 2025-12; shelf-added 2026-09-30) — [A possible resolution of the gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis)](https://arxiv.org/abs/2512.20560)
   — a revised, peer-reviewed (PRL) neutrino-capture cross-section calculation that potentially closes
   a ~30-year, >5σ discrepancy (GALLEX/SAGE/BEST) without new physics; found via the PRL RSS sweep.

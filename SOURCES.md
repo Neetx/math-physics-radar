@@ -304,6 +304,28 @@ reports, no recurrence): proofsandprompts.com, anima-ai.org, preprints.org, zeno
   a credible number-theory research blog with the same pointer-surface value as Tao/Kalai/Woit;
   access via direct URL, no feed located yet (check on next sighting). HELD below the ≥2 bar
   (1 sighting).
+- agmai.org (Advisory Group on Mathematics and Artificial Intelligence, hosted at IAS) — 2 — (1)
+  launch page 2026-09-22 (see above entry, now stale — folded in here); (2) "Responsible Release of
+  AI-Generated Mathematics" recommendations document (2026-09-29,
+  `agmai.org/wp-content/uploads/2026/09/recommendations.pdf`), discovered via a Hacker News
+  front-page pointer — first seen (this 2nd sighting) 2026-10-01 — now AT the ≥2-sighting bar;
+  CANDIDATE for W-weekly promotion (verify live, decide swept-list placement). No specific new
+  mathematical RESULT named in the 09-29 document itself (policy/governance content), so not queued
+  as a primary.
+- vals.ai (Vals AI, an LLM/AI benchmarking company) — 1 — "A Lean Proof of the Thomson Problem for
+  Seven Electrons" (`vals.ai/blogs/thomson-n7-lean-proof`, 2026-09-28; ten Claude Sonnet 5.5 agents,
+  GitHub `github.com/huwngtran/thomson-n7-lean`) — first seen 2026-10-01 — discovered via a Hacker
+  News/Reddit chase of an AlphaSignal story; structurally the same self-publication AI-disclosure-lane
+  pattern as openai.com/anthropic.com/proofatlas.ai, but for a third-party AI-benchmarking firm
+  rather than a model vendor. HELD below the ≥2 bar (1 sighting); access via direct URL, no feed.
+- conjectures.io (a Lean-based formal-proof submission/verification platform for Erdős-problems-style
+  claims) — 1 — "Erdős Problem 108" submission (Liam Kruer, Jensen Kohlmeyer), cited by Nguyen–Walczak
+  (arXiv:2609.40192) as the source of a "strong negative solution" to a 1960s Erdős–Hajnal problem —
+  first seen 2026-10-01 — discovered via the Nguyen–Walczak arXiv paper's own citation; NOT yet
+  independently opened/verified this session (provenance/vetting status unclear — see
+  `observation_queue`). HELD below the ≥2 bar (1 sighting); candidate axis-5 formal-proof-repository
+  source, but verify legitimacy before treating output as citable primary evidence (unlike
+  Lean/mathlib/Rocq, this is a newer, less-established platform).
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

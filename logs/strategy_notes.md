@@ -1564,3 +1564,36 @@ Corrections to the source-coverage strategy.
   degraded 09-29→healed 09-30), no Anubis challenge. Two flips in two days suggests the block is
   intermittent/load-dependent rather than a stable state; not yet worth a dedicated heal action
   (nothing to fix when it's already working), but worth the weekly noting if a 3rd flip occurs.
+- 2026-10-01 (daily) — Tooling status change: `tvly` (the Tavily CLI) was reported missing entirely
+  at session start (`command not found`), reinstalled via `pip install -q tavily-cli` per the
+  AGENTS.md fallback instruction, and worked CLEANLY for the rest of the session (search + extract
+  both returned live, relevant results with no quota/rate-limit errors) — the standing account-quota
+  exhaustion logged continuously since 2026-09-23 appears RESOLVED as of today. Two of today's best
+  catches (the Hopf-problem/S⁶ backlog and the Thomson-problem-N7 Vals AI item) were found via `tvly
+  search` on Reddit/HN leads that the direct-curl-only fallback of the last week would likely have
+  missed (Reddit's `.rss` remains 403'd directly). Watch for recurrence of the quota exhaustion; if
+  `tvly` holds up for a few more sessions, consider downgrading the standing "tvly unavailable"
+  caveat that has appeared in every report since 09-23.
+- 2026-10-01 (daily) — Coverage-gap signal, same shape as the 09-15/09-22/09-24 catches: the Hopf
+  problem (S⁶ complex structure, Heinz Hopf 1947) was claimed resolved by Levent Alpöge/Claude on
+  2026-08-23/24, independently extended by Jeff Viaclovsky on arXiv 2026-09-27, and covered by
+  Scientific American — yet sat completely uncaptured for 5+ weeks until today's community-pulse
+  sweep surfaced it via a `tvly search` on Scientific American. Root cause: the claim itself never
+  appeared on arXiv (off-arXiv self-publication, `alpo.ge/s6.pdf`), so the daily's arXiv-category
+  sweeps had no way to catch it, and Viaclovsky's own arXiv paper (2609.33785, posted 09-27) does not
+  contain "Hopf" or "S^6" in a way the standing keyword-triage list would flag ("two-parameter family
+  of complex structures" has no conjecture/proof/disprov/theorem keyword hit). This is the SAME
+  failure class as the Ramsey-trend's Du-Hu-Liu-Wang r₄(6,n) miss (W39, title has no obvious keyword
+  match) and the AI-disclosure-lane sources generally (OpenAI/Anthropic/cims.nyu.edu/proofatlas.ai) —
+  a landmark result self-published off a tracked-category venue. No new amendment proposed (the
+  AI-disclosure-lane pattern and its mitigation — periodic `tvly search`/digest-chase rather than
+  relying on arXiv keyword triage alone — is already the established practice); this is a data point
+  reinforcing it, for the next weekly's source-strategy review.
+- 2026-10-01 (daily) — Off-axis exploration streak: nlin.CD (today's rotation pick) found zero
+  significant off-axis yield, the 4th weak-to-zero read in 5 sessions (09-25 math.NA 0/1, 09-28
+  math.NA 0/1, 09-30 math.LO+math.OC 0/2, today nlin.CD 0/1) with only 09-29's cs.CC producing a
+  genuine hit. Flagging per the standing anchoring-check rule for the next weekly's attention — not
+  yet proposing an amendment (daily runs execute only), but the pattern suggests the off-axis roster
+  itself (math.DS/OC/LO/OA/DG/NA/CC/nlin.SI/CD) may be exhausted of easy finds and a genuinely
+  different discovery surface (a non-arXiv venue — e.g. a conference listing, a different preprint
+  server) might be worth trying next.

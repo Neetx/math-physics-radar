@@ -1,24 +1,25 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-12-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-262-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--30-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-271-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--01-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-09-30):**
-- New study-shelf pick: [a possible peer-reviewed (PRL) resolution of the 30-year gallium anomaly](https://arxiv.org/abs/2512.20560) via a revised neutrino-capture cross-section, without invoking sterile-neutrino new physics — a theoretical proposal, not yet an experimental confirmation.
-- Watchlist +7, a cluster of long-standing named-conjecture landmarks: [Fishburn's 1987 latent-subset conjecture proved](https://arxiv.org/abs/2609.35920), [Smyth's ~55-year-old Mahler-measure trinomial conjecture proved](https://arxiv.org/abs/2609.37886), and [Goss's conjecture on cyclotomic-function-field L-functions disproved](https://arxiv.org/abs/2609.37466); plus three partial/special-case results (Boston's Unramified Conjecture for GL₂, O'Grady's Franchetta conjecture, the Berry-Esseen Constant Conjecture).
-- No new seed trend or stage move today — a quiet-but-rich queue day, typical of this domain's cadence.
+**Since last scan (2026-10-01):**
+- New `seed` trend (a 5+ week-late capture): [the Hopf problem — a claimed complex structure on S⁶](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem), a famous 1947 differential-geometry problem, via an AI-assisted construction (Alpöge/Claude) now independently extended by [Jeff Viaclovsky on arXiv](https://arxiv.org/abs/2609.33785) — mixed community reaction, EXTREME unrefereed-preprint caution.
+- Watchlist +9: a Lean-verified cluster on finite-N sphere energy-minimization ([Thomson problem N=8](https://arxiv.org/abs/2609.22077); [N=7, Vals AI](https://www.vals.ai/blogs/thomson-n7-lean-proof)), plus [the List Total Colouring Conjecture disproved](https://arxiv.org/abs/2609.38417) (AI-assisted) and five more named-conjecture results.
+- No stage move today — a quiet-but-rich trend/queue day, typical of this domain's cadence.
 - [ζ(5) irrationality](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) watch: no new development since 09-24 — chased again this session, still no referee outcome.
 
 ## Trends
 
-🌱 8 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 9 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11895) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
+| [The Hopf problem — S⁶ complex structure](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
 | [Positive trace gap conjecture resolved](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.29033) |
 | [Kahn-Saks / 1-3-2-3 conjecture advances](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30895) |
 | [Cassels–Swinnerton-Dyer for cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
@@ -31,6 +32,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-08-23/24 (original claim); 2026-09-27 (independent extension); shelf-added 2026-10-01 — [The Hopf problem: a complex structure on S⁶ (Alpöge/Claude; independently extended by Viaclovsky)](https://arxiv.org/abs/2609.33785) — a claimed resolution of one of differential geometry's most famous 20th-century open problems (1947), via an AI-assisted construction now also independently extended by a credentialed geometer; EXTREME unrefereed-preprint caution (mixed MathOverflow reaction, a history of prior flawed claims on this exact problem) — see the watchlist, new seed trend above.
 - 2026-09-24 (PRL publication; v1 2025-12; shelf-added 2026-09-30) — [A possible resolution of the gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis)](https://arxiv.org/abs/2512.20560) — a revised, peer-reviewed (PRL) neutrino-capture cross-section calculation that potentially closes a ~30-year, >5σ discrepancy (GALLEX/SAGE/BEST) without new physics; found via the PRL RSS sweep. Theoretical proposal, not yet an experimental confirmation — see the watchlist.
 - 2026-09-28 (v1; shelf-added 2026-09-29) — [A Lean Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture (Qin, Liao, Khaitan, Chow)](https://arxiv.org/abs/2609.33842) — formalizes the full Ricci-flow-with-surgery proof of the smooth (and, via Moise smoothing, the topological) 3D Poincaré conjecture in Lean; a formalization landmark on the scale of the already-shelved Lean FLT proof. Unrefereed, no independent verification of the artifact yet — see the watchlist.
 - 2026-02-17 (final paper; shelf-added 2026-09-29) — [Resolution of Graham's rearrangement conjecture (Pham, Sauermann, closing a 4-paper, 4-group chain from 2022-2026)](https://arxiv.org/abs/2602.15797) — a 1971 conjecture on rearranging residues mod p so all partial sums are distinct, resolved across four independent groups' papers; caught via a 2026-09-28 Quanta piece. Also a new seed trend, above.
@@ -141,10 +143,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 ## Community pulse
 
-- [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) and [Backreaction](https://backreaction.blogspot.com/) both chased headline stories this session (the OpenAI/Buckmaster-Alpöge Navier-Stokes transparency debate; the Feynman path-integral test) — both already fully tracked, no new leak found.
-- [Gil Kalai's blog](https://gilkalai.wordpress.com/) posted his own retrospective on his 2006 depolarizing-noise conjecture — still open, not a resolution, more quantum-computing-technology-adjacent than physics-foundations.
-- Hacker News, MathOverflow, Physics Stack Exchange and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic this session; [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (12+ weeks running).
+- A [Scientific American](https://www.scientificamerican.com/) piece surfaced via community-pulse search led to today's biggest catch (the S⁶ complex-structure story) — a 5+ week-old backlog item.
+- [Backreaction](https://backreaction.blogspot.com/) aired a segment on a Russian team's room-temperature-superconductor (graphite) claim — no citable primary paper could be identified this session; not queued.
+- Hacker News surfaced a Vals AI Lean-proof story (an AI-benchmarking firm's Thomson-problem N=7 formalization, now on the watchlist) and a 2nd sighting of the Advisory Group on Mathematics and AI's recommendations document (no new result named).
+- [Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/) and Quanta Magazine both chased already-tracked stories this session (the OpenAI/Buckmaster-Alpöge Navier-Stokes debate; Smyth's conjecture) — no new leak found.
+- MathOverflow, Physics Stack Exchange and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic; [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (13+ weeks running), though `tvly search` (restored this session) found two genuine leads on Reddit-adjacent coverage.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (262) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-09-30](reports/2026-09-30.md)) · Weekly: [2026-W39](reports/weekly/2026-W39.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (271) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-01](reports/2026-10-01.md)) · Weekly: [2026-W39](reports/weekly/2026-W39.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

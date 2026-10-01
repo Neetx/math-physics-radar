@@ -2471,3 +2471,77 @@ regenerated in the same commit.
   publication). capture-leak: 27 ids checked this session (mechanical sweep against
   reports/2026-09-25/28/29) / 0 queued (all 27 confirmed present in evidence/queue/study_shelf
   lines — 0 leaked). README.md regenerated in the same commit.
+
+- 2026-10-01 (daily). Load-state: local branch exactly at `origin/main` tip (6a731e1); local clone
+  was SHALLOW this session — `git fetch --unshallow` performed, then re-ran the orphan-branch check
+  per the 09-30 strategy_notes recommendation: `claude/modest-bohr-9415kc` and
+  `claude/peaceful-faraday-n2ehd0` confirmed ancestors of `main` (`git merge-base --is-ancestor`) —
+  no data at risk, consistent with the 09-29/09-30 pattern (shallow-clone artifact, not a real
+  disconnected-history state). Tooling: `tvly` CLI RE-INSTALLED this session (`pip install
+  tavily-cli`) and WORKING cleanly (search + extract both returned live results) — the standing
+  account-quota exhaustion from 09-23 onward appears RESOLVED; flagged in strategy_notes as a
+  tooling-status change to watch for recurrence.
+  Primary sweep (radar-source-sweep): full in-scope math category set (22 RSS feeds: CO NT AG AC RA
+  KT AT GT DG SG AP FA CA CV PR RT DS LO OA OC MG GR, ~752 fresh titles) + full physics category set
+  (14 feeds: hep-th hep-ph gr-qc quant-ph math-ph cond-mat.str-el/mes-hall/supr-con astro-ph.CO/HE
+  nucl-th nucl-ex hep-ex nlin.SI, ~964 fresh titles) fetched via plain `curl`, keyword-triaged
+  (conjecture/proof/disprov/counterexample/theorem/classif/discover/anomal/detect keywords) plus a
+  full title dump. Captures: Thomson-problem N=8 energy minimization (Kryvonos, Liehr, Taylor,
+  2609.22077, 12-day-late catch), the List Total Colouring Conjecture disproof (Noel, 2609.38417,
+  AI-assisted), the Erdős–Hajnal high-girth high-chromatic exposition (Nguyen, Walczak, 2609.40192,
+  citing an unverified conjectures.io claim), Marchal's Conjecture proof (Calleja et al., 2406.17564,
+  a pre-radar 2024 backlog item resurfaced as v3), new cases of the Stuck–Zimmer conjecture (Machado,
+  Yifrach, 2609.39424), the Strong Artin Conjecture GL₃ last solvable case (Wang, 2609.38231), a
+  partial Supersingular Tate conjecture (Fu, Huang, Li, 2609.38801), and the Generalized
+  Semi-Clifford Conjecture at level 4 (Marcus, Subramanian, Dall'Agnol, 2609.38751) — all queued.
+  Confirmed NOT new (already tracked): the Petersen Coloring Conjecture disproof (2608.10028)
+  resurfaced as v4 (routine revision, no new queue line); the Davenport-constant disproof
+  (2609.29878) already queued 09-25. Experiments & journals: CERN Courier, Fermilab, Simons
+  Foundation, CERN `/feed/`, IceCube category-feed, LIGO (`/news`), DESI all opened via plain
+  `curl`/`WebFetch` — routine, no new on-axis catch (Fermilab/Simons dominated by quantum-computing
+  PR, off-axis; LIGO unchanged at GWTC-5.0; a Simons-feed pointer to an Oxford press release
+  ("Scientists Observe Einstein's Gravity in the Quantum World") CHASED and confirmed to be the
+  SAME already-tracked Dobkowski et al. quantum-free-fall result, 0 leak). PRL/PRX/RMP (RDF, plain
+  `curl`, 100+100+100 items) — routine, no on-axis catch (all condensed-matter/AMO/HEP-experiment,
+  no named-conjecture result). Nature Physics + Nature Communications (Googlebot-UA workaround,
+  8+8 titles recovered) — routine, none on-axis. SciPost API — HEALED again this session (clean
+  JSON, SciPostPhys.21.3 advanced to .080, SciPostPhysCore.9.3 to .063), no on-axis catch.
+  INSPIRE-HEP (API, mostrecent) — routine noise, no yield. cims.nyu.edu — checked, publication list
+  structurally unchanged (standard arXiv-id links only, no new self-published PDF). LZ
+  (`tvly extract`) — routine, 2026 Xe-125 positron-decay entry already on file. Science Advances —
+  not independently re-chased this session (standing no-RSS degradation; time budget prioritized
+  elsewhere). GitHub watch (radar-repo-watch): `releases.atom` for lean4/mathlib4/rocq-prover/rocq
+  (`WebFetch`) — lean4 unchanged (v4.35.0-rc3/v4.34.1, both 09-24), Rocq unchanged (9.3.0), mathlib4
+  through master-2026-09-30, all routine. `github.com/anthropics` org listing (`tvly extract`) — top
+  repos all AI-tooling, no new formal-math repo. Community pulse (radar-pulse): Reddit r/math +
+  r/mathematics — direct `.rss` STILL 403 (13th+ consecutive week), but `tvly search` (now working)
+  surfaced two genuinely significant leads this session (see below) — Hacker News (Algolia
+  front-page API), MathOverflow (Atom), Physics Stack Exchange (Atom), Mathstodon (public-timeline
+  API) all opened — routine, except one HN front-page hit (see below). Digest/explainer blogs:
+  Quanta, Tao, Woit, Gowers, Kalai, Baez/n-Category Café, Strassler, Backreaction all opened via
+  `curl -A "Mozilla/5.0"` — one headline chase (Quanta's Smyth-conjecture piece, already tracked
+  09-30, 0 leak); Backreaction's "Room-Temperature Superconductor Finally Found?" (09-27, a Russian
+  team's graphite claim) CHASED via `tvly search` but NO citable primary paper could be identified
+  this session (the post is video-based commentary with no paper named in the extractable text) —
+  logged as chased/no-primary-found, not queued (cannot cite a URL not actually opened). Scientific
+  American (`tvly search`, time-range week) — THE DAY'S BIGGEST CATCH: "AI solves 79-year-old math
+  mystery of six-dimensional spheres" led to the Hopf problem (does S⁶ admit a complex structure?)
+  — Levent Alpöge (Anthropic)/Claude's 2026-08-23/24 construction, Philip Engel's 08-27 exposition,
+  and Jeff Viaclovsky's independent 09-27 arXiv extension (2609.33785) — a 5+ week-late capture,
+  now a new `seed` trend (see TRENDS.md and today's report). HN front page also surfaced the
+  already-staged agmai.org's 2nd sighting (a recommendations document, no new result named) and,
+  via `tvly search` on reddit.com, the Thomson-problem N=7 Vals AI Lean proof (vals.ai, 09-28,
+  queued, new source-discovery candidate). Exploration slot (radar-explore): nlin.CD (15 fresh
+  entries, full read) — routine chaotic-dynamics titles, zero significant off-axis yield (4th
+  weak-to-zero off-axis read in a row: 09-25 math.NA, 09-28 math.NA, 09-30 math.LO/OC, today
+  nlin.CD — only 09-29's cs.CC has produced a genuine off-axis hit in 5 sessions; flagged in
+  strategy_notes for the next weekly's attention). ζ(5) daily chase: galoisrepresentations.org and
+  a WebSearch sweep both checked — no new development since 09-24. Self-healing: none needed beyond
+  the standing Reddit-RSS/Science-Advances degradations (unchanged) and the tvly-quota RECOVERY
+  noted above (a positive flip, not a heal-owed item). Queue: +9 (Thomson-N8, Thomson-N7-Vals,
+  List-Total-Colouring, Erdős–Hajnal-high-girth, Marchal, Stuck–Zimmer, Strong-Artin-GL3,
+  Supersingular-Tate, Semi-Clifford-L4) / 0 dropped. New seed trend: +1 (the Hopf problem / S⁶).
+  study_shelf +1 (the Hopf problem / S⁶, via the Viaclovsky arXiv link). capture-leak: 27 ids
+  checked this session (mechanical sweep against reports/2026-09-28/29/30) / 0 queued (all 27
+  confirmed present in evidence/queue/study_shelf lines — 0 leaked); today's own 9 new ids
+  self-checked present in TRENDS.md. README.md regenerated in the same commit.
