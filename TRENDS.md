@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-01
+Last updated: 2026-10-02
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1272,8 +1272,96 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   for: a peer-reviewed outcome, direct confirmation/refutation from a named specialist, or the
   Alexeev Lean repo opened and verified directly.
 
+### Resolution of Lehmer's 1965 permutation conjecture (neighbor-swap Hamiltonicity)
+- stage: seed | confidence: medium | first_seen: 2026-10-02 | last_evidence: 2026-10-02
+- what: D.H. Lehmer conjectured in 1965 that the permutations of every multiset admit an
+  "imperfect Hamiltonian traversal" by adjacent (neighbor) swaps — posed as an unsolved research
+  problem in Knuth's *The Art of Computer Programming*. Tom Verhoeff (TU Eindhoven), who in 2017
+  reformulated the conjecture as the Hamiltonicity of a derived graph N(S) on non-stutter words
+  (with two known exceptional families), now proves that reformulation — and with it Lehmer's
+  original conjecture — via a hypercube-partition argument gluing Hamiltonian cycles along a
+  spanning tree, reducing the single-odd-multiplicity case to a 1992 theorem of Stachowiak.
+  DOMAIN-CADENCE LANDMARK: a 61-year-old named conjecture, posed in a canonical reference (Knuth),
+  now resolved. Confidence raised above the usual single-author-preprint floor because the proof
+  is accompanied by a complete Lean 4 / Mathlib formalization, machine-checked against brute-force
+  graphs for the finite base cases — axis 5 (computer-assisted/formalized math) overlap, similar
+  in kind to the already-tracked ζ(5)/FLT Lean-verification precedents. Still an unrefereed preprint
+  (hype-skepticism caution applies to the human-written proof narrative even though the Lean
+  artifact is machine-checked).
+- evidence:
+  - 2026-10-01 — https://arxiv.org/abs/2610.01240 — Tom Verhoeff, "A proof of Lehmer's permutation
+    conjecture for neighbor-swap graphs": the resolution, with an accompanying Lean 4 formalization
+    checked against brute-force graphs. Abstract + author + date verified via arXiv API this
+    session (v1, submitted 2026-10-01); full abstract opened and read.
+- notes: 2026-10-02 (daily, seed creation): caught in today's full math.CO RSS sweep (same-day
+  v1). Domain-cadence landmark bar met (61-year-old conjecture, canonical-reference provenance,
+  Lean-formalized) — promoted straight to seed rather than queued, per the ζ(5)/FLT precedent of
+  weighting a machine-checked formalization above the usual unrefereed-single-author floor. Watch
+  for: the Lean repository itself opened and verified directly (not yet done this session — only
+  the arXiv abstract was read), and any community/referee reaction.
+
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-10-01 (v1) — Yicen Ma, "A Proof of the Third Borwein Conjecture" —
+  https://arxiv.org/abs/2610.01156 — number theory / combinatorics (axis 1, math.CO/NT): proves the
+  sign pattern of the coefficients of $\prod_{j,s}(1-q^{5j-s})$ predicted by Borwein's third
+  conjecture (one of the ~1990s Borwein conjectures on cyclotomic-type coefficient sign patterns)
+  for all $n\ge1750$ via an analytic saddle-point argument, combined with the author's reported
+  finite verification for $1\le n\le1749$. Single-author, unrefereed — domain-cadence landmark
+  candidate (a long-standing named conjecture), held at queue pending referee/community reaction
+  (per the Kaplansky/Miyanishi/Hadwiger precedent). Abstract + author + date verified via arXiv API
+  this session.
+- 2026-10-01 (v1) — Alex J. Sutherland, "Watkins's conjecture holds for all infinite groups" —
+  https://arxiv.org/abs/2610.01049 — algebraic graph theory (axis 1, math.GR/CO): settles the
+  infinite-cardinality case of Watkins's ~1970 conjecture on which groups admit a graphical regular
+  representation (every infinite group that is neither abelian of exponent >2 nor generalized
+  dicyclic admits one); also determines the Cayley index of every infinite group. Single-author,
+  unrefereed — domain-cadence landmark candidate, held at queue pending referee/community reaction.
+  Abstract + author + date verified via arXiv API this session.
+- 2026-10-01 (v1) — Jiaqi Wang, Lihong Zhi, "An Explicit Polynomial Counterexample to Connes'
+  Embedding Conjecture" — https://arxiv.org/abs/2610.01536 — operator algebras (axis 1, math.RA/OA):
+  the algebraic formulation of Connes' Embedding Conjecture was already disproved in 2020 via the
+  complexity-theoretic MIP*=RE result, but this paper gives a fully EXPLICIT Hermitian polynomial
+  (degree 12, 65 selfadjoint variables, integer coefficients) as a concrete counterexample, combining
+  the Kun–Thom group construction with Thom's normalization and the Alekseev–Liu–Thom spectral
+  correction theorem — a notable constructive/explicit re-derivation of an already-settled question,
+  worth a working algebraist's attention even though it is not itself resolving an open conjecture.
+  Unrefereed preprint. Abstract + authors + date verified via arXiv API this session.
+- 2026-10-01 (v1) — Haoxuan Cheng, "A counterexample to Yau's bounded-mean-curvature embedding
+  question" — https://arxiv.org/abs/2610.00153 — differential geometry (axis 1, math.DG): refutes a
+  question posed by S.T. Yau (whether every complete Riemannian manifold with bounded Ricci
+  curvature and positive injectivity radius admits a bounded-mean-curvature isometric embedding into
+  Euclidean space) via an explicit $\mathbb{R}^4$ counterexample metric. Single-author, unrefereed —
+  queued (a question posed by a leading geometer, but unclear long-standing vintage, so held below
+  the domain's named-decades-old-conjecture landmark bar). Abstract + author + date verified via
+  arXiv API this session.
+- 2026-09-11 (blog post); arXiv 2026-08-31 (v1) — Jesús A. De Loera, Ethan X. Fang, Shengtao Guo,
+  Junwei Lu, Hailun Zheng, "On Unavoidable Faces of High-Dimensional Polytopes" —
+  https://arxiv.org/abs/2609.00397 — polytope combinatorics (axis 1, math.CO): proves finiteness of
+  $f_s(\ell,k)$ (the simple-polytope threshold in Kalai's 1990 cube–simplex conjecture) for all
+  $\ell\ge2, k\ge3$ — the first progress beyond the $\ell,k\le2$ case known since the conjecture was
+  posed. CAPTURE-GAP: a 3-week-late catch, found via Gil Kalai's own blog post (09-11) confirming and
+  explaining the result; the arXiv paper itself was never flagged by the daily's keyword-triage
+  sweeps (title names no conjecture/proof keyword). Single-paper, partial (not full) resolution,
+  unrefereed — queued. Abstract + authors + date verified via arXiv API this session; blog post
+  opened directly.
+- 2026-08-22/26 (v1→v2); first seen 2026-10-02 — Shengtao Guo, Ethan X. Fang, Junwei Lu, "A Metric
+  with Positive Sectional Curvature on $S^2\times S^3$" — https://arxiv.org/abs/2608.22133 —
+  differential geometry (axis 1, math.DG): constructs a Riemannian metric of strictly positive
+  sectional curvature on $S^2\times S^3$ (viewed as a circle bundle over $S^2\times S^2$, via a
+  Cheeger deformation + perturbation) — notable because the classification of which compact
+  manifolds admit ANY metric of positive sectional curvature is one of Riemannian geometry's
+  oldest standing open programs (very few examples are known). HEAVY HYPE-SKEPTICISM FLAG: v1
+  (2026-08-22) was titled "...on $S^3\times S^3$" and explicitly claimed this disproved the
+  positive-curvature case of Hopf's sign conjecture (Euler characteristic of an even-dimensional
+  positively-curved manifold must be positive) — v2 (4 days later, 2026-08-26) silently narrowed
+  the claim to the weaker, odd-dimensional $S^2\times S^3$ result with no Hopf-conjecture
+  implication and no comment-field explanation found this session, strongly suggesting an error was
+  found in the original $S^3\times S^3$/Hopf-conjecture claim. Found via a Hacker-News-chased
+  tvly search while verifying the Kalai/De Loera cluster above (not independently flagged by a
+  math.DG RSS triage — title keyword drift between versions). Queued with the retraction
+  explicitly noted, NOT treated as a Hopf-conjecture result. v1/v2 title history + abstract verified
+  directly (arXiv abs page) this session.
 - 2026-09-29 (v1) — Ziyang Qin, Yuan Liao, Ayush Khaitan, Bennett Chow, "A Lean Formalization of the
   Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture" —
   https://arxiv.org/abs/2609.33842 — computer-assisted/formalized math (axis 5): formalizes the
@@ -4217,6 +4305,11 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-01 (v1); shelf-added 2026-10-02 — [A proof of Lehmer's 1965 permutation conjecture for
+  neighbor-swap graphs (Verhoeff)](https://arxiv.org/abs/2610.01240) — resolves a 61-year-old
+  conjecture posed as an unsolved problem in Knuth's *TAOCP*, with a complete accompanying Lean 4 /
+  Mathlib formalization checked against brute-force graphs — see `observation_queue`, new `seed`
+  trend.
 - 2026-08-23/24 (original claim); 2026-09-27 (independent extension); shelf-added 2026-10-01 —
   [The Hopf problem: a complex structure on S⁶ (Alpöge/Claude; independently extended by Viaclovsky)](https://arxiv.org/abs/2609.33785)
   — a claimed resolution of one of differential geometry's most famous 20th-century open problems

@@ -2545,3 +2545,79 @@ regenerated in the same commit.
   checked this session (mechanical sweep against reports/2026-09-28/29/30) / 0 queued (all 27
   confirmed present in evidence/queue/study_shelf lines — 0 leaked); today's own 9 new ids
   self-checked present in TRENDS.md. README.md regenerated in the same commit.
+
+## 2026-10-02 (daily, Pass 1)
+
+Load-state: local clone exactly at `origin/main` tip (b56b0b0); no shallow-clone issue this
+session, no orphaned branches found (`git branch -a --contains HEAD` clean). Tooling: `tvly`
+missing at session start, reinstalled via `pip install -q tavily-cli`, worked cleanly all session.
+Primary sweep (radar-source-sweep): full in-scope math category-rotation set (CO/NT/AG/AC/RA/KT/
+AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR, 22 RSS feeds via plain `curl`, ~590 fresh titles)
++ physics set (hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/
+HE/nucl-th/nucl-ex/hep-ex/nlin.SI, 14 feeds, ~440 fresh titles) triaged by keyword/title scan,
+with arXiv API id_list verification of abstracts/authors/dates for every candidate. CAPTURED (all
+same-day v1, 2026-10-01): A Proof of the Third Borwein Conjecture (Ma, 2610.01156); Watkins's
+conjecture holds for all infinite groups (Sutherland, 2610.01049); An Explicit Polynomial
+Counterexample to Connes' Embedding Conjecture (Wang, Zhi, 2610.01536); a counterexample to Yau's
+bounded-mean-curvature embedding question (Cheng, 2610.00153); and — the day's standout — A proof
+of Lehmer's 1965 permutation conjecture for neighbor-swap graphs (Verhoeff, 2610.01240,
+Lean-4-formalized) → NEW SEED TREND + study_shelf. Experiments & journals: CERN Courier, Fermilab,
+Simons Foundation, CERN `/feed/`, IceCube category-feed, Quantum journal, PRL/PRX/RMP (RSS, plain
+`curl`) all opened — routine, no on-axis catch beyond what's below. SciPost API — healthy, no
+Anubis challenge (SciPostPhys.21.4 now .083, SciPostPhysCore.9.3 now .063, none on-axis). Nature
+Physics + Nature Communications (Googlebot-UA article-page workaround, still holding) — 8+8 titles
+recovered, all routine/off-axis. INSPIRE-HEP (API, mostrecent) — routine, no yield. LIGO (`curl`
+on `/news`) and DESI (`curl`) — both returned JS-shell nav only this session (no article titles
+extractable via plain curl; single-daily, not yet heal-owed, retry `WebFetch` next session).
+cims.nyu.edu (`~tristanb/publications/`, `curl -A "Mozilla/5.0"`) — unchanged, newest still
+2511.22819. LZ (`tvly extract`) — unchanged, newest still the Xe-125 positron-decay entry already
+on file. AI-watch lane: anthropic.com/research and openai.com/research both opened (`tvly
+extract`) — Anthropic's newest is a life-sciences CRISPR-like-enzyme announcement (out of this
+radar's math/physics scope, not queued); OpenAI's newest is model/product releases, no new
+math/TCS disclosure. Clay Mathematics Institute homepage re-checked — the "Navier-Stokes
+Announcement" tile confirmed already-tracked (captured 2026-09-19); no new millennium-problem
+activity. Perimeter Institute, IAS (`tvly extract` 403'd this session, single-daily, not escalated)
+opened/attempted — routine. GitHub watch (radar-repo-watch): `releases.atom` for lean4/mathlib4/
+rocq-prover/rocq (`tvly extract`) — lean4 unchanged (v4.35.0-rc3/v4.34.1), Rocq unchanged (9.3.0),
+mathlib4 continuing its daily `master-YYYY-MM-DD` auto-tag (through master-2026-10-01). `github.com/
+anthropics` org listing (`tvly extract`) — top repos unchanged, no new formal-math repo. Community
+pulse (radar-pulse): Reddit r/math + r/mathematics direct `.rss` — still 403 (14th+ consecutive
+week, standing hard block, not re-escalated). Hacker News (Algolia front-page API) — zero math/
+physics stories today (general tech/misc day; one AI-adjacent item, "Using Opus 5.5 to discover a
+new eyewitness record of the dodo," off-axis biology, not queued). MathOverflow (Atom) and Physics
+Stack Exchange (Atom) — routine research-level Q&A, nothing pointing to an unopened primary.
+Mathstodon (public timeline API) — generic federated noise. Digest/explainer blogs: Quanta (newest
+confirmed already-tracked — the Graham's-rearrangement-conjecture "juggling" piece, 09-28, is the
+SAME item already on `study_shelf`/trend, re-verified via `tvly extract` — 0 leak, just a stale-feed
+re-sighting), Tao, Woit, Gowers, Strassler, Baez/n-Category Café all opened — no new primary beyond
+what's below. Gil Kalai's blog (`curl`) — HEADLINE CATCH: a 2026-09-11 post on the Simplex–Cube
+conjecture (Kalai's own 1990 conjecture) proved for simple polytopes by De Loera, Fang, Guo, Lu,
+Zheng — chased to arXiv:2609.00397 (posted 2026-08-31, a 3-week-late capture-gap catch, title had
+no conjecture/proof keyword) → queued. Chasing that author cluster via `tvly search` surfaced a
+SECOND item by an overlapping author set: "A Metric with Positive Sectional Curvature on
+S^2×S^3" (Guo, Fang, Lu, arXiv:2608.22133) — notable Riemannian-geometry landmark-class claim, but
+v1 (08-22, titled "...on S^3×S^3", explicitly claiming a disproof of Hopf's sign conjecture) was
+silently narrowed to the current S^2×S^3 title in v2 four days later with no comment-field
+explanation found — queued with the retraction flagged explicitly (hype-skepticism). Backreaction
+— "Room-Temperature Superconductor Finally Found?" (09-27, still no citable primary identified,
+not re-chased) and "FINALLY: A Proof that Particles Take All Paths At Once?" (already tracked)
+confirmed unchanged; "One Million Dollars for Telling the Truth" not independently chased (time
+budget). Scientific American (`tvly search`) — no new on-axis piece found beyond already-tracked
+items. Self-healing (cap 1-2/run): Science Advances RSS HEALED this session — the AAAS legacy
+`showFeed?type=etoc&feed=rss&jc=sciadv` endpoint (not a path previously tried) returns a clean,
+full RSS 1.0/RDF feed with ~30 current ToC titles via plain `curl`, no 403/auth-wall — closes the
+"no working RSS" gap standing since 2026-09-26; this session's batch was 100% off-axis (biology/
+chemistry/materials), recorded in SOURCES.md. Exploration slot (radar-explore): tried a genuinely
+different, non-arXiv discovery surface this session per 10-01's "Next" flag — SciRate's top-scited
+listing — but direct `curl` still 403s (Cloudflare) and `tvly search` on it returns only stale
+cached snippets (old dates) and one live "recent comments" hit, no usable "what's hot now" browse;
+logged as checked, zero usable yield, SciRate remains low-value for this domain (confirms the
+09-25/09-28/09-30/10-01 math.NA/LO/OC/CD off-axis-rotation fatigue is a genuine signal, not an
+artifact of the arXiv-only rotation — flagged for the next weekly). Queue: +6 (Third Borwein
+Conjecture, Watkins's conjecture, Connes-Embedding explicit counterexample, Yau bounded-mean-
+curvature counterexample, Kalai's simplex-cube-conjecture partial proof, S^2×S^3 positive-curvature
+metric w/ retraction flag) / 0 dropped. New seed trend: +1 (Lehmer's 1965 permutation conjecture,
+Verhoeff). study_shelf +1 (same). capture-leak: 29 ids checked this session (mechanical sweep
+against reports/2026-09-29/-30/2026-10-01) / 0 queued (all 29 confirmed already present in
+evidence/queue/study_shelf lines — 0 leaked); today's own 7 new ids self-checked present in
+TRENDS.md. README.md regenerated in the same commit.

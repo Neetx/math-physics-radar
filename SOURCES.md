@@ -141,10 +141,15 @@ Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above a
   primaries in one week: RH↔quantum-phase-transitions 07-01, aperiodic-monotile chirality 07-29,
   both discovered via r/math pointers)
 - Science Advances (AAAS) — https://www.science.org/journal/sciadv **[promoted 2026-09-26 (W39
-  weekly); no working RSS found this session — access via `tvly search "site:science.org <title>"`
+  weekly); no working RSS found that session — access via `tvly search "site:science.org <title>"`
   or a direct DOI-link check when a disclosure is flagged elsewhere (the article page itself
   403's to direct `curl`/`WebFetch`; PMC mirrors — e.g. `pmc.ncbi.nlm.nih.gov/articles/PMC...` —
-  open cleanly and are the preferred full-text access route)]** — peer-reviewed AAAS journal
+  open cleanly and are the preferred full-text access route). HEALED 2026-10-02: the legacy AAAS
+  ToC endpoint `https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv` returns a
+  clean RSS 1.0/RDF feed (~30 current titles) via plain `curl`, no 403/auth-wall — verified live
+  this session (all titles off-axis biology/chemistry, but the feed itself works). Prefer this
+  `showFeed` endpoint going forward for the "what's new" browse; PMC mirrors remain the full-text
+  route for a named article.]** — peer-reviewed AAAS journal
   distinct from the already-tracked Nature/Nature Physics/Nature Communications/APS lanes;
   source-discovery promotion (2 sightings: the Dobkowski et al. quantum-free-fall equivalence-
   principle test, 09-08 then resurfaced 09-22; the Wen et al. Feynman path-integral test, 09-25).

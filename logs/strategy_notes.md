@@ -1597,3 +1597,35 @@ Corrections to the source-coverage strategy.
   itself (math.DS/OC/LO/OA/DG/NA/CC/nlin.SI/CD) may be exhausted of easy finds and a genuinely
   different discovery surface (a non-arXiv venue — e.g. a conference listing, a different preprint
   server) might be worth trying next.
+- 2026-10-02 (daily) — Tried the non-arXiv discovery surface 10-01 flagged: SciRate's top-scited
+  listing. Direct `curl` still 403s (Cloudflare, unchanged from the 2026-07-02 note), and `tvly
+  search` on `scirate.com` returns only stale cached snippets (old dates scattered across 2025-2026)
+  plus one live "recent comments" hit — no usable "what's new/hot this week" browse exists through
+  either access path. Conclusion: SciRate is not currently a viable substitute discovery venue for
+  this domain (it was already flagged low-priority in SOURCES.md as "redundant-ish" before today).
+  The underlying signal from 10-01 — the arXiv-category off-axis rotation (math.DS/OC/LO/OA/DG/NA/
+  CC/nlin.SI/CD) running low on easy finds — stands unresolved; a genuinely different KIND of venue
+  (not another Cloudflare-walled arXiv-adjacent aggregator) is still worth the next weekly's
+  attention — e.g. a conference proceedings listing, a specific institute's seminar calendar, or
+  deliberately reading arXiv cross-lists into off-axis categories rather than a category's own
+  listing. Not proposing a concrete amendment yet (one more negative data point).
+- 2026-10-02 (daily) — Capture-gap pattern repeats a 3rd time this week: the Simplex–Cube
+  conjecture proof (De Loera–Fang–Guo–Lu–Zheng, arXiv:2609.00397, posted 08-31) sat uncaptured for
+  3 weeks until today's Kalai-blog chase (his 09-11 post), and a related author-cluster paper (Guo–
+  Fang–Lu's S²×S³ positive-curvature metric, arXiv:2608.22133, posted 08-22) surfaced only as a
+  side-effect of chasing that same cluster via `tvly search` — neither title contains a
+  conjecture/proof/disprove/theorem keyword the standing triage list would flag ("Unavoidable
+  Faces," "A Metric with Positive Sectional Curvature"). Same failure class as the Hopf-problem/S⁶
+  miss (10-01) and the Ramsey r₄(6,n) miss (W39): a landmark or near-landmark result whose TITLE
+  gives no lexical signal, caught only by a digest/blog chase rather than arXiv keyword triage. This
+  is now a recurring, title-keyword-independent failure mode (3 instances in 2 weeks) — worth the
+  next weekly seriously considering a standing practice change: read EVERY math.CO/DG/AG/etc.
+  abstract in full for in-scope categories during the primary sweep (not just title-keyword triage),
+  at least on a rotating subset, rather than relying on titles to self-flag significance. Flagged for
+  the next weekly's attention; not applied here (daily runs execute only).
+- 2026-10-02 (daily) — Self-healing: Science Advances RSS access HEALED this session via the
+  legacy AAAS `https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv` endpoint (clean
+  RSS 1.0/RDF, plain `curl`, no auth-wall) — recorded in SOURCES.md, closing the "no working RSS
+  found" gap standing since the 2026-09-26 promotion. Also worth noting for the next weekly: this
+  endpoint pattern (`showFeed?type=etoc&feed=rss&jc=<journal-code>`) may generalize to other AAAS/
+  Science-family journals if a future source ever needs one.
