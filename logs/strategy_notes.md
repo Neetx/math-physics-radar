@@ -1629,3 +1629,40 @@ Corrections to the source-coverage strategy.
   found" gap standing since the 2026-09-26 promotion. Also worth noting for the next weekly: this
   endpoint pattern (`showFeed?type=etoc&feed=rss&jc=<journal-code>`) may generalize to other AAAS/
   Science-family journals if a future source ever needs one.
+
+- 2026-10-03 (weekly, W40) — Self-amendment actions. APPLIED Amendment H (queue-cleanup criterion,
+  proposed W39): weekly.md §3 now separates "still-live watch" from "settled historical record"
+  when judging the observation_queue soft cap — motivating signal (W39's full-queue review finding
+  the ~242 surviving items overwhelmingly still-live, not settled noise) persisted this week (queue
+  continued growing, same structural pattern, no evidence the raw-total framing had become
+  accurate). APPLIED Amendment I (per-trend arXiv version-history spot-check, proposed W39): added
+  to weekly.md §2 — the narrow motivating instance (Marton's v2 miss) did not repeat verbatim this
+  week, but the underlying risk (same-author revisions invisible to title-keyword triage) is
+  structural, not a one-off, and this week's separate-but-related capture-gap pattern (3 title-blind
+  misses in 2 weeks — Hopf-S6, Simplex-cube, S²×S³ retitling) independently reinforces the same
+  class of failure; applying now rather than waiting for an exact repeat. Regression check: Amendments
+  A/B/C/E/F/G all re-checked this session (TRENDS.md structure intact, cadence tiers honored, no
+  metric worsened two weeks running) — NO ROLLBACK on any.
+- 2026-10-03 (weekly, W40) — NEW PROPOSAL (cooling period starts now, for W41 review): this week's
+  Komlós/Beck-Fiala citation-chase (Amendment G) and the 10-01/10-02 dailies' capture-gap notes
+  converge on the same structural weakness — a landmark or near-landmark result whose TITLE gives
+  no lexical signal (no conjecture/proof/disprove/theorem keyword) is caught only by a citation
+  chase or a digest/blog pointer, never by the standing title-keyword triage, and this has now
+  happened at least 5 times in 3 weeks (Ramsey r₄(6,n) W39; Hopf-S6, Simplex-cube, S²×S³ this week;
+  the Komlós "exposition" retitling this week). Proposed: rotate ONE in-scope math category per
+  daily run (not every category, to stay within the triage-for-cost budget) into a FULL-ABSTRACT
+  read rather than title-only triage, cycling so every in-scope category gets a full-abstract pass
+  roughly monthly. Motivated by the 5-instance pattern above; not yet applied (daily runs execute
+  only) — for the next weekly's review once the daily reports show whether the signal persists.
+- 2026-10-03 (weekly, W40) — Source-coverage notes: SLMath DEGRADED a 2nd consecutive weekly
+  (`tvly extract` "Failed to fetch url"; direct curl returns a contentless JS shell) — PARTIAL HEAL
+  via `tvly search` (program-announcement snippets, not a full browse); one more degraded weekly
+  would cross the ≥3-consecutive heal-owed bar — watch W41. Isaac Newton Institute HEALED (standing
+  Cloudflare-403 on direct curl/WebFetch bypassed by `tvly extract`). AMS Notices access path
+  CORRECTED (`ams.org/notices`, not `/journals/notices/`, which now redirects to a contentless nav
+  page — a drift in AMS's own site structure since the 2026-07-02 original verification, not a new
+  block). agmai.org PROMOTED (2-sighting bar cleared) — see SOURCES.md; also surfaced a forward-
+  looking watch item worth flagging: the group states it is "actively advising OpenAI on
+  coordinating the release of numerous significant mathematical results reportedly produced by
+  their internal model" — a pending wave of OpenAI math disclosures to watch for via this channel,
+  not yet a specific result to queue.

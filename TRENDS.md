@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-02
+Last updated: 2026-10-03
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -390,6 +390,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Erdős-Sós, Sylvester, Kusner, Chvátal, Pach-Tardos, but nothing on Ramsey-number lower bounds
     specifically). Confidence held medium (doubled unrefereed-preprint caution on Steiner's result
     stands). Not promoted (no fresh W38 velocity).
+  - 2026-W40 recalibration: HELD accelerating/medium. last_evidence 2026-09-22 is 11 days old, well
+    inside the 60-day window (dormancy line 2026-11-21). No 7th independent group or referee/vetting
+    outcome surfaced across the week's dailies (09-28→10-02, each scanning fresh math batches — a
+    landmark-dense week on OTHER sub-themes, incl. Kahn-Saks, Cassels-Swinnerton-Dyer, Ehlers-Kundt,
+    inhomogeneous Duffin-Schaeffer, Graham's rearrangement, the Hopf problem, Lehmer's permutation
+    conjecture, but nothing on Ramsey-number lower bounds specifically). This week's Amendment G
+    citation-chase pass was spent on the Komlós/Beck-Fiala trend instead (see that trend's note) —
+    rotate the chase back to this trend's own anchors next time. Confidence held medium (doubled
+    unrefereed-preprint caution on Steiner's result stands). Not promoted.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-10
@@ -707,6 +716,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     excluded 09-16, now queued in its own right per this week's capture-leak fix above). Confidence
     held at the ceiling — still the strongest of the four active trends by group count (fourteen)
     and venue breadth. Not promoted to `mainstreaming`. Watch for a 15th group or the cross-citation.
+  - 2026-W40 recalibration: HELD accelerating/high. last_evidence 2026-09-10 is 23 days old, well
+    inside the 60-day window. No 15th independent group or the still-outstanding explicit
+    lattice/continuum cross-citation surfaced across the week's dailies (09-28→10-02; SciPost API
+    and fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat batches both routine, nothing on this
+    sub-theme per the daily coverage log). Confidence held at the ceiling. Not promoted.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -908,6 +922,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Confidence held medium (unchanged; dormancy is a velocity call, not a correctness downgrade — the
     three counterexamples remain valid, checkable, unrefereed). Reactivation trigger unchanged: a 4th
     independent group or a referee/vetting outcome on any of the three preprints.
+  - 2026-W40 recalibration: HELD dormant/medium. last_evidence 2026-07-29 is 66 days quiet. No 4th
+    independent group or referee/vetting outcome on any of the three tracked preprints surfaced
+    across the week's dailies (09-28→10-02); a direct Schur-positivity/claw-free re-check this
+    session (arXiv API metadata on all three) found no fresh v-update. Archive line (120 days from
+    last_evidence) is 2026-11-26 — still 7+ weeks out, not yet due. No change.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-09-15
@@ -977,9 +996,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     tightens existing evidence, it does not add a new corroborating group). Process gap: no dated
     v-history spot-check on active trends' own tracked preprints existed as a standing weekly step —
     proposed as this week's amendment (see report).
+  - 2026-W40 recalibration: HELD emerging/medium. last_evidence 2026-09-15 is 18 days old, well
+    inside the 60-day window. Version-history recheck this session (arXiv page for 2608.30336):
+    still v2, no v3 — no further tightening. No 4th independent exponent-tightening group surfaced
+    across the week's dailies (09-28→10-02). Not promoted.
 
 ### Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)
-- stage: seed | confidence: medium | first_seen: 2026-09-24 | last_evidence: 2026-09-23
+- stage: emerging | confidence: high | first_seen: 2026-09-24 | last_evidence: 2026-09-29
 - what: an AI research agent ("Odin Automatic AI Research Agent") is credited with discovering a
   proof of the ~50-year-old Komlós conjecture (vector-signing/discrepancy problem) AND, as a
   corollary, the square-root dependence predicted by the Beck-Fiala conjecture, in one paper
@@ -1003,10 +1026,30 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     elementary proof of the Komlós conjecture": simplifies the Guo-Fang-Lu proof to an elementary
     combinatorial/probabilistic argument, $\|\cdot\|_\infty\le 36$. Abstract + authors verified via
     direct arXiv page this session.
-  - 2026-09-23 — https://arxiv.org/abs/2609.27172 — Akbas, Sra, "An exposition of the proof of the
-    Komlós conjecture": independent short exposition via a "quadratic Dirichlet energy" argument,
-    further tightening the constant to $C_0\approx7.515$ using log-concavity. Abstract + authors
-    verified via direct arXiv page this session.
+  - 2026-09-23 (v2 2026-09-29) — https://arxiv.org/abs/2609.27172 — Akbas, Sra, "Tighter bounds on
+    Komlós discrepancy: existence and algorithmic results" (RETITLED at v2 — v1 was "An exposition
+    of the proof of the Komlós conjecture"; see W40 note): improves the existence bound for
+    unit-norm vectors and gives a deterministic algorithm to compute such a coloring efficiently.
+    Title/authors/v1→v2 change verified via direct arXiv page this session.
+  - 2026-09-17 — https://arxiv.org/abs/2609.19714 — Altschuler, "Improved Algorithms for Beck-Fiala
+    with Bounded Sets": a FOURTH independent author (new to this trend), gives an efficient
+    algorithm with improved discrepancy bounds for Beck-Fiala when matrix columns have bounded
+    sparsity, via a bootstrapping technique built on the Bansal-Jiang algorithm (the same Bansal-
+    Jiang prior-art already cross-referenced in this trend's W39 note). Title/author/date verified
+    via direct arXiv page this session — found via a Semantic Scholar "cited by" chase on the
+    Guo-Fang-Lu founding artifact (this week's Amendment G pass).
+  - 2026-09-24 — https://arxiv.org/abs/2609.30044 — Xiaoyu Li, "Fast Spectral Signing for Vector
+    Balancing": a FIFTH independent author, gives a faster deterministic algorithm for the Komlós
+    sign-assignment problem via a spectral approach, improving prior algorithms' running time and
+    discrepancy bound. Title/author/date verified via direct arXiv page this session — found via
+    the same citation chase.
+  - 2026-09-27 — https://arxiv.org/abs/2609.33215 — Bansal, "On the Guo-Fang-Lu Algorithm for Komlos
+    Discrepancy": a simplified exposition of Guo-Fang-Lu's polynomial-time algorithm, emphasizing
+    the spectral-potential technique. Nikhil Bansal is the SAME author cross-referenced in this
+    trend's W39 prior-art note (Bansal-Jiang, arXiv:2508.03961) — an escalation of an already-known
+    adjacent author directly onto this trend's founding result, not counted toward the independent-
+    group tally, but a further community-engagement data point. Title/author/date verified via
+    direct arXiv page this session — found via the same citation chase.
 - notes: 2026-09-24 (daily, SEED): today's math.CO/FA fresh-batch triage surfaced the two follow-up
   papers (elementary proof + exposition), both explicitly crediting an underlying "recent proof of
   Guo, Fang, and Lu" without giving its arXiv id; `arxiv.org/search` + WebSearch located and opened
@@ -1027,6 +1070,40 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     abstract does not cite Bansal-Jiang (checked this session) — flagged here so a future referee
     pass on the AI-discovered proof has this prior-art context on file. No evidence/stage change;
     HELD seed/medium. Held for a fourth group, a referee outcome, or a gap report.
+  - 2026-W40 recalibration (PROMOTION, seed → emerging; confidence medium → high; this week's
+    Amendment G citation-chase pass): a Semantic Scholar "cited by" search on the Guo-Fang-Lu
+    founding artifact (2609.11189) surfaced NINE citing papers in the three weeks since posting —
+    far more community engagement than the two follow-ups on file at creation. Verified by opening
+    each candidate directly (arXiv abstract pages this session): two are NEW independent groups
+    building algorithmic improvements directly on Komlós/Beck-Fiala — Altschuler (2609.19714) and
+    Xiaoyu Li (2609.30044), now appended as evidence, bringing the independent-group count to FIVE
+    (Guo-Fang-Lu; Karingula-Lovett; Akbas-Sra; Altschuler; Li) — satisfying the standing "watch for
+    a fourth group" note twice over. A SIXTH citing paper (Bansal, 2609.33215) is the SAME author as
+    the already-cross-referenced Bansal-Jiang prior art, an escalation not a new group (appended as
+    evidence for the engagement signal, not counted toward the tally). CORRECTION found in the same
+    pass: the Akbas-Sra evidence line (2609.27172) had gone stale — the paper was RETITLED and
+    rescoped at v2 (2026-09-29, from "An exposition of the proof..." to "Tighter bounds on Komlós
+    discrepancy: existence and algorithmic results"), the same silent-retitling pattern flagged
+    elsewhere this week (see the Hopf-problem/S²×S³ capture-gap notes in `logs/strategy_notes.md`)
+    — fixed in the evidence line above. TWO further citing papers (Niles-Weed–Sadovsky–Shkrob,
+    2610.02127; Jiang–Lim–Parvatikar, 2609.31389) engage a related but DISTINCT variant problem
+    (vector balancing with permutations; "unbalancing" unit vectors — the reverse direction) and do
+    NOT count as trend evidence, per the same adjacent-sub-area handling as the Ramsey trend's
+    Ramsey-adjacent items — queued in their own right below. PROMOTION rationale: five independent
+    groups within three weeks of an AI-discovered, wholly-unrefereed base result is exactly the
+    "fast, multi-group human-confirmation pattern" this trend's own `what` field anticipated;
+    Karingula-Lovett's and Akbas-Sra's papers are themselves independent RE-DERIVATIONS of the core
+    Komlós bound by different methods, which is the kind of "replication" the hard rules' hype-
+    skepticism caution treats as a genuine (if not yet peer-reviewed) vetting signal — meeting the
+    confidence-to-high bar ("≥2 independent authoritative primary sources corroborate... on concrete
+    artifacts"). Confidence raised to high despite the unrefereed-preprint caution remaining in
+    force (still no formal peer review; the base proof is still AI-discovered) — the caution is
+    about PEER REVIEW, which this does not have, not about independent corroboration, which it now
+    has in abundance; held open for a referee outcome or a found gap, which would require a
+    demotion regardless of corroboration count. last_evidence advances 2026-09-23 → 2026-09-29
+    (Akbas-Sra's v2 retitling/rescoping — the newest dated activity among this trend's own
+    evidence lines; the two queued variant-problem papers are not trend evidence and do not set
+    this date).
 
 ### Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)
 - stage: seed | confidence: medium | first_seen: 2026-09-25 | last_evidence: 2026-09-25
@@ -1228,6 +1305,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   closing paper plus named-expert corroboration (Noga Alon, quoted in the Quanta piece, on the
   proof's significance). Watch for follow-on generalizations (the conjecture's higher-order/
   non-prime-modulus variants).
+  - 2026-W40 recalibration (dormancy-clock clarification, no action): `last_evidence` (2026-02-17)
+    is nominally 228 days old today, which would read as past even the 120-day archive line — but
+    this trend was only first_seen 2026-09-29 (4 days ago) and the conjecture is a RESOLVED landmark
+    (the "evidence" is the closing paper's actual publication date, not a signal of continuing
+    activity). Per the precedent set for the Ramsey trend at its own creation (W27/W28: "NOT marked
+    dormant despite the evidence gap because the trend was only created N days ago"), a freshly
+    created trend's dormancy clock should run from when THIS LEDGER started tracking it, not from
+    an old backlog artifact's own date — so this is NOT a dormancy case. No fresh follow-on
+    generalization surfaced this week. Watch continues; this note exists so a future session does
+    not mechanically read the raw day-count and misfire an archive action.
 
 ### The Hopf problem — a complex structure on S⁶ (Alpöge/Claude, 1947 problem)
 - stage: seed | confidence: medium | first_seen: 2026-10-01 | last_evidence: 2026-09-27
@@ -1302,6 +1389,30 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-07-11 (v1; v2 2026-07-26; capture-leak catch, found 2026-10-03) — Lin, Niu, "Hypergraph
+  Erdős-Rogers functions with consecutive clique sizes" — https://arxiv.org/abs/2607.10111 —
+  combinatorics (axis 1, math.CO): establishes $f^{(4)}_{s,s+1}(n)=(\log n)^{o(1)}$ for hypergraph
+  Erdős-Rogers functions with consecutive clique sizes, by a trend author group (Lin-Niu, tracked on
+  the Ramsey lower-bound trend). Ramsey-ADJACENT (an Erdős-Rogers extremal function, not a Ramsey-
+  number lower bound), already correctly excluded from that trend's evidence by the 2026-07-14
+  daily, but that day's note claimed it was "queued as its own item" when it never actually was —
+  a genuine ~2.5-month-old capture-leak, caught by this week's mandatory notes-field grep. Abstract
+  + authors verified via direct arXiv page this session.
+- 2026-10-01 (v1) — Niles-Weed, Sadovsky, Shkrob, "An optimal constant for vector balancing with
+  permutations" — https://arxiv.org/abs/2610.02127 — combinatorics / discrepancy theory (axis 1,
+  math.CO): an explicit, asymptotically optimal bound for a PERMUTATION variant of vector balancing
+  (vectors may be assigned signs AND coordinate permutations), via purely geometric methods. Found
+  via this week's Semantic Scholar citation chase on the Komlós/Beck-Fiala trend's founding
+  artifact (2609.11189) — a distinct variant problem, not counted as trend evidence there (see that
+  trend's W40 note). Title/authors/date verified via direct arXiv page this session.
+- 2026-09-25 (v1) — Jiang, Lim, Parvatikar, "Unbalancing unit vectors" —
+  https://arxiv.org/abs/2609.31389 — combinatorics / discrepancy theory (axis 1, math.CO): shows any
+  collection of unit vectors in Euclidean space admits a sign assignment giving a linear combination
+  of magnitude at least $\sqrt{2n-d}$, with an equality characterization — the REVERSE-direction
+  ("unbalancing," a lower bound on achievable imbalance) counterpart to the Komlós/Beck-Fiala
+  balancing direction. Found via the same citation chase as the item above; a related but distinct
+  sub-area, not counted as trend evidence. Title/authors/date verified via direct arXiv page this
+  session.
 - 2026-10-01 (v1) — Yicen Ma, "A Proof of the Third Borwein Conjecture" —
   https://arxiv.org/abs/2610.01156 — number theory / combinatorics (axis 1, math.CO/NT): proves the
   sign pattern of the coefficients of $\prod_{j,s}(1-q^{5j-s})$ predicted by Borwein's third

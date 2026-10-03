@@ -10,6 +10,13 @@ reports of the past 7 days in `reports/`, and the previous weekly report if pres
 ## 2. Recalibrate every trend
 Judge each trend's velocity over the last 2–3 weeks (count of new independent evidence,
 breadth of orgs, presence in tools/standards/practice).
+**Amendment I (applied 2026-W40 — motivated by the W39 Marton v2 miss, an 11-day-old same-id
+revision invisible to title-keyword triage, and reinforced by this week's separate but related
+capture-gap pattern of title-blind misses):** for every ACTIVE (non-dormant) trend, spot-check
+each tracked preprint's own arXiv version history (the abstract page's "Submission history") for
+a silent vN update since the last check — a same-author revision carries no new arXiv id, so it
+is invisible to any title-keyword scan and will only ever surface here. One fetch per tracked
+preprint; fold any found update into that trend's evidence/last_evidence per the normal rules.
 - **Promote** (seed → emerging → accelerating → mainstreaming) only on sustained multi-org
   evidence; one stage max per week; justify in `notes`.
 - **Demote** honestly when evidence thinned.
@@ -41,6 +48,17 @@ PERSIST — a math result stays relevant for months); resolve the oldest only wh
 cap. Never silently delete. Also curate `study_shelf` (merge duplicates, prune picks older than
 **~120 days** (not 30) — a landmark result stays a top study pick for months; preserve the rest
 in their day's report).
+**Amendment H (applied 2026-W40 — motivated by the W39 queue-burndown finding that a full review
+found the surviving ~242 items overwhelmingly still-live, not settled noise, making the raw
+soft-cap comparison misleading):** when judging the soft cap, first classify items into two
+tiers — **still-live watch** (an explicit, named condition is pending: a referee/vetting outcome,
+a Nth-independent-group threshold, a Lean effort completing, an experimental confirmation) vs.
+**settled historical record** (fully captured, no outstanding watch condition, kept for
+completeness/context rather than active tracking). Compare the soft cap against the still-live
+tier's count, not the raw total — a slow, well-curated domain-cadence ledger is EXPECTED to
+accumulate settled-record items faster than it burns them down, and that accumulation is not
+itself a coverage or curation failure. Resolving-the-oldest-when-over-cap (above) still applies,
+but only within the still-live tier, and a settled-record item is never dropped merely for age.
 **Capture-leak sweep (MANDATORY — weekly backstop to the daily reconciliation; the `capture-leak`
 metric AS AN ACTION, not just a number):** grep every trend's `notes` field AND this week's
 reports for arXiv-ids / repo / release URLs; for each, verify the id ACTUALLY appears as a

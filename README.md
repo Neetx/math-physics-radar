@@ -1,23 +1,24 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-277-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--02-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-280-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--03-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-02):**
-- New `seed` trend: [Lehmer's 1965 permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity), a 61-year-old problem from Knuth's *TAOCP*, with a complete [Lean 4 formalization](https://arxiv.org/abs/2610.01240).
-- Watchlist +6: same-day landmark cluster — [the Third Borwein Conjecture](https://arxiv.org/abs/2610.01156), [Watkins's conjecture for infinite groups](https://arxiv.org/abs/2610.01049), [an explicit polynomial counterexample to Connes' Embedding Conjecture](https://arxiv.org/abs/2610.01536) — plus a 3-week-late capture-gap catch, [Kalai's simplex–cube conjecture (partial proof)](https://arxiv.org/abs/2609.00397), and a flagged retraction: [a positive-curvature $S^2\times S^3$ metric](https://arxiv.org/abs/2608.22133) whose stronger v1 claim (disproving Hopf's sign conjecture) was quietly narrowed in v2.
-- No stage move beyond today's new seed — otherwise a quiet trend day, typical of this domain's cadence.
-- Self-heal: [Science Advances](https://www.science.org/journal/sciadv)' RSS feed is working again via a legacy AAAS endpoint, closing a gap standing since 09-26.
+**Since last scan (2026-10-03, weekly recalibration):**
+- Stage move: [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) promoted `seed`→`emerging`, confidence medium→high — a citation chase on the founding AI-discovered proof turned up 5 independent human groups now building on it within 3 weeks, including two new ones ([Altschuler](https://arxiv.org/abs/2609.19714), [Xiaoyu Li](https://arxiv.org/abs/2609.30044)).
+- Capture-leak closed: a ~2.5-month-old miss ([Lin–Niu's Erdős-Rogers paper](https://arxiv.org/abs/2607.10111), wrongly logged as queued back in July) is now actually on the watchlist, plus two Komlós-adjacent variant papers ([permutation balancing](https://arxiv.org/abs/2610.02127), [unbalancing unit vectors](https://arxiv.org/abs/2609.31389)).
+- Self-amendment: two process fixes applied this week — the queue soft-cap now reads against still-live items rather than the raw total, and trends get a per-session arXiv version-history spot-check (closes the same blind spot that caused this week's Marton/Komlós stale-title misses).
+- Source growth: [agmai.org](https://agmai.org) promoted into the swept registry (it's coordinating a pending wave of OpenAI math disclosures); Isaac Newton Institute's standing access block healed.
 
 ## Trends
 
-🌱 10 · 📈 1 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 9 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11895) |
+| [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.27172) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-01](https://arxiv.org/abs/2610.01240) |
 | [The Hopf problem — S⁶ complex structure](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
@@ -26,7 +27,6 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Cassels–Swinnerton-Dyer for cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
 | [Inhomogeneous Duffin-Schaeffer disproved](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30870) |
 | [Ehlers–Kundt conjecture counterexample](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
-| [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 🌱 seed | [2026-09-23](https://arxiv.org/abs/2609.27172) |
 | [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-09-23](https://github.com/mo271/zeta5) |
 | [Graham's rearrangement conjecture resolved](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.26364) |
@@ -145,11 +145,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 ## Community pulse
 
-- [Combinatorics and more](https://gilkalai.wordpress.com/) (Gil Kalai's blog) led to today's biggest catch — a 3-week-late capture of a proof of the blog author's own 1990 simplex–cube conjecture, now on the watchlist.
-- [Backreaction](https://backreaction.blogspot.com/) and [Hacker News](https://hn.algolia.com/) carried no new on-axis math/physics result today (both chased already-tracked stories, or off-axis items).
-- MathOverflow and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic; [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (14+ weeks running).
-- SciRate's top-scited listing was tried as a non-arXiv discovery surface this session (per the standing off-axis-fatigue watch) — still Cloudflare-walled / no usable "what's new" browse found.
+- [Combinatorics and more](https://gilkalai.wordpress.com/) (Gil Kalai's blog) remains the week's standout pointer surface — last week's 3-week-late simplex–cube-conjecture catch is now this week's Komlós/Beck-Fiala citation chase precedent for reading past titles.
+- Reddit's r/Physics/r/cosmology/r/ParticlePhysics/r/AskPhysics (weekly-swept tier) carried routine homework-level/speculative traffic, nothing primary; [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (14+ weeks running).
+- MathOverflow and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic this week.
+- [agmai.org](https://agmai.org) (the AI-math advisory group) says it is now coordinating a pending wave of OpenAI math disclosures — a leading indicator worth watching, not yet a result.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (277) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-02](reports/2026-10-02.md)) · Weekly: [2026-W39](reports/weekly/2026-W39.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (280) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-02](reports/2026-10-02.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

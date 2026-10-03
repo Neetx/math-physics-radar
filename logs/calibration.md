@@ -245,3 +245,71 @@ routing-leak n`.
   occurrences (09-23/09-24/09-25 dailies + this weekly) — meets the ≥3-consecutive heal-owed bar;
   escalated to the curator via push notification this session (a billing/plan constraint, not a
   repairable access path). No monthly retrospective due (day 26 > 7; M09 already ran at W36).
+- 2026-10-03 — W40: queue +3/→0/−0/stale 0 (277→280; +3 added this weekly session [1 capture-leak
+  catch, arXiv:2607.10111; 2 Komlós-adjacent variant papers surfaced by this week's citation chase],
+  0 promoted-from-queue [the week's evidence landed directly on the Komlós trend via the citation
+  chase, not via queue promotion], 0 dropped — per Amendment H (applied this week), the soft-cap
+  read is against the still-live tier, not the raw total, and a full read of this week's additions
+  found them all still-live) · evidence +3 (Komlós/Beck-Fiala: Altschuler 2609.19714, Xiaoyu Li
+  2609.30044, Bansal 2609.33215) + 1 correction (Komlós/Beck-Fiala's Akbas-Sra line, stale title
+  fixed to match its v2 retitling) · moves 1 (Komlós/Beck-Fiala seed→emerging, confidence
+  medium→high, on 5 independent groups now on file) · exploration 5/5 (daily compliance all week:
+  math.NA 09-28, cs.CC 09-29, math.LO+math.OC 09-30, nlin.CD 10-01, SciRate 10-02) · off-axis 1/5
+  (yield — 09-29's cs.CC GPT-6-assisted tensor-rank paper; the other four reads were zero/weak,
+  continuing the pattern flagged in strategy_notes — a new amendment proposed this week, not yet
+  applied) · lag: capture-leak catch 84d (2607.10111, 07-11→10-03); citation-chase catches 9-16d
+  (Altschuler 09-17→10-03 = 16d; Li 09-24→10-03 = 9d) · coverage (weekly-swept tier, this
+  operator's duty) 18/18 logged opened-or-attempted (6 institutes, 3 slow venues, 5 low-yield
+  extra-social combined-checked, 4 annual prizes combined-checked; degraded: SLMath 2nd consecutive
+  weekly — not yet heal-owed, watch W41; healed: Isaac Newton Institute via `tvly extract`) ·
+  routing-leak: not independently re-swept beyond this week's own additions (same standing caveat
+  as prior weeklies) · capture-leak 65 ids checked (mechanical notes-field grep across all 14
+  trends) / 1 queued (2607.10111; 3 other candidates checked and confirmed not leaks — each
+  explicitly logged in its trend's own notes as checked-and-excluded or cap-rotated) · src-disc 1
+  promoted (agmai.org, cleared the ≥2-sighting bar → Primary feeds, AI-watch lane, DAILY tier) / 8
+  held below the ≥2 bar (vals.ai, conjectures.io, proofsandprompts.com, anima-ai.org, preprints.org,
+  zenodo.org, peakmath.org, galoisrepresentations.org). Self-amendment: Amendments A/C/E/F/G
+  re-checked this session, NO ROLLBACK on any. Amendment H (queue-criterion tier split) and
+  Amendment I (per-trend version-history spot-check), both proposed W39, APPLIED this week (signal
+  persisted for H; I applied on the structural-risk reading rather than an exact-repeat, see
+  strategy_notes). One new proposal logged (rotate one in-scope category/day into a full-abstract
+  read, motivated by a 5-instance title-blind-miss pattern across 3 weeks) — cooling period starts
+  now, for W41 review.
+- 2026-10-03 — retro M10 (second monthly hit/miss retrospective; covers September 2026, the
+  ledger's most active month to date).
+  HITS (same-day or near-same-day capture): the Komlós/Beck-Fiala AI-discovered-then-human-
+  confirmed cluster (seed 09-24, within 2 weeks of the founding 09-10 artifact, now 5 independent
+  groups by this week); the ζ(5) irrationality claim (queued 09-25 within days of the 09-17
+  off-arXiv claim, promoted to seed 09-26 on Firsching's independent Lean proof); the FLT Lean
+  formalization (Anthropic/Buzzard, captured same-week 09-04/09-15); non-invertible-symmetries QFT
+  (sustained accelerating/high tracking through 14 independent groups, no competitor trend came
+  close to this one's breadth); the Graham's-rearrangement-conjecture resolution (caught same-day
+  as the Quanta piece, 09-28/09-29, correctly backdating all 4 evidence papers); four same-day
+  landmark seeds on 09-28 alone (Kahn-Saks, Cassels-Swinnerton-Dyer, Ehlers-Kundt, inhomogeneous
+  Duffin-Schaeffer) — all same-week captures of fresh preprints, not backlog catches.
+  MISSES (real gaps, now closed): the Hopf problem / S⁶ complex structure (Alpöge/Claude,
+  announced 08-23/24 off-arXiv, not captured until 10-01 — a 5+ week gap, root cause: the claim
+  never touched arXiv so the category-rotation sweep structurally could not see it, closed only by
+  a community-pulse digest chase); Kalai's simplex-cube conjecture proof (posted 08-31, not caught
+  until 10-02 via a direct Kalai-blog chase — a 3-week gap, same title-blind-miss root cause); the
+  Ramsey trend's own r₄(6,n) full-conjecture-resolution escalation (posted 09-22, caught 4 days
+  later only via a citation chase, not the daily title sweep). Root cause common to all three: a
+  landmark or near-landmark result whose TITLE carries no conjecture/proof/disprove/theorem keyword
+  is structurally invisible to title-only triage — this pattern, not a one-off, motivated this
+  week's new proposal (full-abstract rotation) above. Smaller misses, now closed: the Marton v2
+  exponent tightening (11-day same-id-revision miss, closed by W39's version-history check,
+  Amendment I now standing); the Komlós "exposition" paper's own silent v2 retitling (closed this
+  week, same root cause as the Marton miss — reinforces Amendment I's value).
+  NO ACTION NEEDED: the Guo-Fang-Lu S³×S³→S²×S³ v1/v2 narrowing (a likely self-correction, not a
+  retraction needing a correction note on this ledger — it was never promoted past queue status)
+  correctly stayed a flagged-but-unescalated queue item; the OpenAI/Buckmaster/Alpöge Navier-Stokes
+  authorship dispute correctly stayed tracked as a vetting-signal/ecosystem thread rather than a
+  resolved-conjecture trend, consistent with the Clay Institute's own "deliberately unhurried"
+  evaluation stance.
+  Overall this month's misses were concentrated in exactly ONE failure mode — title-keyword-blind
+  triage missing a result with no lexical signal — recurring 5 times across September, each caught
+  only by a citation chase or a direct blog/digest pointer rather than the standing daily sweep.
+  This is a more specific and more actionable root cause than August's (the annual-prize lane,
+  since fixed by Amendment A's cadence split); this month's fix candidate (the full-abstract
+  rotation proposed above) targets it directly rather than relying indefinitely on citation-chase
+  luck.

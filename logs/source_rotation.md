@@ -2621,3 +2621,57 @@ Verhoeff). study_shelf +1 (same). capture-leak: 29 ids checked this session (mec
 against reports/2026-09-29/-30/2026-10-01) / 0 queued (all 29 confirmed already present in
 evidence/queue/study_shelf lines — 0 leaked); today's own 7 new ids self-checked present in
 TRENDS.md. README.md regenerated in the same commit.
+
+## 2026-10-03 (weekly, W40)
+
+Weekly-swept tier (AGENTS.md § Cadence tiers — this operator's duty). Mathematics institutes:
+IHES (`WebFetch` — Hong Wang Fields Medal note, conference announcements, no new result),
+MPIM Bonn (`WebFetch` — Frontiers of Science Award, Abel Prize celebration, Hirzebruch lecture
+upcoming, no new result), Fields Institute (`WebFetch` — Tsimerman Fields Medal note, Fellows
+announced, no new result), Isaac Newton Institute (HEALED this session via `tvly extract` —
+standing Cloudflare-403 on direct curl/WebFetch bypassed; programs/newsletter content, no new
+result — see SOURCES.md), SLMath (DEGRADED again, 2nd consecutive weekly — `tvly extract` "Failed
+to fetch url", direct curl returns a contentless JS shell; PARTIAL HEAL via `tvly search` —
+program-announcement snippets only, no full browse — see SOURCES.md) all opened/attempted.
+Slow venues: Annals of Mathematics (`tvly extract` — volume/issue nav only, no per-article
+listing, structural limitation as previously noted), AMS Notices (CORRECTED URL this session —
+`ams.org/notices`, not `/journals/notices/`, which redirects to a contentless nav page — current
+issue opened: "Global Geometric Structures," "Irish National Maths Week," "What is a Heteroclinic
+Cycle?" — all expository/outreach, no landmark research result), Forum of Mathematics Pi
+(`tvly extract` — Volume 14 article list, all already-known entries, no dates available per
+standing limitation) all opened. Low-yield extra-social: Physics Stack Exchange (`curl -A
+"Mozilla/5.0"` — WebFetch itself failed this session, direct curl worked — routine homework-level
+questions, nothing research-level); r/Physics/r/cosmology/r/ParticlePhysics/r/AskPhysics (direct
+`.rss` still hard-blocked, same standing constraint as the daily-tier math subs; `tvly search`
+substitute found only speculative/off-axis chatter — one PhilArchive philosophy-of-physics post
+on temporal symmetry checked and excluded, not a primary). Prizes (Abel/Breakthrough/Shaw/Fields):
+`tvly search` for a new prize cycle — nothing new (not prize season; the 2026 Fields Medal
+laureates — Deng, Pardon, Tsimerman, Wang — recurring in this week's institute pages are already
+fully tracked, confirmed no leak). Discovered-source-candidates review: agmai.org PROMOTED (2
+sightings, verified live) — see SOURCES.md; vals.ai, conjectures.io, proofsandprompts.com,
+anima-ai.org, preprints.org, zenodo.org, peakmath.org, galoisrepresentations.org all HELD below
+the ≥2 bar (checked against this week's reports, no recurrence).
+
+Older-paper/citation-chase pass (Amendment G, mandatory once/weekly): Semantic Scholar "cited by"
+on the Komlós/Beck-Fiala trend's founding artifact (arXiv:2609.11189, Guo-Fang-Lu) — 9 citing
+papers found, verified by opening each arXiv abstract directly this session. Result: a genuine
+promotion-triggering catch (2 new independent groups — Altschuler, Xiaoyu Li — plus a stale-title
+correction on the Akbas-Sra evidence line and 2 adjacent-variant queue items) — see that trend's
+W40 note in TRENDS.md for the full account. Second arXiv API query (Marton's-conjecture anchor,
+2608.30336) rate-limited via direct `curl`; substituted with a direct `WebFetch` version-history
+check — still v2, no v3, no 4th group.
+
+Capture-leak sweep (mandatory, weekly backstop): mechanical grep of every arXiv id named anywhere
+in all 14 trends' `notes` fields against evidence lines + the observation_queue block. 1 genuine
+leak found: arXiv:2607.10111 (Lin-Niu, Erdős-Rogers hypergraph function), named in the Ramsey
+trend's 2026-07-14 note as "queued as its own item" but never actually given a queue line — a
+~2.5-month-old miss, now queued. Three other candidates (2309.01914, 2604.02856, 2608.22350)
+checked and confirmed NOT leaks — each is explicitly logged in its trend's own notes as
+checked-and-excluded or already-captured-then-cap-rotated, not a missed promotion.
+
+Queue: +3 this session (the capture-leak catch above + 2 Komlós-adjacent variant papers) / 0
+dropped. study_shelf: aging check — oldest shelf-added-equivalent entries (2026-07-02, pre-dating
+the "shelf-added" convention) are 93 days old, inside the 120-day prune line; no pruning needed.
+Trend recalibration: 1 promotion (Komlós/Beck-Fiala, seed→emerging, confidence medium→high, 5
+independent groups now on file), 1 evidence correction (Komlós/Beck-Fiala's Akbas-Sra line
+retitled), 0 demotions, 0 archivals, 0 reactivations. README.md regenerated in the same commit.
