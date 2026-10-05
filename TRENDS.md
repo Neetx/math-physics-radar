@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-03
+Last updated: 2026-10-05
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -401,20 +401,25 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     unrefereed-preprint caution on Steiner's result stands). Not promoted.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-10
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-28
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
   gapless-phase classification via the Symmetry TFT. Three fully independent author groups now hold
   concrete artifacts on this sub-theme, clearing the ≥3-group + artifact convergence bar today.
 - evidence:
-  - 2026-08-19 — https://arxiv.org/abs/2608.16520 — Flores-Calderón, Pollmann, Knap (TU Munich),
-    "Non-invertible Lattice 1-Form Symmetries for Non-Abelian Topological Order": a FIFTH fully
-    independent author group (condensed-matter/quantum-many-body, TUM — independent of Oishi–Ebisu,
-    Antunes–Rong, Bhardwaj et al., and Ueda et al.), constructs non-invertible 1-form symmetry
-    operators (governed by non-invertible fusion algebras, not a group) for non-Abelian topological
-    order in quantum double lattice models $\mathcal D(G)$. Abstract + authors verified via arXiv
-    API this session (v1 2026-08-14, surfaced in today's fresh physics batch).
+  - 2026-09-28 — https://scipost.org/SciPostPhysCore.9.3.063 (arXiv:2511.18969, Maity,
+    Tripathi, Nevidomskyy, Rice Univ.) + https://scipost.org/SciPostPhys.21.3.078 (arXiv:2601.08615,
+    Inamura, Ohyama): a TWELFTH fully independent author group (Maity–Tripathi–Nevidomskyy,
+    extending non-invertible duality constructions to (2+1)d lattice models with subsystem
+    symmetries) now on file via SciPost's community-refereed publication of both papers this week;
+    Inamura–Ohyama's companion paper (generalized cluster-state SPT models with non-invertible
+    symmetries) is NOT counted as a new group — Inamura already tracked via the Bhardwaj et al.
+    group (2026-07-27 evidence, now rotated off the 10-line cap) — same author-portfolio caution as
+    the Ramsey trend's Lin Qizhong case. Both papers pre-date this week (arXiv v1 2025-11/2026-01)
+    but were caught only now via their SciPost publication dates — title/authors verified via the
+    arXiv API this session. DROPPED the 2026-08-19 Flores-Calderón evidence line to hold the 10-item
+    cap (still tracked in notes/group-count history above).
   - 2026-08-20 — https://arxiv.org/abs/2608.18926 — Maruyoshi, Moon, Song, "Non-invertible symmetry
     and vertex operator algebra outer-automorphism": a SIXTH fully independent author group
     (independent of Oishi–Ebisu, Antunes–Rong, Bhardwaj et al., Ueda et al., and
@@ -1389,6 +1394,112 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-10-02 (v1) — Hu Tan, Ying Zhang, "Fuglede's Conjecture for Cyclic Groups of Square-free
+  Order" — https://arxiv.org/abs/2610.02218 — harmonic analysis / combinatorics (axis 1, math.CO):
+  claims a complete structural resolution of Fuglede's spectral-set conjecture (1974) restricted to
+  finite cyclic groups of square-free order (A is spectral iff it tiles Z_N). SAME TWO AUTHORS as
+  the already-queued "A Proof of Fraenkel's Conjecture" (arXiv:2609.01570, queued 2026-09-02) —
+  a recurring lone-pair publishing a second bold named-conjecture resolution within a month, no
+  institutional affiliation found this session. UNREFEREED PREPRINT, no independent corroboration
+  — hype-skepticism caution applies to both; held at queue pending referee/community reaction.
+  Abstract + authors verified via arXiv API this session (v1 2026-09-09 per the API's `published`
+  field, despite the 2610.* identifier).
+- 2026-10-01 (v1) — Yicen Ma, "A Proof of the Koumandos–Ruscheweyh Conjecture" —
+  https://arxiv.org/abs/2610.02285 — complex analysis (axis 1, math.CV): claims a full proof of the
+  Koumandos–Ruscheweyh conjecture (geometric function theory, partial-sum univalence) for all
+  0<ρ≤1. SAME SINGLE AUTHOR as the already-queued "A Proof of the Third Borwein Conjecture"
+  (arXiv:2610.01156, queued 2026-10-01/02) — a second distinct named-conjecture claim from one
+  author within the same week, spanning two different subfields. UNREFEREED PREPRINT — same
+  hype-skepticism caution as the Borwein item; held at queue pending referee/community reaction.
+  Abstract + author verified via arXiv API this session.
+- 2026-10-02 (v1) — Deep Bhattacharjee, Priyabrata Mandal, Ushashi Bhattacharya, "Resolving
+  Erdős-Ulam Monochromatic Union-Closed Family Conjectures" — https://arxiv.org/abs/2610.02833 —
+  combinatorics (axis 1, math.CO): claims a full proof of both Erdős–Ulam conjectures on
+  monochromatic union-closed families (for any number of colours), with results "verified in Lean."
+  DOMAIN-CADENCE LANDMARK CANDIDATE (a named Erdős conjecture + a claimed Lean check) but NOT
+  promoted to seed — unlike the Lehmer/ζ(5)/FLT precedents, the Lean artifact itself was not opened
+  this session (only the arXiv abstract), authors have no obvious institutional affiliation, and no
+  independent corroboration exists — held at queue pending the Lean repo being opened directly and
+  referee/community reaction. Abstract + authors verified via arXiv API this session (v1 2026-10-01).
+- 2026-10-01 (v1) — Simone Costa, Ankan Sadhu, "Beyond Liu's 0.382709 threshold for the
+  union-closed sets conjecture" — https://arxiv.org/abs/2610.02295 — combinatorics (axis 1,
+  math.CO): improves the best proved universal lower bound on the union-closed sets conjecture
+  past Liu's $c_{UC}>0.3823455$ threshold (not a full resolution). Single-group progress on a
+  famous open problem (post-Gilmer 2022 wave); below-bar, queued. Abstract + authors verified via
+  arXiv API this session.
+- 2026-10-02 (v1) — Arnar Á. Kristjánsson, "Counterexamples to the Strong Roberson Conjecture" —
+  https://arxiv.org/abs/2610.03550 — combinatorics / graph homomorphism counting (axis 1, math.CO):
+  refutes the Strong Roberson Conjecture (homomorphism-count distinguishing power), constructing
+  graphs excluding a minor that nonetheless determine homomorphism counts from that excluded graph.
+  Single-author, unrefereed — queued. Abstract + author verified via arXiv API this session.
+- 2026-03-25 (v1); v3 2026-10-02; CAPTURE-LEAK, found this session — Mónica Blanco, Francisco
+  Criado, Francisco Santos, "Coloopless zonotopes and counterexamples to the Shifted Lonely Runner
+  Conjecture" — https://arxiv.org/abs/2603.24784 — discrete geometry / combinatorics (axis 1,
+  math.MG/CO): disproves the "shifted" generalization of the Lonely Runner Conjecture (not the
+  original conjecture itself) via a zonotopal covering-radius construction. ~7-MONTH CAPTURE GAP:
+  the title names "Lonely Runner Conjecture" directly (should have been keyword-triage-visible at
+  v1 in March), only caught via today's math.MG sweep on the v3 revision. Santos is a reputable
+  discrete geometer (disproved the Hirsch conjecture); below-bar (a variant, not the original
+  conjecture). Abstract + authors verified via arXiv API this session.
+- 2026-10-02 (v1, PRL-equivalent collaboration preprint) — Super-Kamiokande Collaboration, "First
+  observation of electron antineutrinos from nuclear reactors at Super-Kamiokande" —
+  https://arxiv.org/abs/2610.03143 — experimental neutrino physics (axis 3, hep-ex): the SK-Gd
+  phase's first direct observation of reactor electron antineutrinos (411.52-live-day exposure),
+  a first-of-kind detection channel for a flagship, decades-running neutrino observatory.
+  DOMAIN-CADENCE LANDMARK (official collaboration result, first-of-kind), held at queue (routine
+  incremental capability demonstration rather than a discovery/anomaly). Abstract + collaboration
+  verified via arXiv API this session.
+- 2026-09-28 — ATLAS Collaboration, "Observation of a $B_c^{*+}$ Meson with the ATLAS Detector,"
+  Phys. Rev. Lett. (2026) — http://link.aps.org/doi/10.1103/vrxp-zkbs — experimental particle
+  physics (axis 3, hep-ex): first observation of the spin-1 partner of the $B_c^+$ meson, 64.5 MeV
+  above it, consistent with the predicted spin-aligned excited state. PEER-REVIEWED (PRL), official
+  collaboration — a genuine first-of-kind hadron-spectroscopy observation, corroborated same-week by
+  CERN Courier's "Hyperfine splitting in the $B_c$ system" write-up (opened this session). Below-bar
+  for a standalone trend (narrow, single-collaboration result) but a citable PRL primary — queued.
+- 2026-09-22 — Alkalay, Hajigeorgiou, Gupta, Senapati, Tiwari, Tai, Singh, Baldwin, Pfeiffer,
+  Shayegan, Banerjee, Heiblum, "Observation of $e/4$ Charge at $ν=1/2$ in a Wide GaAs Quantum
+  Well," Phys. Rev. Lett. (2026) — http://link.aps.org/doi/10.1103/c73x-q4z7 — condensed matter
+  physics (axis 3, cond-mat.mes-hall): shot-noise measurements reveal $e/4$-charged quasiparticles
+  in the $ν=1/2$ fractional quantum Hall state, consistent with a non-Abelian (Pfaffian-class)
+  topological order. PEER-REVIEWED (PRL), same Weizmann (Heiblum) group as the already-queued
+  $ν=5/2$ non-Abelian-anyon-braiding result (arXiv:2608.12897, 2026-08-13) — a second, independent
+  filling-fraction result from the same lab's non-Abelian-FQH program this quarter. Below-bar for a
+  standalone trend (one lab, not yet ≥3 independent groups) but a strong, peer-reviewed landmark
+  candidate — queued, also a `study_shelf` candidate. Opened via the PRL RSS feed this session.
+- 2026-09-28 — BESIII Collaboration (via CERN Courier, "A case for pure glue," opened this session,
+  https://cerncourier.com/a/a-case-for-pure-glue/) — experimental hadron spectroscopy (axis 3):
+  presents evidence that the X(2370) resonance is dominantly a glueball (QCD bound state of pure
+  gluons). Below-bar (evidence, not a confirmed discovery; primary BESIII paper not independently
+  opened this session — Courier summary only) — queued, watch for the BESIII preprint/publication.
+- 2026-09-25 — LHCb Collaboration (via CERN Courier, "A new purely baryonic decay," opened this
+  session, https://cerncourier.com/a/a-new-purely-baryonic-decay/) — experimental particle physics
+  (axis 3): first observation of a charmless decay involving only baryons and antibaryons. Below-bar
+  (narrow decay-channel first; primary LHCb paper not independently opened this session) — queued.
+- 2026-10-03 (blog post, via Backreaction, "First Evidence for Quantum Gravity?," opened via search
+  this session); arXiv v1 2025-04-02, v3 2026-06-30, accepted Phys. Rev. Lett. — Giorgio Galanti,
+  Marco Roncadelli, "Lorentz-Violating Scenarios for the Highest-Energy Photons from GRB 221009A" —
+  https://arxiv.org/abs/2504.01830 — quantum-gravity phenomenology / astrophysics (axis 2/3
+  interface, gr-qc/hep-ph/astro-ph.HE): interprets Carpet-3's 300 TeV photon from GRB 221009A
+  (arriving ~75 min after the main burst) via Lorentz-invariance violation (a low-energy relic of
+  some quantum-gravity theories), ACCEPTED for PRL. EXTRAORDINARY-CLAIM CAUTION (hard rule):
+  framed by Backreaction itself with a question mark; a single extraordinary photon, and a
+  COMPETING analysis (Satunin, Troitsky, JETP Lett. 123 (2026) 73, arXiv:2510.07234, opened this
+  session) finds LIV gives only a modest fit improvement with parameters excluded by other
+  constraints, preferring an axion-like-particle explanation instead — an active, unsettled
+  scientific disagreement, not a confirmed quantum-gravity signal. Below-bar, queued as a
+  domain-cadence watch item (first accepted-PRL attempt at an observational quantum-gravity hint).
+- (undated, accessed 2026-10-05; BNL Newsroom official collaboration announcement, opened via
+  search this session, https://www.bnl.gov/newsroom/news.php?a=119062) — STAR Collaboration,
+  "Results from Search for
+  'Chiral Magnetic Effect' at RHIC"; companion publication B. E. Aboona et al. (STAR Collaboration),
+  "Search for the chiral magnetic effect through beam energy scan," Phys. Rev. C 113, 014912
+  (2026) — experimental nuclear/particle physics (axis 3): a long-awaited "blind analysis" of
+  ~billions of heavy-ion collision events reports positive charge-separation signals at multiple
+  beam energies (17.3, 27 GeV), consistent with (but not yet confirming) the chiral magnetic
+  effect. Official collaboration result; below-bar for a standalone trend (a continuing,
+  decades-long search, not a clean discovery) — queued. Full BNL article body did not render
+  via this session's fetch tools (JS-gated); cited from the official collaboration source +
+  the published-journal citation found via this session's search.
 - 2026-07-11 (v1; v2 2026-07-26; capture-leak catch, found 2026-10-03) — Lin, Niu, "Hypergraph
   Erdős-Rogers functions with consecutive clique sizes" — https://arxiv.org/abs/2607.10111 —
   combinatorics (axis 1, math.CO): establishes $f^{(4)}_{s,s+1}(n)=(\log n)^{o(1)}$ for hypergraph
@@ -4416,6 +4527,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-22 (PRL publication); shelf-added 2026-10-05 — [Observation of e/4 Charge at ν=1/2 in a
+  Wide GaAs Quantum Well (Alkalay, Hajigeorgiou, Gupta, Senapati, Tiwari, Tai, Singh, Baldwin,
+  Pfeiffer, Shayegan, Banerjee, Heiblum)](http://link.aps.org/doi/10.1103/c73x-q4z7) — peer-reviewed
+  (PRL) shot-noise measurement of e/4-charged quasiparticles in the ν=1/2 fractional quantum Hall
+  state, evidence for a non-Abelian (Pfaffian-class) topological order; same Weizmann (Heiblum)
+  group as the already-shelved/queued ν=5/2 anyon-braiding result — see `observation_queue`.
 - 2026-10-01 (v1); shelf-added 2026-10-02 — [A proof of Lehmer's 1965 permutation conjecture for
   neighbor-swap graphs (Verhoeff)](https://arxiv.org/abs/2610.01240) — resolves a 61-year-old
   conjecture posed as an unsolved problem in Knuth's *TAOCP*, with a complete accompanying Lean 4 /

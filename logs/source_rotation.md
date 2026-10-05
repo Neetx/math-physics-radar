@@ -2675,3 +2675,76 @@ the "shelf-added" convention) are 93 days old, inside the 120-day prune line; no
 Trend recalibration: 1 promotion (Komlós/Beck-Fiala, seed→emerging, confidence medium→high, 5
 independent groups now on file), 1 evidence correction (Komlós/Beck-Fiala's Akbas-Sra line
 retitled), 0 demotions, 0 archivals, 0 reactivations. README.md regenerated in the same commit.
+
+## 2026-10-05 (daily, Pass 1)
+
+Load-state: local clone at `origin/main` tip (f03c554, W40 weekly); no orphaned branches
+(`git branch -a` clean), no shallow-clone issue. Tooling: `tvly` missing at session start,
+reinstalled via `pip install -q tavily-cli`, worked cleanly all session. Primary sweep
+(radar-source-sweep): full in-scope math category set (22 RSS feeds: CO/NT/AG/AC/RA/KT/AT/GT/DG/
+SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR via plain `curl`) + physics set (14 feeds: hep-th/hep-ph/
+gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/nucl-th/nucl-ex/hep-ex/
+nlin.SI) triaged by keyword/title scan (~1230 titles), with arXiv API id_list verification of
+every candidate. PRL/PRX/RMP (RSS, plain curl, RDF format — titles not wrapped in `<item>`, parsed
+directly) + Quantum journal + CERN Courier + Fermilab + Simons Foundation + CERN `/feed/` +
+IceCube category-feed all opened — routine except the catches below. SciPost API — healthy, no
+Anubis challenge (SciPostPhys.21.4/.078, SciPostPhysCore.9.3/.063 among today's batch). INSPIRE-HEP
+(API, mostrecent) — routine, no yield (several entries carry anomalous future `earliest_date`
+values, e.g. 2027 — a data-quality quirk, not a new finding). LIGO — HEALED this session via
+`tvly extract` on `/news.php` (direct `curl`/`WebFetch` on `/news` still Cloudflare/wpewaf-walled,
+2nd+ consecutive degraded on that path); GWTC-5.0 headline confirmed already-tracked (captured
+2026-07-02), no leak. DESI (`tvly extract`) — unchanged (post-survey-completion milestone already
+known). cims.nyu.edu, LZ (`tvly extract`) — unchanged. AI-watch lane: openai.com/research
+(`tvly search`) and anthropic.com/research (`tvly search`, several queries) — no new math/TCS
+disclosure beyond already-tracked FLT/Riemann-zeta items; agmai.org (`tvly extract`) — unchanged
+member/purpose page, no new recommendations document. GitHub watch (radar-repo-watch):
+lean4/mathlib4/rocq-prover/rocq `releases.atom` (`tvly extract`) — lean4 unchanged (v4.35.0-rc3/
+v4.34.1), Rocq unchanged (9.3.0), mathlib4 continuing its daily `master-YYYY-MM-DD` auto-tag
+(through master-2026-10-01); `github.com/anthropics` org listing — top repos unchanged, no new
+formal-math repo. Community pulse (radar-pulse): Reddit r/math + r/mathematics direct `.rss` —
+still 403 (15th+ consecutive week, standing hard block). Hacker News (Algolia front-page API) —
+zero math/physics stories today. MathOverflow (Atom) and Physics Stack Exchange (Atom) — routine
+homework/research-Q&A, nothing pointing to an unopened primary. Mathstodon (public timeline API) —
+generic federated noise. Digest/explainer blogs: Quanta ("Mathematicians Harness Randomness To
+Crack a 55-Year-Old Conjecture," 09-28 — confirmed the SAME Graham's-rearrangement-conjecture
+piece already tracked, 0 leak), Tao, Woit, Gowers, Kalai, Baez, Strassler all opened — no new
+primary beyond what's below. Backreaction — HEADLINE CATCH: "First Evidence for Quantum Gravity?"
+(2026-10-03) chased via `tvly search`/API to Galanti–Roncadelli, arXiv:2504.01830 (accepted PRL) →
+queued with a COMPETING-ANALYSIS flag (Satunin–Troitsky, JETP Lett. 123 (2026) 73, prefers an ALP
+explanation over LIV) — see TRENDS.md. Scientific American (`tvly search`) — "Scientists Observe
+Einstein's Gravity in the Quantum World" (Oxford/phys.org pointer) confirmed the SAME already-
+tracked Dobkowski et al. quantum-free-fall equivalence-principle paper (0 leak, re-sighting via a
+new pointer); "Surprising result seen in primordial matter inside atom smasher" chased to the STAR
+Collaboration chiral-magnetic-effect blind analysis (BNL Newsroom + Phys. Rev. C 113, 014912
+(2026)) → queued; "Mathematicians Name 50 of the Highest-Stakes Problems in Math" (10-02) chased
+but NOT queued — no citable primary artifact found (reads as the magazine's own curated listicle,
+not an institutional problem list; provenance unclear after several searches) — flagged for a
+future session if a primary source (e.g. an AMS/ICM-linked document) surfaces. Exploration slot
+(radar-explore): q-bio.PE (off-axis rotation continuation) — 6 fresh titles, zero significant
+off-axis yield this session (routine population-genetics/phylogenetics); SciRate re-checked per
+coverage-honesty — still no usable "what's new" browse via either `curl` or `tvly search`, 2nd
+confirmation of 10-02's finding, remains low-value for this domain (weekly's attention still owed
+on a genuinely different discovery-venue type). CATCHES today (13 new queue items, all below-bar):
+two SUSPICIOUS AUTHOR-RECURRENCE patterns flagged with hype-skepticism (Hu Tan/Ying Zhang:
+Fuglede's-conjecture claim following their already-queued Fraenkel's-conjecture claim; Yicen Ma:
+Koumandos–Ruscheweyh-conjecture claim following his already-queued Third-Borwein-conjecture claim,
+both within the same week, spanning different subfields) — flagged in `logs/strategy_notes.md` for
+the next weekly's attention; Erdős–Ulam monochromatic union-closed conjectures (Bhattacharjee et
+al., claimed Lean-verified, held below seed bar pending the Lean repo being opened + referee
+reaction); a union-closed-sets-conjecture bound improvement (Costa–Sadhu); a Strong-Roberson-
+Conjecture counterexample (Kristjánsson); a ~7-month CAPTURE-LEAK catch (Blanco–Criado–Santos's
+Shifted-Lonely-Runner counterexample, arXiv:2603.24784, v1 2026-03-25 — title had the conjecture's
+exact name and should have been title-triage-visible at v1, a new instance of the capture-gap
+pattern logged in strategy_notes); Super-Kamiokande's first SK-Gd reactor-antineutrino observation;
+ATLAS's first observation of the $B_c^{*+}$ meson (PRL, corroborated same-week by CERN Courier);
+Heiblum group's $e/4$-charge-at-ν=1/2 result (PRL, same lab as the already-queued ν=5/2 anyon-
+braiding item — also a `study_shelf` candidate); BESIII's X(2370) glueball evidence and LHCb's
+first purely-baryonic charmless decay (both via CERN Courier, primary papers not independently
+opened). Non-invertible-symmetries trend: +1 evidence (a 12th independent group, Maity–Tripathi–
+Nevidomskyy via SciPost; Inamura–Ohyama's companion paper NOT counted as a new group — author
+already tracked via Bhardwaj et al.), oldest evidence line (08-19 Flores-Calderón) dropped to hold
+the 10-item cap, `last_evidence` advances to 2026-09-28. capture-leak: 29 ids checked (mechanical
+sweep against reports/2026-09-30/10-01/10-02 + the W40 weekly report) / 0 queued (all 29 confirmed
+present in evidence/queue lines — 0 leaked). Queue: +13 / 0 dropped. study_shelf: +0 this session
+(the e/4-charge PRL result considered but held — see report). README.md regenerated in the same
+commit.

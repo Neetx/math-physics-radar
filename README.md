@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-280-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--03-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-293-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--05-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-03, weekly recalibration):**
-- Stage move: [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) promoted `seed`→`emerging`, confidence medium→high — a citation chase on the founding AI-discovered proof turned up 5 independent human groups now building on it within 3 weeks, including two new ones ([Altschuler](https://arxiv.org/abs/2609.19714), [Xiaoyu Li](https://arxiv.org/abs/2609.30044)).
-- Capture-leak closed: a ~2.5-month-old miss ([Lin–Niu's Erdős-Rogers paper](https://arxiv.org/abs/2607.10111), wrongly logged as queued back in July) is now actually on the watchlist, plus two Komlós-adjacent variant papers ([permutation balancing](https://arxiv.org/abs/2610.02127), [unbalancing unit vectors](https://arxiv.org/abs/2609.31389)).
-- Self-amendment: two process fixes applied this week — the queue soft-cap now reads against still-live items rather than the raw total, and trends get a per-session arXiv version-history spot-check (closes the same blind spot that caused this week's Marton/Komlós stale-title misses).
-- Source growth: [agmai.org](https://agmai.org) promoted into the swept registry (it's coordinating a pending wave of OpenAI math disclosures); Isaac Newton Institute's standing access block healed.
+**Since last scan (2026-10-05):**
+- New on the watchlist: a peer-reviewed (PRL) landmark — the Heiblum group's [observation of e/4 charge at ν=1/2 in a GaAs quantum well](http://link.aps.org/doi/10.1103/c73x-q4z7), evidence for non-Abelian topological order, now also on `study_shelf` — plus [Super-Kamiokande's first SK-Gd reactor-antineutrino observation](https://arxiv.org/abs/2610.03143) and [ATLAS's first observation of the $B_c^{*+}$ meson](http://link.aps.org/doi/10.1103/vrxp-zkbs) (PRL).
+- Flagged, not promoted: two lone/paired authors each posted a SECOND bold named-conjecture claim this week — [Fuglede's conjecture for square-free cyclic groups](https://arxiv.org/abs/2610.02218) (Tan & Zhang, after their already-queued Fraenkel's-conjecture claim) and [the Koumandos–Ruscheweyh conjecture](https://arxiv.org/abs/2610.02285) (Yicen Ma, after his already-queued Third Borwein Conjecture claim) — held at queue pending referee reaction.
+- Capture-leak closed: a ~7-month-old miss — [Blanco–Criado–Santos's Shifted Lonely Runner counterexample](https://arxiv.org/abs/2603.24784) (v1 2026-03-25) — plus [an Erdős–Ulam union-closed-family resolution claim](https://arxiv.org/abs/2610.02833) and [a Strong Roberson Conjecture counterexample](https://arxiv.org/abs/2610.03550).
+- Non-invertible symmetries in QFT gains a 12th independent group ([Maity–Tripathi–Nevidomskyy via SciPost](https://scipost.org/SciPostPhysCore.9.3.063)); `last_evidence` advances to 2026-09-28.
 
 ## Trends
 
@@ -17,7 +17,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | trend | stage | latest signal |
 |---|---|---|
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11895) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-28](https://scipost.org/SciPostPhysCore.9.3.063) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.27172) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-01](https://arxiv.org/abs/2610.01240) |
@@ -33,6 +33,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-09-22 (PRL publication); shelf-added 2026-10-05 — [Observation of e/4 Charge at ν=1/2 in a Wide GaAs Quantum Well (Alkalay, Hajigeorgiou, Gupta, Senapati, Tiwari, Tai, Singh, Baldwin, Pfeiffer, Shayegan, Banerjee, Heiblum)](http://link.aps.org/doi/10.1103/c73x-q4z7) — peer-reviewed (PRL) shot-noise measurement of e/4-charged quasiparticles in the ν=1/2 fractional quantum Hall state, evidence for a non-Abelian (Pfaffian-class) topological order; same Weizmann (Heiblum) group as the already-shelved ν=5/2 anyon-braiding result below.
 - 2026-10-01 (v1); shelf-added 2026-10-02 — [A proof of Lehmer's 1965 permutation conjecture for neighbor-swap graphs (Verhoeff)](https://arxiv.org/abs/2610.01240) — resolves a 61-year-old conjecture posed as an unsolved problem in Knuth's *TAOCP*, with a complete accompanying Lean 4/Mathlib formalization checked against brute-force graphs — see the watchlist, new seed trend above.
 - 2026-08-23/24 (original claim); 2026-09-27 (independent extension); shelf-added 2026-10-01 — [The Hopf problem: a complex structure on S⁶ (Alpöge/Claude; independently extended by Viaclovsky)](https://arxiv.org/abs/2609.33785) — a claimed resolution of one of differential geometry's most famous 20th-century open problems (1947), via an AI-assisted construction now also independently extended by a credentialed geometer; EXTREME unrefereed-preprint caution (mixed MathOverflow reaction, a history of prior flawed claims on this exact problem) — see the watchlist, new seed trend above.
 - 2026-09-24 (PRL publication; v1 2025-12; shelf-added 2026-09-30) — [A possible resolution of the gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis)](https://arxiv.org/abs/2512.20560) — a revised, peer-reviewed (PRL) neutrino-capture cross-section calculation that potentially closes a ~30-year, >5σ discrepancy (GALLEX/SAGE/BEST) without new physics; found via the PRL RSS sweep. Theoretical proposal, not yet an experimental confirmation — see the watchlist.
@@ -145,11 +146,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 ## Community pulse
 
-- [Combinatorics and more](https://gilkalai.wordpress.com/) (Gil Kalai's blog) remains the week's standout pointer surface — last week's 3-week-late simplex–cube-conjecture catch is now this week's Komlós/Beck-Fiala citation chase precedent for reading past titles.
-- Reddit's r/Physics/r/cosmology/r/ParticlePhysics/r/AskPhysics (weekly-swept tier) carried routine homework-level/speculative traffic, nothing primary; [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (14+ weeks running).
-- MathOverflow and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic this week.
-- [agmai.org](https://agmai.org) (the AI-math advisory group) says it is now coordinating a pending wave of OpenAI math disclosures — a leading indicator worth watching, not yet a result.
+- [Quanta Magazine](https://www.quantamagazine.org/) and [Backreaction](https://backreaction.blogspot.com/) remain the week's standout pointer surfaces — a Backreaction post chased to an accepted-PRL quantum-gravity-phenomenology paper, flagged with a competing-analysis caution.
+- Reddit's [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (15+ weeks running); Hacker News carried no math/physics front-page stories today.
+- MathOverflow, Physics Stack Exchange and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic this session.
+- [agmai.org](https://agmai.org) (the AI-math advisory group) is unchanged since its W40 promotion — still coordinating a pending wave of OpenAI math disclosures, not yet a result.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (280) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-02](reports/2026-10-02.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (293) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-05](reports/2026-10-05.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

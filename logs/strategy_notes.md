@@ -1666,3 +1666,22 @@ Corrections to the source-coverage strategy.
   coordinating the release of numerous significant mathematical results reportedly produced by
   their internal model" — a pending wave of OpenAI math disclosures to watch for via this channel,
   not yet a specific result to queue.
+- 2026-10-05 (daily) — NEW PATTERN flagged for the next weekly: two separate single/lone-pair
+  authors each posted a SECOND bold named-conjecture-resolution claim within the same ~1-week
+  window as their first already-queued claim, spanning unrelated subfields — Hu Tan & Ying Zhang
+  (Fraenkel's conjecture, 2609.01570, queued 09-02 → Fuglede's conjecture for square-free cyclic
+  groups, 2610.02218, queued today) and Yicen Ma (Third Borwein Conjecture, 2610.01156, queued
+  10-01/02 → Koumandos–Ruscheweyh Conjecture, 2610.02285, queued today). No institutional
+  affiliation found for either author/pair this session, and no claim of AI assistance is made in
+  either paper — NOT asserting AI involvement, only flagging the volume/velocity pattern (4 named-
+  conjecture claims from 2 authors/pairs in roughly a week) as worth the next weekly's attention:
+  watch whether this recurs with a 3rd claim from either, and prioritize these four for referee/
+  community-reaction tracking before any corroboration. Separately, the capture-gap pattern
+  (title-blind misses) logged a 6th instance: Blanco–Criado–Santos's "Coloopless zonotopes and
+  counterexamples to the Shifted Lonely Runner Conjecture" (arXiv:2603.24784, v1 2026-03-25) sat
+  uncaptured for ~7 months despite its title naming the conjecture explicitly — this one is NOT a
+  keyword-blindness case (the title would have matched standing triage terms); the miss looks like
+  a plain ROTATION-COVERAGE gap (math.MG is not in the primary math.CO/NT-anchored rotation's core
+  set as often as math.CO itself) rather than the keyword-blindness failure mode W40 named — worth
+  the next weekly distinguishing these two distinct miss-causes when sizing the proposed
+  full-abstract-rotation fix (keyword-blindness alone may not cover this case).
