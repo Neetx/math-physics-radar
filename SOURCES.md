@@ -317,12 +317,16 @@ Primary feeds, AI-watch lane, DAILY tier — see its entry above; cleared from t
 HELD below the ≥2 bar (checked against this week's reports, no recurrence): proofsandprompts.com,
 anima-ai.org, preprints.org, zenodo.org, peakmath.org, galoisrepresentations.org, vals.ai,
 conjectures.io (all 1 sighting still).
-- vals.ai (Vals AI, an LLM/AI benchmarking company) — 1 — "A Lean Proof of the Thomson Problem for
-  Seven Electrons" (`vals.ai/blogs/thomson-n7-lean-proof`, 2026-09-28; ten Claude Sonnet 5.5 agents,
-  GitHub `github.com/huwngtran/thomson-n7-lean`) — first seen 2026-10-01 — discovered via a Hacker
-  News/Reddit chase of an AlphaSignal story; structurally the same self-publication AI-disclosure-lane
-  pattern as openai.com/anthropic.com/proofatlas.ai, but for a third-party AI-benchmarking firm
-  rather than a model vendor. HELD below the ≥2 bar (1 sighting); access via direct URL, no feed.
+- vals.ai (Vals AI, an LLM/AI benchmarking company) — 2 — "Two Room-Temperature Antiferromagnetic
+  Semiconductor Candidates" (`vals.ai/blogs/room-temperature-magnetic-semiconductors`, 2026-10-04;
+  a team of Claude Opus 5.5 agents + Geby Jaff, DFT screening) — 2nd sighting 2026-10-06, discovered
+  via a Hacker News front-page chase — first seen 2026-10-01 ("A Lean Proof of the Thomson Problem
+  for Seven Electrons," ten Claude Sonnet 5.5 agents, GitHub `github.com/huwngtran/thomson-n7-lean`,
+  discovered via a Hacker News/Reddit chase of an AlphaSignal story); structurally the same
+  self-publication AI-disclosure-lane pattern as openai.com/anthropic.com/proofatlas.ai, but for a
+  third-party AI-benchmarking firm rather than a model vendor. CLEARS the ≥2-sighting bar — ready
+  for promotion at the next weekly (access via direct URL, `/blogs/<slug>`, no feed found; blog
+  index at `vals.ai/blogs`).
 - conjectures.io (a Lean-based formal-proof submission/verification platform for Erdős-problems-style
   claims) — 1 — "Erdős Problem 108" submission (Liam Kruer, Jensen Kohlmeyer), cited by Nguyen–Walczak
   (arXiv:2609.40192) as the source of a "strong negative solution" to a 1960s Erdős–Hajnal problem —

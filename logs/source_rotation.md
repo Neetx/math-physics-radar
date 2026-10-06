@@ -2748,3 +2748,55 @@ sweep against reports/2026-09-30/10-01/10-02 + the W40 weekly report) / 0 queued
 present in evidence/queue lines — 0 leaked). Queue: +13 / 0 dropped. study_shelf: +0 this session
 (the e/4-charge PRL result considered but held — see report). README.md regenerated in the same
 commit.
+
+## 2026-10-06 (daily, Pass 1)
+
+Load-state: local clone was shallow (boundary at the 2026-08-17 root commit) — unshallowed via
+`git fetch --unshallow`; confirmed the two "orphaned" branches flagged by that shallow boundary
+(claude/modest-bohr-9415kc, claude/peaceful-faraday-n2ehd0) are both ordinary ANCESTORS of `main`
+once full history is visible (`git merge-base --is-ancestor` true for both) — a shallow-clone
+artifact, not real orphaned/stranded work; no merge needed. `tvly` missing at session start,
+reinstalled via `pip install -q tavily-cli`, worked cleanly all session. Primary sweep
+(radar-source-sweep): full in-scope math category set (22 RSS feeds via plain `curl`) + physics
+set (14 feeds) triaged by title scan (~1450 titles), arXiv API id_list verification of every
+candidate. PRL/PRX/RMP + Quantum + CERN Courier + Fermilab + Simons Foundation + CERN `/feed/` +
+IceCube category-feed — routine, no on-axis catch beyond what's below. SciPost API — healthy
+(checked SciPostPhys/Core latest batch, including a non-invertible-symmetries-adjacent title,
+not a new independent group). INSPIRE-HEP (API, mostrecent) — routine, no yield. LIGO/DESI/
+cims.nyu.edu/LZ (`tvly extract`) — all unchanged. AI-watch lane: openai.com/anthropic.com
+(`tvly search`) — no new disclosure (one hit was a re-reported rehash of the already-tracked
+2026-08-10 Riemann-bound result, confirmed via `tvly extract`/`search`, 0 leak); agmai.org
+(`tvly extract`) — unchanged. GitHub watch (radar-repo-watch): lean4 unchanged (v4.35.0-rc3/
+v4.34.1), Rocq unchanged (9.3.0), mathlib4 continuing its daily `master-YYYY-MM-DD` auto-tag
+(master-2026-10-05); `github.com/anthropics` — no new formal-math repo. Community pulse
+(radar-pulse): Reddit r/math + r/mathematics direct `.rss` — still 403 (16th+ consecutive week).
+Hacker News (Algolia front-page API) — CATCH: "Opus 5.5 agents discover two room-temperature
+magnetic semiconductor candidates" chased to vals.ai (see below). MathOverflow + Physics Stack
+Exchange (Atom) — routine, nothing pointing to an unopened primary. Mathstodon — generic noise.
+Digest/explainer blogs: Quanta ("Is AI the End of Math As We Know It?" — a meta-commentary piece
+on AI-proof readability, not a new primary pointer, noted for context only), Tao, Woit, Gowers,
+Kalai, Baez, Strassler all opened — no new primary beyond what's below. Backreaction — TWO
+HEADLINE CATCHES this session: "FINALLY: A Proof that Particles Take All Paths At Once?"
+(2026-09-24) chased and confirmed to be the SAME already-tracked Wen/Zhu et al. Science Advances
+path-integral test (shelf-added 09-25) — 0 leak; "Room-Temperature Superconductor Finally Found?"
+(2026-09-27) chased via the YouTube video description/transcript to arXiv:2609.15712 (Saad,
+Nikitin, Tayurskii, Yusupov, Kazan) — queued with EXTREME hype-skepticism (see TRENDS.md).
+Exploration slot (radar-explore): econ.TH (genuinely off-the-roster venue, not previously used) —
+zero significant yield (routine mechanism-design/voting-theory titles); q-fin.GN feed empty/
+unavailable (noted, not yet healed — low priority, non-core venue). CATCHES today (9 new queue
+items + 1 new seed trend + 1 evidence append, all below-bar except the seed): the biggest catch —
+Norin–Steiner's "A Proof of the Linear Hadwiger Conjecture" (arXiv:2610.05291, GPT-6 Astra-
+assisted) — promoted straight to seed (see TRENDS.md), also added to `study_shelf`; a direct
+evidence append to the existing ζ(5) trend (Li Lai's linear-independence-of-1,ζ(3),ζ(4) paper,
+explicitly extending Fauzan's method); Grzesik et al.'s mad-conjecture proof; Fu's circuit-cocircuit
+counterexample to Oxley's conjecture; Cheng–Li–Wei's incremental Chern-conjecture result; Daura
+Serrano et al.'s LeBrun–Salamon-conjecture partial resolution (dimension ≤56, also a `study_shelf`
+candidate); FASER's first Quirks search; vals.ai's AI-assisted room-temperature magnetic-
+semiconductor candidates (2nd sighting — clears the source-discovery promotion bar, flagged for
+the next weekly); the Kazan-group graphite superconductivity-signature claim. Watkins's-conjecture
+re-sighting (v2 in today's math.GR batch) confirmed ALREADY captured (10-01), 0 leak.
+capture-leak: 16 ids checked (mechanical sweep against reports/2026-10-02, the W40 weekly report,
+and reports/2026-10-05 + today's own 9 new ids self-checked) / 0 queued (all present — 0 leaked).
+Queue: +9 / 0 dropped (now 299, well past the ~40 soft cap, expected under domain cadence — see
+AGENTS.md § Domain cadence). study_shelf: +1 (the Linear Hadwiger proof). README.md regenerated in
+the same commit.

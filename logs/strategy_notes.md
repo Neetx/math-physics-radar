@@ -1685,3 +1685,20 @@ Corrections to the source-coverage strategy.
   set as often as math.CO itself) rather than the keyword-blindness failure mode W40 named — worth
   the next weekly distinguishing these two distinct miss-causes when sizing the proposed
   full-abstract-rotation fix (keyword-blindness alone may not cover this case).
+
+- 2026-10-06 (daily) — Biggest catch in weeks: Norin–Steiner's "A Proof of the Linear Hadwiger
+  Conjecture" (arXiv:2610.05291), GPT-6 Astra-assisted, promoted straight to seed per the
+  Hopf-problem/S⁶ precedent (named established expert + AI-assisted + major open conjecture). Worth
+  the next weekly's attention: Raphael Steiner is now a RECURRING author across this ledger's
+  Hadwiger cluster (the 2026-09-29 "dominating Hadwiger" disproof, now this) — not a new pattern to
+  act on, just a continuity note so a future session doesn't mistake the two papers for duplicates
+  or a contradiction (they resolve logically independent sub-conjectures). Separately, flagging the
+  2026-09-14 Kazan-group graphite "room-temperature superconductivity signature" claim
+  (arXiv:2609.15712, chased via a Backreaction/YouTube pointer) as a textbook case for the
+  extraordinary-claim hype-skepticism rule: this exact claim-class (graphite + magnetic-flux-
+  trapping + "room temperature") has recurred unconfirmed since Esquinazi et al. 2008, and SOURCES.md
+  has no standing coverage of this specific controversy's venue — if it resurfaces again, consider
+  whether a dedicated watch note (not a trend) is warranted purely to track the dispute's history.
+  Source-discovery: vals.ai cleared the ≥2-sighting promotion bar this session (Thomson-problem Lean
+  proof 10-01 + the room-temperature-magnetic-semiconductor post 10-04) — ready for the next
+  weekly's promotion into the swept registry (AI-watch lane, same pattern as proofatlas.ai).

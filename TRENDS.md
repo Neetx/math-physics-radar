@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-05
+Last updated: 2026-10-06
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1132,7 +1132,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   on `study_shelf`.
 
 ### Irrationality of ζ(5) (Fauzan; independently Lean-verified by Firsching)
-- stage: seed | confidence: medium | first_seen: 2026-09-26 | last_evidence: 2026-09-23
+- stage: seed | confidence: medium | first_seen: 2026-09-26 | last_evidence: 2026-10-05
 - what: a claimed proof that ζ(5) is irrational (Aabir Fauzan, off-arXiv, Zenodo, 2026-09-17) — the
   first individual-odd-zeta-value irrationality result since Apéry's 1978 proof for ζ(3) — held on
   this ledger's `observation_queue` since 2026-09-25 with EXTREME hype-skepticism caveats (no author
@@ -1192,6 +1192,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Francis Brown's motivic/moduli-space framework for irrationality proofs — implicit substantive
     engagement (not dismissal), still no referee outcome. Confidence held medium; stage held seed.
     Question opened directly this session.
+  - 2026-10-06 (daily): a direct methodological follow-on — Li Lai, "The linear independence of
+    $1$, $\zeta(3)$, and $\zeta(4)$" (https://arxiv.org/abs/2610.06838, v1 2026-10-05) — combines
+    "Fauzan's determinant method" explicitly (the same technique underlying this trend's anchor
+    result) with classical simultaneous-approximation methods (Zudilin; Dauguet–Zudilin) to prove
+    1, ζ(3), ζ(4) are linearly independent over ℚ. Single-author, unrefereed — same hype-skepticism
+    caution as the anchor claim, but a genuine extension of the method by a different author,
+    strengthening (not just re-confirming) this trend's axis. last_evidence advances 2026-09-23 →
+    2026-10-05. Abstract + author + date verified via arXiv API this session.
 
 ### Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)
 - stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
@@ -1391,6 +1399,38 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   weighting a machine-checked formalization above the usual unrefereed-single-author floor. Watch
   for: the Lean repository itself opened and verified directly (not yet done this session — only
   the arXiv abstract was read), and any community/referee reaction.
+
+### Proof of the Linear Hadwiger Conjecture (Norin–Steiner, GPT-6 Astra-assisted)
+- stage: seed | confidence: medium | first_seen: 2026-10-06 | last_evidence: 2026-10-04
+- what: claims a full proof of the LINEAR Hadwiger conjecture — there exists a constant C such that
+  every K_t-minor-free graph is Ct-colorable — the asymptotic/linear form of Hadwiger's 1943
+  conjecture that has been a central target of structural graph theory for decades (the strongest
+  prior published bound, O(t log log t)-colorability, is due to Delcourt–Postle and Norin–Song,
+  2023/2024; the original EXACT (t-1)-colorability form of Hadwiger's conjecture remains open and is
+  NOT addressed by this paper). Authors: Sergey Norin (McGill) — one of the field's leading
+  researchers on exactly this problem, co-author of the prior best bound — and Raphael Steiner, who
+  is independently already active on this ledger's Hadwiger cluster (co-author of the 2026-09-29
+  "Disproof of the dominating Hadwiger conjecture," arXiv:2609.35361, already queued). The paper's
+  own abstract states plainly: "The proof was found by GPT-6 Astra, following the directions by the
+  authors." DOMAIN-CADENCE LANDMARK (resolution of a major, heavily-studied named conjecture) —
+  EXTREME unrefereed-preprint + AI-disclosure-lane caution: two days old, zero independent human
+  engagement yet, and an extraordinary claim (a full resolution would be one of the most significant
+  graph-theory results of the year). AI-WATCH: note the GPT-6 Astra assistance; track the
+  mathematical result, not the model.
+- evidence:
+  - 2026-10-04 (v1) — https://arxiv.org/abs/2610.05291 — Sergey Norin, Raphael Steiner, "A Proof of
+    the Linear Hadwiger Conjecture": states $K_t$-minor-free graphs are $Ct$-colorable for some
+    absolute constant $C$; proof credited to GPT-6 Astra under the authors' direction. Abstract +
+    authors + date verified via arXiv API this session.
+- notes: 2026-10-06 (daily, seed creation): caught in today's full math.CO RSS sweep (same-day v1,
+  2 days old). Promoted straight to seed per the Hopf-problem/S⁶ (Alpöge–Claude) and ζ(5)/Lehmer
+  precedents — a named, credentialed mathematician (here, the field's own leading expert on this
+  exact problem) presenting an AI-assisted result under their own name clears the domain-cadence
+  landmark bar even pre-referee; confidence held at medium (not high) given zero independent
+  engagement so far and the sheer size of the claim. Watch for: referee/community reaction (expect
+  fast, high-profile scrutiny given Norin's standing in this exact subfield), any gap found, and
+  whether this interacts with the already-tracked "dominating Hadwiger" disproof (same Steiner,
+  different sub-conjecture — the two are logically independent, not a contradiction).
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -4510,6 +4550,63 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   / complexity (axis 4, quant-ph): proves the Generalized Semi-Clifford Conjecture (on the Clifford
   hierarchy's gate-teleportation structure) at level k=4, the first level beyond k=3 where this was
   known. Specialized, unrefereed. Abstract + authors verified via arXiv API this session.
+- 2026-10-03 (v1) — Andrzej Grzesik, Lenka Kopfová, Gaurav Kucheriya, Binlong Li, Magdalena Prorok,
+  "Proof of the mad conjecture and its coloring applications" — https://arxiv.org/abs/2610.04645 —
+  extremal combinatorics (axis 1, math.CO): answers (affirmatively, and more generally for an
+  arbitrary number of parts) a question of Hendrey, Norin and Wood on whether maximum-average-degree
+  (mad) is "partitionable," with clustered-coloring applications. Specialized, unrefereed.
+  Abstract + authors verified via arXiv API this session.
+- 2026-10-05 (v1) — Houshan Fu, "A counterexample to the circuit-cocircuit intersection conjecture"
+  — https://arxiv.org/abs/2610.06033 — matroid theory (axis 1, math.CO): disproves Oxley's
+  conjecture (that a matroid with a circuit-cocircuit intersection of size k≥4 has one of size k-2)
+  at k=12, via a rank-12 self-dual binary matroid built from the extended binary Golay code.
+  Single-author, unrefereed. Abstract + author verified via arXiv API this session.
+- 2026-10-04 (v1) — Qing-Ming Cheng, Fengjiang Li, Guoxin Wei, "An improved result on Chern
+  conjecture" — https://arxiv.org/abs/2610.05276 — differential geometry (axis 1, math.DG):
+  incremental progress toward Chern's conjecture on closed minimal hypersurfaces in $\mathbb
+  S^{n+1}$ with constant scalar curvature (sharpens the known S>n+c·n bound on the second
+  fundamental form's squared norm). Partial/incremental, not a resolution. Unrefereed. Abstract +
+  authors verified via arXiv API this session.
+- 2026-10-05 (v1) — Jordi Daura Serrano, Aron Gohr, Marie-Amélie Lawn, Travis Schedler, "The
+  Lebrun–Salamon conjecture is true in dimension up to 56" — https://arxiv.org/abs/2610.06336 —
+  Riemannian/quaternionic geometry (axis 1, math.DG): proves the LeBrun–Salamon conjecture (every
+  positive quaternionic Kähler manifold is a Wolf space/symmetric space) for quaternionic dimension
+  n≤14 (real dimension ≤56), substantially extending the previously-known small-dimension cases via
+  a new toolkit of "projection curvature moment" positivity arguments. A strong partial resolution
+  of a well-known named conjecture, below the domain's full-resolution landmark bar but a
+  significant advance — also a `study_shelf` candidate. 4-author, unrefereed. Abstract + authors
+  verified via arXiv API this session.
+- 2026-10-05 (v1 2026-07-19, v2) — FASER Collaboration, "First Search for Quirks at the LHC with
+  FASER" — https://arxiv.org/abs/2607.26195 — experimental particle physics (axis 3, hep-ex):
+  a first-of-kind dedicated search for "quirks" (hypothetical confined-by-a-string colored
+  particles predicted by some folded-SUSY/BSM models) using the FASER detector; resurfaced in
+  today's hep-ex RSS as a v2. No discovery (an exclusion-limit result), but a genuine first-of-kind
+  search artifact. Abstract + collaboration verified via arXiv API this session.
+- 2026-10-04 (blog post, AI-assisted materials discovery; axis 3 watch + axis 5 AI-watch) — Geby
+  Jaff / Vals AI, "Two Room-Temperature Antiferromagnetic Semiconductor Candidates" —
+  https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors — a team of Claude Opus 5.5
+  agents (DFT screening: PBE+U then HSE06) proposed one new candidate compound (YBaMnFeO₅,
+  computational only, flagged by the authors as possibly hard to synthesize) and re-identified a
+  known 1999 compound (KV[Cr(CN)₆], experimentally magnetic up to 376 K per the original synthesis
+  literature) as a candidate "Luttinger-compensated" antiferromagnetic semiconductor for spintronic
+  memory. Purely computational for the new compound — no new experimental synthesis/confirmation
+  this session. Track the materials claim, not the AI method (axis 5). SOURCE-DISCOVERY: SECOND
+  sighting of vals.ai (1st: 2026-10-01, Thomson-problem Lean proof) — clears the ≥2-sighting
+  promotion bar, flagged for the next weekly (see `logs/strategy_notes.md`). Post opened directly
+  via `tvly extract` this session.
+- 2026-09-14 (v1; chased via a Backreaction/YouTube pointer this session, EXTREME hype-skepticism)
+  — Muhammad Saad, Sergey I. Nikitin, Dmitry A. Tayurskii, Roman V. Yusupov, "Wrinkles and Magnetic
+  Flux Trapping in Graphite Nanoflakes: A Possible Source and Manifestation of Room-Temperature
+  Superconductivity" — https://arxiv.org/abs/2609.15712 — condensed matter (axis 3,
+  cond-mat.supr-con): reports magnetic flux trapping (ONE signature of superconductivity, not zero
+  resistance or bulk Meissner diamagnetism) persisting up to ~390 K in specially-ground-and-annealed
+  graphite nanoflakes with wrinkle-type surface defects; absent in as-ground or vacuum-annealed
+  controls. EXTREME CAUTION: "room-temperature graphite superconductivity" is a long-running,
+  repeatedly-disputed claim going back to Esquinazi et al. (2008+, including the controversial 2012
+  Scheike et al. water-treated-graphite result) that has never been independently confirmed as bulk
+  superconductivity; this is a single-signature, single-lab, unrefereed result from a different
+  group (Kazan, Russia). Held well below any bar; track for independent replication (the authors'
+  own framing invites it) or refutation. Abstract + authors verified via arXiv API this session.
 
 ## source_rotation
 
@@ -4527,6 +4624,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-04 (v1); shelf-added 2026-10-06 — [A Proof of the Linear Hadwiger Conjecture (Norin,
+  Steiner)](https://arxiv.org/abs/2610.05291) — claims full resolution of the linear/asymptotic
+  form of Hadwiger's conjecture (K_t-minor-free graphs are Ct-colorable), by the field's own leading
+  expert (Norin), proof credited to GPT-6 Astra under the authors' direction; EXTREME
+  hype-skepticism caution (2 days old, unrefereed, zero independent engagement yet) — see
+  `observation_queue`, new `seed` trend.
 - 2026-09-22 (PRL publication); shelf-added 2026-10-05 — [Observation of e/4 Charge at ν=1/2 in a
   Wide GaAs Quantum Well (Alkalay, Hajigeorgiou, Gupta, Senapati, Tiwari, Tai, Singh, Baldwin,
   Pfeiffer, Shayegan, Banerjee, Heiblum)](http://link.aps.org/doi/10.1103/c73x-q4z7) — peer-reviewed
