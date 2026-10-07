@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1432,6 +1432,131 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   whether this interacts with the already-tracked "dominating Hadwiger" disproof (same Steiner,
   different sub-conjecture — the two are logically independent, not a contradiction).
 
+### 2026 Nobel Prize in Physics — Francis Halzen / IceCube astrophysical neutrinos
+- stage: seed | confidence: high | first_seen: 2026-10-07 | last_evidence: 2026-10-06
+- what: the Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Physics to Francis
+  Halzen (University of Wisconsin–Madison) "for decisive contributions to the IceCube Neutrino
+  Observatory and the discovery of high-energy neutrinos of astrophysical origin" — a DOMAIN-CADENCE
+  LANDMARK (the field's own highest recognition, crowning a foundational axis-3 discovery this radar
+  already tracks via the IceCube source). Single laureate, official announcement, not an AI-assisted
+  or unrefereed claim — confidence `high` from the outset (an official Nobel Committee decision is
+  about as authoritative as a primary source gets in this domain).
+- evidence:
+  - 2026-10-06 — https://www.nobelprize.org/prizes/physics/2026/press-release/ — official Royal
+    Swedish Academy of Sciences press release, opened directly this session: confirms laureate,
+    institution, and citation wording verbatim.
+  - 2026-10-06 — https://icecube.wisc.edu/category/news/feed/ — IceCube's own news feed (DAILY-tier
+    primary source) corroborates: "Francis Halzen, IceCube principal investigator, wins 2026 Physics
+    Nobel Prize," opened this session via the standing RSS heal.
+- notes: 2026-10-07 (daily, seed creation): caught in today's routine IceCube news-feed check (the
+  announcement happened 2026-10-06, one day before this session); cross-verified directly against
+  the official nobelprize.org press release. SOURCES.md's "Prizes & recognition" list only tracked
+  Abel/Breakthrough/Shaw/Fields — the Nobel Prize in Physics was a listed-but-missing coverage gap,
+  now added (see SOURCES.md) with a chase-daily exception for the first week of October (Nobel
+  announcement week), mirroring the existing ICM/Fields exception. Watch for: the Nobel Committee's
+  "Popular information"/"Scientific background" documents (not yet opened this session) if more
+  physics detail is needed later; no vetting-status tracking needed here (a Nobel award is not a
+  provisional claim).
+
+### AI-assisted Lean formalization of the Hamilton–Perelman proof of the Poincaré Conjecture (two independent efforts)
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-06
+- what: PROMOTED from the observation_queue (was held there since 2026-09-29, arXiv:2609.33842) now
+  that a SECOND, apparently independent team has published its own AI-assisted Lean 4 formalization
+  of the same landmark result (axis 5, computer-assisted/formalized math) within 8 days of the first.
+  Qin/Liao/Khaitan/Chow (2609.33842, 09-29) formalized the Hamilton–Perelman Ricci-flow-with-surgery
+  proof of the smooth 3D Poincaré conjecture plus the Moise smoothing theorem (topological form).
+  Zhang/Delaval/L.Chen/J.Chen/Xu/Liao/Jiang/C.Liu/Dong (2610.08329, 10-06) present a SEPARATE
+  AI-assisted Lean 4 formalization effort, focused on the organizational/methodology side (proof
+  blueprints, milestone statements enabling parallel agent work, human-intervention analysis) —
+  DIFFERENT lead author and 9-person team vs. the first paper's 4; one shared surname ("Liao") but
+  different given names (Yuan Liao vs. Yuxuan Liao) in the two author lists — treated as DISTINCT
+  individuals absent contrary evidence, making this a genuinely independent second formalization,
+  not a duplicate. Two independent formalization efforts of the same Millennium-Prize-adjacent
+  theorem, each AI-assisted, within little over a week — this clears the "≥2 independent
+  authoritative sources corroborate on concrete artifacts" confidence bar in addition to the
+  single-landmark domain-cadence bar already met by the first paper alone (same precedent as
+  Hadwiger/Hopf-S⁶/ζ(5)/FLT-in-Lean). Confidence held at `medium` (not `high`) because neither Lean
+  artifact itself has been independently RUN/checked by a third party yet (per the FLT-in-Lean/
+  Buzzard precedent) — two groups attempting the SAME formalization is a strong but not yet
+  equivalent signal to independent verification of one.
+- evidence:
+  - 2026-09-29 (v1) — https://arxiv.org/abs/2609.33842 — Qin, Liao, Khaitan, Chow, "A Lean
+    Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture":
+    formalizes the smooth + topological 3D Poincaré conjecture. Abstract + authors verified via
+    arXiv API (prior session).
+  - 2026-10-06 (v1) — https://arxiv.org/abs/2610.08329 — Zhang, Delaval, Chen, Chen, Xu, Liao,
+    Jiang, Liu, Dong, "An AI-Assisted Formalization of the Poincaré Conjecture": a second,
+    differently-staffed AI-assisted Lean 4 formalization project of the same theorem, with an
+    accompanying analysis of the human-in-the-loop workflow. Abstract + authors verified directly
+    via arXiv API this session.
+- notes: 2026-10-07 (daily, promotion from queue to seed): the second independent effort is the
+  triggering event — caught in today's full math.GT/AT RSS category sweep. Watch for: whether the
+  two teams' Lean repositories are cross-checked against each other (a natural next vetting step
+  given they target the identical theorem), any referee/expert commentary (e.g. from Buzzard, who
+  verified the FLT-in-Lean proof), and whether the "Liao"/"Liao" name coincidence is in fact the
+  same individual working across both teams (would weaken, not strengthen, the independence case —
+  flag for correction if confirmed either way).
+
+### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-06
+- what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
+  published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
+  `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
+  families" across 17 mathematical disciplines, all produced by an unreleased internal frontier
+  model. This is a DOMAIN-CADENCE LANDMARK by sheer scale alone — roughly 37× the size of the
+  already-tracked "Ten Advances" disclosure (2026-08-01, queued) — and explicitly implements the
+  agmai.org (IAS Advisory Group on Mathematics and AI) "Responsible Release" recommendations this
+  ledger has been watching for since 2026-09-29. Many of the 372 families name long-standing,
+  famous open problems; a non-exhaustive sample from the repo's own CONTENTS.md (titles + one-
+  paragraph descriptions, opened directly this session): #002 a case of the full Birch–
+  Swinnerton-Dyer formula (density-one quadratic twists, Selmer corank ≤1) — a Clay Millennium
+  Prize Problem; #001 Milne's rationality conjecture for abelian varieties; #003 "the quasi-Riemann
+  hypothesis" (a zero-free-region result for Dirichlet L-functions, per secondary press coverage);
+  #004 Hilbert's tenth problem over ℚ; #005 irrationality of Catalan's constant; #018 the
+  Margulis–Platonov conjecture; #087 the Mahler conjectures; #102 the Unique Games Conjecture;
+  #107 matrix multiplication with exponent ≤9/4; #143 Hilbert's sixteenth problem (uniform limit-
+  cycle bounds); #179 the circulant Hadamard conjecture; #266 exactly three mutually unbiased bases
+  in dimension six; #304 the Hilbert–Smith conjecture. HEAVIEST possible hype-skepticism caution —
+  this exceeds even the already-extreme "Ten Advances" and OpenAI Navier-Stokes precedents in
+  scale: wholly AI-generated, UNREFEREED, from an unreleased model, with (per secondary press —
+  CellCog, BigGo Finance, Unite.AI, opened via `tvly search` this session, NOT independently
+  verified per-count by this radar) Lean formalizations for only ~162 of the 722 manuscripts'
+  main results; average compute reported as ~3 hours of ChatGPT-Pro-equivalent thinking per result.
+  PROVISIONAL across the board — track outcomes per-result as they individually surface (same
+  protocol as the Ten Advances cluster, which already produced one independent-engagement signal
+  and one misconduct finding against a single result). Held at `seed` (not merely queued) given the
+  unprecedented scale is itself the landmark event, matching this ledger's domain-cadence precedent
+  of seeding a landmark EVENT even pre-referee (Hadwiger/Hopf-S⁶ precedent) — but this is an explicit
+  departure from the "Ten Advances" precedent (held at queue), flagged below for the next weekly to
+  reconcile.
+- evidence:
+  - 2026-10-06 — https://openai.com/index/sharing-ai-progress-in-mathematics/ — OpenAI's own
+    publication page, opened directly via `curl`/`tvly extract` this session: confirms date, scale,
+    Apache-2.0 GitHub release, Lean formalizations, and explicit reliance on agmai.org's
+    recommendations.
+  - 2026-10-06 — https://github.com/openai/math — the live repository (147 stars, 7 forks, this
+    session), opened directly; its `CONTENTS.md` (640KB, opened and read in full this session via
+    its raw-content URL) lists all 372 result-family titles + one-paragraph descriptions, the
+    source for the sample above.
+- notes: 2026-10-07 (daily, seed creation): caught via the Hacker News front page (683-point story)
+  and corroborated independently via Gil Kalai's blog ("amazing") and r/OpenAI community-pulse
+  threads naming several of the same results (Unique Games Conjecture, circulant Hadamard
+  conjecture, no-4-MUBs-in-dimension-6) — all intake, not evidence; the GitHub repo and OpenAI's own
+  page are the evidence. NOT independently verifying any individual one of the 372 claims this
+  session (triage-for-cost; opening 722 manuscript PDFs is out of scope for a single daily run) —
+  this entry tracks the DISCLOSURE EVENT, not the correctness of any specific result. FLAG FOR NEXT
+  WEEKLY: (a) reconcile the queue-vs-seed inconsistency with the "Ten Advances" precedent (this
+  session judged scale-as-landmark sufficient for seed; the weekly should decide if that reasoning
+  holds or if this should demote to queue pending at least one independently-engaged result, as Ten
+  Advances had); (b) consider whether axis-5 needs a standing "AI mass-disclosure" tracking
+  structure distinct from a single evidence-capped trend block, since individual results within
+  this release (e.g. the BSD case, if it draws expert engagement) may need their OWN trend/queue
+  entries later, the way Ten-Advances result (3) and (9) each spawned independent follow-up items.
+  Watch for: ANY expert engagement on the BSD-case claim specifically (a Millennium Prize Problem
+  claim from this release would be the single biggest story this radar could register, bigger even
+  than the already-tracked OpenAI Navier-Stokes claim) — chase this daily until a vetting signal
+  appears.
+
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 - 2026-10-02 (v1) — Hu Tan, Ying Zhang, "Fuglede's Conjecture for Cyclic Groups of Square-free
@@ -1624,15 +1749,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   math.DG RSS triage — title keyword drift between versions). Queued with the retraction
   explicitly noted, NOT treated as a Hopf-conjecture result. v1/v2 title history + abstract verified
   directly (arXiv abs page) this session.
-- 2026-09-29 (v1) — Ziyang Qin, Yuan Liao, Ayush Khaitan, Bennett Chow, "A Lean Formalization of the
-  Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture" —
-  https://arxiv.org/abs/2609.33842 — computer-assisted/formalized math (axis 5): formalizes the
-  smooth 3D Poincaré conjecture (Ricci flow with surgery + finite-time extinction) plus the Moise
-  smoothing theorem, yielding the topological 3D Poincaré conjecture — a formalization landmark on
-  the scale of the already-tracked Lean FLT proof. Single-group, unrefereed (no independent
-  verification of the Lean artifact yet, unlike FLT's Buzzard confirmation) — domain-cadence landmark
-  candidate, held at queue pending independent scrutiny (per the FLT-in-Lean precedent, also on
-  `study_shelf`). Abstract + authors verified via arXiv API this session.
 - 2026-09-29 (v1) — Gábor P. Nagy, Yue Zhou, "Semifields in prime dimensions and counterexamples to
   Kaplansky's conjecture" — https://arxiv.org/abs/2609.32651 — algebra (axis 1, math.RA/CO): disproves
   Kaplansky's 1975 conjecture that every 5-dimensional division algebra over a sufficiently large
@@ -3579,6 +3695,21 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     every "OpenAI Millennium Problem" headline found traces back to that same claim. No queue item
     created (nothing to cite); flagged as tomorrow's first watch item — chase openai.com/anthropic.com
     directly if a Hodge/BSD claim actually posts.
+  - 2026-10-07 (daily, VETTING-STATUS DEVELOPMENT, METHODOLOGICAL) — Alexander Bastounis, Fabian
+    Circelli, Anders C. Hansen, "Navier-Stokes lost in translation: Why Lean verification of AI
+    autoformalisation does not guarantee correct natural language proofs" —
+    https://arxiv.org/abs/2610.08144 — caught in today's full math.AP RSS category sweep, abstract +
+    authors verified directly via arXiv API this session. This is NOT a claim about the Navier-Stokes
+    equations themselves but a direct methodological critique of the Lean-verification step OpenAI's
+    announcement (above) relied on for "confidence": the authors argue that autoformalisation (an AI
+    system translating a natural-language proof into Lean) can produce a Lean artifact that checks out
+    mechanically while NOT faithfully representing the original natural-language argument — i.e. a
+    passing Lean check does not, by itself, certify that the natural-language proof OpenAI announced is
+    correct. A genuine vetting-status development distinct from the priority/misconduct-flavored
+    disputes already tracked above: this is a substantive methodological objection to the verification
+    chain itself, from credentialed authors (Hansen, Cambridge, is a known analyst of AI reliability in
+    mathematics/numerics). Track for OpenAI's/the agmai.org committee's response and for whether this
+    critique is judged to apply to the specific Navier-Stokes Lean artifact or is a general warning.
 - 2026-09-07 (self-published PDF, author's own lab page; a FOURTH, DISTINCT AI-assisted fluid-blowup
   claim, independent authorship from the OpenAI and Buckmaster-Alpöge entries above, discovered via
   Terence Tao's blog today — a guest post by one of the paper's authors) — Adarsh Ganeshram (UC
@@ -4607,6 +4738,57 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   superconductivity; this is a single-signature, single-lab, unrefereed result from a different
   group (Kazan, Russia). Held well below any bar; track for independent replication (the authors'
   own framing invites it) or refutation. Abstract + authors verified via arXiv API this session.
+- 2026-10-06 (v1) — Dante Bonolis, Tim Browning, Jakob Glas, Victor Y. Wang, "The Artin–Davenport
+  conjecture on cubic forms" — https://arxiv.org/abs/2610.08226 — number theory (axis 1, math.NT/AG):
+  proves every integral cubic form in ten or more variables has a nontrivial INTEGER zero (not merely
+  a p-adic one — Davenport established the p-adic case in 1963; the integer case is the harder,
+  longer-standing open problem), via geometric methods plus a strengthened circle method. DOMAIN-
+  CADENCE LANDMARK CANDIDATE: Tim Browning is a leading analytic number theorist specifically in this
+  area (forms in many variables, the circle method), giving this claim unusual a-priori credibility
+  for an unrefereed preprint, but held at queue (not seed) pending referee/community reaction — this
+  radar does not adjudicate the mathematics itself. Abstract + authors verified via arXiv API this
+  session.
+- 2026-10-06 (v1) — Tsachik Gelander, "Counterexamples to the continuous Aldous-Lyons conjecture" —
+  https://arxiv.org/abs/2610.08581 — group theory / operator algebras (axis 1, math.GR): constructs
+  non-co-sofic invariant random subgroups in several classes of simple Lie/algebraic groups,
+  disproving the CONTINUOUS analogue of the classical Aldous–Lyons conjecture (the discrete version
+  remains open) for those groups; answers a question from the author's own 2026 ICM address.
+  Single-author, unrefereed, and a restricted/continuous variant rather than the full discrete
+  conjecture — held below the landmark bar, queued. Abstract + author verified via arXiv API this
+  session.
+- 2026-10-06 (v1) — Yongjiang Wu, Lihua Feng, "The Keevash–Mubayi simplex-cluster conjecture" —
+  https://arxiv.org/abs/2610.08567 — extremal combinatorics (axis 1, math.CO): proves the
+  simplex-cluster conjecture of Keevash and Mubayi, a common strengthening of the Erdős–Chvátal
+  simplex conjecture and Mubayi's cluster conjecture, for all admissible parameters. Single-group,
+  unrefereed — below the multi-group trend bar, queued. Abstract + authors verified via arXiv API
+  this session.
+- 2026-10-06 (v1) — Alexander P. Mangerel, "On Sárközy's Local Extrema Conjectures" —
+  https://arxiv.org/abs/2610.08424 — analytic number theory (axis 1, math.NT): gives a sharp
+  classification of multiplicative functions by local-extrema density and, as an application,
+  resolves two of Sárközy's conjectures on this question. Single-author, unrefereed — queued.
+  Abstract + author verified via arXiv API this session.
+- 2026-10-06 (v1) — Shutao Jiang, "A proof of the quartic Berkovich-Dhar sign-change conjecture" —
+  https://arxiv.org/abs/2610.08496 — combinatorics / partition theory (axis 1, math.CO): proves the
+  quartic case of the Berkovich–Dhar sign-change conjecture for a family of partition-generating-
+  function coefficients, combined with the Second Borwein Theorem. Single-author, unrefereed; NOTE —
+  a DIFFERENT author from the already-queued Yicen Ma Borwein/Koumandos–Ruscheweyh-conjecture claims
+  (2026-10-01/02) — not part of that suspicious-recurrence pattern, a coincidental same-family topic.
+  Queued. Abstract + author verified via arXiv API this session.
+- 2026-10-06 (v1) — Marysia Nazarczuk, "An independent computer-assisted proof of the Chen-Raspaud
+  conjecture for k=4" — https://arxiv.org/abs/2610.07968 — graph theory (axis 1, math.CO): an
+  independent computer-assisted proof (minimal-counterexample + exact finite computation + charging
+  argument) of the k=4 case of the Chen–Raspaud conjecture. Single-author, unrefereed — queued.
+  Abstract + author verified via arXiv API this session.
+- 2026-10-06 (v1) — Habib Ammari, Jiayu Qiu, "On the Dirac Faber-Krahn Conjecture" —
+  https://arxiv.org/abs/2610.08665 — spectral geometry / mathematical physics (axis 1/2, math.SP):
+  proves the strict Faber–Krahn inequality for non-negative-mass Dirac operators with infinite-mass
+  boundary conditions on simply connected domains. Two-author, unrefereed — below-bar, queued.
+  Abstract + authors verified via arXiv API this session.
+- 2026-10-06 (v1) — Lajos Soukup, "Hedetniemi's Conjecture for Uncountable Complementary Graphs" —
+  https://arxiv.org/abs/2610.08027 — set-theoretic combinatorics (axis 1, math.CO/LO): extends the
+  complementary version of Hedetniemi's problem (already known false for finite graphs, Shitov 2019)
+  into the uncountable/infinite-cardinal setting, under ◊. Single-author, unrefereed, a niche
+  set-theoretic extension — queued. Abstract + author verified via arXiv API this session.
 
 ## source_rotation
 
@@ -4624,6 +4806,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-06; shelf-added 2026-10-07 — [2026 Nobel Prize in Physics: Francis Halzen](https://www.nobelprize.org/prizes/physics/2026/press-release/)
+  — "for decisive contributions to the IceCube Neutrino Observatory and the discovery of
+  high-energy neutrinos of astrophysical origin"; see new seed trend.
+- 2026-10-06 (v1); shelf-added 2026-10-07 — [OpenAI's mass math-results release, github.com/openai/math](https://github.com/openai/math)
+  — 722 AI-generated manuscripts/372 result families across 17 fields, including a claimed partial
+  Birch–Swinnerton-Dyer resolution; EXTREME hype-skepticism — see new seed trend.
+- 2026-10-06 (v1); shelf-added 2026-10-07 — [An AI-Assisted Formalization of the Poincaré Conjecture (Zhang, Delaval, et al.)](https://arxiv.org/abs/2610.08329)
+  — second independent AI-assisted Lean formalization of the Hamilton–Perelman proof; see
+  promoted seed trend (with the first effort, arXiv:2609.33842, already shelved 2026-09-29).
 - 2026-10-04 (v1); shelf-added 2026-10-06 — [A Proof of the Linear Hadwiger Conjecture (Norin,
   Steiner)](https://arxiv.org/abs/2610.05291) — claims full resolution of the linear/asymptotic
   form of Hadwiger's conjecture (K_t-minor-free graphs are Ct-colorable), by the field's own leading

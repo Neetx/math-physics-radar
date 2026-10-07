@@ -1702,3 +1702,33 @@ Corrections to the source-coverage strategy.
   Source-discovery: vals.ai cleared the ≥2-sighting promotion bar this session (Thomson-problem Lean
   proof 10-01 + the room-temperature-magnetic-semiconductor post 10-04) — ready for the next
   weekly's promotion into the swept registry (AI-watch lane, same pattern as proofatlas.ai).
+
+- 2026-10-07 (daily) — FLAG FOR THE NEXT WEEKLY: this session seeded OpenAI's mass math-results
+  disclosure (`github.com/openai/math`, 722 manuscripts/372 families, 2026-10-06) directly as a
+  `seed` trend on scale-as-landmark grounds, which is an explicit departure from the precedent set
+  by the smaller "Ten Advances" disclosure (2026-08-01), which was held at `observation_queue` and
+  only reached `study_shelf`, not a trend, despite being unrefereed/AI-generated in the same way.
+  The reasoning this session used: the sheer scale (~37× larger) and explicit agmai.org-guided
+  release process make the DISCLOSURE EVENT itself domain-cadence-landmark-worthy independent of
+  any individual result's correctness — but this is a judgment call the next weekly should review:
+  either affirm the scale-as-landmark reasoning (and retroactively consider whether "Ten Advances"
+  should also move queue→seed for consistency) or demote today's new trend back to queue pending at
+  least one independently-engaged result, matching the Ten-Advances treatment. Separately flagging:
+  this radar's axis-5 AI-watch lane has now seen FOUR qualitatively different disclosure shapes in
+  quick succession (a single Millennium-Prize claim [Navier-Stokes, 09-08]; a ten-result bundle
+  [08-01]; a 372-family mega-bundle [10-06]; and now a competitive multi-team pattern on one theorem
+  [Poincaré, two independent Lean formalizations 8 days apart]) — worth the weekly considering
+  whether a dedicated axis-5 sub-structure (distinct from the generic trend/queue split) is overdue,
+  given individual results buried inside a 372-item bundle may need their own future queue/trend
+  entries the way Ten-Advances results (3) and (9) each did.
+- 2026-10-07 (daily) — Source-coverage note: the Nobel Prize in Physics was ENTIRELY ABSENT from
+  SOURCES.md's "Prizes & recognition" list (which only ever named Abel/Breakthrough/Shaw/Fields) —
+  not a staged-but-unpromoted candidate, just missing outright. Caught this session only because
+  the IceCube news-feed check (an unrelated DAILY-tier primary) happened to surface "Francis Halzen
+  ... wins 2026 Physics Nobel Prize" as a headline; had IceCube's feed been quiet that week, this
+  session would have missed a Nobel Prize entirely. Fixed directly (added to the Prizes list with a
+  Nobel-week daily-chase exception, same pattern as the IMU/Fields ICM-season exception) rather than
+  staged, since this is a coverage gap (a known, obviously-primary, globally-famous source simply
+  never listed) and not a genuine new discovery needing the 2-sighting bar. Worth the weekly
+  double-checking whether other obvious annual-prize venues (e.g. the Nobel Prizes in Chemistry/
+  Medicine for math-physics-adjacent work, the Wolf Prize) have the same blind spot.

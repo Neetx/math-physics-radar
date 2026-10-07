@@ -1,25 +1,28 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-15-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-299-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--06-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-18-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-306-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--07-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-06):**
-- New seed trend + top study pick: [Norin–Steiner's proof of the Linear Hadwiger Conjecture](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) — the field's own leading expert, GPT-6 Astra-assisted; EXTREME unrefereed-preprint caution (2 days old, zero independent engagement yet).
-- Irrationality of ζ(5) gains a direct evidence append — [Li Lai's linear independence of 1, ζ(3), ζ(4)](https://arxiv.org/abs/2610.06838), explicitly extending Fauzan's determinant method; `last_evidence` advances to 2026-10-05.
-- New on the watchlist: a strong partial resolution of the [LeBrun–Salamon conjecture up to dimension 56](https://arxiv.org/abs/2610.06336) (also a study pick), FASER's [first search for Quirks at the LHC](https://arxiv.org/abs/2607.26195), and — EXTREME hype-skepticism — a Kazan-group [graphite room-temperature superconductivity-signature claim](https://arxiv.org/abs/2609.15712) chased via a Backreaction/YouTube pointer.
-- AI-assisted materials-discovery watch: [vals.ai's Claude-Opus-5.5-agent room-temperature magnetic semiconductor candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) — a 2nd sighting that clears vals.ai's source-discovery promotion bar, flagged for the next weekly.
+**Since last scan (2026-10-07):** the busiest day in weeks — a Nobel Prize, an unprecedented AI math-release, and a formalization milestone promoted to seed.
+- New seed trend: the **[2026 Nobel Prize in Physics](TRENDS.md#2026-nobel-prize-in-physics--francis-halzen--icecube-astrophysical-neutrinos)** goes to Francis Halzen "for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin."
+- New seed trend + top study pick: OpenAI's **[mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families)** — 722 AI-generated manuscripts/372 result families (`github.com/openai/math`), including a claimed partial Birch–Swinnerton-Dyer resolution; EXTREME hype-skepticism, ~37× the already-tracked "Ten Advances" disclosure.
+- Queue→seed promotion: a **[second independent AI-assisted Lean formalization of the Poincaré Conjecture](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincaré-conjecture-two-independent-efforts)** (Zhang, Delaval, et al., arXiv:2610.08329) joins the already-queued Qin/Liao/Khaitan/Chow effort — two independent teams on the same landmark theorem within 8 days.
+- Vetting-status development on the standing OpenAI Navier-Stokes claim: [Bastounis–Circelli–Hansen's methodological critique](https://arxiv.org/abs/2610.08144) argues Lean verification of an AI autoformalisation does not, by itself, guarantee the natural-language proof is correct.
 
 ## Trends
 
-🌱 10 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 13 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-28](https://scipost.org/SciPostPhysCore.9.3.063) |
+| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.27172) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
+| [2026 Nobel Prize in Physics (Halzen/IceCube)](TRENDS.md#2026-nobel-prize-in-physics--francis-halzen--icecube-astrophysical-neutrinos) | 🌱 seed | [2026-10-06](https://www.nobelprize.org/prizes/physics/2026/press-release/) |
+| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-06](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
+| [Poincaré Conjecture Lean formalization (two efforts)](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincaré-conjecture-two-independent-efforts) | 🌱 seed | [2026-10-06](https://arxiv.org/abs/2610.08329) |
 | [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-10-05](https://arxiv.org/abs/2610.06838) |
 | [Linear Hadwiger Conjecture proof](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) | 🌱 seed | [2026-10-04](https://arxiv.org/abs/2610.05291) |
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-01](https://arxiv.org/abs/2610.01240) |
@@ -34,6 +37,9 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-10-06; shelf-added 2026-10-07 — [2026 Nobel Prize in Physics: Francis Halzen](https://www.nobelprize.org/prizes/physics/2026/press-release/) — "for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin"; see the new seed trend above.
+- 2026-10-06 (v1); shelf-added 2026-10-07 — [OpenAI's mass math-results release, github.com/openai/math](https://github.com/openai/math) — 722 AI-generated manuscripts/372 result families across 17 fields, including a claimed partial Birch–Swinnerton-Dyer resolution; EXTREME hype-skepticism — see the new seed trend above.
+- 2026-10-06 (v1); shelf-added 2026-10-07 — [An AI-Assisted Formalization of the Poincaré Conjecture (Zhang, Delaval, et al.)](https://arxiv.org/abs/2610.08329) — second independent AI-assisted Lean formalization of the Hamilton–Perelman proof; see the promoted seed trend above (with the first effort, arXiv:2609.33842, already shelved 2026-09-29 below).
 - 2026-10-04 (v1); shelf-added 2026-10-06 — [A Proof of the Linear Hadwiger Conjecture (Norin, Steiner)](https://arxiv.org/abs/2610.05291) — claims full resolution of the linear/asymptotic form of Hadwiger's conjecture (K_t-minor-free graphs are Ct-colorable), by the field's own leading expert (Norin), proof credited to GPT-6 Astra under the authors' direction; EXTREME hype-skepticism caution (2 days old, unrefereed, zero independent engagement yet) — see the watchlist, new seed trend above.
 - 2026-10-05 (v1); shelf-added 2026-10-06 — [The Lebrun–Salamon conjecture is true in dimension up to 56 (Daura Serrano, Gohr, Lawn, Schedler)](https://arxiv.org/abs/2610.06336) — a substantial partial resolution (quaternionic dimension ≤14, real dimension ≤56) of a well-known named conjecture in quaternionic Kähler geometry via a new "projection curvature moment" positivity toolkit — see the watchlist.
 - 2026-09-22 (PRL publication); shelf-added 2026-10-05 — [Observation of e/4 Charge at ν=1/2 in a Wide GaAs Quantum Well (Alkalay, Hajigeorgiou, Gupta, Senapati, Tiwari, Tai, Singh, Baldwin, Pfeiffer, Shayegan, Banerjee, Heiblum)](http://link.aps.org/doi/10.1103/c73x-q4z7) — peer-reviewed (PRL) shot-noise measurement of e/4-charged quasiparticles in the ν=1/2 fractional quantum Hall state, evidence for a non-Abelian (Pfaffian-class) topological order; same Weizmann (Heiblum) group as the already-shelved ν=5/2 anyon-braiding result below.
@@ -149,12 +155,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 ## Community pulse
 
-- [Hacker News](https://news.ycombinator.com/) carried the day's standout pointer — a front-page item on an AI-agent materials-discovery claim, chased to [vals.ai](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) (2nd sighting, source-discovery promotion pending).
-- [Backreaction](https://backreaction.blogspot.com/) remains a top-value pointer surface — two posts chased this session, one to an already-tracked result (0 leak) and one to a fresh, EXTREME-caution graphite-superconductivity claim.
-- Reddit's [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (16+ weeks running).
+- [Hacker News](https://news.ycombinator.com/) carried TWO front-page stories today: the Nobel Prize announcement and OpenAI's "Sharing AI progress in mathematics" (683 points) — both chased to their primaries above.
+- [Gil Kalai's blog](https://gilkalai.wordpress.com/) independently corroborates the OpenAI release ("amazing!"); [Terence Tao's](https://terrytao.wordpress.com/) latest post predates it and is general AI-in-math commentary, not a new pointer.
+- Reddit's [r/math](https://www.reddit.com/r/math/) and r/mathematics remain under a standing hard network-level block (17+ weeks running); `tvly search` picked up a r/singularity repost corroborating the OpenAI release (intake only).
 - MathOverflow, Physics Stack Exchange and [Mathstodon](https://mathstodon.xyz/) carried only routine traffic this session.
-- [agmai.org](https://agmai.org) (the AI-math advisory group) is unchanged since its W40 promotion — still coordinating a pending wave of OpenAI math disclosures, not yet a result.
+- [agmai.org](https://agmai.org)'s "Responsible Release" recommendations are now visibly in direct use — OpenAI's own disclosure page cites them explicitly.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (299) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-06](reports/2026-10-06.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (306) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-07](reports/2026-10-07.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

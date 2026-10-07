@@ -2800,3 +2800,95 @@ and reports/2026-10-05 + today's own 9 new ids self-checked) / 0 queued (all pre
 Queue: +9 / 0 dropped (now 299, well past the ~40 soft cap, expected under domain cadence — see
 AGENTS.md § Domain cadence). study_shelf: +1 (the Linear Hadwiger proof). README.md regenerated in
 the same commit.
+
+## 2026-10-07 (daily, Pass 1)
+
+Load-state: `tvly` missing at session start, reinstalled via `pip install -q tavily-cli`, worked
+cleanly all session. Primary sweep (radar-source-sweep): full in-scope math category set (22
+categories via arXiv API cross-category query, ~201 entries covering the 2026-10-06 submission
+batch) + full physics category set (14 categories, ~201 entries covering 2026-10-05/10-06) —
+triaged by title, arXiv API verification of every candidate. PRL/PRX/RMP + Quantum — opened,
+routine (UTe2 fluctuation-superconductivity PRX item and a PRX "Topological Mixed States" paper
+noted, below-bar). CERN `/feed/` + IceCube category-feed — opened; IceCube is TODAY'S HEADLINE
+CATCH (see below). Fermilab — DEGRADED (connection failure, HTTP 000, both plain `curl` and
+`-A "Mozilla/5.0"`; single-daily transient, was healthy 10-06, not yet heal-owed). Simons
+Foundation — opened, routine (Nobel-adjacent biology/neuroscience grant news, off-axis; also
+independently NAMES the Halzen Nobel in passing — corroborating, not primary). Nature Physics +
+Nature Communications — opened via the standing Googlebot-UA workaround (8/8 + 8/8 titles
+recovered), all routine/off-axis (condensed matter, chemistry, biology). SciPost API — Anubis
+bot-challenge DEGRADED AGAIN today (recurs intermittently per the standing note); sitemap
+fallback confirms existence/count (SciPostPhys.21.3 advanced .075→.080, SciPostPhysCore.9.3
+advanced .060→.063, 8 new since 09-25) but titles inaccessible — no on-axis catch confirmable,
+coverage-honest per the documented partial heal. INSPIRE-HEP (API, mostrecent) — opened, routine,
+no yield. LIGO (`tvly extract`) — unchanged (GWTC-5.0 still latest). DESI, LZ (`tvly extract`) —
+unchanged. AI-watch lane: openai.com — TODAY'S BIGGEST CATCH, "Sharing AI progress in
+mathematics" / `github.com/openai/math` (see below); anthropic.com (`tvly search`) — no new
+math disclosure beyond the already-tracked Riemann-bound result; agmai.org (`tvly extract`) —
+unchanged (same advisory-group member list), but its "Responsible Release" recommendations are
+now visibly in direct use (OpenAI's own page cites them). GitHub watch (radar-repo-watch): lean4
+unchanged (v4.35.0-rc3/v4.34.1), Rocq unchanged (9.3.0), mathlib4 continuing its daily
+`master-YYYY-MM-DD` auto-tag (master-2026-10-05, 1 day stale — `releases.atom` lag, not a miss);
+`github.com/anthropics` — no new formal-math repo; STAGED `github.com/openai` as a new
+discovered-source candidate (1 sighting: `openai/math`) — see SOURCES.md. Community pulse
+(radar-pulse): Reddit r/math + r/mathematics direct `.rss` — still blocked (17th+ consecutive
+week; `tvly search --include-domains reddit.com` used instead, surfaced the Francesco-Maggi
+r/singularity repost corroborating the OpenAI release, intake only). Hacker News (Algolia
+front-page API) — TWO front-page catches today: "Nobel Prize in Physics 2026: Francis Halzen"
+and "Sharing AI progress in mathematics" (both chased to primaries, see below). MathOverflow +
+Physics Stack Exchange (Atom) — routine Q&A, nothing pointing to an unopened primary. Mathstodon
+— generic noise. Digest/explainer blogs: Quanta (unchanged since 10-06), Tao ("The Future of
+Mathematics," dated 10-05, a general AI-in-math opinion piece predating today's OpenAI release —
+not a pointer, context only), Woit, Gowers, Kalai (CORROBORATES the OpenAI release — "Sharing AI
+progress on mathematics (amazing!)," intake only), Baez, Strassler all opened — no new primary
+beyond what's below. Backreaction — unchanged since 10-06 (same two posts already captured).
+Exploration slot (radar-explore, OFF-AXIS rotation): nlin.CD/nlin.SI (chaotic/integrable systems,
+not used in the recent rotation) — ~40 entries read regardless of sub-topic (Stuart-Landau
+oscillator chaos, KPZ superdiffusion in quantum circuits, Sawada-Kotera/Ablowitz-Ladik soliton
+analysis, turbulence renormalization-group work) — zero significant off-axis yield this run
+(routine nonlinear-dynamics output); logged per the routine even at zero-yield.
+
+CATCHES today (2 new seed trends from scratch + 1 queue→seed promotion + 1 mega-disclosure seed +
+8 new below-bar queue items + 1 vetting-status sub-note, the single busiest day in weeks): (1)
+**2026 Nobel Prize in Physics** to Francis Halzen "for decisive contributions to the IceCube
+Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin" —
+official nobelprize.org press release opened directly, corroborated via IceCube's own news feed;
+new seed trend, also study_shelf. Nobel Prize ADDED to SOURCES.md's Prizes & recognition list (a
+listed-but-missing coverage gap — it was never there at all, unlike Abel/Breakthrough/Shaw/Fields)
+with a Nobel-week daily-chase exception mirroring the ICM/Fields one. (2) **OpenAI's mass
+math-results disclosure** — `github.com/openai/math`, 722 manuscripts/372 result families across
+17 fields (Apache-2.0), ~37× the scale of the already-tracked "Ten Advances" disclosure, explicitly
+implementing agmai.org's recommendations; repo + CONTENTS.md opened directly this session (640KB,
+read in full). Headline claims sampled (non-exhaustive, see TRENDS.md): a case of the full
+Birch–Swinnerton-Dyer formula (Clay Millennium Prize Problem), Milne's rationality conjecture,
+a Dirichlet-L-function zero-free-region result, Hilbert's 10th problem over ℚ, irrationality of
+Catalan's constant, the Unique Games Conjecture, matrix multiplication exponent ≤9/4, Hilbert's
+16th problem, the Mahler conjectures, the circulant Hadamard conjecture, no-4-MUBs-in-dimension-6,
+the Hilbert–Smith conjecture. New seed (held to the domain-cadence landmark-by-scale precedent,
+HEAVIEST hype-skepticism, flagged for the next weekly to reconcile against the "Ten Advances"
+queue-not-seed precedent); also study_shelf; `github.com/openai` staged as a discovered-source
+candidate. (3) **Poincaré-conjecture Lean formalization PROMOTED queue→seed**: a second,
+independently-staffed AI-assisted Lean formalization (Zhang/Delaval et al., arXiv:2610.08329,
+caught in today's math.GT sweep) joins the already-queued Qin/Liao/Khaitan/Chow effort
+(arXiv:2609.33842, 09-29) — two independent teams on the same landmark theorem within 8 days
+clears both the domain-cadence landmark bar and the ≥2-independent-source confidence bar; old
+queue entry removed (now captured as trend evidence, no duplication). (4) **Vetting-status
+sub-note** on the standing OpenAI Navier-Stokes claim: Bastounis–Circelli–Hansen,
+"Navier-Stokes lost in translation" (arXiv:2610.08144, math.AP sweep) — a methodological critique
+arguing Lean verification of an AI autoformalisation does not guarantee the natural-language proof
+is correct, a direct challenge to the "Lean-checked, so confident" framing of that claim. (5) Eight
+new below-bar queue items, all unrefereed single/few-author preprints: Bonolis–Browning–Glas–Wang's
+"Artin–Davenport conjecture on cubic forms" (2610.08226, integer zeros of cubic forms in ≥10
+variables — landmark CANDIDATE given Browning's standing in exactly this area, held at queue
+pending referee reaction); Gelander's counterexamples to the continuous Aldous–Lyons conjecture
+(2610.08581); Wu–Feng's proof of the Keevash–Mubayi simplex-cluster conjecture (2610.08567);
+Mangerel's resolution of two Sárközy local-extrema conjectures (2610.08424); Jiang's proof of the
+quartic Berkovich–Dhar sign-change conjecture (2610.08496, NOT part of the already-flagged
+Yicen-Ma author-recurrence pattern — different author); Nazarczuk's independent computer-assisted
+proof of the Chen–Raspaud conjecture for k=4 (2610.07968); Ammari–Qiu's Dirac Faber–Krahn
+inequality (2610.08665); Soukup's uncountable-cardinal extension of Hedetniemi's conjecture
+(2610.08027). capture-leak: 19 ids checked (today's 10 new ids + the 9 named in reports/2026-10-05
+and reports/2026-10-06) / 0 queued (all 19 confirmed present in evidence/queue/trend lines — 0
+leaked). Queue: +8 / 0 dropped (net; 2 items promoted OUT to trends rather than dropped — not a
+loss of knowledge). study_shelf: +3 (Nobel Prize, OpenAI math release, second Poincaré
+formalization). 3 new/promoted seed trends (Nobel Prize; OpenAI mass disclosure; Poincaré
+two-team formalization). README.md regenerated in the same commit.
