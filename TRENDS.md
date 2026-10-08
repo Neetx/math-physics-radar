@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-07
+Last updated: 2026-10-08
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1556,6 +1556,88 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   claim from this release would be the single biggest story this radar could register, bigger even
   than the already-tracked OpenAI Navier-Stokes claim) — chase this daily until a vetting signal
   appears.
+  - 2026-10-08 (daily): vetting-status / community-reaction catch. (a) The Association for Human
+    Mathematics (AHM), a newly-identified mathematician advocacy organization, published a
+    statement (its own site, opened directly this session: https://www.ahmath.org — also reposted
+    by Terence Tao, https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/)
+    condemning the October 6 release as "a demonstration of power" rather than scholarship and
+    urging mathematicians to "discontinue their work with OpenAI" — the first organized
+    organizational (not just individual-blogger) pushback this ledger has tracked against an
+    AI math disclosure. AHM staged as a discovered-source candidate in SOURCES.md. (b) Quanta
+    Magazine, "As AI Closed In on 'Unique Games' Proof, Researchers Raced to Beat the Machines"
+    (opened directly this session: https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/)
+    clarifies that OpenAI's release's unique-games-conjecture-adjacent claim is specifically a
+    Lean-verified proof of Khot's "2-to-1 games conjecture," in an AI-generated manuscript with NO
+    human editing or independent expert review — a concrete vetting-status data point (Lean-checked
+    ≠ independently reviewed, same caveat as the Bastounis–Circelli–Hansen Navier-Stokes critique
+    already tracked). The same article reports an independent HUMAN result rushed to preprint
+    (mid-September 2026) by Dor Minzer (MIT) with graduate students Yumou Fei and Shuo Wang,
+    proving a weaker "4-to-1 games conjecture" variant with the same key consequences, explicitly to
+    predate the rumored OpenAI announcement — praised on record by Ryan O'Donnell (CMU) and Mark
+    Braverman (Princeton). The underlying arXiv preprint was NOT located via the arXiv API this
+    session (author-name search returned no September 2026 match) — queued below with the Quanta
+    article as its only source pending primary-ID location (not evidence per the hard rules; chase
+    next session).
+
+### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
+- stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
+- what: FULL resolution of the LeBrun–Salamon conjecture (1994): every compact connected positive
+  quaternionic-Kähler manifold of real dimension 4n (n≥2) is, up to rescaling, isometric to a Wolf
+  space (a symmetric space). A long-standing named conjecture in Riemannian/quaternionic geometry,
+  connecting to twistor theory via the contact structure of the twistor space. Landmark by the
+  domain-cadence bar (full resolution of a 30+-year-old named conjecture), unconditional (no
+  dimension restriction, unlike the partial result below). Strikingly, this FULL proof lands just
+  two days after an independent team's strong PARTIAL resolution (dimension <=56) was queued
+  (2026-10-05, arXiv:2610.06336, Daura Serrano/Gohr/Lawn/Schedler) — a second, fully independent
+  3-author team converging on the same conjecture within days, echoing this ledger's Poincaré
+  two-team pattern. The partial-resolution queue entry is folded in here (superseded, not
+  duplicated) rather than left standing separately. Unrefereed preprint — HEAVY caution per the
+  extraordinary-claim rule; a conjecture this old resolved this fast by two races in one week
+  warrants independent verification before any confidence upgrade.
+- evidence:
+  - 2026-10-07 (v1) — https://arxiv.org/abs/2610.10410 — Hu, Liu, Wan, "Transverse rational curves
+    and the LeBrun–Salamon conjecture": proves the full, unconditional (all n>=2) resolution via
+    transverse rational curves and the twistor-space contact structure. Abstract + authors verified
+    via arXiv API this session.
+  - 2026-10-05 (v1) — https://arxiv.org/abs/2610.06336 — Daura Serrano, Gohr, Lawn, Schedler, "The
+    LeBrun–Salamon conjecture is true in dimension up to 56": the independent partial result (n<=14,
+    i.e. real dimension <=56) that immediately preceded the full proof above; folded in as context,
+    not a separate queue item. Abstract + authors verified via arXiv API this session (2026-10-07).
+- notes: 2026-10-08 (daily, seed creation): caught in the full math-category arXiv sweep
+  (2026-10-07 submission batch, math.AG). No referee/vetting outcome yet on either preprint. Watch
+  for independent expert commentary (this is exactly the kind of long-standing geometry conjecture
+  Quanta/Kalai/n-Category Café would flag) and for whether the two teams' methods are compared.
+  Also added to `study_shelf`.
+
+### First operating thorium-229 nuclear clocks (Vienna + Beijing, independent teams)
+- stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
+- what: axis-3 DOMAIN-CADENCE LANDMARK (first-of-kind measurement/detection): the first SUSTAINED,
+  operating nuclear clocks based on the thorium-229 nuclear isomer transition (long sought for
+  ~20 years as a nuclear alternative to electronic atomic clocks, with potential sensitivity to
+  fundamental-constant variation). Secondary press (Reuters, South China Morning Post,
+  sciencemediacentre.es — opened via `tvly search` this session, NOT independently verified
+  per-claim by this radar) reports TWO independent teams — a Tsinghua University (Beijing)-led
+  group and a TU Wien (Vienna)-led group — each demonstrating sustained nuclear-clock operation,
+  in simultaneous Nature publications; the press frames Beijing's clock as showing better
+  stability. This session located and directly verified ONE underlying preprint, a USTC
+  (Jian-Wei Pan group, Hefei) collaboration with TU Wien co-authors (Schumm, Beeks), demonstrating
+  30-hour continuous feedback-locked operation. The distinct Tsinghua-only and/or TU-Wien-only
+  Nature paper(s) referenced by the press were NOT located on arXiv this session — flagged for
+  follow-up. Landmark by scale (first-of-kind sustained operation, two-team independent
+  confirmation per secondary press) even before full verification of the second paper.
+- evidence:
+  - 2026-10-07 (v1) — https://arxiv.org/abs/2610.10056 — Wang, Yin, Wang, et al. (USTC/Hefei, with
+    TU Wien co-authors Beeks and Schumm), "A solid-state nuclear clock based on VUV absorption
+    spectroscopy of $^{229}$Th": demonstrates sustained operation of a solid-state Th-229:CaF2
+    nuclear clock, feedback updated every ~10s over a 30-hour record, fractional frequency
+    instability ~1.24x10^-13 at 10^4s. Abstract + full author list verified via arXiv API this
+    session.
+- notes: 2026-10-08 (daily, seed creation): caught via Hacker-News-adjacent press chase (NYT
+  headline on the front page of community pulse) and the physics.atom-ph arXiv sweep
+  independently surfacing the same preprint — convergent discovery. NOT yet located: the specific
+  Tsinghua-led and/or TU-Wien-solo Nature paper(s) the press describes as the "second independent
+  team" — chase next session (search Nature.com directly, or author names from the press pieces).
+  Also added to `study_shelf`.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -4698,15 +4780,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   S^{n+1}$ with constant scalar curvature (sharpens the known S>n+c·n bound on the second
   fundamental form's squared norm). Partial/incremental, not a resolution. Unrefereed. Abstract +
   authors verified via arXiv API this session.
-- 2026-10-05 (v1) — Jordi Daura Serrano, Aron Gohr, Marie-Amélie Lawn, Travis Schedler, "The
-  Lebrun–Salamon conjecture is true in dimension up to 56" — https://arxiv.org/abs/2610.06336 —
-  Riemannian/quaternionic geometry (axis 1, math.DG): proves the LeBrun–Salamon conjecture (every
-  positive quaternionic Kähler manifold is a Wolf space/symmetric space) for quaternionic dimension
-  n≤14 (real dimension ≤56), substantially extending the previously-known small-dimension cases via
-  a new toolkit of "projection curvature moment" positivity arguments. A strong partial resolution
-  of a well-known named conjecture, below the domain's full-resolution landmark bar but a
-  significant advance — also a `study_shelf` candidate. 4-author, unrefereed. Abstract + authors
-  verified via arXiv API this session.
 - 2026-10-05 (v1 2026-07-19, v2) — FASER Collaboration, "First Search for Quirks at the LHC with
   FASER" — https://arxiv.org/abs/2607.26195 — experimental particle physics (axis 3, hep-ex):
   a first-of-kind dedicated search for "quirks" (hypothetical confined-by-a-string colored
@@ -4789,6 +4862,61 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   complementary version of Hedetniemi's problem (already known false for finite graphs, Shitov 2019)
   into the uncountable/infinite-cardinal setting, under ◊. Single-author, unrefereed, a niche
   set-theoretic extension — queued. Abstract + author verified via arXiv API this session.
+- 2026-10-07 (v1) — Linfeng Mei, Juncheng Wei, "A proof of the fractional Lane–Emden conjecture" —
+  https://arxiv.org/abs/2610.10188 — PDE / nonlinear analysis (axis 1, math.AP): proves a Liouville
+  theorem for the fractional Lane–Emden system, extending a known classical-case landmark to the
+  fractional setting; no radial-symmetry or finite-energy assumptions needed. LANDMARK CANDIDATE —
+  Juncheng Wei is an established, highly-cited PDE researcher (UBC) — held at queue pending referee
+  reaction rather than seeded outright (mirrors the Bonolis–Browning–Glas–Wang treatment 2026-10-07).
+  Two-author, unrefereed. Abstract + authors verified via arXiv API this session.
+- 2026-10-07 (v1) — Yizhi Zhang, Huaiqing Zuo, "The Hassanzadeh-Nasrollah Nejad-Simis Conjecture on
+  Euler Conductors" — https://arxiv.org/abs/2610.09833 — commutative algebra / singularity theory
+  (axis 1, math.AC/AG): proves a non-containment result for Euler conductors of isolated
+  hypersurface singularities, resolving the named conjecture. Narrow specialist subfield — below
+  the domain's landmark bar, queued. Two-author, unrefereed. Abstract + authors verified via arXiv
+  API this session.
+- 2026-10-07 (v1) — Shengyong Pan, "Counterexamples to the Polishchuk–Van den Bergh conjecture on
+  curves" — https://arxiv.org/abs/2610.10147 — noncommutative algebraic geometry (axis 1, math.AG):
+  constructs explicit finite-group-action counterexamples disproving Conjecture A of Polishchuk
+  and Van den Bergh. Single-author, unrefereed — queued. Abstract + author verified via arXiv API
+  this session.
+- 2026-10-07 (v1) — Zhanping Yang, Qinghou Zeng, "Melnikov's Valency Variety Problem" —
+  https://arxiv.org/abs/2610.09649 — graph theory (axis 1, math.CO): resolves Melnikov's conjectured
+  lower bound on chromatic number in terms of vertex count and the number of distinct vertex
+  degrees. Two-author, unrefereed, niche — queued. Abstract + authors verified via arXiv API this
+  session.
+- 2026-10-07 (v1) — Alexander Dobrick, "On the Cyclicity Conjecture" — https://arxiv.org/abs/2610.10093
+  — operator theory (axis 1, math.FA): proves the peripheral spectrum of every positive operator on
+  a complex Banach lattice is cyclic, resolving the named conjecture without extra growth
+  assumptions. Single-author, unrefereed — queued. Abstract + author verified via arXiv API this
+  session.
+- 2026-10-07 (v1) — Minbo Gao, Tianshi Yu, Lihong Zhi, "An Explicit Counterexample to Tsirelson's
+  Problem via a Linear System Game" — https://arxiv.org/abs/2610.10248 — quantum foundations /
+  operator algebras (axis 4, math.OA/FA): constructs an explicit (not merely existential) finite
+  binary linear-system game separating the quantum-approximate (Cqa) and quantum-commuting (Cqc)
+  correlation sets, a concrete counterexample to Tsirelson's problem in its approximation form.
+  Tsirelson's problem was already known false abstractly via MIP*=RE (Ji–Natarajan–Vidick–Wright–
+  Yuen, 2020); the contribution here is an EXPLICIT, finite construction (1,417,152 equations,
+  1,889,684 variables) rather than a new abstract resolution — below this ledger's landmark bar for
+  a first resolution, but a notable axis-4 constructive advance, queued. Three-author, unrefereed.
+  Abstract + authors verified via arXiv API this session.
+- 2026-10-07 (v1) — Mark Braverman, Zhongtian He, "The Multiple Unicast Conjecture is False" —
+  https://arxiv.org/abs/2610.10108 — network coding / information theory (cs.CC, OFF-AXIS per the
+  radar-explore rotation this session): refutes the 20-year-old undirected multiple-unicast
+  conjecture (network coding offers no throughput advantage over multicommodity flow) via an
+  explicit linear code over a projective-geometry incidence graph. Significant, off-axis (networking
+  theory, not core math/physics) — queued per the "significant, off-axis" exploration protocol, not
+  promoted to a trend given the axis mismatch. Two-author, unrefereed. Abstract + authors verified
+  via arXiv API this session.
+- 2026-10-08 (mid-September 2026 per secondary reporting; primary NOT located this session) — Dor
+  Minzer, Yumou Fei, Shuo Wang (MIT) — a human-proved "4-to-1 games conjecture" result (a weaker
+  variant of Khot's 2-to-1 games conjecture with most of the same consequences, incl. unbounded-
+  color hardness of 3-colorable-graph coloring), rushed to preprint to predate OpenAI's October 6
+  release; praised by Ryan O'Donnell (CMU) and Mark Braverman (Princeton) per Quanta Magazine
+  (https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/,
+  opened directly this session) — UNVERIFIED as evidence (only the secondary Quanta article was
+  opened; the arXiv id was not found via author-name API search this session). Queued with a
+  chase-next-session flag to locate the actual preprint.
 
 ## source_rotation
 
@@ -4806,6 +4934,13 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-07 (v1); shelf-added 2026-10-08 — [A solid-state nuclear clock based on VUV absorption
+  spectroscopy of $^{229}$Th (Wang, Pan, et al.)](https://arxiv.org/abs/2610.10056) — first
+  sustained, operating thorium-229 nuclear clock (30-hour feedback-locked record); see new seed
+  trend.
+- 2026-10-07 (v1); shelf-added 2026-10-08 — [Transverse rational curves and the LeBrun–Salamon
+  conjecture (Hu, Liu, Wan)](https://arxiv.org/abs/2610.10410) — full resolution of a 30-year-old
+  named conjecture in quaternionic-Kähler geometry; see new seed trend.
 - 2026-10-06; shelf-added 2026-10-07 — [2026 Nobel Prize in Physics: Francis Halzen](https://www.nobelprize.org/prizes/physics/2026/press-release/)
   — "for decisive contributions to the IceCube Neutrino Observatory and the discovery of
   high-energy neutrinos of astrophysical origin"; see new seed trend.

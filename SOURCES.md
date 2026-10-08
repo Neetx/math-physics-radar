@@ -48,7 +48,7 @@ for feed-less ones. Filter for on-scope relevance; skip product/marketing.
 These carry official RESULTS (a discovery, a data release, a solved-problem announcement = PRIMARY)
 mixed with general PR (= intake — follow to the paper). Filter for on-axis research substance.
 - CERN Courier — https://cerncourier.com/feed/ **[verified 2026-07-02; RSS]** — particle / high-energy physics results & reviews
-- Fermilab news — https://news.fnal.gov/feed/ **[verified 2026-07-02; RSS. DEGRADED 2026-10-07: plain `curl` (multiple attempts, `-A "Mozilla/5.0"`) returned a connection failure (HTTP 000, no response) this session — a single-daily transient per the standing protocol (was healthy as of 2026-10-06), not yet heal-owed; re-test next session before escalating.]** — particle physics / neutrinos
+- Fermilab news — https://news.fnal.gov/feed/ **[verified 2026-07-02; RSS. RECOVERED 2026-10-08: plain `curl -A "Mozilla/5.0"` returned a clean 200 with full title list this session, confirming the 2026-10-07 connection failure was indeed a single-daily transient, not a standing block.]** — particle physics / neutrinos
 - Simons Foundation — https://www.simonsfoundation.org/feed/ **[verified 2026-07-02; RSS]** — math + theoretical physics research (incl. Flatiron Institute)
 - Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
 - Clay Mathematics Institute — https://www.claymath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** — Millennium Problems, math research news
@@ -345,6 +345,13 @@ conjectures.io (all 1 sighting still).
   mirroring the `github.com/anthropics` precedent (access: no feed found on the org page itself;
   `tvly extract`/`tvly search` on individual `github.com/openai/<repo>` paths when a disclosure is
   flagged elsewhere).
+- ahmath.org (Association for Human Mathematics) — 1 — statement condemning OpenAI's October 6
+  mass math-results release as "a demonstration of power" not scholarship, urging mathematicians
+  to discontinue work with OpenAI — first seen 2026-10-08 — discovered via Terence Tao's blog
+  repost; a newly-formed mathematician advocacy/policy organization, same AI-watch-lane pattern as
+  agmai.org but a critical/activist voice rather than an advisory one. Verified live via `tvly
+  extract` this session (200 OK). HELD below the ≥2-sighting bar (1 sighting); access via direct
+  `tvly extract`/`WebFetch` on `ahmath.org`, no feed found.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

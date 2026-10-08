@@ -2892,3 +2892,70 @@ leaked). Queue: +8 / 0 dropped (net; 2 items promoted OUT to trends rather than 
 loss of knowledge). study_shelf: +3 (Nobel Prize, OpenAI math release, second Poincaré
 formalization). 3 new/promoted seed trends (Nobel Prize; OpenAI mass disclosure; Poincaré
 two-team formalization). README.md regenerated in the same commit.
+
+## 2026-10-08 (daily, Pass 1)
+
+Primary sweep (radar-source-sweep): full in-scope math category set (22 categories, single
+cross-category arXiv API query, ~250 entries covering the 2026-10-07 submission batch) + full
+physics category set (14 categories, ~250 entries, 2026-10-06/10-07) — triaged by title, arXiv
+API verification of every candidate. PRL/PRX/RMP + Quantum — opened, routine. CERN `/feed/` —
+opened, routine (Nobel congratulations, corroborating only). Fermilab — RECOVERED (clean 200 via
+`curl -A "Mozilla/5.0"`, confirming yesterday's connection failure was a single-daily transient,
+not a standing block — SOURCES.md updated). Simons Foundation — opened, routine (surfaced an
+already-tracked Dobkowski et al. quantum-free-fall item via an old Oxford press link in passing —
+0 leak, already evidence since 09-07). Nature Physics + Nature Communications — opened via the
+Googlebot-UA workaround (8/8 + 8/8 titles), all routine/off-axis. SciPost API — HEALED today (clean
+JSON, no Anubis challenge). INSPIRE-HEP (API, mostrecent) — opened, routine, no yield. LIGO
+(direct `curl` still Cloudflare-WAF-blocked; `tvly extract` fallback works, unchanged list, GWTC-5.0
+still latest). DESI, LZ (`tvly extract`) — unchanged. AI-watch lane: openai.com, anthropic.com,
+agmai.org, cims.nyu.edu (`tvly search`/`extract`) — all routine, no new disclosure beyond
+corroboration of the already-tracked 10-06 release. GitHub watch (radar-repo-watch): lean4
+unchanged (v4.35.0-rc3/v4.34.1), Rocq unchanged (9.3.0), mathlib4 continuing its daily
+`master-YYYY-MM-DD` auto-tag (master-2026-10-05, now 3 days stale — `releases.atom` lag, watch);
+`github.com/anthropics` — no new formal-math repo; `github.com/openai/math` — unchanged (147
+stars/7 forks), still only 1 sighting, promotion bar not yet cleared. Community pulse
+(radar-pulse): Reddit r/math + r/mathematics direct `.rss` — still blocked (18th+ consecutive
+week; `tvly search --include-domains reddit.com` used instead, routine corroboration of the
+OpenAI story, intake only). Hacker News (Algolia front-page API) — TWO chases today: "Sharing AI
+progress in mathematics" (corroborating, already tracked) and an NYT headline on the first
+thorium-229 nuclear clocks (chased to a primary, see below). MathOverflow + Physics Stack
+Exchange (Atom) — routine Q&A (one MathOverflow thread on verifying an OpenAI Hilbert-Smith proof,
+intake only, corroborating). Mathstodon — generic noise. Digest/explainer blogs: Quanta — TWO
+catches (the Unique Games/Minzer race piece, see below; "Is AI the End of Math As We Know It?"
+meta-commentary, context only), Tao — TODAY'S HEADLINE CATCH (AHM statement repost, see below),
+Woit, Gowers, Kalai, Baez, Strassler all opened — no further new primary. Backreaction — "First
+Evidence for Quantum Gravity?" confirmed ALREADY captured (2026-10-03), 0 leak. Scientific
+American (`tvly search`) — routine magazine ToC, nothing new. Exploration slot (radar-explore,
+OFF-AXIS rotation): cs.CC (computational complexity, not used in the recent rotation) — ~40
+entries read regardless of sub-topic; ONE significant off-axis catch (Braverman–He's "Multiple
+Unicast Conjecture is False," see below), logged per the routine.
+
+CATCHES today (2 new seed trends + 1 superseded-and-folded queue item + 2 vetting-status notes +
+7 new below-bar queue items, incl. 1 off-axis + 1 primary-not-located flag): (1) **Proof of the
+LeBrun–Salamon conjecture** (arXiv:2610.10410, Hu/Liu/Wan) — FULL, unconditional resolution of the
+1994 conjecture, landing just 2 days after an independent team's partial resolution (dimension
+<=56, arXiv:2610.06336, queued 10-05) — a second independent team converging within days, echoing
+the Poincaré two-team pattern; the superseded partial-resolution queue entry folded into the new
+trend (removed, not duplicated). New seed + study_shelf. (2) **First operating thorium-229
+nuclear clocks** (arXiv:2610.10056, USTC/TU Wien) — axis-3 domain-cadence landmark (first-of-kind
+sustained nuclear-clock operation, 30-hour record); secondary press (Reuters/SCMP) reports a
+SECOND independent Nature paper (Tsinghua/TU-Wien-solo) not located on arXiv this session — flagged
+to chase. New seed + study_shelf. (3) **Vetting-status / community-reaction double catch** on the
+OpenAI mass disclosure: the Association for Human Mathematics (ahmath.org, newly staged as a
+discovered-source candidate) published a statement condemning the release as "a demonstration of
+power," reposted via Tao's blog; separately, Quanta's "As AI Closed In on 'Unique Games' Proof"
+piece clarifies OpenAI's claim is specifically a Lean-verified (not independently reviewed) proof
+of the "2-to-1 games conjecture," and profiles an independent human race result (Minzer/Fei/Wang,
+MIT, "4-to-1 games conjecture") rushed to preprint pre-empting OpenAI — queued with a
+primary-not-located flag (only the Quanta article was opened; arXiv id not found via API search).
+(4) Below-bar queue adds: Mei–Wei's fractional Lane-Emden conjecture proof (landmark CANDIDATE,
+established author Wei, held at queue pending referee reaction, mirroring the Bonolis-Browning
+treatment); Zhang-Zuo's Hassanzadeh-Nasrollah-Nejad-Simis conjecture; Pan's Polishchuk-Van den
+Bergh counterexamples; Yang-Zeng's Melnikov valency-variety resolution; Dobrick's Cyclicity
+Conjecture; Gao-Yu-Zhi's explicit Tsirelson's-problem counterexample (axis 4); Braverman-He's
+Multiple Unicast Conjecture disproof (OFF-AXIS exploration catch, network coding, queued not
+seeded given the axis mismatch). capture-leak: 17 ids checked (today's 9 new arXiv ids + the 8
+named in reports/2026-10-06 and reports/2026-10-07 not already reconciled) / 0 queued (all 17
+confirmed present in evidence/queue/trend lines — 0 leaked). Queue: +7 / -1 (the superseded
+LeBrun-Salamon partial-resolution entry removed, folded into its trend) net +6. study_shelf: +2.
+2 new seed trends. README.md regenerated in the same commit.

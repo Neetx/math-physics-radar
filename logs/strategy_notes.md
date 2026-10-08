@@ -1732,3 +1732,26 @@ Corrections to the source-coverage strategy.
   never listed) and not a genuine new discovery needing the 2-sighting bar. Worth the weekly
   double-checking whether other obvious annual-prize venues (e.g. the Nobel Prizes in Chemistry/
   Medicine for math-physics-adjacent work, the Wolf Prize) have the same blind spot.
+
+- 2026-10-08 (daily) — FLAG FOR THE NEXT WEEKLY: two items need a same-topic follow-up chase next
+  session rather than this week's weekly specifically, noting here so they aren't lost: (a) the
+  second/independent thorium-229 nuclear-clock paper (Tsinghua-led and/or TU-Wien-solo) that
+  Reuters/SCMP report as published alongside the USTC/TU-Wien paper this radar DID verify
+  (arXiv:2610.10056) — not located via arXiv API this session, needs a direct Nature.com or
+  author-name search; (b) the Minzer/Fei/Wang MIT "4-to-1 games conjecture" human result profiled
+  by Quanta (mid-September 2026) — only the Quanta article was opened this session, the actual
+  arXiv preprint was not found via author-name API search (tried "Dor Minzer", "Yumou Fei" —
+  neither turned up a September 2026 paper matching the description); queued with a
+  primary-not-located caveat rather than treated as evidence. Separately, flagging a new
+  AI-watch-lane dynamic worth the weekly's attention: TWO distinct organized mathematician voices
+  now exist on AI-in-math — agmai.org (IAS-hosted, advisory/collaborative stance, advises companies
+  on responsible release) and the newly-discovered ahmath.org (Association for Human Mathematics,
+  adversarial stance, urges mathematicians to "discontinue work with OpenAI") — both staged/tracked
+  in SOURCES.md's AI-watch lane; worth the weekly considering whether to track their positions as a
+  standing "community governance" sub-note distinct from per-result vetting-status, since they may
+  increasingly speak to different releases with different verdicts. Also noting (not urgent): the
+  LeBrun–Salamon conjecture's full resolution landing just 2 days after an independent team's
+  partial resolution is the SECOND "two-team convergence within days" pattern this month (after
+  Poincaré) — if a third instance appears, worth naming this as a standing phenomenon
+  (competitive-race dynamics possibly amplified by the OpenAI/Anthropic disclosure wave raising the
+  perceived cost of being scooped) rather than treating each as a one-off coincidence.
