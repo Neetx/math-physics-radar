@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-08
+Last updated: 2026-10-09
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1432,6 +1432,79 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   whether this interacts with the already-tracked "dominating Hadwiger" disproof (same Steiner,
   different sub-conjecture — the two are logically independent, not a contradiction).
 
+### Refutation of the 3SUM and APSP hypotheses (Alman–Vassilevska Williams, Claude-discovered)
+- stage: seed | confidence: medium | first_seen: 2026-10-09 | last_evidence: 2026-10-05
+- what: axis-1/axis-5 DOMAIN-CADENCE LANDMARK (AI-discovered, human-confirmed, Lean-formalized): the
+  first polynomial-factor improvements over the textbook running times for 3SUM and All-Pairs
+  Shortest Paths (APSP) — two of fine-grained complexity theory's oldest, most-studied barriers
+  (the 3SUM hypothesis dates to the 1990s; the APSP hypothesis anchors a large body of conditional
+  lower bounds). Josh Alman (Columbia) and Virginia Vassilevska Williams (MIT, a co-originator of
+  the fine-grained-complexity framework these hypotheses sit in) give a deterministic $O(n^{1.9992})$
+  3SUM algorithm and an $O(n^{2.9995})$ APSP algorithm, REFUTING both hypotheses outright, plus (via
+  known reductions) the Exact Triangle hypothesis, the Zero-Weight $k$-Clique hypotheses, and three
+  rectangular Online Matrix-Vector conjectures — all via one new algorithm for "thin" matrix
+  products built from a Coppersmith/Schönhage rectangular-multiplication variant. Per the paper's own
+  abstract (opened directly via the arXiv HTML full-text this session): "Claude, an AI model
+  developed by Anthropic, discovered the algorithm that refutes" the hypotheses; the two named
+  human authors then "worked to understand, simplify, strengthen, and extend" it, and "Claude also
+  verified this paper's main results using the Lean 4 proof assistant" with Mathlib — matching this
+  ledger's standing AI-discovered/human-confirmed pattern (the Komlós/Beck-Fiala trend) PLUS an
+  independent Lean-formalization verification signal (the Hopf-problem/S⁶, FLT precedents), a
+  stronger combination than either alone. Unrefereed-preprint caution still applies (5 days old,
+  no independent human engagement yet beyond the named co-authors) but the established-researcher
+  co-authorship + Lean-checked main results clears the domain-cadence landmark bar pre-referee, per
+  the Hadwiger/Hopf-S⁶ precedent.
+- evidence:
+  - 2026-10-05 (v1) — https://arxiv.org/abs/2610.06783 — Josh Alman, Virginia Vassilevska Williams,
+    "Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs":
+    $O(n^{1.9992})$ 3SUM, $O(n^{2.9995})$ APSP, refuting both hypotheses + Exact Triangle +
+    Zero-Weight $k$-Clique + three rectangular OMv conjectures (van den Brand–Nanongkai–Saranurak).
+    Abstract/authors/date verified via arXiv API; the AI-discovery/Lean-verification statements
+    verified via the arXiv HTML full-text (`arxiv.org/html/2610.06783v1`) this session — present in
+    the paper's own abstract/intro, not only secondary coverage.
+  - 2026-10-08 (commit date; found 2026-10-09) — https://github.com/anthropics/formal-math —
+    `3sum-apsp/` subdirectory: Anthropic's Lean 4/Mathlib formalization of the paper's headline
+    theorems, Palomar-registry comparator-checked. Repo README table (opened directly via
+    `raw.githubusercontent.com` this session) confirms the project and its toolchain pin.
+- notes: 2026-10-09 (daily, seed creation): caught via the GitHub repo-watch lane — the
+  `anthropics/formal-math` README's project table gained a SECOND row (`3sum-apsp/`, alongside the
+  already-tracked `zeta23/` zeta-zeros formalization); the underlying arXiv paper itself (2610.06783,
+  2026-10-05) was NOT separately caught by this session's math/physics category sweep (it crosses
+  cs.DS/cs.CC, outside the swept math/physics category set) — a title-blind, category-blind miss
+  the GitHub watch lane happened to catch instead; worth the weekly considering whether cs.DS/cs.CC
+  need a standing (not just off-axis-rotation) presence given this is the second complexity-theory
+  landmark this ledger has caught off-category (after the 2608-era Linear-Hadwiger-adjacent misses).
+  Promoted straight to seed per the Komlós/Beck-Fiala (AI-discovered) and Hopf-S⁶/FLT
+  (Lean-formalized) precedents combined. Also added to `study_shelf`. Watch for: independent human
+  engagement/citations, a referee outcome, or a found gap in either the algorithm or the Lean
+  formalization.
+
+### Proof of the hyperkähler SYZ conjecture (Engel–Mauri)
+- stage: seed | confidence: medium | first_seen: 2026-10-09 | last_evidence: 2026-10-08
+- what: axis-1 DOMAIN-CADENCE LANDMARK (resolution of a long-standing named conjecture): claims a
+  full proof of the hyperkähler SYZ conjecture — that sections of a power of any non-trivial nef
+  isotropic line bundle on a hyperkähler manifold define a Lagrangian fibration — the hyperkähler
+  analogue of the Strominger–Yau–Zaslow mirror-symmetry conjecture, open and actively studied for
+  ~15+ years (prior partial results, e.g. Bakker–Svaldi 2021, required extra hypotheses). NOT a
+  fringe claim: a 2025 Engel–Filipazzi–Mauri–Svaldi paper on boundedness of hyperkähler varieties
+  (arXiv:2507.00973, cited 17 times per this session's search) is explicitly CONDITIONAL on this
+  exact conjecture, and both authors are core members of the ERC "HyperK" research program and the
+  Simons Collaboration on Moduli of Varieties — i.e. this is a central open problem in an active,
+  well-resourced research cluster the authors themselves belong to, not an isolated claim.
+  Unrefereed-preprint caution applies (days old, no outside engagement yet) but established-
+  researcher authorship in exactly this subfield clears the domain-cadence landmark bar pre-referee,
+  per the LeBrun–Salamon/Linear-Hadwiger precedent.
+- evidence:
+  - 2026-10-08 (v1) — https://arxiv.org/abs/2610.12277 — Philip Engel, Mirko Mauri, "Hyperkähler SYZ
+    conjecture": one-paragraph abstract states the full result. Abstract + authors + date verified
+    via arXiv API this session.
+- notes: 2026-10-09 (daily, seed creation): caught in today's math.AG fresh-batch triage (title
+  alone named the conjecture). Corroborating context (Engel's 2025 conditional-boundedness paper,
+  the ERC HyperK project, the Simons moduli-of-varieties collaboration) found via `tvly search` this
+  session, not opened as evidence (secondary confirmation of significance only). Watch for: referee/
+  community reaction, any gap found, and whether the 2025 Engel–Filipazzi–Mauri–Svaldi boundedness
+  result becomes unconditional as a consequence.
+
 ### 2026 Nobel Prize in Physics — Francis Halzen / IceCube astrophysical neutrinos
 - stage: seed | confidence: high | first_seen: 2026-10-07 | last_evidence: 2026-10-06
 - what: the Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Physics to Francis
@@ -1498,7 +1571,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   flag for correction if confirmed either way).
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-06
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-07
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1534,10 +1607,23 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     publication page, opened directly via `curl`/`tvly extract` this session: confirms date, scale,
     Apache-2.0 GitHub release, Lean formalizations, and explicit reliance on agmai.org's
     recommendations.
+  - 2026-10-07 — https://github.com/openai/math/blob/main/history.md — OpenAI's own changelog,
+    opened directly via `raw.githubusercontent.com` this session: WITHDREW three manuscripts
+    ("Algebraicity of Weil classes on split abelian eightfolds," "Algebraicity of Kuga–Satake
+    Correspondences for K3 Surfaces," "The rational Hodge conjecture for products of K3 surfaces" —
+    the last a case of the Hodge conjecture, a Clay Millennium Prize Problem) after a sign error
+    invalidated a shared stabilization-trace-cancellation argument; separately REVISED 14 other
+    manuscripts (proof repairs across a Lipschitz-heights/Ashkin–Teller cluster, a Kähler
+    minimal-model/abundance cluster, a taming/hypersymplectic-deformation pair, one incompressible-
+    transport paper, and a citation fix on the BSD-case manuscript) and added 6 more Lean
+    formalizations (now 300/719 ≈ 42% formalized; total manuscript count 722→719 post-withdrawal).
   - 2026-10-06 — https://github.com/openai/math — the live repository (147 stars, 7 forks, this
     session), opened directly; its `CONTENTS.md` (640KB, opened and read in full this session via
     its raw-content URL) lists all 372 result-family titles + one-paragraph descriptions, the
     source for the sample above.
+  - 2026-10-06 (found/opened 2026-10-09) — https://agmai.org — AGMAI's own "On OpenAI's Release of
+    Mathematical Results" statement: declines to judge correctness or endorse the release process,
+    defers verification to the mathematical community.
 - notes: 2026-10-07 (daily, seed creation): caught via the Hacker News front page (683-point story)
   and corroborated independently via Gil Kalai's blog ("amazing") and r/OpenAI community-pulse
   threads naming several of the same results (Unique Games Conjecture, circulant Hadamard
@@ -1578,6 +1664,32 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     session (author-name search returned no September 2026 match) — queued below with the Quanta
     article as its only source pending primary-ID location (not evidence per the hard rules; chase
     next session).
+  - 2026-10-09 (daily): AGMAI itself — the IAS advisory group whose "Responsible Release"
+    recommendations this disclosure explicitly follows — published its own vetting-status statement
+    on the release, "On OpenAI's Release of Mathematical Results" (agmai.org, dated 2026-10-06;
+    opened directly via `WebFetch`/`tvly extract` this session — a primary already in the swept
+    list, not previously captured as its own evidence/note, only alluded to generically on 10-07).
+    Stance: explicitly declines to judge the results' correctness or endorse OpenAI's release
+    process ("not a judgment... or an endorsement"), and places verification entirely in the
+    mathematical community's hands ("only the mathematical community can undertake the assessment
+    that is needed") — the disclosure is "a first step," understanding still to come. A concrete,
+    named-institution confirmation of this trend's PROVISIONAL/unreviewed status, distinct from
+    AHM's adversarial framing (10-08) and Quanta's Lean-checked-≠-reviewed clarification (10-07).
+  - 2026-10-09 (daily): FIRST CONCRETE VETTING OUTCOME — caught via a Hacker News front-page story
+    ("OpenAI withdraws three mathematical results," 276 points) pointing directly to OpenAI's own
+    `history.md` changelog (opened directly this session, see evidence). On 2026-10-07 OpenAI
+    withdrew 3 of the 722 manuscripts, including a claimed case of the HODGE CONJECTURE (a Clay
+    Millennium Prize Problem) for products of K3 surfaces, after a sign error was found in a shared
+    argument; separately revised 14 others with proof repairs. This is exactly the "gaps found in
+    review" outcome the hard rules' hype-skepticism caution anticipates — a genuine, OpenAI-
+    self-reported correction, not yet an outside referee, but the first concrete per-result
+    vetting signal on this specific disclosure (distinct from the AHM/Quanta/AGMAI community-
+    reaction notes above, which are about process/governance, not a specific result's correctness).
+    Feeds directly into the next weekly's standing flag to reconcile this trend's scale-as-landmark
+    seeding against the "Ten Advances" precedent — note that unlike Ten Advances' misconduct
+    finding (plagiarism/prior-art, found by outsiders), this correction was self-reported by OpenAI
+    itself as part of its own ongoing-revision process, a different and arguably healthier vetting
+    pattern worth the weekly distinguishing.
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -4917,6 +5029,47 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   opened directly this session) — UNVERIFIED as evidence (only the secondary Quanta article was
   opened; the arXiv id was not found via author-name API search this session). Queued with a
   chase-next-session flag to locate the actual preprint.
+- 2026-10-08 (v1) — Jie Fu, Shihao Wang, Zhiwei Zheng, "A Proof of Mongardi's Conjecture on Finite
+  Symplectic Group Actions on Hyperkähler Manifolds of K3^[n] Type" — https://arxiv.org/abs/2610.11109
+  — algebraic geometry (axis 1, math.AG): proves the strict-inequality direction of Mongardi's
+  conjecture on Leech coinvariant lattices for finite symplectic group actions on K3^[n]-type
+  hyperkähler manifolds (the converse direction was already proved independently by Huybrechts and
+  Mongardi). Named-conjecture resolution, below the domain-cadence landmark bar (a technical
+  classification result in an already-well-studied area, not a decades-open famous problem).
+  Abstract + authors verified via arXiv API this session.
+- 2026-10-08 (v1) — Tianchi Yang, "A counterexample to the Erdős–Sós bipartite-link conjecture" —
+  https://arxiv.org/abs/2610.11642 — extremal combinatorics (axis 1, math.CO): disproves the Erdős–
+  Sós conjecture on 3-uniform hypergraphs with bipartite link graphs, constructing counterexamples
+  with edge density $\ge 0.250000356 > 1/4$ for all large $n$. Single-author, unrefereed. Abstract +
+  author verified via arXiv API this session.
+- 2026-10-08 (v1) — Senping Luo, Juncheng Wei, "A Complete Proof of Mueller–Ho Conjecture" —
+  https://arxiv.org/abs/2610.12203 — analysis/number theory interface (axis 1, math.AP): a complete
+  proof concerning the minimization of classical/shifted theta functions (Gaussian lattice sums) via
+  the modular group, resolving the Mueller-Ho conjecture on the resulting threshold structure.
+  Established co-author (Juncheng Wei, UBC, prolific PDE/pattern-formation researcher). Abstract +
+  authors verified via arXiv API this session.
+- 2026-10-08 — two below-bar below-the-bar items, briefly: Shutao Jiang, "A proof of the Berkovich-
+  Dhar conjecture modulo five" (https://arxiv.org/abs/2610.11452, math.CO) — a PARTIAL resolution
+  (the sign-pattern/limiting-transition part, restricted to squares/cubes of the finite Borwein
+  product) with corrections to the conjecture's own numerical estimates; Jinghao Huang, Ran Xu, "A
+  Counterexample to Two Compactness Conjectures of Brudnyi" (https://arxiv.org/abs/2610.11066,
+  math.FA) — a function-lattice counterexample to two named conjectures. Both abstracts/authors
+  verified via arXiv API this session.
+- 2026-10-08 — Baoxiang Wang et al., "Evidence for orbital eccentricity supports a hierarchical
+  origin for GW231123" — https://arxiv.org/abs/2610.12205 — gravitational-wave astrophysics (axis 3,
+  astro-ph.HE): a follow-up analysis arguing GW231123 (LIGO-Virgo-KAGRA's most massive binary-
+  black-hole merger to date, in the pair-instability mass gap) is better fit by an eccentric
+  hierarchical-merger origin than a quasi-circular one. FLAG: GW231123 itself (the original
+  detection/announcement) does not appear to be on this ledger yet — this follow-up analysis is the
+  first mention; chase the original LIGO/Virgo/KAGRA announcement next session (likely mid-2025,
+  outside this radar's current tracked window, but the event is still being actively analyzed).
+  Abstract + authors verified via arXiv API this session.
+- 2026-10-08 — Dipankar Pradhan, Abhik Sarkar, "A scalar-extended U(1)_{Lμ-Lτ} explanation of the
+  LUX-ZEPLIN 248 keV excess" — https://arxiv.org/abs/2610.12443 — another below-bar theory
+  follow-up on the already-tracked LZ 248 keV-event interpretation cluster (axis 3; see the cluster
+  entries above, 2026-09-02/09-03/09-05) — folded in as a further instance of the same recurring
+  theory-explanation pattern, not a separate line. Abstract + authors verified via arXiv API this
+  session.
 
 ## source_rotation
 
@@ -4934,6 +5087,13 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-05 (v1); shelf-added 2026-10-09 — [Truly Subquadratic 3SUM and Truly Subcubic APSP via
+  Triangles in Sparse Lopsided Graphs (Alman, Vassilevska Williams)](https://arxiv.org/abs/2610.06783)
+  — refutes the 3SUM and APSP hypotheses; AI-discovered (Claude) and Lean-verified; see new seed
+  trend.
+- 2026-10-08 (v1); shelf-added 2026-10-09 — [Hyperkähler SYZ conjecture (Engel, Mauri)](https://arxiv.org/abs/2610.12277)
+  — full proof of the hyperkähler analogue of the Strominger–Yau–Zaslow conjecture; see new seed
+  trend.
 - 2026-10-07 (v1); shelf-added 2026-10-08 — [A solid-state nuclear clock based on VUV absorption
   spectroscopy of $^{229}$Th (Wang, Pan, et al.)](https://arxiv.org/abs/2610.10056) — first
   sustained, operating thorium-229 nuclear clock (30-hour feedback-locked record); see new seed

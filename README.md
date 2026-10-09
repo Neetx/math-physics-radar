@@ -1,18 +1,18 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-20-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-313-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--08-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-22-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-319-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--09-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-08):** two new landmark seed trends, plus a vetting-status double catch on the standing OpenAI mass-disclosure story.
-- New seed trend: the **[LeBrun–Salamon conjecture](TRENDS.md#proof-of-the-lebrunsalamon-conjecture-quaternionic-kähler-geometry)** (1994) is FULLY resolved ([Hu, Liu, Wan](https://arxiv.org/abs/2610.10410)) — landing just two days after an independent team's partial resolution, a second Poincaré-style two-team race this month.
-- New seed trend + top study pick: the **[first operating thorium-229 nuclear clocks](TRENDS.md#first-operating-thorium-229-nuclear-clocks-vienna--beijing-independent-teams)** ([USTC/TU Wien, arXiv:2610.10056](https://arxiv.org/abs/2610.10056)) — a ~20-year physics goal; press reports a second independent Nature team not yet located on arXiv.
-- Vetting-status double catch on OpenAI's mass disclosure: the newly-discovered [Association for Human Mathematics](https://www.ahmath.org) issued a statement condemning the release, while [Quanta profiled an MIT team's human proof](https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/) rushed to predate it — see the trend's notes.
-- Off-axis exploration catch (queued, not seeded): [Braverman–He refuted the 20-year-old Multiple Unicast Conjecture](https://arxiv.org/abs/2610.10108) in network coding.
+**Since last scan (2026-10-09):** a major vetting-status catch on the OpenAI mass-disclosure story, plus two new landmark seed trends.
+- First concrete vetting outcome on OpenAI's mass math-release: [OpenAI itself withdrew three manuscripts](https://github.com/openai/math/blob/main/history.md) (incl. a claimed Hodge-conjecture case) after a sign error, and revised 14 others — see the trend's notes.
+- New seed trend + top study pick: [the 3SUM and APSP hypotheses, refuted](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) ([Alman, Vassilevska Williams](https://arxiv.org/abs/2610.06783)) — AI-discovered (Claude) and Lean-verified, two of fine-grained complexity theory's oldest barriers fall.
+- New seed trend + top study pick: [the hyperkähler SYZ conjecture, proved](TRENDS.md#proof-of-the-hyperkähler-syz-conjecture-engelmauri) ([Engel, Mauri](https://arxiv.org/abs/2610.12277)) — a ~15-year-old central problem underpinning an active ERC/Simons research program.
+- [AGMAI](https://agmai.org) (the IAS mathematicians' advisory group) published its own vetting-status statement on OpenAI's release, deferring correctness judgment to the mathematical community.
 
 ## Trends
 
-🌱 15 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 17 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -20,12 +20,14 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.27172) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
+| [Hyperkähler SYZ conjecture proof](TRENDS.md#proof-of-the-hyperkähler-syz-conjecture-engelmauri) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12277) |
+| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-07](https://github.com/openai/math/blob/main/history.md) |
 | [LeBrun–Salamon conjecture proof](TRENDS.md#proof-of-the-lebrunsalamon-conjecture-quaternionic-kähler-geometry) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10410) |
 | [First thorium-229 nuclear clocks](TRENDS.md#first-operating-thorium-229-nuclear-clocks-vienna--beijing-independent-teams) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10056) |
 | [2026 Nobel Prize in Physics (Halzen/IceCube)](TRENDS.md#2026-nobel-prize-in-physics--francis-halzen--icecube-astrophysical-neutrinos) | 🌱 seed | [2026-10-06](https://www.nobelprize.org/prizes/physics/2026/press-release/) |
-| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-06](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
 | [Poincaré Conjecture Lean formalization (two efforts)](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincaré-conjecture-two-independent-efforts) | 🌱 seed | [2026-10-06](https://arxiv.org/abs/2610.08329) |
 | [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-10-05](https://arxiv.org/abs/2610.06838) |
+| [3SUM / APSP hypotheses refuted](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-05](https://arxiv.org/abs/2610.06783) |
 | [Linear Hadwiger Conjecture proof](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) | 🌱 seed | [2026-10-04](https://arxiv.org/abs/2610.05291) |
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-02](https://arxiv.org/abs/2610.01240) |
 | [The Hopf problem — S⁶ complex structure](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
@@ -39,6 +41,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-10-05 (v1); shelf-added 2026-10-09 — [Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs (Alman, Vassilevska Williams)](https://arxiv.org/abs/2610.06783) — refutes the 3SUM and APSP hypotheses; AI-discovered (Claude) and Lean-verified; see new seed trend.
+- 2026-10-08 (v1); shelf-added 2026-10-09 — [Hyperkähler SYZ conjecture (Engel, Mauri)](https://arxiv.org/abs/2610.12277) — full proof of the hyperkähler analogue of the Strominger–Yau–Zaslow conjecture; see new seed trend.
 - 2026-10-07 (v1); shelf-added 2026-10-08 — [A solid-state nuclear clock based on VUV absorption spectroscopy of $^{229}$Th (Wang, Pan, et al.)](https://arxiv.org/abs/2610.10056) — first sustained, operating thorium-229 nuclear clock (30-hour feedback-locked record); see new seed trend.
 - 2026-10-07 (v1); shelf-added 2026-10-08 — [Transverse rational curves and the LeBrun–Salamon conjecture (Hu, Liu, Wan)](https://arxiv.org/abs/2610.10410) — full resolution of a 30-year-old named conjecture in quaternionic-Kähler geometry; see new seed trend.
 - 2026-10-06; shelf-added 2026-10-07 — [2026 Nobel Prize in Physics: Francis Halzen](https://www.nobelprize.org/prizes/physics/2026/press-release/) — "for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin"; see new seed trend.
@@ -159,12 +163,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [Quanta Magazine](https://www.quantamagazine.org/) profiled Dor Minzer's (MIT) team racing to post an independent human proof ("4-to-1 games conjecture") before OpenAI's release — praised by Ryan O'Donnell and Mark Braverman; the actual preprint wasn't locatable this session (see the watchlist).
-- [Terence Tao's blog](https://terrytao.wordpress.com/) reposted the [Association for Human Mathematics](https://www.ahmath.org)'s statement condemning OpenAI's release as "a demonstration of power," urging mathematicians to disengage — a new organized voice alongside agmai.org's advisory stance.
-- [Hacker News](https://news.ycombinator.com/) front page carried OpenAI's math release (corroborating) and an NYT piece on the new nuclear clocks (chased to the primary above).
-- MathOverflow carried a thread on verifying OpenAI's claimed Hilbert–Smith conjecture proof (intake only); Reddit's r/math and r/mathematics remain under a standing hard network-level block (18+ weeks running).
-- [Backreaction](https://backreaction.blogspot.com/)'s "First Evidence for Quantum Gravity?" video post confirmed already-tracked (2026-10-03), no new primary.
+- [Hacker News](https://news.ycombinator.com/) front page carried "[OpenAI withdraws three mathematical results](https://github.com/openai/math/blob/main/history.md)" (276 points, 550+ comments) — chased directly to OpenAI's own changelog (see the trend above).
+- [MathOverflow](https://mathoverflow.net/) carried a wave of OpenAI-release discussion threads this week, including a new "Hodge conjecture [closed]" thread corroborating today's withdrawal catch — intake only.
+- Reddit's r/mathematics and r/singularity summarized OpenAI's release (corroborating, already tracked); r/math and r/mathematics direct feeds remain under a standing hard network-level block (9+ weeks running).
+- A Reddit-sourced "I found a planet" Hacker News post was checked and correctly NOT captured — an individual AI-tool-assisted claim with no primary/collaboration artifact behind it.
+- Mathstodon carried only generic noise, incl. one Italian-press mention corroborating the already-tracked OpenAI story.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (313) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-08](reports/2026-10-08.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (319) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-09](reports/2026-10-09.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
