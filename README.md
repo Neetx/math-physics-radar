@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-22-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-319-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--09-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-22-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-325-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--10-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-09):** a major vetting-status catch on the OpenAI mass-disclosure story, plus two new landmark seed trends.
-- First concrete vetting outcome on OpenAI's mass math-release: [OpenAI itself withdrew three manuscripts](https://github.com/openai/math/blob/main/history.md) (incl. a claimed Hodge-conjecture case) after a sign error, and revised 14 others — see the trend's notes.
-- New seed trend + top study pick: [the 3SUM and APSP hypotheses, refuted](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) ([Alman, Vassilevska Williams](https://arxiv.org/abs/2610.06783)) — AI-discovered (Claude) and Lean-verified, two of fine-grained complexity theory's oldest barriers fall.
-- New seed trend + top study pick: [the hyperkähler SYZ conjecture, proved](TRENDS.md#proof-of-the-hyperkähler-syz-conjecture-engelmauri) ([Engel, Mauri](https://arxiv.org/abs/2610.12277)) — a ~15-year-old central problem underpinning an active ERC/Simons research program.
-- [AGMAI](https://agmai.org) (the IAS mathematicians' advisory group) published its own vetting-status statement on OpenAI's release, deferring correctness judgment to the mathematical community.
+**Since last scan (2026-10-10, weekly recalibration):** two annual-prize coverage gaps closed and a citation chase doubled the Ramsey trend's independent-group count.
+- COVERAGE-GAP CATCH: the **2026 Abel Prize** had never been captured on this ledger at all — [Gerd Faltings](https://abelprize.no/), honored for his landmark work in arithmetic geometry, now on `study_shelf`.
+- A second coverage gap, flagged since July and finally closed: the **2026 Shaw Prize in Mathematical Sciences** → [Emmanuel Candès and Camillo De Lellis](https://mathematics.stanford.edu/news/professor-emmanuel-cand%C3%A8s-awarded-2026-shaw-prize-mathematical-sciences), for analysis techniques spanning signal processing and geometric-measure-theory singularities.
+- A citation chase on the [Ramsey lower-bound trend](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) found a 7th and 8th independent group — [Hunter–Milojević–Sudakov](https://arxiv.org/abs/2512.17718) and [Campos–Pohoata](https://arxiv.org/abs/2601.15183) — both predating the trend's own creation, never previously captured.
+- A mandatory version-history spot-check across every active trend's tracked preprints found 4 silent, unnoticed revisions — see the [Non-invertible symmetries](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) trend, whose `last_evidence` advances a day.
 
 ## Trends
 
@@ -16,7 +16,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-28](https://scipost.org/SciPostPhysCore.9.3.063) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-29](https://arxiv.org/abs/2608.24385) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.27172) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
@@ -41,6 +41,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-03-19 (announced); shelf-added 2026-10-10 — [2026 Abel Prize — Gerd Faltings (Max Planck Institute for Mathematics, Bonn)](https://abelprize.no/) — a towering figure in arithmetic geometry (the Mordell conjecture/Faltings' theorem among his landmark results); a coverage-gap catch — this ledger's annual-prize lane had never captured this year's Abel Prize at all until this weekly.
 - 2026-10-05 (v1); shelf-added 2026-10-09 — [Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs (Alman, Vassilevska Williams)](https://arxiv.org/abs/2610.06783) — refutes the 3SUM and APSP hypotheses; AI-discovered (Claude) and Lean-verified; see new seed trend.
 - 2026-10-08 (v1); shelf-added 2026-10-09 — [Hyperkähler SYZ conjecture (Engel, Mauri)](https://arxiv.org/abs/2610.12277) — full proof of the hyperkähler analogue of the Strominger–Yau–Zaslow conjecture; see new seed trend.
 - 2026-10-07 (v1); shelf-added 2026-10-08 — [A solid-state nuclear clock based on VUV absorption spectroscopy of $^{229}$Th (Wang, Pan, et al.)](https://arxiv.org/abs/2610.10056) — first sustained, operating thorium-229 nuclear clock (30-hour feedback-locked record); see new seed trend.
@@ -171,4 +172,4 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (319) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-09](reports/2026-10-09.md)) · Weekly: [2026-W40](reports/weekly/2026-W40.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (325) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-09](reports/2026-10-09.md)) · Weekly: [2026-W41](reports/weekly/2026-W41.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

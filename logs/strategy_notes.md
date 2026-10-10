@@ -1755,3 +1755,28 @@ Corrections to the source-coverage strategy.
   Poincaré) — if a third instance appears, worth naming this as a standing phenomenon
   (competitive-race dynamics possibly amplified by the OpenAI/Anthropic disclosure wave raising the
   perceived cost of being scooped) rather than treating each as a one-off coincidence.
+
+2026-W41 weekly (2026-10-10) — Two corrections, one new standing lesson. (1) METHODOLOGY FIX: this
+session's capture-leak sweep script initially mis-extracted trend `notes` fields — the regex
+captured from `- notes:` to the END of each split block, and since the `observation_queue` has no
+own header (it lives inside the same `## Active trends` section, directly after the last trend),
+the LAST trend's "notes" extraction silently swallowed the entire ~3,300-line queue block as if it
+were that trend's notes, producing ~175 false-positive "leak" candidates. Fixed by truncating the
+notes-extraction at the "Signals not yet promoted to a trend" marker before splitting. Recorded
+here so a future session doesn't repeat the same false-positive sweep. (2) COVERAGE-GAP ROOT CAUSE:
+the Abel Prize (2026 laureate Gerd Faltings, announced 2026-03-19) had never been captured on this
+ledger AT ALL — not staged, not queued, not shelved — despite abelprize.no being a listed WEEKLY-
+SWEPT source since this radar's creation (2026-07-02). Distinct from the Nobel Prize gap found
+2026-10-07 (that one was a LISTING gap — the source itself was absent from SOURCES.md). This one is
+an EXECUTION gap: the source was listed and presumably opened on schedule, but the "CAPTURE THE
+LAUREATE each cycle, not just the prize name" directive (added after the 2026-07-12 Shaw/Breakthrough
+miss) was never actually back-applied to Abel — and the Shaw Prize instance of the SAME miss
+(flagged in the 2026-07-12 report) sat unflosed for exactly three months before this weekly finally
+queued it. Two misses sharing one root cause (an annual-prize chase that gets flagged but not
+closed) across 3 months is a pattern, not a one-off — proposing an amendment below to make the
+annual-prize WEEKLY-SWEPT check end in a discrete queue/shelf line every single time a laureate is
+named, not just a flagged-in-prose note. Anchoring check: NOT triggered this week — multiple new
+seed trends landed via the week's dailies alone (3SUM/APSP refutation, hyperkähler SYZ, LeBrun-
+Salamon, thorium clocks) plus this weekly's own Ramsey-trend evidence expansion (7th/8th groups) and
+two prize queue items; off-axis exploration also produced a logged catch (Braverman-He, network
+coding) this week. No redirection needed.

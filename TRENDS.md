@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-09
+Last updated: 2026-10-10
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -22,7 +22,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-04-27 — https://arxiv.org/abs/2604.23986 — Du, Hu, Liu, Wang, "A double-exponential lower bound for r₄(5,n)": hypergraph Ramsey, r₄(5,n) ≥ 2^{2^{cn^{1/7}}} (abstract via arXiv API this session).
   - 2026-05-25 — https://arxiv.org/abs/2605.25843 — Lin, Niu, "Sharper Ramsey lower bounds from refined Gaussian estimates": sharpens the Ma–Shen–Xie off-diagonal bound (abstract via arXiv/tvly this session).
   - 2026-05-27 — https://arxiv.org/abs/2605.28793 — Bradač, "Off-diagonal Ramsey numbers": r(s,k) ≥ Ω(k^{s-1}/(log k)^{2s-4}), matching Erdős–Szekeres up to polylog, improving Spencer 1977 (abstract via arXiv API this session).
-  - 2026-08-03 — https://arxiv.org/abs/2608.02537 — Steiner, "Multicolor Ramsey numbers of odd cycles are superexponential": extends a claimed OpenAI-model ("Astra") superexponential k-color triangle Ramsey lower bound (R_k(3)=k^Θ(k), OpenAI's "Ten Advances" announcement, queued below) to multicolor Ramsey numbers of fixed odd cycles, R_k(O_p) ≥ (log^{(p-1)}k)^{k/3-o(k)} for every fixed p (abstract + author via arXiv API this session, v1 2026-08-03).
+  - 2026-08-03 — https://arxiv.org/abs/2608.02537 — Steiner, "Multicolor Ramsey numbers of odd cycles are superexponential": extends a claimed OpenAI-model ("Astra") superexponential k-color triangle Ramsey lower bound (R_k(3)=k^Θ(k), OpenAI's "Ten Advances" announcement, queued below) to multicolor Ramsey numbers of fixed odd cycles, R_k(O_p) ≥ (log^{(p-1)}k)^{k/3-o(k)} for every fixed p (abstract + author via arXiv API this session, v1 2026-08-03; W41 version-history spot-check: silently revised to v2, updated 2026-09-07 — no new group/claim, same author/result, folded in for the record).
   - 2026-08-22 — https://arxiv.org/abs/2608.21769 — Ihringer, Mattheus, "An improved algebraic construction for Ramsey numbers": explicit algebraic construction giving R(s,t) ≥ t^{(1-o(1))log s/log(log s+1)} uniformly for 3≤s≤t, improving the s-dependence in the Alon–Pudlák off-diagonal construction; first explicit construction with R(s,t) ≥ t^c for fixed s and c>2 (e.g. R(33,t) ≥ t^{2.1-o(1)}), also improving the diagonal case. Abstract + authors verified via arXiv API this session (v1 2026-08-22). A SIXTH independent author group (Sam Mattheus, of the already-staged sammattheus.wordpress.com source-discovery candidate, co-authoring a primary directly on this trend for the first time).
   - 2026-09-22 — https://arxiv.org/abs/2609.26563 — Du, Hu, Liu, Wang, "The Erdős–Hajnal hypergraph Ramsey problem for r₄(6,n)": the SAME group as the trend's r₄(5,n) evidence line (2604.23986) extends their own method to prove r₄(6,n) ≥ 2^{2^{cn}} — as a consequence, CONFIRMS THE FULL Erdős–Hajnal hypergraph-Ramsey conjecture for k=4 (previously only the s≥k+3 cases were known, via Mubayi–Suk and Conlon–Fox–Sudakov). Own-group escalation, not a new independent group, but a substantially stronger result (a full named-conjecture resolution, not just a lower-bound improvement) on the same tracked sub-theme. Found via a Semantic Scholar citation chase on the trend's own Ma–Shen–Xie anchor (this week's Amendment G pass) — missed 4 days by the daily sweep (title has no obvious Ramsey-lower-bound keyword match). Abstract + authors verified via direct arXiv page this session (v1 2026-09-22).
 - notes: ≥4 independent author groups on one sub-theme (Ma–Shen–Xie; Bradač; Du–Hu–Liu–Wang; Lin–Niu) + concrete artifacts → clears the trend bar. Community framing: Quanta ("Erdős method upgrade", 2026-06-26) and Gil Kalai / Sam Mattheus blogs ("a sensational Ramsey breakthrough by Bradač"). Ma–Shen–Xie also on `study_shelf`. Watch for referee outcomes and whether the diagonal r(k,k) barrier is next.
@@ -40,6 +40,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     predating this week — see that trend's own note). Not promoted to a 7th-group confidence bump;
     confidence held medium (unrefereed-preprint caution unchanged). Watch continues for a genuine 7th
     independent group or a referee outcome.
+  - 2026-09-22 — https://arxiv.org/abs/2512.17718 — Hunter, Milojević, Sudakov, "Gaussian random graphs
+    and Ramsey numbers": an independent SIMPLER/alternate proof of the Ma–Shen–Xie exponential
+    improvement, via Gaussian random graphs — a SEVENTH independent author group, predating this
+    trend's own creation (2025-12-19) but never previously captured. Found via this week's Amendment G
+    citation-chase on the Ma–Shen–Xie anchor (22 citing papers reviewed via Semantic Scholar).
+  - 2026-01-08 — https://arxiv.org/abs/2601.15183 — Campos, Pohoata, "An update on multicolor Ramsey
+    lower bounds": building on Conlon–Ferber–Wigderson and Sawin, an EIGHTH independent author group
+    improving multicolor Ramsey lower bounds via independent-set density bounds in K_t-free graphs —
+    same citation-chase catch, also predating this trend's creation, never previously captured.
   - 2026-W27 recalibration: HELD at emerging/medium. All 4 evidence items predate the trend's
     creation (latest 2026-05-27, ~5–6 weeks old) — a backlog cluster caught at creation, not fresh
     weekly velocity, so NOT promoted; confidence held at medium under the unrefereed-preprint caution
@@ -399,9 +408,25 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     citation-chase pass was spent on the Komlós/Beck-Fiala trend instead (see that trend's note) —
     rotate the chase back to this trend's own anchors next time. Confidence held medium (doubled
     unrefereed-preprint caution on Steiner's result stands). Not promoted.
+  - 2026-W41 recalibration: Amendment I version-history spot-check — 2608.02537 (Steiner) found
+    silently revised to v2 (updated 2026-09-07, ~1 month unnoticed), same author/result, no new
+    group, folded into its evidence line; the other 6 tracked preprints (2507.12926, 2604.23986,
+    2605.25843, 2605.28793, 2608.21769, 2609.26563) show no v-update beyond what prior checks
+    already found. Amendment G citation-chase (rotated back to this trend per the W40 note) on the
+    Ma–Shen–Xie anchor (22 citing papers) surfaced TWO genuine capture-gap catches — Hunter–
+    Milojević–Sudakov's independent alternate proof (2512.17718, Dec 2025) and Campos–Pohoata's
+    multicolor-lower-bound update (2601.15183, Jan 2026) — a SEVENTH and EIGHTH independent group,
+    both predating this trend's own creation and missed until now (titles carry no obvious
+    "Ramsey lower bound" keyword match — the same title-blind-miss pattern as the capture-gap
+    pattern flagged in recent weeklies). Evidence cap still has room (9/10), no rotation needed.
+    Several more citing papers on Ramsey-adjacent sub-themes (Erdős–Rogers function variants,
+    Ramsey goodness, zero-sum/coprime Ramsey numbers) were below-bar for this trend and routed to
+    `observation_queue` instead (see queue). last_evidence 2026-09-22 unchanged (no later actual
+    date surfaced). Group count now 8; still not promoted to `mainstreaming` (no standard-practice-
+    adoption signal, only group count/pace).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-28
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-29
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -452,13 +477,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (including a flow to the Yang-Lee CFT), and shows a family of non-invertible Verlinde defect
     lines is preserved along the flows — the first engagement on this trend from the
     integrable-QFT/TBA sub-community. Abstract + authors verified via arXiv API this session
-    (v1 2026-08-25).
+    (v1 2026-08-25; W41 version-history spot-check: silently revised to v2, updated 2026-09-29 —
+    same author group/result, no new group; last_evidence advanced to this date for the record).
   - 2026-09-04 — https://arxiv.org/abs/2609.03043 — Volpato, "Monstrous parafermionic defects and
     other non-invertible symmetries in chiral CFTs": a TENTH fully independent author (independent
     of all nine above), constructing non-invertible topological defects (parafermionic and
     beyond) in chiral CFTs connected to Monstrous Moonshine, extending the non-invertible-defect
     toolkit to chiral/holomorphic CFTs. Abstract + author verified via arXiv API this session
-    (v1 2026-09-02, surfaced in today's fresh hep-th/physics batch).
+    (v1 2026-09-02, surfaced in today's fresh hep-th/physics batch; W41 version-history
+    spot-check: silently revised to v2, updated 2026-09-11 — same author/result, no new group).
   - 2026-09-06 — https://arxiv.org/abs/2609.06751 — Ravindran, Eck, Chen (Caltech), "Ginzburg-Landau
     Theory for Non-Invertible Symmetry-Breaking Transitions": an ELEVENTH fully independent author
     group (independent of all ten above), develops a Symmetry-TFT-based field-theoretic
@@ -489,8 +516,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     non-invertible selection rules from discrete H-gauging of non-Abelian discrete global symmetries,
     with non-Abelian multidimensional-irrep effects central to the construction. Abstract + authors
     verified via arXiv API this session (v1 2026-09-10, surfaced in today's fresh hep-th/hep-ph
-    batch). Oldest evidence line (2026-08-07, Ueda et al., Nature Physics) dropped to hold the
-    10-item cap.
+    batch; W41 version-history spot-check: silently revised to v2, updated 2026-09-25 — same
+    author group/result, no new group). Oldest evidence line (2026-08-07, Ueda et al., Nature
+    Physics) dropped to hold the 10-item cap.
 - notes: 2026-09-11 (daily): today's fresh hep-th/hep-ph batch surfaced a fourteenth independent
   group (Ohki–Uemura, arXiv:2609.11895) and the SciPost API — HEALED this session after a 4th
   consecutive degraded daily (the Anubis block on the API endpoint itself has lifted; individual
@@ -726,6 +754,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     lattice/continuum cross-citation surfaced across the week's dailies (09-28→10-02; SciPost API
     and fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat batches both routine, nothing on this
     sub-theme per the daily coverage log). Confidence held at the ceiling. Not promoted.
+  - 2026-W41 recalibration (Amendment I version-history spot-check): of the 7 tracked preprints,
+    THREE were found silently revised with no evidence-line annotation — 2608.24385 (Ahn-Bajnok-
+    Elek) to v2 updated 2026-09-29 (the latest actual date on file for this trend, postdating the
+    recorded last_evidence — last_evidence advanced 2026-09-28 → 2026-09-29 accordingly), 2609.03043
+    (Volpato) to v2 updated 2026-09-11, and 2609.11895 (Ohki-Uemura) to v2 updated 2026-09-25 (both
+    older than last_evidence, no date impact). All three are same-author/same-result revisions, not
+    new groups — no stage/confidence impact. No 15th independent group found. Not promoted.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -1162,6 +1197,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     reaction from Alex Kontorovich (Rutgers, analytic number theory) opened via WebSearch ("WOW!!
     Zeta(5) is irrational!... Amazing what we'll learn (with AI help)") — enthusiasm from a credible
     specialist, not a formal correctness statement.
+  - 2026-10-05 — https://arxiv.org/abs/2610.06838 — Li Lai, "The linear independence of $1$,
+    $\zeta(3)$, and $\zeta(4)$": combines "Fauzan's determinant method" explicitly with classical
+    simultaneous-approximation methods (Zudilin; Dauguet–Zudilin) to prove 1, ζ(3), ζ(4) are
+    linearly independent over ℚ — a different author extending the anchor technique, strengthening
+    this trend's axis (not a re-confirmation of ζ(5) itself). Single-author, unrefereed — same
+    hype-skepticism caution as the anchor claim. Abstract + author verified via arXiv API this
+    session (v1 2026-10-05). CAPTURE-LEAK FIX (W41 weekly): this item was named and its
+    last_evidence-advancing effect claimed in the 2026-10-06 daily note below, but never given its
+    own evidence-list line until now.
 - notes: 2026-W39 recalibration (PROMOTION, queue → seed): the queue item's own standing instruction
   ("chase this daily until it resolves... a completed Lean formalization, a human referee report, or
   a found gap") is satisfied by Firsching's complete, sorry-free, independently-authored
@@ -1753,6 +1797,53 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-03-19 (announced); ceremony 2026-05 — **2026 Abel Prize → Gerd Faltings (Max Planck Institute
+  for Mathematics, Bonn)** — https://abelprize.no/ — recognition/ecosystem (axis 1, pure math):
+  COVERAGE-GAP CATCH — this ledger's annual-prize lane never captured the year's Abel Prize at all
+  (absent from TRENDS.md entirely), despite the Fields/Breakthrough/Nobel laureates each being
+  tracked; closed this weekly via direct `tvly extract` on the prize's own site. Citation page
+  ("Citation from The Abel Prize Committee — Gerd Faltings") located but not opened in full this
+  session — chase next for the exact citation wording. Follow to Faltings' own honored body of work
+  (arithmetic geometry, the Mordell conjecture) next.
+- 2026-05 (announced); — **2026 Shaw Prize in Mathematical Sciences → Emmanuel Candès (Stanford) and
+  Camillo De Lellis (IAS)** — https://mathematics.stanford.edu/news/professor-emmanuel-cand%C3%A8s-awarded-2026-shaw-prize-mathematical-sciences
+  — recognition/ecosystem (axis 1/3, analysis/PDE): COVERAGE-GAP CATCH, flagged-but-never-closed
+  since the 2026-07-12 report first noted this laureate pair as missed — closed this weekly.
+  Official citation (via Stanford's own announcement, opened this session): "their breakthrough
+  contributions to the use of deep techniques from mathematical analysis to rigorously understand
+  applied problems in information theory, signal processing and statistics on the one hand, and to
+  the study of singularities in geometric measure theory and fluid dynamics on the other." Shaw
+  Prize's own site degraded this session (`tvly extract` "Failed to fetch url" on both the root and
+  laureates paths) — logged, not yet heal-owed (first occurrence this radar has tried it directly).
+- 2026-W41 (weekly, Amendment G citation-chase on the Ramsey trend's Ma–Shen–Xie anchor) — three
+  below-bar Ramsey-variant catches, each on-axis but a distinct sub-problem from the tracked
+  off-diagonal/hypergraph lower-bound wave (not appended as trend evidence): Adibelli–Tomon,
+  "Ramsey theory of low-degree semialgebraic relations" (arXiv:2602.18316, 2026-02-20); Attwa–López
+  Vidal–Morris, "A note on multicolour Ramsey numbers and random sphere graphs" (arXiv:2602.02155,
+  2026-02-02); Du–Xi–Deng–Ma, "Prime Certificates for Exact Vertex-Coprime Ramsey Numbers"
+  (arXiv:2605.26815, 2026-05-26, a distinct coprime-Ramsey variant). Abstracts verified via arXiv
+  API this session.
+- 2026-W41 (weekly, same citation-chase pass) — Bai–Du–Hu–Liu–Wang, "New Tower-Type Lower Bounds for
+  Hypergraph Ramsey Numbers" (arXiv:2606.24198, 2026-06-23) and Kuang–Wang, "An Optimal Bound for
+  Ramsey Goodness of Cycles" (arXiv:2607.26956, 2026-07-29) — both on-axis hypergraph/goodness
+  Ramsey results, held below-bar (single-group, no referee outcome); Katz–Lian–Malekshahian–Shapiro,
+  "A linear upper bound for zero-sum Ramsey numbers of bounded degree graphs" (arXiv:2512.17790,
+  2025-12-19) — zero-sum Ramsey variant. Abstracts verified via arXiv API this session.
+- 2026-W41 (weekly, same citation-chase pass) — a cluster of Erdős–Rogers-function papers citing the
+  Ramsey trend's own anchors, all by the same recurring Du–Hu–Liu–Wang/Dai–Lin authorship circle
+  already tracked on this trend (2604.23986, 2609.26563) — not a new independent group, combined
+  queue line for completeness: Du–Hu–Liu–Wang, "A step towards the Erdős-Rogers problem"
+  (arXiv:2603.12610, 2026-03-13) and "A Note on Generalized Erdős-Rogers Problems" (arXiv:2604.02835,
+  2026-04-03); Dai–Lin, "Tight connectivity and shadow densities in generalized Erdős–Rogers
+  problems" (arXiv:2607.00732, 2026-07-01); Bradač–Janzer–Sarkar, "On the asymptotics of the
+  Erdős-Rogers function" (arXiv:2609.37987, 2026-09-29, Bradač himself is already a tracked trend
+  author via 2605.28793 — own-portfolio extension, not a new group). Abstracts verified via arXiv
+  API this session. NOT queued (checked and excluded as off-axis — probability-theory/graph-
+  structure papers citing the Ramsey anchors only tangentially, not Ramsey-number results
+  themselves): Hajebi's pathwidth-bounds paper (arXiv:2510.19120); Narayanan's "Thresholds for
+  geometric graphs" (arXiv:2605.21480) and Hunter–Milojević–Sudakov's companion "Distinguishability
+  threshold for random geometric graphs" (arXiv:2607.22480); Deka–Luo–Wu's rare-event-probabilities
+  paper (arXiv:2510.09196).
 - 2026-10-02 (v1) — Hu Tan, Ying Zhang, "Fuglede's Conjecture for Cyclic Groups of Square-free
   Order" — https://arxiv.org/abs/2610.02218 — harmonic analysis / combinatorics (axis 1, math.CO):
   claims a complete structural resolution of Fuglede's spectral-set conjecture (1974) restricted to
@@ -5087,6 +5178,11 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-03-19 (announced); shelf-added 2026-10-10 — [2026 Abel Prize — Gerd Faltings (Max Planck
+  Institute for Mathematics, Bonn)](https://abelprize.no/) — a towering figure in arithmetic
+  geometry (the Mordell conjecture/Faltings' theorem among his landmark results); COVERAGE-GAP
+  CATCH — this ledger's annual-prize lane had never captured this year's Abel Prize at all until
+  this weekly. Official laureate page opened directly this session.
 - 2026-10-05 (v1); shelf-added 2026-10-09 — [Truly Subquadratic 3SUM and Truly Subcubic APSP via
   Triangles in Sparse Lopsided Graphs (Alman, Vassilevska Williams)](https://arxiv.org/abs/2610.06783)
   — refutes the 3SUM and APSP hypotheses; AI-discovered (Claude) and Lean-verified; see new seed

@@ -108,9 +108,16 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   reportedly produced by their internal model," making this a leading-indicator channel for a
   pending wave of OpenAI math disclosures (watch item queued below); no feed, access via direct
   `WebFetch`/`tvly extract` on `agmai.org`.
+- vals.ai (Vals AI, an LLM/AI benchmarking company) — **[promoted 2026-10-10 (W41 weekly); verified
+  live via `tvly extract` this session (200 OK) — cleared the ≥2-sighting bar (Thomson-problem
+  Lean-proof post 2026-10-01; room-temperature-magnetic-semiconductor post 2026-10-04)]** —
+  AI-WATCH-LANE PRIMARY, same self-publication-disclosure pattern as openai.com/anthropic.com/
+  proofatlas.ai, but for a third-party AI-benchmarking firm publishing its own agents' math/physics
+  claims rather than a model vendor; no feed, access via direct URL (`vals.ai/blogs/<slug>`), blog
+  index at `vals.ai/blogs`.
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
-- IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops). SLMath DEGRADED 2 consecutive weeklies (W39: empty body; W40 2026-10-03: `tvly extract` "Failed to fetch url", plain `curl` returns a JS-shell 200 with no content) — PARTIAL HEAL this session: `tvly search "slmath.org news 2026"` (not extract) surfaces real program-announcement snippets (proves existence/currency, not a full "what's new" browse) — prefer `tvly search` until `extract`/direct fetch recovers; one more degraded weekly would cross the heal-owed bar for a deeper fix. Isaac Newton Institute HEALED this session (W40): the standing Cloudflare-403 (both direct `curl`/`WebFetch`) is bypassed by `tvly extract` — clean 26k-char page, no challenge — prefer `tvly extract` going forward for this source.
+- IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops). SLMath DEGRADED a 3rd consecutive weekly on `tvly extract` (W41 2026-10-10: "Failed to fetch url" again) — crossed the heal-owed bar this session; HEALED: `WebFetch` directly on `https://www.slmath.org/news` returns the page cleanly (no JS-shell/empty-body issue) — prefer `WebFetch` first going forward for this source, `tvly search "slmath.org news <year>"` as fallback. Isaac Newton Institute HEALED this session (W40): the standing Cloudflare-403 (both direct `curl`/`WebFetch`) is bypassed by `tvly extract` — clean 26k-char page, no challenge — prefer `tvly extract` going forward for this source.
 - KITP (Kavli Institute for Theoretical Physics, UCSB) — https://www.kitp.ucsb.edu/ **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical-physics programs & talks (with Perimeter above, the two hubs for the field's current directions)
 - (agent: add ICTP, Max Planck (MPP/AEI), Perimeter/PIRSA talks, APS *Physics* Magazine as they prove high-signal. DROPPED 2026-07-02: Symmetry Magazine — curl 403 AND `tvly` fetch BOTH fail (Cloudflare); redundant with CERN Courier + Fermilab + INSPIRE for HEP.)
 
@@ -201,6 +208,14 @@ diff) but catches release tags. Retest direct `releases.atom` occasionally.
   distinct from the anthropic.com/research disclosure-blog channel above; source-discovery
   promotion after 2 tracked artifacts (the percolation-conjecture Lean formalization 2026-09-04,
   then github.com/anthropics/fermats-last-theorem, the full FLT-proof Lean codebase).
+- github.com/openai (OpenAI's GitHub org for released math artifacts) — **[promoted 2026-10-10 (W41
+  weekly); verified live via `tvly extract` this session (200 OK) — cleared the ≥2-sighting bar
+  (the `math` repo's 722-manuscript release, 2026-10-06; its own `history.md` changelog recording
+  the 2026-10-07 withdrawal/repair, caught 2026-10-09)]** — repo-hosted complement to the
+  openai.com/research disclosure-blog channel (already DAILY-tier), same pattern as
+  github.com/anthropics; access via direct `raw.githubusercontent.com/openai/math/main/<file>` for
+  specific files, `tvly extract`/`tvly search` on individual `github.com/openai/<repo>` paths
+  otherwise.
 - leanprover-community/mathlib4 — **[verified 2026-07-02 via API; ~3.5k★, pushed daily]** — the Lean 4 mathematics library; a new formalization of a theorem is a citable artifact
 - leanprover/lean4 — **[verified 2026-07-02 via API; active]** — the Lean theorem prover
 - rocq-prover/rocq — **[verified 2026-07-02 via API; the former `coq/coq`, renamed to Rocq]** — the Rocq (ex-Coq) proof assistant
@@ -315,18 +330,11 @@ PROMOTED 2026-10-03 (W40): agmai.org (2 sightings — launch page 09-22, "Respon
 AI-Generated Mathematics" recommendations document 09-29 — verified live this session, 200 OK) →
 Primary feeds, AI-watch lane, DAILY tier — see its entry above; cleared from this staging list.
 HELD below the ≥2 bar (checked against this week's reports, no recurrence): proofsandprompts.com,
-anima-ai.org, preprints.org, zenodo.org, peakmath.org, galoisrepresentations.org, vals.ai,
-conjectures.io (all 1 sighting still).
-- vals.ai (Vals AI, an LLM/AI benchmarking company) — 2 — "Two Room-Temperature Antiferromagnetic
-  Semiconductor Candidates" (`vals.ai/blogs/room-temperature-magnetic-semiconductors`, 2026-10-04;
-  a team of Claude Opus 5.5 agents + Geby Jaff, DFT screening) — 2nd sighting 2026-10-06, discovered
-  via a Hacker News front-page chase — first seen 2026-10-01 ("A Lean Proof of the Thomson Problem
-  for Seven Electrons," ten Claude Sonnet 5.5 agents, GitHub `github.com/huwngtran/thomson-n7-lean`,
-  discovered via a Hacker News/Reddit chase of an AlphaSignal story); structurally the same
-  self-publication AI-disclosure-lane pattern as openai.com/anthropic.com/proofatlas.ai, but for a
-  third-party AI-benchmarking firm rather than a model vendor. CLEARS the ≥2-sighting bar — ready
-  for promotion at the next weekly (access via direct URL, `/blogs/<slug>`, no feed found; blog
-  index at `vals.ai/blogs`).
+anima-ai.org, preprints.org, zenodo.org, peakmath.org, galoisrepresentations.org,
+conjectures.io, ahmath.org (all 1 sighting still).
+PROMOTED 2026-10-10 (W41): vals.ai (2 sightings, verified live via `tvly extract` this session →
+Primary feeds, AI-watch lane, DAILY tier) and github.com/openai (2 sightings, verified live →
+GitHub watch, Watched repositories) — see their entries above; cleared from this staging list.
 - conjectures.io (a Lean-based formal-proof submission/verification platform for Erdős-problems-style
   claims) — 1 — "Erdős Problem 108" submission (Liam Kruer, Jensen Kohlmeyer), cited by Nguyen–Walczak
   (arXiv:2609.40192) as the source of a "strong negative solution" to a 1960s Erdős–Hajnal problem —
@@ -335,17 +343,6 @@ conjectures.io (all 1 sighting still).
   `observation_queue`). HELD below the ≥2 bar (1 sighting); candidate axis-5 formal-proof-repository
   source, but verify legitimacy before treating output as citable primary evidence (unlike
   Lean/mathlib/Rocq, this is a newer, less-established platform).
-- github.com/openai (OpenAI's GitHub org for released math artifacts) — 2 — `github.com/openai/math`,
-  the 722-manuscript/372-family mass math-results release (2026-10-06, see TRENDS.md new seed trend);
-  2nd sighting 2026-10-09 — the same repo's own `history.md` changelog recording the 2026-10-07
-  withdrawal of 3 manuscripts (incl. a Hodge-conjecture case) + 14 proof repairs, caught via a
-  Hacker-News-pointed direct URL this session — first seen 2026-10-07 — discovered via the Hacker
-  News/openai.com chase of "Sharing AI progress in mathematics"; structurally the same pattern as
-  the already-promoted `github.com/anthropics` (a repo-hosted complement to the openai.com/research
-  disclosure-blog channel, which is already a DAILY-tier primary). CLEARS the ≥2-sighting bar —
-  ready for promotion at the next weekly (access: no feed found on the org page itself; direct
-  `raw.githubusercontent.com/openai/math/main/<file>` for specific files, `tvly extract`/`tvly
-  search` on individual `github.com/openai/<repo>` paths otherwise).
 - ahmath.org (Association for Human Mathematics) — 1 — statement condemning OpenAI's October 6
   mass math-results release as "a demonstration of power" not scholarship, urging mathematicians
   to discontinue work with OpenAI — first seen 2026-10-08 — discovered via Terence Tao's blog
