@@ -44,6 +44,15 @@ distinction governs what you DO with a hit, not whether you CHECK it.
   `math.RA`, `math.KT`, `math.AT`, `math.GT`, `math.DG`) as much as `math.CO`/`math.NT` — is swept
   within ~2 weeks. A category in-scope yet never in `logs/source_rotation.md` is a coverage gap (the
   math.AG/AC failure class), the same listed-but-not-swept lie as an unswept source.
+  **Amendment J (applied 2026-W41 — motivated by the capture-gap pattern: 5 title-blind misses
+  logged across Sept, the signal persisting into W41 via 2 more citation-chase-only catches —
+  2512.17718, 2601.15183 — on papers whose titles carry no conjecture/proof/disprove/theorem
+  keyword): title-keyword triage alone is structurally blind to a landmark result with a
+  technical, non-keyword title. Each run, ADDITIONALLY pick ONE category from the day's
+  rotation pointer and read FULL ABSTRACTS (not just titles) for that category's fresh batch,
+  not just title-filtering — log which category got the full-abstract pass in
+  `logs/source_rotation.md` alongside the title-triage categories. This is a bounded addition
+  (one category/run), not a full-abstract read of every category every day.**
 - **Community pulse (every run, intake only)** — `radar-pulse`: iterate the social/curator
   lists; multi-channel earthquake check; feeds `observation_queue` unverified + the pulse
   note. Never evidence; never name individuals.
