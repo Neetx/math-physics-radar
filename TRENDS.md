@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-10
+Last updated: 2026-10-12
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1576,7 +1576,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   provisional claim).
 
 ### AI-assisted Lean formalization of the Hamilton–Perelman proof of the Poincaré Conjecture (two independent efforts)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-06
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-09
 - what: PROMOTED from the observation_queue (was held there since 2026-09-29, arXiv:2609.33842) now
   that a SECOND, apparently independent team has published its own AI-assisted Lean 4 formalization
   of the same landmark result (axis 5, computer-assisted/formalized math) within 8 days of the first.
@@ -1606,6 +1606,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     differently-staffed AI-assisted Lean 4 formalization project of the same theorem, with an
     accompanying analysis of the human-in-the-loop workflow. Abstract + authors verified directly
     via arXiv API this session.
+  - 2026-10-09 (v1) — https://arxiv.org/abs/2610.13897 — Liao, Qin, Chung, Khaitan, Zhang, Lin,
+    Zhang, Zhu, Lu, Chow, "A Lean Formalization of the Hamilton–Perelman Proof of Thurston's
+    Geometrization Conjecture": the SAME core team as the trend's first effort (2609.33842 —
+    Liao, Qin, Khaitan, Chow all co-author both) escalates from the 3D Poincaré conjecture (a
+    special case) to the FULL geometrization conjecture (every closed orientable 3-manifold
+    decomposes into geometric pieces) — a substantially broader formalization target, not a
+    duplicate. Abstract verified via arXiv API this session; no explicit AI-assistance statement
+    in this paper's own abstract, inferred from the overlapping author team and methodology.
 - notes: 2026-10-07 (daily, promotion from queue to seed): the second independent effort is the
   triggering event — caught in today's full math.GT/AT RSS category sweep. Watch for: whether the
   two teams' Lean repositories are cross-checked against each other (a natural next vetting step
@@ -1613,9 +1621,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   verified the FLT-in-Lean proof), and whether the "Liao"/"Liao" name coincidence is in fact the
   same individual working across both teams (would weaken, not strengthen, the independence case —
   flag for correction if confirmed either way).
+  - 2026-10-12 (daily): the first team (Liao/Qin/Khaitan/Chow) escalates its own formalization from
+    Poincaré to the full geometrization conjecture — caught via the daily math.DG sweep, not a new
+    independent group but a major scope expansion on the same tracked effort. last_evidence
+    advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-07
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-10
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1668,6 +1680,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-10-06 (found/opened 2026-10-09) — https://agmai.org — AGMAI's own "On OpenAI's Release of
     Mathematical Results" statement: declines to judge correctness or endorse the release process,
     defers verification to the mathematical community.
+  - 2026-10-10 — https://terrytao.wordpress.com/2026/10/10/math-2-0/ — Terence Tao, "Math 2.0":
+    argues AI-era mathematics needs to value the followup activity a proof generates, not just the
+    proof itself, or risk losing what made "Math 1.0" breakthroughs valuable. Opened directly this
+    session.
+  - 2026-10-09 — https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/
+    — Thomas Hales (guest post on Tao's blog), "What mathematicians should know about the Lean
+    Theorem Prover: questions of reliability and AI": a formal-verification expert's primer on
+    what a Lean-checked claim does and does not guarantee. Opened directly this session.
 - notes: 2026-10-07 (daily, seed creation): caught via the Hacker News front page (683-point story)
   and corroborated independently via Gil Kalai's blog ("amazing") and r/OpenAI community-pulse
   threads naming several of the same results (Unique Games Conjecture, circulant Hadamard
@@ -1734,6 +1754,22 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     finding (plagiarism/prior-art, found by outsiders), this correction was self-reported by OpenAI
     itself as part of its own ongoing-revision process, a different and arguably healthier vetting
     pattern worth the weekly distinguishing.
+  - 2026-10-12 (daily): COMMUNITY-GOVERNANCE continuation, two more named-mathematician voices on
+    the standing AI-in-math vetting/values question this disclosure crystallized. (a) Terence Tao,
+    "Math 2.0" (https://terrytao.wordpress.com/2026/10/10/math-2-0/, also a Caltech 2026 talk,
+    front-paged on Hacker News 2026-10-11 at 366+364 points) — argues traditional ("Math 1.0")
+    mathematical progress is valued not just for the proof itself but for the followup activity
+    (talks, workshops, new collaborations, textbook digestion) a breakthrough generates, and that
+    "Math 2.0" needs to value this more holistically if AI-generated proofs are not to short-
+    circuit that process. (b) Thomas Hales, guest post on Tao's blog, "What mathematicians should
+    know about the Lean Theorem Prover: questions of reliability and AI"
+    (https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/)
+    — a formal-verification expert's primer on what Lean-checked actually guarantees (and does
+    not), aimed squarely at mathematicians evaluating AI-era Lean-formalization claims (directly
+    relevant to this radar's own "Lean-verified ≠ independently reviewed" vetting caveat). Both
+    opened directly this session. Intake-lane sources (Tao's blog); captured as evidence of
+    continuing expert/community vetting discourse per the hard rules' "cite... expert commentary"
+    allowance, not as new primary math results. last_evidence advances 2026-10-07 → 2026-10-10.
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -1794,6 +1830,54 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   Tsinghua-led and/or TU-Wien-solo Nature paper(s) the press describes as the "second independent
   team" — chase next session (search Nature.com directly, or author names from the press pieces).
   Also added to `study_shelf`.
+
+### Finiteness of planar central configurations for five bodies (Smale's sixth problem)
+- stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-09
+- what: axis-1 DOMAIN-CADENCE LANDMARK (resolution of a named open problem): settles, for the
+  5-body case, Smale's sixth problem (from Stephen Smale's 1998 list of mathematical problems for
+  the 21st century) — whether the planar n-body problem has only finitely many central
+  configurations (relative-equilibrium shapes) up to similarity, for every choice of positive
+  masses. Albouy–Kaloshin (2012) proved this for n=5 outside a codimension-two algebraic exceptional
+  set of mass values; this paper extends their valuation/algebraic-curve method to cover ALL
+  positive masses, closing the gap for n=5. A single-author result on a problem from a canonical
+  list (Smale's problems sit alongside Hilbert's/Clay's as named benchmarks this radar tracks).
+  Unrefereed preprint — standard caution.
+- evidence:
+  - 2026-10-09 (v1) — https://arxiv.org/abs/2610.13100 — Tejasvi Singh Tomar, "Finiteness of planar
+    central configurations of five bodies for all positive masses": proves finiteness of central
+    configurations for every choice of 5 positive masses in the plane, completing the n=5 case of
+    Smale's sixth problem (Albouy–Kaloshin 2012 had covered all but a codimension-two exceptional
+    mass set). Abstract + author verified via arXiv API this session.
+- notes: 2026-10-12 (daily, seed creation): caught in the full math.DS category sweep
+  (2026-10-09 submission batch). Watch for expert/community engagement (celestial-mechanics
+  specialists, Smale-problems trackers) and whether the method generalizes to n=6+.
+
+### GW231123 — the most massive binary black-hole merger yet detected (LIGO–Virgo–KAGRA)
+- stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-08
+- what: axis-3 DOMAIN-CADENCE LANDMARK (first-of-kind detection), BACKFILLED — a coverage gap, not a
+  new discovery: on 2023-11-23 LIGO detected GW231123, a binary black-hole merger with component
+  masses ~137 and ~101 solar masses (both inside/above the pair-instability mass gap) and
+  exceptionally high component spins (~0.9 and ~0.8) — the most massive, highest-spin BBH merger
+  LVK has reported, announced/published 2025-07-10. This event was never captured on this ledger;
+  the gap surfaced only via today's below-bar follow-up analysis (already queued 2026-10-08) citing
+  it. Backfilled per the same policy used for the Abel Prize gap (W41 weekly): the landmark result
+  itself qualifies for `seed` regardless of when this radar catches up to it.
+- evidence:
+  - 2025-07-10 (v1) — https://arxiv.org/abs/2507.08219 — LIGO Scientific Collaboration, Virgo
+    Collaboration, KAGRA Collaboration, "GW231123: a Binary Black Hole Merger with Total Mass
+    190-265 $M_\odot$": the original detection/parameter-estimation paper. Abstract verified via
+    arXiv API this session.
+  - 2026-10-08 (v1) — https://arxiv.org/abs/2610.12205 — Wang et al., "Evidence for orbital
+    eccentricity supports a hierarchical origin for GW231123": argues the event's properties are
+    better explained by an eccentric, dynamically-assembled (hierarchical-merger) origin than a
+    quasi-circular one — the follow-up analysis that surfaced this ledger's gap. Abstract + authors
+    verified via arXiv API (2026-10-08 session).
+- notes: 2026-10-12 (daily, seed creation from backfilled gap + today's queue item): the
+  2026-10-08 queue entry flagging "GW231123 itself... not yet on this ledger" is RESOLVED by
+  promoting both the original detection and the follow-up into this new trend (removed from the
+  queue, not duplicated). Several 2025 interpretation papers exist (primordial-black-hole,
+  hierarchical-merger, even "cosmic string" explanations) — not individually chased this session;
+  watch for a definitive formation-channel consensus.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -5146,21 +5230,62 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   Counterexample to Two Compactness Conjectures of Brudnyi" (https://arxiv.org/abs/2610.11066,
   math.FA) — a function-lattice counterexample to two named conjectures. Both abstracts/authors
   verified via arXiv API this session.
-- 2026-10-08 — Baoxiang Wang et al., "Evidence for orbital eccentricity supports a hierarchical
-  origin for GW231123" — https://arxiv.org/abs/2610.12205 — gravitational-wave astrophysics (axis 3,
-  astro-ph.HE): a follow-up analysis arguing GW231123 (LIGO-Virgo-KAGRA's most massive binary-
-  black-hole merger to date, in the pair-instability mass gap) is better fit by an eccentric
-  hierarchical-merger origin than a quasi-circular one. FLAG: GW231123 itself (the original
-  detection/announcement) does not appear to be on this ledger yet — this follow-up analysis is the
-  first mention; chase the original LIGO/Virgo/KAGRA announcement next session (likely mid-2025,
-  outside this radar's current tracked window, but the event is still being actively analyzed).
-  Abstract + authors verified via arXiv API this session.
 - 2026-10-08 — Dipankar Pradhan, Abhik Sarkar, "A scalar-extended U(1)_{Lμ-Lτ} explanation of the
   LUX-ZEPLIN 248 keV excess" — https://arxiv.org/abs/2610.12443 — another below-bar theory
   follow-up on the already-tracked LZ 248 keV-event interpretation cluster (axis 3; see the cluster
   entries above, 2026-09-02/09-03/09-05) — folded in as a further instance of the same recurring
   theory-explanation pattern, not a separate line. Abstract + authors verified via arXiv API this
   session.
+- 2026-10-09 — Austin Ulrigg, Alexander Metzger, "Resolving Pisanski's Conjecture" —
+  https://arxiv.org/abs/2610.13085 — topological graph theory (axis 1, math.CO): proves Pisanski's
+  conjecture on quadrilateral embeddings of regular bipartite graphs (genus-minimizing orientable
+  quadrangulations achieving the Euler-formula lower bound). Below the multi-group bar (single
+  team, not a domain-cadence landmark-scale named problem). Abstract + authors verified via arXiv
+  API this session.
+- 2026-10-09 — Xing Feng, Jinqiu Zhou, "The biwheel conjecture for braces" —
+  https://arxiv.org/abs/2610.12955 — extremal combinatorics / matching theory (axis 1, math.CO):
+  proves De Carvalho–Lucchesi–Murty's 2013 biwheel conjecture, b(n) = (n-2)^2/4 for sufficiently
+  large even n (minimum perfect matchings in a simple brace). Below bar (single team). Abstract +
+  authors verified via arXiv API this session.
+- 2026-10-09 — Harrison Banks, Mohammad Ghomi, Hongda Qiu, Matteo Raffaelli, "A counterexample to
+  Nirenberg's conjecture on closed asymptotic curves" — https://arxiv.org/abs/2610.13848 —
+  differential geometry (axis 1, math.DG): disproves a 1962 conjecture of Louis Nirenberg via an
+  explicit ruled-annulus construction with two closed asymptotic curves. A 60+-year-old named
+  conjecture, but a specialist niche result (below the domain-cadence landmark bar — no broad
+  research program hinges on it the way the LeBrun–Salamon/geometrization items do). Abstract +
+  authors verified via arXiv API this session.
+- 2026-10-09 — Lukas Brantner, "The Tate Conjecture for Ordinary Calabi-Yau Threefolds" —
+  https://arxiv.org/abs/2610.13939 — arithmetic/algebraic geometry (axis 1, math.AG): proves the
+  integral geometric Tate conjecture (a major open conjecture in the Hodge-conjecture family) for
+  ORDINARY Calabi-Yau threefolds over finite fields via canonical-lift theory — a significant but
+  restricted (ordinary-reduction) special case, not the full Tate conjecture. Abstract + author
+  verified via arXiv API this session.
+- 2026-10-09 — Melanie Rupflin, Alex Waldron, Sebastian Woodward, "Topping's conjecture for
+  solutions of harmonic map flow with isolated bubbles" — https://arxiv.org/abs/2610.13746 —
+  geometric analysis (axis 1, math.DG/AP): proves Topping's conjecture (continuity of the body map
+  at finite-time singularities) in the isolated-bubble case, via a weighted Łojasiewicz–Simon
+  inequality. Below bar (single team, restricted case). Abstract + authors verified via arXiv API
+  this session.
+- 2026-10-09 — Yunpeng Li, "Quillen's local parameter conjecture in dimension four" —
+  https://arxiv.org/abs/2610.13469 — algebraic K-theory (axis 1, math.AG/KT): proves Quillen's
+  conjecture (freeness of finitely generated projective modules after localizing at a regular
+  parameter) in mixed-characteristic dimension four. Below bar (single team, one more dimension in
+  an inductive program). Abstract + author verified via arXiv API this session.
+- 2026-10-09 — Xiaobin Li, "Gamma conjecture II and explicit Stokes data for a quadric projective
+  bundle" — https://arxiv.org/abs/2610.13331 — mirror symmetry / quantum cohomology (axis 1/2,
+  math.AG): proves Gamma conjecture II for a specific Fano fourfold via Stokes-data computation.
+  Below bar (single case of a broader conjecture program). Abstract + author verified via arXiv
+  API this session.
+- 2026-10-09 (post 2026-10-11, surfaced via Hacker-News/mathstodon community pulse this session) —
+  Sabine Hossenfelder (Backreaction), "Plot Twist: New Milky Way Data Incompatible With Dark Matter
+  AND Modified Gravity" — https://backreaction.blogspot.com/2026/10/plot-twist-new-milky-way-data.html
+  — axis 3 (astro-ph): reports new Milky Way rotation-curve/dynamics measurements that the post
+  claims fit neither standard dark-matter halo models nor the leading modified-gravity
+  alternatives. UNVERIFIED — the underlying paper/collaboration was NOT located via arXiv search
+  this session (author names not given in the accessible excerpt, and the direct blog post URL
+  itself failed to extract; only a `tvly search` snippet and a corroborating YouTube description
+  were opened). Primary-not-located flag — chase next session (try Hossenfelder's own
+  co-authorship, or a direct Google Scholar/arXiv author search once a name surfaces).
 
 ## source_rotation
 
@@ -5178,6 +5303,10 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-09 (v1); shelf-added 2026-10-12 — [Finiteness of planar central configurations of five
+  bodies for all positive masses (Tomar)](https://arxiv.org/abs/2610.13100) — settles Smale's sixth
+  problem for n=5, closing the exceptional-mass-set gap left by Albouy–Kaloshin (2012); see new
+  seed trend.
 - 2026-03-19 (announced); shelf-added 2026-10-10 — [2026 Abel Prize — Gerd Faltings (Max Planck
   Institute for Mathematics, Bonn)](https://abelprize.no/) — a towering figure in arithmetic
   geometry (the Mordell conjecture/Faltings' theorem among his landmark results); COVERAGE-GAP
