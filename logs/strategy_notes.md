@@ -1780,3 +1780,43 @@ seed trends landed via the week's dailies alone (3SUM/APSP refutation, hyperkäh
 Salamon, thorium clocks) plus this weekly's own Ramsey-trend evidence expansion (7th/8th groups) and
 two prize queue items; off-axis exploration also produced a logged catch (Braverman-He, network
 coding) this week. No redirection needed.
+- 2026-10-13 (daily) — FLAG FOR THE NEXT WEEKLY: TRENDS.md has grown to 577KB/5,879 lines (checked
+  at session start, before today's edits) — large for a ledger meant to stay small via the
+  source_rotation/strategy_notes/calibration externalization precedent. Root cause inspected: the
+  Ramsey-lower-bound trend ALONE runs ~416 lines (12-428), dominated by a long run of daily
+  "HELD dormant/emerging, unchanged" notes from 2026-07 (e.g. 07-15 through 07-24, one dated note
+  per day each saying only that nothing new was found and the stage was held) — exactly the pattern
+  the current NOTE DISCIPLINE rule (daily.md §4: "a run that checked a trend and found nothing new
+  writes NOTHING into it... if a note would only say 'checked, unchanged', omit it") now forbids,
+  but these entries predate that rule's apparent introduction and were never retroactively pruned.
+  NOT fixed this session: (a) rewriting/deleting old notes would conflict with "never rewrite
+  published history" (AGENTS.md "What this repo is"), so this needs the weekly's/curator's judgment
+  on whether that hard rule is meant to protect git history (always) or also ledger prose (unclear);
+  (b) a daily run executes, it does not amend structure. Worth the weekly considering: (i) whether
+  trend `notes` should externalize the same way source_rotation/strategy_notes did (a per-trend or
+  global notes log, with TRENDS.md keeping only the current state + a pointer), mirroring the
+  exact precedent that already solved this twice for other sections; (ii) whether pre-NOTE-DISCIPLINE
+  verbose daily "unchanged" notes on OTHER trends (not just Ramsey) share this pattern and should be
+  measured before deciding a fix; (iii) if a fix is adopted, it is a structural/self-amendment
+  change (routines + possibly a new append-only log), not a ledger edit, so it follows the normal
+  PROPOSED→cooling-period→APPLIED path, not an immediate rewrite.
+- 2026-10-13 (daily) — Tooling note: `export.arxiv.org/api/query` returned `429 Rate exceeded` on a
+  large 20-category OR-combined query (the pattern used by the 10-09/10-12 dailies), both on first
+  attempt and immediately on retry, but worked cleanly for single-category queries after a ~90s
+  wait and continued working for 30 sequential single-category queries spaced 4-8s apart with no
+  further 429s. Plausibly a burst-size/complexity limiter on the combined OR-query rather than a
+  standing block (the exact combined-query form worked without issue in the two preceding dailies)
+  — not yet heal-owed (works via the per-category workaround, single-session occurrence), but if
+  the combined-query form 429s again next run, worth switching the standard method to per-category
+  sequential queries permanently and recording that in SOURCES.md.
+- 2026-10-13 (daily) — COVERAGE-GAP FOUND AND CLOSED: `hep-lat` (lattice gauge theory) was entirely
+  absent from this radar's swept physics-category list (SOURCES.md → arXiv entry), a category-grain
+  gap of the same class as the math.AG/AC history (AGENTS.md/SOURCES.md precedent) — not a
+  title-blind miss, a genuine unswept category. Found via Nathaniel Craig's chiral-fermions paper
+  (arXiv:2610.09093, primary category `hep-lat`), caught only through a Woit blog pointer, 7 days
+  after posting. Fixed directly this session (added `hep-lat` to SOURCES.md's swept list) rather
+  than staged, matching how the Nobel Prize listing gap was handled 2026-10-07 (an obviously-primary
+  category simply never listed, not a 2-sighting-bar discovery). Worth the weekly checking for
+  other similarly-obvious unswept physics archives (e.g. `nucl-th`/`nucl-ex` are listed — good —
+  but double-check `physics.*` subcats, `hep-ex` for experimental HEP results distinct from the
+  theory/phenomenology already covered via hep-ph).

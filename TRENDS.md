@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-12
+Last updated: 2026-10-13
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1627,7 +1627,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-10
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-12
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1688,6 +1688,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     — Thomas Hales (guest post on Tao's blog), "What mathematicians should know about the Lean
     Theorem Prover: questions of reliability and AI": a formal-verification expert's primer on
     what a Lean-checked claim does and does not guarantee. Opened directly this session.
+  - 2026-10-12 — https://terrytao.wordpress.com/2026/10/12/this-is-normal-bad-work/ — Sophie
+    Huiberts (guest post on Tao's blog), "This is normal bad work": argues OpenAI's release itself
+    (not any individual result) fails basic scholarly-exposition norms — "their work contains
+    retraction-worthy errors... their pdfs actively set back the state of the literature." Opened
+    directly this session.
 - notes: 2026-10-07 (daily, seed creation): caught via the Hacker News front page (683-point story)
   and corroborated independently via Gil Kalai's blog ("amazing") and r/OpenAI community-pulse
   threads naming several of the same results (Unique Games Conjecture, circulant Hadamard
@@ -1706,6 +1711,23 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   claim from this release would be the single biggest story this radar could register, bigger even
   than the already-tracked OpenAI Navier-Stokes claim) — chase this daily until a vetting signal
   appears.
+  - 2026-10-13 (daily): community-reaction wave CONTINUES on Tao's blog beyond the Huiberts post
+    above — "Additional recent pieces on math and AI" (2026-10-12) rounds up seven further
+    opinion pieces (Kevin Buzzard, Alexander Gamburd, Harald Helfgott, Gil Kalai, Asaf Karaglia,
+    Matilde Marcolli, Fenner Stanley Tanswell — named only in aggregate per the social-channel
+    no-individual-naming-beyond-a-bare-URL norm, not individually opened this session); a guest
+    post by Kate Stange and Edmund Harriss, "Illustration beyond Proof" (2026-10-11), takes the
+    debate into mathematical-illustration practice rather than proof per se; Woit's "Slopocalypse"
+    (2026-10-06, Not Even Wrong) is the same critique in the physics-commentary lane. None names a
+    new on-axis primary result (all discourse ABOUT the disclosure event, already evidenced above)
+    — logged as continued vetting-status/community-governance signal, not new evidence lines, to
+    avoid note bloat. SEPARATELY: result-family #003 (the quasi-Riemann-hypothesis claim, named
+    only in this trend's `what` text since creation) is PROMOTED today to its own seed trend —
+    see "OpenAI's claimed proof of the quasi-Riemann Hypothesis" above — closing a self-inflicted
+    capture-leak (a primary named only in prose, never given a discrete evidence/queue line) now
+    that independent human engagement (a MathOverflow collaborative-verification proposal)
+    specifically on that result-family has appeared, fulfilling note (b)'s standing flag that
+    individual results inside this bundle may need their own trend entries.
   - 2026-10-08 (daily): vetting-status / community-reaction catch. (a) The Association for Human
     Mathematics (AHM), a newly-identified mathematician advocacy organization, published a
     statement (its own site, opened directly this session: https://www.ahmath.org — also reposted
@@ -1878,6 +1900,81 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   queue, not duplicated). Several 2025 interpretation papers exist (primordial-black-hole,
   hierarchical-merger, even "cosmic string" explanations) — not individually chased this session;
   watch for a definitive formation-channel consensus.
+
+### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-05
+- what: axis-1 DOMAIN-CADENCE LANDMARK, PROMOTED out of prose: one specific result-family (#003)
+  inside the already-tracked OpenAI mass-disclosure release (2026-10-06, 722 manuscripts) had sat
+  named only in that trend's `what` text since 2026-10-07 — a capture-leak by this ledger's own
+  discipline (a primary named only in another trend's prose, never given its own evidence/queue
+  line). Promoted today because INDEPENDENT HUMAN ENGAGEMENT specifically on this result-family has
+  now appeared (the watch condition this ledger has carried since 10-07), distinct from the generic
+  disclosure-event community reaction already tracked on the parent trend. The claim: every
+  Dirichlet L-function (incl. ζ(s)) and every finite-order Hecke L-function over ℚ(√-3) is zero-free
+  in the half-plane ℜs>7/8, with a companion proof pushing to ℜs>11/12 (ruling out Landau–Siegel
+  zeros) — the first fixed-width zero-free region in this generality in decades; falls short of the
+  critical line ℜs=1/2 but many RH-consequences only need a tighter critical strip, not the full
+  hypothesis. HEAVIEST unrefereed-preprint caution — wholly AI-generated (same unreleased OpenAI
+  model as the parent disclosure), zero completed independent verification as of this session: a
+  MathOverflow thread proposes a Polymath-style collaborative project specifically BECAUSE the
+  proof is "quite opaque" and unreviewed; a community-run leaderboard site exists but could not be
+  read this session (JS-rendered shell, no content extractable via direct `curl`/`tvly extract`) so
+  its claims are UNVERIFIED, not evidence.
+- evidence:
+  - 2026-09-30 — https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf
+    — the original ℜs>7/8 manuscript (OpenAI internal model), per `CONTENTS.md` item #003. Verified
+    live via `raw.githubusercontent.com` this session (direct `github.com` blob view 403s under this
+    session's GitHub proxy-scoping; content fetched through the raw-content host instead).
+  - 2026-10-05 — https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf
+    — companion manuscript, alternate proof of the stronger ℜs>11/12 half-plane, explicitly ruling
+    out Landau–Siegel zeros. Verified live via `raw.githubusercontent.com` this session.
+- notes: 2026-10-13 (daily, seed creation/promotion): caught via today's MathOverflow sweep — two
+  fresh threads (2026-10-12), Benjamin Durkan proposing a Polymath-type verification project ("the
+  proof proffered by OpenAI is quite opaque... it would be beneficial for humans to break down the
+  proof into manageable steps") and Pace Nielsen's "Consequences of quasi-RH" treating the ℜs>7/8
+  bound as provisionally accepted pending the community tracker, both intake-only (not evidence; no
+  individual named/quoted per the social-channel rule). Scientific American's "The most exciting
+  claims from OpenAI's heap of new proofs" (2026-10-08, already a tracked DAILY-tier digest source)
+  quotes Hector Pasten (a number theorist) on the result's significance — a named, on-record expert
+  commentary with no other primary source, citable per the hard-rule allowance, but note-only (not
+  an evidence line): "Plenty of applications of the Riemann hypothesis did not need the full Riemann
+  hypothesis." This is commentary on significance, NOT a verification of correctness — track the
+  vetting outcome, not the mathematics, per the hard rule. Watch for: a completed independent
+  verification (human or Lean) of either half-plane, referee commentary, or the proposed Polymath
+  project actually launching.
+
+### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
+- what: axis-2 DOMAIN-CADENCE LANDMARK, a TITLE-BLIND capture-gap catch (Amendment J failure class —
+  no conjecture/theorem/proof keyword in the title). Nathaniel Craig (particle theorist, UC Santa
+  Barbara/KITP, on a one-year visiting position at OpenAI since this summer) nonperturbatively
+  constructs a gauge-invariant measure for overlap fermions on 4D Euclidean lattices for a class of
+  nonabelian chiral gauge theories that includes the Standard Model: comparing chiral projectors at
+  successive lattice spacings yields an exponentially local current, establishing the global
+  properties needed for Lüscher's reconstruction of a smooth, gauge-invariant fermion measure. This
+  targets the long-standing chiral-fermion/fermion-doubling obstruction to defining chiral gauge
+  theories (the Standard Model's own gauge structure) nonperturbatively on the lattice — a
+  candidate resolution, not yet a consensus one. Single-author, AI-assisted (author states OpenAI
+  involvement) — standard unrefereed-preprint caution; this is a hard technical claim in a mature,
+  heavily-scrutinized subfield (lattice gauge theory), so expect slow, careful community vetting
+  rather than a quick confirm/refute.
+- evidence:
+  - 2026-10-06 — https://arxiv.org/abs/2610.09093 — Nathaniel Craig, "A gauge-invariant measure for
+    lattice chiral fermions": abstract + author + date verified via arXiv API this session.
+- notes: 2026-10-13 (daily, seed creation, COVERAGE-GAP): a DOUBLE miss — not just title-blind, but
+  a CATEGORY gap: the paper's primary category is `hep-lat` (lattice gauge theory), which is NOT in
+  this radar's swept physics-category rotation at all (SOURCES.md lists hep-th/hep-ph/gr-qc/quant-ph/
+  math-ph/cond-mat.*/astro-ph.*/nucl-th/nucl-ex/nlin — no `hep-lat`), so no title-triage pass could
+  have caught it regardless of keyword; caught today only via Peter Woit's "Not Even
+  Wrong" blog ("AI and Chiral Fermions", 2026-10-08, already a tracked digest source) explicitly
+  calling it out as "of more interest to fundamental physics" than the same-week math slopocalypse.
+  Community reaction so far (Reddit r/Physics thread, per `tvly search` snippet, intake-only, not
+  independently opened) frames it as "a candidate nonperturbative lattice definition of the Standard
+  Model" — echoing the author's own abstract, not yet an independent technical assessment. Watch
+  for: a lattice-QCD specialist's technical response, and whether this is the same author/effort as
+  the already-tracked "FERMIACC: Agents for Particle Theory" AI-tooling paper (arXiv:2603.22538,
+  also by Craig, axis-5 WATCH only — the tool, not a math/physics result, NOT captured as evidence
+  here).
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -5286,6 +5383,26 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   itself failed to extract; only a `tvly search` snippet and a corroborating YouTube description
   were opened). Primary-not-located flag — chase next session (try Hossenfelder's own
   co-authorship, or a direct Google Scholar/arXiv author search once a name surfaces).
+- 2026-10-04 (post); flagged 2026-10-13 (surfaced via today's digest-blog sweep) — Sabine
+  Hossenfelder (Backreaction), "Quantum Effects Can Shape Human Thought, Physicist Shows" —
+  https://backreaction.blogspot.com/2026/10/quantum-effects-can-shape-human-thought.html — axis 4
+  adjacent (quantum foundations / quantum biology): a video post describing an unnamed "physicist
+  in Istanbul" proposing a testable mechanism by which short-lived quantum effects could leave a
+  permanent mark on neural processes. UNVERIFIED — no author name or arXiv id surfaced in the
+  accessible excerpt or via `tvly search` this session (quantum-brain claims are a notorious
+  hype-skepticism case going back to Esquinazi-class disputes; the post itself frames this one as
+  an exception to "nearly everything published about quantum physics in the brain is nonsense").
+  Primary-not-located flag — chase next session (search Istanbul-affiliated authors on quantum
+  cognition/neuroscience, or Hossenfelder's own video description for a named arXiv id).
+- 2026-10-09 — Jin, Argüelles, Fernández-Menéndez, Martínez-Soler, "Evidence for Normal Neutrino
+  Ordering with Combined Atmospheric Neutrino Experiments" — https://arxiv.org/abs/2610.12208 —
+  axis 3 (hep-ex, caught via today's newly-added hep-ex sweep): a combined re-analysis of public
+  Super-Kamiokande/IceCube-DeepCore/KM3NeT-ORCA atmospheric-neutrino data excludes the inverted
+  mass ordering at 3.3σ (99.95% CL), also giving competitive $Δm^2_{31}$/$\sin^2θ_{23}$/$δ_{CP}$
+  constraints. Below bar: an independent reanalysis of already-public data (not a new experiment
+  or first-of-kind result), and 3.3σ is "evidence," not a 5σ discovery — mass-ordering global fits
+  have mildly favored normal ordering for years. Abstract + authors verified via arXiv API this
+  session. Watch for a single experiment independently crossing 5σ on ordering.
 
 ## source_rotation
 
@@ -5303,6 +5420,14 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-09-30/10-05; shelf-added 2026-10-13 — [OpenAI's quasi-Riemann-Hypothesis claim](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf)
+  — a claimed fixed-width zero-free region (ℜs>7/8, companion ℜs>11/12) for Dirichlet/Hecke
+  L-functions; wholly unrefereed and AI-generated, but the first result of this kind in decades —
+  see new seed trend for the vetting-status watch.
+- 2026-10-06; shelf-added 2026-10-13 — [A gauge-invariant measure for lattice chiral fermions
+  (Craig)](https://arxiv.org/abs/2610.09093) — a candidate nonperturbative lattice definition of
+  the Standard Model, addressing the long-standing chiral-fermion lattice obstruction; see new
+  seed trend.
 - 2026-10-09 (v1); shelf-added 2026-10-12 — [Finiteness of planar central configurations of five
   bodies for all positive masses (Tomar)](https://arxiv.org/abs/2610.13100) — settles Smale's sixth
   problem for n=5, closing the exceptional-mass-set gap left by Albouy–Kaloshin (2012); see new
