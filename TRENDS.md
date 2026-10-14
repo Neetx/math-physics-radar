@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-13
+Last updated: 2026-10-14
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1975,6 +1975,109 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   the already-tracked "FERMIACC: Agents for Particle Theory" AI-tooling paper (arXiv:2603.22538,
   also by Craig, axis-5 WATCH only — the tool, not a math/physics result, NOT captured as evidence
   here).
+
+### Proof of the Erdős–Simonovits rational exponents conjecture (Epoch AI model, human-verified)
+- stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-10-13
+- what: axis-1 DOMAIN-CADENCE LANDMARK. The rational exponents conjecture of Erdős and Simonovits
+  (a decades-old question in extremal/Turán graph theory: for every rational $r\in[1,2]$ there is a
+  graph $H$ with $\mathrm{ex}(n,H)=\Theta(n^r)$) is resolved in a proof CLAIMED BY EPOCH AI — a
+  third AI organization (after OpenAI, Anthropic) now disclosing a claimed major math result — and
+  written up/explained by eight prominent extremal combinatorialists (Conlon, Janzer, Jiang, Kim,
+  Lee, Liu, Longbrake, Yepremyan): "We present a proof of this conjecture claimed by Epoch AI,
+  explaining how it builds upon ideas and methods developed by many researchers." Per Epoch AI's own
+  "FrontierMath Erdős" page (found via `tvly search`, not yet independently opened this session — see
+  SOURCES.md staging), their pipeline requires a submission to pass Lean proof-checking
+  (`Comparator`, maintained by the Lean FRO) before being accepted as resolving a conjecture — a
+  stronger formal-verification gate than OpenAI's unrefereed-PDF disclosure pattern, though the
+  human write-up itself is still a fresh, non-peer-reviewed arXiv preprint. HYPE-SKEPTICISM CAUTION
+  still applies (AI-claimed result, same tier as the other AI-assisted claims on this ledger) but is
+  PARTIALLY OFFSET by (a) the Lean-verification gate and (b) eight named, credentialed human authors
+  willing to put their names on an explanatory write-up — closer in kind to the Linear Hadwiger
+  Conjecture (GPT-6 Astra-assisted, Norin–Steiner) precedent than to OpenAI's bare unrefereed drops.
+- evidence:
+  - 2026-10-13 — https://arxiv.org/abs/2610.18713 — Conlon, Janzer, Jiang, Kim, Lee, Liu, Longbrake,
+    Yepremyan, "A proof of the rational exponents conjecture": human-authored explanatory write-up of
+    a proof claimed by Epoch AI; abstract + authors verified via arXiv API and the arXiv abstract page
+    this session.
+- notes: 2026-10-14 (daily, seed creation): caught via the day's math.CO/NT broad-rotation batch
+  (title carries no AI-attribution keyword, so this was a content-triage catch, not a coverage gap).
+  `tvly search` chase on "Epoch AI" surfaced the FrontierMath Erdős program page (epoch.ai) —
+  source-discovery candidate staged in SOURCES.md (1 sighting). Watch for: Epoch AI's own primary
+  disclosure page (not yet opened directly this session, 404 on a guessed path), independent referee
+  commentary, and whether this becomes a recurring disclosure channel alongside openai.com/
+  anthropic.com (promotion bar: 2 sightings).
+
+### Disproof of the Erdős unit-distance conjecture (OpenAI model, human-verified by Alon et al.)
+- stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-05-20
+- what: axis-1 DOMAIN-CADENCE LANDMARK, BACKFILLED CAPTURE-LEAK CLOSURE. The planar unit distance
+  problem (Erdős, 1946 — "one of the best-known questions in combinatorial geometry," with a
+  monetary prize historically offered for its resolution) is disproved: an internal OpenAI model
+  constructs point configurations with at least $n^{1+\delta}$ unit-distance pairs for infinitely
+  many $n$ (some fixed $\delta>0$), beating the "square grid" bound long believed near-optimal. This
+  result was explicitly named in this ledger's OpenAI mass-disclosure trend notes since 2026-08-03
+  ("the May 20 2026 Erdős unit-distance-conjecture counterexample... noted for context, not
+  backfilled") but never given its own evidence/queue line — a genuine capture leak, closed this
+  session. STRONG VETTING SIGNAL (the best-vetted of the AI-claimed results tracked on this ledger):
+  a human-verified, independently-written digest — "Remarks on the disproof of the unit distance
+  conjecture" — was co-authored by NINE prominent mathematicians (Noga Alon, Thomas F. Bloom, W. T.
+  Gowers [Fields Medalist], Daniel Litt, Will Sawin, Arul Shankar, Jacob Tsimerman, Victor Wang,
+  Melanie Matchett Wood), who confirm the construction and its number-theoretic machinery
+  (Ellenberg–Venkatesh / Golod–Shafarevich / Hajir–Maire–Ramakrishna ideas). HYPE-SKEPTICISM CAUTION
+  still formally applies (AI-generated, OpenAI unrefereed) but this is the closest this ledger has to
+  a genuine positive human-vetting outcome on an AI math claim.
+- evidence:
+  - 2026-05-20 — https://arxiv.org/abs/2605.20695 — Alon, Bloom, Gowers, Litt, Sawin, Shankar,
+    Tsimerman, Wang, Wood, "Remarks on the disproof of the unit distance conjecture": human-verified
+    digest of the OpenAI-generated counterexample; abstract + authors + date verified via arXiv API
+    this session.
+  - 2026-05-20 — https://cdn.openai.com/unit-distance-proof.pdf — OpenAI, "Planar Point Sets with Many
+    Unit Distances": the original AI-generated construction; title/abstract verified via `tvly
+    search` this session (original announcement: "An OpenAI model has disproved a central conjecture
+    in discrete geometry," openai.com).
+- notes: 2026-10-14 (daily, seed creation, CAPTURE-LEAK CLOSURE): both primaries pre-date this
+  session by ~5 months; backfilled now per the capture-leak reconciliation rule (a primary named in
+  another trend's notes-prose without its own evidence/queue line). Directly upstream of the next new
+  seed trend below (the sum-product conjecture disproof, which reuses ideas from this construction).
+
+### Disproof of the Erdős–Szemerédi sum-product conjecture (Bloom–Sawin–Schildkraut–Zhelezov)
+- stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-05-27
+- what: axis-1 DOMAIN-CADENCE LANDMARK, BACKFILLED CAPTURE-LEAK CLOSURE, HUMAN-AUTHORED (no AI
+  involvement, no hype-skepticism caveat needed). The sum-product conjecture (Erdős–Szemerédi) —
+  that for any finite $A\subset\mathbb{R}$, $\max(|A+A|,|AA|)$ must be close to $|A|^2$ — is
+  disproved: Bloom, Sawin, Schildkraut, Zhelezov construct arbitrarily large $A\subset\mathbb{R}$
+  with $\max(|A+A|,|AA|)\le|A|^{2-c}$ for an absolute constant $c>0$, also disproving the "many sums
+  and products" generalization. Per OpenAI's own "Ten Advances" footnote (found via `tvly search`
+  this session) and Quanta's "Why the Legendary Erdős Problems Are Falling to AI" (Konstantin Kakaes),
+  this human result directly built on techniques from the AI-generated unit-distance disproof above —
+  a notable case of an AI result accelerating ordinary human mathematical research, not replacing it.
+- evidence:
+  - 2026-05-27 — https://arxiv.org/abs/2605.28781 — Bloom, Sawin, Schildkraut, Zhelezov, "The
+    sum-product conjecture is false for real numbers": abstract + authors + date verified via arXiv
+    API this session.
+- notes: 2026-10-14 (daily, seed creation, CAPTURE-LEAK CLOSURE): surfaced via a `tvly search` chase
+  on OpenAI's "Ten Advances" footnote while researching the Epoch AI rational-exponents catch above;
+  pre-dates this session by ~5 months, never previously captured on this ledger. Same footnote also
+  names Pohoata's "Split primes and the Elekes–Rónyai problem" and Saha–Xu–Ye's "Furthest Pair
+  Requires Quadratic Time..." as further human follow-on work — both routed to `observation_queue`
+  below (narrower/more technical, not independently verified as landmark-tier this session).
+
+### First detection of the rotational kinematic Sunyaev–Zel'dovich effect (Goldstein–Hill)
+- stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-10-13
+- what: axis-3 DOMAIN-CADENCE LANDMARK — a clean, ordinary peer-reviewed first-of-kind detection, NO
+  AI involvement and no hype-skepticism caveat. Goldstein & Hill report the first robust evidence for
+  the rotational kinematic Sunyaev–Zel'dovich (rkSZ) effect: a dipolar CMB anisotropy from Thomson
+  scattering off rotating intracluster gas in galaxy clusters, a predicted-but-previously-unconfirmed
+  secondary CMB signature distinct from the thermal/kinematic SZ effects already used for cluster
+  cosmology.
+- evidence:
+  - 2026-10-13 — https://link.aps.org/doi/10.1103/lz37-crg1 — Goldstein, Hill, "Evidence of Galaxy
+    Cluster Rotation and Intrahalo Gas Motions in the Cosmic Microwave Background," Phys. Rev. Lett.
+    137, 161001 (2026): first robust rkSZ detection; title/authors/journal/date verified via the APS
+    PRL RSS feed this session. Preprint: https://arxiv.org/abs/2512.10951 (2025-12-11).
+- notes: 2026-10-14 (daily, seed creation): caught via the routine daily PRL RSS sweep (on-axis,
+  title-visible, no coverage gap). Watch for follow-up measurements on additional cluster samples
+  (statistical significance / sample-size growth) and any connection to existing intracluster-gas-
+  dynamics or cluster-cosmology trends.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -5403,6 +5506,41 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   or first-of-kind result), and 3.3σ is "evidence," not a 5σ discovery — mass-ordering global fits
   have mildly favored normal ordering for years. Abstract + authors verified via arXiv API this
   session. Watch for a single experiment independently crossing 5σ on ordering.
+- 2026-10-13 — Pohoata, "Split primes and the Elekes–Rónyai problem" — human follow-on to the
+  OpenAI "Ten Advances" disclosure (named in its own footnote, found via `tvly search` this
+  session); not independently opened/verified this session (arXiv id not yet located) — axis 1,
+  below bar (single, narrow extremal/arithmetic-combinatorics follow-up).
+- 2026-10-13 — Saha, Xu, Ye, "Furthest Pair Requires Quadratic Time in Superconstant Dimension under
+  SETH" — https://arxiv.org/abs/2606.25887 — another human follow-on named in the OpenAI "Ten
+  Advances" footnote; title/authors verified via arXiv API this session — axis 1/TCS interface,
+  below bar (fine-grained-complexity lower bound, narrow).
+- 2026-10-13 — "Proofs of four Takigiku–Tsuchioka conjectures on level 2 principal characters of
+  $A_{2\ell-1}^{(2)}$" — https://arxiv.org/abs/2610.18666 — title verified via arXiv API this
+  session — axis 1, below bar (niche affine-Lie-algebra representation theory, single group).
+- 2026-10-13 — "Two conjectures on the cospectrality of complete tripartite graphs are false" —
+  https://arxiv.org/abs/2610.18636 — title verified via arXiv API this session — axis 1, below bar
+  (narrow spectral graph theory disproof, single group).
+- 2026-10-13 — "Proof of a nonnegativity conjecture of Prellberg–Stanton" —
+  https://arxiv.org/abs/2610.18377 — title verified via arXiv API this session — axis 1, below bar
+  (partition-theory conjecture, single group, not a widely-known named problem outside its
+  sub-area).
+- 2026-10-13 — Lehner–Malkiewich–Naef, "The Becker–Gottlieb transfer is not functorial: An example
+  based on units of group rings" (arXiv:2610.18720) and Naef–Stoll, "...An example using
+  $C_\infty$-algebras" (arXiv:2610.18718) — two concurrent counterexample papers (sharing author
+  Florian Naef, so NOT independent groups) refuting functoriality of the classical Becker–Gottlieb
+  transfer map; abstracts + authors verified via arXiv API this session — axis 1, below bar (narrow
+  algebraic-topology technical result, not a long-standing named conjecture).
+- 2026-10-13 — Liu, Peng, Zhu, "A proof of the framed LMOV conjecture for links" —
+  https://arxiv.org/abs/2610.18618 — proves the Labastida–Mariño–Ooguri–Vafa conjecture for oriented
+  links with arbitrary integer framings; abstract + authors verified via arXiv API this session —
+  axis 2 (math-ph/knot theory interface), below bar: same group (Liu–Peng) that proved the unframed
+  case in 2007 extending their own prior work, not an independent first resolution.
+- 2026-10-13 — Planat, "A certified classical-strip comparison for the de Bruijn-Newman constant" —
+  https://arxiv.org/abs/2610.18214 — claims Λ≤0.148612; abstract verified via arXiv API this
+  session — axis 1, FLAGGED FOR CAUTION not just below-bar: solo author, unconventional
+  terminology ("translated-probe estimates," "Raymond's finite source") atypical of the mainstream
+  de Bruijn–Newman-constant literature (cf. Rodgers–Tao's Λ≥0, already well-established upper bounds
+  ~0.2); do NOT treat as a verified new bound pending independent expert engagement.
 
 ## source_rotation
 
@@ -5420,6 +5558,13 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-13; shelf-added 2026-10-14 — [Evidence of galaxy cluster rotation in the CMB (Goldstein–Hill)](https://link.aps.org/doi/10.1103/lz37-crg1)
+  — first robust detection of the rotational kinematic Sunyaev–Zel'dovich effect, PRL 137, 161001;
+  clean peer-reviewed first-of-kind, no AI/hype-skepticism caveat; see new seed trend.
+- 2026-10-13; shelf-added 2026-10-14 — [A proof of the rational exponents conjecture](https://arxiv.org/abs/2610.18713)
+  — Erdős–Simonovits's decades-old extremal-graph-theory conjecture, proof claimed by Epoch AI
+  (a third AI org disclosing a major math claim) and human-verified/written up by eight prominent
+  combinatorialists; see new seed trend.
 - 2026-09-30/10-05; shelf-added 2026-10-13 — [OpenAI's quasi-Riemann-Hypothesis claim](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf)
   — a claimed fixed-width zero-free region (ℜs>7/8, companion ℜs>11/12) for Dirichlet/Hecke
   L-functions; wholly unrefereed and AI-generated, but the first result of this kind in decades —

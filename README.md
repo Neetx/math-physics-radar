@@ -1,28 +1,28 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-26-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-333-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--13-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-30-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-342-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--14-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-13, daily):** two new landmark seed trends, both promoted out of capture gaps inside already-tracked stories.
-- NEW: [OpenAI's claimed quasi-Riemann-Hypothesis proof](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) — a fixed-width zero-free region (ℜs>7/8, companion ℜs>11/12) for Dirichlet/Hecke L-functions; promoted out of the mass-disclosure trend's prose once [a MathOverflow collaborative-verification proposal](https://mathoverflow.net/questions/515982/group-collaborative-project-on-quasi-riemann-hypothesis-proof) gave it its first independent-engagement signal. Wholly unrefereed and AI-generated.
-- NEW (7-day title-blind capture-gap catch): [A candidate nonperturbative lattice definition of the Standard Model](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) — [Nathaniel Craig's chiral-fermions construction](https://arxiv.org/abs/2610.09093), caught via Peter Woit's blog.
-- Community-reaction wave CONTINUES on the [OpenAI mass-disclosure trend](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families): Sophie Huiberts' ["This is normal bad work"](https://terrytao.wordpress.com/2026/10/12/this-is-normal-bad-work/) guest post on Tao's blog, plus seven further opinion pieces rounded up the same week.
-- Quiet on the core arXiv math/physics sweep (same 2026-10-09 submission batch as the last daily — the Monday-batch-posts-late domain-cadence gap, confirmed not a coverage miss).
+**Since last scan (2026-10-14, daily):** four new landmark seed trends — a cluster of Erdős-conjecture resolutions plus a clean peer-reviewed first-of-kind CMB detection.
+- NEW: [A proof of the rational exponents conjecture](TRENDS.md#proof-of-the-erdőssimonovits-rational-exponents-conjecture-epoch-ai-model-human-verified) — Erdős–Simonovits's decades-old extremal-graph-theory conjecture, claimed by [Epoch AI](https://arxiv.org/abs/2610.18713) (a third AI org disclosing a major math claim) and human-verified/written up by eight prominent combinatorialists.
+- NEW (capture-leak backfill): [Disproof of the Erdős unit-distance conjecture](TRENDS.md#disproof-of-the-erdős-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) (OpenAI, May 2026) — the best-vetted AI math claim on this ledger, with a [human-verified write-up](https://arxiv.org/abs/2605.20695) by nine mathematicians including Gowers; its human-authored sequel, [the sum-product conjecture disproof](TRENDS.md#disproof-of-the-erdősszemerédi-sum-product-conjecture-bloomsawinschildkrautzhelezov), is also newly backfilled.
+- NEW: [First detection of the rotational kinematic Sunyaev–Zel'dovich effect](TRENDS.md#first-detection-of-the-rotational-kinematic-sunyaevzeldovich-effect-goldsteinhill) ([Goldstein–Hill, PRL 137, 161001](https://link.aps.org/doi/10.1103/lz37-crg1)) — an ordinary, clean, peer-reviewed first-of-kind CMB measurement, no AI caveat.
+- Source-discovery: `epoch.ai` staged (1 sighting, see [SOURCES.md](SOURCES.md)) — a third AI-math-disclosure channel, distinguished by a Lean proof-checking gate on submissions.
 
 ## Trends
 
-🌱 21 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 25 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-29](https://arxiv.org/abs/2608.24385) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-09-29](https://scipost.org/SciPostPhysCore.9.3.063) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
-| [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.27172) |
+| [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.11189) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
+| [First rkSZ detection (Goldstein–Hill)](TRENDS.md#first-detection-of-the-rotational-kinematic-sunyaevzeldovich-effect-goldsteinhill) | 🌱 seed | [2026-10-13](https://link.aps.org/doi/10.1103/lz37-crg1) |
+| [Rational exponents conjecture (Epoch AI)](TRENDS.md#proof-of-the-erdőssimonovits-rational-exponents-conjecture-epoch-ai-model-human-verified) | 🌱 seed | [2026-10-13](https://arxiv.org/abs/2610.18713) |
 | [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-12](https://terrytao.wordpress.com/2026/10/12/this-is-normal-bad-work/) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) | 🌱 seed | [2026-10-05](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf) |
-| [Lattice chiral-fermion Standard Model (Craig)](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) | 🌱 seed | [2026-10-06](https://arxiv.org/abs/2610.09093) |
 | [Poincaré Conjecture Lean formalization (two efforts)](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincaré-conjecture-two-independent-efforts) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2610.13897) |
 | [Smale's sixth problem (n=5)](TRENDS.md#finiteness-of-planar-central-configurations-for-five-bodies-smales-sixth-problem) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2610.13100) |
 | [Hyperkähler SYZ conjecture proof](TRENDS.md#proof-of-the-hyperkähler-syz-conjecture-engelmauri) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12277) |
@@ -30,8 +30,10 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [LeBrun–Salamon conjecture proof](TRENDS.md#proof-of-the-lebrunsalamon-conjecture-quaternionic-kähler-geometry) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10410) |
 | [First thorium-229 nuclear clocks](TRENDS.md#first-operating-thorium-229-nuclear-clocks-vienna--beijing-independent-teams) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10056) |
 | [2026 Nobel Prize in Physics (Halzen/IceCube)](TRENDS.md#2026-nobel-prize-in-physics--francis-halzen--icecube-astrophysical-neutrinos) | 🌱 seed | [2026-10-06](https://www.nobelprize.org/prizes/physics/2026/press-release/) |
+| [Lattice chiral-fermion Standard Model (Craig)](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) | 🌱 seed | [2026-10-06](https://arxiv.org/abs/2610.09093) |
 | [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-10-05](https://arxiv.org/abs/2610.06838) |
 | [3SUM / APSP hypotheses refuted](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-05](https://arxiv.org/abs/2610.06783) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) | 🌱 seed | [2026-10-05](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf) |
 | [Linear Hadwiger Conjecture proof](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) | 🌱 seed | [2026-10-04](https://arxiv.org/abs/2610.05291) |
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-02](https://arxiv.org/abs/2610.01240) |
 | [The Hopf problem — S⁶ complex structure](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
@@ -40,11 +42,15 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Cassels–Swinnerton-Dyer for cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
 | [Inhomogeneous Duffin-Schaeffer disproved](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30870) |
 | [Ehlers–Kundt conjecture counterexample](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
+| [Sum-product conjecture disproved](TRENDS.md#disproof-of-the-erdősszemerédi-sum-product-conjecture-bloomsawinschildkrautzhelezov) | 🌱 seed | [2026-05-27](https://arxiv.org/abs/2605.28781) |
+| [Erdős unit-distance disproof (OpenAI)](TRENDS.md#disproof-of-the-erdős-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://arxiv.org/abs/2605.20695) |
 | [Graham's rearrangement conjecture resolved](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
+- 2026-10-13; shelf-added 2026-10-14 — [Evidence of galaxy cluster rotation in the CMB (Goldstein–Hill)](https://link.aps.org/doi/10.1103/lz37-crg1) — first robust detection of the rotational kinematic Sunyaev–Zel'dovich effect, PRL 137, 161001; clean peer-reviewed first-of-kind, no AI/hype-skepticism caveat; see new seed trend.
+- 2026-10-13; shelf-added 2026-10-14 — [A proof of the rational exponents conjecture](https://arxiv.org/abs/2610.18713) — Erdős–Simonovits's decades-old extremal-graph-theory conjecture, proof claimed by Epoch AI (a third AI org disclosing a major math claim) and human-verified/written up by eight prominent combinatorialists; see new seed trend.
 - 2026-09-30/10-05; shelf-added 2026-10-13 — [OpenAI's quasi-Riemann-Hypothesis claim](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) — a claimed fixed-width zero-free region (ℜs>7/8, companion ℜs>11/12) for Dirichlet/Hecke L-functions; wholly unrefereed and AI-generated, but the first result of this kind in decades — see new seed trend for the vetting-status watch.
 - 2026-10-06; shelf-added 2026-10-13 — [A gauge-invariant measure for lattice chiral fermions (Craig)](https://arxiv.org/abs/2610.09093) — a candidate nonperturbative lattice definition of the Standard Model, addressing the long-standing chiral-fermion lattice obstruction; see new seed trend.
 - 2026-10-09 (v1); shelf-added 2026-10-12 — [Finiteness of planar central configurations of five bodies for all positive masses (Tomar)](https://arxiv.org/abs/2610.13100) — settles Smale's sixth problem for n=5, closing the exceptional-mass-set gap left by Albouy–Kaloshin (2012); see new seed trend.
@@ -167,13 +173,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [MathOverflow](https://mathoverflow.net/) carried two fresh threads proposing a Polymath-style collaborative verification of OpenAI's quasi-Riemann-Hypothesis claim (see the new trend above) — recovered this session after an empty fetch last time.
-- Terence Tao's blog rounded up [seven further opinion pieces](https://terrytao.wordpress.com/2026/10/12/additional-recent-pieces-on-math-and-ai/) on math and AI beyond his own (not individually linked here per the no-individual-naming norm).
-- Peter Woit's "Not Even Wrong" carried both continuing OpenAI-release critique ("Slopocalypse") and the pointer that led to today's lattice-chiral-fermions catch.
 - Hacker News front page carried nothing on-axis today.
-- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (12+ weeks running); Backreaction's "Quantum Effects Can Shape Human Thought" post (an unnamed physicist's testable quantum-cognition mechanism) could not be traced to a primary this session — queued unverified.
+- MathOverflow recovered again this session (an empty fetch is a recurring single-occurrence transient, not yet heal-owed); nothing new beyond this week's already-tracked threads.
+- Terence Tao's and Peter Woit's blogs were both quiet beyond what's already captured above; Gil Kalai posted an expository "outrageous conjectures" roundup (not a new result).
+- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (13+ weeks running); the `tvly search` fallback showed only already-tracked OpenAI-release discussion.
+- OpenAI's own "Ten Advances" footnote (chased this session while researching the Epoch AI catch) is what surfaced today's human-authored sequel papers on the trend table above.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (333) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-13](reports/2026-10-13.md)) · Weekly: [2026-W41](reports/weekly/2026-W41.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (342) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-14](reports/2026-10-14.md)) · Weekly: [2026-W41](reports/weekly/2026-W41.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
 </content>

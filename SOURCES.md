@@ -360,6 +360,15 @@ GitHub watch, Watched repositories) — see their entries above; cleared from th
   agmai.org but a critical/activist voice rather than an advisory one. Verified live via `tvly
   extract` this session (200 OK). HELD below the ≥2-sighting bar (1 sighting); access via direct
   `tvly extract`/`WebFetch` on `ahmath.org`, no feed found.
+- epoch.ai ("FrontierMath Erdős" program) — 1 — a proof of the Erdős–Simonovits rational exponents
+  conjecture, claimed by an Epoch AI model and human-verified/written up by eight mathematicians
+  (arXiv:2610.18713) — first seen 2026-10-14 — discovered via a `tvly search` chase on the paper's
+  own "claimed by Epoch AI" attribution; a THIRD AI organization (after OpenAI, Anthropic) disclosing
+  claimed major math results, but with a distinguishing feature — Epoch AI's own program page states
+  a submission must pass Lean proof-checking (`Comparator`, maintained by the Lean FRO) before being
+  accepted, a stronger formal-verification gate than OpenAI's unrefereed-PDF pattern. NOT yet
+  independently opened this session (a guessed `epoch.ai/frontiermath/erdos` path 404'd; the live URL
+  needs locating next sighting). HELD below the ≥2-sighting bar (1 sighting).
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
