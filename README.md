@@ -1,18 +1,19 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-30-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-342-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--14-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-33-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-348-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--15-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-14, daily):** four new landmark seed trends — a cluster of Erdős-conjecture resolutions plus a clean peer-reviewed first-of-kind CMB detection.
-- NEW: [A proof of the rational exponents conjecture](TRENDS.md#proof-of-the-erdőssimonovits-rational-exponents-conjecture-epoch-ai-model-human-verified) — Erdős–Simonovits's decades-old extremal-graph-theory conjecture, claimed by [Epoch AI](https://arxiv.org/abs/2610.18713) (a third AI org disclosing a major math claim) and human-verified/written up by eight prominent combinatorialists.
-- NEW (capture-leak backfill): [Disproof of the Erdős unit-distance conjecture](TRENDS.md#disproof-of-the-erdős-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) (OpenAI, May 2026) — the best-vetted AI math claim on this ledger, with a [human-verified write-up](https://arxiv.org/abs/2605.20695) by nine mathematicians including Gowers; its human-authored sequel, [the sum-product conjecture disproof](TRENDS.md#disproof-of-the-erdősszemerédi-sum-product-conjecture-bloomsawinschildkrautzhelezov), is also newly backfilled.
-- NEW: [First detection of the rotational kinematic Sunyaev–Zel'dovich effect](TRENDS.md#first-detection-of-the-rotational-kinematic-sunyaevzeldovich-effect-goldsteinhill) ([Goldstein–Hill, PRL 137, 161001](https://link.aps.org/doi/10.1103/lz37-crg1)) — an ordinary, clean, peer-reviewed first-of-kind CMB measurement, no AI caveat.
-- Source-discovery: `epoch.ai` staged (1 sighting, see [SOURCES.md](SOURCES.md)) — a third AI-math-disclosure channel, distinguished by a Lean proof-checking gate on submissions.
+**Since last scan (2026-10-15, daily):** three new landmark seed trends on classical named conjectures, plus a vetting-status cross-reference closing two standing flags on the OpenAI mass-disclosure story.
+- NEW: [The spacetime Penrose conjecture](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) — [Bray, Dolmen, Khuri, Schmidt](https://arxiv.org/abs/2610.20559) prove the ~50-year-old spacetime Penrose inequality for a broad data class, and their own abstract flags that OpenAI's Oct-6 disclosure's result-family #260 claims the fully general case — a rare direct human/AI-claim cross-reference on the same named conjecture within days.
+- NEW: [A starlike counterexample to the hot spots conjecture](TRENDS.md#a-starlike-counterexample-to-the-hot-spots-conjecture-atarburdzy) — [Atar–Burdzy](https://arxiv.org/abs/2610.19908) extend Rauch's hot-spots-conjecture refutation to simply-connected domains, by the author of the original 1999 counterexample.
+- NEW: [A counterexample to the Drézet–Ballico-Ellia conjecture](TRENDS.md#a-counterexample-to-the-conjecture-of-drézet-and-ballico-ellia-uniform-vector-bundles) — [Denham, Miró-Roig, Schenck](https://arxiv.org/abs/2610.20208) give the first counterexample to this longstanding uniform-vector-bundle conjecture.
+- The OpenAI mass-disclosure trend closes two standing flags: the "primary-not-located" Minzer/Fei/Wang [4-to-1 Games Conjecture proof](https://arxiv.org/abs/2610.12378) is now found (via today's cs.CC exploration pass), and the Penrose cross-reference above identifies a previously-unsampled result family (#260).
+- Source-discovery: `1stproof.org`/ICARM staged (1 sighting, see [SOURCES.md](SOURCES.md)) — a mathematician-run, independently-graded AI-math-capability evaluation, a third type of AI-vetting-lane source.
 
 ## Trends
 
-🌱 25 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 28 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -20,6 +21,9 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.11189) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
+| [The spacetime Penrose conjecture](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.20559) |
+| [Hot spots conjecture counterexample (Atar–Burdzy)](TRENDS.md#a-starlike-counterexample-to-the-hot-spots-conjecture-atarburdzy) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.19908) |
+| [Drézet–Ballico-Ellia counterexample](TRENDS.md#a-counterexample-to-the-conjecture-of-drézet-and-ballico-ellia-uniform-vector-bundles) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.20208) |
 | [First rkSZ detection (Goldstein–Hill)](TRENDS.md#first-detection-of-the-rotational-kinematic-sunyaevzeldovich-effect-goldsteinhill) | 🌱 seed | [2026-10-13](https://link.aps.org/doi/10.1103/lz37-crg1) |
 | [Rational exponents conjecture (Epoch AI)](TRENDS.md#proof-of-the-erdőssimonovits-rational-exponents-conjecture-epoch-ai-model-human-verified) | 🌱 seed | [2026-10-13](https://arxiv.org/abs/2610.18713) |
 | [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-12](https://terrytao.wordpress.com/2026/10/12/this-is-normal-bad-work/) |
@@ -49,6 +53,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-10-14 (v1); shelf-added 2026-10-15 — [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets (Bray, Dolmen, Khuri, Schmidt)](https://arxiv.org/abs/2610.20559) — unconditional resolution of a ~50-year-old conjecture in mathematical GR for a broad data class, by one of the 2001 Riemannian case's original provers; explicitly engages with OpenAI's concurrent general-case AI claim; see new seed trend.
+- 2026-10-14 (v1); shelf-added 2026-10-15 — [A starlike 3-dimensional counterexample to the hot spots conjecture (Atar, Burdzy)](https://arxiv.org/abs/2610.19908) — extends the refutation of Rauch's hot spots conjecture to simply-connected (starlike) domains, by the author of the original 1999 counterexample; see new seed trend.
 - 2026-10-13; shelf-added 2026-10-14 — [Evidence of galaxy cluster rotation in the CMB (Goldstein–Hill)](https://link.aps.org/doi/10.1103/lz37-crg1) — first robust detection of the rotational kinematic Sunyaev–Zel'dovich effect, PRL 137, 161001; clean peer-reviewed first-of-kind, no AI/hype-skepticism caveat; see new seed trend.
 - 2026-10-13; shelf-added 2026-10-14 — [A proof of the rational exponents conjecture](https://arxiv.org/abs/2610.18713) — Erdős–Simonovits's decades-old extremal-graph-theory conjecture, proof claimed by Epoch AI (a third AI org disclosing a major math claim) and human-verified/written up by eight prominent combinatorialists; see new seed trend.
 - 2026-09-30/10-05; shelf-added 2026-10-13 — [OpenAI's quasi-Riemann-Hypothesis claim](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) — a claimed fixed-width zero-free region (ℜs>7/8, companion ℜs>11/12) for Dirichlet/Hecke L-functions; wholly unrefereed and AI-generated, but the first result of this kind in decades — see new seed trend for the vetting-status watch.
@@ -174,12 +180,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 ## Community pulse
 
 - Hacker News front page carried nothing on-axis today.
-- MathOverflow recovered again this session (an empty fetch is a recurring single-occurrence transient, not yet heal-owed); nothing new beyond this week's already-tracked threads.
-- Terence Tao's and Peter Woit's blogs were both quiet beyond what's already captured above; Gil Kalai posted an expository "outrageous conjectures" roundup (not a new result).
-- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (13+ weeks running); the `tvly search` fallback showed only already-tracked OpenAI-release discussion.
-- OpenAI's own "Ten Advances" footnote (chased this session while researching the Epoch AI catch) is what surfaced today's human-authored sequel papers on the trend table above.
+- Terence Tao's blog pointed to "First Proof, Third Batch webinar" (ICARM) — a new mathematician-run AI-math-grading venue, staged as a source-discovery candidate.
+- Quanta's dark-matter retrospective surfaced a ~7-month-old backfill (a third dark-matter-deficient NGC 1052-trail galaxy); Hossenfelder's Backreaction carries the standing skeptical counter-take.
+- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (15+ weeks running); the `tvly search` fallback showed only already-tracked OpenAI-release discussion.
+- Today's biggest catches came from the mandatory off-axis exploration slot (cs.CC), not the social/digest lane — see the trend table and queue above.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (342) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-14](reports/2026-10-14.md)) · Weekly: [2026-W41](reports/weekly/2026-W41.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (348) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-15](reports/2026-10-15.md)) · Weekly: [2026-W41](reports/weekly/2026-W41.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
 </content>

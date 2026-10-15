@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-14
+Last updated: 2026-10-15
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1477,7 +1477,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   different sub-conjecture — the two are logically independent, not a contradiction).
 
 ### Refutation of the 3SUM and APSP hypotheses (Alman–Vassilevska Williams, Claude-discovered)
-- stage: seed | confidence: medium | first_seen: 2026-10-09 | last_evidence: 2026-10-05
+- stage: seed | confidence: medium | first_seen: 2026-10-09 | last_evidence: 2026-10-11
 - what: axis-1/axis-5 DOMAIN-CADENCE LANDMARK (AI-discovered, human-confirmed, Lean-formalized): the
   first polynomial-factor improvements over the textbook running times for 3SUM and All-Pairs
   Shortest Paths (APSP) — two of fine-grained complexity theory's oldest, most-studied barriers
@@ -1510,6 +1510,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     `3sum-apsp/` subdirectory: Anthropic's Lean 4/Mathlib formalization of the paper's headline
     theorems, Palomar-registry comparator-checked. Repo README table (opened directly via
     `raw.githubusercontent.com` this session) confirms the project and its toolchain pin.
+  - 2026-10-11 (v1) — https://arxiv.org/abs/2610.15663 — Karingula, Lovett, "A simplified proof of
+    polynomial improvements for 3SUM and APSP": an independent HUMAN simplification of the
+    Alman–Vassilevska Williams result (weaker exponents, built on Schönhage's inner/outer-product
+    identity via "selected-entry matrix multiplication"), a positive independent-engagement/
+    vetting signal distinct from the named co-authors or the Lean formalization. Abstract/authors
+    verified via arXiv API this session; found via today's exploration-slot pass over cs.CC.
 - notes: 2026-10-09 (daily, seed creation): caught via the GitHub repo-watch lane — the
   `anthropics/formal-math` README's project table gained a SECOND row (`3sum-apsp/`, alongside the
   already-tracked `zeta23/` zeta-zeros formalization); the underlying arXiv paper itself (2610.06783,
@@ -1522,6 +1528,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   (Lean-formalized) precedents combined. Also added to `study_shelf`. Watch for: independent human
   engagement/citations, a referee outcome, or a found gap in either the algorithm or the Lean
   formalization.
+  - 2026-10-15 (daily): FIRST independent human engagement — Karingula–Lovett's simplified proof
+    (see evidence) confirms the headline result holds up to independent scrutiny (weaker exponents,
+    different technique), answering part of the "watch for" above. last_evidence advances
+    2026-10-05 → 2026-10-11.
 
 ### Proof of the hyperkähler SYZ conjecture (Engel–Mauri)
 - stage: seed | confidence: medium | first_seen: 2026-10-09 | last_evidence: 2026-10-08
@@ -1627,7 +1637,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-12
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-14
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1792,6 +1802,20 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     opened directly this session. Intake-lane sources (Tao's blog); captured as evidence of
     continuing expert/community vetting discourse per the hard rules' "cite... expert commentary"
     allowance, not as new primary math results. last_evidence advances 2026-10-07 → 2026-10-10.
+  - 2026-10-15 (daily): TWO closures. (a) The 4-to-1 Games Conjecture primary flagged
+    "not located" since the 2026-10-08 report (Quanta's profile of Dor Minzer's human race against
+    this disclosure's Unique-Games-adjacent claim) is now LOCATED: Fei, Minzer, Wang, "On the
+    Hardness of 4-to-1 Games with Perfect Completeness" (https://arxiv.org/abs/2610.12378, v1
+    2026-10-14), confirming Khot's 4-to-1 Games Conjecture (CCC 2002) with PERFECT completeness —
+    stronger than the prior best (Dinur–Khot–Kindler–Minzer–Safra's almost-perfect-completeness
+    result). Found via today's exploration-slot pass over cs.CC (the paper crosses cs.CC, outside
+    this ledger's swept math/physics category set, so this was also a category-blind-miss catch,
+    closed). Own queue line added (below) alongside this note per capture discipline. (b) Result-
+    family #260 ("Spacetime Penrose inequalities…", OpenAI's own CONTENTS.md, dated 2026-10-05) is
+    identified as this disclosure's claimed treatment of the general spacetime Penrose conjecture —
+    see the new "spacetime Penrose conjecture" seed trend above, created this session after an
+    independent human paper (Bray–Dolmen–Khuri–Schmidt) explicitly engaged with this exact claim.
+    last_evidence advances 2026-10-10 → 2026-10-14 (the Penrose-family primary's own dated artifact).
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -2078,6 +2102,91 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   title-visible, no coverage gap). Watch for follow-up measurements on additional cluster samples
   (statistical significance / sample-size growth) and any connection to existing intracluster-gas-
   dynamics or cluster-cosmology trends.
+
+### The spacetime Penrose conjecture (mathematical general relativity)
+- stage: seed | confidence: medium | first_seen: 2026-10-15 | last_evidence: 2026-10-14
+- what: axis-2 DOMAIN-CADENCE LANDMARK with a vetting-status dimension: the GENERAL (non-time-
+  symmetric) spacetime Penrose inequality — a ~50-year-old conjecture of Roger Penrose's, open
+  since the Riemannian (time-symmetric) case was settled by Huisken–Ilmanen (2001) and Bray (2001)
+  — now has TWO independent claimed treatments within a week of each other. (1) OpenAI's Oct 6
+  mass-disclosure (already tracked above, earlier in this ledger) includes result-family #260, "Spacetime Penrose
+  inequalities: enclosing area, charge, rotation, and anti-de Sitter extensions" (several
+  constituent manuscripts, all dated October 5, 2026), an AI-generated, UNREFEREED claim of the
+  fully general case (arbitrary second fundamental form) in all dimensions n≥3 — same heavy
+  hype-skepticism caution as the rest of that disclosure. (2) A new HUMAN preprint by Hubert Bray
+  (co-prover of the original 2001 Riemannian case), Tuan Dolmen, Marcus Khuri, and David Schmidt
+  proves the inequality unconditionally for the restricted but still broad "maximally
+  parameterized" class of initial data (same local degrees of freedom as an arbitrary symmetric
+  2-tensor), in all dimensions n≥3, via a new 1-parameter family of generalized Schoen–Yau
+  identities — and its own abstract EXPLICITLY states "we believe this is what the OpenAI paper
+  posted last week on October 6, 2026 claims to have done," i.e. an established-expert team
+  independently engaging with and partially corroborating an AI org's claim on the same named
+  conjecture within days — exactly the kind of vetting-status datapoint this ledger exists to
+  track. Held at `seed` on the strength of the human paper (established, field-founding authors;
+  domain-cadence landmark on a named 50-year conjecture) with the OpenAI claim tracked alongside
+  as the broader (more general, still unrefereed) companion claim.
+- evidence:
+  - 2026-10-14 (v1) — https://arxiv.org/abs/2610.20559 — Bray, Dolmen, Khuri, Schmidt, "Proof of
+    the Penrose Conjecture for Maximally Parameterized Initial Data Sets": unconditional proof of
+    the spacetime Penrose inequality for maximally parameterized asymptotically flat data, all
+    dimensions n≥3, under the dominant energy condition. Abstract/authors verified via arXiv API
+    this session.
+  - 2026-10-05 (per OpenAI's own repo; found 2026-10-15) — https://github.com/openai/math —
+    `CONTENTS.md` result-family #260, "Spacetime Penrose inequalities: enclosing area, charge,
+    rotation, and anti-de Sitter extensions" (constituent preprints incl. "The spacetime Penrose
+    inequality with charge and original-data rigidity," "A Charged Reduction of the Spacetime
+    Penrose Inequality in Spatial Dimensions at Least Four," "The Kerr–Newman Penrose Inequality
+    for Axisymmetric Electrovacuum Exteriors"): OpenAI's own repo CONTENTS.md opened directly
+    (`raw.githubusercontent.com`) this session — claims the general-case inequality beyond the
+    maximally-parameterized restriction. AI-generated, unrefereed; part of the already-tracked
+    722-manuscript disclosure, not independently verified by this radar.
+- notes: 2026-10-15 (daily, seed creation): caught via the routine math-category arXiv sweep
+  (title-visible, "Penrose Conjecture" keyword match) — the Bray–Dolmen–Khuri–Schmidt paper's own
+  abstract named the OpenAI connection, which this session then confirmed directly against
+  OpenAI's own CONTENTS.md (result-family #260, previously outside this ledger's non-exhaustive
+  sample of that disclosure's named conjectures — see the OpenAI mass-disclosure trend's notes,
+  cross-referenced there too). Also on `study_shelf`. Watch for: independent referee engagement on
+  the Bray et al. paper; whether OpenAI's general-case claim (#260) draws its own independent
+  human engagement (the same promotion-to-own-seed pattern already used for the quasi-Riemann-
+  Hypothesis result-family); whether the two treatments' overlap region (maximally parameterized
+  data) is found to agree.
+
+### A counterexample to the conjecture of Drézet and Ballico-Ellia (uniform vector bundles)
+- stage: seed | confidence: medium | first_seen: 2026-10-15 | last_evidence: 2026-10-14
+- what: axis-1 DOMAIN-CADENCE LANDMARK (algebraic geometry): the FIRST counterexample to the
+  longstanding open conjecture that every uniform vector bundle of rank r<2n on projective space
+  ℙⁿ is homogeneous. Graham Denham, Rosa Miró-Roig, and Hal Schenck — established algebraic
+  geometers/commutative algebraists — construct a rank-9 uniform non-homogeneous vector bundle on
+  ℙ⁵, refuting the conjecture outright. Human-authored, no AI involvement.
+- evidence:
+  - 2026-10-14 (v1) — https://arxiv.org/abs/2610.20208 — Denham, Miró-Roig, Schenck, "Uniform
+    non-homogeneous vector bundles: A counterexample to the conjecture of Drézet and
+    Ballico-Ellia." Abstract/authors verified via arXiv API this session.
+- notes: 2026-10-15 (daily, seed creation): caught via the routine math-category arXiv sweep
+  (title-visible, "counterexample to the conjecture of" keyword match). Unrefereed preprint;
+  standard caution, though the result is a direct explicit construction (not AI-assisted,
+  verifiable by inspection) rather than an extraordinary unverified claim. Watch for independent
+  confirmation/citation.
+
+### A starlike counterexample to the hot spots conjecture (Atar–Burdzy)
+- stage: seed | confidence: medium | first_seen: 2026-10-15 | last_evidence: 2026-10-14
+- what: axis-1 DOMAIN-CADENCE LANDMARK (spectral geometry / PDE): a significant strengthening of
+  the known refutation of Rauch's "hot spots" conjecture (that the hottest/coldest point of a
+  generic insulated body, at late times, lies on the boundary). The conjecture's original
+  counterexamples (Burdzy–Werner 1999) required non-simply-connected 2D domains; this new result,
+  by Rami Atar and Krzysztof Burdzy (Burdzy himself the author of the 1999 counterexample),
+  constructs a bounded, simply-connected (starlike about the origin) Lipschitz domain in ℝ³ whose
+  first Neumann eigenfunction has its unique global maximum in the domain's INTERIOR (at the
+  origin) rather than on the boundary — extending the refutation to a far more restrictive, closer
+  to a previously-expected-true, class of domains.
+- evidence:
+  - 2026-10-14 (v1) — https://arxiv.org/abs/2610.19908 — Atar, Burdzy, "A starlike 3-dimensional
+    counterexample to the hot spots conjecture." Abstract/authors verified via arXiv API this
+    session.
+- notes: 2026-10-15 (daily, seed creation): caught via the routine math-category arXiv sweep
+  (title-visible, "counterexample to the hot spots conjecture" keyword match). Unrefereed preprint;
+  standard caution, same tier as the Drézet–Ballico-Ellia entry above (explicit construction, not
+  AI-assisted). Also on `study_shelf`. Watch for independent confirmation/citation.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -5541,6 +5650,56 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   terminology ("translated-probe estimates," "Raymond's finite source") atypical of the mainstream
   de Bruijn–Newman-constant literature (cf. Rodgers–Tao's Λ≥0, already well-established upper bounds
   ~0.2); do NOT treat as a verified new bound pending independent expert engagement.
+- 2026-10-14 — Fei, Minzer, Wang, "On the Hardness of 4-to-1 Games with Perfect Completeness" —
+  https://arxiv.org/abs/2610.12378 — confirms Khot's 4-to-1 Games Conjecture (CCC 2002) with
+  perfect completeness, improving on Dinur–Khot–Kindler–Minzer–Safra's almost-perfect-completeness
+  result; abstract/authors verified via arXiv API this session; found via today's exploration-slot
+  pass over cs.CC. CLOSES the "primary-not-located" flag standing since the 2026-10-08 report
+  (Quanta's profile of this human race against OpenAI's Unique-Games-adjacent disclosure claim) —
+  see the OpenAI mass-disclosure trend's notes. Axis-1/5-adjacent (complexity theory, off this
+  ledger's core axes but directly tied to an already-tracked AI-disclosure vetting thread); below
+  the seed bar on its own.
+- 2026-10-14 — Karingula, Lovett, "A simplified proof of polynomial improvements for 3SUM and
+  APSP" — https://arxiv.org/abs/2610.15663 — see the 3SUM/APSP refutation trend, where this is
+  appended as new evidence (independent human simplification); logged here too per capture
+  discipline. Found via today's exploration-slot pass over cs.CC.
+- 2026-10-14 — Tomar, "The rank of 3×3 matrix multiplication over 𝔽₂ is 23" —
+  https://arxiv.org/abs/2610.11823 — settles the exact bilinear-complexity rank of 3×3 matrix
+  multiplication over the two-element field (Laderman's 1976 algorithm is optimal), confirming a
+  conjecture open since Rudich–Rousseau's recent lower bound of 22; abstract/author verified via
+  arXiv API this session. SIGNIFICANT, OFF-AXIS exploration catch (algebraic complexity theory,
+  cs.CC) — logged per the mandatory off-axis-rotation directive, not seeded (off this ledger's
+  core axes, no AI/vetting angle).
+- 2026-10-14 (v1) — Braun, Machado, "Poincaré compactifications of pullbacks of parallel vector
+  fields under counterexamples to the real Jacobian conjecture" — https://arxiv.org/abs/2610.19360
+  — a follow-on dynamical-systems analysis using the ALREADY-TRACKED (2026-07, see the
+  Jacobian-conjecture / Keller-map cluster above) counterexamples to the real Jacobian conjecture
+  as inputs; abstract/authors verified via arXiv API this session. Below bar — a downstream
+  application, not a new result on the conjecture itself; folded in as a pointer, not a duplicate
+  cluster entry.
+- 2026-03-16 (v1; found 2026-10-15 via a Quanta retrospective) — Keim, van Dokkum, Shen, Danieli,
+  Pasha, "A Third Galaxy Missing Dark Matter along a Trail of Galaxies in the NGC 1052 Field" —
+  https://arxiv.org/abs/2603.15860 (found via
+  `quantamagazine.org/triplet-of-ghostly-galaxies-hints-at-what-dark-matter-is-and-isnt-20261014/`,
+  Quanta's own retrospective article opened directly this session, which named and summarized
+  this result; the arXiv id itself located via `tvly search`, abstract/authors verified via the
+  arXiv API directly this session) — a third dark-matter-deficient galaxy in the NGC 1052 trail
+  (after DF2, DF4), consistent with a collisional stripping origin; argues AGAINST
+  alternative-gravity theories (which should still show "missing-mass" dynamical effects in a
+  baryon-only system) and FOR particle dark matter. Axis 3, below bar (a third instance of an
+  already-known 2018-era phenomenon, single research group, not a first-of-kind) — a ~7-month-old
+  backfill catch via the digest/pulse lane, not previously on this ledger. Hossenfelder's
+  Backreaction has published a skeptical counter-take ("No, that galaxy without dark matter has
+  not ruled out modified gravity," opened via `tvly search` this session) — cite as the standing
+  counter-argument.
+- 2026-10-14 — Qiao et al., "Evidence for hidden order... in iridate superlattices" —
+  https://arxiv.org/abs/2610.19334 — single-group condensed-matter finding (hole-doped iridates);
+  abstract verified via arXiv API this session. Axis 3, below bar, niche.
+- 2026-10-14 — Zhang, Wang, "Correlation of galactic VHE gamma-ray sources... with high-energy
+  neutrinos" — https://arxiv.org/abs/2610.19649 — a NULL/negative result (LHAASO sources are
+  "improbable counterparts" to IceCube neutrino alerts at current sensitivity); abstract verified
+  via arXiv API this session. Axis 3, below bar — logged for completeness (a vetting-relevant null
+  result on the galactic-neutrino-source question), not a positive finding.
 
 ## source_rotation
 
@@ -5558,6 +5717,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-14 (v1); shelf-added 2026-10-15 — [Proof of the Penrose Conjecture for Maximally
+  Parameterized Initial Data Sets (Bray, Dolmen, Khuri, Schmidt)](https://arxiv.org/abs/2610.20559)
+  — unconditional resolution of a ~50-year-old conjecture in mathematical GR for a broad class of
+  data, by one of the 2001 Riemannian case's original provers; explicitly engages with OpenAI's
+  concurrent general-case AI claim — see new seed trend.
+- 2026-10-14 (v1); shelf-added 2026-10-15 — [A starlike 3-dimensional counterexample to the hot
+  spots conjecture (Atar, Burdzy)](https://arxiv.org/abs/2610.19908) — extends the refutation of
+  Rauch's hot spots conjecture to simply-connected (starlike) domains, by the author of the
+  original 1999 counterexample; see new seed trend.
 - 2026-10-13; shelf-added 2026-10-14 — [Evidence of galaxy cluster rotation in the CMB (Goldstein–Hill)](https://link.aps.org/doi/10.1103/lz37-crg1)
   — first robust detection of the rotational kinematic Sunyaev–Zel'dovich effect, PRL 137, 161001;
   clean peer-reviewed first-of-kind, no AI/hype-skepticism caveat; see new seed trend.

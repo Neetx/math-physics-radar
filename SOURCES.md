@@ -360,6 +360,19 @@ GitHub watch, Watched repositories) — see their entries above; cleared from th
   agmai.org but a critical/activist voice rather than an advisory one. Verified live via `tvly
   extract` this session (200 OK). HELD below the ≥2-sighting bar (1 sighting); access via direct
   `tvly extract`/`WebFetch` on `ahmath.org`, no feed found.
+- 1stproof.org ("First Proof" project, run with ICARM — the NSF Institute for Computer-Aided
+  Reasoning in Mathematics, already known to this ledger via the Lean-FRO/ICARM-incubated Palomar
+  registry) — 1 — "First Proof: Third Batch Grading" (ICARM event, Oct 8-9 2026; webinar announced
+  for 2026-10-14, hosted by ICARM) — first seen 2026-10-15 — discovered via Terence Tao's blog
+  pointer ("First Proof, Third Batch webinar"). A mathematician-run, independently-graded AI-math-
+  capability evaluation (working mathematicians set 10 research-level questions per batch; several
+  AI systems attempt them; field experts grade the results) — distinct from AGMAI (advisory/
+  governance) and Epoch AI (a commercial AI-benchmarking firm's own program): this is a THIRD type
+  of AI-vetting-lane source, structurally the strongest independent-grading signal yet for this
+  ledger's hype-skepticism mandate (it assesses claims rather than making or hosting them). NOT yet
+  independently opened past the ICARM event page/Tao's pointer this session. HELD below the
+  ≥2-sighting bar (1 sighting); access via `tvly extract`/`tvly search` on `icarm.io` and
+  `1stproof.org`, no feed found yet.
 - epoch.ai ("FrontierMath Erdős" program) — 1 — a proof of the Erdős–Simonovits rational exponents
   conjecture, claimed by an Epoch AI model and human-verified/written up by eight mathematicians
   (arXiv:2610.18713) — first seen 2026-10-14 — discovered via a `tvly search` chase on the paper's
