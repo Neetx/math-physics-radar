@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-15
+Last updated: 2026-10-16
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1926,7 +1926,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   watch for a definitive formation-channel consensus.
 
 ### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
-- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-05
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-15
 - what: axis-1 DOMAIN-CADENCE LANDMARK, PROMOTED out of prose: one specific result-family (#003)
   inside the already-tracked OpenAI mass-disclosure release (2026-10-06, 722 manuscripts) had sat
   named only in that trend's `what` text since 2026-10-07 — a capture-leak by this ledger's own
@@ -1952,6 +1952,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-10-05 — https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf
     — companion manuscript, alternate proof of the stronger ℜs>11/12 half-plane, explicitly ruling
     out Landau–Siegel zeros. Verified live via `raw.githubusercontent.com` this session.
+  - 2026-10-15 — https://arxiv.org/abs/2610.21099 — Bryce Kerr, "A simpler proof that there are no
+    Landau–Siegel zeros" — explicitly states it simplifies the OpenAI proof above. The first
+    INDEPENDENT HUMAN ENGAGEMENT that reproduces/simplifies (not merely discusses) one of this
+    result-family's two half-planes — exactly the watch condition this trend has carried since
+    10-13. Still not a full independent re-derivation from scratch nor a referee report; confidence
+    held at `medium` pending a fuller read of whether Kerr's simplification is self-contained or
+    leans on OpenAI's own lemmas.
 - notes: 2026-10-13 (daily, seed creation/promotion): caught via today's MathOverflow sweep — two
   fresh threads (2026-10-12), Benjamin Durkan proposing a Polymath-type verification project ("the
   proof proffered by OpenAI is quite opaque... it would be beneficial for humans to break down the
@@ -1966,6 +1973,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   vetting outcome, not the mathematics, per the hard rule. Watch for: a completed independent
   verification (human or Lean) of either half-plane, referee commentary, or the proposed Polymath
   project actually launching.
+  - 2026-10-16 (daily): Bryce Kerr's "A simpler proof that there are no Landau–Siegel zeros"
+    (arXiv:2610.21099, caught via today's math-category arXiv sweep, title-visible) explicitly
+    states it simplifies the OpenAI proof above — the first INDEPENDENT HUMAN ENGAGEMENT that
+    reproduces/simplifies (not merely discusses) one of this result-family's two half-planes, the
+    watch condition carried since seed creation. Still short of a full independent re-derivation or
+    a referee report (confidence held at `medium`); not yet clear whether Kerr's simplification is
+    self-contained or leans on OpenAI's own lemmas. Watch for: whether this is itself treated by the
+    community as confirming correctness of the ℜs>7/8 bound, and a similar simplification of the
+    stronger ℜs>11/12 proof.
 
 ### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
 - stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
@@ -2187,6 +2203,51 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   (title-visible, "counterexample to the hot spots conjecture" keyword match). Unrefereed preprint;
   standard caution, same tier as the Drézet–Ballico-Ellia entry above (explicit construction, not
   AI-assisted). Also on `study_shelf`. Watch for independent confirmation/citation.
+
+### A proof of the Area Vanishing Square Peg Conjecture (Valerio)
+- stage: seed | confidence: medium | first_seen: 2026-10-16 | last_evidence: 2026-10-15
+- what: axis-1 DOMAIN-CADENCE LANDMARK — resolves an open problem posed by Terence Tao related to
+  the Toeplitz square peg conjecture (a prominent open generalization of the classical inscribed-
+  square problem). Proves that four simple closed polygonal curves in a cylinder, each winding once
+  positively, jointly inscribe a square whenever the alternating sum of their ∫y dx integrals
+  vanishes; reduces the problem to non-displaceability of a pair of Lagrangian tori, established via
+  Lagrangian Floer homology. Single-author preprint — standard unrefereed-preprint caution (not
+  AI-assisted; a human mathematician's explicit construction/proof, same caution tier as this
+  session's other non-AI counterexample/proof catches).
+- evidence:
+  - 2026-10-15 — https://arxiv.org/abs/2610.21076 — Lorenzo Valerio, "A Proof of the Area Vanishing
+    Square Peg Conjecture." Abstract/authors verified via arXiv API this session.
+- notes: 2026-10-16 (daily, seed creation): caught via today's math-category arXiv sweep
+  (title-visible, "Proof of the ... Conjecture" keyword match). Watch for independent
+  confirmation/citation, and for whether this technique extends toward the full (non-area-vanishing)
+  Toeplitz square peg conjecture that motivated it.
+
+### M23 realized as a Galois group over Q, completing the inverse Galois problem for sporadic groups (Huang–Jackson–Lee–Poonen–Pries–Zhang)
+- stage: seed | confidence: high | first_seen: 2026-10-16 | last_evidence: 2026-08-09
+- what: axis-1 DOMAIN-CADENCE LANDMARK, BACKFILLED CAPTURE-LEAK CLOSURE (same class as the GW231123
+  and Abel Prize backfills) — completes a ~40-year program: 25 of the 26 sporadic finite simple
+  groups were realized as Galois groups over ℚ by the late 1980s via rigidity methods (Thompson,
+  Matzat, Malle et al.); the Mathieu group M23 was the last holdout. This paper produces an explicit
+  degree-23 polynomial with rational coefficients whose splitting field has Galois group M23 over ℚ,
+  closing the inverse Galois problem for all 26 sporadic groups. High-confidence authorship (Bjorn
+  Poonen, MIT, a leading number theorist, among 6 co-authors) and an explicit, checkable
+  construction — held at `high` confidence despite being a preprint, same treatment this ledger
+  gives other explicit-construction results from established authors. AI assistance is disclosed
+  (accelerated computation) but the result/proof is human-authored and explicit, not an AI-claimed
+  proof — axis-5 WATCH only, not the axis-1 hype-skepticism caution tier.
+- evidence:
+  - 2026-08-09 — https://arxiv.org/abs/2608.08538 — Huang, Jackson, Lee, Poonen, Pries, Zhang, "The
+    Mathieu group M23 is a Galois group over ℚ." Abstract/authors/date verified via arXiv API this
+    session.
+  - 2026-08-11 — https://icarm.io/news/icarm-s-blake-jackson-involved-in-solving-the-inverse-galois-problem-for-the-las/
+    — ICARM's own announcement (co-author Blake Jackson is an ICARM Innovation Engineer), confirming
+    the 40-year program and background. Opened directly via `tvly extract` this session.
+- notes: 2026-10-16 (daily, seed creation, CAPTURE-LEAK BACKFILL): surfaced via this session's
+  deeper AI-watch-lane chase on icarm.io (previously staged in SOURCES.md on 2026-10-15 from only a
+  single webinar-announcement page) — its own `/news` index had never been swept past that one page,
+  missing this and the item below for over two months. A genuinely significant pure-math landmark
+  that carries essentially zero AI-hype-skepticism risk (explicit, checkable, human-led). Watch for:
+  independent verification/citation of the M23 construction.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -5700,6 +5761,57 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   "improbable counterparts" to IceCube neutrino alerts at current sensitivity); abstract verified
   via arXiv API this session. Axis 3, below bar — logged for completeness (a vetting-relevant null
   result on the galactic-neutrino-source question), not a positive finding.
+- 2026-10-15 — Hirota, "A Proof of the Jung-Kim Conjecture on the Centers of Walled Brauer
+  Algebras" — https://arxiv.org/abs/2610.21576 — axis 1 (representation theory), single-group
+  conjecture proof, below the landmark bar (a named but not widely-famous conjecture). Abstract
+  verified via arXiv API this session.
+- 2026-10-15 — Nienhaus, Wulle, "The Hopf conjecture with T^3-symmetry" — https://arxiv.org/abs/2610.22173
+  — axis 1 (differential geometry), a symmetric special case of the (still fully open) Hopf
+  conjecture on positive sectional curvature and Euler characteristic, not the conjecture itself.
+  Abstract verified via arXiv API this session.
+- 2026-10-15 — Hofmann, Nicholson, "A counterexample to a conjecture of Plotnick on knot exteriors" —
+  https://arxiv.org/abs/2610.21051 — axis 1 (geometric topology), resolves a 1983 conjecture on
+  4D knot-complement homotopy types; below bar (a specialist conjecture, niche subfield). Abstract
+  verified via arXiv API this session.
+- 2026-10-15 — Broćić, Serraille, Trifa, "A counterexample to the generalized Viterbo conjecture on
+  the spectral distance in a disc cotangent bundle" — https://arxiv.org/abs/2610.22175 — axis 1
+  (symplectic geometry); disproves a GENERALIZATION of Viterbo's conjecture, not the original
+  conjecture. Abstract verified via arXiv API this session.
+- 2026-10-15 — Huang, Liu, "The asymptotic Erdős–Frankl–Füredi cover-free conjecture" —
+  https://arxiv.org/abs/2610.22021 — axis 1 (combinatorics), confirms a 1985 conjecture's asymptotic
+  threshold; below bar (asymptotic/incremental, not a headline open problem). Abstract verified via
+  arXiv API this session.
+- 2026-10-15 — Loukaki, "A simultaneous variant of the Hall-Paige theorem and applications" —
+  https://arxiv.org/abs/2610.21600 — axis 1 (group theory), extends a classical theorem; below bar
+  (technical extension, not a conjecture resolution). Abstract verified via arXiv API this session.
+- 2026-10-15 — Kerr (co-author list TBD), "A New Bound for the Gauss Circle Problem" —
+  https://arxiv.org/abs/2610.21730 — axis 1 (analytic number theory): proves E(X)=O(X^(209/670+ε)),
+  breaking the 5/16 exponent long believed a limit of the Bombieri–Iwaniec method. Below bar (an
+  incremental exponent improvement in a long sequence, not a conjecture resolution), but notable —
+  watch for citations treating this as a methodological breakthrough. Abstract verified via arXiv
+  API this session.
+- 2026-10-15 — BESIII Collaboration, "First Observation of the Radiative Decay D^0 → γω" —
+  https://arxiv.org/abs/2610.21982 — axis 3 (hep-ex), a routine collaboration first-observation at
+  6.0σ (branching-fraction measurement); below bar — BESIII/LHCb/Belle-II publish such "first
+  observation" papers regularly, not treated as a domain-cadence landmark on its own. Abstract
+  verified via arXiv API this session.
+- 2026-10-15 — "Gallium Anomaly and Solar Neutrinos" — https://arxiv.org/abs/2610.22219 — axis 3/4
+  (nucl-ex/neutrino physics), a theoretical reanalysis proposing the Sun as a calibration source for
+  the long-standing Gallium Anomaly; below bar (proposal/reanalysis, not a new measurement). Abstract
+  verified via arXiv API this session.
+- 2026-10-16 — "Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era" —
+  https://www.simonsfoundation.org/ (routine feed sweep, opened directly this session) — axis 5
+  WATCH, community-governance/funding item parallel to agmai.org/ahmath.org — a major funder
+  formally entering the AI-in-mathematics governance space. Not itself a research result; watch for
+  what the program funds.
+- 2026-08-20 (backfill, found 2026-10-16) — "ranksunbounded" (pseudonymous), rank-30 elliptic curve
+  submission to ICARM's Elliptic Curve Rank Leaderboard — https://icarm.io/news/new-record-breaking-elliptic-curve-reported/
+  — surpasses the rank-29 record (Elkies & Klagsbrun, 2024) for the largest known elliptic-curve
+  rank over ℚ. UNVERIFIED by this ledger's primary-source bar: no paper, no named/credentialed
+  author, verified only by ICARM's own leaderboard checker (not a Lean/mathlib/Rocq formal-proof
+  repository, not a peer-reviewed/arXiv primary) — track as a queue item pending either a writeup
+  with a named author or independent confirmation of the certified rank, do NOT treat as evidence.
+  Discovered via the same icarm.io `/news` sweep as the M23 trend above.
 
 ## source_rotation
 
@@ -5717,6 +5829,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-08-09 (v1); shelf-added 2026-10-16 — [The Mathieu group M23 is a Galois group over ℚ
+  (Huang, Jackson, Lee, Poonen, Pries, Zhang)](https://arxiv.org/abs/2608.08538) — completes a
+  ~40-year program, realizing the last of the 26 sporadic finite simple groups as a Galois group
+  over ℚ via an explicit degree-23 polynomial; see new seed trend (backfilled capture-leak
+  closure).
+- 2026-10-15 (v1); shelf-added 2026-10-16 — [A Proof of the Area Vanishing Square Peg Conjecture
+  (Valerio)](https://arxiv.org/abs/2610.21076) — resolves a Tao-posed open problem via Lagrangian
+  Floer homology, an elegant cross-pollination of symplectic topology into a classical planar-
+  geometry question; see new seed trend.
 - 2026-10-14 (v1); shelf-added 2026-10-15 — [Proof of the Penrose Conjecture for Maximally
   Parameterized Initial Data Sets (Bray, Dolmen, Khuri, Schmidt)](https://arxiv.org/abs/2610.20559)
   — unconditional resolution of a ~50-year-old conjecture in mathematical GR for a broad class of

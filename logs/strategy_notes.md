@@ -1820,3 +1820,23 @@ coding) this week. No redirection needed.
   other similarly-obvious unswept physics archives (e.g. `nucl-th`/`nucl-ex` are listed — good —
   but double-check `physics.*` subcats, `hep-ex` for experimental HEP results distinct from the
   theory/phenomenology already covered via hep-ph).
+- 2026-10-16 (daily) — STRUCTURAL LESSON FOR THE NEXT WEEKLY: icarm.io/1stproof.org sat staged
+  since 2026-10-15 on the strength of ONE page (the First-Proof-webinar announcement); today's
+  session opened its `/news` index for the first time and found TWO uncaptured landmark-class
+  items sitting there for ~2 months (the M23 inverse-Galois-problem completion, 2026-08-09; a
+  rank-30 elliptic-curve leaderboard record, 2026-08-20) plus the already-known Palomar
+  announcement and an unflagged Leiden Declaration endorsement. Root cause: this radar's staging
+  discipline (SOURCES.md → "Discovered-source candidates") records the ONE artifact that triggered
+  staging, not a directive to sweep that source's own index page the same session — so a newly
+  discovered primary source can sit staged for weeks with its own backlog unread, even though the
+  radar is actively watching for it to clear the 2-sighting bar. This is the same CLASS of gap as
+  the hep-lat/hep-ex unswept-category find (2026-10-13) and the Abel/Shaw annual-prize-laureate
+  gap (2026-W41): a source or category gets LISTED/STAGED but the actual sweep of its content
+  lags behind the listing. Worth the weekly considering a standing rule: the FIRST session that
+  stages a new discovered-source candidate also opens that source's own "what's new" index (not
+  just the single page that named the triggering artifact) before moving on, so staging and first
+  full-sweep happen in the same session rather than being decoupled. Not fixed structurally this
+  session (a daily executes, it does not amend the staging procedure) — flagged for the cooling-
+  period/amendment path. Anchoring check: NOT triggered — one trend updated (quasi-RH, Kerr
+  simplification) plus two new seed trends this daily alone; off-axis exploration (nlin.CD)
+  logged 0 catch this run but the roster is mid-rotation, not a repeated 0 streak.

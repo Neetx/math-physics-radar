@@ -1,19 +1,18 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-33-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-348-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--15-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-35-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-359-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--16-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-15, daily):** three new landmark seed trends on classical named conjectures, plus a vetting-status cross-reference closing two standing flags on the OpenAI mass-disclosure story.
-- NEW: [The spacetime Penrose conjecture](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) — [Bray, Dolmen, Khuri, Schmidt](https://arxiv.org/abs/2610.20559) prove the ~50-year-old spacetime Penrose inequality for a broad data class, and their own abstract flags that OpenAI's Oct-6 disclosure's result-family #260 claims the fully general case — a rare direct human/AI-claim cross-reference on the same named conjecture within days.
-- NEW: [A starlike counterexample to the hot spots conjecture](TRENDS.md#a-starlike-counterexample-to-the-hot-spots-conjecture-atarburdzy) — [Atar–Burdzy](https://arxiv.org/abs/2610.19908) extend Rauch's hot-spots-conjecture refutation to simply-connected domains, by the author of the original 1999 counterexample.
-- NEW: [A counterexample to the Drézet–Ballico-Ellia conjecture](TRENDS.md#a-counterexample-to-the-conjecture-of-drézet-and-ballico-ellia-uniform-vector-bundles) — [Denham, Miró-Roig, Schenck](https://arxiv.org/abs/2610.20208) give the first counterexample to this longstanding uniform-vector-bundle conjecture.
-- The OpenAI mass-disclosure trend closes two standing flags: the "primary-not-located" Minzer/Fei/Wang [4-to-1 Games Conjecture proof](https://arxiv.org/abs/2610.12378) is now found (via today's cs.CC exploration pass), and the Penrose cross-reference above identifies a previously-unsampled result family (#260).
-- Source-discovery: `1stproof.org`/ICARM staged (1 sighting, see [SOURCES.md](SOURCES.md)) — a mathematician-run, independently-graded AI-math-capability evaluation, a third type of AI-vetting-lane source.
+**Since last scan (2026-10-16, daily):** a major vetting-status update on the OpenAI quasi-RH claim, plus two new landmark seed trends — one a ~40-year-old program finally completed, backfilled from a source this radar only half-swept until today.
+- UPDATED: [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) — [Bryce Kerr](https://arxiv.org/abs/2610.21099) publishes "A simpler proof that there are no Landau–Siegel zeros," explicitly simplifying OpenAI's proof — the first independent human engagement that reproduces (not just discusses) part of this claim, the watch condition this trend has carried since creation.
+- NEW (backfill): [M23 realized as a Galois group over ℚ](TRENDS.md#m23-realized-as-a-galois-group-over-q-completing-the-inverse-galois-problem-for-sporadic-groups-huangjacksonleepoonenprieszhang) — [Huang, Jackson, Lee, Poonen, Pries, Zhang](https://arxiv.org/abs/2608.08538) complete a ~40-year program, realizing the last of the 26 sporadic finite simple groups as a Galois group over ℚ; found via a deeper sweep of icarm.io, staged only yesterday from a single page.
+- NEW: [A Proof of the Area Vanishing Square Peg Conjecture](TRENDS.md#a-proof-of-the-area-vanishing-square-peg-conjecture-valerio) — [Lorenzo Valerio](https://arxiv.org/abs/2610.21076) resolves a Tao-posed open problem via Lagrangian Floer homology.
+- Source-discovery: `icarm.io`/`1stproof.org` clears the ≥2-sighting promotion bar (see [SOURCES.md](SOURCES.md)) — its own news index, opened in full for the first time this session, also carries a queued rank-30 elliptic-curve leaderboard record.
 
 ## Trends
 
-🌱 28 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 30 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -21,6 +20,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.11189) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) | 🌱 seed | [2026-10-15](https://arxiv.org/abs/2610.21099) |
+| [Area Vanishing Square Peg Conjecture (Valerio)](TRENDS.md#a-proof-of-the-area-vanishing-square-peg-conjecture-valerio) | 🌱 seed | [2026-10-15](https://arxiv.org/abs/2610.21076) |
 | [The spacetime Penrose conjecture](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.20559) |
 | [Hot spots conjecture counterexample (Atar–Burdzy)](TRENDS.md#a-starlike-counterexample-to-the-hot-spots-conjecture-atarburdzy) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.19908) |
 | [Drézet–Ballico-Ellia counterexample](TRENDS.md#a-counterexample-to-the-conjecture-of-drézet-and-ballico-ellia-uniform-vector-bundles) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.20208) |
@@ -37,7 +38,6 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Lattice chiral-fermion Standard Model (Craig)](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) | 🌱 seed | [2026-10-06](https://arxiv.org/abs/2610.09093) |
 | [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-10-05](https://arxiv.org/abs/2610.06838) |
 | [3SUM / APSP hypotheses refuted](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-05](https://arxiv.org/abs/2610.06783) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) | 🌱 seed | [2026-10-05](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf) |
 | [Linear Hadwiger Conjecture proof](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) | 🌱 seed | [2026-10-04](https://arxiv.org/abs/2610.05291) |
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-02](https://arxiv.org/abs/2610.01240) |
 | [The Hopf problem — S⁶ complex structure](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
@@ -46,6 +46,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Cassels–Swinnerton-Dyer for cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
 | [Inhomogeneous Duffin-Schaeffer disproved](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30870) |
 | [Ehlers–Kundt conjecture counterexample](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
+| [M23 inverse-Galois-problem completion](TRENDS.md#m23-realized-as-a-galois-group-over-q-completing-the-inverse-galois-problem-for-sporadic-groups-huangjacksonleepoonenprieszhang) | 🌱 seed | [2026-08-09](https://arxiv.org/abs/2608.08538) |
 | [Sum-product conjecture disproved](TRENDS.md#disproof-of-the-erdősszemerédi-sum-product-conjecture-bloomsawinschildkrautzhelezov) | 🌱 seed | [2026-05-27](https://arxiv.org/abs/2605.28781) |
 | [Erdős unit-distance disproof (OpenAI)](TRENDS.md#disproof-of-the-erdős-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://arxiv.org/abs/2605.20695) |
 | [Graham's rearrangement conjecture resolved](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
@@ -53,6 +54,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-08-09 (v1); shelf-added 2026-10-16 — [The Mathieu group M23 is a Galois group over ℚ (Huang, Jackson, Lee, Poonen, Pries, Zhang)](https://arxiv.org/abs/2608.08538) — completes a ~40-year program, realizing the last of the 26 sporadic finite simple groups as a Galois group over ℚ via an explicit degree-23 polynomial; see new seed trend (backfilled capture-leak closure).
+- 2026-10-15 (v1); shelf-added 2026-10-16 — [A Proof of the Area Vanishing Square Peg Conjecture (Valerio)](https://arxiv.org/abs/2610.21076) — resolves a Tao-posed open problem via Lagrangian Floer homology, an elegant cross-pollination of symplectic topology into a classical planar-geometry question; see new seed trend.
 - 2026-10-14 (v1); shelf-added 2026-10-15 — [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets (Bray, Dolmen, Khuri, Schmidt)](https://arxiv.org/abs/2610.20559) — unconditional resolution of a ~50-year-old conjecture in mathematical GR for a broad data class, by one of the 2001 Riemannian case's original provers; explicitly engages with OpenAI's concurrent general-case AI claim; see new seed trend.
 - 2026-10-14 (v1); shelf-added 2026-10-15 — [A starlike 3-dimensional counterexample to the hot spots conjecture (Atar, Burdzy)](https://arxiv.org/abs/2610.19908) — extends the refutation of Rauch's hot spots conjecture to simply-connected (starlike) domains, by the author of the original 1999 counterexample; see new seed trend.
 - 2026-10-13; shelf-added 2026-10-14 — [Evidence of galaxy cluster rotation in the CMB (Goldstein–Hill)](https://link.aps.org/doi/10.1103/lz37-crg1) — first robust detection of the rotational kinematic Sunyaev–Zel'dovich effect, PRL 137, 161001; clean peer-reviewed first-of-kind, no AI/hype-skepticism caveat; see new seed trend.
@@ -180,12 +183,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 ## Community pulse
 
 - Hacker News front page carried nothing on-axis today.
-- Terence Tao's blog pointed to "First Proof, Third Batch webinar" (ICARM) — a new mathematician-run AI-math-grading venue, staged as a source-discovery candidate.
-- Quanta's dark-matter retrospective surfaced a ~7-month-old backfill (a third dark-matter-deficient NGC 1052-trail galaxy); Hossenfelder's Backreaction carries the standing skeptical counter-take.
-- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (15+ weeks running); the `tvly search` fallback showed only already-tracked OpenAI-release discussion.
-- Today's biggest catches came from the mandatory off-axis exploration slot (cs.CC), not the social/digest lane — see the trend table and queue above.
+- Terence Tao's blog posted a guest opinion piece on AI-in-mathematics ("Why are we even doing all this?") — commentary, no new primary result.
+- MathOverflow's two quasi-RH-related threads remain the standing community venue for that claim; nothing new there this session.
+- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (16+ weeks running); the `tvly search` fallback showed only already-tracked OpenAI-release discussion.
+- Today's biggest catches came from the arXiv math sweep and a deeper look at a recently-staged AI-watch source (icarm.io), not the social/digest lane — see the trend table and queue above.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (348) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-15](reports/2026-10-15.md)) · Weekly: [2026-W41](reports/weekly/2026-W41.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (359) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-16](reports/2026-10-16.md)) · Weekly: [2026-W41](reports/weekly/2026-W41.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
 </content>
