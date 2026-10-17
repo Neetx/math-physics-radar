@@ -1840,3 +1840,40 @@ coding) this week. No redirection needed.
   period/amendment path. Anchoring check: NOT triggered — one trend updated (quasi-RH, Kerr
   simplification) plus two new seed trends this daily alone; off-axis exploration (nlin.CD)
   logged 0 catch this run but the roster is mid-rotation, not a repeated 0 streak.
+- 2026-10-17 (weekly, W42) — **Amendment K APPLIED** (proposed W41, cooling period elapsed, no
+  dated curator veto, motivating signal unchanged — the structural gap it closes, no discrete
+  per-prize laureate-queued checklist, still exists): `routines/weekly.md` §4 now carries a
+  standing per-weekly check that each tracked annual prize's current laureate has a discrete
+  queue/evidence/shelf line, independent of whether the prize's own feed shows anything new that
+  week. Ran the checklist this session: Abel (Faltings), Shaw (Candès/De Lellis), Breakthrough
+  (Muon g-2 collaborations), Fields (Deng/Pardon/Tsimerman/Wang), Nobel Physics (Halzen/IceCube) —
+  all five already carry a discrete line (the Abel/Shaw gaps the amendment was motivated by were
+  closed last week); nothing to close this run. Dedicated commit: `radar: amend routines/weekly.md
+  — add annual-prize laureate checklist (Amendment K)`.
+- 2026-10-17 (weekly, W42) — **Amendment L PROPOSED (cooling period, review at W43 if signal
+  persists):** TRENDS.md's structural-size flag recurred in 4 of this week's 5 daily reports
+  (2026-10-13 through 2026-10-16), each independently noting the ledger is large (~577KB→~630KB
+  over the week) and that a handful of long-lived trends (Ramsey: ~416 lines; Stanley-Gasharov:
+  ~205 lines) are dominated by repetitive pre-dating-the-note-discipline-rule "HELD, unchanged,
+  nothing found" daily entries that the CURRENT note-discipline rule (log only when something
+  changes) would now forbid writing fresh. Proposal: extend the already-established
+  source_rotation/strategy_notes externalization precedent to TRENDS.md itself — once a trend's
+  own per-day recalibration history exceeds roughly 15 entries, RELOCATE (verbatim, not rewritten —
+  "never rewrite published history" is satisfied by moving text unaltered, the same guarantee the
+  original source_rotation/strategy_notes split relied on) its notes older than the most recent
+  ~8 weekly-cycles into a new append-only `logs/trend_history.md`, leaving a one-line pointer in
+  TRENDS.md itself plus the most recent few notes. Not applied this session (a structural change
+  touching many trends at once is exactly the kind of risk the cooling-period gate exists for);
+  if the size flag recurs next week, apply at W43.
+- 2026-10-17 (weekly, W42) — **Amendment M PROPOSED (cooling period, review at W43 if signal
+  persists):** motivated by the 2026-10-16 daily's own structural flag (see its entry above,
+  2026-10-16) — staging a newly-discovered source in SOURCES.md on the strength of the single page
+  that named the triggering artifact can leave that source's own "what's new" index unread for
+  weeks (icarm.io/1stproof.org sat staged one day before its own `/news` backlog, including a
+  2-month-old landmark, was finally opened). Proposal: amend `routines/weekly.md` §4 (source
+  discovery) so that the FIRST session to stage a new discovered-source candidate also opens that
+  source's own top-level "what's new"/index page (not just the single triggering page) in the same
+  session, before moving on — closing the staging/first-full-sweep gap rather than leaving it
+  decoupled. Not applied this session (routines/daily.md is where staging actually happens, so
+  this needs the daily's own text amended too — a two-file change warrants the normal cooling
+  period); if the pattern recurs, apply at W43.

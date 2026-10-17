@@ -77,6 +77,16 @@ like a top-level one. Never assert "0 sources missing" without having run this f
 diff. Any source MISSING all week is a coverage lie: heal it
 now (`radar-source-heal`), or if already healed and still un-sweepable, propose
 heal-or-REMOVE (don't list what you won't sweep).
+**Annual-prize laureate checklist (Amendment K, applied 2026-W42 — proposed W41, motivated by the
+Abel Prize 2026 sitting uncaptured on this ledger entirely and the Shaw Prize 2026 sitting
+flagged-but-unclosed for 3 months before the W41 weekly finally closed both; cooling period
+elapsed, no curator veto, signal persists — the structural gap this closes has not changed):**
+for each of the tracked annual prizes (Abel, Breakthrough, Shaw, IMU/Fields Medal; Nobel Physics
+during its October season) that has already announced this cycle's laureate, confirm — every
+weekly, regardless of whether the prize's own feed shows anything new this week — that the
+laureate has a discrete queue/evidence/shelf line on this ledger. If not, close it now. This is a
+cheap presence check (search this ledger for the laureate's name), not a fresh fetch of the
+prize's site.
 Then compare the coverage log against the ledger: which sources produced evidence, which
 produced nothing repeatedly; are the scope priorities in `logs/strategy_notes.md` actually covered?
 Tunnel-vision check: if ALL of this week's new evidence landed on pre-existing trends, record
