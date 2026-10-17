@@ -115,9 +115,22 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   proofatlas.ai, but for a third-party AI-benchmarking firm publishing its own agents' math/physics
   claims rather than a model vendor; no feed, access via direct URL (`vals.ai/blogs/<slug>`), blog
   index at `vals.ai/blogs`.
+- icarm.io / 1stproof.org ("First Proof" project, run with ICARM — the NSF-funded Institute for
+  Computer-Aided Reasoning in Mathematics, hosted at Carnegie Mellon) — **[promoted 2026-10-17 (W42
+  weekly); verified live via `tvly extract` on `icarm.io/news` this session (confirmed real, current,
+  on-axis content — 10 items Aug 2025–Oct 2026, incl. the M23 inverse-Galois-problem landmark and
+  the rank-30 elliptic-curve leaderboard record) — cleared the ≥2-sighting bar staged 2026-10-16]**
+  — AI-WATCH-LANE PRIMARY, a legitimate research institute self-publishing primary research/program
+  announcements, same pattern as agmai.org/openai.com/anthropic.com. **RSS feed located this
+  session (corrects the prior staging note's "no RSS located yet"): `https://icarm.io/feed`**
+  (mirrored at `/feed/` and `/rss.xml`; verified via plain `curl -A "Mozilla/5.0"`, HTTP 200,
+  RSS 2.0 with full `content:encoded` bodies) — prefer this feed going forward over `tvly extract`.
+  `1stproof.org` (the companion First Proof program site, a distinct domain) is live but has no
+  feed (`/feed` 404s) — access stays direct-URL/`tvly extract`, treat as a secondary/companion
+  entry to icarm.io rather than a separate source.
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
-- IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops). SLMath DEGRADED a 3rd consecutive weekly on `tvly extract` (W41 2026-10-10: "Failed to fetch url" again) — crossed the heal-owed bar this session; HEALED: `WebFetch` directly on `https://www.slmath.org/news` returns the page cleanly (no JS-shell/empty-body issue) — prefer `WebFetch` first going forward for this source, `tvly search "slmath.org news <year>"` as fallback. Isaac Newton Institute HEALED this session (W40): the standing Cloudflare-403 (both direct `curl`/`WebFetch`) is bypassed by `tvly extract` — clean 26k-char page, no challenge — prefer `tvly extract` going forward for this source.
+- IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops). SLMath DEGRADED a 3rd consecutive weekly on `tvly extract` (W41 2026-10-10: "Failed to fetch url" again) — crossed the heal-owed bar this session; HEALED: `WebFetch` directly on `https://www.slmath.org/news` returns the page cleanly (no JS-shell/empty-body issue) — prefer `WebFetch` first going forward for this source, `tvly search "slmath.org news <year>"` as fallback. **REGRESSED 2026-10-17 (W42): the W41 WebFetch heal no longer works — WebFetch now returns only the page `<title>` with no body, `tvly extract` fails outright ("Failed to fetch url"), and direct `curl` returns a 200 but only a 3.5KB JS-shell with no news content — a genuine new JS-render block, not a transient. Only `tvly search "slmath.org news October 2026"` recovers any content (partial — surfaced 2 items, not a full "what's new" browse). First occurrence of this specific failure mode (3rd distinct failure mode on this source overall) — not yet heal-owed, re-test next weekly before escalating.** Isaac Newton Institute HEALED this session (W40): the standing Cloudflare-403 (both direct `curl`/`WebFetch`) is bypassed by `tvly extract` — clean 26k-char page, no challenge — prefer `tvly extract` going forward for this source.
 - KITP (Kavli Institute for Theoretical Physics, UCSB) — https://www.kitp.ucsb.edu/ **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical-physics programs & talks (with Perimeter above, the two hubs for the field's current directions)
 - (agent: add ICTP, Max Planck (MPP/AEI), Perimeter/PIRSA talks, APS *Physics* Magazine as they prove high-signal. DROPPED 2026-07-02: Symmetry Magazine — curl 403 AND `tvly` fetch BOTH fail (Cloudflare); redundant with CERN Courier + Fermilab + INSPIRE for HEP.)
 
@@ -360,29 +373,25 @@ GitHub watch, Watched repositories) — see their entries above; cleared from th
   agmai.org but a critical/activist voice rather than an advisory one. Verified live via `tvly
   extract` this session (200 OK). HELD below the ≥2-sighting bar (1 sighting); access via direct
   `tvly extract`/`WebFetch` on `ahmath.org`, no feed found.
-- 1stproof.org / icarm.io ("First Proof" project, run with ICARM — the NSF Institute for
-  Computer-Aided Reasoning in Mathematics, already known to this ledger via the Lean-FRO/
-  ICARM-incubated Palomar registry) — 2 — (1) "First Proof: Third Batch Grading" webinar
-  announcement, first seen 2026-10-15; (2) 2026-10-16: opened `icarm.io/news` in full for the first
-  time (previously only the single webinar-announcement page had been read) and found its OWN news
-  feed carries primary research/record announcements distinct from the First Proof program itself —
-  the M23 inverse-Galois-problem completion (arXiv:2608.08538, 2026-08-09, NEW SEED trend) and the
-  rank-30 elliptic-curve leaderboard record (2026-08-20, queued, provenance caution) — a backfilled
-  capture-leak CLEARS the ≥2-sighting promotion bar this session; also carries the Palomar
-  announcement (already tracked) and a Leiden Declaration endorsement (AI-governance, not yet
-  captured). STAGED FOR PROMOTION: the next weekly should verify `icarm.io/news` as a recurring feed
-  (no RSS located yet — access via `tvly extract`/`tvly search` on `icarm.io`, no feed found) and
-  promote to the AI-watch-lane Primary feeds list, DAILY tier — this is now a confirmed recurring
-  primary-research-announcement channel, not just an AI-vetting-program page.
 - epoch.ai ("FrontierMath Erdős" program) — 1 — a proof of the Erdős–Simonovits rational exponents
   conjecture, claimed by an Epoch AI model and human-verified/written up by eight mathematicians
   (arXiv:2610.18713) — first seen 2026-10-14 — discovered via a `tvly search` chase on the paper's
   own "claimed by Epoch AI" attribution; a THIRD AI organization (after OpenAI, Anthropic) disclosing
   claimed major math results, but with a distinguishing feature — Epoch AI's own program page states
   a submission must pass Lean proof-checking (`Comparator`, maintained by the Lean FRO) before being
-  accepted, a stronger formal-verification gate than OpenAI's unrefereed-PDF pattern. NOT yet
-  independently opened this session (a guessed `epoch.ai/frontiermath/erdos` path 404'd; the live URL
-  needs locating next sighting). HELD below the ≥2-sighting bar (1 sighting).
+  accepted, a stronger formal-verification gate than OpenAI's unrefereed-PDF pattern. **CORRECTED
+  URLs (2026-10-17, W42 weekly): the 10-14 daily's guessed path (`epoch.ai/frontiermath/erdos`)
+  404'd — the live pages are `https://epoch.ai/benchmarks/frontiermath-erdos` (the benchmark page),
+  `https://epoch.ai/latest/announcing-frontiermath-erdos` (2026-09-01 announcement post), and
+  `https://epoch.ai/frontiermath` (parent hub), verified via `tavily-search` this session; the
+  benchmark's own paper is arXiv:2609.25050 ("FrontierMath Erdős").** No 2nd sighting found this
+  week (checked reports/2026-10-14.md through 2026-10-16.md) — HELD below the ≥2-sighting bar.
+PROMOTED 2026-10-17 (W42): icarm.io / 1stproof.org (2 sightings, verified live via `tvly extract`
+on `icarm.io/news` this session, RSS feed located at `icarm.io/feed` → Primary feeds, AI-watch
+lane, DAILY tier) — see its entry above; cleared from this staging list. HELD below the ≥2 bar
+(checked against this week's 5 daily reports, no recurrence): conjectures.io, ahmath.org,
+proofsandprompts.com, anima-ai.org, preprints.org, zenodo.org, peakmath.org,
+galoisrepresentations.org, epoch.ai (all 1 sighting still).
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

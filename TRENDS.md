@@ -761,6 +761,29 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (Volpato) to v2 updated 2026-09-11, and 2609.11895 (Ohki-Uemura) to v2 updated 2026-09-25 (both
     older than last_evidence, no date impact). All three are same-author/same-result revisions, not
     new groups — no stage/confidence impact. No 15th independent group found. Not promoted.
+  - 2026-W42 recalibration (Amendment G citation-chase, rotated to this trend per the W41 note):
+    an INSPIRE-HEP citation chase on the trend's two foundational anchors (Bhardwaj–Gai–Huang–
+    Inamura–Schäfer-Nameki–Tiwari–Warman, arXiv:2503.12699, the paper that triggered this trend's
+    own 2026-07-27 creation; and Oishi–Ebisu, arXiv:2604.02856, the earliest-dated tracked group,
+    now rotated off the 10-item evidence cap) — 37 citing papers reviewed — surfaced THREE further
+    independent author groups, all pre-dating this trend's own creation by over a year and never
+    previously captured (the same backlog-miss pattern as the Ramsey trend's W41 catches):
+    Aksoy–Wen (MIT; arXiv:2503.21764, 2025-03-27, "Phases with non-invertible symmetries in
+    1+1D... as duality automorphisms" — a symTO/Lagrangian-condensable-algebra classification of
+    1+1D gapped phases under non-invertible symmetries); Lu–Xu–You (UC San Diego; arXiv:2505.00673,
+    2025-05-01, strange correlators/string order parameters diagnosing non-invertible-SPT phases);
+    Cordova–García-Sepúlveda–Ohmori (arXiv:2504.03614, 2025-04-04, non-invertible one-form
+    symmetries at Higgsing-transition fixed points of Chern–Simons matter theories). All three
+    confirmed independent of every already-tracked group (no shared authors, checked by name
+    against this trend's full roster) and of each other. Group count now AT LEAST 18 (evidence-cap
+    rotation means the exact tracked list undercounts the true group count — this is itself a
+    standing side-effect of the 10-item cap, not a correction). No stage change (already at the
+    `accelerating`/`high` ceiling; no standard-practice-adoption signal for `mainstreaming`).
+    last_evidence unchanged (all three predate 2026-09-29). ~34 further citing papers reviewed and
+    excluded — same-lineage follow-ups (Schäfer-Nameki/Tiwari/Warman/Gai co-authorships), already-
+    tracked SciPost publications of already-counted preprints, or 2-group-symmetry papers (a
+    distinct formalism, standing exclusion). No referee/vetting outcome on any of the 10 tracked
+    preprints.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -2012,9 +2035,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   independently opened) frames it as "a candidate nonperturbative lattice definition of the Standard
   Model" — echoing the author's own abstract, not yet an independent technical assessment. Watch
   for: a lattice-QCD specialist's technical response, and whether this is the same author/effort as
-  the already-tracked "FERMIACC: Agents for Particle Theory" AI-tooling paper (arXiv:2603.22538,
-  also by Craig, axis-5 WATCH only — the tool, not a math/physics result, NOT captured as evidence
-  here).
+  Craig's companion "FERMIACC: Agents for Particle Theory" AI-tooling paper (arXiv:2603.22538,
+  axis-5 WATCH only — the tool, not a math/physics result); CORRECTION (2026-10-17, W42 weekly
+  capture-leak sweep): this note had called 2603.22538 "already-tracked," but it carried no
+  discrete line of its own anywhere on the ledger — a capture leak, now closed via a queue line
+  below.
 
 ### Proof of the Erdős–Simonovits rational exponents conjecture (Epoch AI model, human-verified)
 - stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-10-13
@@ -2248,6 +2273,30 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   missing this and the item below for over two months. A genuinely significant pure-math landmark
   that carries essentially zero AI-hype-skepticism risk (explicit, checkable, human-led). Watch for:
   independent verification/citation of the M23 construction.
+
+### First evidence that X(2370) is dominantly a glueball (BESIII Collaboration)
+- stage: seed | confidence: medium | first_seen: 2026-10-17 | last_evidence: 2026-07-22
+- what: axis-3 DOMAIN-CADENCE LANDMARK, PROMOTED from the observation_queue/study_shelf (held there
+  since a 2026-07-22 capture-leak catch, never previously promoted to its own trend despite meeting
+  the landmark-single-result bar). From 10 billion J/ψ events, the BESIII Collaboration reports the
+  strongest evidence yet that the light hadron X(2370) is dominantly the lightest 0⁻⁺ glueball — a
+  particle made purely of gluons, sought since the 1970s — via a flavor-singlet-consistent
+  suppressed-decay-mode signature. An experimental-collaboration result (not an unrefereed AI/solo
+  claim), with named-expert corroboration already on file, though not yet a unanimous consensus.
+- evidence:
+  - 2026-07-22 — https://arxiv.org/abs/2607.20366 — BESIII Collaboration, "Lightest $0^{-+}$ Glueball
+    as Dominant Constituent of $X(2370)$": abstract + collaboration authorship verified via arXiv
+    API this session (v1 2026-07-22).
+- notes: 2026-10-17 (weekly, W42, PROMOTION): this result sat on the queue + study_shelf since a
+  2026-07-22 capture-leak catch (chased via a Hacker-News pointer, missed by the ordinary arXiv
+  sweep for 27 days), widely covered mid-August by Nature News, Science, Ars Technica and
+  ScienceAlert — "an experimental triumph" (Colin Morningstar, CMU, quoted in Science), though
+  caution remains ("no single smoking gun" — Bruce Yabsley, U. Sydney, quoted in Nature). Promoted
+  to its own seed trend this week (this week's queue-tiering review, per AGENTS.md's domain-cadence
+  landmark-single-result bar) rather than left as a queue/shelf-only item indefinitely. Confidence
+  medium (named-expert corroboration exists but is not unanimous; no formal collaboration-internal
+  peer review cited yet). Watch for: a definitive/consolidated collaboration treatment, or a
+  competing-interpretation paper.
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
@@ -2706,20 +2755,6 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   type object relevant to small-scale dark-matter/galaxy-formation tests. Minor/niche single-object
   discovery. Abstract verified via direct arXiv page this session.
 
-- 2026-07-22 (CAPTURE-LEAK CATCH, chased via a Hacker-News-front-page pointer this session,
-  accessed 2026-08-18) — BESIII Collaboration, "Lightest $0^{-+}$ Glueball as Dominant
-  Constituent of $X(2370)$," arXiv:2607.20366 — https://arxiv.org/abs/2607.20366 — hadron/QCD
-  physics (axis 3, hep-ex/hep-ph): reports the strongest evidence yet, from 10 billion $J/\psi$
-  events, that the light hadron $X(2370)$ is dominated by the lightest $0^{-+}$ glueball — a
-  particle made purely of gluons, sought since the 1970s — via a flavor-singlet-consistent
-  suppressed-decay-mode signature. Abstract + collaboration authorship verified via arXiv API
-  this session (v1 2026-07-22); widely covered mid-August by Nature News, Science, Ars Technica
-  and ScienceAlert (opened via `tvly` this session), confirming the domain reads this as a
-  landmark near-consensus first-of-kind result ("an experimental triumph" — Colin Morningstar,
-  CMU, quoted in Science), though caution remains (Bruce Yabsley, U. Sydney, quoted in Nature:
-  "no single smoking gun"). Domain-cadence landmark first-of-kind detection, missed by the
-  ordinary arXiv sweep for 27 days until surfaced via today's community-pulse HN chase. Also on
-  `study_shelf`.
 - 2026-08-15 (v1; posted on preprints.org 2026-07-27 as v1, this is the DOI-stable v4 dated
   2026-08-06/07; discovered via a Hacker-News/press chase this session) — Shanmu Jin, "The
   Numerical Range Is a 2-Spectral Set," preprints.org DOI 10.20944/preprints202607.1919.v4 —
@@ -2803,6 +2838,9 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   evidence rules — queued, not evidenced; watch for an arXiv posting or official research-page
   disclosure to promote/verify. If confirmed, this would be a notable landmark (closing the
   smallest known gap in the 1893 Hadamard conjecture) in the standing AI-assisted-math wave.
+  RE-CHECKED 2026-10-17 (W42 weekly, queue-aging review): still no arXiv posting or official
+  research-page disclosure located — still unverified, still queued, re-dated so this does not
+  read as a forgotten item (9+ weeks now with no primary).
 - 2026-08-07 (CAPTURE-LEAK CATCH, W33 weekly sweep — named in the Ramsey trend's own
   notes since the 08-11 daily but never given its own queue line) — arXiv:2608.07102 —
   "Vertex-Ramsey theorems for Cartesian powers of graphs" — https://arxiv.org/abs/2608.07102
@@ -3515,6 +3553,12 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     still not a correctness referee outcome; the underlying OpenAI proof itself remains unrefereed. Folded
     into this cluster, not a separate queue item.
 - 2026-07-17 → 07-23 (Pass 2) — community-pulse (intake, UNVERIFIED — never evidence) — a multi-model AI-assisted-mathematics WAVE now landing CONCRETE arXiv artifacts, not just chatter: (07-17, r/math) GPT-5.6 reported to solve all six IMO 2026 problems + a claimed Lean-verified closing of a ~30-year gap in convex optimization; (07-20→23, HN front page + r/math) the JACOBIAN-CONJECTURE counterexample now the center of gravity — "Terence Tao is left scratching his head about the Jacobian Conjecture counterexample" (r/math top) + "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample" (HN front page), David Speyer's "The new counterexample to the Jacobian conjecture" (Secret Blogging Seminar) working through it; the counterexample (3-variable, refuting the general conjecture) attributed to Anthropic's Claude Fable 5 (Levant Alpöge's X announcement, >20M views per Fortune); an AMS Notices interview with Fields-frontrunner Jacob Tsimerman on AI in math; (07-22) an unverified RUMOR that the 2026 Fields Medal winner list leaked ahead of the ICM opening ceremony — https://www.reddit.com/r/math/ · https://news.ycombinator.com/ — WATCH area per scope: AI-assisted math is the sibling AI radars' beat. STATUS OF PRIMARIES (re-checked this session): the wave now has FIVE distinct AI-assisted results (four with concrete arXiv artifacts, one off-arXiv): OpenAI Cycle-Double-Cover proof (Geelen 2607.15399 + Oum 2607.16356 expositions), Batyrev-conjecture counter-example via ChatGPT (2607.19184), mod-4 Kawauchi proof via Claude Fable 5 (2607.18655), the Jacobian-conjecture counterexample via Claude Fable 5 — whose FIRST on-arXiv mathematical analysis appeared 07-22 (Shaska, 2607.20210, captured; the counterexample MAP itself is still announced only OFF-arXiv → the map stays intake, the analysis paper is the primary) — and NEW THIS PASS (07-23), a claimed disproof of the ~30-year-old DINITZ–GARG–GOEMANS conjecture on single-source unsplittable flows (Kleinberg/Dinitz–Garg–Goemans 1999: any fractional single-source flow can be rounded to an unsplittable one raising each edge by < d_max), attributed to Dmitry Rybin using GPT-5.6 Pro — announced OFF-arXiv (X post + Digg, surfaced via r/math + r/mathematics this pass); NO arXiv primary locatable this session (searched arXiv for Rybin/unsplittable-flow, only pre-existing DGG-related works) → stays UNVERIFIED community-pulse intake exactly like the Jacobian map, WATCH area (track the RESULT if/when a primary lands, not the method), extraordinary-claim caution (a 30-yr conjecture "disproof" is provisional until vetting). Community engaging = a vetting SIGNAL, not an OUTCOME (all unrefereed; Tao publicly scrutinizing). STILL NO IMU primary for the Fields Medal "leak": the mathunion.org Fields-Medal page (RE-OPENED this Pass 2, ~13:48 UTC) is STILL the static statute page — no 2026 laureates listed; a broad news search returned zero Fields-Medal hits (only sports/politics noise) → the announcement has NOT propagated as of this pass (ICM opening ceremony 23–30 Jul in Philadelphia; Fields Medals announced at the ceremony — still pending). CONFIRMED this pass that the 20th IMU General Assembly IS in session (NYC 20–21 Jul): r/math surfaced the GA vote selecting GLASGOW as ICM 2030 host (ecosystem, intake). Chase the official Fields announcement first thing next run. IMO-2026 results still have no arXiv artifact.
+  - RE-CHECKED 2026-10-17 (W42 weekly, queue-aging review): the Fields-Medal-"leak" thread above is
+    now MOOT — the official 2026 Fields Medals (Deng, Pardon, Tsimerman, Wang) were announced and
+    captured as their own evidence/study_shelf line on 2026-07-24 (see elsewhere on this ledger).
+    The Dmitry Rybin / GPT-5.6-Pro claimed Dinitz–Garg–Goemans-conjecture disproof remains
+    UNVERIFIED — still no arXiv primary locatable this session; still watched, not yet promoted or
+    dropped.
   - 2026-07-28 (daily) — wave continues, two more data points (still community-pulse/ecosystem, not
     primaries): (i) Peter Woit's blog (Not Even Wrong, "Requiem for a Field?", 2026-07-26, opened via
     RSS this session) reports 2026 Fields medalist **Jacob Tsimerman announced he is joining OpenAI**,
@@ -3845,7 +3889,10 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   reporting the collaboration result); the underlying LHCb paper itself was not independently
   located/opened this session — flagged for a follow-up chase to the primary LHCb/arXiv preprint.
   Domain-cadence landmark (first-of-kind with the upgraded detector) — queued, also on
-  `study_shelf`.
+  `study_shelf`. FOLLOW-UP CLOSED (2026-10-17, W42 weekly queue-aging review): this is the same
+  discovery as the arXiv primary captured below (2026-09-21 entry, arXiv:2609.21921, the Ω⁺_cc
+  observation) — the CERN Courier feature predated the collaboration's own arXiv posting by
+  ~2 months. No longer an open chase.
 - 2026-08-24 — arXiv:2608.23063 — Jin Sun, Lili Wang, Tao Wang, "Counterexamples to Escobar's
   conjecture" — https://arxiv.org/abs/2608.23063 — conformal/Riemannian geometry (axis 1,
   math.DG): disproves Escobar's 1999 conjecture (J. Funct. Anal.) that every $n$-dimensional
@@ -5804,6 +5851,15 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   WATCH, community-governance/funding item parallel to agmai.org/ahmath.org — a major funder
   formally entering the AI-in-mathematics governance space. Not itself a research result; watch for
   what the program funds.
+- 2026-10-06 (capture-leak fix, found 2026-10-17) — Nathaniel Craig, "FERMIACC: Agents for Particle
+  Theory" — https://arxiv.org/abs/2603.22538 — axis-5 AI-TOOLING WATCH item only (the agentic
+  tool itself, not a math/physics result): companion paper to Craig's already-tracked lattice
+  chiral-fermions seed trend (same author); abstract/author verified via arXiv API this session.
+  Do not treat as evidence for that trend.
+- 2026-07-?? (notes-only exclusion, re-logged 2026-10-17) — arXiv:2309.01914 v2 — a version revision
+  of pre-2026 work, checked and excluded from the non-invertible-symmetries-in-QFT trend's evidence
+  (not a new primary/new group) — logged here per capture discipline so the exclusion has a discrete
+  line, not just prose in that trend's notes.
 - 2026-08-20 (backfill, found 2026-10-16) — "ranksunbounded" (pseudonymous), rank-30 elliptic curve
   submission to ICARM's Elliptic Curve Rank Leaderboard — https://icarm.io/news/new-record-breaking-elliptic-curve-reported/
   — surpasses the rank-29 record (Elkies & Klagsbrun, 2024) for the largest known elliptic-curve
