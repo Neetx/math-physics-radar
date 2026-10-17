@@ -314,3 +314,35 @@ routing-leak n`.
   rotation proposed above) targets it directly rather than relying indefinitely on citation-chase
   luck.
 - 2026-10-10 — W41: queue +45/→8/−0(1 folded)/stale ~98 · evidence +8 (2 Ramsey citation-chase, 1 ζ(5) capture-leak fix, ~5 daily additions incl. Non-invertible's 12th group) · moves 8↑/0↓ (all new/promoted seed trends: Linear Hadwiger, Nobel Prize, OpenAI mass-disclosure, Poincaré 2nd formalization, LeBrun–Salamon, thorium clocks, 3SUM/APSP, hyperkähler SYZ) · exploration 5/5 (100%, q-bio.PE/econ.TH/nlin.CD-SI/cs.CC/math.NA) · off-axis 1/~45 (Braverman–He Multiple Unicast Conjecture, cs.CC catch, non-alarm) · lag: daily catches mostly 1-2 days (Hadwiger v1→capture 2d, LeBrun–Salamon 1d, thorium clocks 1d); 2 backfill citation-chase catches ~10-11 months (2512.17718, 2601.15183 — explicitly flagged as backfill, not daily detection) · coverage: DAILY tier ~30+/run all 5 dailies, 0 reported missing; WEEKLY-SWEPT tier 18/18 swept this session (6 institutes, 3 slow venues, 5 low-yield social, 4 prizes) — 2 historical coverage GAPS found and closed (Abel Prize 2026 never captured at all; Shaw Prize 2026 flagged 2026-07-12 but never closed) · routing-leak 0 (Bansal-Jiang precedent re-verified correctly NOT merged) · capture-leak 1 found/fixed (2610.06838, after fixing a notes-extraction methodology bug that had produced ~175 false positives — see strategy_notes) · src-disc 2 staged this week (none new)/2 promoted (vals.ai lat 9d, github.com/openai lat 3d). SLMath crossed heal-owed bar (3rd consecutive degraded) — HEALED via WebFetch this session.
+- 2026-10-17 — W42: queue +37/→2 (GW231123, X(2370) glueball)/−0/stale ~101 (60+ days old; of a
+  hand-classified 101-item aged sample, 53 still-live-watch / 48 settled-historical-record per
+  Amendment H — the raw still-live tier across the full ~361-item queue is almost certainly well
+  over the ~40 soft cap, consistent with the W40/W41 precedent that this is expected under domain
+  cadence, not a failure) · evidence +~24 across 14 new trend foundings (Smale's 6th, GW231123,
+  quasi-RH, lattice-SM/Craig, rational exponents, unit-distance disproof, sum-product disproof,
+  rkSZ, spacetime Penrose, Drézet–Ballico-Ellia, hot spots, Area Vanishing Square Peg, M23, X(2370)
+  glueball) + updates to 6 existing trends (OpenAI mass-disclosure, Poincaré/geometrization,
+  3SUM/APSP, ζ(5), inhomogeneous Duffin-Schaeffer, non-invertible-symmetries' 3 new groups) ·
+  moves 14↑/0↓ (all new seed trends; no demotions, no archivals — Stanley-Gasharov's archive line,
+  2026-11-26, not yet due) · exploration 5/5 (100%, econ/q-fin·q-bio.PE·math.NA·cs.CC·nlin.CD) ·
+  off-axis 1/37 (Tomar's rank-23 matrix-multiplication result, cs.CC exploration catch, non-alarm)
+  · lag: fresh captures median ~1-2 days (9/14 new trends); backfill captures 5/14 (36%, UP from
+  W41's ~25% — not yet a 2-consecutive-week trend, flagged to watch at W43) median ~90 days (range
+  68d M23 to ~460d GW231123) · coverage: DAILY tier ~30+/run all 5 dailies, 0 missing (several
+  single-occurrence degradations, all healed/fallback same session — MathOverflow empty fetch
+  10-12, arXiv 429 10-13, LIGO 403 10-16, SciPost timeout 10-16); WEEKLY-SWEPT tier 18/18
+  opened-or-attempted this session (6 institutes, 3 slow venues, 5 low-yield social, 4 prizes) — 1
+  degraded (SLMath `/news`, a NEW JS-shell failure mode defeating the W41 WebFetch heal; not yet
+  heal-owed, single occurrence) · routing-leak 0 (no on-axis queue item found hoarded against an
+  existing trend's axis) · capture-leak 2 found/fixed (2603.22538 FERMIACC, falsely marked
+  "already-tracked" in the lattice-SM trend's own notes; 2309.01914 v2, a notes-only exclusion
+  never given a discrete line) of 41 ids checked · src-disc 1 staged this week (none new) / 1
+  promoted (icarm.io/1stproof.org, staged 10-15, promoted this session, lat 2d — RSS feed located
+  at icarm.io/feed, correcting the staging note); epoch.ai held below the ≥2-sighting bar (1
+  sighting, URLs corrected). Amendment K (annual-prize laureate checklist, proposed W41) APPLIED
+  this session — see strategy_notes. Two new proposals logged (L: externalize verbose per-trend
+  note history once the TRENDS.md size flag recurs; M: stage a new source's own index the same
+  session it's first staged) — cooling period, review at W43. Regression check: Amendments H/I
+  (applied W40) show no 2-consecutive-week metric regression (capture-leak/coverage/moves all
+  stable-to-improving W40→W41→W42) — NO ROLLBACK. Amendment J (applied W41) is one week into
+  operation — too early to assess.
