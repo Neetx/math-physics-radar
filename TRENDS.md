@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -45,7 +45,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     improvement, via Gaussian random graphs — a SEVENTH independent author group, predating this
     trend's own creation (2025-12-19) but never previously captured. Found via this week's Amendment G
     citation-chase on the Ma–Shen–Xie anchor (22 citing papers reviewed via Semantic Scholar).
-  - 2026-01-08 — https://arxiv.org/abs/2601.15183 — Campos, Pohoata, "An update on multicolor Ramsey
+  - 2026-01-21 — https://arxiv.org/abs/2601.15183 — Campos, Pohoata, "An update on multicolor Ramsey
     lower bounds": building on Conlon–Ferber–Wigderson and Sawin, an EIGHTH independent author group
     improving multicolor Ramsey lower bounds via independent-set density bounds in K_t-free graphs —
     same citation-chase catch, also predating this trend's creation, never previously captured.
@@ -424,6 +424,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     `observation_queue` instead (see queue). last_evidence 2026-09-22 unchanged (no later actual
     date surfaced). Group count now 8; still not promoted to `mainstreaming` (no standard-practice-
     adoption signal, only group count/pace).
+  - 2026-W42 recalibration (Amendment I version-history spot-check, re-run): THREE further silent
+    revisions found that the W41 pass's own "no v-update" conclusion had missed — 2507.12926
+    (Ma–Shen–Xie) to v2, updated 2026-04-26 (same title/authors; this was already correctly noted
+    on this ledger's own `study_shelf` entry for this paper, just never propagated back to this
+    trend's evidence/notes — now synced); 2605.28793 (Bradač) to v3, updated 2026-06-16 (same
+    title/author); 2512.17718 (Hunter–Milojević–Sudakov) to v2, updated 2026-05-18 (same title/
+    authors). All three predate this trend's own last_evidence (2026-09-22) and are same-
+    author/same-result revisions — no new groups, no last_evidence change. Also CORRECTED a date
+    error (not a revision): the W41 citation-chase note recorded Campos–Pohoata's 2601.15183 as
+    "2026-01-08," but the paper's actual (single-version) date is 2026-01-21 — fixed in the
+    evidence line above. Group count unchanged at 8; not promoted.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
 - stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-29
@@ -783,7 +794,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     excluded — same-lineage follow-ups (Schäfer-Nameki/Tiwari/Warman/Gai co-authorships), already-
     tracked SciPost publications of already-counted preprints, or 2-group-symmetry papers (a
     distinct formalism, standing exclusion). No referee/vetting outcome on any of the 10 tracked
-    preprints.
+    preprints. Amendment I version-history spot-check (same session): 2601.08615 (Inamura–Ohyama,
+    named in prose above with only a loose "2025-11/2026-01" date) silently revised to v3, updated
+    2026-08-26 — same title/authors, not independently counted as a group either way, logged for
+    the record.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -1063,6 +1077,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     inside the 60-day window. Version-history recheck this session (arXiv page for 2608.30336):
     still v2, no v3 — no further tightening. No 4th independent exponent-tightening group surfaced
     across the week's dailies (09-28→10-02). Not promoted.
+  - 2026-W42 recalibration (Amendment I version-history spot-check): the ORIGINAL GGMT anchor
+    (2404.02244) found silently revised to v2, updated 2024-05-20 — over two years old, low
+    materiality, but a genuine previously-unnoticed revision (same title/authors; no change to the
+    result this trend tracks). 2404.09639 (Liao) and 2608.30336 (Song–Yue) show no further
+    v-update beyond what's already on file. No 4th independent group this week. Not promoted.
 
 ### Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)
 - stage: emerging | confidence: high | first_seen: 2026-09-24 | last_evidence: 2026-09-29
@@ -1177,8 +1196,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   (arithmetic/quasi-arithmetic hyperbolic lattices, PhD HSE under Ernest Vinberg, now UofT Scarborough
   faculty) — credible, not a hype/crank pattern, but still an unrefereed preprint.
 - evidence:
-  - 2026-09-25 — https://arxiv.org/abs/2609.29033 — Bogachev, "Proof of the positive trace gap
-    conjecture": proves a lattice in PSL_2(R) or PSL_2(C) has positive trace gap iff it is derived
+  - 2026-09-24 (CORRECTED 2026-10-17, W42 Amendment I check — a 1-day date-entry error, not a
+    revision; this line had recorded 2026-09-25) — https://arxiv.org/abs/2609.29033 — Bogachev,
+    "Proof of the positive trace gap conjecture": proves a lattice in PSL_2(R) or PSL_2(C) has
+    positive trace gap iff it is derived
     from an admissible quaternion algebra, resolving the conjecture for cocompact Fuchsian groups;
     extends to a similar characterization for lattices in SL_d(R), d≥3. Abstract + author verified
     via direct arXiv page this session (v1 2026-09-25, cross-listed math.DS/GR/GT/NT).
@@ -1190,7 +1211,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   on `study_shelf`.
 
 ### Irrationality of ζ(5) (Fauzan; independently Lean-verified by Firsching)
-- stage: seed | confidence: medium | first_seen: 2026-09-26 | last_evidence: 2026-10-05
+- stage: seed | confidence: medium | first_seen: 2026-09-26 | last_evidence: 2026-10-15
 - what: a claimed proof that ζ(5) is irrational (Aabir Fauzan, off-arXiv, Zenodo, 2026-09-17) — the
   first individual-odd-zeta-value irrationality result since Apéry's 1978 proof for ζ(3) — held on
   this ledger's `observation_queue` since 2026-09-25 with EXTREME hype-skepticism caveats (no author
@@ -1267,6 +1288,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     caution as the anchor claim, but a genuine extension of the method by a different author,
     strengthening (not just re-confirming) this trend's axis. last_evidence advances 2026-09-23 →
     2026-10-05. Abstract + author + date verified via arXiv API this session.
+  - 2026-W42 recalibration (Amendment I version-history spot-check): Li Lai's 2610.06838 found
+    silently revised to v2, updated 2026-10-15 — only 2 days old, missed by both the 10-06 daily's
+    own creation check and every subsequent daily/weekly on this trend. last_evidence advances
+    2026-10-05 → 2026-10-15. Same author/title; the specific nature of the v2 change was not
+    re-verified this session (abstract-level check only) — worth a closer look if it recurs as a
+    live watch item. No change to Fauzan's own Zenodo record or Firsching's Lean repo. Stage held
+    `seed`/medium (still no traditional peer review on the anchor claim).
 
 ### Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)
 - stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
@@ -1334,7 +1362,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   community reaction from the mathematical-relativity community.
 
 ### Inhomogeneous Duffin-Schaeffer conjecture disproved (two independent groups)
-- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
+- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-10-09
 - what: two independent author groups, posting the same day, construct counterexamples showing the
   natural inhomogeneous analogue of the (now-proved, Koukoulopoulos-Maynard 2020) Duffin-Schaeffer
   conjecture is FALSE — the zero-full measure dichotomy for shifted Diophantine approximation fails.
@@ -1355,6 +1383,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   category-rotation sweep (math.NT). Pollington co-authored the ORIGINAL Duffin-Schaeffer conjecture
   statement decades ago and Maynard co-proved the homogeneous case in 2020 — high-credibility
   disproof. Watch for a third group or community/referee reaction.
+  - 2026-W42 recalibration (Amendment I version-history spot-check): He–Liao's 2609.30870 found
+    silently revised to v2, updated 2026-10-09 — 8 days old, missed across several subsequent
+    dailies/weeklies. last_evidence advances 2026-09-25 → 2026-10-09. Same authors/title; no new
+    group. 2609.30921 (Hauke-Treuer–Maynard–Pollington) shows no further v-update. Stage held
+    `seed`/medium; still no third group or referee/community reaction.
 
 ### Resolution of Graham's rearrangement conjecture (additive combinatorics)
 - stage: seed | confidence: high | first_seen: 2026-09-29 | last_evidence: 2026-02-17
@@ -1395,6 +1428,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     an old backlog artifact's own date — so this is NOT a dormancy case. No fresh follow-on
     generalization surfaced this week. Watch continues; this note exists so a future session does
     not mechanically read the raw day-count and misfire an archive action.
+  - 2026-W42 recalibration (Amendment I version-history spot-check): two of the four prior-art
+    evidence lines found silently revised, both over a year old and low-materiality but genuine
+    previously-unnoticed revisions — 2204.09666 (Müyesser–Pokrovskiy) to v3, updated 2025-02-25;
+    2409.07403 (Bedert–Kravitz) to v2, updated 2025-01-07. Both same title/authors, predating this
+    trend's own creation by well over a year; no change to the trend's own last_evidence (set by
+    the 2602.15797 closing paper, unaffected). No fresh follow-on generalization this week.
 
 ### The Hopf problem — a complex structure on S⁶ (Alpöge/Claude, 1947 problem)
 - stage: seed | confidence: medium | first_seen: 2026-10-01 | last_evidence: 2026-09-27
@@ -1630,10 +1669,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   Buzzard precedent) — two groups attempting the SAME formalization is a strong but not yet
   equivalent signal to independent verification of one.
 - evidence:
-  - 2026-09-29 (v1) — https://arxiv.org/abs/2609.33842 — Qin, Liao, Khaitan, Chow, "A Lean
-    Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture":
-    formalizes the smooth + topological 3D Poincaré conjecture. Abstract + authors verified via
-    arXiv API (prior session).
+  - 2026-09-27 (v1; CORRECTED 2026-10-17, W42 Amendment I check — a date-entry error, not a
+    revision: this line had recorded 2026-09-29) — https://arxiv.org/abs/2609.33842 — Qin, Liao,
+    Khaitan, Chow, "A Lean Formalization of the Hamilton–Perelman Proof of the Three-Dimensional
+    Poincaré Conjecture": formalizes the smooth + topological 3D Poincaré conjecture. Abstract +
+    authors verified via arXiv API (prior session).
   - 2026-10-06 (v1) — https://arxiv.org/abs/2610.08329 — Zhang, Delaval, Chen, Chen, Xu, Liao,
     Jiang, Liu, Dong, "An AI-Assisted Formalization of the Poincaré Conjecture": a second,
     differently-staffed AI-assisted Lean 4 formalization project of the same theorem, with an
@@ -1839,6 +1879,22 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     see the new "spacetime Penrose conjecture" seed trend above, created this session after an
     independent human paper (Bray–Dolmen–Khuri–Schmidt) explicitly engaged with this exact claim.
     last_evidence advances 2026-10-10 → 2026-10-14 (the Penrose-family primary's own dated artifact).
+  - 2026-W42 recalibration (RECONCILIATION, resolving the standing flag from this trend's own
+    2026-10-07 creation note): HOLD at `seed` — the scale-as-landmark reasoning stands, now
+    reinforced rather than merely asserted. Since creation, this disclosure has produced exactly
+    the kind of independent-engagement and vetting-outcome signal the "Ten Advances" precedent
+    (held at queue pending those) was waiting for: (a) a genuine, if self-reported, vetting
+    OUTCOME — OpenAI's own 2026-10-07 withdrawal of 3 manuscripts including a claimed Hodge-
+    conjecture case; (b) an individual result-family (#003, the quasi-RH claim) drawing
+    independent human engagement specific enough to spin off its own seed trend (2026-10-13); (c)
+    a second result-family (#260, spacetime Penrose) likewise spinning off after an independent
+    human paper engaged with the identical claim (2026-10-15); (d) organized community-governance
+    reaction naming this disclosure specifically (AHM's statement, AGMAI's statement, Tao's "Math
+    2.0," Huiberts' "This is normal bad work"). This is a stronger evidentiary position than Ten
+    Advances had when it was held at queue. Not promoted beyond `seed` (no referee outcome on the
+    bulk of the 719 remaining manuscripts; this is still a disclosure-event trend, not a verified-
+    results trend) and not demoted to queue. Standing watch (the BSD-case claim specifically)
+    unchanged.
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -2103,6 +2159,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   session by ~5 months; backfilled now per the capture-leak reconciliation rule (a primary named in
   another trend's notes-prose without its own evidence/queue line). Directly upstream of the next new
   seed trend below (the sum-product conjecture disproof, which reuses ideas from this construction).
+  - 2026-W42 recalibration (dormancy-clock clarification, no action — same precedent as Graham's
+    rearrangement conjecture's own W40 note): `last_evidence` (2026-05-20) is nominally 150 days
+    old today, which would read as past even the 120-day archive line — but this trend was only
+    first_seen 2026-10-14 (3 days ago) and is a BACKFILLED landmark (the "evidence" is the result's
+    own publication date, not a signal of continuing activity). Per the precedent set for the
+    Ramsey trend at its own creation and reaffirmed for Graham's rearrangement conjecture, a freshly
+    created/backfilled trend's dormancy clock runs from when THIS LEDGER started tracking it, not
+    from the backlog artifact's own date — NOT a dormancy case. This note exists so a future session
+    does not mechanically read the raw day-count and misfire an archive action.
 
 ### Disproof of the Erdős–Szemerédi sum-product conjecture (Bloom–Sawin–Schildkraut–Zhelezov)
 - stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-05-27
@@ -2125,6 +2190,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   names Pohoata's "Split primes and the Elekes–Rónyai problem" and Saha–Xu–Ye's "Furthest Pair
   Requires Quadratic Time..." as further human follow-on work — both routed to `observation_queue`
   below (narrower/more technical, not independently verified as landmark-tier this session).
+  - 2026-W42 recalibration (dormancy-clock clarification, no action — same precedent as Graham's
+    rearrangement conjecture's own W40 note, and the unit-distance trend immediately above): the
+    dormancy clock for this BACKFILLED landmark runs from first_seen (2026-10-14, 3 days ago), not
+    from the raw `last_evidence` (2026-05-27, nominally 143 days old) — NOT a dormancy case. Logged
+    so a future session does not mechanically misfire an archive action on the raw day-count.
 
 ### First detection of the rotational kinematic Sunyaev–Zel'dovich effect (Goldstein–Hill)
 - stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-10-13
@@ -2273,6 +2343,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   missing this and the item below for over two months. A genuinely significant pure-math landmark
   that carries essentially zero AI-hype-skepticism risk (explicit, checkable, human-led). Watch for:
   independent verification/citation of the M23 construction.
+  - 2026-W42 recalibration (dormancy-clock clarification, no action — same precedent as Graham's
+    rearrangement conjecture's own W40 note): `last_evidence` (2026-08-09) is nominally 69 days old
+    today, well inside the 60-day window by itself, but this note exists for the record anyway
+    since this is also a BACKFILLED landmark (first_seen 2026-10-16, 1 day ago) — the dormancy
+    clock runs from first_seen, not from the backlog artifact's own date, consistent with how this
+    ledger treats every backfilled-landmark trend.
 
 ### First evidence that X(2370) is dominantly a glueball (BESIII Collaboration)
 - stage: seed | confidence: medium | first_seen: 2026-10-17 | last_evidence: 2026-07-22
