@@ -2386,6 +2386,8 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   peer review cited yet). Watch for: a definitive/consolidated collaboration treatment, or a
   competing-interpretation paper.
 
+## observation_queue
+
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
 - 2026-03-19 (announced); ceremony 2026-05 — **2026 Abel Prize → Gerd Faltings (Max Planck Institute

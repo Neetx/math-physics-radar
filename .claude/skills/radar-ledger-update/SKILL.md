@@ -98,7 +98,7 @@ established structure (2000+ lines, many prior sessions).
 
 ```bash
 grep -n '^## ' TRENDS.md
-# expected, in order: Active trends, source_rotation, strategy_notes, study_shelf, calibration
+# expected, in order: Active trends, observation_queue, source_rotation, strategy_notes, study_shelf, calibration
 # (no standalone observation_queue heading — it lives inside Active trends)
 grep -c '^### ' TRENDS.md                # trend count matches expectations
 grep -nE '^  - [0-9]{4}-[0-9]{2}-[0-9]{2} — ' TRENDS.md | head -3   # evidence format
@@ -116,3 +116,8 @@ awk '/^## /{if(s)printf "  %-16s %d lines%s\n",s,n,(n<10?"  ok":"  <- REGROWN, m
 
 If a check fails, fix the file before committing. Commit and push per the
 conventions in AGENTS.md.
+
+The expected section order above IS the file contract. When a check finds a section
+missing or out of order, RESTORE that section in TRENDS.md — never edit this list, or any
+check in this block, to match the broken file. A check rewritten to accept a defect is how
+a lost section stays lost: every later run validates clean against it.

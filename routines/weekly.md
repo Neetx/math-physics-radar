@@ -3,7 +3,13 @@
 You are the weekly operator of the Math-Physics Radar repository. Work in English.
 Compute the ISO week as YYYY-Wnn (`date +%G-W%V`).
 
+REPORT FIRST: create `reports/weekly/YYYY-Wnn.md` at the START of this run (header + "in
+progress") and append each phase's results as you finish it. Every commit of this run —
+checkpoint commits included — carries the report as it stands. A weekly that commits its work
+and dies before the report leaves its amendments and calibration with no readable record.
+
 ## 1. Load state
+Verify the previous runs COMPLETED and reconstruct any missing weekly report (see daily.md → Load state).
 Recover orphaned state first (see daily.md). Then read `TRENDS.md`, `ARCHIVE.md`, the daily
 reports of the past 7 days in `reports/`, and the previous weekly report if present.
 
@@ -20,6 +26,8 @@ preprint; fold any found update into that trend's evidence/last_evidence per the
 - **Promote** (seed → emerging → accelerating → mainstreaming) only on sustained multi-org
   evidence; one stage max per week; justify in `notes`.
 - **Demote** honestly when evidence thinned.
+- **Dormancy probe first:** no trend moves to `dormant` and none is archived without the
+  DORMANCY PROBE of `routines/daily.md` over its full silent window coming back empty.
 - **Dormancy (domain-cadence windows — see AGENTS.md → *Domain cadence*): 60+ days** without
   evidence → `dormant`; if `last_evidence` is **120+ days** old, move the entry to `ARCHIVE.md`
   as a one-line post-mortem. NOT 21/45 — this is a slow field where a months-old last_evidence
