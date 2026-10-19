@@ -303,6 +303,17 @@ survives verification (real feed, on-axis, not SEO). Line format:
   hype-skepticism/vetting-status tracking. Discovered via a cross-link from Gil Kalai's already-
   tracked blog. HELD below the ≥2 bar (1 sighting); no feed found this session, access via
   `tvly extract` on the direct post URL.
+- hexagonmath.org — 1 — "First Proof Third Batch" benchmark report (hexagon:2610.00244, Abouzaid/
+  Srivastava/Ward/Williams, 2026-10-14) — first seen 2026-10-19 — an arXiv-like preprint server
+  specifically for AI-math-benchmark reports (its own "Hexagon ID" scheme); discovered via the
+  icarm.io/1stproof.org Third-Batch results chase. AXIS-5 lane only (do not expect this domain to
+  carry tracked-trend evidence — its content is AI-capability benchmarking by construction). HELD
+  below the ≥2 bar (1 sighting); access via `WebFetch`/`tvly extract` on `hexagonmath.org/<id>`, PDF
+  at `/pdf/<id>v1` (needs local `pdftotext`, not readable by WebFetch directly).
+- openmathmodel.org (Terence Tao's "SAIR Open Math OS") — 1 — soft-launch announcement, via
+  terrytao.wordpress.com (2026-10-19) — first seen 2026-10-19 — axis-5 tooling/governance watch,
+  same self-publication-disclosure pattern as agmai.org/vals.ai; HELD below the ≥2 bar (1
+  sighting); no feed checked yet, access via direct `WebFetch`/`tvly extract`.
 PROMOTED 2026-08-08 (W32): nature.com/ncomms (2 sightings → Research/publication venues, DAILY tier),
 scientificamerican.com (2 sightings → Curated digests, DAILY tier), openai.com/cdn.openai.com
 (recurring disclosure channel → Primary feeds AI-watch lane, DAILY tier) — see their entries above;

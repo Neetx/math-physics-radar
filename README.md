@@ -1,14 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-36-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-361-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--17-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-36-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-373-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--19-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-17, weekly):** a landmark single-result catch promoted off the queue, three further independent groups on this ledger's broadest trend, and two Amendment-I version-history catches that moved last_evidence on live trends.
-- NEW (promoted from queue/shelf): [First evidence that X(2370) is dominantly a glueball](TRENDS.md#first-evidence-that-x2370-is-dominantly-a-glueball-besiii-collaboration) — the [BESIII Collaboration](https://arxiv.org/abs/2607.20366)'s strongest evidence yet for a gluons-only hadron, sought since the 1970s; sat on the queue/shelf since July without its own trend despite meeting the domain-cadence landmark bar.
-- UPDATED: [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) gains three further independent groups from this week's citation-chase — [Aksoy–Wen](https://arxiv.org/abs/2503.21764) (MIT), [Lu–Xu–You](https://arxiv.org/abs/2505.00673) (UC San Diego), [Cordova–García-Sepúlveda–Ohmori](https://arxiv.org/abs/2504.03614) — all predating this trend's own creation by over a year.
-- UPDATED: a silent v2 revision advances [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching)'s last_evidence to [2026-10-15](https://arxiv.org/abs/2610.06838); another advances [Inhomogeneous Duffin-Schaeffer disproved](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) to [2026-10-09](https://arxiv.org/abs/2609.30870).
-- Source-discovery: `icarm.io`/`1stproof.org` promoted to the AI-watch-lane Primary feeds (see [SOURCES.md](SOURCES.md)) — a working RSS feed was located at [`icarm.io/feed`](https://icarm.io/feed), correcting last week's "no feed found."
+**Since last scan (2026-10-19):** a quiet pass by this slow field's own cadence — no new landmark, but a genuine generalization catch on an existing trend and two capture-leak finds on the AI-watch lane.
+- UPDATED: [Smale's sixth problem](TRENDS.md#finiteness-of-planar-central-configurations-for-five-bodies-smales-sixth-problem) gains a first step toward n=6 — [Chen–Tong](https://arxiv.org/abs/2610.23329), a different author pair from the n=5 proof, begin extending the method (Part I, exceptional-mass loci only).
+- Capture-leak closed (study_shelf): [Schwartz's Sudakov-shoulder factorization theorem](https://arxiv.org/abs/2601.02484) — a genuine axis-2 QCD-precision result reached with heavy AI assistance, sitting uncaptured on Anthropic's own research page for ~7 months.
+- New below-bar signals: 7 named-conjecture disproofs/counterexamples/advances across number theory, harmonic analysis, matroid theory, graph labeling, operator theory and algebraic geometry, plus an NA61/SHINE isospin-symmetry-violation anomaly — all queued (see `observation_queue`), none clears the domain-cadence trend bar yet.
+- Source-discovery: two new AI-watch-lane domains staged — `hexagonmath.org` (resolves the standing chase on ICARM's First-Proof Third-Batch benchmark results) and `openmathmodel.org` (Terence Tao's new SAIR Open Math OS) — see [SOURCES.md](SOURCES.md).
 
 ## Trends
 
@@ -20,6 +20,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.11189) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2608.30336) |
+| [Smale's sixth problem (n=5/6)](TRENDS.md#finiteness-of-planar-central-configurations-for-five-bodies-smales-sixth-problem) | 🌱 seed | [2026-10-16](https://arxiv.org/abs/2610.23329) |
 | [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-10-15](https://arxiv.org/abs/2610.06838) |
 | [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) | 🌱 seed | [2026-10-15](https://arxiv.org/abs/2610.21099) |
 | [Area Vanishing Square Peg Conjecture (Valerio)](TRENDS.md#a-proof-of-the-area-vanishing-square-peg-conjecture-valerio) | 🌱 seed | [2026-10-15](https://arxiv.org/abs/2610.21076) |
@@ -32,7 +33,6 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [3SUM / APSP hypotheses refuted](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-11](https://arxiv.org/abs/2610.15663) |
 | [Poincaré Conjecture Lean formalization (two efforts)](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincaré-conjecture-two-independent-efforts) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2610.13897) |
 | [Inhomogeneous Duffin-Schaeffer disproved](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2609.30870) |
-| [Smale's sixth problem (n=5)](TRENDS.md#finiteness-of-planar-central-configurations-for-five-bodies-smales-sixth-problem) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2610.13100) |
 | [Hyperkähler SYZ conjecture proof](TRENDS.md#proof-of-the-hyperkähler-syz-conjecture-engelmauri) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12277) |
 | [GW231123 black-hole merger](TRENDS.md#gw231123--the-most-massive-binary-black-hole-merger-yet-detected-ligovirgokagra) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12205) |
 | [LeBrun–Salamon conjecture proof](TRENDS.md#proof-of-the-lebrunsalamon-conjecture-quaternionic-kähler-geometry) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10410) |
@@ -55,6 +55,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-01-05 (v1); shelf-added 2026-10-19 — [Resummation of the C-Parameter Sudakov Shoulder Using Effective Field Theory (Schwartz)](https://arxiv.org/abs/2601.02484) — a new factorization theorem for a QCD precision-calculation problem, notable both on its own merits and as a genuine, human-steered AI-assisted-physics case study (axis 5 watch, see [the Anthropic writeup](https://www.anthropic.com/research/vibe-physics)).
 - 2026-08-09 (v1); shelf-added 2026-10-16 — [The Mathieu group M23 is a Galois group over ℚ (Huang, Jackson, Lee, Poonen, Pries, Zhang)](https://arxiv.org/abs/2608.08538) — completes a ~40-year program, realizing the last of the 26 sporadic finite simple groups as a Galois group over ℚ; see new seed trend (backfilled capture-leak closure).
 - 2026-10-15 (v1); shelf-added 2026-10-16 — [A Proof of the Area Vanishing Square Peg Conjecture (Valerio)](https://arxiv.org/abs/2610.21076) — resolves a Tao-posed open problem via Lagrangian Floer homology, an elegant cross-pollination of symplectic topology into a classical planar-geometry question; see new seed trend.
 - 2026-10-14 (v1); shelf-added 2026-10-15 — [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets (Bray, Dolmen, Khuri, Schmidt)](https://arxiv.org/abs/2610.20559) — unconditional resolution of a ~50-year-old conjecture in mathematical GR for a broad data class, by one of the 2001 Riemannian case's original provers; explicitly engages with OpenAI's concurrent general-case AI claim; see new seed trend.
@@ -181,12 +182,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- MathOverflow's two quasi-RH-related threads (a proposed Polymath-style collaborative verification, and a consequences-of-quasi-RH question) remain the standing community venue for OpenAI's zero-free-region claim — no referee outcome yet, but Bryce Kerr's independent simplification (now a trend of its own) is the strongest engagement so far.
-- Terence Tao's blog continues to anchor the AI-in-mathematics discourse this quarter ("Math 2.0," plus guest posts from Sophie Huiberts, Thomas Hales, and a seven-piece round-up) — commentary and vetting-status signal, not new primary results.
-- The Association for Human Mathematics' statement condemning OpenAI's October disclosure, and AGMAI's own declined-to-judge statement, remain the two organized governance voices this ledger tracks on the AI-math-disclosure wave.
-- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (17+ weeks running); the `tvly search` fallback this week showed only already-tracked discussion threads, nothing new.
-- This week's biggest catch came from a deeper sweep of a recently-staged AI-watch source (icarm.io's own news index) and this weekly's own citation-chase, not the social/digest lane — see the trend table above.
+- Hacker News and the NYT carried a widely-discussed piece on Terence Tao's view of the AI-in-mathematics moment ("I'm on a war footing") — commentary/governance signal, not a new primary result.
+- Terence Tao's own blog announced the soft launch of a new open-model math-assistance platform (SAIR Open Math OS) — a tooling/governance development, now staged as a watched AI-watch-lane source.
+- Reddit's r/math and r/mathematics direct feeds remain under a standing hard network-level block (19+ weeks running); the `tvly search` fallback this run surfaced only already-tracked commentary threads, nothing new.
+- MathOverflow's two quasi-RH-related threads remain the standing community venue for OpenAI's zero-free-region claim — no referee outcome yet this run.
+- This run's biggest catches came from the AI-watch lane itself (a deeper chase on ICARM's First-Proof Third-Batch results, and two previously-uncaptured Anthropic research posts), not the social/digest lane.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (361) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-16](reports/2026-10-16.md)) · Weekly: [2026-W42](reports/weekly/2026-W42.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (373) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-19](reports/2026-10-19.md)) · Weekly: [2026-W42](reports/weekly/2026-W42.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)

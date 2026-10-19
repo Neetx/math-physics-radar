@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-17
+Last updated: 2026-10-19
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1957,7 +1957,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   Also added to `study_shelf`.
 
 ### Finiteness of planar central configurations for five bodies (Smale's sixth problem)
-- stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-09
+- stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-16
 - what: axis-1 DOMAIN-CADENCE LANDMARK (resolution of a named open problem): settles, for the
   5-body case, Smale's sixth problem (from Stephen Smale's 1998 list of mathematical problems for
   the 21st century) — whether the planar n-body problem has only finitely many central
@@ -1973,9 +1973,21 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     configurations for every choice of 5 positive masses in the plane, completing the n=5 case of
     Smale's sixth problem (Albouy–Kaloshin 2012 had covered all but a codimension-two exceptional
     mass set). Abstract + author verified via arXiv API this session.
+  - 2026-10-16 (v1) — https://arxiv.org/abs/2610.23329 — Zhe Chen, Zhicheng Tong, "Finiteness of
+    planar central configurations of six bodies for all positive masses: Part I, exceptional-mass
+    first limits": a DIFFERENT author pair begins extending the n=5 method to n=6 — this first
+    installment confines the generic-mass finiteness problem's exceptional-mass loci (40 of 117
+    Chang–Chen diagram "first-limit" obligations) rather than closing n=6 outright. Exactly the
+    generalization this trend's creation note flagged as a watch item. Abstract + authors verified
+    via arXiv API this session.
 - notes: 2026-10-12 (daily, seed creation): caught in the full math.DS category sweep
   (2026-10-09 submission batch). Watch for expert/community engagement (celestial-mechanics
   specialists, Smale-problems trackers) and whether the method generalizes to n=6+.
+  - 2026-10-19 (daily): the n=6 generalization watch condition fires — Chen–Tong's Part I (above),
+    a SEPARATE author pair from Tomar's n=5 proof, opens an n=6 program but only for exceptional-mass
+    loci (Part I of a presumably multi-part effort); last_evidence advances 2026-10-09 → 2026-10-16.
+    Not a stage promotion (still a single-problem program, not yet a multi-group DIRECTION trend);
+    watch for Part II/n=6 closure and for referee/community engagement on either paper.
 
 ### GW231123 — the most massive binary black-hole merger yet detected (LIGO–Virgo–KAGRA)
 - stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-08
@@ -5944,6 +5956,80 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   repository, not a peer-reviewed/arXiv primary) — track as a queue item pending either a writeup
   with a named author or independent confirmation of the certified rank, do NOT treat as evidence.
   Discovered via the same icarm.io `/news` sweep as the M23 trend above.
+- 2026-10-16 — Cobeli, Zaharescu, "More than 8/9 zeros of the Riemann zeta function are simple or
+  on the critical line" — https://arxiv.org/abs/2610.23467 — axis 1 (analytic number theory):
+  unconditional improvement on this specific zero-simplicity/critical-line statistic (a distinct,
+  longstanding incremental-record sub-area, not the same quantity as the headline "proportion of
+  zeros ON the critical line" results). Below bar — incremental record, not a conjecture
+  resolution or first-of-kind result. Abstract verified via arXiv API this session.
+- 2026-10-16 — Hu, Jing, "Near optimal gap in the Lonely Runner Conjecture" —
+  https://arxiv.org/abs/2610.23790 — axis 1 (combinatorics/Diophantine approximation): proves
+  ML(V) > (1+c)/2n for an absolute constant c>0, a near-optimal gap on the 1960s Lonely Runner
+  Conjecture (still open). Below bar — partial progress, not a resolution. Abstract verified via
+  arXiv API this session.
+- 2026-10-16 — Cen, Hong, Wu, "Disproof of Wright's Problems 14 and 15 on lacunary maximal
+  functions" — https://arxiv.org/abs/2610.23563 — axis 1 (harmonic analysis): disproves two named
+  open problems from James Wright's 2017 problem collection. Below bar — niche harmonic-analysis
+  problem list, not a headline conjecture. Abstract verified via arXiv API this session.
+- 2026-10-16 — Chen, Li, "Counterexamples to Two Conjectures on Tangles in Matroid Minors" —
+  https://arxiv.org/abs/2610.23059 — axis 1 (matroid theory): disproves two conjectures of
+  Brettell–Jowett–Oxley–Semple–Whittle on tangles in matroid minors. Below bar — specialist
+  structural-matroid-theory conjectures. Abstract verified via arXiv API this session.
+- 2026-10-16 — Brondani, França, "Counterexamples to the local antimagic leaf conjecture" —
+  https://arxiv.org/abs/2610.22783 — axis 1 (graph labeling): disproves the conjectured bound
+  χ_la(T) ≤ ℓ(T)+2 for trees, showing no absolute constant works. Below bar — niche graph-labeling
+  conjecture. Abstract verified via arXiv API this session.
+- 2026-10-16 — Aznay, Chabbabi, "On Mbekhta's conjecture and pseudo-Fredholm operators on Banach
+  and Hilbert spaces" — https://arxiv.org/abs/2610.23229 — axis 1 (operator theory): disproves
+  Mbekhta's conjecture and a related pseudo-B-Fredholm conjecture. Below bar — specialist
+  functional-analysis conjectures. Abstract verified via arXiv API this session.
+- 2026-10-16 — Akazawa, "Ambient Chow Rings of Debarre–Voisin Fourfolds and the Beauville–Voisin
+  Conjecture" — https://arxiv.org/abs/2610.23376 — axis 1 (algebraic geometry): proves the
+  Beauville–Voisin conjecture for a very general Debarre–Voisin hyperkähler fourfold (not the fully
+  general/unconditional case). Below bar — a strong partial case, not the conjecture's full
+  resolution. Abstract verified via arXiv API this session.
+- 2026-10-16 — NA61/SHINE Collaboration, "Unexpectedly large violation of isospin symmetry in
+  nucleus-nucleus collisions at CERN SPS energies" — https://arxiv.org/abs/2610.23498 — axis 3
+  (hep-ex/nuclear): an anomaly claim — an excess of charged-over-neutral kaon production in central
+  Ar+Sc collisions "that cannot be explained by known mechanisms contained in the present
+  theoretical models." Below bar for now (single-collaboration anomaly, vetting status unknown) —
+  track per the hype-skepticism rule; watch for theoretical explanations or independent
+  corroboration (e.g. from other SPS/RHIC experiments). Abstract verified via arXiv API this
+  session.
+- 2026-10-14 (webinar); report published 2026-10-14, found 2026-10-19 — ICARM/First Proof
+  Foundation, "First Proof Third Batch" benchmark report (Abouzaid, Srivastava, Ward, Williams) —
+  https://hexagonmath.org/2610.00244 — AXIS-5 WATCH ONLY (an AI-capability benchmark, not a math
+  result: the ten test problems were pre-existing UNPUBLISHED results privately held by the
+  contributing mathematicians, not new discoveries by any party). Resolves the 2026-10-16 report's
+  standing chase ("did the Third-Batch webinar publish results"): yes — of 5 systems tested,
+  ProofCouncil (multi-model harness) solved 9/10, GPT-6 Astra 7/10, the open-weight Kimi-K3-based
+  Humanize solved 0/10 with major errors in every submission; exposition/attribution judged still
+  weak across all systems. Per AGENTS.md axis 5, do NOT track the AI-capability story further as a
+  trend — noted here only to close the standing chase. New domain (hexagonmath.org) — staged below
+  under Discovered-source candidates pending a 2nd sighting.
+- 2026-03-23 (post date); found 2026-10-19 (capture-leak, ~7 months uncaptured) — Matthew Schwartz
+  (Harvard), "Vibe physics: The AI grad student" — https://www.anthropic.com/research/vibe-physics
+  — reports a genuine axis-2 physics RESULT reached with heavy AI (Claude) assistance: a new
+  factorization theorem for the C-parameter Sudakov-shoulder resummation in e+e- annihilation
+  (soft-collinear effective theory), published as arXiv:2601.02484 (2026-01-05, Schwartz, sole
+  author). Below bar as a trend (a single technical EFT precision-QCD result, not a named-conjecture
+  resolution or first-of-kind detection) — queued as the underlying PHYSICS result; the AI-assisted
+  workflow itself is axis-5 WATCH only, not tracked as a method per AGENTS.md. study_shelf pick,
+  below.
+- 2026-10-01; found 2026-10-19 — Matthew Schwartz (guest post), "Claude-shaped science" —
+  https://www.anthropic.com/research/claude-shaped-science — axis-5 WATCH, UNVERIFIED: describes
+  "BootLoops," an open-source LLM harness for quantitative science, with claimed-but-NOT-YET-
+  PUBLISHED results (an exact 3D random-walk return-probability formula for "Watson's final
+  problem"; 15 previously-uncomputed elliptic Feynman integrals among 30 computed) that the post
+  itself says are "undergoing further exploration and verification." No arXiv id, no paper — stays
+  unverified per the hard rules until a citable writeup appears; re-check bootloops.ai/the linked
+  GitHub repo for a paper.
+- 2026-10-19 — Terence Tao, "SAIR Open Math OS released" (soft launch) —
+  https://terrytao.wordpress.com/ / openmathmodel.org — axis-5 WATCH: a new web-based service
+  hosting open-weight models (DeepSeek V4.1 Flash, Kimi K3, GLM 5.3 Flash) for mathematicians'
+  use (Lean formalization assistance, discussion), donated-compute, team-account model. Tooling/
+  governance watch item, not a research result — parallel to agmai.org/Simons-$15M/vals.ai pattern.
+  New domain (openmathmodel.org) — staged below under Discovered-source candidates.
 
 ## source_rotation
 
@@ -5961,6 +6047,11 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-01-05 (v1); shelf-added 2026-10-19 — [Resummation of the C-Parameter Sudakov Shoulder Using
+  Effective Field Theory (Schwartz)](https://arxiv.org/abs/2601.02484) — a new factorization
+  theorem for a QCD precision-calculation problem, notable both on its own physics merits and as a
+  genuine (AI-assisted-but-human-steered) axis-5 case study; see queue entry above for the
+  AI-watch framing.
 - 2026-08-09 (v1); shelf-added 2026-10-16 — [The Mathieu group M23 is a Galois group over ℚ
   (Huang, Jackson, Lee, Poonen, Pries, Zhang)](https://arxiv.org/abs/2608.08538) — completes a
   ~40-year program, realizing the last of the 26 sporadic finite simple groups as a Galois group
