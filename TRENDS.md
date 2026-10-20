@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-19
+Last updated: 2026-10-20
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2043,6 +2043,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-10-05 — https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf
     — companion manuscript, alternate proof of the stronger ℜs>11/12 half-plane, explicitly ruling
     out Landau–Siegel zeros. Verified live via `raw.githubusercontent.com` this session.
+  - 2026-10-01 (found this session via Terence Tao's blog, not the standing arXiv/GitHub sweep) —
+    https://github.com/openai/math/blob/main/preprints/Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026/paper.pdf
+    — "Uniform exclusion of Landau-Siegel zeros": a DISTINCT, previously-uncaptured standalone
+    OpenAI manuscript (9pp, algebraic number theory + geometry of numbers) on the same Landau-Siegel
+    half-plane as the Oct-5 companion above — the specific version Terence Tao sketches his own
+    proof of (see notes). Verified live via `raw.githubusercontent.com` this session.
   - 2026-10-15 — https://arxiv.org/abs/2610.21099 — Bryce Kerr, "A simpler proof that there are no
     Landau–Siegel zeros" — explicitly states it simplifies the OpenAI proof above. The first
     INDEPENDENT HUMAN ENGAGEMENT that reproduces/simplifies (not merely discusses) one of this
@@ -2073,6 +2079,38 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     self-contained or leans on OpenAI's own lemmas. Watch for: whether this is itself treated by the
     community as confirming correctness of the ℜs>7/8 bound, and a similar simplification of the
     stronger ℜs>11/12 proof.
+  - 2026-10-11 (v1; found this session, pointer via Terence Tao's blog) —
+    https://arxiv.org/abs/2610.15483 — William D. Banks, "On the OpenAI proof that Landau-Siegel
+    zeros do not exist": a SECOND independent human digestion (after Kerr's) of this result-family's
+    stronger half-plane, giving a detailed, self-contained, explicit-constants account — an
+    interpolation-determinant argument yielding $q_0=10^{10}$, $δ_0=3.0\times10^{-3}$, combined with
+    a Lu-Zaman-Zhao computation for a bound at every conductor $q\ge3$. Abstract/author verified via
+    arXiv API this session. Older than the existing Oct-15 evidence date — a backfill catch, no
+    `last_evidence` change.
+  - 2026-10-20 (daily) — STRONGEST COLLECTIVE VETTING SIGNAL YET, still short of a formal outcome:
+    found via Terence Tao's blog, "A sketch of the proof of non-existence of Siegel zeroes"
+    (https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/,
+    2026-10-19, opened this session — commentary, not itself a primary): Tao gives his OWN worked
+    sketch of the key bound for a DISTINCT standalone OpenAI preprint on the same Landau-Siegel-zero
+    claim (https://github.com/openai/math/blob/main/preprints/Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026/paper.pdf,
+    "Uniform exclusion of Landau-Siegel zeros," 2026-10-01, 9pp, via algebraic number theory +
+    geometry of numbers — now folded into evidence above as a further primary on this half-plane,
+    predating the Oct-15/Oct-11 digestions), attributing the "particularly elegant" formulation he
+    follows to Ben Green (hexagonmath.org/2610.00311v2, not an arXiv link, not independently opened
+    this session). Separately, Quanta's "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?"
+    (https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/,
+    2026-10-19, opened this session) surveys the vetting status of BOTH half-planes: the community
+    has set the ℜs>7/8 (Lean-verified, 199pp) paper aside to focus on the unformalized ℜs>11/12
+    (49pp) one; several 7-13-page human expositions are circulating privately; named specialists
+    (Jared Duker Lichtman, Alexander Dunn, Michael Rubinstein, Will Sawin, Thomas Bloom) "largely
+    agree" the result is correct, but Peter Sarnak states he will not treat it as established until
+    humans check every detail line-by-line, and Maksym Radziwiłł criticizes the EXPOSITION (not the
+    correctness) of both OpenAI papers as "well below the field's standards of clarity." Net: this is
+    now the broadest named-expert engagement on file for any single item this ledger tracks, but
+    still short of a completed line-by-line verification or formal referee outcome — confidence held
+    at `medium` per the hard rule (a claimed proof is not a resolved result until the community
+    confirms). Watch for: a completed independent write-up posted openly (not privately circulating),
+    or Sarnak/another named skeptic's verdict after a full check.
 
 ### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
 - stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
@@ -2363,7 +2401,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     ledger treats every backfilled-landmark trend.
 
 ### First evidence that X(2370) is dominantly a glueball (BESIII Collaboration)
-- stage: seed | confidence: medium | first_seen: 2026-10-17 | last_evidence: 2026-07-22
+- stage: seed | confidence: medium | first_seen: 2026-10-17 | last_evidence: 2026-09-01
 - what: axis-3 DOMAIN-CADENCE LANDMARK, PROMOTED from the observation_queue/study_shelf (held there
   since a 2026-07-22 capture-leak catch, never previously promoted to its own trend despite meeting
   the landmark-single-result bar). From 10 billion J/ψ events, the BESIII Collaboration reports the
@@ -2375,6 +2413,22 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-07-22 — https://arxiv.org/abs/2607.20366 — BESIII Collaboration, "Lightest $0^{-+}$ Glueball
     as Dominant Constituent of $X(2370)$": abstract + collaboration authorship verified via arXiv
     API this session (v1 2026-07-22).
+  - 2026-05-26 (v1; backfill, found this session via a CERN Courier chase) —
+    https://arxiv.org/abs/2605.26495 — BESIII Collaboration, "Observation of the $X(2370)$ in
+    $J/ψ\rightarrowγK^{0}_{S}K^{0}_{S}π^{0}$ and $J/ψ\rightarrowγπ^{0}π^{0}η$": two further decay
+    channels (>14σ and >20σ respectively) combined with the already-tracked $K^0_SK^0_Sη'$ channel
+    to pin mass 2359(+13/-14) MeV, width 170(+44/-29) MeV. Same collaboration, same experiment —
+    corroborating detail, not a second independent group. Abstract/authors verified via arXiv API
+    this session.
+  - 2026-09-01 (v1) — https://arxiv.org/abs/2609.01342 — Ben, Yang, Zou, "On the Nature of
+    $X(2370)$": a COMPETING-INTERPRETATION paper, exactly the vetting-status watch item this
+    trend's creation note flagged — argues the BESIII glueball arguments are "flawed" and the
+    claimed conclusion "unjustified," proposing instead that every observed property of X(2370) is
+    naturally explained by a $\bar Σ Σ$ (baryon-antibaryon) molecular state. Abstract/authors
+    verified via arXiv API this session (v1 2026-09-01, v2 2026-09-06). Found via a CERN Courier
+    17 September review article ("A case for pure glue") opened this session, which also names a
+    supporting lattice-QCD prediction (Chen, Gui, Li, Sun, arXiv:2605.01757, pseudoscalar glueball
+    at 2395±14 MeV) — below-bar context, not added as its own evidence line.
 - notes: 2026-10-17 (weekly, W42, PROMOTION): this result sat on the queue + study_shelf since a
   2026-07-22 capture-leak catch (chased via a Hacker-News pointer, missed by the ordinary arXiv
   sweep for 27 days), widely covered mid-August by Nature News, Science, Ars Technica and
@@ -2385,11 +2439,144 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   medium (named-expert corroboration exists but is not unanimous; no formal collaboration-internal
   peer review cited yet). Watch for: a definitive/consolidated collaboration treatment, or a
   competing-interpretation paper.
+  - 2026-10-20 (daily): the watched-for competing-interpretation paper ARRIVED (Ben-Yang-Zou,
+    ΣΣ̄-molecule reading, see evidence above) — found via a CERN Courier retrospective, not the
+    standing arXiv sweep (hep-ex/hep-ph category batches had already rolled past its Sept 1 v1 by
+    the time this ledger started tracking the trend). Confidence held at medium — the glueball
+    reading now has a genuine, named rival interpretation in the literature, not just outside
+    caution quotes. Watch for: a BESIII or third-party response to the molecular-interpretation
+    challenge.
+
+### Proof of the Erdős–Szemerédi sunflower conjecture (Bucić–He–Lee)
+- stage: seed | confidence: medium | first_seen: 2026-10-20 | last_evidence: 2026-10-19
+- what: axis-1 DOMAIN-CADENCE LANDMARK, found via today's math category-rotation batch. Erdős and
+  Szemerédi conjectured in the 1970s that any collection of subsets of $[n]$ avoiding a $k$-sunflower
+  has size at most $c_k^n$ for some $c_k<2$; the $k=3$ case followed from Croot-Lev-Pach and
+  Ellenberg-Gijswijt's cap-set-problem breakthrough (via a reduction of Alon-Shpilka-Umans) — the
+  same celebrated polynomial-method machinery behind the Naslund-Sawin sunflower-lemma improvement.
+  This paper proves the FULL conjecture for every $k\ge3$. Matija Bucić (Princeton) is a leading
+  extremal/probabilistic combinatorialist; a clean, complete resolution of a famous 50-year-old
+  Erdős problem, not an incremental bound.
+- evidence:
+  - 2026-10-19 (v1) — https://arxiv.org/abs/2610.26686 — Bucić, He, Lee, "Proof of the
+    Erdős-Szemerédi sunflower conjecture": abstract + authors verified via arXiv API this session.
+- notes: 2026-10-20 (daily, seed creation): unrefereed preprint, standard caution — but a
+  multi-author, well-credentialed resolution of a classical named conjecture directly building on
+  an already-celebrated technique (cap-set/polynomial method); no AI-assistance disclosed. Watch
+  for: referee outcome, community reaction (this is squarely the kind of result Quanta covers).
+
+### First observation of weak magnetism in neutron decay (Camarasa-Domene–González-Alonso–Novoa-Brunet)
+- stage: seed | confidence: medium | first_seen: 2026-10-20 | last_evidence: 2026-10-19
+- what: axis-3 DOMAIN-CADENCE LANDMARK (first-of-kind), found via today's physics category-rotation
+  batch. Weak magnetism — a hallmark prediction of Gell-Mann's conserved-vector-current (CVC)
+  hypothesis — had never been directly observed in the decay of the free neutron because the usual
+  observable (the β asymmetry) cannot separate the weak-magnetism form factor $g_M$ from the
+  axial-to-vector ratio λ. Combining β-asymmetry measurements with the neutron lifetime and the
+  $\mathcal{F}t$ value of superallowed $0^+\to0^+$ decays lifts the degeneracy: $g_M=4.47(87)$,
+  matching the CVC prediction of 4.71 and excluding the absence of weak magnetism at 5.1σ (5.0σ-6.1σ
+  across dataset variations) — "the first observation of weak magnetism in the decay of the free
+  neutron nearly seven decades after Gell-Mann's prediction." A phenomenological reanalysis of
+  existing data (not a new experiment), by established CVC/β-decay theorists.
+- evidence:
+  - 2026-10-19 (v1) — https://arxiv.org/abs/2610.26792 — Camarasa-Domene, González-Alonso,
+    Novoa-Brunet, "First observation of weak magnetism in neutron decay": abstract + authors
+    verified via arXiv API this session.
+- notes: 2026-10-20 (daily, seed creation): unrefereed preprint, standard caution, but a
+  phenomenological/statistical result building transparently on public neutron-decay data (no
+  AI-assistance, no extraordinary-claim-scale jump) — lower epistemic risk than a from-scratch
+  single-result claim. Watch for: referee outcome, and whether the significance holds up as new
+  neutron-lifetime/asymmetry measurements arrive.
+
+### A strongly aperiodic monotile in three dimensions ("Chair44", Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)
+- stage: seed | confidence: medium | first_seen: 2026-10-20 | last_evidence: 2026-09-21
+- what: axis-1 DOMAIN-CADENCE LANDMARK, a ~5-week BACKFILL capture-leak catch (found via a 2026-10-12
+  Scientific American piece this session, missed by the standing arXiv sweep at the time). Socolar
+  and Taylor asked for a single, simply-connected 3D prototile that forces nonperiodicity by shape
+  alone (no weakly-nonperiodic tiling) — the Schmitt-Conway-Danzer biprism and the 3D Socolar-Taylor
+  tile both fall short (screw motions / periodic stacking). Ioannis Tsiokos (Automorph) proposes
+  "Chair44" (R44): a seven-cube chair with decorated exposed panels, forcing nonperiodicity — the 3D
+  analogue of the celebrated 2023 2D "einstein"/"hat" monotile. UNUSUALLY FAST, UNUSUALLY STRONG
+  expert engagement for an AI-heavy claim: within 5 days, Felix Flicker (Bristol) independently
+  derives general matching-rule requirements achieving the same result, and — most notably — Chaim
+  Goodman-Strauss (co-discoverer of the 2D hat tile, a leading authority on aperiodic tilings) posts
+  his own "clearer presentation" of the SAME Chair44 construction, rather than a rebuttal — a strong,
+  fast, named-expert corroboration signal, though community reception is reported as mixed given
+  Tsiokos's heavy generative-AI use in both the discovery and the writing.
+- evidence:
+  - 2026-09-16 (v1) — https://arxiv.org/abs/2609.19214 — Tsiokos, "A Strongly Aperiodic Monotile in
+    Three Dimensions": abstract + author verified via arXiv API this session.
+  - 2026-09-20 (v1) — https://arxiv.org/abs/2609.23783 — Flicker, "Matching Rules for a
+    Three-Dimensional Strongly Aperiodic Monotile": independent derivation of general face-decoration
+    requirements achieving the same nonperiodicity result. Abstract + author verified via arXiv API
+    this session.
+  - 2026-09-21 (v1) — https://arxiv.org/abs/2609.24779 — Goodman-Strauss, "Notes on a strongly
+    aperiodic monotile in $E^3$": "a clearer presentation of the Chair44 monotile" by a leading named
+    authority in the field — read as expert endorsement/clarification, not a rebuttal, despite
+    Scientific American's "critique" framing. Abstract + author verified via arXiv API this session.
+- notes: 2026-10-20 (daily, seed creation, BACKFILL): found via Scientific American's "A unique
+  shape, a 3D einstein tile, has been discovered" (2026-10-12, opened this session), which also
+  reports mixed community reception driven by Tsiokos's AI use — track the RESULT (a genuine
+  first-of-kind 3D construction with rapid, credible expert buy-in), not the AI-assisted-discovery
+  method (sibling AI radars' beat), per the hard rule. Confidence medium: Goodman-Strauss's
+  involvement is a strong signal but not yet a formal referee outcome. Watch for: a fourth
+  independent group, or a definitive community verdict akin to the 2D hat tile's reception.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-10-17 (v1; found today's math category-rotation batch) — Hu, Zhang, "A proof of the strong
+  Erdős–Frankl–Füredi cover-free conjecture" — https://arxiv.org/abs/2610.24442 — extremal set
+  theory (axis 1, math.CO): proves $T(r)\ge(r+1)^2$ for every $r\ge1$ (so $T(r)=(r+1)^2$ whenever
+  $r+1$ is a prime power), confirming the strong form of the 1985 Erdős–Frankl–Füredi cover-free
+  conjecture. Abstract + authors verified via arXiv API this session. A named, decades-old Erdős
+  conjecture fully resolved, but a specialized sub-field (cover-free families / superimposed codes)
+  — held below the landmark bar, queued rather than seeded.
+- 2026-10-18 (v1; found today's math category-rotation batch) — Feng, Lin, "A counterexample to the
+  geometric triangulation conjecture of Costantino, Frigerio, Martelli and Petronio" —
+  https://arxiv.org/abs/2610.25217 — low-dimensional/hyperbolic geometry (axis 1, math.GT): refutes
+  the CFMP conjecture (every ideal triangulation with all edge valence ≥6 is realized by hyperbolic
+  partially-truncated tetrahedra) via an explicit 2688-tetrahedron construction from the figure-eight
+  knot complement. Abstract + authors verified via arXiv API this session. Specialized sub-field —
+  queued, not seeded.
+- 2026-10-17 (v1; found today's math category-rotation batch) — Zhe Zhang, "A counterexample to the
+  local existence of conformal normal metrics" — https://arxiv.org/abs/2610.24541 — conformal
+  geometry (axis 1, math.DG): for every dimension $n\ge3$, constructs a smooth metric, Euclidean to
+  all orders at a point, whose conformal class admits no smooth conformal normal metric nearby;
+  also gives a direct counterexample to a linear-right-inverse step in Cao's prior smooth-existence
+  argument. Abstract + author verified via arXiv API this session (Amendment J full-abstract pass,
+  math.AC, did NOT catch this — it is in math.DG — caught instead by the standing title-keyword
+  triage). Single-author, specialized — queued.
+- 2026-10-19 (v1; found today's math category-rotation batch) — de Bondt, "Alpöge's counterexample
+  to the JC, Economic Stabilization, and Zhao's Vanishing Conjecture" —
+  https://arxiv.org/abs/2610.24889 — algebraic geometry (axis 1, math.AG), FURTHER INDEPENDENT
+  ENGAGEMENT with the standing AI-assisted Jacobian-conjecture counterexample cluster (already
+  tracked since 2026-07, see elsewhere on this ledger): applies "economic" stabilization techniques
+  to a tweaked version of Alpöge's counterexample to JC(3)/JC(3,7), constructing counterexamples to
+  HJC(15), VC(28), HJC(18,3), VC(34,4), and — "as an encore" — a cubic-linear counterexample to the
+  Jacobian Conjecture itself in dimension 90. Abstract + author verified via arXiv API this session.
+  A further technical extension treating the original AI-assisted counterexample as a working
+  foundation (implicit vetting signal, not an explicit endorsement) — below-bar, queued alongside
+  van den Essen's and Dvorsky's earlier follow-ons on the same cluster.
+- 2026-10-19 (v1; found this session via vals.ai's blog sweep) — Geby Jaff (Vals AI), "A Faster
+  Shortest Path Algorithm" — https://vals.ai/blogs/faster-shortest-path-algorithm — axis-5 AI-WATCH
+  (scope: track the assistance, not the method): ten Claude Opus 5.5 agents, prompted over ~15 hours,
+  produced "C-HD," a claimed Lean-formally-verified exact-shortest-path algorithm for directed graphs
+  with non-negative real weights that the post describes as "a formally verified improvement over
+  the published bounds" (citing the 2025 Duan–Mao–Mao–Shu–Yin sorting-barrier-breaking result and a
+  2026 follow-up as the baselines), within a stated density range; the author notes no benchmarking
+  on real graphs and "very large" constants (no practical speedup shown). Page opened via `tvly
+  extract` this session. UNREFEREED, self-published, scope limited by the author's own caveats —
+  queued watch-only, not a result to track in its own right per axis-5 scope.
+- 2026-10-18 (v1; found today's physics category-rotation batch) — Tandel, Rathore, Hemalatha,
+  Sahoo, Srivastava, Chowdhury, Janssens, Kondev, Carpenter, Lauritsen, Seweryniak, "Singular
+  observation of shape and spin hindrance in metastable nuclear decay of $^{197}$Au" —
+  https://arxiv.org/abs/2610.25915 — nuclear structure (axis 3, nucl-ex): identifies a long-lived
+  ($T_{1/2}>10$s) $I^π=(29/2^+)$ metastable state in $^{197}$Au whose decay shows the simultaneous
+  coexistence of a strongly-hindered E2 transition and a competing E4 branch of comparable
+  intensity — a decay pattern "not previously identified in a long-lived nuclear state." Abstract +
+  authors verified via arXiv API this session. A genuine first-of-kind pattern, but a specialized
+  nuclear-structure benchmark rather than a field-shaping landmark — queued.
 - 2026-03-19 (announced); ceremony 2026-05 — **2026 Abel Prize → Gerd Faltings (Max Planck Institute
   for Mathematics, Bonn)** — https://abelprize.no/ — recognition/ecosystem (axis 1, pure math):
   COVERAGE-GAP CATCH — this ledger's annual-prize lane never captured the year's Abel Prize at all
@@ -3101,6 +3288,15 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     session (v1 2026-09-02). Upgrades this item from "provisional, informally examined" to
     "provisional, now independently re-derived by a specialist" — track for a peer-reviewed
     outcome. Also added to `study_shelf` (see below) — the vetting event itself is the story.
+  - 2026-10-17 (v1; found this session via today's math category-rotation batch) — J. Arias de
+    Reyna, "Human Exposition of Claude's 2/3 Theorem on the zeros of zeta" —
+    https://arxiv.org/abs/2610.24612 — a human mathematician's own detailed write-up/exposition of
+    Claude's original proof (not a new independent re-derivation like Lamzouri's, but a direct
+    exposition of the ORIGINAL argument's actual steps), stating it is "simpler than the previous
+    ones and takes a different approach." Abstract + author verified via arXiv API this session.
+    Upgrades the vetting picture further: a working number theorist has now gone through Claude's
+    own argument closely enough to re-expose and simplify it, a step beyond Lamzouri's independent
+    re-derivation. Still not a formal referee outcome. Also added to `study_shelf`.
 - 2026-08-10 — arXiv:2608.08997 — Kaur, Kumar, "A proof of the cyclotomic conjecture and the
   non-existence of almost Moore digraphs" — https://arxiv.org/abs/2608.08997 — graph theory /
   degree-diameter problem (axis 1, math.CO/NT): proves Gimbert's 1999 cyclotomic conjecture on
@@ -6049,6 +6245,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-19 (v1); shelf-added 2026-10-20 — [Proof of the Erdős-Szemerédi sunflower conjecture
+  (Bucić, He, Lee)](https://arxiv.org/abs/2610.26686) — resolves a famous 1970s Erdős conjecture in
+  full for every $k\ge3$, directly continuing the celebrated cap-set/polynomial-method breakthrough
+  that settled the $k=3$ case; see new seed trend.
+- 2026-09-16 (v1); shelf-added 2026-10-20 — [A Strongly Aperiodic Monotile in Three Dimensions
+  ("Chair44," Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)](https://arxiv.org/abs/2609.19214)
+  — the 3D analogue of the celebrated 2023 2D "einstein" tile, with the co-discoverer of that
+  original result (Goodman-Strauss) posting his own clarifying presentation of the same
+  construction within days; see new seed trend for the full AI-provenance/reception caveats.
 - 2026-01-05 (v1); shelf-added 2026-10-19 — [Resummation of the C-Parameter Sudakov Shoulder Using
   Effective Field Theory (Schwartz)](https://arxiv.org/abs/2601.02484) — a new factorization
   theorem for a QCD precision-calculation problem, notable both on its own physics merits and as a
