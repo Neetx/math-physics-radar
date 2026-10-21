@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-20
+Last updated: 2026-10-21
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2017,7 +2017,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   watch for a definitive formation-channel consensus.
 
 ### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
-- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-15
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-20
 - what: axis-1 DOMAIN-CADENCE LANDMARK, PROMOTED out of prose: one specific result-family (#003)
   inside the already-tracked OpenAI mass-disclosure release (2026-10-06, 722 manuscripts) had sat
   named only in that trend's `what` text since 2026-10-07 — a capture-leak by this ledger's own
@@ -2111,6 +2111,28 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     at `medium` per the hard rule (a claimed proof is not a resolved result until the community
     confirms). Watch for: a completed independent write-up posted openly (not privately circulating),
     or Sarnak/another named skeptic's verdict after a full check.
+  - 2026-10-21 (daily) — THE WATCHED-FOR POLYMATH-STYLE PROJECT LAUNCHED: Terence Tao, "An
+    experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out
+    Siegel zeroes" (2026-10-20,
+    https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/,
+    opened directly this session) — a collaborative, disclosed-AI-use, Polymath-style challenge to
+    derive an effective bound on a hypothetical "tenth discriminant" using the newer Landau-Siegel-
+    zero-exclusion machinery (incl. this trend's own claims) rather than classical Heilbronn-Linfoot/
+    Goldfeld-Oesterlé methods — fulfilling the specific watch condition carried on this trend since
+    its 2026-10-13 creation (the MathOverflow-proposed Polymath project "actually launching").
+    Fast-moving, self-correcting thread (not itself evidence of the quasi-RH/Siegel-zero claims'
+    correctness): a historical-attribution fix (Kulikov), a revised numeric bound after an error was
+    found (Silberman, ~10^15 → ~10^45), a self-reported "twinheterodox" sequence reaching q<2000
+    (self-reported, says it passed independent cross-checks, not verified by this radar), and several
+    explicitly CONDITIONAL entries (LemmaLab's d≤653, Henric Larsson's |D|<50,000) that depend on the
+    very zero-free-region claims this trend tracks rather than independently confirming them. Net:
+    a genuine, ongoing community-vetting mechanism now exists and is actively exercising this
+    trend's underlying claims, but no entry in the thread so far constitutes an independent
+    confirmation or refutation of the ℜs>7/8 or ℜs>11/12 results themselves — confidence held at
+    `medium`. last_evidence advances 2026-10-15 → 2026-10-20. Watch for: whether any challenge entry
+    turns into a genuine independent audit of the OpenAI zero-free-region arguments, and the
+    class-number-one/tenth-discriminant bound outcome itself (axis-1 significance in its own right
+    if a sub-threshold effective bound is found, independent of the Siegel-zero claim's fate).
 
 ### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
 - stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
@@ -2521,10 +2543,181 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   involvement is a strong signal but not yet a formal referee outcome. Watch for: a fourth
   independent group, or a definitive community verdict akin to the 2D hat tile's reception.
 
+### Resolution of the 1985 Neumann–Zagier conjecture (hyperbolic 3-manifolds)
+- stage: seed | confidence: medium | first_seen: 2026-10-21 | last_evidence: 2026-10-19
+- what: axis-1 DOMAIN-CADENCE LANDMARK, found via today's math category-rotation batch. Walter
+  Neumann and Don Zagier conjectured in 1985 that if a "tree lattice" (an integral lattice
+  presented by a tree with integer vertex weights) is isometric to the standard integer lattice in
+  Euclidean space, the tree must contain a vertex of weight one. Greene, Issa, and McCoy settle
+  this directly via a new rigidity theorem for positive-definite tree lattices (every such lattice
+  has an irreducible vertex element, i.e. one determining a Voronoi-polyhedron facet) — a 40-year-
+  old named conjecture in low-dimensional topology/hyperbolic geometry resolved outright. Joshua
+  Evan Greene (Boston College) is an established low-dimensional topologist; human-authored, no AI
+  involvement, unrefereed preprint — standard caution.
+- evidence:
+  - 2026-10-19 (v1) — https://arxiv.org/abs/2610.27095 — Greene, Issa, McCoy, "Tree Lattices and the
+    Neumann-Zagier conjecture": proves a rigidity theorem for positive-definite tree lattices and
+    derives the 1985 Neumann-Zagier conjecture as a corollary. Abstract + authors verified via
+    arXiv API this session.
+- notes: 2026-10-21 (daily, seed creation): caught in today's full math category-rotation sweep
+  (math.GT, title-visible "conjecture" keyword match). Watch for independent confirmation/citation
+  and referee outcome.
+
+### Resolution of the linear MDS conjecture in even characteristic (coding theory)
+- stage: seed | confidence: medium | first_seen: 2026-10-21 | last_evidence: 2026-10-20
+- what: axis-1 DOMAIN-CADENCE LANDMARK, found via today's math category-rotation batch. The MDS
+  (maximum-distance-separable) conjecture — dating to Segre's work in the 1950s-60s on the maximum
+  length of an MDS code of a given dimension over a finite field — is one of the best-known open
+  problems in algebraic coding theory/finite geometry. Chen and Huang prove that every nontrivial
+  linear $[n,k]$ MDS code over $\mathbb{F}_q$ of characteristic two satisfies $n\le q+1$ (except
+  for the known exceptional dimensions $k=3$ and $k=q-1$, where $n\le q+2$), resolving the linear
+  MDS conjecture in even characteristic — a major case of a decades-old named conjecture (the odd-
+  characteristic case and the linear/nonlinear distinction have separate, partly-resolved
+  literatures). Human-authored, no AI involvement, unrefereed preprint — standard caution.
+- evidence:
+  - 2026-10-20 (v1) — https://arxiv.org/abs/2610.28208 — Chen, Huang, "On the MDS conjecture in
+    even characteristic": proves the linear MDS conjecture in characteristic two. Abstract +
+    authors verified via arXiv API this session.
+- notes: 2026-10-21 (daily, seed creation): caught in today's full math category-rotation sweep
+  (math.CO/IT, title-visible "conjecture" keyword match). Watch for independent confirmation,
+  referee outcome, and whether the odd-characteristic case sees comparable progress.
+
+### Proof of the double-cap conjecture (Witsenhausen's problem / Kalai's sphere-measure conjecture)
+- stage: seed | confidence: medium | first_seen: 2026-10-21 | last_evidence: 2026-10-20
+- what: axis-1 DOMAIN-CADENCE LANDMARK, found via today's math category-rotation batch, provenance
+  confirmed via `WebSearch` this session. H. S. Witsenhausen posed the problem in a 1974 AMS
+  Monthly column: what is the largest-measure subset of a sphere containing no pair of orthogonal
+  vectors? Gil Kalai (a source already tracked on this ledger) formalized the conjectured extremal
+  answer on his blog in 2009 — two opposite caps of geodesic radius π/4 ("the double-cap
+  conjecture") — a problem with direct consequences for the measurable chromatic number of
+  Euclidean space (if true, $c_m(n)\ge(\sqrt2+o(1))^n$). Ibiapina, Gomes, Pio, Belo, and Ferreira
+  now prove it in full for every $n\ge3$, via a new orthogonality inequality in real projective
+  space (compactness of the Funk transform, rotation comparisons, projective variations). A
+  51-year-old open problem (16 years as a named conjecture) in discrete geometry/convexity,
+  resolved outright. Human-authored, no AI involvement; unrefereed preprint — standard caution,
+  though a direct, checkable analytic argument (not an extraordinary/AI-generated claim).
+- evidence:
+  - 2026-10-20 (v1) — https://arxiv.org/abs/2610.27523 — Ibiapina, Gomes, Pio, Belo, Ferreira, "An
+    orthogonality inequality in $\mathbb{RP}^{n-1}$ and the double-cap conjecture": proves caps
+    minimize orthogonal-neighborhood measure among fixed-measure subsets of $\mathbb{RP}^{n-1}$
+    ($n\ge3$), with rigidity up to null sets, yielding the double-cap conjecture on $S^{n-1}$.
+    Abstract + authors verified via arXiv API this session.
+- notes: 2026-10-21 (daily, seed creation): caught in today's full math category-rotation sweep
+  (math.MG, title-visible "conjecture" keyword match); provenance (Witsenhausen 1974, Kalai 2009)
+  confirmed via `WebSearch` this session, not merely assumed from the title. Watch for: a reaction
+  from Kalai himself (an already-tracked digest source — his blog is swept every run), independent
+  confirmation/citation, and whether the measurable-chromatic-number consequence gets separate
+  attention.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-10-20 (v1; found today's math category-rotation batch) — Zhang, Zhang, "Solving the
+  Ho–Nguyen Conjecture for Gaussian Mixtures" — https://arxiv.org/abs/2610.27265 — statistics/
+  algebraic statistics (axis 1, math.ST): resolves the exact cancellation order in Ho-Nguyen's
+  polynomial-system encoding of Gaussian-mixture over-fitting, with application to mixture-of-
+  experts parameter-learning rates. Abstract + authors verified via arXiv API this session.
+  Specialized statistics sub-field — queued, not seeded.
+- 2026-10-20 (v1) — Arulseelan, Hanson, "Counterexamples to the Monotone Completeness Conjecture"
+  — https://arxiv.org/abs/2610.27184 — operator algebras (axis 4, math.OA): a model-theoretic
+  reduction of the already-disproved quasitrace conjecture yields a counterexample to the monotone
+  completeness conjecture. Abstract + authors verified via arXiv API this session. Follow-on to an
+  already-disproved conjecture, specialized — queued.
+- 2026-10-20 (v1) — Patkós, "Intersecting families with large covering number — On a conjecture of
+  Frankl, Ota, and Tokushige" — https://arxiv.org/abs/2610.28029 — extremal set theory (axis 1,
+  math.CO): determines $M(n,k,t)$ asymptotically for fixed $t$ and $k$ large, confirming a Frankl-
+  Ota-Tokushige conjecture. Abstract + author verified via arXiv API this session. Specialized
+  sub-field — queued.
+- 2026-10-20 (v1) — Julin, Palatucci, "A counterexample to the fractional Michael-Simon inequality"
+  — https://arxiv.org/abs/2610.27973 — geometric analysis (axis 1, math.AP/DG): constructs smooth
+  hypersurfaces violating the fractional Michael-Simon inequality for $0<s<(n-1)/n$, $p=1$ (and
+  more generally $s<(n-1)/(np)$). Abstract + authors verified via arXiv API this session.
+  Specialized — queued.
+- 2026-10-20 (v1) — Lin, Yang, "A sharp bound on the binding number of $K_k$-free graphs and the
+  Brandt conjecture" — https://arxiv.org/abs/2610.28536 — extremal graph theory (axis 1, math.CO):
+  proves every finite $K_k$-free graph ($k\ge6$) has binding number at most $k-2$, confirming
+  Brandt's conjecture. Abstract + authors verified via arXiv API this session. Specialized
+  sub-field — queued.
+- 2026-10-19 (v1) — Bilich, Scherer, "Commutative Counterexamples to Arveson's Hyperrigidity
+  Conjecture" — https://arxiv.org/abs/2610.26556 — operator algebras (axis 4, math.OA): constructs
+  commutative $C^*$-algebra operator systems where every irreducible representation of the
+  $C^*$-envelope is a boundary representation yet hyperrigidity fails, refuting Arveson's
+  conjecture in the commutative case. Abstract + authors verified via arXiv API this session.
+  Specialized sub-field — queued.
+- 2026-10-20 (v1) — Chen, Ma, "A proof of Vince's conjecture on the average order of connected
+  induced subgraphs" — https://arxiv.org/abs/2610.27553 — graph theory (axis 1, math.CO): proves
+  the average order of connected induced subgraphs of a connected graph with minimum degree $\ge3$
+  exceeds $n/2$, settling a 2021 conjecture of Vince. Abstract + authors verified via arXiv API
+  this session. Recent (not long-standing) conjecture — queued, not seeded.
+- 2026-10-20 (v1) — Wang, Wang, Yue, "Balanced subgraph counts and quasirandomness: a proof of the
+  Janson–Sós conjecture" — https://arxiv.org/abs/2610.28124 — extremal/quasirandom graph theory
+  (axis 1, math.CO): proves Janson and Sós's 2015 conjecture characterizing $p$-quasirandomness via
+  symmetrized balanced subgraph counts, for every finite graph $F$ with $\ge2$ edges. Abstract +
+  authors verified via arXiv API this session. A clean full resolution of a named conjecture by
+  established combinatorialists' own problem, but not long-standing (2015) — queued.
+- 2026-10-20 (v1) — Gorai, "A new class of smooth algebraic varieties with the density property
+  and a counterexample to the Tóth-Varolin Conjecture" — https://arxiv.org/abs/2610.27660 —
+  several complex variables/affine algebraic geometry (axis 1, math.AG/CV): constructs fourfolds
+  diffeomorphic but not biholomorphic to $\mathbb{C}^4$, refuting the Tóth-Varolin conjecture.
+  Abstract + author verified via arXiv API this session. Specialized sub-field — queued.
+- 2026-10-20 (v1; Amendment J full-abstract pass, math.AG) — Dimca, Pokora, "There are no
+  Miyaoka–Kobayashi octics" — https://arxiv.org/abs/2610.28135 — algebraic
+  geometry (axis 1, math.AG): extends the classification of Miyaoka-Kobayashi extremal plane
+  curves, showing none exist in degree 8 (and no free ones in degree 10), via a new constraint
+  from Langer's orbifold Bogomolov-Miyaoka-Yau inequality. Abstract verified via arXiv API this
+  session (Amendment J full-abstract pass, math.AG, 39 fresh entries read — this and the
+  Tóth-Varolin item above were the only two with genuine conjecture/counterexample content; the
+  rest were routine technical AG papers, no title-blind landmark found). Narrow classification
+  result — queued.
+- 2026-10-21 (v1; found this session via a Henri Cohen MathOverflow thread) — Robinson, "Elements
+  of the Green ring related to Alperin's weight conjecture" — https://arxiv.org/abs/2610.27988 —
+  modular representation theory (axis 1, math.RT): a tribute/exploratory contribution reframing
+  numerical questions from Alperin's celebrated weight conjecture via projective modules and the
+  Green ring — explicitly NOT a claimed resolution. Abstract + author verified via arXiv API this
+  session. Context on a major open conjecture, not a resolution — queued, watch for an actual
+  resolution attempt.
+- 2026-10-20 (v1) — Portier, "Sprinkling for random regular graphs and Kim-Vu's sandwich
+  conjecture" — https://arxiv.org/abs/2610.28395 — random graph theory (axis 1, math.CO/PR):
+  confirms a Hollom–Lichev–Mond–Portier–Wang conjecture (random $d$-regular graphs are close in
+  total variation to a union of random perfect matchings) for $d\le n^{1/10}$ — a partial
+  (parameter-range-restricted) confirmation, not a full resolution. Abstract + author verified via
+  arXiv API this session. Queued.
+- 2026-10-20 (v1) — Li, "Pólya's conjecture for Dirichlet eigenvalues of spherical shells and
+  Aharonov–Bohm annuli" — https://arxiv.org/abs/2610.27707 — spectral geometry (axis 1/2,
+  math.AP/SP): establishes Pólya-type strict eigenvalue inequalities for a new family of domains
+  (spherical shells, Aharonov-Bohm annuli) — extends Pólya's classical 1954 conjecture (known false
+  in general, true for special domain families) to new cases, not a resolution of the general
+  conjecture. Abstract + author verified via arXiv API this session. Queued.
+- 2026-10-19 (v1) — Lemley, Chew, "The sum-product conjecture holds for fixed-field lattice product
+  constructions" — https://arxiv.org/abs/2610.26737 — additive combinatorics (axis 1, math.NT/CO):
+  a fixed-number-field analogue of the lattice-product construction Bloom-Sawin-Schildkraut-
+  Zhelezov used to disprove the real sum-product conjecture (already tracked, see that seed trend)
+  — shows the conjecture HOLDS (not fails) for this fixed-field variant, a boundary/contrast case
+  rather than a new disproof. Abstract + authors verified via arXiv API this session. Cross-
+  referenced to the existing sum-product disproof trend — queued as its own item (a different,
+  narrower claim, not additional evidence for that trend).
+- 2026-10-19 (v1) — Gambheera, "An Equivariant Main Conjecture for Branched $\mathbb{Z}_p$-Towers
+  of Finite Graphs and Applications" — https://arxiv.org/abs/2610.27551 — arithmetic combinatorics/
+  Iwasawa-theory analogue (axis 1, math.NT/CO): constructs a graph-theoretic (Picard-module)
+  analogue of an Iwasawa Main Conjecture for branched $\mathbb{Z}_p$-towers of finite graphs.
+  Abstract + author verified via arXiv API this session. Specialized — queued.
+- 2026-10-19 (v1) — Novaković, Jojić, "Counterexamples to a conjecture and improved bounds for
+  bipanchromatic colorings" — https://arxiv.org/abs/2610.27133 — combinatorics (axis 1, math.CO):
+  disproves a 2026 conjecture of Lalou et al. on the bipanchromatic number and improves bounds.
+  Abstract + authors verified via arXiv API this session. Recent, narrow conjecture — queued.
+- 2026-10-19 (v1) — Laestadius, Csirik, "Counterexamples to the total-current Hohenberg-Kohn
+  conjecture" — https://arxiv.org/abs/2610.27294 — mathematical physics/DFT foundations (axis 2,
+  math-ph/cond-mat): three counterexamples to the total-current generalization of the Hohenberg-
+  Kohn theorem (density-functional theory's foundational uniqueness result) for two spinless
+  fermions in 3D. Abstract + authors verified via arXiv API this session. Specialized DFT-
+  foundations result — queued.
+- 2026-10-20 (v1) — Ammari, Qiu, "The concentration conjecture for Dirac–Coulomb operators" —
+  https://arxiv.org/abs/2610.28193 — mathematical physics (axis 2, math-ph): proves the
+  concentration conjecture for the 3D Dirac operator with an attractive Coulomb potential from
+  finitely many point charges — the spectral-gap eigenvalue is minimized precisely when all charge
+  concentrates at one point. Abstract + authors verified via arXiv API this session. Specialized
+  spectral-theory result — queued.
 - 2026-10-17 (v1; found today's math category-rotation batch) — Hu, Zhang, "A proof of the strong
   Erdős–Frankl–Füredi cover-free conjecture" — https://arxiv.org/abs/2610.24442 — extremal set
   theory (axis 1, math.CO): proves $T(r)\ge(r+1)^2$ for every $r\ge1$ (so $T(r)=(r+1)^2$ whenever
@@ -3297,6 +3490,27 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     Upgrades the vetting picture further: a working number theorist has now gone through Claude's
     own argument closely enough to re-expose and simplify it, a step beyond Lamzouri's independent
     re-derivation. Still not a formal referee outcome. Also added to `study_shelf`.
+  - 2026-10-21 (daily) — VETTING-STATUS CORRECTION (a genuine "gap found in review" signal, per the
+    hard rule's hype-skepticism caution): the full text of Arias de Reyna's own exposition
+    (2610.24612, above — HTML full text opened this session, `arxiv.org/html/2610.24612v1`) states
+    plainly that the original Anthropic/Claude proof "[a]s it's written... doesn't work," calling it
+    "filled with bad notations, wrong assertions and unneeded statements," and flags one bound as
+    insufficient ("Their bound is of the order of N and it is not sufficient") — while judging the
+    necessary fix minor ("the necessary modification deserves [no] more than a note"). This was
+    present in the paper when it was first captured 2026-10-17 but not surfaced in this ledger's
+    note at the time (only "simpler... different approach" was recorded) — a capture-depth miss,
+    corrected now. Surfaced via a MathOverflow thread opened today, "Reliability of Anthropic's Lean
+    verifications" (Henri Cohen, 2026-10-20, https://mathoverflow.net/questions/516206/) asking how a
+    Lean-verified proof can contain false statements that invalidate it — a named specialist raising
+    exactly this question, unanswered as of this session (intake-only; the primary full-text check
+    above is the actual evidence). Net effect: the original Claude/Anthropic argument as published
+    contained a real, acknowledged defect (not merely informally examined and found sound); the
+    headline 2/3-bound result itself is NOT contradicted (Lamzouri's fully independent re-derivation
+    reaches the same numeric bounds via a different route, and Arias de Reyna's own exposition
+    presents a working proof), but "Lean verified it" no longer reads as a clean correctness signal
+    for the ORIGINAL manuscript specifically. Confidence/stage unaffected (still a queue item, not a
+    seed trend); flagged for continued watch — whether Anthropic itself corrects the original
+    paper/repo, and whether Henri Cohen's reliability question gets an on-record answer.
 - 2026-08-10 — arXiv:2608.08997 — Kaur, Kumar, "A proof of the cyclotomic conjecture and the
   non-existence of almost Moore digraphs" — https://arxiv.org/abs/2608.08997 — graph theory /
   degree-diameter problem (axis 1, math.CO/NT): proves Gimbert's 1999 cyclotomic conjecture on
@@ -6245,6 +6459,13 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-20 (v1); shelf-added 2026-10-21 — [A proof of the double-cap conjecture
+  (Ibiapina, Gomes, Pio, Belo, Ferreira)](https://arxiv.org/abs/2610.27523) — settles Witsenhausen's
+  1974 problem / Kalai's 2009 conjecture on orthogonal-pair-free subsets of the sphere, with a
+  direct consequence for the measurable chromatic number of Euclidean space; see new seed trend.
+- 2026-10-19 (v1); shelf-added 2026-10-21 — [Tree Lattices and the Neumann-Zagier conjecture
+  (Greene, Issa, McCoy)](https://arxiv.org/abs/2610.27095) — resolves a 1985 conjecture in
+  low-dimensional topology via a new rigidity theorem for tree lattices; see new seed trend.
 - 2026-10-19 (v1); shelf-added 2026-10-20 — [Proof of the Erdős-Szemerédi sunflower conjecture
   (Bucić, He, Lee)](https://arxiv.org/abs/2610.26686) — resolves a famous 1970s Erdős conjecture in
   full for every $k\ge3$, directly continuing the celebrated cap-set/polynomial-method breakthrough

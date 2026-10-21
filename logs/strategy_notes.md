@@ -1877,3 +1877,19 @@ coding) this week. No redirection needed.
   decoupled. Not applied this session (routines/daily.md is where staging actually happens, so
   this needs the daily's own text amended too — a two-file change warrants the normal cooling
   period); if the pattern recurs, apply at W43.
+- 2026-10-21 (daily) — CAPTURE-DEPTH LESSON: this session's primary sweep caught a vetting-status
+  detail in Arias de Reyna's own exposition paper (arXiv:2610.24612, captured 2026-10-17) that the
+  2026-10-17 daily missed — the paper's full text states the original Anthropic/Claude zeta-zeros
+  proof "doesn't work as written" (see the zeta-zeros `observation_queue` item's new note). The
+  10-17 daily had only read the abstract ("simpler... different approach"), not the full text,
+  before writing its note. Root cause: abstract-only verification is the STANDARD practice for
+  routing a primary (per the hard rules, an abstract read is sufficient to cite date/authors/
+  on-axis relevance), but for an item already flagged for ACTIVE VETTING-STATUS tracking (as this
+  one was, since 2026-08-10), a correctness-relevant detail can sit inside the full text
+  unnoticed for weeks. Surfaced only because a named mathematician (Henri Cohen) raised it on
+  MathOverflow today, quoting the paper directly — i.e. the community caught this radar's own
+  under-read, not the other way around. Not proposing an amendment this session (daily runs don't
+  amend routines) — flagging for the weekly to consider: whether an item under ACTIVE vetting-
+  status watch (as opposed to a routine capture) should get a full-text (not abstract-only) read
+  on each session that touches it, mirroring the Amendment J full-abstract-pass logic but scoped
+  to the standing vetting-watch list rather than a category rotation.

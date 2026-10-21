@@ -1,18 +1,18 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-39-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-379-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--20-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-42-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-397-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--21-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-20):** three new landmark seed trends, a resolved standing watch-item, and a major vetting-status update on OpenAI's biggest open claim.
-- THREE new seed trends: [Proof of the Erdős-Szemerédi sunflower conjecture](TRENDS.md#proof-of-the-erdősszemerédi-sunflower-conjecture-bucićhelee) (Bucić, He, Lee — a famous 1970s conjecture resolved for all k≥3); [first observation of weak magnetism in neutron decay](TRENDS.md#first-observation-of-weak-magnetism-in-neutron-decay-camarasa-domenegonzález-alonsonovoa-brunet), confirming a 70-year Gell-Mann prediction at 5.1σ; and [a strongly aperiodic 3D monotile](TRENDS.md#a-strongly-aperiodic-monotile-in-three-dimensions-chair44-tsiokos-rapid-expert-corroboration-by-flicker-and-goodman-strauss) ("Chair44"), with the co-discoverer of the famous 2D "einstein" tile posting his own clarifying write-up within days.
-- [X(2370) glueball trend](TRENDS.md#first-evidence-that-x2370-is-dominantly-a-glueball-besiii-collaboration): its own standing watch item — a competing interpretation — arrived ([Ben–Yang–Zou's ΣΣ̄-molecule reading](https://arxiv.org/abs/2609.01342)), alongside a second corroborating BESIII decay-channel paper.
-- [OpenAI's quasi-Riemann-Hypothesis / Landau-Siegel-zero claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78): the broadest named-expert vetting survey yet (via [Quanta](https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/) and [Terence Tao's own proof sketch](https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/)) plus a second independent human digestion ([Banks](https://arxiv.org/abs/2610.15483)) — still short of a formal outcome.
-- 6 new below-bar signals queued (a cover-free-conjecture proof, a hyperbolic-triangulation counterexample, a conformal-normal-metric counterexample, a Jacobian-conjecture-cluster extension, an AI-generated shortest-path-algorithm claim, a nuclear-decay benchmark) plus two capture-leak fixes on existing items.
+**Since last scan (2026-10-21):** three new landmark seed trends and two vetting-status developments on already-tracked AI-math claims.
+- THREE new seed trends: [the 1985 Neumann-Zagier conjecture resolved](TRENDS.md#resolution-of-the-1985-neumannzagier-conjecture-hyperbolic-3-manifolds) (Greene, Issa, McCoy — tree-lattice rigidity); [the linear MDS conjecture in even characteristic](TRENDS.md#resolution-of-the-linear-mds-conjecture-in-even-characteristic-coding-theory) (Chen, Huang — a Segre-era coding-theory conjecture); and [the double-cap conjecture](TRENDS.md#proof-of-the-double-cap-conjecture-witsenhausens-problem--kalais-sphere-measure-conjecture) (Ibiapina, Gomes, Pio, Belo, Ferreira — Witsenhausen's 1974 problem / Kalai's 2009 conjecture).
+- [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78): [Terence Tao's proposed Polymath-style challenge actually launched](https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/), directly exercising the claim's zero-free-region machinery — still no independent confirmation or refutation.
+- Vetting-status correction on the standing [zeta-zeros queue item](TRENDS.md#observation_queue): [a MathOverflow thread](https://mathoverflow.net/questions/516206/reliability-of-anthropics-lean-verifications) surfaced that the already-tracked human exposition paper ([Arias de Reyna](https://arxiv.org/abs/2610.24612)) states the original Claude/Anthropic proof "doesn't work as written" — the headline numeric bound is independently re-derived elsewhere and stands, but the original manuscript's own correctness signal is weaker than previously recorded.
+- 18 new below-bar signals queued across coding theory, operator algebras, extremal combinatorics, and mathematical physics — see [`observation_queue`](TRENDS.md#observation_queue).
 
 ## Trends
 
-🌱 34 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 37 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -20,11 +20,14 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.11189) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-20](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) |
+| [MDS conjecture (even characteristic)](TRENDS.md#resolution-of-the-linear-mds-conjecture-in-even-characteristic-coding-theory) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.28208) |
+| [Double-cap conjecture proved](TRENDS.md#proof-of-the-double-cap-conjecture-witsenhausens-problem--kalais-sphere-measure-conjecture) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.27523) |
 | [Sunflower conjecture proved](TRENDS.md#proof-of-the-erdősszemerédi-sunflower-conjecture-bucićhelee) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.26686) |
 | [Weak magnetism in neutron decay](TRENDS.md#first-observation-of-weak-magnetism-in-neutron-decay-camarasa-domenegonzález-alonsonovoa-brunet) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.26792) |
+| [Neumann-Zagier conjecture resolved](TRENDS.md#resolution-of-the-1985-neumannzagier-conjecture-hyperbolic-3-manifolds) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.27095) |
 | [Smale's sixth problem (n=5/6)](TRENDS.md#finiteness-of-planar-central-configurations-for-five-bodies-smales-sixth-problem) | 🌱 seed | [2026-10-16](https://arxiv.org/abs/2610.23329) |
 | [Irrationality of ζ(5)](TRENDS.md#irrationality-of-ζ5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-10-15](https://zenodo.org/records/22826418) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-15](https://arxiv.org/abs/2610.21099) |
 | [Area Vanishing Square Peg Conjecture (Valerio)](TRENDS.md#a-proof-of-the-area-vanishing-square-peg-conjecture-valerio) | 🌱 seed | [2026-10-15](https://arxiv.org/abs/2610.21076) |
 | [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-14](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
 | [The spacetime Penrose conjecture](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.20559) |
@@ -59,6 +62,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 ## Worth studying
 
 
+- 2026-10-20 (v1); shelf-added 2026-10-21 — [A proof of the double-cap conjecture
+  (Ibiapina, Gomes, Pio, Belo, Ferreira)](https://arxiv.org/abs/2610.27523) — settles Witsenhausen's
+  1974 problem / Kalai's 2009 conjecture on orthogonal-pair-free subsets of the sphere, with a
+  direct consequence for the measurable chromatic number of Euclidean space; see new seed trend.
+- 2026-10-19 (v1); shelf-added 2026-10-21 — [Tree Lattices and the Neumann-Zagier conjecture
+  (Greene, Issa, McCoy)](https://arxiv.org/abs/2610.27095) — resolves a 1985 conjecture in
+  low-dimensional topology via a new rigidity theorem for tree lattices; see new seed trend.
 - 2026-10-19 (v1); shelf-added 2026-10-20 — [Proof of the Erdős-Szemerédi sunflower conjecture
   (Bucić, He, Lee)](https://arxiv.org/abs/2610.26686) — resolves a famous 1970s Erdős conjecture in
   full for every $k\ge3$, directly continuing the celebrated cap-set/polynomial-method breakthrough
@@ -679,12 +689,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Terence Tao's own blog carried a worked proof sketch of a standalone OpenAI Landau-Siegel-zero preprint — commentary/vetting-signal, folded into the quasi-RH trend above, not evidence on its own.
-- Quanta Magazine surveyed named mathematicians' views on the OpenAI quasi-Riemann-Hypothesis claim — "largely agree" it's correct, but no completed independent verification yet.
-- Scientific American's coverage of a new 3D "einstein tile" claim led directly to this run's third new seed trend, including the mixed community reception to its AI-heavy provenance.
-- Reddit's r/math and r/mathematics direct feeds remain under the standing hard network-level block (20+ weeks running); the `tvly search` fallback surfaced nothing new this run.
-- Hacker News' front page carried no math/physics story this run — an ordinary day by that channel's own base rate.
+- A MathOverflow thread (Henri Cohen) questioned the reliability of Anthropic's Lean-verified zeta-zeros proof, quoting the already-tracked human-exposition paper's own "doesn't work as written" admission — folded into the zeta-zeros queue item above as a vetting-status correction.
+- Terence Tao's blog launched a Polymath-style collaborative challenge directly exercising the quasi-Riemann-Hypothesis/Landau-Siegel-zero machinery — folded into that trend above as the watched-for verification project actually starting.
+- Hacker News' front page carried no new math/physics story this run — an ordinary day by that channel's own base rate.
+- Reddit's r/math and r/mathematics direct feeds remain under the standing hard network-level block (20+ weeks running); no new fallback catch this run.
+- The off-axis exploration slot (math.OC, optimization theory) returned zero on-axis significance this run — expected base-rate noise, not a coverage gap.
 
 ## Output map
 
-- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (379) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-20](reports/2026-10-20.md)) · Weekly: [2026-W42](reports/weekly/2026-W42.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
+- Source of truth: [`TRENDS.md`](TRENDS.md) · watchlist (397) → [`TRENDS.md#observation_queue`](TRENDS.md#observation_queue) · Reports: [`reports/`](reports/) (newest daily: [2026-10-21](reports/2026-10-21.md)) · Weekly: [2026-W42](reports/weekly/2026-W42.md) · Agent guide: [`AGENTS.md`](AGENTS.md) · Sources: [`SOURCES.md`](SOURCES.md)
