@@ -1,7 +1,7 @@
 ---
 name: radar-ledger-update
 description: |
-  Safely update TRENDS.md (the AI Radar ledger): append evidence, move stages, manage observation_queue, source_rotation and strategy_notes without breaking the file contract. Use every time TRENDS.md is edited, before committing radar updates, and when promoting or archiving trends.
+  Safely update TRENDS.md (the Math-Physics Radar ledger): append evidence, move stages, manage observation_queue, source_rotation and strategy_notes without breaking the file contract. Use every time TRENDS.md is edited, before committing radar updates, and when promoting or archiving trends.
 ---
 
 # Update the ledger safely
