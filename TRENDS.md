@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1700,7 +1700,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-14
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-21
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1766,6 +1766,28 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (not any individual result) fails basic scholarly-exposition norms — "their work contains
     retraction-worthy errors... their pdfs actively set back the state of the literature." Opened
     directly this session.
+  - 2026-10-21 (v1; found this session via a fresh math.AG arXiv sweep) — Jenia Tevelev (UMass
+    Amherst), "On OpenAI's proof of the Nagata conjecture" — https://arxiv.org/abs/2610.30050 — an
+    expert's own expanded exposition (from a seminar talk) of this disclosure's claimed proof of the
+    1959 NAGATA CONJECTURE (interpolation of fat points on P², a famous open problem since 1959,
+    related to Seshadri constants) — confirmed via a direct search of `openai/math`'s own catalogue
+    (sites.pitt.edu mirror) that this is part of the Oct-6 result-family set, not a separate claim.
+    Tevelev calls the proof "remarkably simple" and raises no correctness caveat anywhere in the
+    note — a notably clean positive vetting signal for this specific result-family, though still
+    only one expert's reading, not a referee report. Abstract + full text opened via `WebFetch` this
+    session (v1 only, submitted 2026-10-21).
+  - 2026-10-21 (community pulse, Gil Kalai's blog, opened directly this session) —
+    https://gilkalai.wordpress.com/2026/10/21/progress-on-borsuks-problem-and-answer-to-tyi-60/ —
+    reports that one of the Oct-6 disclosure's ~700 manuscripts claims $f(9) > 10$ for BORSUK'S
+    PROBLEM (the minimum number of smaller-diameter pieces needed to cover any diameter-1 set in
+    $\mathbb{R}^9$), exceeding the standard $d+1$ bound, via a topological argument related to the
+    Borsuk–Ulam theorem; the main theorem is reported as Lean-formalized. Kalai notes the
+    construction's correctness "still needs careful checking," and a commenter (Gábor Damásdi)
+    argues the specific finite example used does not settle the separate, still-open FINITE
+    question $g(d)$ vs $f(d)$ (every finite subset is 8-colorable) — a genuine, specific correctness
+    caveat on record, not mere hedging. No direct arXiv/GitHub primary link opened this session
+    (Kalai's post does not give one); treated as a secondary pointer to a named result-family within
+    the already-evidenced disclosure, not an independent primary.
 - notes: 2026-10-07 (daily, seed creation): caught via the Hacker News front page (683-point story)
   and corroborated independently via Gil Kalai's blog ("amazing") and r/OpenAI community-pulse
   threads naming several of the same results (Unique Games Conjecture, circulant Hadamard
@@ -1895,6 +1917,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     bulk of the 719 remaining manuscripts; this is still a disclosure-event trend, not a verified-
     results trend) and not demoted to queue. Standing watch (the BSD-case claim specifically)
     unchanged.
+  - 2026-10-22 (daily): TWO more individually-engaged result-families, same pattern as #003
+    (quasi-RH) and #260 (spacetime Penrose) above — a credentialed mathematician's own exposition
+    of the NAGATA CONJECTURE claim (Tevelev, 2610.30050) and a community-flagged correctness caveat
+    on the BORSUK'S-PROBLEM claim (Damásdi, via Kalai's blog) — see evidence above. Neither rises to
+    its own seed trend (unlike #003/#260, no NEW independent primary artifact exists yet for either
+    — Tevelev's note is exposition of the existing claim, and Damásdi's caveat is a blog comment,
+    not a paper); both folded in here instead. last_evidence advances 2026-10-14 → 2026-10-21. Watch
+    continues for the BSD-case claim and for whether either of today's two items draws a fuller
+    independent write-up.
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -2133,6 +2164,24 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     turns into a genuine independent audit of the OpenAI zero-free-region arguments, and the
     class-number-one/tenth-discriminant bound outcome itself (axis-1 significance in its own right
     if a sub-threshold effective bound is found, independent of the Siegel-zero claim's fate).
+  - 2026-10-22 (daily, found via John Baez's blog, opened directly this session) — A THIRD
+    independent AI system now engages this exact claim: Dean Cureton, Jesse Thorner (research
+    direction) with proofs/Lean formalization by "AxiomProver" (AxiomMath), "A quasi-Riemann
+    hypothesis for Dedekind zeta functions" — https://hexagonmath.org/2610.00200 (v2, 2026-10-14) —
+    proves $\zeta_K(s)\ne0$ for $\Re s>31/32$ for EVERY number field $K$ (a stronger half-plane than
+    OpenAI's $7/8$/$11/12$), citing OpenAI's quasi-RH papers in its bibliography; opened directly via
+    `WebFetch` this session. Backfill — predates last_evidence, no date change. Building on it,
+    Christopher Frei, Efthymios Sofos, Martin Widmer, "Some applications of the quasi-Riemann
+    hypothesis to class groups and small generators of number fields" —
+    https://arxiv.org/abs/2610.18491 (v1 2026-10-13, human authors) — makes UNCONDITIONAL the
+    Ellenberg–Venkatesh $\ell$-torsion bounds on class groups, explicitly conditional on "recent
+    breakthroughs of OpenAI and Cureton–Thorner" — the first human paper found deriving a concrete
+    unconditional NUMBER-THEORY CONSEQUENCE from this trend's claims (distinct from exposition/
+    simplification of the proof itself). Abstract/authors verified via arXiv API this session.
+    Backfill (2026-10-13), no last_evidence change. hexagonmath.org now has 2 independent-session
+    sightings (the First-Proof Third-Batch report 2026-10-19, this Cureton–Thorner paper today) —
+    staged for weekly promotion-bar review in SOURCES.md. Confidence held `medium` (neither item is
+    an independent verification of OpenAI's own proof; both build on/extend an unrefereed claim).
 
 ### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
 - stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
@@ -2608,6 +2657,99 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   from Kalai himself (an already-tracked digest source — his blog is swept every run), independent
   confirmation/citation, and whether the measurable-chromatic-number consequence gets separate
   attention.
+
+### AI-claimed resolution of the percolation-criticality conjecture (Benjamini–Schramm; Claude and OpenAI, independently)
+- stage: seed | confidence: medium | first_seen: 2026-09-04 (promoted from `observation_queue` 2026-10-22) | last_evidence: 2026-10-21
+- what: axis-1 DOMAIN-CADENCE LANDMARK + AI-WATCH LANE: TWO fully independent AI organizations have
+  now separately claimed proofs that critical Bernoulli percolation has no infinite cluster — the
+  Benjamini–Schramm criticality conjecture, which (via Kozma–Nitzan's 2024 reduction) implies
+  θ(p_c)=0 for nearest-neighbour bond percolation on ℤᵏ for every k≥2, closing the famous
+  intermediate-dimension gap (3≤k≤10, crucially ℤ³) left open between Harris/Kesten (k=2) and the
+  lace-expansion regime (k≥11) — Conjecture 1 of Duminil-Copin's ICM 2018 problem list. Anthropic/
+  Claude's claim (2026-09-04) proves it via Kozma–Nitzan's own Conjecture 3 ("near-one gluing");
+  OpenAI's claim (preprints dated 2026-09-24, disclosed 2026-10-06 as part of its 722-manuscript
+  release) proves a more general form directly for every quasi-transitive graph, via a different
+  route, and separately proves the companion Benjamini–Schramm NONUNIQUENESS conjecture (p_c<p_u on
+  nonamenable quasi-transitive graphs). Promoted out of `observation_queue` today: the item has now
+  drawn mainstream-press coverage with named-expert reaction (Scientific American) and a human
+  mathematician's own exposition note explicitly treating "the proof" as established enough to
+  write up (Gouéré) — sustained multi-source engagement on a landmark single result, per AGENTS.md
+  § Domain cadence, even though BOTH underlying claims remain wholly AI-generated and unrefereed.
+  HEAVIEST unrefereed-preprint caution, doubled: two independent AI labs claiming the same landmark
+  within three weeks of each other is a striking convergence signal, but neither has a completed
+  independent human verification; Lean-checked (Claude's route) is not independently audited, and
+  OpenAI's route has no formalization confirmed opened this session.
+- evidence:
+  - 2026-09-04 — https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md
+    — Claude (Anthropic) with human author Justin Leder, complete Lean 4/Mathlib formalization of
+    θ(p_c)=0 for all d≥2, via a new "additive gluing inequality"; repo README states the proof is
+    "not yet... refereed by anyone independent of the author." (Full detail/history retained in the
+    `observation_queue` entry this promotes, below.)
+  - 2026-09-24 (preprints dated; disclosed 2026-10-06) — https://github.com/openai/math (CONTENTS.md
+    items #213–#214) — OpenAI, "Critical percolation on every quasi-transitive graph" /
+    "The Benjamini–Schramm nonuniqueness conjecture": resolves the bond form of the criticality
+    conjecture for every infinite, connected, locally finite, quasi-transitive graph with p_c<1
+    (specializing to no infinite cluster at criticality for bond AND site percolation on ℤ³), and
+    separately proves p_c<p_u on every nonamenable quasi-transitive such graph. Opened directly via
+    `raw.githubusercontent.com` (CONTENTS.md) this session — an INDEPENDENT route (not via
+    Kozma–Nitzan) to essentially the same landmark Claude claimed three weeks earlier.
+  - 2026-09-30 — https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/
+    — Scientific American, "AI solves a 'holy grail' problem from probability theory": reports the
+    Claude/Anthropic claim, notes Hugo Duminil-Copin's 2026-08-30 prediction (four days before the
+    claim surfaced) that AI would likely resolve "the most famous conjecture in our field," and
+    quotes Benedikt Jahnel (TU Braunschweig) on the mixed community reaction ("ambivalent feelings...
+    joy... mixed with disappointment that an AI supplied the crucial step"). No independent
+    verification reported. Opened directly via `WebFetch` this session.
+  - 2026-10-21 (v1) — https://arxiv.org/abs/2610.30063 — Jean-Baptiste Gouéré, "On the proof of the
+    Kozma-Nitzan conjecture": "a short note giving an exposition of the recent proof of the
+    Kozma-Nitzan conjecture provided by OpenAI" — ATTRIBUTION NOTE: this names OpenAI, not
+    Anthropic/Claude, and the OpenAI CONTENTS.md entries above do not use the name "Kozma-Nitzan" —
+    unresolved whether Gouéré is (a) describing OpenAI's own, differently-routed proof of the same
+    underlying landmark, mis-citing it under the Claude-associated conjecture's name, or (b) aware
+    of a further OpenAI manuscript not located this session that explicitly invokes Kozma–Nitzan.
+    Abstract opened via arXiv API + `WebFetch` this session (short note, no vetting-status content
+    found beyond the attribution itself). FLAG FOR NEXT WEEKLY: resolve this attribution ambiguity
+    (open Gouéré's full PDF; check whether a Kozma–Nitzan-named OpenAI manuscript exists separately
+    from #213/#214).
+- notes: 2026-10-22 (daily, promotion): see `observation_queue`'s original 2026-09-04 entry (now
+  superseded by this trend) for the full original capture detail, Kalai's blog post, and the
+  Fields-medal prediction context. Watch for: an independent Lean audit of Claude's proof, any
+  human/traditional verification of OpenAI's #213/#214 route, a statement from Kozma, Nitzan, or
+  Duminil-Copin, and resolution of the Gouéré attribution question above.
+
+### Disproof of Hochster's small Cohen-Macaulay conjecture / negative resolution of the Eisenbud-Schreyer-Weyman Ulrich-bundle question
+- stage: seed | confidence: medium | first_seen: 2026-10-22 | last_evidence: 2026-10-21
+- what: axis-1 DOMAIN-CADENCE LANDMARK, a multi-group convergence caught via a survey paper found in
+  today's math.AG sweep. For a smooth complex projective surface Y with an ample, globally
+  generated divisor H such that H²<σ(Y) (the signature), a September 2026 cluster of independent
+  results showed: (a) no ULRICH BUNDLES exist when H is very ample, answering NEGATIVELY the
+  Eisenbud–Schreyer–Weyman (2003) question for sheaves supported on the whole variety; (b) no
+  ARITHMETICALLY COHEN-MACAULAY bundles exist either, disproving HOCHSTER's 1973 SMALL
+  COHEN-MACAULAY CONJECTURE for this class of surfaces. Per the survey, "four preprints and an
+  AI-generated manuscript" produced this obstruction across September 2026, with at least two named
+  independent human groups (Anghel; Lopez, extending to arbitrary dimension) — clears the
+  domain-adaptation landmark bar (two 20th-century named conjectures disproved) and approaches the
+  multi-group convergence bar. Unrefereed preprints; one contributing manuscript is AI-generated
+  (not independently identified this session) — standard caution.
+- evidence:
+  - 2026-10-21 (v1; found via today's math.AG arXiv sweep) — https://arxiv.org/abs/2610.30027 —
+    Cristian Anghel, "The recent counterexamples to the Eisenbud-Schreyer-Weyman Ulrich problem
+    (2003) and to Hochster's small Cohen-Macaulay conjecture (1973): a survey, with a generalization
+    to arbitrary dimension": the survey/generalization itself, naming and citing the September 2026
+    cluster below. Abstract opened via arXiv API this session.
+  - 2026-09 (cited by the survey above, NOT independently opened this session) —
+    https://arxiv.org/abs/2609.02718 — Cristian Anghel, original no-Ulrich-bundles result for
+    surfaces with H²<σ(Y), H very ample.
+  - 2026-09 (cited by the survey above, NOT independently opened this session) —
+    https://arxiv.org/abs/2609.06678 — Lopez, extends the no-Ulrich-bundles obstruction to every
+    dimension.
+- notes: 2026-10-22 (daily, seed creation): the underlying September results were never previously
+  captured by this ledger (not found in any prior report/TRENDS.md grep) — a genuine, if delayed,
+  capture via the survey's own citations rather than at original publication. NEXT SESSION: open
+  2609.02718 and 2609.06678 directly to verify authorship/dates independently (currently only
+  cited, not opened) and identify the "four preprints and an AI-generated manuscript" the survey
+  refers to but does not fully enumerate in the abstract. Watch for: independent confirmation,
+  and whether the AI-generated contribution draws its own vetting-status commentary.
 
 ## observation_queue
 
@@ -4719,6 +4861,12 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   journal write-up. Also on `study_shelf`. Source-discovery: github.com/anthropics (the
   `anthropics/formal-math` org/repo) staged below as a new AI-disclosure-lane candidate, distinct
   from the already-tracked anthropic.com/research pages.
+  - 2026-10-22 (daily): PROMOTED to its own seed trend — "AI-claimed resolution of the
+    percolation-criticality conjecture (Benjamini–Schramm; Claude and OpenAI, independently)" — see
+    Active trends above. OpenAI independently claimed essentially the same landmark (preprints dated
+    2026-09-24, disclosed 2026-10-06), and Scientific American (2026-09-30) plus a human exposition
+    note (Gouéré, 2610.30063, 2026-10-21) now provide sustained multi-source engagement. This entry
+    kept in place (not deleted) for its original capture detail; superseded for trend tracking.
 - 2026-09-04 (surfaced via community pulse — a Hacker-News front-page item on the GPT-6 Astra
   launch, chased to the primary same session; also see `study_shelf`) — OpenAI (proof "due to
   GPT 6 Astra"), "Improved short gaps between primes" (dated 30 August 2026) and "Improved long
@@ -6442,6 +6590,43 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   use (Lean formalization assistance, discussion), donated-compute, team-account model. Tooling/
   governance watch item, not a research result — parallel to agmai.org/Simons-$15M/vals.ai pattern.
   New domain (openmathmodel.org) — staged below under Discovered-source candidates.
+- 2026-10-20 (v1) — Haihua Deng, Weiye Zhang, "A proof of Ward's conjecture on Griesmer codes" —
+  https://arxiv.org/abs/2610.29275 — coding theory (axis 1, math.CO): proves Ward's divisibility
+  conjecture for Griesmer codes (a [n,k,d]_q code is p^max{0,e-f+1}-divisible, q=p^f, e=ν_p(d)).
+  Below bar (single group). Abstract + authors verified via arXiv API this session.
+- 2026-10-20 (v1) — Vsevolod Voronov, "A counterexample to Gale's conjecture in $\mathbb{R}^3$" —
+  https://arxiv.org/abs/2610.28828 — discrete geometry (axis 1, math.MG): a 101-point construction
+  in R³ beating Gale's (1953) conjectured sphere-partition diameter ratio bound (0.88928 vs the
+  conjectured 0.88807). Also surfaced independently via Gil Kalai's blog comment thread (same
+  session). Below bar. Abstract + author verified via arXiv API this session.
+- 2026-10-20 (v1) — Thomas J. Tucker, Zheng Zhu, "A Counterexample to the Eventual Stability
+  Conjecture" — https://arxiv.org/abs/2610.28688 — arithmetic dynamics (axis 1, math.NT): disproves
+  the eventual stability conjecture over number fields, classified for power maps. Below bar.
+  Abstract + authors verified via arXiv API this session.
+- 2026-10-21 (v1) — Yang Chen, "The Kemper–Malle conjecture and isolated linear quotient
+  singularities" — https://arxiv.org/abs/2610.29849 — algebra (axis 1, math.AC/RA): proves the
+  Kemper–Malle conjecture (a modular analogue of Chevalley–Shephard–Todd), reducing classification
+  of isolated linear quotient singularities in positive characteristic to the classical
+  Zassenhaus–Vincent–Wolf classification. Below bar. Abstract + author verified via arXiv API this
+  session.
+- 2026-10-21 (v1) — Mahtab Alghasi, Bertrand Guenin, Levent Tunçel, "The Local Dyadic Conjecture" —
+  https://arxiv.org/abs/2610.29197 — combinatorial optimization (axis 1, math.CO/OC): a local
+  version of Paul Seymour's long-standing dyadic conjecture for ideal clutters, with an important
+  special case proved (not the full conjecture). Below bar. Abstract + authors verified via arXiv
+  API this session.
+- 2026-10-20 (v1) — Imin Chen, Stephen Choi, James Houle, "Schäffer's conjecture for even $k\le42$"
+  — https://arxiv.org/abs/2610.28768 — number theory (axis 1, math.NT): partial progress (even
+  k≤42) on Schäffer's 1956 conjecture on the Diophantine equation $1^k+\cdots+x^k=y^n$, via the
+  modular method and linear forms in logarithms. Below bar (partial result). Abstract + authors
+  verified via arXiv API this session.
+- 2026-10-20 (v1) — Sam Chow, Han Yu, "On a conjecture of Velani" — https://arxiv.org/abs/2610.28839
+  — metric number theory (axis 1, math.NT): proves a conjecture of Velani on dyadic-rational
+  approximation of middle-third Cantor-set elements, completing the metric theory for the Cantor
+  measure. Below bar. Abstract + authors verified via arXiv API this session.
+- 2026-10-21 (v1) — Seick Kim, Hocheol Shin, "Kelly's conjectures on Condorcet winner probabilities
+  for odd electorates" — https://arxiv.org/abs/2610.29904 — probability/social choice (axis 1,
+  math.PR): proves two monotonicity conjectures of Kelly on Condorcet-winner probability under
+  random preferences. Below bar. Abstract + authors verified via arXiv API this session.
 
 ## source_rotation
 
@@ -6459,6 +6644,16 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-21 (v1); shelf-added 2026-10-22 — [On OpenAI's proof of the Nagata conjecture
+  (Jenia Tevelev)](https://arxiv.org/abs/2610.30050) — a leading algebraic geometer's own
+  non-expert-accessible exposition of an AI-claimed proof of the 1959 Nagata conjecture (plane-curve
+  interpolation / Seshadri constants), one result-family within OpenAI's October mass disclosure;
+  a model of how to responsibly digest an AI claim into the literature.
+- 2026-10-04/2026-09-24 (v1); shelf-added 2026-10-22 — [Independent AI-lab convergence on the
+  percolation-criticality conjecture (Claude/Anthropic and OpenAI)](https://github.com/openai/math)
+  — two separate frontier models independently resolved the same landmark open problem
+  (Benjamini–Schramm criticality) within three weeks of each other, via different routes; see new
+  seed trend for the full picture and the standing vetting caveats.
 - 2026-10-20 (v1); shelf-added 2026-10-21 — [A proof of the double-cap conjecture
   (Ibiapina, Gomes, Pio, Belo, Ferreira)](https://arxiv.org/abs/2610.27523) — settles Witsenhausen's
   1974 problem / Kalai's 2009 conjecture on orthogonal-pair-free subsets of the sphere, with a

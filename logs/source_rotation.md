@@ -3042,3 +3042,114 @@ crossover, not math/physics landmark). capture-leak: 25 ids checked (named in re
 new ids (3 seeds + 19 queue items) self-routed on creation, verified by grep. Queue: +19 / study_shelf:
 +2 (double-cap conjecture, Neumann-Zagier conjecture) / 3 new seed trends. README.md regenerated in
 the same commit.
+
+2026-10-22 (Thu, Pass 1, ~scheduled) — first daily since 2026-10-21. Load-state: repo was a shallow
+clone this session (git history started at a "radar: externalize strategy_notes..." commit with
+no root) — unshallowed via `git fetch --unshallow origin`; confirmed both stale session branches
+(`claude/modest-bohr-9415kc`, `claude/peaceful-faraday-n2ehd0`) ARE ancestors of `main` once full
+history was visible (the earlier "not an ancestor" read was a shallow-clone artifact, not real
+orphaned state) — 0 orphaned state once resolved. All `radar:` commits of the last 7 days have
+matching reports — no incomplete-run warning. Tooling: `tvly` absent at session start, reinstalled
+via `pip install -q tavily-cli`. Primary sweep (radar-source-sweep): full math-category arXiv API
+batch (one combined query, 600-entry cap) + full physics-category batch (same pattern, 600-entry
+cap), both confirmed full coverage back through the already-captured 2026-10-20 batch (id>2610.28536,
+the prior max captured), 306 fresh math + 268 fresh physics entries (2026-10-20/21) triaged by title
+keyword, then by abstract for the strongest hits. Amendment J full-abstract pass (today's category:
+math.RA — ROTATION GAP CLOSED: RA had never been swept under Amendment J despite being one of the
+originally-named categories; AG/KT/AT/GT/DG/AC had each had a turn, AG was repeated twice 10-20/10-21
+while RA sat unswept — 4 fresh entries, all read in full, no title-blind landmark found, routine PI-
+algebra/power-associative-algebra progress). Math batch CAPTURES: THREE new landmark catches — (1)
+"On OpenAI's proof of the Nagata conjecture" (Tevelev, 2610.30050), a credentialed algebraic
+geometer's exposition of the 1959 Nagata interpolation conjecture within the already-tracked
+OpenAI mass-disclosure release — folded in as evidence/note on that trend, last_evidence advances
+2026-10-14→2026-10-21; (2) a survey (Anghel, 2610.30027) revealing a previously-uncaptured September
+2026 cluster disproving BOTH the Eisenbud-Schreyer-Weyman (2003) Ulrich-bundle question and
+Hochster's (1973) small Cohen-Macaulay conjecture — NEW SEED TREND, citing Anghel 2609.02718 and
+Lopez 2609.06678 (not yet independently opened — flagged for next session); (3) a MAJOR PROMOTION —
+the standing 2026-09-04 Kozma-Nitzan/percolation-criticality observation_queue item is promoted to
+its own seed trend after discovering OpenAI independently claimed the SAME landmark (Benjamini-
+Schramm criticality conjecture) via a different route in its own Oct-6 disclosure (CONTENTS.md
+items #213/#214, preprints dated 2026-09-24) — TWO fully independent AI labs on one landmark,
+corroborated by Scientific American's 2026-09-30 coverage (Jahnel quote, found via `tvly search`)
+and a human exposition note (Gouéré, 2610.30063, found this session, attribution ambiguity to
+OpenAI vs Claude flagged for the weekly). 8 further below-bar queue adds (Ward's Griesmer-code
+conjecture 2610.29275, Gale's-conjecture counterexample in R³ 2610.28828 — also independently
+surfaced via Kalai's blog comment thread, Eventual Stability Conjecture counterexample 2610.28688,
+Kemper-Malle conjecture 2610.29849, the Local Dyadic Conjecture special case 2610.29197, Schäffer's
+conjecture partial progress 2610.28768, Velani's-conjecture proof 2610.28839, Kelly's Condorcet-
+winner conjectures 2610.29904). Physics batch: nothing landmark (keyword sweep on
+conjecture/theorem/disprove/counterexample/resolve/discovery/detection across 268 fresh entries —
+all routine incremental results, false-positive matches only). Experiments & journals: LIGO
+(`tvly extract` on plain `/news`, direct `curl` Cloudflare-blocked as usual) — GWTC-5.0 still
+latest; DESI (`tvly extract`) — unchanged (still the completed-5-year-survey milestone); LZ
+(`tvly extract`) — unchanged publication list; IceCube (RSS) — Week 41 still latest, routine;
+Simons Foundation (RSS) — routine, nothing new. CERN home.cern `/feed/` REGRESSED to a 404 this
+session (was healthy via `/feed/` since 08-24) — `tvly extract`/`search` fallback found nothing new
+either; Fermilab's feed REGRESSED to a Shibboleth-SSO redirect (a genuine new auth-wall, distinct
+from the 10-07 transient); CERN Courier's own feed failed outright (HTTP 000, both `curl` and `tvly
+extract`) — all three logged `degraded:`, none yet heal-owed (first occurrence each), SOURCES.md
+updated. PRL/PRX/RMP RSS, Quantum journal RSS, SciPost API, INSPIRE-HEP (API, still the
+future-dated/placeholder-ordering issue, not useful for triage) all opened — routine, nothing
+on-axis. Nature Physics (Googlebot-UA article-page workaround) — 5/5 titles recovered, all
+routine/off-axis condensed-matter. Science Advances (`showFeed`) — routine, off-axis. GitHub watch
+(radar-repo-watch, via `WebFetch` on `.atom` — direct `curl` 403's under this session's
+proxy-scoping, as expected): lean4 unchanged at v4.36.0-rc1 (10-14); mathlib4 continuing daily
+`master-YYYY-MM-DD` auto-tag through master-2026-10-21; Rocq unchanged at 9.3.0;
+`anthropics/formal-math` README unchanged (still 2 rows); `github.com/openai/math`'s `history.md`
+unchanged since the 10-07 withdrawal/repair entry. AI-watch lane: icarm.io/feed (RSS) — same 10
+items as before, nothing new (double-checked the "Palomar" item's date — 2026-08-21, already
+tracked since 08-19, not new); agmai.org (`tvly extract`) — same two posts, nothing new; ahmath.org
+(`tvly extract`) — unchanged manifesto; vals.ai/blogs — one new off-axis item (a legal-claim-
+verification-benchmark post, not math/physics, not captured); cims.nyu.edu — page loads, no new
+preprint title visible via a direct-URL spot-check this session. Community pulse (radar-pulse):
+Hacker News front page (Algolia API) — no math/physics story. MathOverflow (`/feeds`) — routine
+Q&A, nothing landmark. Physics Stack Exchange (`/feeds`) — routine Q&A. Mathstodon public timeline
+— generic noise, routine. r/math/r/mathematics still BLOCKED (standing network-level block,
+unchanged). Digest/explainer blogs: Quanta (RSS) — routine, top items already covered or off-axis
+(microscopy, dark-matter galaxy triplet, AI-benchmarking-as-science piece). Tao's "What's new"
+(RSS) — routine, top items already covered (the tenth-discriminant challenge, the Siegel-zero
+sketch, the Bourgain Project) or off-axis commentary (AI-and-mathematics essays, a new journal
+announcement). Woit — direct feed connection failed (HTTP 000, recurring but non-consecutive
+pattern — also failed 10-20) — `tvly extract` fallback recovered the index cleanly (same
+already-tracked Craig/chiral-fermions top post, nothing new); SOURCES.md noted the pattern. Gowers
+— routine, AI-and-mathematics essays, off-axis/commentary. Kalai — TWO genuine catches: "Progress
+on Borsuk's Problem" (2026-10-21, opened directly) reports an OpenAI-disclosure result-family
+claiming f(9)>10 for Borsuk's problem — folded into the OpenAI mass-disclosure trend as evidence/
+note, with Gábor Damásdi's specific correctness caveat (the finite question remains open) recorded;
+the same post's comment thread independently surfaces the Gale's-conjecture counterexample
+(2610.28828, already captured via the arXiv sweep) — a genuine double-capture confirmation across
+two independent lanes. Baez — "The Quasi-Riemann Hypothesis" post (2026-10-21, opened directly via
+WebFetch for its full link list) surfaced THREE further primaries for that trend: Cureton-Thorner's
+AxiomMath/AxiomProver-generated Dedekind-zeta extension (hexagonmath:2610.00200, a THIRD independent
+AI system engaging the quasi-RH claim) and Frei-Sofos-Widmer's human application paper
+(arXiv:2610.18491, making the Ellenberg-Venkatesh bounds unconditional) — both folded in as backfill
+evidence; hexagonmath.org crosses the ≥2-sighting promotion bar in SOURCES.md as a result. Strassler
+— routine, off-axis (an Epstein-scandal commentary piece, not physics). Hossenfelder — routine,
+nothing on-axis (a dark-energy prize story with no peer-reviewed primary, a magnetogenesis headline
+not independently chased this session — flagged for a follow-up read if it recurs). Scientific
+American — chased one item in full via `tvly search`/`WebFetch`: "AI solves a 'holy grail' problem
+from probability theory" (2026-09-30, a backfill catch) — folded into the new percolation-
+criticality seed trend as press-coverage evidence (Jahnel quote). n-Category Café not individually
+re-checked this session (time-budget trade-off; no indication of a miss). Exploration slot
+(radar-explore, OFF-AXIS rotation): math.NA (last used ~09-08 per rotation; 70 fresh entries scanned
+regardless of sub-topic) — 0 catch (off-axis rate 0 this run, non-alarm per domain cadence —
+dominated by numerical-methods/applied-math papers, off-axis by construction; roster continues,
+next: math.ST or math.LO). Self-heals: none attempted this session (3 fresh degradations logged,
+all first-occurrence, held below the heal-owed bar; cap 1-2/run not exercised). Trend
+recalibration (radar-ledger-update): TWO new seed trends (Hochster/ESW Ulrich-bundle disproof
+cluster; percolation-criticality convergence, promoted from observation_queue) + TWO existing
+trends updated with new evidence/notes (OpenAI mass-disclosure — Nagata + Borsuk items,
+last_evidence 10-14→10-21; OpenAI quasi-RH — Cureton-Thorner + Frei-Sofos-Widmer backfill
+evidence). Queue: 397→405 (+8 below-bar items; the percolation item's original entry kept in place
+with a promotion pointer, not deleted, per the ledger's history-preserving convention). study_shelf:
++2 (Tevelev's Nagata exposition, the percolation dual-AI-lab convergence story). Dormancy probe: no
+trend newly crosses the 60-day quiet threshold this session beyond the four standing
+backfill-precedent exemptions (Graham's, unit-distance, sum-product, M23 — unchanged); no moves.
+capture-leak: 35 ids checked (named in reports/2026-10-20.md and reports/2026-10-21.md) / 0 missing,
+all confirmed present on discrete evidence/queue/shelf lines; today's own new ids (2 seed trends +
+8 queue items + evidence additions to 2 existing trends) self-routed on creation, verified by grep.
+README.md regenerated from the updated ledger in the same commit. Standing flags carried forward:
+TRENDS.md still large (44 trends, ~7250 lines); observation_queue well past the ~40 soft cap (405,
+domain-cadence-expected, not burned down this run); NEW FLAG for the weekly — resolve the Gouéré
+attribution ambiguity (OpenAI vs Claude/Anthropic) on the percolation-criticality trend, and verify
+Anghel 2609.02718 / Lopez 2609.06678 directly (currently only cited via the survey, not opened).

@@ -47,8 +47,8 @@ Method: `radar-source-sweep`. Iterate EVERY entry; prefer the feed, fall back to
 for feed-less ones. Filter for on-scope relevance; skip product/marketing.
 These carry official RESULTS (a discovery, a data release, a solved-problem announcement = PRIMARY)
 mixed with general PR (= intake — follow to the paper). Filter for on-axis research substance.
-- CERN Courier — https://cerncourier.com/feed/ **[verified 2026-07-02; RSS]** — particle / high-energy physics results & reviews
-- Fermilab news — https://news.fnal.gov/feed/ **[verified 2026-07-02; RSS. RECOVERED 2026-10-08: plain `curl -A "Mozilla/5.0"` returned a clean 200 with full title list this session, confirming the 2026-10-07 connection failure was indeed a single-daily transient, not a standing block.]** — particle physics / neutrinos
+- CERN Courier — https://cerncourier.com/feed/ **[verified 2026-07-02; RSS. DEGRADED 2026-10-22: both plain `curl` (retried once) and `tvly extract` return a connection failure (HTTP 000 / "Failed to fetch url") — a genuine connectivity issue, not a 403/block; `tvly search "cerncourier.com October 2026"` surfaces only the already-known Sept/Oct issue announcement, no new content. First occurrence — not yet heal-owed, re-test next session.]** — particle / high-energy physics results & reviews
+- Fermilab news — https://news.fnal.gov/feed/ **[verified 2026-07-02; RSS. RECOVERED 2026-10-08: plain `curl -A "Mozilla/5.0"` returned a clean 200 with full title list this session, confirming the 2026-10-07 connection failure was indeed a single-daily transient, not a standing block. DEGRADED AGAIN 2026-10-22: the feed URL now 303-redirects to a Shibboleth SSO login page (`news.fnal.gov/mellon/login?...IdP=...idp.fnal.gov...`) — a genuine new auth-wall, not a transient; `tvly extract` on the plain `/` URL returns only nav (no article content). First occurrence of this failure mode — not yet heal-owed, re-test next session.]** — particle physics / neutrinos
 - Simons Foundation — https://www.simonsfoundation.org/feed/ **[verified 2026-07-02; RSS]** — math + theoretical physics research (incl. Flatiron Institute)
 - Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
 - Clay Mathematics Institute — https://www.claymath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** — Millennium Problems, math research news
@@ -77,7 +77,12 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
 - CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-24:
   the bare `/news` HTML page now Cloudflare/WAF-blocks direct `curl` (`wpewaf.com` challenge), but
   `https://home.cern/feed/` (RSS, NOT `/feed.rss` which 404s) works cleanly via plain `curl` —
-  prefer the `/feed/` RSS going forward.]** — collider (ATLAS/CMS) results & data
+  prefer the `/feed/` RSS going forward. REGRESSED 2026-10-22: `/feed/` now 404s outright ("Page
+  not found") to both direct `curl` and `curl -A "Mozilla/5.0"`; `tvly extract` on the bare `/news`
+  URL returns only nav (no article content, both direct and via `tvly`); `tvly search "home.cern
+  news October 2026"` surfaces only the standing Long-Shutdown-3 status page, nothing new on-axis.
+  First occurrence of this failure mode — not yet heal-owed, re-test next session before
+  escalating.]** — collider (ATLAS/CMS) results & data
 - IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-26: the bare `/news/` page is a JS-rendered widget shell (no article titles extractable via plain `curl`), but `https://icecube.wisc.edu/category/news/feed/` (RSS — NOT the empty `/news/feed` path) works cleanly via plain `curl`, returning full titles/dates. Prefer this RSS feed going forward.]** — neutrino astrophysics
 - LZ (LUX-ZEPLIN dark-matter experiment) — https://lz.lbl.gov/publications **[promoted 2026-09-05
   (W36 weekly); verified via `tvly extract` — clean, regular, years-long e-print/PRL publication
@@ -307,13 +312,16 @@ survives verification (real feed, on-axis, not SEO). Line format:
   hype-skepticism/vetting-status tracking. Discovered via a cross-link from Gil Kalai's already-
   tracked blog. HELD below the ≥2 bar (1 sighting); no feed found this session, access via
   `tvly extract` on the direct post URL.
-- hexagonmath.org — 1 — "First Proof Third Batch" benchmark report (hexagon:2610.00244, Abouzaid/
-  Srivastava/Ward/Williams, 2026-10-14) — first seen 2026-10-19 — an arXiv-like preprint server
-  specifically for AI-math-benchmark reports (its own "Hexagon ID" scheme); discovered via the
-  icarm.io/1stproof.org Third-Batch results chase. AXIS-5 lane only (do not expect this domain to
-  carry tracked-trend evidence — its content is AI-capability benchmarking by construction). HELD
-  below the ≥2 bar (1 sighting); access via `WebFetch`/`tvly extract` on `hexagonmath.org/<id>`, PDF
-  at `/pdf/<id>v1` (needs local `pdftotext`, not readable by WebFetch directly).
+- hexagonmath.org — 2 — Cureton–Thorner, "A quasi-Riemann hypothesis for Dedekind zeta functions"
+  (hexagon:2610.00200v2, 2026-10-14), found via John Baez's blog, cited by a human arXiv paper
+  (Frei–Sofos–Widmer, 2610.18491) — first seen 2026-10-19 (previously: "First Proof Third Batch"
+  benchmark report, hexagon:2610.00244, 2026-10-14). CROSSES the ≥2-sighting bar (two on-axis
+  primaries across 2 distinct daily sessions) — staged for weekly verification/promotion; this
+  sighting is NOT pure AI-capability-benchmarking content (a quasi-RH-adjacent mathematical result
+  citable as a primary), so the "axis-5 lane only" caveat from the first sighting may not hold
+  generally — the weekly should re-assess scope on promotion. Access via `WebFetch`/`tvly extract`
+  on `hexagonmath.org/<id>`, PDF at `/pdf/<id>v1` (needs local `pdftotext`, not readable by WebFetch
+  directly).
 - openmathmodel.org (Terence Tao's "SAIR Open Math OS") — 1 — soft-launch announcement, via
   terrytao.wordpress.com (2026-10-19) — first seen 2026-10-19 — axis-5 tooling/governance watch,
   same self-publication-disclosure pattern as agmai.org/vals.ai; HELD below the ≥2 bar (1
@@ -436,7 +444,7 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
   original disclosure. Agent grows this list; every entry logged opened or `degraded:<reason>`.)
 - Quanta Magazine — https://www.quantamagazine.org/feed/ **[verified 2026-07-02; RSS]** — the gold-standard math/physics research digest; ALWAYS follow to the named paper and cite the paper, never Quanta itself
 - Terry Tao — "What's new" — https://terrytao.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — a working mathematician's research/exposition blog; follow to the arXiv/paper
-- Not Even Wrong (Columbia) — https://www.math.columbia.edu/~woit/wordpress/?feed=rss2 **[verified 2026-07-02; RSS]** — math/physics (esp. HEP / string theory) commentary; intake → follow to the primary
+- Not Even Wrong (Columbia) — https://www.math.columbia.edu/~woit/wordpress/?feed=rss2 **[verified 2026-07-02; RSS. Connection failures (HTTP 000) recurring but non-consecutive (2026-10-20, 2026-10-22) — `tvly extract` on the same feed URL reliably recovers the blog's index/top-post content each time; use that fallback first rather than retrying direct `curl`.]** — math/physics (esp. HEP / string theory) commentary; intake → follow to the primary
 - The n-Category Café — https://golem.ph.utexas.edu/category/ **[verified 2026-07-02; HTML → `tvly
   extract`. HEALED 2026-08-21: plain `curl -A "Mozilla/5.0"` returns HTTP 200 with full post-title
   HTML directly, no Cloudflare/JS block found — prefer direct `curl` first, `tvly extract` as
