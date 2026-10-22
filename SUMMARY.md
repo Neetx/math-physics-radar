@@ -1,0 +1,9 @@
+# Math-Physics Radar — 2026-10-22
+
+- **New trend** · [Percolation-criticality (Claude & OpenAI)](TRENDS.md#ai-claimed-resolution-of-the-percolation-criticality-conjecture-benjaminischramm-claude-and-openai-independently) — Anthropic and OpenAI separately claim proofs of the Benjamini–Schramm criticality conjecture (claim).
+- **New trend** · [Hochster/ESW Ulrich-bundle disproof](TRENDS.md#disproof-of-hochsters-small-cohen-macaulay-conjecture--negative-resolution-of-the-eisenbud-schreyer-weyman-ulrich-bundle-question) — counterexamples to Hochster's small Cohen–Macaulay conjecture and the Eisenbud–Schreyer–Weyman Ulrich problem (preprint).
+- **New** · [A quasi-Riemann hypothesis for Dedekind zeta functions](https://hexagonmath.org/2610.00200) — AxiomProver proves a zero-free half-plane ℜs > 31/32 for every number field (claim) (→ [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78)).
+- **New** · [Some applications of the quasi-Riemann hypothesis to class groups and small generators of number fields](https://arxiv.org/abs/2610.18491) — makes an Ellenberg–Venkatesh class-group bound unconditional, given the quasi-RH claim (→ [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78)).
+- **New** · [On OpenAI's proof of the Nagata conjecture](https://arxiv.org/abs/2610.30050) — an algebraic geometer's exposition of the claimed proof (→ [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families)).
+
+[Full report](reports/2026-10-22.md) · [Dashboard](README.md)
