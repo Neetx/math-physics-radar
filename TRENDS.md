@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-22
+Last updated: 2026-10-23
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1776,6 +1776,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     note — a notably clean positive vetting signal for this specific result-family, though still
     only one expert's reading, not a referee report. Abstract + full text opened via `WebFetch` this
     session (v1 only, submitted 2026-10-21).
+  - 2026-10-21 (v1; found 2026-10-23 via that session's math category-rotation batch) — Zhentao Li,
+    "A note on the proof of Barnette's conjecture" — https://arxiv.org/abs/2610.30490 — a "digested
+    exposition of OpenAI's generated proof of Barnette's conjecture" (1969: every cubic 3-connected
+    bipartite planar graph is Hamiltonian) — a long-standing named graph-theory conjecture, same
+    individually-engaged-result-family pattern as Tevelev's Nagata exposition above; confirms this
+    result-family is part of the Oct-6 disclosure (cites `\cite{openai-barnette}`). Abstract +
+    author verified via arXiv API this session.
   - 2026-10-21 (community pulse, Gil Kalai's blog, opened directly this session) —
     https://gilkalai.wordpress.com/2026/10/21/progress-on-borsuks-problem-and-answer-to-tyi-60/ —
     reports that one of the Oct-6 disclosure's ~700 manuscripts claims $f(9) > 10$ for BORSUK'S
@@ -1926,6 +1933,27 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     not a paper); both folded in here instead. last_evidence advances 2026-10-14 → 2026-10-21. Watch
     continues for the BSD-case claim and for whether either of today's two items draws a fuller
     independent write-up.
+  - 2026-10-23 (daily): THREE more individually-engaged items, found via today's full-abstract pass
+    over math.SG (post-mortem) and the math category-rotation batch (exposition + a self-admitted
+    partial result). (a) — THE FIRST CONCRETE TECHNICAL POST-MORTEM on the 2026-10-07 Hodge-
+    conjecture withdrawal: an unsigned/unidentified-author note, "Rigidity, flexibility, and a sign
+    error" (https://arxiv.org/abs/2610.30976, math.SG, 2026-10-22) states plainly "[t]he documents
+    [OAI26a, OAI26b, OAI26c] claimed to prove cases of the Hodge conjecture via homological mirror
+    symmetry, before being withdrawn by OpenAI. We discuss the source of the error (but do not
+    analyse the rest of the argument)" — the first technical (not merely process/governance)
+    engagement with WHY the withdrawn manuscripts failed, beyond OpenAI's own self-reported
+    changelog. Author identity not independently confirmed this session (not named in the abstract
+    itself). Abstract opened via arXiv API this session; not added as a separate evidence line
+    (cap already at 10 after today's Barnette addition) — cited here, URL is the citable primary.
+    (b) Zhentao Li's Barnette's-conjecture exposition (above) — see evidence. (c) BELOW-BAR, not
+    added as evidence: el Houcein el Abdalaoui, "OpenAI partially disproves Littlewood's 1961
+    $L^\alpha$-flat theorem" (https://arxiv.org/abs/2610.30797, 2026-10-22) — the author's own
+    abstract calls OpenAI's counterexample "only a limited refutation, as such sequences fail to
+    satisfy an implicit assumption of Littlewood's theorem" — a self-admitted partial/qualified
+    result, routed to `observation_queue` instead (cross-referenced to this trend) rather than
+    consuming an evidence slot. last_evidence unchanged at 2026-10-21 (Barnette's exposition is
+    dated the same day; the sign-error post-mortem (2610.30976) is dated 2026-10-22 but was not
+    given its own evidence line — see above).
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -2048,7 +2076,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   watch for a definitive formation-channel consensus.
 
 ### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
-- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-20
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-21
 - what: axis-1 DOMAIN-CADENCE LANDMARK, PROMOTED out of prose: one specific result-family (#003)
   inside the already-tracked OpenAI mass-disclosure release (2026-10-06, 722 manuscripts) had sat
   named only in that trend's `what` text since 2026-10-07 — a capture-leak by this ledger's own
@@ -2182,6 +2210,28 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     sightings (the First-Proof Third-Batch report 2026-10-19, this Cureton–Thorner paper today) —
     staged for weekly promotion-bar review in SOURCES.md. Confidence held `medium` (neither item is
     an independent verification of OpenAI's own proof; both build on/extend an unrefereed claim).
+  - 2026-10-23 (daily, found via today's math category-rotation batch) — A FOURTH independent
+    attempt at a no-Landau-Siegel-zeros result: Victor Zhenyu Guo, "An explicit elementary proof of
+    no Landau-Siegel zeros" — https://arxiv.org/abs/2610.30476 (v1, 2026-10-21) — claims a fully
+    elementary (no separate small-conductor zero computations), explicit-constant ($c=1/100$) proof
+    that every real zero $\beta\in(0,1)$ of $L(s,\chi)$ for a primitive quadratic character of
+    conductor $q\ge3$ satisfies $(1-\beta)\log q>c$ — distinct in method from Kerr's, Banks's, and
+    Cureton-Thorner's already-tracked approaches above (all build on or digest the OpenAI/Tao
+    machinery; this one claims to be self-contained and elementary). Human author, not AI-attributed
+    in the abstract — if the elementary claim holds, this would be independent of the OpenAI result
+    entirely rather than a verification of it. Abstract + author verified via arXiv API this
+    session; not independently assessed for correctness (unrefereed, flag "unrefereed preprint —
+    claim"). Separately — found via today's math.SG full-abstract pass, opened directly via WebFetch
+    — Terence Tao's blog hosts a guest post by Caroline Turnage-Butterbaugh (co-author of the BGST-B
+    paper underlying the Claude/Anthropic zeta-zeros-simplicity result, a SEPARATE standing queue
+    item on this ledger), "Simple and critical zeros of the Riemann zeta-function"
+    (https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/,
+    2026-10-22): an expository survey, not a new primary for THIS trend, but cites "An OpenAI
+    quasi-RH preprint" as separate related evidence without independently assessing it — logged
+    here for cross-reference, not added as its own evidence line (survey/commentary, no new primary
+    for the quasi-RH claim specifically); the substantive zeta-zeros-simplicity content is routed to
+    that other standing queue item instead (see below). last_evidence advances 2026-10-20 →
+    2026-10-21.
 
 ### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
 - stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
@@ -2750,6 +2800,51 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   cited, not opened) and identify the "four preprints and an AI-generated manuscript" the survey
   refers to but does not fully enumerate in the abstract. Watch for: independent confirmation,
   and whether the AI-generated contribution draws its own vetting-status commentary.
+
+### Disproof of Barry Simon's L² conjecture (Schrödinger-operator spectral theory, LLM-assisted)
+- stage: seed | confidence: medium | first_seen: 2026-10-23 | last_evidence: 2026-10-22
+- what: axis-1/2 DOMAIN-CADENCE LANDMARK, found in today's math category-rotation batch. Becker and
+  Yang disprove Barry Simon's $L^2$ conjecture (Problem 8 of Simon's influential "Schrödinger
+  operators in the twenty-first century" open-problem list): for every dimension $d\ge2$ and
+  $0\le\sigma<1/3$, they construct a smooth, bounded, nonnegative "lens-type" potential $V$ with
+  arbitrarily small $\|V\|_\infty+\int|x|^{1-d+\sigma}|V(x)|^2\,dx$ such that $-\Delta+V$ has only
+  pure point spectrum on $(0,\infty)$ — the conjectured absolutely-continuous-spectrum threshold
+  fails. The authors state the construction was built "with LLM-assistance" (axis-5 WATCH note:
+  tracking the mathematical result, not the AI method). Single preprint, unrefereed — flag
+  "unrefereed preprint — claim," track vetting.
+- evidence:
+  - 2026-10-22 (v1) — https://arxiv.org/abs/2610.31637 — Simon Becker, Mengxuan Yang, "Lenses make
+    many points: Pure point spectrum disproves Simon's $L^2$ conjecture." Abstract + authors
+    verified via arXiv API this session.
+- notes: 2026-10-23 (daily, seed creation): named open-problem list (Simon, a leading mathematical
+  physicist) + full resolution (not a special case) clears the domain-adaptation landmark bar.
+  Watch for: expert reaction naming this result, any correction, and clarification of the scope/
+  extent of the LLM assistance.
+
+### Resolution of the Gauss–Fourier conjecture (critical points of rational functions)
+- stage: seed | confidence: low | first_seen: 2026-10-23 | last_evidence: 2026-10-22
+- what: axis-1 DOMAIN-CADENCE LANDMARK (provisional), found in today's math category-rotation batch.
+  A conjecture attributed to Gauss and Fourier, open for "over two centuries" per the authors' own
+  framing, states every real critical point of $p'(s)/p(s)$ (for a real polynomial $p$) is
+  associated with a pair of non-real zeros of $p$. Lande Ma and Zhaokun Ma claim a complete
+  resolution across two companion papers, handling what they term the "first kind" and "second
+  kind" of zeros of $(p'(s)/p(s))'$ via a root-locus method. HEAVY HYPE-SKEPTICISM CAUTION: two
+  unrefereed preprints from authors with no track record visible to this session on a claimed
+  200+-year-old named conjecture — flag "unrefereed preprint — claim," track vetting; held at
+  `low` confidence pending any independent engagement (unlike the Simon's-$L^2$ item above, no
+  named-authority context was found this session to assess credibility).
+- evidence:
+  - 2026-10-21 (v1) — https://arxiv.org/abs/2610.29790 — Lande Ma, Zhaokun Ma, "Principle of
+    generating critical points of rational functions and Gauss-Fourier conjecture for second-kind
+    zeros." Abstract + authors verified via arXiv API this session.
+  - 2026-10-22 (v1) — https://arxiv.org/abs/2610.30620 — Lande Ma, Zhaokun Ma, "Comprehensive
+    Resolution of the Gauss-Fourier Conjecture for the First Kind of Zeros." Abstract + authors
+    verified via arXiv API this session.
+- notes: 2026-10-23 (daily, seed creation): seeded under the domain-adaptation landmark-single-
+  result bar (a long-standing named conjecture, claimed fully resolved); confidence held at `low`
+  rather than `medium` given no corroborating context on the authors/venue was found this session —
+  next session or the weekly should attempt a `tvly search` for any response to these two papers.
+  Watch for: any expert commentary, citation, or correction.
 
 ## observation_queue
 
@@ -3653,6 +3748,21 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     for the ORIGINAL manuscript specifically. Confidence/stage unaffected (still a queue item, not a
     seed trend); flagged for continued watch — whether Anthropic itself corrects the original
     paper/repo, and whether Henri Cohen's reliability question gets an on-record answer.
+  - 2026-10-23 (daily) — EXPOSITORY SURVEY + A NEW PRIORITY-DISPUTE LEAD. Caroline Turnage-
+    Butterbaugh (co-author of the underlying BGST-B papers) posted a guest exposition on Terence
+    Tao's blog, "Simple and critical zeros of the Riemann zeta-function"
+    (https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/,
+    2026-10-22, opened directly via `WebFetch` this session), surveying the full history (Levinson,
+    Heath-Brown, Conrey, Pratt et al., Montgomery's conditional pair-correlation result) alongside
+    this item's standing claims — a clean, named-specialist restatement of the same vetting picture
+    already on file (Anthropic's announcement + in-house verification by Alpöge/Furman; Lamzouri's
+    independent re-derivation), not a new correctness signal. NEW LEAD (intake-only, NOT verified
+    this session): a comment on the post from Nathan Ng states Farzad Aryan proved an unconditional
+    version of Montgomery's 1973 pair-correlation theorem in a 2022 Journal of Number Theory paper —
+    if correct, this could bear on priority for the ≥2/3-simple-and-critical bound predating the
+    2026 results tracked here. NOT independently verified this session (a blog comment, no arXiv/
+    DOI opened) — flagged for next session or the weekly to chase (locate the actual 2022 JNT paper
+    and assess whether it changes the priority picture for this item).
 - 2026-08-10 — arXiv:2608.08997 — Kaur, Kumar, "A proof of the cyclotomic conjecture and the
   non-existence of almost Moore digraphs" — https://arxiv.org/abs/2608.08997 — graph theory /
   degree-diameter problem (axis 1, math.CO/NT): proves Gimbert's 1999 cyclotomic conjecture on
@@ -6627,6 +6737,63 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   for odd electorates" — https://arxiv.org/abs/2610.29904 — probability/social choice (axis 1,
   math.PR): proves two monotonicity conjectures of Kelly on Condorcet-winner probability under
   random preferences. Below bar. Abstract + authors verified via arXiv API this session.
+- 2026-10-22 (v1) — el Houcein el Abdalaoui, "OpenAI partially disproves Littlewood's 1961 $L^\alpha$-
+  flat theorem" — https://arxiv.org/abs/2610.30797 — harmonic analysis (axis 1/5, math.NT): an
+  OpenAI-produced counterexample to Littlewood's theorem on $L^\alpha$-flat trigonometric
+  polynomials, but the author's own abstract states it is "only a limited refutation, as such
+  sequences fail to satisfy an implicit assumption of Littlewood's theorem" — a self-admitted
+  partial result. Cross-referenced to "OpenAI's mass mathematical-results disclosure" above (same
+  Oct-6 release); not added as evidence there (cap full). Below bar. Abstract + author verified via
+  arXiv API this session.
+- 2026-10-22 (v1) — Samuel J. Ferguson, Joshua Iosevich, "Fuglede's conjecture holds in
+  $\mathbb{F}_p^d$ for $p=2,d=8$ and $p=11,d=3$" — https://arxiv.org/abs/2610.30712 — harmonic
+  analysis/combinatorics (axis 1, math.CO/CA): confirms Fuglede's spectral-set conjecture (1974)
+  for two specific finite-field cases, completing a dimension-eight reduction left open by
+  Kadowaki. Partial (specific cases, not the general conjecture) — below bar. Abstract + authors
+  verified via arXiv API this session.
+- 2026-10-22 (v1) — Dániel Gábor Simon, "Conway's thrackle conjecture: a new upper bound of
+  $\frac{4}{3}n$" — https://arxiv.org/abs/2610.31589 — graph drawing (axis 1, math.CO): improves
+  the best known upper bound on thrackleable-graph edge count toward Conway's 1960s conjecture
+  (edges ≤ vertices); not a resolution. Below bar. Abstract + author verified via arXiv API this
+  session.
+- 2026-10-21 (v1) — Peter Sziklai, "The linearity Conjecture" — https://arxiv.org/abs/2610.30503 —
+  finite geometry (axis 1, math.CO): proves the Linearity Conjecture (every minimal blocking set in
+  PG(2,q) is a linear point set over a subfield) for all cases except exponent $p^e=3,4$ — a
+  near-complete resolution with two small exceptional cases outstanding, by an established finite-
+  geometry researcher. Held below the seed bar pending the exceptional cases or independent
+  engagement, but flagged as the strongest single item in today's batch after the two already-
+  seeded results above. Abstract + author verified via arXiv API this session.
+- 2026-10-22 (v1) — Yen-Chi Roger Lin, Valjakas Djaljapayan, Wei-Hsuan Yu, "The Ternary and
+  Quaternary Cases of the $\{2,4\}$-Distance Code Conjecture" — https://arxiv.org/abs/2610.30615 —
+  coding theory (axis 1, math.CO/IT): settles the two remaining alphabet sizes (ternary,
+  quaternary) of the Boyvalenkov–Delchev–Zinoviev–Zinoviev distance-code conjecture, completing it
+  alongside the previously-settled binary case. Specialized coding-theory conjecture, full
+  resolution — below the seed bar (niche sub-field) but a genuine completed-conjecture result.
+  Abstract + authors verified via arXiv API this session.
+- 2026-10-22 (v1) — Jianxun Hu, Hua-Zhong Ke, Changzheng Li, Jiayu Song, "Gamma conjectures for
+  Milnor hypersurfaces" — https://arxiv.org/abs/2610.31150 — mirror symmetry (axis 1/2, math.AG):
+  proves Gamma conjectures I and II of Galkin–Golyshev–Iritani for Milnor hypersurfaces, a further
+  case in the same ongoing verification program as the already-queued Fano-fourfold case
+  (2610.13331, 2026-10-09). Below bar. Abstract + authors verified via arXiv API this session.
+- 2026-10-22 (v1) — Yutian Li, "Pólya's conjecture for Neumann eigenvalues of spherical shells" —
+  https://arxiv.org/abs/2610.31464 — spectral geometry (axis 1/2, math.AP/SP): the Neumann
+  companion to the already-queued Dirichlet case (2610.27707, 2026-10-20) — extends Pólya-type
+  inequalities to a further eigenvalue boundary condition on the same family of domains. Below
+  bar. Abstract + author verified via arXiv API this session.
+- 2026-10-22 (v1) — Hiranmoy Ghorui, Suman Mondal, Samya Kumar Ray, "Failure of noncommutative
+  Rota's theorem with $L\log L$ endpoint" — https://arxiv.org/abs/2610.31560 — operator algebras
+  (axis 4, math.OA): answers a question of Anantharaman-Delaroche (2006) in the negative via an
+  explicit factorizable Markov-map construction. Specialized, below bar. Abstract + authors
+  verified via arXiv API this session.
+- 2026-10-22 — Simons Foundation, "Now Fully Online, Simons Observatory Begins Probe of Universe's
+  Birth" — https://www.simonsfoundation.org/news/now-fully-online-simons-observatory-begins-probe-of-universes-birth/
+  — axis 3 (cosmology/CMB) ecosystem/instrument milestone, opened directly via `WebFetch` this
+  session: the Simons Observatory (Atacama Desert, Chile — 3 Small Aperture Telescopes + the Large
+  Aperture Telescope, ~98,000 detectors) is now fully operational, with early maps already deeper
+  than Planck's; main science target is inflationary B-mode polarization (results "a few more
+  years" out per the article). Not itself a discovery/detection — an instrument-commissioning
+  milestone, same below-bar ecosystem-event treatment as the Simons Collaboration on Defects launch
+  above. Watch for: the first B-mode/inflation results in coming years.
 
 ## source_rotation
 
@@ -6644,6 +6811,17 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-22 (v1); shelf-added 2026-10-23 — [Simple and critical zeros of the Riemann zeta-function
+  (Caroline Turnage-Butterbaugh, guest post on Terence Tao's blog)](https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/)
+  — the clearest single exposition on file of the full history and current vetting state of the
+  "≥2/3 of zeta zeros are simple and on the critical line" result (Levinson through Claude/
+  Anthropic, Lamzouri, and this session's new Guo elementary-proof lead); a model survey for a
+  researcher wanting the whole picture in one place.
+- 2026-10-22 (v1); shelf-added 2026-10-23 — [The classification of smooth 3-fold flops
+  (Gavin Brown, Michael Wemyss)](https://arxiv.org/abs/2610.31073) — a complete analytic
+  classification of simple 3-fold flops via their contraction algebras, from two established
+  birational geometers; a foundational advance in the minimal model program, held below the trend
+  bar (no single named conjecture resolved) but worth a researcher's attention on its own.
 - 2026-10-21 (v1); shelf-added 2026-10-22 — [On OpenAI's proof of the Nagata conjecture
   (Jenia Tevelev)](https://arxiv.org/abs/2610.30050) — a leading algebraic geometer's own
   non-expert-accessible exposition of an AI-claimed proof of the 1959 Nagata conjecture (plane-curve

@@ -1,19 +1,19 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-44-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-405-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--22-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-46-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-408-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--23-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-22):** two new seed trends — including a striking dual-AI-lab convergence — plus major vetting-status additions to two already-tracked OpenAI claims.
-- NEW SEED: [independent AI-lab convergence on the percolation-criticality conjecture](TRENDS.md#ai-claimed-resolution-of-the-percolation-criticality-conjecture-benjaminischramm-claude-and-openai-independently) — Anthropic/Claude (September) and [OpenAI](https://github.com/openai/math) (disclosed October 6) separately claimed proofs of the same landmark Benjamini–Schramm criticality conjecture, now also covered by [Scientific American](https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/) and a [human exposition note](https://arxiv.org/abs/2610.30063) — promoted out of `observation_queue`.
-- NEW SEED: [disproof of Hochster's small Cohen-Macaulay conjecture / the Eisenbud-Schreyer-Weyman Ulrich-bundle question](TRENDS.md#disproof-of-hochsters-small-cohen-macaulay-conjecture--negative-resolution-of-the-eisenbud-schreyer-weyman-ulrich-bundle-question) — a September 2026 multi-group cluster surfaced via [a survey paper](https://arxiv.org/abs/2610.30027).
-- [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families): a credentialed algebraic geometer's own [exposition of the Nagata-conjecture result](https://arxiv.org/abs/2610.30050), plus a [Borsuk's-problem claim](https://gilkalai.wordpress.com/2026/10/21/progress-on-borsuks-problem-and-answer-to-tyi-60/) (with a specific correctness caveat on record).
-- [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78): a THIRD independent AI system ([AxiomMath/AxiomProver](https://hexagonmath.org/2610.00200)) now extends the claim to Dedekind zeta functions, and a [human paper](https://arxiv.org/abs/2610.18491) makes a class-group bound unconditional on it.
-- 8 new below-bar signals queued across coding theory, discrete geometry, arithmetic dynamics, algebra, and combinatorial optimization — see [`observation_queue`](TRENDS.md#observation_queue).
+**Since last scan (2026-10-23):** two new seed trends from today's arXiv sweep, plus a fourth independent attempt at the Landau-Siegel-zero problem and the first technical post-mortem on OpenAI's withdrawn Hodge-conjecture claim.
+- NEW SEED: [disproof of Barry Simon's L² conjecture](TRENDS.md#disproof-of-barry-simons-l²-conjecture-schrödinger-operator-spectral-theory-llm-assisted) — Becker and Yang disprove Problem 8 of Simon's influential open-problem list, built [with LLM-assistance](https://arxiv.org/abs/2610.31637).
+- NEW SEED (provisional, low confidence): [resolution of the Gauss–Fourier conjecture](TRENDS.md#resolution-of-the-gaussfourier-conjecture-critical-points-of-rational-functions) — two companion preprints ([first kind](https://arxiv.org/abs/2610.30620), [second kind](https://arxiv.org/abs/2610.29790)) claim to fully resolve a 200+-year-old named conjecture; unrefereed, no track record found.
+- [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families): a new individually-engaged result-family — [an exposition of OpenAI's Barnette's-conjecture proof](https://arxiv.org/abs/2610.30490) — plus [the first technical post-mortem](https://arxiv.org/abs/2610.30976) on why the withdrawn Hodge-conjecture manuscripts failed.
+- [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78): a FOURTH independent attempt at excluding Landau-Siegel zeros, [an elementary explicit-constant proof](https://arxiv.org/abs/2610.30476) distinct from the OpenAI/Tao/Cureton-Thorner machinery.
+- 9 new below-bar signals queued across harmonic analysis, coding theory, graph drawing, finite geometry, mirror symmetry, spectral geometry, and operator algebras, plus a major CMB-observatory milestone — see [`observation_queue`](TRENDS.md#observation_queue).
 
 ## Trends
 
-🌱 39 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🌱 41 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -21,10 +21,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-09-29](https://arxiv.org/abs/2609.11189) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
-| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-21](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
+| [Simon's L² conjecture disproved](TRENDS.md#disproof-of-barry-simons-l²-conjecture-schrödinger-operator-spectral-theory-llm-assisted) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.31637) |
+| [Gauss–Fourier conjecture resolved](TRENDS.md#resolution-of-the-gaussfourier-conjecture-critical-points-of-rational-functions) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.30620) |
+| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30490) |
 | [Percolation-criticality (Claude & OpenAI)](TRENDS.md#ai-claimed-resolution-of-the-percolation-criticality-conjecture-benjaminischramm-claude-and-openai-independently) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30063) |
 | [Hochster/ESW Ulrich-bundle disproof](TRENDS.md#disproof-of-hochsters-small-cohen-macaulay-conjecture--negative-resolution-of-the-eisenbud-schreyer-weyman-ulrich-bundle-question) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30027) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-20](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30476) |
 | [MDS conjecture (even characteristic)](TRENDS.md#resolution-of-the-linear-mds-conjecture-in-even-characteristic-coding-theory) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.28208) |
 | [Double-cap conjecture proved](TRENDS.md#proof-of-the-double-cap-conjecture-witsenhausens-problem--kalais-sphere-measure-conjecture) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.27523) |
 | [Sunflower conjecture proved](TRENDS.md#proof-of-the-erdősszemerédi-sunflower-conjecture-bucićhelee) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.26686) |
@@ -65,6 +67,15 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 ## Worth studying
 
 
+- 2026-10-22 (v1); shelf-added 2026-10-23 — [Simple and critical zeros of the Riemann zeta-function
+  (Caroline Turnage-Butterbaugh, guest post on Terence Tao's blog)](https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/)
+  — the clearest single exposition on file of the full history and current vetting state of the
+  "≥2/3 of zeta zeros are simple and on the critical line" result; a model survey for a researcher
+  wanting the whole picture in one place.
+- 2026-10-22 (v1); shelf-added 2026-10-23 — [The classification of smooth 3-fold flops
+  (Gavin Brown, Michael Wemyss)](https://arxiv.org/abs/2610.31073) — a complete analytic
+  classification of simple 3-fold flops via their contraction algebras, from two established
+  birational geometers; a foundational minimal-model-program advance worth knowing on its own.
 - 2026-10-21 (v1); shelf-added 2026-10-22 — [On OpenAI's proof of the Nagata conjecture
   (Jenia Tevelev)](https://arxiv.org/abs/2610.30050) — a leading algebraic geometer's own
   non-expert-accessible exposition of an AI-claimed proof of the 1959 Nagata conjecture (plane-curve
@@ -701,11 +712,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- [MathOverflow thread (Henri Cohen)](https://mathoverflow.net/questions/516206/reliability-of-anthropics-lean-verifications) and a [human exposition note](https://arxiv.org/abs/2610.30063) are actively re-examining the vetting status of the standing AI-claimed zeta-zeros/percolation results — see the trend table above.
-- [Gil Kalai's blog](https://gilkalai.wordpress.com/2026/10/21/progress-on-borsuks-problem-and-answer-to-tyi-60/) is tracking two fresh OpenAI-disclosure result-families (Borsuk's problem, Gale's conjecture) in near-real time, including a specific correctness caveat from a commenter.
-- [John Baez's blog](https://johncarlosbaez.wordpress.com/2026/10/21/the-quasi-riemann-hypothesis/) surfaces a third independent AI system (AxiomMath) now extending the quasi-RH claim.
+- A guest post on [Terence Tao's blog (Caroline Turnage-Butterbaugh)](https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/) surveys the zeta-zeros-simplicity result in full, and a reader comment raises a new, unverified priority lead (a 2022 paper possibly predating part of the claim).
+- An unidentified-author note, ["Rigidity, flexibility, and a sign error"](https://arxiv.org/abs/2610.30976), gives the first technical account of why OpenAI's withdrawn Hodge-conjecture manuscripts failed.
+- A high-school science-fair "new theory of dark energy," flagged by [Sabine Hossenfelder](https://backreaction.blogspot.com/), was chased this session and confirmed to have no arXiv/peer-reviewed primary — correctly excluded from the ledger.
 - r/math and r/mathematics remain network-blocked for this radar (standing issue); MathOverflow, Physics Stack Exchange, and Mathstodon continue to be swept with no landmark signal this scan.
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (405 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-22](reports/2026-10-22.md)) · weekly: [2026-W42](reports/weekly/2026-W42.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (408 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-23](reports/2026-10-23.md)) · weekly: [2026-W42](reports/weekly/2026-W42.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

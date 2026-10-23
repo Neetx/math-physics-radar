@@ -3153,3 +3153,117 @@ TRENDS.md still large (44 trends, ~7250 lines); observation_queue well past the 
 domain-cadence-expected, not burned down this run); NEW FLAG for the weekly — resolve the Gouéré
 attribution ambiguity (OpenAI vs Claude/Anthropic) on the percolation-criticality trend, and verify
 Anghel 2609.02718 / Lopez 2609.06678 directly (currently only cited via the survey, not opened).
+
+2026-10-23 (Fri, Pass 1, ~scheduled) — first daily since 2026-10-22. Load-state: two stale
+session branches (`claude/modest-bohr-9415kc`, last commit 2026-07-27; `claude/peaceful-faraday-n2ehd0`,
+last commit 2026-08-07) exist on origin but their histories are DISJOINT from `origin/main`
+(`git merge-base` returns no common ancestor) — main's own root commit is a 2026-09-10/09-11
+daily, confirming main's history was rewritten/truncated upstream of these branches at some past
+point; their content (TRENDS.md as of 2026-07-27/08-07) is fully superseded by current main — NOT
+merged (would regress the ledger), logged as a one-time finding rather than orphaned recent work.
+origin/main and local HEAD otherwise in parity after `git fetch`. Reports verified present for
+every `radar: daily`/`radar: weekly` commit of the last 7 days (2026-10-16 through 2026-10-22,
+weekly 2026-W42) — no incomplete-run warning. Tooling: `tvly` absent at session start, reinstalled
+via `pip install -q tavily-cli`, worked normally thereafter.
+Primary sweep (radar-source-sweep): full math-category combined-query arXiv API batch (cat:math.CO/
+NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR, 400-entry cap, 400 fresh 2026-10-21/
+10-22 entries, title-triaged with keyword grep then abstract-opened for every plausible hit) + full
+physics-category batch (hep-th/hep-ph/hep-ex/hep-lat/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/
+supr-con/stat-mech/astro-ph.CO/HE/nucl-th/nucl-ex/nlin.SI, 400-entry cap, 400 fresh entries) — no
+physics landmark this session (routine detector/anomaly papers only). Amendment J full-abstract
+pass (today's category: math.SG, rotation position after AG/KT/AT/GT/DG/AC/RA — only 4 fresh
+entries, all read in full) — GENUINE CATCH: "Rigidity, flexibility, and a sign error" (2610.30976)
+carried no conjecture/theorem keyword and would have been missed by title-triage alone; folded
+into the OpenAI mass-disclosure trend as the first technical post-mortem on the withdrawn
+Hodge-conjecture manuscripts. Math batch CAPTURES: TWO new seed trends (Becker–Yang's disproof of
+Simon's L² conjecture, 2610.31637; Ma–Ma's claimed resolution of the Gauss–Fourier conjecture across
+two companion papers, 2610.29790/2610.30620, held at `low` confidence pending any corroborating
+context on the authors); Zhentao Li's exposition of OpenAI's Barnette's-conjecture proof
+(2610.30490, folded into the mass-disclosure trend as evidence, now at the 10-item cap); Victor
+Zhenyu Guo's elementary Landau-Siegel-zero proof (2610.30476, folded into the quasi-RH trend as a
+FOURTH independent route); 9 below-bar queue adds (Littlewood $L^\alpha$-flat partial disproof
+[OpenAI, cross-ref'd to the mass-disclosure trend], Fuglede's conjecture partial confirmation,
+Conway's thrackle conjecture upper bound, the Linearity Conjecture [near-complete], the {2,4}-
+distance code conjecture [completed], Gamma conjecture for Milnor hypersurfaces [cross-ref'd to
+the existing Fano-fourfold queue item], Pólya's conjecture for Neumann spherical shells [cross-ref'd
+to the existing Dirichlet case], noncommutative Rota's-theorem failure, and the Simons Observatory's
+full-operations milestone [axis-3 ecosystem item, not a detection]). APS PRL/PRX/RMP RSS, Quantum
+journal, SciPost API, INSPIRE-HEP (API, mostrecent — future-dated placeholders as usual, logged
+opened) all opened directly — routine, nothing on-axis. Nature Physics RSS (empty-CDATA titles,
+standing issue) — Googlebot-UA article-page workaround used, 7/7 titles recovered, all routine
+condensed-matter, no capture. CERN Courier, Fermilab HEALED this session (both back to clean 200
+OK after 2026-10-22's degradations — Fermilab's SSO redirect and CERN Courier's connection failure
+both resolved without intervention); Simons Foundation feed — ONE genuine catch, "Now Fully Online,
+Simons Observatory Begins Probe of Universe's Birth" (2026-10-22), queued as above. CERN `/feed/`
+REMAINS DEGRADED, now its 2nd consecutive daily (404 "Page not found," same as 2026-10-22) — self-
+heal attempted this session (tried `/news/feed`, `/rss.xml`, `/api/news`, `home.web.cern.ch/feed/`,
+`tvly extract` on `/news` and root, `tvly search`) — no working replacement found; crosses the
+heal-owed bar, escalate at the next weekly if it persists a 3rd time. Experiments block: LIGO
+(`WebFetch` on plain `/news` — direct `curl` still Cloudflare-blocked) — unchanged at GWTC-5.0; DESI
+(`WebFetch`) — routine, latest blog post 2026-07-30 unchanged; LZ (`WebFetch` on `/publications`) —
+routine, unchanged 2026 Q1 publications; IceCube category-feed — not individually re-diffed this
+session (time-budget; no indication of a miss, routine per recent history). GitHub watch
+(radar-repo-watch, via `WebFetch` on `.atom`/`/releases`, direct `curl` 403'd under this session's
+proxy-scoping as expected): lean4 v4.36.0-rc1 unchanged (10-14); mathlib4 daily `master-YYYY-MM-DD`
+auto-tag through master-2026-10-22; Rocq unchanged at 9.3.0; `anthropics/formal-math` README
+unchanged (still 2 rows); `openai/math/history.md` unchanged since the 10-07 withdrawal/repair
+entry. AI-watch lane: openai.com/research (WebFetch 403'd, `tvly extract` fallback used — generic
+landing page, no specific new math item visible); anthropic.com/research — one new post, "LLMs are
+making formal software verification feasible..." (2026-10-22), off-axis (software verification, not
+a math/physics result) — correctly not captured; icarm.io/news — same 10 items, nothing new;
+cims.nyu.edu, agmai.org, vals.ai/blogs, ahmath.org — all routine, no new on-axis item (vals.ai's
+8 recent posts all AI-benchmarking, off-axis). Community pulse (radar-pulse): Hacker News front
+page — no math/physics story. MathOverflow (Atom) — routine Q&A, nothing landmark. Physics Stack
+Exchange (`/feeds`) — routine Q&A. Mathstodon public timeline — generic noise, routine. r/math/
+r/mathematics still BLOCKED (standing network-level block, unchanged). Digest/explainer blogs:
+Quanta (RSS) — routine, top items already covered or off-axis (microscopy feature). Tao's "What's
+new" (RSS) — THE DAY'S STANDOUT CATCH: a guest post by Caroline Turnage-Butterbaugh (co-author of
+the BGST-B papers underlying the standing Claude/Anthropic zeta-zeros-simplicity queue item),
+"Simple and critical zeros of the Riemann zeta-function" (2026-10-22, opened directly via
+`WebFetch`) — a full survey of that item's history and vetting state, folded in as a note; a reader
+comment (Nathan Ng) raises an unverified priority-dispute lead (a 2022 Farzad Aryan paper possibly
+predating part of the claim), flagged for next-session/weekly follow-up, NOT verified this session.
+Woit's feed failed to connect again this session (HTTP 000) — `tvly extract` fallback this time
+returned STALE cached content (2026-10-08's top post, not the actual current one) — a new failure
+mode on top of the recurring-but-non-consecutive connection pattern; not yet heal-owed (single
+occurrence of this specific sub-failure), flagged for a different fallback next time (`tvly search`
+instead of `extract`). Gowers, Kalai, Baez, Strassler, n-Category Café all opened (RSS/direct) — all
+routine, no new on-axis primary beyond what's above. Hossenfelder (Atom) — TWO standing follow-up
+flags from 2026-10-21's strategy_notes resolved this session: "14-Year-Old Wins Prize for New Theory
+of Dark Energy" (2026-10-20) chased via `tvly search` — confirmed to be a EUCYS 2026 science-fair
+project (a Canadian high-schooler's second-place cosmology entry), NO arXiv/peer-reviewed primary
+exists — correctly excluded, flag closed (not a recurring miss, a genuine non-primary); the
+magnetogenesis headline ("The Universe Was Born Magnetic," 2026-10-17) was not re-chased this
+session (time-budget; downgrading its priority since the dark-energy chase closed empty). Scientific
+American — chased one item in full via `tvly search`: "This Is the Math at the Heart of Reality"
+— an old (December 2025) general-audience essay with no new primary, not captured. Exploration slot
+(radar-explore, OFF-AXIS rotation): math.ST (statistics, last used before the recent cs.CC/OC/NA
+sequence) — 40 fresh entries scanned regardless of sub-topic, all routine ML/statistics-theory
+papers (minimax rates, LASSO, Langevin sampling), 0 catch (off-axis rate 0 this run, non-alarm per
+domain cadence; roster continues, next: math.LO or nlin.CD repeat). Self-heals: CERN `/feed/`
+attempted (see above, not found — escalate next weekly if it recurs a 3rd time); Woit's new
+stale-cache sub-failure logged, not yet heal-owed. Trend recalibration (radar-ledger-update): TWO
+new seed trends (Simon's L² conjecture disproof; Gauss–Fourier conjecture resolution, held at
+`low` confidence) + TWO existing trends updated with new evidence/notes (OpenAI mass-disclosure —
+Barnette's-conjecture exposition as evidence [now at the 10-item cap] + the sign-error post-mortem
+as a note, last_evidence 2026-10-21 unchanged; OpenAI quasi-RH/Landau-Siegel — Guo's elementary
+proof as a fourth independent route, last_evidence 2026-10-20→2026-10-21) + ONE queue item updated
+with a note (the Claude/Anthropic zeta-zeros-simplicity item — Tao-guest-post survey + the Nathan Ng
+priority-dispute lead). Queue: 405→408 net (9 new below-bar items added as discrete lines; two of
+them are cross-referenced companions to existing queue items rather than wholly new sub-themes).
+study_shelf: +2 (Tao-guest-post zeta-zeros survey; Brown–Wemyss's 3-fold-flops classification).
+Dormancy probe: computed staleness for every trend's `last_evidence` against today — no trend newly
+crosses the 60-day quiet threshold beyond the four standing backfill-precedent exemptions (Graham's,
+unit-distance, sum-product, M23 — unchanged); the X(2370) glueball trend sits at 52 days (last_evidence
+field itself appears stale relative to its own evidence list — flagged for the weekly to reconcile,
+not fixed this session) but is still under the 60-day bar either way; no moves. capture-leak: 28 ids
+checked (named in reports/2026-10-21.md and reports/2026-10-22.md) / 0 missing, all confirmed present
+on discrete evidence/queue/shelf lines; today's own 15 new ids (2 seeds + 1 evidence addition each on
+2 existing trends + 9 queue items + 1 cross-referenced note) self-routed on creation, verified by grep.
+README.md regenerated from the updated ledger in the same commit; SUMMARY.md overwritten with
+today's 6-bullet results digest. Standing flags carried forward: TRENDS.md still large (46 trends,
+~7420 lines — Amendments L/M remain in cooling period, due for W43 reassessment); observation_queue
+well past the ~40 soft cap (408, domain-cadence-expected, not burned down this run); NEW FLAG for
+the weekly — reconcile the X(2370) trend's `last_evidence` field against its actual evidence list,
+chase the Nathan Ng priority-dispute lead (locate the 2022 Farzad Aryan JNT paper), and consider
+escalating CERN `/feed/`'s now-2-consecutive-daily degradation if it recurs a 3rd time.
