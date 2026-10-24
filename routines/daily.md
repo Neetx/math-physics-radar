@@ -129,6 +129,15 @@ every run.
   weekly VERIFIES and PROMOTES. This is what lets the radar grow its own lab/vendor/repo coverage
   instead of waiting for the curator — an on-axis source that announces only on its own channel
   must surface as a staged candidate the first run any lane names it.
+  **Amendment M (applied 2026-W43 — motivated by the 2026-10-16 daily's finding that staging a
+  newly-discovered source on the strength of the single page that named the triggering artifact
+  can leave that source's own "what's new" index unread for weeks — icarm.io/1stproof.org sat
+  staged a day before its own `/news` backlog, including a 2-month-old landmark, was finally
+  opened):** the FIRST run to stage a new candidate (first_seen date on the tally line) also opens
+  that source's own top-level "what's new"/index/listing page (not just the single triggering
+  page) in the SAME run, before moving on — closing the staging/first-full-sweep gap rather than
+  leaving it decoupled. Log what that index check found (even "nothing further") in the day's
+  coverage line.
 - NOTE DISCIPLINE — the ledger is STATE, not a diary. Append a dated note to a trend ONLY when
   something about that trend CHANGED this run: a stage/confidence move, an evidence append or cap
   rotation, or a decision that binds a future run (a dormancy re-check date, an archive decision).
