@@ -49,317 +49,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     lower bounds": building on Conlon–Ferber–Wigderson and Sawin, an EIGHTH independent author group
     improving multicolor Ramsey lower bounds via independent-set density bounds in K_t-free graphs —
     same citation-chase catch, also predating this trend's creation, never previously captured.
-  - 2026-W27 recalibration: HELD at emerging/medium. All 4 evidence items predate the trend's
-    creation (latest 2026-05-27, ~5–6 weeks old) — a backlog cluster caught at creation, not fresh
-    weekly velocity, so NOT promoted; confidence held at medium under the unrefereed-preprint caution
-    (no referee outcomes yet). NOT marked dormant despite the 38-day evidence gap because the trend was
-    only created 2026-07-03; if no post-2026-05-27 primary or a referee/vetting outcome surfaces by W28,
-    reassess for dormancy (this may be a completed burst rather than an active, accelerating trend).
-  - 2026-W28 recalibration: DEMOTED emerging → dormant. last_evidence 2026-05-27 is now 45 days old
-    (21+ days quiet = dormant; W27 had set W28 as the reassessment point). No post-2026-05-27 lower-bound
-    breakthrough and no referee/vetting outcome surfaced this week; a fresh arXiv math.CO Ramsey scan this
-    session returned only peripheral items (small/anti-Ramsey, Ramsey-type path–cycle) — the breakthrough
-    wave (Jul 2025–May 2026) reads as a COMPLETED BURST caught as a backlog at creation. NOT archived
-    despite hitting the 45-day archive line: the trend has been TRACKED only 8 days (created 2026-07-03),
-    too short a window to archive a bar-clearing, field-shaping cluster, and referee outcomes on these major
-    preprints could still reactivate it. DECISION POINT: archive at W29 unless a fresh Ramsey lower-bound
-    primary or a referee/vetting outcome appears.
-  - 2026-07-14 (daily): Lin–Niu (a trend author group) posted a fresh primary, arXiv:2607.10111
-    "Hypergraph Erdős–Rogers functions with consecutive clique sizes" — Ramsey-ADJACENT (an Erdős–Rogers
-    extremal function) but NOT a Ramsey-number lower bound → queued as its own item, does NOT satisfy the
-    W28 reactivation criterion (fresh Ramsey lower-bound primary OR referee outcome). Trend HELD dormant;
-    W29 archive decision unchanged.
-  - 2026-07-15 (daily): fresh math.CO 2026-07-14 batch scanned for Ramsey lower bounds — none (batch was
-    Balanced Four-Color Theorem, 3-stable Kneser chromatic number, orthogonal quantum Latin squares, etc.;
-    no Ramsey-number lower bound, no referee/vetting outcome on the 2025–26 preprints). W28 reactivation
-    criterion still unmet → trend HELD dormant; W29 (this week's weekly) archive decision unchanged.
-  - 2026-07-16 (daily): fresh math.CO 2026-07-15 batch scanned for Ramsey lower bounds — none (batch held
-    Sabidussi's compatibility conjecture, path-reversed-tournament inversion number, spectral extremal, etc.;
-    no Ramsey-number lower bound, no referee/vetting outcome). W28 reactivation criterion still unmet → trend
-    HELD dormant; W29 (due this week) archive decision unchanged.
-  - 2026-07-17 (daily): fresh math.CO 2026-07-16 batch scanned for Ramsey lower bounds — none (batch held
-    odd-cycle Alon–Friedland defects, three-bit flows / cycle covers, online Beck–Fiala discrepancy,
-    Hamiltonian Cayley graphs of order pqrs, χ-bounds for {P₆,dart,K₄}-free graphs, etc.; no Ramsey-number
-    lower bound, no referee/vetting outcome on the 2025–26 preprints). W28 reactivation criterion still unmet →
-    trend HELD dormant; W29 (due this week) archive decision unchanged.
-  - 2026-W29 recalibration: REACTIVATED dormant → emerging (RECONCILE-FIRST, per weekly.md §2 / AGENTS.md
-    § Domain cadence). The W28 dormant-at-45-days demotion AND the standing "archive at W29" decision were both
-    made under the SUPERSEDED AI-default 21/45-day windows. The domain-cadence calibration applied 2026-07-13
-    (AFTER W28) sets dormancy at 60 days / archive at 120. last_evidence 2026-05-27 is 52 days old today
-    (2026-07-18) — INSIDE the current 60-day active window — so under the CURRENT threshold the trend is NOT
-    dormant. Per the reconcile rule ("a threshold change must retroactively fix trends mis-staged under the old
-    threshold"), the stale dormancy + archive decision are VOIDED and the trend is restored to its prior stage
-    (emerging). Confidence HELD at medium (still no referee/vetting outcome on the 2025–26 preprints; unrefereed-
-    preprint caution). NOT promoted (no fresh post-2026-05-27 lower-bound primary this week — reconcile is a
-    correction, not new velocity). NEW dormancy re-check: if no fresh Ramsey lower-bound primary or referee
-    outcome appears by 2026-07-26 (the 60-day mark), it legitimately goes dormant under the current window
-    (~W31); the completed-burst read from W28 remains the risk to watch.
-  - 2026-07-20 (daily): first daily since 07-17 (weekend + W29 weekly). Fresh math.CO 2026-07-17→20 batch
-    scanned for Ramsey lower bounds — none (batch held sign-matrix asymptotics, Baker–Huh–Kummer–Lorscheid
-    Lorentzian-polynomials/matroids-over-hyperfields II, the OpenAI Cycle-Double-Cover exposition, etc.; no
-    Ramsey-number lower bound, no referee/vetting outcome on the 2025–26 preprints). last_evidence 2026-05-27
-    is 54 days old — INSIDE the current 60-day domain-cadence active window → trend HELD emerging; 60-day
-    dormancy re-check 2026-07-26 unchanged.
-  - 2026-07-21 (daily): fresh math.CO 2026-07-20 batch scanned for Ramsey lower bounds — none (batch held a
-    Hypergraph Tutte Polynomial, the Oum CDC exposition, Nosal-graph supersaturation, a 2n/21 induced-subgraph
-    degree-parity bound, generalised-Erdős-box upper-bound reproof, etc.; no Ramsey-number lower bound, no
-    referee/vetting outcome on the 2025–26 preprints). last_evidence 2026-05-27 is 55 days old — INSIDE the
-    current 60-day domain-cadence active window → trend HELD emerging; 60-day dormancy re-check 2026-07-26
-    (5 days out) unchanged.
-  - 2026-07-22 (daily): fresh math.CO 2026-07-21 batch scanned for Ramsey lower bounds — none (batch held
-    Norine's antipodal-coloring conjecture proof, Boots-Royle/Cao-Vince solution, slice-rank of P-echelon
-    tensors, e-positivity classifications, etc.; no Ramsey-number lower bound, no referee/vetting outcome on
-    the 2025–26 preprints). last_evidence 2026-05-27 is 56 days old — INSIDE the current 60-day domain-cadence
-    active window → trend HELD emerging; 60-day dormancy re-check 2026-07-26 (4 days out) unchanged.
-  - 2026-07-23 (daily): fresh math.CO 2026-07-22 batch scanned for Ramsey lower bounds — none (batch held
-    Erdős-Lovász Tihany for even-hole-free graphs, the sharp exponent for the minimal-distance problem,
-    Steiner-Wiener-index inverse problem, triple arrays from ovals, etc.; no Ramsey-number lower bound, no
-    referee/vetting outcome on the 2025–26 preprints). last_evidence 2026-05-27 is 57 days old — INSIDE the
-    current 60-day domain-cadence active window → trend HELD emerging; 60-day dormancy re-check 2026-07-26
-    (3 days out) unchanged.
-  - 2026-07-23 (Pass 2): re-checked the live math.CO RSS this pass — the only Ramsey-labelled item is a
-    peripheral "Ramsey number of a graph obtained by attaching a pendant to a path (length 1 mod 4)" (a
-    small exact-Ramsey computation, NOT a lower-bound breakthrough) → does NOT satisfy the reactivation
-    criterion (fresh Ramsey lower-bound primary OR referee/vetting outcome). last_evidence 2026-05-27 is
-    57 days old — inside the 60-day window → trend HELD emerging; 60-day dormancy re-check 2026-07-26 unchanged.
-  - 2026-07-24 (daily): fresh math.CO 2026-07-23 batch scanned for Ramsey lower bounds — none (batch held
-    the Frankl–Tokushige product conjectures for r-cross-intersecting families, Tight Hamilton Cycles in
-    linearly quasirandom 3-graphs, a Kirkman-triple-system construction, and — notably — "Improved lower
-    bounds for the Shannon capacity of odd cycles" [2607.21517], a lower-bound advance but on GRAPH CAPACITY,
-    NOT a Ramsey number → captured as its own queue item, does NOT satisfy the reactivation criterion). No
-    Ramsey-number lower bound, no referee/vetting outcome on the 2025–26 preprints. last_evidence 2026-05-27
-    is 58 days old — INSIDE the current 60-day domain-cadence active window → trend HELD emerging; 60-day
-    dormancy re-check 2026-07-26 (2 days out) unchanged.
-  - 2026-W30 recalibration: HELD emerging/medium. last_evidence 2026-05-27 is 59 days old today (2026-07-25) —
-    still INSIDE the 60-day domain-cadence active window BY ONE DAY, so NOT demoted (the rule is 60+ days; 59<60).
-    Confirmatory checks this session: (a) a fresh arXiv math.CO Ramsey scan returned only peripheral Ramsey-TYPE
-    items (tree-cycle Ramsey numbers 2026-07-20, multicolor vector-space Ramsey over 𝔽₂ 2026-07-19, products of
-    simplices canonically Ramsey 2026-07-16, the pendant-to-path exact-Ramsey note 2026-07-21) — NONE a Ramsey-number
-    LOWER-BOUND breakthrough; (b) an arXiv-API metadata check of the four tracked preprints (2507.12926, 2605.28793,
-    2604.23986, 2605.25843) shows NO fresh v-update / referee outcome (newest update 2026-07-02, all predating this
-    week). So the completed-burst read (W28/W29) still holds: no fresh lower-bound primary, no vetting outcome.
-    DORMANCY DECISION: the trend crosses the 60-day line 2026-07-26 (tomorrow); absent a fresh Ramsey lower-bound
-    primary or a referee/vetting outcome, it goes dormant at W31 (2026-08-01, 66 days) per the standing plan.
-    Confidence held medium (unrefereed-preprint caution; still no vetting outcome).
-  - 2026-07-27 (daily): DEMOTED emerging → dormant. last_evidence 2026-05-27 is 61 days old today —
-    over the 60-day domain-cadence line (AGENTS.md § Domain cadence; daily.md §4 applies this on any
-    run, not only at the weekly's pencilled-in W31 date). Confirmatory checks this session: a fresh
-    arXiv math.CO/NT/AG/DG/RT/PR batch (weekend-quiet, newest submittedDate still 2026-07-24) held no
-    Ramsey-number lower-bound item, and an arXiv-API metadata check of the four tracked preprints
-    (2507.12926, 2605.28793, 2604.23986, 2605.25843) shows no fresh v-update since 2026-07-02 — no
-    referee/vetting outcome. Completed-burst read (W28/W29/W30) stands confirmed. Confidence held
-    medium. 120-day archive line: 2026-09-24 (or sooner on the standing weekly archive review) unless
-    a fresh lower-bound primary or referee outcome reactivates it first.
-  - 2026-07-28 (daily): fresh math.CO 2026-07-27 batch scanned for Ramsey lower bounds — none (batch
-    held "Long antipaths in oriented graphs", "Exponentially Many Circuit Double Covers" (CDC-adjacent,
-    not Ramsey), "A computer-assisted proof of Kuperberg's six-cylinder conjecture", "Maximum independent
-    queen set on polyominoes is NP-complete", the K(π,1)-conjecture expository notes, etc.; no Ramsey-number
-    lower bound, no referee/vetting outcome). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged.
-  - 2026-07-29 (daily): fresh math.CO 2026-07-28 batch scanned for Ramsey lower bounds — none (batch
-    held "Solution of Erdős problem #443" (Cambie), the Cautis-Logvinenko conjecture (partial case),
-    "A Spectral Proof of the Hypergraph Moore Bound", etc.; no Ramsey-number lower bound, no referee/
-    vetting outcome on the four tracked preprints). Trend HELD dormant; 120-day archive line 2026-09-24
-    unchanged.
-  - 2026-07-30 (daily): fresh math.CO 2026-07-29 batch scanned for Ramsey lower bounds — none (batch
-    held the Stanley–Gasharov claw-free-Schur-positivity convergence cluster, "An Optimal Bound for
-    Ramsey Goodness of Cycles" [Ramsey GOODNESS for cycles, not a Ramsey-number lower bound — own queue
-    item], "Combinatorial Bounds for Codes over Metric Spaces: Ramsey-Sidorenko Thresholds", etc.; no
-    Ramsey-number lower bound, no referee/vetting outcome on the four tracked preprints). Trend HELD
-    dormant; 120-day archive line 2026-09-24 unchanged.
-  - 2026-07-31 (daily): fresh math.CO/NT 2026-07-30 batch (187-entry broad-rotation sweep) scanned for
-    Ramsey lower bounds — none (batch held "On a proof of the Gorenstein Symmetry Conjecture", "On
-    Sirakov's equal-frequency uniqueness conjecture", "On a question of Gowers related to Littlewood's
-    conjecture", a follow-up recursive Shannon-capacity-of-C7 construction, etc. — all captured as their
-    own queue items below; no Ramsey-number lower bound, no referee/vetting outcome on the four tracked
-    preprints). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged.
-  - 2026-W31 recalibration: HELD dormant/medium. last_evidence 2026-05-27 is 66 days old today
-    (2026-08-01). Confirmatory checks this session: arXiv-API metadata on the four tracked preprints
-    (2507.12926, 2605.28793, 2604.23986, 2605.25843) shows the newest per-paper update still 2026-07-02
-    (2605.25843 v2) — no fresh v-update / referee outcome; a fresh math.CO Ramsey-keyword search
-    returned only peripheral items (Ramsey-Sidorenko thresholds, Ramsey Goodness of cycles [already
-    queued, not a lower bound], zero-sum/big-Ramsey-degree notes) — no lower-bound breakthrough. The
-    completed-burst read (W28-W30) stands confirmed for a 5th consecutive week. 120-day archive line
-    2026-09-24 unchanged; unless a fresh lower-bound primary or referee/vetting outcome appears first.
-  - 2026-08-03 (daily): first daily since 07-31 (weekend gap, expected). Fresh math.CO/NT 2026-07-31
-    batch (123-entry broad-rotation sweep) scanned for Ramsey lower bounds — none (batch held a Lean-
-    verified Shannon-capacity-of-C7 follow-up, the Bolsinov-Konyaev-Matveev integrability conjecture
-    proof, etc.; no Ramsey-number lower bound, no referee/vetting outcome on the four tracked
-    preprints). Trend HELD dormant; 120-day archive line 2026-09-24 unchanged (69 days quiet today).
-  - 2026-08-04 (daily, REACTIVATION): dormant → emerging. A fresh math.CO broad-rotation batch
-    (2026-08-01→08-03, ~200 entries) surfaced arXiv:2608.02537 (Steiner, "Multicolor Ramsey numbers
-    of odd cycles are superexponential") — a fresh, INDEPENDENT, ON-ARXIV Ramsey-NUMBER LOWER-BOUND
-    primary, satisfying the standing W28 reactivation criterion ("a fresh Ramsey lower-bound primary
-    ... reactivates it"). CONTEXT (caution warranted): Steiner's construction is a modification of a
-    claimed result from an unreleased OpenAI model ("Astra"), announced 2026-08-01 in "Ten Advances in
-    Mathematics and Theoretical Computer Science" (queued below as its own item), that R_k(3)=k^Θ(k)
-    (resolving Erdős problem 183) — Steiner extends this to multicolor odd-cycle Ramsey numbers. Steiner's
-    own paper is independently human-authored, peer-reviewable, and citable as a primary in its own right,
-    but it explicitly assumes/builds on the correctness of the underlying OFF-ARXIV, UNREFEREED,
-    AI-GENERATED base construction — so the reactivation is genuine (a real independent lower-bound
-    contribution) but the confidence caveat is now DOUBLED: unrefereed-preprint caution on Steiner's own
-    result, plus dependence on an unvetted AI-generated base result. Confidence HELD medium (not raised).
-    5th independent author/group on the sub-theme (after Ma–Shen–Xie, Bradač, Du–Hu–Liu–Wang, Lin–Niu).
-    New 60-day dormancy re-check: 2026-10-02.
-  - 2026-08-05 (daily): fresh math.CO/GR/AG broad-rotation batch (2026-08-04, ~133 math entries)
-    scanned for Ramsey lower bounds — none (batch was dominated by a rich cluster of OTHER
-    landmark items — the period-index conjecture refutation, Crouzeix's conjecture, Zassenhaus-
-    conjecture counterexamples, two Kourovka Notebook resolutions, all captured below — plus
-    "Refined upper bounds on Schur-like numbers" [2608.03661], Ramsey-ADJACENT but an UPPER bound,
-    not a lower bound → own queue item, does not reactivate/feed this trend). No Ramsey-number
-    lower bound, no referee/vetting outcome on the five tracked preprints. Trend HELD emerging;
-    60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-06 (daily): fresh math.CO/NT broad-rotation batch (2026-08-05, 141 fresh entries)
-    scanned for Ramsey lower bounds — none (batch held a proof of the Freiman-Lev conjecture,
-    a second Schiffer/Pompeiu counterexample, Tree-Product-Conjecture counterexamples, etc., all
-    captured below; no Ramsey-number lower bound, no referee/vetting outcome on the five tracked
-    preprints). Trend HELD emerging; 60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-07 (daily): fresh math.CO/NT broad-rotation batch (2026-08-05→08-06, 134 fresh
-    2026-08-06 entries) scanned for Ramsey lower bounds — none (batch held Andersen's rainbow
-    path conjecture proof [rainbow/anti-Ramsey, not a lower bound — own queue item], Gromov's
-    dihedral rigidity conjecture, the HRT-conjecture disproof, etc., all captured below; no
-    Ramsey-number lower bound, no referee/vetting outcome on the five tracked preprints). Trend
-    HELD emerging; 60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-W32 recalibration: HELD emerging/medium. last_evidence 2026-08-03 (Steiner,
-    2608.02537) is 5 days old — nowhere near the 60-day line (2026-10-02 unchanged). No further
-    independent lower-bound primary landed this week (five dailies 08-03→08-07 all scanned
-    fresh math.CO batches, none found); no referee/vetting outcome on any of the five tracked
-    preprints (2507.12926, 2605.28793, 2604.23986, 2605.25843, 2608.02537). Confidence HELD
-    medium — the doubled unrefereed-preprint caution on Steiner's result stands (own paper
-    unrefereed + depends on OpenAI's unvetted "Astra" base construction), and this week's
-    Scientific American attribution-misconduct report on the OpenAI cluster (08-06, see the
-    OpenAI queue item) is a further reason NOT to raise confidence on anything downstream of
-    that base result. Not promoted (no fresh W32 velocity beyond the already-recorded 08-04
-    reactivation).
-  - 2026-08-10 (daily): first daily since 08-07 (weekend gap, expected). Fresh math.CO/NT
-    broad-rotation batch (2026-08-07, 138 fresh entries across the full in-scope math
-    category set) scanned for Ramsey lower bounds — none (batch held a peripheral "Vertex-Ramsey
-    theorems for Cartesian powers of graphs" [2608.07102], NOT a Ramsey-number lower bound;
-    the Modularity-Conjecture and Mathieu-conjecture landmarks captured below, unrelated
-    sub-theme). arXiv-API metadata check of all five tracked preprints (2507.12926, 2605.28793,
-    2604.23986, 2605.25843, 2608.02537) shows no fresh v-update since 2026-08-03 — no
-    referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02
-    unchanged.
-  - 2026-08-11 (daily): full math.CO/NT/AG/GT/DG/RT/PR/AC/RA/KT/AT/SG/AP/FA/CA/CV/OA/OC/LO/DS
-    batch (2026-08-08→08-10, 392 fresh entries) scanned for Ramsey lower bounds — none (batch
-    held the hyperkähler period-index refutation, the cyclotomic/almost-Moore-digraph proof,
-    the Berenstein-conjecture counterexample, the Anthropic Riemann-zeta result, etc., all
-    captured below, unrelated sub-theme). arXiv-API metadata on all five tracked preprints
-    unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium;
-    60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-12 (daily): fresh math.CO/NT/AG/GT/DG/RT/PR/AC/RA/KT/AT/SG/AP/FA/CA/CV/OA/OC/LO/DS
-    batch (2026-08-09→08-11, 366 fresh entries) scanned for Ramsey lower bounds — none (only
-    two peripheral Ramsey-labelled titles, a "nearcircumsphere-Ramsey theorem" for solvable
-    transitive configurations and a small "pyramid with a Ramsey base" note, neither a
-    Ramsey-number lower bound; batch dominated by the Kolokolnikov-conjecture double-discovery
-    and other items captured below, unrelated sub-theme). arXiv-API metadata on all five
-    tracked preprints unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD
-    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-13 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT
-    broad-rotation batch (2026-08-12, 160 fresh entries) scanned for Ramsey lower bounds —
-    none (batch's own landmark items — Gluck's conjecture, Butler's positivity conjecture,
-    the Cohn-Kumar Leech-lattice auxiliary-function conjecture — all captured below,
-    unrelated sub-theme; only routine Ramsey-type titles, e.g. "One-point extensions of
-    Euclidean Ramsey sets," none a lower-bound breakthrough). arXiv-API metadata on all five
-    tracked preprints unchanged since 2026-08-03 — no referee/vetting outcome. Trend HELD
-    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-14 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT
-    broad-rotation batch (2026-08-13, 197 fresh entries) scanned for Ramsey lower bounds —
-    none (a landmark-dense batch — Banach's isometric conjecture, Gromov's volume growth
-    conjecture, the Chang-Yang conjecture, the Hayman-Wu constant, SOP2=SOP3 — all captured
-    below, unrelated sub-theme; only routine Ramsey/Gallai-Ramsey titles, none a lower-bound
-    breakthrough). arXiv-API metadata on all five tracked preprints unchanged since
-    2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy
-    re-check 2026-10-02 unchanged.
-  - 2026-08-17 (daily): first daily since 08-14 (weekend gap + W33 weekly 08-15, expected).
-    Fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT broad-rotation
-    batch (2026-08-14, 151 fresh entries — the only new arXiv date; the 08-15/08-16 weekend
-    and the Monday batch had not yet posted at run time) scanned for Ramsey lower bounds —
-    only routine Ramsey/Schur/Gallai-Ramsey titles (a "Weakened Gallai-Ramsey Numbers for
-    Books" note, Schur-log-concavity items — captured separately below, not Ramsey-number
-    lower bounds). arXiv-API metadata check of all five tracked preprints shows no fresh
-    v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium;
-    60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-18 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT
-    broad-rotation batch (2026-08-15→08-17, 370 fresh entries) scanned for Ramsey lower bounds —
-    none (batch dominated by other landmark items — Milnor's conjecture 2608.15505, Atiyah's
-    Minkowski-space conjecture 2608.16693, Weibel's-conjecture counterexamples 2608.16066, the
-    Chen-Raspaud conjecture proof 2608.15257, all captured below, unrelated sub-theme; only
-    routine Ramsey/Gaifman-adjacent titles, none a lower-bound breakthrough). arXiv-API metadata
-    check of all five tracked preprints shows no fresh v-update since 2026-08-03 — no
-    referee/vetting outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02
-    unchanged.
-  - 2026-08-19 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OC/PR broad-rotation
-    batch (2026-08-17→08-18, 400 fresh entries) scanned for Ramsey lower bounds — none (batch
-    held the Complex-Hadamard-order-6 classification, Thompson's-conjecture-for-Lie-type
-    completion, Sato's weak F-equivalence counterexamples, the Mahmoodian-Mirzakhani boundary
-    case, all captured below, unrelated sub-theme; only routine Ramsey-adjacent titles — e.g. a
-    rainbow Lehel's-conjecture note — none a lower-bound breakthrough). arXiv-API metadata check
-    of all five tracked preprints shows no fresh v-update since 2026-08-03 — no referee/vetting
-    outcome. Trend HELD emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-20 (daily): fresh math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV broad-rotation batch
-    (2026-08-19, 176 fresh entries) scanned for Ramsey lower bounds — none (batch held "The
-    regular pentagon is canonically Ramsey" [a Euclidean-Ramsey geometry note, not a Ramsey-number
-    lower bound], Forni's periodic-orbit billiards landmark and other items captured below,
-    unrelated sub-theme). arXiv-API metadata check of all five tracked preprints shows no fresh
-    v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD emerging/medium; 60-day
-    dormancy re-check 2026-10-02 unchanged.
-  - 2026-08-21 (daily): fresh math full in-scope category-rotation batch (2026-08-20, 178 fresh
-    entries) scanned for Ramsey lower bounds — none (batch held an unrelated integer-programming
-    method paper for classical small-Ramsey-number lower bounds via circulant graphs,
-    arXiv:2608.18769, a different sub-area from the tracked asymptotic off-diagonal/hypergraph
-    lower-bound wave — not counted as a new group). arXiv-API metadata check of all five tracked
-    preprints shows no fresh v-update since 2026-08-03 — no referee/vetting outcome. Trend HELD
-    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged.
-  - 2026-W34 recalibration: HELD emerging/medium. last_evidence 2026-08-03 (Steiner, 2608.02537) is
-    19 days old, nowhere near the 60-day line (2026-10-02 unchanged). arXiv-API metadata recheck of
-    all five tracked preprints this session: no fresh v-update on any (newest still 2026-08-03) — no
-    referee/vetting outcome. Fresh math.CO scan (through 2026-08-20/21, no new date posted by 08-22)
-    held only "The regular pentagon is canonically Ramsey" (Euclidean-Ramsey geometry, not a
-    Ramsey-number lower bound) — already logged by the 08-20 daily, not a new group. Not promoted
-    (no fresh W34 velocity); confidence held medium (doubled unrefereed-preprint caution stands).
-  - 2026-08-24 (daily): first daily since 2026-08-21 (weekend gap + W34 weekly 08-22, expected).
-    Full in-scope math category-rotation RSS batch (2026-08-21, the latest posted; no fresher
-    Monday batch yet) scanned for Ramsey lower bounds — none (only an unrelated "Structural
-    Reductions for Monochromatic Matchings and Ramsey Tilings," 2606.24863, a different sub-area).
-    arXiv-API metadata recheck of all five tracked preprints: no fresh v-update on any. Trend HELD
-    emerging/medium; 60-day dormancy re-check 2026-10-02 unchanged (last_evidence now 21 days old).
-  - 2026-08-25 (daily, PROMOTION): fresh math.CO batch (2026-08-22, first Tuesday-lag-cleared
-    posting since the weekend) scanned for Ramsey lower bounds — CAUGHT Ihringer–Mattheus
-    (2608.21769), a SIXTH independent author group with a genuine off-diagonal exponent
-    improvement (first explicit R(s,t) ≥ t^c construction with c>2 for fixed s), appended as
-    evidence above; last_evidence advances to 2026-08-22. Promoted emerging → accelerating
-    (one-stage-max rule; six independent groups + continued fresh output over ~7 weeks reads as
-    broad/fast, not merely forming). Confidence HELD medium (still no referee/vetting outcome on
-    any of the six preprints — unrefereed-preprint caution stands). Also noted: a fresh circulant-
-    graph small-Ramsey-number improvement, R(4,20)≥252 (arXiv:2608.18169, Yu), and an induced-
-    threshold-graph Ramsey variant (arXiv:2608.22350, Li) — both Ramsey-ADJACENT but a different
-    sub-area (explicit small-number bounds / induced Ramsey, not the tracked asymptotic off-
-    diagonal/hypergraph exponent wave) — not counted as trend evidence, not individually queued
-    (routine background activity in this sub-field). 60-day dormancy re-check reset to 2026-10-21.
-  - 2026-08-26 (daily): fresh math.CO 2026-08-25 batch (arXiv API, sorted by submission date)
-    scanned for Ramsey-number lower bounds — none (only the already-tracked-and-excluded
-    2608.22350 threshold-graph variant recurring in a broader keyword search). No 7th independent
-    group or referee/vetting outcome. Trend HELD accelerating/medium.
-  - 2026-08-27 (daily): fresh math full in-scope category-rotation batch (2026-08-26, 147
-    entries) scanned for Ramsey lower bounds — none (batch's own landmark item was
-    Hoffmann-Ostenhof's 3-Decomposition Conjecture, a different sub-area, captured below).
-    arXiv-API metadata recheck of all six tracked preprints (2507.12926, 2605.28793,
-    2604.23986, 2605.25843, 2608.02537, 2608.21769): no fresh v-update beyond what was already
-    on file — no referee/vetting outcome. Trend HELD accelerating/medium; last_evidence
-    2026-08-22 now 5 days old.
-  - 2026-08-28 (daily): fresh math full in-scope category-rotation batch (2026-08-27, 356
-    entries) scanned for Ramsey lower bounds — only a peripheral "Online Ramsey Numbers of Stars
-    versus Long Paths and Cycles" (2608.27405, an online-Ramsey variant, not a lower-bound
-    breakthrough on the tracked classical/hypergraph Ramsey numbers). No 7th independent group
-    or referee/vetting outcome. Trend HELD accelerating/medium; last_evidence 2026-08-22 now 6
-    days old, well inside the 60-day window.
-  - 2026-W35 recalibration: HELD accelerating/medium. last_evidence 2026-08-22 is 7 days old,
-    nowhere near the 60-day line (2026-10-21 unchanged). No 7th independent group surfaced this
-    week (five dailies 08-24→08-28 all scanned fresh math.CO batches, none found — confirmed
-    again this session); arXiv-API metadata recheck of all six tracked preprints shows no fresh
-    v-update — no referee/vetting outcome. Confidence held medium (doubled unrefereed-preprint
-    caution stands). Not promoted (no fresh W35 velocity beyond the already-recorded 08-25
-    promotion).
+  - 2026-W27 through W35 recalibration history (daily "no new lower-bound item found" entries
+    plus the W27-W35 dormancy/reactivation/promotion cycle) RELOCATED to `logs/trend_history.md`
+    2026-10-24 (W43, Amendment L applied) — moved verbatim, unaltered; see that file for the
+    full day-by-day record.
   - 2026-09-03 (daily): fresh math full in-scope category-rotation batch (2026-09-02, 198
     entries) scanned for Ramsey lower bounds — only a peripheral "Ramsey-type results for
     Maker-Breaker games" (2609.02588, a positional-game variant, not a classical/hypergraph
@@ -842,103 +535,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   consolidated/definitive treatment that may supersede this cluster. Watch also for further
   independent confirmation of the companion Monical saturated-Newton-polytope refutation
   (Matherne–Morales only, so far).
-  - 2026-W31 recalibration: HELD seed/medium. No 4th independent group or referee/vetting outcome
-    this week — arXiv search for fresh Schur-positivity/claw-free items returned only the three
-    already-tracked papers plus unrelated claw-free-graph coloring results (packing/chromatic-index),
-    not new counterexamples. Confidence held medium (short checkable computations, still unrefereed).
-  - 2026-08-03 (daily): fresh math.CO 2026-07-31 batch scanned for Schur-positivity/claw-free items —
-    none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
-  - 2026-08-05 (daily): fresh math.CO 2026-08-04 batch scanned for Schur-positivity/claw-free items —
-    none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
-  - 2026-08-06 (daily): fresh math.CO 2026-08-05 batch scanned for Schur-positivity/claw-free items —
-    none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium.
-  - 2026-08-07 (daily): fresh math.CO 2026-08-06 batch scanned for Schur-positivity/claw-free items —
-    none. No 4th independent group or referee/vetting outcome.
-  - 2026-W32 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 10 days old — well
-    inside the 60-day window. Five dailies this week (08-03→08-07) all scanned fresh math.CO
-    batches for Schur-positivity/claw-free items — none found; no 4th independent group, no
-    referee/vetting outcome on any of the three tracked preprints. Confidence held medium
-    (short, checkable computations, cross-verified across independent censuses — still
-    unrefereed). Trend HELD seed/medium.
-  - 2026-08-10 (daily): fresh math.CO 2026-08-07 batch scanned for Schur-positivity/claw-free
-    items — none. No 4th independent group or referee/vetting outcome on any of the three
-    tracked preprints. Trend HELD seed/medium.
-  - 2026-08-11 (daily): fresh math.CO 2026-08-08→08-10 batch (392 entries) scanned for
-    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
-    outcome on any of the three tracked preprints.
-  - 2026-08-12 (daily): fresh math.CO 2026-08-09→08-11 batch (366 entries) scanned for
-    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
-    outcome on any of the three tracked preprints. Trend HELD seed/medium.
-  - 2026-08-13 (daily): fresh math.CO 2026-08-12 batch (160 entries) scanned for
-    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
-    outcome on any of the three tracked preprints. Trend HELD seed/medium.
-  - 2026-08-14 (daily): fresh math.CO 2026-08-13 batch (197 entries) scanned for
-    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting
-    outcome on any of the three tracked preprints. Trend HELD seed/medium.
-  - 2026-08-17 (daily): first daily since 08-14. Fresh math.CO 2026-08-14 batch (151
-    entries) scanned for Schur-positivity/claw-free items — none (a Skew-Schur
-    log-concavity note and an m-symmetric-Schur-function characterization are unrelated
-    Schur-function threads, not Stanley-Gasharov counterexamples). arXiv-API metadata check
-    of all three tracked preprints shows no fresh v-update — no referee/vetting outcome.
-    Trend HELD seed/medium.
-  - 2026-08-18 (daily): fresh math.CO 2026-08-15→08-17 batch (370 fresh entries) scanned for
-    Schur-positivity/claw-free items — two peripheral titles ("On the finite group whose proper
-    enhanced power graph is claw-free" [2608.16434, group theory, unrelated] and "Three Infinite
-    Families Separating Schur Positivity, the Strongly Nice Property, and the Nice Property"
-    [2608.16613, a different Schur-positivity separating-families question, not a Stanley-Gasharov
-    counterexample]) — neither a 4th independent group. arXiv-API metadata check of all three
-    tracked preprints shows no fresh v-update — no referee/vetting outcome. Trend HELD seed/medium.
-  - 2026-08-19 (daily): fresh math.CO 2026-08-17→08-18 batch (400 fresh entries) scanned for
-    Schur-positivity/claw-free items — none new (only the already-tracked peripheral titles from
-    08-18). No 4th independent group or referee/vetting outcome on any of the three tracked
-    preprints. Trend HELD seed/medium.
-  - 2026-08-20 (daily): fresh math.CO 2026-08-19 batch (176 fresh entries) scanned for
-    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting outcome
-    on any of the three tracked preprints. Trend HELD seed/medium.
-  - 2026-08-21 (daily): fresh math.CO 2026-08-20 batch (178 fresh entries) scanned for
-    Schur-positivity/claw-free items — none. No 4th independent group or referee/vetting outcome
-    on any of the three tracked preprints (arXiv-API metadata unchanged). Trend HELD seed/medium.
-  - 2026-W34 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 24 days old, well inside
-    the 60-day window. arXiv-API metadata recheck of all three tracked preprints (2607.21508,
-    2607.26364, 2607.27166) this session: no fresh v-update on any — no referee/vetting outcome. No
-    4th independent group surfaced this week (five dailies 08-17→08-21 all scanned fresh math.CO
-    batches, none found; confirmed again this session). Confidence held medium (short, checkable,
-    cross-verified computations — still unrefereed).
-  - 2026-08-24 (daily): first daily since 2026-08-21 (weekend gap + W34 weekly 08-22, expected).
-    Full in-scope math.CO RSS batch (2026-08-21, the latest posted) scanned for Schur-positivity/
-    claw-free items — none. arXiv-API metadata recheck of all three tracked preprints: no fresh
-    v-update. Trend HELD seed/medium; last_evidence now 26 days old, well inside the 60-day window.
-  - 2026-08-25 (daily): fresh math.CO 2026-08-22 batch scanned for Schur-positivity/claw-free
-    items — two peripheral titles found ("Schur positivity from signed elementary expansions:
-    clique-spiders and spiders S(a,b,2)" and "Pfaffian-Toeplitz identities, Schur positivity, and
-    the q-log-convexity of Baxter polynomials") — both unrelated general Schur-positivity results,
-    not claw-free/Stanley-Gasharov counterexamples; the claw-free title re-appearing in today's
-    feed is the already-tracked Prajapati preprint (2607.26364), not new. arXiv-API metadata
-    recheck of all three tracked preprints: no fresh v-update — no referee/vetting outcome. No 4th
-    independent group. Trend HELD seed/medium; last_evidence now 27 days old, well inside the
-    60-day window.
-  - 2026-08-26 (daily): fresh math.CO 2026-08-25 batch + a direct Schur-positivity/claw-free
-    abstract search — no 4th independent group or referee/vetting outcome. Trend HELD seed/medium;
-    last_evidence now 28 days old, well inside the 60-day window.
-  - 2026-08-27 (daily): fresh math.CO 2026-08-26 batch scanned for Schur-positivity/claw-free
-    items — none. arXiv-API metadata recheck of all three tracked preprints (2607.21508,
-    2607.26364, 2607.27166): no fresh v-update — no referee/vetting outcome. No 4th independent
-    group. Trend HELD seed/medium; last_evidence now 29 days old, well inside the 60-day window.
-  - 2026-08-28 (daily): fresh math.CO 2026-08-27 batch (part of the full category-rotation
-    fetch) scanned for Schur-positivity/claw-free items — none. No 4th independent group or
-    referee/vetting outcome. Trend HELD seed/medium; last_evidence now 30 days old, well inside
-    the 60-day window.
-  - 2026-W35 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 31 days old, well
-    inside the 60-day window (dormancy line 2026-09-27). arXiv-API metadata recheck of all three
-    tracked preprints (2607.21508, 2607.26364, 2607.27166) this session: no fresh v-update on any
-    — no referee/vetting outcome. No 4th independent group surfaced this week (five dailies
-    08-24→08-28 all scanned fresh math.CO batches, none found — confirmed again this session).
-    Confidence held medium (short, checkable, cross-verified computations — still unrefereed,
-    now a full month quiet without a referee outcome; watch remains a 4th group or a vetting
-    result, not the passage of time alone under domain cadence).
-  - 2026-09-03 (daily): fresh math.CO 2026-09-02 batch scanned for Schur-positivity/claw-free
-    items — none. No 4th independent group or referee/vetting outcome. Trend HELD seed/medium;
-    last_evidence 2026-07-29 now 36 days old, well inside the 60-day window.
+  - 2026-W31 through the 2026-09-03 daily recalibration history (repeated "no 4th independent
+    group found" checks during this trend's seed-stage watch) RELOCATED to `logs/trend_history.md`
+    2026-10-24 (W43, Amendment L applied) — moved verbatim, unaltered; see that file for the
+    full day-by-day record.
   - 2026-W36 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 38 days old — well
     inside the 60-day window (dormancy line 2026-09-27), but now over five weeks quiet with no
     4th independent group and no referee/vetting outcome on any of the three tracked preprints.
@@ -1084,7 +684,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     v-update beyond what's already on file. No 4th independent group this week. Not promoted.
 
 ### Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)
-- stage: emerging | confidence: high | first_seen: 2026-09-24 | last_evidence: 2026-09-29
+- stage: emerging | confidence: high | first_seen: 2026-09-24 | last_evidence: 2026-10-14
 - what: an AI research agent ("Odin Automatic AI Research Agent") is credited with discovering a
   proof of the ~50-year-old Komlós conjecture (vector-signing/discrepancy problem) AND, as a
   corollary, the square-root dependence predicted by the Beck-Fiala conjecture, in one paper
@@ -1186,6 +786,21 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (Akbas-Sra's v2 retitling/rescoping — the newest dated activity among this trend's own
     evidence lines; the two queued variant-problem papers are not trend evidence and do not set
     this date).
+  - 2026-W43 recalibration (Amendment G citation-chase rotation, this trend's turn per the W42
+    rotation note): a fresh Semantic Scholar "cited by" pass on the Guo-Fang-Lu anchor (2609.11189)
+    surfaced two further citing papers. Shengtao Guo, Ethan X. Fang, Junwei Lu, "Vector Balancing
+    in Polynomial Time" (2609.23540, 2026-09-20) is the SAME original author trio's own follow-up
+    (verified via arXiv API — identical author names), not a new independent group — logged for
+    engagement, not appended as evidence. Emile Anand, Peter Chen, "The Komlós Problem in
+    Matrix-Multiplication Time" (2610.20995, 2026-10-14) IS a genuinely new, previously-uncaptured
+    independent pair — a SEVENTH independent group/artifact on this trend (after Guo-Fang-Lu,
+    Karingula-Lovett, Akbas-Sra, Altschuler, Li; Bansal's escalation not counted). Confidence
+    already at `high`, no further promotion triggered (already past the 2-group bar); appended
+    below as evidence for the record.
+  - 2026-10-14 — https://arxiv.org/abs/2610.20995 — Anand, Chen, "The Komlós Problem in
+    Matrix-Multiplication Time": a seventh independent author pair, giving an algorithm running in
+    matrix-multiplication time for the Komlós sign-assignment problem. Abstract/authors verified
+    via arXiv API this session (found via the W43 Amendment G citation chase).
 
 ### Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)
 - stage: seed | confidence: medium | first_seen: 2026-09-25 | last_evidence: 2026-09-25
@@ -2074,6 +1689,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   queue, not duplicated). Several 2025 interpretation papers exist (primordial-black-hole,
   hierarchical-merger, even "cosmic string" explanations) — not individually chased this session;
   watch for a definitive formation-channel consensus.
+  - 2026-W43 recalibration (Amendment I version-history spot-check): 2507.08219 found silently
+    revised to v2, updated 2025-11-10 (predates this trend's own creation by ~11 months — the
+    published/final LVK paper, same title/result). Low materiality, no change to `last_evidence`.
 
 ### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
 - stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-21
@@ -2513,6 +2131,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   single webinar-announcement page) — its own `/news` index had never been swept past that one page,
   missing this and the item below for over two months. A genuinely significant pure-math landmark
   that carries essentially zero AI-hype-skepticism risk (explicit, checkable, human-led). Watch for:
+  - 2026-W43 recalibration (Amendment I version-history spot-check): 2608.08538 found silently
+    revised to v2, updated 2026-10-07 — same title/abstract/result, no new claim; low materiality.
+    No change to the trend's own `last_evidence` (backfill precedent: set by the paper's own
+    content date, not a cosmetic revision timestamp).
   independent verification/citation of the M23 construction.
   - 2026-W42 recalibration (dormancy-clock clarification, no action — same precedent as Graham's
     rearrangement conjecture's own W40 note): `last_evidence` (2026-08-09) is nominally 69 days old
@@ -2567,6 +2189,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     reading now has a genuine, named rival interpretation in the literature, not just outside
     caution quotes. Watch for: a BESIII or third-party response to the molecular-interpretation
     challenge.
+  - 2026-W43 recalibration: `last_evidence` field reconciled against the evidence list (per last
+    week's flag) — CORRECT, not stale: 2026-09-01 is the Ben-Yang-Zou paper's own posting date
+    (the newest evidence item by content date), not a discovery-lag artifact; this trend's
+    discovery of that paper happened 2026-10-20, but the convention this ledger uses throughout is
+    the evidence's own date, not the session that found it. No change. Now 54 days old — inside the
+    60-day dormancy window but worth a fresh hep-ex/hep-ph-specific chase next session if no
+    collaboration response surfaces.
 
 ### Proof of the Erdős–Szemerédi sunflower conjecture (Bucić–He–Lee)
 - stage: seed | confidence: medium | first_seen: 2026-10-20 | last_evidence: 2026-10-19
@@ -2751,21 +2380,43 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     joy... mixed with disappointment that an AI supplied the crucial step"). No independent
     verification reported. Opened directly via `WebFetch` this session.
   - 2026-10-21 (v1) — https://arxiv.org/abs/2610.30063 — Jean-Baptiste Gouéré, "On the proof of the
-    Kozma-Nitzan conjecture": "a short note giving an exposition of the recent proof of the
-    Kozma-Nitzan conjecture provided by OpenAI" — ATTRIBUTION NOTE: this names OpenAI, not
-    Anthropic/Claude, and the OpenAI CONTENTS.md entries above do not use the name "Kozma-Nitzan" —
-    unresolved whether Gouéré is (a) describing OpenAI's own, differently-routed proof of the same
-    underlying landmark, mis-citing it under the Claude-associated conjecture's name, or (b) aware
-    of a further OpenAI manuscript not located this session that explicitly invokes Kozma–Nitzan.
-    Abstract opened via arXiv API + `WebFetch` this session (short note, no vetting-status content
-    found beyond the attribution itself). FLAG FOR NEXT WEEKLY: resolve this attribution ambiguity
-    (open Gouéré's full PDF; check whether a Kozma–Nitzan-named OpenAI manuscript exists separately
-    from #213/#214).
+    Kozma-Nitzan conjecture": exposition of a proof of Conjecture 1 of Kozma–Nitzan. ATTRIBUTION
+    RESOLVED this week (full PDF opened): Gouéré's own reference [9] for the proof he expounds is a
+    THIRD, previously-uncaptured OpenAI manuscript, "Critical bond and site percolation on the
+    cubic lattice" (dated 2026-09-24, same disclosure batch as #213/#214) — distinct from both
+    already-tracked OpenAI items (#213 "every quasi-transitive graph," #214 the nonuniqueness
+    conjecture). Gouéré's reference [10] IS OpenAI's quasi-transitive-graph paper (matching #213),
+    which he explicitly states he does "not consider... in these notes." So OpenAI independently
+    proved the conjecture via the SAME Kozma–Nitzan route Claude used, in addition to its own
+    differently-routed quasi-transitive-graph proof — not a misattribution, a genuine third
+    manuscript. Also newly found via Gouéré's own reference [1] (not independently opened before
+    this session): Arthur Blanc-Renaudie, "Notes on Kozma and Nitzan's proof of θ(p_c)=0"
+    (arXiv:2610.10502, 2026-10-07) — a human-intelligible exposition SPECIFICALLY of the
+    Claude/Leder Lean proof ("The proof was recently found by AI, but was very poorly written. Our
+    version is much shorter..."), the counterpart on Claude's route to what Gouéré did for OpenAI's.
+    Both verified via full-text `WebFetch` this session.
+  - 2026-09-24 (v1; newly captured, third OpenAI manuscript, same disclosure batch as #213/#214) —
+    https://github.com/openai/math/blob/main/preprints/Critical-bond-and-site-percolation-on-the-cubic-lattice-September-24-2026/paper.pdf
+    — OpenAI, "Critical bond and site percolation on the cubic lattice": proves Kozma–Nitzan's
+    Conjecture 1 directly (the SAME conjecture Claude's route proves), independently of the
+    quasi-transitive-graph route in #213/#214. Verified via Gouéré's reference [9] this session.
+  - 2026-10-07 (v1) — https://arxiv.org/abs/2610.10502 — Arthur Blanc-Renaudie, "Notes on Kozma and
+    Nitzan's proof of θ(p_c)=0": human-intelligible, shortened exposition of the Claude/Leder Lean
+    proof specifically (not OpenAI's) — the first independent human engagement with THAT route.
+    Full text verified via `WebFetch` this session.
 - notes: 2026-10-22 (daily, promotion): see `observation_queue`'s original 2026-09-04 entry (now
   superseded by this trend) for the full original capture detail, Kalai's blog post, and the
   Fields-medal prediction context. Watch for: an independent Lean audit of Claude's proof, any
   human/traditional verification of OpenAI's #213/#214 route, a statement from Kozma, Nitzan, or
-  Duminil-Copin, and resolution of the Gouéré attribution question above.
+  Duminil-Copin.
+  - 2026-W43 recalibration: Gouéré attribution flag RESOLVED (see evidence above) — not a
+    misattribution; OpenAI's 2026-09-24 disclosure batch in fact contains (at least) THREE distinct
+    manuscripts on this landmark, not two, one of which uses Claude's own Kozma–Nitzan route. Two
+    independent human expository notes now exist, one per AI lab's route (Blanc-Renaudie on
+    Claude's; Gouéré on OpenAI's) — neither is a referee report or a from-scratch independent
+    re-derivation, so confidence held at `medium`; this is the closest this trend has come to
+    genuine human engagement with the actual proof mechanics on both sides. `last_evidence`
+    unchanged (both newly-captured items predate 2026-10-21).
 
 ### Disproof of Hochster's small Cohen-Macaulay conjecture / negative resolution of the Eisenbud-Schreyer-Weyman Ulrich-bundle question
 - stage: seed | confidence: medium | first_seen: 2026-10-22 | last_evidence: 2026-10-21
@@ -2787,19 +2438,26 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (2003) and to Hochster's small Cohen-Macaulay conjecture (1973): a survey, with a generalization
     to arbitrary dimension": the survey/generalization itself, naming and citing the September 2026
     cluster below. Abstract opened via arXiv API this session.
-  - 2026-09 (cited by the survey above, NOT independently opened this session) —
-    https://arxiv.org/abs/2609.02718 — Cristian Anghel, original no-Ulrich-bundles result for
-    surfaces with H²<σ(Y), H very ample.
-  - 2026-09 (cited by the survey above, NOT independently opened this session) —
-    https://arxiv.org/abs/2609.06678 — Lopez, extends the no-Ulrich-bundles obstruction to every
-    dimension.
+  - 2026-09-02 (v1; independently opened via arXiv API this session, W43 weekly) —
+    https://arxiv.org/abs/2609.02718 — Cristian Anghel, "Smooth Counterexamples to the
+    Eisenbud–Schreyer–Weyman Ulrich Existence Problem": confirmed via abstract — a rank-independent
+    Bogomolov–Hodge obstruction gives a smooth counterexample on the exponent-3 Hesse surface.
+  - 2026-09-06 (v1; independently opened via arXiv API this session, W43 weekly) —
+    https://arxiv.org/abs/2609.06678 — Angelo Felice Lopez, "On the existence of smooth varieties of
+    any dimension carrying no Ulrich bundles for some very ample line bundle": confirmed via
+    abstract — using Anghel's dimension-2 examples, extends the obstruction to every $n\ge3$ plus
+    further dimension-2 examples.
 - notes: 2026-10-22 (daily, seed creation): the underlying September results were never previously
   captured by this ledger (not found in any prior report/TRENDS.md grep) — a genuine, if delayed,
-  capture via the survey's own citations rather than at original publication. NEXT SESSION: open
-  2609.02718 and 2609.06678 directly to verify authorship/dates independently (currently only
-  cited, not opened) and identify the "four preprints and an AI-generated manuscript" the survey
-  refers to but does not fully enumerate in the abstract. Watch for: independent confirmation,
-  and whether the AI-generated contribution draws its own vetting-status commentary.
+  capture via the survey's own citations rather than at original publication. Watch for: independent
+  confirmation, and whether the AI-generated contribution the survey mentions (not individually
+  identified) draws its own vetting-status commentary.
+  - 2026-W43 recalibration: Anghel (2609.02718) and Lopez (2609.06678) independently opened and
+    verified via arXiv API this session (per last week's flag) — both titles/abstracts confirm the
+    survey's characterization exactly; no discrepancy found. The survey's "four preprints and an
+    AI-generated manuscript" claim remains only partially enumerated (these two plus the survey
+    itself are the only three individually identified so far) — still a standing watch item, not
+    chased further this session (time-budget).
 
 ### Disproof of Barry Simon's L² conjecture (Schrödinger-operator spectral theory, LLM-assisted)
 - stage: seed | confidence: medium | first_seen: 2026-10-23 | last_evidence: 2026-10-22
@@ -3763,6 +3421,17 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     2026 results tracked here. NOT independently verified this session (a blog comment, no arXiv/
     DOI opened) — flagged for next session or the weekly to chase (locate the actual 2022 JNT paper
     and assess whether it changes the priority picture for this item).
+  - 2026-W43 recalibration (Nathan Ng lead CHASED): located and opened Aryan's paper directly —
+    "On an extension of the Landau-Gonek formula," J. Number Theory 233 (2022) 389-404 (arXiv
+    preprint 1902.05473, 2019-02-14, verified via arXiv API). PRIORITY QUESTION RESOLVED, no
+    change to this item: Aryan's own abstract states the ≥2/3-simple-zeros corollary holds only
+    "under a zero density hypothesis, which is weaker than the Riemann hypothesis" — i.e.
+    CONDITIONAL on an unproved (if weaker-than-RH) hypothesis, not unconditional. The 2026 results
+    tracked here (Claude/Anthropic, Lamzouri, the unconditional BGST-B form) are unconditional —
+    Aryan's 2022 result does not predate or undercut their priority on the unconditional bound;
+    Nathan Ng's blog comment (as characterized in the 2026-10-23 report) appears to overstate
+    Aryan's result as unconditional. Not itself a primary for this ledger's own tracked claim
+    (a different, weaker/conditional result) — not added as a new evidence/queue line.
 - 2026-08-10 — arXiv:2608.08997 — Kaur, Kumar, "A proof of the cyclotomic conjecture and the
   non-existence of almost Moore digraphs" — https://arxiv.org/abs/2608.08997 — graph theory /
   degree-diameter problem (axis 1, math.CO/NT): proves Gimbert's 1999 cyclotomic conjecture on

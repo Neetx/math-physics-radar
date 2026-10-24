@@ -46,6 +46,17 @@ preprint; fold any found update into that trend's evidence/last_evidence per the
   multi-week confirmation — whichever comes first; otherwise hold at `medium`. Lower when
   evidence thins or is mostly vendor-reported.
 - After recalibration, regenerate `README.md` (`radar-render-dashboard`).
+- **Amendment L (applied 2026-W43 — motivated by the TRENDS.md structural-size flag recurring in
+  every daily report across W42 and W43, driven by long-lived trends' repetitive pre-note-
+  discipline "nothing found" daily entries): per-trend size cap.** For any trend whose own notes
+  carry more than ~15 dated sub-entries, RELOCATE (verbatim, unaltered — "never rewrite published
+  history" is satisfied by moving text unchanged, the same guarantee the source_rotation/
+  strategy_notes externalization relies on) the entries older than the most recent ~8 weekly
+  cycles into `logs/trend_history.md`, under a header naming the trend and the relocation date,
+  leaving in TRENDS.md itself: the trend's header/evidence/`what` fields, its original creation
+  note, a one-line pointer to the relocated section, and the kept (most-recent-~8-cycles) notes.
+  Check this every weekly, not just when a daily flags size; one dedicated commit per trend
+  relocated (or one commit covering all trends relocated that session).
 
 ## 3. Clean the observation queue
 Aging windows scale to DOMAIN CADENCE (AGENTS.md → *Domain cadence*) — this is a SLOW field,
