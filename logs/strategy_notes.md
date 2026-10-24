@@ -1893,3 +1893,52 @@ coding) this week. No redirection needed.
   status watch (as opposed to a routine capture) should get a full-text (not abstract-only) read
   on each session that touches it, mirroring the Amendment J full-abstract-pass logic but scoped
   to the standing vetting-watch list rather than a category rotation.
+- 2026-10-24 (weekly, W43) — ANCHORING CHECK: not triggered — this week's dailies founded 10 new/
+  promoted seed trends (sunflower conjecture, weak magnetism in neutron decay, 3D aperiodic
+  monotile, Neumann-Zagier, linear MDS, double-cap, percolation-criticality, Hochster/ESW, Barry
+  Simon's L² conjecture, Gauss-Fourier), not a pre-existing-trends-only week. Reddit domain-wide
+  block CONFIRMED this session (see `SOURCES.md` → r/Physics/r/cosmology/r/ParticlePhysics/
+  r/AskPhysics): the standing r/math/r/mathematics block is not math-specific — all `reddit.com`
+  access is blocked at this session's network/UA level (403 on direct `curl` with browser UA
+  across every subreddit tried); `WebSearch` could not substitute. This week's low-yield-social
+  sweep is therefore honestly incomplete for the 4 physics subs (Physics SE itself was swept
+  cleanly via its working Atom feed, 0 catch). QUEUE SAMPLE (Amendment H tiering, ~30-item sample
+  of the oldest-dated queue entries, smaller than W40's full pass or W42's 101-item sample given
+  this week's time budget): roughly 7 still-live-watch (an explicit named pending condition —
+  e.g. the deconfined-criticality sub-theme watching for a 3rd group, the matroid-intersection-
+  conjecture claim's vetting outcome, the standing Jacobian-conjecture cluster) vs ~20 settled
+  historical record, broadly consistent with the H-amendment expectation; no items individually
+  promoted or dropped from this sample. Full 414-raw-line queue re-tiering not re-run this
+  session (last full pass W40, last large sample W42) — flagged honestly rather than performed as
+  a token resample across the whole queue.
+- 2026-10-24 (weekly, W43) — **Amendment L APPLIED** (proposed W42, cooling period elapsed, no
+  dated curator veto, motivating signal persisted — the TRENDS.md structural-size flag recurred in
+  every one of this week's 5 daily reports too, ledger growing from ~6660 to ~7420+ lines before
+  this session's relocation): `routines/weekly.md` §2 now carries a standing per-trend size cap
+  (>~15 dated sub-entries → relocate notes older than the most recent ~8 weekly cycles into
+  `logs/trend_history.md`, verbatim). Executed this session as the first application: the Ramsey
+  trend (W27-W35 history, 311 lines) and the Stanley-Gasharov trend (W31-through-09-03 history, 97
+  lines) relocated — TRENDS.md shrank from ~7480 to 7131 lines net (this session's other additions
+  included). `logs/trend_history.md` created. Dedicated commit:
+  `radar: amend routines/weekly.md — per-trend size cap, relocate old notes (Amendment L)`.
+- 2026-10-24 (weekly, W43) — **Amendment M APPLIED** (proposed W42, cooling period elapsed, no
+  dated curator veto; signal judged to still hold structurally — the routine text itself still
+  lacked the instruction, though this week did not produce a fresh concrete instance of the exact
+  W42 failure pattern): `routines/daily.md` §4 (source discovery) now instructs the FIRST session
+  staging a new candidate to also open that source's own top-level index page the same run.
+  Dedicated commit: `radar: amend routines/daily.md — open index page on first staging (Amendment M)`.
+- 2026-10-24 (weekly, W43) — Regression check: Amendments H/I (W40), J (W41), K (W42) show no
+  2-consecutive-week metric regression (capture-leak/coverage/moves all stable-to-improving
+  W41→W42→W43) — NO ROLLBACK.
+- 2026-10-24 (weekly, W43) — **Amendment N PROPOSED (cooling period, review at W44 if signal
+  persists):** motivated by this session's own deep-dive on the percolation-criticality trend's
+  Gouéré reference list, which surfaced TWO previously-uncaptured primaries (a third OpenAI
+  manuscript; a human exposition note) sitting only in a secondary source's own bibliography,
+  never followed up — a capture-leak CLASS distinct from the ones Amendments already cover
+  (a cited-source's own reference list, not a trend's notes field or a daily report). Proposal:
+  extend the weekly's mandatory capture-leak sweep to ALSO open the reference list of any newly
+  captured exposition/survey/commentary paper (not just the paper's own abstract) when the trend
+  it's filed under is a landmark single-result trend under active vetting-status watch — this is
+  where a human exposition's own citations are most likely to name a sibling manuscript this
+  ledger hasn't located yet. Not applied this session (a new procedural rule needs the normal
+  cooling period); if a similar reference-list-only capture-leak recurs, apply at W44.

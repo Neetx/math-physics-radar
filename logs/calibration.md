@@ -346,3 +346,38 @@ routing-leak n`.
   (applied W40) show no 2-consecutive-week metric regression (capture-leak/coverage/moves all
   stable-to-improving W40→W41→W42) — NO ROLLBACK. Amendment J (applied W41) is one week into
   operation — too early to assess.
+- 2026-10-24 — W43: queue +47/→1 promoted (percolation-criticality)/−0/sample-classified ~30 of
+  the oldest-dated entries (~7 still-live/~20 settled, per Amendment H — full re-tiering not
+  re-run this week, time-budget; see `logs/strategy_notes.md`) · evidence/moves: 10↑ new/promoted
+  seed trends (sunflower conjecture, weak magnetism in neutron decay, 3D aperiodic monotile,
+  Neumann-Zagier, linear MDS, double-cap, percolation-criticality, Hochster/ESW, Barry Simon's L²
+  conjecture, Gauss-Fourier) + updates to 6 existing trends (Smale's 6th, OpenAI mass-disclosure,
+  OpenAI quasi-RH ×2 sessions, X(2370), Komlós) · 0↓ (no demotions/archivals; Stanley-Gasharov's
+  archive line, 2026-11-26, not yet due) · exploration 5/5 (100%, math.ST/cs.CC/math.OC/math.NA/
+  math.ST) · off-axis 0 catches this week (non-alarm per domain cadence) · lag: fresh captures
+  7/10 new trends (70%); backfill 3/10 (30% — monotile ~35d, percolation ~48d, Hochster ~50d
+  median ~48d; down from W42's 36%, not yet a 2-consecutive-week trend either direction) ·
+  coverage: DAILY tier ~30+/run all 5 dailies, 0 missing (multiple single-occurrence transients,
+  self-healed or logged); WEEKLY-SWEPT tier 9 institutes + 3 slow venues + 4 annual prizes +
+  Physics SE opened-or-attempted this session (SLMath DEGRADED a 4th consecutive weekly, empty-
+  body failure mode persists, crosses heal-owed with no fix found yet) — 4 low-yield-social subs
+  (r/Physics/cosmology/ParticlePhysics/AskPhysics) HONESTLY INCOMPLETE this week: confirmed the
+  standing reddit.com block is domain-wide, not math-specific, and no working fallback was found
+  this session (flagged, not claimed covered) · routing-leak 0 · capture-leak: 59 ids from this
+  week's 5 daily reports cross-checked (0 missing) PLUS 2 genuine leaks found via this session's
+  own deep-dive on the percolation-criticality trend's Gouéré reference list (a 3rd OpenAI
+  manuscript, "Critical bond and site percolation on the cubic lattice"; Blanc-Renaudie's human
+  exposition arXiv:2610.10502) — both fixed with discrete evidence lines · src-disc: hexagonmath.org
+  PROMOTED (2 sightings, verified live, per-category RSS located → Primary feeds, PRIMARY tier,
+  DAILY) / openmathmodel.org held below bar (1 sighting) · Amendment G citation-chase (rotated to
+  Komlós/Beck-Fiala per the W42 rotation note): 1 new independent group found (Anand-Chen,
+  2610.20995, a 7th group) + 1 same-author follow-up correctly not counted · Amendment I version-
+  history spot-check: 31 trends / 44 tracked ids batch-queried, 2 low-materiality silent revisions
+  found and folded in (M23 2608.08538 v2; GW231123 2507.08219 v2) · weekly-flag resolutions: Gouéré
+  attribution ambiguity RESOLVED (genuine 3rd manuscript, not misattribution); Anghel/Lopez
+  independently verified; X(2370) last_evidence confirmed correct (not stale); Nathan Ng's Farzad-
+  Aryan lead chased (conditional result, does not predate the tracked unconditional claims); CERN
+  `/feed/` ESCALATED to heal-owed (3rd consecutive occurrence, no fix found, fallback plan
+  recorded in SOURCES.md). Amendment K laureate checklist: all 5 tracked prizes reconfirmed
+  present, nothing to close. No monthly retrospective due (date 24 > 7). Amendments L/M: see
+  Self-amendment section of `reports/weekly/2026-W43.md`.

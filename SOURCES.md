@@ -77,12 +77,20 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
 - CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-24:
   the bare `/news` HTML page now Cloudflare/WAF-blocks direct `curl` (`wpewaf.com` challenge), but
   `https://home.cern/feed/` (RSS, NOT `/feed.rss` which 404s) works cleanly via plain `curl` —
-  prefer the `/feed/` RSS going forward. REGRESSED 2026-10-22: `/feed/` now 404s outright ("Page
-  not found") to both direct `curl` and `curl -A "Mozilla/5.0"`; `tvly extract` on the bare `/news`
-  URL returns only nav (no article content, both direct and via `tvly`); `tvly search "home.cern
-  news October 2026"` surfaces only the standing Long-Shutdown-3 status page, nothing new on-axis.
-  First occurrence of this failure mode — not yet heal-owed, re-test next session before
-  escalating.]** — collider (ATLAS/CMS) results & data
+  prefer the `/feed/` RSS going forward. REGRESSED 2026-10-22, now HEAL-OWED (3rd consecutive
+  occurrence: 10-22, 10-23, confirmed still broken 2026-10-24 W43 weekly): `/feed/` 404s outright
+  ("Page not found") despite the homepage's own `<link rel="alternate" type="application/rss+xml">`
+  tag still advertising it (stale WordPress metadata, not a live endpoint) — tried direct `curl`,
+  `curl -A "Mozilla/5.0"`, `WebFetch` (also 404s, ruling out a proxy-specific block), `/news/feed`,
+  `/rss.xml`, `/api/news`, `home.web.cern.ch/feed/` — all 404. The bare `/news` HTML page itself now
+  returns 200 but is JS-rendered with no server-side article list (`WebFetch` reports "No posts
+  were found. Try to change the category or the date filters" — the client-side filter widget,
+  not real content); CDS (`cds.cern.ch`) sits behind a separate bot-challenge wall. NO WORKING
+  REPLACEMENT FOUND this session. Practical fallback while this stays broken: rely on CERN Courier
+  (independent IOP-published HEP news, healthy) + INSPIRE-HEP + the arXiv hep-ex/hep-ph/hep-lat
+  category sweeps for CERN-collaboration (ATLAS/CMS/LHCb) results during the outage — do NOT drop
+  this source, re-test `/feed/` and a CERN press-office-specific RSS each session; escalate to
+  heal-or-remove if still broken after 2 more weeklies.]** — collider (ATLAS/CMS) results & data
 - IceCube Neutrino Observatory — https://icecube.wisc.edu/news/ **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-26: the bare `/news/` page is a JS-rendered widget shell (no article titles extractable via plain `curl`), but `https://icecube.wisc.edu/category/news/feed/` (RSS — NOT the empty `/news/feed` path) works cleanly via plain `curl`, returning full titles/dates. Prefer this RSS feed going forward.]** — neutrino astrophysics
 - LZ (LUX-ZEPLIN dark-matter experiment) — https://lz.lbl.gov/publications **[promoted 2026-09-05
   (W36 weekly); verified via `tvly extract` — clean, regular, years-long e-print/PRL publication
@@ -133,6 +141,21 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   `1stproof.org` (the companion First Proof program site, a distinct domain) is live but has no
   feed (`/feed` 404s) — access stays direct-URL/`tvly extract`, treat as a secondary/companion
   entry to icarm.io rather than a separate source.
+- hexagonmath.org (Hexagon Mathematics Foundation) — **[promoted 2026-10-24 (W43 weekly); verified
+  live via `WebFetch` this session — a general (not AI-exclusive) unrefereed research-works
+  repository for mathematics/theoretical-CS/stat/math-ph/quant-ph, explicit no-peer-review
+  disclaimer ("acceptance is not a judgment of correctness, quality, or novelty"), arXiv-mirroring
+  category scheme — cleared the ≥2-sighting bar staged 2026-10-19 (Cureton–Thorner's quasi-Riemann-
+  hypothesis-for-Dedekind-zeta-functions result; the First-Proof-Third-Batch benchmark report)]**
+  — PRIMARY feed, same unrefereed-preprint caution tier as arXiv (treat exactly like an arXiv
+  preprint for the hype-skepticism rule — NOT exclusively AI-watch-lane, the first staging note's
+  caveat does not hold generally: human and AI-attributed submissions both appear). Per-category
+  RSS located this session: `https://hexagonmath.org/rss/<cat>` (e.g. `/rss/math.NT`, `/rss/math-ph`,
+  `/rss/quant-ph`; combined `/rss/math`, `/rss/cs`, `/rss/stat`, `/rss/physics`, `/rss/all`) —
+  verified via `WebFetch` on `/feeds` (lists all categories cleanly). DAILY tier: fold `/rss/all`
+  (or the math/physics-combined feeds) into the same daily arXiv-style sweep. Individual paper PDFs
+  at `hexagonmath.org/pdf/<id>v1` are NOT readable by `WebFetch` directly (needs local `pdftotext`);
+  the page itself (`hexagonmath.org/<id>`) renders via `WebFetch` for abstract-level triage.
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
 - IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops). SLMath DEGRADED a 3rd consecutive weekly on `tvly extract` (W41 2026-10-10: "Failed to fetch url" again) — crossed the heal-owed bar this session; HEALED: `WebFetch` directly on `https://www.slmath.org/news` returns the page cleanly (no JS-shell/empty-body issue) — prefer `WebFetch` first going forward for this source, `tvly search "slmath.org news <year>"` as fallback. **REGRESSED 2026-10-17 (W42): the W41 WebFetch heal no longer works — WebFetch now returns only the page `<title>` with no body, `tvly extract` fails outright ("Failed to fetch url"), and direct `curl` returns a 200 but only a 3.5KB JS-shell with no news content — a genuine new JS-render block, not a transient. Only `tvly search "slmath.org news October 2026"` recovers any content (partial — surfaced 2 items, not a full "what's new" browse). First occurrence of this specific failure mode (3rd distinct failure mode on this source overall) — not yet heal-owed, re-test next weekly before escalating.** Isaac Newton Institute HEALED this session (W40): the standing Cloudflare-403 (both direct `curl`/`WebFetch`) is bypassed by `tvly extract` — clean 26k-char page, no challenge — prefer `tvly extract` going forward for this source.
@@ -312,16 +335,6 @@ survives verification (real feed, on-axis, not SEO). Line format:
   hype-skepticism/vetting-status tracking. Discovered via a cross-link from Gil Kalai's already-
   tracked blog. HELD below the ≥2 bar (1 sighting); no feed found this session, access via
   `tvly extract` on the direct post URL.
-- hexagonmath.org — 2 — Cureton–Thorner, "A quasi-Riemann hypothesis for Dedekind zeta functions"
-  (hexagon:2610.00200v2, 2026-10-14), found via John Baez's blog, cited by a human arXiv paper
-  (Frei–Sofos–Widmer, 2610.18491) — first seen 2026-10-19 (previously: "First Proof Third Batch"
-  benchmark report, hexagon:2610.00244, 2026-10-14). CROSSES the ≥2-sighting bar (two on-axis
-  primaries across 2 distinct daily sessions) — staged for weekly verification/promotion; this
-  sighting is NOT pure AI-capability-benchmarking content (a quasi-RH-adjacent mathematical result
-  citable as a primary), so the "axis-5 lane only" caveat from the first sighting may not hold
-  generally — the weekly should re-assess scope on promotion. Access via `WebFetch`/`tvly extract`
-  on `hexagonmath.org/<id>`, PDF at `/pdf/<id>v1` (needs local `pdftotext`, not readable by WebFetch
-  directly).
 - openmathmodel.org (Terence Tao's "SAIR Open Math OS") — 1 — soft-launch announcement, via
   terrytao.wordpress.com (2026-10-19) — first seen 2026-10-19 — axis-5 tooling/governance watch,
   same self-publication-disclosure pattern as agmai.org/vals.ai; HELD below the ≥2 bar (1
@@ -415,6 +428,11 @@ lane, DAILY tier) — see its entry above; cleared from this staging list. HELD 
 (checked against this week's 5 daily reports, no recurrence): conjectures.io, ahmath.org,
 proofsandprompts.com, anima-ai.org, preprints.org, zenodo.org, peakmath.org,
 galoisrepresentations.org, epoch.ai (all 1 sighting still).
+PROMOTED 2026-10-24 (W43): hexagonmath.org (2 sightings, verified live via `WebFetch` this
+session, per-category RSS feeds located at `hexagonmath.org/rss/<cat>` → Primary feeds, PRIMARY
+(arXiv-caution tier, not AI-watch-lane-only), DAILY tier) — see its entry above; cleared from this
+staging list. HELD below the ≥2 bar (checked against this week's 5 daily reports, no recurrence):
+openmathmodel.org (1 sighting still).
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
@@ -423,10 +441,10 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tvly`). Organized by axis so gaps are visible:
 - r/math — https://www.reddit.com/r/math/.rss **[verified 2026-07-02; Atom — DEGRADED again 2026-08-14/08-17/08-18: direct curl and `tvly extract` both blocked/failed 3 dailies running. HEALED 2026-08-18: `tvly search "<query terms>" --include-domains reddit.com --time-range week` reliably returns live individual r/math thread URLs (verified against real, dated August 2026 threads this session) — prefer this over `.rss`/`extract` until the direct block lifts; retest `.rss` occasionally. COMPOUNDED 2026-08-20/08-21: the `tvly` heal is unusable while the account's Tavily plan quota is exhausted (see `logs/strategy_notes.md`), and `WebFetch` fails outright ("unable to fetch from www.reddit.com") on both `.rss` and `old.reddit.com` — no working fallback found either day; 6th+ consecutive degraded daily. STANDING as of 2026-08-29 (W35 weekly): confirmed this is now a HARD network-level block, not just a `tvly`-quota gap — plain `curl` (multiple UAs) on `www.reddit.com/.rss`, `old.reddit.com/.rss`, AND `www.reddit.com/.json` all return 403/"Blocked" from Reddit's own edge (not a proxy artifact), and `WebSearch` with `allowed_domains:["reddit.com"]` errors outright ("not accessible to our user agent" — Reddit blocks the crawler at the robots/UA level, an Anthropic-side constraint this radar cannot route around). Every access path (direct curl, WebFetch, WebSearch-domain-filter, tvly) has now failed identically for 2+ consecutive weeklies — heal-owed, escalated to the curator (see `logs/strategy_notes.md`); the durable-fallback question from the W34 report is no longer hypothetical.]** — the "what just got proved" pulse (pure math)
 - r/mathematics — https://www.reddit.com/r/mathematics/.rss **[verified pattern; same DEGRADED/HEALED status as r/math above — use `tvly search --include-domains reddit.com`]** — broader math
-- r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; 429 2026-07-02]** — general physics — **[WEEKLY-SWEPT tier: r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics, Physics SE — low-yield extra-social, weekly operator]**
-- r/cosmology — https://www.reddit.com/r/cosmology/.rss **[verified 2026-07-02; Atom]** — cosmology / astro (axis 3)
-- r/ParticlePhysics — https://www.reddit.com/r/ParticlePhysics/.rss **[verified pattern; 429 2026-07-02]** — HEP (axis 3)
-- r/AskPhysics — https://www.reddit.com/r/AskPhysics/.rss **[verified pattern; 429 2026-07-02]** — broad physics pulse
+- r/Physics — https://www.reddit.com/r/Physics/.rss **[verified pattern; 429 2026-07-02. CONFIRMED 2026-10-24 (W43 weekly): this is the SAME domain-wide `reddit.com` block already standing on r/math/r/mathematics (see that entry's detail above), not a Physics-specific issue — direct `curl` with a browser UA on `/top/.rss` 403s for this and all three subs below; `WebSearch` could not substitute (returned no real Reddit content for any query tried this session). Same fallback as r/math: `tvly search --include-domains reddit.com` when `tvly` is available and not quota-exhausted.]** — general physics — **[WEEKLY-SWEPT tier: r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics, Physics SE — low-yield extra-social, weekly operator]**
+- r/cosmology — https://www.reddit.com/r/cosmology/.rss **[verified 2026-07-02; Atom. Same domain-wide block confirmed 2026-10-24 — see r/Physics above.]** — cosmology / astro (axis 3)
+- r/ParticlePhysics — https://www.reddit.com/r/ParticlePhysics/.rss **[verified pattern; 429 2026-07-02. Same domain-wide block confirmed 2026-10-24 — see r/Physics above.]** — HEP (axis 3)
+- r/AskPhysics — https://www.reddit.com/r/AskPhysics/.rss **[verified pattern; 429 2026-07-02. Same domain-wide block confirmed 2026-10-24 — see r/Physics above.]** — broad physics pulse
 - (agent: add r/QuantumComputing (foundations overlap), r/AbstractAlgebra, r/GravitationalWaves if they recur with signal)
 - Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `&query=<term>`) **[known-reliable]** — earthquake check (math/physics stories, incl. big proofs)
 - MathOverflow — https://mathoverflow.net/feeds/ **[CORRECTED 2026-08-25: the 2026-07-02 "trailing slash required" note is stale — `/feeds/` now 307-redirects to `/feeds` (no trailing slash); `curl -sL` (follow redirects) on either path works cleanly. Atom.]** — research-level Q&A → follow to a paper

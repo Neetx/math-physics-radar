@@ -3267,3 +3267,45 @@ well past the ~40 soft cap (408, domain-cadence-expected, not burned down this r
 the weekly — reconcile the X(2370) trend's `last_evidence` field against its actual evidence list,
 chase the Nathan Ng priority-dispute lead (locate the 2022 Farzad Aryan JNT paper), and consider
 escalating CERN `/feed/`'s now-2-consecutive-daily degradation if it recurs a 3rd time.
+
+2026-10-24 (Sat, W43 weekly, scheduled) — WEEKLY-SWEPT tier sweep (radar-source-heal/radar-source-sweep,
+weekly operator): Math institutes — IHES (`WebFetch`, opened cleanly, seminar/news items, no fresh
+landmark), Fields Institute (`WebFetch`, opened, Fields-Medal/fellows items already tracked), KITP
+(`WebFetch`, opened, 2027-28 program announcement only), Clay Mathematics Institute (`WebFetch`,
+opened, Navier-Stokes-announcement background + Research Conference recap, no new primary), IAS
+(`WebSearch` fallback — direct fetch not attempted, Fields/ICBS-medal items already tracked). MPIM
+Bonn (`WebFetch` 503, `WebSearch` fallback — no Oct-2026 item found), Isaac Newton Institute
+(`WebFetch` 403, `WebSearch` fallback — only a directorship-change item, non-research), Perimeter
+(`WebFetch` 403, `WebSearch` fallback — only a conference listing, non-research). SLMath DEGRADED
+AGAIN (`WebFetch` on `/news` now returns only the page `<title>`, empty body — same failure mode as
+W42, 4th consecutive weekly distinct/recurring failure, crosses heal-owed; no working alternative
+found this session either). Slow venues — Annals of Mathematics, AMS Notices & Bulletin, Forum of
+Mathematics Pi/Sigma: all via `WebSearch` (no direct listing-page fetch attempted), no October 2026
+content surfaced by any of the three queries — genuinely 0 catch or a search-tool limitation,
+undetermined; flagged for a future session to retry via direct journal-site fetch. Low-yield social —
+Physics Stack Exchange (`curl` on `/feeds`, clean Atom, 30 recent Q&A titles, 0 on-axis catch,
+routine); r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics — ALL now confirmed 403 via direct
+`curl` with browser UA on `/top/.rss` — this is a DOMAIN-WIDE `reddit.com` block, not limited to
+r/math/r/mathematics as previously described; `WebSearch` could not substitute (no real Reddit
+content returned for any query tried) — genuine coverage gap this week for these 4 subreddits,
+logged honestly rather than claimed covered. Annual-prize laureate checklist (Amendment K): Abel
+(Faltings), Breakthrough (Muon g-2 collaborations), Shaw (Candès/De Lellis), Fields
+(Deng/Pardon/Tsimerman/Wang), Nobel Physics (Halzen/IceCube) — all 5 reconfirmed present with a
+discrete ledger line via grep presence-check; nothing to close. Source-discovery drain: hexagonmath.org
+PROMOTED (2 sightings, verified live via `WebFetch`, per-category RSS located at
+`hexagonmath.org/rss/<cat>`, → Primary feeds, PRIMARY/arXiv-caution tier, DAILY tier); openmathmodel.org
+held below the ≥2-sighting bar (1 sighting). Amendment G citation-chase (mandatory, rotated to the
+Komlós/Beck-Fiala trend per the W42 rotation note): Semantic Scholar "cited by" on the Guo-Fang-Lu
+anchor (2609.11189) surfaced a SEVENTH independent group (Anand-Chen, 2610.20995) plus the original
+authors' own follow-up (2609.23540, not counted) — folded in. Amendment I version-history spot-check:
+31 non-dormant, not-this-week trends / 44 tracked arXiv ids batch-queried via the arXiv API — 2 silent
+revisions found (M23's 2608.08538 → v2 2026-10-07; GW231123's 2507.08219 → v2 2025-11-10), both low-
+materiality, folded in. Weekly-flag resolutions: Gouéré attribution ambiguity on the percolation-
+criticality trend RESOLVED (a genuine third OpenAI manuscript, not a misattribution — see TRENDS.md);
+Anghel (2609.02718) and Lopez (2609.06678) independently opened/verified for the Hochster/ESW trend;
+X(2370) `last_evidence` reconciled (found correct, not stale); Nathan Ng's Farzad-Aryan priority-
+dispute lead CHASED (1902.05473 opened — conditional on a zero-density hypothesis, not unconditional,
+does not predate the tracked unconditional results). CERN `/feed/` ESCALATED to heal-owed (3rd
+consecutive occurrence, 10-22/10-23/10-24, no working replacement found despite 5 alternate URLs +
+`WebFetch` tried) — SOURCES.md updated with the fallback plan (CERN Courier + INSPIRE-HEP + arXiv
+hep-ex/hep-ph/hep-lat during the outage). Full detail in `reports/weekly/2026-W43.md`.
