@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-23
+Last updated: 2026-10-26
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -130,13 +130,20 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     evidence line above. Group count unchanged at 8; not promoted.
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-09-29
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-10-20
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
   gapless-phase classification via the Symmetry TFT. Three fully independent author groups now hold
   concrete artifacts on this sub-theme, clearing the ≥3-group + artifact convergence bar today.
 - evidence:
+  - 2026-10-20 — https://scipost.org/SciPostPhysCore.9.4.069 — Bhattacharyya, Ghosh, Pal, Santara,
+    "On the resolution of categorical symmetries in (non-) unitary rational CFTs": a further fully
+    independent author group (independent of all ~18 already tracked), deriving a general categorical
+    symmetry-resolved entanglement entropy formula for 2d RCFT (diagonal and non-diagonal, unitary and
+    non-unitary) without invoking the SymTFT construction. Title/authors/abstract/date verified via
+    the SciPost publications API this session. Oldest evidence line (2026-08-20, Maruyoshi-Moon-Song)
+    dropped to hold the 10-item cap.
   - 2026-09-28 — https://scipost.org/SciPostPhysCore.9.3.063 (arXiv:2511.18969, Maity,
     Tripathi, Nevidomskyy, Rice Univ.) + https://scipost.org/SciPostPhys.21.3.078 (arXiv:2601.08615,
     Inamura, Ohyama): a TWELFTH fully independent author group (Maity–Tripathi–Nevidomskyy,
@@ -149,14 +156,6 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     but were caught only now via their SciPost publication dates — title/authors verified via the
     arXiv API this session. DROPPED the 2026-08-19 Flores-Calderón evidence line to hold the 10-item
     cap (still tracked in notes/group-count history above).
-  - 2026-08-20 — https://arxiv.org/abs/2608.18926 — Maruyoshi, Moon, Song, "Non-invertible symmetry
-    and vertex operator algebra outer-automorphism": a SIXTH fully independent author group
-    (independent of Oishi–Ebisu, Antunes–Rong, Bhardwaj et al., Ueda et al., and
-    Flores-Calderón–Pollmann–Knap), on a distinct sub-application — the non-invertible symmetry of
-    4d N=4 super Yang-Mills (from S-duality + half-space gauging + R-symmetry twist) realized as a
-    vertex-operator-algebra outer-automorphism, matching the Schur/Macdonald index to a twisted
-    vacuum character. Abstract + authors verified via arXiv API this session (v1 2026-08-19,
-    surfaced in today's fresh hep-th batch).
   - 2026-08-24 — https://scipost.org/SciPostPhysCore.9.3.048 — Graf, Surace, Berg, Moroz, "The
     Ising dual-reflection interface: $\mathbb Z_4$ symmetry and Majorana strong zero modes": a
     SEVENTH fully independent author group (independent of Oishi–Ebisu, Antunes–Rong, Bhardwaj et
@@ -491,6 +490,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     named in prose above with only a loose "2025-11/2026-01" date) silently revised to v3, updated
     2026-08-26 — same title/authors, not independently counted as a group either way, logged for
     the record.
+  - 2026-10-26 (daily): today's SciPost API sweep surfaced a further independent author group
+    (Bhattacharyya-Ghosh-Pal-Santara, SciPostPhysCore.9.4.069) — appended as evidence above; oldest
+    evidence line dropped to hold the cap. Group count now 19+ (the evidence-cap rotation undercounts
+    the true total, a standing side-effect already noted at W42). Stage HELD accelerating/high
+    (already at the confidence ceiling, no mainstreaming-tier standard-practice-adoption signal
+    found). last_evidence advances 2026-09-29 → 2026-10-20.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -1315,7 +1320,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-21
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-25
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1569,6 +1574,32 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     consuming an evidence slot. last_evidence unchanged at 2026-10-21 (Barnette's exposition is
     dated the same day; the sign-error post-mortem (2610.30976) is dated 2026-10-22 but was not
     given its own evidence line — see above).
+  - 2026-10-26 (daily): COMMUNITY-GOVERNANCE continuation. (a) AGMAI published a new statement,
+    "Disadvantages of Designating Mathematicians for AI Output Releases" (agmai.org, dated
+    2026-10-25; also a guest post on Terence Tao's blog,
+    https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/,
+    opened directly via WebFetch this session) — argues AI labs should stop designating specific
+    mathematicians to receive and develop AI-generated math output ahead of the wider community
+    ("on balance the disadvantages outweigh the advantages": delayed/unequal access, denied agency,
+    biased selection, borrowed reputation, and being unnecessary given recent organic community
+    engagement), recommending instead its own September 29 pathway 2A/2B recommendations (improved
+    citations, independent repositories, process disclosure, Lean formalization, community-
+    understanding funding). Confirmed live on agmai.org's own page (opened directly this session)
+    alongside its Oct 6 and Sep 29 statements. (b) A new COMMUNITY INFRASTRUCTURE project launched:
+    "oai-math-revised" (https://github.com/mathcommunity/oai-math-revised, browsable at
+    https://mathcommunity.github.io/oai-math-revised/), a guest post on Terence Tao's blog by
+    Abhinav Nellore, Johannes Schmitt, Soledad Villar, and Rachel Ward (2026-10-24, opened directly
+    via WebFetch this session) — a volunteer-run hub inviting students/postdocs/professors to
+    review and improve OpenAI's math write-ups ("can be difficult to understand and can have
+    incomplete citations"), distinct from AGMAI (advisory/coordination, not line-editing). Tao's
+    own comment gives a concrete example already in progress: his pull request on the
+    Landau-Siegel-zeros write-up now cites the independent follow-ups already tracked on this
+    ledger's quasi-Riemann-Hypothesis trend (Banks, Kerr, Green) plus his own blog post.
+    Comment-section reception is mixed/critical (unpaid-labor-for-a-for-profit-company concerns; a
+    pointer to mathhelm.org as an alternative non-profit venue, not independently verified this
+    session). Both mathcommunity.github.io/oai-math-revised and mathhelm.org staged in SOURCES.md
+    as discovered-source candidates (1 sighting each). last_evidence advances 2026-10-21 →
+    2026-10-25.
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -2503,6 +2534,78 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   rather than `medium` given no corroborating context on the authors/venue was found this session —
   next session or the weekly should attempt a `tvly search` for any response to these two papers.
   Watch for: any expert commentary, citation, or correction.
+
+### Disproof of Vaught's Conjecture for infinitary logic (Ackerman–Freer–Knight, AI-assisted, Lean-verified)
+- stage: seed | confidence: high | first_seen: 2026-10-26 | last_evidence: 2026-10-10
+- what: axis-1 DOMAIN-CADENCE LANDMARK. Vaught's Conjecture (Robert Vaught, 1961) — one of mathematical
+  logic's most famous open problems, on the number of countable models of a sentence of infinitary
+  logic $L_{\omega_1,\omega}$ — is disproved for this infinitary-logic setting. Robin Knight announced
+  a first-order counterexample framework in 2002; this paper completes and formally verifies it,
+  24 years later. Confidence `high` despite being a preprint (same treatment as other explicit,
+  machine-checked constructions on this ledger): a 65-year-old named conjecture, a documented
+  quarter-century construction history with the original author among the co-proponents, and
+  Comparator-checked Lean verification registered on the Palomar Registry (already-tracked axis-5
+  infrastructure) together outweigh the usual unrefereed-preprint floor. AI-WATCH: heavy AI-coding-
+  agent assistance in the Lean formalization is disclosed in the paper's own text — track the
+  mathematical result, not the method.
+- evidence:
+  - 2026-10-10 — https://arxiv.org/abs/2610.15217 — Ackerman, Freer, Knight, "A counterexample to
+    Vaught's Conjecture for $L_{\omega_1,\omega}$": constructs a sentence of $L_{\omega_1,\omega}$
+    with exactly $\aleph_1$ countable models up to isomorphism but no perfect set of non-isomorphic
+    models, disproving Vaught's conjecture for infinitary logic, following a framework devised by
+    Robin Knight (2002); proof formally verified in Lean. Abstract verified via arXiv API this
+    session; AI-assistance (section 1.2, "History of Our Proof": AI coding agents used to formalize
+    Knight's proof, Freer "worked extensively with coding agents (Claude Code and Codex)" plus
+    "occasional help from GPT Pro (5.2 through 6)", "human mathematical direction and AI-assisted
+    exploration") and Comparator/Palomar-Registry verification ("A version of the complete formal
+    proof has been checked by Comparator") verified via the paper's own HTML full text
+    (`arxiv.org/html/2610.15217v1`) via WebFetch this session.
+- notes: 2026-10-26 (daily, seed creation, CAPTURE-LEAK BACKFILL — a 16-day-old miss): caught via a
+  MathOverflow community-engagement chase (Thomas Scanlon's question "Has Vaught's Conjecture Been
+  Solved?", and an "Endless controversy about the correctness of significant papers" thread whose
+  October 2026 edit calls this "finally resolved" — both found via `tvly search` snippets this
+  session, MathOverflow pages themselves not directly fetchable in this session environment; intake/
+  community-engagement context only, not primary evidence beyond the arXiv paper itself), not the
+  standing math.LO category-rotation sweep — the title carries no keyword this ledger's title-triage
+  reliably catches (Amendment J capture-gap failure class). Watch for: further named-expert
+  commentary beyond Scanlon's question, any independent audit of the Lean/Comparator formalization,
+  and whether this is distinct from (and leaves open) the still-unresolved FIRST-ORDER Vaught
+  conjecture — this result is specifically for infinitary logic $L_{\omega_1,\omega}$, not confirmed
+  this session to bear on the first-order case.
+
+### Resolution of the Propeller Conjecture (Khot–Naor 2008): OpenAI claim + independent human simplification (Heilman)
+- stage: seed | confidence: medium | first_seen: 2026-10-26 | last_evidence: 2026-10-23
+- what: axis-1/5 DOMAIN-CADENCE LANDMARK, split from the already-tracked OpenAI mass-disclosure trend
+  (same precedent as the quasi-Riemann-Hypothesis #003 and spacetime-Penrose #260 splits). The
+  Propeller Conjecture of Khot and Naor (2008) — the sum of squared lengths of Gaussian first moments
+  of any finite measurable partition of Euclidean space is at most $9/(8\pi)$ — underlies an NP-
+  hardness result (via a separate Unique Games theorem) for improving a clustering approximation
+  ratio. OpenAI's October 6 mass disclosure includes this as result-family #096 ("The Gaussian
+  propeller conjecture in every dimension"), never individually evidenced on this ledger until today.
+  An independent human specialist, Steven Heilman, now simplifies, sharpens (pinning the equality
+  case precisely), and partially DE-COMPUTERIZES OpenAI's proof — a genuine vetting-positive signal,
+  the same class as Kerr's/Banks's simplifications on the quasi-RH trend.
+- evidence:
+  - 2026-10-05 (per OpenAI's own repo; found 2026-10-26) — https://github.com/openai/math —
+    `CONTENTS.md` result-family #096, "The Gaussian propeller conjecture in every dimension"
+    (constituent preprint: `preprints/The-Gaussian-Propeller-Bound-in-Every-Dimension-September-24-2026/main.pdf`):
+    proves the bound in every dimension plus the equality case and, combined with a separate Unique
+    Games theorem, the resulting clustering NP-hardness consequence. OpenAI's own CONTENTS.md opened
+    directly via `raw.githubusercontent.com` this session.
+  - 2026-10-23 — https://arxiv.org/abs/2610.32158 — Steven Heilman, "On the Propeller Conjecture":
+    simplifies and improves OpenAI's proof, shows equality occurs only for three 120-degree planar
+    sectors (up to symmetries/measure-zero changes/orthogonal cross products), and removes computer
+    assistance from the three-dimensional case (which previously used an epsilon-net traversal).
+    Abstract + author verified via arXiv API this session.
+- notes: 2026-10-26 (daily, seed creation/split): caught via the Amendment J full-abstract pass
+  (today's category math.CV) finding nothing, which prompted a broader cross-listed-category check of
+  the same day's batch — Heilman's paper's primary category is `cs.CC`, outside this ledger's swept
+  math/physics category rotation (same category-blind-miss class as the 3SUM/APSP and 4-to-1-games
+  misses). Confidence `medium` (not `high`): OpenAI's own manuscript remains wholly AI-generated and
+  unrefereed; Heilman's paper is itself a fresh, not-yet-cited preprint, though the de-computerization
+  of the 3D case is a genuine, checkable vetting-positive signal distinct from mere exposition. Watch
+  for: citations of Heilman's paper, further independent engagement, and any commentary on OpenAI's
+  own manuscript specifically.
 
 ## observation_queue
 
@@ -6463,6 +6566,64 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   years" out per the article). Not itself a discovery/detection — an instrument-commissioning
   milestone, same below-bar ecosystem-event treatment as the Simons Collaboration on Defects launch
   above. Watch for: the first B-mode/inflation results in coming years.
+- 2026-09-20 (v1, Vals AI blog by Geby Jaff; found 2026-10-26 via today's vals.ai/blogs sweep) —
+  "C-HD": a claimed formally-verified improvement over the 2025 Duan-Mao-Shu-Yin single-source-
+  shortest-paths bound (arXiv:2504.17033) and its 2026 follow-up (arXiv:2602.07868), produced by ten
+  coordinated Claude Opus 5.5 agents over ~15 hours — https://github.com/spicylemonade/c-hd-proof
+  (no arXiv preprint; Lean proof + informal paper + verification records only, Comparator-checked).
+  Axis-1/5, heavy hype-skepticism caution: self-admitted "not benchmarked on large real graphs,"
+  "constants are very large," "no practical speedup is established." Opened directly via `WebFetch`
+  this session. Queued, not seeded (no peer-reviewed/arXiv venue, self-admitted impracticality).
+- 2026-10-08 (post date; found 2026-10-26 via today's anthropic.com/research sweep) — "The missing
+  map of the sky" — https://www.anthropic.com/research/the-missing-map-of-the-sky — Brice Ménard
+  (Johns Hopkins/Anthropic), with "Claude Science" coordinating many AI agents, describes building a
+  claimed "first complete map of the sky in UV light" combining GALEX/Swift/FIMS-SPEAR/TD-1 data with
+  a learned gap-filling model — roughly 1/3 of the map, including much of the galactic plane, is
+  model-PREDICTED, not observed, plus Gaia-inferred stellar UV added on top. No arXiv preprint or
+  published paper; self-published blog post only. Axis-3/5, below bar: a data/tooling showcase
+  (axis-5 watch), not a peer-reviewed first-of-kind detection — "complete" refers to coverage
+  including synthetic infill. Opened directly via `WebFetch` this session.
+- 2026-10-23 (v1) — Braun, Machado-style follow-on extending Braun-Llibre/Llibre-Mello planar
+  criteria — "Global injectivity and real Jacobian conjecture in $\mathbb{R}^n$" —
+  https://arxiv.org/abs/2610.32391 — gives necessary/sufficient conditions and a new sufficient
+  condition for the real Jacobian conjecture in $\mathbb{R}^n$ via weighted Poincaré compactification.
+  Axis 1, below bar: a technical extension, not a resolution, of the already-tracked real-Jacobian-
+  conjecture cluster — cross-referenced, not added as evidence there. Abstract verified via arXiv
+  API this session.
+- 2026-10-23 (v1) — "An improved upper bound on the chromatic number of the n-dimensional sphere" —
+  https://arxiv.org/abs/2610.32408 — improves $\chi(S^n_R)\le(\xi_R+o(1))^n$ via recent Euclidean-
+  space chromatic-number bounds. Axis 1, below bar (incremental bound, not a resolution; context-
+  adjacent to the already-tracked double-cap-conjecture trend's measurable-chromatic-number
+  consequence, cross-referenced not merged). Abstract verified via arXiv API this session.
+- 2026-10-23 (v1) — "Finite stabilization, socle extensions, and Faith's conjecture" —
+  https://arxiv.org/abs/2610.32544 — gives length-two counterexamples to several specific
+  sub-questions (Bergman's Question 3.1, a semidirect-product version of Question 3.2) related to
+  Faith's conjecture, but its own abstract states "The general Faith conjecture remains unresolved."
+  Axis 1, below bar (partial/technical, explicitly not a resolution). Abstract verified via arXiv
+  API this session.
+- 2026-10-23 (v1) — "Prime Numbers of the Form $24m+1$ and Erdös-Straus Conjecture" —
+  https://arxiv.org/abs/2610.32302 — gives polynomial/numerical conditions and a numerically-tested
+  (not proved) partial approach toward the Erdős–Straus conjecture restricted to primes p=24m+1 (the
+  only case the conjecture is open for), plus a related modular Goldbach observation. Axis 1, below
+  bar: numerically-tested, not a proof. Abstract verified via arXiv API this session.
+- 2026-10-24 (v1, hexagonmath.org) — Wang, Zheng, "A Counterexample to Huppert's Conjecture" —
+  https://hexagonmath.org/2610.00529 — claims an explicit finite-group counterexample (an index-2
+  extension G of S=PSL4(5) sharing S's full set of irreducible character degrees while G is centerless
+  and not S×A for abelian A) to Huppert's conjecture. Page itself is flagged "Primarily AI-generated
+  text" — heavy hype-skepticism caution, no author track record found this session, unrefereed, on
+  hexagonmath.org's own no-peer-review venue. Axis 1, flag "unrefereed preprint — claim," below bar
+  pending any independent engagement. Opened directly via `WebFetch` this session.
+- 2026-10-23 (v1) — "The Galactic Center Gamma-Ray Excess and the Look-Elsewhere Effect" —
+  https://arxiv.org/abs/2610.32845 — a methodological critique arguing part of the statistical
+  significance claimed for the long-standing Galactic Center GeV excess (a standing dark-matter-
+  interpretation-candidate anomaly) is attributable to the look-elsewhere effect. Axis 3, below bar
+  but vetting-relevant to a standing anomaly (hype-skepticism-rule relevant) — queued for the record.
+  Abstract verified via arXiv API this session.
+- 2026-10-23 (v1) — "Three subpopulations of binary black holes in mass, spin magnitudes and tilts
+  following GWTC-5" — https://arxiv.org/abs/2610.32935 — a population-synthesis follow-up analysis
+  of the already-published GWTC-5.0 catalog, identifying three sub-populations by mass/spin. Axis 3,
+  below bar (statistical follow-up on an already-catalogued dataset, not a new detection). Abstract
+  verified via arXiv API this session.
 
 ## source_rotation
 
@@ -6480,6 +6641,16 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-10 (v1); shelf-added 2026-10-26 — [A counterexample to Vaught's Conjecture for
+  $L_{\omega_1,\omega}$ (Ackerman, Freer, Knight)](https://arxiv.org/abs/2610.15217) — completes
+  Robin Knight's 24-year-old (2002) construction disproving Vaught's famous 1961 conjecture for
+  infinitary logic, with heavy AI-coding-agent assistance (Claude Code, Codex, GPT) in the Lean
+  formalization, Comparator-checked and on the Palomar Registry; see new seed trend.
+- 2026-10-23 (v1); shelf-added 2026-10-26 — [On the Propeller Conjecture
+  (Steven Heilman)](https://arxiv.org/abs/2610.32158) — an independent human simplification,
+  sharpening, and de-computerization of OpenAI's AI-generated proof of Khot and Naor's 2008
+  propeller conjecture (which underlies a Unique-Games-based NP-hardness result for clustering); a
+  clean example of productive human engagement with an AI math claim. See new seed trend.
 - 2026-10-22 (v1); shelf-added 2026-10-23 — [Simple and critical zeros of the Riemann zeta-function
   (Caroline Turnage-Butterbaugh, guest post on Terence Tao's blog)](https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/)
   — the clearest single exposition on file of the full history and current vetting state of the

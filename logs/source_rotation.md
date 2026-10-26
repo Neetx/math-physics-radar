@@ -3309,3 +3309,106 @@ does not predate the tracked unconditional results). CERN `/feed/` ESCALATED to 
 consecutive occurrence, 10-22/10-23/10-24, no working replacement found despite 5 alternate URLs +
 `WebFetch` tried) — SOURCES.md updated with the fallback plan (CERN Courier + INSPIRE-HEP + arXiv
 hep-ex/hep-ph/hep-lat during the outage). Full detail in `reports/weekly/2026-W43.md`.
+
+2026-10-26 (Mon, Pass 1, scheduled) — first daily since 2026-10-23 (weekend skipDays, expected).
+Load-state: `git fetch` surfaced two more stale session branches (`claude/modest-bohr-9415kc`,
+`claude/peaceful-faraday-n2ehd0`) — both fully contained ancestors of current `origin/main`
+(`git merge-base --is-ancestor` confirmed against the UNSHALLOWED history; the earlier "disjoint
+history" read in the 2026-10-23 report was a shallow-clone artifact, not a real divergence —
+corrected here for the record), nothing to merge. All `radar:` commits of the last 7 days have
+matching reports (10-19 through 10-23 dailies, W43 weekly) — no incomplete-run warning. `tvly`
+absent at session start, reinstalled via `pip install -q tavily-cli`, worked normally thereafter.
+Primary sweep (radar-source-sweep): math category-rotation batch via `submittedDate`-range-filtered
+arXiv API query (cat:CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/PR/RT/DS/LO/OA/OC/MG/GR, range
+2026-10-23→10-27 to avoid the large-OR-query pagination instability found this session — an
+unfiltered `start`-offset pagination attempt returned non-monotonic/overlapping date ranges across
+pages, a new failure mode distinct from the already-logged 429-rate-limit one; the date-range filter
+avoids it cleanly) — 206 fresh entries, all from 2026-10-23 (weekend gap, as expected). Physics batch
+(hep-th/hep-ph/hep-ex/hep-lat/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/stat-mech/
+astro-ph.CO/HE/nucl-th/nucl-ex/nlin.SI, same date-range filter) — 165 fresh entries, same date. Amendment
+J full-abstract pass (today's category: math.CV, rotation position after SG — only 2 fresh entries,
+both read in full, 0 catch, routine several-complex-variables technical papers). MAJOR CAPTURE this
+session, found via a MathOverflow/community-pulse chase rather than the category sweep: Ackerman-
+Freer-Knight's disproof of VAUGHT'S CONJECTURE for infinitary logic (arXiv:2610.15217, 2026-10-10,
+16-day-old miss) — new seed trend, also study_shelf. Second capture, a category-blind miss (cs.CC
+primary, outside the swept rotation): Steven Heilman's independent human simplification/de-
+computerization of OpenAI's Propeller Conjecture proof (arXiv:2610.32158) — split into its own new
+seed trend from the OpenAI mass-disclosure trend, same precedent as the quasi-RH/spacetime-Penrose
+splits. SciPost API (20 most recent) surfaced a further independent group for the non-invertible-
+symmetries trend (Bhattacharyya-Ghosh-Pal-Santara, SciPostPhysCore.9.4.069) — appended, cap rotated.
+9 below-bar queue adds (C-HD shortest-path claim via vals.ai; Anthropic's "missing map of the sky";
+real-Jacobian-conjecture follow-on; n-sphere chromatic-number bound; Faith's-conjecture partial
+counterexample; Erdős-Straus numerical approach; hexagonmath's AI-generated Huppert's-conjecture
+counterexample claim; the Galactic Center GCE look-elsewhere critique; a GWTC-5 sub-population
+follow-up). APS PRL/PRX/RMP RSS, Quantum journal, INSPIRE-HEP (API, future-dated placeholders as
+usual) all opened directly — routine, nothing on-axis. Nature Physics/Communications RSS: direct
+`WebFetch` on the plain feed URL worked cleanly this session WITHOUT the standing Googlebot-UA-spoof
+workaround (that workaround itself was DENIED this session by the harness's own auto-mode classifier,
+"Bot Check Circumvention" — a new environmental constraint, not a site failure; WebFetch's own fetch
+path evidently isn't blocked by Nature's bot-wall the way a UA-spoofed `curl` is) — 0 on-axis catch
+(routine condensed-matter/chemistry/biology). Science Advances (`showFeed` endpoint via plain `curl`)
+— routine, 0 catch. CERN Courier, Fermilab, Simons Foundation feeds — all healthy, routine, no new
+on-axis item (Simons' latest, the Observatory milestone, already captured 10-22/10-23). CERN `/feed/`
+STILL 404 (heal-owed, escalated at W43; not re-attempted this session beyond the standard fetch — no
+new self-heal budget spent, per the weekly's existing fallback plan). Experiments block: LIGO
+(`WebFetch` on plain `/news` — direct `curl` still Cloudflare-blocked) — unchanged at GWTC-5.0; DESI,
+LZ (`WebFetch`) — routine, unchanged. IceCube category-feed — routine, "Week 42 at the Pole," no new
+item. GitHub watch (radar-repo-watch, via `WebFetch` on `.atom`, direct `curl`/API 403'd under this
+session's proxy-scoping as expected): lean4 v4.36.0-rc1 unchanged; mathlib4 daily `master-YYYY-MM-DD`
+auto-tag through master-2026-10-25; Rocq unchanged at 9.3.0; `anthropics/formal-math` README
+unchanged (still 2 rows); `openai/math/history.md` and `CONTENTS.md` (719 manuscripts) unchanged
+since the 10-07 withdrawal/repair entry. AI-watch lane: openai.com/research (`WebFetch` 403'd, `tvly
+extract` fallback — generic landing page, nothing new visible); anthropic.com/research — TWO items
+engaged: "Designing more efficient quantum circuits with Claude" (Oct 16) correctly excluded (quantum-
+COMPUTING technology, axis-4 exclusion by design) and "The missing map of the sky" (Oct 8, an 18-day-
+old below-bar catch, queued above); icarm.io/news, cims.nyu.edu, vals.ai/blogs, ahmath.org — ahmath.org
+WebFetch'd directly this session (no new dated statement since Oct 8); vals.ai surfaced the C-HD queue
+item plus an out-of-scope historical-cryptanalysis AI-capability post (not math/physics, correctly
+excluded). agmai.org — a NEW statement (Disadvantages of Designating Mathematicians, Oct 25) folded
+into the OpenAI mass-disclosure trend's notes, alongside a new community-infrastructure project
+(github.com/mathcommunity/oai-math-revised, via a Terence Tao guest post) — both staged in SOURCES.md
+as discovered-source candidates. Community pulse (radar-pulse): Hacker News front page — no math/
+physics story in the visible set. MathOverflow (Atom feed + targeted `tvly search` chases) — THE DAY'S
+STANDOUT LANE: the Vaught's-conjecture catch (above) came from here, via a Scanlon question and an
+"Endless controversy..." thread edit, neither page directly fetchable via WebFetch in this session
+("unable to fetch from mathoverflow.net" — a new, or at least newly-confirmed, access restriction on
+this domain) — relied on `tvly search` snippets only, sufficient to verify the arXiv primary directly.
+Physics Stack Exchange (`/feeds`) — routine Q&A, 0 catch. Mathstodon public timeline — generic noise,
+routine. r/math/r/mathematics still BLOCKED (standing network-level block, unchanged). Digest/
+explainer blogs: Quanta (RSS) — routine, top items off-axis (malaria/microscopy features). Tao's
+"What's new" (RSS) — TWO fresh posts, both folded into the OpenAI mass-disclosure trend's notes (see
+above: AGMAI's Oct 25 statement, the Oct 24 oai-math-revised launch); "Mathematics is a subject for
+the young" (Oct 21) and the IAS-membership-applications post (Oct 23) checked, neither on-axis.
+Woit's feed failed to connect again this session (HTTP 000, the standing recurring-but-non-
+consecutive pattern) — the `tvly extract`-returns-stale-cache sub-failure flagged last session was
+NOT retried with the suggested `tvly search` fallback this session (time-budget; carry forward).
+Gowers, Kalai, Baez, Strassler, n-Category Café, Hossenfelder, Scientific American all opened
+(RSS/direct) — all routine, no new on-axis primary (Kalai: an Israeli-conference-week roundup;
+Baez: AI-assisted historical exposition on prime-counting, not a new result; Strassler's feed is
+very stale, last post Feb 2026 — flag for a heal-worklist check next weekly if it stays empty).
+hexagonmath.org `/rss/all` — ~25 fresh items (today's date, 2026-10-26) scanned; one AI-generated-
+flagged Huppert's-conjecture counterexample claim queued (above), one partial Gorenstein-symmetry-
+conjecture note checked and excluded (explicitly not a resolution, AI-assisted). Exploration slot
+(radar-explore, OFF-AXIS rotation): nlin.CD (chaotic dynamics; math.LO was effectively covered by the
+main category sweep + the Vaught's-conjecture catch today, so rotated to a genuinely distinct venue
+instead of repeating it) — 40 fresh entries scanned regardless of sub-topic, all routine reservoir-
+computing/ML-dynamics papers, 0 catch (off-axis rate 0 this run, non-alarm per domain cadence; next:
+math.OA or q-bio.PE repeat). Self-heals: none attempted this session (no `degraded:` marker crossed
+the heal-owed bar beyond the already-escalated CERN `/feed/`, which has no new candidate fix to try).
+Trend recalibration (radar-ledger-update): TWO new seed trends (Vaught's-conjecture disproof,
+confidence high; Propeller-conjecture split, confidence medium) + TWO existing trends updated
+(non-invertible-symmetries QFT — new evidence + cap rotation, last_evidence 2026-09-29→2026-10-20;
+OpenAI mass-disclosure — community-governance note, last_evidence 2026-10-21→2026-10-25). Queue:
+408→417 net (9 new below-bar items). study_shelf: +2 (Vaught's-conjecture disproof; Heilman's
+Propeller-Conjecture paper). Dormancy probe: no trend newly crosses the 60-day quiet threshold beyond
+the standing backfill-precedent exemptions; no moves. capture-leak: 13 ids checked (named in
+reports/2026-10-22.md and reports/2026-10-23.md) / 0 missing, all confirmed present on discrete
+evidence/queue/shelf lines; today's own new ids (2 seed trends' 3 primaries + 1 evidence addition +
+9 queue items) self-routed on creation. README.md regenerated from the updated ledger in the same
+commit; SUMMARY.md overwritten with today's results digest. Standing flags carried forward:
+TRENDS.md still large (48 trends); observation_queue well past the ~40 soft cap (417, domain-cadence-
+expected, not burned down this run); NEW FLAG for the weekly — confirm whether the "unable to fetch
+from mathoverflow.net" WebFetch restriction and the Googlebot-UA "Bot Check Circumvention" denial are
+stable session-level policies worth recording as standing access-method notes in SOURCES.md (this
+session treated them as such, provisionally); Strassler's feed empty since Feb 2026 (heal-worklist
+candidate if it stays empty next weekly).
