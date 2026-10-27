@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-26
+Last updated: 2026-10-27
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1600,6 +1600,31 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     session). Both mathcommunity.github.io/oai-math-revised and mathhelm.org staged in SOURCES.md
     as discovered-source candidates (1 sighting each). last_evidence advances 2026-10-21 →
     2026-10-25.
+  - 2026-10-27 (daily): THREE more manuscript-set additions, per OpenAI's own `history.md`
+    changelog (Oct 26 entry, opened directly via `raw.githubusercontent.com` this session) and a
+    new OpenAI publication page, "Working with academic communities to build scientific
+    understanding" (https://openai.com/index/building-scientific-understanding-with-academic-communities/,
+    opened via `tvly extract` this session — direct `curl`/`WebFetch` 403; found via a 706-point
+    Hacker News front-page story). (a) Result-family #378, "Disproof of the Exponential Time
+    Hypothesis" (`CONTENTS.md`, confirmed via `history.md`'s Oct 26 entry) — SPLIT into its own new
+    seed trend below (independent same-day Anthropic claim on the identical hypothesis). (b)
+    Result-family #079, "Local smoothing for the Euclidean wave equation" — claims Sogge's local
+    smoothing conjecture for the wave equation in EVERY spatial dimension at least two, which the
+    paper says implies the Bochner-Riesz conjecture, the Kakeya and Nikodym maximal conjectures
+    (every Euclidean Kakeya set has full Hausdorff dimension), sharp Stein square-function bounds,
+    and Fourier restriction estimates for the sphere/paraboloid/cone — a CASCADE of some of harmonic
+    analysis's most famous open problems, Lean-formalized (lean/docs/079.md); supersedes an earlier,
+    narrower manuscript in the same disclosure restricted to 3 dimensions ("Critical local smoothing
+    for the three-dimensional wave equation," Sept 24 2026). EXTREME hype-skepticism caution —
+    wholly AI-generated, unrefereed, and this is now the single largest-magnitude claim bundle in
+    this disclosure after the BSD case; watch for ANY expert engagement (Kakeya/restriction
+    specialists) as a top daily-chase priority alongside the BSD case. (c) A Lean formalization was
+    added for the rational Hodge conjecture for CM abelian varieties (a Millennium Prize Problem
+    case, same class as the already-tracked BSD/Hodge families). last_evidence advances 2026-10-25
+    to 2026-10-26. See also the new "OpenAI's claimed proof of Yang-Mills existence..." seed trend
+    below (same Oct 26 publication page, a THIRD, physics-side announcement) and AGMAI's same-day
+    "Recommendation for Immediate Release of Yang-Mills AI Output" statement (agmai.org, opened
+    directly this session) — cross-referenced there rather than duplicated here.
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -1685,6 +1710,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Chang–Chen diagram "first-limit" obligations) rather than closing n=6 outright. Exactly the
     generalization this trend's creation note flagged as a watch item. Abstract + authors verified
     via arXiv API this session.
+  - 2026-10-25 (v1) — https://hexagonmath.org/2610.00550 — Tejasvi Singh Tomar, "Smale's sixth
+    problem for five bodies in the plane, with a proof formalized in Lean": the SAME author/result
+    as the already-evidenced arXiv:2610.13100 above, now with a Lean 4 proof plus exact
+    computer-algebra certificates publicly posted (hexagonmath mirrors/companions the arXiv
+    posting) — a genuine vetting-positive signal (formal verification) for an otherwise unrefereed
+    single-author preprint. Opened directly via `WebFetch` this session.
 - notes: 2026-10-12 (daily, seed creation): caught in the full math.DS category sweep
   (2026-10-09 submission batch). Watch for expert/community engagement (celestial-mechanics
   specialists, Smale-problems trackers) and whether the method generalizes to n=6+.
@@ -1693,6 +1724,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     loci (Part I of a presumably multi-part effort); last_evidence advances 2026-10-09 → 2026-10-16.
     Not a stage promotion (still a single-problem program, not yet a multi-group DIRECTION trend);
     watch for Part II/n=6 closure and for referee/community engagement on either paper.
+  - 2026-10-27 (daily): Tomar's own Lean formalization surfaces (above), found via hexagonmath's
+    `/rss/math` feed (a mirror/companion posting of the same n=5 result, not a new independent
+    group). last_evidence advances 2026-10-16 → 2026-10-25. Confidence held at `medium` pending
+    community/referee engagement — a self-formalization is a positive signal but not independent
+    corroboration.
 
 ### GW231123 — the most massive binary black-hole merger yet detected (LIGO–Virgo–KAGRA)
 - stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-08
@@ -2606,6 +2642,158 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   of the 3D case is a genuine, checkable vetting-positive signal distinct from mere exposition. Watch
   for: citations of Heilman's paper, further independent engagement, and any commentary on OpenAI's
   own manuscript specifically.
+
+### Resolution of the Harary–Hill conjecture (crossing number of $K_n$): OpenAI claim + independent human exposition (Balko)
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
+- what: axis-1/5 DOMAIN-CADENCE LANDMARK, split from the OpenAI mass-disclosure trend (same
+  precedent as the quasi-RH/spacetime-Penrose/Propeller splits). The Harary–Hill conjecture (1963)
+  states the crossing number of the complete graph $K_n$ is exactly
+  $\frac14\lfloor n/2\rfloor\lfloor(n-1)/2\rfloor\lfloor(n-2)/2\rfloor\lfloor(n-3)/2\rfloor$ — one of
+  graph theory's most famous 60+-year-old open problems. OpenAI's October 6 disclosure includes a
+  claimed proof; Martin Balko (Charles University, Prague — an established crossing-number/graph-
+  drawing researcher, independent of OpenAI) now posts a streamlined, more accessible exposition
+  that simplifies several steps and extends the result to determine crossing numbers of several
+  other graph families — the same independent-human-engagement pattern as Heilman's Propeller-
+  Conjecture paper and Balko/Tevelev-style expositions already tracked on this ledger.
+- evidence:
+  - 2026-10-06 (per OpenAI's disclosure; not independently opened this session) — https://github.com/openai/math
+    — the Harary–Hill proof is among the Oct 6 result families (per Balko's abstract, "recently
+    announced by OpenAI (2026)"); not independently cross-checked against `CONTENTS.md` this
+    session (time-budget) — flagged for next session to locate the exact result-family number.
+  - 2026-10-25 (v1) — https://arxiv.org/abs/2610.34444 — Martin Balko, "Proof of the Harary–Hill
+    conjecture: an exposition": a streamlined, simplified rewrite of OpenAI's proof, explicitly
+    calling the original "quite difficult to follow." Abstract + author verified via arXiv API
+    this session.
+- notes: 2026-10-27 (daily, seed creation/split): caught in today's math category-rotation batch
+  (keyword triage on "conjecture"/"proof of"). Confidence `medium`: a credible independent
+  specialist's exposition is a vetting-positive signal, but OpenAI's own manuscript remains
+  wholly AI-generated and unrefereed, and this session did not independently verify the
+  result-family's exact number/scope in `CONTENTS.md`. Watch for: that verification, further
+  citations of Balko's exposition, and any correctness caveats.
+
+### Independent same-day AI claims refuting the Exponential Time Hypothesis (OpenAI + Anthropic)
+- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-26
+- what: axis-5 AI-WATCH-LANE DOMAIN-CADENCE LANDMARK, EXTRAORDINARY-CLAIM caution at the highest
+  tier this ledger tracks. The Exponential Time Hypothesis (ETH, Impagliazzo–Paturi 1999-2001)
+  postulates 3-SAT requires $2^{\Omega(n)}$ worst-case time; it underlies most of fine-grained
+  complexity theory's conditional lower bounds (the same family as the already-tracked 3SUM/APSP
+  trend). On essentially the SAME day (2026-10-25/26), TWO different AI organizations each
+  published a Lean-formalized claim refuting it: Anthropic (an internal research Claude model) via
+  both hexagonmath.org and its own `anthropics/formal-math` GitHub repo, and OpenAI (its own
+  internal model) via its `openai/math` repo. The two claims are related but not verified identical
+  (Anthropic: a deterministic $2^{o(n)}$-time 3-SAT decision/counting algorithm; OpenAI: a
+  deterministic algorithm exactly counting $k$-CNF satisfying assignments in
+  $(n+m)^{O_k(1)}2^{n/(\log n)^{1/2+o(1)}}$ time, also yielding new $\mathsf E^{\mathsf{NP}}$ circuit
+  lower bounds). OpenAI states "an independent group led by Impagliazzo, Paturi, and Williams will
+  examine the proof" — i.e. the hypothesis's OWN original authors are reviewing it, a strong
+  (though not yet completed) credibility signal. HEAVIEST hype-skepticism caution: wholly
+  AI-generated, unrefereed by anyone outside each lab as of this session, and ETH-refutation claims
+  of this kind have a history of hidden gaps; track the vetting OUTCOME, not the claim.
+- evidence:
+  - 2026-10-25 (v1, dated by hexagonmath feed) — https://hexagonmath.org/2610.00577 — "A
+    $2^{o(n)}$ Time Algorithm for 3-SAT," attributed to Anthropic (an internal research Claude
+    model), Lean 4-formalized. Abstract opened directly via `WebFetch` this session.
+  - 2026-10-26 (per feed `updated` timestamp; undated commit otherwise) — https://github.com/anthropics/formal-math/blob/main/eth
+    — Anthropic's own Lean-formalization repo, `eth/` project: states the same deterministic
+    counting algorithm and explicitly "refutes the Exponential Time Hypothesis," citing a
+    `paper.pdf`. README opened directly via `WebFetch` this session (no independent verification of
+    the Lean build/comparator-check status).
+  - 2026-10-26 — https://github.com/openai/math (`CONTENTS.md` #378, `history.md`'s same-day entry)
+    — "Disproof of the Exponential Time Hypothesis" / "The Exponential Time Hypothesis is False":
+    OpenAI's own repository, opened directly via `raw.githubusercontent.com` this session; states
+    the Impagliazzo–Paturi–Williams independent-review plan.
+- notes: 2026-10-27 (daily, seed creation): caught via two independent lanes the same session —
+  the hexagonmath.org `/rss/all` daily sweep (Anthropic's posting) and the openai/math
+  `history.md` changelog check (prompted by a 706-point Hacker News front-page story linking
+  OpenAI's own Oct 26 publication page, which also announced the Yang–Mills claim below — see that
+  trend). Held at `seed`/`low` (not merely queued) per the domain-cadence precedent of seeding a
+  landmark EVENT pre-referee (same as the OpenAI mass-disclosure and Hadwiger/Hopf-S⁶ precedents) —
+  but `low`, not `medium`, given NO outside-the-originating-lab verification exists yet for either
+  claim. Watch for (top daily-chase priority): the Impagliazzo/Paturi/Williams review outcome;
+  whether the two labs' algorithms are mathematically the same construction; any complexity-theory
+  community reaction (Woit/Baez/Aaronson-type commentary, Hacker News/community-pulse threads).
+
+### OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion
+- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-26
+- what: axis-2/3 EXTRAORDINARY-CLAIM, the single highest-magnitude item this ledger has ever logged
+  if confirmed: Yang–Mills existence and mass gap is one of the seven Clay Millennium Prize Problems
+  (claymath.org). OpenAI's Oct 26 publication, "Working with academic communities to build
+  scientific understanding," states its internal model produced a natural-language proof of
+  Yang–Mills existence (2026-09-09) and then of QCD (2026-09-18), with the Yang–Mills Lean
+  formalization completed 2026-10-16; OpenAI describes the physics result as "a mathematically
+  rigorous existence proof of certain interacting quantum field theories containing gauge fields and
+  fermions in four dimensions, including Quantum Chromodynamics (QCD) and a unified completion of
+  the Standard Model." CRITICAL CAVEAT, from Peter Woit's same-day commentary (opened directly this
+  session): OpenAI's press release does NOT state whether the "existence" claim includes the MASS
+  GAP (the actual Millennium condition) — Woit suspects it may be a weaker "existence for small
+  volume" result and calls the omission "intentionally deceptive" if so; he also reports that,
+  beyond the press release, NO manuscript, Lean proof, or further detail has been made public —
+  OpenAI has instead appointed a review panel (David Gross leading Arthur Jaffe, Michael Douglas,
+  Igor Klebanov, Nikita Nekrasov — senior, credible QFT theorists) with private access, pending some
+  future "transition." This is PROVISIONAL in the most extreme sense this ledger tracks: an
+  announcement of a result, not yet an inspectable claim. AGMAI (the IAS advisory group, already
+  tracked on the OpenAI mass-disclosure trend) published a statement the SAME day, "Recommendation
+  for Immediate Release of Yang–Mills AI Output," arguing the finished Lean formalization leaves "no
+  scientific reason" to withhold the material — i.e. the release AGMAI called for is the press
+  release itself, not the underlying proof.
+- evidence:
+  - 2026-10-26 — https://openai.com/index/building-scientific-understanding-with-academic-communities/
+    — OpenAI's own publication page (direct `curl`/`WebFetch` 403; opened via `tvly extract` this
+    session, corroborated by a `tvly search` snippet quoting the Sept 9/Sept 18/Oct 16 dates
+    verbatim). Confirms the claim, the dates, and the Gross-led review panel.
+  - 2026-10-26 — https://agmai.org — "Recommendation for Immediate Release of Yang–Mills AI
+    Output." Opened directly via `WebFetch` this session.
+  - 2026-10-26/27 — https://www.math.columbia.edu/~woit/wordpress (post "Secret Unified Physics
+    Slop," found via its RSS feed, `?p=15948`) — Peter Woit's critical same-day commentary: raises
+    the mass-gap-scope ambiguity and the no-public-manuscript point above, and separately notes an
+    UNRELATED, publicly-posted independent effort by Levent Alpöge (already on this ledger via the
+    Hopf-problem/S⁶ trend) and Ethan Sussman toward rigorous Yang–Mills (a ~1000-page 3D manuscript,
+    plus a claimed-but-unchecked 4D existence argument "tens of thousands of pages" long) — not
+    independently opened this session (no URL given in the extracted text); flagged for next
+    session to locate and assess. Woit's post opened directly via `tvly extract` (feed URL) this
+    session, not via WebFetch (the direct `curl`/`WebFetch` on this domain intermittently returns
+    HTTP 000 — see `logs/strategy_notes.md`).
+- notes: 2026-10-27 (daily, seed creation): caught via the same Hacker News front-page story and
+  openai.com publication page as the ETH-refutation trend above (one Oct 26 post announces all
+  three results). Held at `seed`/`low` (domain-cadence pre-referee-landmark-EVENT precedent, same
+  reasoning as the ETH trend and the original mass-disclosure seed) — but this is the MOST cautious
+  entry on this ledger: there is not yet even an unrefereed preprint to point to, only a press
+  release plus one skeptic's reading of it. TOP daily-chase priority going forward, ahead of even
+  the BSD case: watch for (a) the actual manuscript/Lean proof becoming public, (b) clarification of
+  whether the mass-gap is claimed, (c) the Gross/Jaffe/Douglas/Klebanov/Nekrasov panel's findings,
+  (d) the Alpöge–Sussman effort's own status, (e) any Clay Mathematics Institute statement (this is
+  their prize problem).
+
+### Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
+- what: axis-1 DOMAIN-CADENCE LANDMARK: the Golomb–Welch conjecture (1970) asserts that Lee spheres
+  of radius $r\ge2$ never perfectly tile $\mathbb{Z}^n$ for $n\ge3$ — a 55-year-old open problem in
+  coding theory/combinatorics tied to the existence of perfect Lee codes. Chen, Huang, and Luo prove
+  it for ALL $n\ge3$, $r\ge2$ and all center-set choices, completing the existence classification of
+  perfect Lee codes in $\mathbb{Z}^n$. Ordinary (non-AI) human mathematics; no computer-assistance
+  flag in the abstract.
+- evidence:
+  - 2026-10-25 (v1) — https://arxiv.org/abs/2610.34291 — Bocong Chen, Jing Huang, Gaojun Luo, "The
+    Golomb–Welch conjecture for arbitrary centre sets." Abstract + authors verified via arXiv API
+    this session.
+- notes: 2026-10-27 (daily, seed creation): caught in today's math category-rotation batch
+  (keyword triage). Confidence `medium` (unrefereed preprint, standard caution; no corroboration
+  yet). Watch for referee/community engagement.
+
+### Resolution of the Erdős–Nicolas–Sárközy conjecture (admissible-set counting)
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
+- what: axis-1 DOMAIN-CADENCE LANDMARK: Erdős, Nicolas, and Sárközy (1991) conjectured that
+  $\log a(N)\asymp\sqrt N$, where $a(N)$ counts "admissible" subsets of $\{1,\dots,N\}$ (any two
+  subsets with equal sum have equal cardinality) — a 35-year-old named Erdős problem in additive
+  combinatorics. Wang and Yang prove matching absolute-constant upper and lower bounds, resolving
+  it. Ordinary (non-AI) human mathematics.
+- evidence:
+  - 2026-10-25 (v1) — https://arxiv.org/abs/2610.34372 — Guoqing Wang, Wenkai Yang, "Counting
+    Admissible Sets of Integers: A Proof of the Erdős–Nicolas–Sárközy Conjecture." Abstract +
+    authors verified via arXiv API this session.
+- notes: 2026-10-27 (daily, seed creation): caught in today's math category-rotation batch
+  (keyword triage). Confidence `medium` (unrefereed preprint, standard caution). Watch for
+  referee/community engagement.
 
 ## observation_queue
 
@@ -6624,6 +6812,53 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   of the already-published GWTC-5.0 catalog, identifying three sub-populations by mass/spin. Axis 3,
   below bar (statistical follow-up on an already-catalogued dataset, not a new detection). Abstract
   verified via arXiv API this session.
+- 2026-10-25 (v1) — "A proof of the Grothendieck join-meet positivity" — https://arxiv.org/abs/2610.34607
+  — Guo, Kang, Liu, Xiong resolve a (signed) Grothendieck-polynomial positivity conjecture posed by
+  Thomas and Yong via geometric Satake. Axis-1, below bar (specialist algebraic-combinatorics named
+  conjecture, not yet judged broad/famous enough for a standalone trend). Abstract verified via
+  arXiv API this session.
+- 2026-10-25 (v1) — "The generalized Dixmier conjecture and the two-dimensional Jacobian conjecture"
+  — https://arxiv.org/abs/2610.33919 — proves $\mathrm{JC}_2\Rightarrow\mathrm{DC}_1'$ (a reduction,
+  not a resolution of either conjecture); cross-referenced to this ledger's standing Jacobian-
+  conjecture/Keller-map cluster (see evidence/notes on the real-Jacobian-conjecture entries
+  elsewhere in this queue). Abstract verified via arXiv API this session.
+- 2026-10-26 (hexagonmath) — "A proof Gauss might have found" — https://hexagonmath.org/2610.00568v1
+  — claims a proof of a Gauss class-number-one-style conjecture using only material published by
+  1808. UNVERIFIED this session (title/abstract-only triage); hexagonmath-tier caution (unrefereed,
+  arXiv-analog).
+- 2026-10-26 (hexagonmath) — "The regular pentagonal system and the Smith–Ward problem" —
+  https://hexagonmath.org/2610.00567v1 — a claimed counterexample to the operator-system
+  formulation of the Smith–Ward problem. UNVERIFIED this session (title/abstract-only triage);
+  hexagonmath-tier caution.
+- 2026-10-26 (hexagonmath) — "Uniqueness of four-body convex central configurations for all masses"
+  — https://hexagonmath.org/2610.00551v1 — claims to answer Problem 10 of Albouy–Cabral–Santos (a
+  named problem from the same canonical central-configurations tradition as the already-tracked
+  Smale's-sixth-problem trend); cross-referenced there as a related but distinct (4-body uniqueness
+  vs. 5-body finiteness) problem. UNVERIFIED this session (title/abstract-only triage);
+  hexagonmath-tier caution.
+- 2026-10-26 (hexagonmath) — "Explicit Finite $p$-Group Counterexamples to the Amit–Ashurst
+  Conjecture" — https://hexagonmath.org/2610.00563v1 — claims counterexamples for every prime.
+  UNVERIFIED this session; hexagonmath-tier caution.
+- 2026-10-26 (hexagonmath) — "The rank of $3\times3$ matrix multiplication over $\mathbb F_2$ is 23"
+  — https://hexagonmath.org/2610.00548v1 — a classical open algebraic-complexity question, claims
+  Lean-checked certificates. UNVERIFIED this session (title/abstract-only triage); hexagonmath-tier
+  caution.
+- 2026-10-26 (hexagonmath) — "Sorting networks on 13 inputs need 45 comparators" —
+  https://hexagonmath.org/2610.00549v1 — claims $S(13)=45$, the 13-input case of the Bose–Nelson
+  sorting-network problem. UNVERIFIED this session (title/abstract-only triage — possible overlap
+  with a prior SAT-solver-based community result not checked this session); hexagonmath-tier
+  caution.
+- 2026-10-26 (hexagonmath) — "Area law for three-dimensional U(1) lattice gauge theory with the
+  Wilson action at every coupling" — https://hexagonmath.org/2610.00552v1 — claims a long-open
+  area-law result in lattice gauge theory. UNVERIFIED this session (title/abstract-only triage);
+  hexagonmath-tier caution; axis 2.
+- 2026-10-26 (hexagonmath) — "A modular obstruction to the $P$-adic Leopoldt conjecture for the
+  Carlitz module" — https://hexagonmath.org/2610.00525v1 — claims statements by Anglès and Lucas
+  fail in general. UNVERIFIED this session (title/abstract-only triage); hexagonmath-tier caution.
+- 2026-10-26 (hexagonmath) — "Robin's Inequality and Superabundant Counterexamples" —
+  https://hexagonmath.org/2610.00519v1 — a partial/conditional result toward the Riemann Hypothesis
+  via Robin's inequality, NOT an unconditional resolution (per the feed's own characterization).
+  UNVERIFIED this session; hexagonmath-tier caution.
 
 ## source_rotation
 
@@ -6641,6 +6876,15 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-26; shelf-added 2026-10-27 — [Working with academic communities to build scientific
+  understanding (OpenAI)](https://openai.com/index/building-scientific-understanding-with-academic-communities/)
+  — OpenAI's announced (not yet public) claimed proof of Yang–Mills existence and a QCD/Standard-
+  Model completion — if the mass-gap scope holds up, this is a Clay Millennium Prize Problem claim;
+  see new seed trend and Peter Woit's critical same-day read.
+- 2026-10-25/26; shelf-added 2026-10-27 — [Independent same-day Exponential-Time-Hypothesis
+  refutation claims (Anthropic via hexagonmath.org/2610.00577; OpenAI via github.com/openai/math
+  #378)](https://github.com/anthropics/formal-math/blob/main/eth) — two AI labs, same week, same
+  foundational complexity hypothesis, each with a Lean-checked claim; see new seed trend.
 - 2026-10-10 (v1); shelf-added 2026-10-26 — [A counterexample to Vaught's Conjecture for
   $L_{\omega_1,\omega}$ (Ackerman, Freer, Knight)](https://arxiv.org/abs/2610.15217) — completes
   Robin Knight's 24-year-old (2002) construction disproving Vaught's famous 1961 conjecture for

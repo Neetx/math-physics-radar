@@ -1,18 +1,18 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-48-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-417-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--26-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-53-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-434-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--27-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-23):** a major, previously-uncaptured 65-year-old landmark anchors today's scan.
-- [Vaught's Conjecture disproved (infinitary logic)](TRENDS.md#disproof-of-vaughts-conjecture-for-infinitary-logic-ackermanfreerknight-ai-assisted-lean-verified): [Ackerman, Freer, and Knight](https://arxiv.org/abs/2610.15217) complete Knight's 24-year-old construction, formally verified in Lean.
-- [Propeller Conjecture resolved](TRENDS.md#resolution-of-the-propeller-conjecture-khotnaor-2008-openai-claim--independent-human-simplification-heilman): [Steven Heilman](https://arxiv.org/abs/2610.32158) independently simplifies and de-computerizes OpenAI's proof of Khot and Naor's 2008 conjecture, split from the OpenAI mass-disclosure trend.
-- [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries): a further independent group, [Bhattacharyya–Ghosh–Pal–Santara](https://scipost.org/SciPostPhysCore.9.4.069), on categorical symmetry-resolved entanglement entropy.
-- [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families): AGMAI's [new statement](https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/) against designating specific mathematicians for AI releases, plus a new community hub, [oai-math-revised](https://github.com/mathcommunity/oai-math-revised).
+**Since last scan (2026-10-26):** the single highest-magnitude claim this radar has ever logged, plus a dueling complexity-theory claim and two more landmark human proofs.
+- [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion): an [announced, not-yet-public proof](https://openai.com/index/building-scientific-understanding-with-academic-communities/) of Yang–Mills existence and a QCD/Standard-Model completion — a Clay Millennium Prize Problem if the mass-gap scope holds; see Peter Woit's critical [same-day read](https://www.math.columbia.edu/~woit/wordpress/?feed=rss2).
+- [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic): two AI labs each publish a Lean-checked claim refuting the Exponential Time Hypothesis the same week — [Anthropic](https://github.com/anthropics/formal-math/blob/main/eth), [OpenAI](https://github.com/openai/math) — under review by ETH's own original authors.
+- [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko): [Martin Balko](https://arxiv.org/abs/2610.34444) independently simplifies OpenAI's claimed proof of this 60-year-old crossing-number conjecture.
+- [Golomb–Welch](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) and [Erdős–Nicolas–Sárközy](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) conjectures resolved — two ordinary (non-AI) human proofs of named open problems, by [Chen–Huang–Luo](https://arxiv.org/abs/2610.34291) and [Wang–Yang](https://arxiv.org/abs/2610.34372).
 
 ## Trends
 
-🌱 43 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🚀 2 · 📈 2 · 🌱 48 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -20,14 +20,18 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-10-14](https://arxiv.org/abs/2610.20995) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
-| [Vaught's Conjecture disproved](TRENDS.md#disproof-of-vaughts-conjecture-for-infinitary-logic-ackermanfreerknight-ai-assisted-lean-verified) | 🌱 seed | [2026-10-10](https://arxiv.org/abs/2610.15217) |
+| [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) | 🌱 seed | [2026-10-26](https://github.com/anthropics/formal-math/blob/main/eth) |
+| [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-10-26](https://openai.com/index/building-scientific-understanding-with-academic-communities/) |
+| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-25](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
+| [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34444) |
+| [Golomb–Welch conjecture resolved](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34291) |
+| [Erdős–Nicolas–Sárközy conjecture resolved](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34372) |
 | [Propeller Conjecture resolved](TRENDS.md#resolution-of-the-propeller-conjecture-khotnaor-2008-openai-claim--independent-human-simplification-heilman) | 🌱 seed | [2026-10-23](https://arxiv.org/abs/2610.32158) |
 | [Simon's L² conjecture disproved](TRENDS.md#disproof-of-barry-simons-l²-conjecture-schrödinger-operator-spectral-theory-llm-assisted) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.31637) |
 | [Gauss–Fourier conjecture resolved](TRENDS.md#resolution-of-the-gaussfourier-conjecture-critical-points-of-rational-functions) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.30620) |
-| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-25](https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-21](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) |
 | [Percolation-criticality (Claude & OpenAI)](TRENDS.md#ai-claimed-resolution-of-the-percolation-criticality-conjecture-benjaminischramm-claude-and-openai-independently) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30063) |
 | [Hochster/ESW Ulrich-bundle disproof](TRENDS.md#disproof-of-hochsters-small-cohen-macaulay-conjecture--negative-resolution-of-the-eisenbud-schreyer-weyman-ulrich-bundle-question) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30027) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30476) |
 | [MDS conjecture (even characteristic)](TRENDS.md#resolution-of-the-linear-mds-conjecture-in-even-characteristic-coding-theory) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.28208) |
 | [Double-cap conjecture proved](TRENDS.md#proof-of-the-double-cap-conjecture-witsenhausens-problem--kalais-sphere-measure-conjecture) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.27523) |
 | [Sunflower conjecture proved](TRENDS.md#proof-of-the-erdősszemerédi-sunflower-conjecture-bucićhelee) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.26686) |
@@ -42,6 +46,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Rational exponents conjecture (Epoch AI)](TRENDS.md#proof-of-the-erdőssimonovits-rational-exponents-conjecture-epoch-ai-model-human-verified) | 🌱 seed | [2026-10-13](https://arxiv.org/abs/2610.18713) |
 | [First rkSZ detection (Goldstein–Hill)](TRENDS.md#first-detection-of-the-rotational-kinematic-sunyaevzeldovich-effect-goldsteinhill) | 🌱 seed | [2026-10-13](https://link.aps.org/doi/10.1103/lz37-crg1) |
 | [3SUM / APSP hypotheses refuted](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-11](https://arxiv.org/abs/2610.15663) |
+| [Vaught's Conjecture disproved](TRENDS.md#disproof-of-vaughts-conjecture-for-infinitary-logic-ackermanfreerknight-ai-assisted-lean-verified) | 🌱 seed | [2026-10-10](https://arxiv.org/abs/2610.15217) |
 | [Inhomogeneous Duffin-Schaeffer disproved](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2609.30870) |
 | [Poincaré Conjecture Lean formalization (two efforts)](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincaré-conjecture-two-independent-efforts) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2610.13897) |
 | [Hyperkähler SYZ conjecture proof](TRENDS.md#proof-of-the-hyperkähler-syz-conjecture-engelmauri) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12277) |
@@ -67,26 +72,36 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
-
+- 2026-10-26; shelf-added 2026-10-27 — [Working with academic communities to build scientific
+  understanding (OpenAI)](https://openai.com/index/building-scientific-understanding-with-academic-communities/)
+  — OpenAI's announced (not yet public) claimed proof of Yang–Mills existence and a QCD/Standard-
+  Model completion — if the mass-gap scope holds up, this is a Clay Millennium Prize Problem claim;
+  see new seed trend and Peter Woit's critical same-day read.
+- 2026-10-25/26; shelf-added 2026-10-27 — [Independent same-day Exponential-Time-Hypothesis
+  refutation claims (Anthropic via hexagonmath.org/2610.00577; OpenAI via github.com/openai/math
+  #378)](https://github.com/anthropics/formal-math/blob/main/eth) — two AI labs, same week, same
+  foundational complexity hypothesis, each with a Lean-checked claim; see new seed trend.
 - 2026-10-10 (v1); shelf-added 2026-10-26 — [A counterexample to Vaught's Conjecture for
   $L_{\omega_1,\omega}$ (Ackerman, Freer, Knight)](https://arxiv.org/abs/2610.15217) — completes
   Robin Knight's 24-year-old (2002) construction disproving Vaught's famous 1961 conjecture for
-  infinitary logic, with heavy AI-coding-agent assistance in the Lean formalization, Comparator-
-  checked and on the Palomar Registry; see new seed trend.
+  infinitary logic, with heavy AI-coding-agent assistance (Claude Code, Codex, GPT) in the Lean
+  formalization, Comparator-checked and on the Palomar Registry; see new seed trend.
 - 2026-10-23 (v1); shelf-added 2026-10-26 — [On the Propeller Conjecture
   (Steven Heilman)](https://arxiv.org/abs/2610.32158) — an independent human simplification,
   sharpening, and de-computerization of OpenAI's AI-generated proof of Khot and Naor's 2008
-  propeller conjecture, which underlies a Unique-Games-based NP-hardness result for clustering;
-  see new seed trend.
+  propeller conjecture (which underlies a Unique-Games-based NP-hardness result for clustering); a
+  clean example of productive human engagement with an AI math claim. See new seed trend.
 - 2026-10-22 (v1); shelf-added 2026-10-23 — [Simple and critical zeros of the Riemann zeta-function
   (Caroline Turnage-Butterbaugh, guest post on Terence Tao's blog)](https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/)
   — the clearest single exposition on file of the full history and current vetting state of the
-  "≥2/3 of zeta zeros are simple and on the critical line" result; a model survey for a researcher
-  wanting the whole picture in one place.
+  "≥2/3 of zeta zeros are simple and on the critical line" result (Levinson through Claude/
+  Anthropic, Lamzouri, and this session's new Guo elementary-proof lead); a model survey for a
+  researcher wanting the whole picture in one place.
 - 2026-10-22 (v1); shelf-added 2026-10-23 — [The classification of smooth 3-fold flops
   (Gavin Brown, Michael Wemyss)](https://arxiv.org/abs/2610.31073) — a complete analytic
   classification of simple 3-fold flops via their contraction algebras, from two established
-  birational geometers; a foundational minimal-model-program advance worth knowing on its own.
+  birational geometers; a foundational advance in the minimal model program, held below the trend
+  bar (no single named conjecture resolved) but worth a researcher's attention on its own.
 - 2026-10-21 (v1); shelf-added 2026-10-22 — [On OpenAI's proof of the Nagata conjecture
   (Jenia Tevelev)](https://arxiv.org/abs/2610.30050) — a leading algebraic geometer's own
   non-expert-accessible exposition of an AI-claimed proof of the 1959 Nagata conjecture (plane-curve
@@ -721,13 +736,15 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - 2026-07-02 — [An exponential improvement for Ramsey lower bounds (Ma, Shen, Xie), arXiv:2507.12926](https://arxiv.org/abs/2507.12926) — first exponential improvement over Erdős' classical 1947 probabilistic lower bound for the Ramsey number r(ℓ, Cℓ); abstract + authors/dates verified this session (v1 17 Jul 2025, v2 26 Apr 2026). This is the "Erdős method upgrade" Quanta covered 2026-06-26 (Pass 1 mis-attributed it to Sudakov, who was only quoted — corrected).
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 
+
+
 ## Community pulse
 
-- A [MathOverflow thread](https://mathoverflow.net/) asking whether Vaught's Conjecture has been solved led directly to today's biggest catch; a companion thread calls the "endless controversy" over the underlying 2002 construction finally resolved.
-- A [Terence Tao guest post](https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/) launches a volunteer hub for reviewing OpenAI's math write-ups; reception in the comments is mixed over unpaid labor for a for-profit company's manuscripts.
-- [Gil Kalai's blog](https://gilkalai.wordpress.com/) and [John Baez's Azimuth](https://johncarlosbaez.wordpress.com/) were both swept with no new landmark signal this scan (an academic-week roundup and an AI-assisted historical exposition on prime counting, respectively).
+- A [706-point Hacker News front-page story](https://hn.algolia.com/api/v1/search?tags=front_page) ("Three new discoveries in mathematics, computer science, and physics") was today's single biggest lead, pointing to OpenAI's Yang–Mills/ETH/local-smoothing publication page.
+- [Peter Woit's blog](https://www.math.columbia.edu/~woit/wordpress/) raises a pointed mass-gap-scope question about OpenAI's Yang–Mills claim and notes an unrelated, publicly-posted independent Yang–Mills effort by Levent Alpöge and Ethan Sussman.
+- [AGMAI](https://agmai.org) published a same-day statement pressing OpenAI to release its Yang–Mills Lean formalization publicly, ironically one day after criticizing labs for designating privileged early reviewers — which OpenAI's announcement then did anyway.
 - MathOverflow, Physics Stack Exchange, and Mathstodon otherwise routine this scan; the Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue, not a per-subreddit one.
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (417 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-26](reports/2026-10-26.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (434 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-27](reports/2026-10-27.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

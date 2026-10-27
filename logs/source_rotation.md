@@ -3412,3 +3412,93 @@ from mathoverflow.net" WebFetch restriction and the Googlebot-UA "Bot Check Circ
 stable session-level policies worth recording as standing access-method notes in SOURCES.md (this
 session treated them as such, provisionally); Strassler's feed empty since Feb 2026 (heal-worklist
 candidate if it stays empty next weekly).
+
+2026-10-27 (Tue, Pass 1, scheduled) — load-state: `git fetch --unshallow` CONFIRMED the 2026-10-26
+methodology correction (the two stale session branches, `claude/modest-bohr-9415kc`/
+`claude/peaceful-faraday-n2ehd0`, ARE fully-contained ancestors of `origin/main` once unshallowed —
+the local clone started shallow this session, reproducing the exact artifact described yesterday).
+All `radar:` commits of the last 7 days have matching reports — no incomplete-run warning. `tvly`
+absent at session start, reinstalled via `pip install -q tavily-cli`. Primary sweep
+(radar-source-sweep): math category-rotation batch via `submittedDate`-range-filtered arXiv API
+query (full in-scope category OR-set, range 2026-10-24→10-28, two pages to cover all 601 results) —
+601 fresh entries (129 on 10-24, 175 on 10-25, 297 on 10-26). Physics batch (same category set as
+2026-10-26, same date range) — 373 fresh entries, single page. Amendment J full-abstract pass
+(today's category: math.PR, rotation position after CV) — scanned, 0 catch, routine probability-
+theory batch (not individually logged in detail — routine). MAJOR CATCHES, all via math
+category-rotation keyword triage: (1) Harary–Hill conjecture (crossing number of $K_n$) resolution —
+OpenAI claim + Martin Balko's independent exposition (arXiv:2610.34444) — new seed trend, split from
+OpenAI mass-disclosure. (2) Golomb–Welch conjecture resolved for arbitrary centre sets (Chen–Huang–
+Luo, arXiv:2610.34291) — new seed trend, ordinary human math. (3) Erdős–Nicolas–Sárközy conjecture
+resolved (Wang–Yang, arXiv:2610.34372) — new seed trend, ordinary human math. SciPost API (20 most
+recent) — routine, nothing new for the non-invertible-symmetries trend beyond yesterday's catch.
+APS PRL/PRX/RMP RSS, Quantum journal, CERN Courier, Simons Foundation, Nature Physics/Comms (RSS,
+Nature Physics still empty-CDATA, Comms via WebFetch), Science Advances (`showFeed`) — all opened,
+routine, nothing on-axis. Fermilab feed DEGRADED again (Shibboleth SSO redirect, standing since
+2026-10-22, not re-attempted beyond the standard fetch). CERN `/feed/` STILL 404 (heal-owed,
+escalated at W43, fallback plan in effect, not re-attempted). Experiments block: LIGO (`WebFetch`
+on plain `/news`) — unchanged at GWTC-5.0; DESI, LZ (`WebFetch`) — routine, unchanged; IceCube
+category-feed — routine, "Week 42," no new item. INSPIRE-HEP (API) — future-dated placeholders as
+usual, nothing on-axis. GitHub watch (radar-repo-watch): lean4 unchanged v4.36.0-rc1; mathlib4
+daily `master-YYYY-MM-DD` through master-2026-10-26; Rocq unchanged 9.3.0; `openai/math/history.md`
+— THREE new manuscript-set entries dated 2026-10-26 (ETH disproof #378, local-smoothing/Kakeya
+cascade #079, a CM-abelian-variety Hodge-conjecture Lean formalization) — folded into the
+mass-disclosure trend's notes + split the ETH item into its own new seed trend (below).
+`anthropics/formal-math` README — a NEW Lean-formalization project row, `eth/`, independently
+corroborating/paralleling the OpenAI ETH claim — folded into the same new ETH seed trend. AI-watch
+lane: a 706-point/305-comment Hacker News front-page story ("Three new discoveries in mathematics,
+computer science, and physics") led to OpenAI's new publication page (`openai.com/index/building-
+scientific-understanding-with-academic-communities/`, direct `curl`/`WebFetch` 403'd, `tvly extract`
+worked) announcing all three Oct-26 results, INCLUDING a previously-undisclosed physics claim: a
+Yang–Mills existence + QCD/Standard-Model-completion proof — new seed trend, EXTREME caution (see
+TRENDS.md; Peter Woit's same-day "Secret Unified Physics Slop" post, found via his RSS feed since
+direct fetch again returned HTTP 000, raises a serious mass-gap-scope ambiguity and notes NO public
+manuscript exists beyond the press release). agmai.org — a NEW same-day statement, "Recommendation
+for Immediate Release of Yang–Mills AI Output," folded into both the mass-disclosure trend's notes
+and the new Yang-Mills seed trend. hexagonmath.org `/rss/all` (full-abstract triage via WebFetch,
+50 fresh items) — besides the ETH item above: Tejasvi Singh Tomar's own Lean-formalized posting of
+the already-tracked Smale's-sixth-problem (5-body) result (2610.00550) folded in as new evidence
+there; 9 further below-bar items queued (Gauss-class-number claim, Smith–Ward counterexample,
+Albouy–Cabral–Santos 4-body uniqueness, Amit–Ashurst counterexamples, 3×3-matrix-multiplication-
+rank-over-F2, S(13)=45 sorting network, 3D U(1) lattice-gauge-theory area law, a Leopoldt/Carlitz
+obstruction claim, a conditional Robin's-inequality result) — all UNVERIFIED (title/abstract-only
+triage), hexagonmath-tier caution. icarm.io/news, cims.nyu.edu, vals.ai/blogs, ahmath.org/statements
+— all routine, no new item since the last daily. Community pulse (radar-pulse): Hacker News front
+page — THE DAY'S STANDOUT LEAD (above). MathOverflow (`/feeds`) — routine Q&A, nothing landmark.
+Physics Stack Exchange (`/feeds`) — routine Q&A. Mathstodon public timeline — generic noise,
+routine. r/math/r/mathematics still BLOCKED (standing network-level block, unchanged). Digest/
+explainer blogs: Quanta (RSS) — routine, top item ("How Voting Is Like a Klein Bottle," Oct 26)
+not chased in full (time-budget; appears to be an expository feature, not a new primary). Tao's
+"What's new" (RSS) — nothing new beyond what's already captured (the Oct 25 AGMAI/Oct 24
+oai-math-revised posts repeat yesterday's catch). Gowers, Kalai, Baez, n-Category Café, Scientific
+American — all opened, routine, nothing new on-axis. Strassler's feed FINALLY posted again ("The
+Physicists and Mr. Epstein," off-axis) — resolves last weekly's heal-worklist flag (feed is alive,
+just was genuinely quiet). Hossenfelder (Atom) — routine, no new on-axis item. Woit's feed failed to
+connect again (HTTP 000, standing recurring-but-non-consecutive pattern) — `tvly extract` on the
+feed URL substituted successfully this session (see above), closing today's instance of last
+session's flagged stale-cache sub-failure. Exploration slot (radar-explore, OFF-AXIS rotation):
+math.OA (operator algebras) — 40 fresh entries scanned regardless of sub-topic, all routine
+C*-algebra/von Neumann-algebra technical papers, 0 catch (off-axis rate 0 this run, non-alarm per
+domain cadence; next: q-bio.PE or nlin.SI). Self-heals: none attempted (no new `degraded:` marker
+crossed the heal-owed bar beyond the already-escalated CERN `/feed/` and Fermilab Shibboleth wall).
+Trend recalibration (radar-ledger-update): FIVE new seed trends (Harary–Hill; ETH-refutation
+convergence; Yang–Mills/QCD claim; Golomb–Welch; Erdős–Nicolas–Sárközy) + evidence/notes added to
+TWO existing trends (OpenAI mass-disclosure — 3 manuscript additions + Yang-Mills cross-reference,
+last_evidence 2026-10-25→2026-10-26; Smale's-sixth-problem — Tomar's Lean formalization,
+last_evidence 2026-10-16→2026-10-25). Queue: 417→428 net (11 new below-bar items). study_shelf: +2
+(the Yang–Mills/QCD claim; the dueling ETH-refutation claims). Dormancy probe: no trend newly
+crosses the 60-day quiet threshold beyond the standing backfill-precedent exemptions; no moves.
+capture-leak: 15 ids checked (named in reports/2026-10-22.md, 2026-10-23.md, 2026-10-26.md) / 0
+missing, all confirmed present on discrete evidence/queue/shelf lines; today's own new ids
+self-routed on creation (verified by grep: 5/8 landmark ids captured; 3 routine math ids — Dynamical
+Chowla, a Carmichael-totient-family paper, the Langberg-Médard proof — triaged as below the
+landmark/queue bar and correctly left uncaptured, not a leak since never claimed significant in
+report prose). README.md regenerated from the updated ledger in the same commit; SUMMARY.md
+overwritten with today's results digest. Standing flags carried forward: TRENDS.md now larger still
+(53 trends — today's 5 new landmark seeds are individually justified per the domain-cadence bar, but
+the weekly should consider whether Amendment L's per-trend relocation threshold needs a companion
+total-trend-COUNT control); observation_queue well past the ~40 soft cap (428, domain-cadence-
+expected, not burned down this run); NEW FLAG for the weekly AND for tomorrow's daily, TOP PRIORITY:
+chase the Yang-Mills/QCD claim's actual manuscript/Lean-proof availability, the Gross-led panel's
+progress, and the Alpöge–Sussman independent effort (URL not located this session); chase the
+Impagliazzo/Paturi/Williams ETH review; locate the Harary–Hill result-family number in OpenAI's
+`CONTENTS.md` (not done this session, time-budget).
