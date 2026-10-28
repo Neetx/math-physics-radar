@@ -47,8 +47,8 @@ Method: `radar-source-sweep`. Iterate EVERY entry; prefer the feed, fall back to
 for feed-less ones. Filter for on-scope relevance; skip product/marketing.
 These carry official RESULTS (a discovery, a data release, a solved-problem announcement = PRIMARY)
 mixed with general PR (= intake — follow to the paper). Filter for on-axis research substance.
-- CERN Courier — https://cerncourier.com/feed/ **[verified 2026-07-02; RSS. DEGRADED 2026-10-22: both plain `curl` (retried once) and `tvly extract` return a connection failure (HTTP 000 / "Failed to fetch url") — a genuine connectivity issue, not a 403/block; `tvly search "cerncourier.com October 2026"` surfaces only the already-known Sept/Oct issue announcement, no new content. First occurrence — not yet heal-owed, re-test next session.]** — particle / high-energy physics results & reviews
-- Fermilab news — https://news.fnal.gov/feed/ **[verified 2026-07-02; RSS. RECOVERED 2026-10-08: plain `curl -A "Mozilla/5.0"` returned a clean 200 with full title list this session, confirming the 2026-10-07 connection failure was indeed a single-daily transient, not a standing block. DEGRADED AGAIN 2026-10-22: the feed URL now 303-redirects to a Shibboleth SSO login page (`news.fnal.gov/mellon/login?...IdP=...idp.fnal.gov...`) — a genuine new auth-wall, not a transient; `tvly extract` on the plain `/` URL returns only nav (no article content). First occurrence of this failure mode — not yet heal-owed, re-test next session.]** — particle physics / neutrinos
+- CERN Courier — https://cerncourier.com/feed/ **[verified 2026-07-02; RSS. DEGRADED 2026-10-22: both plain `curl` (retried once) and `tvly extract` return a connection failure (HTTP 000 / "Failed to fetch url") — a genuine connectivity issue, not a 403/block; `tvly search "cerncourier.com October 2026"` surfaces only the already-known Sept/Oct issue announcement, no new content. RECOVERED 2026-10-28: plain `curl -A "Mozilla/5.0"` returned a clean 200 with the full feed (1.6MB) this session — the 10-22 failure was a transient, not a standing block.]** — particle / high-energy physics results & reviews
+- Fermilab news — https://news.fnal.gov/feed/ **[verified 2026-07-02; RSS. RECOVERED 2026-10-08: plain `curl -A "Mozilla/5.0"` returned a clean 200 with full title list this session, confirming the 2026-10-07 connection failure was indeed a single-daily transient, not a standing block. DEGRADED AGAIN 2026-10-22: the feed URL now 303-redirects to a Shibboleth SSO login page (`news.fnal.gov/mellon/login?...IdP=...idp.fnal.gov...`) — a genuine new auth-wall, not a transient; `tvly extract` on the plain `/` URL returns only nav (no article content). RECOVERED AGAIN 2026-10-28: plain `curl -A "Mozilla/5.0"` returned a clean 200 with real RSS article content this session (no SSO redirect) — the 10-22 auth-wall was itself only intermittent/transient, not standing either; re-test each session, don't assume stable.]** — particle physics / neutrinos
 - Simons Foundation — https://www.simonsfoundation.org/feed/ **[verified 2026-07-02; RSS]** — math + theoretical physics research (incl. Flatiron Institute)
 - Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
 - Clay Mathematics Institute — https://www.claymath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** — Millennium Problems, math research news
@@ -452,6 +452,15 @@ openmathmodel.org (1 sighting still).
   non-profit venue for discussing OpenAI-generated math papers — first seen 2026-10-26 — NOT
   independently opened/verified this session (comment-only mention, provenance unclear). HELD
   below the ≥2 bar (1 sighting); verify live before treating as a source on next sighting.
+- axiommath.ai (AxiomMath, an AI-mathematics organization; PI Letong Hong) — 1 — "CFSG in Lean,"
+  a claimed complete Lean 4 formalization of the Classification of Finite Simple Groups (the
+  "Enormous Theorem"), ~43.1M lines, found via a 192-point Hacker News front-page story — first
+  seen 2026-10-28 — same self-publication-disclosure pattern as openai.com/anthropic.com/vals.ai;
+  verified live via `WebFetch` this session (both `cfsg.axiommath.ai` and
+  `axiommath.ai/research/the-enormous-theorem-formalized/`, 200 OK). HELD below the ≥2-sighting
+  bar (1 sighting); companion GitHub org `github.com/AxiomMath` 403'd under this session's
+  proxy-scoping, re-attempt via `tvly extract` next session; no feed found, access via direct
+  `WebFetch`.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

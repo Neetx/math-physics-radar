@@ -1,8 +1,7 @@
-# Math-Physics Radar — 2026-10-27
+# Math-Physics Radar — 2026-10-28
 
-- **New trend** · [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) — an announced Yang–Mills existence + QCD proof, not yet public (claim).
-- **New trend** · [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) — two AI labs each claim a Lean-checked refutation (claim).
-- **New trend** · [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) — Balko's independent exposition of an AI-claimed proof (preprint).
-- **New trend** · [Golomb–Welch conjecture resolved](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) — Chen, Huang, and Luo complete the perfect-Lee-code classification (preprint).
-- **New trend** · [Erdős–Nicolas–Sárközy conjecture resolved](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) — Wang and Yang settle the admissible-set growth rate (preprint).
-- **Study pick** · [Working with academic communities to build scientific understanding](https://openai.com/index/building-scientific-understanding-with-academic-communities/) — OpenAI's Yang–Mills/QCD announcement, worth knowing regardless of outcome.
+- **New trend** · [CFSG formalized in Lean](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) — a claimed complete Lean 4 proof of the Classification of Finite Simple Groups (claim).
+- **New trend** · [Morgan–Mullen conjecture resolved](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) — a 29-year-old finite-field algebra conjecture, Lean-formalized.
+- **New trend** · [Bialostocki–Lotspeich conjecture resolved](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) — a 33-year-old zero-sum-combinatorics conjecture.
+- **New** · [Dueling proofs from OpenAI and Anthropic astound scientists](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) — named experts now reviewing the Yang–Mills and ETH-refutation claims (→ [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)).
+- **Study pick** · [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) — the largest formal-proof effort this radar has tracked, worth knowing even unverified.

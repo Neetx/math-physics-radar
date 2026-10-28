@@ -3502,3 +3502,112 @@ chase the Yang-Mills/QCD claim's actual manuscript/Lean-proof availability, the 
 progress, and the Alpöge–Sussman independent effort (URL not located this session); chase the
 Impagliazzo/Paturi/Williams ETH review; locate the Harary–Hill result-family number in OpenAI's
 `CONTENTS.md` (not done this session, time-budget).
+2026-10-28 (Wed, Pass 1, scheduled) — load-state: local clone was SHALLOW at session start,
+reproducing the now-familiar artifact; `git fetch --unshallow origin main` confirmed (again) that
+`claude/modest-bohr-9415kc` and `claude/peaceful-faraday-n2ehd0` are fully-contained ancestors of
+`origin/main` — 0 orphaned state, methodology consistent with the 10-26/10-27 correction. All
+`radar:` commits of the last 7 days have matching reports — no incomplete-run warning. `tvly`
+absent at session start, reinstalled via `pip install -q tavily-cli`; QUOTA EXHAUSTED partway
+through the session (standing account-level limit, not a bug) — WebFetch/WebSearch substituted
+successfully for the remaining checks (Woit's feed 503'd via WebFetch too, single-session gap, not
+yet heal-owed). Primary sweep (radar-source-sweep): math category-rotation batch via
+`submittedDate`-range-filtered arXiv API query (full in-scope category set, range
+2026-10-27→2026-10-29) — 255 fresh math entries (2026-10-27, single page); physics batch (same
+category set, same range) — 230 fresh entries. Amendment J full-abstract pass (today's category:
+math.RT, continuing the rotation after math.PR; all fresh math.RT entries read in full) — no
+title-blind landmark found (routine representation-theory progress, including a nilpotent version
+of the first Kac conjecture — partial, not a full resolution, correctly left uncaptured). MAJOR
+CATCHES, all via math category-rotation keyword/abstract triage: (1) Resolution of the
+Morgan-Mullen conjecture (1996, completely normal primitive elements in finite fields; Hellwig,
+2610.36534, Lean-formalized) — new seed trend. (2) Resolution of the Bialostocki-Lotspeich
+conjecture (1992, zero-sum-subsequence enumeration; Wang-Zeng, 2610.37125) — new seed trend. (3)
+Resolving a Problem of Lv and Koolen (distance-regular-graph eigenvalue bound; Hong-Hu-Lv,
+2610.37010) — below-bar, queued. APS PRL/PRX/RMP RSS, Quantum journal RSS (one below-bar axis-4
+item queued: "Proof of hiding conjecture in Gaussian boson sampling"), CERN Courier (RECOVERED —
+clean 200 this session after the 10-22 connection failure, see SOURCES.md), Simons Foundation,
+Fermilab (RECOVERED AGAIN — clean 200 with real article content, no Shibboleth redirect, see
+SOURCES.md), Nature Physics/Comms (both via plain `curl`, full titles recovered cleanly, no
+empty-CDATA issue this session), Science Advances (`showFeed`) — all opened, routine, nothing new
+on-axis beyond what's below. SciPost API, INSPIRE-HEP (API, future-dated placeholders as usual) —
+routine. Experiments block: LIGO 403'd again (`curl`, standing Cloudflare-tier block, not
+re-attempted via WebFetch this session — time budget); DESI (`WebFetch` on `desi.lbl.gov`) and LZ
+(`WebFetch` on `lz.lbl.gov/publications`) both checked directly — routine, nothing newer than
+already-tracked items; IceCube category-feed — routine ("Week 42," no new item); CERN `/feed/`
+STILL 404 (heal-owed, escalated W43, not re-attempted). GitHub watch (radar-repo-watch): direct
+`releases.atom` on lean4/mathlib4/rocq all 403'd under this session's proxy-scoping; `WebSearch`
+substituted (lean4 still v4.36.0-rc1, no new tag found). `openai/math/history.md` and
+`anthropics/formal-math/README.md` both opened directly via `raw.githubusercontent.com` (NOT
+proxy-blocked, unlike the releases.atom endpoints) — both unchanged since the 10-27 capture, no
+new entry. AI-watch lane: anthropic.com/research checked via `tvly extract`/`tvly search` (before
+quota exhaustion) — no new post beyond the already-tracked "Claude-shaped science"; agmai.org,
+vals.ai, cims.nyu.edu, ahmath.org not independently re-checked this session (time budget,
+folded into the GitHub-org/openai-history check and the major catch below) — flag for tomorrow.
+**MAJOR CATCH, the standout of the day**: Hacker News front page (192 points, 52 comments,
+"Classification of Finite Simple Groups Formalized in Lean") led to `cfsg.axiommath.ai` and
+`axiommath.ai/research/the-enormous-theorem-formalized/` (both opened directly via `WebFetch`) — a
+claimed complete Lean 4 formalization of CFSG (the "Enormous Theorem"), ~43.1M lines, a genuine
+gap found and repaired in the published Unbalanced Group Theorem proof (consulting Richard Lyons
+and Ronald Solomon) — new seed trend, EXTREME caution (wholly new self-published org, no outside
+verification yet); `axiommath.ai` staged as a new discovered-source candidate in SOURCES.md;
+`github.com/AxiomMath/CFSG` 403'd under proxy-scoping, not independently opened. hexagonmath.org
+`/rss/all` (51 fresh items, title/abstract triage) — besides the CFSG-related "Unbalanced Group
+Theorem" paper (already captured above): 5 further below-bar items queued (Brualdi-Goldwasser
+tree-Laplacian-ratio question, Sun's supercongruence, Bergeron's conjecture proof, Generalized
+Vanishing Conjecture two-variable case, an elliptic-curve torsion/rank record) plus one PARTIAL
+item correctly NOT treated as a resolution (Rule 30 Prize Problem 1 progress — the paper's own
+abstract states the problem "remains open," queued as progress only); two further exposition/
+reproduction papers on the already-tracked ETH-refutation claim (2610.00572, 2610.00574) folded
+into that trend's notes rather than queued separately. Community pulse (radar-pulse): Hacker News
+front page — THE DAY'S MAJOR CATCH (above). MathOverflow (`/feeds`) and Physics Stack Exchange
+(`/feeds`) — both opened directly via `curl`, routine Q&A, 0 new primary. Mathstodon public
+timeline — generic fediverse noise, routine. r/math/r/mathematics still BLOCKED (standing
+network-level block, unchanged; `tvly` quota-exhausted so no search-fallback attempted this
+session — flag). Digest/explainer blogs: Quanta (RSS) — routine, nothing new chased. Tao's "What's
+new" (RSS) — latest actual post is course notes + a one-line Radziwiłł-talk announcement, no
+CFSG/Morgan-Mullen mention yet (the CFSG story is hours old at run time — expect coverage
+tomorrow). Gowers, Kalai, Baez (RSS) — all routine, nothing new on-axis. Strassler's feed — stale
+again (last post Oct 5, the "Mr. Epstein" post from last session not re-confirmed — not yet
+heal-owed, single session). Backreaction — returned empty this session (0 entries parsed,
+single-session anomaly, not yet heal-owed). Woit's feed failed again this session (`curl` HTTP
+000, `WebFetch` 503) — `tvly` quota-exhausted, no fallback available this session; 3rd
+consecutive-ish failure mode variant, flagged for the weekly's heal-worklist. **Scientific
+American — TWO fresh Oct 27 articles chased in full via `WebFetch`** (the `tvly`-based access
+method is unavailable mid-session; found via a direct guess at the mathematics-section landing
+page): "Dueling proofs from OpenAI and Anthropic astound scientists" (opened cleanly, folded into
+both the Yang-Mills and ETH-refutation trends — named-expert quotes from Bauerschmidt, Impagliazzo,
+Paturi, Williams, Sussman) and "OpenAI just scooped mathematicians' work on another million-dollar
+problem" (404'd on the guessed article-slug URL this session — the Kakeya/#079 framing was
+recovered secondhand via the other article's content instead; chase the correct URL next session).
+Exploration slot (radar-explore, OFF-AXIS rotation): q-bio.PE — 50 most-recent entries scanned
+regardless of sub-topic, all routine population-ecology/phylogenetics/epidemiology modeling, 0
+catch (off-axis rate 0 this run, non-alarm per domain cadence; next: nlin.SI). Self-heals: CERN
+Courier and Fermilab both RECOVERED this session (see SOURCES.md) — neither was yet heal-owed, so
+not a formal heal, but logged as resolved transients. Trend recalibration (radar-ledger-update):
+THREE new seed trends (CFSG-in-Lean; Morgan-Mullen conjecture; Bialostocki-Lotspeich conjecture) +
+evidence/notes added to THREE existing trends (OpenAI mass-disclosure — Scientific American
+cross-reference, last_evidence 2026-10-26→2026-10-27; Yang-Mills claim — Scientific American
+evidence line + note, last_evidence 2026-10-26→2026-10-27; ETH-refutation — Scientific American
+evidence line + two exposition-paper notes, last_evidence 2026-10-26→2026-10-27). Queue: 428→436
+net (8 new below-bar items: Lv-Koolen eigenvalue bound, Brualdi-Goldwasser question, Rule 30
+progress, Sun's supercongruence, Bergeron's conjecture, Generalized Vanishing Conjecture,
+elliptic-curve torsion/rank record, Gaussian-boson-sampling hiding conjecture; two ETH-exposition
+papers folded into that trend's notes, not queued separately).
+study_shelf: +1 (CFSG in Lean). Dormancy probe: no trend newly crosses the 60-day quiet threshold
+beyond the standing backfill-precedent exemptions; no moves. capture-leak: 5 ids checked (named in
+reports/2026-10-26.md, reports/2026-10-27.md) / 0 missing, all confirmed present in TRENDS.md;
+today's own new ids self-routed on creation (verified by grep). README.md regenerated from the
+updated ledger in the same commit; SUMMARY.md overwritten with today's results digest. Standing
+flags carried forward: TRENDS.md now at 56 trends (today's 3 new landmark seeds individually
+justified per the domain-cadence bar; the weekly's total-trend-count-control question from 10-27
+remains open); observation_queue well past the ~40 soft cap (437, domain-cadence-expected, not
+burned down this run); NEW FLAG for tomorrow and the weekly, TOP PRIORITY (carried forward and
+sharpened): chase the Yang-Mills/QCD claim's actual manuscript/Lean-proof availability and the
+Gross-led panel's progress; LOCATE the Alpöge-Sussman independent Yang-Mills effort's repository
+(confirmed real and active via Scientific American this session, still no URL — a targeted
+WebSearch this session found nothing); chase the Impagliazzo/Paturi/Williams ETH review (now
+confirmed to include a dedicated conference, per Scientific American); chase ANY statement from
+Richard Lyons or Ronald Solomon themselves on the CFSG-in-Lean claim, and any independent
+rebuild/verification attempt of AxiomMath's Lean codebase; re-fetch the correct URL for
+Scientific American's "OpenAI just scooped mathematicians' work on another million-dollar
+problem" (guessed slug 404'd this session); re-check agmai.org/vals.ai/cims.nyu.edu/ahmath.org
+directly (skipped this session, time budget, folded into other checks).

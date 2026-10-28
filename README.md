@@ -1,28 +1,30 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-53-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-434-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--27-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-56-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-436-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--28-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-26):** the single highest-magnitude claim this radar has ever logged, plus a dueling complexity-theory claim and two more landmark human proofs.
-- [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion): an [announced, not-yet-public proof](https://openai.com/index/building-scientific-understanding-with-academic-communities/) of Yang–Mills existence and a QCD/Standard-Model completion — a Clay Millennium Prize Problem if the mass-gap scope holds; see Peter Woit's critical [same-day read](https://www.math.columbia.edu/~woit/wordpress/?feed=rss2).
-- [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic): two AI labs each publish a Lean-checked claim refuting the Exponential Time Hypothesis the same week — [Anthropic](https://github.com/anthropics/formal-math/blob/main/eth), [OpenAI](https://github.com/openai/math) — under review by ETH's own original authors.
-- [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko): [Martin Balko](https://arxiv.org/abs/2610.34444) independently simplifies OpenAI's claimed proof of this 60-year-old crossing-number conjecture.
-- [Golomb–Welch](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) and [Erdős–Nicolas–Sárközy](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) conjectures resolved — two ordinary (non-AI) human proofs of named open problems, by [Chen–Huang–Luo](https://arxiv.org/abs/2610.34291) and [Wang–Yang](https://arxiv.org/abs/2610.34372).
+**Since last scan (2026-10-27):** the biggest single catch this ledger has logged for formalized mathematics, plus two more named-conjecture resolutions and mainstream-press corroboration of the week's dueling AI claims.
+- [CFSG formalized in Lean](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath): AxiomMath's [claimed complete Lean 4 proof](https://cfsg.axiommath.ai/) of the Classification of Finite Simple Groups ("the Enormous Theorem"), ~43.1M lines, surfacing and repairing a genuine gap in the published Unbalanced Group Theorem proof — EXTREME caution, a brand-new self-published organization with no outside verification yet.
+- Two more named conjectures resolved by ordinary human mathematics: the 29-year-old [Morgan–Mullen conjecture](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) ([Hellwig](https://arxiv.org/abs/2610.36534), Lean-formalized) and the 33-year-old [Bialostocki–Lotspeich conjecture](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) ([Wang–Zeng](https://arxiv.org/abs/2610.37125)).
+- [Scientific American](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) corroborates the dueling OpenAI/Anthropic ETH-refutation claims and the Yang–Mills claim's verification difficulty, naming the experts (Impagliazzo, Paturi, Williams, Bauerschmidt, Sussman) now examining each.
 
 ## Trends
 
-🚀 2 · 📈 2 · 🌱 48 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🚀 2 · 📈 2 · 🌱 51 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-10-20](https://scipost.org/SciPostPhysCore.9.4.069) |
-| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26563) |
+| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2512.17718) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-10-14](https://arxiv.org/abs/2610.20995) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
-| [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) | 🌱 seed | [2026-10-26](https://github.com/anthropics/formal-math/blob/main/eth) |
-| [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-10-26](https://openai.com/index/building-scientific-understanding-with-academic-communities/) |
-| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-25](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
+| [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-27](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
+| [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
+| [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
+| [CFSG formalized in Lean](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) | 🌱 seed | [2026-10-27](https://hexagonmath.org/2610.00575) |
+| [Morgan–Mullen conjecture resolved](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.36534) |
+| [Bialostocki–Lotspeich conjecture resolved](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37125) |
 | [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34444) |
 | [Golomb–Welch conjecture resolved](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34291) |
 | [Erdős–Nicolas–Sárközy conjecture resolved](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34372) |
@@ -53,25 +55,30 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [GW231123 black-hole merger](TRENDS.md#gw231123--the-most-massive-binary-black-hole-merger-yet-detected-ligovirgokagra) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12205) |
 | [LeBrun–Salamon conjecture proof](TRENDS.md#proof-of-the-lebrunsalamon-conjecture-quaternionic-kähler-geometry) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10410) |
 | [First thorium-229 nuclear clocks](TRENDS.md#first-operating-thorium-229-nuclear-clocks-vienna--beijing-independent-teams) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10056) |
-| [2026 Nobel Prize in Physics (Halzen/IceCube)](TRENDS.md#2026-nobel-prize-in-physics--francis-halzen--icecube-astrophysical-neutrinos) | 🌱 seed | [2026-10-06](https://www.nobelprize.org/prizes/physics/2026/press-release/) |
+| [2026 Nobel Prize in Physics (Halzen/IceCube)](TRENDS.md#2026-nobel-prize-in-physics--francis-halzen--icecube-astrophysical-neutrinos) | 🌱 seed | [2026-10-06](https://icecube.wisc.edu/category/news/feed/) |
 | [Lattice chiral-fermion Standard Model (Craig)](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) | 🌱 seed | [2026-10-06](https://arxiv.org/abs/2610.09093) |
 | [Linear Hadwiger Conjecture proof](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) | 🌱 seed | [2026-10-04](https://arxiv.org/abs/2610.05291) |
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-02](https://arxiv.org/abs/2610.01240) |
 | [The Hopf problem — S⁶ complex structure](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
 | [Positive trace gap conjecture resolved](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.29033) |
-| [Kahn-Saks / 1-3-2-3 conjecture advances](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30895) |
+| [Kahn-Saks / 1-3-2-3 conjecture advances](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30888) |
 | [Cassels–Swinnerton-Dyer for cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
 | [Ehlers–Kundt conjecture counterexample](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
 | [3D aperiodic monotile (Chair44)](TRENDS.md#a-strongly-aperiodic-monotile-in-three-dimensions-chair44-tsiokos-rapid-expert-corroboration-by-flicker-and-goodman-strauss) | 🌱 seed | [2026-09-21](https://arxiv.org/abs/2609.24779) |
 | [X(2370) glueball evidence](TRENDS.md#first-evidence-that-x2370-is-dominantly-a-glueball-besiii-collaboration) | 🌱 seed | [2026-09-01](https://arxiv.org/abs/2609.01342) |
 | [M23 inverse-Galois-problem completion](TRENDS.md#m23-realized-as-a-galois-group-over-q-completing-the-inverse-galois-problem-for-sporadic-groups-huangjacksonleepoonenprieszhang) | 🌱 seed | [2026-08-09](https://arxiv.org/abs/2608.08538) |
 | [Sum-product conjecture disproved](TRENDS.md#disproof-of-the-erdősszemerédi-sum-product-conjecture-bloomsawinschildkrautzhelezov) | 🌱 seed | [2026-05-27](https://arxiv.org/abs/2605.28781) |
-| [Erdős unit-distance disproof (OpenAI)](TRENDS.md#disproof-of-the-erdős-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://arxiv.org/abs/2605.20695) |
+| [Erdős unit-distance disproof (OpenAI)](TRENDS.md#disproof-of-the-erdős-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://cdn.openai.com/unit-distance-proof.pdf) |
 | [Graham's rearrangement conjecture resolved](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
-| [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.26364) |
+| [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.27166) |
 
 ## Worth studying
 
+- 2026-10-27; shelf-added 2026-10-28 — [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) —
+  a claimed complete Lean 4 formalization of the Classification of Finite Simple Groups, ~43.1M
+  lines, surfacing a genuine gap in the published Unbalanced Group Theorem proof; EXTREME caution
+  (new, self-published org, no independent verification yet) but a working mathematician tracking
+  the frontier should know this exists and is being discussed; see new seed trend.
 - 2026-10-26; shelf-added 2026-10-27 — [Working with academic communities to build scientific
   understanding (OpenAI)](https://openai.com/index/building-scientific-understanding-with-academic-communities/)
   — OpenAI's announced (not yet public) claimed proof of Yang–Mills existence and a QCD/Standard-
@@ -736,15 +743,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - 2026-07-02 — [An exponential improvement for Ramsey lower bounds (Ma, Shen, Xie), arXiv:2507.12926](https://arxiv.org/abs/2507.12926) — first exponential improvement over Erdős' classical 1947 probabilistic lower bound for the Ramsey number r(ℓ, Cℓ); abstract + authors/dates verified this session (v1 17 Jul 2025, v2 26 Apr 2026). This is the "Erdős method upgrade" Quanta covered 2026-06-26 (Pass 1 mis-attributed it to Sudakov, who was only quoted — corrected).
 - 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 
-
-
 ## Community pulse
 
-- A [706-point Hacker News front-page story](https://hn.algolia.com/api/v1/search?tags=front_page) ("Three new discoveries in mathematics, computer science, and physics") was today's single biggest lead, pointing to OpenAI's Yang–Mills/ETH/local-smoothing publication page.
-- [Peter Woit's blog](https://www.math.columbia.edu/~woit/wordpress/) raises a pointed mass-gap-scope question about OpenAI's Yang–Mills claim and notes an unrelated, publicly-posted independent Yang–Mills effort by Levent Alpöge and Ethan Sussman.
-- [AGMAI](https://agmai.org) published a same-day statement pressing OpenAI to release its Yang–Mills Lean formalization publicly, ironically one day after criticizing labs for designating privileged early reviewers — which OpenAI's announcement then did anyway.
+- The [Hacker News front page](https://hn.algolia.com/api/v1/search?tags=front_page) (192 points, 52 comments) carried today's single biggest lead — "Classification of Finite Simple Groups Formalized in Lean."
+- [Scientific American](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) published two fresh pieces on the OpenAI/Anthropic Yang–Mills and ETH claims, naming the named mathematicians/computer scientists now reviewing each.
 - MathOverflow, Physics Stack Exchange, and Mathstodon otherwise routine this scan; the Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue, not a per-subreddit one.
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (434 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-27](reports/2026-10-27.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (436 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-28](reports/2026-10-28.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

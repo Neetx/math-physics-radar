@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-27
+Last updated: 2026-10-28
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1320,7 +1320,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-25
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-27
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1625,6 +1625,19 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     below (same Oct 26 publication page, a THIRD, physics-side announcement) and AGMAI's same-day
     "Recommendation for Immediate Release of Yang-Mills AI Output" statement (agmai.org, opened
     directly this session) — cross-referenced there rather than duplicated here.
+  - 2026-10-28 (daily): mainstream-press corroboration of the #079 (local-smoothing/Kakeya/
+    Bochner–Riesz/Nikodym cascade) and Yang–Mills items from a NEW named-source: Scientific
+    American's Joseph Howlett, "OpenAI just scooped mathematicians' work on another
+    million-dollar problem" and "Dueling proofs from OpenAI and Anthropic astound scientists"
+    (both 2026-10-27; the first 404'd on a direct `WebFetch` re-check this session, the second
+    opened cleanly — cited in full on the Yang–Mills and ETH-refutation trends respectively) —
+    the press frames #079's Hausdorff-dimension consequence plainly as "the Kakeya conjecture in
+    every dimension," and separately reports that AGMAI (OpenAI's own organized advisory panel)
+    says OpenAI's own approach on the Yang–Mills and ETH releases CONFLICTS with AGMAI's own
+    guidance on two of the three Oct 26 results — a sharper governance criticism than AGMAI's own
+    on-site statement conveyed directly. Not given its own evidence line (cap reached); logged
+    here per capture discipline since it names and press-frames result-family #079 specifically.
+    last_evidence advances 2026-10-26 → 2026-10-27.
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -2672,7 +2685,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   citations of Balko's exposition, and any correctness caveats.
 
 ### Independent same-day AI claims refuting the Exponential Time Hypothesis (OpenAI + Anthropic)
-- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-26
+- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-27
 - what: axis-5 AI-WATCH-LANE DOMAIN-CADENCE LANDMARK, EXTRAORDINARY-CLAIM caution at the highest
   tier this ledger tracks. The Exponential Time Hypothesis (ETH, Impagliazzo–Paturi 1999-2001)
   postulates 3-SAT requires $2^{\Omega(n)}$ worst-case time; it underlies most of fine-grained
@@ -2702,6 +2715,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     — "Disproof of the Exponential Time Hypothesis" / "The Exponential Time Hypothesis is False":
     OpenAI's own repository, opened directly via `raw.githubusercontent.com` this session; states
     the Impagliazzo–Paturi–Williams independent-review plan.
+  - 2026-10-27 — https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/
+    — Joseph Howlett, "Dueling proofs from OpenAI and Anthropic astound scientists": names
+    Russell Impagliazzo and Ramamohan Paturi (UC San Diego) and Ryan Williams (MIT) as actively
+    working WITH OpenAI on the independent investigation (Williams states OpenAI will sponsor a
+    dedicated CS conference on the proof); frames the OpenAI/Anthropic claims as a direct,
+    unresolved conflict ("the article describes the result as controversial"); flags a
+    transparency gap (proprietary model, no released prompts/compute/chain-of-thought); notes
+    that refuting ETH would not automatically resolve P vs NP. Opened directly via `WebFetch`
+    this session.
 - notes: 2026-10-27 (daily, seed creation): caught via two independent lanes the same session —
   the hexagonmath.org `/rss/all` daily sweep (Anthropic's posting) and the openai/math
   `history.md` changelog check (prompted by a 706-point Hacker News front-page story linking
@@ -2712,9 +2734,20 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   claim. Watch for (top daily-chase priority): the Impagliazzo/Paturi/Williams review outcome;
   whether the two labs' algorithms are mathematically the same construction; any complexity-theory
   community reaction (Woit/Baez/Aaronson-type commentary, Hacker News/community-pulse threads).
+  - 2026-10-28 (daily): mainstream-press corroboration (Scientific American, see evidence) —
+    the Impagliazzo/Paturi/Williams review is confirmed ACTIVE (not merely announced), with a
+    dedicated conference now planned; the conflict between OpenAI's and Anthropic's claims is
+    explicitly unresolved as of this article. Two further hexagonmath.org postings this session —
+    "Some exposition of 'The Exponential Time Hypothesis Is False'" (2610.00572) and "On counting
+    satisfying assignments via polynomial separation" (2610.00574, a "preliminary exposition" of a
+    weaker $O_\varepsilon(2^{\varepsilon n})$-time qualitative form) — are third-party expository/
+    reproduction attempts at OpenAI's specific construction, not independent NEW claims; opened
+    directly via `curl` this session, logged here (not given separate evidence lines, to respect
+    the 10-item cap) as early community engagement with the mathematics itself, distinct from the
+    press/governance reaction above. last_evidence advances 2026-10-26 → 2026-10-27.
 
 ### OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion
-- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-26
+- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-27
 - what: axis-2/3 EXTRAORDINARY-CLAIM, the single highest-magnitude item this ledger has ever logged
   if confirmed: Yang–Mills existence and mass gap is one of the seven Clay Millennium Prize Problems
   (claymath.org). OpenAI's Oct 26 publication, "Working with academic communities to build
@@ -2753,6 +2786,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     session to locate and assess. Woit's post opened directly via `tvly extract` (feed URL) this
     session, not via WebFetch (the direct `curl`/`WebFetch` on this domain intermittently returns
     HTTP 000 — see `logs/strategy_notes.md`).
+  - 2026-10-27 — https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/
+    — Joseph Howlett, "Dueling proofs from OpenAI and Anthropic astound scientists" (also covers
+    the ETH-refutation trend, cross-referenced there): quotes Roland Bauerschmidt (NYU) on
+    Tadeusz Balaban's decades-old Yang–Mills papers — "there's no one who understands these
+    papers and can tell whether they're correct or not" — a named-expert, on-record statement that
+    the underlying mathematics this claim would need to build on is itself barely human-checkable,
+    independent corroboration of the vetting difficulty Woit's post already raised. Confirms (via
+    Ethan Sussman) that his and Levent Alpöge's independent from-scratch effort to complete
+    Balaban's program is STILL ONGOING and that OpenAI's announcement "appears to have beaten them
+    to it" — the effort is real and active, but still no URL located for it. Opened directly via
+    `WebFetch` this session.
 - notes: 2026-10-27 (daily, seed creation): caught via the same Hacker News front-page story and
   openai.com publication page as the ETH-refutation trend above (one Oct 26 post announces all
   three results). Held at `seed`/`low` (domain-cadence pre-referee-landmark-EVENT precedent, same
@@ -2763,6 +2807,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   whether the mass-gap is claimed, (c) the Gross/Jaffe/Douglas/Klebanov/Nekrasov panel's findings,
   (d) the Alpöge–Sussman effort's own status, (e) any Clay Mathematics Institute statement (this is
   their prize problem).
+  - 2026-10-28 (daily): mainstream-press corroboration (Scientific American, see evidence) —
+    confirms the existence-only/mass-gap-still-open scope reading already on record, adds
+    Bauerschmidt's named-expert statement on the general unverifiability of Balaban's source
+    papers, and CONFIRMS the Alpöge–Sussman effort is a real, ongoing, independent project (not
+    merely something Woit mentioned in passing) — still no repository URL located despite a
+    targeted `WebSearch` this session; remains the top standing chase item. last_evidence advances
+    2026-10-26 → 2026-10-27.
 
 ### Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)
 - stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
@@ -2794,6 +2845,97 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - notes: 2026-10-27 (daily, seed creation): caught in today's math category-rotation batch
   (keyword triage). Confidence `medium` (unrefereed preprint, standard caution). Watch for
   referee/community engagement.
+
+### Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath
+- stage: seed | confidence: low | first_seen: 2026-10-28 | last_evidence: 2026-10-27
+- what: axis-5 DOMAIN-CADENCE LANDMARK at the largest magnitude this ledger has tracked for
+  formalized mathematics. AxiomMath — a new, previously untracked AI-mathematics organization
+  (PI Letong Hong; core contributors Dean Cureton, Vasily Ilin, Bhavik Mehta, Niels Voss) —
+  states it has produced the first complete machine-checked Lean 4 proof of the Classification
+  of Finite Simple Groups: every finite simple group is cyclic of prime order, alternating
+  ($n\ge5$), one of 16 infinite families of Lie type, or one of the 26 (27 counting the Tits
+  group) sporadic groups. The original ("first-generation") proof, assembled across roughly
+  500 papers/books by ~100 mathematicians over decades under Gorenstein's organizing project,
+  had never been independently machine-checked end-to-end; the field has lived with persistent
+  doubts about its sheer length and dispersal (the historical 600-page unpublished quasithin
+  manuscript gap is the most famous close call). AxiomMath's agent-swarm effort (24 days,
+  ~43.1M lines of Lean, reportedly the largest open-source Lean project by volume) reports 34
+  "noteworthy deviations" from the published record — mostly typos/table errors — the most
+  substantial being a genuine gap in John Walter's 1986 proof of the Unbalanced Group Theorem
+  (the agents found counterexamples to a closure assertion the published proof relied on);
+  AxiomMath replaced the broken step with a new argument built on Solomon's 1976 work, in
+  consultation with CFSG's own leading living authorities, Richard Lyons and Ronald Solomon
+  (co-authors of the standard ongoing CFSG-revision project). EXTREME hype-skepticism caution —
+  a wholly new, self-published organization with no independent outside verification, of
+  either the 43.1M-line Lean build or the mathematics, as of this session; the Hacker News
+  discussion (192 points) raises the standard "how do we know the formalization itself has no
+  errors" question with no resolution offered. Track the vetting OUTCOME — whether Lyons/
+  Solomon or any independent group confirms the build and the UGT replacement — not the claim
+  itself.
+- evidence:
+  - 2026-10-27 (HN submission date; the site itself shows no explicit publication date) —
+    https://cfsg.axiommath.ai/ — AxiomMath's interactive CFSG proof-map page: states the full
+    first-generation classification, ~43.1M lines of Lean, "every logical step checked by
+    Lean's kernel," code at `github.com/AxiomMath/CFSG`. Opened directly via `WebFetch` this
+    session.
+  - 2026-10-26 — https://axiommath.ai/research/the-enormous-theorem-formalized/ — AxiomMath's
+    own announcement post: the 24-day/43.1M-line effort, the 34 deviations, the Unbalanced
+    Group Theorem gap and its Solomon-1976-based replacement (new Theorem 2.3, later shortened
+    via Remark 9.5), and consultation with Richard Lyons and Ronald Solomon. Opened directly
+    via `WebFetch` this session.
+  - 2026-10-27 (hexagonmath feed timestamp) — https://hexagonmath.org/2610.00575 — "The
+    Unbalanced Group Theorem," the accompanying paper presenting the replacement argument.
+    Opened directly via `curl` this session (title confirmed live).
+- notes: 2026-10-28 (daily, seed creation): caught via the Hacker News front page (192 points,
+  52 comments, "Classification of Finite Simple Groups Formalized in Lean") — the standout
+  catch of the day. `axiommath.ai` staged as a new discovered-source candidate in SOURCES.md
+  (first sighting, 2026-10-28). `github.com/AxiomMath/CFSG` 403'd under this session's GitHub
+  proxy-scoping — not independently opened; re-attempt via `tvly extract` next session. Watch
+  for (top daily-chase priority): any statement FROM Richard Lyons or Ronald Solomon themselves
+  (as opposed to AxiomMath's own account of consulting them); any independent rebuild/
+  verification attempt of the Lean codebase; commentary from the formal-math/group-theory
+  community (Kevin Buzzard, Thomas Hales, the Lean Zulip, group-theory blogs) once the story
+  reaches the usual digest lane — none of Tao/Woit/Kalai/Gowers/Baez had posted on this as of
+  this session (the story is hours old at run time).
+
+### Resolution of the Morgan–Mullen conjecture (completely normal primitive elements in finite fields)
+- stage: seed | confidence: medium | first_seen: 2026-10-28 | last_evidence: 2026-10-27
+- what: axis-1/axis-5 landmark: Morgan and Mullen (1996) conjectured that every finite-field
+  extension $\mathbb F_{q^n}/\mathbb F_q$ contains a primitive element that is completely normal
+  (normal over every intermediate field) — a 29-year-old named conjecture in finite-field
+  algebra with applications to coding theory and cryptography. Hellwig proves it in full (the
+  $n\le q$ case was already known, due to Garefalakis–Kapetanakis), via a structure theorem for
+  resolvent components of completely normal elements plus a finite computer-assisted check of
+  70 exceptional $(q,n)$ pairs; the same estimates also settle Hachenberger's conjectured lower
+  bound on the count of completely normal elements, and an asymptotic-independence result
+  between primitivity and complete normality. The entire argument, including every
+  computer-assisted step, is formalized in Lean 4/Mathlib. Ordinary (non-AI) human
+  mathematics; standard unrefereed-preprint caution (arXiv only as of this session).
+- evidence:
+  - 2026-10-27 (v1) — https://arxiv.org/abs/2610.36534 — Florian Hellwig, "Resolvent
+    Components of Completely Normal Elements and the Morgan-Mullen Conjecture." Abstract +
+    author verified via arXiv API this session.
+- notes: 2026-10-28 (daily, seed creation): caught in today's math category-rotation batch
+  (title-keyword triage). Confidence `medium` given the clean non-AI, Lean-formalized proof
+  with no flagged caveat in the abstract; standard unrefereed-preprint caution still applies
+  pending referee outcome.
+
+### Resolution of the Bialostocki–Lotspeich conjecture (zero-sum-subsequence enumeration)
+- stage: seed | confidence: medium | first_seen: 2026-10-28 | last_evidence: 2026-10-27
+- what: axis-1 landmark: Bialostocki and Lotspeich (1992) conjectured a lower bound on the
+  number of zero-sum $n$-subsets of a length-$\ell$ sequence over the cyclic group $C_n$ — a
+  33-year-old named conjecture in additive/zero-sum combinatorics (the Davenport-constant /
+  EGZ-theorem family). Wang and Zeng give a complete proof. Ordinary (non-AI) human
+  mathematics; standard unrefereed-preprint caution (arXiv only as of this session).
+- evidence:
+  - 2026-10-27 (v1) — https://arxiv.org/abs/2610.37125 — Guoqing Wang, Xiangneng Zeng,
+    "Enumeration of zero-sum subsequences: A proof of Bialostocki-Lotspeich conjecture."
+    Abstract + authors verified via arXiv API this session.
+- notes: 2026-10-28 (daily, seed creation): caught in today's math category-rotation batch
+  (title-keyword triage); same author (Guoqing Wang) as the already-tracked
+  Erdős–Nicolas–Sárközy resolution two days prior — noted, not treated as reducing
+  independence (a distinct conjecture/co-author pair). Confidence `medium`, standard
+  unrefereed-preprint caution.
 
 ## observation_queue
 
@@ -6859,6 +7001,40 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   https://hexagonmath.org/2610.00519v1 — a partial/conditional result toward the Riemann Hypothesis
   via Robin's inequality, NOT an unconditional resolution (per the feed's own characterization).
   UNVERIFIED this session; hexagonmath-tier caution.
+- 2026-10-27 (v1; math category-rotation batch) — Hong, Hu, Lv, "Resolving a Problem of Lv and
+  Koolen on the Smallest Eigenvalue of Distance-Regular Graphs" — https://arxiv.org/abs/2610.37010
+  — answers an open eigenvalue-bound question (not a decades-old named conjecture, below the
+  trend bar) in distance-regular-graph theory. Abstract + authors verified via arXiv API this
+  session.
+- 2026-10-27 (hexagonmath) — "The maximum Laplacian ratio of a tree: a complete answer to a
+  question of Brualdi and Goldwasser, kernel-checked in Lean" — https://hexagonmath.org/2610.00565v1
+  — resolves a specific named open question in spectral graph theory, Lean-checked. UNVERIFIED
+  this session (title/abstract-only triage); hexagonmath-tier caution.
+- 2026-10-27 (hexagonmath) — "Periodic Forcing, Echo Constraints and the Non-Periodicity of the
+  Rule 30 Centre Column" — https://hexagonmath.org/2610.00573v1 — PARTIAL progress toward
+  Wolfram's Rule 30 Prize Problem 1 (NKS Prize); the paper's own abstract states the key "Echo
+  Lemma," and with it Problem 1 itself, "remains open" — NOT a resolution, a verified partial
+  framework. Abstract opened directly via `curl` this session.
+- 2026-10-27 (hexagonmath) — "Sun's supercongruence for an Apéry-like sequence" —
+  https://hexagonmath.org/2610.00578v1 — a modular supercongruence result. UNVERIFIED this
+  session (title/abstract-only triage); hexagonmath-tier caution.
+- 2026-10-27 (hexagonmath) — "Analytic q-inequalities and a proof of Bergeron's conjecture" —
+  https://hexagonmath.org/2610.00579v1 — proves a positivity conjecture on differences of
+  Gaussian binomial coefficients, plus a Troyka-proposed strengthening. UNVERIFIED this session
+  (title/abstract-only triage); hexagonmath-tier caution.
+- 2026-10-27 (hexagonmath) — "The Generalized Vanishing Conjecture: The Two-Variable Theorem and
+  the First Failing Dimension" — https://hexagonmath.org/2610.00580v1 — claims the two-variable
+  case plus identifying the first dimension where a generalization fails. UNVERIFIED this
+  session (title/abstract-only triage); hexagonmath-tier caution.
+- 2026-10-26 (hexagonmath) — "Infinitely many elliptic curves with torsion
+  $\mathbb{Z}/2\mathbb{Z}\times\mathbb{Z}/4\mathbb{Z}$ and rank at least six" —
+  https://hexagonmath.org/2610.00586v1 — a new record/infinite family in elliptic-curve
+  rank/torsion research. UNVERIFIED this session (title/abstract-only triage); hexagonmath-tier
+  caution.
+- 2026-10-27 (Quantum journal RSS) — "Proof of hiding conjecture in Gaussian boson sampling" —
+  https://quantum-journal.org/papers/q-2026-10-27-2248/ (title opened directly via `curl` this
+  session, full text not opened) — a complexity-theoretic quantum-information conjecture, axis 4.
+  UNVERIFIED (title-only triage this session).
 
 ## source_rotation
 
@@ -6876,6 +7052,11 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-27; shelf-added 2026-10-28 — [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) —
+  a claimed complete Lean 4 formalization of the Classification of Finite Simple Groups, ~43.1M
+  lines, surfacing a genuine gap in the published Unbalanced Group Theorem proof; EXTREME caution
+  (new, self-published org, no independent verification yet) but a working mathematician tracking
+  the frontier should know this exists and is being discussed; see new seed trend.
 - 2026-10-26; shelf-added 2026-10-27 — [Working with academic communities to build scientific
   understanding (OpenAI)](https://openai.com/index/building-scientific-understanding-with-academic-communities/)
   — OpenAI's announced (not yet public) claimed proof of Yang–Mills existence and a QCD/Standard-
