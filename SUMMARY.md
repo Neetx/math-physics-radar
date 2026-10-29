@@ -1,7 +1,7 @@
-# Math-Physics Radar — 2026-10-28
+# Math-Physics Radar — 2026-10-29
 
-- **New trend** · [CFSG formalized in Lean](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) — a claimed complete Lean 4 proof of the Classification of Finite Simple Groups (claim).
-- **New trend** · [Morgan–Mullen conjecture resolved](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) — a 29-year-old finite-field algebra conjecture, Lean-formalized.
-- **New trend** · [Bialostocki–Lotspeich conjecture resolved](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) — a 33-year-old zero-sum-combinatorics conjecture.
-- **New** · [Dueling proofs from OpenAI and Anthropic astound scientists](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) — named experts now reviewing the Yang–Mills and ETH-refutation claims (→ [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)).
-- **Study pick** · [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) — the largest formal-proof effort this radar has tracked, worth knowing even unverified.
+- **New trend** · [Birkhoff–Pierce lattice order on ℂ](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-ℂ) — a 70-year-old open question on lattice orders, resolved (preprint).
+- **New** · [Skinner–Urban Iwasawa Main Conjectures counterexample claim](https://mathoverflow.net/questions/516518/) — a claimed gap in a landmark 2014 paper's reasoning (claim).
+- **New** · [Ternary polynomial relations and periods of cusp forms](https://arxiv.org/abs/2610.19309) — Ilin and Ono resolve the Bachmann–van Ittersum conjecture.
+- **New** · [Serre's conjecture on the Artin character for a regular local ring](https://hexagonmath.org/2610.00597v1) — Kisin's AI-assisted partial resolution, isolated-fixed-points case (preprint).
+- **New** · [On the diameter and distribution of Sidon sets](https://arxiv.org/abs/2610.36207) — Tao, Carter, and O'Bryant improve the bound on Erdős problem #30.

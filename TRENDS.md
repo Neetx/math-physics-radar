@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2936,6 +2936,32 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   Erdős–Nicolas–Sárközy resolution two days prior — noted, not treated as reducing
   independence (a distinct conjecture/co-author pair). Confidence `medium`, standard
   unrefereed-preprint caution.
+
+### Resolution of the Birkhoff–Pierce question on lattice-ordered fields (compatible lattice order on ℂ)
+- stage: seed | confidence: medium | first_seen: 2026-10-29 | last_evidence: 2026-10-27
+- what: axis-1 DOMAIN-CADENCE LANDMARK, an AMENDMENT-J TITLE-BLIND CATCH (found only via today's
+  mandatory full-abstract pass on math.RA, NOT title-keyword triage — the title names no
+  conjecture/theorem/proof keyword): Garrett Birkhoff and Richard S. Pierce's 1956 paper
+  "Lattice-ordered rings" posed the question of whether the complex field ℂ admits a compatible
+  lattice order (one making ℂ a lattice-ordered field) — a 70-year-old open question in ordered
+  algebraic structures. Zhengmao He gives an affirmative answer, using valuation-ring theory,
+  basis extension in infinite-dimensional vector spaces, and extension of field embeddings to
+  algebraic extensions. Single author, ordinary (non-AI) human mathematics; standard
+  unrefereed-preprint caution (arXiv only as of this session, no Lean formalization flagged).
+- evidence:
+  - 2026-10-27 (v1) — https://arxiv.org/abs/2610.37155 — Zhengmao He, "The existence of the
+    compatible lattice order on the complex field ℂ." Abstract + author verified via arXiv API
+    this session.
+- notes: 2026-10-29 (daily, seed creation): caught via today's Amendment J full-abstract pass on
+  math.RA (13 fresh entries, all read in full — continuing the rotation after math.PR→math.RT;
+  math.RA now covered) — a genuine title-blind catch validating the amendment's premise (the
+  title gives no hint of a 1956 open-question resolution). Confidence `medium` (unrefereed,
+  single author, no corroboration yet). CROSS-REFERENCE: this is the SAME 1956 Birkhoff–Pierce
+  paper ("Lattice-ordered rings") behind the already-queued "Pierce-Birkhoff conjecture is false"
+  item (observation_queue, 2026-09-09, arXiv:2609.10420) — a DISTINCT question from that same
+  paper (piecewise-polynomial representability via lattice operations, already refuted) rather
+  than a duplicate; noted for continuity, not merged. Watch for referee/community engagement from
+  the ordered-algebraic-structures subfield.
 
 ## observation_queue
 
@@ -7035,6 +7061,100 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   https://quantum-journal.org/papers/q-2026-10-27-2248/ (title opened directly via `curl` this
   session, full text not opened) — a complexity-theoretic quantum-information conjecture, axis 4.
   UNVERIFIED (title-only triage this session).
+- 2026-10-29 (MathOverflow, community-pulse) — an anonymous question claims a counterexample to
+  the REASONING in Theorem 6.5.4 of Skinner–Urban's "The Iwasawa Main Conjectures for GL(2)"
+  (Inventiones 2014) — a landmark, heavily-cited Iwasawa-theory paper — specifically a claimed
+  dimension mismatch in the isomorphism underlying Lemma 6.3.9 —
+  https://mathoverflow.net/questions/516518/ (opened directly via `curl` this session, WebFetch
+  blocked on this domain as before, see `logs/strategy_notes.md`). EXTREME CAUTION: brand-new
+  (posted hours before this session), no answer or expert response yet, single anonymous poster —
+  UNVERIFIED; a potential integrity question on an EXISTING landmark result rather than a new
+  result. Watch for: any response from Skinner, Urban, or another Iwasawa-theory specialist;
+  whether the claim survives scrutiny.
+- 2026-10-29 (arXiv math category-rotation, Wed 10-28 batch) — Kaiyi Chen, Zeyu Wang, "Gross–Prasad
+  conjecture in geometric Langlands" — https://arxiv.org/abs/2610.36377 — proves part of the global
+  Gross–Prasad conjecture for G=SO_n×SO_{n-1}, H=SO_{n-1} in the unramified de Rham geometric-
+  Langlands setting of Ben-Zvi–Sakellaridis–Venkatesh. Abstract + authors verified via arXiv API
+  this session. Below-bar (partial case of a named conjecture, inside the broader geometric-
+  Langlands program).
+- 2026-10-29 (arXiv math category-rotation, Wed 10-28 batch) — George A. Elliott, Chun Guang Li,
+  Zhuang Niu, "Classification of reduced free products of nuclear C*-algebras" —
+  https://arxiv.org/abs/2610.36459 — extends the Elliott classification program: finite/countable
+  reduced free products of unital separable nuclear UCT C*-algebras (w.r.t. faithful traces),
+  after adjoining one further algebra D, are classified by the Elliott invariant. Abstract +
+  authors verified via arXiv API this session. Below-bar (a classification-program extension, not
+  a named open conjecture).
+- 2026-10-29 (arXiv math category-rotation, Wed 10-28 batch) — Samuel J. Ferguson, Joshua Iosevich,
+  "Fuglede's conjecture holds in eight dimensions over the field with two elements" —
+  https://arxiv.org/abs/2610.36417 — proves Fuglede's conjecture (tile iff spectral) in the
+  specific finite setting of the 8-dimensional vector space over F_2; every spectral set/tile in
+  this space has a linear-subspace tiling complement. Abstract + authors verified via arXiv API
+  this session. Below-bar (a specific finite case of a famous conjecture already known false in
+  general; not the general conjecture).
+- 2026-10-29 (arXiv math category-rotation, Wed 10-28 batch) — Zhang, Xu, Li, Sarkar, Sun,
+  Viswanathan, "Agentic Swarms Discover Enhancement of Fractional Chern Insulator Gaps Beyond
+  Ideal Quantum Geometry" — https://arxiv.org/abs/2610.35934 — axis-3 condensed-matter result
+  (enhancing fractional-Chern-insulator energy gaps, relevant to anyon robustness at higher
+  temperature) obtained via MOSAIC, a multi-agent AI-swarm (Claude Opus 5.5) open-ended-discovery
+  system — AXIS-5 WATCH overlap (note the AI-assistance, track the PHYSICS result, not the
+  method). Abstract + authors verified via arXiv API this session. Below-bar single result.
+- 2026-10-29 (Quantum journal RSS) — "A Counterexample to the Optimality Conjecture in Convex
+  Quantum Channel Optimization" — https://arxiv.org/abs/2512.22863 (journal publication
+  2026-10-28) — disproves a 2021 conjecture (Coutts et al., Quantum 5, 448) on trace-distance-
+  based optimal state transformation, via an explicit 2-dimensional counterexample. Abstract
+  verified via arXiv API this session. Axis-4, below-bar (a technical, narrowly-scoped conjecture,
+  now peer-reviewed published).
+- 2026-10-29 (Terence Tao's blog, opened directly this session) — Daniel Carter, Kevin O'Bryant,
+  Terence Tao, "On the diameter and distribution of Sidon sets" — https://arxiv.org/abs/2610.36207
+  — improves the best known upper bound on the maximum size of a Sidon set in {1,...,N} (Erdős
+  problem #30), continuing a sequence of constant-factor refinements an "optimization constants"
+  repository has tracked; stems from an AlphaEvolve-assisted exploration begun on Tao's blog last
+  year (the final method does not itself use 2026-era AI tools). Abstract + authors verified via
+  arXiv API this session. Below-bar (a quantitative improvement, not a resolution of the
+  Erdős–Turán conjecture itself).
+- 2026-10-29 (hexagonmath.org /rss/all, Wed-Thu batch) — Mark Kisin (submitter), "Serre's
+  conjecture on the Artin character for a regular local ring" — https://hexagonmath.org/2610.00597v1
+  — proves the conjecture for a finite group G acting on a regular local ring A with ISOLATED
+  FIXED POINTS (positive-characteristic case credited to Abe; new contribution is mixed
+  characteristic, via equivariant deformation + Beraldo–Pippi's twisted conductor formula) — not a
+  full resolution. AI-assisted: provenance statement says GPT Astra was used extensively for the
+  proof search and first draft, with significant human checking by Kisin (a prominent arithmetic
+  geometer, Harvard). Abstract read directly via WebFetch this session; hexagonmath-tier
+  unrefereed-preprint caution applies regardless of the named author.
+- 2026-10-29 (found via AxiomMath's publications index, opened this session per Amendment M —
+  the 10-28 staging run had only opened the two triggering CFSG pages, not the org's own
+  publications index; closing that gap one day late) — Vasily Ilin, Ken Ono, "Ternary polynomial
+  relations and periods of cusp forms" — https://arxiv.org/abs/2610.19309 — resolves the
+  Bachmann–van Ittersum conjecture (ternary polynomial relations) over every field of
+  characteristic zero, identifying all homogeneous solutions and linking them to binary period
+  polynomials. Human authors (no AI-assistance flag in the abstract); listed by AxiomMath as one
+  of its own publications without further explanation. Abstract + authors verified via arXiv API
+  this session.
+- 2026-10-29 (AxiomMath publications index) — Angdinata, Lau, Ono, Swaminathan, Vemulapalli,
+  "Local Factors in the BSD Conjecture: A Unified Statistical View" —
+  https://arxiv.org/abs/2610.10243 — a statistical/distributional study of Tamagawa numbers for
+  elliptic curves over Q (limiting distributions, covariances, moment/tail bounds), not a proof or
+  disproof of BSD itself. Abstract + authors verified via arXiv API this session. Below-bar.
+- 2026-10-29 (AxiomMath publications index) — Kenny Lau / AxiomProver, "Explicit Positive Lower
+  Density for the Collatz Conjecture" — https://hexagonmath.org/2610.00249v1 — an explicit (but
+  astronomically small) positive-lower-density refinement of an earlier Collatz-trajectory-length
+  result by Lech Mazur; a density result, NOT a proof of the Collatz conjecture. AI-assisted:
+  provenance statement says AxiomProver (the AxiomMath formal system, same org behind the CFSG-in-
+  Lean claim above) autonomously produced the mathematics and its Lean formalization. Abstract
+  read directly via WebFetch this session.
+- 2026-10-29 (hexagonmath.org /rss/all) — Qiyue Tang, "A note of the Gorenstein symmetry
+  conjecture (II)" — https://hexagonmath.org/2610.00540v1 — proves the Gorenstein symmetry
+  conjecture for finite-dimensional split square-zero extensions of algebras derived-equivalent to
+  hereditary algebras — a narrow special case, not a general resolution. AI-assisted (extracted
+  from multi-turn AI conversations, adversarially AI-reviewed). Abstract read directly via WebFetch
+  this session.
+- 2026-10-29 (arXiv math category-rotation, Wed 10-28 batch) — Elżbieta Adamus, Zbigniew Hajto,
+  "The Legendre potential and the gradient case of the differential Galois criterion for the
+  Jacobian Conjecture" — https://arxiv.org/abs/2610.36736 — continues this ledger's standing
+  Jacobian-Conjecture/Keller-map cluster (observation_queue, since 2026-07): in the GRADIENT case,
+  reduces the differential-Galois criterion's n membership conditions to a single one. Ordinary
+  human mathematics, not AI-attributed. Abstract + authors verified via arXiv API this session.
+  Below-bar incremental technical progress (not itself a resolution/counterexample).
 
 ## source_rotation
 

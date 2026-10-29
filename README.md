@@ -1,17 +1,17 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-56-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-436-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--28-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-57-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-449-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--29-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-27):** the biggest single catch this ledger has logged for formalized mathematics, plus two more named-conjecture resolutions and mainstream-press corroboration of the week's dueling AI claims.
-- [CFSG formalized in Lean](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath): AxiomMath's [claimed complete Lean 4 proof](https://cfsg.axiommath.ai/) of the Classification of Finite Simple Groups ("the Enormous Theorem"), ~43.1M lines, surfacing and repairing a genuine gap in the published Unbalanced Group Theorem proof — EXTREME caution, a brand-new self-published organization with no outside verification yet.
-- Two more named conjectures resolved by ordinary human mathematics: the 29-year-old [Morgan–Mullen conjecture](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) ([Hellwig](https://arxiv.org/abs/2610.36534), Lean-formalized) and the 33-year-old [Bialostocki–Lotspeich conjecture](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) ([Wang–Zeng](https://arxiv.org/abs/2610.37125)).
-- [Scientific American](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) corroborates the dueling OpenAI/Anthropic ETH-refutation claims and the Yang–Mills claim's verification difficulty, naming the experts (Impagliazzo, Paturi, Williams, Bauerschmidt, Sussman) now examining each.
+**Since last scan (2026-10-29):** a title-blind catch from today's mandatory full-abstract pass, and a serious unverified integrity question raised against a landmark 2014 Iwasawa-theory paper.
+- [A 1956 Birkhoff–Pierce question resolved](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-ℂ): Zhengmao He answers, [affirmatively](https://arxiv.org/abs/2610.37155), the 70-year-old open question of whether the complex field ℂ admits a compatible lattice order — found only by reading full abstracts, not titles.
+- A brand-new, unverified [MathOverflow question](https://mathoverflow.net/questions/516518/) claims a counterexample to the reasoning behind Theorem 6.5.4 of Skinner–Urban's landmark "Iwasawa Main Conjectures for GL(2)" (Inventiones 2014) — no answer yet; see `observation_queue`.
+- AxiomMath's own publications index surfaced six further on-axis items this ledger hadn't captured, including Ken Ono co-authored resolutions of the [Bachmann–van Ittersum conjecture](https://arxiv.org/abs/2610.19309) and Mark Kisin's AI-assisted partial resolution of [Serre's conjecture on the Artin character](https://hexagonmath.org/2610.00597v1) — see `observation_queue`.
 
 ## Trends
 
-🚀 2 · 📈 2 · 🌱 51 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🚀 2 · 📈 2 · 🌱 52 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -25,6 +25,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [CFSG formalized in Lean](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) | 🌱 seed | [2026-10-27](https://hexagonmath.org/2610.00575) |
 | [Morgan–Mullen conjecture resolved](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.36534) |
 | [Bialostocki–Lotspeich conjecture resolved](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37125) |
+| [Birkhoff–Pierce lattice order on ℂ](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-ℂ) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37155) |
 | [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34444) |
 | [Golomb–Welch conjecture resolved](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34291) |
 | [Erdős–Nicolas–Sárközy conjecture resolved](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34372) |
@@ -745,10 +746,10 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- The [Hacker News front page](https://hn.algolia.com/api/v1/search?tags=front_page) (192 points, 52 comments) carried today's single biggest lead — "Classification of Finite Simple Groups Formalized in Lean."
-- [Scientific American](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) published two fresh pieces on the OpenAI/Anthropic Yang–Mills and ETH claims, naming the named mathematicians/computer scientists now reviewing each.
-- MathOverflow, Physics Stack Exchange, and Mathstodon otherwise routine this scan; the Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue, not a per-subreddit one.
+- A brand-new [MathOverflow question](https://mathoverflow.net/questions/516518/) claims a counterexample to the reasoning in a landmark 2014 Iwasawa-theory paper — no answer yet, unverified.
+- Hacker News front page carried no math/physics stories today; Physics Stack Exchange and Mathstodon otherwise routine.
+- The Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue, not a per-subreddit one.
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (436 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-28](reports/2026-10-28.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (449 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-29](reports/2026-10-29.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
