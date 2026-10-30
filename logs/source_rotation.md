@@ -3731,3 +3731,117 @@ directly (skipped this session, time budget, folded into other checks).
   Yang-Mills effort's repository (still not located); chase the Impagliazzo/Paturi/Williams ETH
   review; re-test Strassler's feed (possible staleness regression, see above); re-test Woit's feed
   (new SSL-cert failure mode).
+- 2026-10-30 (Fri, Pass 1, scheduled) — load-state: clone was shallow at session start;
+  `git fetch --unshallow origin main` resolved the merge-base check properly this time (3rd
+  session confirming) — `claude/modest-bohr-9415kc` and `claude/peaceful-faraday-n2ehd0` ARE
+  fully-contained ancestors of `origin/main` (no orphaned state; the shallow-clone false-positive
+  class flagged 2026-10-26 did not recur because `--unshallow` was run proactively this session
+  before concluding anything). All `radar:` commits of the last 7 days have matching reports — no
+  incomplete-run warning. `tvly` reinstalled (`pip install -q tavily-cli`) but QUOTA EXHAUSTED on
+  first use again (standing account-level limit, consistent with the last several sessions) —
+  `curl`/`WebFetch` substituted for the entire run. arXiv: used the `submittedDate`-range API
+  query directly (`search_query=(cat:X OR cat:Y...) AND submittedDate:[...]`, combined per-subject
+  OR-queries) rather than the lagging `/list/.../recent` HTML pages or the empty `rss.arxiv.org`
+  per-category feeds (both found freshly STALE/EMPTY again this session as of ~06:00 UTC — the
+  announced-listing lag persists; the direct submittedDate-range API query sidesteps it cleanly
+  and is the more reliable method going forward). Math: full 20-category set, Oct-29 UTC day
+  (383 entries), title-keyword-triaged. Physics: full 19-category set, Oct-29 UTC day (366
+  entries), title-keyword-triaged. Amendment J full-abstract pass (today's category: math.SG,
+  continuing the rotation after math.CV→math.RA; only 5 fresh entries since Oct 28, all read in
+  full) — 0 title-blind catch this session (all 5 routine technical symplectic-geometry/
+  algebraic-geometry papers). Math keyword-triage catches: Junpeng Ren, "A counterexample to the
+  pure semisimplicity conjecture" (2610.39883) — a genuine disproof of a long-standing ring-theory
+  conjecture — NEW SEED TREND; Wu-Zhang's "Kawatani–Okawa conjecture in dimensions three and four"
+  (2610.39838) and Yang's "Petty's equilateral-set conjecture in dimension five" (2610.39967) —
+  both partial/dimension-specific progress, queued below-bar. Physics keyword-triage: 0 catch
+  (routine batch; one condensed-matter "evidence for an effective gauge field" item in 4Hb-TaS2
+  checked and judged below-bar/incremental, not queued). Primary-feed sweep (radar-source-sweep):
+  CERN Courier (curl, routine — detector tech/awards), Fermilab news (curl, routine), Simons
+  Foundation (curl, routine — mostly bio/neuro; one quantum-physics researcher-profile piece,
+  no new result, not queued) all healthy/routine. Perimeter Institute and IAS both 403'd via
+  WebFetch this session (tvly quota-exhausted so no fallback attempted) — standing degraded,
+  not re-escalated (both have an established `tvly extract` healthy path, untestable today only
+  because of the quota outage, not a new site-side break). Clay Mathematics Institute — opened,
+  routine (Sept-11 Navier-Stokes announcement and Sept-23 conference recap, both already known,
+  nothing newer). LIGO (`WebFetch` on `/news`), DESI, LZ — all opened, all stale/routine, nothing
+  newer than already-tracked (GWTC-5.0 etc.). IceCube (`/category/news/feed/`, curl) — routine,
+  "Week 42" still latest. CERN `/feed/` — STILL 404 (standing, heal-owed, not re-attempted this
+  session per the 1-2/run cap). AI-watch lane: OpenAI's `history.md` (raw.githubusercontent.com)
+  — one new Oct-29 entry, a trivial Lean-namespace fix only, not queue-worthy; Oct-26 entries
+  (local-smoothing, ETH-refutation) re-confirmed already captured. Anthropic `formal-math` README
+  — opened, no new dated entry found. agmai.org — opened directly via WebFetch, newest item Oct-26
+  (already captured on the Yang-Mills trend). vals.ai/blogs — opened, newest items all AI-eval/
+  safety content, off-axis, 0 catch (the Thomson-problem thread not revisited today, no new post
+  on it). icarm.io `/feed` (curl) — opened, all items already-known (Palomar, M23, First-Proof
+  Third-Batch, etc.), 0 new. hexagonmath.org `/rss/all` (curl) — MAJOR LANE TODAY: full
+  Thu-10-29-batch read directly — Baiying Liu's Hecke-L-function zero-free-half-plane extension
+  (2610.00655, AI-assisted drafting credited to OpenAI Codex/Anthropic Claude per the page, mixed
+  human/AI text) ROUTED AS EVIDENCE onto the existing "OpenAI's claimed proof of the quasi-Riemann
+  Hypothesis" trend (5th independent effort on this sub-theme); Zeng Chunping's two papers — a
+  CONDITIONAL, author-disclaimed-non-resolution partial result on the abc conjecture (2610.00630)
+  and a THIRD independent gap-critique of Mochizuki's IUT Corollary 3.12 (2610.00646, joining
+  Scholze-Stix and the LANA project) — both queued below-bar (neither is itself a resolution); this
+  is the ledger's FIRST capture of the IUT/abc controversy at all, flagged for the weekly to assess
+  a dedicated "IUT/abc vetting status" trend given 3 independent gap-critiques now on file.
+  AxiomMath (`axiommath.ai/research/publications/`, WebFetch) — "The Unbalanced Group Theorem"
+  cross-checked and confirmed ALREADY fully captured on the CFSG trend (no duplicate); "Ternary
+  Polynomial Relations" and the Cureton-Thorner quasi-RH paper both re-confirmed already on file.
+  Community pulse (radar-pulse): MathOverflow `/feeds` (curl) — 30 recent questions, Skinner-Urban
+  counterexample thread re-confirmed already queued (no answer yet), nothing new on-axis. Hacker
+  News front page — checked, 0 math/physics stories. Physics Stack Exchange `/feeds` — routine
+  Q&A, 0 catch. Mathstodon — `public_timeline.rss` 404'd (URL may have changed; not re-tested
+  further this session, log as degraded, low priority given the historical 0-catch pattern on
+  this source). Digest/explainer blogs: Tao's "What's new" (RSS) — three items: a thin Radziwiłł-
+  talk-announcement post (re-confirmed "too thin to log," consistent with 10-23's assessment), an
+  "AI, Mathematics, Education" guest-post opinion piece (general commentary, not a result, not
+  queued per axis-5 AI-watch-not-method policy), and the already-captured Sidon-set post. Gowers —
+  one new post, pure AI-risk commentary, off-axis, not queued. Kalai — one new post ("Election Day
+  2026"), off-topic for this blog, 0 catch. Baez/n-Category Café — feed URL 404'd on both tried
+  paths (`category/feed/` and `category/index.xml`) — NEW failure mode (previously routine), flag
+  for next session to find a working URL before escalating to heal-owed. Woit — FAILED again via
+  both `curl` (connection failure) and `WebFetch` (503) — 3rd+ consecutive degraded session,
+  already on the weekly's heal-worklist, not re-escalated. Strassler — RECOVERED, feed now shows
+  the previously-missing "The Physicists and Mr. Epstein" post (confirms the 10-29 staleness
+  regression was transient, resolving the flag from yesterday); content itself off-axis (not a
+  physics-research post). Hossenfelder (Atom) — one NOTABLE item: "Large Hadron Collider Sees
+  Extra Dimension, Physicists Claim" (2026-10-28) reports an anonymous claim by "two physicists in
+  France" of an anomalous heavy-particle signal, but names no authors/paper/institution and links
+  to none; INSPIRE-HEP and arXiv keyword searches this session found no matching candidate —
+  queued UNVERIFIED (secondary-source-only, no primary located) rather than cited as evidence,
+  flagged for next session to keep searching. Quanta — one item checked (EHT retrospective
+  podcast, no new result, not queued), 0 catch otherwise. Scientific American — not
+  independently re-checked this session (folded into the AxiomMath checks above; its one named
+  item, the Ramanujan-equations piece, is already-tracked). GitHub watch (radar-repo-watch):
+  lean4 `releases.atom` (WebFetch) — v4.36.0-rc2 still latest (Oct 27, routine, no new release);
+  Rocq `releases.atom` (WebFetch) — still 9.3.0 (no new release); mathlib4 — routine daily-tag
+  cadence, not queued per the standing note. `openai/math/history.md` and
+  `anthropics/formal-math/README.md` — both opened via `raw.githubusercontent.com`, see AI-watch
+  notes above. Exploration slot (radar-explore, OFF-AXIS rotation): econ.TH — 20 most-recent
+  entries scanned regardless of sub-topic (Oct 26-29 batch), all routine economics/game-theory
+  papers including one "answer to an open question in intergenerational equity" judged off-axis
+  (social-choice economics, not this radar's math/physics axes) — 0 catch, off-axis rate 0 this
+  run (non-alarm per domain cadence; next: math.OC or nlin.CD). Self-heals: none attempted this
+  session (no `degraded:` marker crossed the heal-owed bar beyond the already-escalated CERN
+  `/feed/`, Woit, and now Baez clusters — capped at 1-2/run, none ripe). Trend recalibration
+  (radar-ledger-update): ONE new seed trend (pure semisimplicity conjecture counterexample,
+  2610.39883) + ONE new evidence line on an existing trend (quasi-Riemann Hypothesis, Baiying Liu's
+  Hecke-L-function result) + 5 below-bar items added to `observation_queue` (Kawatani-Okawa
+  partial, Petty dim-5 partial, the abc-conjecture conditional partial, the IUT Corollary-3.12 gap
+  critique, the unverified LHC-extra-dimension claim). Queue: 449→454 net. study_shelf: +0
+  (nothing today rose to "must-know artifact" beyond what the new trend/queue entries already
+  cover). Dormancy probe: scanned all `last_evidence` dates ledger-wide; the handful reading
+  2026-02/05/07/08 are the standing backfill-precedent exemption (first_seen close to today citing
+  an old primary, re-verified this session by checking first_seen against last_evidence for each —
+  not newly-silent trends); the Stanley-Gasharov trend is already correctly staged `dormant`; no
+  trend newly crosses the 60-day quiet threshold. Convergence check: no NEW observation_queue
+  sub-theme reached 3 independent groups this session (the IUT/abc 3-gap-critique cluster was
+  judged NOT a same-wave convergence — the critiques span 2018-2026 — flagged for the weekly
+  instead of auto-promoted). capture-leak: 4 ids checked (named in reports/2026-10-28.md,
+  reports/2026-10-29.md) / 0 missing; today's own 6 new ids self-routed on creation (verified by
+  grep, all present). README.md regenerated from the updated ledger in the same commit; SUMMARY.md
+  overwritten with today's results digest. Standing flags carried forward: TRENDS.md now at 58
+  trends; observation_queue well past the ~40 soft cap (454, domain-cadence-expected, not burned
+  down this run); NEW FLAGS for tomorrow: find a working Baez/n-Category-Café feed URL; keep
+  searching for the LHC extra-dimension claim's primary paper; watch the Skinner-Urban
+  MathOverflow thread; the weekly should assess the IUT/abc gap-critique cluster for trend
+  promotion; re-test Woit's feed (standing, 3rd+ consecutive failure).

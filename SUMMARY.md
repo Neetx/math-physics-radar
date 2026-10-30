@@ -1,7 +1,5 @@
-# Math-Physics Radar — 2026-10-29
+# Math-Physics Radar — 2026-10-30
 
-- **New trend** · [Birkhoff–Pierce lattice order on ℂ](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-ℂ) — a 70-year-old open question on lattice orders, resolved (preprint).
-- **New** · [Skinner–Urban Iwasawa Main Conjectures counterexample claim](https://mathoverflow.net/questions/516518/) — a claimed gap in a landmark 2014 paper's reasoning (claim).
-- **New** · [Ternary polynomial relations and periods of cusp forms](https://arxiv.org/abs/2610.19309) — Ilin and Ono resolve the Bachmann–van Ittersum conjecture.
-- **New** · [Serre's conjecture on the Artin character for a regular local ring](https://hexagonmath.org/2610.00597v1) — Kisin's AI-assisted partial resolution, isolated-fixed-points case (preprint).
-- **New** · [On the diameter and distribution of Sidon sets](https://arxiv.org/abs/2610.36207) — Tao, Carter, and O'Bryant improve the bound on Erdős problem #30.
+- **New trend** · [Pure semisimplicity conjecture counterexample](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory) — Junpeng Ren refutes a long-standing ring-theory conjecture (preprint).
+- **New** · [An improved zero-free half-plane for Hecke L-functions](https://hexagonmath.org/2610.00655v1) — broader zero-free region for every number field (→ [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78)).
+- **New** · [An Integral-Structure Inflation in the Hull Operation of IUT Corollary 3.12](https://hexagonmath.org/2610.00646v1) — a third independent gap critique of Mochizuki's abc-conjecture proof (preprint).

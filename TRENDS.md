@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-29
+Last updated: 2026-10-30
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1774,7 +1774,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     published/final LVK paper, same title/result). Low materiality, no change to `last_evidence`.
 
 ### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
-- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-21
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-30
 - what: axis-1 DOMAIN-CADENCE LANDMARK, PROMOTED out of prose: one specific result-family (#003)
   inside the already-tracked OpenAI mass-disclosure release (2026-10-06, 722 manuscripts) had sat
   named only in that trend's `what` text since 2026-10-07 — a capture-leak by this ledger's own
@@ -1813,6 +1813,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     10-13. Still not a full independent re-derivation from scratch nor a referee report; confidence
     held at `medium` pending a fuller read of whether Kerr's simplification is self-contained or
     leans on OpenAI's own lemmas.
+  - 2026-10-30 (daily, found via hexagonmath.org's `/rss/all` feed, opened directly) — A FIFTH
+    independent effort on this sub-theme: Baiying Liu, "An improved zero-free half-plane for Hecke
+    L-functions over number fields and Quasi-Riemann Hypothesis" —
+    https://hexagonmath.org/2610.00655v1 (v1, 2026-10-29) — proves $\Re s>B^*$ (an explicit algebraic
+    constant, $B^*\approx0.87447$) is zero-free for EVERY finite-order Hecke L-function over ANY
+    number field, generalizing Cureton–Thorner's Dedekind-zeta-only result above to the full Hecke
+    L-function class, at a cost of a slightly weaker constant than either OpenAI's 7/8 or
+    Cureton–Thorner's 31/32. Page states the text mixes human-written and AI-generated material
+    (OpenAI Codex + Anthropic Claude credited for drafting/reference-checking/auditing) — per this
+    ledger's axis-5 AI-watch policy, the mathematical RESULT is tracked, not the AI-assistance
+    itself. Unrefereed preprint — claim; not independently assessed for correctness this session.
 - notes: 2026-10-13 (daily, seed creation/promotion): caught via today's MathOverflow sweep — two
   fresh threads (2026-10-12), Benjamin Durkan proposing a Polymath-type verification project ("the
   proof proffered by OpenAI is quite opaque... it would be beneficial for humans to break down the
@@ -2962,6 +2973,24 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   paper (piecewise-polynomial representability via lattice operations, already refuted) rather
   than a duplicate; noted for continuity, not merged. Watch for referee/community engagement from
   the ordered-algebraic-structures subfield.
+
+### A counterexample to the pure semisimplicity conjecture (ring theory)
+- stage: seed | confidence: medium | first_seen: 2026-10-30 | last_evidence: 2026-10-30
+- what: axis-1 DOMAIN-CADENCE LANDMARK, found via today's math category-rotation title-triage
+  (title carries the explicit "counterexample" keyword). The pure semisimplicity conjecture (a
+  long-standing open problem in ring theory: every right pure-semisimple ring is of finite
+  representation type) is refuted: Junpeng Ren constructs a division-ring extension $H\subseteq T$
+  where the bimodule ${}_HT_T$ has right dimension sequence $(1,2,2,2,\dots)$ and $T$ is
+  infinite-dimensional as a left $H$-space, giving a right pure-semisimple ring that is NOT of
+  finite representation type. Single author, ordinary (non-AI) human mathematics; standard
+  unrefereed-preprint caution (arXiv only as of this session, zero hours old, no corroboration).
+- evidence:
+  - 2026-10-29 (v1) — https://arxiv.org/abs/2610.39883 — Junpeng Ren, "A counterexample to the
+    pure semisimplicity conjecture." Abstract + author verified via arXiv API this session.
+- notes: 2026-10-30 (daily, seed creation): caught in today's math category-rotation title-triage
+  batch (math.RA). Confidence `medium` (single author, brand-new, no referee/community engagement
+  yet — standard unrefereed-preprint caution for a disproof of a decades-old named conjecture).
+  Watch for ring-theory community response.
 
 ## observation_queue
 
@@ -7155,6 +7184,44 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   reduces the differential-Galois criterion's n membership conditions to a single one. Ordinary
   human mathematics, not AI-attributed. Abstract + authors verified via arXiv API this session.
   Below-bar incremental technical progress (not itself a resolution/counterexample).
+- 2026-10-30 (arXiv math category-rotation, Thu 10-29 batch) — Dongjian Wu, Nantao Zhang, "The
+  Kawatani–Okawa conjecture in dimensions three and four" — https://arxiv.org/abs/2610.39838 —
+  proves smooth projective 3- and 4-folds with no nontrivial semiorthogonal decomposition have nef
+  canonical divisor, confirming the conjecture in these dimensions only (not the general case).
+  Abstract + authors verified via arXiv API this session. Below-bar partial progress.
+- 2026-10-30 (arXiv math category-rotation, Thu 10-29 batch) — Kaiwen Yang, "Petty's
+  equilateral-set conjecture in dimension five" — https://arxiv.org/abs/2610.39967 — proves every
+  5-dimensional real normed space contains 6 equidistant points, extending Petty's/Makeev's dim-3/4
+  results by one more dimension (general n-dimensional case remains open). Abstract + authors
+  verified via arXiv API this session. Below-bar partial progress, incremental sequence.
+- 2026-10-30 (hexagonmath.org `/rss/all`, opened directly) — Zeng Chunping, "A lattice-theoretic
+  approach to the abc conjecture: Weighted arithmetic derivatives, a master inequality, and the
+  structure of the residual family" — https://hexagonmath.org/2610.00630v1 (v1, 2026-10-28/29) —
+  a CONDITIONAL partial result (limsup q≤2 under an explicit unproven gap hypothesis; unconditional
+  only for the special case a+b=r^e); the author explicitly states "no claim of a proof of the abc
+  conjecture is made" and that the full conjecture is "structurally unreachable inside this
+  framework." Below-bar by its own author's framing. Abstract read directly via WebFetch this
+  session.
+- 2026-10-30 (hexagonmath.org `/rss/all`, opened directly) — Zeng Chunping, "An Integral-Structure
+  Inflation in the Hull Operation of IUT Corollary 3.12" — https://hexagonmath.org/2610.00646v1
+  (v1, 2026-10-29) — identifies a THIRD independent gap claim in the step from Mochizuki's IUT
+  Theorem 3.11 to Corollary 3.12 (the step IUT needs to derive the abc conjecture), alongside the
+  established Scholze–Stix critique (2018) and a compatibility gap reported by the "LANA project"
+  — argues the hull-operation's integral-structure inflation grows doubly-exponentially and alone
+  would block Corollary 3.12 regardless of the other two gaps. Author states "this paper is not a
+  verdict on IUT." No independent IUT/abc trend exists yet on this ledger (first capture of this
+  long-running controversy) — flagged for the weekly to assess whether 3 independent gap-critiques
+  (Scholze-Stix, LANA, this one) now clear the convergence bar for a dedicated "IUT/abc vetting
+  status" trend. Abstract read directly via WebFetch this session.
+- 2026-10-30 (community pulse, Hossenfelder's "Backreaction" blog/video, 2026-10-28) — UNVERIFIED,
+  no primary located: "Large Hadron Collider Sees Extra Dimension, Physicists Claim" reports that
+  "two physicists in France say they have spotted something odd in data from the Large Hadron
+  Collider" (a heavy-particle signal suggestive of an extra spatial dimension), but the post names
+  no authors, institution, or paper, and contains no link to one; INSPIRE-HEP and arXiv
+  (hep-ph/hep-ex, keyword + recent-date searches) this session found no matching candidate paper.
+  Secondary-source-only per the hard rules — cannot cite as evidence until the primary is located.
+  Flagged for next session: re-check INSPIRE/arXiv and other physics-news outlets for the
+  underlying paper/preprint.
 
 ## source_rotation
 

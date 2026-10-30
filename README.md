@@ -1,17 +1,17 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-57-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-449-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--29-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-58-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-454-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--30-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-29):** a title-blind catch from today's mandatory full-abstract pass, and a serious unverified integrity question raised against a landmark 2014 Iwasawa-theory paper.
-- [A 1956 Birkhoff–Pierce question resolved](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-ℂ): Zhengmao He answers, [affirmatively](https://arxiv.org/abs/2610.37155), the 70-year-old open question of whether the complex field ℂ admits a compatible lattice order — found only by reading full abstracts, not titles.
-- A brand-new, unverified [MathOverflow question](https://mathoverflow.net/questions/516518/) claims a counterexample to the reasoning behind Theorem 6.5.4 of Skinner–Urban's landmark "Iwasawa Main Conjectures for GL(2)" (Inventiones 2014) — no answer yet; see `observation_queue`.
-- AxiomMath's own publications index surfaced six further on-axis items this ledger hadn't captured, including Ken Ono co-authored resolutions of the [Bachmann–van Ittersum conjecture](https://arxiv.org/abs/2610.19309) and Mark Kisin's AI-assisted partial resolution of [Serre's conjecture on the Artin character](https://hexagonmath.org/2610.00597v1) — see `observation_queue`.
+**Since last scan (2026-10-30):** a decades-old ring-theory conjecture refuted, and the ledger's first capture of the long-running IUT/abc-conjecture controversy.
+- [A counterexample to the pure semisimplicity conjecture](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory): Junpeng Ren [refutes](https://arxiv.org/abs/2610.39883) the long-standing conjecture that every right pure-semisimple ring has finite representation type.
+- A third independent gap critique of [Mochizuki's IUT Corollary 3.12](https://hexagonmath.org/2610.00646v1) joins the established Scholze–Stix critique and the LANA project report — see `observation_queue`.
+- [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) gets a fifth independent effort: Baiying Liu's [broader zero-free half-plane for Hecke L-functions](https://hexagonmath.org/2610.00655v1) over every number field.
 
 ## Trends
 
-🚀 2 · 📈 2 · 🌱 52 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🚀 2 · 📈 2 · 🌱 53 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -19,6 +19,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2512.17718) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-10-14](https://arxiv.org/abs/2610.20995) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-30](https://hexagonmath.org/2610.00655v1) |
+| [Pure semisimplicity conjecture counterexample](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory) | 🌱 seed | [2026-10-29](https://arxiv.org/abs/2610.39883) |
 | [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-27](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
 | [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
 | [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
@@ -32,7 +34,6 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Propeller Conjecture resolved](TRENDS.md#resolution-of-the-propeller-conjecture-khotnaor-2008-openai-claim--independent-human-simplification-heilman) | 🌱 seed | [2026-10-23](https://arxiv.org/abs/2610.32158) |
 | [Simon's L² conjecture disproved](TRENDS.md#disproof-of-barry-simons-l²-conjecture-schrödinger-operator-spectral-theory-llm-assisted) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.31637) |
 | [Gauss–Fourier conjecture resolved](TRENDS.md#resolution-of-the-gaussfourier-conjecture-critical-points-of-rational-functions) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.30620) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-21](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) |
 | [Percolation-criticality (Claude & OpenAI)](TRENDS.md#ai-claimed-resolution-of-the-percolation-criticality-conjecture-benjaminischramm-claude-and-openai-independently) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30063) |
 | [Hochster/ESW Ulrich-bundle disproof](TRENDS.md#disproof-of-hochsters-small-cohen-macaulay-conjecture--negative-resolution-of-the-eisenbud-schreyer-weyman-ulrich-bundle-question) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30027) |
 | [MDS conjecture (even characteristic)](TRENDS.md#resolution-of-the-linear-mds-conjecture-in-even-characteristic-coding-theory) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.28208) |
@@ -746,10 +747,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- A brand-new [MathOverflow question](https://mathoverflow.net/questions/516518/) claims a counterexample to the reasoning in a landmark 2014 Iwasawa-theory paper — no answer yet, unverified.
-- Hacker News front page carried no math/physics stories today; Physics Stack Exchange and Mathstodon otherwise routine.
+- A [Hossenfelder post](https://backreaction.blogspot.com/2026/10/large-hadron-collider-sees-extra.html) reports an anonymous claim of an LHC extra-dimension anomaly by unnamed French physicists — no primary paper located yet, unverified.
+- The Skinner–Urban Iwasawa-theory [counterexample question](https://mathoverflow.net/questions/516518/) on MathOverflow still has no answer.
+- Hacker News front page carried no math/physics stories today; Physics Stack Exchange otherwise routine.
 - The Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue, not a per-subreddit one.
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (449 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-29](reports/2026-10-29.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (454 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-30](reports/2026-10-30.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
