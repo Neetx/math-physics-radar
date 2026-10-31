@@ -381,3 +381,52 @@ routing-leak n`.
   recorded in SOURCES.md). Amendment K laureate checklist: all 5 tracked prizes reconfirmed
   present, nothing to close. No monthly retrospective due (date 24 > 7). Amendments L/M: see
   Self-amendment section of `reports/weekly/2026-W43.md`.
+- 2026-10-31 — W44: queue +40 (417→457: 37 daily + 3 this weekly's capture-leak/discovery
+  queues)/→0 promoted this week (no queue cluster reached the 3-group convergence bar; the
+  IUT/abc 3-critique cluster assessed and correctly NOT promoted — 2/3 sources lack an
+  independently-opened primary)/−0 dropped (Amendment H: below-bar items persist, not burned
+  down) · evidence/moves: 10↑ new seed trends this week (48→58: Vaught's, Propeller, Yang-Mills,
+  ETH-refutation, Harary-Hill, Golomb-Welch, Erdős-Nicolas-Sárközy, CFSG-Lean, Morgan-Mullen,
+  Bialostocki-Lotspeich, Birkhoff-Pierce, pure-semisimplicity-counterexample — note: dailies
+  logged 12 "NEW SEED" lines but 2 pairs landed as same-day bundled headers, net +10 `### `
+  count) + updates to 6 existing trends via this session's Amendment I/G passes (Ramsey +2
+  evidence/10 groups, Non-invertible symmetries last_evidence advance, monotile last_evidence
+  advance, Kahn-Saks last_evidence advance, Hochster/ESW version note, quasi-RH version note,
+  Smale's-6th version note, OpenAI mass-disclosure +1 institutional-statement note) · 0↓ (no
+  demotions/archivals; Stanley-Gasharov's archive line, ~2026-11-26, not yet due) · exploration
+  5/5 (100%) · off-axis 0/5 logged this week (non-alarm per domain cadence) · lag: 9/10 new
+  trends this week were FRESH (same-day-ish) captures; 1/10 backfill (Vaught's, 16 days) — 10%
+  backfill rate, down sharply from W42's 36%/W43's 30% (two-week improving trend, not yet
+  3 weeks) · coverage: DAILY tier ~30+/run all 5 dailies, 0 reported missing; WEEKLY-SWEPT tier
+  21/21 attempted this session (9 institutes + 3 slow venues + 5 low-yield social + 4
+  previously-tracked prizes) — opened cleanly: IHES, MPIM Bonn, Fields Institute, KITP, Clay,
+  Breakthrough/Shaw/IMU prize pages (NEW CATCH: Ramanujan Prize 2026, a 6th prize, listing gap
+  closed); healed via `curl` fallback: Isaac Newton Institute (NEW CATCH: INI director's
+  OpenAI-722-results statement, 24-day backfill), Physics SE (0 catch, but CONFIRMED the
+  StackExchange-family WebFetch block extends beyond MathOverflow); still degraded with NO
+  fallback this session (tvly quota-exhausted throughout, a structural single-point-of-failure
+  for the tvly-dependent institutes): SLMath (4th consecutive weekly), Perimeter, IAS, AMS
+  Notices; Abel Prize connection-reset (transient); reddit ×4 still domain-wide blocked (no
+  change) · routing-leak 0 (no on-axis queue item found hoarded against an existing trend's
+  axis this session) · capture-leak (mandatory weekly full-ledger sweep, not a sample): 79
+  notes-field ids checked across all 58 trends / 2 found and queued (2609.23540, 2610.30976);
+  15 other notes-only candidates verified already-captured (cap-rotation history, dense
+  notes-embedded citations, or hexagonmath.org's own non-arXiv numbering colliding with the
+  arXiv-id regex) · src-disc: axiommath.ai PROMOTED (2 sightings, lat 3d: staged 10-28→promoted
+  10-31) + Ramanujan Prize listing-gap closed (same class as the 10-07 Nobel-Physics gap);
+  mathcommunity/oai-math-revised and mathhelm.org held below bar (1 sighting each, no
+  recurrence this week). Amendment G citation-chase (Ramsey trend's Bradač anchor, 14 citing
+  papers): 2 new independent groups found (Verbeken, Kandasamy-Chou-Segal — group count 8→10),
+  5 same-author-portfolio escalations correctly excluded. Amendment I version-history spot-check:
+  FULL-LEDGER pass this week (all 135 active-trend evidence ids batch-queried via the arXiv API
+  in one session, vs. prior weeks' 31-44-id samples) — 10 genuine silent revisions found across 6
+  trends (one, 2605.25843, had been missed by BOTH the W41 and W42 passes), 3 advanced
+  last_evidence. Skill fix: `radar-ledger-update`'s W34 heal had itself introduced a wrong claim
+  about the `## observation_queue` heading, corrected this session (verified via `git log -S`,
+  not prose memory) — see strategy_notes. Tooling: `tvly` CLI was not just quota-exhausted but
+  MISSING at session start (fresh `pip install tavily-cli` required) before immediately hitting
+  the standing quota wall — flag for the curator if this recurs, since it suggests the
+  environment itself may not persist the install across sessions. No monthly retrospective due
+  (date 31 > 7). Amendment N (proposed W43): motivating signal did NOT recur this week — HELD,
+  not applied. Regression check: Amendments J/K/L/M show no 2-consecutive-week metric
+  regression — NO ROLLBACK.

@@ -3845,3 +3845,41 @@ directly (skipped this session, time budget, folded into other checks).
   searching for the LHC extra-dimension claim's primary paper; watch the Skinner-Urban
   MathOverflow thread; the weekly should assess the IUT/abc gap-critique cluster for trend
   promotion; re-test Woit's feed (standing, 3rd+ consecutive failure).
+- 2026-10-31 — W44 weekly. WEEKLY-SWEPT tier coverage check: 9 institutes (IHES, SLMath, MPIM
+  Bonn, Fields Institute, Isaac Newton, KITP, Perimeter, IAS, Clay) + 3 slow venues (Annals of
+  Mathematics, AMS Notices, Forum of Mathematics) + 5 low-yield social (r/Physics, r/cosmology,
+  r/ParticlePhysics, r/AskPhysics, Physics SE) + 4 annual prizes (Abel, Breakthrough, Shaw,
+  IMU/Fields) all opened or attempted this session (`tvly` quota-exhausted throughout — no
+  fallback; WebFetch/curl substituted). Opened cleanly: IHES, MPIM Bonn, Fields Institute, KITP,
+  Clay, Breakthrough Prize, Shaw Prize, IMU/mathunion.org (NEW CATCH: Ramanujan Prize 2026 →
+  Mahesh Kakde, never tracked before — queued, SOURCES.md promoted). Healed via `curl` fallback
+  (WebFetch 403/empty): Isaac Newton Institute (NEW CATCH: INI director's statement on the 722
+  OpenAI results, 24-day-old capture-leak on an already-swept source — folded into the OpenAI
+  mass-disclosure trend), Physics SE (curl works, WebFetch gives the same outright "unable to
+  fetch" refusal already flagged on MathOverflow 10-26 — CONFIRMED this week to be a
+  StackExchange-family-wide WebFetch block, not MathOverflow-specific; 0 on-axis catch, 30 routine
+  entries). Still degraded, no fallback this session (tvly-quota-dependent): SLMath (4th
+  consecutive weekly, JS-shell persists), Perimeter, IAS, AMS Notices (all 403 via both
+  WebFetch and curl). Abel Prize connection-reset (transient). r/Physics/cosmology/
+  ParticlePhysics/AskPhysics re-confirmed still domain-wide reddit.com-blocked (403 via curl),
+  no change. Annals of Mathematics and Forum of Mathematics opened but show no article dates (not
+  a failure, just no "what's new since last week" signal from either page's own markup). Amendment
+  K annual-prize laureate checklist: all 5 previously-tracked prizes (Abel/Faltings,
+  Nobel-Physics/Halzen, Shaw/Candès-De Lellis, Breakthrough/muon-g-2, Fields/Deng-Pardon-
+  Tsimerman-Wang) reconfirmed present via cheap grep — nothing to close; Ramanujan Prize added
+  as a 6th tracked prize this session (see above). Amendment G citation-chase: rotated to the
+  Ramsey trend's Bradač anchor (2605.28793, 14 citing papers) — 2 new independent groups found
+  (Verbeken 2610.06081, Kandasamy-Zhou-Segal 2610.06969), 5 same-author-portfolio escalations
+  correctly excluded. Amendment I version-history spot-check: ALL 135 active-trend evidence ids
+  batch-queried via the arXiv API (full ledger coverage, not a sample) — 10 genuine new silent
+  revisions found across 6 trends (Ramsey, Non-invertible symmetries, 3D monotile, Hochster/ESW,
+  Kahn-Saks/1-3-2-3, quasi-RH, Smale's 6th), 3 of which advanced last_evidence. Capture-leak
+  mandatory weekly sweep: full-ledger notes-vs-evidence/queue cross-check (79 notes-cited ids) —
+  2 genuine leaks found and queued (2609.23540, 2610.30976); 15 other candidates verified as
+  already-captured (cap-rotated-off former evidence, dense notes-embedded citations with full
+  URL/date/context, or hexagonmath.org's own non-arXiv numbering false-matching the arXiv-id
+  regex). IUT/abc gap-critique cluster (Scholze-Stix, LANA, Zeng) assessed — NOT promoted to a
+  trend (2 of 3 sources lack an independently-opened primary on this ledger; held in queue).
+  Skill fix: `radar-ledger-update`'s W34 heal itself had introduced a wrong claim ("no standalone
+  `## observation_queue` H2") — `git log -S` confirms the heading has existed since the repo's
+  first scaffold commit; corrected this session (see strategy_notes).

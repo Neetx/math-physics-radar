@@ -13,20 +13,23 @@ structure is a contract.
 
 HEALED 2026-W34: this section previously described a sibling radar's file
 contract (an `# AI Radar` header, `### [id: slug-NNN]` trend blocks with an
-`alias` field, a standalone `## observation_queue` H2) that never matched this
-repo's actual `TRENDS.md`. Flagged 2026-08-17 (daily), healed this weekly per
-the skill-maintenance policy. The contract below now matches the real,
-established structure (2000+ lines, many prior sessions).
+`alias` field) that never matched this repo's actual `TRENDS.md`. Flagged
+2026-08-17 (daily), healed this weekly per the skill-maintenance policy.
+RE-HEALED 2026-W44: that W34 heal itself introduced a NEW mismatch — it claimed
+`## observation_queue` has no standalone H2, but `git log -S` confirms the
+heading has existed since the repo's very first scaffold commit (`b7ee2ae`,
+2026-07-02) and is present in the live file today. Corrected below to match
+the real, established structure (7000+ lines, many prior sessions) — this time
+verified against `git log`/`grep`, not just prose memory.
 
 - Header: `# Trend ledger — Math-Physics Radar`, then `Last updated: YYYY-MM-DD`,
   then the stage legend.
-- Sections, in this order: `## Active trends` (trend blocks, followed directly —
-  no sub-header — by the unheaded `observation_queue` block, introduced by the
-  line "Signals not yet promoted to a trend..."), `## source_rotation`,
-  `## strategy_notes`, `## study_shelf`, `## calibration`. There is NO standalone
-  `## observation_queue` H2 — the queue lives inside `## Active trends`; link to
-  it as `TRENDS.md#observation_queue` by convention only (README practice), not
-  a real anchor.
+- Sections, in this order: `## Active trends` (trend blocks), `##
+  observation_queue` (a real H2, introduced by the line "Signals not yet
+  promoted to a trend..."), `## source_rotation`, `## strategy_notes`,
+  `## study_shelf`, `## calibration`. Link to the queue as
+  `TRENDS.md#observation_queue` — this now IS a real anchor, not just a
+  convention.
 - `## source_rotation`, `## strategy_notes` and `## calibration` are POINTER stubs only: their real
   append-only content lives in `logs/source_rotation.md` and `logs/calibration.md`
   respectively. Keep the two stub headers (the section order is the contract) but
@@ -98,8 +101,8 @@ established structure (2000+ lines, many prior sessions).
 
 ```bash
 grep -n '^## ' TRENDS.md
-# expected, in order: Active trends, observation_queue, source_rotation, strategy_notes, study_shelf, calibration
-# (no standalone observation_queue heading — it lives inside Active trends)
+# expected, in order, all as real H2 headings: Active trends, observation_queue,
+# source_rotation, strategy_notes, study_shelf, calibration
 grep -c '^### ' TRENDS.md                # trend count matches expectations
 grep -nE '^  - [0-9]{4}-[0-9]{2}-[0-9]{2} — ' TRENDS.md | head -3   # evidence format
 grep -n '^Last updated:' TRENDS.md       # date is today

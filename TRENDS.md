@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-30
+Last updated: 2026-10-31
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -10,7 +10,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 ## Active trends
 
 ### Ramsey-number lower-bound breakthroughs (extremal combinatorics)
-- stage: accelerating | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-09-22
+- stage: accelerating | confidence: medium | first_seen: 2026-07-03 | last_evidence: 2026-10-05
 - what: A 2025–2026 wave of independent breakthroughs on Ramsey-number LOWER bounds, breaking
   decades-old barriers. Ma–Shen–Xie broke the Erdős probabilistic-method barrier for off-diagonal
   graph Ramsey numbers r(ℓ, Cℓ); Bradač then pushed the classical off-diagonal r(s,k) lower bound to
@@ -20,11 +20,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - evidence:
   - 2025-07-17 — https://arxiv.org/abs/2507.12926 — Ma, Shen, Xie, "An exponential improvement for Ramsey lower bounds": first exponential improvement over Erdős' 1947 bound for r(ℓ, Cℓ) (abstract verified this session).
   - 2026-04-27 — https://arxiv.org/abs/2604.23986 — Du, Hu, Liu, Wang, "A double-exponential lower bound for r₄(5,n)": hypergraph Ramsey, r₄(5,n) ≥ 2^{2^{cn^{1/7}}} (abstract via arXiv API this session).
-  - 2026-05-25 — https://arxiv.org/abs/2605.25843 — Lin, Niu, "Sharper Ramsey lower bounds from refined Gaussian estimates": sharpens the Ma–Shen–Xie off-diagonal bound (abstract via arXiv/tvly this session).
+  - 2026-05-25 — https://arxiv.org/abs/2605.25843 — Lin, Niu, "Sharper Ramsey lower bounds from refined Gaussian estimates": sharpens the Ma–Shen–Xie off-diagonal bound (abstract via arXiv/tvly this session; v1 2026-05-25, W44 version-history spot-check: silently revised to v2, updated 2026-07-02 — no new group/claim, same author/result, folded in for the record).
   - 2026-05-27 — https://arxiv.org/abs/2605.28793 — Bradač, "Off-diagonal Ramsey numbers": r(s,k) ≥ Ω(k^{s-1}/(log k)^{2s-4}), matching Erdős–Szekeres up to polylog, improving Spencer 1977 (abstract via arXiv API this session).
   - 2026-08-03 — https://arxiv.org/abs/2608.02537 — Steiner, "Multicolor Ramsey numbers of odd cycles are superexponential": extends a claimed OpenAI-model ("Astra") superexponential k-color triangle Ramsey lower bound (R_k(3)=k^Θ(k), OpenAI's "Ten Advances" announcement, queued below) to multicolor Ramsey numbers of fixed odd cycles, R_k(O_p) ≥ (log^{(p-1)}k)^{k/3-o(k)} for every fixed p (abstract + author via arXiv API this session, v1 2026-08-03; W41 version-history spot-check: silently revised to v2, updated 2026-09-07 — no new group/claim, same author/result, folded in for the record).
   - 2026-08-22 — https://arxiv.org/abs/2608.21769 — Ihringer, Mattheus, "An improved algebraic construction for Ramsey numbers": explicit algebraic construction giving R(s,t) ≥ t^{(1-o(1))log s/log(log s+1)} uniformly for 3≤s≤t, improving the s-dependence in the Alon–Pudlák off-diagonal construction; first explicit construction with R(s,t) ≥ t^c for fixed s and c>2 (e.g. R(33,t) ≥ t^{2.1-o(1)}), also improving the diagonal case. Abstract + authors verified via arXiv API this session (v1 2026-08-22). A SIXTH independent author group (Sam Mattheus, of the already-staged sammattheus.wordpress.com source-discovery candidate, co-authoring a primary directly on this trend for the first time).
   - 2026-09-22 — https://arxiv.org/abs/2609.26563 — Du, Hu, Liu, Wang, "The Erdős–Hajnal hypergraph Ramsey problem for r₄(6,n)": the SAME group as the trend's r₄(5,n) evidence line (2604.23986) extends their own method to prove r₄(6,n) ≥ 2^{2^{cn}} — as a consequence, CONFIRMS THE FULL Erdős–Hajnal hypergraph-Ramsey conjecture for k=4 (previously only the s≥k+3 cases were known, via Mubayi–Suk and Conlon–Fox–Sudakov). Own-group escalation, not a new independent group, but a substantially stronger result (a full named-conjecture resolution, not just a lower-bound improvement) on the same tracked sub-theme. Found via a Semantic Scholar citation chase on the trend's own Ma–Shen–Xie anchor (this week's Amendment G pass) — missed 4 days by the daily sweep (title has no obvious Ramsey-lower-bound keyword match). Abstract + authors verified via direct arXiv page this session (v1 2026-09-22).
+  - 2026-10-05 — https://arxiv.org/abs/2610.06081 — Verbeken, "Polynomial families of incident flags and explicit off-diagonal Ramsey graphs": explicit off-diagonal Ramsey graph construction from polynomial families of incident point–hyperplane flags, directly extending Bradač's construction (cites Bradač 2605.28793 by name). A NINTH independent author/group on this sub-theme. Found via this week's Amendment G Semantic Scholar citation chase on the Bradač anchor; abstract + author verified via direct arXiv page this session (v1 2026-10-05).
+  - 2026-10-03 — https://arxiv.org/abs/2610.06969 — Kandasamy, Zhou, Segal, "Improved Explicit and Algorithmic Lower Bounds for r(5,t)": explicitly modifies Bradač's construction (cites Bradač 2605.28793 by name) to give r(5,t)=Ω(t^{7/4}) and, via a Coulter–Matthews-polynomial pruning, a deterministic polynomial-time r(5,t)=Ω(t^{20/11-ε}) construction. A TENTH independent author/group on this sub-theme. Found via this week's Amendment G Semantic Scholar citation chase on the Bradač anchor; abstract + authors verified via direct arXiv page this session (v1 2026-10-03).
 - notes: ≥4 independent author groups on one sub-theme (Ma–Shen–Xie; Bradač; Du–Hu–Liu–Wang; Lin–Niu) + concrete artifacts → clears the trend bar. Community framing: Quanta ("Erdős method upgrade", 2026-06-26) and Gil Kalai / Sam Mattheus blogs ("a sensational Ramsey breakthrough by Bradač"). Ma–Shen–Xie also on `study_shelf`. Watch for referee outcomes and whether the diagonal r(k,k) barrier is next.
   - 2026-W39 recalibration (Amendment G citation-chase catch): HELD accelerating/medium; last_evidence
     advances 2026-08-22 → 2026-09-22 (Du–Hu–Liu–Wang's own r₄(6,n) full-conjecture resolution, above).
@@ -128,9 +130,29 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     error (not a revision): the W41 citation-chase note recorded Campos–Pohoata's 2601.15183 as
     "2026-01-08," but the paper's actual (single-version) date is 2026-01-21 — fixed in the
     evidence line above. Group count unchanged at 8; not promoted.
+  - 2026-W44 recalibration (Amendment I version-history spot-check, re-run): a FOURTH silent
+    revision found that both the W41 and W42 passes missed — 2605.25843 (Lin–Niu) to v2, updated
+    2026-07-02, same title/authors, predating this trend's last_evidence (2026-09-22). No new
+    group, no last_evidence change; folded into the evidence line for the record. The other seven
+    tracked preprints show no v-update beyond what prior checks already found. Group count
+    unchanged at 8; not promoted.
+  - 2026-W44 recalibration (Amendment G citation-chase, rotated to this trend's Bradač anchor,
+    2605.28793, per the W42/W43 rotation precedent): a fresh Semantic Scholar "cited by" pass (14
+    citing papers reviewed) surfaced a NINTH and TENTH independent group — Verbeken (2610.06081)
+    and Kandasamy–Zhou–Segal (2610.06969), both explicitly extending Bradač's construction by name
+    — appended as evidence above (cap now 9/10, no rotation needed); last_evidence advances
+    2026-09-22 → 2026-10-05. Five further citing papers correctly NOT counted as new groups —
+    same-author-portfolio escalations by already-tracked authors: Lin Qizhong again (2610.17891,
+    with Zhang), Bradač again (2609.37987, with Janzer–Sarkar), Ihringer again (2609.32461, with
+    Han–Van Maldeghem), Hunter–Milojević–Sudakov again (2610.03358, with Gvozdic), and Lin again
+    (2607.00732, with Dai) — logged for engagement, not independently re-queued (same-author
+    caution, consistent with the Fan–Li–Lin–Ning precedent). One (2610.15293, Kai-Zhe Chen, "a
+    note on" 2610.17891) and one off-theme upper-bound paper (2609.28075, Balko–Grinerová, already
+    tracked on the Harary–Hill trend) excluded as below-bar/off-theme. Group count now 10; not
+    promoted to `mainstreaming` (group-count/pace signal only, no standard-practice adoption).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-10-20
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-10-26
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -154,7 +176,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     group (2026-07-27 evidence, now rotated off the 10-line cap) — same author-portfolio caution as
     the Ramsey trend's Lin Qizhong case. Both papers pre-date this week (arXiv v1 2025-11/2026-01)
     but were caught only now via their SciPost publication dates — title/authors verified via the
-    arXiv API this session. DROPPED the 2026-08-19 Flores-Calderón evidence line to hold the 10-item
+    arXiv API this session (2511.18969 W44 version-history spot-check: silently revised to v2,
+    updated 2026-10-26 — same authors/result, last_evidence advanced accordingly, see note below).
+    DROPPED the 2026-08-19 Flores-Calderón evidence line to hold the 10-item
     cap (still tracked in notes/group-count history above).
   - 2026-08-24 — https://scipost.org/SciPostPhysCore.9.3.048 — Graf, Surace, Berg, Moroz, "The
     Ising dual-reflection interface: $\mathbb Z_4$ symmetry and Majorana strong zero modes": a
@@ -496,6 +520,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     the true total, a standing side-effect already noted at W42). Stage HELD accelerating/high
     (already at the confidence ceiling, no mainstreaming-tier standard-practice-adoption signal
     found). last_evidence advances 2026-09-29 → 2026-10-20.
+  - 2026-W44 recalibration (Amendment I version-history spot-check): TWO silent revisions found —
+    2511.18969 (Maity–Tripathi–Nevidomskyy) to v2, updated 2026-10-26, which POSTDATES the
+    recorded last_evidence (2026-10-20) — last_evidence advances 2026-10-20 → 2026-10-26
+    accordingly, same title/authors, no new group; and 2503.21764 (Aksoy–Wen) to v2, updated
+    2025-03-28 (one day after v1, predates last_evidence, no date impact). No new groups found on
+    either; group count unchanged at 19+. Not promoted (no mainstreaming-tier signal).
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -917,7 +947,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     `seed`/medium (still no traditional peer review on the anchor claim).
 
 ### Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)
-- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
+- stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-10-28
 - what: two companion results posted the same day resolve/advance two of order theory's most famous
   conjectures on linear extensions of posets. Max Aires proves the Kahn-Saks conjecture (1984)
   outright: sufficiently large poset width forces the balancing coefficient δ(P) arbitrarily close to
@@ -934,13 +964,19 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-09-25 — https://arxiv.org/abs/2609.30888 — Aires, Chan, Pak, Panova, "Breaking the Infinite
     Barrier in the 1/3–2/3 Conjecture": first general improvement to the balance constant since
     Brightwell-Felsner-Trotter 1995 — "the first general result towards the 1/3-2/3 conjecture in
-    over 30 years" (abstract verified via direct arXiv page this session, v1 2026-09-25).
+    over 30 years" (abstract verified via direct arXiv page this session, v1 2026-09-25; W44
+    version-history spot-check: silently revised to v2, updated 2026-10-28 — no new group/claim,
+    same author/result, folded in for the record).
 - notes: 2026-09-28 (daily, seed creation): both posted the same day by an overlapping author team
   (Aires common to both); captured via the full math category-rotation sweep (math.CO), part of the
   Monday weekend-backlog batch. Not yet an independent-multi-group DIRECTION trend (one author
   cluster) but qualifies under the domain's landmark-single-result bar (Kahn-Saks resolved outright),
   with the 1/3-2/3 progress bundled as directly related context. Unrefereed preprints — watch for
   referee outcomes and whether a second group engages with the 1/3-2/3 improvement.
+  - 2026-W44 recalibration (Amendment I version-history spot-check): 2609.30888 (Aires–Chan–Pak–
+    Panova) found silently revised to v2, updated 2026-10-28 — POSTDATES the recorded last_evidence
+    (2026-09-25); last_evidence advances 2026-09-25 → 2026-10-28 accordingly. 2609.30895 (Aires)
+    shows no v-update. Same author/result, no new group. Not promoted.
 
 ### Proof of the Cassels–Swinnerton-Dyer conjecture for smooth cubic surfaces
 - stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-09-25
@@ -1638,6 +1674,21 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     on-site statement conveyed directly. Not given its own evidence line (cap reached); logged
     here per capture discipline since it names and press-frames result-family #079 specifically.
     last_evidence advances 2026-10-26 → 2026-10-27.
+  - 2026-W44 recalibration (capture-leak catch via the WEEKLY-SWEPT institute sweep, not the daily
+    governance-commentary lanes): the Isaac Newton Institute (Cambridge) — a tracked WEEKLY-SWEPT
+    source — posted its OWN director's statement, "Statement from INI Director on 722 OpenAI
+    results" (https://www.newton.ac.uk/news/ini-news/statement-from-ini-director-on-722-openai-results/,
+    dated 2026-10-07, opened via `curl` this session after `WebFetch`/`tvly` both failed — see
+    `logs/source_rotation.md`), a FOURTH institutional voice (after AGMAI, the mathcommunity hub,
+    and Scientific American's reporting) reaffirming institutional engagement with the disclosure
+    without taking a position on specific claims. 24 days old when found — a backfill catch, this
+    time from a source that WAS on the swept list all along (unlike the Vaught's-conjecture/CFSG-
+    class misses, which came from entirely unswept channels); the gap here is that INI's own news
+    page had not been opened since this trend's creation. Not given its own evidence line (cap
+    full); logged per capture discipline. No last_evidence change (predates 2026-10-27). Also
+    found on the same page: INI's 2026-09-09 commentary on the OpenAI Navier–Stokes claim,
+    cross-referenced to the standing Navier-Stokes/Buckmaster-Alpöge authorship-dispute thread
+    (below-bar, not re-opened this session).
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -1715,7 +1766,8 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     central configurations of five bodies for all positive masses": proves finiteness of central
     configurations for every choice of 5 positive masses in the plane, completing the n=5 case of
     Smale's sixth problem (Albouy–Kaloshin 2012 had covered all but a codimension-two exceptional
-    mass set). Abstract + author verified via arXiv API this session.
+    mass set). Abstract + author verified via arXiv API this session (W44 version-history
+    spot-check: silently revised to v2, updated 2026-10-15 — no new claim, same author/result).
   - 2026-10-16 (v1) — https://arxiv.org/abs/2610.23329 — Zhe Chen, Zhicheng Tong, "Finiteness of
     planar central configurations of six bodies for all positive masses: Part I, exceptional-mass
     first limits": a DIFFERENT author pair begins extending the n=5 method to n=6 — this first
@@ -1914,7 +1966,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Ellenberg–Venkatesh $\ell$-torsion bounds on class groups, explicitly conditional on "recent
     breakthroughs of OpenAI and Cureton–Thorner" — the first human paper found deriving a concrete
     unconditional NUMBER-THEORY CONSEQUENCE from this trend's claims (distinct from exposition/
-    simplification of the proof itself). Abstract/authors verified via arXiv API this session.
+    simplification of the proof itself). Abstract/authors verified via arXiv API this session
+    (W44 version-history spot-check: silently revised to v2, updated 2026-10-14 — predates
+    last_evidence, no new claim, same authors).
     Backfill (2026-10-13), no last_evidence change. hexagonmath.org now has 2 independent-session
     sightings (the First-Proof Third-Batch report 2026-10-19, this Cureton–Thorner paper today) —
     staged for weekly promotion-bar review in SOURCES.md. Confidence held `medium` (neither item is
@@ -2329,7 +2383,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   neutron-lifetime/asymmetry measurements arrive.
 
 ### A strongly aperiodic monotile in three dimensions ("Chair44", Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)
-- stage: seed | confidence: medium | first_seen: 2026-10-20 | last_evidence: 2026-09-21
+- stage: seed | confidence: medium | first_seen: 2026-10-20 | last_evidence: 2026-10-27
 - what: axis-1 DOMAIN-CADENCE LANDMARK, a ~5-week BACKFILL capture-leak catch (found via a 2026-10-12
   Scientific American piece this session, missed by the standing arXiv sweep at the time). Socolar
   and Taylor asked for a single, simply-connected 3D prototile that forces nonperiodicity by shape
@@ -2349,11 +2403,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-09-20 (v1) — https://arxiv.org/abs/2609.23783 — Flicker, "Matching Rules for a
     Three-Dimensional Strongly Aperiodic Monotile": independent derivation of general face-decoration
     requirements achieving the same nonperiodicity result. Abstract + author verified via arXiv API
-    this session.
+    this session (W44 version-history spot-check: silently revised to v2, updated 2026-09-29 — no
+    new group/claim, same author/result).
   - 2026-09-21 (v1) — https://arxiv.org/abs/2609.24779 — Goodman-Strauss, "Notes on a strongly
     aperiodic monotile in $E^3$": "a clearer presentation of the Chair44 monotile" by a leading named
     authority in the field — read as expert endorsement/clarification, not a rebuttal, despite
-    Scientific American's "critique" framing. Abstract + author verified via arXiv API this session.
+    Scientific American's "critique" framing. Abstract + author verified via arXiv API this session
+    (W44 version-history spot-check: silently revised to v2, updated 2026-10-27 — no new group/
+    claim, same author/result).
 - notes: 2026-10-20 (daily, seed creation, BACKFILL): found via Scientific American's "A unique
   shape, a 3D einstein tile, has been discovered" (2026-10-12, opened this session), which also
   reports mixed community reception driven by Tsiokos's AI use — track the RESULT (a genuine
@@ -2361,6 +2418,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   method (sibling AI radars' beat), per the hard rule. Confidence medium: Goodman-Strauss's
   involvement is a strong signal but not yet a formal referee outcome. Watch for: a fourth
   independent group, or a definitive community verdict akin to the 2D hat tile's reception.
+  - 2026-W44 recalibration (Amendment I version-history spot-check): both Flicker's (2609.23783,
+    v2 updated 2026-09-29) and Goodman-Strauss's (2609.24779, v2 updated 2026-10-27) preprints
+    found silently revised, neither previously noted — both POSTDATE the recorded last_evidence
+    (2026-09-21); last_evidence advances 2026-09-21 → 2026-10-27 (the later of the two). Same
+    authors/results, no new group. Not promoted (no fourth independent group or referee outcome).
 
 ### Resolution of the 1985 Neumann–Zagier conjecture (hyperbolic 3-manifolds)
 - stage: seed | confidence: medium | first_seen: 2026-10-21 | last_evidence: 2026-10-19
@@ -2549,6 +2611,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     AI-generated manuscript" claim remains only partially enumerated (these two plus the survey
     itself are the only three individually identified so far) — still a standing watch item, not
     chased further this session (time-budget).
+  - 2026-W44 recalibration (Amendment I version-history spot-check): Lopez's preprint (2609.06678)
+    found silently revised to v3, updated 2026-09-10 — predates this trend's last_evidence
+    (2026-10-21), same author/result, no new group, no last_evidence change. Anghel's two tracked
+    preprints (2610.30027, 2609.02718) show no v-update. Not promoted.
 
 ### Disproof of Barry Simon's L² conjecture (Schrödinger-operator spectral theory, LLM-assisted)
 - stage: seed | confidence: medium | first_seen: 2026-10-23 | last_evidence: 2026-10-22
@@ -2996,6 +3062,31 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-10-22 (v1; capture-leak fix, W44 mandatory sweep) — unsigned/unidentified-author note,
+  "Rigidity, flexibility, and a sign error" — https://arxiv.org/abs/2610.30976 — the first
+  technical post-mortem of WHY OpenAI's withdrawn Hodge-conjecture manuscripts [OAI26a, OAI26b,
+  OAI26c] failed ("we discuss the source of the error"); named in the OpenAI mass-disclosure
+  trend's 2026-10-23 note as "cited here, URL is the citable primary" but never given its own
+  evidence or queue line (that trend's evidence cap was already full) — a genuine capture leak,
+  fixed this session. Cross-reference: OpenAI mass-disclosure trend.
+- 2026-09-30 (announced; found this session via the IMU's own mathunion.org front page, the
+  WEEKLY-SWEPT annual-prize sweep) — **2026 Ramanujan Prize (ICTP/IMU, for mathematicians from
+  developing countries, under 45) → Mahesh Kakde (IISc Bengaluru)** — https://www.mathunion.org/ —
+  "for his contributions to algebraic number theory" (per the IMU page); per the ICTP's own
+  announcement (linked from the IMU page as
+  https://www.ictp.it/news/2026/9/ramanujan-prize-2026-announced, 500-error this session, not
+  independently opened) the citation covers noncommutative Iwasawa theory and the Gross-Stark/
+  Brumer-Stark conjectures, with implications for Hilbert's 12th problem. A coverage-LISTING gap,
+  not an execution gap: this prize was never on this ledger's tracked annual-prize list at all
+  (Abel/Breakthrough/Shaw/Fields/Nobel-Physics only) — flagged for SOURCES.md promotion review
+  this session. Primary (mathunion.org) opened; the ICTP page itself not yet independently
+  verified — re-attempt next session.
+- 2026-09-20 (v1; capture-leak fix, W44 mandatory sweep) — Shengtao Guo, Ethan X. Fang, Junwei Lu,
+  "Vector Balancing in Polynomial Time" — https://arxiv.org/abs/2609.23540 — the Guo–Fang–Lu
+  trio's own follow-up to their Komlós-conjecture founding artifact (2609.11189); named in the
+  Komlós/Beck-Fiala trend's W43 note as "logged for engagement, not appended as evidence" (same
+  group, not independent) but never given its own queue line — a genuine capture leak, fixed this
+  session. Cross-reference: Komlós/Beck-Fiala trend.
 - 2026-10-20 (v1; found today's math category-rotation batch) — Zhang, Zhang, "Solving the
   Ho–Nguyen Conjecture for Gaussian Mixtures" — https://arxiv.org/abs/2610.27265 — statistics/
   algebraic statistics (axis 1, math.ST): resolves the exact cancellation order in Ho-Nguyen's
@@ -7213,6 +7304,15 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   long-running controversy) — flagged for the weekly to assess whether 3 independent gap-critiques
   (Scholze-Stix, LANA, this one) now clear the convergence bar for a dedicated "IUT/abc vetting
   status" trend. Abstract read directly via WebFetch this session.
+  - 2026-W44 recalibration: NOT PROMOTED to a trend this session — of the three named gap-critiques,
+    only Zeng's (this item) has an actual primary URL opened and verified by this radar; the
+    Scholze–Stix 2018 report and the "LANA project" compatibility-gap report are named only via
+    Zeng's own characterization, with no independently-opened primary on file (the hard evidence
+    rule: cite only URLs actually opened this/a prior session). Held as a queue item pending a
+    session that directly locates and opens the Scholze–Stix report and the LANA project's own
+    write-up — only then would this cluster have ≥3 independently-verified sources + artifacts and
+    clear the trend bar. Not a landmark single result either (a 2010s-vintage ongoing controversy,
+    not a new 2026 landmark), so the domain-cadence seed-bar adaptation doesn't apply on its own.
 - 2026-10-30 (community pulse, Hossenfelder's "Backreaction" blog/video, 2026-10-28) — UNVERIFIED,
   no primary located: "Large Hadron Collider Sees Extra Dimension, Physicists Claim" reports that
   "two physicists in France say they have spotted something odd in data from the Large Hadron

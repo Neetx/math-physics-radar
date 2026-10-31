@@ -1,13 +1,14 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-58-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-454-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--30-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-58-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-457-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--31-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-30):** a decades-old ring-theory conjecture refuted, and the ledger's first capture of the long-running IUT/abc-conjecture controversy.
-- [A counterexample to the pure semisimplicity conjecture](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory): Junpeng Ren [refutes](https://arxiv.org/abs/2610.39883) the long-standing conjecture that every right pure-semisimple ring has finite representation type.
-- A third independent gap critique of [Mochizuki's IUT Corollary 3.12](https://hexagonmath.org/2610.00646v1) joins the established Scholze–Stix critique and the LANA project report — see `observation_queue`.
-- [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) gets a fifth independent effort: Baiying Liu's [broader zero-free half-plane for Hecke L-functions](https://hexagonmath.org/2610.00655v1) over every number field.
+**Since last scan (2026-10-31, weekly recalibration):** a full-ledger version-history and citation-chase sweep on the Ramsey trend, a capture-leak fix from an already-tracked institute, and a new annual prize added to the watch list.
+- [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) grows to 10 independent groups: Verbeken's [explicit off-diagonal construction](https://arxiv.org/abs/2610.06081) and Kandasamy–Zhou–Segal's [improved r(5,t) lower bounds](https://arxiv.org/abs/2610.06969), both extending Bradač's method.
+- The Isaac Newton Institute's own director [weighed in](https://www.newton.ac.uk/news/ini-news/statement-from-ini-director-on-722-openai-results/) on OpenAI's 722-manuscript disclosure — a 24-day-old catch on this ledger's [OpenAI mass-disclosure trend](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families).
+- A coverage-listing gap closed: the [2026 Ramanujan Prize](https://www.mathunion.org/) → Mahesh Kakde (algebraic number theory, Iwasawa theory) — never tracked before, now on the `observation_queue` and the annual-prize watch list.
+- The IUT/abc gap-critique cluster (Scholze–Stix, LANA, [Zeng](https://hexagonmath.org/2610.00646v1)) assessed for trend promotion — held in the queue, pending an independently-opened primary for the two older critiques.
 
 ## Trends
 
@@ -15,12 +16,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 | trend | stage | latest signal |
 |---|---|---|
-| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-10-20](https://scipost.org/SciPostPhysCore.9.4.069) |
-| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2512.17718) |
+| [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-10-26](https://arxiv.org/abs/2511.18969) |
+| [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-10-05](https://arxiv.org/abs/2610.06081) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-10-14](https://arxiv.org/abs/2610.20995) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
 | [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-30](https://hexagonmath.org/2610.00655v1) |
 | [Pure semisimplicity conjecture counterexample](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory) | 🌱 seed | [2026-10-29](https://arxiv.org/abs/2610.39883) |
+| [Kahn-Saks / 1-3-2-3 conjecture advances](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-10-28](https://arxiv.org/abs/2609.30888) |
 | [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-27](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
 | [ETH refutation claims (OpenAI & Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
 | [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
@@ -28,6 +30,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Morgan–Mullen conjecture resolved](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.36534) |
 | [Bialostocki–Lotspeich conjecture resolved](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37125) |
 | [Birkhoff–Pierce lattice order on ℂ](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-ℂ) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37155) |
+| [3D aperiodic monotile (Chair44)](TRENDS.md#a-strongly-aperiodic-monotile-in-three-dimensions-chair44-tsiokos-rapid-expert-corroboration-by-flicker-and-goodman-strauss) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2609.24779) |
 | [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34444) |
 | [Golomb–Welch conjecture resolved](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34291) |
 | [Erdős–Nicolas–Sárközy conjecture resolved](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34372) |
@@ -63,10 +66,8 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Lehmer's permutation conjecture resolved](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-02](https://arxiv.org/abs/2610.01240) |
 | [The Hopf problem — S⁶ complex structure](TRENDS.md#the-hopf-problem--a-complex-structure-on-s⁶-alpögeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
 | [Positive trace gap conjecture resolved](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.29033) |
-| [Kahn-Saks / 1-3-2-3 conjecture advances](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.30888) |
 | [Cassels–Swinnerton-Dyer for cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
 | [Ehlers–Kundt conjecture counterexample](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
-| [3D aperiodic monotile (Chair44)](TRENDS.md#a-strongly-aperiodic-monotile-in-three-dimensions-chair44-tsiokos-rapid-expert-corroboration-by-flicker-and-goodman-strauss) | 🌱 seed | [2026-09-21](https://arxiv.org/abs/2609.24779) |
 | [X(2370) glueball evidence](TRENDS.md#first-evidence-that-x2370-is-dominantly-a-glueball-besiii-collaboration) | 🌱 seed | [2026-09-01](https://arxiv.org/abs/2609.01342) |
 | [M23 inverse-Galois-problem completion](TRENDS.md#m23-realized-as-a-galois-group-over-q-completing-the-inverse-galois-problem-for-sporadic-groups-huangjacksonleepoonenprieszhang) | 🌱 seed | [2026-08-09](https://arxiv.org/abs/2608.08538) |
 | [Sum-product conjecture disproved](TRENDS.md#disproof-of-the-erdősszemerédi-sum-product-conjecture-bloomsawinschildkrautzhelezov) | 🌱 seed | [2026-05-27](https://arxiv.org/abs/2605.28781) |
@@ -754,4 +755,4 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (454 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-30](reports/2026-10-30.md)) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (457 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-30](reports/2026-10-30.md)) · weekly: [2026-W44](reports/weekly/2026-W44.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

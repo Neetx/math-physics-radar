@@ -1987,3 +1987,50 @@ coding) this week. No redirection needed.
   other dailies' math.LO batches around 10-10/10-11 were genuinely scanned in full or sampled —
   this is a potential triage-depth gap distinct from the already-tracked category-blind and
   title-blind failure classes.
+
+- 2026-10-31 (weekly, W44) — SKILL CORRECTION: `radar-ledger-update`'s "File contract" section,
+  healed at W34 to fix a claim that never matched this repo (a sibling radar's schema), itself
+  introduced a NEW wrong claim in the same edit — that `## observation_queue` has no standalone
+  H2 and lives unheaded inside `## Active trends`. `git log -S "## observation_queue"` confirms
+  the heading has existed since the repo's very first scaffold commit (`b7ee2ae`, 2026-07-02) and
+  is present in the live file today (confirmed via `grep -n '^## '`). Corrected this session —
+  lesson: the W34 heal fixed the symptom (prose not matching the file) without checking its OWN
+  replacement prose against the file either; a heal needs the same grep/git verification a fresh
+  finding would get, not just confident rewriting.
+- 2026-10-31 (weekly, W44) — RESOLVED the 2026-10-26 daily's open question: `WebFetch` on
+  `physics.stackexchange.com/feeds` gives the SAME outright "unable to fetch" tool-level refusal
+  already seen on `mathoverflow.net` — confirmed this session, so this is a StackExchange-family-
+  wide WebFetch restriction, not MathOverflow-specific. Plain `curl -A "Mozilla/5.0"` works
+  cleanly on both domains (already documented for Physics SE since W35; now re-confirmed working
+  under the WebFetch block too) — SOURCES.md updated to prefer `curl` over `WebFetch` for any
+  `*.stackexchange.com` domain going forward.
+- 2026-10-31 (weekly, W44) — RESOLVED the 2026-10-27 daily's "total-trend-count control" flag
+  (58 trends, carried forward through 10-30): no new cap proposed. Amendment L's per-trend size
+  cap already controls the actual pain point (TRENDS.md line-count bloat from accumulated
+  per-trend notes), and this domain's own trend bar (AGENTS.md § Domain cadence: a landmark
+  single result IS a seed trend on its own) means a high trend COUNT is the expected, correct
+  consequence of a field that produces many independent named-conjecture resolutions per month —
+  not a ledger-health problem to be capped. Most new seed trends stay small (10-30 lines) after
+  creation; only a handful of actively-growing trends (Ramsey, non-invertible symmetries,
+  quasi-RH, OpenAI mass-disclosure) accumulate notes, and those are exactly what Amendment L
+  already targets. Flag resolved, not carried forward again absent a concrete new problem (e.g.
+  README/navigation becoming unusable at the current trend count — not observed this session).
+- 2026-10-31 (weekly, W44) — Amendment N (proposed W43, cooling period): the motivating pattern
+  (a reference-list-only capture-leak, distinct from a trend's-notes-field or daily-report leak)
+  did NOT recur in any of this week's 5 daily reports or in this session's own capture-leak sweep
+  — the two genuine leaks found this week (2609.23540, 2610.30976) were both the ALREADY-covered
+  trend-notes-field class (Amendment-discipline-adjacent, not the Gouéré-reference-list class
+  Amendment N targets). Per Amendment N's own text ("if a similar... leak recurs, apply at W44"),
+  the conditional did not fire — HELD, not applied. Re-propose if the pattern recurs in a future
+  session; not auto-expired.
+- 2026-10-31 (weekly, W44) — Regression check: Amendments J (W41), K (W42), L/M (W43) show no
+  2-consecutive-week metric regression — capture-leak counts stayed low and were acted on each
+  week, coverage held (new gaps found were LISTING gaps closed same-session, not execution
+  misses), evidence/moves continued at a healthy pace. NO ROLLBACK.
+- 2026-10-31 (weekly, W44) — New source-discovery closure: the Ramanujan Prize (ICTP/IMU) was a
+  genuine coverage-LISTING gap in the same class as the 2026-10-07 Nobel-Physics gap — an IMU
+  co-sponsored annual prize, same family as the already-tracked Fields Medal, simply never added
+  to SOURCES.md's prize list. Found this session via the IMU's own front page while sweeping the
+  already-tracked Fields-Medal/IMU entry (not a dedicated Ramanujan search) — same "caught as a
+  side-effect of sweeping an adjacent tracked source" pattern as several past discoveries. Added
+  to SOURCES.md and TRENDS.md this session.
