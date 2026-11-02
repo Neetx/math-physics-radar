@@ -1,18 +1,18 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-58-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-457-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--31-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-62-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-485-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--02-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-10-31, weekly recalibration):** a full-ledger version-history and citation-chase sweep on the Ramsey trend, a capture-leak fix from an already-tracked institute, and a new annual prize added to the watch list.
-- [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) grows to 10 independent groups: Verbeken's [explicit off-diagonal construction](https://arxiv.org/abs/2610.06081) and Kandasamy–Zhou–Segal's [improved r(5,t) lower bounds](https://arxiv.org/abs/2610.06969), both extending Bradač's method.
-- The Isaac Newton Institute's own director [weighed in](https://www.newton.ac.uk/news/ini-news/statement-from-ini-director-on-722-openai-results/) on OpenAI's 722-manuscript disclosure — a 24-day-old catch on this ledger's [OpenAI mass-disclosure trend](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families).
-- A coverage-listing gap closed: the [2026 Ramanujan Prize](https://www.mathunion.org/) → Mahesh Kakde (algebraic number theory, Iwasawa theory) — never tracked before, now on the `observation_queue` and the annual-prize watch list.
-- The IUT/abc gap-critique cluster (Scholze–Stix, LANA, [Zeng](https://hexagonmath.org/2610.00646v1)) assessed for trend promotion — held in the queue, pending an independently-opened primary for the two older critiques.
+**Since last scan (2026-11-02):** four new landmark seeds from a first full triage of a large hexagonmath.org batch plus today's arXiv sweep, a sixth independent effort on the quasi-RH sub-theme, and the math community's own governance response to the AI-disclosure wave came into view.
+- [Shokurov's conic-bundle conjecture](TRENDS.md#resolution-of-shokurovs-conic-bundle-rationality-conjecture-algebraic-geometry) resolved: Cavenaghi, Katzarkov, Pomerleano & Zhang prove [irrationality of conic bundles](https://arxiv.org/abs/2610.41174) via a weaker version of "Hodge atoms."
+- Two more landmark claims from hexagonmath.org's own first-full-sweep: [Petz's 1994 conjecture](TRENDS.md#proof-of-petzs-conjecture-on-the-scalar-curvature-of-the-kubomori-metric-quantum-information-geometry) on the Kubo–Mori metric [proved](https://hexagonmath.org/2610.00717), and Niels Feld [disproves Morel's purity conjecture](TRENDS.md#disproof-of-morels-purity-conjecture-algebraic-k-theory--motivic-homotopy) in algebraic K-theory.
+- An EXTREME-caution claim: a [deterministic subexponential integer-factorization algorithm](TRENDS.md#deterministic-subexponential-integer-factorization-rudichrousseau-conjecture) resolving the Rudich–Rousseau conjecture — AI-assisted, single-author, and dependent on a second unverified OpenAI claim.
+- A Hausdorff Center (Bonn) retreat announcement treats the [quasi-Riemann Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) as "recently established" — the strongest community-acceptance language yet; see also Frank Calegari's ["Mathematics has changed. Let's act like it"](https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/) on the [OpenAI mass-disclosure trend](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families).
 
 ## Trends
 
-🚀 2 · 📈 2 · 🌱 53 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🚀 2 · 📈 2 · 🌱 57 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -20,7 +20,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-10-05](https://arxiv.org/abs/2610.06081) |
 | [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-10-14](https://arxiv.org/abs/2610.20995) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-10-30](https://hexagonmath.org/2610.00655v1) |
+| [Petz's conjecture proved](TRENDS.md#proof-of-petzs-conjecture-on-the-scalar-curvature-of-the-kubomori-metric-quantum-information-geometry) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00717) |
+| [Morel's purity conjecture disproved](TRENDS.md#disproof-of-morels-purity-conjecture-algebraic-k-theory--motivic-homotopy) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2611.00017) |
+| [Deterministic subexponential factorization](TRENDS.md#deterministic-subexponential-integer-factorization-rudichrousseau-conjecture) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00711) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00716) |
+| [Shokurov's conic-bundle conjecture resolved](TRENDS.md#resolution-of-shokurovs-conic-bundle-rationality-conjecture-algebraic-geometry) | 🌱 seed | [2026-10-30](https://arxiv.org/abs/2610.41174) |
 | [Pure semisimplicity conjecture counterexample](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory) | 🌱 seed | [2026-10-29](https://arxiv.org/abs/2610.39883) |
 | [Kahn-Saks / 1-3-2-3 conjecture advances](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-10-28](https://arxiv.org/abs/2609.30888) |
 | [OpenAI's mass math-results disclosure](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-10-27](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
@@ -77,6 +81,14 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-10-30; shelf-added 2026-11-02 — [Report of the Summit on Math Research in the Age of
+  AI](https://terrytao.wordpress.com/2026/10/30/__trashed/) — a guest post by the summit's
+  organizers (Dan Freed, Larry Guth, Bryna Kra, Emily Riehl, Mohammed Abouzaid) on Terence Tao's
+  blog; alongside Frank Calegari's "Mathematics has changed. Let's act like it"
+  (https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/) and a UK
+  Academy for the Mathematical Sciences report, the clearest single read this week on how the
+  working-mathematician community is organizing its response to the AI-disclosure wave; see the
+  OpenAI mass-disclosure trend's 2026-11-02 note.
 - 2026-10-27; shelf-added 2026-10-28 — [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) —
   a claimed complete Lean 4 formalization of the Classification of Finite Simple Groups, ~43.1M
   lines, surfacing a genuine gap in the published Unbalanced Group Theorem proof; EXTREME caution
@@ -748,11 +760,15 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- A [Hossenfelder post](https://backreaction.blogspot.com/2026/10/large-hadron-collider-sees-extra.html) reports an anonymous claim of an LHC extra-dimension anomaly by unnamed French physicists — no primary paper located yet, unverified.
+- A critical technical dispute of AxiomMath's claimed autonomous solution to [Fel's
+  Conjecture](https://arxiv.org/abs/2602.03716) is circulating (found via web search, not
+  independently opened) — track the vetting outcome, not the claim.
+- A [Hausdorff Center retreat announcement](https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/)
+  treats the quasi-Riemann-Hypothesis claim as "recently established."
 - The Skinner–Urban Iwasawa-theory [counterexample question](https://mathoverflow.net/questions/516518/) on MathOverflow still has no answer.
-- Hacker News front page carried no math/physics stories today; Physics Stack Exchange otherwise routine.
+- Hacker News front page carried no math/physics stories today; Physics/MathOverflow/Physics-SE otherwise routine.
 - The Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue, not a per-subreddit one.
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (457 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-10-30](reports/2026-10-30.md)) · weekly: [2026-W44](reports/weekly/2026-W44.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (485 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-11-02](reports/2026-11-02.md)) · weekly: [2026-W44](reports/weekly/2026-W44.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

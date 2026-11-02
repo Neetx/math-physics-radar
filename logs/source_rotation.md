@@ -3883,3 +3883,72 @@ directly (skipped this session, time budget, folded into other checks).
   Skill fix: `radar-ledger-update`'s W34 heal itself had introduced a wrong claim ("no standalone
   `## observation_queue` H2") — `git log -S` confirms the heading has existed since the repo's
   first scaffold commit; corrected this session (see strategy_notes).
+- 2026-11-02 (Mon, Pass 1, scheduled) — first daily since 2026-10-30 (weekend skipDays Sat-Sun
+  expected per domain cadence; W44 weekly 2026-10-31 covered the WEEKLY-SWEPT tier only). Load-state:
+  local branch (`claude/modest-bohr-ihuhs4`) == `origin/main` exactly (cb76fec) — no orphaned state,
+  no incomplete-run warning (all 7-day `radar:` commits have matching reports). TOOLING WIN: `tvly`
+  (reinstalled via `pip install -q tavily-cli`) is WORKING again this session — first successful
+  call after several weeks of standing quota exhaustion; used for Perimeter/Clay/DESI/LZ/vals.ai/
+  axiommath.ai/agmai.org extraction, re-test next session before assuming it is durably fixed.
+  arXiv: math (20-category set) + physics (19-category/sub-category set) submittedDate-range API
+  sweep for 2026-10-30 through today (242 math + 226 physics entries; all dated 2026-10-30, zero
+  Oct-31/Nov-1 submissions — consistent with the weekend skipDays gap) — title-triaged. Amendment J
+  full-abstract pass: math.AP (31 fresh entries, all read in full, continuing the rotation after
+  CV→RA→SG) — 0 title-blind catch, all routine PDE papers. Math keyword-triage catches: Cavenaghi/
+  Katzarkov/Pomerleano/Zhang's Shokurov conic-bundle-conjecture resolution (2610.41174, NEW SEED);
+  7 below-bar queue adds (Alon-Krivelevich counterexample 2610.42094, Hedetniemi-Shannon disproof
+  2610.41977, Jiang's-conjecture generic case 2610.41765, Hilton-Zhao triangle-free 2610.41984,
+  Geroch-conjecture toric instantons 2610.41875, odd Deligne-Drinfeld 2610.41766, Zariski/Nagata-
+  Biran-Szemberg cross-refs to the OpenAI trend 2610.41954/2610.41931). Physics keyword-triage: 2
+  below-bar catches (Pettinari's weak-Gibbsianity counterexample 2610.41871, McCulloch-Osborne
+  spinon-hierarchy result 2610.42127), otherwise routine. Primary-feed sweep (radar-source-sweep):
+  CERN Courier (curl, STALE — newest item still Oct-1, flag for next session), Fermilab (curl) —
+  SBND's first neutrino-argon cross-section result (2610.39042, queued), Simons Foundation (curl,
+  routine), Perimeter (tvly, HEALED — see tooling note above; one queue-worthy tropical-amplitudes
+  item, Borinsky), IAS (tvly, NEW failure mode "Failed to fetch url", not yet heal-owed), Clay
+  (tvly, routine), DESI/LZ (tvly, both stale/routine), LIGO (`/news.php`, 403, standing). APS PRL/
+  PRX/RMP (curl, RDF format — resolved via `<item rdf:about>` sub-elements, not the Seq list; PRL
+  had one queue-worthy no-go theorem, PRX/RMP routine), Nature-family/SciAdv/Quantum/SciPost/
+  INSPIRE-HEP all opened — Quantum journal had 2 queue-worthy items (hiding-conjecture proof in GBS,
+  optimality-conjecture counterexample). AI-watch lane: OpenAI `history.md` (raw.githubusercontent)
+  — no new entry since Oct-29 (already captured); Anthropic `formal-math` README — no new row;
+  agmai.org (tvly) — same Oct-26 Yang-Mills statement, routine; vals.ai/blogs (tvly) — routine;
+  icarm.io/feed (curl, now 200 after a redirect-stub false-negative on the bare `/feed` path — use
+  `/feed/` with trailing slash) — nothing new since Oct-12; hexagonmath.org `/rss/all` (curl) — a
+  LARGE ~50-item batch appeared since the 10-30 sweep (hexagonmath's own numbering jumped
+  2610.00702→2611.00019), a genuine first full triage: 3 NEW SEEDS (Petz's-conjecture proof
+  2610.00717, Morel's-purity-conjecture disproof 2611.00017, deterministic-subexponential-
+  factorization claim 2610.00711 resolving the Rudich-Rousseau conjecture — EXTREME caution, built
+  on an unverified OpenAI claim), a 6th quasi-RH sub-theme evidence line (2610.00716), and 4 more
+  queue items (de Bruijn-Newman Lean-check 2610.00714, Fock-Goncharov polytope criterion
+  2611.00015, claw-free-perfect-graphs result 2610.00713, Mex-sequence counterexamples 2610.00735).
+  axiommath.ai/research/ blog index (tvly extract — JS-rendered, `curl` returns no body links) —
+  first full read of the blog's "Blog" tab surfaced several teaser-style posts with backfill-dated
+  (Feb/June/July 2026) underlying papers NOT previously captured: Fel's-Conjecture-via-AxiomProver
+  (2602.03716, queued WITH a found critical "Theranos of mathematical AI" dispute), Thakur's-
+  hypotheses partial resolution (2606.16239, Chen-Ono, prime-fields-only H1+H2 of 3 — queued, NOT
+  seeded since partial), Kaprekar-dynamics-in-odd-bases (2606.20439, queued); 6 further teaser posts
+  left UNRESOLVED to an arXiv id this session (JS page, links not in static HTML nor in `tvly`'s
+  markdown conversion) — flagged for next session to resolve via `axiommath.ai/research/publications`
+  (located this session, corrects a stale 10-29/10-31 note that this path 404'd). cims.nyu.edu —
+  routine, no new press item. Community pulse (radar-pulse): MathOverflow/Physics-SE (curl) —
+  routine, nothing on-axis; HN front page — 0 math/physics stories (the Tao AI-disclosure post
+  itself the only overlap); Mathstodon public timeline — still the historical 0-catch noise (not a
+  math-specific feed in practice). Digest blogs: Tao's "What's new" (curl) — FOUR governance/
+  community-response posts (Calegari's "Mathematics has changed," the UK Academy for the
+  Mathematical Sciences' AI report, the "Report of the Summit on Math Research in the Age of AI,"
+  and a Hausdorff-Center-Bonn retreat announcement treating the quasi-RH claim as "recently
+  established" — all folded into the two OpenAI-family trends' notes, no new evidence-line captures
+  since these are commentary not new math results); Gowers/Kalai/Baez — routine, nothing new
+  on-axis; Strassler — one new post, checked, off-axis; Hossenfelder — routine; Woit — SSL
+  certificate error via `curl` (standing heal-owed, not re-escalated); Quanta — routine, no new
+  result. GitHub watch (radar-repo-watch): lean4 `releases.atom` (WebFetch, since direct `curl`
+  returns empty under this session's GitHub proxy-scoping) — v4.36.0-rc2 still latest (Oct 27, no
+  new release); Rocq `releases.atom` (WebFetch) — still 9.3.0, no new release; mathlib4 — routine
+  daily-tag cadence, not queued. Exploration slot (radar-explore, OFF-AXIS rotation): nlin.CD (9
+  most-recent entries, all routine turbulence/chaos-theory papers) — 0 catch, off-axis rate 0 this
+  run (non-alarm per domain cadence; next: math.OC or math.LO). SciRate — checked via `tvly search`,
+  no actionable current-list content extracted (low priority, redundant-ish source). Self-heals:
+  icarm.io `/feed` redirect-stub false-negative corrected (use `/feed/`); no other heal attempted
+  this session (cap 1-2/run; IAS's new failure mode not yet heal-owed). Source-discovery staging:
+  acadmathsci.org.uk, wal.sh, medium.com/@AIchats all staged in SOURCES.md (1 sighting each).

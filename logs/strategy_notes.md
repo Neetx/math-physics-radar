@@ -2034,3 +2034,24 @@ coding) this week. No redirection needed.
   already-tracked Fields-Medal/IMU entry (not a dedicated Ramanujan search) — same "caught as a
   side-effect of sweeping an adjacent tracked source" pattern as several past discoveries. Added
   to SOURCES.md and TRENDS.md this session.
+- 2026-11-02 (daily) — FLAG FOR THE NEXT WEEKLY: (a) `tvly` worked cleanly this session after
+  several consecutive weeks of standing account-quota exhaustion (last confirmed working ~early
+  October per the run-log trail) — re-confirm over the next few sessions before treating this as a
+  durable fix rather than a lucky quota reset; if it degrades again, no new action is needed (the
+  curl/WebFetch fallbacks are already documented per-source). (b) hexagonmath.org's `/rss/all` feed
+  delivered a ~50-item batch in one sweep today (numbering jumped 2610.00702→2611.00019) — this
+  produced 3 new seed trends plus several queue items in a single run, well above this ledger's
+  usual daily yield. The gap since the last sweep was only the normal 10-30→11-02 weekend window
+  (no missed daily in between), so this looks like a genuine burst in the SOURCE's own posting
+  cadence, not a coverage gap on this ledger's side — but worth the weekly spot-checking whether
+  hexagonmath batches this large recur, since a 50-item single-session triage is expensive and a
+  tighter (e.g. twice-daily) check cadence might be warranted if this becomes routine rather than a
+  one-off. (c) axiommath.ai's blog index (`axiommath.ai/research/blog`) is JS-rendered (Next.js) —
+  plain `curl` returns no body links at all, and `tvly extract`'s markdown conversion also drops
+  the paper links even though it renders the prose — the only reliable way found this session to
+  get an individual post's underlying arXiv id is to `tvly extract` the specific post's own slug
+  page (`axiommath.ai/research/<slug>`) and read down to its "Paper and code" section. Six teaser
+  posts on the blog index were left unresolved to an arXiv id this session for exactly this reason
+  (flagged in today's `observation_queue`) — the weekly could close this by running the
+  `axiommath.ai/research/publications` index (located this session, corrects a stale 10-29/10-31
+  SOURCES.md note that this path 404'd) against the blog's post list to match titles to papers.

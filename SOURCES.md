@@ -50,9 +50,9 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
 - CERN Courier — https://cerncourier.com/feed/ **[verified 2026-07-02; RSS. DEGRADED 2026-10-22: both plain `curl` (retried once) and `tvly extract` return a connection failure (HTTP 000 / "Failed to fetch url") — a genuine connectivity issue, not a 403/block; `tvly search "cerncourier.com October 2026"` surfaces only the already-known Sept/Oct issue announcement, no new content. RECOVERED 2026-10-28: plain `curl -A "Mozilla/5.0"` returned a clean 200 with the full feed (1.6MB) this session — the 10-22 failure was a transient, not a standing block.]** — particle / high-energy physics results & reviews
 - Fermilab news — https://news.fnal.gov/feed/ **[verified 2026-07-02; RSS. RECOVERED 2026-10-08: plain `curl -A "Mozilla/5.0"` returned a clean 200 with full title list this session, confirming the 2026-10-07 connection failure was indeed a single-daily transient, not a standing block. DEGRADED AGAIN 2026-10-22: the feed URL now 303-redirects to a Shibboleth SSO login page (`news.fnal.gov/mellon/login?...IdP=...idp.fnal.gov...`) — a genuine new auth-wall, not a transient; `tvly extract` on the plain `/` URL returns only nav (no article content). RECOVERED AGAIN 2026-10-28: plain `curl -A "Mozilla/5.0"` returned a clean 200 with real RSS article content this session (no SSO redirect) — the 10-22 auth-wall was itself only intermittent/transient, not standing either; re-test each session, don't assume stable.]** — particle physics / neutrinos
 - Simons Foundation — https://www.simonsfoundation.org/feed/ **[verified 2026-07-02; RSS]** — math + theoretical physics research (incl. Flatiron Institute)
-- Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-10-31 (W44 weekly, standing — not a new break): both `WebFetch` and plain `curl -A "Mozilla/5.0"` 403 (Cloudflare); `tvly` quota-exhausted this session, no fallback available — not independently swept this session, flag for W45.]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
+- Perimeter Institute — https://perimeterinstitute.ca/news **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-10-31 (W44 weekly, standing — not a new break): both `WebFetch` and plain `curl -A "Mozilla/5.0"` 403 (Cloudflare); `tvly` quota-exhausted this session, no fallback available — not independently swept this session, flag for W45. RECOVERED 2026-11-02: `tvly` quota is WORKING again this session (first successful `tvly` call in several weeks of standing exhaustion — see `logs/strategy_notes.md`); `tvly extract` on this URL returned the clean news listing (Oct 30 "tropical shortcut" item, routine Oct 28 grants item) — prefer `tvly extract` again while quota holds, re-test `curl`/`WebFetch` only if `tvly` degrades again.]** — theoretical physics (quantum gravity, cosmology, quantum foundations)
 - Clay Mathematics Institute — https://www.claymath.org/ **[verified 2026-07-02; HTML → `tvly extract`]** — Millennium Problems, math research news
-- IAS (Institute for Advanced Study) — https://www.ias.edu/news **[verified 2026-07-02 via `tvly extract` — curl is 403 (Cloudflare) but tvly gets through. DEGRADED 2026-10-31 (W44 weekly, standing — not a new break): `WebFetch` also 403s; `tvly` quota-exhausted this session, no fallback available — not independently swept this session, flag for W45.]** — math + theoretical physics
+- IAS (Institute for Advanced Study) — https://www.ias.edu/news **[verified 2026-07-02 via `tvly extract` — curl is 403 (Cloudflare) but tvly gets through. DEGRADED 2026-10-31 (W44 weekly, standing — not a new break): `WebFetch` also 403s; `tvly` quota-exhausted this session, no fallback available — not independently swept this session, flag for W45. STILL DEGRADED 2026-11-02: `tvly` quota recovered this session (see Perimeter entry above) but `tvly extract` on this exact URL now reports "Failed to fetch url" outright (a different failure from the prior quota exhaustion) — a genuine site-side issue, not yet heal-owed (first occurrence of this specific failure mode), re-test next session.]** — math + theoretical physics
 - OpenAI research-publication pages — https://openai.com/research / https://cdn.openai.com **[promoted
   2026-08-08; no subscribable feed — access via periodic `tvly search "openai.com math theoretical
   computer science" ` / direct URL checks when a disclosure is flagged elsewhere]** — AI-WATCH-LANE
@@ -462,6 +462,26 @@ openmathmodel.org (1 sighting still).
   non-profit venue for discussing OpenAI-generated math papers — first seen 2026-10-26 — NOT
   independently opened/verified this session (comment-only mention, provenance unclear). HELD
   below the ≥2 bar (1 sighting); verify live before treating as a source on next sighting.
+- acadmathsci.org.uk (Academy for the Mathematical Sciences, UK-wide body for math/stats/OR) — 1 —
+  "The mathematical sciences in an AI-enabled world" report, Oct 2026 (PDF located via `tvly
+  search` at `acadmathsci.org.uk/wp-content/uploads/2026/10/Mathematical_Sciences_AI_AcadMathsSci_Oct2026_preprint_final.docx.pdf`,
+  NOT independently opened/read this session — found via Terence Tao's blog pointer) — first seen
+  2026-11-02 — a national academy-level governance/policy voice on AI-in-mathematics, same
+  AI-watch-lane class as AGMAI but UK-institutional rather than US/IAS-based. HELD below the ≥2 bar
+  (1 sighting); verify live and read the actual PDF on next sighting.
+- wal.sh (a technical review blog, "AxiomProver: AI-Generated Mathematical Proofs") — 1 — a
+  detailed independent technical review checking AxiomMath's claims against the underlying arXiv
+  abstracts (e.g. 2602.03722) — first seen 2026-11-02 — found via `tvly search` while chasing
+  AxiomMath blog items; NOT independently opened/verified this session (search snippet only). A
+  potentially useful independent-verification pointer for the axis-5 AI-watch lane's vetting-status
+  tracking. HELD below the ≥2 bar (1 sighting).
+- medium.com/@AIchats (Anatol Wegner, independent technical commentary) — 1 — "Axiom AI — the
+  Theranos of mathematical AI?", a critical technical dispute of AxiomMath's Fel's-Conjecture claim
+  — first seen 2026-11-02 — found via `tvly search`; NOT independently opened/verified this session
+  (snippet only). Medium is a general blogging platform (not itself a vetted venue), but this is
+  exactly the kind of critical hype-skepticism voice this ledger's vetting-status tracking wants —
+  HELD below the ≥2 bar (1 sighting, and a personal blog rather than an institutional one, so a
+  higher bar before promoting regardless of sighting count).
 PROMOTED 2026-10-31 (W44): axiommath.ai (2 sightings — the CFSG-in-Lean claim 10-28, then six
 further on-axis items surfaced via the org's own index on 10-29, incl. Ken Ono co-authored papers
 and Mark Kisin's Serre's-conjecture partial resolution — see `observation_queue`) → Primary feeds,
@@ -471,7 +491,14 @@ guessed this session 404'd — the exact publications-index URL the 10-29 daily 
 not recorded in that report, re-locate and record it next session. No feed found, access via
 direct `WebFetch`/`tvly extract`; companion GitHub org `github.com/AxiomMath` still 403's under
 this session's proxy-scoping (unresolved since 10-28) — re-attempt via `tvly extract` once
-available. Cleared from this staging list.
+available. Cleared from this staging list. **CORRECTED 2026-11-02: the publications index IS live
+at `axiommath.ai/research/publications` (found via `tvly search` this session, title "Selected
+publications") — the 10-29/10-31 sessions' `/publications` guess must have hit a different path;
+the blog index itself is `axiommath.ai/research/blog` (JS-rendered Next.js app — `curl` returns
+static HTML with no body links, but `tvly extract` renders full post text; neither exposes the
+underlying paper's arXiv link reliably — open the individual post slug page, e.g.
+`axiommath.ai/research/<slug>`, via `tvly extract` and read to the "Paper and code" section for
+the arXiv id).**
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

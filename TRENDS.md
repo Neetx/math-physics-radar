@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-10-31
+Last updated: 2026-11-02
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1356,7 +1356,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-10-27
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-11-01
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1689,6 +1689,25 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     found on the same page: INI's 2026-09-09 commentary on the OpenAI Navier–Stokes claim,
     cross-referenced to the standing Navier-Stokes/Buckmaster-Alpöge authorship-dispute thread
     (below-bar, not re-opened this session).
+  - 2026-11-02 (daily): THREE further governance/community-response developments found via Terence
+    Tao's blog (already-tracked source), all opened directly this session, none a new math result
+    (logged per capture discipline, cap full, no new evidence line): (a) "Mathematics has changed.
+    Let's act like it" (guest post by Frank Calegari, a prominent number theorist,
+    https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/,
+    2026-11-01) — a named-expert reaction to the Oct-6 disclosure's significance ("a watershed in
+    the history of mathematics"). (b) "The mathematical sciences in an AI-enabled world"
+    (https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/,
+    2026-10-31) — the UK's Academy for the Mathematical Sciences released a report under this
+    title; ONLY Tao's summary of it was opened this session, NOT the Academy's own report PDF
+    (located via `tvly search` at
+    https://www.acadmathsci.org.uk/wp-content/uploads/2026/10/Mathematical_Sciences_AI_AcadMathsSci_Oct2026_preprint_final.docx.pdf
+    but NOT independently opened/read this session) — the report's content itself is unverified,
+    flagged for next session to open directly; acadmathsci.org.uk staged as a discovered-source
+    candidate in SOURCES.md. (c) "Report of the Summit on Math Research in the Age of AI"
+    (https://terrytao.wordpress.com/2026/10/30/__trashed/, 2026-10-30) — a guest post by the
+    summit's organizers (Dan Freed, Larry Guth, Bryna Kra, Emily Riehl, Mohammed Abouzaid), a
+    fourth institutional/governance voice alongside AGMAI, the mathcommunity hub and Scientific
+    American's reporting. last_evidence advances 2026-10-27 → 2026-11-01 (Calegari post date).
 
 ### Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -1826,7 +1845,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     published/final LVK paper, same title/result). Low materiality, no change to `last_evidence`.
 
 ### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
-- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-30
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-11-02
 - what: axis-1 DOMAIN-CADENCE LANDMARK, PROMOTED out of prose: one specific result-family (#003)
   inside the already-tracked OpenAI mass-disclosure release (2026-10-06, 722 manuscripts) had sat
   named only in that trend's `what` text since 2026-10-07 — a capture-leak by this ledger's own
@@ -1876,6 +1895,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (OpenAI Codex + Anthropic Claude credited for drafting/reference-checking/auditing) — per this
     ledger's axis-5 AI-watch policy, the mathematical RESULT is tracked, not the AI-assistance
     itself. Unrefereed preprint — claim; not independently assessed for correctness this session.
+  - 2026-11-02 (daily, found via hexagonmath.org's `/rss/all` feed, a large ~50-item batch
+    appeared since 10-30, opened directly) — A SIXTH item on this sub-theme: "We reconstruct the
+    argument recorded in a frozen Lean development establishing nonvanishing of the unit-compatible
+    angular Hecke L-functions over ℚ(√-3) in the strict half-plane ℜs>7/8... This strengthens the
+    earlier 15/16 result for the same angular family." —
+    https://hexagonmath.org/2610.00716 — same field (ℚ(√-3)) and same 7/8 bound as OpenAI's original
+    claim, phrased as a RECONSTRUCTION of an existing Lean development rather than a new independent
+    derivation — unclear from the page whether this is a genuine Lean-kernel verification of
+    OpenAI's own claim (the watched condition) or another AI-generated exposition; no byline/author
+    metadata found this session. Flag for next session to clarify. Unrefereed preprint — claim; not
+    independently assessed for correctness this session.
 - notes: 2026-10-13 (daily, seed creation/promotion): caught via today's MathOverflow sweep — two
   fresh threads (2026-10-12), Benjamin Durkan proposing a Polymath-type verification project ("the
   proof proffered by OpenAI is quite opaque... it would be beneficial for humans to break down the
@@ -1995,6 +2025,21 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     for the quasi-RH claim specifically); the substantive zeta-zeros-simplicity content is routed to
     that other standing queue item instead (see below). last_evidence advances 2026-10-20 →
     2026-10-21.
+  - 2026-11-02 (daily): a SIXTH sub-theme effort added above (hexagonmath 2610.00716, a possible
+    Lean reconstruction of OpenAI's own ℚ(√-3)/7/8 claim — see evidence; not independently
+    assessed). VETTING-STATUS SIGNAL found via Terence Tao's blog (already-tracked source),
+    "Collaborative retreat: New developments in the theory of zeta functions"
+    (https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/,
+    2026-10-30, opened directly this session): Edgar Assing, Valentin Blomer and Farrell Brumley
+    are organizing a Jan 11-15 2027 retreat at the Hausdorff Center (Bonn) whose own announcement
+    text refers to "the recently established proof of the quasi Riemann Hypothesis over the
+    rational numbers as well as over general number fields" as a premise for a workshop on its
+    consequences (Artin's primitive root conjecture, torsion in class groups, equidistribution of
+    periodic torus orbits) — the strongest community-acceptance language this trend has seen yet
+    ("established," not "claimed"), from a legitimate analytic-number-theory research retreat,
+    though this is a workshop-announcement blurb, not itself a referee report or independent
+    re-derivation; confidence held at `medium` pending the retreat actually occurring/producing
+    assessable output. last_evidence advances 2026-10-21 → 2026-10-30 (retreat announcement date).
 
 ### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
 - stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
@@ -3058,10 +3103,236 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   yet — standard unrefereed-preprint caution for a disproof of a decades-old named conjecture).
   Watch for ring-theory community response.
 
+### Resolution of Shokurov's conic-bundle rationality conjecture (algebraic geometry)
+- stage: seed | confidence: medium | first_seen: 2026-11-02 | last_evidence: 2026-10-30
+- what: axis-1 DOMAIN-CADENCE LANDMARK, caught via today's math category-rotation title-triage
+  (title carries the explicit "conjecture" keyword). Shokurov conjectured a rationality criterion
+  for standard conic bundle threefolds over a smooth complex projective rational surface $S$;
+  Cavenaghi, Katzarkov, Pomerleano and Zhang prove such a bundle is irrational whenever
+  $|2K_S+\Delta|\ne\emptyset$ ($\Delta$ the discriminant divisor), via a weaker version of "Hodge
+  atoms," resolving the conjecture — with an application pinning down exactly which nodal quartic
+  double solids are rational. Multi-author, including Ludmil Katzarkov (an established algebraic
+  geometer); standard unrefereed-preprint caution (arXiv only as of this session, no independent
+  engagement yet).
+- evidence:
+  - 2026-10-30 (v1) — https://arxiv.org/abs/2610.41174 — Cavenaghi, Katzarkov, Pomerleano, Zhang,
+    "An atomic approach to Shokurov's conic-bundle conjecture." Abstract + authors verified via
+    arXiv API this session.
+- notes: 2026-11-02 (daily, seed creation): caught via today's math category-rotation title-triage
+  batch (Oct-30 UTC day). Confidence `medium` (brand-new, multi-author with a senior algebraic
+  geometer, no referee/community engagement yet). Watch for birational-geometry community
+  response.
+
+### Proof of Petz's conjecture on the scalar curvature of the Kubo–Mori metric (quantum information geometry)
+- stage: seed | confidence: medium | first_seen: 2026-11-02 | last_evidence: 2026-11-02
+- what: axis-4 DOMAIN-CADENCE LANDMARK, a conjecture open since 1994 (32 years) resolved: Petz
+  conjectured the scalar curvature of the Kubo–Mori information metric on invertible density
+  matrices increases monotonically as the state becomes more mixed; Dittmann (2000) reduced it to
+  strict concavity of an explicit symmetric function $h$ on $(0,\infty)^3$. Suvrit Sra proves that
+  concavity directly, writing $h=-1/(8M)$ with $M$ positive/homogeneous of degree one and showing
+  $t\mapsto1/M(X+tY)$ is a Stieltjes function. Found via today's hexagonmath.org `/rss/all` sweep
+  (a large ~50-item batch appeared since the 10-30 sweep, hexagonmath's own numbering jumping from
+  2610.00702 to 2611.00019 — a first full triage of this batch). hexagonmath caution tier applies
+  (unrefereed, arXiv-mirroring preprint repository); no AI-assistance disclosure found on this
+  specific page as checked this session.
+- evidence:
+  - 2026-11-02 (hexagonmath.org citation_publication_date metadata) —
+    https://hexagonmath.org/2610.00717 — Suvrit Sra, "A Proof of Petz's Conjecture on the Scalar
+    Curvature of the Kubo–Mori Metric." Abstract + author (citation_author meta tag) verified via
+    `curl` this session.
+- notes: 2026-11-02 (daily, seed creation): caught via today's hexagonmath.org `/rss/all` sweep — a
+  large (50-item) batch appeared since the last sweep (10-30). Confidence `medium` (brand-new,
+  unrefereed, single author — though an established name, Suvrit Sra, in optimization/matrix
+  analysis — no independent engagement yet). Watch for quantum-information-geometry community
+  response.
+
+### Disproof of Morel's purity conjecture (algebraic K-theory / motivic homotopy)
+- stage: seed | confidence: medium | first_seen: 2026-11-02 | last_evidence: 2026-11-02
+- what: axis-1 DOMAIN-CADENCE LANDMARK, caught via the same hexagonmath.org batch as the Petz entry
+  above. Morel conjectured that the $\mathbb{A}^1$-homotopy sheaves of an $S^1$-spectrum built from
+  suspension spectra of smooth projective schemes are pure; purity requires (among other things)
+  injectivity of restriction to dense open subschemes. Niels Feld shows this injectivity condition,
+  for algebraic $K$-theory spectra with arbitrary coefficients over a regular base $S$, is
+  equivalent to Gersten injectivity at henselizations of local rings of smooth $S$-schemes — hence
+  ANY henselian regular local ring where Gersten injectivity fails (integrally, rationally, or with
+  finite coefficients) is a counterexample to Morel's conjecture. The author exhibits exactly such
+  a finite-coefficient counterexample, over $\mathbb{Z}_3[[x,y]]/(3+x^2-y^3)$ — DISPROVING Morel's
+  general conjecture, even though $K$-theory spectra themselves remain pure under the paper's own
+  equivalence (the note flags that unpublished/unconfirmed integral or rational Gersten
+  counterexamples, if they persist after henselization, would show the conjecture fails even for
+  $K$-theory). hexagonmath caution tier applies; no AI-assistance disclosure found this session.
+- evidence:
+  - 2026-11-02 (hexagonmath.org citation_publication_date metadata) —
+    https://hexagonmath.org/2611.00017 — Niels Feld, "Gersten injectivity and Morel's purity
+    conjecture." Abstract + author (citation_author meta tag) verified via `curl` this session.
+- notes: 2026-11-02 (daily, seed creation): caught via today's hexagonmath.org `/rss/all` sweep
+  (same batch as the Petz entry above). Confidence `medium` (brand-new, unrefereed, single author;
+  the paper's own text flags that a stronger conjecture-breaks-even-for-K-theory result is
+  contingent on OTHER unpublished/unconfirmed work, not yet independently assessed). Watch for
+  motivic-homotopy community response.
+
+### Deterministic subexponential integer factorization (Rudich–Rousseau conjecture)
+- stage: seed | confidence: low | first_seen: 2026-11-02 | last_evidence: 2026-11-02
+- what: axis-1/5 DOMAIN-CADENCE LANDMARK, caught via the same hexagonmath.org batch as the Petz/
+  Morel entries above. Joseph Shunia claims a deterministic algorithm computing the complete prime
+  factorization of an $n$-bit integer in time $2^{O(n/\sqrt{\log n})}$ and polynomial space,
+  establishing the bound conjectured by Rudich and Rousseau (sharpening their qualitative
+  $N^{o(1)}$ result) — an EXTRAORDINARY claim in computational number theory/complexity if correct.
+  The proof explicitly builds on "OpenAI's quantitative Boolean tensor-contraction theorem," ITSELF
+  an unrefereed, unverified claim from the already-tracked OpenAI mass-disclosure ecosystem — a
+  chain of unverified results, not an independently-grounded proof. The page's own tools-used
+  statement discloses: "OpenAI's ChatGPT assisted the author in developing, drafting, and checking
+  the argument. The author supplied the source manuscripts and directed the investigation." EXTREME
+  hype-skepticism caution — single author (not an established computational-number-theory name to
+  this session's knowledge), AI-assisted, unrefereed, and dependent on a SECOND unverified claim;
+  flag "unrefereed preprint — claim," track the vetting outcome, do not treat as established.
+- evidence:
+  - 2026-11-02 (hexagonmath.org citation_publication_date metadata) —
+    https://hexagonmath.org/2610.00711 — Joseph Shunia, "An Improved Subexponential Bound for
+    Deterministic Integer Factorization." Abstract + author (citation_author meta tag) + the
+    page's own AI-tools-used disclosure verified via `curl` this session.
+- notes: 2026-11-02 (daily, seed creation): caught via today's hexagonmath.org `/rss/all` sweep
+  (same batch as the Petz/Morel entries above). Confidence `low` (EXTREME caution: single,
+  non-established author, AI-assisted, unrefereed, AND dependent on a second unverified claim from
+  the OpenAI ecosystem — the longest unverified-dependency chain this ledger has tracked). Watch
+  for: (a) independent review of the Shunia argument itself; (b) whether OpenAI's own underlying
+  tensor-contraction theorem is ever independently confirmed, which this result inherits.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-10-30 (v1; found today via today's math category-rotation title-triage, cross-ref) —
+  José Edson Sampaio, "The metric Zariski multiplicity conjecture in dimension 4" —
+  https://arxiv.org/abs/2610.41954 — proves the METRIC Zariski multiplicity conjecture TRUE in
+  dimension 4, explicitly distinct from (and responding to) OpenAI's own announced counterexample
+  to the (non-metric) Zariski multiplicity conjecture in dimension 4. Abstract + author verified
+  via arXiv API this session. Cross-reference: OpenAI mass-disclosure trend (cap full, routed here
+  per capture discipline rather than that trend's notes).
+- 2026-10-30 (v1; found today) — Juliette Bruce, "A Tropical Viewpoint on the Nagata–Biran–Szemberg
+  Conjecture" — https://arxiv.org/abs/2610.41931 — gives an independent tropical-geometry
+  perspective on OpenAI's announced arguments for Nagata's conjecture and the Nagata–Biran–Szemberg
+  conjecture (Nagata's conjecture: open since 1959). Abstract + author verified via arXiv API this
+  session. Cross-reference: OpenAI mass-disclosure trend (cap full, same Nagata-conjecture
+  sub-theme as the already-evidenced Tevelev exposition).
+- 2026-10-30 (v1) — Junran Yu, Gexin Yu, "A Counterexample to the Alon-Krivelevich Conjecture and a
+  New Lower Bound for Choosability of Bipartite Graphs" — https://arxiv.org/abs/2610.42094 —
+  extremal graph theory (axis 1, math.CO). Abstract + authors verified via arXiv API this session.
+  Specialized sub-field — queued.
+- 2026-10-30 (v1) — Julius A. Zeiss, "Hedetniemi's conjecture for Shannon OR-capacity:
+  counterexamples and asymptotic separation" — https://arxiv.org/abs/2610.41977 — disproves the
+  Shannon-OR-capacity analogue of Hedetniemi's conjecture (the ORIGINAL graph-coloring Hedetniemi
+  conjecture was already disproved by Shitov 2019; this is a distinct analogue). Abstract + author
+  verified via arXiv API this session. Queued.
+- 2026-10-30 (v1) — Chi-Heng Lo, "On the generic case of Jiang's conjecture" —
+  https://arxiv.org/abs/2610.41765 — $p$-adic representation theory (axis 1, math.RT): proves
+  Jiang's conjecture (Aubert–Zelevinsky involution triviality) for the generic case of a general
+  quasi-split group, under assumptions on the conjectural local Langlands correspondence. Abstract
+  + author verified via arXiv API this session. Partial/conditional — queued.
+- 2026-10-30 (v1) — Xuli Qi, Xin Tian, Gregory Gutin, "Hilton-Zhao vertex-splitting conjecture for
+  triangle-free graphs" — https://arxiv.org/abs/2610.41984 — confirms a revised Hilton-Zhao
+  conjecture for triangle-free base graphs (excluding a known Wagner-graph exception). Abstract +
+  authors verified via arXiv API this session. Specialized case — queued.
+- 2026-10-30 (v1) — Lars Andersson, Mattias Dahl, Gustav Nilsson, "On the Geroch conjecture for
+  toric gravitational instantons" — https://arxiv.org/abs/2610.41875 — mathematical general
+  relativity (axis 2, gr-qc/math.DG): a solitonic-form result for Geroch's conjecture restricted to
+  toric gravitational instantons, building on Hauser–Ernst and Belinski–Zakharov. Abstract +
+  authors verified via arXiv API this session. Case-specific — queued.
+- 2026-10-30 (v1) — Florian Naef, Thomas Willwacher, "An odd version of the Grothendieck–Teichmüller
+  Lie algebra and the odd Deligne–Drinfeld conjecture" — https://arxiv.org/abs/2610.41766 — defines
+  an odd analogue of a classical conjecture and proves it within the same paper (self-posed-and-
+  solved, not a longstanding independently-posed conjecture). Abstract + authors verified via arXiv
+  API this session. Queued.
+- 2026-10-30 (v1) — Lorenzo Pettinari, "A Finite-Range, Translation-Invariant Counterexample to Weak
+  Gibbsianity" — https://arxiv.org/abs/2610.41871 — statistical mechanics (axis 2, math-ph):
+  constructs a counterexample to Weak Gibbsianity for quantum spin systems on $\mathbb{Z}^2$.
+  Abstract + author verified via arXiv API this session. Specialized — queued.
+- 2026-10-30 (v1) — Ian P. McCulloch, Jesse J. Osborne, "Resolving the spinon hierarchy of the
+  Heisenberg antiferromagnet" — https://arxiv.org/abs/2610.42127 — condensed matter theory (axis 3):
+  resolves the zero-temperature dynamical structure factor through six spinons in the thermodynamic
+  limit, reaching ~99% of the integrated intensity. Abstract + authors verified via arXiv API this
+  session. Solid technical result, not landmark-tier — queued.
+- 2026-10-30 (found via today's Fermilab news feed, primary opened directly) — SBND Collaboration,
+  "Measurements of transverse kinematic imbalance in muon neutrino charged-current interactions on
+  argon..." — https://arxiv.org/abs/2610.39042 — the FIRST neutrino-argon cross-section measurement
+  from the Short-Baseline Near Detector at Fermilab (feeds into DUNE); a methodology/calibration
+  milestone, not a discovery/anomaly. Fermilab news page + arXiv abstract both opened this session.
+  Queued (first-of-kind for the detector, but an interaction-modeling result, not landmark-tier).
+- 2026-10-28 (Quantum journal, opened directly) — "A Counterexample to the Optimality Conjecture in
+  Convex Quantum Channel Optimization" — https://doi.org/10.22331/q-2026-10-28-2253 — disproves the
+  trace-distance optimal-state-transformation optimality conjecture of Coutts et al. (Quantum 5,
+  448, 2021). Abstract opened via the journal's own RSS feed this session. Axis 4 — queued.
+- 2026-10-27 (Quantum journal, opened directly) — "Proof of hiding conjecture in Gaussian boson
+  sampling" — https://doi.org/10.22331/q-2026-10-27-2248 — proves the "hiding conjecture" underlying
+  the classical-hardness argument for Gaussian boson sampling, a quantum-computational-advantage
+  protocol. Abstract opened via the journal's own RSS feed this session. Axis 4 — queued.
+- 2026-10-?? (PRL, published; opened directly via the RDF-item sweep) — "No-Go Theorem for Gaussian
+  Quantum Repeaters from Fractional Extendibility" — journal page via
+  https://feeds.aps.org/rss/recent/prl.xml (DOI not individually resolved this session) — a
+  foundational limitation result for a quantum-communication primitive. Axis 4 — queued, DOI/arXiv
+  id to be resolved next session.
+- 2026-10-29 (v1; hexagonmath.org `/rss/all`, found via today's large batch sweep) — "Every real
+  primitive Dirichlet L-function has de Bruijn–Newman constant at most 9/32: a kernel-checked proof
+  in Lean 4" — https://hexagonmath.org/2610.00714 — a Lean-kernel-checked generalization of the
+  de Bruijn–Newman-constant bound (which relates to RH) to all real primitive Dirichlet characters;
+  the page's own text states "the mathematics is not new, and we say exactly whose it is" —
+  suggesting this is a FORMALIZATION of existing human mathematics rather than a new result.
+  Abstract opened via `curl` this session; no author byline resolved. Cross-reference: axis-5
+  formalization watch + the quasi-Riemann-Hypothesis trend family (related constant, distinct
+  claim) — queued, not merged into either.
+- 2026-11-02 (v1; hexagonmath.org, same batch) — "Positive polytopes and the full Fock–Goncharov
+  conjecture" — https://hexagonmath.org/2611.00015 — proves the origin-interior form of the
+  Gross–Hacking–Keel–Kontsevich polytope criterion for full Fock–Goncharov positivity of a
+  principal-coefficient cluster variety (a criterion result, not a full resolution of the parent
+  conjecture in general). Abstract opened via `curl` this session; no author byline resolved. Axis
+  1 — queued.
+- 2026-11-02 (v1; hexagonmath.org, same batch) — "Claw-free perfect graphs are chromatic-choosable"
+  — https://hexagonmath.org/2610.00713 — proves $\mathrm{ch}(G)=\chi(G)=\omega(G)$ for every
+  claw-free perfect graph, with a precoloring-extension strengthening. Abstract opened via `curl`
+  this session; no author byline resolved. Axis 1 — queued.
+- 2026-10-30 (found via today's Perimeter Institute news sweep — `tvly extract`, HEALED this
+  session after standing degraded) — "How a 'tropical' shortcut could help particle collider
+  experiments" (Michael Borinsky) — https://perimeterinstitute.ca/news/how-tropical-shortcut-could-help-particle-collider-experiments
+  — tropical-geometry methods applied to scattering-amplitude/Feynman-integral computation, the
+  math↔physics interface (axis 2). Perimeter's own news page opened directly this session; the
+  underlying paper not independently located. Queued.
+- 2026-02-06 (v1; backfill catch via today's axiommath.ai/research/ blog sweep, a first full read
+  of the org's blog index) — E. Chen et al., "Fel's Conjecture on Syzygies of Numerical Semigroups"
+  — https://arxiv.org/abs/2602.03716 — AxiomProver (AxiomMath's AI system) is claimed to have
+  autonomously generated a Lean proof from a natural-language statement of Fel's conjecture;
+  covered favorably by WIRED ("A New AI Math Startup Just Cracked 4 Previously Unsolved Problems")
+  but SHARPLY disputed by a critical commentary, Anatol Wegner's "Axiom AI — the Theranos of
+  mathematical AI?" (medium.com/@AIchats, found via `tvly search` this session, NOT independently
+  opened/verified) arguing the result is more mechanical pattern-matching than genuine autonomous
+  discovery. Arxiv abstract + the WIRED coverage opened this session; the Medium critique is
+  UNVERIFIED (snippet only). Track the vetting outcome, not the claim — queued with the dispute
+  flagged.
+- 2026-06-15 (v1; backfill catch, same axiommath.ai blog sweep) — Evan Chen, Ken Ono, "Thakur's
+  hypotheses on power sums of $\mathbb{F}_q[t]$" — https://arxiv.org/abs/2606.16239 — proves
+  Hypotheses H1 and H2 (of THREE) of Thakur's 2009 conjectural hypotheses, for PRIME fields only —
+  a substantial PARTIAL resolution (not the full three-hypothesis, general-$q$ resolution the
+  org's own blog post implied). Abstract + authors verified via arXiv API this session. Queued
+  (partial scope keeps this below the seed bar).
+- 2026-06-20 (v1; backfill catch, same axiommath.ai blog sweep) — Evan Chen, Ken Ono, Richard E.
+  Schwartz, Dinesh S. Thakur, "Four-digit Kaprekar dynamics in odd bases" —
+  https://arxiv.org/abs/2606.20439 — a technical generalization of Kaprekar's routine to odd bases,
+  bounding cycle lengths and counting cycles by length. Abstract verified via the org's own blog
+  post (arXiv id given there) this session, not independently re-verified via the arXiv API.
+  Specialized — queued.
+- 2026-11-02 (v1; axiommath.ai/research/ blog index, several teaser-style posts whose underlying
+  papers were NOT resolved to an arXiv id this session — the page is JS-rendered and links are not
+  present in the static HTML; `tvly extract`'s markdown conversion also dropped the links) —
+  flagged for next session to resolve via the org's "Selected publications" index
+  (axiommath.ai/research/publications) instead: "Cut to the Same Measure" (higher Dyson systems /
+  Jacobi-theta elliptic law), "The Purpose of the Object" (a combinatorial-identity paper), "The
+  Address Before the Room" (a bijective-matching result), "The Figure and the Remainder" (a
+  Demazure/Dyck-path multiplicity count), "The Reveal" (a density-1 lattice-triangle result),
+  "Infinitely Rare" (on Ramanujan's $\tau$ function taking prime values). NOT independently opened
+  — titles/one-line descriptions only, from the blog index page. Unverified.
+- 2026-11-02 (v1; hexagonmath.org, same batch) — "On a Family of Counterexamples to Richard Guy's
+  Mex Sequence Problem" — https://hexagonmath.org/2610.00735 — a combinatorial-game-theory
+  counterexample family. Title opened via `curl` this session; abstract not independently read.
+  Axis 1 — queued, low priority.
 - 2026-10-22 (v1; capture-leak fix, W44 mandatory sweep) — unsigned/unidentified-author note,
   "Rigidity, flexibility, and a sign error" — https://arxiv.org/abs/2610.30976 — the first
   technical post-mortem of WHY OpenAI's withdrawn Hodge-conjecture manuscripts [OAI26a, OAI26b,
@@ -7339,6 +7610,14 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-10-30; shelf-added 2026-11-02 — [Report of the Summit on Math Research in the Age of
+  AI](https://terrytao.wordpress.com/2026/10/30/__trashed/) — a guest post by the summit's
+  organizers (Dan Freed, Larry Guth, Bryna Kra, Emily Riehl, Mohammed Abouzaid) on Terence Tao's
+  blog; alongside Frank Calegari's "Mathematics has changed. Let's act like it"
+  (https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/) and a UK
+  Academy for the Mathematical Sciences report, the clearest single read this week on how the
+  working-mathematician community is organizing its response to the AI-disclosure wave; see the
+  OpenAI mass-disclosure trend's 2026-11-02 note.
 - 2026-10-27; shelf-added 2026-10-28 — [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) —
   a claimed complete Lean 4 formalization of the Classification of Finite Simple Groups, ~43.1M
   lines, surfacing a genuine gap in the published Unbalanced Group Theorem proof; EXTREME caution
