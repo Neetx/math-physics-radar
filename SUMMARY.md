@@ -1,8 +1,7 @@
-# Math-Physics Radar — 2026-11-02
+# Math-Physics Radar — 2026-11-03
 
-- **New trend** · [Petz's conjecture proved](TRENDS.md#proof-of-petzs-conjecture-on-the-scalar-curvature-of-the-kubomori-metric-quantum-information-geometry) — a 1994 conjecture on the Kubo–Mori metric's scalar curvature resolved (preprint).
-- **New trend** · [Morel's purity conjecture disproved](TRENDS.md#disproof-of-morels-purity-conjecture-algebraic-k-theory--motivic-homotopy) — an explicit counterexample in algebraic K-theory (preprint).
-- **New trend** · [Deterministic subexponential factorization](TRENDS.md#deterministic-subexponential-integer-factorization-rudichrousseau-conjecture) — a claimed algorithm resolving the Rudich–Rousseau conjecture (claim).
-- **New trend** · [Shokurov's conic-bundle conjecture resolved](TRENDS.md#resolution-of-shokurovs-conic-bundle-rationality-conjecture-algebraic-geometry) — a rationality criterion proved for conic bundle threefolds (preprint).
-- **New** · [An improved zero-free half-plane reconstruction](https://hexagonmath.org/2610.00716) — a possible Lean verification of the same ℚ(√-3) claim (→ [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78)).
-- **Study pick** · [Report of the Summit on Math Research in the Age of AI](https://terrytao.wordpress.com/2026/10/30/__trashed/) — mathematicians' own organized response to the AI-disclosure wave.
+- **New trend** · [Kung–Traub conjecture resolved](TRENDS.md#resolution-of-the-kungtraub-conjecture-root-finding-complexity-numerical-analysis) — a 1974 root-finding speed-limit conjecture resolved (preprint).
+- **New trend** · [Berger conjecture (3D case)](TRENDS.md#the-berger-conjecture-resolved-for-three-dimensional-manifolds-riemanniansymplectic-geometry) — a 1965 closed-geodesics conjecture resolved for 3-manifolds (preprint).
+- **New trend** · [Hilton's conjecture resolved](TRENDS.md#resolution-of-hiltons-conjecture-on-cycle-multiplicities-extremal-graph-theory) — a 1977 cycle-multiplicity conjecture in dense Hamiltonian graphs resolved (preprint).
+- **New** · [OpenAI just scooped human researchers on a million-dollar quantum math problem](https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem) — Michael Douglas calls it "a major advance" (→ [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)).
+- **Study pick** · [Proof of the entropic $c$-theorem](https://arxiv.org/abs/2610.40874) — an entanglement-entropy proof of Zamolodchikov's c-theorem in 2D QFT.

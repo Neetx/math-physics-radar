@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-02
+Last updated: 2026-11-03
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2919,6 +2919,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Balaban's program is STILL ONGOING and that OpenAI's announcement "appears to have beaten them
     to it" — the effort is real and active, but still no URL located for it. Opened directly via
     `WebFetch` this session.
+  - 2026-10-27 — https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem
+    — Joseph Howlett, "OpenAI just scooped human researchers on a million-dollar quantum math
+    problem" (the correct URL for the piece a prior session's guessed slug 404'd on, located and
+    opened via `WebFetch` this session): reports the claim was reached internally 2026-09-09 and
+    kept secret until Lean-formalized (OpenAI says verification "took over a month"); Michael R.
+    Douglas (Harvard, also one of the review-panel members above) calls it "a major advance" and
+    "just the start"; Tristan Buckmaster (already tracked elsewhere on this ledger) disputes
+    OpenAI's verification-timeline framing, saying Lean verification "takes, at most, a couple of
+    days" — a named-expert challenge to the claimed month-long verification effort, distinct from
+    Woit's and Bauerschmidt's already-tracked scope/checkability concerns.
 - notes: 2026-10-27 (daily, seed creation): caught via the same Hacker News front-page story and
   openai.com publication page as the ETH-refutation trend above (one Oct 26 post announces all
   three results). Held at `seed`/`low` (domain-cadence pre-referee-landmark-EVENT precedent, same
@@ -2936,6 +2946,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     merely something Woit mentioned in passing) — still no repository URL located despite a
     targeted `WebSearch` this session; remains the top standing chase item. last_evidence advances
     2026-10-26 → 2026-10-27.
+  - 2026-11-03 (daily): RESOLVED a standing open item from 2026-10-28 (that session's guessed
+    Scientific American URL for the companion "quantum math problem" piece 404'd) — located and
+    opened the correct URL this session (see evidence above): Douglas's "major advance" assessment
+    and Buckmaster's dispute of OpenAI's verification-timeline framing are new named-expert
+    reactions, not previously on file. No stage/confidence change (still the most cautious entry
+    on this ledger — no public manuscript or Lean proof located). Still no Alpöge–Sussman
+    repository URL found this session either.
 
 ### Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)
 - stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
@@ -3198,10 +3215,129 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   for: (a) independent review of the Shunia argument itself; (b) whether OpenAI's own underlying
   tensor-contraction theorem is ever independently confirmed, which this result inherits.
 
+### Resolution of the Kung–Traub conjecture (root-finding complexity, numerical analysis)
+- stage: seed | confidence: medium | first_seen: 2026-11-03 | last_evidence: 2026-11-03
+- what: axis-1 DOMAIN-CADENCE LANDMARK, caught via today's math.NA off-axis-rotation exploration
+  slot (cross-listed math.NA/math.CA). Matthew J. Colbrook proves the 1974 Kung–Traub conjecture:
+  a deterministic, memoryless stationary root-finding method using at most $n$ real
+  scalar function/derivative evaluations per iteration cannot have local convergence order
+  greater than $2^{n-1}$ on every real-analytic function with a simple zero, with the bound
+  attained (for $n\ge2$) by Kung and Traub's own 1974 methods — resolving a 50-year-old named
+  open problem on the fundamental speed limit of root-finding algorithms. Single, credible
+  author (Colbrook, Cambridge, established numerical analyst); peer review pending (arXiv
+  preprint — flag "unrefereed preprint — claim" per the hype-skepticism rule).
+- evidence:
+  - 2026-11-03 (announced Mon 2 Nov 2026 arXiv batch) — https://arxiv.org/abs/2610.40660 —
+    Matthew J. Colbrook, "Adversarial Wronskians: A proof of the Kung–Traub conjecture." Abstract
+    + author verified via direct arXiv abstract page this session.
+- notes: 2026-11-03 (daily, seed creation): caught via the math.NA off-axis exploration slot
+  (cross-listed into math.CA's keyword-triage batch too); a 50-year-old named conjecture in
+  computational complexity of root-finding, single-author resolution. Confidence `medium`
+  (credible established author, but single-source and unrefereed). Watch for expert
+  engagement/referee outcome.
+
+### The Berger conjecture, resolved for three-dimensional manifolds (Riemannian/symplectic geometry)
+- stage: seed | confidence: low | first_seen: 2026-11-03 | last_evidence: 2026-11-03
+- what: axis-1 DOMAIN-CADENCE LANDMARK, caught via today's math category-rotation title-triage
+  (math.DG/math.SG). Jakob Dittmer resolves Berger's 1965 conjecture (on simply-connected
+  manifolds all of whose geodesics are closed, all unit-speed geodesics share the same shortest
+  period) for the three-dimensional case: shows the $S^1$-action induced by the geodesic flow is
+  free, identifies the symplectic quotient $T^1M/S^1$ with $S^2\times S^2$ (split form), and uses
+  an Euler-class computation on the resulting orbibundle to settle the conjecture in dimension 3.
+  Single-author arXiv preprint — unrefereed; flag "unrefereed preprint — claim," and note this
+  resolves only the 3-manifold case of the general conjecture, not Berger's conjecture in full
+  generality.
+- evidence:
+  - 2026-11-03 (announced Mon 2 Nov 2026 arXiv batch) — https://arxiv.org/abs/2610.41006 —
+    Jakob Dittmer, "The Berger conjecture for three dimensional manifolds." Abstract + author
+    verified via direct arXiv abstract page this session.
+- notes: 2026-11-03 (daily, seed creation): a 60-year-old named conjecture, resolved for the
+  3-dimensional case (not the general conjecture) by a single author. Confidence `low` (single
+  source, unrefereed, partial-dimension scope). Watch for expert engagement/referee outcome and
+  whether the method extends to higher dimensions.
+
+### Resolution of Hilton's conjecture on cycle multiplicities (extremal graph theory)
+- stage: seed | confidence: low | first_seen: 2026-11-03 | last_evidence: 2026-11-03
+- what: axis-1 DOMAIN-CADENCE LANDMARK, caught via today's hexagonmath.org `/rss/all` sweep
+  (unrefereed-preprint caution tier, same as arXiv). Resolves Hilton's 1977 conjecture (recorded
+  by Sheehan) on the number of cycles of each length present in dense Hamiltonian graphs — a
+  49-year-old open problem in extremal/Hamiltonian graph theory.
+- evidence:
+  - 2026-11-03 (hexagonmath.org citation metadata) — https://hexagonmath.org/2611.00028 —
+    "Hilton's conjecture on cycle multiplicities": "We prove Hilton's conjecture on the number of
+    cycles of each length in dense Hamiltonian graphs. This resolves the problem posed by A.J.W.
+    Hilton and recorded by Sheehan in 1977." Title + description meta verified via direct page
+    fetch this session; author not yet identified (hexagonmath's page did not surface a byline in
+    this session's extract — resolve next session).
+- notes: 2026-11-03 (daily, seed creation): EXTREME caution tier — hexagonmath.org is an
+  unrefereed, no-peer-review repository; author identity still unconfirmed this session. A
+  49-year-old named conjecture resolution, flagged "unrefereed preprint — claim." Watch for
+  author identification and any independent engagement.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-03 — Felix Gotti, Omar Graia, Neil Panse, "The Bi-LF Positive Conjecture Holds" —
+  https://arxiv.org/abs/2610.40688 — resolves a semidomain-theory conjecture (bi-length-
+  factoriality ⟺ bi-factoriality); recent-vintage conjecture, below the landmark bar. Abstract +
+  authors verified via arXiv abstract page this session.
+- 2026-11-03 — Dave Goel, "The Hibi–Li (2016) conjecture is fully resolved" —
+  https://arxiv.org/abs/2610.40703 — order-polytope/chain-polytope face-count conjecture (Hibi–Li
+  2016), building on a 2026 Fourier preprint; below the landmark bar (recent-vintage conjecture).
+  Abstract + author verified this session.
+- 2026-11-03 — Dave Goel, "The Cranston–Li–Su–Wang–Xu (2026) conjecture is true" —
+  https://arxiv.org/abs/2610.40863 — nowhere-zero-flow equivalence conjecture; same-year
+  conjecture-and-resolution, below the landmark bar. Abstract + author verified this session.
+  NOTE: same single author (Dave Goel) as the Hibi–Li item above, resolving two distinct named
+  conjectures same day — a prolific solver pattern worth tracking if it recurs.
+- 2026-11-03 — Samuel J. Ferguson, Joshua Iosevich, "Tiling without a subspace complement: a sharp
+  counterexample in dimension nine over the field with two elements" —
+  https://arxiv.org/abs/2610.42005 — completes the classification of when an $\mathbb F_2^d$ tile
+  has a linear-subspace tiling complement (true iff $d\le8$); NOT a counterexample to Fuglede's
+  conjecture (explicitly noted in the abstract). Abstract + authors verified this session.
+- 2026-11-03 — "Haiman's conjecture for n ≤ 10: Kazhdan–Lusztig positivity of monomial immanants" —
+  https://arxiv.org/abs/2610.41555 — extends Haiman's own computer verification from $n\le7$ to
+  $n\le10$ via an exact large-scale computation; a stronger computer check, not a general proof.
+  Abstract verified this session.
+- 2026-11-03 — "A conjecture on Galois groups and large fields" — https://arxiv.org/abs/2610.41843
+  — Will Johnson PROPOSES a new conjecture (with partial supporting evidence), not a resolution;
+  watch item only, logged for completeness. Abstract + author verified this session.
+- 2026-11-03 — Jonah Kudler-Flam, "Proof of the entropic $c$-theorem" —
+  https://arxiv.org/abs/2610.40874 — a new proof of Zamolodchikov's c-theorem in 2D QFT via mutual
+  information between spacelike-separated wedges (relative entropy), following Casini–Huerta;
+  notable technique, not a new conjecture resolution — also added to `study_shelf` below. Abstract
+  + author verified this session.
+- 2026-11-03 (hexagonmath.org) — "A Bound Helium Dianion Does Not Exist" —
+  https://hexagonmath.org/2611.00041 — proves no bound 4-electron helium ion exists (extends
+  Lieb's 1984 bound via a weighted identity); atomic-physics/math-physics-interface result,
+  below the landmark bar. Unrefereed preprint — claim. Description meta verified this session.
+- 2026-11-03 (hexagonmath.org) — "Linear independence of even Dirichlet beta values" —
+  https://hexagonmath.org/2611.00044 — asymptotic lower bound $\dim_{\mathbb Q}\mathrm{span}_{\mathbb
+  Q}\{\beta(2),\ldots,\beta(s)\}\ge0.21\sqrt{s/\log s}$, in the Rivoal-style odd/even-zeta-values
+  irrationality tradition. Unrefereed preprint — claim. Description meta verified this session.
+- 2026-11-03 (hexagonmath.org) — "Projected stated $(SL_n)$-skein algebras and the Huang–Wang
+  conjectures" — https://hexagonmath.org/2611.00013 — proves two named conjectures of Huang and
+  Wang on skein algebras equaling their quantum cluster algebras; technical/recent-vintage,
+  below the landmark bar. Unrefereed preprint — claim. Description meta verified this session.
+- 2026-11-03 (AxiomMath, via `axiommath.ai/research/publications` index, resolving the 6
+  teaser-post backlog flagged 2026-11-02) — seven AI-assisted (AxiomProver-verified), Ken-Ono-
+  co-authored results, each below the landmark bar (technical number-theory/combinatorics,
+  AI-watch-lane, unrefereed preprint — claim): Colin Defant & Ken Ono, "Proof of the Lyons–White
+  conjecture" — https://arxiv.org/abs/2608.27708 ("Faster Is Not Nearer"); Evan Chen, Michal
+  Mogielnicki & Ken Ono, "Record compositions of alternating permutations and noncommutative
+  symmetric functions" — https://arxiv.org/abs/2607.12873 ("The Purpose of the Object"); Simon
+  Mahns, Ken Ono & Jujian Zhang, "A problem of Andrews and Dhar on partitions" —
+  https://arxiv.org/abs/2606.05117 ("The Address Before the Room"); "Ramanujan's tau function is
+  almost never prime" — https://arxiv.org/abs/2603.29970 ("Infinitely Rare"); Rekha Biswal, Ken
+  Ono & Jujian Zhang, "Chebyshev quotients, Demazure multiplicities, and Dyck-path models" —
+  https://arxiv.org/abs/2604.25246 ("The Figure and the Remainder"); a lattice-triangle
+  classification result — https://arxiv.org/abs/2603.23928 ("The Reveal"); Claudia Alfes, Ken Ono
+  & Ashvin Swaminathan, "Beyond Mock Modularity: Elliptic Corrections for Higher Dyson Ranks" —
+  https://arxiv.org/abs/2607.13159 ("Cut to the Same Measure"). Each post's "Paper and code"
+  section opened directly via `tvly extract` this session; GitHub repos under github.com/AxiomMath
+  not independently opened (companion-org GitHub access still 403s this session, standing since
+  10-28).
 - 2026-10-30 (v1; found today via today's math category-rotation title-triage, cross-ref) —
   José Edson Sampaio, "The metric Zariski multiplicity conjecture in dimension 4" —
   https://arxiv.org/abs/2610.41954 — proves the METRIC Zariski multiplicity conjecture TRUE in
@@ -7610,6 +7746,13 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-03 — [Proof of the entropic $c$-theorem](https://arxiv.org/abs/2610.40874) — Jonah
+  Kudler-Flam's new proof of Zamolodchikov's c-theorem in 2D QFT, building a $c$-function from
+  mutual information between spacelike-separated wedges via relative entropy (following
+  Casini–Huerta, replacing strong subadditivity with an entropic argument that needs no UV
+  cutoff) — an elegant, modern entanglement-entropy technique a mathematical-physicist should
+  know, caught via today's math category-rotation sweep (cross-listed hep-th/math-ph). Abstract +
+  author verified via direct arXiv abstract page this session.
 - 2026-10-30; shelf-added 2026-11-02 — [Report of the Summit on Math Research in the Age of
   AI](https://terrytao.wordpress.com/2026/10/30/__trashed/) — a guest post by the summit's
   organizers (Dan Freed, Larry Guth, Bryna Kra, Emily Riehl, Mohammed Abouzaid) on Terence Tao's

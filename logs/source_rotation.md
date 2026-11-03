@@ -3952,3 +3952,107 @@ directly (skipped this session, time budget, folded into other checks).
   icarm.io `/feed` redirect-stub false-negative corrected (use `/feed/`); no other heal attempted
   this session (cap 1-2/run; IAS's new failure mode not yet heal-owed). Source-discovery staging:
   acadmathsci.org.uk, wal.sh, medium.com/@AIchats all staged in SOURCES.md (1 sighting each).
+2026-11-03 (Tue, Pass 1, scheduled) — FULL CHECK; first daily since 2026-11-02. Load-state: local
+branch `claude/modest-bohr-7z54gx` session; verified all `radar:` commits of the last 7 days have
+matching reports, no incomplete-run warning. `tvly` absent at session start, reinstalled cleanly
+via `pip install -q tavily-cli` — worked throughout the session. arXiv: full in-scope category set
+(22 math + 12 physics categories) fetched via the `arxiv.org/list/<cat>/recent` HTML listing pages
+(submittedDate-range API 429'd on first try; the listing-page method sidesteps both the rate limit
+and the rss.arxiv.org feeds' empty-today anomaly observed this session) — 818 fresh entries, all
+under the "Mon, 2 Nov 2026" announce-day header (consistent with the weekend skipDays gap: Sat
+10-31/Sun 11-1 produced no new announce day). Title-keyword-triaged in full; MAJOR CATCHES: Matthew
+J. Colbrook's proof of the 1974 Kung–Traub conjecture on root-finding convergence order
+(2610.40660) and Jakob Dittmer's resolution of Berger's 1965 conjecture for three-dimensional
+manifolds (2610.41006) — both NEW SEED TRENDS (domain-cadence landmark bar). 8 below-bar queue
+adds from the same batch: Bi-LF Positive Conjecture (2610.40688), Hibi–Li 2016 conjecture
+(2610.40703), Cranston–Li–Su–Wang–Xu 2026 conjecture (2610.40863, same single author Dave Goel as
+the Hibi–Li item — flagged for a possible prolific-solver pattern), a dimension-9 F2-tiling
+counterexample (2610.42005), Haiman's conjecture computer-verified to n≤10 (2610.41555), a new
+(not yet resolved) conjecture on Galois groups and large fields (2610.41843), and Jonah
+Kudler-Flam's new entropic proof of Zamolodchikov's c-theorem (2610.40874, also added to
+`study_shelf`). Amendment J full-abstract pass (today's category: math.FA, continuing the rotation
+after AP; 14 fresh entries, all read in full) — 0 title-blind landmark catch, all routine
+functional-analysis technical papers. Cross-checked today's batch against all tracked trend
+keywords — 0 new-evidence hits on any existing trend (several near-miss keyword collisions —
+generic "Ramsey numbers," "hot spots," "percolation," "Petz-Fuchs," "binary black hole" titles —
+checked and confirmed NOT the tracked sub-themes). Primary-feed sweep (radar-source-sweep): CERN
+Courier (curl) — STILL STALE, newest item unchanged since Oct 1 (now a 2nd-session-observed
+degradation, not yet heal-owed — content genuinely absent, not a fetch failure); Fermilab (curl),
+Simons Foundation (curl), IceCube category-feed (curl), Quantum journal RSS (curl) — all routine,
+unchanged since 11-02; PRL/PRX/RMP RSS (RDF format, curl) — 100/100/100 items checked, all
+routine, 0 on-axis landmark; Science Advances `showFeed` (curl) — 83 items, all off-axis
+biology/chemistry; CERN home `/feed/` — STILL 404 (heal-owed, standing since 10-22, no new fix
+found this session); icarm.io `/feed/` (curl) — unchanged, newest still Oct 12; hexagonmath.org
+`/rss/all` (curl) — 24 genuinely new items since the 11-02 session's large-batch triage (numbering
+2611.00021→2611.00044): 1 NEW SEED (Hilton's 1977 conjecture on cycle multiplicities, 2611.00028,
+author not yet identified — resolve next session) + 3 below-bar queue adds (helium-dianion
+non-existence 2611.00041, Dirichlet-beta linear independence 2611.00044, Huang–Wang skein-algebra
+conjectures 2611.00013). SciPost API (curl, `?limit=10&ordering=-publication_date`) — clean, no
+Anubis block, 10 items checked, all routine, 0 on-axis landmark (one dark-matter/Super-Kamiokande
+phenomenology item noted but judged interpretive/incremental, not queued). INSPIRE-HEP
+(mostrecent) — routine, future-dated placeholders as usual, 0 yield. Experiments block: LIGO
+(WebFetch on `/news`) — STALE, unchanged since May 26 (GWTC-5.0); DESI (WebFetch) — STALE,
+unchanged since Jul 30; LZ (`lz.lbl.gov/publications`, WebFetch) — DEGRADED this session (HTTP 504
+Gateway Timeout), single occurrence, not yet heal-owed. Nature Physics RSS (WebFetch on feed URL
+directly, no UA-spoof needed) — 8 items checked, routine, 0 on-axis. AI-watch lane (all via `tvly
+extract`): Perimeter Institute — routine (unchanged since Oct 30 "tropical shortcut" item); Clay
+Mathematics Institute — opened the front page (Navier-Stokes Announcement banner, "apparently
+settled" statement dated 2026-09-11) — ALREADY FULLY TRACKED on the existing OpenAI
+Navier-Stokes-blowup trend, not a new capture, confirmed via grep this session; IAS news — STILL
+"Failed to fetch url" (standing since 11-02, not yet heal-owed, 2nd occurrence of this exact
+failure mode); cims.nyu.edu/~tristanb/ — routine, no new preprint; agmai.org — the Oct 25/26
+statements shown are BOTH already tracked (confirmed via grep), 0 new; vals.ai/blogs — newest two
+posts off-axis (immigration-law benchmark) and a Thomson-problem EXPLAINER (not new evidence) on
+an already-tracked primary, 0 new; axiommath.ai/research/publications — opened this session,
+resolved the 6 (actually 7) teaser-post backlog flagged 2026-11-02 via individual slug-page `tvly
+extract` reads of each post's "Paper and code" section: Lyons–White conjecture (2608.27708),
+record compositions of alternating permutations (2607.12873), a problem of Andrews and Dhar
+(2606.05117), Ramanujan's tau function almost never prime (2603.29970), Chebyshev
+quotients/Demazure multiplicities (2604.25246), a lattice-triangle classification (2603.23928),
+and elliptic corrections for higher Dyson ranks (2607.13159) — all 7 queued below-bar (AI-watch
+lane, AxiomProver-verified, Ken-Ono-co-authored technical results); ahmath.org — unchanged static
+mission page. Community pulse (radar-pulse): Hacker News front page (Algolia API) — one on-axis
+overlap, "Egoless Mathematics in the AI Era" (Tao guest post by Karthik C.S./Sahai/Xue) — pure
+governance/philosophy commentary, no new primary, not captured as evidence per note discipline;
+MathOverflow `/feeds` (curl) — 29 items checked, 0 on-axis primary pointer (one AI-in-math meta
+question, one ETH-trend-adjacent Q&A, neither names an uncaptured primary); Physics SE `/feeds`
+(curl) — 15 items, all routine homework-level, 0 catch; Mathstodon public timeline (curl) — the
+usual non-research noise, 0 catch; digest blogs: Tao's "What's new" (curl) — newest is the Egoless
+post above, routine otherwise; Woit — curl failed (HTTP 000, standing SSL issue), not re-escalated
+(single-session, known fallback is `tvly extract` — not attempted this session, time budget);
+Gowers (curl) — unchanged since Oct 16; Kalai (curl) — newest "Celebrating 100 Years: Avi 70 +
+CSDM 30" (Nov 2, personal/tribute, off-axis) and the already-tracked Borsuk's-problem post (Oct
+21, confirmed already captured via grep); Baez (curl) — newest "Ecological Modeling Job" (Oct 31,
+off-axis); the already-tracked Quasi-Riemann-Hypothesis/Counting-Primes posts (Oct 13/21,
+expository, no new evidence); Strassler (curl) — only 1 item in feed window, "So Much News, So
+Little Time" (Oct 30), checked, no new primary named beyond what's already tracked; Hossenfelder
+(curl) — newest "Physics is Unravelling, And It Will Get Worse" (Nov 2, general commentary,
+off-axis) and the already-flagged-queued "LHC Sees Extra Dimension" claim (Oct 28) — re-searched
+this session (tvly search + INSPIRE-HEP query for "extra dimension heavy resonance LHC") for the
+underlying primary paper, STILL not located (secondary coverage only: YouTube/Facebook/LinkedIn/
+RealClearScience, no arXiv id or author names given anywhere); n-Category Café — not independently
+re-checked this session (time budget, folded into the blog sweep above); Scientific American
+(`tvly search` + `WebFetch`, since `tvly extract` on this domain returned base64 image data
+instead of article text this session, a new failure mode) — RESOLVED a standing open item from
+2026-10-28 (that session's guessed URL for "OpenAI just scooped mathematicians' work on another
+million-dollar problem" 404'd): located the correct URL
+(scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem)
+and opened it via `WebFetch` — added as a new evidence line to the OpenAI Yang–Mills trend
+(Michael Douglas's "major advance" quote; Tristan Buckmaster's dispute of OpenAI's verification-
+timeline framing). Repo/release watch (radar-repo-watch, all via `WebFetch` on `releases.atom`
+since direct `curl`/API still 403 session-proxy-scoped): lean4 unchanged (v4.36.0-rc2, Oct 27);
+Rocq unchanged (9.3.0); mathlib4 continuing its daily `master-YYYY-MM-DD` auto-tag (through
+master-2026-11-02); github.com/openai/math and github.com/anthropics/fermats-last-theorem
+`releases.atom` both confirmed EMPTY (no tagged releases — these repos don't use release tags, not
+a failure). Exploration slot (radar-explore, OFF-AXIS rotation per 11-02's "next: math.OC or
+math.LO" note — both are actually IN the in-scope math category-rotation list already swept above,
+so this session instead advanced to math.NA, genuinely off-axis and not part of the 22-category
+in-scope set): 27 fresh entries, all routine numerical-analysis papers (one cross-listing with the
+already-seeded Kung–Traub item), 0 additional significant off-axis yield this run (non-alarm per
+domain cadence; next: nlin.SI, cs.CC, or q-bio.PE). Self-heals: none attempted this session (cap
+1-2/run; no single failure yet crossed the heal-owed bar — CERN home/feed and IAS's "Failed to
+fetch" are both repeat-but-not-yet-escalated). Source-discovery staging: no new untracked-domain
+primaries found this session (all sources named today were already in a swept list). capture-leak:
+13 ids checked (named in reports/2026-10-29.md, 2026-10-30.md, 2026-11-02.md) / 0 missing. Today's
+own ~20 new ids self-routed on creation (verified by grep, all present). README.md and SUMMARY.md
+regenerated in the same commit.
