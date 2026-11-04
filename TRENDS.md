@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-03
+Last updated: 2026-11-04
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -719,7 +719,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     v-update beyond what's already on file. No 4th independent group this week. Not promoted.
 
 ### Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)
-- stage: emerging | confidence: high | first_seen: 2026-09-24 | last_evidence: 2026-10-14
+- stage: emerging | confidence: high | first_seen: 2026-09-24 | last_evidence: 2026-11-03
 - what: an AI research agent ("Odin Automatic AI Research Agent") is credited with discovering a
   proof of the ~50-year-old Komlós conjecture (vector-signing/discrepancy problem) AND, as a
   corollary, the square-root dependence predicted by the Beck-Fiala conjecture, in one paper
@@ -767,6 +767,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     adjacent author directly onto this trend's founding result, not counted toward the independent-
     group tally, but a further community-engagement data point. Title/author/date verified via
     direct arXiv page this session — found via the same citation chase.
+  - 2026-11-03 — https://arxiv.org/abs/2611.03427 — Lawrence Hollom, "Proving the Komlós conjecture
+    slowly": a motivated pedagogical exposition of the Karingula-Lovett elementary proof. ALSO
+    names a previously-uncaptured result: "a counterexample to the strong Komlós conjecture due to
+    Kintali" — NOT independently verified this session (only this exposition's mention opened; the
+    Kintali primary itself not yet located) — flagged for next session to chase. Abstract + author
+    verified via arXiv API this session.
 - notes: 2026-09-24 (daily, SEED): today's math.CO/FA fresh-batch triage surfaced the two follow-up
   papers (elementary proof + exposition), both explicitly crediting an underlying "recent proof of
   Guo, Fang, and Lu" without giving its arXiv id; `arxiv.org/search` + WebSearch located and opened
@@ -836,6 +842,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Matrix-Multiplication Time": a seventh independent author pair, giving an algorithm running in
     matrix-multiplication time for the Komlós sign-assignment problem. Abstract/authors verified
     via arXiv API this session (found via the W43 Amendment G citation chase).
+  - 2026-11-04 (daily): Hollom's pedagogical exposition (see evidence) is a further community-
+    engagement data point (already past the 2-group confidence bar, no promotion). Surfaced a
+    previously-uncaptured NAMED claim worth chasing: a "counterexample to the strong Komlós
+    conjecture due to Kintali" — not yet independently verified (only this exposition's mention
+    opened); next session should locate Kintali's own primary. No stage/confidence change.
+    last_evidence advances 2026-10-14 → 2026-11-03.
 
 ### Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)
 - stage: seed | confidence: medium | first_seen: 2026-09-25 | last_evidence: 2026-09-25
@@ -2779,7 +2791,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   own manuscript specifically.
 
 ### Resolution of the Harary–Hill conjecture (crossing number of $K_n$): OpenAI claim + independent human exposition (Balko)
-- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-03
 - what: axis-1/5 DOMAIN-CADENCE LANDMARK, split from the OpenAI mass-disclosure trend (same
   precedent as the quasi-RH/spacetime-Penrose/Propeller splits). The Harary–Hill conjecture (1963)
   states the crossing number of the complete graph $K_n$ is exactly
@@ -2799,12 +2811,23 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     conjecture: an exposition": a streamlined, simplified rewrite of OpenAI's proof, explicitly
     calling the original "quite difficult to follow." Abstract + author verified via arXiv API
     this session.
+  - 2026-11-03 (v1) — https://arxiv.org/abs/2611.03515 — Gelasio Salazar, "The proof of the
+    Harary–Hill conjecture: a detailed exposition and an extension to rotation systems": a SECOND
+    independent specialist's exposition of OpenAI's proof (also calling it "very hard to follow"),
+    extending the argument to rotation systems. A second independent-human-engagement data point
+    on the same OpenAI proof, same pattern as Balko's. Abstract + author verified via arXiv API
+    this session.
 - notes: 2026-10-27 (daily, seed creation/split): caught in today's math category-rotation batch
   (keyword triage on "conjecture"/"proof of"). Confidence `medium`: a credible independent
   specialist's exposition is a vetting-positive signal, but OpenAI's own manuscript remains
   wholly AI-generated and unrefereed, and this session did not independently verify the
   result-family's exact number/scope in `CONTENTS.md`. Watch for: that verification, further
   citations of Balko's exposition, and any correctness caveats.
+  - 2026-11-04 (daily): a SECOND independent exposition (Salazar, see evidence) — two independent
+    specialists have now separately found OpenAI's original proof hard to follow and rewritten it;
+    both expositions agree the underlying argument holds, a strengthening vetting-positive signal.
+    No stage/confidence change (still unrefereed at the source). last_evidence advances
+    2026-10-25 → 2026-11-03.
 
 ### Independent same-day AI claims refuting the Exponential Time Hypothesis (OpenAI + Anthropic)
 - stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-27
@@ -2929,6 +2952,36 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     OpenAI's verification-timeline framing, saying Lean verification "takes, at most, a couple of
     days" — a named-expert challenge to the claimed month-long verification effort, distinct from
     Woit's and Bauerschmidt's already-tracked scope/checkability concerns.
+  - 2026-10-27 (document itself; found/opened 2026-11-04) — https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf
+    — the shepherding committee's OWN statement (Douglas, Gross [chair], Jaffe, Klebanov, Nekrasov),
+    hosted at KITP (an already-tracked institute); downloaded and read directly via `pdftotext` this
+    session (WebFetch could not parse the PDF's text layer). RESOLVES the standing open question
+    on mass-gap scope: the committee states explicitly "confinement and the mass gap remain very
+    important important open challenges" — confirming Woit's suspicion that only EXISTENCE
+    (including fermion coupling/QCD) is claimed, not the mass gap. New concrete detail: on Oct 16
+    Gross was asked by OpenAI to "assume custody" of the proof and chose the rest of the committee;
+    the committee states "We have no responsibility to OpenAI"; they are still validating the Lean
+    formalization against the informal statement and have NOT yet released it; once satisfied they
+    will release the Lean proof, then their assessment together with "the full 1147-page LLM
+    proofs" (first concrete page count on file). Cites a related primary for next-session chase:
+    Douglas, "The Yang–Mills Millennium problem," Nat. Rev. Phys 8, 86–97 (2026). Found via a
+    MathOverflow community-pulse pointer ("Lean 4 verification of a no-go bridge...", intake only,
+    not itself evidence) → `tvly search` → this primary PDF.
+  - 2026-10-06 (repository; found/opened 2026-11-04) — https://github.com/ethanwsussman/Yang--Mills-LLM-experiment
+    — RESOLVES the standing "Alpöge–Sussman repository URL" open item carried across the 2026-10-27,
+    10-28, 11-02 and 11-03 reports. Opened directly via `WebFetch`. The repo (Ethan Sussman, with
+    Levent Alpöge — already tracked via the Hopf-problem/S⁶ trend) is an independent, from-scratch,
+    PUBLICLY-posted attempt (using Claude, credited explicitly for the mathematical ideas under
+    Alpöge's guidance — AI-watch-lane: track the result, not the method) to complete Balaban's
+    4D Yang–Mills existence program. Status per its own README (none of it verified): QED3 (242pp,
+    "if correct" has the full construction incl. Osterwalder–Schrader axioms, believed essentially
+    correct but unchecked); YM3 (857+1201pp, OS axioms for tr[F²] "if correct," one author less
+    confident); YM4 (unfinished, "appears to" have an existence argument, called "very long and
+    largely not understandable" by Alpöge, "more likely than not mostly correct" per Sussman, who
+    urges caution). An update note in the README acknowledges OpenAI's own YM4 construction and
+    says the authors will continue regardless. EXTREME caution tier (self-described as largely
+    unverified LLM output, "slop" in the authors' own term) — tracked because it is the one named,
+    independent, from-scratch competing effort this ledger has been chasing for 3+ sessions.
 - notes: 2026-10-27 (daily, seed creation): caught via the same Hacker News front-page story and
   openai.com publication page as the ETH-refutation trend above (one Oct 26 post announces all
   three results). Held at `seed`/`low` (domain-cadence pre-referee-landmark-EVENT precedent, same
@@ -2953,6 +3006,21 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     reactions, not previously on file. No stage/confidence change (still the most cautious entry
     on this ledger — no public manuscript or Lean proof located). Still no Alpöge–Sussman
     repository URL found this session either.
+  - 2026-11-04 (daily): TWO of the five standing chase items from this trend's own creation note
+    RESOLVED this session (see evidence above) — (b) the mass-gap-scope question: the shepherding
+    committee's own KITP-hosted statement confirms existence-only (incl. fermion coupling), mass
+    gap/confinement explicitly still open; (c) partial progress on the panel's findings: the
+    committee states it is still validating the Lean formalization internally and has NOT yet
+    released anything, with a plan to eventually release the Lean proof then a full assessment plus
+    the 1147-page manuscript; (d) the Alpöge–Sussman repository located
+    (`github.com/ethanwsussman/Yang--Mills-LLM-experiment`) — an independent, still-unverified,
+    Claude-assisted from-scratch effort at QED3/YM3/YM4, continuing despite OpenAI's announcement.
+    No stage/confidence change (still `seed`/`low` — no public OpenAI manuscript, Lean proof, or
+    committee assessment released yet; the new primaries clarify SCOPE and STATUS of the claim, not
+    its correctness). Remaining open: (a) the actual OpenAI manuscript/Lean proof becoming public,
+    (e) any Clay Mathematics Institute statement. last_evidence unchanged at 2026-10-27 (no newer-
+    dated primary found this session; the KITP statement and the GitHub repo's own content both
+    predate or coincide with that date).
 
 ### Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)
 - stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
@@ -3273,6 +3341,122 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   unrefereed, no-peer-review repository; author identity still unconfirmed this session. A
   49-year-old named conjecture resolution, flagged "unrefereed preprint — claim." Watch for
   author identification and any independent engagement.
+
+### Kaplansky's group-ring conjectures fail in positive characteristic (torsion-free hyperbolic groups)
+- stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
+- what: axis-1 DOMAIN-CADENCE LANDMARK, caught in today's math full-category arXiv sweep
+  (math.GR/RA). Kaplansky's four group-ring conjectures (zero-divisor, idempotent, unit,
+  and the related soficity/surjunctivity questions) are textbook-famous open problems since
+  the 1940s/1950s on whether group algebras of torsion-free groups can be "pathological." This
+  paper shows ALL FOUR fail in positive characteristic for torsion-free word-hyperbolic groups:
+  for every prime $p$ there is a finitely presented, torsion-free, word-hyperbolic group $G$
+  (finite 2-dim classifying space) with $a,b\in\mathbb F_p[G]$, $ab=1\ne ba$ — a non-trivial
+  idempotent, zero divisor and unit over every field of characteristic $p$, and $G$ is neither
+  sofic nor surjunctive.
+- evidence:
+  - 2026-11-03 (v1) — https://arxiv.org/abs/2611.04599 — Nidhal Mghirbi, Seth Douglas,
+    "Kaplansky's conjectures fail for torsion-free hyperbolic groups in positive characteristic":
+    for $p=2$ the group $G$ and elements $a,b$ come "from OpenAI's random construction" (an
+    AI-watch-lane connection — the counterexample seed itself is AI-generated; tracked for the
+    mathematical RESULT, not the AI method). Abstract + authors verified via arXiv API this
+    session.
+- notes: 2026-11-04 (daily, seed creation): unrefereed arXiv preprint — PROVISIONAL under the
+  hype-skepticism rule pending independent engagement, though Kaplansky's conjectures are
+  famous enough that expert reaction should surface quickly if there is a gap. Watch for
+  independent verification and any commentary from group-ring-theory specialists.
+
+### Every classifiable simple C*-algebra has a C*-diagonal (completing the Elliott classification programme's diagonal question)
+- stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
+- what: axis-1 DOMAIN-CADENCE LANDMARK (math.OA), caught in today's math full-category sweep.
+  Combined with Xin Li's prior construction in the stably-finite setting, this paper constructs
+  C*-diagonals in all UCT Kirchberg algebras, completing the proof that EVERY classifiable
+  simple C*-algebra (in the sense of the Elliott classification programme) admits a C*-diagonal
+  — every UCT Kirchberg algebra in fact admits an untwisted principal étale groupoid model with
+  a finite-dimensional unit space.
+- evidence:
+  - 2026-11-03 (v1) — https://arxiv.org/abs/2611.04648 — Samuel Evington, Philipp Sibbel, "Every
+    classifiable simple C*-algebra has a C*-diagonal." Abstract + authors verified via arXiv API
+    this session.
+- notes: 2026-11-04 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
+  referee/community engagement; a program-completing result within a well-established
+  classification research program (Elliott programme), so the claim is well-specified against
+  known prior work (Xin Li's stably-finite construction) rather than an isolated surprise. Watch
+  for operator-algebra community reaction.
+
+### D-equivalence conjecture resolved for all known hyperkähler deformation types (generalized Kummer varieties)
+- stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
+- what: axis-1 DOMAIN-CADENCE LANDMARK (math.AG), caught in today's math full-category sweep.
+  Shows birationally-equivalent hyperkähler varieties of generalized Kummer type are derived
+  equivalent, confirming the D-equivalence conjecture in this deformation type; combined with
+  other authors' recent results (not independently opened this session), this SETTLES the
+  D-equivalence conjecture for all known deformation types of hyperkähler varieties.
+- evidence:
+  - 2026-11-01 (v1) — https://arxiv.org/abs/2611.04118 — Will Donovan, Chengxi Wang, Nantao
+    Zhang, "D-equivalence conjecture for hyperkähler varieties of generalized Kummer type."
+    Abstract + authors verified via arXiv API this session; the claim that this completes the
+    conjecture for ALL known deformation types rests partly on other authors' prior results not
+    independently opened this session — flagged for next session to identify and verify.
+- notes: 2026-11-04 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
+  referee engagement. Watch for: identifying/verifying the "other authors' recent results" this
+  paper says it combines with, and any algebraic-geometry community reaction.
+
+### Proof of Vogan's conjecture on local Arthur packets (geometrization of Kottwitz–Shelstad transfer)
+- stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
+- what: axis-1/2 DOMAIN-CADENCE LANDMARK (math.RT, Langlands program), caught in today's math
+  full-category sweep. Gives a geometric analogue of Kottwitz–Shelstad endoscopic transfer for
+  reductive groups over p-adic fields with cyclic component groups of trivial/prime order,
+  proves it coincides with the classical transfer (assuming the local Langlands correspondence
+  plus the Kazhdan–Lusztig hypothesis), and as an application PROVES Vogan's 1993 conjecture on
+  local Arthur packets for quasisplit classical groups and their pure inner forms: all local
+  Arthur packets are ABV-packets, satisfying Arthur's local conjectures on twisted endoscopic
+  character relations.
+- evidence:
+  - 2026-11-01 (v1) — https://arxiv.org/abs/2611.03342 — Clifton Cunningham, Alexander
+    Hazeltine, Baiying Liu, Chi-Heng Lo, Mishty Ray, "Geometrization of Kottwitz-Shelstad
+    transfer and Vogan's conjecture on local Arthur packets." Abstract + authors verified via
+    arXiv API this session.
+- notes: 2026-11-04 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
+  referee engagement — a central conjecture of the Langlands program, proved here for an
+  important class of groups (quasisplit classical + pure inner forms), not the fully general
+  case. Watch for representation-theory community reaction and any extension to the fully
+  general case.
+
+### Progress toward the abc conjecture: a weak form proved via adelic intersection theory (Soulé)
+- stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
+- what: axis-1 EXTRAORDINARY-CLAIM caution (same tier as the quasi-RH/Yang-Mills entries): the
+  abc conjecture is one of the most famous open problems in number theory (Masser-Oesterlé
+  1985), with a long, unresolved, and highly controversial prior claimed-proof saga
+  (Mochizuki's IUT). A single, highly credible author (Christophe Soulé, IHES) now proves a
+  WEAK FORM of the abc conjecture, plus a conjecture of Vojta for curves of genus two, via
+  adelic intersection theory, following a method "envisioned by Parshin and Moret-Bailly." This
+  is explicitly PARTIAL progress, NOT a full resolution of the abc conjecture itself — seeded
+  here (rather than queued) given the conjecture's outsized significance to the field; any
+  movement on it merits standing-watch treatment.
+- evidence:
+  - 2026-11-03 (v1) — https://arxiv.org/abs/2611.05217 — Christophe Soulé, "On the abc
+    conjecture." Abstract + author verified via arXiv API this session.
+- notes: 2026-11-04 (daily, seed creation): EXTREME caution — single-author, unrefereed arXiv
+  preprint on one of number theory's most famous and most hype-sensitive open problems; Soulé's
+  standing (IHES, a highly credible algebraic/arithmetic geometer) lends weight, but "weak form"
+  means this is explicitly NOT a full resolution. Flag "unrefereed preprint — partial claim."
+  Watch for: expert commentary (this will likely surface quickly given the conjecture's profile),
+  and clarification of exactly how "weak" the proved form is relative to the full conjecture.
+
+### A counterexample to Lee's 1988 conjecture on pseudo-Einstein structures (CR geometry)
+- stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
+- what: axis-1 DOMAIN-CADENCE LANDMARK (math.DG), caught in today's math full-category sweep.
+  In 1988 J. M. Lee conjectured that a compact strictly pseudoconvex CR manifold admits a
+  pseudo-Einstein contact form iff the real first Chern class of its holomorphic tangent bundle
+  vanishes (Lee himself proved necessity). This paper shows the condition is NOT sufficient: in
+  every real dimension $2n+1\ge5$ there is a compact connected strictly pseudoconvex CR manifold
+  with vanishing $c_1(T^{1,0})$ admitting no pseudo-Einstein contact form — a 38-year-old named
+  conjecture disproved.
+- evidence:
+  - 2026-11-01 (v1) — https://arxiv.org/abs/2611.02718 — Dong Yuxin, Wang Haohao, "A
+    counterexample to Lee's conjecture on pseudo-Einstein structures." Abstract + authors
+    verified via arXiv API this session.
+- notes: 2026-11-04 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
+  referee/community engagement. Watch for CR-geometry community reaction.
 
 ## observation_queue
 
@@ -7729,6 +7913,62 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   Secondary-source-only per the hard rules — cannot cite as evidence until the primary is located.
   Flagged for next session: re-check INSPIRE/arXiv and other physics-news outlets for the
   underlying paper/preprint.
+- 2026-11-03 — https://arxiv.org/abs/2611.02454 — Iosevich, Yavicoli, "The geometric case of the
+  Erdős Similarity Conjecture. A human exposition of the OpenAI proof": a detailed human
+  exposition (finite probability + basic measure theory) of one specific named result within
+  OpenAI's Oct 6 mass disclosure (not yet individually captured on that trend) — a positive-
+  measure subset of $[0,1]$ avoiding every translate/dilate of $\{q^n\}$. Below the split-trend
+  bar (one exposition so far, cf. Harary-Hill's two); part of the already-tracked OpenAI
+  mass-disclosure wave. Abstract/authors verified via arXiv API this session.
+- 2026-11-03 — https://arxiv.org/abs/2611.03572 — Bernal-González, Calderón-Moreno, Prado-Bassas,
+  "Counterexamples to the Jacobian Conjecture from the viewpoint of lineability": studies the
+  algebraic genericity (affine-coneability, 1- but not 2-lineability) of the polynomial
+  counterexample family to the already-queued Jacobian Conjecture ($N\ge3$, 2026-07). A follow-up
+  analysis of the existing cluster, not a new independent artifact. Abstract/authors verified via
+  arXiv API this session.
+- 2026-11-03 — https://hexagonmath.org/2611.00026 — "Iterating the
+  Gupta–Ndiaye–Norin–Wei method: a computer-verified bound $R(k)\le 3.7698^{k+o(k)}$": a Ramsey-
+  number UPPER-bound improvement (distinct sub-axis from the tracked LOWER-bound trend above;
+  computer-verified, unrefereed hexagonmath preprint). Title verified via direct page fetch this
+  session.
+- 2026-11-03 — https://arxiv.org/abs/2611.05300 — Aichholzer, Dorfer, Kramer, Rieck, Vogtenhuber,
+  "Counterexamples to the Happy Edge Conjecture in Plane Spanning Trees": disproves a folklore
+  conjecture (computationally verified for small cases) about flip-graph reconfiguration of plane
+  spanning trees. Below the landmark bar (folklore, not individually named/attributed). Abstract/
+  authors verified via arXiv API this session.
+- 2026-11-03 — https://arxiv.org/abs/2611.02544 — Santiago Pineda Montoya, "Counterexamples to a
+  Cubic Nondegeneracy Conjecture": disproves a Morier-Genoud–Ovsienko conjecture on cubic Boolean
+  generating functions. Below the landmark bar (specialized, niche subfield). Abstract/author
+  verified via arXiv API this session.
+- 2026-11-03 — https://arxiv.org/abs/2611.03151 — Hu, Li, "Counterexamples to Relaxed
+  Multiplication in List Coloring": answers a 2019 Jiang–Zhu question negatively. Below the
+  landmark bar. Abstract/authors verified via arXiv API this session.
+- 2026-11-03 — https://arxiv.org/abs/2611.02719 — Xu, Hu, "A counterexample to a three-step
+  convergence bound for BFGS with exact line search": disproves a numerical-optimization error
+  estimate. Below the landmark bar (axis-adjacent, math.OC). Abstract/authors verified via arXiv
+  API this session.
+- 2026-11-03 — several below-bar hexagonmath.org items from today's `/rss/all` sweep (new since
+  the 2026-11-02 cutoff at 2611.00019): "Hecke eigenvalues in level 1 modulo powers of 2 and 3:
+  Hatada's question (1981) and the Coleman-Stein conjecture" (2611.00035 — answers Hatada's 1981
+  question and gives an independent proof of the level-1 Coleman–Stein case, but explicitly notes
+  both "also follow from Rustom's recent classification," i.e. not the first proof); "A Bound
+  Helium Dianion Does Not Exist" (2611.00041, atomic physics, axis 3); "The binary Collatz
+  dynamics of the trinomials $x^n+x+1$: proof of two conjectures of Gallardo and Rahavandrainy"
+  (2611.00031). All unrefereed hexagonmath preprints, below the landmark bar; titles/descriptions
+  verified via direct page fetch this session.
+- 2026-10-30 — https://news.fnal.gov/2026/10/the-sbnd-collaboration-releases-first-neutrino-results/
+  — "The SBND collaboration releases first neutrino results": the Short-Baseline Near Detector's
+  first result, improving neutrino-interaction modeling ahead of DUNE — an experimental milestone,
+  not yet a landmark discovery. Opened directly via the Fermilab RSS feed this session.
+- 2026-10-28 — https://quantum-journal.org/papers/q-2026-10-28-2253/ — "A Counterexample to the
+  Optimality Conjecture in Convex Quantum Channel Optimization": disproves a 2021 Coutts et al.
+  conjecture on trace-distance-optimal state transformation (axis 4, quantum information). Opened
+  directly via the Quantum journal RSS feed this session.
+- 2026-11-03 — https://arxiv.org/abs/2611.05174 — "Evidence for a Dirac Spin Liquid in the Kagome
+  Heisenberg Antiferromagnet from High-Precision Neural-Network Quantum States": numerical
+  (not experimental) evidence for a long-sought quantum spin-liquid phase via neural-network
+  quantum-state simulation (axis 3, condensed matter theory). Abstract/title verified via arXiv
+  API this session.
 
 ## source_rotation
 
@@ -7746,6 +7986,17 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-04 — [Statement by the shepherding committee on OpenAI's Yang–Mills proof](https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf) —
+  Douglas, Gross (chair), Jaffe, Klebanov, Nekrasov's own account of how they are vetting OpenAI's
+  claimed Yang–Mills existence proof before release: existence only (mass gap still open), still
+  validating the Lean formalization, 1147-page manuscript pending release — essential reading for
+  anyone following the field's single highest-magnitude open claim. Read directly via `pdftotext`
+  this session.
+- 2026-11-04 — [On the abc conjecture](https://arxiv.org/abs/2611.05217) — Christophe Soulé
+  proves a weak form of the abc conjecture and a genus-two case of Vojta's conjecture via adelic
+  intersection theory, following a method envisioned by Parshin and Moret-Bailly — a rare piece
+  of genuine forward motion, by a highly credible author, on one of number theory's most famous
+  (and most hype-scarred) open problems. Abstract verified via arXiv API this session.
 - 2026-11-03 — [Proof of the entropic $c$-theorem](https://arxiv.org/abs/2610.40874) — Jonah
   Kudler-Flam's new proof of Zamolodchikov's c-theorem in 2D QFT, building a $c$-function from
   mutual information between spacelike-separated wedges via relative entropy (following

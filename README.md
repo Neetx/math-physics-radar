@@ -1,29 +1,35 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-65-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-497-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--03-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-71-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-498-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--04-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-11-03):** three new landmark seeds from today's arXiv and hexagonmath.org sweeps, a resolved standing open item on the OpenAI Yang–Mills claim, and a new study-shelf pick.
-- Two named conjectures resolved via today's arXiv sweep: Matthew Colbrook's [proof of the 1974 Kung–Traub conjecture](TRENDS.md#resolution-of-the-kungtraub-conjecture-root-finding-complexity-numerical-analysis) on root-finding convergence order, and Jakob Dittmer's [resolution of Berger's 1965 conjecture](TRENDS.md#the-berger-conjecture-resolved-for-three-dimensional-manifolds-riemanniansymplectic-geometry) for three-dimensional manifolds.
-- hexagonmath.org adds a third landmark (unrefereed): [Hilton's 1977 conjecture on cycle multiplicities resolved](TRENDS.md#resolution-of-hiltons-conjecture-on-cycle-multiplicities-extremal-graph-theory).
-- Located the correct URL for a standing open item on the [OpenAI Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion): [Scientific American's companion piece](https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem), with Michael Douglas calling it "a major advance" and Tristan Buckmaster disputing OpenAI's verification-timeline framing.
-- Jonah Kudler-Flam's new [entropic proof of Zamolodchikov's c-theorem](https://arxiv.org/abs/2610.40874) joins the study shelf; AxiomMath's 7-post teaser-blog backlog resolved to arXiv ids (queued).
+**Since last scan (2026-11-04):** six new landmark seeds from today's full-category arXiv sweep, a major vetting-status update on the OpenAI Yang–Mills claim, and a second independent exposition of the Harary–Hill proof.
+- Six named conjectures/questions resolved or advanced: [Kaplansky's group-ring conjectures fail](TRENDS.md#kaplanskys-group-ring-conjectures-fail-in-positive-characteristic-torsion-free-hyperbolic-groups) for torsion-free hyperbolic groups; [every classifiable C*-algebra has a C*-diagonal](TRENDS.md#every-classifiable-simple-c-algebra-has-a-c-diagonal-completing-the-elliott-classification-programmes-diagonal-question); the [D-equivalence conjecture resolved](TRENDS.md#d-equivalence-conjecture-resolved-for-all-known-hyperkähler-deformation-types-generalized-kummer-varieties) for all known hyperkähler deformation types; [Vogan's conjecture on local Arthur packets proved](TRENDS.md#proof-of-vogans-conjecture-on-local-arthur-packets-geometrization-of-kottwitzshelstad-transfer); a [counterexample to Lee's 1988 pseudo-Einstein conjecture](TRENDS.md#a-counterexample-to-lees-1988-conjecture-on-pseudo-einstein-structures-cr-geometry); and (EXTREME caution — partial progress only) Christophe Soulé's [weak form of the abc conjecture](TRENDS.md#progress-toward-the-abc-conjecture-a-weak-form-proved-via-adelic-intersection-theory-soulé).
+- Major update on the [OpenAI Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion): the shepherding committee's own [KITP-hosted statement](https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf) confirms existence-only (mass gap still open) and a pending 1147-page manuscript; separately located the long-sought [Alpöge–Sussman independent repository](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment), a still-unverified from-scratch effort.
+- A second independent specialist's exposition of the [Harary–Hill conjecture](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) proof (Salazar) — both existing expositions now agree the argument holds.
 
 ## Trends
 
-🚀 2 · 📈 2 · 🌱 60 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
+🚀 2 · 📈 2 · 🌱 66 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-10-26](https://scipost.org/SciPostPhysCore.9.4.069) |
 | [Ramsey lower-bound breakthroughs](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-10-05](https://arxiv.org/abs/2610.06081) |
-| [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-10-14](https://arxiv.org/abs/2610.20995) |
+| [Komlós / Beck-Fiala resolution](TRENDS.md#resolution-of-the-komlós--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-11-03](https://arxiv.org/abs/2611.03427) |
 | [Marton's-conjecture exponent race](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
+| [Kaplansky's conjectures fail](TRENDS.md#kaplanskys-group-ring-conjectures-fail-in-positive-characteristic-torsion-free-hyperbolic-groups) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.04599) |
+| [Classifiable C*-algebras have C*-diagonals](TRENDS.md#every-classifiable-simple-c-algebra-has-a-c-diagonal-completing-the-elliott-classification-programmes-diagonal-question) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.04648) |
+| [D-equivalence conjecture resolved](TRENDS.md#d-equivalence-conjecture-resolved-for-all-known-hyperkähler-deformation-types-generalized-kummer-varieties) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.04118) |
+| [Vogan's conjecture proved](TRENDS.md#proof-of-vogans-conjecture-on-local-arthur-packets-geometrization-of-kottwitzshelstad-transfer) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.03342) |
+| [Progress on the abc conjecture](TRENDS.md#progress-toward-the-abc-conjecture-a-weak-form-proved-via-adelic-intersection-theory-soulé) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.05217) |
+| [Lee's pseudo-Einstein conjecture disproved](TRENDS.md#a-counterexample-to-lees-1988-conjecture-on-pseudo-einstein-structures-cr-geometry) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.02718) |
+| [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-11-03](https://arxiv.org/abs/2611.03515) |
 | [Kung–Traub conjecture resolved](TRENDS.md#resolution-of-the-kungtraub-conjecture-root-finding-complexity-numerical-analysis) | 🌱 seed | [2026-11-03](https://arxiv.org/abs/2610.40660) |
 | [Berger conjecture (3D case)](TRENDS.md#the-berger-conjecture-resolved-for-three-dimensional-manifolds-riemanniansymplectic-geometry) | 🌱 seed | [2026-11-03](https://arxiv.org/abs/2610.41006) |
 | [Hilton's conjecture resolved](TRENDS.md#resolution-of-hiltons-conjecture-on-cycle-multiplicities-extremal-graph-theory) | 🌱 seed | [2026-11-03](https://hexagonmath.org/2611.00028) |
-| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-11-02](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) |
+| [OpenAI's quasi-Riemann-Hypothesis claim](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-ℜs78) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00716) |
 | [Petz's conjecture proved](TRENDS.md#proof-of-petzs-conjecture-on-the-scalar-curvature-of-the-kubomori-metric-quantum-information-geometry) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00717) |
 | [Morel's purity conjecture disproved](TRENDS.md#disproof-of-morels-purity-conjecture-algebraic-k-theory--motivic-homotopy) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2611.00017) |
 | [Deterministic subexponential factorization](TRENDS.md#deterministic-subexponential-integer-factorization-rudichrousseau-conjecture) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00711) |
@@ -38,7 +44,6 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Morgan–Mullen conjecture resolved](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.36534) |
 | [Bialostocki–Lotspeich conjecture resolved](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37125) |
 | [Birkhoff–Pierce lattice order on ℂ](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-ℂ) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37155) |
-| [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34444) |
 | [Golomb–Welch conjecture resolved](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34291) |
 | [Erdős–Nicolas–Sárközy conjecture resolved](TRENDS.md#resolution-of-the-erdősnicolassárközy-conjecture-admissible-set-counting) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34372) |
 | [Propeller Conjecture resolved](TRENDS.md#resolution-of-the-propeller-conjecture-khotnaor-2008-openai-claim--independent-human-simplification-heilman) | 🌱 seed | [2026-10-23](https://arxiv.org/abs/2610.32158) |
@@ -81,9 +86,19 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Erdős unit-distance disproof (OpenAI)](TRENDS.md#disproof-of-the-erdős-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://arxiv.org/abs/2605.20695) |
 | [Graham's rearrangement conjecture resolved](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
 | [Stanley-Gasharov counterexamples](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.26364) |
-
 ## Worth studying
 
+- 2026-11-04 — [Statement by the shepherding committee on OpenAI's Yang–Mills proof](https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf) —
+  Douglas, Gross (chair), Jaffe, Klebanov, Nekrasov's own account of how they are vetting OpenAI's
+  claimed Yang–Mills existence proof before release: existence only (mass gap still open), still
+  validating the Lean formalization, 1147-page manuscript pending release — essential reading for
+  anyone following the field's single highest-magnitude open claim. Read directly via `pdftotext`
+  this session.
+- 2026-11-04 — [On the abc conjecture](https://arxiv.org/abs/2611.05217) — Christophe Soulé
+  proves a weak form of the abc conjecture and a genus-two case of Vojta's conjecture via adelic
+  intersection theory, following a method envisioned by Parshin and Moret-Bailly — a rare piece
+  of genuine forward motion, by a highly credible author, on one of number theory's most famous
+  (and most hype-scarred) open problems. Abstract verified via arXiv API this session.
 - 2026-11-03 — [Proof of the entropic $c$-theorem](https://arxiv.org/abs/2610.40874) — Jonah
   Kudler-Flam's new proof of Zamolodchikov's c-theorem in 2D QFT, building a $c$-function from
   mutual information between spacelike-separated wedges via relative entropy (following
@@ -770,12 +785,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Terence Tao hosted a guest post, ["Egoless Mathematics in the AI Era"](https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/), on what mathematical work is for in the AI era — commentary, not a new result.
-- A MathOverflow meta-question, ["Examples for the non-use of AI and especially LLMs in recent major mathematical developments"](https://mathoverflow.net/questions/?tags=ai), surfaced but closed without a notable answer.
-- Hossenfelder's ["Large Hadron Collider Sees Extra Dimension, Physicists Claim"](https://www.youtube.com/watch?v=LtUCXHxRcas) remains unverified: re-searched this session (INSPIRE-HEP + web search), still no underlying paper or author names located.
-- Hacker News front page carried one math/physics-governance overlap (the Egoless Mathematics post above); otherwise routine. Physics/MathOverflow/Physics-SE otherwise routine, no new on-axis pointer.
-- The Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue, not a per-subreddit one.
+- A MathOverflow question on a Lean 4 check of a "no-go bridge" between the OpenAI Yang–Mills claim and the mass gap (closed, intake only) led directly to the KITP statement and the Alpöge–Sussman repository above.
+- Terence Tao's blog, Gowers's blog, and Kalai's blog all carried AI-in-mathematics governance/commentary posts this session (no new primary result named beyond what's already tracked).
+- Hossenfelder's "Large Hadron Collider Sees Extra Dimension" claim remains unverified — re-searched again this session, still no underlying paper or author names located.
+- MathOverflow, Physics Stack Exchange, and Mathstodon's public timeline were otherwise routine; the Reddit block (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics, r/AskPhysics) remains a standing, domain-wide network issue.
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (497 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-11-03](reports/2026-11-03.md)) · weekly: [2026-W44](reports/weekly/2026-W44.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (498 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-11-04](reports/2026-11-04.md)) · weekly: [2026-W44](reports/weekly/2026-W44.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

@@ -1,7 +1,8 @@
-# Math-Physics Radar — 2026-11-03
+# Math-Physics Radar — 2026-11-04
 
-- **New trend** · [Kung–Traub conjecture resolved](TRENDS.md#resolution-of-the-kungtraub-conjecture-root-finding-complexity-numerical-analysis) — a 1974 root-finding speed-limit conjecture resolved (preprint).
-- **New trend** · [Berger conjecture (3D case)](TRENDS.md#the-berger-conjecture-resolved-for-three-dimensional-manifolds-riemanniansymplectic-geometry) — a 1965 closed-geodesics conjecture resolved for 3-manifolds (preprint).
-- **New trend** · [Hilton's conjecture resolved](TRENDS.md#resolution-of-hiltons-conjecture-on-cycle-multiplicities-extremal-graph-theory) — a 1977 cycle-multiplicity conjecture in dense Hamiltonian graphs resolved (preprint).
-- **New** · [OpenAI just scooped human researchers on a million-dollar quantum math problem](https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem) — Michael Douglas calls it "a major advance" (→ [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)).
-- **Study pick** · [Proof of the entropic $c$-theorem](https://arxiv.org/abs/2610.40874) — an entanglement-entropy proof of Zamolodchikov's c-theorem in 2D QFT.
+- **New trend** · [Kaplansky's conjectures fail](TRENDS.md#kaplanskys-group-ring-conjectures-fail-in-positive-characteristic-torsion-free-hyperbolic-groups) — disproved for torsion-free hyperbolic groups in positive characteristic.
+- **New trend** · [Vogan's conjecture proved](TRENDS.md#proof-of-vogans-conjecture-on-local-arthur-packets-geometrization-of-kottwitzshelstad-transfer) — for local Arthur packets of quasisplit classical groups.
+- **New trend** · [Progress on the abc conjecture](TRENDS.md#progress-toward-the-abc-conjecture-a-weak-form-proved-via-adelic-intersection-theory-soulé) — a weak form proved via adelic intersection theory (claim).
+- **New** · [Statement by the shepherding committee](https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf) — confirms existence-only claim, mass gap still open (→ [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)).
+- **New** · [Yang--Mills-LLM-experiment](https://github.com/ethanwsussman/Yang--Mills-LLM-experiment) — independent from-scratch construction effort located, unverified (→ [OpenAI's Yang–Mills/QCD claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)) (claim).
+- **New** · [Proof of the Harary–Hill conjecture: a detailed exposition](https://arxiv.org/abs/2611.03515) — second independent specialist confirms the proof holds (→ [Harary–Hill conjecture resolved](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko)).

@@ -4056,3 +4056,94 @@ primaries found this session (all sources named today were already in a swept li
 13 ids checked (named in reports/2026-10-29.md, 2026-10-30.md, 2026-11-02.md) / 0 missing. Today's
 own ~20 new ids self-routed on creation (verified by grep, all present). README.md and SUMMARY.md
 regenerated in the same commit.
+
+2026-11-04 (Wed, Pass 1, scheduled) — FULL CHECK; first daily since 2026-11-03. Load-state: local
+branch `claude/modest-bohr-9cuh3k` at parity with origin/main (cc4ace5); verified all `radar:`
+commits of the last 7 days have matching reports, no incomplete-run warning. Two remote branches
+(`claude/modest-bohr-9415kc`, `claude/peaceful-faraday-n2ehd0`) hold July/August 2026 `radar:`
+commits with NO common ancestor with current main (main's own root commit is 2026-09-24 — an
+earlier repo history reset, not something this session did) — not merged; fast-forward is
+impossible and these are pre-reset history, not unmerged recent work, so left untouched (flagged
+for the curator, not auto-merged). `tvly` absent at session start, reinstalled cleanly via `pip
+install -q tavily-cli`, worked throughout. arXiv: full in-scope category set (22 math + 15 physics
+categories, widened this session: added cond-mat.dis-nn/quant-gas and astro-ph.CO/HE which were
+previously under-fetched) via the submittedDate-sorted API with pagination past the per-call cap
+to confirm full coverage — 599 fresh math + 532 fresh physics entries (2026-11-02 15:21 through
+2026-11-03 18:59, a genuinely large batch, no missed-day gap). Title-keyword-triaged in full;
+MAJOR CATCHES (6 new seed trends, domain-cadence landmark bar): Mghirbi–Douglas's disproof of
+Kaplansky's four group-ring conjectures for torsion-free hyperbolic groups in positive
+characteristic (2611.04599, the $p=2$ witness built from OpenAI's own random construction);
+Evington–Sibbel's completion of the C*-diagonal question for all classifiable simple C*-algebras
+(2611.04648); Donovan–Wang–Zhang's resolution of the D-equivalence conjecture for all known
+hyperkähler deformation types (2611.04118); Cunningham–Hazeltine–Liu–Lo–Ray's proof of Vogan's
+1993 conjecture on local Arthur packets via geometrized Kottwitz–Shelstad transfer (2611.03342);
+Dong–Wang's counterexample to Lee's 1988 pseudo-Einstein conjecture (2611.02718); and (EXTREME
+caution, single-author, explicitly "weak form" only — seeded rather than queued given the
+conjecture's outsized profile) Christophe Soulé's partial progress on the abc conjecture plus a
+genus-two case of Vojta's conjecture (2611.05217). Amendment J full-abstract pass (today's
+category: math.CA, continuing the rotation after FA; 16 fresh entries, all read in full) — 0
+title-blind landmark catch, all routine harmonic-analysis technical papers. Evidence appended to
+3 existing trends: Harary–Hill conjecture (Salazar's second independent exposition, 2611.03515 —
+last_evidence 10-25→11-03); Komlós/Beck-Fiala (Hollom's pedagogical exposition, 2611.03427, also
+naming a previously-uncaptured "Kintali counterexample to the strong Komlós conjecture" not yet
+independently verified — chase next session; last_evidence 10-14→11-03); below-bar items queued
+(Happy Edge Conjecture counterexamples 2611.05300, Cubic Nondegeneracy counterexample 2611.02544,
+Relaxed-Multiplication-in-list-coloring counterexample 2611.03151, BFGS counterexample 2611.02719,
+Erdős-Similarity-Conjecture OpenAI-wave exposition 2611.02454, Jacobian-Conjecture lineability
+follow-up 2611.03572, a Ramsey-number UPPER-bound improvement 2611.00026/hexagonmath — distinct
+sub-axis from the tracked lower-bound trend). Primary-feed sweep (radar-source-sweep): CERN
+Courier (curl) — STILL STALE, newest unchanged since Oct 1 (3rd session observed, not yet
+heal-owed — content genuinely absent); Fermilab (curl) — ONE genuine catch, "The SBND
+collaboration releases first neutrino results" (Oct 30, queued, an experimental milestone ahead of
+DUNE, not yet a landmark); Simons Foundation, IceCube category-feed (curl) — routine, unchanged;
+Quantum journal RSS (curl) — ONE catch, "A Counterexample to the Optimality Conjecture in Convex
+Quantum Channel Optimization" (Oct 28, queued, axis 4); PRL/PRX/RMP RSS (curl) — routine, 0
+on-axis landmark in the items sampled; Science Advances `showFeed` (curl) — 84 items, routine
+off-axis; CERN home `/feed/` — STILL 404 (heal-owed, standing since 10-22); LIGO (`WebFetch` on
+plain `/news`) — GWTC-5.0 still latest, no new catalog; DESI (`WebFetch`) — unchanged since April;
+LZ (`curl -L`) — only historical thesis entries, no new publication; IAS (`curl`) — 403 again
+(degraded, standing); SciPost API — Anubis bot-check again (standing degraded, sitemap workaround
+not re-run this session, time budget); INSPIRE-HEP "mostrecent" — still future-dated junk, not
+useful for triage (documented, not a failure). AI-watch lane: hexagonmath.org `/rss/all` (curl) —
+27 new items since the 11-02 cutoff (2611.00019), none individually landmark beyond the Ramsey
+upper-bound item above (queued); icarm.io/feed (curl -L) — same items as before, nothing new;
+agmai.org, ahmath.org, cims.nyu.edu (WebFetch) — all routine, no new dated item; vals.ai/blogs
+(WebFetch) — routine AI-eval posts, 0 on-axis catch; axiommath.ai/research (WebFetch) — same two
+most-recent posts as prior sessions, nothing new. GitHub watch (radar-repo-watch, WebFetch on
+`.atom`): lean4 unchanged (v4.36.0-rc2, Oct 27); Rocq unchanged (9.3.0); mathlib4 continuing its
+daily `master-YYYY-MM-DD` auto-tag (through master-2026-11-03). Community pulse (radar-pulse): HN
+front page — no math/physics story; MathOverflow `/feeds` (curl -L) — 29 items, routine EXCEPT one
+pointer ("Lean 4 verification of a no-go bridge between bare Yang-Mills existence and the mass gap
+on R^4", closed) that led via `tvly search` to the single biggest catch of the session — see below;
+Physics SE (curl) — 30 routine items; Mathstodon — routine. Digest blogs (curl): Tao's "What's new"
+— AI-governance posts only (Doctoral Advising Guidelines, Egoless Mathematics, Mathematics-has-
+changed, the UK academy report — all already tracked/noted, no new primary); Gowers — "Why I
+didn't sign the Fields medallists' letter" (governance, not a result); Kalai, Baez, Strassler,
+Hossenfelder, n-Category Café — all routine, no new on-axis primary; Woit — HTTP 000 again
+(standing SSL issue, not re-escalated, time budget). MAJOR CATCH (via the MathOverflow pointer
+above → `tvly search` → two primaries): (1) the OpenAI Yang–Mills shepherding committee's OWN
+statement, hosted at KITP (`kitp.ucsb.edu/sites/default/files/YM_working_group.pdf`), downloaded
+and read via `pdftotext` (WebFetch could not parse the PDF text layer) — RESOLVES the standing
+mass-gap-scope question (existence-only, including fermion coupling; mass gap/confinement
+explicitly still open) and gives the first concrete manuscript page count (1147 pages, still
+unreleased pending internal Lean-formalization validation); (2) the long-sought Alpöge–Sussman
+independent Yang–Mills repository, `github.com/ethanwsussman/Yang--Mills-LLM-experiment` (opened
+directly via `WebFetch`) — a public, still wholly unverified, Claude-assisted from-scratch effort
+at QED3/YM3/YM4 construction, continuing despite OpenAI's announcement. Both added as evidence to
+the OpenAI Yang–Mills trend (see TRENDS.md), closing 3 of 5 standing chase items from that trend's
+own creation note. Exploration slot (radar-explore, OFF-AXIS rotation per 11-03's "next: nlin.SI,
+cs.CC, or q-bio.PE" note): nlin.SI — 5 fresh entries, all routine integrable-systems technical
+papers, 0 catch (non-alarm per domain cadence; next: cs.CC or q-bio.PE). Self-heals: none attempted
+this session (cap 1-2/run; CERN `/feed/`, IAS 403, and Woit HTTP 000 all repeat-but-already-logged,
+no new heal path found this session — time budget spent on the Yang-Mills chase instead).
+Source-discovery staging: no new untracked-domain primaries found this session (all sources named
+today were already in a swept list). Dormancy probe: no trend crossed the 60-day quiet threshold
+this session except the standing backfill-precedent cases (Graham's, unit-distance, sum-product,
+M23, Stanley-Gasharov-dormant — all already exempted/marked per their precedent notes); no moves.
+Convergence check: queue scanned, no sub-theme yet clears the ≥3-independent-group bar for
+promotion. capture-leak: all ~19 new arXiv/hexagonmath ids introduced this session verified
+present on a discrete evidence or queue line via grep (6 seeds + 2 evidence-appends + ~11 queue
+items); 0 missing, 0 leaks. 6 new seed trends added (TRENDS.md now at 71 trends, up from 65);
+`observation_queue` at 498 (well past the ~40 soft cap, domain-cadence-expected, not burned down
+this run); study_shelf +2 (KITP statement, Soulé's abc paper). README.md and SUMMARY.md
+regenerated in the same commit.
