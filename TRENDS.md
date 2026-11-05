@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2054,7 +2054,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     assessable output. last_evidence advances 2026-10-21 → 2026-10-30 (retreat announcement date).
 
 ### A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)
-- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-10-06
+- stage: emerging | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-11-03
 - what: axis-2 DOMAIN-CADENCE LANDMARK, a TITLE-BLIND capture-gap catch (Amendment J failure class —
   no conjecture/theorem/proof keyword in the title). Nathaniel Craig (particle theorist, UC Santa
   Barbara/KITP, on a one-year visiting position at OpenAI since this summer) nonperturbatively
@@ -2071,6 +2071,18 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - evidence:
   - 2026-10-06 — https://arxiv.org/abs/2610.09093 — Nathaniel Craig, "A gauge-invariant measure for
     lattice chiral fermions": abstract + author + date verified via arXiv API this session.
+  - 2026-11-03 — https://arxiv.org/abs/2611.05051 — Edward Witten, "A Note On Lattice Definition of
+    Gauge Theories With Chiral Fermions": independent engagement by a top theorist with the exact
+    construction above — describes a variant of Craig's algorithm (interpolating the lattice gauge
+    field over the continuum), notes "the same variant was also proposed recently by Hsu" (citation
+    not located this session — chase next), and flags a concrete practical obstruction: the
+    approach "can be implemented on a computer in principle, but not in practice by Monte Carlo
+    methods because the chiral fermion path integral is not positive." Witten credits Claude Opus
+    5.5 for technical help (AI-watch, axis-5 note, not the result itself). TITLE-BLIND capture
+    (Amendment J failure class again — no conjecture/theorem/proof keyword), caught via Peter
+    Woit's "Not Even Wrong" blog (`tvly extract` on the feed) this session, not the arXiv
+    hep-lat/hep-th/hep-ph title-triage sweep. Abstract + authors + categories verified via arXiv
+    API this session.
 - notes: 2026-10-13 (daily, seed creation, COVERAGE-GAP): a DOUBLE miss — not just title-blind, but
   a CATEGORY gap: the paper's primary category is `hep-lat` (lattice gauge theory), which is NOT in
   this radar's swept physics-category rotation at all (SOURCES.md lists hep-th/hep-ph/gr-qc/quant-ph/
@@ -2087,6 +2099,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   capture-leak sweep): this note had called 2603.22538 "already-tracked," but it carried no
   discrete line of its own anywhere on the ledger — a capture leak, now closed via a queue line
   below.
+- 2026-11-05 (daily): STAGE BUMP seed → emerging — a third independent author (Edward Witten,
+  arXiv:2611.05051, see evidence) has now engaged with this exact construction, alongside Craig
+  and a cited-but-unlocated Hsu, crossing from a single-author claim into multiple groups actively
+  working the same problem (the "multi-source, forming" bar for `emerging`). Confidence held at
+  `medium`, not raised to `high`: Witten's note is not a corroboration of correctness — it flags a
+  genuine remaining obstruction (the chiral-fermion path integral's non-positivity blocks Monte
+  Carlo in practice), so the vetting-status caution stands. Caught via community pulse (Woit's
+  blog), not the arXiv title-triage sweep — same title-blind failure class as the trend's own
+  creation. Chase next session: Hsu's uncited paper, and any lattice-QCD specialist reaction to
+  Witten's note specifically.
 
 ### Proof of the Erdős–Simonovits rational exponents conjecture (Epoch AI model, human-verified)
 - stage: seed | confidence: medium | first_seen: 2026-10-14 | last_evidence: 2026-10-13
@@ -2346,7 +2368,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     ledger treats every backfilled-landmark trend.
 
 ### First evidence that X(2370) is dominantly a glueball (BESIII Collaboration)
-- stage: seed | confidence: medium | first_seen: 2026-10-17 | last_evidence: 2026-09-01
+- stage: dormant | confidence: medium | first_seen: 2026-10-17 | last_evidence: 2026-09-01
 - what: axis-3 DOMAIN-CADENCE LANDMARK, PROMOTED from the observation_queue/study_shelf (held there
   since a 2026-07-22 capture-leak catch, never previously promoted to its own trend despite meeting
   the landmark-single-result bar). From 10 billion J/ψ events, the BESIII Collaboration reports the
@@ -2398,6 +2420,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     the evidence's own date, not the session that found it. No change. Now 54 days old — inside the
     60-day dormancy window but worth a fresh hep-ex/hep-ph-specific chase next session if no
     collaboration response surfaces.
+  - 2026-11-05 (daily, DORMANCY PROBE, 65 days quiet, first crossing of the 60-day threshold):
+    probed this trend's own evidence channels — CERN Courier (checked earlier this session,
+    stale since Oct 1, no new HEP content at all) plus a `WebSearch "X(2370) glueball BESIII
+    2026"` covering the Sept 1 → Nov 5 window — found only already-tracked material (the same
+    Aug-2026 BESIII announcement, the already-evidenced competing-interpretation paper, and older
+    background). No new on-scope hit inside the window. Empty probe → moved to `dormant` per the
+    60-day domain-cadence window. Not archived (well short of 120 days); re-check for a BESIII or
+    third-party response to the molecular-interpretation challenge whenever next revisited.
 
 ### Proof of the Erdős–Szemerédi sunflower conjecture (Bucić–He–Lee)
 - stage: seed | confidence: medium | first_seen: 2026-10-20 | last_evidence: 2026-10-19
@@ -2892,7 +2922,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     press/governance reaction above. last_evidence advances 2026-10-26 → 2026-10-27.
 
 ### OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion
-- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-27
+- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-11-03
 - what: axis-2/3 EXTRAORDINARY-CLAIM, the single highest-magnitude item this ledger has ever logged
   if confirmed: Yang–Mills existence and mass gap is one of the seven Clay Millennium Prize Problems
   (claymath.org). OpenAI's Oct 26 publication, "Working with academic communities to build
@@ -2982,6 +3012,20 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     says the authors will continue regardless. EXTREME caution tier (self-described as largely
     unverified LLM output, "slop" in the authors' own term) — tracked because it is the one named,
     independent, from-scratch competing effort this ledger has been chasing for 3+ sessions.
+  - 2026-11-03 (document; found/opened 2026-11-05) — https://www.kitp.ucsb.edu/sites/default/files/RULES%20AND%20PROCEDURES%20OF%20THE%20YANG%20MILLS%20GROUP.pdf
+    — the shepherding committee's own governance document, hosted at KITP; opened directly via
+    `curl`/`pdftotext` this session. Names the steering committee (Michael Douglas, David Gross
+    [chair], Arthur Jaffe, Igor Klebanov, Nikita Nekrasov — matches the YM_working_group.pdf
+    signatories) and states the group's scope may extend to "review other works submitted to it";
+    members must disclose conflicts of interest and may not do outside research on the same
+    problems; the group states it does "not seek academic credit for the discoveries produced by
+    AI models" but does seek credit for its own write-ups/understanding. Found via Peter Woit's
+    "Not Even Wrong" blog (already-tracked digest source, `tvly extract` on the feed this session),
+    which also names a companion "2nd Statement About Quantum Yang-Mills Theory" (dated Nov 3) that
+    reportedly says the committee hopes to release the Lean proof "next week" — that specific PDF
+    404'd on every filename variant tried this session (standing degraded, not yet heal-owed —
+    first occurrence; re-test next session), so its content is NOT treated as evidence here, only
+    Woit's secondary paraphrase (intake-only, not cited as a primary fact).
 - notes: 2026-10-27 (daily, seed creation): caught via the same Hacker News front-page story and
   openai.com publication page as the ETH-refutation trend above (one Oct 26 post announces all
   three results). Held at `seed`/`low` (domain-cadence pre-referee-landmark-EVENT precedent, same
@@ -3021,6 +3065,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (e) any Clay Mathematics Institute statement. last_evidence unchanged at 2026-10-27 (no newer-
     dated primary found this session; the KITP statement and the GitHub repo's own content both
     predate or coincide with that date).
+  - 2026-11-05 (daily): the committee's governance document (RULES AND PROCEDURES, see evidence)
+    adds the conflict-of-interest/no-academic-credit terms the group operates under — process
+    detail, not a correctness or scope update. Located but could NOT open a second, more
+    substantive committee statement (dated 2026-11-03, per Woit's blog) that reportedly commits to
+    releasing the Lean proof "next week" — every filename guess 404'd; chase again next session
+    (try the KITP activity page's own file listing or a `tvly search` for the exact filename).
+    last_evidence advances 2026-10-27 → 2026-11-03 (the governance doc's own date). No stage/
+    confidence change — still no public manuscript, Lean proof, or committee assessment.
 
 ### Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)
 - stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
@@ -3458,10 +3510,160 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - notes: 2026-11-04 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
   referee/community engagement. Watch for CR-geometry community reaction.
 
+### Resolution of the Cameron–Praeger conjecture for Steiner 6-designs
+- stage: seed | confidence: medium | first_seen: 2026-11-05 | last_evidence: 2026-11-05
+- what: axis-1 DOMAIN-CADENCE LANDMARK (full resolution of a named, 33-year-old conjecture).
+  Cameron and Praeger (1993) conjectured that no non-trivial block-transitive $6$-$(v,k,λ)$
+  designs exist. Huber (2010) had already reduced the Steiner case ($λ=1$) to a single infinite
+  family of possible exceptions, with automorphism group $\mathrm{P\Gamma L}(2,p^e)$ acting on the
+  projective line ($p\in\{2,3\}$, $e$ an odd prime power). Wang–Huang–Liu resolve this final
+  remaining case, completing the conjecture for Steiner 6-designs.
+- evidence:
+  - 2026-11-04 (v1) — https://arxiv.org/abs/2611.06081 — Ximin Wang, Zheng Huang, Weijun Liu, "On
+    the Cameron-Praeger conjecture for Steiner 6-designs." Abstract + authors verified via arXiv
+    API this session.
+- notes: 2026-11-05 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
+  referee/community engagement — standard hype-skepticism caution. Caught via the arXiv math.CO
+  category-rotation title-keyword triage ("conjecture" in title). Watch for design-theory
+  community reaction.
+
+### Settlement of the third Brauer–Thrall conjecture (Simson's conjecture, over algebraically closed fields)
+- stage: seed | confidence: medium | first_seen: 2026-11-05 | last_evidence: 2026-11-05
+- what: axis-1 DOMAIN-CADENCE LANDMARK (full resolution, over algebraically closed fields, of a
+  named conjecture tracing to the Brauer–Thrall conjectures of the 1940s–60s in representation
+  theory). Enomoto proves that for every representation-infinite finite-dimensional algebra $A$
+  over an algebraically closed field and every infinite cardinal $\kappa$, there is an
+  indecomposable $A$-module of dimension $\kappa$ — settling Simson's conjecture (the "third
+  Brauer–Thrall conjecture") in this setting, by extending Bongartz's representation embedding.
+- evidence:
+  - 2026-11-04 (v1) — https://arxiv.org/abs/2611.06325 — Haruhisa Enomoto, "Representation
+    embeddings and the third Brauer-Thrall conjecture." Abstract + author verified via arXiv API
+    this session.
+- notes: 2026-11-05 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
+  referee/community engagement. Caught via the arXiv math.RT category-rotation title-keyword
+  triage ("conjecture" in title). Watch for representation-theory community reaction; note the
+  result is stated over algebraically closed fields only (not the fully general case).
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-04 — Gyivan Lopez-Campos, "On Diameter Graphs Problems: A proof of Brass's Conjecture" —
+  https://arxiv.org/abs/2611.05631 — proves Brass's conjecture that at most 1 point need be
+  removed from a finite $S\subset\mathbb{R}^3$ to make its diameter graph 3-colorable (discrete
+  geometry, axis 1). Below the landmark bar (single author, narrower-profile named conjecture).
+  Abstract + author verified via arXiv API this session.
+- 2026-10-05 (capture-leak fix, found 2026-11-05 via Gil Kalai's blog) — Gábor Damásdi,
+  "Geometric Realizations with Strong Self-Duality Part II: Diameter Graphs, Reuleaux Polyhedra,
+  and Thrackles" — https://arxiv.org/abs/2610.06340 — full characterization of the combinatorial
+  structure of diameter graphs and Reuleaux polyhedra in $\mathbb{R}^3$; confirms a converse
+  conjectured by Kupitz–Martini–Perles. Companion result to the Brass's-Conjecture item above
+  (same sub-area, discrete geometry/diameter graphs). Below bar. Abstract + author verified via
+  arXiv API this session.
+- 2026-11-04 — Rui Tan, Fanghan Xiang, "On the proof of multi-variable $n/d$-conjecture for
+  hyperplane arrangements" — https://arxiv.org/abs/2611.06398 — proves Budur's multi-variable
+  $n/d$-conjecture via Wu's method (algebraic geometry/singularity theory, axis 1). Below bar
+  (single-paper proof of a research-level, non-ancient conjecture). Abstract + authors verified
+  via arXiv API this session.
+- 2026-11-04 — Marius Wesle, "A Counterexample to the Weak Gibbs and Regularity Conjectures" —
+  https://arxiv.org/abs/2611.06617 — a spin-one translation-invariant nearest-neighbor system on
+  the square lattice whose unique KMS state lacks the weak Gibbs/regularity properties (math-ph /
+  statistical mechanics, axis 2). Below bar (single author). Abstract + author verified via arXiv
+  API this session.
+- 2026-11-04 — Jianxi Mao, Wenle Shi, Bao-Xuan Zhu, "Proof of two conjectures on the log-concavity
+  of partition ranks and cranks" — https://arxiv.org/abs/2611.06757 — proves Ji–Zang's two
+  log-concavity conjectures for partition crank/rank sequences (axis 1, combinatorics/number
+  theory). Below bar (recent-vintage conjectures). Abstract + authors verified via arXiv API this
+  session.
+- 2026-11-03 — Olivia Aubone, José Iovino, "Infinitary real-valued logic and a refinement of the
+  Kochen-Specker theorem" — https://arxiv.org/abs/2611.05656 — axiomatizes the Bell–Kochen–Specker
+  theorem in real-valued $L_{\omega_1\omega}$ logic via a model-existence game, recovering
+  Gleason's theorem in standard models (axis 4, quantum foundations). A refinement/new technique,
+  not a resolution of an open problem. Below bar. Abstract + authors verified via arXiv API this
+  session.
+- 2026-11-03 — Yang Jiang, Qing-Guo Huang, "Observational Test of the Maximum-Entropy Conjecture
+  for Black-Hole Mergers with GW250114" — https://arxiv.org/abs/2611.05718 — tests the proposed
+  maximum-Bekenstein–Hawking-entropy selection principle for BBH merger remnants against the real
+  GW250114 event (axis 3, gravitational-wave observational test). Below bar (a test, outcome not
+  yet a landmark confirmation/refutation per the abstract snippet read). Abstract + authors
+  verified via arXiv API this session.
+- 2026-11-04 — Péter P. Pálfy, "Galois's lost proof on $PSL(2,p)$" —
+  https://arxiv.org/abs/2611.06054 — reconstructs, using only methods available to Galois in his
+  "testamentary letter," a proof that $PSL(2,p)$ has a subgroup of index $p$ only for $p\le11$ (a
+  result otherwise known as a corollary of Gierster's 1881 enumeration). Historical/expository
+  reconstruction rather than a new mathematical result; a nice item for a mathematically-literate
+  reader but not landmark-tier. Below bar. Abstract + author verified via arXiv API this session.
+- 2026-11-04 — Martin Bierbaumer, Matija Bucić, "Polylogarithmic bound for the Gyárfás-Sumner
+  conjecture" — https://arxiv.org/abs/2611.06699 — improves the known chromatic-number bound for
+  the (still-open) Gyárfás–Sumner conjecture from $|G|^{o(1)}$ to $(\log|G|)^{O(1)}$ (axis 1,
+  extremal combinatorics). Progress, not resolution. Below bar. Abstract + authors verified via
+  arXiv API this session.
+- 2026-11-04 — Máté Róbert Kepes, Anita Kercsó-Molnár, Viczián András, "A family of symmetric
+  counterexamples to the bent sum decomposition conjecture" — https://arxiv.org/abs/2611.06744 —
+  infinite family of counterexamples to Tokareva's conjecture (every Boolean function of degree
+  $\le n/2$ in $n$ even variables is a sum of two bent functions) for every $n=2^k\ge8$ (axis 1,
+  coding theory/Boolean functions). Below bar. Abstract + authors verified via arXiv API this
+  session.
+- 2026-11-03 — Zhen Liu, Chuanshu Wu, "Four-colour counterexamples for monochromatic path
+  partitions" — https://arxiv.org/abs/2611.06362 — pins the exact smallest number of colours (4)
+  for which Gyárfás's 1989 monochromatic-path-partition conjecture fails, following Li–Wang's
+  disproof for "sufficiently large" $r$ (axis 1, Ramsey-type combinatorics). Below bar. Abstract +
+  authors verified via arXiv API this session.
+- 2026-11-04 — Shulang Peng, Jun Tao, Mian Zhu, Yi-Fu Cai, "A Geometric No-Go Theorem for Regular
+  Black Holes in Scalar-Tensor Theories" — https://arxiv.org/abs/2611.06460 — shows scalar-tensor
+  theories that stabilize non-singular bounces/wormholes cannot also stabilize static, spherically
+  symmetric regular black holes with a two-horizon structure (axis 2/3, gravity). Below bar.
+  Abstract + authors verified via arXiv API this session.
+- 2026-11-04 (hexagonmath, unrefereed) — "Fully ordinary subfamilies and the Fontaine-Mazur
+  conjecture in the residually reducible mixed case" (https://hexagonmath.org/2611.00096v1) and
+  "On the Fontaine-Mazur conjecture for $2$-adic representations" (https://hexagonmath.org/2611.00067v1)
+  — two partial-case results on the Fontaine–Mazur conjecture (Galois representations/number
+  theory, axis 1); hexagonmath is an unrefereed arXiv-style venue, treat with the same caution as
+  an arXiv preprint. Below bar (partial cases). Titles/abstracts triaged via the `/rss/all` feed
+  this session; not independently cross-checked against arXiv.
+- 2026-11-03 (hexagonmath, unrefereed) — "Serre modularity over real quadratic fields" —
+  https://hexagonmath.org/2611.00071v1 — extension of Serre's modularity conjecture (already
+  resolved over $\mathbb{Q}$ by Khare–Wintenberger) to real quadratic fields. Below bar. Title/
+  abstract triaged via the feed this session.
+- 2026-11-03 (hexagonmath, unrefereed) — "Computer-assisted bounds 0.556921 <= p_c <= 0.6463 for
+  site percolation on the square lattice" — https://hexagonmath.org/2611.00065v1 — rigorous
+  computer-assisted bounds on the still-unknown exact site-percolation threshold (statistical
+  mechanics, axis 2). Below bar. Title/abstract triaged via the feed this session.
+- 2026-11-05 (exploration slot, off-axis rotation: cs.CC) — Karthik Sheshadri, "The determinantal
+  complexity of the 4*4 permanent is 15" — https://arxiv.org/abs/2611.06658 — first known EXACT
+  value of the determinantal complexity of the $n=4$ permanent (previously only $n=3$ was known
+  exactly; the general quadratic bound gives only 8, best prior lower bound was 10), via Grenet's
+  construction (upper bound, optimal at $n=3,4$) and a normal-form case analysis (lower bound), all
+  certificates public. SIGNIFICANT, OFF-AXIS: computational/algebraic complexity theory (Valiant's
+  model) is adjacent to but outside this radar's core math/physics scope (closer to the sibling
+  AI/CS radars' beat) — queued rather than seeded per the off-axis significance rule. Abstract +
+  author verified via arXiv API this session.
+- 2026-11-05 (community pulse, DESI blog, opened directly this session) — "DESI Weighs in on the
+  Milky Way's Mass," Joan Najita (NOIRLab) — https://www.desi.lbl.gov/ (same-day post, 2026-11-05)
+  — a DESI Milky Way Survey measurement of the Galaxy's mass. Below bar (single press blog post,
+  no DOI/arXiv id located this session — chase next session). Opened directly via `WebFetch`.
+- 2026-11-04 (community pulse, Simons Foundation feed, opened directly this session) — Shyam
+  Menon, Aaron Smith, "A Cosmic 'Leaf Blower'" (Astrophysical Journal, DOI 10.3847/1538-4357/aeaed6)
+  — simulation-based result: Lyman-alpha radiation pressure can expel low-density gas/dust from
+  early galaxies, making them appear brighter (axis 3, cosmology/ISM). Peer-reviewed journal
+  (primary), below bar (single simulation study). Opened directly via `WebFetch`.
+- 2026-10-28 (community pulse, Sabine Hossenfelder's blog, opened directly this session; RESOLVES
+  the "LHC extra dimension claim remains unlocated" open item carried in the 2026-11-04 report) —
+  "Large Hadron Collider Sees Extra Dimension, Physicists Claim" —
+  https://backreaction.blogspot.com/2026/10/large-hadron-collider-sees-extra.html — Hossenfelder
+  reports (video-based post, full detail not in the text) that two unnamed physicists in France
+  claim LHC data shows heavy particles implying an extra spatial dimension, and that "there are
+  some problems with their story." UNVERIFIED — no underlying preprint/paper located this session
+  despite a targeted `WebSearch` (no author names, collaboration, or arXiv id found); marked
+  unverified pending the primary artifact. Chase next session: the French physicists' own paper.
+- 2026-11-04/2026-11-05 (axiommath.ai, AI-watch-lane, opened directly this session) — "The Stacks
+  Project, formalized in Lean" — https://stacks.axiommath.ai/ — a new Lean/Mathlib formalization
+  project translating the tagged results of the Stacks Project (the standard algebraic-geometry
+  reference) into machine-checked Lean code, with a two-tier human-reviewed/AI-written
+  contribution workflow. Axis 5 (formalized mathematics). No coverage/progress figures were
+  loaded at the time this session opened the page (counters still placeholders) — re-check
+  coverage next session. Below bar (a new formalization effort, not yet a specific theorem
+  milestone). Opened directly via `WebFetch`.
 - 2026-11-03 — Felix Gotti, Omar Graia, Neil Panse, "The Bi-LF Positive Conjecture Holds" —
   https://arxiv.org/abs/2610.40688 — resolves a semidomain-theory conjecture (bi-length-
   factoriality ⟺ bi-factoriality); recent-vintage conjecture, below the landmark bar. Abstract +
@@ -7986,6 +8188,17 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-05 — [A Note On Lattice Definition of Gauge Theories With Chiral Fermions](https://arxiv.org/abs/2611.05051) —
+  Edward Witten's own engagement with Nathaniel Craig's candidate nonperturbative lattice
+  definition of chiral gauge theories (the Standard Model's gauge structure): a variant
+  construction, a flagged practical obstruction (non-positive path integral blocks Monte Carlo),
+  and a nod to Claude Opus 5.5 for technical help — essential reading for anyone following the
+  lattice-chiral-fermion story. Abstract verified via arXiv API this session.
+- 2026-11-05 — [The Stacks Project, formalized in Lean](https://stacks.axiommath.ai/) — a new
+  Lean/Mathlib formalization of the Stacks Project, the standard reference for modern algebraic
+  geometry, with a dependency graph and a human-reviewed/AI-written two-tier contribution model —
+  worth knowing for anyone tracking the formalized-mathematics frontier (axis 5). Opened directly
+  via `WebFetch` this session.
 - 2026-11-04 — [Statement by the shepherding committee on OpenAI's Yang–Mills proof](https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf) —
   Douglas, Gross (chair), Jaffe, Klebanov, Nekrasov's own account of how they are vetting OpenAI's
   claimed Yang–Mills existence proof before release: existence only (mass gap still open), still

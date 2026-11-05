@@ -4147,3 +4147,109 @@ items); 0 missing, 0 leaks. 6 new seed trends added (TRENDS.md now at 71 trends,
 `observation_queue` at 498 (well past the ~40 soft cap, domain-cadence-expected, not burned down
 this run); study_shelf +2 (KITP statement, Soulé's abc paper). README.md and SUMMARY.md
 regenerated in the same commit.
+
+2026-11-05 (Thu, Pass 1, scheduled) — FULL CHECK; first daily since 2026-11-04. Load-state: local
+branch `claude/modest-bohr-lesgk6` fetched/rebased onto origin/main (ad76905); all `radar:` commits
+of the last 7 days have matching reports, no incomplete-run warning. Two remote branches
+(`claude/modest-bohr-9415kc`, `claude/peaceful-faraday-n2ehd0`) still hold pre-reset July/August
+2026 `radar:` commits with no common ancestor with current main — unchanged standing flag for the
+curator, not re-investigated this session (already resolved as pre-reset history, not stranded
+recent work, per the 2026-11-04 report). `tvly` absent at session start, reinstalled cleanly via
+`pip install -q tavily-cli`, worked throughout. Primary sweep (radar-source-sweep): combined arXiv
+API query across the full in-scope math (22 cats) + physics (16 cats) category set via the
+submittedDate-sorted API — 522 fresh entries (2026-11-03 18:59 through 2026-11-04 18:59, no
+missed-day gap), title-keyword-triaged in full. MAJOR CATCHES (2 new seed trends, domain-cadence
+landmark bar): Wang–Huang–Liu's resolution of the Cameron–Praeger conjecture (1993) for Steiner
+6-designs (2611.06081); Enomoto's settlement of the third Brauer–Thrall/Simson conjecture over
+algebraically closed fields (2611.06325). Amendment J full-abstract pass (today's category:
+math.KT, restarting the rotation lap after it completed a full cycle AG→AC→RA→KT→AT→GT→DG→SG→
+AP→FA→CA→CV at the 11-04 daily; picked math.KT as the OLDEST-touched category, 10-13; 2 fresh
+entries, both read in full) — 0 title-blind landmark catch, both routine K-theory technical
+papers. ~11 below-bar items queued (Brass's Conjecture proof, Budur's n/d-conjecture proof, a
+Weak-Gibbs/Regularity counterexample, two Ji–Zang log-concavity-conjecture proofs, a
+Kochen–Specker-theorem refinement, a GW250114 maximum-entropy-conjecture observational test,
+Galois's historically-reconstructed PSL(2,p) proof, a Gyárfás–Sumner polylogarithmic-bound
+improvement, a bent-sum-decomposition/Tokareva's-conjecture counterexample family, and the exact
+smallest-r four-colour monochromatic-path-partition result). Non-arXiv primary feeds (curl/
+WebFetch): CERN Courier — STILL STALE, newest unchanged since Oct 1 (4th session observed, not
+yet heal-owed — content genuinely absent, confirmed again); Fermilab (curl) — one routine
+commercialization story (QICK dark-matter-sensor toolkit reaching new markets, not a science
+result, not queued); Simons Foundation (curl) — one catch, Menon–Smith's Lyman-alpha "cosmic leaf
+blower" simulation result (ApJ, queued); IceCube (curl) — routine "Week N at the Pole" logistics
+posts only; Quantum journal (curl) — routine, already-tracked counterexample item unchanged; CERN
+home `/feed/` — STILL 404 (standing since 10-22, not yet heal-owed per the 2-more-weeklies
+escalation rule); LIGO (`WebFetch` on plain `/news`) — GWTC-5.0 still latest, no new catalog (direct
+`curl` 403'd, WebFetch worked as the documented fallback); DESI (`WebFetch`) — one new same-day
+blog post ("DESI Weighs in on the Milky Way's Mass," queued, no DOI/arXiv id located); LZ
+(`WebFetch`) — only 2025 publications, no new dark-matter result; INSPIRE-HEP "mostrecent" — still
+future-dated junk, not useful for triage (documented, not a failure); SciPost sitemap — advanced
+cleanly (.21.3→.21.5.114) but the API/article pages remain Anubis-bot-checked (standing degraded,
+sitemap-only workaround still holds). AI-watch lane: OpenAI research page — 403'd to direct
+WebFetch this session (not re-attempted via `tvly extract`, time budget — flag for next session);
+Anthropic research page (`WebFetch`) — reviewed in full, 0 new math/physics disclosure (Nov 4's
+"Investigating vault particles with Claude" is a biology/cell-biology piece — vaults are
+ribonucleoprotein particles — off-axis, not a physics result despite the name); cims.nyu.edu
+(`WebFetch`) — unchanged; agmai.org (`WebFetch`) — unchanged since Oct 26; vals.ai/blogs
+(`WebFetch`) — unchanged, 0 new on-axis post; icarm.io/feed (curl) — unchanged, newest still Oct
+12; hexagonmath.org `/rss/all` (curl) — 50-item batch, ids .00039–.00097 (overlapping the 11-04
+session's stated 27-new-since-.00019 cutoff; re-triaged in full to be safe) — 4 below-bar items
+queued (2 Fontaine–Mazur-conjecture partial-case papers, a Serre-modularity extension, and a
+computer-assisted percolation-threshold bound), no landmark; axiommath.ai/research/blog
+(`WebFetch`) — one new item beyond the publications index, "The Stacks Project, formalized in
+Lean" — located its underlying sub-site `stacks.axiommath.ai` (verified live, SOURCES.md updated
+as a companion sub-project, not a new staged candidate) and added to `study_shelf`; axiommath.ai/
+research/publications (`WebFetch`) — cross-checked, newest still Oct 2026, no November paper yet
+(the blog teaser predates its own publications-index entry, as with past AxiomMath posts).
+GitHub watch (radar-repo-watch, `WebFetch`): lean4 unchanged (v4.36.0-rc2, Oct 27); Rocq unchanged
+(9.3.0, Oct 1 per feed top-level ordering); mathlib4 continuing its daily `master-YYYY-MM-DD`
+auto-tag (through master-2026-11-03); github.com/openai and github.com/anthropics repo listings
+reviewed, nothing math/physics-related among recently-updated repos. Community pulse (radar-pulse):
+HN Algolia front page — no math/physics story (only an AI-adjacent Anthropic zkSNARK post);
+MathOverflow `/feeds` (curl) — 15 items, all routine Q&A, 0 catch; Physics SE `/feeds` (curl) — 10
+items, all routine, 0 catch; Mathstodon public timeline — generic federated noise, no mathematician
+signal this session; reddit — standing domain-wide block (not re-tested, no `tvly search` budget
+spent given the heavier yield from other lanes). Digest blogs (curl, routine unless noted): Quanta
+— one exposition piece on interstellar-medium 3D mapping (not a single new primary, not queued);
+Tao, Gowers, Kalai (feed listing only; see MAJOR CATCH below), Baez, Strassler — all routine, 0 new
+on-axis primary beyond what's below; Hossenfelder (Backreaction, curl) — RESOLVED the standing
+"LHC extra dimension claim remains unlocated" open item: located the post itself
+(`/2026/10/large-hadron-collider-sees-extra.html`, Oct 28 — the 11-04 report's guess of a
+November URL was wrong), but the claim remains UNVERIFIED — no underlying preprint, author names,
+or collaboration found despite a targeted `WebSearch`; queued as unverified intake, still no
+primary located. Woit's "Not Even Wrong" — direct `curl`/`WebFetch` gave HTTP 000 again (standing,
+non-consecutive pattern), `tvly extract` on the feed recovered full post bodies cleanly (documented
+fallback) — MAJOR CATCH: Edward Witten's new paper (2611.05051, "A Note On Lattice Definition of
+Gauge Theories With Chiral Fermions," title-blind per Amendment J, Claude-Opus-5.5-credited)
+independently engages Craig's chiral-fermion lattice construction — appended as evidence to that
+trend with a stage bump seed→emerging (3rd independent author now engaged); also recovered the
+OpenAI Yang-Mills shepherding committee's "RULES AND PROCEDURES" governance PDF (opened via
+`curl`/`pdftotext`, appended as evidence) and located-but-could-NOT-open a reported "2nd Statement"
+PDF (every filename variant 404'd — standing chase item, not yet heal-owed). Gil Kalai's blog
+(`WebFetch`, Oct 21 post resurfaced in the feed) — cross-checked against TRENDS.md: the OpenAI
+f(9)>10 Borsuk claim and the Gale's-conjecture counterexample were already captured, but Damásdi's
+OWN paper (2610.06340, characterizing diameter graphs/Reuleaux polyhedra in R^3) had never been
+individually queued — a genuine capture-leak closed this session (queued). Exploration slot
+(radar-explore, off-axis rotation per 11-03/11-04's "next: cs.CC or q-bio.PE" note): cs.CC — 30
+fresh entries reviewed significance-first; one genuinely significant off-axis catch, Sheshadri's
+exact determinantal-complexity value for the 4×4 permanent (2611.06658, first exact value beyond
+n=3 in Valiant's model) — queued as "significant, off-axis" per the exploration-slot rule, not
+seeded (outside this radar's core math/physics scope). Self-heals: none attempted this session
+(cap 1-2/run; CERN `/feed/`, SciPost Anubis, Nature Physics cookie-loop, and the KITP "2nd
+Statement" 404 are all first-or-repeat occurrences without a clear new fix path this session —
+time budget spent on the Witten/Yang-Mills chase and the exploration slot instead). Source-
+discovery staging: no new untracked-domain primaries found (stacks.axiommath.ai folded into the
+already-tracked axiommath.ai entry as a companion sub-project per the VENUE-MOVE exception, not
+separately staged). DORMANCY PROBE: the BESIII X(2370)-glueball trend crossed the 60-day quiet
+threshold (65 days) for the first time — probed via CERN Courier (already-checked stale) plus a
+`WebSearch` over the Sept 1 → Nov 5 window, found nothing new on-scope — moved to `dormant` (not
+archived; well short of 120 days). No other trend crossed the threshold this session (the standing
+backfill-precedent cases — Graham's, unit-distance, sum-product, M23 — remain exempted as before).
+Convergence check: queue scanned, no sub-theme yet clears the ≥3-independent-group bar for
+promotion. capture-leak: 20 new ids introduced this session verified present on a discrete
+evidence/queue line via grep (2 seeds + 2 evidence-appends + ~16 queue items), 0 missing; also
+checked all 21 distinct arXiv ids named across the last 3 daily reports (11-02 through 11-04)
+against TRENDS.md — all present, 0 missing. 2 new seed trends added (TRENDS.md now at 73 trends,
+up from 71); 1 trend moved to `dormant` (X(2370) glueball); `observation_queue` at 528 (well past
+the ~40 soft cap, domain-cadence-expected, not burned down this run); study_shelf +2 (Witten's
+chiral-fermion note, the Stacks-Project-in-Lean formalization). README.md and SUMMARY.md
+regenerated in the same commit.

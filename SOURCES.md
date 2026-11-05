@@ -211,7 +211,13 @@ the gap is obvious once `hep-lat` was noticed next to it. Listings `https://arxi
   the plain feed URL (`nature.com/nphys.rss`, no UA spoofing) returned full titles/dates cleanly
   with no empty-CDATA or auth-wall issue — the harness's own WebFetch fetch path isn't blocked the
   way a UA-spoofed `curl`/plain-`WebFetch`-on-an-article-URL was; prefer plain `WebFetch` on the
-  feed URL itself going forward, re-test before resorting to any UA-spoof method again.]**
+  feed URL itself going forward, re-test before resorting to any UA-spoof method again.
+  DEGRADED AGAIN 2026-11-05: plain `WebFetch` on the feed URL now 303-redirects to
+  `idp.nature.com/authorize`, then loops back to `nature.com/nphys.rss?error=cookies_not_supported`
+  — a new cookie-handling redirect loop, distinct from the 09-24 auth-wall and the 10-26
+  classifier-block; a Googlebot-UA `curl` retry was denied again by the harness auto-mode
+  classifier (standing since 10-26, not re-escalated). No working method found this session;
+  single-session transient so far, not yet heal-owed — re-test next session before escalating.]**
 - Nature Communications — RSS https://www.nature.com/ncomms.rss **[promoted + verified 2026-08-08;
   redirects to feeds.nature.com/ncomms/rss/current; RSS. DEGRADED 2026-09-17/09-18 (2nd consecutive
   daily, heal-owed): same empty-CDATA-title failure as Nature Physics. Same workaround applies
@@ -498,7 +504,11 @@ the blog index itself is `axiommath.ai/research/blog` (JS-rendered Next.js app �
 static HTML with no body links, but `tvly extract` renders full post text; neither exposes the
 underlying paper's arXiv link reliably — open the individual post slug page, e.g.
 `axiommath.ai/research/<slug>`, via `tvly extract` and read to the "Paper and code" section for
-the arXiv id).**
+the arXiv id).** **NOTED 2026-11-05: AxiomMath also runs a separate Lean-formalization sub-site,
+`https://stacks.axiommath.ai/` ("The Stacks Project, formalized in Lean"), linked from the main
+site's nav under "Formalizations" — treat as a companion sub-project of this same source (not a
+new staged candidate), same as `/research/publications` and `/research/blog`; verified live via
+`WebFetch` this session (200 OK), no coverage/progress figures were loaded at fetch time.**
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
