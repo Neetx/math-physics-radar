@@ -4253,3 +4253,46 @@ up from 71); 1 trend moved to `dormant` (X(2370) glueball); `observation_queue` 
 the ~40 soft cap, domain-cadence-expected, not burned down this run); study_shelf +2 (Witten's
 chiral-fermion note, the Stacks-Project-in-Lean formalization). README.md and SUMMARY.md
 regenerated in the same commit.
+
+- 2026-11-06 (daily) — Primary-feed sweep (`radar-source-sweep`): arXiv title-triage across
+  math.NT, math.CO, math.AG, hep-th, gr-qc, quant-ph, math-ph, hep-ph, cond-mat.str-el,
+  astro-ph.CO RSS feeds (curl, all 200); Amendment J full-abstract pass today's rotation
+  category: math.AG (continuing the post-math.KT lap) — caught Gogokhia–Barnaföldi's gluon-
+  confinement claim (title-blind, via hep-th title-triage, not the full-abstract category) and,
+  via the full-abstract math.AG pass, Shuhong Gao's 3-month-old higher-dimension Jacobian-
+  conjecture counterexample paper (2608.00222, first posted 2026-07-31, revised 2026-11-04,
+  previously uncaptured — a genuine capture-leak closed this session, title carried no
+  conjecture/proof keyword variant this radar's triage had flagged before). CERN Courier
+  (curl, 200) — routine detector/award items, 0 catch. Fermilab (curl, 200) — routine, incl.
+  an AI-tool note (SLAC's "SPINE" ghost-particle tool, AI-watch-adjacent but not queued, no
+  math/physics RESULT named). Simons Foundation (curl, 200) — all off-axis (brain/bio), 0
+  catch. hexagonmath.org `/rss/all` (curl, 200) — triaged full batch; two named-conjecture
+  partial-case proofs queued (generalized Lax conjecture for mixed determinants, L'vov–
+  Kaplansky conjecture degree 4), rest below bar/off-axis. icarm.io `/feed` — curl returned
+  empty this session (degraded, first occurrence of this failure mode; not yet heal-owed,
+  re-test next session). Community pulse (`radar-pulse`): HN Algolia front page — no on-axis
+  math/physics story, 0 catch. MathOverflow `/feeds` and Physics SE `/feeds` (curl) — both
+  returned empty this session (degraded, recurring intermittent pattern already documented;
+  not independently re-tried via `tvly` this session). GitHub watch (`radar-repo-watch`): bare
+  `curl`/`.atom` returned empty under this session's proxy-scoping (as documented); `WebFetch`
+  on the plain `releases.atom` URL (the documented proxy-scoped fallback) worked cleanly for
+  all three — lean4 unchanged (v4.36.0-rc2, Oct 27); Rocq unchanged (9.3.0, Oct 1); mathlib4
+  continuing its daily `master-YYYY-MM-DD` auto-tag (through master-2026-11-05). Exploration
+  slot (`radar-explore`, off-axis rotation: q-bio.PE) — reviewed the fresh batch
+  significance-first, nothing clearing the off-axis-significance bar (routine evolutionary-
+  biology/ecology papers), 0 catch, logged per the "log it even when it yields nothing" rule.
+  Self-heals: none attempted this session (cap 1-2/run; icarm.io's empty-feed response is a
+  first occurrence, not yet heal-owed; MathOverflow/Physics SE emptiness is the standing
+  recurring pattern with no new fix path tried this session). Source-discovery staging: no new
+  untracked-domain primaries found (all four catches came from already-swept sources: arXiv,
+  hexagonmath.org). DORMANCY PROBE: swept all 73 trends' `last_evidence` dates against the
+  60-day window — only the already-exempted backfill-precedent cases (Graham's, unit-distance,
+  sum-product, M23) and the already-`dormant` Stanley-Gasharov entry fall outside the window;
+  no trend newly crosses the threshold this session. Convergence check: queue scanned, no
+  sub-theme yet clears the ≥3-independent-group bar for promotion. capture-leak: 4 new ids
+  introduced this session verified present via grep (0 missing); 13 distinct arXiv ids named
+  across the last 2 daily reports (11-04, 11-05) cross-checked against TRENDS.md (0 missing).
+  0 new seed trends; 0 stage moves; `observation_queue` at 528 (+4 this session, domain-cadence-
+  expected, not burned down); study_shelf unchanged (0 picks today — nothing cleared the "a
+  frontier researcher should know this" bar beyond the usual queue-tier catches). README.md
+  and SUMMARY.md regenerated in the same commit.

@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-05
+Last updated: 2026-11-06
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3548,6 +3548,41 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-06 — Gogokhia, Barnaföldi, "The Mass Gap Approach to QCD. III. Solution of the gluon
+  confinement problem" — https://arxiv.org/abs/2611.07897 — part III of a continuing, non-AI,
+  classical analytic-QCD research program claiming to resolve gluon confinement via an exact
+  gluon-propagator expression and infrared-singularity resummation (axis 2, theoretical
+  physics); explicitly states gluons remain massless and confinement is addressed separately
+  from the mass-gap question. ADJACENT to but NOT evidence for the already-tracked
+  "OpenAI's claimed proof of Yang–Mills existence..." trend (different authors, non-AI, a
+  distinct classical approach, and the claim itself is confinement, not the Clay Millennium
+  mass-gap problem) — cross-referenced, not merged. UNREFEREED PREPRINT — CLAIM (hype-
+  skepticism rule): a "solution" to a decades-old confinement problem is PROVISIONAL until
+  independent vetting. Below the landmark bar pending corroboration. Abstract/authors verified
+  via `WebFetch` this session (v1 2026-11-05).
+- 2026-11-06 (capture-leak, found via today's math.AG full-abstract rotation pass) — Shuhong
+  Gao, "Counterexamples to the Jacobian conjecture in dimensions greater than two" —
+  https://arxiv.org/abs/2608.00222 — generalizes the already-tracked "tangent-sweep" mechanism
+  (originally a dim-3 counterexample, 2026-07) from plane curves to direction fields on
+  hypersurfaces, yielding counterexamples in EVERY dimension above two, of arbitrarily large
+  degree, claimed inequivalent to the existing dim-4+ counterexamples; identities checked in
+  exact rational arithmetic. Companion item to the standing Jacobian-conjecture queue cluster
+  above/below. CAPTURE-LEAK: first posted 2026-07-31, revised 2026-11-04, sat uncaptured for
+  over 3 months — no swept lane's title-triage flagged it until today's full-abstract pass.
+  Abstract/authors verified via `WebFetch` this session.
+- 2026-11-06 (hexagonmath, unrefereed) — Borcea–Brändén generalized Lax conjecture, "The
+  generalized Lax conjecture holds for mixed determinants" — https://hexagonmath.org/2611.00117v1
+  — proves spectrahedral representability of the hyperbolicity cone of Borcea–Brändén mixed
+  determinants (real algebraic geometry/convex optimization, axis 1), answering four of
+  Borcea–Brändén's open problems negatively. UNREFEREED PREPRINT — CLAIM, same caution tier as
+  arXiv. Below the landmark bar (a sub-case of the broader generalized Lax conjecture, not its
+  full resolution). Title/abstract triaged via the `/rss/all` feed this session.
+- 2026-11-06 (hexagonmath, unrefereed) — "The L'vov–Kaplansky conjecture for polynomials of
+  degree four" — https://hexagonmath.org/2611.00119v1 — proves the L'vov–Kaplansky conjecture
+  (images of multilinear polynomials on matrix algebras are vector spaces) for the degree-4
+  case over algebraically closed characteristic-zero fields, extending the known degree ≤3
+  cases. UNREFEREED PREPRINT — CLAIM. Below the landmark bar (one more case in a sequence, not
+  the general conjecture). Title/abstract triaged via the `/rss/all` feed this session.
 - 2026-11-04 — Gyivan Lopez-Campos, "On Diameter Graphs Problems: A proof of Brass's Conjecture" —
   https://arxiv.org/abs/2611.05631 — proves Brass's conjecture that at most 1 point need be
   removed from a finite $S\subset\mathbb{R}^3$ to make its diameter graph 3-colorable (discrete
