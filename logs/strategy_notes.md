@@ -2055,3 +2055,32 @@ coding) this week. No redirection needed.
   (flagged in today's `observation_queue`) — the weekly could close this by running the
   `axiommath.ai/research/publications` index (located this session, corrects a stale 10-29/10-31
   SOURCES.md note that this path 404'd) against the blog's post list to match titles to papers.
+
+- 2026-11-07 (weekly, W45) — SOURCE-STRATEGY SUMMARY. Coverage diff (SOURCES.md "swept every run"
+  lists vs. this week's 5 daily `logs/source_rotation.md` lines): every DAILY-tier primary feed,
+  AI-watch-lane source, GitHub-watch channel, and social/curator entry appears opened or
+  `degraded:<reason>` across the week — 0 missing. **Two heal-or-remove decisions** (both sources
+  kept, cadence downgraded rather than removed, given a working fallback exists for each):
+  (a) CERN home (`home.cern/feed/`) — 3 consecutive weeklies (W43/W44/W45) 404, re-tested this
+  session via `/feed/`, a redirect candidate, and `WebSearch`, all dead ends — downgraded to a
+  monthly re-test, relying on CERN Courier + INSPIRE-HEP + arXiv hep-ex/hep-ph/hep-lat as the
+  primary CERN-news access method meanwhile. (b) SLMath (`slmath.org/news`) — 5 consecutive
+  degraded weeklies (W41-W45), same JS-shell/title-only symptom across `WebFetch`/`curl`/`tvly` —
+  downgraded to targeted `WebSearch`/`tvly search` only when a specific program is suspected,
+  full-browse re-attempt deferred to Q1 2027 or a tool change. **Annual-prize checklist (Amendment
+  K): CLOSED a genuine gap** — the 2026 Breakthrough Prize in MATHEMATICS (Frank Merle, IHES/CY
+  Cergy) had never been captured; only that same ceremony's Fundamental Physics laureate (muon g-2)
+  was on file. Added to `observation_queue` this session (citation verified directly on
+  breakthroughprize.org). Abel/Shaw/Fields/Nobel-Physics/Ramanujan laureates all confirmed present
+  (no action needed). **Source-discovery**: no candidate cleared the ≥2-sighting promotion bar
+  this week (`ahmath.org` was mentioned twice in this week's dailies but both were "checked,
+  unchanged" routine re-sweeps of its single known Oct-8 statement, not a second on-axis artifact
+  — correctly held below bar). **Older-paper citation-chase pass (Amendment G)**: INSPIRE-HEP
+  `sort=mostcited` over the 2026-06-01→2026-07-31 window (15 reviewed) — zero actionable new
+  landmark catch; all top hits are either already-tracked catalogs/reviews (GWTC-4.0, FLAG review
+  2024, Review of Particle Physics) or off-axis quantum-computing-technology results (Google's
+  below-threshold surface-code result — the sibling quantum radar's beat, not this radar's).
+  Logged per the mandatory "log it even at zero yield" rule. **Tunnel-vision check**: this week's
+  new evidence spanned both pre-existing trends (Amendment I version-history fixes) and 2 brand-new
+  seed trends (Brauer-Thrall carried from the daily; the new Goemans/DGG queue-aging closure) plus
+  one Amendment-L relocation — not an anchoring week.

@@ -430,3 +430,94 @@ routing-leak n`.
   (date 31 > 7). Amendment N (proposed W43): motivating signal did NOT recur this week — HELD,
   not applied. Regression check: Amendments J/K/L/M show no 2-consecutive-week metric
   regression — NO ROLLBACK.
+- 2026-11-07 — W45: queue ~528→~527 (net: +1 this weekly's Breakthrough-Prize-Math capture-leak
+  closure via the annual-prize checklist, -0 dropped — Amendment H: still-live tier stayed well
+  under the ~40 soft cap by the keyword-tiering heuristic (166 items >60d old; 25 classified
+  still-live, 141 settled-record — no burn-down obligation), +1 promoted out of queue to a new
+  seed trend (the Dinitz–Garg–Goemans/Goemans's-cost-conjecture item, closed via an Isabelle/AFP
+  formal-verification primary located this session, ~3.5 months after first flagged unverified) ·
+  evidence/moves: 16 new seed trends this week (73→74 net after this weekly's own +1; dailies
+  logged 15 across 11-02 through 11-05, mostly from a hexagonmath.org large-batch sweep and the
+  continuing arXiv title-triage yield) · 1 promotion (Craig's lattice-chiral-fermion trend,
+  seed→emerging, 11-05, on Witten's independent engagement) · 1 demotion (BESIII X(2370) glueball,
+  seed→dormant, 11-05, 60-day dormancy probe empty) · 0 archivals (Stanley-Gasharov's archive line
+  not yet due; the 4 backfill-precedent trends — Graham's, unit-distance, sum-product, M23 — and
+  the newly-dormant X(2370) all reconciled against current windows this weekly, no stale decisions
+  found) · exploration 5/5 (100%) across the week's 5 dailies (nlin.CD, math.OC, nlin.SI, cs.CC
+  ×2) · off-axis 1/5 (Sheshadri's exact 4×4-permanent determinantal-complexity value, cs.CC,
+  queued "significant, off-axis") — non-alarm, within this domain's relaxed off-axis-rate
+  threshold · discovery lag: of this week's 16 new trends, 15 were fresh (same-day-ish) arXiv/
+  hexagonmath captures; 1 was this weekly's own ~3.5-month backfill (Goemans/DGG) — ~6% backfill
+  rate, continuing the W42→W44 improving trend (36%→30%→10%) · coverage: DAILY tier fully opened
+  or `degraded:<reason>` all 5 dailies, 0 reported missing; WEEKLY-SWEPT tier swept this session
+  (institutes, slow venues, low-yield social, all 6 annual prizes) — 2 sources crossed the
+  heal-owed bar with no fix found after re-testing via fresh methods (CERN home `/feed/`, 3rd
+  consecutive weekly; SLMath, 5th consecutive weekly) → both DOWNGRADED to a slower re-test
+  cadence rather than removed, per the coverage-honesty "heal-or-remove" rule (see SOURCES.md,
+  `logs/strategy_notes.md`) · routing-leak 0 (no on-axis queue item found hoarded against an
+  existing trend's axis this session) · capture-leak: Amendment I-adjacent full sweep of the 58
+  never-yet-checked active trends' evidence ids (64 unique arXiv ids, batch-queried) found 2
+  genuine silent-revision last_evidence updates (square-peg 2610.21076, Harary–Hill 2610.34444);
+  separately, a mechanical grep-based capture-leak sweep of all 73 pre-existing trends' `notes`
+  fields (22 candidate ids) + this week's 5 daily reports' named arXiv ids (30 ids) found ZERO
+  genuine leaks — every candidate was either an already-documented evidence-cap-overflow note, an
+  explicitly-excluded same-author-portfolio escalation, or already present elsewhere on the
+  ledger. 0 queued from the trends-notes sweep (contrast with recent weeks' 1-2 leaks found) · src-
+  disc: 0 new source promoted (no staged candidate cleared the ≥2-sighting bar; `ahmath.org`'s two
+  mentions this week were both routine re-checks of its single known artifact, correctly held
+  below bar) — but Amendment K's annual-prize checklist closed a genuine LISTING gap of the same
+  class as the Nobel-Physics/Ramanujan precedents: the 2026 Breakthrough Prize in MATHEMATICS
+  (Frank Merle) had never been captured, only that ceremony's Fundamental Physics laureate was.
+  Amendment G older-paper citation-chase: INSPIRE-HEP `sort=mostcited` over 2026-06→2026-07 (15
+  reviewed) — 0 actionable new landmark (all hits already-tracked catalogs/reviews or off-axis
+  quantum-computing-technology results). Amendment L (per-trend size cap): 2 trends relocated this
+  session — Ramsey (24→much-reduced dated entries; W36-W37 + a missed 09-03 daily moved to
+  `logs/trend_history.md`) and Non-invertible symmetries (45→~14 dated entries; the out-of-order
+  W31-W37 backlog moved) — see dedicated commits. `study_shelf` pruned: 5 items >120 days old with
+  no backfill-protection annotation (Riemann-Hyp-dynamical-QPT, Montgomery–Yang, Burau
+  representation, Ramsey-exponential-improvement, GWTC-5.0) — all still independently tracked
+  elsewhere (trend evidence or already in their day's report) so nothing was lost. Monthly
+  hit/miss retrospective DUE this week (`date +%d` = 07 ≤ 7) — see below. Amendment N (proposed
+  W43): motivating pattern still has not recurred (0 reference-list-only leaks found in this
+  week's sweep either) — HELD, not applied. Regression check: Amendments J/K/L/M show no
+  2-consecutive-week metric regression — NO ROLLBACK.
+
+- 2026-11-07 — retro M11 (third monthly hit/miss retrospective; covers October 2026, a month
+  dominated by the OpenAI mass-disclosure event and its spin-off trends).
+  HITS: the OpenAI mass-disclosure itself (github.com/openai/math, Oct 6) was seeded SAME-DAY
+  (10-07) despite its unprecedented scale (722 manuscripts) — the daily correctly tracked the
+  EVENT rather than trying to individually verify 372 result families; its W42 reconciliation
+  correctly held it at `seed` rather than demoting to queue, a call later vindicated by the
+  trend's own vetting outcomes (the self-reported Hodge-conjecture withdrawal, the quasi-RH/
+  spacetime-Penrose/Harary-Hill/ETH/Yang-Mills splits). Non-invertible-symmetries QFT sustained
+  its lead (10→19+ independent groups through October) with no competitor close on breadth. The
+  M23 inverse-Galois-problem completion (Aug 9 paper) was caught 10-16 via a deeper icarm.io
+  chase — a backfill, but one driven by proactively re-opening a source's own index rather than
+  waiting for a pointer. Chair44 (3D aperiodic monotile) was caught via a Scientific American
+  piece within 5 weeks of its own posting, with fast expert corroboration (Flicker,
+  Goodman-Strauss) correctly tracked as a positive vetting signal despite AI-hype framing.
+  MISSES (real gaps): (a) Nathaniel Craig's lattice-chiral-fermion paper (Oct 6) sat uncaptured
+  for 7 days because `hep-lat` was never in the swept arXiv category set at all — a genuine
+  CATEGORY gap (not title-blind), closed 10-13 by adding `hep-lat`/`hep-ex` to SOURCES.md; this
+  is the same failure class as the earlier math.AG/AC gap and shows the category-completeness
+  check needs to be revisited whenever a new physics sub-area becomes active (AI-assisted lattice
+  QCD here). (b) The Dinitz–Garg–Goemans/Rybin cost-conjecture counterexample (first flagged
+  07-24) sat UNVERIFIED for 3.5 months with the SAME recorded blocker every re-check
+  ("no arXiv primary locatable") — closed only this week (11-07) when the queue-aging review
+  tried a DIFFERENT primary-source TYPE (a formal-proof repository, Isabelle/AFP) instead of
+  re-running the same arXiv search. Root cause: when an arXiv search for a claimed discrete/
+  combinatorial counterexample repeatedly fails, this ledger's chase logic defaults to "keep
+  re-trying arXiv" rather than broadening to the other primary classes AGENTS.md already
+  recognizes (formal-proof repositories, institutional pages) — a real process gap, motivating a
+  new proposal below. (c) Shuhong Gao's Jacobian-conjecture dimension-generalization (posted
+  2026-07-31) sat uncaptured until the 11-06 daily's math.AG full-abstract pass — a 3-month
+  title-blind miss on a paper whose title carries no conjecture/proof keyword, the same Amendment-
+  J failure class already tracked, closed by the rotation reaching math.AG with a full-abstract
+  (not title-only) read.
+  NO ACTION NEEDED: the CFSG-in-Lean (AxiomMath) claim correctly stayed at `seed`/EXTREME caution
+  pending independent verification (Lyons/Solomon have not yet commented); the quasi-RH/Yang-
+  Mills/Harary-Hill/Propeller/ETH-refutation splits from the mass-disclosure trend were each
+  judged to have cleared their OWN independent-engagement bar (an expert exposition or a second
+  independent AI claim) rather than being split prematurely.
+  PROPOSAL MOTIVATED BY THIS RETROSPECTIVE: see Self-amendment section below (broaden the
+  "no primary located" chase protocol beyond arXiv-only re-tries).

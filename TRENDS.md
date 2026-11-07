@@ -51,42 +51,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     lower bounds": building on Conlon–Ferber–Wigderson and Sawin, an EIGHTH independent author group
     improving multicolor Ramsey lower bounds via independent-set density bounds in K_t-free graphs —
     same citation-chase catch, also predating this trend's creation, never previously captured.
-  - 2026-W27 through W35 recalibration history (daily "no new lower-bound item found" entries
-    plus the W27-W35 dormancy/reactivation/promotion cycle) RELOCATED to `logs/trend_history.md`
-    2026-10-24 (W43, Amendment L applied) — moved verbatim, unaltered; see that file for the
-    full day-by-day record.
-  - 2026-09-03 (daily): fresh math full in-scope category-rotation batch (2026-09-02, 198
-    entries) scanned for Ramsey lower bounds — only a peripheral "Ramsey-type results for
-    Maker-Breaker games" (2609.02588, a positional-game variant, not a classical/hypergraph
-    lower-bound breakthrough). No 7th independent group or referee/vetting outcome. Trend HELD
-    accelerating/medium; last_evidence 2026-08-22 now 12 days old, well inside the 60-day window.
-  - 2026-W36 recalibration: HELD accelerating/medium. last_evidence 2026-08-22 is 14 days old,
-    nowhere near the 60-day line (2026-10-21). No 7th independent group surfaced across the
-    week's dailies (09-01→09-04, each rechecking a fresh arXiv batch); no referee/vetting outcome
-    on any of the six tracked preprints. Confidence held medium (doubled unrefereed-preprint
-    caution on Steiner's result stands). Not promoted (no mainstreaming-tier signal — group count/
-    pace only).
-  - 2026-09-07 (daily): first daily since 09-04 (weekend gap, expected). Fresh math.CO full
-    in-scope category-rotation batch (2026-09-04→09-07, 168 fresh entries) scanned for Ramsey
-    lower bounds — none (batch held "An Improved Upper Bound for Multicolour Ramsey Numbers"
-    [2609.04596, an UPPER bound, not a lower bound — own queue item] and the Reed-Stein
-    Erdős-Sós/tree-Ramsey landmark [queued separately, a different sub-theme], neither a
-    classical/hypergraph asymptotic-exponent lower-bound breakthrough). No 7th independent group
-    or referee/vetting outcome on any of the six tracked preprints. Trend HELD
-    accelerating/medium; last_evidence 2026-08-22 now 16 days old, well inside the 60-day window.
-  - 2026-09-08 (daily): arXiv's underlying math.CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/
-    LO/DS/PR/RT category-rotation query returned 0 fresh entries past the 2026-09-04 ceiling
-    already scanned by the 09-07 daily (confirmed via direct arXiv-API date-range probes on
-    multiple categories this session — a genuine posting gap, not a query fault); the math.OC
-    exploration-slot read (below) independently confirms no fresh Ramsey item. No 7th independent
-    group or referee/vetting outcome. Trend HELD accelerating/medium; last_evidence 2026-08-22 now
-    17 days old, well inside the 60-day window.
-  - 2026-W37 recalibration: HELD accelerating/medium. last_evidence 2026-08-22 is 21 days old,
-    well inside the 60-day window (dormancy line 2026-10-21). No 7th independent group or
-    referee/vetting outcome surfaced across the week's dailies (09-07→09-11, each rechecking fresh
-    arXiv batches — a landmark-dense week on OTHER sub-themes, but nothing on Ramsey-number lower
-    bounds specifically). Confidence held medium (unrefereed-preprint caution stands). Not promoted
-    (no fresh W37 velocity).
+  - 2026-W27 through W37 recalibration history (daily "no new lower-bound item found" entries
+    plus the W27-W35 dormancy/reactivation/promotion cycle and the 2026-09-03 daily through W37
+    recalibrations) RELOCATED to `logs/trend_history.md` (W27-W35 moved 2026-10-24 at W43;
+    2026-09-03 through W37 moved 2026-11-07 at W45, Amendment L applied) — moved verbatim,
+    unaltered; see that file for the full day-by-day record.
   - 2026-W38 recalibration: HELD accelerating/medium. last_evidence 2026-08-22 is 28 days old, well
     inside the 60-day window (dormancy line 2026-10-21 unchanged). No 7th independent group or
     referee/vetting outcome surfaced across the week's dailies (09-14→09-18, each keyword-sweeping
@@ -246,36 +215,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     batch; W41 version-history spot-check: silently revised to v2, updated 2026-09-25 — same
     author group/result, no new group). Oldest evidence line (2026-08-07, Ueda et al., Nature
     Physics) dropped to hold the 10-item cap.
-- notes: 2026-09-11 (daily): today's fresh hep-th/hep-ph batch surfaced a fourteenth independent
-  group (Ohki–Uemura, arXiv:2609.11895) and the SciPost API — HEALED this session after a 4th
-  consecutive degraded daily (the Anubis block on the API endpoint itself has lifted; individual
-  article pages remain blocked) — surfaced a thirteenth (Kaidi–Shi–Shimamori–Sun,
-  SciPostPhys.21.3.058, "The SymTFT for N-ality defects: Part I", published 2026-09-09, missed by
-  yesterday's degraded sweep — a 2-day capture-leak catch now closed). Both appended as evidence;
-  two oldest evidence lines (Bhardwaj et al. 07-23, Ueda et al. 08-07 Nature Physics) dropped to
-  hold the cap — both remain named in this trend's own dated history above. Stage HELD
-  accelerating/high (confidence ceiling, already well past the convergence bar); last_evidence
-  moves 2026-09-09 → 2026-09-10. Still no explicit lattice/continuum cross-citation (standing watch
-  item since W34).
-- 2026-W37 recalibration: HELD accelerating/high. last_evidence 2026-09-10 is 2 days old, nowhere
-  near the 60-day line. Fourteen fully independent groups now on file across five venue types
-  (arXiv, SciPost ×2, Nature Physics); no 15th group or the still-outstanding explicit
-  lattice/continuum cross-citation surfaced since 09-11. Confidence held at the ceiling (no
-  hype-skepticism caveat) — still the strongest of the four active trends. Not promoted to
-  `mainstreaming` (group count/pace alone is not a standard-practice-adoption signal). Watch for a
-  15th group or the cross-citation.
-- notes: 2026-09-10 (daily): today's fresh hep-th batch (2026-09-09) surfaced a twelfth independent
-  group's artifact on this trend (Chen–Jia, general partition-function framework for Rep(G)
-  non-invertible-symmetry backgrounds) — appended as evidence; oldest evidence line dropped to hold
-  the cap. Stage HELD accelerating/high (confidence ceiling, already well past the convergence bar
-  on both group-count and pace); last_evidence moves 2026-09-06 → 2026-09-09. Still no explicit
-  lattice/continuum cross-citation (the standing watch item since W34).
-- notes: 2026-09-09 (daily): today's full math+physics category-rotation batch (2026-09-05→09-09,
-  ~1.4k fresh entries) surfaced an eleventh independent group's artifact on this trend
-  (Ravindran–Eck–Chen, Ginzburg-Landau theory for non-invertible symmetry-breaking transitions,
-  Caltech condensed-matter group) — appended as evidence; oldest evidence line dropped to hold the
-  cap. Stage HELD accelerating/high (already well past the convergence bar); last_evidence moves
-  2026-09-04 → 2026-09-06.
+- 2026-W31 through W37 recalibration history (the out-of-order 09-09/09-10/09-11/W37 notes plus
+  the creation note's nested W31-through-09-08 chronological sub-list) RELOCATED to
+  `logs/trend_history.md` 2026-11-07 (W45, Amendment L applied) — moved verbatim, unaltered; see
+  that file for the full day-by-day record.
 - notes: 2026-07-27 (daily, PROMOTION): 2604.02856 and the Antunes–Rong SciPost item had sat in the
   `observation_queue` since 07-05/07-07 as a 2-group "forming, below the ≥3 bar" pair (flagged again
   in the W30 report's "convergence to watch"); today's fresh SciPost sweep surfaced Bhardwaj et al.
@@ -285,189 +228,6 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   refereed/community-refereed theoretical-physics output, not an AI-assisted claim). Watch for a 4th
   group, citations of the Bhardwaj et al. framework, and any connection to the separately-tracked
   deconfined-criticality queue thread (2607.00762 / 2607.01815).
-  - 2026-W31 recalibration: HELD seed/low. No new evidence this week — SciPost API checked (20 most
-    recent publications, 2026-07-21→07-31): nothing on non-invertible/categorical symmetries since
-    Bhardwaj et al. (07-23). No 4th independent group yet. Confidence held low (still first week as a
-    trend; no hype-skepticism caveat applies).
-  - 2026-08-03 (daily): SciPost API rechecked (publications through 2026-07-31, IDs .021-.029) —
-    nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no 4th independent
-    group. Trend HELD seed/low.
-  - 2026-08-05 (daily): SciPost API rechecked (through SciPostPhys.21.2.031 / SciPostPhysCore.9.3.045,
-    2026-08-03) — nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no
-    4th independent group. Trend HELD seed/low.
-  - 2026-08-06 (daily): SciPost API rechecked (through SciPostPhys.21.2.033, 2026-08-05) — nothing
-    on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no 4th independent
-    group. Trend HELD seed/low.
-  - 2026-08-07 (daily): SciPost API rechecked — no new publications since SciPostPhys.21.2.033
-    (08-05); nothing on non-invertible/categorical symmetries since Bhardwaj et al. (07-23); no
-    4th independent group. Trend HELD seed/low.
-  - 2026-W32 recalibration: HELD seed/low. last_evidence 2026-07-23 is 16 days old — well
-    inside the 60-day window, no dormancy concern. SciPost API rechecked this session (through
-    the latest 2026-08 issue numbers, same state as the 08-07 daily) — still nothing on
-    non-invertible/categorical symmetries since Bhardwaj et al.; still no 4th independent
-    group after 2 full weeks as a trend. Confidence held low (no hype-skepticism caveat
-    applies, but no fresh corroboration either — genuinely quiet, not thinning evidence).
-  - 2026-08-10 (daily, PROMOTION): seed → emerging; confidence low → high. Today's DAILY-tier
-    Nature Physics RSS sweep surfaced Ueda–Vander Linden–De Vos–Lootens–Haegeman–Fendley–Verstraete
-    (Ghent + Oxford, fully independent of all three prior groups) — a 4th independent artifact,
-    peer-reviewed (Nature Physics, not a preprint), satisfying both promotion criteria at once: the
-    standing "watch for a 4th group" note, and the confidence-to-high bar ("≥2 INDEPENDENT
-    authoritative primary sources corroborate on concrete artifacts") — SciPost's community-refereed
-    Bhardwaj et al. and Nature Physics's traditionally-refereed Ueda et al. are two independent,
-    authoritative, peer-reviewed corroborations of the same non-invertible-symmetries direction. No
-    hype-skepticism caveat applies (ordinary refereed output, not an AI-assisted or extraordinary
-    claim). Watch for a 5th group and for citations connecting this lattice/tensor-network thread to
-    the Bhardwaj et al. continuum Symmetry-TFT framework.
-  - 2026-08-11 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
-    (2026-08-08→08-10) and SciPost API (through SciPostPhys.21.2.037, 2026-08-10) both scanned —
-    no 5th independent group on non-invertible/categorical symmetries specifically. One
-    ADJACENT-but-distinct item noted, not counted toward this trend: arXiv:2608.08766 (Gu, Luo,
-    Wang, Zhang, "Understanding Non-Split 2-Group Symmetry: (3+1)D SymTFT, Anomaly and Bordism")
-    studies a non-split 2-GROUP (higher-group) symmetry's SymTFT/anomaly structure — a related
-    generalized-symmetries technique (SymTFT) but a different symmetry structure (2-group, not a
-    non-invertible/fusion-category symmetry) → captured as its own below-bar queue item, does not
-    feed this trend. Trend HELD emerging/high.
-  - 2026-08-12 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
-    (2026-08-09→08-11) and SciPost API (through SciPostPhys.21.2.038, 2026-08-11) both
-    scanned — no 5th independent group on non-invertible/categorical symmetries specifically.
-    Context note (ecosystem, not evidence): Simons Foundation announced a new "Simons
-    Collaboration on the Virtues of Defects" led by Jaume Gomis (Perimeter), explicitly citing
-    "advances in theories of defects that revealed new phases of quantum systems" among the
-    motivating recent successes — thematically adjacent to this trend's non-invertible-defect
-    research direction but a funding/ecosystem announcement, not a primary result (queued
-    separately below). Trend HELD emerging/high.
-  - 2026-08-13 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
-    (2026-08-11→08-12) and SciPost API (through SciPostPhysLectNotes.132 / SciPostPhysCore.9.3.047,
-    2026-08-12) both scanned — no 5th independent group on non-invertible/categorical symmetries
-    specifically. Trend HELD emerging/high.
-  - 2026-08-14 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
-    (2026-08-13) and SciPost API (no new publications since SciPostPhysLectNotes.132/
-    SciPostPhysCore.9.3.047, 2026-08-12) both scanned — no 5th independent group on
-    non-invertible/categorical symmetries specifically. Trend HELD emerging/high.
-  - 2026-08-17 (daily): first daily since 08-14. Fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/
-    cond-mat/astro-ph batch (2026-08-14, 106 fresh entries) and SciPost API (3 new
-    publications since SciPostPhysLectNotes.132, all 2026-08-14: supersymmetric Virasoro
-    minimal strings, an invisible-pair/Michel-distribution note, Parisi-Sourlas-supersymmetry
-    cohomology — none on-axis) both scanned — no 5th independent group on non-invertible/
-    categorical symmetries specifically. Trend HELD emerging/high.
-  - 2026-08-18 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
-    (2026-08-15→08-17, 304 fresh entries) and SciPost API (one new publication since
-    SciPostPhys.21.2.041 — SciPostPhys.21.2.042 "Semi-universality of CFT_d entropy at large
-    spin," 2026-08-17, a large-spin CFT thermodynamics result, not on-axis) both scanned — no
-    5th independent group on non-invertible/categorical symmetries specifically. Trend HELD
-    emerging/high.
-  - 2026-08-19 (daily, 5th group): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph
-    batch (2026-08-16→08-18, 400 fresh entries) surfaced arXiv:2608.16520 (Flores-Calderón,
-    Pollmann, Knap, TU Munich) — a 5th fully independent group on non-invertible symmetries,
-    satisfying the standing "watch for a 5th group" note (see evidence above). SciPost API
-    rechecked (2 new since .042: .043 electro-nanomechanical Bell phase, .044 integrable 4d
-    holomorphic-BF models — neither on this sub-theme). Confidence HELD high (already at the
-    ceiling for an unrefereed-caveat-free ordinary result; a 6th group or explicit cross-citation
-    between the lattice and continuum threads would be the next signal to watch). Trend HELD
-    emerging/high.
-  - 2026-08-20 (daily, 6th group): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph
-    batch (2026-08-19, 138 fresh entries) surfaced arXiv:2608.18926 (Maruyoshi, Moon, Song) — a
-    SIXTH fully independent group, on a different sub-application (VOA outer-automorphism
-    realization in 4d N=4 SYM) than any of the five prior groups, satisfying the standing "watch
-    for a 6th group" note (see evidence above). SciPost API rechecked (4 new since .044: .045
-    Wilson lines with endpoints in 3d CFT, .046 frustrated bilayer edge currents, PhysCore .048-.049
-    — none on this sub-theme). Confidence HELD high (already at ceiling; still watching for an
-    explicit cross-citation linking the lattice/continuum threads). Trend HELD emerging/high.
-  - 2026-08-21 (daily): fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/astro-ph batch
-    (2026-08-20, 169 fresh entries) scanned — no 7th independent group, no explicit
-    lattice/continuum cross-citation. SciPost API rechecked (routine, nothing on this sub-theme).
-    Trend HELD emerging/high.
-  - 2026-W34 recalibration (PROMOTION): emerging → accelerating; confidence HELD high. Velocity
-    test: SIX fully independent author/institution groups (Oishi–Ebisu; Antunes–Rong; Bhardwaj et
-    al.; Ueda et al., Nature Physics; Flores-Calderón–Pollmann–Knap; Maruyoshi–Moon–Song) across
-    three distinct venues (SciPost ×2, Nature Physics, arXiv ×3) within a single 25-day window
-    (07-27→08-20), with groups 5 and 6 landing in this same review week (08-19, 08-20) — sustained,
-    still-accelerating multi-org cadence, not a one-time convergence burst. Confidence stays at the
-    existing ceiling (no hype-skepticism caveat; ordinary refereed/community-refereed output).
-    Promotion criterion (weekly.md §2, "broad, fast"): satisfied by breadth (6 independent groups,
-    3 venue types, both lattice and continuum sub-applications) and pace (a new independent group
-    roughly every 4 days over the trend's active life). One stage this week, per the one-stage-max
-    rule. Watch for a 7th group or the still-outstanding explicit lattice/continuum cross-citation.
-  - 2026-08-24 (daily, 7th group): first daily since 2026-08-21 (weekend gap + W34 weekly 08-22,
-    expected). SciPost API rechecked (through SciPostPhysCore.9.3.048, 2026-08-21) surfaced Graf,
-    Surace, Berg, Moroz — a SEVENTH fully independent group, satisfying the standing "watch for a
-    7th group" note (see evidence above). Fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/cond-mat/
-    astro-ph RSS batch (2026-08-21, the latest posted; no fresh entries since — weekend/Monday-
-    batch-lag expected) scanned — no explicit lattice/continuum cross-citation yet. Confidence HELD
-    high (already at ceiling). Stage HELD accelerating (already promoted this cycle at W34,
-    2026-08-22; one-stage-max rule and no "mainstreaming"-tier signal — standard-practice adoption,
-    not just group count — yet). Watch for an 8th group or the cross-citation.
-  - 2026-08-25 (daily, 8th group): fresh hep-ph/hep-th batch (2026-08-22, first post-weekend/
-    Monday-lag entries) surfaced Kobayashi–Otsuka–Tanimoto–Yamamoto (2608.21707), an EIGHTH fully
-    independent group, satisfying the standing "watch for an 8th group" note — appended as
-    evidence above; last_evidence unchanged at 2026-08-24 (a later item already on file). Notable:
-    the first application of this trend's framework to Standard Model flavor phenomenology
-    (SMEFT), distinct from all prior lattice/CFT/topological-order sub-applications — broadens the
-    trend's reach beyond pure formal theory. Still no explicit lattice/continuum cross-citation
-    found. A cross-listed hep-th "replace" of an old 2023 parafermionic-CFT defect-lines paper
-    (arXiv:2309.01914 v2) was checked and excluded — a revision of pre-existing work, not a new
-    primary. Confidence HELD high (ceiling); stage HELD accelerating (no mainstreaming-tier
-    signal yet).
-  - 2026-08-26 (daily): fresh hep-th/hep-ph 2026-08-25 batch + a direct "non-invertible symmetry"
-    abstract search scanned — no 9th independent group and no lattice/continuum cross-citation.
-    Trend HELD accelerating/high.
-  - 2026-08-27 (daily, 9th group): fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat/astro-ph
-    batch (2026-08-26, 141 fresh entries) surfaced arXiv:2608.24385 (Ahn, Bajnok, Elek —
-    Ewha Womans University / Wigner Research Centre, fully independent of all eight prior
-    groups) — appended as evidence above. A NINTH sub-application: constructs an infinite
-    family of integrable RG flows (via the massless S-matrix bootstrap / TBA) from
-    higher-fusion-level minimal models to non-unitary Virasoro minimal models (incl. a flow to
-    the Yang-Lee CFT), and shows a family of non-invertible Verlinde defect lines is preserved
-    along the flows — the first engagement on this trend from the integrable-QFT/TBA
-    sub-community, distinct from the prior lattice/CFT/topological-order/VOA/SMEFT
-    sub-applications. last_evidence advances 2026-08-24 → 2026-08-25. Still no explicit
-    lattice/continuum cross-citation. Confidence HELD high (ceiling); stage HELD accelerating
-    (no mainstreaming-tier signal yet). Watch for a 10th group.
-  - 2026-08-28 (daily): fresh math+physics full in-scope category-rotation batch (2026-08-27,
-    356 entries) plus SciPost scan for non-invertible/categorical/fusion-category symmetry items
-    — none (SciPost's newest hep-th-adjacent item, "Fusion in the periodic Temperley-Lieb
-    algebra," is an integrable-lattice-algebra paper, not a non-invertible-symmetry application —
-    checked and excluded). No 10th independent group. Trend HELD accelerating/high (confidence
-    ceiling); last_evidence 2026-08-25 now 3 days old.
-  - 2026-W35 recalibration: HELD accelerating/high. last_evidence 2026-08-25 is 4 days old,
-    nowhere near the 60-day line. Nine fully independent groups now on file across four venue
-    types (arXiv, SciPost ×2, Nature Physics); no 10th group or explicit lattice/continuum
-    cross-citation surfaced this week (five dailies 08-24→08-28 all scanned fresh hep-th/hep-ph/
-    gr-qc/math-ph/quant-ph/cond-mat batches plus the SciPost API, confirmed again this session).
-    Confidence held at the ceiling (no hype-skepticism caveat). Not promoted to `mainstreaming`
-    (still no standard-practice-adoption signal, only group count/pace) — watch for a 10th group
-    or the cross-citation.
-  - 2026-09-03 (daily): fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat/astro-ph batch
-    (2026-09-02, 167 entries) scanned for non-invertible/categorical-symmetry applications —
-    none found. No 10th independent group. Trend HELD accelerating/high; last_evidence
-    2026-08-25 now 9 days old, well inside the 60-day window.
-  - 2026-09-04 (daily, 10th group): fresh hep-th/hep-ph/gr-qc/math-ph/quant-ph/cond-mat/astro-ph
-    batch (2026-09-03, 250 entries) surfaced arXiv:2609.03043 (Volpato) — a TENTH fully
-    independent group, extending the toolkit to chiral CFTs / Monstrous Moonshine, satisfying
-    the standing "watch for a 10th group" note. Evidence list now at the 10-item cap (oldest,
-    2604.02856, to be dropped on the next new capture per the ledger contract). Still no explicit
-    lattice/continuum cross-citation. Confidence HELD high (ceiling); stage HELD accelerating (no
-    mainstreaming-tier signal yet — ten independent groups on group-count/pace alone). last_evidence
-    advances 2026-08-25 → 2026-09-04.
-  - 2026-W36 recalibration: HELD accelerating/high. last_evidence 2026-09-04 is 1 day old. Ten
-    fully independent groups now on file across four venue types (arXiv, SciPost ×2, Nature
-    Physics); no 11th group or the still-outstanding explicit lattice/continuum cross-citation
-    surfaced this week. Confidence held at the ceiling (no hype-skepticism caveat). Not promoted
-    to `mainstreaming` (group count/pace alone is not a standard-practice-adoption signal) —
-    watch for an 11th group or the cross-citation.
-  - 2026-09-07 (daily): first daily since 09-04. Fresh hep-th/hep-ph/gr-qc/quant-ph/math-ph/
-    cond-mat/astro-ph batch (2026-09-04→09-07, 131 fresh entries) and SciPost API (7 new
-    publications since SciPostPhysCore.9.3.053: SciPostPhysLectNotes.134, SciPostPhys.21.3.053,
-    SciPostPhysCommRep.29, SciPostPhys.21.3.052, .051, .050, SciPostPhysCore.9.3.055/.054,
-    SciPostPhysCommRep.28 — none on non-invertible/categorical symmetries) both scanned — no 11th
-    independent group, no explicit lattice/continuum cross-citation. Trend HELD accelerating/high
-    (confidence ceiling); last_evidence 2026-09-04 now 3 days old.
-  - 2026-09-08 (daily): no fresh arXiv batch past the 09-04 ceiling (see Ramsey trend note, same
-    session-wide finding); SciPost API blocked this session by a new Anubis bot-check challenge on
-    both direct `curl` and `tvly extract` (logged `degraded`, not yet healed — first occurrence).
-    No 11th independent group found via the other lanes swept (PRL/PRX/RMP, digest blogs,
-    MathOverflow). Trend HELD accelerating/high (confidence ceiling); last_evidence 2026-09-04 now
-    4 days old.
   - 2026-W38 recalibration: HELD accelerating/high. last_evidence 2026-09-10 is 9 days old, nowhere
     near the 60-day line. No 15th independent group or the still-outstanding explicit
     lattice/continuum cross-citation surfaced across the week's dailies (09-14→09-18, each
@@ -2313,7 +2073,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   AI-assisted). Also on `study_shelf`. Watch for independent confirmation/citation.
 
 ### A proof of the Area Vanishing Square Peg Conjecture (Valerio)
-- stage: seed | confidence: medium | first_seen: 2026-10-16 | last_evidence: 2026-10-15
+- stage: seed | confidence: medium | first_seen: 2026-10-16 | last_evidence: 2026-11-04
 - what: axis-1 DOMAIN-CADENCE LANDMARK — resolves an open problem posed by Terence Tao related to
   the Toeplitz square peg conjecture (a prominent open generalization of the classical inscribed-
   square problem). Proves that four simple closed polygonal curves in a cylinder, each winding once
@@ -2329,6 +2089,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   (title-visible, "Proof of the ... Conjecture" keyword match). Watch for independent
   confirmation/citation, and for whether this technique extends toward the full (non-area-vanishing)
   Toeplitz square peg conjecture that motivated it.
+  - 2026-W45 recalibration (Amendment I version-history spot-check, first check): 2610.21076 found
+    silently revised to v2, updated 2026-11-04 — POSTDATES the recorded last_evidence (2026-10-15);
+    last_evidence advances accordingly. Same title/author, no new claim. No independent
+    confirmation/citation found yet. Not promoted.
 
 ### M23 realized as a Galois group over Q, completing the inverse Galois problem for sporadic groups (Huang–Jackson–Lee–Poonen–Pries–Zhang)
 - stage: seed | confidence: high | first_seen: 2026-10-16 | last_evidence: 2026-08-09
@@ -2821,7 +2585,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   own manuscript specifically.
 
 ### Resolution of the Harary–Hill conjecture (crossing number of $K_n$): OpenAI claim + independent human exposition (Balko)
-- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-03
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-05
 - what: axis-1/5 DOMAIN-CADENCE LANDMARK, split from the OpenAI mass-disclosure trend (same
   precedent as the quasi-RH/spacetime-Penrose/Propeller splits). The Harary–Hill conjecture (1963)
   states the crossing number of the complete graph $K_n$ is exactly
@@ -2858,6 +2622,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     both expositions agree the underlying argument holds, a strengthening vetting-positive signal.
     No stage/confidence change (still unrefereed at the source). last_evidence advances
     2026-10-25 → 2026-11-03.
+  - 2026-W45 recalibration (Amendment I version-history spot-check, first check): Balko's
+    2610.34444 found silently revised to v2, updated 2026-11-05 — POSTDATES the recorded
+    last_evidence (2026-11-03); last_evidence advances accordingly. Same title/author, no new
+    claim. Salazar's 2611.03515 shows no v-update. Not promoted.
 
 ### Independent same-day AI claims refuting the Exponential Time Hypothesis (OpenAI + Anthropic)
 - stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-10-27
@@ -3544,6 +3312,42 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   triage ("conjecture" in title). Watch for representation-theory community reaction; note the
   result is stated over algebraically closed fields only (not the fully general case).
 
+### Disproof of Goemans's cost-preserving unsplittable-flow conjecture (Isabelle/AFP-verified)
+- stage: seed | confidence: medium | first_seen: 2026-11-07 | last_evidence: 2026-11-07
+- what: axis-1/5 DOMAIN-CADENCE LANDMARK, a QUEUE-AGING REVIEW CLOSURE (this item sat UNVERIFIED
+  in `observation_queue` since 2026-07-24, blocked on "no arXiv primary locatable" for a claimed
+  AI-assisted (Dmitry Rybin, attributed to GPT-5.6 Pro) counterexample to Goemans's conjecture
+  that the Dinitz–Garg–Goemans fractional-to-unsplittable-flow rounding can also be made
+  cost-preserving — Dinitz–Garg–Goemans themselves had already proved the additive-congestion
+  bound; only the cost-preservation question was open). This weekly's queue-aging pass located
+  the missing primary: not an arXiv paper, but a FORMAL PROOF REPOSITORY entry — the Archive of
+  Formal Proofs (Isabelle/HOL), the same class of machine-checked artifact this ledger already
+  tracks via Lean/mathlib and Rocq (AGENTS.md's formal-proof-repository category, read as
+  representative rather than an exhaustive two-system list). Isabelle's kernel checks a concrete
+  7-vertex/9-arc/3-terminal instance (max demand 15): a feasible fractional flow of cost 58
+  saturates every arc, while any unsplittable routing within the congestion bound must cost ≥60
+  — mechanically refuting cost-preservation. AI-assisted discovery (WATCH area per scope, track
+  the result not the method); machine verification is itself a strong vetting-positive signal
+  (same tier of caution this ledger gives other Lean/Rocq-formalized AI claims), though the
+  original Rybin/GPT-5.6-Pro attribution is NOT independently confirmed (the AFP entry's own
+  abstract attributes the counterexample to "Dmitry Rybin" without naming the AI tool).
+- evidence:
+  - 2026-11-07 — https://isa-afp.org/entries/Dinitz_Garg_Goemans_Counterexample.html — Ramos,
+    Hulak, de Queiroz, "A Formal Counterexample to the Cost-Preserving Single-Source Unsplittable
+    Flow Conjecture" (Archive of Formal Proofs, dated 2026-07-22, releases through 2026-10-26):
+    Isabelle-verified counterexample to Goemans's cost-preservation conjecture. Opened directly
+    via `WebFetch` this session.
+- notes: 2026-11-07 (W45 weekly, queue-aging review, seed creation): closes a ~3.5-month-old
+  community-pulse chase (first flagged 2026-07-24, last re-checked 2026-10-17/W42 as "still
+  watched, not yet promoted or dropped") by locating the formal-verification primary that the
+  original X-post/blog-only announcement never provided. Judgment call flagged for the curator:
+  treating Isabelle/AFP as a "formal-proof repository" primary under the existing hard-rule
+  category, by analogy to Lean/mathlib and Rocq — AGENTS.md names only those two explicitly.
+  Watch for: an arXiv write-up of the counterexample itself (none located this session), any
+  mathematician's independent commentary, and whether this is folded into Swamy–Traub–Vargas
+  Koch–Zenklusen's (arXiv:2510.21287, pre-existing, independent, not evidence here) broader work
+  on Goemans's conjecture family.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
@@ -4072,6 +3876,20 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   intensity — a decay pattern "not previously identified in a long-lived nuclear state." Abstract +
   authors verified via arXiv API this session. A genuine first-of-kind pattern, but a specialized
   nuclear-structure benchmark rather than a field-shaping landmark — queued.
+- 2026-04-18 (ceremony) — **2026 Breakthrough Prize in Mathematics → Frank Merle (IHES / CY Cergy
+  Paris Université)** — https://breakthroughprize.org/laureates-2026/6 — recognition/ecosystem
+  (axis 1, pure math/PDE): COVERAGE-GAP CATCH, W45 annual-prize checklist (Amendment K) — this
+  ledger had only captured the SAME ceremony's Fundamental Physics laureate (muon g-2
+  collaborations, 2026-07-25 entry below) and missed the Mathematics prize entirely. Citation (per
+  the laureate page, opened directly this session): "For breakthroughs in nonlinear evolution
+  equations, with regards to their stability, singularity formation, or resolution into solitons."
+  Also New Horizons in Mathematics Prize laureates Hong Wang (already tracked on this ledger via
+  the Kakeya-3D `study_shelf` pick and her 2026 Fields Medal), Yunqing Tang, Otis Chodosh, and
+  Vesselin Dimitrov (Diophantine geometry — Atkin–Swinnerton-Dyer unbounded-denominators
+  conjecture, joint with Frank Calegari; laureate page https://breakthroughprize.org/Laureates/3/L4010
+  opened directly this session) — not individually followed to primaries this session (chase
+  next). Follow to Merle's own honored body of work (nonlinear PDE blow-up, soliton resolution)
+  next.
 - 2026-03-19 (announced); ceremony 2026-05 — **2026 Abel Prize → Gerd Faltings (Max Planck Institute
   for Mathematics, Bonn)** — https://abelprize.no/ — recognition/ecosystem (axis 1, pure math):
   COVERAGE-GAP CATCH — this ledger's annual-prize lane never captured the year's Abel Prize at all
@@ -5387,6 +5205,10 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
     The Dmitry Rybin / GPT-5.6-Pro claimed Dinitz–Garg–Goemans-conjecture disproof remains
     UNVERIFIED — still no arXiv primary locatable this session; still watched, not yet promoted or
     dropped.
+  - RESOLVED 2026-11-07 (W45 weekly, queue-aging review): PROMOTED — the missing primary was never
+    going to be an arXiv paper; it is an Isabelle/AFP formal-verification entry
+    (isa-afp.org/entries/Dinitz_Garg_Goemans_Counterexample.html, opened this session). See the new
+    "Disproof of Goemans's cost-preserving unsplittable-flow conjecture" seed trend above.
   - 2026-07-28 (daily) — wave continues, two more data points (still community-pulse/ecosystem, not
     primaries): (i) Peter Woit's blog (Not Even Wrong, "Requiem for a Field?", 2026-07-26, opened via
     RSS this session) reports 2026 Fields medalist **Jacob Tsimerman announced he is joining OpenAI**,
@@ -8881,15 +8703,6 @@ why`). The trend bar does NOT apply here; opened primary sources only.
   University of Birmingham (opened via `tvly` this session, ~2026-07-09). A landmark-quality
   first-of-kind experimental probe of a central open question in quantum-gravity foundations that a
   physicist should know — single group so far, watch for independent replication.
-- 2026-07-01 — [The Riemann Hypothesis manifested in dynamical quantum phase transitions (Wei, Zhai,
-  Lu et al.), Nature Communications s41467-026-74935-8](https://www.nature.com/articles/s41467-026-74935-8)
-  — establishes a direct correspondence between the nontrivial zeros of the Riemann zeta function and
-  dynamical quantum phase transitions in two engineered quantum many-body systems, via a Riemann-based
-  Hamiltonian construction (axis 2/4, math-ph/quant-ph, peer-reviewed). Abstract + publication
-  metadata opened via `tvly` this session (received 2025-12-23, accepted 2026-06-18, published
-  2026-07-01). A genuinely novel RH↔physics correspondence worth knowing at the math↔physics
-  interface — track for follow-up (a new zero-search/verification strategy, or independent
-  replication of the quantum-simulation claim).
 - 2026-07-31 — [On a proof of the Gorenstein Symmetry Conjecture (Li), arXiv:2607.28011](https://arxiv.org/abs/2607.28011)
   — a homological proof of the Gorenstein Symmetry Conjecture (one-sided finiteness of the self-injective
   dimension of an Artin algebra implies Gorensteinness), a famous long-standing open problem in the
@@ -8924,10 +8737,6 @@ why`). The trend bar does NOT apply here; opened primary sources only.
 - 2026-07-16 — [A Proof of Sabidussi's Compatibility Conjecture (Ulyanov), arXiv:2607.13225](https://arxiv.org/abs/2607.13225) — resolves Sabidussi's compatibility conjecture: for a finite connected multigraph with all even degrees and min-degree ≥ 4 and an Eulerian closed trail T, the edges can be partitioned into circuits (indeed 4-coloured with an even-degree monochromatic-subgraph property) so no circuit uses two edges consecutive in T (axis 1, combinatorics/graph theory). Notable for axis 5: the proof is accompanied by a **Lean 4 formalization** in the author's GitHub — a machine-checked resolution of a named conjecture. Abstract + author + Lean-4 claim verified via arXiv API this session (v1 2026-07-14). Unrefereed single-author preprint — a claimed resolution → provisional under the hype-skepticism rule, but the accompanying formalization materially raises confidence; track the vetting.
 - 2026-07-13 — [K-theoretic counterexamples to Ravenel's telescope conjecture (Burklund, Hahn, Levy, Schlank), arXiv:2310.17459](https://arxiv.org/abs/2310.17459) — the landmark DISPROOF of Ravenel's telescope conjecture: at each prime p and height n+1 ≥ 2, the telescopic (T(n+1)) and chromatic (K(n+1)) localizations of spectra differ — shown via the T(n+1)-localized algebraic K-theory of BP⟨n⟩^{hℤ} being non-K(n+1)-local (chromatic homotopy theory / algebraic K-theory). One of the two landmarks behind the 2026 Clay Research Award (Burklund–Hahn–Levy–Schlank); followed to primary from the Clay award resolved on the queue 2026-07-08, per the 07-10 report's Next. Abstract + authors verified via arXiv API this session (v1 26 Oct 2023).
 - 2026-07-10 — [Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions (Wang, Zahl), arXiv:2502.17655](https://arxiv.org/abs/2502.17655) — the landmark RESOLUTION of the Kakeya set conjecture in ℝ³: every Kakeya set in ℝ³ has Minkowski and Hausdorff dimension 3, via a new volume estimate for unions of δ-tubes not concentrated in a common convex set (axis 1, geometric measure theory / harmonic analysis). Followed to primary from the 2026 Clay Research Award (Orponen–Shmerkin–Wang–Zahl, Furstenberg + 3D Kakeya) resolved on the queue 2026-07-08; abstract + authors verified via arXiv API this session (v1 24 Feb 2025). A 2025 artifact surfaced here on its Clay-2026 recognition — a genuinely field-shaping resolved conjecture worth knowing.
-- 2026-07-09 — [The Algebraic Montgomery–Yang Problem (Jo, Park, Park), arXiv:2607.06686](https://arxiv.org/abs/2607.06686) — completely RESOLVES the algebraic Montgomery–Yang problem, a conjecture of Kollár: every rational homology projective plane with quotient singularities and a simply-connected smooth locus has at most three singular points. Proof combines a new lattice-theoretic constraint from Donaldson's diagonalization theorem + the distinguished spin^c structure on the smooth locus with the orbifold Bogomolov–Miyaoka–Yau inequality to rule out all remaining cases (axis 1, algebraic geometry ↔ 4-manifold topology). Abstract + authors verified via arXiv API this session (v1 7 Jul 2026). Unrefereed preprint — a claimed resolution of a named conjecture; track the referee/vetting outcome.
-- 2026-07-07 — [The Burau representation of the braid group is faithful for n = 4 (Bharathram, Birman, Brendle), arXiv:2607.05283](https://arxiv.org/abs/2607.05283) — resolves a decades-old open problem in low-dimensional topology: the Burau representation of B₄ is faithful (it is classically faithful for n≤3 and known NON-faithful for n≥5 — Moody, Long–Paton, Bigelow — leaving n=4 as the last open case). Corollary: the Jones representation of B₄ is also faithful. Abstract + authors verified via arXiv API this session (v1 6 Jul 2026). Unrefereed preprint — but by leading braid-group topologists (Birman, Brendle) building on established methods; track the referee/vetting outcome.
-- 2026-07-02 — [An exponential improvement for Ramsey lower bounds (Ma, Shen, Xie), arXiv:2507.12926](https://arxiv.org/abs/2507.12926) — first exponential improvement over Erdős' classical 1947 probabilistic lower bound for the Ramsey number r(ℓ, Cℓ); abstract + authors/dates verified this session (v1 17 Jul 2025, v2 26 Apr 2026). This is the "Erdős method upgrade" Quanta covered 2026-06-26 (Pass 1 mis-attributed it to Sudakov, who was only quoted — corrected).
-- 2026-07-02 — [GWTC-5.0 — updated LIGO–Virgo–KAGRA gravitational-wave catalog](https://www.ligo.org/news.php) — new release of the GW transient catalog setting precision records; the current census of compact-binary mergers (LIGO collaboration news page opened this session).
 
 ## calibration
 
