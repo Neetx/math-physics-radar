@@ -2084,3 +2084,25 @@ coding) this week. No redirection needed.
   new evidence spanned both pre-existing trends (Amendment I version-history fixes) and 2 brand-new
   seed trends (Brauer-Thrall carried from the daily; the new Goemans/DGG queue-aging closure) plus
   one Amendment-L relocation — not an anchoring week.
+
+- 2026-11-09 (daily) — RECURRING PROCESS FAILURE, flagging for the weekly a 3rd time: this
+  session's load-state check found the local clone SHALLOW (`git rev-parse
+  --is-shallow-repository` → true), which produced a FALSE "no common ancestor" reading for
+  `claude/modest-bohr-9415kc` and `claude/peaceful-faraday-n2ehd0` against `main` — the exact same
+  failure the 2026-09-30 daily diagnosed and already recommended fixing ("Recommend the daily's
+  'load state' step add `git rev-parse --is-shallow-repository` + unshallow as a standing check
+  before any orphan-branch conclusion — flagged as a candidate amendment for the next weekly, not
+  applied here"). That recommendation was never applied to `routines/daily.md`. This session went
+  further than 09-30's near-miss: it sent the curator a push notification claiming main's history
+  had been rewritten/force-pushed (a Hard Rule violation) BEFORE finding the shallow-clone cause —
+  a false alarm that was corrected one message later once `git fetch --unshallow` confirmed both
+  branches ARE ancestors of `main` (no rewrite, no data at risk). No harm done (the correction went
+  out promptly), but this is now a 2nd-order failure: a known, already-diagnosed, already-proposed
+  fix sat un-applied long enough for the same root cause to nearly cause a false hard-rule-violation
+  report to the curator. RENEWED PROPOSAL for the next weekly (supersedes the 09-30 note, which
+  only flagged this as a candidate and was not tracked to resolution): add an explicit
+  `git rev-parse --is-shallow-repository` check + `git fetch --unshallow` (if true) to
+  routines/daily.md's and routines/weekly.md's load-state step, BEFORE any orphaned-branch
+  investigation begins — not left as a strategy-note reminder that can be re-forgotten. Flagging
+  this time with an explicit ask that the weekly track it as applied-or-not, since the softer
+  09-30 phrasing ("flagged as a candidate") appears to be why it lapsed.

@@ -4296,3 +4296,87 @@ regenerated in the same commit.
   expected, not burned down); study_shelf unchanged (0 picks today — nothing cleared the "a
   frontier researcher should know this" bar beyond the usual queue-tier catches). README.md
   and SUMMARY.md regenerated in the same commit.
+
+- 2026-11-09 (Mon, Pass 1, scheduled) — FULL CHECK; first daily since 2026-11-06 (2026-11-07
+  weekly W45 covered the WEEKLY-SWEPT tier + Amendment-I capture-leak sweep only; 11-07/08 are the
+  normal Sat/Sun arXiv gap, domain-cadence-expected). Load-state: local clone was SHALLOW at
+  session start (`git rev-parse --is-shallow-repository` → true) — this produced a FALSE "no
+  common ancestor" reading for `claude/modest-bohr-9415kc`/`claude/peaceful-faraday-n2ehd0` against
+  `main`, the exact failure mode already documented 2026-09-30; a push notification was sent in
+  error before the shallow-clone cause was found, then corrected once `git fetch --unshallow`
+  confirmed both branches ARE ancestors of `main` (no history rewrite, no data at risk). FLAGGING
+  AGAIN for the weekly (3rd time this pattern has cost a session cycle: 09-29, 09-30-note-written-
+  but-not-acted-on, now 11-09): add an unshallow check to routines/daily.md's load-state step
+  before any orphan-branch conclusion is drawn, not just a strategy-note reminder. All `radar:`
+  commits of the last 7 days have matching reports; no incomplete-run warning once the shallow-
+  clone false alarm was resolved. Primary-feed sweep (`radar-source-sweep`): arXiv API batch
+  across the "already routinely covered" math categories (math.NT/CO/PR/RT/DS/LO/OA/OC, 400-entry
+  cap) plus this run's rotation category math.AC (Amendment J full-abstract pass — AG→AC,
+  continuing the cycle after the 11-06 AG session) — 169 fresh 2026-11-06 entries (nothing newer
+  exists yet; the Monday batch had not yet posted at session time), ALL read by title, math.AC's
+  14 entries read in full abstract (0 title-blind landmark catch in AC itself, routine commutative-
+  algebra technical papers). Physics API batch (hep-th/hep-ph/hep-ex/hep-lat/gr-qc/quant-ph/
+  math-ph/nucl-th/nucl-ex + cond-mat.str-el/mes-hall/supr-con/stat-mech/astro-ph.CO/HE, 2×300-entry
+  cap) — 215 fresh 2026-11-06 entries, title-triaged. MAJOR CATCHES (9 new seed trends, domain-
+  cadence landmark bar): Qazaqzeh–Rawashdeh's claimed elementary proof of the Binary Goldbach
+  Conjecture (2611.09007, unrefereed preprint — claim, EXTRAORDINARY-claim caution); Dou's proof of
+  the Woo-Yong conjecture (2611.09237); Naserasr's proof of the Jaeger/Jaeger-Zhang conjectures
+  (2611.08862); Turturean's proof of the Aaronson-Ambainis conjecture (2611.09773, axis 4 quantum
+  query complexity); Guo-Kang-Su-Xiong's resolution of the N!/k conjecture (2611.09638); Nguyen's
+  resolution of the sparse-complement conjecture (2611.09111); plus 2 hexagonmath gap-recovery
+  catches and 1 AxiomMath formalization (all three detailed below). 1 evidence append + confidence
+  bump (medium→high) to the existing pure-semisimplicity-conjecture trend: Generalov–Tursunbaev's
+  independent second counterexample (2611.09749), a different author group 8 days after the
+  original (Ren, 2610.39883) — ≥2-independent-source bar now met. Non-arXiv primary feeds (curl,
+  all 200 unless noted): CERN Courier — routine detector/award items, 0 catch. Fermilab — routine,
+  one queued below-bar item (SBND collaboration's "first neutrino results," underlying paper not
+  yet located, chase next session). Simons Foundation — all off-axis (brain/neuroscience), 0
+  catch. PRL/PRX/RMP (feeds.aps.org) — routine condensed-matter/AMO/cosmology titles, 0 catch.
+  Quantum journal — routine, 0 catch. icarm.io `/feed` — HEALED (308 redirect, followed with `-L`;
+  last session's empty-response degradation did not recur, not yet escalated either way): "what's
+  new" browse found only already-tracked items (Palomar registry, First-Proof webinar, M23 —
+  all pre-existing on this ledger). hexagonmath.org `/rss/all` — a 3RD large same-day posting
+  burst since the 11-06 daily (ids jumped 2611.00119→2611.00204, ~85 new items): the feed's 50-item
+  window only showed back to id 00139, SILENTLY TRUNCATING ids 00120-00138 (19 items) out of the
+  feed entirely — closed by fetching each id directly by sequential URL (confirmed via direct page
+  fetch, not RSS). 2 of those recovered items seeded (finite-field factorization, CAD disproof,
+  both by the same single author Qiyue Tang — flagged for extra scrutiny), 2 queued below-bar. FLAG
+  FOR WEEKLY (3rd large-burst session in 2 weeks, per the 11-02 note already flagging this): the
+  `/rss/all` window is now demonstrably too narrow during a burst — either a tighter (twice-daily)
+  check cadence or a per-category-feed split is needed to stop relying on luck that a burst stays
+  under 50 items. AI-watch lane: axiommath.ai/research/ — MAJOR CATCH, a complete sorry-free Lean
+  formalization of the four Weil conjectures (Tony Yue Yu lead, contributors incl. Kenny Lau, Ken
+  Ono; github.com/AxiomMath/Weil) — seeded (EXTREME caution tier, same as the org's CFSG claim) and
+  added to `study_shelf`. vals.ai/blogs — all 1 new post off-axis (AI-safety/eval content), 0
+  on-axis catch. agmai.org — no new statement since the already-tracked 10-26 Yang-Mills release
+  recommendation (re-checked, same content, no update needed). GitHub watch (`radar-repo-watch`,
+  `WebFetch` fallback per documented proxy-scoping): lean4 unchanged (v4.36.0-rc2); Rocq unchanged
+  (9.3.0); mathlib4 continuing its daily `master-YYYY-MM-DD` auto-tag through master-2026-11-08 (no
+  gap). Community pulse (`radar-pulse`): HN Algolia front page — 0 on-axis catch. Reddit (r/math,
+  r/Physics) — BLOCKED this session, both direct `curl` (403) and `WebFetch` ("unable to fetch")
+  — degraded, first occurrence of the WebFetch-also-blocked variant, not yet heal-owed. MathOverflow
+  and Physics SE `/feeds` — HEALED (both returned clean 200s this session after several sessions'
+  intermittent emptiness); routine Q&A, 0 catch. Exploration slot (`radar-explore`, off-axis
+  rotation, continuing past q-bio.PE): math.ST — 20+ fresh entries reviewed significance-first, 0
+  catch (routine theoretical-statistics papers; non-alarm per domain cadence; next: try a venue
+  outside the suggested roster, e.g. physics.soc-ph or a non-arXiv discovery surface, since the
+  roster's math/cs/nlin/q-bio/econ/stat options are now mostly cycled through at least once).
+  Self-heals: icarm.io and MathOverflow/Physics-SE healed on their own this session (no deliberate
+  heal action taken); Reddit's new WebFetch-blocked variant and the hexagonmath feed-window gap are
+  both flagged for the weekly, not actioned here (cap 1-2/run, budget spent on the false-alarm
+  resolution and the 384-entry arXiv batch instead). Source-discovery staging: no new untracked-
+  domain primaries found (all catches came from already-swept sources: arXiv, hexagonmath.org,
+  axiommath.ai, news.fnal.gov). DORMANCY PROBE: swept all (now 83) trends' `last_evidence` dates
+  against the 60-day window (cutoff 2026-09-10); only the already-exempted backfill-precedent cases
+  (Graham's, unit-distance, sum-product, M23) and the already-`dormant` entries (Stanley-Gasharov,
+  X(2370)) fall outside it — no trend newly crosses the threshold this session. Convergence check:
+  queue scanned, no sub-theme yet clears the ≥3-independent-group bar for promotion. capture-leak:
+  12 new ids introduced this session verified present on a discrete evidence/queue line via grep (9
+  seeds + 1 evidence-append + 2 queue items; the SBND queue item has no id/URL yet), 0 missing;
+  also checked the ~17 distinct arXiv/
+  hexagonmath/GitHub ids named in the last 2 daily reports (11-05, 11-06) plus the W45 weekly report
+  against TRENDS.md — all present, 0 missing. 9 new seed trends added (TRENDS.md now at 83 trends,
+  up from 74); 0 stage moves beyond the pure-semisimplicity confidence bump; `observation_queue` +3
+  (well past the ~40 soft cap, domain-cadence-expected, not burned down this run); study_shelf +1
+  (the Weil-conjectures Lean formalization). README.md and SUMMARY.md regenerated in the same
+  commit.

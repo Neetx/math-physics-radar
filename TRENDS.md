@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-06
+Last updated: 2026-11-09
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2991,7 +2991,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   the ordered-algebraic-structures subfield.
 
 ### A counterexample to the pure semisimplicity conjecture (ring theory)
-- stage: seed | confidence: medium | first_seen: 2026-10-30 | last_evidence: 2026-10-30
+- stage: seed | confidence: high | first_seen: 2026-10-30 | last_evidence: 2026-11-06
 - what: axis-1 DOMAIN-CADENCE LANDMARK, found via today's math category-rotation title-triage
   (title carries the explicit "counterexample" keyword). The pure semisimplicity conjecture (a
   long-standing open problem in ring theory: every right pure-semisimple ring is of finite
@@ -3003,10 +3003,19 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - evidence:
   - 2026-10-29 (v1) — https://arxiv.org/abs/2610.39883 — Junpeng Ren, "A counterexample to the
     pure semisimplicity conjecture." Abstract + author verified via arXiv API this session.
+  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09749 — Generalov, Tursunbaev, "Division ring
+    extensions and a counterexample to the pure semisimplicity conjecture": a SECOND, fully
+    independent construction (division-ring extensions, characteristic zero) giving a hereditary
+    right pure-semisimple ring of infinite representation type, plus a companion characteristic-$p$
+    construction. Abstract + authors verified via arXiv API this session.
 - notes: 2026-10-30 (daily, seed creation): caught in today's math category-rotation title-triage
   batch (math.RA). Confidence `medium` (single author, brand-new, no referee/community engagement
   yet — standard unrefereed-preprint caution for a disproof of a decades-old named conjecture).
   Watch for ring-theory community response.
+- 2026-11-09 (daily): confidence medium→high — a second, fully independent author group
+  (Generalov–Tursunbaev) published its own distinct counterexample construction 8 days later,
+  meeting the "≥2 independent authoritative primary sources corroborate on concrete artifacts"
+  bar. Caught via today's math-category arXiv API sweep (math.RA).
 
 ### Resolution of Shokurov's conic-bundle rationality conjecture (algebraic geometry)
 - stage: seed | confidence: medium | first_seen: 2026-11-02 | last_evidence: 2026-10-30
@@ -3348,10 +3357,185 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   Koch–Zenklusen's (arXiv:2510.21287, pre-existing, independent, not evidence here) broader work
   on Goemans's conjecture family.
 
+### An elementary proof of the Binary Goldbach Conjecture (unrefereed preprint — claim)
+- stage: seed | confidence: low | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-1 EXTRAORDINARY-CLAIM. The binary Goldbach conjecture (every even integer greater
+  than 4 is the sum of two odd primes) is one of the oldest and most famous open problems in
+  number theory. Qazaqzeh and Rawashdeh claim a proof by showing the count of ordered Goldbach
+  pairs summing to $2n$ is $\Omega(n/\ln^2 n)$ (hence always $\ge1$), and apply the same method to
+  re-derive the ternary Goldbach conjecture (already proved by Helfgott et al.). Two-author,
+  ordinary (non-AI) human mathematics, brand-new (zero days old this session), no referee or
+  community engagement yet. Per the hard-rule hype-skepticism clause this is flagged "unrefereed
+  preprint — claim," PROVISIONAL until independent vetting — a claim of this magnitude on a
+  problem this old warrants extreme caution; track the vetting outcome, do not adjudicate the
+  mathematics.
+- evidence:
+  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09007 — Qazaqzeh, Rawashdeh, "An Elementary Proof
+    of the Binary Goldbach Conjecture." Abstract + authors verified via arXiv API this session.
+- notes: 2026-11-09 (daily, seed creation): caught via today's math-category arXiv API sweep
+  (math.NT). Confidence `low` (single brand-new preprint, extraordinary claim on a 280-year-old
+  conjecture, zero corroboration). Watch for number-theory community response/rebuttal — a claim
+  this size on a problem this famous typically draws fast expert commentary either way.
+
+### The Woo-Yong conjecture resolved (Gorenstein loci of Schubert varieties)
+- stage: seed | confidence: medium | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-1 DOMAIN-CADENCE LANDMARK. Minghua Dou proves the Woo-Yong conjecture (Woo–Yong,
+  ~2008): the non-Gorenstein locus of a type-A Schubert variety is the union of its generically
+  non-Gorenstein maximal singular components, with local Weil divisor classes detected at those
+  components' generic points; extends the localization-injectivity argument to arbitrary finite
+  crystallographic type, giving the general Woo-Yong criterion on the $\mathbb{Q}$-Gorenstein
+  locus, plus a type-D counterexample family showing the hypothesis's necessity. Single author,
+  ordinary human mathematics; standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09237 — Minghua Dou, "The Woo-Yong conjecture."
+    Abstract + author verified via arXiv API this session.
+- notes: 2026-11-09 (daily, seed creation): caught via today's math-category arXiv API sweep
+  (math.AG). Confidence `medium` (single author, brand-new, no corroboration yet — standard
+  unrefereed-preprint caution for a ~17-year-old named conjecture).
+
+### Jaeger conjecture and Jaeger-Zhang conjecture resolved (circular coloring of signed planar graphs)
+- stage: seed | confidence: medium | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-1 DOMAIN-CADENCE LANDMARK. Reza Naserasr proves that every signed planar graph of
+  negative girth $\ge\ell\ge3$ has circular chromatic number $<2\ell/(\ell-2)$, resolving Jaeger's
+  conjecture and its Jaeger-Zhang extension; as a consequence every planar graph of odd girth
+  $\ge4k+3$ has circular chromatic number $<(2k+1)/k$ and a homomorphism to $C_{2k+1}$. Builds on
+  and gives an alternative proof of Jafari's circular-flow-number theorem, extended to signed
+  graphs with a weakened connectivity hypothesis. Single author, ordinary human mathematics;
+  standard unrefereed-preprint caution. NOTE: distinct from the already-tracked Jaeger's Petersen
+  Coloring Conjecture (refuted 2026-08, observation_queue) — a different Jaeger conjecture in the
+  same nowhere-zero-flow family.
+- evidence:
+  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.08862 — Reza Naserasr, "Jaeger conjecture and
+    Jaeger-Zhang conjecture." Abstract + author verified via arXiv API this session.
+- notes: 2026-11-09 (daily, seed creation): caught via today's math-category arXiv API sweep
+  (math.CO). Confidence `medium` (single author, brand-new, no corroboration yet).
+
+### A proof of the Aaronson-Ambainis conjecture (quantum query complexity)
+- stage: seed | confidence: medium | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-4 DOMAIN-CADENCE LANDMARK (quantum foundations/complexity of quantum systems — the
+  SCIENCE side, not a QC-technology result). Aaronson and Ambainis (2008) conjectured every
+  bounded low-degree polynomial on the discrete cube has an influential variable, which would
+  imply every $T$-query quantum algorithm's acceptance probability is approximable on most inputs
+  by a classical $\mathrm{poly}(T)$-query algorithm. David Turturean proves the conjecture
+  (elementary proof, degree-$d$ bound $c\,\mathrm{Var}(f)^{5/2}/d^6$), confirming that
+  superpolynomial quantum query speedups require input structure (a promise). Single author,
+  ordinary human mathematics; standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09773 — David Turturean, "A proof of the
+    Aaronson-Ambainis conjecture." Abstract + author verified via arXiv API this session.
+- notes: 2026-11-09 (daily, seed creation): caught via today's physics-category arXiv API sweep
+  (cs.CC, cross-listed quant-ph-adjacent). Confidence `medium` (single author, brand-new, no
+  corroboration yet — but a well-known, long-standing (2008) named conjecture in quantum
+  complexity theory, a frequently-cited open problem in the field).
+
+### Deterministic polynomial-time factorization over finite fields (unrefereed preprint — claim)
+- stage: seed | confidence: low | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-1/5-adjacent EXTRAORDINARY-CLAIM (computational algebra/number theory). Deterministic
+  polynomial-time factorization of polynomials over finite fields (without relying on randomness
+  or unproved hypotheses such as GRH) has been a famous open problem since the 1980s. Qiyue Tang
+  claims deterministic polynomial-time algorithms for complete factorization over finite fields
+  and for constructing field presentations from their orders, via prime-field factorization and a
+  Dedekind zeta zero-free theorem. Single-author, unrefereed (hexagonmath.org, no peer review —
+  same caution tier as arXiv); flagged "unrefereed preprint — claim," PROVISIONAL.
+- evidence:
+  - 2026-11-06 (v1) — https://hexagonmath.org/2611.00135v1 — Qiyue Tang, "Deterministic
+    Polynomial-Time Factorization over Finite Fields." Abstract/meta-description + author verified
+    directly this session.
+- notes: 2026-11-09 (daily, seed creation): caught via a gap-recovery sweep of hexagonmath.org's
+  `/rss/all` feed — the feed's 50-item window had been overrun by a large same-day posting burst
+  (ids jumped past 00119→00204 since the last 11-06 daily check), silently truncating ids
+  00120-00138 out of the feed entirely; fetched directly by sequential URL to close the gap (see
+  today's `logs/source_rotation.md` entry — flagged for the weekly: a 3rd large hexagonmath burst
+  in 2 weeks, the rss/all window may need a tighter check cadence or a per-category feed split).
+  Same author (Qiyue Tang) also posted the CAD-disproof item below in the same burst — watch for a
+  pattern of this author's claims needing extra scrutiny.
+
+### Disproof of minimum CAD existence in dimensions ≥4 (cylindrical algebraic decomposition)
+- stage: seed | confidence: low | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-1/5-adjacent DOMAIN-CADENCE LANDMARK (computational real algebraic geometry). Whether
+  a MINIMUM adapted cylindrical algebraic decomposition (CAD, for a fixed coordinate order) always
+  exists is a standing question in computational real algebraic geometry/computer algebra. Qiyue
+  Tang gives real algebraic counterexamples showing no such minimum CAD exists in every dimension
+  $n\ge4$, for a fixed coordinate order. Single-author, unrefereed (hexagonmath.org, same caution
+  tier as arXiv).
+- evidence:
+  - 2026-11-06 (v1) — https://hexagonmath.org/2611.00131v1 — Qiyue Tang, "Disproof of minimum CAD
+    existence for algebraic sets in dimensions $n\ge4$." Abstract/meta-description + author
+    verified directly this session.
+- notes: 2026-11-09 (daily, seed creation): caught via the same hexagonmath gap-recovery sweep as
+  the finite-fields-factorization trend above (same author, same burst, ids 00120-00138).
+
+### Complete Lean formalization of the Weil Conjectures (AxiomMath)
+- stage: seed | confidence: low | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-5 LANDMARK formalization (EXTREME caution tier — same brand-new org as the
+  already-tracked CFSG-in-Lean claim, no outside verification yet). AxiomMath (lead Tony Yue Yu;
+  contributors incl. Kenny Lau, Jannis Limperg, Ken Ono) reports a complete, sorry-free Lean
+  formalization of the four classical Weil conjectures (Deligne's 1974 theorem, building on
+  Dwork/Grothendieck/Artin-Verdier machinery): rationality of the zeta function, the functional
+  equation, the topological (Betti-number) comparison, and the Riemann-hypothesis-analogue bound
+  on Frobenius eigenvalues — proved via Laumon's Fourier-transform route rather than reproducing
+  Deligne's original argument, reusing AxiomMath's own prior Stacks Project Lean formalization
+  (already on `study_shelf`), with no axioms beyond Lean's standard logical foundations per the
+  org's own description. A formal proof of the Ramanujan tau bound is explicitly NOT included.
+  No arXiv manuscript; the only artifact is the GitHub repository itself.
+- evidence:
+  - 2026-11-06 — https://github.com/AxiomMath/Weil/tree/27cdb2049be62ee2911429b47f54774078450e32
+    — AxiomMath/Weil repository, pinned revision. Blog announcement
+    https://axiommath.ai/research/the-weil-conjectures-formalized-in-lean/ (dated 2026-11-06,
+    "repository scope and review status checked November 5, 2026") opened directly via `WebFetch`
+    this session.
+- notes: 2026-11-09 (daily, seed creation): caught via today's axiommath.ai/research/ sweep.
+  Confidence `low` (same EXTREME-caution tier as the org's CFSG-in-Lean claim: brand-new org, no
+  independent Lean/mathlib-community review of the repository yet, no arXiv write-up). Watch for:
+  Lean/mathlib-community commentary on the repository (Kenny Lau's involvement as a contributor is
+  a point in favor of technical credibility but not itself independent verification); whether the
+  repo's claimed sorry-free status holds up under outside inspection.
+
+### Resolution of the N!/k conjecture (Macdonald intersections, Garsia-Haiman modules)
+- stage: seed | confidence: medium | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-1 DOMAIN-CADENCE LANDMARK (algebraic combinatorics). Guo, Kang, Su, Xiong prove the
+  Frobenius-characteristic formula for the intersection of Garsia-Haiman modules predicted in
+  Bergeron and Garsia's "Science Fiction," resolving the $N!/k$ conjecture via the geometry of the
+  Hilbert scheme of points on the plane (Haiman's framework). Four-author, ordinary human
+  mathematics; standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09638 — Guo, Kang, Su, Xiong, "Macdonald
+    intersections and the $N!/k$ conjecture." Abstract + authors verified via arXiv API this
+    session.
+- notes: 2026-11-09 (daily, seed creation): caught via today's math-category arXiv API sweep
+  (math.CO). Confidence `medium` (brand-new, no corroboration yet).
+
+### Resolution of the sparse-complement conjecture (Fallat-Mojallal, spectral graph theory)
+- stage: seed | confidence: medium | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- what: axis-1 DOMAIN-CADENCE LANDMARK (spectral graph theory / inverse eigenvalue problem). For a
+  graph $G$ let $q(G)$ be the minimum number of distinct eigenvalues of a real symmetric matrix
+  matching $G$'s off-diagonal zero/nonzero pattern. Binh T. Nguyen proves $q(G)=2$ whenever the
+  complement $H=\overline G$ (order $n\ge3$) has at most $n-3$ edges, resolving the
+  sparse-complement conjecture of Fallat and Mojallal. Single author, ordinary human mathematics;
+  standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09111 — Binh T. Nguyen, "The Sparse-Complement
+    Conjecture for Two Distinct Eigenvalues." Abstract + author verified via arXiv API this
+    session.
+- notes: 2026-11-09 (daily, seed creation): caught via today's math-category arXiv API sweep
+  (math.CO). Confidence `medium` (single author, brand-new, no corroboration yet).
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-06 — Fermilab news, "The SBND collaboration releases first neutrino results" —
+  https://news.fnal.gov/feed/ (RSS item; underlying collaboration result/paper not yet located
+  this session) — Short-Baseline Near Detector first physics results, axis 3 (neutrino
+  phenomenology). Below bar pending the underlying collaboration paper/arXiv preprint — chase next
+  session. Opened directly via `curl` this session.
+- 2026-11-06 — Qiyue Tang, hexagonmath.org — two further same-session, same-author items from the
+  gap-recovery batch, below the landmark bar (routine technical, no named-conjecture resolution):
+  "Supremum estimates for $\bar\partial$ on bounded convex domains in $\mathbb{C}^2$"
+  (https://hexagonmath.org/2611.00121v1) and "Finite Field Grothendieck Inequality, Finite Field
+  Johnson-Lindenstrauss Flattening and Finite Field Bourgain-Tzafriri Restricted Invertibility
+  Problems" (https://hexagonmath.org/2611.00124v1). Noted alongside the two seeded items from the
+  same author/burst (finite-field factorization, CAD disproof) per the "watch this author" note.
 - 2026-11-06 — Gogokhia, Barnaföldi, "The Mass Gap Approach to QCD. III. Solution of the gluon
   confinement problem" — https://arxiv.org/abs/2611.07897 — part III of a continuing, non-AI,
   classical analytic-QCD research program claiming to resolve gluon confinement via an exact
@@ -8045,6 +8229,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-06 — [The Weil conjectures, formalized in Lean](https://axiommath.ai/research/the-weil-conjectures-formalized-in-lean/) —
+  AxiomMath's sorry-free Lean formalization of Deligne's four Weil conjectures (rationality,
+  functional equation, Betti-number comparison, Riemann-hypothesis-analogue bound), reusing its
+  own Stacks Project formalization — worth knowing for anyone tracking the formalized-mathematics
+  frontier (axis 5), though EXTREME-caution tier pending outside review (see new seed trend).
+  Opened directly via `WebFetch` this session.
 - 2026-11-05 — [A Note On Lattice Definition of Gauge Theories With Chiral Fermions](https://arxiv.org/abs/2611.05051) —
   Edward Witten's own engagement with Nathaniel Craig's candidate nonperturbative lattice
   definition of chiral gauge theories (the Standard Model's gauge structure): a variant
