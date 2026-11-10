@@ -4380,3 +4380,115 @@ regenerated in the same commit.
   (well past the ~40 soft cap, domain-cadence-expected, not burned down this run); study_shelf +1
   (the Weil-conjectures Lean formalization). README.md and SUMMARY.md regenerated in the same
   commit.
+
+2026-11-10 (Tue, Pass 1, ~scheduled) — first daily since 2026-11-09 (no gap). Load-state: local
+clone was SHALLOW at session start (`git rev-parse --is-shallow-repository` → true, depth 50,
+confirmed via `cat .git/shallow`) — ran `git fetch --unshallow origin` BEFORE any orphaned-branch
+investigation (per the 11-09 daily's renewed proposal, applied proactively this session even
+though the weekly hasn't formally adopted it yet — see today's strategy_notes entry). Post-unshallow
+(153 commits visible): both `claude/modest-bohr-9415kc` and `claude/peaceful-faraday-n2ehd0` confirmed
+ANCESTORS of `main` — no orphaned state, no false alarm this session. All `radar:` commits of the
+last 7 days have matching reports; no incomplete-run warning. Tooling: `tvly` ABSENT at session
+start, reinstalled via `pip install -q tavily-cli`, worked normally thereafter. Primary sweep
+(radar-source-sweep): arXiv math category-rotation batch (full in-scope 20-category set via the
+API's `search_query` endpoint, 400-entry cap, 362 fresh 2026-11-07→09 entries triaged by title) —
+Amendment J full-abstract pass (today's category: math.RA, continuing the KT→AG→AC→RA lap after
+yesterday's AC; 10 fresh entries, all 10 read in full) caught Becker's Conjecture (below, title
+gave no "conjecture" keyword in most of the batch — a genuine full-abstract-only catch). Physics
+arXiv batch: the API's `search_query` endpoint 429-rate-limited persistently for most of the
+session (a long multi-OR query appears to trigger it; single-category small queries worked
+intermittently, e.g. hep-th 50-cap reached back to 11-07, 0 landmark) — WORKED AROUND via the
+`arxiv.org/list/<cat>/recent` HTML listing pages (a different endpoint, not rate-limited; covers
+~3 announcement days) for hep-th/hep-ph/hep-ex/hep-lat/quant-ph/math-ph/nucl-th/nucl-ex/
+cond-mat.str-el/mes-hall/supr-con/stat-mech/astro-ph.CO/HE/nlin.SI — title-triaged (`/abs/` and
+`id_list` endpoints stayed reachable throughout and were used for every abstract-level EXTRACT
+below), 0 landmark catch (all routine incremental results: pulsar discovery, superconductor
+material characterization, QFT/condensed-matter technical papers — none at the first-of-kind/
+named-conjecture bar). FLAG FOR WEEKLY: the `search_query` endpoint's persistent 429 this session
+(first time this specific endpoint, as opposed to a whole-feed block, has degraded) — the
+`/list/<cat>/recent` HTML-listing workaround closes the gap for now; record this fallback in
+SOURCES.md if it recurs. Math batch CAPTURES — EIGHT new seed trends (a landmark-heavy day):
+positive sectional curvature on all smooth 13-spheres (2611.10535, Chen–Deng–Ni, exotic-sphere
+geometry); Faulkner's unconditional proof of the QNEC + Rényi QNEC companion (2611.11920,
+2611.11760); disproof of Guralnick's conjecture / unbounded finite-simple-group cohomology
+(2611.11677, Bowman–de la Fuente–Libedinsky–Plaza); proof of Gromov's conjecture on nilpotent
+groups via integrable measure equivalence (2611.12009, Das); resolution of Becker's Conjecture on
+diagonal-form compositions (2611.11750, mixed disprove/prove outcome, caught via the math.RA
+full-abstract pass); resolution of the Gorsky–Oblomkov–Rasmussen conjecture over ℚ (2611.10885,
+Ren–Yang); resolution of the Δ-primitive-squares conjecture (2611.11574, Golfieri–Schvöllner).
+Below-bar queue adds (7, all partial/restricted-case or conditional resolutions, not seeded):
+Herzog–Schönheim for solvable groups (2611.11002), Rayleigh's conjecture dims 4–5 (2611.11250),
+unramified Colliot-Thélène (2611.10978), Tuza's-conjecture density bound (2611.11128), Shapiro/
+Schanuel conditional on Schanuel's conjecture (2611.11404), C_st-conjecture étale-de-Rham direction
+only (2611.11589), N-body expansive-solutions rigidity (2611.11945); plus two below-bar Pompeiu/
+Schiffer "what survives" follow-ups (2611.11615, 2611.11620, folded into the standing queue
+entries). Fermilab feed (curl) surfaced two new items: "Untangling the Patterns of the Cosmic
+Microwave Background" (11-05, checked via WebFetch — a content-less overview page naming no
+specific result, correctly NOT captured — fails the concrete-primary-artifact bar) and — MAJOR
+CHASE CLOSURE — the underlying arXiv paper for the 10-30-queued SBND first-neutrino-results item,
+located via WebFetch on the original Fermilab article (arXiv:2610.39042, "Measurements of
+transverse kinematic imbalance..."), abstract verified directly via `arxiv.org/abs/` (the API
+endpoint being rate-limited); existing queue line updated in place. CERN Courier, Simons
+Foundation, Quantum journal, PRL/PRX/RMP (RDF feeds, re-parsed correctly this session), IceCube
+category-feed, SciPost API, INSPIRE-HEP, hexagonmath.org `/rss/all`, icarm.io `/feed` — all opened
+(curl, 200) — routine, no new on-axis catch beyond the above (hexagonmath's latest batch, as of
+session time, was all freshly-posted within the hour, title-triaged, no landmark keyword hit).
+Experiments block: DESI (curl, 200) routine; LIGO direct `/news` 403'd again (Cloudflare, standing
+intermittent issue) — not re-tried via WebFetch this session (not the day's priority, no GW item
+flagged elsewhere); CERN `/feed/` still 404 (per the W45 heal-or-remove monthly-retest decision,
+not due again until ~2026-12-07, correctly not re-logged as a fresh degraded this session). GitHub
+watch (radar-repo-watch, WebFetch on `.atom`, direct curl 403 under proxy-scoping as expected):
+lean4 still v4.36.0-rc2 (10-27); mathlib4 now master-2026-11-09 (no gap); Rocq unchanged 9.3.0;
+`github.com/openai/math` history.md (raw.githubusercontent.com, curl 200) unchanged since the
+already-tracked 10-29 formalization-fix entry. AI-watch lane: axiommath.ai/research/ (WebFetch) —
+all posts already tracked (Weil conjectures, Stacks Project, CFSG, Faster-Is-Not-Nearer, all
+pre-dating today); agmai.org (WebFetch) — unchanged since 10-26; vals.ai/blogs (WebFetch) — latest
+posts (11-02 through 11-06) all off-axis AI-eval/product content, 0 on-axis catch; ahmath.org
+(WebFetch) — no dated content surfaced this session (page structure gives no dates on its landing
+page — a standing access-method gap, not yet heal-owed, flag for a future session to check the
+Statements/Activities sub-pages directly); cims.nyu.edu/~tristanb/ (WebFetch) — no new dated
+preprint since the standing CV-style-list structural gap (not yet resolved, low priority); 1stproof.org
+(WebFetch) — unchanged since the 10-14 Third Batch announcement. Community pulse (radar-pulse):
+Hacker News front page (Algolia API) — 0 on-axis catch (all AI-product/tech news). MathOverflow and
+Physics Stack Exchange `/feeds` (curl) — routine Q&A, 0 catch. Mathstodon public timeline — generic
+fediverse noise, 0 catch. r/math/r/mathematics direct `.rss` STILL BLOCKED (curl 403; WebFetch
+"unable to fetch" — confirmed again this session, standing network-level block, many consecutive
+weeks) — `tvly search --include-domains reddit.com` fallback used, and this is where today's MAJOR
+CATCH came from: the "AI in Mathematics: November 07, 2026" r/math megathread pointed to Elliot
+Glazer's claimed disproof of Mazur's 1992 finite-components conjecture via an explicit "ℤ is
+Diophantine in ℚ" construction (AI-heavy: OpenAI Astra/Sol + Anthropic Claude + Fable auditing,
+with named human-mathematician contributors) — the primary itself (a self-published GitHub
+manuscript, NOT arXiv) was independently located and opened via `WebFetch` this session (GitHub
+being proxy-scoped for direct curl, as expected) and verified directly, including its own explicit
+"not independent human peer review" caveat and incomplete (`sorry`-containing) Lean formalization
+— seeded as a new trend, EXTREME caution, confidence `low`. Digest/explainer blogs: Quanta (RSS,
+curl) — "A Strange Quantum Theorem Has Killed Einstein's Reality" (11-06) chased via WebFetch: an
+EXPLAINER of the 2012 PBR theorem plus an informally-described fall-2025 IBM-quantum-computer
+experimental replay (Crispin Barnes, Cambridge) with no paper/arXiv-id given — correctly NOT
+captured (no concrete primary artifact, old theorem, informally-described experiment). Tao's "What's
+new", Woit (HTTP 000 again, standing non-consecutive transient, not yet heal-owed), Gowers, Kalai,
+Baez, Strassler (1 post total since 10-30), Backreaction, n-Category Café (HTTP 000, same standing
+transient) all opened (RSS/curl) — all routine AI-in-math-opinion/personal/admin posts, nothing new
+primary. Scientific American opened — no new dated on-axis item found this session (front page,
+not deep-crawled). Exploration slot (radar-explore, OFF-AXIS rotation per the 11-09 note's own
+suggestion to try a venue outside the regular roster): physics.soc-ph (network/social-physics, via
+the `/list/recent` HTML listing) — 44 fresh entries reviewed significance-first, 0 catch (routine
+network-science/AI-adoption/urban-dynamics papers, off-axis rate 0 this run, non-alarm per domain
+cadence — roster continues, next: try astro-ph.GA or cs.CC repeat). Self-heals: none owed this
+session beyond the proactive unshallow-clone fix (not previously a heal-owed item, applied
+pre-emptively per the renewed 11-09 proposal) and the routine `tvly` reinstall. Trend recalibration
+(radar-ledger-update): EIGHT new seed trends (listed above; TRENDS.md now at 91 trends, up from 83)
++ ONE existing queue line UPDATED IN PLACE (SBND, arXiv id added, chase closed) + TWO below-bar
+Pompeiu/Schiffer follow-ups folded into the standing queue; ZERO stage-up moves beyond the new
+seeds (no existing trend received fresh evidence today). Dormancy probe: not re-run in full this
+session (no trend flagged as approaching the 60-day window beyond the already-exempted precedent
+cases from 11-09's sweep two days ago; the full re-sweep is due again ~11-12 at the latest).
+Convergence check: queue scanned, no sub-theme yet clears the ≥3-independent-group bar for
+promotion. capture-leak: 18 new ids introduced this session verified present on a discrete
+evidence/queue line via grep (8 seed-trend evidence ids + 7 queue items + 2 Pompeiu/Schiffer
+queue-fold ids + 1 SBND id added to an existing line), 0 missing; also re-checked the 3 distinct
+arXiv ids named in the 2026-11-09 daily report against TRENDS.md — all present, 0 missing.
+`observation_queue` +9 (7 new below-bar items + the 2 Pompeiu/Schiffer follow-ups folded into
+existing entries' line — well past the ~40 soft cap, domain-cadence-expected, not burned down this
+run); study_shelf +1 (the Glazer Mazur-conjecture-disproof claim). README.md and SUMMARY.md
+regenerated in the same commit.

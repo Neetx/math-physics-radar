@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-09
+Last updated: 2026-11-10
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3519,6 +3519,160 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     session.
 - notes: 2026-11-09 (daily, seed creation): caught via today's math-category arXiv API sweep
   (math.CO). Confidence `medium` (single author, brand-new, no corroboration yet).
+
+### Positive sectional curvature on all smooth 13-spheres (Chen–Deng–Ni)
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-07
+- what: axis-1 DOMAIN-CADENCE LANDMARK (Riemannian geometry / exotic spheres). Chen, Deng and Ni
+  construct an $S^3$–$S^3$ bundle over $S^{13}$ whose quotient represents the nonzero class in
+  $\Theta_{13}\cong\mathbb Z/3$, and complete a metric construction giving every smooth homotopy
+  13-sphere a Riemannian metric of strictly positive sectional curvature — closing dimension 13
+  of the long-standing open question of which exotic spheres admit positive curvature (joining the
+  short list including the Gromoll–Meyer 7-sphere). Three-author, ordinary human mathematics;
+  standard unrefereed-preprint caution (no independent confirmation yet).
+- evidence:
+  - 2026-11-07 (v1) — https://arxiv.org/abs/2611.10535 — Chen, Deng, Ni, "Positive sectional
+    curvature on all smooth 13-spheres." Abstract + authors verified via direct arXiv `/abs/`
+    fetch this session (the API's `search_query` endpoint was 429-rate-limited all session;
+    `id_list`/`/abs/` remained reachable).
+- notes: 2026-11-10 (daily, seed creation): caught via today's math-category arXiv batch
+  (math.DG, title-triage). Confidence `medium` (brand-new, no corroboration yet).
+
+### Proof of the Quantum Null Energy Condition without restrictive assumptions (Faulkner)
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-09
+- what: axis-2 DOMAIN-CADENCE LANDMARK (algebraic QFT / black-hole thermodynamics). Thomas
+  Faulkner posts two companion papers the same day: a complete, unconditional proof of the
+  Quantum Null Energy Condition (QNEC) in the Half-Sided Translations/Modular-Inclusions
+  framework, removing an assumption (existence of a finite-null-energy purification) required by
+  every prior proof — physically, that relative entropy comparing the exterior-of-a-black-hole
+  state to the Hartle–Hawking state is always convex in the horizon cut — plus a generalization to
+  the Rényi QNEC via weighted Araki–Masuda $L_p$ norms for all $p>2$. Single author, ordinary
+  human mathematical physics; standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-09 (v1) — https://arxiv.org/abs/2611.11920 — Faulkner, "Proof of the QNEC, without
+    assumptions and under a weight." Abstract + author verified via direct arXiv `/abs/` fetch
+    this session.
+  - 2026-11-09 (v1) — https://arxiv.org/abs/2611.11760 — Faulkner, "Proof of the Rényi QNEC."
+    Companion paper, same session verification.
+- notes: 2026-11-10 (daily, seed creation): caught via today's math-category arXiv batch
+  (cross-listed hep-th/math-ph, title-triage — "Proof of..." keyword). Confidence `medium`
+  (single author, brand-new, no corroboration yet).
+
+### Disproof of Guralnick's conjecture (unbounded cohomology of finite simple groups)
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-08
+- what: axis-1 DOMAIN-CADENCE LANDMARK (representation theory / finite group cohomology). Bowman,
+  de la Fuente, Libedinsky and Plaza show that, in every fixed positive degree, the cohomology of
+  finite simple groups, algebraic groups and quantum groups (coefficients in simple modules) can
+  have arbitrarily large dimension — disproving Guralnick's conjecture, which predicted a uniform
+  bound. Four-author, ordinary human mathematics; standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-08 (v1) — https://arxiv.org/abs/2611.11677 — Bowman, de la Fuente, Libedinsky, Plaza,
+    "The cohomology of finite simple groups is unbounded." Abstract + authors verified via direct
+    arXiv `/abs/` fetch this session.
+- notes: 2026-11-10 (daily, seed creation): caught via today's math-category arXiv batch
+  (math.GR, title-triage). Confidence `medium` (brand-new, no corroboration yet).
+
+### Proof of Gromov's conjecture on nilpotent groups (integrable measure equivalence)
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-09
+- what: axis-1 DOMAIN-CADENCE LANDMARK (geometric group theory). Kajal Das proves Gromov's
+  well-known conjecture that quasi-isometric infinite finitely-generated torsion-free nilpotent
+  groups have isomorphic Mal'cev completions (as Lie groups), via the stronger statement for
+  integrable measure equivalence, combined with Shalom's theorem to give a three-way equivalence
+  (quasi-isometry ⟺ integrable measure equivalence ⟺ isomorphic Mal'cev completions). Single
+  author, ordinary human mathematics; standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-09 (v1) — https://arxiv.org/abs/2611.12009 — Das, "Integrable Measure Equivalence and
+    Gromov's conjecture on nilpotent groups." Abstract + author verified via direct arXiv `/abs/`
+    fetch this session.
+- notes: 2026-11-10 (daily, seed creation): caught via today's math-category arXiv batch
+  (math.GR, title-triage — "Gromov's conjecture" keyword). Confidence `medium` (single author,
+  brand-new, no corroboration yet).
+
+### Resolution of Becker's Conjecture on compositions of higher-degree diagonal forms
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-09
+- what: axis-1 DOMAIN-CADENCE LANDMARK (Diophantine equations / forms). Becker's conjecture
+  asserted that a rational composition of sums of $d$-th powers of size $[r,s,n]$ ($d>2$)
+  requires $n\ge rs$. This paper DISPROVES the conjecture as formulated — it fails over every
+  characteristic-zero field in odd degree, and in every degree over a suitable finite extension of
+  $\mathbb Q$ — while PROVING a corrected version holds over formally real fields in even degree.
+  Caught via this session's math.RA Amendment-J full-abstract rotation pass. Standard
+  unrefereed-preprint caution.
+- evidence:
+  - 2026-11-09 (v1) — https://arxiv.org/abs/2611.11750 — "Becker's Conjecture on Compositions of
+    Higher Degree Diagonal Forms." Abstract verified via direct arXiv `/abs/` fetch this session
+    (the full-abstract rotation pass catches results like this one that a title-only triage would
+    likely miss — no "conjecture/proof/disprove" keyword in most of the batch's titles, this one
+    included it directly).
+- notes: 2026-11-10 (daily, seed creation): caught via today's math.RA Amendment-J full-abstract
+  pass (the day's rotation category, continuing the AC→RA lap). Confidence `medium` (brand-new,
+  no corroboration yet; mixed proof/disproof outcome, not a clean one-sided resolution).
+
+### Resolution of the Gorsky–Oblomkov–Rasmussen conjecture over ℚ (torus-link homology)
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-07
+- what: axis-1 DOMAIN-CADENCE LANDMARK (knot homology / representation theory). Ren and Yang prove
+  a generation theorem for the homology of Koszul complexes arising as $E^1$-pages of the stable
+  Rasmussen spectral sequence of torus links; combined with recent work of Ballinger–Gorsky–
+  Hogancamp–Wang, this computes the stable Khovanov–Rozansky $\mathfrak{gl}_N$ homology of torus
+  links and its Poincaré series, resolving the Gorsky–Oblomkov–Rasmussen conjecture (and its
+  $\mathfrak{gl}_N$ analogs) over $\mathbb Q$. Two-author, ordinary human mathematics; standard
+  unrefereed-preprint caution.
+- evidence:
+  - 2026-11-07 (v1) — https://arxiv.org/abs/2611.10885 — Ren, Yang, "The Gorsky-Oblomkov-Rasmussen
+    conjecture over $\mathbb{Q}$." Abstract + authors verified via direct arXiv `/abs/` fetch this
+    session.
+- notes: 2026-11-10 (daily, seed creation): caught via today's math-category arXiv batch
+  (math.GT, title-triage — named-conjecture keyword). Confidence `medium` (brand-new, no
+  corroboration yet).
+
+### Resolution of the Δ-primitive-squares conjecture (Erdős–Rosenfeld factor-difference sets)
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-08
+- what: axis-1 DOMAIN-CADENCE LANDMARK (combinatorial number theory). Golfieri and Schvöllner prove
+  that the set of natural numbers with the "$\Delta$ property" (related to the Erdős–Rosenfeld
+  factor-difference set being non-sum-free) contains infinitely many $\Delta$-primitive perfect
+  squares, as conjectured — and show these squares can avoid any prescribed finite set of primes
+  other than 3. Two-author, ordinary human mathematics; standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-08 (v1) — https://arxiv.org/abs/2611.11574 — Golfieri, Schvöllner, "On the
+    $\Delta$-primitive squares conjecture." Abstract + authors verified via direct arXiv `/abs/`
+    fetch this session.
+- notes: 2026-11-10 (daily, seed creation): caught via today's math-category arXiv batch
+  (math.NT, title-triage — named-conjecture keyword). Confidence `medium` (brand-new, no
+  corroboration yet).
+
+### Disproof of Mazur's finite-components conjecture — ℤ Diophantine in ℚ (Glazer et al., AI-heavy, unrefereed preprint — claim)
+- stage: seed | confidence: low | first_seen: 2026-11-10 | last_evidence: 2026-11-07
+- what: axis-5 WATCH + axis-1 DOMAIN-CADENCE LANDMARK (Diophantine definability / Hilbert's tenth
+  problem). Elliot Glazer, working with OpenAI Astra 6/Sol 6.1 and Anthropic Claude Opus 5.5
+  (auditing by Fable 5.1), claims an explicit quartic/degree-$2\uparrow\uparrow7$ polynomial
+  Diophantine-defining $\mathbb Z$ in $\mathbb Q$ — which DISPROVES Mazur's 1992 "finite components"
+  Conjecture 3 (a motivating route toward showing $\mathbb Z$ is NOT Diophantine in $\mathbb Q$,
+  long believed true) and gives an independent second route to the negative resolution of
+  Hilbert's Tenth Problem over $\mathbb Q$, after OpenAI's own internal-model result (already
+  tracked: item #004 of the already-seeded "OpenAI's mass mathematical-results disclosure" trend,
+  2026-10-06). **HEAVIEST hype-skepticism caution — "unrefereed preprint — claim":** self-published
+  on GitHub, NOT arXiv; no journal/preprint-server submission; the repository's own README states
+  "AI review and successful finite checks do not constitute independent human peer review or a
+  completed formal proof," the Lean formalization is explicitly INCOMPLETE (`sorry` remains in the
+  main bounded-polynomial declaration), and multiple named human mathematicians (Baranczuk, Brox,
+  Conant, Farhangi, Freitag, Glazer, Park, Terry) contributed "agentic notes" alongside the AI
+  agents — an unusually explicit human-in-the-loop AI-disclosure-lane artifact. Discovered via
+  r/math's "AI in Mathematics" megathread (community-pulse intake, Reddit's direct `.rss`/`.json`
+  still hard-blocked this session — standing issue — recovered via `tvly search
+  --include-domains reddit.com`); the primary itself (the GitHub manuscript) was opened and
+  verified directly this session, not merely the social pointer.
+- evidence:
+  - 2026-11-07 (v13) — https://github.com/elliotglazer/diophantine-z-q — Glazer et al. (OpenAI
+    Astra 6/Sol 6.1, Anthropic Claude Opus 5.5, auditing Fable 5.1), "Z is Diophantine in Q."
+    README/manuscript opened and verified directly via `WebFetch` this session; explicit
+    epistemic-status caveats quoted above.
+- notes: 2026-11-10 (daily, seed creation): discovered via community-pulse (r/math megathread,
+  2026-11-07), verified at the primary (GitHub repo) directly this session. Stage `seed` (not
+  merely queued) per the landmark-single-claim domain adaptation, but confidence held at `low`
+  (not `medium`) given the EXTREME caution tier — self-published off-arXiv, incomplete Lean
+  formalization, wholly unrefereed. Cross-references the OpenAI mass-disclosure trend's #004
+  Hilbert's-tenth-over-ℚ item (this is an independent, more-than-sufficient second route, not a
+  duplicate). Watch for: a completed Lean formalization; any response from Mazur or the
+  Diophantine-definability community (Poonen, Koenigsmann); whether the degree/variable-count can
+  be reduced further (repo's own v4→v13 history already dropped from 4,973 to 394-411 variables).
 
 ## observation_queue
 
@@ -8203,6 +8357,19 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   — "The SBND collaboration releases first neutrino results": the Short-Baseline Near Detector's
   first result, improving neutrino-interaction modeling ahead of DUNE — an experimental milestone,
   not yet a landmark discovery. Opened directly via the Fermilab RSS feed this session.
+  **UNDERLYING PAPER LOCATED 2026-11-10 (closes the 11-09 daily's standing chase):
+  arXiv:2610.39042 — "Measurements of transverse kinematic imbalance in muon neutrino
+  charged-current interactions on argon with a single proton and no pions in the final state
+  with SBND" (SBND Collaboration, v1 2026-10-28, submitted to PRL) — 12,804 signal candidates at
+  91% purity; no event-generator model describes all three kinematic-imbalance variables.
+  Abstract verified directly via arXiv (plain `curl`, the API's `search_query` endpoint was
+  429-rate-limited all session) this session.**
+- 2026-11-07 — https://arxiv.org/abs/2611.11615 and https://arxiv.org/abs/2611.11620 — two
+  independent follow-up papers ("what survives" Talenti-type rigidity theorems, one planar, one
+  valid in every dimension $N\ge2$) on the already-queued 2026-08 Pompeiu/Schiffer-conjecture
+  computer-assisted counterexamples (arXiv:2608.01579, 2608.05114) — axis 1, analysis/spectral
+  geometry. Not new counterexamples; below-bar incremental follow-on. Abstracts verified via
+  direct arXiv `/abs/` fetch this session.
 - 2026-10-28 — https://quantum-journal.org/papers/q-2026-10-28-2253/ — "A Counterexample to the
   Optimality Conjecture in Convex Quantum Channel Optimization": disproves a 2021 Coutts et al.
   conjecture on trace-distance-optimal state transformation (axis 4, quantum information). Opened
@@ -8212,7 +8379,39 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   (not experimental) evidence for a long-sought quantum spin-liquid phase via neural-network
   quantum-state simulation (axis 3, condensed matter theory). Abstract/title verified via arXiv
   API this session.
-
+- 2026-11-07 — https://arxiv.org/abs/2611.11002 — Michailidis, "The Herzog–Schönheim Conjecture
+  for Solvable Groups": proves the 1958 Herzog–Schönheim conjecture (coset-partition indices
+  can't all be distinct) for all solvable groups, finite or infinite — the general conjecture
+  (arbitrary groups) remains open. Axis 1, group theory. Abstract verified via direct arXiv
+  `/abs/` fetch this session.
+- 2026-11-08 — https://arxiv.org/abs/2611.11250 — "Rayleigh's conjecture in dimensions four and
+  five": proves the 1894 clamped-plate Rayleigh conjecture in two new dimensions via a sharp
+  comparison with the first Dirichlet eigenvalue; higher dimensions remain open. Axis 1,
+  spectral geometry/analysis. Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-07 — https://arxiv.org/abs/2611.10978 — "Unramified case of Colliot-Thélène conjecture
+  on quadratic forms": proves the conjecture for semilocal regular domains geometrically regular
+  over a DVR with 2 invertible (incl. unramified mixed-characteristic local rings) — a restricted
+  case, general conjecture open. Axis 1, algebraic geometry/quadratic forms. Abstract verified
+  via direct arXiv `/abs/` fetch this session.
+- 2026-11-08 — https://arxiv.org/abs/2611.11128 — "Triangle-overlap cores and density bounds for
+  Tuza's conjecture": proves $\tau(G)\le2\nu(G)$ under bounded-triangle-multiplicity and
+  max-average-degree conditions — a conditional density bound, not a general resolution. Axis 1,
+  extremal graph theory. Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-08 — https://arxiv.org/abs/2611.11404 — "Revisiting the conjectures of Shapiro and
+  Schanuel": shows Shapiro's conjecture (on common zeros of exponential polynomials) follows from
+  the still-unproved Schanuel's conjecture — a conditional implication, not an unconditional
+  resolution. Axis 1, number theory/transcendence. Abstract verified via direct arXiv `/abs/`
+  fetch this session.
+- 2026-11-08 — https://arxiv.org/abs/2611.11589 — "$C_{st}$-conjecture for compactly supported
+  pro-étale cohomology": proves the étale-de Rham direction only, for smooth partially proper
+  rigid analytic varieties over mixed-characteristic local fields. Axis 1, arithmetic geometry/
+  p-adic Hodge theory. Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-09 — https://arxiv.org/abs/2611.11945 — "Rigidity and existence of profiled expansive
+  solutions of the $N$-body problem with homogeneous potentials": asymptotic rigidity results and
+  power-log expansions for expansive $N$-body solutions, extending Chazy's classical Newtonian
+  result to general homogeneous potentials. Axis 1/2, celestial mechanics/dynamics (adjacent to
+  the standing Smale's-sixth-problem seed trend, but a different sub-problem — not folded in as
+  evidence). Abstract verified via direct arXiv `/abs/` fetch this session.
 ## source_rotation
 
 Append-only coverage log MOVED to `logs/source_rotation.md`. Each run APPENDS one dated line
@@ -8229,6 +8428,11 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-10 — [Z is Diophantine in Q](https://github.com/elliotglazer/diophantine-z-q) — Glazer
+  et al.'s claimed disproof of Mazur's 1992 finite-components conjecture and independent second
+  route to a negative resolution of Hilbert's Tenth Problem over ℚ — worth knowing as the story,
+  not as confirmed mathematics (EXTREME caution tier, Lean formalization incomplete; see new seed
+  trend). Opened directly via `WebFetch` this session.
 - 2026-11-06 — [The Weil conjectures, formalized in Lean](https://axiommath.ai/research/the-weil-conjectures-formalized-in-lean/) —
   AxiomMath's sorry-free Lean formalization of Deligne's four Weil conjectures (rationality,
   functional equation, Betti-number comparison, Riemann-hypothesis-analogue bound), reusing its

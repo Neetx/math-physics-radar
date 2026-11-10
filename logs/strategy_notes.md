@@ -2106,3 +2106,16 @@ coding) this week. No redirection needed.
   investigation begins — not left as a strategy-note reminder that can be re-forgotten. Flagging
   this time with an explicit ask that the weekly track it as applied-or-not, since the softer
   09-30 phrasing ("flagged as a candidate") appears to be why it lapsed.
+
+- 2026-11-10 (daily) — Applied the 11-09 daily's renewed shallow-clone-check proposal PROACTIVELY
+  this session (ran `git rev-parse --is-shallow-repository` + `git fetch --unshallow` as the very
+  first load-state action, before any orphaned-branch check), even though `routines/daily.md`
+  itself has not yet been formally amended to require it (the proposal is still in its cooling
+  period, pending the next weekly). Confirmed useful: the clone WAS shallow again at this session's
+  start (depth 50), and the unshallow fetch correctly confirmed both `claude/modest-bohr-9415kc`
+  and `claude/peaceful-faraday-n2ehd0` as ancestors of `main` — no false alarm this time, no
+  push notification sent. Flagging for the weekly: this is now 3 consecutive daily sessions
+  (10-?? original diagnosis, 11-09 near-miss, 11-10 clean application) where the clone started
+  shallow — the weekly should treat the fix as validated by repeated real-world need, not just a
+  proposal, and apply it to `routines/daily.md`'s (and `routines/weekly.md`'s) load-state step text
+  itself so it is not dependent on each session remembering to self-apply it from a strategy note.
