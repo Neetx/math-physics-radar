@@ -1,18 +1,18 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-91-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-536-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--10-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-96-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-544-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--11-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-11-10):** an eight-seed day, the richest single sweep this ledger has logged, plus a major unverified AI-watch claim.
-- Pure differential geometry and group theory supplied four clean resolutions: [positive sectional curvature on all smooth 13-spheres](TRENDS.md#positive-sectional-curvature-on-all-smooth-13-spheres-chendengni), [Faulkner's unconditional proof of the QNEC](TRENDS.md#proof-of-the-quantum-null-energy-condition-without-restrictive-assumptions-faulkner), a [disproof of Guralnick's conjecture](TRENDS.md#disproof-of-guralnicks-conjecture-unbounded-cohomology-of-finite-simple-groups), and a [proof of Gromov's conjecture on nilpotent groups](TRENDS.md#proof-of-gromovs-conjecture-on-nilpotent-groups-integrable-measure-equivalence).
-- This session's math.RA full-abstract rotation pass (a title-blind catch) surfaced a [mixed resolution of Becker's Conjecture](TRENDS.md#resolution-of-beckers-conjecture-on-compositions-of-higher-degree-diagonal-forms) on diagonal-form compositions; two further named-conjecture resolutions landed from the same arXiv batch — the [Gorsky–Oblomkov–Rasmussen conjecture over ℚ](TRENDS.md#resolution-of-the-gorskyoblomkovrasmussen-conjecture-over--torus-link-homology) and the [Δ-primitive-squares conjecture](TRENDS.md#resolution-of-the--primitive-squares-conjecture-erdsrosenfeld-factor-difference-sets).
-- A community-pulse chase (via r/math) led to an EXTREME-caution AI-watch claim now on the study shelf: Elliot Glazer et al.'s [disproof of Mazur's 1992 finite-components conjecture](TRENDS.md#disproof-of-mazurs-finite-components-conjecture---diophantine-in--glazer-et-al-ai-heavy-unrefereed-preprint--claim), a second independent route to the negative resolution of Hilbert's Tenth Problem over ℚ — self-published, unrefereed, Lean formalization still incomplete.
-- A standing chase closed: the underlying paper for Fermilab's SBND "first neutrino results" was located ([arXiv:2610.39042](https://arxiv.org/abs/2610.39042)).
+**Since last scan (2026-11-11):** five new landmark-single-result seeds, three of them AI-involved claims under EXTREME caution.
+- The [Falconer distance conjecture resolved in all dimensions](TRENDS.md#resolution-of-the-falconer-distance-conjecture-in-all-dimensions-openai-internal-model-independent-human-exposition) — an independent human exposition ([arXiv:2611.13789](https://arxiv.org/abs/2611.13789)) of OpenAI's already-tracked mass-disclosure result #073, tied to Hong Wang's 2026 Fields Medal citation.
+- Two hexagonmath.org claims with unusually explicit provisional self-disclosure: [Smale's mean value conjecture (1981), sup K(d)=4](https://hexagonmath.org/2611.00282v1) (the venue's own tag admits only partial human understanding) and [Broué's Abelian Defect Group Conjecture for 2-blocks](https://hexagonmath.org/2611.00288v1) (the submitter disclaims credit and awaits a pending review).
+- Two ordinary human-mathematics resolutions: a [disproof of the Erdős–Mahler conjecture](https://arxiv.org/abs/2611.13604) (Marques) and a [proof of the Alon–Kim conjecture](https://arxiv.org/abs/2611.13698) (Qiao–Lu–Song).
+- `observation_queue` +8, including [DUNE's cryostat-construction milestone](TRENDS.md#observation_queue) (Fermilab/CERN/SURF), promoted from a standing placeholder to a tracked experiment.
 
 ## Trends
 
-🌱 84 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 2
+🚀 2 · 📈 3 · 🌱 89 · 🌊 0 · 🏔 0 · 📉 0 · 💤 2
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -21,6 +21,11 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)](TRENDS.md#resolution-of-the-komls--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-11-03](https://arxiv.org/abs/2611.03427) |
 | [A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) | 📈 emerging | [2026-11-03](https://arxiv.org/abs/2611.05051) |
 | [Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 📈 emerging | [2026-09-15](https://arxiv.org/abs/2404.02244) |
+| [Resolution of Smale's mean value conjecture (1981) — $\sup_d K(d)=4$ (hexagonmath, AI-assisted, unrefereed preprint — claim)](TRENDS.md#resolution-of-smales-mean-value-conjecture-1981--supd-kd4-hexagonmath-ai-assisted-unrefereed-preprint--claim) | 🌱 seed | [2026-11-11](https://hexagonmath.org/2611.00282v1) |
+| [Resolution of Broué's Abelian Defect Group Conjecture for 2-blocks (hexagonmath, AI-generated, unrefereed preprint — claim)](TRENDS.md#resolution-of-brous-abelian-defect-group-conjecture-for-2-blocks-hexagonmath-ai-generated-unrefereed-preprint--claim) | 🌱 seed | [2026-11-11](https://hexagonmath.org/2611.00288v1) |
+| [Resolution of the Falconer distance conjecture in all dimensions (OpenAI internal model; independent human exposition)](TRENDS.md#resolution-of-the-falconer-distance-conjecture-in-all-dimensions-openai-internal-model-independent-human-exposition) | 🌱 seed | [2026-11-10](https://arxiv.org/abs/2611.13789) |
+| [Disproof of the Erdős–Mahler conjecture (1939) on irrationality-exponent continued fractions (Marques)](TRENDS.md#disproof-of-the-erdsmahler-conjecture-1939-on-irrationality-exponent-continued-fractions-marques) | 🌱 seed | [2026-11-10](https://arxiv.org/abs/2611.13604) |
+| [Proof of the Alon–Kim conjecture (1997) on hypergraph edge-coloring (Qiao–Lu–Song)](TRENDS.md#proof-of-the-alonkim-conjecture-1997-on-hypergraph-edge-coloring-qiaolusong) | 🌱 seed | [2026-11-10](https://arxiv.org/abs/2611.13698) |
 | [Proof of the Quantum Null Energy Condition without restrictive assumptions (Faulkner)](TRENDS.md#proof-of-the-quantum-null-energy-condition-without-restrictive-assumptions-faulkner) | 🌱 seed | [2026-11-09](https://arxiv.org/abs/2611.11920) |
 | [Proof of Gromov's conjecture on nilpotent groups (integrable measure equivalence)](TRENDS.md#proof-of-gromovs-conjecture-on-nilpotent-groups-integrable-measure-equivalence) | 🌱 seed | [2026-11-09](https://arxiv.org/abs/2611.12009) |
 | [Resolution of Becker's Conjecture on compositions of higher-degree diagonal forms](TRENDS.md#resolution-of-beckers-conjecture-on-compositions-of-higher-degree-diagonal-forms) | 🌱 seed | [2026-11-09](https://arxiv.org/abs/2611.11750) |
@@ -110,10 +115,13 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
-
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-11 — [Cluster Algebras, formalized in Lean](https://axiommath.ai/research/cluster-algebras-formalized-in-lean)
+  (AxiomMath) — a Lean library covering the first seven chapters of Fomin–Williams–Zelevinsky's
+  "Introduction to Cluster Algebras," continuing AxiomMath's formalization-of-foundational-texts
+  pattern (Stacks Project, Weil conjectures, CFSG) — opened directly this session.
 - 2026-11-10 — [Z is Diophantine in Q](https://github.com/elliotglazer/diophantine-z-q) — Glazer
   et al.'s claimed disproof of Mazur's 1992 finite-components conjecture and independent second
   route to a negative resolution of Hilbert's Tenth Problem over ℚ — worth knowing as the story,
@@ -820,11 +828,16 @@ why`). The trend bar does NOT apply here; opened primary sources only.
 
 ## Community pulse
 
-- A community-pulse chase via r/math's "AI in Mathematics" megathread led to this session's major study-shelf claim (Glazer's Mazur-conjecture disproof) — see above; Reddit's own feed (r/math, r/Physics) remains hard-blocked on direct fetch, standing issue.
-- Hacker News front page, MathOverflow, and Physics Stack Exchange were routine this session (0 on-axis catch).
-- Fermilab's own news feed named a content-free CMB overview post (no specific result, not captured) alongside the now-resolved SBND paper chase.
-- AxiomMath's research blog, agmai.org, and vals.ai/blogs were all unchanged or off-axis this session.
+- Hacker News front page, MathOverflow, Physics Stack Exchange, and Mathstodon were all routine
+  this session (0 on-axis catch); "AlphaProof Code" led HN but is AI-tooling, the sibling radar's
+  beat, not this ledger's scope.
+- Reddit's own feed (r/math, r/Physics) remains hard-blocked on direct fetch, a long-standing
+  issue; no social-pulse chase was needed this session since every major catch came via direct
+  primary-source/arXiv sweeps.
+- The digest blogs (Quanta, Tao, Gowers, Kalai, Baez, Strassler, Backreaction, Woit) were all
+  routine or already-tracked; n-Category Café failed to fetch (a non-consecutive standing
+  transient).
 
 ## Output map
 
-[Full ledger](TRENDS.md) · [watchlist (536 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-11-10](reports/2026-11-10.md)) · weekly: [2026-W45](reports/weekly/2026-W45.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+[Full ledger](TRENDS.md) · [watchlist (544 items)](TRENDS.md#observation_queue) · [reports](reports/) (newest: [2026-11-11](reports/2026-11-11.md)) · weekly: [2026-W45](reports/weekly/2026-W45.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

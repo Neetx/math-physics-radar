@@ -110,7 +110,14 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   cadence — the 2026-09-01 248 keV single-event hint). Companion announcement channel:
   newscenter.lbl.gov (Berkeley Lab news; `tvly extract`/`tvly search`) for the press-release side
   of new LZ results.
-- (agent: add Planck/ESA, DUNE, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
+- DUNE (Deep Underground Neutrino Experiment, Fermilab/CERN/SURF) — **[promoted 2026-11-11 (daily);
+  verified live via `tvly extract` on the triggering Fermilab news article this session — "produced"
+  per the standing `(agent: add... as they produce)` note below, with a major facility-construction
+  milestone (cryostat construction begins, ~17,000t liquid-argon far detector, nearly a mile
+  underground at SURF)]** — flagship next-generation long-baseline neutrino experiment; access via
+  the already-tracked Fermilab news feed (`news.fnal.gov/feed/`) for Fermilab-side announcements,
+  `tvly search`/`tvly extract` for CERN/SURF-side coverage; no dedicated feed of its own located yet.
+- (agent: add Planck/ESA, Rubin/LSST, Event Horizon Telescope [Cloudflare-403 2026-07-02, retry via `tvly`] as they produce)
 - cims.nyu.edu (Tristan Buckmaster's NYU Courant institutional page) — **[promoted 2026-09-12
   (W37 weekly); verified live via direct `curl` this session (200 OK)]** — a working
   mathematician's own self-publication page for off-arXiv preprints, structurally the same

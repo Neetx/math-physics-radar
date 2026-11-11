@@ -1,8 +1,8 @@
-# Math-Physics Radar — 2026-11-10
+# Math-Physics Radar — 2026-11-11
 
-- **New trend** · [13-sphere positive curvature](TRENDS.md#positive-sectional-curvature-on-all-smooth-13-spheres-chendengni) — every smooth homotopy 13-sphere admits a metric of strictly positive sectional curvature.
-- **New trend** · [QNEC proof](TRENDS.md#proof-of-the-quantum-null-energy-condition-without-restrictive-assumptions-faulkner) — Faulkner gives an unconditional proof of the Quantum Null Energy Condition.
-- **New trend** · [Guralnick's conjecture disproof](TRENDS.md#disproof-of-guralnicks-conjecture-unbounded-cohomology-of-finite-simple-groups) — finite-simple-group cohomology shown unbounded in every fixed degree.
-- **New trend** · [Gromov's conjecture (nilpotent groups)](TRENDS.md#proof-of-gromovs-conjecture-on-nilpotent-groups-integrable-measure-equivalence) — quasi-isometry shown equivalent to isomorphic Mal'cev completions.
-- **New trend** · [Becker's Conjecture resolved](TRENDS.md#resolution-of-beckers-conjecture-on-compositions-of-higher-degree-diagonal-forms) — disproved in general, proved over formally real fields in even degree.
-- **New trend** · [Z is Diophantine in Q](TRENDS.md#disproof-of-mazurs-finite-components-conjecture---diophantine-in--glazer-et-al-ai-heavy-unrefereed-preprint--claim) — disproves Mazur's 1992 conjecture, a second route to Hilbert's Tenth over ℚ (claim).
+- **New trend** · [Falconer distance conjecture](TRENDS.md#resolution-of-the-falconer-distance-conjecture-in-all-dimensions-openai-internal-model-independent-human-exposition) — resolved in all dimensions (claim).
+- **New trend** · [Smale's mean value conjecture](TRENDS.md#resolution-of-smales-mean-value-conjecture-1981--supd-kd4-hexagonmath-ai-assisted-unrefereed-preprint--claim) — sup K(d)=4, 1981 problem (claim).
+- **New trend** · [Broué's Abelian Defect Group Conjecture](TRENDS.md#resolution-of-brous-abelian-defect-group-conjecture-for-2-blocks-hexagonmath-ai-generated-unrefereed-preprint--claim) — resolved for 2-blocks (claim).
+- **New trend** · [Erdős–Mahler conjecture](TRENDS.md#disproof-of-the-erdsmahler-conjecture-1939-on-irrationality-exponent-continued-fractions-marques) — disproved by Marques.
+- **New trend** · [Alon–Kim conjecture](TRENDS.md#proof-of-the-alonkim-conjecture-1997-on-hypergraph-edge-coloring-qiaolusong) — proved by Qiao–Lu–Song.
+- **Study pick** · [Cluster Algebras, formalized in Lean](https://axiommath.ai/research/cluster-algebras-formalized-in-lean) — covers the first seven chapters of the standard text.

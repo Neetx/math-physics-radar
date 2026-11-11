@@ -2119,3 +2119,26 @@ coding) this week. No redirection needed.
   shallow — the weekly should treat the fix as validated by repeated real-world need, not just a
   proposal, and apply it to `routines/daily.md`'s (and `routines/weekly.md`'s) load-state step text
   itself so it is not dependent on each session remembering to self-apply it from a strategy note.
+
+- 2026-11-11 (daily) — Two flags for the weekly. (1) First-time sitemap-diff BASELINE runs on
+  quantum-journal.org, icecube.wisc.edu, and hexagonmath.org were executed with `--since
+  2026-11-10` instead of the skill-documented 30-day first-baseline window (`radar-source-sweep`'s
+  own instruction: "On a host's FIRST diff pass `--since` 30 days back... the baseline is the one
+  chance to surface recent off-index posts the feed step already missed — once a URL is in the
+  snapshot it can never come back as NEW"). The snapshot is now written, so that one chance on
+  these three hosts is narrowed permanently; practical risk is likely low (all three also have
+  working RSS feeds that are swept every run and already cover recent volume), but the weekly
+  should confirm no older off-index page was missed and decide whether the next NEW host's first
+  baseline should be scripted with the wider window by default rather than left to the daily
+  operator's judgment each time. (2) Seed-bar consistency: this session seeded five new trends from
+  FULL resolutions of named conjectures (Falconer distance, Smale's mean value constant, Broué's
+  Abelian Defect Group Conjecture for 2-blocks, Erdős–Mahler, Alon–Kim) but queued two OTHER full
+  resolutions found the same session (the constant-width numerical-range conjecture; the
+  Boocher–Froehle subtraction-free conjecture disproof) on a subjective "narrower fame" judgment
+  that is not a documented rule — the ledger's actual precedent (e.g. 2026-11-10's Δ-primitive-
+  squares/Gorsky–Oblomkov–Rasmussen seeds) suggests ANY full resolution of a named conjecture
+  clears the bar regardless of fame. Flagging rather than unilaterally re-seeding mid-session: the
+  weekly should either promote these two queue items to seeds (if the generous full-resolution-only
+  bar is confirmed as the actual standing rule) or write down an explicit fame/significance
+  tiebreaker that justifies holding some full resolutions at queue — right now the daily-to-daily
+  practice is inconsistent and undocumented.

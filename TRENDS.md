@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-10
+Last updated: 2026-11-11
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3673,6 +3673,127 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   duplicate). Watch for: a completed Lean formalization; any response from Mazur or the
   Diophantine-definability community (Poonen, Koenigsmann); whether the degree/variable-count can
   be reduced further (repo's own v4→v13 history already dropped from 4,973 to 394-411 variables).
+
+### Resolution of the Falconer distance conjecture in all dimensions (OpenAI internal model; independent human exposition)
+- stage: seed | confidence: low | first_seen: 2026-11-11 | last_evidence: 2026-11-10
+- what: axis-1 DOMAIN-CADENCE LANDMARK + axis-5 AI-WATCH-LANE (track the result, not the method).
+  Falconer's distance conjecture (Kenneth Falconer, 1985) — that a compact set $E\subset\mathbb R^d$
+  with Hausdorff dimension greater than $d/2$ determines a set of Euclidean distances of positive
+  Lebesgue measure — is a central, long-open problem in geometric measure theory (it is part of the
+  body of work cited for Hong Wang's 2026 Fields Medal, already on this ledger). Result #073 of
+  OpenAI's already-tracked mass mathematical-results disclosure (github.com/openai/math, internally
+  dated 2026-09-23, publicly released 2026-10-06) claims a full proof in every integer dimension
+  $d\ge2$. Today's new primary is an INDEPENDENT human exposition: five mathematicians (Kotaro
+  Inami, Jianbin Li, Yudong Liang, Bochen Liu, Francisco Romero Acosta) post an arXiv preprint
+  presenting the proof "in our own words... designed for graduate-level readers" — the same
+  human-engagement pattern as the already-tracked Erdős unit-distance disproof (Alon et al.'s
+  "Remarks on..."), though with fewer/less senior authors and no explicit correctness-verification
+  claim (they say they "catch the main idea," not that every step was checked). HEAVIEST
+  hype-skepticism caution: the original proof is wholly AI-generated and UNREFEREED; the repo's own
+  Lean artifact (`lean/ComparatorChallenges/FalconerAllDimensions.lean`) is a target STATEMENT
+  only, with a `sorry` in place of the proof — opened and confirmed directly this session, not
+  merely claimed.
+- evidence:
+  - 2026-10-07 (repo commit date; internally dated 2026-09-23) — https://github.com/openai/math/blob/main/preprints/The-Falconer-distance-conjecture-in-all-dimensions-September-23-2026/paper.pdf
+    — OpenAI's own manuscript, result #073 of the mass-disclosure corpus; `CONTENTS.md` entry and
+    the Lean comparator stub (`sorry`-containing) opened directly via `raw.githubusercontent.com`
+    this session.
+  - 2026-11-10 (v1) — https://arxiv.org/abs/2611.13789 — Inami, Li, Liang, Liu, Romero Acosta, "On
+    the proof of Falconer distance conjecture": independent human exposition of the OpenAI proof;
+    abstract + authors verified via the arXiv API this session.
+- notes: 2026-11-11 (daily, seed creation): caught via today's math.CA arXiv title-triage ("proof
+  of... conjecture" keyword); chased to the OpenAI mass-disclosure corpus via `tvly search`
+  (confirmed the Sept 23 2026 manuscript, result #073) and verified the GitHub artifacts directly.
+  Cross-references the already-seeded "OpenAI's mass mathematical-results disclosure" trend (same
+  corpus) — this is item #073 of that corpus, now given its own dedicated trend given the problem's
+  standalone fame and a fresh independent-exposition primary, mirroring how the quasi-Riemann-
+  Hypothesis and Yang–Mills items from the same corpus each got dedicated trends. Confidence held
+  at `low` (not `medium`): the human exposition does not claim to have verified correctness, and
+  the Lean artifact is an unproved target statement. Watch for: a completed (`sorry`-free) Lean
+  formalization; independent commentary from geometric-measure-theory specialists (Iosevich, Guth,
+  Wang, Keleti).
+
+### Resolution of Smale's mean value conjecture (1981) — $\sup_d K(d)=4$ (hexagonmath, AI-assisted, unrefereed preprint — claim)
+- stage: seed | confidence: low | first_seen: 2026-11-11 | last_evidence: 2026-11-11
+- what: axis-1 DOMAIN-CADENCE LANDMARK + axis-5 AI-WATCH. Smale's mean value conjecture (Steve
+  Smale, 1981) asked whether his proven bound $K(d)\le4$ (relating a polynomial's value at a point
+  to its value at a critical point) could be sharpened to $K=1$; Jatar–Ng already disproved "K=1
+  suffices" earlier in 2026 ($K^*>1$). A new hexagonmath.org preprint by a single contributor
+  (Dave Goel) now claims to settle the REMAINING open question — the exact value of Smale's mean
+  value constant $\sup_d K(d)$ — proving it equals 4 (the trivial upper bound itself, not attained
+  for any finite $d$), combining "a reduction due to Jatar and Ng" with an explicit construction,
+  and states the result "has also been formalized in the Lean 4 proof assistant" (not independently
+  located/opened this session). HEAVIEST hype-skepticism caution: hexagonmath's own provenance tag
+  for this submission reads "a mix of human-written and AI-generated text... Human understanding:
+  some parts" — a self-admission of PARTIAL human understanding of its own submission, the most
+  explicit uncertainty flag this ledger has logged on a claimed full resolution; single
+  contributor, no independent review.
+- evidence:
+  - 2026-11-11 (v1) — https://hexagonmath.org/2611.00282v1 — Dave Goel, "Smale's mean value
+    constant (1981) equals 4": abstract + provenance tag ("mix of human-written and AI-generated
+    text... Human understanding: some parts") opened directly via `curl`/page fetch this session.
+  - 2026-11-11 (v1, superseded by the above, same day) — https://hexagonmath.org/2611.00306v1 —
+    same author, "Smale's mean value constant (1981) exceeds 1.1559...": the immediately-preceding
+    partial bound, kept as a record of the claim's same-day progression.
+- notes: 2026-11-11 (daily, seed creation): caught via today's hexagonmath.org `/rss/all` feed
+  sweep (title-triage — named constant/conjecture). Confidence `low` given the self-disclosed
+  partial human understanding, single contributor, unrefereed, no-peer-review venue. Watch for: the
+  Lean formalization artifact itself (not located this session — check the submission's own source
+  files next run); any response from complex-analysis specialists.
+
+### Resolution of Broué's Abelian Defect Group Conjecture for 2-blocks (hexagonmath, AI-generated, unrefereed preprint — claim)
+- stage: seed | confidence: low | first_seen: 2026-11-11 | last_evidence: 2026-11-11
+- what: axis-1 DOMAIN-CADENCE LANDMARK + axis-5 AI-WATCH. Broué's Abelian Defect Group Conjecture
+  (Michel Broué, 1990) — a central, 35-year-old open conjecture in the modular representation
+  theory of finite groups, predicting that a block with abelian defect group is "splendidly"
+  equivalent to its Brauer correspondent — is claimed FULLY resolved for every 2-block of every
+  finite group (the harder of the two prime cases, given its link to the classification of finite
+  simple groups) in a new hexagonmath.org preprint. HEAVIEST hype-skepticism caution — the most
+  explicitly provisional claim captured this session: the submission's own "Author comments" state
+  "By posting this manuscript on this platform, I do not seek to assert ownership of the results or
+  claim priority... the eventual scholarly credit should go to those who undertake that work," and
+  its provenance statement discloses "GPT-6-Pro was used for 13 rounds of mathematical research,
+  totaling approximately 90.8 hours... An additional review by Rethlas-OSV will be incorporated at
+  a later stage" — i.e. even the submitter's own promised review has NOT yet happened.
+- evidence:
+  - 2026-11-11 (v1) — https://hexagonmath.org/2611.00288v1 — Qiyue Tang (GPT-6-Pro-assisted),
+    "Broué's Abelian Defect Group Conjecture for 2-Blocks": abstract, author comments, and
+    provenance statement opened directly via page fetch this session.
+- notes: 2026-11-11 (daily, seed creation): caught via today's hexagonmath.org `/rss/all` feed
+  sweep (title-triage — named conjecture). Stage `seed` per the landmark-single-result domain
+  adaptation despite the extraordinary caution flags (consistent with this ledger's Mazur/Glazer
+  precedent of seeding even self-disclaimed AI claims, so the vetting OUTCOME can be tracked) —
+  confidence `low`. Watch for: the submitter's own promised "Rethlas-OSV" review; any response from
+  modular-representation-theory specialists (Broué, Rouquier, Kessar, Linckelmann — the latter two
+  already in this manuscript's own reference list).
+
+### Disproof of the Erdős–Mahler conjecture (1939) on irrationality-exponent continued fractions (Marques)
+- stage: seed | confidence: medium | first_seen: 2026-11-11 | last_evidence: 2026-11-10
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored (no AI involvement disclosed). A 1939
+  conjecture of Erdős and Mahler is disproved: for every real $τ\ge4$, Diego Marques constructs a
+  Cantor set of numbers of irrationality exponent $τ$, each having infinitely many regular
+  continued-fraction convergents of the restricted form $2^a/3^b$ — a case the 87-year-old
+  conjecture predicted should not occur. Single-author, standard (not AI-related) unrefereed-
+  preprint caution.
+- evidence:
+  - 2026-11-10 (v1) — https://arxiv.org/abs/2611.13604 — Diego Marques, "A counterexample to the
+    Erdős–Mahler conjecture": abstract + author + date verified via the arXiv API this session.
+- notes: 2026-11-11 (daily, seed creation): caught via today's math.NT arXiv title-triage
+  ("counterexample to... conjecture"). Confidence `medium` (ordinary human mathematics, single
+  preprint, no corroboration yet).
+
+### Proof of the Alon–Kim conjecture (1997) on hypergraph edge-coloring (Qiao–Lu–Song)
+- stage: seed | confidence: medium | first_seen: 2026-11-11 | last_evidence: 2026-11-10
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. The Alon–Kim conjecture (1997), an
+  asymptotic chromatic-index bound for $k$-uniform multihypergraphs whose edges pairwise intersect
+  in at most $t$ vertices, is proved in full by Qiao, Lu, and Song, combining finite-dimensional
+  convex optimization with probabilistic methods. Standard unrefereed-preprint caution (ordinary
+  human mathematics).
+- evidence:
+  - 2026-11-10 (v1) — https://arxiv.org/abs/2611.13698 — Qiao, Lu, Song, "The Proof of the
+    Alon–Kim Conjecture": abstract + authors + date verified via the arXiv API this session.
+- notes: 2026-11-11 (daily, seed creation): caught via today's math.CO arXiv title-triage ("Proof
+  of the ... Conjecture"). Confidence `medium`.
 
 ## observation_queue
 
@@ -8412,6 +8533,46 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   result to general homogeneous potentials. Axis 1/2, celestial mechanics/dynamics (adjacent to
   the standing Smale's-sixth-problem seed trend, but a different sub-problem — not folded in as
   evidence). Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-10 — https://arxiv.org/abs/2611.13461 — Muyan Jiang, "A proof of the constant-width
+  numerical range conjecture": proves the Chien–Nakazato–Meng conjecture (a matrix's numerical
+  range has constant width $d$ iff it is a disk of radius $d/2$). Axis 1, matrix analysis/operator
+  theory; full resolution but a narrower/less-established named conjecture — queued rather than
+  seeded pending wider significance signal. Abstract verified via direct arXiv `/abs/` fetch this
+  session.
+- 2026-11-10 — https://arxiv.org/abs/2611.13745 — Chen, Lan, Liu, "The anisotropic De Giorgi
+  conjecture in $\mathbb R^4$": one-dimensional symmetry for entire solutions of the anisotropic
+  Allen–Cahn equation under a limiting assumption. Axis 1/2, PDE/geometric analysis; a restricted
+  case (anisotropic variant, dimension 4, limiting assumption), not an unconditional resolution.
+  Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-10 — https://hexagonmath.org/2611.00285v1 — "Watkins's Conjecture for Elliptic Curves
+  with Rational Two-Torsion": proves the modular degree of $E/\mathbb Q$ with $E(\mathbb Q)[2]\ne0$
+  is divisible by $2^{\operatorname{rank}E(\mathbb Q)}$ — the rational-2-torsion case only, not the
+  general conjecture. Axis 1, arithmetic geometry. Opened directly via page fetch this session.
+- 2026-11-10 — https://hexagonmath.org/2611.00260v1 — "The Cereceda (2007) conjecture holds for
+  bipartite 2-degenerate graphs": settles the $d=2$ bipartite case of the recolouring-diameter
+  conjecture, not the general-$d$ conjecture. Axis 1, combinatorics. Opened directly via page
+  fetch this session.
+- 2026-11-10 — https://hexagonmath.org/2611.00266v1 — "A Counterexample to the Subtraction-Free
+  Conjecture for Bounded Ratios of Minors": disproves the Boocher–Froehle subtraction-free
+  conjecture via an explicit order-3207 minor construction. Axis 1, combinatorics/total
+  positivity; full disproof of a named conjecture, held at queue (not seed) given its narrower
+  profile — flag for weekly reconsideration against the generous seed bar applied elsewhere this
+  session. Opened directly via page fetch this session.
+- 2026-11-10 — https://hexagonmath.org/2611.00275v1 — "The Schur–Siegel–Smyth trace problem: the
+  lower bound 1.8022246": a numerical improvement on the famous still-open trace problem, not a
+  resolution. Axis 1, number theory. Opened directly via page fetch this session.
+- 2026-11-10 — https://arxiv.org/abs/2611.13606 — Bruce Zimov, "A Threshold-Crossing Condition for
+  the Least Colossally Abundant Counterexample to Robin's Inequality": a structural/conditional
+  constraint on a hypothetical counterexample to Robin's inequality (equivalent to RH on colossally
+  abundant numbers), not itself a resolution. Axis 1, analytic number theory. Abstract verified via
+  direct arXiv `/abs/` fetch this session.
+- 2026-11-10 — https://news.fnal.gov/2026/11/worlds-largest-neutrino-experiment-begins-construction-a-mile-underground-in-us/
+  — DUNE (Deep Underground Neutrino Experiment): Fermilab, CERN, and SURF begin construction of the
+  cryostats housing ~17,000 tons of liquid argon for the far detector, nearly a mile underground at
+  SURF (South Dakota) — a major facility-construction milestone, not yet a physics result. Axis 3,
+  neutrino/collider-adjacent experimental physics. DUNE was a long-standing "(agent: add...)"
+  candidate in SOURCES.md's Experiments block; promoted to a tracked entry this session (see
+  SOURCES.md). Opened directly via `tvly extract` this session.
 ## source_rotation
 
 Append-only coverage log MOVED to `logs/source_rotation.md`. Each run APPENDS one dated line
@@ -8428,6 +8589,10 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-11 — [Cluster Algebras, formalized in Lean](https://axiommath.ai/research/cluster-algebras-formalized-in-lean)
+  (AxiomMath) — a Lean library covering the first seven chapters of Fomin–Williams–Zelevinsky's
+  "Introduction to Cluster Algebras," continuing AxiomMath's formalization-of-foundational-texts
+  pattern (Stacks Project, Weil conjectures, CFSG) — opened directly this session.
 - 2026-11-10 — [Z is Diophantine in Q](https://github.com/elliotglazer/diophantine-z-q) — Glazer
   et al.'s claimed disproof of Mazur's 1992 finite-components conjecture and independent second
   route to a negative resolution of Hilbert's Tenth Problem over ℚ — worth knowing as the story,
