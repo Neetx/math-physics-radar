@@ -1,8 +1,8 @@
-# Math-Physics Radar — 2026-11-11
+# Math-Physics Radar — 2026-11-12
 
-- **New trend** · [Falconer distance conjecture](TRENDS.md#resolution-of-the-falconer-distance-conjecture-in-all-dimensions-openai-internal-model-independent-human-exposition) — resolved in all dimensions (claim).
-- **New trend** · [Smale's mean value conjecture](TRENDS.md#resolution-of-smales-mean-value-conjecture-1981--supd-kd4-hexagonmath-ai-assisted-unrefereed-preprint--claim) — sup K(d)=4, 1981 problem (claim).
-- **New trend** · [Broué's Abelian Defect Group Conjecture](TRENDS.md#resolution-of-brous-abelian-defect-group-conjecture-for-2-blocks-hexagonmath-ai-generated-unrefereed-preprint--claim) — resolved for 2-blocks (claim).
-- **New trend** · [Erdős–Mahler conjecture](TRENDS.md#disproof-of-the-erdsmahler-conjecture-1939-on-irrationality-exponent-continued-fractions-marques) — disproved by Marques.
-- **New trend** · [Alon–Kim conjecture](TRENDS.md#proof-of-the-alonkim-conjecture-1997-on-hypergraph-edge-coloring-qiaolusong) — proved by Qiao–Lu–Song.
-- **Study pick** · [Cluster Algebras, formalized in Lean](https://axiommath.ai/research/cluster-algebras-formalized-in-lean) — covers the first seven chapters of the standard text.
+- **New trend** · [Ashbaugh's 1999 buckling eigenvalue-ratio conjecture](TRENDS.md#disproof-of-ashbaughs-1999-buckling-eigenvalue-ratio-conjecture) — disproved in every dimension (preprint).
+- **New trend** · [Exact diameter of $S_n$ with LRX generators](TRENDS.md#resolution-of-the-exact-diameter-of-sn-with-lrx-generators-open-since-2011) — settles a 2011 conjecture, Lean-formalized (preprint).
+- **New trend** · [Sharp ionization bounds for helium and lithium](TRENDS.md#sharp-ionization-bounds-for-helium-and-lithium-liebs-1984-problem) — extends Lieb's 1984 problem to its first new cases (preprint).
+- **New** · [Noninvertible Bosonic Chiral Symmetry on the Lattice](https://link.aps.org/doi/10.1103/hl1d-99hv) — chiral symmetry in a 3D quantum rotor model (→ [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)).
+- **New** · [A proof that ℤ is Diophantine in ℚ through congruent-number twists](https://hexagonmath.org/2611.00331v1) — a second, independent proof route (claim) (→ [ℤ Diophantine in ℚ](TRENDS.md#disproof-of-mazurs-finite-components-conjecture---diophantine-in--glazer-et-al-ai-heavy-unrefereed-preprint--claim)).
+- **Study pick** · [Osterwalder–Schrader axioms for scalar QED₃ in the Higgs phase](https://hexagonmath.org/2611.00321v1) — a rare rigorous constructive-QFT result.

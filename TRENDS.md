@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-11
+Last updated: 2026-11-12
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -121,7 +121,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     promoted to `mainstreaming` (group-count/pace signal only, no standard-practice adoption).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-10-26
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-11-09
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -158,13 +158,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     alongside a discrete $\mathbb Z_4$ symmetry realized via Majorana strong zero modes. SciPost
     Physics Core (community-refereed, acceptance date 2026-07-20); title/authors/abstract/DOI
     verified via the SciPost API this session.
-  - 2026-08-22 — https://arxiv.org/abs/2608.21707 — Kobayashi, Otsuka, Tanimoto, Yamamoto,
-    "Textures of dimension-six operators in the SMEFT with non-invertible selection rules": an
-    EIGHTH fully independent author group (independent of all seven above), on a new
-    sub-application — applies non-invertible selection rules to classify flavor textures of
-    baryon-number-conserving dimension-six Standard Model Effective Field Theory operators,
-    constraining Wilson-coefficient tensor structures. Abstract + authors verified via arXiv API
-    this session (v1 2026-08-22).
+  - 2026-11-09 — http://link.aps.org/doi/10.1103/hl1d-99hv — Fidkowski, Xu, Zhang,
+    "Noninvertible Bosonic Chiral Symmetry on the Lattice" (Phys. Rev. X 16, 041036): a further
+    fully independent author group, constructing a continuous chiral symmetry in a 3D quantum
+    rotor model and showing that gauging the charge symmetry yields noninvertible, duality-like
+    lattice operations. Title/authors/DOI verified via the PRX RSS feed this session. Oldest
+    evidence line (2026-08-22, Kobayashi et al.) dropped to hold the 10-item cap (still tracked
+    in notes/group-count history above).
   - 2026-08-25 — https://arxiv.org/abs/2608.24385 — Ahn, Bajnok, Elek, "New RG flows between
     non-Unitary CFTs from exact massless scattering theories": a NINTH fully independent author
     group (independent of all eight above), on a new sub-application — constructs an infinite
@@ -286,6 +286,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     accordingly, same title/authors, no new group; and 2503.21764 (Aksoy–Wen) to v2, updated
     2025-03-28 (one day after v1, predates last_evidence, no date impact). No new groups found on
     either; group count unchanged at 19+. Not promoted (no mainstreaming-tier signal).
+  - 2026-11-12 (daily, evidence append): a 20th+ independent group (Fidkowski–Xu–Zhang, PRX)
+    caught via today's PRX RSS sweep — continuous chiral symmetry in a 3D quantum rotor model,
+    gauging charge symmetry yields noninvertible lattice operations. last_evidence 2026-10-26 →
+    2026-11-09 (oldest evidence line, 2026-08-22 Kobayashi et al., dropped to hold the 10-item
+    cap). Still `accelerating`/`high`, well short of a `mainstreaming` signal.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -3264,12 +3269,25 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - evidence:
   - 2026-11-03 (v1) — https://arxiv.org/abs/2611.05217 — Christophe Soulé, "On the abc
     conjecture." Abstract + author verified via arXiv API this session.
+  - 2026-11-12 — https://hexagonmath.org/2611.00330v1 — Zeng Chunping, "Explicit Weak abc
+    Inequalities and the Discrete Obstruction to Full abc in the DIC Framework": an independent
+    technical audit of Soulé's preprint, opened and read via the hexagonmath `/rss/all` feed
+    this session. Finds that full abc is unattainable inside Soulé's audited construction for
+    nine independent reasons, NONE depending on the truth of Soulé's Theorem A itself — i.e. the
+    construction is structurally capped at a polynomial-type weak bound and cannot be
+    bootstrapped to the full conjecture, regardless of whether Theorem A holds.
 - notes: 2026-11-04 (daily, seed creation): EXTREME caution — single-author, unrefereed arXiv
   preprint on one of number theory's most famous and most hype-sensitive open problems; Soulé's
   standing (IHES, a highly credible algebraic/arithmetic geometer) lends weight, but "weak form"
   means this is explicitly NOT a full resolution. Flag "unrefereed preprint — partial claim."
   Watch for: expert commentary (this will likely surface quickly given the conjecture's profile),
   and clarification of exactly how "weak" the proved form is relative to the full conjecture.
+  2026-11-12 (daily, vetting-status update): an independent hexagonmath audit (Zeng Chunping)
+  confirms the "weak form only" framing from the inside — it finds Soulé's method structurally
+  cannot reach the full conjecture (not a flaw found in Theorem A, but a limits-of-the-method
+  result). Stage/confidence unchanged (still `seed`/`low`): this clarifies rather than
+  strengthens or weakens the existing claim. EXTREME caution applies equally to this audit
+  itself (also unrefereed, single-author).
 
 ### A counterexample to Lee's 1988 conjecture on pseudo-Einstein structures (CR geometry)
 - stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
@@ -3639,7 +3657,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   corroboration yet).
 
 ### Disproof of Mazur's finite-components conjecture — ℤ Diophantine in ℚ (Glazer et al., AI-heavy, unrefereed preprint — claim)
-- stage: seed | confidence: low | first_seen: 2026-11-10 | last_evidence: 2026-11-07
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-12
 - what: axis-5 WATCH + axis-1 DOMAIN-CADENCE LANDMARK (Diophantine definability / Hilbert's tenth
   problem). Elliot Glazer, working with OpenAI Astra 6/Sol 6.1 and Anthropic Claude Opus 5.5
   (auditing by Fable 5.1), claims an explicit quartic/degree-$2\uparrow\uparrow7$ polynomial
@@ -3664,6 +3682,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Astra 6/Sol 6.1, Anthropic Claude Opus 5.5, auditing Fable 5.1), "Z is Diophantine in Q."
     README/manuscript opened and verified directly via `WebFetch` this session; explicit
     epistemic-status caveats quoted above.
+  - 2026-11-12 — https://hexagonmath.org/2611.00331v1 — Manvir Jaswal, "A proof that
+    $\mathbb{Z}$ is Diophantine in $\mathbb{Q}$ through congruent-number twists": an
+    INDEPENDENT proof of the same theorem via a different, more classical route (an elliptic
+    curve of rank one over $\mathbb Q(\sqrt2)$, height bounds from a quaternionic Shimura curve
+    and Serre's conjecture (Khare–Wintenberger/Kisin), Gross–Zagier, and the Green–Tao–Ziegler
+    theorem) resting on published theorems rather than Glazer et al.'s AI-heavy/incomplete-Lean
+    construction. Opened and read via the hexagonmath `/rss/all` feed this session.
 - notes: 2026-11-10 (daily, seed creation): discovered via community-pulse (r/math megathread,
   2026-11-07), verified at the primary (GitHub repo) directly this session. Stage `seed` (not
   merely queued) per the landmark-single-claim domain adaptation, but confidence held at `low`
@@ -3673,6 +3698,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   duplicate). Watch for: a completed Lean formalization; any response from Mazur or the
   Diophantine-definability community (Poonen, Koenigsmann); whether the degree/variable-count can
   be reduced further (repo's own v4→v13 history already dropped from 4,973 to 394-411 variables).
+  2026-11-12 (daily, confidence raised low→medium): a second, independent proof of the same
+  theorem via classical (non-AI-heavy, published-theorem-based) methods is a genuine
+  independent-corroboration signal per the ≥2-independent-source rule — though this second proof
+  is itself only a same-day hexagonmath preprint (unrefereed, same caution tier), so confidence
+  moves to `medium`, not `high`. Watch for: a referee/expert check of the Jaswal route.
 
 ### Resolution of the Falconer distance conjecture in all dimensions (OpenAI internal model; independent human exposition)
 - stage: seed | confidence: low | first_seen: 2026-11-11 | last_evidence: 2026-11-10
@@ -3794,6 +3824,169 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Alon–Kim Conjecture": abstract + authors + date verified via the arXiv API this session.
 - notes: 2026-11-11 (daily, seed creation): caught via today's math.CO arXiv title-triage ("Proof
   of the ... Conjecture"). Confidence `medium`.
+
+### Disproof of Ashbaugh's 1999 buckling eigenvalue-ratio conjecture
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-11
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. In 1999 M. Ashbaugh conjectured that
+  the ball maximizes the ratio of the first two clamped buckling eigenvalues among bounded
+  Euclidean domains. Dai, Sun, and Zhang disprove this in every dimension $d\ge2$ by
+  constructing smooth connected perforated domains (finitely many interior holes) whose
+  eigenvalue ratio exceeds the ball's, via a second-order perturbation argument. Ordinary
+  human spectral-geometry mathematics, standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-11 (v1) — https://arxiv.org/abs/2611.13018 — Dai, Sun, Zhang, "Counterexamples to
+    the buckling eigenvalue-ratio conjecture in every dimension": abstract + authors verified
+    via direct arXiv page fetch this session.
+- notes: 2026-11-12 (daily, seed creation): caught via today's math category title-triage
+  ("Counterexamples to the ... conjecture"). A 27-year-old named conjecture in spectral
+  geometry/PDE, fully disproved in all dimensions. Confidence `medium`.
+
+### Disproof of Comon's conjecture over the reals (tensor rank)
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-11
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. Comon's conjecture (2008) asserted
+  that the CP (tensor) rank and the symmetric rank of a real symmetric tensor coincide. Jianze
+  Li disproves this over the reals with an explicit low-dimensional fourth-order Hankel-tensor
+  counterexample ($r=10$, symmetric rank $11$), and shows the "Comon rank gap" is unbounded
+  under direct sums. Ordinary human applied-algebra mathematics, standard unrefereed-preprint
+  caution.
+- evidence:
+  - 2026-11-11 (v1) — https://arxiv.org/abs/2611.13823 — Jianze Li, "Rank Additivity and
+    Comon's Conjecture for Real Hankel Tensors": abstract + author verified via direct arXiv
+    page fetch this session.
+- notes: 2026-11-12 (daily, seed creation): caught via today's math category title-triage. An
+  18-year-old named conjecture in tensor-rank theory, disproved with an explicit construction
+  and shown unbounded. Confidence `medium`.
+
+### Resolution of the exact diameter of $S_n$ with LRX generators (open since 2011)
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-1/5 DOMAIN-CADENCE LANDMARK, human-authored, Lean-formalized. For the Cayley graph
+  of the symmetric group $S_n$ on the cyclic shift $L$, its inverse $R$, and the transposition
+  $X$ of the first two positions, a multi-author team (incl. theoretical physicist Fedor
+  Levkovich-Maslyuk) proves the exact diameter is $n(n-1)/2$ for every $n\ge4$, settling a
+  conjecture open since at least 2011 via sharp upper/lower bounds plus a finite set of
+  computer-verified special cases (C++) and an accompanying Lean formalization — axis-5
+  overlap, similar in kind to the ζ(5)/FLT Lean-verification precedents. Confidence raised
+  above the single-author-preprint floor given the Lean artifact.
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00333v1 — Uskov, Chervov, Levkovich-Maslyuk,
+    Litvak, Smolensky, Soibelman, Taha, "The exact diameter of the symmetric group $S_n$ with
+    LRX generators": full description opened and read via the hexagonmath `/rss/all` feed this
+    session (same unrefereed-preprint caution tier as arXiv per SOURCES.md).
+- notes: 2026-11-12 (daily, seed creation): caught in today's hexagonmath.org sweep. A 15-year-
+  old open combinatorics/group-theory conjecture, fully settled with a Lean formalization.
+  Confidence `medium`.
+
+### Sharp ionization bounds for helium and lithium (Lieb's 1984 problem)
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-2/3 DOMAIN-CADENCE LANDMARK, human-authored, computer-assisted proof. Lieb proved
+  in 1984 that a nucleus of charge $Z$ binds fewer than $2Z+1$ electrons in the non-relativistic
+  Coulomb model; the SHARP bound had remained unknown for every nucleus except hydrogen for 42
+  years. Shelley, Yang, and Tartakovsky solve this for $Z=2,3$: helium binds at most two
+  electrons and lithium at most four, both bounds sharp, via a quadratic-weight adaptation of
+  Lieb's argument reducing nonbinding of doubly-negative ions to finitely many computer-
+  verified inequalities. Rigorous mathematical physics (few-electron Schrödinger operators),
+  standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00325v1 — Shelley, Yang, Tartakovsky, "Sharp
+    Ionization Bounds for Helium and Lithium": full description opened and read via the
+    hexagonmath `/rss/all` feed this session.
+- notes: 2026-11-12 (daily, seed creation): caught in today's hexagonmath.org sweep. A
+  42-year-old open problem in rigorous quantum mechanics (Lieb's ionization-bound problem),
+  resolved for the first two non-hydrogen nuclei with a computer-assisted proof. Confidence
+  `medium`.
+
+### Proof of the Marcus-Minc permanent inequality conjecture
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. The classical Marcus-Minc conjecture
+  (doubly-stochastic-matrix permanent theory) states that for any nonnegative $n\times n$ matrix
+  $A$ with all row/column sums $1$, the permanent of $A$ is at least the permanent of
+  $(J-A)/(n-1)$ (the complement transform). Yair Lavi proves this in full and determines all
+  equality cases. Ordinary human combinatorial-matrix-theory mathematics, standard unrefereed-
+  preprint caution.
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00352v1 — Yair Lavi, "The Marcus-Minc Transform
+    Inequality": full description opened and read via the hexagonmath `/rss/all` feed this
+    session.
+- notes: 2026-11-12 (daily, seed creation): caught in today's hexagonmath.org sweep, alongside
+  two companion items from the same author (Kim-Roush conjecture, Foregger-Sinkhorn conjecture
+  — both tracked separately below) on the same doubly-stochastic-matrix permanent theme.
+  Confidence `medium`.
+
+### Resolution of the Kim–Roush 1981 conjecture on maximum permanent of odd-order doubly stochastic matrices
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. Kim and Roush conjectured in 1981 a
+  closed-form value for $\max_{A\in\Omega_{2k+1}}\operatorname{per}(I-A)$ over odd-order doubly
+  stochastic matrices, with a proposed (but not claimed-unique) maximizer. Yair Lavi fully
+  proves the conjecture and classifies all maximizers (simultaneous-permutation conjugates of
+  the proposed construction). Companion item to the same author's Marcus-Minc and
+  Foregger-Sinkhorn results this session. Standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00355v1 — Yair Lavi, "The Maximum of
+    $\operatorname{per}(I-A)$ in Odd Order": full description opened and read via the
+    hexagonmath `/rss/all` feed this session.
+- notes: 2026-11-12 (daily, seed creation): caught in today's hexagonmath.org sweep. A
+  45-year-old named conjecture, fully resolved with a complete equality classification.
+  Confidence `medium`.
+
+### Disproof of the Foregger-Sinkhorn tie-point conjecture
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. The Foregger-Sinkhorn tie-point
+  conjecture (doubly-stochastic-matrix permanent theory) asserts that if a nearly decomposable
+  doubly stochastic matrix minimizes the permanent on a face and a prescribed zero's
+  permanental cofactor exceeds the permanent, that zero must be a tie point. Yair Lavi gives an
+  explicit dimension-8 counterexample. Companion item to the same author's Marcus-Minc and
+  Kim-Roush results this session. Standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00354v1 — Yair Lavi, "A counterexample to the
+    Foregger-Sinkhorn tie-point conjecture": full description opened and read via the
+    hexagonmath `/rss/all` feed this session.
+- notes: 2026-11-12 (daily, seed creation): caught in today's hexagonmath.org sweep. Confidence
+  `medium`.
+
+### Proof of the Humphreys support conjecture
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. J. E. Humphreys's support-variety
+  conjecture for modular representations of algebraic groups is proved by Qiyue Tang for
+  connected reductive groups over algebraically closed fields of characteristic $p>h$ (Coxeter
+  number). Standard unrefereed-preprint caution; single-sentence abstract, terse but complete
+  claim.
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00364v1 — Qiyue Tang, "The Humphreys support
+    conjecture": full description opened and read via the hexagonmath `/rss/all` feed this
+    session.
+- notes: 2026-11-12 (daily, seed creation): caught in today's hexagonmath.org sweep, alongside
+  the same author's quantum Kazhdan–Lusztig result (tracked separately below) in modular/
+  quantum representation theory. Confidence `medium`.
+
+### Proof of the quantum Kazhdan–Lusztig conjecture for quantum loop algebras
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-1/2 DOMAIN-CADENCE LANDMARK, human-authored. The Kazhdan–Lusztig conjecture
+  (1979) and its quantum-group analogues are a central theme in representation theory; the
+  quantum-loop-algebra case (studied e.g. by Varagnolo–Vasserot) has remained open. Qiyue Tang
+  proves it for finite-dimensional type-1 representations of untwisted quantum loop algebras
+  at every non-root-of-unity complex parameter. Standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00322v1 — Qiyue Tang, "The Quantum
+    Kazhdan–Lusztig Conjecture for Quantum Loop Algebras": full description opened and read via
+    the hexagonmath `/rss/all` feed this session.
+- notes: 2026-11-12 (daily, seed creation): caught in today's hexagonmath.org sweep. Confidence
+  `medium`.
+
+### Resolution of the Hollmann–Xiang conjectures on Kloosterman polynomials (finite fields)
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. Yi Li completes the Hollmann–Xiang
+  classification of which linearized maps $L_{1,u}$ permute the trace-1 set of
+  $\mathbb F_{2^n}$ (proving the necessity direction, their sufficiency being an earlier
+  theorem), and separately proves their Conjecture 4.5 characterizing injective Kloosterman
+  polynomials. Technical finite-fields/coding-theory mathematics; standard unrefereed-preprint
+  caution; narrower-profile than the field's household-name conjectures, flagged alongside the
+  other hexagonmath items above for the weekly's seed-bar-consistency review.
+- evidence:
+  - 2026-11-11 (v1) — https://arxiv.org/abs/2611.13848 — Yi Li, "A Moment Proof of the
+    Hollman-Xiang Conjectures on Kloosterman Polynomials": abstract + author verified via
+    direct arXiv page fetch this session.
+- notes: 2026-11-12 (daily, seed creation): caught via today's math category title-triage (NOT
+  hexagonmath — a genuine arXiv primary). Confidence `medium`.
 
 ## observation_queue
 
@@ -8573,6 +8766,100 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   neutrino/collider-adjacent experimental physics. DUNE was a long-standing "(agent: add...)"
   candidate in SOURCES.md's Experiments block; promoted to a tracked entry this session (see
   SOURCES.md). Opened directly via `tvly extract` this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.13266 — Croft, García-Moreno, Pani, "Challenging the
+  hoop conjecture with spinning pancakes and baguettes": tests (not resolves) Thorne's hoop
+  conjecture on axisymmetric rotating-dust initial data; finds it holds (within ~14-25% depending
+  on the mass definition used) for the configurations studied. Axis 3, numerical general
+  relativity. Below bar (a numerical test, not a resolution). Abstract verified via direct arXiv
+  page fetch this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.13910 — Dai, Zhao, "Pólya's conjecture for hyperbolic
+  balls and Berezin–Li–Yau type inequalities": proves shifted Dirichlet-Pólya/Berezin–Li–Yau
+  inequalities for hyperbolic balls, giving a concrete domain family satisfying Laptev's 2023
+  conjectures, plus a global estimate toward a 1996 Strichartz conjecture. Axis 1, spectral
+  geometry. Below bar (a specific domain family, not the general conjectures; Laptev's
+  conjectures are only 3 years old, not long-standing). Abstract verified via direct arXiv page
+  fetch this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.14161 — Shilun Wang, "Sun's conjecture on a certain
+  ternary quadratic form": proves an asymptotic (sufficiently-large-integer) form of one of
+  Zhi-Wei Sun's representation conjectures via the Shimura lift/Waldspurger's formula. Axis 1,
+  number theory. Below bar (asymptotic, not a fully effective resolution). Abstract verified via
+  direct arXiv page fetch this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.13226 — de Winter, Tokarsky, "Unilluminable rooms:
+  minimal examples, classifications and exceptions": new vertex-minimal "lattice room"
+  constructions extending Tokarsky's classical mutually-invisible-points problem, with exhaustive
+  computer-search-based classifications. Axis 1, discrete geometry. Below bar (a construction/
+  classification extension, not a named-conjecture resolution). Abstract verified via direct
+  arXiv page fetch this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.14144 — Shen, Su, "Linear circle quotients of products
+  of odd-dimensional spheres: classification and geometric applications": classifies orbit
+  manifolds of free diagonal circle actions on $S^{2n+1}\times S^{2n+1}$, with applications to
+  moduli spaces of Einstein metrics and Sasakian structures. Axis 1, geometry/topology. Below bar
+  (a classification result, not a named-conjecture resolution). Abstract verified via direct
+  arXiv page fetch this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.14367 — Geunho Lim, "No 13-vertex triangulation of the
+  three-torus": excludes the 13-vertex case of Lutz's conjecture that Kühnel–Lassmann's 15-vertex
+  triangulation is vertex-minimal (14-vertex case remains open). Axis 1/5, combinatorial topology.
+  Below bar (partial — one of two remaining cases). Abstract verified via direct arXiv page fetch
+  this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.13208 — Valeriano Aiello, "Thompson indices of knots and
+  the invertibility problem": computes four Thompson-group knot indices for all prime knots up to
+  13 crossings; finds hundreds of non-invertible knots distinguishable by these indices, incl.
+  the Conway knot vs. its Kinoshita–Terasaka mutant. Axis 1, knot theory. Below bar (a
+  computational enumeration, not a named-conjecture resolution) — candidate study-shelf item for a
+  future session. Abstract verified via direct arXiv page fetch this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.14234 — Alexander Klotz, "LLM-Assisted Advances in the
+  Ropelength Problem": axis-5 AI-WATCH, ordinary-math result. Improves the universal ropelength
+  lower bound (crossing-number exponent 3/4) from $L\ge1.105C^{3/4}$ to $L\ge2.0996C^{3/4}$ and
+  gives a new ropelength-vs-stick-number bound, with the assistance of "ChatGPT-5.6 Luna" (a
+  consumer-facing OpenAI model name not previously seen on this ledger — distinct from the
+  internal Astra/Sol models of the mass-disclosure trend). Author states the LLM could not help
+  with several other sub-problems. Below bar (incremental numerical improvement). Abstract
+  verified via direct arXiv page fetch this session.
+- 2026-11-12 — https://hexagonmath.org/2611.00339v1 — Manvir Jaswal, "An effective André–Oort
+  theorem for Shimura varieties": gives effective (explicit) bounds for special subvarieties in
+  Shimura varieties, CONDITIONAL on a zero-free-region result of Cureton–Thorner (already staged
+  in SOURCES.md's hexagonmath promotion note, Lean-formalized). Axis 1, arithmetic geometry. Below
+  bar (the qualitative André–Oort theorem was already resolved ~2014; this is a conditional
+  effectivization, not a first resolution). Opened and read via the hexagonmath `/rss/all` feed
+  this session.
+- 2026-11-12 — https://hexagonmath.org/2611.00321v1 — Goldstein, Guevara, "Osterwalder–Schrader
+  axioms for scalar QED$_3$ in the Higgs phase": a rigorous constructive-QFT result verifying the
+  Osterwalder–Schrader axioms for the 3D lattice abelian Higgs model in the continuum limit. Axis
+  2, mathematical physics (constructive field theory is a rare, high-rigor sub-area). Below bar
+  (no named-conjecture resolution claimed) but a solid candidate for a future study pick. Opened
+  and read via the hexagonmath `/rss/all` feed this session.
+- 2026-11-12 — https://hexagonmath.org/2611.00344v1 — Sunay Venkat, "Exact projector-rank
+  thresholds for state-independent contextuality": constructs, for every rank $r$, an exclusivity
+  graph exhibiting state-independent contextuality only at rank $r$ and above. Axis 4, quantum
+  foundations. Below bar (a construction, not a named-conjecture resolution). Opened and read via
+  the hexagonmath `/rss/all` feed this session.
+- 2026-11-12 — https://hexagonmath.org/2611.00329v1 — Antony Lewis, "Genuinely multipartite bound
+  entanglement of three qubits": exhibits a three-qubit PPT state whose entanglement is bound
+  under all three bipartitions yet is genuinely multipartite. Axis 4, quantum information/
+  foundations. Below bar (a construction, not a named-conjecture resolution). Opened and read via
+  the hexagonmath `/rss/all` feed this session.
+- 2026-11-12 — https://hexagonmath.org/2611.00320v1 — Zhang, Xuan, "An Elementary Proof of
+  Fundamental Theorem of Algebra over Rationals": axis-5 AI-WATCH ("with the aid of AI," unnamed
+  model) — a constructive/elementary proof that for a nonconstant rational-coefficient polynomial
+  and any rational $\varepsilon>0$, a rational complex number exists with $|Q(f(z))|<\varepsilon$.
+  Below bar (an elementary/alternative proof technique, not a new result). Opened and read via the
+  hexagonmath `/rss/all` feed this session.
+- 2026-11-11 — https://arxiv.org/abs/2611.14512 — Bajaj, Lin, "Solving the SU(2) BFSS model": a
+  NUMERICAL (not closed-form) ground-state and scattering-amplitude study of the SU(2) BFSS
+  matrix model, confirming bound states "closely related to the bound states whose existence
+  was recently discovered by OpenAI." Axis 2, string/M-theory (BFSS matrix model). Below bar
+  (numerical study); the referenced OpenAI bound-state discovery is NOT yet independently
+  located/verified this session — chase next session (check the already-tracked OpenAI
+  mass-disclosure trend and openai.com/research for a BFSS/matrix-model item). Abstract verified
+  via direct arXiv page fetch this session.
+- 2026-11-12 (unverified, primary not located this session) — Sabine Hossenfelder's blog
+  ("Backreaction"), "Something Isn't Adding Up in Particle Physics": reports a long-standing
+  anomaly in particles containing bottom quarks that has grown to 4.8σ, "just short of a
+  discovery" — likely a continuation of the LHCb/Belle II B-meson lepton-flavor-universality
+  anomaly saga, but the post names neither the experiment/collaboration nor an arXiv id, and no
+  matching primary was found via INSPIRE-HEP or `tvly search` this session. Axis 3, experimental
+  HEP. Community-pulse intake only — chase the underlying collaboration paper next session
+  (candidate search terms: LHCb/Belle II, "4.8 sigma", B-meson anomaly, 2026).
 ## source_rotation
 
 Append-only coverage log MOVED to `logs/source_rotation.md`. Each run APPENDS one dated line
@@ -8589,6 +8876,11 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-12 — [Osterwalder–Schrader axioms for scalar QED₃ in the Higgs phase](https://hexagonmath.org/2611.00321v1)
+  (Goldstein, Guevara) — a rare rigorous constructive-QFT result: verifies the
+  Osterwalder–Schrader axioms for the 3D lattice abelian Higgs model in the continuum limit —
+  worth knowing as a genuine rigor achievement in a field dominated by non-rigorous/AI-claimed
+  results this session; opened directly this session.
 - 2026-11-11 — [Cluster Algebras, formalized in Lean](https://axiommath.ai/research/cluster-algebras-formalized-in-lean)
   (AxiomMath) — a Lean library covering the first seven chapters of Fomin–Williams–Zelevinsky's
   "Introduction to Cluster Algebras," continuing AxiomMath's formalization-of-foundational-texts

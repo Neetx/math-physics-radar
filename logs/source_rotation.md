@@ -4606,3 +4606,107 @@ appearing twice across categories) verified present on a discrete evidence/queue
 missing. `observation_queue` +8 (well past the ~40 soft cap, domain-cadence-expected, not burned
 down this run); study_shelf +1; TRENDS.md Active-trends count 91→96. README.md and SUMMARY.md
 regenerated in the same commit.
+
+2026-11-12 (Thu, Pass 1, scheduled) — FULL CHECK; first daily since 2026-11-11 (no gap). Load-
+state: clone was shallow at session start (`git rev-parse --is-shallow-repository` → true);
+`git fetch --unshallow origin` run before any orphaned-branch check, per the 11-09/11-10
+precedent — this correctly resolved an initial false alarm where `claude/modest-bohr-9415kc` and
+`claude/peaceful-faraday-n2ehd0` appeared to share NO common history with `origin/main` (merge-base
+failed) under the shallow clone; after unshallowing, both are confirmed ordinary ancestors of
+`main` (merge-base succeeds, main strictly ahead) — no orphaned work, no action needed, no false
+alarm reported. All `radar:` commits of the last 7 days have matching reports (11-02 through 11-11
+daily + W45 weekly all present). Tooling: `tvly` ABSENT at session start, reinstalled via `pip
+install -q tavily-cli`, authenticated normally thereafter.
+
+Primary sweep (radar-source-sweep): arXiv's own 2026-11-12 batch had NOT posted at session time
+(confirmed via both the per-category RSS feeds — 0 items in every category checked, `lastBuildDate`
+2026-11-12 05:00 UTC but empty — and the HTML `/list/<cat>/recent` pages, whose newest heading was
+still "Wed, 11 Nov 2026" across all 35 categories checked) — a genuine posting delay, not a skipped
+check; cross-referenced every id found against TRENDS.md to confirm the Nov-11 batch was already
+substantially covered by yesterday's daily. Full 35-category batch fetched anyway (20 math:
+CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT + 15 physics: hep-th/hep-ph/hep-ex/
+hep-lat/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/nucl-th/nucl-ex/
+nlin.SI, via `arxiv.org/list/<cat>/recent` HTML listings — the API itself (`export.arxiv.org/api/
+query`) hit a transient `429 Rate exceeded` that did not clear within this session's retry budget,
+so the listing pages substituted; no coverage gap, same underlying data) — title-triaged in full;
+cross-checked all keyword hits (conjecture/theorem/disprov/counterexample/refut/resolv/solv/
+classif) against TRENDS.md. THREE new seeds from this sweep, all human-authored ordinary
+mathematics: Ashbaugh's 1999 buckling eigenvalue-ratio conjecture (disproved, 2611.13018),
+Comon's conjecture over the reals (disproved, 2611.13823), and the Hollmann–Xiang conjectures
+on Kloosterman polynomials (fully resolved, 2611.13848 — a genuine arXiv primary, NOT
+hexagonmath, despite its narrower profile; flagged alongside the hexagonmath items below for the
+weekly's seed-bar-consistency review) plus 8 further below-bar queue adds (hoop-conjecture test,
+Pólya/Berezin–Li–Yau for hyperbolic balls, Sun's
+conjecture asymptotic form, Tokarsky unilluminable-rooms extension, orbit-manifold classification,
+13-vertex 3-torus triangulation exclusion, Thompson-indices-of-knots computation, LLM-assisted
+ropelength advances) and one existing-trend evidence append (PRX's "Noninvertible Bosonic Chiral
+Symmetry on the Lattice," Fidkowski–Xu–Zhang, a 20th+ independent group on the non-invertible-
+symmetries trend). Amendment J full-abstract pass (today's category: math.GT, continuing the
+restarted lap after AT; 12 fresh entries, all read in full, incl. an LLM-assisted item) — 0
+title-blind landmark catch beyond what title-triage already found. Primary feeds: CERN Courier,
+Fermilab, Simons Foundation, PRL/PRX/RMP (RSS, curl, 200), Quantum journal, SciPost API, INSPIRE-HEP
+most-recent — all opened, routine beyond the PRX catch above. Nature Physics: HEALED again this
+session — plain `WebFetch` on the feed URL returned full titles/dates cleanly (no empty-CDATA, no
+auth-wall), 0 on-axis catch (altermagnetism, Nobel-neutrinos retrospective, off-axis bio). IceCube
+category-feed — routine "Week N at the Pole" posts, 0 catch. LIGO `/news` — returned STALE content
+this session (newest item dated May 26 2026, 5+ months old, despite being fetched live) — a new,
+different failure mode from the prior Cloudflare-block/503 degradations, logged `degraded: stale
+content returned, re-test next session`, not yet heal-owed (first occurrence of this mode). DESI —
+homepage fetched but gave only static widget labels, no dated content this session (time-boxed, not
+treated as degraded — the page itself loaded fine). hexagonmath.org `/rss/all` (50-item full feed,
+all dated within the last ~75 minutes of session start — a genuine firehose burst) — SEVEN new
+seeds (LRX-generators S_n diameter [Lean-formalized], sharp ionization bounds for helium/lithium
+[Lieb 1984], Marcus-Minc conjecture, Kim-Roush 1981 conjecture, Foregger-Sinkhorn tie-point
+conjecture, Humphreys support conjecture, quantum Kazhdan-Lusztig conjecture for quantum loop
+algebras) + evidence appends to TWO existing trends (an independent technical audit of Soulé's abc
+preprint, finding the construction structurally capped below full abc regardless of Theorem A's
+truth — vetting-status note, no stage/confidence change; a second, independent, more-classical
+proof of Glazer et al.'s ℤ-Diophantine-in-ℚ theorem — confidence low→medium) + 4 further below-bar
+queue adds (André-Oort effectivization [conditional on Cureton-Thorner], Osterwalder-Schrader QED3
+axioms [also study_shelf], projector-rank contextuality thresholds, bound tripartite entanglement,
+AI-assisted elementary FTA-over-rationals proof). CAVEAT flagged in `logs/strategy_notes.md`: 8 of
+today's 10 new seeds trace to a single ~75-minute hexagonmath feed fetch — a structural
+volume concern for the weekly, not just a seed-bar-fame question. SciPost: routine, 0 catch beyond
+already-known items. AI-watch lane: agmai.org, axiommath.ai/research/blog, vals.ai/blogs — all
+unchanged since already-tracked items. openai.com/research — `WebFetch` 403'd this session (new
+failure mode; `tvly search` fallback found no item beyond the already-tracked Aug/Sep/Oct
+disclosures) — `degraded: WebFetch 403, tvly fallback found nothing new, re-test next session`.
+anthropic.com/research — opened, 8 recent posts, all AI-capability/agent-method content (axis-5
+out-of-scope per the hard rule), 0 on-axis catch. cims.nyu.edu/~tristanb/ — opened, no new dated
+preprint, standing structural gap unresolved. icarm.io `/feed` — opened cleanly this session (no
+repeat of yesterday's anomalous empty body), unchanged since the 10-14 Third Batch era. GitHub
+watch: `api.github.com`/`<repo>/releases.atom` both 403 as expected (proxy-scoped); `WebFetch` on
+the `.atom` URLs recovered cleanly for lean4 (v4.36.0-rc2 unchanged), mathlib4 (daily `master-*`
+auto-tags through 11-11, routine), and Rocq (9.3.0 unchanged) — all routine, 0 new release. Fork-
+tree/profile watch: not independently re-run this session (time-boxed; no lane pointed to a
+specific repo/user). Community pulse (radar-pulse): Hacker News front page (Algolia API) — 0
+on-axis catch (general tech/AI news). MathOverflow `/feeds` (curl) — routine Q&A, 0 catch.
+Mathstodon public timeline — generic fediverse noise, 0 catch. r/math/r/mathematics direct `.rss`
+— standing hard block, not independently re-tested this session (no lane needed the fallback).
+Digest/explainer blogs (DAILY tier): Quanta, Gowers, Kalai, Baez, Strassler, Backreaction (RSS/curl)
+— all opened; Tao's blog yielded "Lean Grimoire" (an educational Lean-logic game rebuild, not a
+research-result disclosure — correctly not captured) and the already-known "Six Math Essentials"
+book item; Backreaction yielded an unverified bottom-quark-anomaly pointer (queued, primary not
+located — see TRENDS.md observation_queue). Woit — `curl` 000 (TLS), not independently retried via
+`tvly` this session (time-boxed). n-Category Café — not independently re-tested this session
+(time-boxed; standing non-consecutive transient). Scientific American — not independently
+re-checked this session (time-boxed; no lane pointed to it). Exploration slot (radar-explore,
+OFF-AXIS rotation per the 11-11 note's "next: try math.LO or math.OA" — both are actually IN the
+in-scope math-category rotation already swept above, so NOT genuinely off-axis; picked math.NA
+(numerical analysis) instead, which is NOT in the in-scope set): 29 fresh entries reviewed
+significance-first — all routine computational-PDE/finite-element/operator-learning papers,
+heavily ML-adjacent (physics-informed neural nets, operator inference) — 0 catch, correctly
+off-axis for this ledger (sibling AI/ML-radar territory); roster continues, next: math.OC-adjacent
+applied areas or a genuinely unswept venue. Self-heals: none attempted this session (no `degraded:`
+marker crossed the 2-occurrence heal-owed bar; the LIGO stale-content and openai.com/research 403
+are both first-occurrence new failure modes, logged for next-session retest, not yet heal-owed).
+
+Trend recalibration (radar-ledger-update): TEN new seed trends (listed above; TRENDS.md now at 106
+trends, up from 96) + evidence appends to THREE existing trends (non-invertible-symmetries trend,
+abc-conjecture trend [vetting-status note only, no stage/confidence change], ℤ-Diophantine-in-ℚ
+trend [confidence low→medium]). Dormancy probe: not re-run in full this session (due ~2026-11-12
+per the 11-10 report's own note — ran out of session budget after the primary-sweep/hexagonmath
+volume this produced; carry to next session, flag in report). Convergence check: queue scanned
+during triage, no sub-theme yet clears the ≥3-independent-group bar for promotion.
+`observation_queue` +12; study_shelf +1; TRENDS.md Active-trends count 96→106. README.md and
+SUMMARY.md regenerated in the same commit.

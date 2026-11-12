@@ -2142,3 +2142,24 @@ coding) this week. No redirection needed.
   bar is confirmed as the actual standing rule) or write down an explicit fame/significance
   tiebreaker that justifies holding some full resolutions at queue — right now the daily-to-daily
   practice is inconsistent and undocumented.
+
+- 2026-11-12 (daily) — Resolved today's instance of the 11-11 flag (2) by applying the LENIENT
+  interpretation uniformly (ANY full resolution/disproof of a named conjecture → seed, regardless
+  of subjective fame), since that is what the ledger's own dominant history (looking across all
+  106 trends, most of comparable or narrower profile than today's additions) already does, and
+  picking a THIRD inconsistent ad-hoc rule today would only add noise to an already-flagged
+  problem. Result: 10 new seed trends in one run — the highest single-day count this radar has
+  recorded. Two flags for the weekly: (1) RATIFY OR OVERRIDE this interpretation explicitly in
+  `routines/daily.md` or `TRENDS.md`'s header, so the next daily has a documented rule rather than
+  precedent-reading; (2) a NEW, more urgent structural question this session surfaced: 7 of the 10
+  new seeds (and 4 of today's 12 queue adds) trace to a SINGLE ~75-minute fetch of hexagonmath.org's
+  `/rss/all` feed (50 items, all dated within that window) — this is a firehose, not a slow-field
+  trickle, and treating every one of its "conjecture proved" claims at the same per-item weight as
+  a single hard-won arXiv landmark risks the ledger becoming hexagonmath-shaped rather than
+  field-shaped. Consider for the weekly: (a) a per-source daily cap on NEW seed creation (e.g.
+  hexagonmath items beyond the first N/day auto-queue instead of auto-seed, re-evaluated weekly),
+  (b) downgrading hexagonmath's caution tier below "same as arXiv" given its demonstrated output
+  VOLUME (not correctness) is structurally unlike arXiv's submission-reviewed-by-a-human-author
+  pace, or (c) explicitly affirming that volume is irrelevant and every qualifying item should be
+  seeded regardless of source concentration. Not pre-empting the choice — flagging for the
+  curator-adjacent weekly process per the self-amendment cooling-period rule.
