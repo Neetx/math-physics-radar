@@ -2163,3 +2163,16 @@ coding) this week. No redirection needed.
   pace, or (c) explicitly affirming that volume is irrelevant and every qualifying item should be
   seeded regardless of source concentration. Not pre-empting the choice — flagging for the
   curator-adjacent weekly process per the self-amendment cooling-period rule.
+
+- 2026-11-13 (daily) — Closed the 3-session carry-forward gap: the dormancy probe (deferred
+  2026-11-10, 2026-11-11, 2026-11-12 per each day's own "ran out of budget" note) was finally
+  re-run in full this session. Finding: no trend currently qualifies for a dormancy move — the
+  nearest is Marton's-conjecture/PFR (last_evidence 2026-09-15, 59 days, one day short of the
+  60-day line) — and the two apparently-old `last_evidence` fields elsewhere (Graham's
+  rearrangement conjecture, M23-Galois-group) are confirmed backfill-precedent cases already
+  correctly annotated. No weekly action needed on this specific item; flagging only so the
+  carry-forward note stops recurring. Separately: today's hexagonmath `/rss/all` batch (another
+  ~50-item, single-fetch burst) produced 3 more new seeds and 2 evidence appends, continuing the
+  volume pattern the W45 weekly already flagged for curator-adjacent review (per-source daily cap
+  on seed creation / caution-tier adjustment / explicit "volume is irrelevant" ratification) — not
+  re-litigating here, just confirming the pattern persists into this week.

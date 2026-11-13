@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-12
+Last updated: 2026-11-13
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -638,7 +638,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   on `study_shelf`.
 
 ### Irrationality of ζ(5) (Fauzan; independently Lean-verified by Firsching)
-- stage: seed | confidence: medium | first_seen: 2026-09-26 | last_evidence: 2026-10-15
+- stage: seed | confidence: medium | first_seen: 2026-09-26 | last_evidence: 2026-11-12
 - what: a claimed proof that ζ(5) is irrational (Aabir Fauzan, off-arXiv, Zenodo, 2026-09-17) — the
   first individual-odd-zeta-value irrationality result since Apéry's 1978 proof for ζ(3) — held on
   this ledger's `observation_queue` since 2026-09-25 with EXTREME hype-skepticism caveats (no author
@@ -722,6 +722,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     re-verified this session (abstract-level check only) — worth a closer look if it recurs as a
     live watch item. No change to Fauzan's own Zenodo record or Firsching's Lean repo. Stage held
     `seed`/medium (still no traditional peer review on the anchor claim).
+  - 2026-11-13 (daily): a fourth author group extends the anchor technique — Fischler, Lai,
+    Sprang, Zudilin, "Many more odd zeta values are irrational"
+    (https://arxiv.org/abs/2611.16156, v1 2026-11-12) — improves the known asymptotic count of
+    irrational odd zeta values, explicitly citing "the Hankel determinant method that appeared in
+    the proof that ζ(5) is irrational posted by Fauzan" as one of its combined techniques. Wadim
+    Zudilin is a leading transcendence-number-theory specialist — a credible author independently
+    building on the anchor method (not merely commenting on it), the strongest methodological
+    endorsement this trend has received yet. Caught via today's math.NT title-triage sweep.
+    last_evidence advances 2026-10-15 → 2026-11-12. Confidence held `medium` (the anchor claim
+    itself remains unrefereed). Abstract/authors verified via arXiv API this session.
 
 ### Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)
 - stage: seed | confidence: medium | first_seen: 2026-09-28 | last_evidence: 2026-10-28
@@ -1011,6 +1021,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     identity via "selected-entry matrix multiplication"), a positive independent-engagement/
     vetting signal distinct from the named co-authors or the Lean formalization. Abstract/authors
     verified via arXiv API this session; found via today's exploration-slot pass over cs.CC.
+  - 2026-11-12 — https://hexagonmath.org/2611.00388v1 — "Which Fine-Grained Lower Bounds Survive
+    the Refutation of 3SUM and APSP?": a follow-on analysis determining which conditional lower
+    bounds derived from the now-refuted hypotheses still survive, and extending Majdoddin's
+    triangle-counting method to a wider exponent range ($\varepsilon<0.17843$ when prescribed
+    edges are known in advance), confirming Majdoddin's own numerical estimate. Opened and read
+    via the hexagonmath `/rss/all` feed this session.
 - notes: 2026-10-09 (daily, seed creation): caught via the GitHub repo-watch lane — the
   `anthropics/formal-math` README's project table gained a SECOND row (`3sum-apsp/`, alongside the
   already-tracked `zeta23/` zeta-zeros formalization); the underlying arXiv paper itself (2610.06783,
@@ -1547,7 +1563,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   Also added to `study_shelf`.
 
 ### Finiteness of planar central configurations for five bodies (Smale's sixth problem)
-- stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-16
+- stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-11-12
 - what: axis-1 DOMAIN-CADENCE LANDMARK (resolution of a named open problem): settles, for the
   5-body case, Smale's sixth problem (from Stephen Smale's 1998 list of mathematical problems for
   the 21st century) — whether the planar n-body problem has only finitely many central
@@ -1577,6 +1593,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     computer-algebra certificates publicly posted (hexagonmath mirrors/companions the arXiv
     posting) — a genuine vetting-positive signal (formal verification) for an otherwise unrefereed
     single-author preprint. Opened directly via `WebFetch` this session.
+  - 2026-11-12 — https://hexagonmath.org/2611.00377v1 — "Smale's sixth problem for six bodies in
+    the plane: finiteness of central configurations for generic masses, with a proof formalized
+    in Lean": a THIRD author effort on the n=6 program (after Chen–Tong's Part I above) — proves
+    finiteness for six bodies for all positive masses OUTSIDE a proper algebraic exceptional
+    subset (which the paper only partially characterizes); full n=6 finiteness for EVERY mass
+    choice remains explicitly open. A genuine advance, not a closure — same partial-progress
+    character as the Albouy–Kaloshin n=5 precedent this trend's own `what` cites. Lean-formalized
+    (kernel-checked computations). Opened and read via the hexagonmath `/rss/all` feed this
+    session.
 - notes: 2026-10-12 (daily, seed creation): caught in the full math.DS category sweep
   (2026-10-09 submission batch). Watch for expert/community engagement (celestial-mechanics
   specialists, Smale-problems trackers) and whether the method generalizes to n=6+.
@@ -1590,6 +1615,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     group). last_evidence advances 2026-10-16 → 2026-10-25. Confidence held at `medium` pending
     community/referee engagement — a self-formalization is a positive signal but not independent
     corroboration.
+  - 2026-11-13 (daily): a third n=6 effort (above, hexagonmath 2611.00377), Lean-formalized but
+    still only a partial-mass-set result — n=6 finiteness for every positive mass remains open.
+    last_evidence advances 2026-10-25 → 2026-11-12. Confidence held `medium`. Caught via today's
+    hexagonmath `/rss/all` sweep.
 
 ### GW231123 — the most massive binary black-hole merger yet detected (LIGO–Virgo–KAGRA)
 - stage: seed | confidence: medium | first_seen: 2026-10-12 | last_evidence: 2026-10-08
@@ -1683,6 +1712,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     OpenAI's own claim (the watched condition) or another AI-generated exposition; no byline/author
     metadata found this session. Flag for next session to clarify. Unrefereed preprint — claim; not
     independently assessed for correctness this session.
+  - 2026-11-12 — https://arxiv.org/abs/2611.16665 — Xin Hang Ji, "Proof of the Quasi Riemann
+    Hypothesis using $\mathbb Q[i]$": a SEVENTH sub-theme effort — a human author explicitly
+    adapts OpenAI's original cubic-Gauss-sum method to quartic Gauss sums over $\mathbb Q(i)$,
+    obtaining a zero-free half-plane $\Re s>599/600$ for $\zeta_{\mathbb Q(i)}(s)$ (and hence for
+    $\zeta(s)$ itself) — a weaker bound than OpenAI's 7/8 but via an independently-worked route
+    over a different number field, the kind of direct human re-derivation this trend's watch
+    condition has sought since creation. Caught via today's math.NT title-triage sweep.
+    last_evidence advances 2026-10-30 → 2026-11-12. Abstract/author verified via arXiv API this
+    session; not independently assessed for correctness (unrefereed preprint — claim).
 - notes: 2026-10-13 (daily, seed creation/promotion): caught via today's MathOverflow sweep — two
   fresh threads (2026-10-12), Benjamin Durkan proposing a Polymath-type verification project ("the
   proof proffered by OpenAI is quite opaque... it would be beneficial for humans to break down the
@@ -3483,6 +3521,26 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - notes: 2026-11-09 (daily, seed creation): caught via the same hexagonmath gap-recovery sweep as
   the finite-fields-factorization trend above (same author, same burst, ids 00120-00138).
 
+### Complete Lean formalization of Faltings' Theorem (Mordell Conjecture) — AxiomMath
+- stage: seed | confidence: low | first_seen: 2026-11-13 | last_evidence: 2026-11-12
+- what: axis-5 WATCH + axis-1 formalization landmark, EXTREME caution tier (same as the
+  already-tracked CFSG-in-Lean and Weil-conjectures-in-Lean claims from the same organization —
+  no outside verification of AxiomMath's claims exists yet). Faltings' Theorem (the 1983 proof of
+  the Mordell Conjecture: a curve of genus ≥2 over ℚ has only finitely many rational points) is
+  one of the deepest results in arithmetic geometry. AxiomMath claims a complete Lean
+  formalization, reusing components from its own prior Stacks Project formalization.
+- evidence:
+  - 2026-11-12 — https://axiommath.ai/research/faltings-theorem-formalized — AxiomMath blog
+    announcement; names the companion repository `github.com/AxiomMath/Mordell`. Opened and read
+    directly via `curl` this session.
+- notes: 2026-11-13 (daily, seed creation): caught via today's axiommath.ai/research/ sweep.
+  Confidence `low` (not `medium`): unlike the CFSG/Weil claims, this session could not reach
+  `github.com/AxiomMath/Mordell` directly (GitHub proxy-scoping) to confirm a `sorry`-free/
+  kernel-checked status — the blog post itself does not state one (no "sorry"/"kernel"/"Mathlib"
+  mention found in the page text this session). Watch for: direct repo verification (via `tvly
+  extract` next session), any outside review, and whether this is held to the same CFSG-style
+  "peer-review before being merged into mathlib" standard.
+
 ### Complete Lean formalization of the Weil Conjectures (AxiomMath)
 - stage: seed | confidence: low | first_seen: 2026-11-09 | last_evidence: 2026-11-06
 - what: axis-5 LANDMARK formalization (EXTREME caution tier — same brand-new org as the
@@ -3657,7 +3715,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   corroboration yet).
 
 ### Disproof of Mazur's finite-components conjecture — ℤ Diophantine in ℚ (Glazer et al., AI-heavy, unrefereed preprint — claim)
-- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-12
+- stage: seed | confidence: high | first_seen: 2026-11-10 | last_evidence: 2026-11-12
 - what: axis-5 WATCH + axis-1 DOMAIN-CADENCE LANDMARK (Diophantine definability / Hilbert's tenth
   problem). Elliot Glazer, working with OpenAI Astra 6/Sol 6.1 and Anthropic Claude Opus 5.5
   (auditing by Fable 5.1), claims an explicit quartic/degree-$2\uparrow\uparrow7$ polynomial
@@ -3689,6 +3747,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     and Serre's conjecture (Khare–Wintenberger/Kisin), Gross–Zagier, and the Green–Tao–Ziegler
     theorem) resting on published theorems rather than Glazer et al.'s AI-heavy/incomplete-Lean
     construction. Opened and read via the hexagonmath `/rss/all` feed this session.
+  - 2026-11-12 — https://arxiv.org/abs/2611.16130 — Ashay Burungale, "A Diophantine definition
+    of $\mathbb{Z}$ in $\mathbb{Q}$": a THIRD, independent proof of the same theorem, posted on
+    arXiv (not hexagonmath/GitHub) by an established, well-published number theorist (Iwasawa
+    theory, UT Austin) — explicit degree-4 polynomial, states the proof "is inspired by OpenAI's
+    work... [but] does not use the 2-converse or the 2-adic" machinery of the AI-heavy original.
+    Abstract/author verified via the arXiv API this session.
 - notes: 2026-11-10 (daily, seed creation): discovered via community-pulse (r/math megathread,
   2026-11-07), verified at the primary (GitHub repo) directly this session. Stage `seed` (not
   merely queued) per the landmark-single-claim domain adaptation, but confidence held at `low`
@@ -3703,6 +3767,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   independent-corroboration signal per the ≥2-independent-source rule — though this second proof
   is itself only a same-day hexagonmath preprint (unrefereed, same caution tier), so confidence
   moves to `medium`, not `high`. Watch for: a referee/expert check of the Jaswal route.
+  2026-11-13 (daily, confidence raised medium→high): a THIRD independent proof (Burungale,
+  arXiv:2611.16130) clears this ledger's ≥2-independent-authoritative-source bar for `high`
+  confidence — now three structurally distinct routes (Glazer et al.'s AI-heavy/incomplete-Lean
+  construction; Jaswal's elliptic-curve/Shimura-curve route; Burungale's degree-4-polynomial
+  route by an established Iwasawa-theorist) converge on the same disproof of Mazur's conjecture.
+  Caught via today's math.NT title-triage sweep (title keyword "Diophantine"). Still unrefereed
+  at the traditional-journal level (all three are preprints), so this remains `seed`, not
+  promoted to a later stage — the hype-skepticism caution is on peer review, not on independent
+  corroboration. Watch for: a referee report on any of the three, or Mazur's own response.
 
 ### Resolution of the Falconer distance conjecture in all dimensions (OpenAI internal model; independent human exposition)
 - stage: seed | confidence: low | first_seen: 2026-11-11 | last_evidence: 2026-11-10
@@ -3987,6 +4060,104 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     direct arXiv page fetch this session.
 - notes: 2026-11-12 (daily, seed creation): caught via today's math category title-triage (NOT
   hexagonmath — a genuine arXiv primary). Confidence `medium`.
+
+### Proof of Euler's 1747 conjecture on sums of integers with restricted prime factors
+- stage: seed | confidence: medium | first_seen: 2026-11-13 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, a genuine 279-year-old conjecture. In a 1747 letter to
+  Goldbach, Euler proposed that every positive integer congruent to 2 mod 4 is a sum of two
+  positive integers whose prime factors are all congruent to 1 mod 4 (with 1 admissible as a
+  summand). This paper proves it in full: a four-squares representation-counting argument bounds
+  the exceptional cases containing a common prime divisor ≡3 mod 4, reducing to an explicit
+  finite threshold ($64^4$) checked by a finite arithmetic certificate covering the remaining
+  4,194,304 integers. Hexagonmath-hosted; standard unrefereed-preprint caution (no named author
+  found on the page this session — flag to re-check attribution next session).
+- evidence:
+  - 2026-11-12 — https://hexagonmath.org/2611.00370v1 — "Euler's 1747 conjecture on sums of
+    integers with restricted prime factors": full proof via quaternionic Hecke bounds + a finite
+    arithmetic certificate. Opened and read directly via the hexagonmath `/rss/all` feed this
+    session (full description/abstract text retrieved).
+- notes: 2026-11-13 (daily, seed creation): caught via today's hexagonmath `/rss/all` sweep
+  (50-item batch). Watch for: author attribution (not found this session), independent
+  verification of the finite certificate, any named-number-theorist commentary.
+
+### Disproof of Christandl's PPT² (PPT-squared) conjecture (OpenAI internal model; independent human follow-on in low dimensions)
+- stage: seed | confidence: medium | first_seen: 2026-11-13 | last_evidence: 2026-11-12
+- what: axis-4 DOMAIN-CADENCE LANDMARK + axis-5 AI-WATCH, CAPTURE-LEAK CLOSURE from the
+  already-tracked OpenAI mass-disclosure corpus (item #272, internally dated 2026-09-27) — never
+  previously given its own trend despite the same promotion pattern already applied to that
+  corpus's quasi-RH, Yang–Mills and Falconer items. The PPT² conjecture (Christandl, 2012) asked
+  whether the composition of two completely-positive, completely-copositive (PPT) quantum
+  channels is always entanglement-breaking. OpenAI's model constructs an explicit entangled state
+  on $\mathbb C^{10}\otimes\mathbb C^{10}$ with zero distillable secret key, giving a PPT channel
+  $M_{10}\to M_6\to M_{10}$ whose square is not entanglement-breaking — disproving the conjecture
+  in its general (unrestricted) form. Promoted today because independent human follow-on work has
+  now appeared, narrowing where any OTHER such counterexample could live. HEAVIEST
+  unrefereed-preprint caution for the original claim (wholly AI-generated, unreleased OpenAI
+  model); the two follow-on papers are standard hexagonmath-hosted unrefereed preprints.
+- evidence:
+  - 2026-09-27 (internal date; publicly released 2026-10-06) — https://github.com/openai/math/blob/main/preprints/Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026/paper.pdf
+    — OpenAI's own manuscript, result #272 of the mass-disclosure corpus (`CONTENTS.md` entry
+    opened directly via `raw.githubusercontent.com` this session).
+  - 2026-11-12 — https://hexagonmath.org/2611.00386v1 — "The PPT² conjecture holds for
+    spin-factor maps": an independent human proof that the RESTRICTED conjecture (maps whose
+    ranges lie in a spin-factor subalgebra of $M_4$) still holds, explicitly citing the dim-10
+    counterexample as the reason the unrestricted conjecture is now closed and the M4 case is the
+    open frontier. Opened and read via the hexagonmath `/rss/all` feed this session.
+  - 2026-11-12 — https://hexagonmath.org/2611.00387v1 — "On the minimal dimension of
+    range-criterion counterexamples to the PPT² conjecture": shows the specific range-criterion
+    certificate technique used in the dim-10 counterexample CANNOT certify a counterexample on
+    $M_4$ or $M_5$, narrowing the open cases among $(m,k,n)\le6$ to only $(6,6,6)$. Opened and
+    read via the hexagonmath `/rss/all` feed this session.
+- notes: 2026-11-13 (daily, seed creation, CAPTURE-LEAK BACKFILL): discovered via today's
+  hexagonmath `/rss/all` sweep's two follow-on papers, which named the "recently announced"
+  dim-10 counterexample; chased to the OpenAI mass-disclosure corpus via `tvly search` and
+  confirmed directly on `github.com/openai/math`'s own `CONTENTS.md` (result #272) — the same
+  capture pattern already applied to quasi-RH/Yang-Mills/Falconer from this corpus, but this item
+  had sat uncaptured since the 10-06 disclosure. Confidence `medium` (not `low`): two independent
+  human groups have already engaged the mathematical substance (not merely the AI-disclosure
+  event), though neither is a full re-verification of the original dim-10 construction itself.
+  Watch for: a referee check of the OpenAI construction itself, and whether the remaining
+  $(6,6,6)$ open case is resolved either way.
+
+### Undecidability and a counterexample to any-dimensional Hilbert's 17th problem (Debus–Schabert)
+- stage: seed | confidence: medium | first_seen: 2026-11-13 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored arXiv primary, with an axis-4 crossover
+  consequence. Two results: (1) it is UNDECIDABLE whether a symmetric function with rational
+  coefficients is nonnegative in every dimension, answering a question of Acevedo–Blekherman–
+  Debus–Riener — as a direct consequence, deciding dimension-free moment criteria for
+  entanglement in quantum information is also undecidable; (2) a degree-8 homogeneous symmetric
+  function is exhibited that is positive-definite in every dimension but admits NO sum-of-squares
+  multiplier uniform in the dimension — a genuine counterexample showing Artin's solution of
+  Hilbert's 17th problem and the Krivine–Stengle Positivstellensatz have no any-dimensional
+  analog, refuting the any-dimensional Positivstellensätze sought by Levin and Chandrasekaran.
+  Standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-12 (v1) — https://arxiv.org/abs/2611.16690 — Sebastian Debus, Robin Schabert,
+    "Hilbert's 17th problem for symmetric functions: undecidability and a counterexample".
+    Abstract/authors verified via arXiv API this session.
+- notes: 2026-11-13 (daily, seed creation): caught via today's math.AG/math.OC/quant-ph
+  cross-listed title-triage sweep (title keyword "counterexample"). Watch for: independent
+  commentary from real-algebraic-geometry or quantum-information specialists on the
+  entanglement-criterion consequence.
+
+### Resolution of Erdős Problem 521 on real roots of random polynomials
+- stage: seed | confidence: medium | first_seen: 2026-11-13 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored arXiv primary — resolves Erdős Problem 521
+  (from the curated Erdős-problems collection, the same class of named-problem resolution this
+  ledger already tracks for Lehmer's 1965 conjecture and the Komlós/Beck-Fiala conjectures).
+  Proves that for Rademacher random polynomials, the normalized real-root count $N_n/\log n$
+  almost surely has NO limit; more generally, for Kac polynomials with i.i.d. mean-zero,
+  variance-one real coefficients and a finite exponential moment, the $\liminf$ is exactly
+  $1/\pi$, the $\limsup$ is $1/\pi+C_*$ for an explicit constant $C_*$, and the set of
+  subsequential limits is exactly the interval between them. Standard unrefereed-preprint
+  caution.
+- evidence:
+  - 2026-11-12 (v1) — https://arxiv.org/abs/2611.16157 — Zengjing Chen, Xiaodong Liu, Jie Peng,
+    Hanchao Wang, Mingjian Zhang, "The limit point set of real roots of random polynomials: a
+    resolution of Erdős Problem 521". Abstract/authors verified via arXiv API this session.
+- notes: 2026-11-13 (daily, seed creation): caught via today's math.PR title-triage sweep (title
+  states the resolution explicitly). Watch for: independent verification/citation, and whether
+  conjectures.io or another Erdős-problems tracker records this resolution.
 
 ## observation_queue
 
@@ -8860,6 +9031,57 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   matching primary was found via INSPIRE-HEP or `tvly search` this session. Axis 3, experimental
   HEP. Community-pulse intake only — chase the underlying collaboration paper next session
   (candidate search terms: LHCb/Belle II, "4.8 sigma", B-meson anomaly, 2026).
+  SECOND CHASE ATTEMPT 2026-11-13: `tvly search`/INSPIRE-HEP again found only the same social
+  pointer, nLab background, and unrelated ATLAS/B-meson coverage — still no specific matching
+  collaboration paper/arXiv id. Not yet heal-owed (a chase-method, not a source-access, failure);
+  try a different primary-source class next (LHCb's own publication page / INSPIRE
+  author-list search) per the W45 self-amendment proposal on this exact failure pattern.
+- 2026-11-13 — Euclid (ESA) Data Release 1 — https://arxiv.org/abs/2611.16510 (Euclid
+  Collaboration, "Euclid Data Release 1 (DR1) - Data release overview") plus 8 companion
+  instrument/calibration/processing papers same day (astrometric calibration, photometric masks,
+  Science Ground Segment architecture, NIR processing, PHZ galaxy-properties pipeline, external
+  imaging colouring, spacecraft performance, calibration strategy) — Euclid's first major public
+  data release, a flagship ESA dark-energy/cosmology survey mission. Below the landmark bar as
+  caught (an infrastructure/data-release overview, not yet a specific discovery claim built on
+  the data) but a significant axis-3 event worth tracking for follow-on science results. Overview
+  paper's abstract/authors verified via arXiv API this session; companion papers title-triaged
+  only. SOURCE-DISCOVERY: Euclid/ESA is not yet in SOURCES.md's Experiments block (alongside
+  LIGO/DESI/CERN/IceCube/LZ/DUNE) — staged in SOURCES.md → "Discovered-source candidates" this
+  session.
+- 2026-11-13 — hexagonmath.org `/rss/all` batch, below-landmark-bar progress on named open
+  problems (grouped, all opened/read this session, none independently assessed for correctness):
+  "A thrackle on n vertices has fewer than 4n/3 edges" (https://hexagonmath.org/2611.00383v1,
+  progress toward the thrackle conjecture's n-edge bound, not a resolution); "The kissing numbers
+  in dimensions five and seven are at most 43 and 132" (https://hexagonmath.org/2611.00376v1, new
+  upper bounds on the kissing-number problem, exact values remain open in these dimensions); "A
+  lower bound of 0.8366 for Lebesgue's universal covering problem"
+  (https://hexagonmath.org/2611.00382v1, incremental bound improvement on a famous open
+  covering-constant problem); "The Steiner ratio is at least 0.8564"
+  (https://hexagonmath.org/2611.00379v1, lower-bound progress on the Gilbert–Pollak/Steiner-ratio
+  conjecture, conjectured value √3/2≈0.866); "The automorphism group of an extremal [72,36,16]
+  code is trivial" (https://hexagonmath.org/2611.00380v1, rules out nontrivial automorphisms for
+  the long-studied, still-unresolved extremal-code-existence question in coding theory). All five
+  are genuine incremental progress on named/famous open problems, not full resolutions — below the
+  domain-cadence landmark bar, queued rather than seeded.
+- 2026-11-13 (capture-leak backfill, found via today's axiommath.ai/research/ blog-index sweep) —
+  Evan Chen, Ken Ono, et al. (20 authors), "Almost all primes are partially regular" —
+  https://arxiv.org/abs/2602.05090 (v1, 2026-02-04) — proves a density-one subset of odd primes
+  is "partially regular" (a bound on vanishing Galois eigenspaces of cyclotomic class groups),
+  yielding a PARTIAL (density-one, not universal) Vandiver Theorem via Leopoldt reflection —
+  genuine progress toward Vandiver's conjecture (a famous open problem in Iwasawa theory) but not
+  a full resolution. Fully Lean/Mathlib-formalized, "produced automatically by AxiomProver from a
+  natural-language statement," with Ken Ono (a leading number theorist) among the human
+  co-authors — the same credible-coauthor pattern already tracked elsewhere for this
+  AxiomMath/Ono collaboration. Below the landmark bar (partial, not full, resolution) — this item
+  sat uncaptured for ~9 months (predates this radar). Abstract/authors verified via arXiv API
+  this session.
+- 2026-11-13 — https://hexagonmath.org/2611.00373v1 — "Re-proving native_decide facts in Lean's
+  kernel: a study of 16 public packages and a converter": axis-5 WATCH (formal-proof tooling
+  integrity) — surveys whether `native_decide`-dependent facts across 16 public Lean packages can
+  be re-proved via the kernel directly, with a converter tool; relevant background for this
+  ledger's own reliance on "sorry-free"/"kernel-checked" Lean claims as a vetting signal. Below
+  bar (a tooling study, not a new mathematical result). Opened and read via the hexagonmath
+  `/rss/all` feed this session.
 ## source_rotation
 
 Append-only coverage log MOVED to `logs/source_rotation.md`. Each run APPENDS one dated line
@@ -8876,6 +9098,12 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-13 — [Euler's 1747 conjecture on sums of integers with restricted prime factors](https://hexagonmath.org/2611.00370v1) —
+  a genuine 279-year-old conjecture (Euler to Goldbach, 1747), fully resolved: every integer ≡2
+  mod 4 is a sum of two integers whose prime factors are all ≡1 mod 4, closed via quaternionic
+  Hecke bounds plus a finite arithmetic certificate — worth knowing as a clean, complete result
+  in a session otherwise dominated by partial progress and AI-claimed/unrefereed landmarks.
+  Opened directly this session.
 - 2026-11-12 — [Osterwalder–Schrader axioms for scalar QED₃ in the Higgs phase](https://hexagonmath.org/2611.00321v1)
   (Goldstein, Guevara) — a rare rigorous constructive-QFT result: verifies the
   Osterwalder–Schrader axioms for the 3D lattice abelian Higgs model in the continuum limit —

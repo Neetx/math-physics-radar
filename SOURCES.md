@@ -59,7 +59,12 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
   PRIMARY (track the mathematical RESULTS disclosed, never the AI method — sibling AI radars' beat):
   a recurring direct off-arXiv disclosure channel for AI-claimed math/TCS results (the Cycle-Double-
   Cover proof, then "Ten Advances in Mathematics and Theoretical Computer Science" 2026-08-01) —
-  source-discovery promotion after 2 tracked disclosure events on this channel.
+  source-discovery promotion after 2 tracked disclosure events on this channel. DEGRADED
+  2026-11-12/2026-11-13 (2 consecutive dailies, heal-owed): both plain `curl` and the harness's own
+  fetch path return 403 on `/research/`. HEALED 2026-11-13: `tvly extract` on the same URL returns
+  the full rendered page cleanly (confirmed no new math/TCS disclosure beyond the already-tracked
+  Aug/Sep/Oct items) — prefer `tvly extract` first going forward for this source, re-test direct
+  `curl`/`WebFetch` occasionally in case the 403 lifts.
 - Anthropic research-publication pages — https://www.anthropic.com/research **[promoted 2026-09-19
   (W38 weekly); no subscribable feed — access via `tvly search "anthropic.com research math"` /
   direct URL checks when a disclosure is flagged elsewhere (paths seen: `anthropic.com/research/
@@ -155,6 +160,9 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   session (corrects the prior staging note's "no RSS located yet"): `https://icarm.io/feed`**
   (mirrored at `/feed/` and `/rss.xml`; verified via plain `curl -A "Mozilla/5.0"`, HTTP 200,
   RSS 2.0 with full `content:encoded` bodies) — prefer this feed going forward over `tvly extract`.
+  NOTE 2026-11-13: plain `curl` without `-L` now gets a 308 redirect on this exact URL (a new,
+  harmless permanent-redirect, not a block); `curl -L` follows it cleanly, same content as
+  before, 0 new items this session — use `-L` going forward.
   `1stproof.org` (the companion First Proof program site, a distinct domain) is live but has no
   feed (`/feed` 404s) — access stays direct-URL/`tvly extract`, treat as a secondary/companion
   entry to icarm.io rather than a separate source.
@@ -490,6 +498,14 @@ openmathmodel.org (1 sighting still).
   trend's axis-5 watch, same class as the already-tracked Palomar Registry. Verified live via
   `WebFetch` this session (both the Tao post and the mathcommunity.github.io landing page). HELD
   below the ≥2 bar (1 sighting); no feed located yet, access via direct `WebFetch`.
+- Euclid (ESA) / euclid-ec.org — 1 — Data Release 1 (DR1), arXiv:2611.16510 + 8 companion
+  instrument/calibration papers same day — first seen 2026-11-13 — a flagship ESA dark-energy/
+  cosmology survey mission's first major public data release, discovered via today's astro-ph.CO
+  category sweep; structurally the same "Experiments block" pattern as LIGO/DESI/CERN/IceCube/LZ/
+  DUNE (an axis-3 flagship facility this ledger does not yet watch). HELD below the ≥2-sighting
+  bar (1 sighting); candidate home page `euclid-ec.org` (ESA mission site) or
+  `www.cosmos.esa.int/web/euclid` NOT yet independently verified this session (arXiv is the access
+  route for now) — verify a dedicated news/release feed on next sighting.
 - mathhelm.org — 1 — named in a comment on the oai-math-revised launch post as an alternative,
   non-profit venue for discussing OpenAI-generated math papers — first seen 2026-10-26 — NOT
   independently opened/verified this session (comment-only mention, provenance unclear). HELD

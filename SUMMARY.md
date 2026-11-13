@@ -1,8 +1,8 @@
-# Math-Physics Radar — 2026-11-12
+# Math-Physics Radar — 2026-11-13
 
-- **New trend** · [Ashbaugh's 1999 buckling eigenvalue-ratio conjecture](TRENDS.md#disproof-of-ashbaughs-1999-buckling-eigenvalue-ratio-conjecture) — disproved in every dimension (preprint).
-- **New trend** · [Exact diameter of $S_n$ with LRX generators](TRENDS.md#resolution-of-the-exact-diameter-of-sn-with-lrx-generators-open-since-2011) — settles a 2011 conjecture, Lean-formalized (preprint).
-- **New trend** · [Sharp ionization bounds for helium and lithium](TRENDS.md#sharp-ionization-bounds-for-helium-and-lithium-liebs-1984-problem) — extends Lieb's 1984 problem to its first new cases (preprint).
-- **New** · [Noninvertible Bosonic Chiral Symmetry on the Lattice](https://link.aps.org/doi/10.1103/hl1d-99hv) — chiral symmetry in a 3D quantum rotor model (→ [Non-invertible symmetries in QFT](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries)).
-- **New** · [A proof that ℤ is Diophantine in ℚ through congruent-number twists](https://hexagonmath.org/2611.00331v1) — a second, independent proof route (claim) (→ [ℤ Diophantine in ℚ](TRENDS.md#disproof-of-mazurs-finite-components-conjecture---diophantine-in--glazer-et-al-ai-heavy-unrefereed-preprint--claim)).
-- **Study pick** · [Osterwalder–Schrader axioms for scalar QED₃ in the Higgs phase](https://hexagonmath.org/2611.00321v1) — a rare rigorous constructive-QFT result.
+- **New trend** · [Euler's 1747 conjecture](TRENDS.md#proof-of-eulers-1747-conjecture-on-sums-of-integers-with-restricted-prime-factors) — fully resolved after 279 years.
+- **New trend** · [Disproof of Christandl's PPT² conjecture](TRENDS.md#disproof-of-christandls-ppt-ppt-squared-conjecture-openai-internal-model-independent-human-follow-on-in-low-dimensions) — a quantum-entanglement result.
+- **New trend** · [Faltings' Theorem formalized in Lean](TRENDS.md#complete-lean-formalization-of-faltings-theorem-mordell-conjecture--axiommath) — AxiomMath's Mordell Conjecture claim.
+- **New trend** · [Hilbert's 17th problem for symmetric functions](TRENDS.md#undecidability-and-a-counterexample-to-any-dimensional-hilberts-17th-problem-debusschabert) — shown undecidable in general.
+- **New trend** · [Erdős Problem 521](TRENDS.md#resolution-of-erds-problem-521-on-real-roots-of-random-polynomials) — resolved for real roots of random polynomials.
+- **New** · [A Diophantine definition of ℤ in ℚ](https://arxiv.org/abs/2611.16130) — third independent proof (→ [ℤ Diophantine in ℚ](TRENDS.md#disproof-of-mazurs-finite-components-conjecture---diophantine-in--glazer-et-al-ai-heavy-unrefereed-preprint--claim)).
