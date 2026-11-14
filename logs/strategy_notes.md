@@ -2176,3 +2176,54 @@ coding) this week. No redirection needed.
   volume pattern the W45 weekly already flagged for curator-adjacent review (per-source daily cap
   on seed creation / caution-tier adjustment / explicit "volume is irrelevant" ratification) — not
   re-litigating here, just confirming the pattern persists into this week.
+
+- 2026-11-14 (W46 recalibration) — RATIFIED the seed-vs-queue bar-consistency question (flagged
+  11-11, applied ad-hoc 11-12, carried to this weekly per the self-amendment cooling period): the
+  landmark-single-result bar is full-resolution-only and source/fame-blind, documented now in
+  `routines/daily.md` §3. Also closes the hexagonmath-volume question the same way: volume is
+  explicitly irrelevant to the trend bar — a prolific venue is not grounds to hold its qualifying
+  items to a higher bar than arXiv; its existing EXTREME-caution/unrefereed tag is where the
+  extra epistemic risk belongs, not the bar. Amendment L's per-trend relocation + the weekly's own
+  batching (this week found nothing over the ~15-entry trigger) are the intended release valve for
+  ledger-structure size, not under-seeding.
+- 2026-11-14 (W46) — APPLIED the shallow-clone-check amendment (renewed 11-09, validated 11-10,
+  recurred 11-12/11-13, and again THIS session — the 4th+ consecutive session starting shallow):
+  `git rev-parse --is-shallow-repository` + `git fetch --unshallow` now a standing load-state step
+  in both `routines/daily.md` and `routines/weekly.md`, before any orphaned-branch check, per
+  dedicated commit (`radar: amend routines/daily.md, routines/weekly.md — shallow-clone check`).
+- 2026-11-14 (W46) — Amendment I full sweep (209 unique arXiv ids across all 111 active trends,
+  batch-queried via one arXiv API call): 2 genuine previously-undocumented silent revisions found
+  and folded in (2610.34372 Erdős–Nicolas–Sárközy, 2610.39883 pure-semisimplicity counterexample);
+  everything else already documented by a prior week's check, immaterial (≤1 day, predates
+  last_evidence), or a hexagonmath-pseudo-id false positive (4 ids: hexagonmath.org's own numbering
+  happens to collide with an unrelated real arXiv id when queried against the arXiv API — worth a
+  standing caution for future Amendment I sweeps: exclude hexagonmath.org-hosted ids from the arXiv
+  version-history batch query, they are not arXiv papers).
+- 2026-11-14 (W46) — Dormancy: Marton's-conjecture/PFR crossed the 60-day line today exactly
+  (last_evidence 2026-09-15); empty dormancy probe (arXiv channel-specific scan + a news search)
+  → moved to `dormant`. Reconcile-first check (every dormant/backfilled trend against the current
+  60/120-day windows): clean, no mis-staged trend found.
+- 2026-11-14 (W46) — Capture-leak: 1 genuine leak found via a full active-trends ids-appearing-
+  once sweep (arXiv:2605.01757, a lattice-QCD glueball prediction named only as "below-bar
+  context" in the X(2370) trend's evidence prose) — queued. `study_shelf`: 3 of 11 nominally-
+  >120-day picks were genuinely stale by their real add date (8 carried an explicit "shelf-added"
+  annotation protecting them from a raw-date misread) — pruned, all 3 preserved in their original
+  day's report.
+- 2026-11-14 (W46) — **Two new proposals (cooling period, review at W47 if the signal
+  persists):**
+  **(O) Formalize the "shelf-added"/"found"/"surfaced via ... <date>" annotation on `study_shelf`
+  as a REQUIRED convention**, not an ad-hoc one — motivated by this session's pruning pass, where
+  8 of 11 nominally->120-day picks turned out to be <120 days old by their real add date ONLY
+  because a prior session had thought to add that annotation; an un-annotated backfilled pick
+  would be silently (and wrongly) pruned by a future mechanical 120-day read. Proposal: document
+  this requirement in `radar-render-dashboard`/`radar-ledger-update` SKILL.md and in TRENDS.md's
+  `study_shelf` section header, so it is a documented contract, not a convention a future session
+  has to re-discover from precedent.
+  **(P) Explicit sampling allowance for the observation_queue's mandatory 60+-day "verify now"
+  pass when the queue is large** — motivated by this session finding 192 of 570 items past the
+  60-day line, where a full item-by-item verification was not achievable at reasonable cost; a
+  representative sample (this session: ~90 read in full + a keyword sweep for settled-filler
+  signals across the rest) found the backlog overwhelmingly still-live/settled-record, consistent
+  with Amendment H. Proposal: `weekly.md` §3 should explicitly permit a representative sample +
+  keyword sweep (documented in the week's report) in place of 100% coverage once the 60+-day
+  cohort exceeds roughly 100 items, rather than requiring literal exhaustive review every week.

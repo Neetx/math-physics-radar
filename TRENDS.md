@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-13
+Last updated: 2026-11-14
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -406,7 +406,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     last_evidence) is 2026-11-26 — still 7+ weeks out, not yet due. No change.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
-- stage: emerging | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-09-15
+- stage: dormant | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-09-15
 - what: THREE independent author groups have now successively shaved the constant in the
   polynomial-Freiman-Ruzsa bound established by Gowers-Green-Manners-Tao's 2024 resolution of
   Marton's conjecture — a sequential-improvement DIRECTION trend (the same wave pattern as the
@@ -482,6 +482,18 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     materiality, but a genuine previously-unnoticed revision (same title/authors; no change to the
     result this trend tracks). 2404.09639 (Liao) and 2608.30336 (Song–Yue) show no further
     v-update beyond what's already on file. No 4th independent group this week. Not promoted.
+  - 2026-W46 recalibration (DORMANCY PROBE, 60 days quiet, first crossing of the 60-day
+    threshold): Amendment I check (this session, full batch) confirms none of the three tracked
+    preprints (2404.02244, 2404.09639, 2608.30336) show any v-update beyond what's already on
+    file. Probed this trend's own evidence channel (arXiv): a fresh `search_query` scan for
+    math.CO abstracts mentioning "Freiman-Ruzsa" over the full silent window — only the
+    already-excluded, already-queued Arunachalam-Dutt-Grewal-Gupte algorithmic paper (09-17)
+    falls inside the window; no new exponent-tightening group. Independent check:
+    `tvly search "Marton conjecture polynomial Freiman-Ruzsa new exponent bound" --topic news
+    --start-date 2026-09-15` returned no on-topic hits. Empty probe → moved to `dormant` per the
+    60-day domain-cadence window. Not archived (nowhere near 120 days). Reactivation trigger: a
+    4th independent exponent-tightening group or a referee/vetting outcome on any of the three
+    preprints.
 
 ### Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)
 - stage: emerging | confidence: high | first_seen: 2026-09-24 | last_evidence: 2026-11-03
@@ -2902,7 +2914,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   yet). Watch for referee/community engagement.
 
 ### Resolution of the Erdős–Nicolas–Sárközy conjecture (admissible-set counting)
-- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-08
 - what: axis-1 DOMAIN-CADENCE LANDMARK: Erdős, Nicolas, and Sárközy (1991) conjectured that
   $\log a(N)\asymp\sqrt N$, where $a(N)$ counts "admissible" subsets of $\{1,\dots,N\}$ (any two
   subsets with equal sum have equal cardinality) — a 35-year-old named Erdős problem in additive
@@ -2911,10 +2923,15 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - evidence:
   - 2026-10-25 (v1) — https://arxiv.org/abs/2610.34372 — Guoqing Wang, Wenkai Yang, "Counting
     Admissible Sets of Integers: A Proof of the Erdős–Nicolas–Sárközy Conjecture." Abstract +
-    authors verified via arXiv API this session.
+    authors verified via arXiv API this session (W46 version-history spot-check: silently revised
+    to v2, updated 2026-11-08 — same title/authors, no new group; last_evidence advances
+    accordingly).
 - notes: 2026-10-27 (daily, seed creation): caught in today's math category-rotation batch
   (keyword triage). Confidence `medium` (unrefereed preprint, standard caution). Watch for
   referee/community engagement.
+  - 2026-W46 recalibration (Amendment I version-history spot-check): silent v2 found (above);
+    last_evidence 2026-10-25 → 2026-11-08. No new group, no referee/vetting outcome. Confidence
+    held medium.
 
 ### Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath
 - stage: seed | confidence: low | first_seen: 2026-10-28 | last_evidence: 2026-10-27
@@ -3034,7 +3051,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   the ordered-algebraic-structures subfield.
 
 ### A counterexample to the pure semisimplicity conjecture (ring theory)
-- stage: seed | confidence: high | first_seen: 2026-10-30 | last_evidence: 2026-11-06
+- stage: seed | confidence: high | first_seen: 2026-10-30 | last_evidence: 2026-11-12
 - what: axis-1 DOMAIN-CADENCE LANDMARK, found via today's math category-rotation title-triage
   (title carries the explicit "counterexample" keyword). The pure semisimplicity conjecture (a
   long-standing open problem in ring theory: every right pure-semisimple ring is of finite
@@ -3045,7 +3062,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   unrefereed-preprint caution (arXiv only as of this session, zero hours old, no corroboration).
 - evidence:
   - 2026-10-29 (v1) — https://arxiv.org/abs/2610.39883 — Junpeng Ren, "A counterexample to the
-    pure semisimplicity conjecture." Abstract + author verified via arXiv API this session.
+    pure semisimplicity conjecture." Abstract + author verified via arXiv API this session (W46
+    version-history spot-check: silently revised to v2, updated 2026-11-12 — same title/author,
+    no new group; last_evidence advances accordingly).
   - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09749 — Generalov, Tursunbaev, "Division ring
     extensions and a counterexample to the pure semisimplicity conjecture": a SECOND, fully
     independent construction (division-ring extensions, characteristic zero) giving a hereditary
@@ -3059,6 +3078,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   (Generalov–Tursunbaev) published its own distinct counterexample construction 8 days later,
   meeting the "≥2 independent authoritative primary sources corroborate on concrete artifacts"
   bar. Caught via today's math-category arXiv API sweep (math.RA).
+- 2026-W46 recalibration (Amendment I version-history spot-check): Ren's 2610.39883 found silently
+  revised to v2, updated 2026-11-12 — POSTDATES the recorded last_evidence (2026-11-06);
+  last_evidence advances 2026-11-06 → 2026-11-12. Same author/result, no new group. Confidence
+  held high.
 
 ### Resolution of Shokurov's conic-bundle rationality conjecture (algebraic geometry)
 - stage: seed | confidence: medium | first_seen: 2026-11-02 | last_evidence: 2026-10-30
@@ -4163,6 +4186,22 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-13 (W46 weekly-swept IAS sweep; UNVERIFIED, underlying piece not opened this session) —
+  IAS news, "'Ahead of His Time': AI Helps Unlock Discoveries Hidden in Notebooks of Man Who
+  Transformed Maths" — https://www.ias.edu/news — IAS's own one-line gloss (via `tvly search`,
+  direct fetch 403'd/Cloudflare) says this points to a Guardian feature on AI-assisted analysis of
+  (apparently) Ramanujan's notebooks; axis-5 AI-watch territory (track the mathematical RESULT if
+  any, not the AI method) — the underlying Guardian article and any concrete new
+  formula/result were NOT located this session. Chase next session: locate the Guardian piece and
+  determine whether it names a genuinely new mathematical result or is purely a historical/outreach
+  feature.
+- 2025-?? (undated in the citing context; accessed 2026-11-14, W46 capture-leak sweep) — Chen, Gui,
+  Li, Sun, a lattice-QCD prediction of a pseudoscalar glueball at 2395±14 MeV —
+  https://arxiv.org/abs/2605.01757 — named only as "below-bar context" in the X(2370)-glueball
+  trend's own evidence prose (never given its own queue line, a genuine capture leak per this
+  week's mandatory sweep) — supporting lattice-QCD context for the BESIII X(2370) glueball-identity
+  trend (now dormant); not independently opened this session, below-bar on its own, kept for the
+  cross-reference.
 - 2026-11-06 — Fermilab news, "The SBND collaboration releases first neutrino results" —
   https://news.fnal.gov/feed/ (RSS item; underlying collaboration result/paper not yet located
   this session) — Short-Baseline Near Detector first physics results, axis 3 (neutrino
@@ -9813,9 +9852,6 @@ why`). The trend bar does NOT apply here; opened primary sources only.
 - 2026-07-23 — [Graded Keller maps and the Jacobian Conjecture (Shaska), arXiv:2607.20210](https://arxiv.org/abs/2607.20210) — the FIRST on-arXiv mathematical analysis of the announced counterexample to the ~87-year-old JACOBIAN CONJECTURE (Keller 1939): classifies equivariant Keller maps by the sign-signature of their grading weights (weighted-projective geometry), showing the announced counterexample must live in the mixed-sign, dimension-≥3 regime (all-positive weights, or any sign pattern in dim 2, force an automorphism) (axis 1, algebraic geometry). Abstract/author/date verified via arXiv API this session (v1 2026-07-22). HEAVY CAVEATS (hype-skepticism + AI-watch rules): the underlying counterexample (3-variable, refuting the general conjecture) was announced OFF-arXiv and is AI-GENERATED (Anthropic's Claude Fable 5) → PROVISIONAL until independent vetting (Terence Tao and others publicly scrutinizing it — a signal, not an outcome); tracked for the RESULT + this arXiv analysis a frontier researcher should know, NOT the AI method (sibling AI radars' beat). The biggest math story of the week (paired with the Batyrev and mod-4 Kawauchi results in the AI-assisted-math wave); watch for a confirmed refutation / a machine-checked formalization / a gap.
 - 2026-07-22 — [A counter-example to Batyrev's conjecture on the non-negativity of stringy Hodge numbers, arXiv:2607.19184](https://arxiv.org/abs/2607.19184) — refutes Batyrev's conjecture, "a fundamental open problem" that guided decades of results in motivic integration, mirror symmetry, and the McKay correspondence (the assertion that stringy Hodge numbers of Gorenstein varieties are non-negative) (axis 1, algebraic geometry). Abstract + date verified via arXiv API this session (v1 2026-07-21). HEAVY CAVEATS (hype-skepticism + AI-watch rules): unrefereed preprint → PROVISIONAL until independent vetting; the counter-example was "discovered with the assistance of OpenAI's ChatGPT" → tracked for the mathematical RESULT (a falsified fundamental conjecture a researcher should know), NOT the AI method (the sibling AI radars' beat). Part of the 07-22 cluster of AI-assisted arXiv artifacts (with the mod-4 Kawauchi proof via Claude Fable 5 and the OpenAI CDC proof); watch for expert scrutiny.
 - 2026-07-20 — [OpenAI's proof of the Cycle Double Cover Theorem (Geelen, exposition), arXiv:2607.15399](https://arxiv.org/abs/2607.15399) — a clarifying write-up by matroid theorist Jim Geelen of an OpenAI-produced proof of the CYCLE DOUBLE COVER CONJECTURE, one of graph theory's most famous ~50-year-old open problems (Szekeres 1973 / Seymour 1979: every bridgeless graph carries a family of cycles covering each edge exactly twice) (axis 1 combinatorics + axis 5 machine-assisted math). Abstract/author/date verified via arXiv API this session (v1 2026-07-16). HEAVY CAVEATS (hype-skepticism + AI-watch rules): the proof is AI-GENERATED and UNREFEREED → PROVISIONAL, not a confirmed resolution until independent expert vetting; Geelen's note is exposition (self-described "no new insights"), NOT community confirmation; the original OpenAI paper was not locatable on arXiv this session. Tracked for the RESULT + the exposition artifact a frontier researcher should know — NOT the AI method (the sibling AI radars' beat). Watch for expert scrutiny / a machine-checked formalization.
-- 2026-07-16 — [A Proof of Sabidussi's Compatibility Conjecture (Ulyanov), arXiv:2607.13225](https://arxiv.org/abs/2607.13225) — resolves Sabidussi's compatibility conjecture: for a finite connected multigraph with all even degrees and min-degree ≥ 4 and an Eulerian closed trail T, the edges can be partitioned into circuits (indeed 4-coloured with an even-degree monochromatic-subgraph property) so no circuit uses two edges consecutive in T (axis 1, combinatorics/graph theory). Notable for axis 5: the proof is accompanied by a **Lean 4 formalization** in the author's GitHub — a machine-checked resolution of a named conjecture. Abstract + author + Lean-4 claim verified via arXiv API this session (v1 2026-07-14). Unrefereed single-author preprint — a claimed resolution → provisional under the hype-skepticism rule, but the accompanying formalization materially raises confidence; track the vetting.
-- 2026-07-13 — [K-theoretic counterexamples to Ravenel's telescope conjecture (Burklund, Hahn, Levy, Schlank), arXiv:2310.17459](https://arxiv.org/abs/2310.17459) — the landmark DISPROOF of Ravenel's telescope conjecture: at each prime p and height n+1 ≥ 2, the telescopic (T(n+1)) and chromatic (K(n+1)) localizations of spectra differ — shown via the T(n+1)-localized algebraic K-theory of BP⟨n⟩^{hℤ} being non-K(n+1)-local (chromatic homotopy theory / algebraic K-theory). One of the two landmarks behind the 2026 Clay Research Award (Burklund–Hahn–Levy–Schlank); followed to primary from the Clay award resolved on the queue 2026-07-08, per the 07-10 report's Next. Abstract + authors verified via arXiv API this session (v1 26 Oct 2023).
-- 2026-07-10 — [Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions (Wang, Zahl), arXiv:2502.17655](https://arxiv.org/abs/2502.17655) — the landmark RESOLUTION of the Kakeya set conjecture in ℝ³: every Kakeya set in ℝ³ has Minkowski and Hausdorff dimension 3, via a new volume estimate for unions of δ-tubes not concentrated in a common convex set (axis 1, geometric measure theory / harmonic analysis). Followed to primary from the 2026 Clay Research Award (Orponen–Shmerkin–Wang–Zahl, Furstenberg + 3D Kakeya) resolved on the queue 2026-07-08; abstract + authors verified via arXiv API this session (v1 24 Feb 2025). A 2025 artifact surfaced here on its Clay-2026 recognition — a genuinely field-shaping resolved conjecture worth knowing.
 
 ## calibration
 

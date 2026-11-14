@@ -4816,3 +4816,18 @@ clears the ≥3-independent-group bar for promotion. `observation_queue` +9; stu
 TRENDS.md Active-trends count 106→111. SOURCES.md: Euclid/ESA staged as a new discovered-source
 candidate (1 sighting, DR1 + 8 companion papers via today's astro-ph.CO sweep). README.md and
 SUMMARY.md regenerated in the same commit.
+
+- 2026-W46 recalibration (2026-11-14) — WEEKLY-SWEPT tier, live this session, all opened or
+  degraded (not a coverage lie): institutes IHES/MPIM/Fields/Newton/KITP/Clay (curl 200, routine
+  admin/programs beyond the already-tracked Clay Navier-Stokes statement); Perimeter/IAS
+  (Cloudflare 403, `tvly extract`/`search` fallback — Perimeter routine, IAS surfaced a
+  not-yet-chased Guardian/Ramanujan-notebooks pointer, queued); SLMath correctly skipped per
+  W45's quarterly-downgrade decision (next due ~2027-02). Slow venues: Annals (Vol 203
+  unchanged, curl 200), AMS Notices (403 direct, `tvly extract` healed — Oct issue, routine),
+  Forum of Math (curl 200, routine). Extra-social: r/Physics/r/cosmology/r/ParticlePhysics/
+  r/AskPhysics (403, standing domain-wide block, `tvly search` fallback, 0 catch), Physics SE
+  (curl 200). Annual-prize checklist (Amendment K): all 6 laureates confirmed present, 0 gap.
+  Amendment G citation-chase: INSPIRE-HEP `mostcited`, Aug-Sep 2026 window, 0 actionable. Source-
+  discovery: 0 promoted (all ~16 staged candidates checked against this week's reports, none
+  cleared the 2-ARTIFACTS bar). Amendment I full sweep (209 ids): 2 silent revisions folded in.
+  Capture-leak: 1 queued (2605.01757). study_shelf: 3 pruned (>120 days by real add date).

@@ -521,3 +521,46 @@ routing-leak n`.
   independent AI claim) rather than being split prematurely.
   PROPOSAL MOTIVATED BY THIS RETROSPECTIVE: see Self-amendment section below (broaden the
   "no primary located" chase protocol beyond arXiv-only re-tries).
+
+- 2026-11-14 — W46: queue 527→570 (net: +43 across 5 landmark-dense dailies [09-13], +1 this
+  weekly's own capture-leak catch [2605.01757], -0 dropped — a full-text sample of the 192
+  items now 60+ days old found the backlog overwhelmingly substantive still-live/settled-record
+  landmark items, not stale filler, per Amendment H; no burn-down obligation met) ·
+  evidence/moves: 36 new seed trends across the week's 5 dailies (74→111, inclusive of this
+  weekly's Amendment I corrections) · 1 promotion-equivalent (pure-semisimplicity confidence
+  medium→high, 11-09, on a 2nd independent counterexample) · 1 demotion (Marton's-conjecture/PFR,
+  emerging→dormant, this weekly, 60-day empty probe — first crossing) · 0 archivals (Stanley-
+  Gasharov at 108 days, nowhere near 120; all 4 backfill-precedent trends + the 2 now-dormant
+  trends reconciled against current windows, no stale decision found) · exploration 5/5 (100%)
+  across the week's 5 dailies (math.ST, physics.soc-ph, cs.CC ×2, math.NA) · off-axis 0/5 — non-
+  alarm per this domain's relaxed threshold · discovery lag: ~0% this week (all 36 new seeds were
+  same-day-ish arXiv/hexagonmath captures; the 2 Amendment I last_evidence corrections are
+  version-history fixes, not discovery-lag backfills) · coverage: DAILY tier fully opened or
+  `degraded:<reason>` all 5 dailies, 0 reported missing; WEEKLY-SWEPT tier swept LIVE this
+  session (institutes, slow venues, low-yield extra-social, all 6 annual prizes) — 0 sources
+  newly crossed the heal-owed bar; SLMath correctly skipped per its W45 quarterly-downgrade
+  decision · routing-leak 0 (no on-axis queue item found hoarded against an existing trend's
+  axis) · capture-leak: Amendment I full sweep (209 unique arXiv ids across all 111 active
+  trends, one batch arXiv-API query) found 2 genuine silent last_evidence revisions (Erdős–
+  Nicolas–Sárközy 2610.34372, pure-semisimplicity 2610.39883) — both folded in; separately, this
+  week's 5 daily reports' 15 unique arXiv ids all present on a discrete line (0 missing), and a
+  full active-trends ids-appearing-once sweep found 1 genuine leak (2605.01757, lattice-QCD
+  glueball prediction named only as prose context on the X(2370) trend) — queued · src-disc: 0
+  new source promoted (all ~16 staged candidates checked against this week's reports; `ahmath.org`
+  reappeared but with no new artifact, correctly held below the 2-ARTIFACTS bar) — Amendment K's
+  annual-prize checklist found 0 gap (all 6 laureates already present). Amendment G older-paper
+  citation-chase: INSPIRE-HEP `sort=mostcited` over 2026-08→2026-09 (15 reviewed) — 0 actionable
+  new landmark (already-tracked catalogs/reviews or off-axis quantum-computing-technology).
+  Amendment L (per-trend size cap): checked every trend's notes-dated-sub-entry count this
+  session — highest is OpenAI mass-disclosure at 14, under the ~15 trigger; 0 relocated.
+  `study_shelf` pruned: 3 items genuinely >120 days old by their real (non-"shelf-added") add
+  date (Sabidussi's Compatibility Conjecture, Ravenel's telescope-conjecture counterexample, 3D
+  Kakeya set conjecture) — all 3 preserved in their original day's report; 8 OTHER nominally-old
+  picks correctly held (their "shelf-added"/"found"/"surfaced" annotations place their real age
+  under 120 days). Monthly hit/miss retrospective NOT due (`date +%d` = 14 > 7). Amendment N
+  (proposed W43): motivating pattern still has not recurred (3rd consecutive week) — HELD, not
+  applied, not auto-retired. Regression check: Amendments J/K/L/M show no 2-consecutive-week
+  metric regression — NO ROLLBACK. Seed-vs-queue bar-consistency + hexagonmath-volume flags
+  (carried from W45/11-11/11-12) RATIFIED this session (see Self-amendment). Shallow-clone-check
+  proposal (renewed 11-09, validated 11-10/11-12/11-13, recurred a 4th time this session) APPLIED
+  to both routines this session (see Self-amendment).
