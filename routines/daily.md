@@ -103,6 +103,17 @@ Do not limit yourself to these axes if you find something clearly more important
 - Evidence line = `date — primary URL — one line of context`. Use the page's own date;
   undated → "(undated, accessed YYYY-MM-DD)". Never guess dates/URLs.
 - Trend bar: ≥3 independent sources + ≥1 concrete artifact for a multi-group DIRECTION trend. Domain adaptation (see AGENTS.md → *Domain cadence*): a LANDMARK single primary (resolved long-standing conjecture, or first-of-kind detection/measurement) also qualifies as a `seed` trend on its own. Everything below both bars → `study_shelf`.
+  **RATIFIED 2026-W46 (resolves the W45/11-11/11-12 seed-vs-queue consistency flag):** the
+  landmark-single-result bar is FULL-RESOLUTION-ONLY and source/fame-BLIND — any complete
+  proof/disproof of a genuinely named conjecture or problem clears it and seeds, regardless of
+  how well-known the conjecture is, how it was discovered (incl. a hexagonmath/AI-assisted
+  batch), or how many other landmarks landed the same day. A PARTIAL result (covers only some
+  cases, leaves a case open) does not clear the bar on its own and stays on `observation_queue`
+  until it closes or 3 independent groups converge. Source VOLUME is explicitly irrelevant to
+  this bar (a prolific venue is not a reason to hold its qualifying items to a higher bar than
+  arXiv) — the existing unrefereed-preprint/AI-watch caution tiers (not the trend bar) are
+  where a high-volume or low-trust venue's extra risk belongs; a size-heavy day routes to
+  Amendment L's per-trend relocation and the weekly's own batching, not to under-seeding.
 
 ## 4. Update TRENDS.md
 
