@@ -19,6 +19,13 @@ EXTRACT:
 skipped check.
 
 ## 1. Load state
+- **Shallow-clone check FIRST (amended 2026-W46 — motivated by 4+ consecutive sessions
+  starting shallow, incl. a 2026-11-09 near-miss that sent a false history-rewrite alert
+  before the cause was found):** run `git rev-parse --is-shallow-repository`; if `true`, run
+  `git fetch --unshallow` BEFORE any orphaned-branch check below. A shallow clone's narrow
+  history window produces a FALSE "no common ancestor" reading for an otherwise-ordinary
+  branch, which can misfire as an apparent history-rewrite/force-push (a Hard Rule violation)
+  when it is not one.
 - Recover orphaned state first: check for any branch holding a `radar:` commit missing
   from your history; fetch and merge it (fast-forward preferred, never force) before work.
 - Verify the previous runs COMPLETED: for every `radar: daily update` / `radar: weekly

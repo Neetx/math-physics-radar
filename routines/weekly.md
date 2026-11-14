@@ -9,6 +9,9 @@ checkpoint commits included — carries the report as it stands. A weekly that c
 and dies before the report leaves its amendments and calibration with no readable record.
 
 ## 1. Load state
+**Shallow-clone check FIRST (amended 2026-W46 — see daily.md's own load-state step for the
+motivating pattern): run `git rev-parse --is-shallow-repository`; if `true`, `git fetch
+--unshallow` before any orphaned-branch check.**
 Verify the previous runs COMPLETED and reconstruct any missing weekly report (see daily.md → Load state).
 Recover orphaned state first (see daily.md). Then read `TRENDS.md`, `ARCHIVE.md`, the daily
 reports of the past 7 days in `reports/`, and the previous weekly report if present.
