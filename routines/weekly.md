@@ -24,7 +24,11 @@ revision invisible to title-keyword triage, and reinforced by this week's separa
 capture-gap pattern of title-blind misses):** for every ACTIVE (non-dormant) trend, spot-check
 each tracked preprint's own arXiv version history (the abstract page's "Submission history") for
 a silent vN update since the last check — a same-author revision carries no new arXiv id, so it
-is invisible to any title-keyword scan and will only ever surface here. One fetch per tracked
+is invisible to any title-keyword scan and will only ever surface here. **Refinement (2026-W46 —
+closes a false-positive class found this session): EXCLUDE hexagonmath.org-hosted ids from the
+arXiv version-history batch query.** hexagonmath assigns its own numbering that visually matches
+arXiv's `YYMM.NNNNN` pattern but is NOT an arXiv id — querying the arXiv API with one returns
+whatever unrelated real paper happens to share that number, a false "silently revised" hit. One fetch per tracked
 preprint; fold any found update into that trend's evidence/last_evidence per the normal rules.
 - **Promote** (seed → emerging → accelerating → mainstreaming) only on sustained multi-org
   evidence; one stage max per week; justify in `notes`.
