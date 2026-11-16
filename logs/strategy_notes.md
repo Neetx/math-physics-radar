@@ -2227,3 +2227,15 @@ coding) this week. No redirection needed.
   with Amendment H. Proposal: `weekly.md` §3 should explicitly permit a representative sample +
   keyword sweep (documented in the week's report) in place of 100% coverage once the 60+-day
   cohort exceeds roughly 100 items, rather than requiring literal exhaustive review every week.
+- 2026-11-16 (daily) — TOOLING: `tvly` hit account-quota exhaustion partway through this session
+  (every call failed "exceeds your plan's set usage limit") — a recurring pattern already logged
+  several times since 2026-08 (see this file's earlier entries). No coverage gap resulted this
+  time: `WebFetch` substituted cleanly for every lane that needed it (GitHub releases.atom, the
+  AI-watch lane, LIGO, Scientific American, Woit, Tao, mathhelm.org verification), consistent with
+  SOURCES.md's standing note that `WebFetch` works even when `tvly` is quota-exhausted in this
+  proxy-scoped environment. Not re-escalating — flagging only for continuity, in case the quota
+  recurs on a day `WebFetch` itself is also degraded.
+- 2026-11-16 (daily) — SOURCE PROMOTION FLAG for W47: mathhelm.org cleared the ≥2-sighting
+  promotion bar this session (see SOURCES.md) — a dedicated Terence-Tao-blog guest post plus live
+  verification via plain `curl`. Recommend promoting to Primary feeds / AI-watch-lane at the next
+  weekly, same class as mathcommunity.github.io/oai-math-revised.

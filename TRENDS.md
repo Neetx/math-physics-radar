@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-14
+Last updated: 2026-11-16
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2745,7 +2745,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     press/governance reaction above. last_evidence advances 2026-10-26 → 2026-10-27.
 
 ### OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion
-- stage: seed | confidence: low | first_seen: 2026-10-27 | last_evidence: 2026-11-03
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-15
 - what: axis-2/3 EXTRAORDINARY-CLAIM, the single highest-magnitude item this ledger has ever logged
   if confirmed: Yang–Mills existence and mass gap is one of the seven Clay Millennium Prize Problems
   (claymath.org). OpenAI's Oct 26 publication, "Working with academic communities to build
@@ -2785,26 +2785,60 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     session, not via WebFetch (the direct `curl`/`WebFetch` on this domain intermittently returns
     HTTP 000 — see `logs/strategy_notes.md`).
   - 2026-10-27 — https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/
-    — Joseph Howlett, "Dueling proofs from OpenAI and Anthropic astound scientists" (also covers
-    the ETH-refutation trend, cross-referenced there): quotes Roland Bauerschmidt (NYU) on
-    Tadeusz Balaban's decades-old Yang–Mills papers — "there's no one who understands these
-    papers and can tell whether they're correct or not" — a named-expert, on-record statement that
-    the underlying mathematics this claim would need to build on is itself barely human-checkable,
-    independent corroboration of the vetting difficulty Woit's post already raised. Confirms (via
-    Ethan Sussman) that his and Levent Alpöge's independent from-scratch effort to complete
-    Balaban's program is STILL ONGOING and that OpenAI's announcement "appears to have beaten them
-    to it" — the effort is real and active, but still no URL located for it. Opened directly via
-    `WebFetch` this session.
-  - 2026-10-27 — https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem
-    — Joseph Howlett, "OpenAI just scooped human researchers on a million-dollar quantum math
-    problem" (the correct URL for the piece a prior session's guessed slug 404'd on, located and
-    opened via `WebFetch` this session): reports the claim was reached internally 2026-09-09 and
-    kept secret until Lean-formalized (OpenAI says verification "took over a month"); Michael R.
-    Douglas (Harvard, also one of the review-panel members above) calls it "a major advance" and
-    "just the start"; Tristan Buckmaster (already tracked elsewhere on this ledger) disputes
-    OpenAI's verification-timeline framing, saying Lean verification "takes, at most, a couple of
-    days" — a named-expert challenge to the claimed month-long verification effort, distinct from
-    Woit's and Bauerschmidt's already-tracked scope/checkability concerns.
+    and https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem
+    — Joseph Howlett, two Scientific American pieces (both opened directly via `WebFetch` this
+    session): Roland Bauerschmidt (NYU) on Tadeusz Balaban's decades-old Yang–Mills papers —
+    "there's no one who understands these papers and can tell whether they're correct or not";
+    confirms (via Ethan Sussman) the Alpöge–Sussman independent from-scratch effort is real,
+    ongoing, and that OpenAI's announcement "appears to have beaten them to it"; Michael R. Douglas
+    (Harvard, review-panel member) calls the claim "a major advance" and "just the start"; Tristan
+    Buckmaster (already tracked elsewhere on this ledger) disputes OpenAI's claimed month-long
+    verification timeline, saying Lean verification "takes, at most, a couple of days."
+  - 2026-11-09/10 (document; opened 2026-11-16) — https://github.com/yang-mills-group/YM/blob/main/docs/assessment-1.pdf
+    — the shepherding committee's own "Validation of the OpenAI Yang–Mills construction"
+    (companion to their Nov 10 release), downloaded via `raw.githubusercontent.com` and read
+    directly via `pdftotext` this session — THE PRIMARY RELEASE this trend has been chasing since
+    its creation. States their judgment that the Oct 28 Lean submission "proves that a relativistic
+    quantum field theory satisfying the Wightman axioms can be constructed as a scaling limit of
+    four-dimensional Wilson lattice gauge theory for any simple compact gauge group" via
+    subsequential-limit COMPACTNESS (weak existence) — explicitly: "It does not prove that the
+    infinite-volume limit is unique or that there is a mass gap." This is existence in a WEAKER
+    sense than Jaffe–Witten's own Millennium Problem statement requires (see the Woit evidence line
+    below, which quotes Jaffe–Witten excluding weak/compactness existence as a solution) — a
+    precise primary-sourced scope correction, not just a skeptic's reading.
+  - 2026-11-11 — https://www.math.columbia.edu/~woit/wordpress (post "The Yang-Mills Publicity
+    Stunt," opened via `WebFetch` on the feed this session) — Peter Woit argues OpenAI's Oct 26
+    press release claims more than the Nov 9–10 committee materials support: quotes Jaffe–Witten's
+    own problem statement verbatim, "We specifically exclude weak-existence (compactness) as the
+    solution to the existence part of the Millennium problem" (https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf),
+    directly matching what the assessment PDF above admits; questions the claimed "Standard Model
+    completion" (may be only a Higgs-less minimal SU(5) GUT, which disagrees with experiment); calls
+    the Millennium-Problem framing misleading; calls for the group to correct the record, release
+    all documents, and disband. Cites two independent human-authored write-ups of the Lean proof:
+    Martin Hairer (Fields Medalist) at https://github.com/hairer/humanise-yang-mills and Scott
+    Armstrong at https://github.com/scottnarmstrong/yang-mills-informalization — neither
+    independently opened this session (flagged for next session's chase) — plus a new statement
+    site, https://hep-open-release.org/, from "a large group of prominent theorists" criticizing
+    non-release practices (staged below in SOURCES.md).
+  - 2026-11-11/12 — https://www.scientificamerican.com/article/openais-shepherds-affirm-blockbuster-physics-result/
+    — Joseph Howlett (opened via `WebFetch` this session): the committee's Nov 9 statement says the
+    submission "proves the existence of pure Yang–Mills theory" under standard problem statements,
+    with the Lean code released Nov 10; the committee says it does "not claim to fully understand
+    the proof yet." Michael R. Douglas: four-dimensional Yang–Mills had "never been properly
+    understood mathematically" despite 50+ years of work. Scott Armstrong (independent write-up
+    author above): welcomes the Lean release but argues AI-lab results should be reviewed in the
+    open rather than via closed shepherding committees. Confirms mass gap and a rigorous Standard
+    Model reduction remain unestablished — corroborates the assessment PDF's own scope, independent
+    secondary confirmation of the primary document.
+  - 2026-11-15 (v1) — https://hexagonmath.org/2611.00492v1 — Zeng Chunping, "From Four-Dimensional
+    Wilson Lattice Gauge Theory to Quantum Yang–Mills Theory: Construction with Proofs from
+    Certified Assumptions, and the Record of Its Independent Validation": a third-party compilation
+    explicitly built on the Oct 28 OpenAI Lean submission and the shepherding committee's
+    validation; states a positive mass gap, uniqueness of the infinite-volume limit, uniqueness of
+    the mixed-theory vacuum, and order-by-order OPE agreement with perturbation theory are "not
+    proved" — consistent with the assessment PDF. EXTREME caution (hexagonmath page: "mix of
+    human-written and AI-generated text," "Human understanding: some parts," no DOI, beta venue).
+    Opened directly via `WebFetch` this session.
   - 2026-10-27 (document itself; found/opened 2026-11-04) — https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf
     — the shepherding committee's OWN statement (Douglas, Gross [chair], Jaffe, Klebanov, Nekrasov),
     hosted at KITP (an already-tracked institute); downloaded and read directly via `pdftotext` this
@@ -2835,21 +2869,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     says the authors will continue regardless. EXTREME caution tier (self-described as largely
     unverified LLM output, "slop" in the authors' own term) — tracked because it is the one named,
     independent, from-scratch competing effort this ledger has been chasing for 3+ sessions.
-  - 2026-11-03 (document; found/opened 2026-11-05) — https://www.kitp.ucsb.edu/sites/default/files/RULES%20AND%20PROCEDURES%20OF%20THE%20YANG%20MILLS%20GROUP.pdf
-    — the shepherding committee's own governance document, hosted at KITP; opened directly via
-    `curl`/`pdftotext` this session. Names the steering committee (Michael Douglas, David Gross
-    [chair], Arthur Jaffe, Igor Klebanov, Nikita Nekrasov — matches the YM_working_group.pdf
-    signatories) and states the group's scope may extend to "review other works submitted to it";
-    members must disclose conflicts of interest and may not do outside research on the same
-    problems; the group states it does "not seek academic credit for the discoveries produced by
-    AI models" but does seek credit for its own write-ups/understanding. Found via Peter Woit's
-    "Not Even Wrong" blog (already-tracked digest source, `tvly extract` on the feed this session),
-    which also names a companion "2nd Statement About Quantum Yang-Mills Theory" (dated Nov 3) that
-    reportedly says the committee hopes to release the Lean proof "next week" — that specific PDF
-    404'd on every filename variant tried this session (standing degraded, not yet heal-owed —
-    first occurrence; re-test next session), so its content is NOT treated as evidence here, only
-    Woit's secondary paraphrase (intake-only, not cited as a primary fact).
-- notes: 2026-10-27 (daily, seed creation): caught via the same Hacker News front-page story and
+- notes: DROPPED 2026-11-16 (evidence-cap rotation, oldest/least-central): the committee's
+  2026-11-03 governance document (RULES AND PROCEDURES PDF) — process/conflict-of-interest detail,
+  superseded now the substantive Nov 9-10 release it anticipated has landed (see evidence above).
+  2026-10-27 (daily, seed creation): caught via the same Hacker News front-page story and
   openai.com publication page as the ETH-refutation trend above (one Oct 26 post announces all
   three results). Held at `seed`/`low` (domain-cadence pre-referee-landmark-EVENT precedent, same
   reasoning as the ETH trend and the original mass-disclosure seed) — but this is the MOST cautious
@@ -2896,6 +2919,28 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     (try the KITP activity page's own file listing or a `tvly search` for the exact filename).
     last_evidence advances 2026-10-27 → 2026-11-03 (the governance doc's own date). No stage/
     confidence change — still no public manuscript, Lean proof, or committee assessment.
+  - 2026-11-16 (daily): THE STANDING TOP-PRIORITY CHASE ITEM RESOLVED — the Lean proof and the
+    committee's own assessment were released Nov 9-10 (see the `assessment-1.pdf` evidence line,
+    read directly via `pdftotext` this session) and corroborated by Woit's critical Nov 11 post and
+    Scientific American's Nov 11/12 piece (both opened this session). Precise scope now
+    primary-sourced rather than inferred: EXISTENCE is established only in the WEAK
+    (subsequential-limit/compactness) sense, which the Jaffe–Witten problem statement itself
+    explicitly excludes as a solution to the Millennium Problem's existence part (quoted verbatim
+    in the Woit evidence line) — so this is a genuine, committee-endorsed advance, but is NOT a
+    resolution of the Millennium Problem as traditionally framed, and the mass gap/uniqueness
+    remain explicitly unproved by the committee's own words. A hexagonmath third-party compilation
+    of the same Oct 28 submission (2611.00492, EXTREME caution, opened this session) independently
+    states the same "not proved" list. CONFIDENCE RAISED low→medium: ≥2 independent authoritative
+    sources (the committee's own primary assessment document + Scientific American's named-quote
+    corroboration + Woit's informed critical reading, all converging on the identical scope) now
+    corroborate on a concrete, inspectable artifact (the Lean repo + assessment PDF), satisfying the
+    daily routine's confidence-bump bar — still `seed` (not escalated to `emerging`/`accelerating`:
+    this remains one claim's unfolding vetting story, not a multi-group direction). Evidence-cap
+    rotation: dropped the now-superseded 2026-11-03 governance/procedures PDF line (see notes
+    above) to make room within the 10-item cap. Remaining open: Hairer's and Armstrong's
+    independent human write-ups (github.com/hairer/humanise-yang-mills,
+    github.com/scottnarmstrong/yang-mills-informalization) not yet independently opened; any Clay
+    Mathematics Institute statement; the Alpöge–Sussman effort's reaction to this release.
 
 ### Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)
 - stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
@@ -3921,21 +3966,31 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - notes: 2026-11-11 (daily, seed creation): caught via today's math.CO arXiv title-triage ("Proof
   of the ... Conjecture"). Confidence `medium`.
 
-### Disproof of Ashbaugh's 1999 buckling eigenvalue-ratio conjecture
-- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-11
-- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. In 1999 M. Ashbaugh conjectured that
-  the ball maximizes the ratio of the first two clamped buckling eigenvalues among bounded
-  Euclidean domains. Dai, Sun, and Zhang disprove this in every dimension $d\ge2$ by
-  constructing smooth connected perforated domains (finitely many interior holes) whose
-  eigenvalue ratio exceeds the ball's, via a second-order perturbation argument. Ordinary
-  human spectral-geometry mathematics, standard unrefereed-preprint caution.
+### Disproof of Ashbaugh's 1999 eigenvalue-ratio conjectures (buckling, then clamped-plate)
+- stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-13
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored. In 1999 M. Ashbaugh conjectured that the
+  ball maximizes the ratio of the first two eigenvalues for both the clamped BUCKLING problem and
+  the clamped-PLATE (vibrating) problem. Dai, Sun, and Zhang disprove the buckling case in every
+  dimension $d\ge2$ via a second-order perturbation argument on smooth connected perforated
+  domains, then disprove the companion clamped-plate case the same way (sphere-displacement
+  construction, ratio increases more at second order). Ordinary human spectral-geometry
+  mathematics, standard unrefereed-preprint caution.
 - evidence:
   - 2026-11-11 (v1) — https://arxiv.org/abs/2611.13018 — Dai, Sun, Zhang, "Counterexamples to
     the buckling eigenvalue-ratio conjecture in every dimension": abstract + authors verified
     via direct arXiv page fetch this session.
+  - 2026-11-13 (v1) — https://arxiv.org/abs/2611.17606 — Guowei Dai, Yingxin Sun, Yong Zhang,
+    "Counterexamples to the clamped-plate eigenvalue ratio conjecture": the SAME author group
+    disproving the companion 1999 Ashbaugh conjecture (clamped-plate, not buckling) in every
+    dimension $d\ge2$. Abstract/authors verified via arXiv API this session.
 - notes: 2026-11-12 (daily, seed creation): caught via today's math category title-triage
   ("Counterexamples to the ... conjecture"). A 27-year-old named conjecture in spectral
   geometry/PDE, fully disproved in all dimensions. Confidence `medium`.
+  - 2026-11-16 (daily): widened the trend to cover the SAME group's companion clamped-plate
+    disproof (own-group escalation, not independent corroboration — confidence held at `medium`,
+    not raised). last_evidence advances 2026-11-11 → 2026-11-13. Title broadened to reflect both
+    conjectures. Watch for: a THIRD independent group engaging either disproof, which would
+    support a confidence bump.
 
 ### Disproof of Comon's conjecture over the reals (tensor rank)
 - stage: seed | confidence: medium | first_seen: 2026-11-12 | last_evidence: 2026-11-11
@@ -4181,6 +4236,85 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 - notes: 2026-11-13 (daily, seed creation): caught via today's math.PR title-triage sweep (title
   states the resolution explicitly). Watch for: independent verification/citation, and whether
   conjectures.io or another Erdős-problems tracker records this resolution.
+
+### Proof of the Jamneshan–Tao conjecture (nilspace embedding, Gowers-norm inverse theorems)
+- stage: seed | confidence: medium | first_seen: 2026-11-16 | last_evidence: 2026-11-12
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored arXiv primary. Candela, González-Sánchez
+  and Szegedy prove every compact finite-rank nilspace admits a continuous injective morphism
+  into a toral nilspace of the same step (hence into a connected filtered nilmanifold),
+  establishing the Jamneshan–Tao conjecture in additive combinatorics/ergodic theory and
+  extending its conclusion to second-countable compact abelian groups. Combined with the general
+  nilspace inverse theorem, this yields an inverse theorem for Gowers norms on all such groups.
+  Standard unrefereed-preprint caution.
+- evidence:
+  - 2026-11-12 (v1) — https://arxiv.org/abs/2611.17567 — Pablo Candela, Diego González-Sánchez,
+    Balázs Szegedy, "A proof of the Jamneshan-Tao conjecture by embedding nilspaces in
+    nilmanifolds". Abstract/authors verified via arXiv API this session.
+- notes: 2026-11-16 (daily, seed creation): caught via today's math.CO/math.DS title-triage sweep
+  (Monday catch-up batch, arXiv's weekend posting gap). Watch for: citation/commentary from the
+  additive-combinatorics community (this extends foundational work by Tao and collaborators
+  already tracked elsewhere on this ledger).
+
+### Proof of Samuels' Conjecture and Feige's Conjecture (tail bounds for sums of independent nonnegative variables)
+- stage: seed | confidence: medium | first_seen: 2026-11-16 | last_evidence: 2026-08-18
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored arXiv primary. Zhi Ling gives a sharp,
+  attained lower bound on $\mathbb P(\sum X_i<\lambda)$ for independent nonnegative random
+  variables with prescribed means, proving Samuels' conjecture; Feige's conjecture (2006, widely
+  cited in theoretical CS/probability for its applications to scheduling and concentration) is
+  resolved as an immediate corollary of the equal-means case. Self-contained proof per the
+  abstract. Standard unrefereed-preprint caution.
+- evidence:
+  - 2026-08-18 (v1; v2 revision) — https://arxiv.org/abs/2608.18392 — Zhi Ling, "On Samuels'
+    Conjecture". Abstract/author verified via arXiv API this session.
+- notes: 2026-11-16 (daily, seed creation): caught via today's math.PR/math.CO title-triage sweep
+  (a v2 revision surfaced it in today's Monday catch-up RSS batch; the v1 predates this radar's
+  coverage window — backfilled now that the full resolution is title-explicit). CAPTURE-LEAK note:
+  this item sat uncaptured since Aug 18 because its title alone does not signal the Feige's-
+  conjecture corollary. DORMANCY-CLOCK CLARIFICATION (same precedent as Graham's rearrangement
+  conjecture/the unit-distance trend): `last_evidence` (2026-08-18) reads as 90 days old today,
+  but this is a BACKFILLED landmark first_seen only today — the dormancy clock runs from
+  first_seen, not the backlog artifact's own date. NOT a dormancy case; this note exists so a
+  future session does not mechanically misfire on the raw day-count. Watch for: independent
+  verification/citation (Feige's conjecture has a substantial prior literature; expect prompt
+  expert reaction).
+
+### Disproof of Eells' conjecture and Ding's conjecture (harmonic maps $S^3\to S^2$)
+- stage: seed | confidence: medium | first_seen: 2026-11-16 | last_evidence: 2026-11-13
+- what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored arXiv primary. Hirst, Platt, Sá Earp and
+  Stein develop a numerical framework for constructing harmonic maps $S^3\to S^2$ and use a
+  rigorous fixed-point argument to promote approximate harmonic maps (Hopf invariants 2-6) to
+  genuine ones, producing a family of counterexamples to Eells' conjecture (that the Hopf
+  invariant of a harmonic map $S^3\to S^2$ is bounded) and the related Ding's conjecture.
+  Standard unrefereed-preprint caution (computer-assisted but non-AI: a rigorous numerics/
+  fixed-point verification, not an LLM claim).
+- evidence:
+  - 2026-11-13 (v1) — https://arxiv.org/abs/2611.17697 — Edward Hirst, Daniel Platt, Henrique N.
+    Sá Earp, Jakob Stein, "Numerical verification for harmonic maps: Counterexamples to Eells'
+    conjecture". Abstract/authors verified via arXiv API this session.
+- notes: 2026-11-16 (daily, seed creation): caught via today's math.DG title-triage sweep (Monday
+  catch-up batch). Watch for: independent re-verification of the fixed-point/numerics argument,
+  and whether this reopens interest in Ding's conjecture's own status.
+
+### Disproof of the Realizability Conjecture for universally pseudoeffective surface classes
+- stage: seed | confidence: low | first_seen: 2026-11-16 | last_evidence: 2026-11-15
+- what: axis-1 DOMAIN-CADENCE LANDMARK, AI-attributed, EXTREME caution (hexagonmath: "Primarily
+  AI-generated text," "Human understanding: no parts"). A single counterexample disproves the
+  conjecture of Huang, Huh, Michałek, Wang and Wang (June Huh is a Fields Medalist) on the real
+  realizability of universally pseudoeffective surface classes. Per the page: GPT-6-Pro developed
+  the counterexample and proof in ~1h42m, Codex reviewed/revised the exposition; the submitter
+  states the result is shared on behalf of a friend and neither claims credit. No independent
+  verification stated. Applying the W46-ratified seed bar (full-resolution-only,
+  source/fame-blind): a complete disproof of a named conjecture qualifies regardless of
+  AI-assisted provenance — tracked with the heaviest caution tier.
+- evidence:
+  - 2026-11-15 (v1) — https://hexagonmath.org/2611.00489v1 — "A Counterexample to the
+    Realizability Conjecture for Surface Classes" (Qiyue Tang, submitter). Opened directly via
+    `WebFetch` this session.
+- notes: 2026-11-16 (daily, seed creation): caught via today's hexagonmath `/rss/all` sweep.
+  Confidence `low` (not `medium`, departing from this ledger's usual hexagonmath default): zero
+  stated human understanding and no independent verification recorded anywhere on the page, a
+  thinner provenance than most other hexagonmath seeds on this ledger. Watch for: any reaction
+  from the named conjecture's own authors (Huh et al.) or independent algebraic geometers.
 
 ## observation_queue
 
@@ -9121,6 +9255,50 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   ledger's own reliance on "sorry-free"/"kernel-checked" Lean claims as a vetting signal. Below
   bar (a tooling study, not a new mathematical result). Opened and read via the hexagonmath
   `/rss/all` feed this session.
+- 2026-11-12 (v2 revision resurfaced in today's RSS batch; accessed 2026-11-16) — Jingyin Huang,
+  "Bestvina metric and tree reduction for $K(\pi,1)$-conjecture" — https://arxiv.org/abs/2602.17982
+  — and Nima Hoda, Jingyin Huang, "From Trees to Tripods: Proof of $K(\pi,1)$ for Artin groups
+  with $ABI$-type spherical parabolics" — https://arxiv.org/abs/2602.17983 — two related Feb 2026
+  papers reducing the 50+-year-old $K(\pi,1)$-conjecture for Artin groups (geometric group theory)
+  to tree-type Coxeter diagrams, then proving it for a specific subclass (ABI-type spherical
+  parabolics). PARTIAL resolution only (not all Artin groups) — below the landmark bar. Abstracts/
+  authors verified via arXiv API this session.
+- 2026-08-17 (resurfaced in today's RSS batch; accessed 2026-11-16) — Longfei Fang, Mingqing Zhai,
+  Yuhan Zhang, "The Brualdi–Hoffman–Turán problem for odd wheels: Resolving a conjecture of Yu, Li
+  and Peng" — https://arxiv.org/abs/2608.16127 — resolves a research-level (not decades-old-named)
+  spectral-graph-theory conjecture for odd-wheel-forbidding graphs. Below the landmark bar (narrow
+  sub-conjecture, not a long-standing famous problem). Abstract/authors verified via arXiv API
+  this session.
+- 2026-11-03 — Olivia Aubone, José Iovino, "Every obstruction to noncontextual hidden variables is
+  finite: well-founded refutations in infinitary real-valued logic" —
+  https://arxiv.org/abs/2611.05656 — axis-4 quantum-foundations result on contextuality
+  obstructions, in infinitary real-valued logic. Below bar (a general structural theorem, not a
+  named-conjecture resolution) but genuinely on-axis foundational content. Abstract/authors
+  verified via arXiv API this session.
+- 2026-11-13 — Guoxing Ji, "A counterexample to Arveson's finiteness question for subdiagonal
+  algebras" — https://arxiv.org/abs/2611.17636 — operator-algebras counterexample (von Neumann
+  factor subdiagonal algebras); distinct from the already-tracked Arveson's hyperrigidity
+  counterexample (2026-10-19 entry). Below bar (a "question," not a long-standing named
+  conjecture, and narrow). Abstract/author verified via arXiv API this session.
+- 2026-10-30 — LHCb Collaboration, "Evidence for the decay $B^0\to\mu^+\mu^-$ and improved
+  measurements of the decay $B^0_s\to\mu^+\mu^-$" — https://arxiv.org/abs/2611.00230 — first
+  single-experiment EVIDENCE (not yet 5σ discovery) for the rare decay $B^0\to\mu^+\mu^-$, plus
+  the world's most precise $B^0_s\to\mu^+\mu^-$ measurements; all results consistent with the
+  Standard Model (no anomaly). Below bar (evidence-tier, not discovery-tier; no deviation from
+  SM). Abstract/authors verified via arXiv API this session.
+- 2026-11-11 — Peter Woit's "Not Even Wrong" blog, "The Yang-Mills Publicity Stunt" — two
+  independent human write-ups of the OpenAI Yang-Mills Lean proof named but not yet independently
+  opened this session: Martin Hairer (Fields Medalist), https://github.com/hairer/humanise-yang-mills;
+  Scott Armstrong, https://github.com/scottnarmstrong/yang-mills-informalization. Chase next
+  session (see the Yang-Mills trend's notes for full context).
+- 2026-11-13 — "A Statement on Sharing Research Results Produced by AI Companies in Theoretical
+  High-Energy Physics" — https://hep-open-release.org/ — a governance/advocacy statement (not
+  itself a research result) calling for open release of AI-company physics results, signed by 39
+  initial signatories (Edward Witten, Juan Maldacena, Michael Peskin, Cumrun Vafa, David Tong) plus
+  216 further signatories. Axis-5 AI-watch-lane vetting-status signal, directly relevant to the
+  OpenAI Yang-Mills trend's release-practice debate (Woit cites it the same day). Opened directly
+  via `WebFetch` this session; new source staged in SOURCES.md.
+
 ## source_rotation
 
 Append-only coverage log MOVED to `logs/source_rotation.md`. Each run APPENDS one dated line
@@ -9137,6 +9315,21 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-16 — [MathHelm](https://mathhelm.org/) (guest-announced on Terence Tao's "What's new") —
+  a new nonprofit forum for mathematicians to discuss AI-generated papers (born directly from
+  OpenAI's Oct 6 722-manuscript release), open worldwide, real-name registration, no stance for
+  or against AI, prohibits using forum content to train AI — worth knowing as new axis-5
+  vetting-status infrastructure directly relevant to this ledger's own hype-skepticism tracking
+  (same class as the already-tracked mathcommunity.github.io/oai-math-revised). Opened directly
+  via the Tao-blog post this session (mathhelm.org itself not independently verified this
+  session — staged in SOURCES.md, chase on next sighting).
+- 2026-11-16 — [Validation of the OpenAI Yang–Mills construction](https://github.com/yang-mills-group/YM/blob/main/docs/assessment-1.pdf)
+  (the shepherding committee, Nov 10) — the actual document resolving this ledger's longest-
+  running top-priority chase item: a primary-sourced, precise statement of what the Oct 28 Lean
+  submission does and does not establish (weak existence via compactness; no mass gap, no
+  uniqueness) — essential reading for anyone following the Yang–Mills Millennium Problem story,
+  and a model of how a vetting committee should state scope precisely. Read directly via
+  `pdftotext` this session (see the Yang-Mills trend for full context).
 - 2026-11-13 — [Euler's 1747 conjecture on sums of integers with restricted prime factors](https://hexagonmath.org/2611.00370v1) —
   a genuine 279-year-old conjecture (Euler to Goldbach, 1747), fully resolved: every integer ≡2
   mod 4 is a sum of two integers whose prime factors are all ≡1 mod 4, closed via quaternionic

@@ -506,10 +506,16 @@ openmathmodel.org (1 sighting still).
   bar (1 sighting); candidate home page `euclid-ec.org` (ESA mission site) or
   `www.cosmos.esa.int/web/euclid` NOT yet independently verified this session (arXiv is the access
   route for now) — verify a dedicated news/release feed on next sighting.
-- mathhelm.org — 1 — named in a comment on the oai-math-revised launch post as an alternative,
-  non-profit venue for discussing OpenAI-generated math papers — first seen 2026-10-26 — NOT
-  independently opened/verified this session (comment-only mention, provenance unclear). HELD
-  below the ≥2 bar (1 sighting); verify live before treating as a source on next sighting.
+- mathhelm.org — 2 — (1) named in a comment on the oai-math-revised launch post, first seen
+  2026-10-26, not independently verified that session; (2) a dedicated guest post on Terence
+  Tao's "What's new" blog, "Introducing MathHelm: A Place to discuss AI-generated papers"
+  (2026-11-14), by the MathHelm scientific committee (Xinyi Yuan [chair], Yi Ni, Xiaoming Sun,
+  Liang Xiao, Yuan Yuan, Ruixiang Zhang, Fan Zheng) — seen 2026-11-16 — VERIFIED LIVE this session
+  via plain `curl -A "Mozilla/5.0"` (200 OK): a real, active research-mathematics forum (members
+  with verified institutional email can post; real-name registration; no AI-training use of
+  content; existing threads on recent papers). CLEARS the ≥2-sighting bar — ready for weekly
+  promotion to Primary feeds / AI-watch-lane (same class as mathcommunity.github.io/
+  oai-math-revised). No RSS located yet; access via direct `curl`/`WebFetch` on `mathhelm.org`.
 - acadmathsci.org.uk (Academy for the Mathematical Sciences, UK-wide body for math/stats/OR) — 1 —
   "The mathematical sciences in an AI-enabled world" report, Oct 2026 (PDF located via `tvly
   search` at `acadmathsci.org.uk/wp-content/uploads/2026/10/Mathematical_Sciences_AI_AcadMathsSci_Oct2026_preprint_final.docx.pdf`,
@@ -551,6 +557,17 @@ the arXiv id).** **NOTED 2026-11-05: AxiomMath also runs a separate Lean-formali
 site's nav under "Formalizations" — treat as a companion sub-project of this same source (not a
 new staged candidate), same as `/research/publications` and `/research/blog`; verified live via
 `WebFetch` this session (200 OK), no coverage/progress figures were loaded at fetch time.**
+- hep-open-release.org — 1 — "A Statement on Sharing Research Results Produced by AI Companies in
+  Theoretical High-Energy Physics" (2026-11-13), 39 initial signatories including Edward Witten,
+  Juan Maldacena, Michael Peskin, Cumrun Vafa, and David Tong, plus 216 further signatories —
+  first seen 2026-11-16 — discovered via Peter Woit's "Not Even Wrong" blog while chasing the
+  Yang-Mills trend's Nov 9-10 release. VERIFIED LIVE this session via `WebFetch` (same-run Amendment
+  M index check: this IS the triggering/only page, no separate top-level index exists beyond the
+  statement + signature form). A high-credibility governance/advocacy voice calling for open
+  release of AI-company physics results, same AI-watch-lane class as AGMAI/ahmath.org but
+  HEP-theory-specific and signed by field-leading physicists rather than organizational. HELD
+  below the ≥2-sighting bar (1 sighting); no feed, access via direct `WebFetch`/`curl` on the
+  bare URL.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 

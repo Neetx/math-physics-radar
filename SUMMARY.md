@@ -1,8 +1,8 @@
-# Math-Physics Radar — 2026-11-13
+# Math-Physics Radar — 2026-11-16
 
-- **New trend** · [Euler's 1747 conjecture](TRENDS.md#proof-of-eulers-1747-conjecture-on-sums-of-integers-with-restricted-prime-factors) — fully resolved after 279 years.
-- **New trend** · [Disproof of Christandl's PPT² conjecture](TRENDS.md#disproof-of-christandls-ppt-ppt-squared-conjecture-openai-internal-model-independent-human-follow-on-in-low-dimensions) — a quantum-entanglement result.
-- **New trend** · [Faltings' Theorem formalized in Lean](TRENDS.md#complete-lean-formalization-of-faltings-theorem-mordell-conjecture--axiommath) — AxiomMath's Mordell Conjecture claim.
-- **New trend** · [Hilbert's 17th problem for symmetric functions](TRENDS.md#undecidability-and-a-counterexample-to-any-dimensional-hilberts-17th-problem-debusschabert) — shown undecidable in general.
-- **New trend** · [Erdős Problem 521](TRENDS.md#resolution-of-erds-problem-521-on-real-roots-of-random-polynomials) — resolved for real roots of random polynomials.
-- **New** · [A Diophantine definition of ℤ in ℚ](https://arxiv.org/abs/2611.16130) — third independent proof (→ [ℤ Diophantine in ℚ](TRENDS.md#disproof-of-mazurs-finite-components-conjecture---diophantine-in--glazer-et-al-ai-heavy-unrefereed-preprint--claim)).
+- **New** · [Validation of the OpenAI Yang–Mills construction](https://github.com/yang-mills-group/YM/blob/main/docs/assessment-1.pdf) — existence proved only via weak compactness; mass gap still open (→ [OpenAI's Yang–Mills claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)).
+- **New trend** · [Jamneshan–Tao conjecture](TRENDS.md#proof-of-the-jamneshantao-conjecture-nilspace-embedding-gowers-norm-inverse-theorems) — proved via nilspace embedding into nilmanifolds.
+- **New trend** · [Samuels' and Feige's conjectures](TRENDS.md#proof-of-samuels-conjecture-and-feiges-conjecture-tail-bounds-for-sums-of-independent-nonnegative-variables) — sharp tail bound for independent sums.
+- **New trend** · [Eells' and Ding's conjectures](TRENDS.md#disproof-of-eells-conjecture-and-dings-conjecture-harmonic-maps-s3to-s2) — disproved via rigorous harmonic-map numerics.
+- **New trend** · [Realizability Conjecture for surface classes](TRENDS.md#disproof-of-the-realizability-conjecture-for-universally-pseudoeffective-surface-classes) — disproved (claim).
+- **Study pick** · [MathHelm](https://mathhelm.org/) — new forum for discussing AI-generated math papers.
