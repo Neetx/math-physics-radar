@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-16
+Last updated: 2026-11-17
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -2869,6 +2869,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     says the authors will continue regardless. EXTREME caution tier (self-described as largely
     unverified LLM output, "slop" in the authors' own term) — tracked because it is the one named,
     independent, from-scratch competing effort this ledger has been chasing for 3+ sessions.
+  - 2026-11-17 (v1) — https://hexagonmath.org/2611.00543v1 — Zeng Chunping, "From Four-Dimensional
+    Wilson Lattice Gauge Theory to Quantum Yang–Mills Theory, with a Conditional Mass-Gap Theorem":
+    Part I of a planned series by the same submitter as the 2611.00492 compilation above; recompiles
+    the Lean-verified construction and gives full proofs of every step derivable from the
+    definitions, including — UNDER an explicit, individually registered package of
+    renormalization-group and analytic assumptions — a CONDITIONAL mass-gap theorem. Consistent
+    with, not a reversal of, the committee's own "mass gap not proved" scope: the gap is proved
+    only conditionally on stated assumptions, not unconditionally. EXTREME caution (hexagonmath,
+    same submitter/venue class as 2611.00492). Opened directly via `WebFetch`/hexagonmath RSS this
+    session.
 - notes: DROPPED 2026-11-16 (evidence-cap rotation, oldest/least-central): the committee's
   2026-11-03 governance document (RULES AND PROCEDURES PDF) — process/conflict-of-interest detail,
   superseded now the substantive Nov 9-10 release it anticipated has landed (see evidence above).
@@ -2941,6 +2951,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     independent human write-ups (github.com/hairer/humanise-yang-mills,
     github.com/scottnarmstrong/yang-mills-informalization) not yet independently opened; any Clay
     Mathematics Institute statement; the Alpöge–Sussman effort's reaction to this release.
+  - 2026-11-17 (daily): a Part I "conditional mass-gap theorem" compilation surfaced on hexagonmath
+    (see evidence above) — explicitly conditional on a registered assumption package, so this
+    REFINES rather than reverses last session's scope finding (mass gap still not proved
+    unconditionally). No stage/confidence change (`seed`/`medium`). last_evidence advances
+    2026-11-15 → 2026-11-17.
 
 ### Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)
 - stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-10-25
@@ -3317,11 +3332,23 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-11-03 (v1) — https://arxiv.org/abs/2611.04648 — Samuel Evington, Philipp Sibbel, "Every
     classifiable simple C*-algebra has a C*-diagonal." Abstract + authors verified via arXiv API
     this session.
+  - 2026-11-11 (v1) — https://arxiv.org/abs/2611.16079 — Nikolay A. Ivanov, Ali I. Raad, "Every
+    classifiable stably finite $C^*$-algebra has an untwisted étale groupoid model": shows every
+    classifiable STABLY FINITE C*-algebra is isomorphic to the C*-algebra of a second-countable,
+    locally compact Hausdorff, principal étale groupoid (equivalently has a C*-diagonal with
+    trivial Weyl twist). Combined with Evington–Sibbel's UCT-Kirchberg result above, this
+    completes untwisted principal groupoid models for EVERY classifiable C*-algebra (purely
+    infinite and stably finite cases together). Abstract + authors verified via arXiv abstract
+    page this session.
 - notes: 2026-11-04 (daily, seed creation): unrefereed arXiv preprint, PROVISIONAL pending
   referee/community engagement; a program-completing result within a well-established
   classification research program (Elliott programme), so the claim is well-specified against
   known prior work (Xin Li's stably-finite construction) rather than an isolated surprise. Watch
   for operator-algebra community reaction.
+  - 2026-11-17 (daily): caught via today's math.OA listing scan — the stably-finite companion to
+    this trend's UCT-Kirchberg result (see evidence above), together closing the full classification
+    programme's groupoid/diagonal question. No stage change; confidence held `low` (still no
+    outside community reaction found). last_evidence advances 2026-11-04 → 2026-11-11.
 
 ### D-equivalence conjecture resolved for all known hyperkähler deformation types (generalized Kummer varieties)
 - stage: seed | confidence: low | first_seen: 2026-11-04 | last_evidence: 2026-11-04
@@ -4316,10 +4343,334 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   thinner provenance than most other hexagonmath seeds on this ledger. Watch for: any reaction
   from the named conjecture's own authors (Huh et al.) or independent algebraic geometers.
 
+### Convergence toward evidence for evolving (dynamical) dark energy (DESI + DES + independent reanalyses)
+- stage: emerging | confidence: medium | first_seen: 2026-11-17 | last_evidence: 2026-11-17
+- what: axis-3 MULTI-GROUP DIRECTION trend (promoted via today's mandatory convergence check):
+  ≥3 independent orgs/author groups now hold concrete artifacts converging on the same sub-theme
+  — late-time cosmological evidence (currently ~3σ, NOT yet a 5σ discovery) that dark energy's
+  equation of state evolves rather than staying constant (w0-wa beyond ΛCDM). Independent lines:
+  (1) the DESI collaboration's own DR2 Key Papers; (2) the DES collaboration's independent
+  final-dataset analysis (a DIFFERENT flagship survey, not a DESI reanalysis); (3)-(5) at least
+  three independent academic reanalyses (Jiang–Shafieloo; Zheng–Qiang–You–Kumar; the
+  model-independent spline reconstruction) plus a critical reanalysis (Kim–Mota–Tamosiunas)
+  arguing the DESI-only signal is fragile/single-bin — the vetting-status split itself is part of
+  what makes this a genuine, unresolved multi-group direction rather than a settled single claim.
+  EXTRAORDINARY-CLAIM CAUTION (hype-skepticism rule): consistently ~3σ across analyses, below the
+  5σ discovery threshold, look-elsewhere effects apply; track the vetting, do not call it resolved.
+- evidence:
+  - 2026-11-16 (Quanta/Fermilab pointer, opened directly this session) — https://arxiv.org/abs/2605.27221
+    — DES collaboration final-dataset results (combined with DESI + CMB): a ~3σ preference for an
+    evolving-dark-energy fit over ΛCDM; the mismatch between CMB, matter-clumping, and supernova
+    datasets cannot be traced to any single dataset. Independent collaboration/survey from DESI —
+    the key new convergence signal this session. Opened via `WebFetch` (Quanta Magazine article
+    naming the arXiv id) this session.
+  - 2026-07-29/07-31 — https://arxiv.org/abs/2607.27410 — DESI collaboration, "DESI DR2 Results IV:
+    Alcock-Paczyński Measurements from the Lyman Alpha Forest and Cosmological Constraints": finds
+    the w0-wa dynamical-dark-energy model preferred over ΛCDM at 2.7σ (DESI+CMB) / 3.2σ
+    (+supernovae).
+  - 2026-07-31 — https://arxiv.org/abs/2607.28918 — Kim, Mota, Tamosiunas, "A Sequentially-Valid
+    Reanalysis of DESI's Dynamical Dark Energy Signal": an anytime-valid e-process critique finding
+    the DESI signal concentrated almost entirely in one redshift bin, not surviving a
+    look-elsewhere correction — the standing vetting-skeptic voice in this direction.
+  - 2026-08-04 — https://arxiv.org/abs/2608.04763 — Jiang, Shafieloo, "Is Dark Matter Really
+    Matter?": jointly fits $w_{dm}$/$w_{de}$ against DESI DR2 + Lyman-alpha AP + DES SNe + CMB,
+    finding $w_{de}=-0.9380^{+0.0259}_{-0.0262}$ stays away from $-1$.
+  - 2026-07-14 — https://arxiv.org/abs/2607.13009 — "Model-Independent Indication for a Localized
+    Anomaly in the Late-Time Expansion History": a model-independent spline reconstruction of DESI
+    DR2 BAO + DES SN distances finds a localized ~3.5σ deviation from Planck-2018 ΛCDM at z≈0.3–0.6.
+- notes: 2026-11-17 (daily, promoted from observation_queue via the mandatory convergence check):
+  this sub-theme has recurred across the queue since 07-15 (H₀-World-Cup/late-time-anomaly thread)
+  without being promoted; today's DES final-dataset primary (an independent SURVEY/collaboration,
+  not a DESI reanalysis) tips it over the ≥3-independent-groups bar alongside the DESI collaboration
+  itself and ≥3 independent academic groups. Stage `emerging` (not `accelerating`: still one
+  evolving story, ~3σ, actively contested — see the Kim-Mota-Tamosiunas critique). Several older
+  below-bar queue lines on this same saga (07-15, 07-29/07-31, 08-04/08-05) remain in
+  `observation_queue` for now rather than being retroactively pruned (no silent deletion); treat
+  this trend as the forward-looking home for new evidence on this theme going forward.
+
+### A proof of the Erdős–Herzog–Piranian lemniscate conjecture (univalent polynomials)
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-09
+- what: axis-1 LANDMARK (full resolution, source/fame-blind per the W46-ratified bar — see
+  `routines/daily.md` §3): resolves a 1958 conjecture of Erdős, Herzog, and Piranian that for a
+  monic degree-$n$ polynomial $p$, the lemniscate $\{z:|p(z)|=1\}$ has maximal length when
+  $p(z)=z^n-1$; proved in every degree, with equality characterized exactly.
+- evidence:
+  - 2026-11-09 (v1) — https://arxiv.org/abs/2611.12830 — Teng Zhang, "A proof of the
+    Erdős-Herzog-Piranian lemniscate conjecture." Abstract + author verified via direct arXiv
+    `/abs/` fetch this session.
+- notes: 2026-11-17 (daily, seed creation): caught via today's math.CV listing scan (a bounded-
+  cycle-rotation category not yet due this cycle). Ordinary single-author academic preprint —
+  standard unrefereed-preprint caution (hard rule); confidence `low` pending outside reaction.
+
+### Disproof of the Brown–Shields Conjecture (Dirichlet-space outer functions)
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-12
+- what: axis-1 LANDMARK: disproves the classical Brown–Shields conjecture in Dirichlet-space
+  approximation theory via an explicit outer function whose radial zero set has logarithmic
+  capacity zero but whose polynomial multiples do not approximate the constant function 1; proof
+  rests on two new approximation theorems for canonical generators of invariant subspaces.
+- evidence:
+  - 2026-11-12 (v1) — https://arxiv.org/abs/2611.16997 — Bonan Chen, Xiang Fang, Feng Guo, "The
+    Brown–Shields Conjecture: Two Approximation Theorems and a Counterexample." Abstract + authors
+    verified via direct arXiv `/abs/` fetch this session.
+- notes: 2026-11-17 (daily, seed creation): caught via today's math.FA listing scan. Standard
+  unrefereed-preprint caution; confidence `low` pending outside reaction.
+
+### Proof of Bergeron's Hook-Components and Coefficient-Length conjectures (diagonal harmonics)
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-10-31
+- what: axis-1 LANDMARK (algebraic combinatorics/representation theory): proves Bergeron's
+  Hook-Components and Coefficient-Length conjectures for the Vandermonde polarization module and
+  full diagonal harmonics in every rank and number of alphabets; also answers Church–Ellenberg–
+  Farb's character/dimension questions in this setting.
+- evidence:
+  - 2026-10-31 (v1) — https://arxiv.org/abs/2611.00629 — Eren Ercan, "Multivariate diagonal
+    harmonics: character polynomials and proofs of two conjectures of Bergeron." Abstract + author
+    verified via direct arXiv `/abs/` fetch this session.
+- notes: 2026-11-17 (daily, seed creation): caught via today's math.AC listing scan (a coverage-gap
+  category not yet due this rotation cycle). Distinct from the separately-tracked 2026-10-27
+  hexagonmath "Bergeron's conjecture" queue item (a different specific conjecture/paper) —
+  cross-referenced, not merged. Standard unrefereed-preprint caution; confidence `low`.
+
+### Proof of the Cambie–Cames van Batenburg–Davies–Kang correspondence-packing conjecture
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-16
+- what: axis-1 LANDMARK (extremal combinatorics): proves a 2024 conjecture (Cambie, Cames van
+  Batenburg, Davies, Kang, Random Structures & Algorithms 64) pinning down the sharp threshold
+  $k(D)=(1+o(1))D/\log D$ for which every correspondence cover of a bipartite graph with
+  $D$-bounded forbidden partners and $k(D)$ colors per vertex admits a full correspondence packing.
+- evidence:
+  - 2026-11-16 (v1) — https://arxiv.org/abs/2611.20504 — Xin Zhang, "A proof of a conjecture on
+    bipartite correspondence packing." Abstract + author verified via direct arXiv `/abs/` fetch
+    this session.
+- notes: 2026-11-17 (daily, seed creation): caught via today's math.CO title-triage. A
+  recent-vintage (2024) named conjecture — explicitly NOT a disqualifier under the W46-ratified
+  fame/recency-blind bar. Standard unrefereed-preprint caution; confidence `low`.
+
+### Independent proof of the Kiessling–Altshuler–Yuzbashyan (KAY) conjecture (Eliashberg $T_c$ bound)
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-16
+- what: axis-2/3 LANDMARK (math-ph / condensed-matter interface): proves the Kiessling–Altshuler–
+  Yuzbashyan conjecture bounding the Eliashberg-theory superconducting critical temperature,
+  $T_c<C(\lambda\langle\omega^2\rangle)^{1/2}$ with $C\approx0.1827$ sharp (a bound Leavens stated
+  in 1977 on partly numerical grounds), plus all-coupling uniqueness of $T_c$, for every phonon
+  spectrum with finite second moment — via an independent comparison-principle argument.
+- evidence:
+  - 2026-11-16 (v1) — https://arxiv.org/abs/2611.20496 — Davis Rens, "Sharp bounds on the Eliashberg
+    critical temperature: a comparison principle, convexity in the spectrum, and the
+    Kiessling-Altshuler-Yuzbashyan conjectures." Abstract + author verified via direct arXiv `/abs/`
+    fetch this session.
+- notes: 2026-11-17 (daily, seed creation): caught via today's math-ph listing scan. The abstract
+  itself notes an earlier, not-yet-peer-reviewed Kondratev preprint already claimed this same
+  bound — this is a SECOND, independent proof; watch for convergence/corroboration. Standard
+  unrefereed-preprint caution; confidence `low`.
+
+### Full resolution of the Hibi–Li (2016) conjecture (order/chain polytope face counts)
+- stage: seed | confidence: low | first_seen: 2026-11-03 | last_evidence: 2026-11-17
+- what: axis-1 LANDMARK: Hibi and Li conjectured the order polytope $\mathcal O(P)$ of a finite
+  poset has at most as many faces of each dimension as its chain polytope $\mathcal C(P)$, with
+  equality in some dimension forcing unimodular equivalence. Fourier proved the inequality part
+  (2026 preprint); this work proves the remaining equality part, fully resolving the conjecture.
+- evidence:
+  - 2026-11-03 (v1) — https://arxiv.org/abs/2610.40703 — Dave Goel, "The Hibi–Li (2016) conjecture
+    is fully resolved." Abstract + author verified via arXiv abstract page (queued 2026-11-03,
+    reconciliation-promoted to seed 2026-11-17).
+  - 2026-11-17 (v1) — https://hexagonmath.org/2611.00512v1 — Dave Goel, same result re-published on
+    hexagonmath ("...and other miscellanea" expanded companion at 2611.00513v1) — a second-venue
+    cross-posting of the identical claim, not independent corroboration. Opened directly via
+    hexagonmath RSS/`WebFetch` this session.
+- notes: 2026-11-17 (daily, reconciliation promotion): originally queued 2026-11-03 and held
+  below-bar as a "recent-vintage conjecture" — that was the OLD, pre-W46 standard; the ratified
+  bar (fame/recency-blind, full-resolution-only) now clears it. See the Osserman (1990) trend
+  below for the full discussion of this submitter's same-day batch pattern and AI-provenance
+  caution, which applies identically here (EXTREME caution). Confidence `low`.
+
+### Proof of the Cranston–Li–Su–Wang–Xu (2026) nowhere-zero-flow reconfiguration conjecture
+- stage: seed | confidence: low | first_seen: 2026-11-03 | last_evidence: 2026-11-03
+- what: axis-1 LANDMARK (combinatorics): proves the Cranston–Li–Su–Wang–Xu (2026) conjecture that
+  for a finite abelian group $A$ with $|A|\ge4$, in every graph where all degrees are even, any
+  two nowhere-zero $A$-flows are connected by a chain of cycle-reconfiguration moves through
+  nowhere-zero $A$-flows (plus a companion claim for smaller groups).
+- evidence:
+  - 2026-11-03 (v1) — https://arxiv.org/abs/2610.40863 — Dave Goel, "The Cranston–Li–Su–Wang–Xu
+    (2026) conjecture is true." Abstract + author verified via arXiv abstract page (queued
+    2026-11-03, reconciliation-promoted to seed 2026-11-17).
+- notes: 2026-11-17 (daily, reconciliation promotion): originally queued 2026-11-03 and held
+  below-bar as a "same-year conjecture-and-resolution" — superseded by the W46-ratified
+  fame/recency-blind bar. Same submitter (Dave Goel) as the Hibi–Li item above and today's
+  hexagonmath batch below; see the Osserman (1990) trend's note for the batch-pattern/AI-provenance
+  caution discussion. Confidence `low`; no independent verification found.
+
+### Full resolution of the Osserman (1990) conjecture (Riemannian Jacobi operators)
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-17
+- what: axis-1 LANDMARK: the Osserman conjecture (1990) states a Riemannian manifold whose Jacobi
+  operators have the same eigenvalues in every unit tangent direction at every point is flat or
+  locally rank-one symmetric. Chi and Nikolayevsky had proved it in every dimension except one
+  algebraic case in dimension 16, reduced by Nikolayevsky to his own "Nikolayevsky (2009)
+  conjecture." This paper proves the Nikolayevsky (2009) conjecture, completing Osserman's
+  conjecture in every dimension.
+- evidence:
+  - 2026-11-17 (v1) — https://hexagonmath.org/2611.00544v1 — Dave Goel, "The Osserman (1990)
+    conjecture is fully resolved" (expanded companion "...and other miscellanea" at
+    2611.00546v1). Opened directly via hexagonmath RSS/`WebFetch` this session.
+- notes: 2026-11-17 (daily, seed creation): EXTREME CAUTION, SAME-DAY SINGLE-SUBMITTER BATCH
+  FLAG — this is one of SIX distinct named-conjecture resolutions posted TODAY by the same
+  hexagonmath submitter, Dave Goel (the others: the Matsaev (1971), Hibi–Li (2016)
+  [reconciliation-promoted above], Wills' (1981), Lee's (2026), and Sheil-Small's (1974) trends
+  in this file). hexagonmath's own provenance statement for this batch: the work was done
+  "overwhelmingly by AI models (Anthropic's Claude and OpenAI's ChatGPT), supervised by the
+  author," who takes full responsibility. This sharply escalates a pattern first flagged
+  2026-11-03 ("two conjectures in one day... worth tracking if it recurs") to SIX in one day.
+  Seeded per the W46-ratified bar (fame/source/volume-blind — AGENTS.md § Domain cadence,
+  `routines/daily.md` §3), but the concentration is flagged in `logs/strategy_notes.md` for W47
+  weekly review: whether a per-submitter/per-day safeguard belongs alongside the existing
+  unrefereed-preprint/AI-watch caution tiers. Confidence `low`; no independent verification found
+  this session.
+
+### Disproof of the Matsaev (1971) conjecture for every $p\ne2$
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-17
+- what: axis-1 LANDMARK: the Matsaev (1971) conjecture asserted $\|P(T)\|\le\|P(S)\|$ for every
+  $L^p$ contraction $T$ and polynomial $P$ ($S$ = shift on $\ell^p(\mathbb N)$; $p=2$ is von
+  Neumann's inequality). Drury (2011) disproved it for $p=4$ (hence $p=4/3$ by duality) with a
+  computer-assisted example; this paper extends the disproof to EVERY $p\in(1,\infty)\setminus\{2\}$,
+  with an explicit real $2\times2$ matrix and real quadratic, no computation needed.
+- evidence:
+  - 2026-11-17 (v1) — https://hexagonmath.org/2611.00547v1 — Dave Goel, "The Matsaev (1971)
+    conjecture is false for every p ≠ 2" (expanded companion at 2611.00548v1). Opened directly via
+    hexagonmath RSS/`WebFetch` this session.
+- notes: 2026-11-17 (daily, seed creation): part of today's six-item single-submitter (Dave Goel)
+  hexagonmath batch — see the Osserman (1990) trend's note above for the full same-day-batch/
+  AI-provenance caution discussion, which applies identically here. Confidence `low`.
+
+### Full resolution of Wills' (1981) conjecture (Ehrhart coefficients of symmetric lattice polytopes)
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-17
+- what: axis-1 LANDMARK: Wills (1981) conjectured each coefficient $g_i(P)$ of the Ehrhart
+  polynomial of an origin-symmetric lattice polytope $P$ with the origin as its only interior
+  lattice point is at most the corresponding coefficient of the cube, $g_i(P)\le2^i\binom ni$.
+  Wills proved $n\le3$; Henze (2014) showed it fails for $n\ge7$; dimensions 4-6 were open. This
+  paper settles all three: the conjecture holds in dimension 4 (with new sharp bounds) and fails
+  in dimensions 5-6 — so Wills' conjecture holds if and only if $n\le4$.
+- evidence:
+  - 2026-11-16/17 (v1) — https://hexagonmath.org/2611.00540v1 — Dave Goel, "Wills' (1981) conjecture
+    holds if and only if the dimension is at most 4" (expanded companion at 2611.00541v1). Opened
+    directly via hexagonmath RSS/`WebFetch` this session.
+- notes: 2026-11-17 (daily, seed creation): part of today's six-item single-submitter (Dave Goel)
+  hexagonmath batch — see the Osserman (1990) trend's note above for the full same-day-batch/
+  AI-provenance caution discussion. A full characterization (exact dimension cutoff) counts as a
+  full resolution under the ratified bar. Confidence `low`.
+
+### Disproof of the Lee (2026) conjecture on order/chain polytope diameters
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-16
+- what: axis-1 LANDMARK: J. Lee (2026) conjectured that for a connected poset, the graph diameters
+  of Stanley's order polytope $\mathcal O(P)$ and chain polytope $\mathcal C(P)$ differ by at most
+  1. This paper constructs, for every $k\ge1$, a connected poset for which the two diameters differ
+  by more than 1 in BOTH directions, disproving the conjecture.
+- evidence:
+  - 2026-11-16 (v1) — https://hexagonmath.org/2611.00525v1 — Dave Goel, "The Lee (2026) conjecture
+    on the diameters of order and chain polytopes fails in both directions." Opened directly via
+    hexagonmath RSS/`WebFetch` this session.
+- notes: 2026-11-17 (daily, seed creation): part of today's six-item single-submitter (Dave Goel)
+  hexagonmath batch — see the Osserman (1990) trend's note above. A conjecture posed literally
+  this year (2026) — recency is explicitly NOT a disqualifier under the ratified bar. Confidence
+  `low`.
+
+### Sheil-Small's (1974) covering problem resolved (positive answer)
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-16
+- what: axis-1 LANDMARK: T. Sheil-Small asked (Problem 4.24, Hayman & Lingham's problem book, 1974)
+  whether every self-inversive polynomial maps the unit disc onto a domain containing a disc of
+  radius equal to the polynomial's largest coefficient modulus. This paper proves YES, more
+  generally for every polynomial whose coefficients have equal moduli read in reverse order.
+- evidence:
+  - 2026-11-16 (v1) — https://hexagonmath.org/2611.00519v1 — Dave Goel, "Sheil-Small's (1974)
+    covering problem has a positive answer." Opened directly via hexagonmath RSS/`WebFetch` this
+    session.
+- notes: 2026-11-17 (daily, seed creation): part of today's six-item single-submitter (Dave Goel)
+  hexagonmath batch — see the Osserman (1990) trend's note above for the full same-day-batch/
+  AI-provenance caution discussion. Confidence `low`.
+
+### Proof of the Tu–Zeng–Jiang–Li conjecture on permutation binomials in characteristic two
+- stage: seed | confidence: low | first_seen: 2026-11-17 | last_evidence: 2026-11-16
+- what: axis-1 LANDMARK (finite fields/coding theory): for $q=2^m$, $m\ge5$ odd, $3\mid m$, Tu,
+  Zeng, Jiang and Li conjectured that a family of Hermite-type sums attached to a specific binomial
+  vanishing for every $\alpha$ with $3\mid(1+\alpha)$ forces $y^3=1$. This paper gives a detailed
+  finite-carry proof covering all exceptional and boundary cases.
+- evidence:
+  - 2026-11-16 (v1) — https://hexagonmath.org/2611.00510v1 — yi li, "A detailed finite-carry proof
+    of a conjecture on permutation binomials in characteristic two." Opened directly via
+    hexagonmath RSS/`WebFetch` this session.
+- notes: 2026-11-17 (daily, seed creation): caught via today's hexagonmath `/rss/all` sweep. A
+  different, single submitter from the Dave Goel batch above — standard hexagonmath unrefereed-
+  preprint caution (not flagged EXTREME absent an explicit AI-overwhelming-authorship statement on
+  this specific page). Confidence `low`.
+
+### Proof of the Chien–Nakazato–Meng constant-width numerical range conjecture
+- stage: seed | confidence: low | first_seen: 2026-11-10 | last_evidence: 2026-11-10
+- what: axis-1 LANDMARK (matrix analysis/operator theory): proves the Chien–Nakazato–Meng
+  conjecture that a matrix's numerical range has constant width $d$ if and only if it is a disk of
+  radius $d/2$.
+- evidence:
+  - 2026-11-10 (v1) — https://arxiv.org/abs/2611.13461 — Muyan Jiang, "A proof of the constant-width
+    numerical range conjecture." Abstract + author verified via direct arXiv `/abs/` fetch (queued
+    2026-11-10, reconciliation-promoted to seed 2026-11-17).
+- notes: 2026-11-17 (daily, reconciliation promotion): originally queued 2026-11-10 and held
+  below-bar as a "narrower/less-established named conjecture... pending wider significance
+  signal" — that reasoning was the OLD, pre-W46 standard; the ratified bar (fame/source-blind,
+  full-resolution-only) now clears it. Ordinary single-author academic preprint, standard
+  unrefereed-preprint caution; confidence `low`.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-13 — Kashyap, Kaveh, Manon, Tsvelikhovskiy, "A Helly theorem for the Bruhat-Tits
+  building" — https://arxiv.org/abs/2611.17844 — proves a Radon/Helly-type theorem for
+  $\mathcal O$-lattices (equivalently, simplices in the Bruhat-Tits building of $\mathrm{GL}(m)$):
+  a finite family lies in a common apartment iff every subfamily of size $\le m+1$ does. A new
+  theorem, not a resolved open conjecture — below the landmark bar. Axis 1 (arithmetic geometry).
+  Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-16 — Chen, Chong, Wang, "Non-tempered GGP conjecture for classical groups: the Bessel
+  case" — https://arxiv.org/abs/2611.20494 — PARTIAL: proves relevance of two A-parameters is
+  sufficient (and, for co-tempered A-parameters, necessary) for existence/uniqueness of a Bessel
+  period in Gan–Gross–Prasad's non-tempered conjecture, but gives counterexamples to necessity in
+  the fully general case. Below bar (partial — closes the co-tempered case, leaves the general
+  case genuinely open with counterexamples). Axis 1. Abstract verified via direct arXiv `/abs/`
+  fetch this session.
+- 2026-11-16 — Chen, Liu, Ratz, Stewart, "Lean-Verified No-Go Theorems for $R$-Symmetries and
+  Modular Symmetries in 4D GUTs" — https://arxiv.org/abs/2611.20386 — axis-2/5 crossover: Lean 4
+  formalization of the existing no-go theorem restricting $R$-symmetries in SUSY SU(5) GUTs;
+  identifies and closes a gap in the published argument's general case, and discusses implications
+  for modular-symmetry GUT models. A formalization + gap-fix of an established theorem, not a new
+  open-conjecture resolution — below the landmark bar but a genuine axis-5 formalization artifact.
+  Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-13 — Johansson, Jensen, Nielsen, Adams, Borge (FRIB), "Resolving the isospin-mixing
+  anomaly in $^{26}$Si from $^{26}$P $\beta$-decay" — https://arxiv.org/abs/2611.18015 — a new
+  high-resolution FRIB measurement of $^{26}$P $\beta$-delayed charged-particle decay revisiting a
+  prior "record-high isospin mixing matrix element" claim in $^{26}$Si. Axis 3 (nuclear
+  experiment); below bar (a specific-anomaly refinement, not a field-level landmark). Abstract
+  verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-13 — Yin, Liang, Sun, Yang, Pan, "EP260411a": https://arxiv.org/abs/2611.18210 — an
+  ~8s extragalactic fast X-ray transient (Einstein Probe WXT) temporally coincident with short
+  GRB 260411A, with pulse-width/peak-time anticorrelations versus burst duration; a specific new
+  catalogued event, not yet a field-level landmark. Axis 3. Abstract verified via direct arXiv
+  `/abs/` fetch this session.
+- 2026-11-12 — Cineli, Ginzburg, Gurel, continuation of the Hofer–Zehnder conjecture for Reeb
+  pseudo-rotations — https://arxiv.org/abs/2611.17542 — PARTIAL: bounds on alternating/prime
+  closed orbits for $n\ge3$ dynamically-convex non-degenerate Reeb pseudo-rotations of
+  $S^{2n-1}$; continues, does not close, the standing Hofer–Zehnder conjecture investigation.
+  Axis 1 (symplectic geometry). Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-16 — "Pair Correlation Conjecture for the Zeros of Artin $L$-functions I" —
+  https://arxiv.org/abs/2611.20347 — extends the Montgomery pair-correlation-conjecture-implies-
+  simple-zeros argument (via Goldston et al.'s horizontal-multiplicity method) to Artin
+  $L$-functions; a conditional/partial result (Part I of a series), not a resolution of PCC
+  itself. Axis 1. Abstract verified via direct arXiv `/abs/` fetch this session.
+- 2026-11-16 — "Pair correlation of $L$-zeros and Hooley's conjecture" —
+  https://hexagonmath.org/2611.00509v1 — proves the CUE random-matrix prediction for Dirichlet
+  $L$-function zero pair correlation unconditionally for $|\alpha|<1$ and (under GRH + the
+  Hardy–Littlewood twin-primes conjecture) for $|\alpha|<2$; for $|\alpha|\ge1$ shows the CUE
+  prediction is EQUIVALENT to Hooley's conjecture, not a proof of it. Conditional/equivalence
+  result, below bar. Axis 1. Opened directly via hexagonmath RSS/`WebFetch` this session.
+- 2026-11-17 — "Double-Pulsar Drag Bounds Dissipative Sources of Diósi–Penrose Decoherence" —
+  https://hexagonmath.org/2611.00499v1 — a calculation finding that a ground-state bath (free
+  linearized gravitational field) cannot produce the Diósi–Penrose decoherence rate for a static
+  mass superposition; uses double-pulsar drag data as an observational bound. Axis 4 (quantum
+  foundations); a null/bounding result, below the landmark bar. Opened directly via hexagonmath
+  RSS/`WebFetch` this session.
 - 2026-11-13 (W46 weekly-swept IAS sweep; UNVERIFIED, underlying piece not opened this session) —
   IAS news, "'Ahead of His Time': AI Helps Unlock Discoveries Hidden in Notebooks of Man Who
   Transformed Maths" — https://www.ias.edu/news — IAS's own one-line gloss (via `tvly search`,
@@ -4503,15 +4854,15 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   https://arxiv.org/abs/2610.40688 — resolves a semidomain-theory conjecture (bi-length-
   factoriality ⟺ bi-factoriality); recent-vintage conjecture, below the landmark bar. Abstract +
   authors verified via arXiv abstract page this session.
-- 2026-11-03 — Dave Goel, "The Hibi–Li (2016) conjecture is fully resolved" —
-  https://arxiv.org/abs/2610.40703 — order-polytope/chain-polytope face-count conjecture (Hibi–Li
-  2016), building on a 2026 Fourier preprint; below the landmark bar (recent-vintage conjecture).
-  Abstract + author verified this session.
-- 2026-11-03 — Dave Goel, "The Cranston–Li–Su–Wang–Xu (2026) conjecture is true" —
-  https://arxiv.org/abs/2610.40863 — nowhere-zero-flow equivalence conjecture; same-year
-  conjecture-and-resolution, below the landmark bar. Abstract + author verified this session.
-  NOTE: same single author (Dave Goel) as the Hibi–Li item above, resolving two distinct named
-  conjectures same day — a prolific solver pattern worth tracking if it recurs.
+- PROMOTED 2026-11-17 (reconciliation under the W46-ratified fame/recency-blind seed bar — see
+  `routines/daily.md` §3): the two Dave Goel items formerly queued here on 2026-11-03 ("The
+  Hibi–Li (2016) conjecture is fully resolved," arXiv:2610.40703; "The Cranston–Li–Su–Wang–Xu
+  (2026) conjecture is true," arXiv:2610.40863) were held below-bar under the OLD
+  fame/recency-sensitive standard ("recent-vintage conjecture," "same-year conjecture-and-
+  resolution") that the W46 ratification explicitly superseded. Both are full resolutions of
+  genuinely named conjectures and now seed — see the new "Full resolution of the Hibi–Li (2016)
+  conjecture" and "Proof of the Cranston–Li–Su–Wang–Xu (2026) nowhere-zero-flow reconfiguration
+  conjecture" trends above. Cleared from this queue.
 - 2026-11-03 — Samuel J. Ferguson, Joshua Iosevich, "Tiling without a subspace complement: a sharp
   counterexample in dimension nine over the field with two elements" —
   https://arxiv.org/abs/2610.42005 — completes the classification of when an $\mathbb F_2^d$ tile
@@ -9070,12 +9421,13 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   result to general homogeneous potentials. Axis 1/2, celestial mechanics/dynamics (adjacent to
   the standing Smale's-sixth-problem seed trend, but a different sub-problem — not folded in as
   evidence). Abstract verified via direct arXiv `/abs/` fetch this session.
-- 2026-11-10 — https://arxiv.org/abs/2611.13461 — Muyan Jiang, "A proof of the constant-width
-  numerical range conjecture": proves the Chien–Nakazato–Meng conjecture (a matrix's numerical
-  range has constant width $d$ iff it is a disk of radius $d/2$). Axis 1, matrix analysis/operator
-  theory; full resolution but a narrower/less-established named conjecture — queued rather than
-  seeded pending wider significance signal. Abstract verified via direct arXiv `/abs/` fetch this
-  session.
+- PROMOTED 2026-11-17 (reconciliation under the W46-ratified fame/recency-blind seed bar): this
+  2026-11-10 item (Muyan Jiang, "A proof of the constant-width numerical range conjecture,"
+  arXiv:2611.13461, proving the Chien–Nakazato–Meng conjecture) was held below-bar under the OLD
+  standard ("narrower/less-established named conjecture... pending wider significance signal") —
+  a full resolution of a genuinely named conjecture now seeds regardless of fame per the ratified
+  bar. See the new "Proof of the Chien–Nakazato–Meng constant-width numerical range conjecture"
+  trend above. Cleared from this queue.
 - 2026-11-10 — https://arxiv.org/abs/2611.13745 — Chen, Lan, Liu, "The anisotropic De Giorgi
   conjecture in $\mathbb R^4$": one-dimensional symmetry for entire solutions of the anisotropic
   Allen–Cahn equation under a limiting assumption. Axis 1/2, PDE/geometric analysis; a restricted
@@ -9315,6 +9667,21 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-17 — [DES final-dataset cosmology results](https://arxiv.org/abs/2605.27221) (Dark
+  Energy Survey collaboration, combined with DESI + CMB) — an independent flagship survey's own
+  analysis finding a ~3σ preference for evolving dark energy over ΛCDM, with the CMB/clumping/
+  supernova datasets disagreeing pairwise in a way not traceable to any one of them — essential
+  context for the DESI dynamical-dark-energy story now promoted to this ledger's own multi-group
+  trend. Discovered via a Quanta/Fermilab-syndicated pointer, arXiv abstract opened directly via
+  `WebFetch` this session.
+- 2026-11-17 — [Full resolution of the Osserman (1990) conjecture](https://hexagonmath.org/2611.00544v1) —
+  a genuine, 36-year-old differential-geometry conjecture (Riemannian manifolds with
+  direction-independent Jacobi-operator eigenvalues are flat or locally rank-one symmetric),
+  closed by resolving its last remaining algebraic case (Nikolayevsky's 2009 reduction) — worth
+  knowing about REGARDLESS of its unrefereed, AI-assisted, single-submitter provenance (see this
+  ledger's EXTREME-caution flag on the trend itself): a notable claim researchers in the field
+  will likely encounter and want to evaluate independently. Opened directly via hexagonmath
+  RSS/`WebFetch` this session.
 - 2026-11-16 — [MathHelm](https://mathhelm.org/) (guest-announced on Terence Tao's "What's new") —
   a new nonprofit forum for mathematicians to discuss AI-generated papers (born directly from
   OpenAI's Oct 6 722-manuscript release), open worldwide, real-name registration, no stance for

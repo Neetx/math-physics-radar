@@ -2239,3 +2239,37 @@ coding) this week. No redirection needed.
   promotion bar this session (see SOURCES.md) — a dedicated Terence-Tao-blog guest post plus live
   verification via plain `curl`. Recommend promoting to Primary feeds / AI-watch-lane at the next
   weekly, same class as mathcommunity.github.io/oai-math-revised.
+
+- 2026-11-17 (daily) — **STRATEGY FLAG for W47 weekly review**: a single hexagonmath submitter,
+  Dave Goel, posted SIX distinct named-conjecture resolutions in one batch today (Osserman (1990),
+  Matsaev (1971), Hibi–Li (2016) [a 2nd-venue repost of an already-queued Nov-3 arXiv claim],
+  Wills' (1981), Lee's (2026), Sheil-Small's (1974)), with hexagonmath's own provenance statement
+  disclosing the work was done "overwhelmingly by AI models... supervised by the author." This
+  sharply escalates a pattern first flagged 2026-11-03 ("two conjectures in one day... worth
+  tracking if it recurs") and already visible in this submitter's 2026-11-11 Smale's-mean-value-
+  conjecture seed. Per the W46-ratified bar (fame/source/volume-blind), all six were seeded this
+  session — the ratification explicitly closed the "under-seed for volume" question. But six
+  full-resolution claims from ONE person in ONE day, explicitly AI-supervised rather than AI-
+  assisted-and-human-checked, is a qualitatively different signal than the hexagonmath-wide volume
+  question W46 addressed (that was about the VENUE's aggregate rate across many submitters; this is
+  about a single author's own output rate). Proposal for W47 (cooling period, not applied yet): add
+  a per-submitter same-day concentration NOTE requirement — not a bar change, which is
+  curator-immutable — e.g. require each item beyond the first same-day item from one submitter to
+  carry an explicit "N-th of M same-day items from this submitter" note (already done ad hoc this
+  session) and consider whether `logs/calibration.md`'s monthly hit/miss retrospective should track
+  this submitter's claims as a distinct cohort, given the ledger now has a multi-month track record
+  (Smale's mean value conjecture 11-11, Hibi-Li/Cranston-Li-Su-Wang-Xu 11-03, today's six) to
+  retrospectively evaluate once any of these draw outside reaction.
+- 2026-11-17 (daily) — RECONCILIATION: found 3 pre-existing `observation_queue` items that were
+  held below the landmark bar under the OLD pre-W46 standard specifically because of
+  fame/recency/narrowness reasoning that the W46 ratification (2026-11-14) superseded: the Hibi–Li
+  (2016) conjecture (queued 11-03, "recent-vintage conjecture"), the Cranston–Li–Su–Wang–Xu (2026)
+  conjecture (queued 11-03, "same-year conjecture-and-resolution"), and the Chien–Nakazato–Meng
+  constant-width numerical range conjecture (queued 11-10, "narrower/less-established... pending
+  wider significance signal"). All three are full resolutions of genuinely named conjectures and
+  were promoted to seed trends this session. This was found opportunistically (via today's own
+  sweep re-surfacing the Hibi–Li claim on a second venue) rather than via an exhaustive queue scan —
+  flagging for W47: a full one-time reconciliation sweep of the ~575-item queue for other
+  pre-W46-standard holds is still owed (bounded cost: grep the queue for "below the landmark bar"/
+  "pending wider significance"/"narrower/less-established" phrasing as a starting filter, not a
+  full re-read of every item).

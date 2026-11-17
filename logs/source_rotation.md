@@ -4960,3 +4960,111 @@ discovered-source candidate (Amendment M index-check satisfied same session — 
 IS its own top-level index, no separate listing exists); mathhelm.org's existing staged entry
 incremented to its 2nd sighting and verified live, clearing the promotion bar — flagged for W47
 weekly promotion. README.md and SUMMARY.md regenerated in the same commit.
+
+## 2026-11-17 (Tue, Pass 1, scheduled) — FULL CHECK. Load-state: clone was shallow at session
+start; `git fetch --unshallow` run first (standing precedent). No orphaned branches (two stale
+`claude/*` branches confirmed ordinary ancestors of `origin/main`). `origin/main` at parity with
+local HEAD at session start. All `radar:` commits of the last 7 days have matching reports — no
+incomplete-run warning. `tvly` reinstalled (`pip install -q tavily-cli`), authenticated via
+`TAVILY_API_KEY`, but QUOTA-EXHAUSTED when actually called this session — `WebFetch`/direct
+`curl` substituted for the lanes that needed a fallback (per SOURCES.md's standing note).
+
+Primary sweep (radar-source-sweep): the arXiv API (`export.arxiv.org/api/query`) was itself
+DEGRADED this session — heavy timeouts and explicit "Rate exceeded" responses on bulk per-category
+queries (a new failure mode, not seen in prior sessions) — worked around by switching to the
+`arxiv.org/list/<cat>/recent` HTML listings (unaffected, fast) for category triage; flag for a
+`radar-source-heal` follow-up if this recurs. Full 35-category title-triage completed via this
+fallback (21 categories via the API before it degraded + 14 via the HTML-listing workaround):
+math CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT, physics hep-th/hep-ph/hep-ex/
+hep-lat/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/nucl-th/nucl-ex/
+nlin.SI. The arXiv RSS feeds (`rss.arxiv.org`) returned EMPTY item lists for every category
+checked this session (channel metadata only, 0 `<item>`s) despite a current `lastBuildDate` —
+degraded, not used; the API/HTML-listing routes substituted cleanly. hexagonmath.org `/rss/all`
+(50-item batch, Nov 15-17) opened and read in full.
+
+CAPTURE HAUL (large): ELEVEN new seed trends from fresh primaries (Erdős-Herzog-Piranian
+lemniscate conjecture proof, arXiv:2611.12830; Brown-Shields conjecture disproof, arXiv:2611.16997;
+Bergeron's Hook-Components/Coefficient-Length conjectures proof, arXiv:2611.00629; bipartite
+correspondence-packing conjecture proof, arXiv:2611.20504; KAY conjecture independent proof,
+arXiv:2611.20496; and SIX hexagonmath items — Matsaev (1971) disproof, Osserman (1990) full
+resolution, Wills' (1981) resolution, Lee (2026) disproof, Sheil-Small's (1974) positive answer,
+all by the SAME single submitter Dave Goel in one batch — plus a permutation-binomials conjecture
+proof by a different submitter, yi li) + THREE reconciliation promotions of pre-existing
+`observation_queue` items that were held below-bar under the OLD pre-W46 fame/recency-sensitive
+standard (Hibi-Li (2016) conjecture, arXiv:2610.40703; Cranston-Li-Su-Wang-Xu (2026) conjecture,
+arXiv:2610.40863; Chien-Nakazato-Meng constant-width numerical range conjecture, arXiv:2611.13461)
++ ONE new multi-group DIRECTION trend promoted via the mandatory convergence check (DESI + DES +
+≥3 independent academic reanalyses on the evolving-dark-energy sub-theme, triggered by today's
+DES final-dataset primary arXiv:2605.27221, found via a Quanta/Fermilab pointer) + TWO evidence
+appends to existing trends (the stably-finite C*-algebra groupoid-model companion result,
+arXiv:2611.16079, completing the Elliott-classification-programme trend; a hexagonmath "conditional
+mass-gap theorem" compilation, 2611.00543, appended to the OpenAI Yang-Mills trend, consistent with
+— not a reversal of — last session's "mass gap not proved unconditionally" finding) + EIGHT
+below-bar queue adds (Bruhat-Tits Helly theorem, non-tempered GGP partial, Lean-verified GUT no-go
+theorem, FRIB isospin-mixing-anomaly remeasurement, EP260411a fast X-ray transient, Hofer-Zehnder
+partial progress, Artin-L-function pair-correlation Part I, Hooley's-conjecture/CUE equivalence,
+Diósi-Penrose decoherence bound). TRENDS.md Active-trends count 115->129 (14 net new sections:
+11 fresh + 3 reconciliation; the DESI/DES item is also new). study_shelf +2 (the DES final-dataset
+paper; the Osserman (1990) conjecture resolution, flagged for awareness despite its caution tier).
+
+STRATEGY FLAG (logged in `logs/strategy_notes.md`): the Dave Goel hexagonmath batch (SIX named-
+conjecture resolutions from one AI-assisted submitter in one day) sharply escalates a pattern
+first flagged 2026-11-03 ("two in one day") — seeded per the W46-ratified volume-blind bar, but
+flagged for W47 weekly review of a possible per-submitter/per-day safeguard.
+
+Primary feeds: CERN Courier (curl -A Mozilla/5.0, 200, newest item unchanged since 11-13, 0 new
+catch), Fermilab (curl, 200 — yielded the DES/DESI "something missing" Quanta-syndicated capture
+above, plus a routine off-axis Fermilab/IBM/NVIDIA quantum-computing-technology item correctly
+skipped as the sibling quantum radar's beat), Simons Foundation (curl, 200, routine/off-axis), PRL/
+PRX/RMP (curl, 200 each, routine — RMP/PRX title-keyword hits on "classification"/"proof" checked
+and confirmed routine condensed-matter/QKD, not conjecture resolutions), Quantum journal (curl, 200
+— the two title-keyword hits, "Optimality Conjecture counterexample" and "hiding conjecture proof,"
+both already-tracked Oct 27/28 items, confirmed not new), IceCube (curl, 200, routine). Experiments
+block: LIGO `/news` — direct curl 403 (Cloudflare), `WebFetch` recovered the page but returned
+STALE content for the 3RD time (11-12, 11-16, 11-17; newest item unchanged "GWTC-5.0," May 26
+2026) — `degraded: stale content persists, now HEAL-OWED (3rd occurrence); tvly attempted,
+quota-exhausted, no fallback found this session` (logged in SOURCES.md). DESI (curl, 200 — the
+"something missing" DES+DESI item, see above). CERN home — correctly skipped per the W45
+heal-or-remove monthly downgrade (next due ~2026-12-07). AI-watch lane: openai.com/research — curl
+AND `WebFetch` both 403, `tvly` quota-exhausted, no fallback (`degraded`, logged in SOURCES.md, not
+yet a new failure mode — recurring quota pattern). anthropic.com/research (curl, 200) — 35 recent
+posts, all axis-5 AI-capability/agent/product content, 0 on-axis catch. axiommath.ai/research/blog
+— 308 redirect followed, JS-rendered shell with no extractable body via plain `curl` (as
+documented), `tvly` quota-exhausted, not independently swept this session. agmai.org (curl, 200) —
+unchanged since the already-tracked Oct 26 statement. icarm.io/feed (curl -L, 200) — unchanged
+since Oct 12. GitHub watch (radar-repo-watch): `WebFetch` on `.atom` URLs — lean4 went STABLE
+v4.36.0 (Nov 16, up from the standing v4.36.0-rc2), mathlib4 tagged a matching `v4.36.0` toolchain-
+bump entry (Nov 16, breaking its usual daily `master-YYYY-MM-DD` pattern just for this bump) — both
+routine toolchain versioning, not queued (no specific new formalized theorem named); Rocq not
+independently re-checked this session (unchanged since 10-01, low-priority). Community pulse
+(radar-pulse): Hacker News front page (Algolia API, known-reliable) — 0 on-axis catch. MathOverflow
+`/feeds` (curl, 200) — routine Q&A (incl. two meta-questions about the OpenAI mass-disclosure
+episode), 0 primary catch. r/math/r/mathematics/r/Physics family — standing hard block, not
+independently retried (no lane needed the fallback). Digest/explainer blogs (DAILY tier): Tao,
+Gowers, Kalai, Baez, Strassler, Woit — all opened via plain `curl -A Mozilla/5.0`; all newest posts
+already on file (Tao's MathHelm post 11-14, Woit's Yang-Mills Publicity Stunt 11-11, Strassler's
+10-30 digest, Gowers/Kalai/Baez stale since Oct/early Nov) — 0 new catch. Exploration slot
+(radar-explore, OFF-AXIS rotation; roster continues from q-fin 11-16): picked q-bio.PE — genuinely
+off-axis; only 1 new entry today ("Alignment by Socialization," an AI-alignment/evolutionary-
+biology analogy, correctly off-axis), 0 catch; next: try nlin.CD. Self-heals: LIGO stale-content
+crossed the heal-owed bar (3rd occurrence, logged above); openai.com/research's 403 is the
+recurring quota-exhaustion pattern, not newly heal-owed; the arXiv API's own rate-limiting/timeout
+behavior this session is a NEW failure mode worth a `radar-source-heal` pass if it recurs next
+session (worked around via the HTML-listing fallback this session, not yet escalated).
+
+Trend recalibration (radar-ledger-update): see the CAPTURE HAUL paragraph above for the full
+breakdown (11 new seeds + 3 reconciliation promotions + 1 new multi-group trend + 2 evidence
+appends + 8 queue adds). Dormancy probe: no trend newly crosses the 60-day `last_evidence` line
+today beyond the already-documented backfilled-landmark cases found in the 2026-11-16 session
+(Graham's rearrangement, Erdős unit-distance, Erdős-Szemerédi sum-product, M23-Galois-group,
+Samuels'/Feige's) — re-confirmed, not re-litigated. Convergence check: the DESI/DES
+dynamical-dark-energy sub-theme cleared the ≥3-independent-groups bar this session (see above) —
+promoted; no other sub-theme in the queue yet clears it. Capture-leak (mandatory): all of today's
+new primaries were captured directly into evidence/queue on creation (no prose-only mentions);
+spot-checked the Quantum-journal title-keyword hits and the Bergeron/C*-algebra near-duplicates
+against existing TRENDS.md content before writing (see notes above) — `capture-leak: 12 ids
+spot-checked (today's new content + 2 near-duplicate risks) / 0 missing`. `observation_queue` +8,
+-3 (promoted); study_shelf +2; TRENDS.md Active-trends count 115->129. SOURCES.md: LIGO and
+openai.com/research degraded-status notes updated (see above); no new source domain staged (all
+captures came through already-tracked channels). README.md and SUMMARY.md regenerated in the same
+commit.
