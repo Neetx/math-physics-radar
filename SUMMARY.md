@@ -1,8 +1,8 @@
-# Math-Physics Radar — 2026-11-17
+# Math-Physics Radar — 2026-11-18
 
-- **New trend** · [Convergence toward evidence for evolving dark energy](TRENDS.md#convergence-toward-evidence-for-evolving-dynamical-dark-energy-desi--des--independent-reanalyses) — DESI, DES, and independent reanalyses converge on a ~3σ signal (claim).
-- **New** · [Conditional mass-gap theorem](https://hexagonmath.org/2611.00543v1) — proved under a registered assumption package (→ [OpenAI's Yang–Mills claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion)).
-- **New trend** · [Osserman (1990) conjecture](TRENDS.md#full-resolution-of-the-osserman-1990-conjecture-riemannian-jacobi-operators) — fully resolved for Riemannian Jacobi operators (claim).
-- **New trend** · [Hibi–Li (2016) conjecture](TRENDS.md#full-resolution-of-the-hibili-2016-conjecture-orderchain-polytope-face-counts) — fully resolved for order and chain polytope face counts (claim).
-- **New trend** · [Matsaev (1971) conjecture](TRENDS.md#disproof-of-the-matsaev-1971-conjecture-for-every-pne2) — disproved for every p ≠ 2 (claim).
-- **New trend** · [Erdős–Herzog–Piranian lemniscate conjecture](TRENDS.md#a-proof-of-the-erdsherzogpiranian-lemniscate-conjecture-univalent-polynomials) — proved in every polynomial degree (claim).
+- **New trend** · [Local Mizohata–Takeuchi disproof](TRENDS.md#disproof-of-the-local-mizohatatakeuchi-conjectures-cairo-et-al-fourier-restriction-theory) — Hannah Cairo and five co-authors disprove the conjecture for the paraboloid and sphere.
+- **New trend** · [BMM symmetrising trace conjecture](TRENDS.md#proof-of-the-bmm-symmetrising-trace-conjecture-for-all-exceptional-complex-reflection-groups) — proved for all exceptional complex reflection groups.
+- **New trend** · [BMV conjecture in von Neumann algebras](TRENDS.md#proof-of-the-bessismoussavillani-conjecture-in-finite-von-neumann-algebras) — extended beyond matrix algebras for the first time.
+- **New** · [Mathieu (Mathieu–Zhao) conjecture](TRENDS.md#disproof-and-classification-of-the-mathieu-mathieuzhao-conjecture-for-compact-connected-lie-groups-and-beyond) — promoted to a trend after a broader classification extension (claim).
+- **Study pick** · [The Minimal Model Program, formalized in Lean](https://axiommath.ai/research/the-minimal-model-program-formalized/) — a ~2.1M-line Lean library covering dimensions 2–4 (claim).
+- **New trend** · [Schmeisser's and two Sendov survey conjectures](TRENDS.md#resolution-of-schmeissers-1977-conjecture-and-two-of-sendovs-2002-survey-conjectures-critical-point-location-for-polynomials) — two independent groups resolve related polynomial critical-point conjectures.

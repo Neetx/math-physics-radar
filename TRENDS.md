@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-17
+Last updated: 2026-11-18
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -4614,10 +4614,404 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   full-resolution-only) now clears it. Ordinary single-author academic preprint, standard
   unrefereed-preprint caution; confidence `low`.
 
+### Proof of the Achlioptas-Friedgut convergence conjecture (sharp k-colorability threshold)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: resolves the Achlioptas–Friedgut convergence conjecture: for every fixed integer q≥3,
+  the q-colourability transition in a sparse random graph occurs at a limiting edge density (a
+  sharp threshold exists). Domain-cadence landmark (full resolution of a long-standing named
+  conjecture in random graph theory), by the same author who recently settled the related
+  satisfiability conjecture.
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.21665 — Gaia Carenini, "A Proof of the
+    Achlioptas-Friedgut Convergence Conjecture": proves existence of a limiting threshold edge
+    density for q-colourability for every fixed q≥3, adapting the author's recent
+    satisfiability-conjecture argument. Abstract + author verified via direct arXiv abstract-page
+    fetch this session (the arXiv API was rate-limited/degraded this session, worked around via
+    direct `/abs/` HTML fetch).
+- notes: 2026-11-18 (daily, seed creation): caught in today's math.CO/PR title-triage sweep.
+  Unrefereed single-author preprint — standard caution. Watch for referee/community reaction and
+  whether this closes the broader threshold-conjecture program (the author's own
+  satisfiability-conjecture precedent, not independently opened this session).
+
+### Disproof of the one-supremum conjecture (Hytönen–Lacey / Lerner–Moen, harmonic analysis)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: disproves the one-supremum conjecture of Hytönen and Lacey (in the strong-type form
+  stated by Lerner and Moen), which asked whether mixed A_p–A_∞ characteristics control
+  Calderón–Zygmund operators without a logarithmic loss. An explicit weight construction shows a
+  logarithmic loss is unavoidable; the paper also proves matching sharp logarithmic weighted
+  bounds. Domain-cadence landmark (full disproof of a named conjecture in a mature, actively
+  studied subfield of harmonic analysis).
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.22097 — Xi Cen, "A counterexample to the
+    one-supremum conjecture and sharp logarithmic weighted bounds for Calderón–Zygmund
+    operators": explicit weights for which the mixed characteristics stay bounded while a fixed
+    Hilbert transform's weighted norm grows logarithmically, disproving the conjecture; also
+    proves matching sharp upper bounds. Abstract + author verified via direct arXiv abstract-page
+    fetch this session.
+- notes: 2026-11-18 (daily, seed creation): caught in today's math.CA Amendment J full-abstract
+  pass / math.FA cross-listing title-triage. Unrefereed single-author preprint — standard
+  caution. Watch for referee/community reaction (a heavily-studied weighted-norm-inequality
+  subfield, likely fast expert engagement).
+
+### Resolution of Schmeisser's (1977) conjecture and two of Sendov's (2002) survey conjectures (critical-point location for polynomials)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: two independent papers, posted the same week, resolve named conjectures on the location
+  of polynomial critical points relative to zeros — the same circle-of-ideas as Sendov's famous
+  conjecture (whose headline form this ledger separately tracked, via proofatlas.ai, as an
+  AI-assisted claim). Teng Zhang proves Schmeisser's 1977 conjecture (a strengthening of Sendov's
+  conjecture: every point in the convex hull of a polynomial's zeros lies within distance 1 of
+  some critical point) in every degree, with a Lean-assisted finite-range verification.
+  Ismoilov–Li–Rakhimov–Tan prove Conjectures 3 and 8 of Sendov's own 2002 survey (sharp
+  distance bounds from a zero to a zero of the s-th derivative) and deduce Conjecture 9. Two
+  independent author groups, same sub-theme, same week — domain-cadence landmark (multiple named
+  conjectures fully resolved) with an early multi-group signal.
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.19084 — Teng Zhang, "A proof of Schmeisser's
+    conjecture": proves Schmeisser's 1977 strengthening of Sendov's conjecture in every degree,
+    via a convex-hull diameter-disk covering argument plus rigorous computer-assisted (Lean)
+    verification in a finite range. Abstract + author verified via direct arXiv abstract-page
+    fetch this session.
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.23039 — Ismoilov, Li, Rakhimov, Tan,
+    "Higher-Derivative Conjectures of Sendov": proves Conjectures 3 and 8 of Sendov's 2002
+    survey (sharp zero-to-critical-point distance bounds for the s-th derivative) and deduces
+    Conjecture 9; obtains the sharp quartic bound 2/√3 for the second derivative. Abstract +
+    authors verified via direct arXiv abstract-page fetch this session.
+- notes: 2026-11-18 (daily, seed creation): both caught in today's math.CV title-triage sweep.
+  Two independent groups on the same classical sub-theme in one week — a mini-convergence
+  signal, short of the ≥3-group bar but a landmark on the domain-cadence single-result
+  adaptation. Distinct from (not a duplicate of) the already-tracked AI-assisted claim on
+  Sendov's own main conjecture (proofatlas.ai, 2026-08-05 era) — these resolve Schmeisser's
+  related-but-distinct conjecture and two SPECIFIC numbered conjectures from Sendov's later
+  survey, not the headline Sendov conjecture itself. Unrefereed preprints — standard caution.
+  Watch for referee reaction and whether a third group engages.
+
+### Proof of the Dimension Conjecture for CR hypersurfaces (Stepanova)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: resolves the Dimension Conjecture in CR geometry for arbitrary real-analytic
+  hypersurfaces: the Lie algebra of infinitesimal holomorphic automorphisms of a
+  holomorphically nondegenerate hypersurface germ in C^N has dimension at most N²+2N, with
+  equality iff the germ is a hyperquadric. Domain-cadence landmark (full resolution of a named
+  conjecture in CR/complex geometry).
+- evidence:
+  - 2026-11-18 — https://arxiv.org/abs/2611.10314 — M.A. Stepanova, "The Dimension Conjecture
+    for Hypersurfaces Is True": proves the sharp N²+2N dimension bound for the automorphism Lie
+    algebra of holomorphically nondegenerate real-analytic hypersurface germs, with equality
+    characterization. Abstract + author verified via direct arXiv abstract-page fetch this
+    session.
+- notes: 2026-11-18 (daily, seed creation): caught in today's math.CV title-triage sweep.
+  Single-author unrefereed preprint — standard caution. Watch for referee/community reaction
+  from the CR-geometry community.
+
+### Disproof of the Brualdi–Friedland–Pothen basis conjecture (combinatorial matrix theory)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: disproves a conjecture of Brualdi, Friedland, and Pothen characterizing bases of
+  elementary vectors in the row space of a matrix with algebraically independent nonzero
+  entries, via rank-inequality criteria. An explicit 4×6 counterexample (plus a second pattern
+  and a direct-sum family of larger counterexamples) shows the proposed rank-inequality
+  criterion is not sufficient in general; the paper also proves the criterion IS valid over
+  every field in the near-square case (columns exceed row rank by at most one). Domain-cadence
+  landmark (full disproof of a named conjecture).
+- evidence:
+  - 2026-11-18 (v1 2026-05-28, v3 2026-11-16) — https://arxiv.org/abs/2605.30401 — Mohsen
+    Aliabadi, "A counterexample to a basis conjecture of Brualdi, Friedland, and Pothen":
+    explicit 4×6 counterexample plus a positive result for the near-square case. Abstract +
+    author verified via direct arXiv abstract-page fetch this session; resurfaced in today's
+    math.CO/RA sweep via its v3 revision.
+- notes: 2026-11-18 (daily, seed creation): caught via a v3-revision resurfacing in today's
+  math.CO/RA title-triage sweep (v1 dated 2026-05-28, ~6 months old — a capture-leak-class
+  backfill, not a fresh result). Single-author unrefereed preprint — standard caution.
+
+### Proofs of two conjectures of Noga Alon on subhypergraph counts (Kuang–Sun–Wang–Zeng)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: sharpens Friedgut–Kahn's 1998 theorem on the maximum number of copies of a fixed
+  hypergraph H among m-edge hypergraphs (from a Θ(m^ρ*(H)) order bound to an exact
+  (λ_r(H)+o(1))m^ρ*(H) asymptotic, via a new "globally rainbow compression" argument), and as a
+  consequence proves two conjectures of Noga Alon on this exact extremal question.
+  Domain-cadence landmark (full resolution of two named conjectures by a leading
+  combinatorialist).
+- evidence:
+  - 2026-11-18 (v1 2026-06-16, v2 2026-11-17) — https://arxiv.org/abs/2606.18321 — Kuang, Sun,
+    Wang, Zeng, "Subhypergraph counts and proofs of two conjectures of Alon": exact asymptotic
+    for subhypergraph counts, resolving two of Alon's conjectures via a globally rainbow
+    compression argument. Abstract + authors verified via direct arXiv abstract-page fetch this
+    session.
+- notes: 2026-11-18 (daily, seed creation): caught via a v2-revision resurfacing in today's
+  math.CO title-triage sweep (v1 dated 2026-06-16). Unrefereed preprint — standard caution.
+  Watch for Alon's own or other extremal-combinatorics specialists' reaction.
+
+### Proof of Perdomo's index conjecture (minimal hypersurfaces in spheres)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: resolves Perdomo's index conjecture in minimal-surface theory: the Morse index of a
+  full minimal immersion of a closed, connected, oriented hypersurface in the round sphere
+  S^{n+1} is at least n+3, with equality exactly for the standard Clifford embeddings.
+  Domain-cadence landmark (full resolution of a named conjecture in minimal-surface theory /
+  spectral geometry).
+- evidence:
+  - 2026-11-18 (v1 2026-11-09, v2 2026-11-17) — https://arxiv.org/abs/2611.12632 — Qian Fu,
+    Fagui Li, "Perdomo's index conjecture for minimal hypersurfaces in spheres": proves the sharp
+    Morse-index lower bound n+3 with Clifford-embedding equality case. Abstract + authors
+    verified via direct arXiv abstract-page fetch this session.
+- notes: 2026-11-18 (daily, seed creation): caught via a v2-revision resurfacing in today's
+  math.DG title-triage sweep (v1 dated 2026-11-09). Unrefereed preprint — standard caution.
+  Watch for referee/community reaction from the minimal-surface-theory community.
+
+### Proof of the BMM symmetrising trace conjecture for all exceptional complex reflection groups
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: resolves the symmetrising trace conjecture of Broué, Malle and Michel (BMM) — a
+  long-standing conjecture on the generic Hecke algebras of complex reflection groups — for ALL
+  exceptional complex reflection groups, via a new family of bases constructed by breadth-first
+  search that also give a uniform proof of the related Broué–Malle–Rouquier freeness conjecture
+  for these groups. Domain-cadence landmark (full resolution, for the exceptional cases, of a
+  named conjecture central to the representation theory of Hecke algebras). AI-WATCH note:
+  per-group verification used programs "developed with the assistance of a large language
+  model" — track the mathematical result, not the AI tooling.
+- evidence:
+  - 2026-11-18 — https://arxiv.org/abs/2611.21912 — Chavli, Chlouveraki, Pfeiffer,
+    Psaromiligkos, "The BMM symmetrising trace conjecture for all exceptional complex reflection
+    groups": proves the BMM conjecture for all exceptional complex reflection groups and the BMR
+    freeness conjecture for the same groups, via breadth-first-search-constructed bases;
+    per-group verification reduces to a finite, LLM-assisted computation. Abstract + authors
+    verified via direct arXiv abstract-page fetch this session.
+- notes: 2026-11-18 (daily, seed creation): caught in today's math.RT title-triage sweep. Four
+  named, established representation theorists (Chlouveraki and Pfeiffer are established
+  complex-reflection-group specialists) — lower epistemic risk than a from-scratch single-author
+  claim, though still an unrefereed preprint. Watch for referee/community reaction and whether
+  the non-exceptional (infinite-family) cases of BMM are addressed next.
+
+### Proof of the Bessis–Moussa–Villani conjecture in finite von Neumann algebras
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: extends the Bessis–Moussa–Villani (BMV) conjecture — proved for matrix algebras by Lieb
+  and Seiringer in 2004, a long-standing problem in mathematical physics/operator theory about
+  positivity of traces of symmetrized operator-exponential words — to bounded operators in any
+  finite von Neumann algebra with a faithful normal tracial state, a genuinely new and harder
+  generality. Domain-cadence landmark (full resolution of a named conjecture in a new,
+  previously-open setting) at the math↔physics interface (axis 1/2).
+- evidence:
+  - 2026-11-18 — https://arxiv.org/abs/2611.23122 — Paunescu, Radulescu, Thom, "The Bessis
+    Moussa Villani conjecture in finite von Neumann algebras": proves BMV for bounded operators
+    in a finite von Neumann algebra via a tracial joint spectral measure construction (following
+    Heinavaara's approach) and a Lyapunov-identity argument. Abstract + authors verified via
+    direct arXiv abstract-page fetch this session.
+- notes: 2026-11-18 (daily, seed creation): caught in today's math-ph/math.FA/math.OA
+  title-triage sweep (cross-listed). Established operator-algebra authors (Radulescu, Thom);
+  unrefereed preprint — standard caution. Watch for referee/community reaction from the
+  operator-algebras and mathematical-physics communities.
+
+### Proof of the Fourier dimension conjecture for complex Gaussian multiplicative chaos on the circle
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: resolves (on the circle, throughout the conjectured parameter range) the
+  Bonnefont–Rajamäki–Vargas conjecture on the Fourier dimension of complex Gaussian
+  multiplicative chaos (GMC) built from a single real Gaussian field: the Fourier dimension at a
+  complex parameter α+iβ equals the real-chaos dimension at α minus β². Domain-cadence landmark
+  (full resolution, in the circle setting, of a named conjecture in probability/GMC theory).
+- evidence:
+  - 2026-11-18 (v1 2026-11-11, v2 2026-11-16) — https://arxiv.org/abs/2611.15733 — Feng Guo,
+    "The Fourier dimension conjecture for complex Gaussian multiplicative chaos on the circle":
+    proves the conjectured dimension formula on the circle across the stated parameter range,
+    with a boundary-case analysis. Abstract + author verified via direct arXiv abstract-page
+    fetch this session.
+- notes: 2026-11-18 (daily, seed creation): caught via a v2-revision resurfacing in today's
+  math.PR title-triage sweep (v1 dated 2026-11-11). Single-author unrefereed preprint —
+  standard caution. Watch for whether the result extends beyond the circle setting and for
+  referee/community reaction.
+
+### Disproof of the local Mizohata–Takeuchi conjectures (Cairo et al., Fourier restriction theory)
+- stage: seed | confidence: medium | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: TITLE-BLIND capture (Amendment J full-abstract-pass catch — no conjecture/theorem/
+  disprove keyword in the title). Proves power-type lower bounds for the local
+  Mizohata–Takeuchi constants on smooth hypersurfaces with nonvanishing second fundamental form,
+  and as a consequence disproves the local Mizohata–Takeuchi conjectures for the paraboloid and
+  the sphere — a finer, distinct conjecture from the GENERAL Mizohata–Takeuchi conjecture Hannah
+  Cairo already disproved last year (already credited to her on this ledger's `study_shelf`).
+  Also obstructs a general weighted approach to Fourier restriction theory for those classical
+  surfaces. Domain-cadence landmark (full disproof of named conjectures) in harmonic analysis /
+  Fourier restriction theory (axis 1).
+- evidence:
+  - 2026-11-18 — https://arxiv.org/abs/2611.22465 — Cairo, Fenves, Kovač, Oliveira, Zakharov,
+    Zhang, "Power loss for the local Mizohata–Takeuchi estimate on smooth hypersurfaces":
+    power-type lower bounds for local Mizohata–Takeuchi constants, disproving the local
+    conjectures for the paraboloid and sphere. Abstract + authors verified via direct arXiv
+    abstract-page fetch this session.
+- notes: 2026-11-18 (daily, seed creation, Amendment J catch): caught via today's math.CA
+  mandatory full-abstract pass (title gives no triage keyword) — the same title-blind failure
+  class Amendment J was designed to close. Hannah Cairo's SECOND landmark result on this ledger
+  (after the Ehlers–Kundt pp-wave disproof) — now a six-author collaboration rather than solo
+  work. Unrefereed preprint — standard caution. Watch for referee/community reaction,
+  particularly on the Fourier-restriction-theory implications for the paraboloid/sphere.
+
+### Disproof of the WOW-284 Graffiti conjecture (dual degree vs. minimum distance eigenvalue)
+- stage: seed | confidence: low | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: disproves WOW-284, a Graffiti-program-generated conjecture asserting every connected
+  graph of order ≥3 and girth ≥5 has minimum dual degree at most the negative of its smallest
+  distance-matrix eigenvalue, via exact counterexamples on 38–50 vertices, with a
+  spectral-window characterization of when the inequality fails for k-regular graphs.
+  Domain-cadence landmark per the ratified fame/source-blind bar (full disproof of a specific,
+  named — if less prominent than most — conjecture), found on an EXTREME-caution-tier venue
+  (hexagonmath.org).
+- evidence:
+  - 2026-11-17 — https://hexagonmath.org/2611.00564v1 — "Counterexamples, Spectral
+    Obstructions, and Deletion Stability for WOW-284": exact counterexamples on 38, 39, 40, 42
+    and 50 vertices refuting WOW-284; spectral-window characterization for k-regular
+    counterexamples. Opened and read via the hexagonmath `/rss/all` feed this session.
+- notes: 2026-11-18 (daily, seed creation): caught via today's hexagonmath.org `/rss/all`
+  sweep. EXTREME caution (unrefereed, self-published venue, author/AI-assistance not stated on
+  this page — not independently assessed for correctness this session); confidence held `low`
+  given the conjecture's own narrower prominence (one of thousands of Graffiti-program-generated
+  conjectures, not a classical named-mathematician conjecture) despite clearing the ratified
+  volume/fame-blind bar. Watch for referee/community engagement; flag for the weekly if the
+  Graffiti-conjecture class recurs at volume (a possible future per-class caution tier, analogous
+  to the per-submitter concentration flag already raised for hexagonmath).
+
+### Proof of Sun's Conjecture 3.7 (Apéry-like binomial-sum supercongruences)
+- stage: seed | confidence: low | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: proves Conjecture 3.7 of Zhi-Wei Sun (a prolific number theorist with hundreds of open
+  numbered conjectures) on supercongruences for two Apéry-like binomial sums at discriminant
+  -20, via modular periods and an integral Hecke polynomial. Domain-cadence landmark per the
+  ratified bar (full resolution of a specific named/numbered conjecture), found on
+  hexagonmath.org (EXTREME caution tier).
+- evidence:
+  - 2026-11-17 — https://hexagonmath.org/2611.00551v1 — "Sun's supercongruence for two
+    Apéry-like binomial sums at discriminant -20": proves Sun's Conjecture 3.7, giving explicit
+    mod-p² congruences for the two binomial sums via modular periods at a
+    complex-multiplication point. Opened and read via the hexagonmath `/rss/all` feed this
+    session.
+- notes: 2026-11-18 (daily, seed creation): caught via today's hexagonmath.org `/rss/all`
+  sweep. EXTREME caution (unrefereed, self-published venue, author/AI-assistance not stated on
+  this page — not independently assessed for correctness this session); confidence held `low`
+  (one of Sun's many numbered conjectures, narrower prominence than a headline named conjecture).
+  A companion same-day paper (hexagonmath.org/2611.00550v1, unrelated specific Sun-type
+  binomial-sum congruences, no explicit numbered-conjecture attribution found this session) is
+  below-bar, routed to the queue instead.
+
+### Resolution of the repeated-pair symmetric NIEP characterization in dimension five (Clark's Conjecture 5.1.2)
+- stage: seed | confidence: low | first_seen: 2026-11-18 | last_evidence: 2026-11-18
+- what: proves the necessary condition completing a full characterization of when a real
+  symmetric entrywise-nonnegative order-5 matrix can have a repeated-pair spectrum
+  (1,a,a,b,b) — resolving Conjecture 5.1.2 from Clark's dissertation on the symmetric
+  nonnegative inverse eigenvalue problem (NIEP). Domain-cadence landmark per the ratified bar
+  (full resolution of a specific named/numbered conjecture), narrow in scope (dissertation-level,
+  dimension-5 case only).
+- evidence:
+  - 2026-11-17 — https://hexagonmath.org/2611.00565v1 — "The repeated-pair symmetric
+    nonnegative inverse eigenvalue problem in dimension five": proves the necessary condition
+    completing Clark's Conjecture 5.1.2's repeated-pair characterization, via Perron-root
+    minimization and a cycle-cone inequality. Opened and read via the hexagonmath `/rss/all`
+    feed this session.
+- notes: 2026-11-18 (daily, seed creation): caught via today's hexagonmath.org `/rss/all`
+  sweep. EXTREME caution (unrefereed, self-published venue, author/AI-assistance not stated —
+  not independently assessed for correctness this session); confidence held `low` (a
+  dissertation-level numbered conjecture in a specific low dimension — the narrowest of today's
+  hexagonmath catches). Watch for whether this generalizes beyond dimension 5.
+
+### Disproof and classification of the Mathieu (Mathieu–Zhao) conjecture for compact connected Lie groups and beyond
+- stage: seed | confidence: medium | first_seen: 2026-08-07 (promoted from `observation_queue` 2026-11-18) | last_evidence: 2026-11-17
+- what: RECONCILIATION — reconsiders an already-queued disproof under the W46-ratified landmark
+  bar. Olivier Mathieu's 1997 conjecture (part of his approach to the Jacobian conjecture via
+  compact-Lie-group integration identities) asserted that if every positive power of a function
+  on a compact connected Lie group has average zero, multiplying those powers by any fixed
+  function eventually preserves that property. Christopher D. Long disproved the conjecture for
+  SU(2) with an explicit three-term Laurent-polynomial counterexample (queued 2026-08-07) and —
+  per a same-author follow-on this session's hexagonmath sweep found — subsequently classified
+  which compact connected groups the property holds for at all, i.e. fully resolved (disproved
+  in general, with an exact classification) the original Mathieu conjecture; today's hexagonmath
+  paper extends that classification to a much broader family of algebraic spaces (nonspherical
+  homogeneous spaces, disconnected groups). Domain-cadence landmark (full resolution of a
+  ~29-year-old named conjecture) — PROMOTED out of the queue now that the resolution's
+  generality (not just the SU(2) case already on file) is clear.
+- evidence:
+  - 2026-08-07 — https://arxiv.org/abs/2607.19012 — Long, "Counterexamples to the xz-Conjecture
+    and the Mathieu Conjecture for SU(2)": explicit three-term Laurent-polynomial counterexample
+    for SU(2), also disproving the closely related xz-conjecture. Abstract + author verified via
+    arXiv API (prior session, 2026-08-07).
+  - 2026-11-17 — https://hexagonmath.org/2611.00556v1 — "Counterexamples to the Mathieu
+    Property: From Explicit Quotient Constructions to a General Classification": per this page's
+    own framing, builds on Long's disproof + classification of the Mathieu(-Zhao) property for
+    compact connected groups, extending it to a much broader family of algebraic spaces via
+    explicit counterexamples using the binary octahedral/icosahedral groups. Opened and read via
+    the hexagonmath `/rss/all` feed this session.
+- notes: 2026-11-18 (daily, reconciliation promotion): VERIFICATION GAP flagged honestly —
+  today's hexagonmath page describes Long as having already "disproved this conjecture [in
+  general] and classified the compact connected groups for which the property holds," a
+  stronger/more general claim than the already-tracked SU(2)-only 2607.19012 paper states; the
+  specific Long paper that performs this fuller classification was NOT independently located/
+  opened this session (chase next session: search for a second Long paper, or re-read
+  2607.19012's own later sections for a classification result not captured in this ledger's
+  existing abstract-level summary). Promoted to seed now regardless, since even the
+  already-verified SU(2) disproof alone meets the domain-cadence landmark bar (full disproof of
+  the conjecture's most-studied case) and the broader classification is independently
+  corroborated by today's extension paper treating it as established. EXTREME caution on the
+  hexagonmath extension specifically (self-published, no peer review, author/AI-assistance not
+  stated on this page). Confidence `medium` (established arXiv disproof for the core SU(2)
+  case, but the "general classification" claim rests partly on an unverified attribution).
+
+### AxiomMath's Lean formalization of the Minimal Model Program in dimensions 2-4
+- stage: seed | confidence: low | first_seen: 2026-11-18 | last_evidence: 2026-11-17
+- what: axis-5 (computer-assisted/formalized math) DOMAIN-CADENCE LANDMARK by scale: AxiomMath
+  claims a complete Lean 4/Mathlib formalization of the Minimal Model Program (MMP) in complex
+  dimensions 2, 3, and 4 — roughly 2.1 million lines, covering (per the announcement; scope of
+  individually-formalized-vs-background results not independently confirmed this session)
+  Castelnuovo's contraction theorem and Enriques–Kodaira classification, the Cone and
+  Contraction theorems, Mori's existence of 3-fold flips, Shokurov's termination of 3-fold flips,
+  and the BCHM log-flips/minimal-models results — explicitly incorporating "OpenAI's claimed
+  resolution of the remaining 4-dimensional cases" into one verified setting. EXTREME caution
+  tier (same standing policy as this ledger's other AxiomMath entries: new, self-published org,
+  no independent outside verification yet of this or prior AxiomMath claims).
+- evidence:
+  - 2026-11-17 — https://axiommath.ai/research/the-minimal-model-program-formalized/ —
+    AxiomMath's own announcement: "a complete Lean formalization of the Minimal Model Program in
+    dimensions 2, 3, and 4," ~2.1M lines, built on AxiomMath's own Stacks Project formalization
+    and Mathlib; GitHub repository at github.com/AxiomMath/MMP. Opened directly via `WebFetch`
+    this session (sorry-free status and axiom list not stated on the page).
+- notes: 2026-11-18 (daily, seed creation): caught via today's axiommath.ai/research/
+  blog-index check. VERIFICATION GAP: the page's reference to "OpenAI's claimed resolution of
+  the remaining 4-dimensional [MMP] cases" is NOT yet independently located on this ledger (the
+  already-tracked OpenAI mass-disclosure trend's `CONTENTS.md` sample did not name this specific
+  result-family) — chase next session: search `github.com/openai/math`'s `CONTENTS.md` for an
+  MMP-in-dimension-4-or-higher result family, which if found would itself deserve a discrete
+  evidence/queue line on that trend. `github.com/AxiomMath` org remains 403 under this session's
+  proxy-scoping (standing since 2026-10-28) — the GitHub repo link itself not independently
+  opened. Confidence `low` (EXTREME caution tier, unverified scale/completeness claims, no
+  sorry-free confirmation). Watch for independent Lean-kernel verification and any outside
+  mathematician's technical reaction.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-18 — Daoqiang Liu, "Spectral Geroch conjecture and noncompact area enlargeable
+  summands" — https://arxiv.org/abs/2608.24853 (v2, resurfaced today) — proves spectral-constant
+  inequalities and an iff characterization for area-enlargeable connect sums (both summands
+  possibly noncompact); does not explicitly state a full resolution of "the spectral Geroch
+  conjecture" by name — below bar pending a clearer resolution statement. Axis 1. Abstract
+  verified via direct arXiv abstract-page fetch this session.
+- 2026-11-18 — "A no-go theorem for closed timelike curves in globally null-foliated
+  spacetimes" — https://arxiv.org/abs/2610.33706 — a new no-go theorem (gr-qc/math-ph), not a
+  named-conjecture resolution — below bar. Abstract verified via direct arXiv abstract-page
+  fetch this session.
+- 2026-11-18 — Chi Hoi Yip, "A resolution of the Erdős similarity problem in the large" —
+  https://arxiv.org/abs/2611.14056 (v2) — PARTIAL: resolves the Erdős similarity problem only
+  "in the large" (a strong density/asymptotic form), not the full open problem. Axis 1. Abstract
+  verified via direct arXiv abstract-page fetch this session.
+- 2026-11-18 — hexagonmath.org batch, below-landmark-bar items (all opened/read this session,
+  none independently assessed for correctness): "A self-contained proof of the exponent
+  threshold 0.4875754036 for worst-case Subset Sum" (https://hexagonmath.org/2611.00558v1,
+  removes a prior conditionality from an algorithmic running-time bound — a technical
+  achievement, not a named-conjecture resolution); "Sun's supercongruence for two Apéry-like
+  binomial sums" (https://hexagonmath.org/2611.00550v1, companion to today's Sun's-Conjecture-3.7
+  seed trend, no explicit numbered-conjecture attribution found this session); "Svinin's
+  Conjectures 5.2, 5.3 and 3.1 ... for sequences with all entries nonzero"
+  (https://hexagonmath.org/2611.00567v1, PARTIAL — restricted to the nonzero-coordinate domain;
+  fails in general); "A Full-Sequence Quantitative Gap Between the Chromatic and Cochromatic
+  Numbers of a Random Graph" (https://hexagonmath.org/2611.00562v1, extends Heckel's partial
+  answer to the Erdős–Gimbel conjecture; full-resolution status unclear from the abstract alone,
+  chase next session); "Obligatory triple systems: atoms, spectra and decompositions"
+  (https://hexagonmath.org/2611.00563v1, structural description for Erdős Problem 593, not a
+  yes/no resolution).
+- 2026-11-18 (unverified, primary not independently opened this session — science.org 403'd,
+  no PMC mirror located) — Science Advances RSS, "Discovery of a likely supermassive neutron
+  star in a remarkably wide binary" (DOI 10.1126/sciadv.aeg3307, Vol 12 Iss 46, Nov 2026) — a
+  possible axis-3 first-of-kind detection (an unusually massive neutron star); chase next
+  session via a PMC mirror or the underlying arXiv preprint.
 - 2026-11-13 — Kashyap, Kaveh, Manon, Tsvelikhovskiy, "A Helly theorem for the Bruhat-Tits
   building" — https://arxiv.org/abs/2611.17844 — proves a Radon/Helly-type theorem for
   $\mathcal O$-lattices (equivalently, simplices in the Bruhat-Tits building of $\mathrm{GL}(m)$):
@@ -6065,24 +6459,16 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   API this session (v1 2026-08-07). Domain-cadence landmark single result (a long-standing
   named conjecture resolved by a leading group, capstone of a numbered series — lower epistemic
   risk than a from-scratch single-author claim). Also on `study_shelf`.
-- 2026-08-07 — arXiv:2607.19012 — Long, "Counterexamples to the xz-Conjecture and the Mathieu
-  Conjecture for SU(2)" — https://arxiv.org/abs/2607.19012 — algebra / invariant theory (axis 1,
-  math.RA/AG): refutes the ~29-year-old Mathieu conjecture for SU(2) (O. Mathieu, 1997 — the
-  approach to the Jacobian conjecture via compact-Lie-group integration identities) with an
-  explicit three-term Laurent-polynomial counterexample, also disproving the closely related
-  xz-conjecture and showing the relevant kernel is not a Mathieu–Zhao subspace. CAPTURE-LEAK
-  CATCH: v1 dates 2026-07-21 (~20 days ago, well inside the 60-day domain-cadence window) but
-  was missed by this ledger until surfaced today via a citing follow-up (see next item) — a
-  near-miss corrected same session, not a fresh result. Abstract + author verified via arXiv API
-  this session. A landmark refutation of a long-standing named conjecture with a direct link to
-  the Jacobian-conjecture research program already tracked on this ledger. Also on `study_shelf`.
-  - 2026-08-07 — arXiv:2608.07338 — Dvorsky, "An Explicit Five-Variable Counterexample to the
-    Generalized Vanishing Conjecture" — https://arxiv.org/abs/2608.07338 — explicitly motivated
-    by Long's Mathieu-conjecture counterexample above, gives an independent five-variable
-    counterexample to the (related) Generalized Vanishing Conjecture. A second, independent
-    engagement with the same algebraic sub-theme within 2.5 weeks — a FORMING pair (below the
-    ≥3-group trend bar; watch for a third). Abstract + author verified via arXiv API this
-    session (v1 2026-08-07).
+- 2026-11-18 (RECONCILIATION — removed, promoted to a seed trend): the Long xz-/Mathieu-
+  Conjecture-for-SU(2) counterexample (arXiv:2607.19012) that previously lived here was promoted
+  to "Disproof and classification of the Mathieu (Mathieu–Zhao) conjecture..." this session —
+  see `## Active trends`; no longer a queue item.
+- 2026-08-07 — arXiv:2608.07338 — Dvorsky, "An Explicit Five-Variable Counterexample to the
+  Generalized Vanishing Conjecture" — https://arxiv.org/abs/2608.07338 — explicitly motivated
+  by Long's now-promoted Mathieu-conjecture counterexample (see the Mathieu-Zhao trend above),
+  gives an independent five-variable counterexample to the (related) Generalized Vanishing
+  Conjecture. Below the ≥3-group trend bar on its own axis; watch for a third independent group.
+  Abstract + author verified via arXiv API this session (v1 2026-08-07).
 - 2026-08-07 — arXiv:2608.07350 — Xu, "Profinite rigidity in lattices of $\mathrm{PSL}(2,\mathbb{C})$"
   — https://arxiv.org/abs/2608.07350 — geometric group theory (axis 1, math.GR/GT): proves all
   lattices in PSL(2,C) are profinitely rigid among themselves, plus an $\mathrm{Out}$-isomorphism
@@ -9667,6 +10053,18 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-18 — [Power loss for the local Mizohata–Takeuchi estimate on smooth hypersurfaces](https://arxiv.org/abs/2611.22465) —
+  Hannah Cairo and five co-authors disprove the local Mizohata–Takeuchi conjectures for the
+  paraboloid and sphere, a finer sibling of the general conjecture Cairo already disproved last
+  year — worth knowing both for the Fourier-restriction-theory implications and as her second
+  landmark result on this ledger. Found via today's mandatory math.CA full-abstract pass
+  (title-blind); abstract opened directly via arXiv this session.
+- 2026-11-18 — [The Minimal Model Program, formalized in Lean](https://axiommath.ai/research/the-minimal-model-program-formalized/) —
+  AxiomMath's claimed ~2.1-million-line Lean formalization of the Minimal Model Program in
+  dimensions 2–4, folding in OpenAI's claimed resolution of the remaining 4-dimensional cases —
+  worth knowing as a large-scale formalization artifact algebraic geometers will want to
+  evaluate, though EXTREME caution applies (new org, no independent verification yet; see new
+  seed trend). Opened directly via `WebFetch` this session.
 - 2026-11-17 — [DES final-dataset cosmology results](https://arxiv.org/abs/2605.27221) (Dark
   Energy Survey collaboration, combined with DESI + CMB) — an independent flagship survey's own
   analysis finding a ~3σ preference for evolving dark energy over ΛCDM, with the CMB/clumping/

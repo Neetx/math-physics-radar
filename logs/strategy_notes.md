@@ -2273,3 +2273,32 @@ coding) this week. No redirection needed.
   pre-W46-standard holds is still owed (bounded cost: grep the queue for "below the landmark bar"/
   "pending wider significance"/"narrower/less-established" phrasing as a starting filter, not a
   full re-read of every item).
+- 2026-11-18 (daily) — LIGO `/news` ESCALATION: a 4th consecutive daily (11-12, 11-16, 11-17,
+  11-18) with the same stale-content/Cloudflare-block failure — direct `curl` 403s, `WebFetch`
+  either returns stale content (newest item still "GWTC-5.0," May 26 2026) or now the raw
+  Cloudflare challenge page, `tvly` quota-exhausted every session this recurred. A cache-busting
+  query string was tried this session specifically to break the staleness and did not help
+  (same Cloudflare block page returned). No genuinely new LIGO news is known to have been missed
+  (the GWTC-5.0 item itself is unchanged across all 4 sessions), but the ACCESS METHOD itself has
+  now failed identically 4 times running with no fix found — per AGENTS.md's operator-
+  notification rule ("a degradation you have self-flagged 'heal owed' for ≥3 consecutive runs"),
+  this session is sending the curator a push notification. Proposal for W47 (cooling period):
+  if `tvly` quota is available at the next weekly, use it as the next access-method attempt
+  (untried across all 4 degraded sessions due to concurrent quota exhaustion); if still broken,
+  consider the same heal-or-remove downgrade path already applied to CERN home and SLMath
+  (re-test monthly instead of every run, rely on the LIGO-adjacent fallback chain — DESI/arXiv
+  gr-qc sweep/INSPIRE-HEP — for LVK-collaboration news in the meantime).
+- 2026-11-18 (daily) — TRIAGE-REGEX GAP FOUND AND FIXED (same session): the standing title-triage
+  keyword list included "resolv" (for resolve/resolution) but "resolution" does NOT contain the
+  substring "resolv" (resolu-tion vs resolv-e — different letter at the 6th position), so a
+  title using only the noun form "resolution" was silently unmatched. Caught this session only
+  because the Amendment J full-abstract pass on math.CA incidentally surfaced one such title
+  ("A resolution of the Erdős similarity problem in the large") and a follow-up full re-scan of
+  all 35 categories for "resolution"/"settl" found no OTHER missed landmark this time (the other
+  7 hits were all generic technical uses of "resolution," e.g. "crepant resolution," "high-
+  resolution nanopatterning"). Fixed within-session (added "resolution" to the working regex for
+  the rest of today's sweep) but the underlying keyword list that future sessions inherit (if
+  any session hardcodes a similar pattern rather than reading this note) is NOT itself a file
+  this radar edits — flagging for W47 to decide whether `radar-source-sweep`'s SKILL.md should
+  state the keyword list explicitly (with "resolution" included) rather than leaving each session
+  to reconstruct its own regex from the routine's prose description.
