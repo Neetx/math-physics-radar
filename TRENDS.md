@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-18
+Last updated: 2026-11-19
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1207,13 +1207,6 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     minimal-model/abundance cluster, a taming/hypersymplectic-deformation pair, one incompressible-
     transport paper, and a citation fix on the BSD-case manuscript) and added 6 more Lean
     formalizations (now 300/719 ≈ 42% formalized; total manuscript count 722→719 post-withdrawal).
-  - 2026-10-06 — https://github.com/openai/math — the live repository (147 stars, 7 forks, this
-    session), opened directly; its `CONTENTS.md` (640KB, opened and read in full this session via
-    its raw-content URL) lists all 372 result-family titles + one-paragraph descriptions, the
-    source for the sample above.
-  - 2026-10-06 (found/opened 2026-10-09) — https://agmai.org — AGMAI's own "On OpenAI's Release of
-    Mathematical Results" statement: declines to judge correctness or endorse the release process,
-    defers verification to the mathematical community.
   - 2026-10-10 — https://terrytao.wordpress.com/2026/10/10/math-2-0/ — Terence Tao, "Math 2.0":
     argues AI-era mathematics needs to value the followup activity a proof generates, not just the
     proof itself, or risk losing what made "Math 1.0" breakthroughs valuable. Opened directly this
@@ -1256,6 +1249,31 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     caveat on record, not mere hedging. No direct arXiv/GitHub primary link opened this session
     (Kalai's post does not give one); treated as a secondary pointer to a named result-family within
     the already-evidenced disclosure, not an independent primary.
+  - 2026-11-01 (v1), revised 2026-11-18 (v2) — https://arxiv.org/abs/2611.01745 — Nikita
+    Markarian, "A remark on the AI proof of the Deligne–Drinfeld conjecture": an independent
+    geometric interpretation of the projection/reconstruction underlying result-family #008 (the
+    Deligne–Drinfeld conjecture proof, confirmed against `openai/math`'s own `CONTENTS.md` this
+    session) — makes the OpenAI proof's implicit reconstruction explicit via an independent
+    method. A positive, substantive vetting-engagement signal on one specific result-family, same
+    pattern as the Tevelev/Nagata and Zhentao-Li/Barnette expositions above. Abstract + author
+    verified via direct arXiv page fetch this session.
+  - 2026-09-08 (v1; found via a MathHelm forum sweep this session, a new source — see SOURCES.md
+    staging) — https://arxiv.org/abs/2609.35406 — Zhen Lei, Xiao Ren, "Finite-Time Blowup for
+    Navier-Stokes with Smooth Forcing, Part I: Construction of Self-Similar Solutions with
+    Admissible Stress and Flat Remainder": an independent "readable and accessible version of the
+    profile-construction part of OpenAI's manuscript," explicitly stating "We regard OpenAI's work
+    as a major advance on the Navier-Stokes Millennium Prize Problem." The first NAMED-EXPERT
+    engagement constructively reconstructing (not merely critiquing) part of OpenAI's claimed
+    Navier-Stokes finite-time-blowup proof (queued separately below, still unrefereed) — Zhen Lei
+    is an established Navier-Stokes researcher (Fudan University). A companion "Part II" is
+    referenced but its arXiv id was not located this session (chase next session). Abstract +
+    authors verified via direct arXiv page fetch this session.
+- notes: 2026-11-19 (daily): two independent-expert engagement items added above (Deligne-Drinfeld
+  geometric reinterpretation; Navier-Stokes Part I reconstruction) — both found via MathHelm, a
+  newly-discovered research-mathematician forum (staged in SOURCES.md this session). Evidence cap
+  reached again (10/10); the live repo-listing and the generic AGMAI "declines to judge" entry were
+  dropped to make room (both redundant with this trend's own `what` summary and with AGMAI's
+  separate standing presence in SOURCES.md) — no information lost, only de-duplicated.
 - notes: 2026-10-07 (daily, seed creation): caught via the Hacker News front page (683-point story)
   and corroborated independently via Gil Kalai's blog ("amazing") and r/OpenAI community-pulse
   threads naming several of the same results (Unique Games Conjecture, circulant Hadamard
@@ -2994,7 +3012,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     held medium.
 
 ### Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath
-- stage: seed | confidence: low | first_seen: 2026-10-28 | last_evidence: 2026-10-27
+- stage: seed | confidence: low | first_seen: 2026-10-28 | last_evidence: 2026-11-16
 - what: axis-5 DOMAIN-CADENCE LANDMARK at the largest magnitude this ledger has tracked for
   formalized mathematics. AxiomMath — a new, previously untracked AI-mathematics organization
   (PI Letong Hong; core contributors Dean Cureton, Vasily Ilin, Bhavik Mehta, Niels Voss) —
@@ -3033,6 +3051,19 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-10-27 (hexagonmath feed timestamp) — https://hexagonmath.org/2610.00575 — "The
     Unbalanced Group Theorem," the accompanying paper presenting the replacement argument.
     Opened directly via `curl` this session (title confirmed live).
+  - 2026-11-16 — https://axiommath.ai/research/beyond-the-classification-what-the-cfsg-corpus-unlocks/
+    — AxiomMath, "Beyond the Classification: What the CFSG Corpus Unlocks": reports 30 further
+    published results formalized in Lean using the CFSG corpus (but not depending on the
+    classification itself), including the Hall–Paige conjecture (all 26 sporadic groups), a
+    remark of Serre on orders of Lie-type groups, a claim from Galois's 1832 letter, Nagao's 1966
+    theorem, Baddeley's 1993 result, and a spectral characterization of the Tutte 12-cage; cites
+    external papers (mostly DOI, one arXiv id: 1811.12671, Bray et al. 2020) and notes the
+    Hall–Paige formalization still takes some corpus results as explicit inputs. No independent
+    third-party verification reported. Opened directly via `WebFetch` this session.
+- notes: 2026-11-19 (daily): first evidence of the CFSG corpus being used for DOWNSTREAM
+  formalization (a vetting-relevant signal — a usable, extensible corpus is harder to fake
+  convincingly than an isolated claim — though still self-reported, no outside confirmation).
+  Confidence held `low` (unchanged).
 - notes: 2026-10-28 (daily, seed creation): caught via the Hacker News front page (192 points,
   52 comments, "Classification of Finite Simple Groups Formalized in Lean") — the standout
   catch of the day. `axiommath.ai` staged as a new discovered-source candidate in SOURCES.md
@@ -3497,6 +3528,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Flow Conjecture" (Archive of Formal Proofs, dated 2026-07-22, releases through 2026-10-26):
     Isabelle-verified counterexample to Goemans's cost-preservation conjecture. Opened directly
     via `WebFetch` this session.
+  - 2026-09-04 (v1; CAPTURE-LEAK CATCH, ~10 weeks old, surfaced via today's sweep) —
+    https://arxiv.org/abs/2611.23244 — Jingwei Ge, Na Xie, Li Li, Jiayang Li, "Goemans's
+    Unsplittable-Flow Conjecture: The Anatomy of AI-Assisted Counterexample Discovery": an
+    independent arXiv write-up explaining WHY the Rybin counterexample works (a forward
+    counterexample-construction pipeline from an arborescence with terminal-entering shortcut
+    arcs), generalizing to a broader family — exactly the "arXiv write-up of the counterexample
+    itself" this trend's prior notes flagged as a watch item. Abstract + authors verified via
+    direct arXiv page fetch this session.
+- notes: 2026-11-19 (daily): the independent analysis/generalization paper the 2026-11-07 notes
+  were watching for has appeared (above) — closes that watch item. Evidence cap now 2/10.
 - notes: 2026-11-07 (W45 weekly, queue-aging review, seed creation): closes a ~3.5-month-old
   community-pulse chase (first flagged 2026-07-24, last re-checked 2026-10-17/W42 as "still
   watched, not yet promoted or dropped") by locating the formal-verification primary that the
@@ -4973,11 +5014,339 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   opened. Confidence `low` (EXTREME caution tier, unverified scale/completeness claims, no
   sorry-free confirmation). Watch for independent Lean-kernel verification and any outside
   mathematician's technical reaction.
+  - 2026-11-19 (daily): VERIFICATION GAP CLOSED — `github.com/openai/math`'s own `CONTENTS.md`
+    (fetched directly via `curl` on `raw.githubusercontent.com` this session) names result-family
+    **#056, "Termination of projective and Kähler fourfold minimal model programs"** (plus
+    adjacent fourfold-MMP families #036 and #054), confirming AxiomMath's claim that its
+    formalization "incorporates OpenAI's claimed resolution of the remaining 4-dimensional
+    cases." This corroborates provenance, not correctness — #056 itself remains an unrefereed,
+    AI-claimed result inside the already-tracked OpenAI mass-disclosure trend. No change to
+    confidence (`low` unchanged; still no independent outside verification of either claim).
+
+### Disproof of the El-Zahar–Erdős conjecture (bounded-clique chromatic bipartition)
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK (full resolution, source/fame-blind per the W46-ratified bar): El-Zahar
+  and Erdős asked whether every graph of bounded clique number and sufficiently large chromatic
+  number contains two vertex-disjoint induced subgraphs, each of large chromatic number, joined
+  by no edge. Disproved even for triangle-free graphs: for every $g\ge4$, there exist graphs of
+  girth $\ge g$ and arbitrarily large chromatic number in which any two disjoint induced
+  subgraphs each requiring $\ge7$ colors are joined by an edge.
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.24735 — Chenghua Liu, Boning Meng, "A disproof
+    of the El-Zahar–Erdős conjecture." Abstract + authors verified via direct arXiv page fetch
+    this session (title-triage catch, math.CO category-rotation sweep).
+- notes: 2026-11-19 (daily, seed creation): caught via today's full 35-category arXiv RSS sweep.
+
+### Disproof of the van Emde Boas–Kruyswijk conjecture (1969) on the Davenport constant
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK: a 1969 conjecture of van Emde Boas and Kruyswijk that the Davenport
+  constant $D(C_n^r)=r(n-1)+1$ for all positive integers $n,r$ — disproved by showing
+  $D(C_6^r)>5r+1$ for every $r\ge23$. Distinct from the already-queued Girard–Grynkiewicz
+  upper-bound conjecture disproof (2609.29878) — a different, older, more famous Davenport-
+  constant conjecture.
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.24775 — Weidong Gao, Alfred Geroldinger, Guoqing
+    Wang, Xiangneng Zeng, "A disproof of the van Emde Boas–Kruyswijk conjecture on the Davenport
+    constant." Abstract + authors verified via direct arXiv page fetch this session (math.NT
+    category-rotation sweep).
+- notes: 2026-11-19 (daily, seed creation): caught via today's full 35-category arXiv RSS sweep.
+
+### The Bapat-Sunder eigenvalue conjecture (1986) resolved negatively over both fields
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-10-14
+- what: axis-1/4 LANDMARK: Bapat and Sunder (1986) asked whether $\operatorname{per}(A)$ is the
+  largest eigenvalue of $F_A=[a_{i,j}\operatorname{per}(A(i,j))]$ for every positive semidefinite
+  Hermitian $A$. Drury disproved this over the COMPLEX field in 2018 and conjectured it holds for
+  REAL positive semidefinite matrices; this paper disproves Drury's real-field conjecture too
+  (rank-4, 32×32 integer Gram matrix, integer-arithmetic verification; counterexamples exist for
+  every order $n\ge32$), closing the Bapat-Sunder question negatively over both fields. Also
+  yields a quantum-optics application (a 36-mode orthogonal interferometer / photon-arrival-time
+  violation).
+- evidence:
+  - 2026-10-14 (v1; CAPTURE-LEAK CATCH — surfaced via a quant-ph cross-listing in today's sweep,
+    5 weeks after its original math.CO/RA posting) — https://arxiv.org/abs/2611.23269 — Logan R.
+    Chalmers, "The Bapat-Sunder eigenvalue conjecture fails over the reals." Abstract + author
+    verified via direct arXiv page fetch this session.
+- notes: 2026-11-19 (daily, seed creation): title-blind miss on the original Oct 14 posting
+  (title carries no triage keyword beyond "conjecture"/"fails" and was outside this session's
+  Amendment J full-abstract category for that week); caught today only because of a same-day
+  quant-ph cross-listing. Watch for the quantum-optics application drawing independent interest.
+
+### A Counterexample to Voiculescu's Normal Dilation and Stable Classification Conjectures
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK (operator theory / operator algebras): constructs a compact operator $T$
+  with trace-class self-commutator and vanishing Helton-Howe measure such that $T\oplus S-M\notin
+  \mathcal S_2$ for every bounded $S$ and bounded normal $M$ — a counterexample to Voiculescu's
+  normal dilation conjecture AND his stable classification conjecture. Uses magnetic shifts on
+  finite square tori.
+- evidence:
+  - 2026-11-16 (v1), revised 2026-11-18 (v2) — https://arxiv.org/abs/2611.21495 — Xiang Tang, "A
+    Counterexample to Voiculescu's Normal Dilation Conjecture." Abstract + author verified via
+    direct arXiv page fetch this session (math.FA/OA category-rotation sweep).
+- notes: 2026-11-19 (daily, seed creation): caught via today's full 35-category arXiv RSS sweep.
+
+### Proof of Rump's Retraction Conjecture (1978) for quasilinear cycle sets
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-07-09
+- what: axis-1 LANDMARK (Yang-Baxter equation theory): Rump introduced nondegenerate cycle sets
+  as an algebraic framework for nondegenerate involutive Yang-Baxter solutions; his 1978-style
+  retraction conjecture for finite quasilinear cycle sets (every nontrivial one is retractable)
+  is proved here in full.
+- evidence:
+  - 2026-07-09 (v1; CAPTURE-LEAK CATCH, ~4.5 months old — surfaced via a v2 revision in today's
+    sweep) — https://arxiv.org/abs/2607.08609 — Carsten Dietzel, "Proof of Rump's Retraction
+    Conjecture for Quasilinear Cycle Sets." Abstract + author verified via direct arXiv page
+    fetch this session.
+- notes: 2026-11-19 (daily, seed creation): a genuine old miss — the paper posted in July with a
+  title carrying no "disprov/counterexample" keyword and a "conjecture"+"proof" combination that
+  should have triage-matched; only caught today via its v2 revision re-entering the RSS window.
+  Flag for the weekly: check whether the standing triage regex is actually being applied to
+  math.RA every rotation pass, since a clean keyword-match title sat uncaught for 4.5 months.
+
+### Failure of the AJ conjecture for Whitehead doubles of torus knots
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK (quantum topology): the AJ conjecture (Garoufalidis) relates the
+  A-polynomial of a knot to the recurrence satisfied by its colored Jones polynomials. This paper
+  shows the AJ conjecture FAILS for marked Whitehead doubles of torus knots with coprime
+  parameters $2\le r<s$, for both clasp signs, both companion chiralities, and every integer
+  twist — the zero-framed colored-Jones annihilator has a nonzero rationally-saturated
+  specialization not sharing a factor with the classical $A$-polynomial.
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.24826 — Jinzheng Li, Yuqi Li, Hao-Yu Sun,
+    "Whitehead doubles and the failure of the AJ conjecture." Abstract + authors verified via
+    direct arXiv page fetch this session (math.GT category-rotation sweep).
+- notes: 2026-11-19 (daily, seed creation): caught via today's full 35-category arXiv RSS sweep.
+
+### Proof of Stafford's conjecture (1978) on cyclicity of torsion modules
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK (noncommutative algebra, Weyl algebras): Stafford's 1978 conjecture — for
+  the Weyl algebra $A_n(k)$ over a characteristic-zero field, every nonzero $d\in A_n(k)$ admits
+  $F,R,S$ with $1=dR+FdS$ — is proved in full, via a symplectic normal form and Gabber's
+  involutivity theorem. Consequence: every finitely generated torsion right $A_n(k)$-module is
+  cyclic.
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.24577 — Christopher Albert, Johanna Moser,
+    Maximilian Philipp, "Stafford's conjecture on cyclicity of torsion modules." Abstract +
+    authors verified via direct arXiv page fetch this session (math.RA category-rotation sweep).
+- notes: 2026-11-19 (daily, seed creation): caught via today's full 35-category arXiv RSS sweep.
+
+### A counterexample to Molchan's orthant persistence conjecture (fractional Brownian fields)
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK (probability): refutes Molchan's conjecture that the persistence
+  probability $p_{d,H}(R)$ of the isotropic fractional Brownian field on $[0,R]^d$ satisfies
+  $p_{d,H}(R)=R^{-d(1-H)+o(1)}$ as $R\to\infty$, by proving a strictly weaker upper bound (a
+  $-49H/48$ exponent correction) in the $H\downarrow0$ limit for all sufficiently large
+  dimensions — a universal statement disproved by an explicit asymptotic regime, same structure
+  as this ledger's other narrow-regime counterexample disproofs.
+- evidence:
+  - 2026-11-18 (v1) — https://arxiv.org/abs/2611.24520 — Svyatoslav Novikov, "A counterexample to
+    Molchan's orthant persistence conjecture." Abstract + author verified via direct arXiv page
+    fetch this session (math.PR category-rotation sweep).
+- notes: 2026-11-19 (daily, seed creation): caught via today's full 35-category arXiv RSS sweep.
+
+### An affirmative answer to Gundersen's three-IM-one-CM problem (hexagonmath, AI-assisted)
+- stage: seed | confidence: low | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK, EXTREME caution (hexagonmath, unrefereed): proves that if two
+  nonconstant meromorphic functions on $\mathbb C$ share three distinct values ignoring
+  multiplicity (IM) and a fourth value counting multiplicity (CM), they share ALL four values
+  counting multiplicity — resolving Gundersen's three-IM-one-CM problem in full generality
+  (Nevanlinna value-distribution theory).
+- evidence:
+  - 2026-11-18 (hexagonmath pubDate) — https://hexagonmath.org/2611.00568v1 — Pengcheng Fang, Tao
+    Hu, Yanyang Li, Quanyu Tang, "On meromorphic functions sharing three values IM and one value
+    CM." Page opened directly via `WebFetch` this session; provenance statement discloses "a mix
+    of human-written and AI-generated text," proof/manuscript developed with OpenAI ChatGPT
+    assistance, Lean 4/Harmonic Aristotle/Codex formalization by one author; page states "AI
+    assistance and automated verification do not constitute independent human peer review."
+- notes: 2026-11-19 (daily, seed creation): caught via today's hexagonmath `/rss/all` full-batch
+  read. Different author group from the other hexagonmath items captured today — no
+  per-submitter concentration flag warranted.
+
+### The sharp constant in the Erdős maximum-term problem (hexagonmath, AI-assisted)
+- stage: seed | confidence: low | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK, EXTREME caution (hexagonmath, unrefereed): for a transcendental entire
+  function $f$, determines EXACTLY the supremum of $\liminf_{r\to\infty}\mu(r,f)/M(r,f)$ (maximum
+  term vs. maximum modulus) as the reciprocal of the minimum circle norm in the He–Tang theta
+  family, with the extremal function fully characterized — a full, sharp resolution of this named
+  Erdős problem (stronger than the already-queued Erdős Problem 593 structural-description item,
+  which stays below bar).
+- evidence:
+  - 2026-11-18 (hexagonmath pubDate) — https://hexagonmath.org/2611.00583v1 — Will Howe, Grant
+    Huffman, Jensen Kohlmeyer, Liam Kruer, "The sharp constant in the Erdős maximum-term problem."
+    Page opened directly via `WebFetch` this session; provenance statement: "AI tools assisted
+    with developing and checking arguments and with drafting this manuscript," labeled "Primarily
+    AI-generated text," "Human understanding: no parts."
+- notes: 2026-11-19 (daily, seed creation): caught via today's hexagonmath `/rss/all` full-batch
+  read. Same author group (Howe/Huffman/Kohlmeyer/Kruer) also behind the conjectures.io Erdős
+  Problem 108 staged candidate (SOURCES.md) — watch for a pattern across this group's output.
+
+### Uniform spectral gap for the AKLT model on the square lattice (hexagonmath, AI-assisted)
+- stage: seed | confidence: low | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-2/3 MAJOR LANDMARK if it survives scrutiny — EXTREME caution (hexagonmath,
+  unrefereed, "Human understanding: no parts"): claims to prove the spin-2 AKLT Hamiltonian on
+  the square-lattice torus has a unique ground state and a spectral gap bounded uniformly below
+  once both side lengths are sufficiently large — the long-open 2D square-lattice case of the
+  Affleck–Kennedy–Lieb–Tasaki (1988) spectral-gap conjecture, a genuinely famous, decades-old
+  open problem in mathematical physics (the 1D AKLT chain's gap was proved long ago; higher-
+  dimensional lattices, especially the square lattice, resisted). Method: bounds the quantum gap
+  via the spectral gap of a classical block dynamics (valence-bond-solid measure in spin coherent
+  states), using a Martinelli-Olivieri-style coupling argument; also proves uniqueness of the
+  infinite-volume frustration-free state.
+- evidence:
+  - 2026-11-18 (hexagonmath pubDate) — https://hexagonmath.org/2611.00580v1 — P. M. Aronow,
+    Patrick Lopatto, "Uniform Spectral Gap for the AKLT Model on the Square Lattice." Page opened
+    directly via `WebFetch` this session; categorized math-ph (MSC 82B20); provenance statement:
+    "Primarily AI-generated text," "Human understanding: no parts," proof discovery/verification/
+    Lean formalization/writing done by a combination of named AI models.
+- notes: 2026-11-19 (daily, seed creation): per the W46-ratified bar (source/fame-blind), this
+  clears the landmark bar on its face — but this is the single highest-stakes hexagonmath claim
+  this ledger has captured to date given the fame and difficulty of the 2D AKLT gap problem, AND
+  it carries the ledger's own most severe caution label ("no human understanding of any part").
+  Track the vetting outcome, not the claim: watch urgently for ANY mathematical-physics community
+  reaction (condensed-matter/math-ph blogs, a Lean-kernel-independent replay, or a direct comment
+  from Affleck, Kennedy, Lieb, or Tasaki themselves) before this is treated as settled in any
+  downstream summary. Candidate Top-story flag for today's report.
+
+### The level-25 case of the Rouse–Sutherland–Zureick-Brown conjecture (hexagonmath, AI-assisted)
+- stage: seed | confidence: low | first_seen: 2026-11-19 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK, EXTREME caution (hexagonmath, unrefereed): proves the non-split Cartan
+  modular curve $X_{\mathrm{ns}}^+(25)$ (genus 14, Jacobian rank 14) has exactly nine rational
+  points, all CM — the level-25 case of a conjecture of Rouse, Sutherland, and Zureick-Brown on
+  5-adic Galois images of non-CM elliptic curves over $\mathbb Q$; combined with Rouse-Sutherland-
+  Zureick-Brown's own prior theorem, this determines the full 5-adic Galois-image classification.
+  Flagged for the weekly: whether "completes the classification with the cited prior theorem" (as
+  the Cameron-Praeger-for-Steiner-6-designs precedent treated an analogous completing case) should
+  read as a full resolution of the parent RSZB conjecture itself, not just its level-25 instance —
+  seeded here at the instance level either way, since the instance itself is a complete, named
+  result.
+- evidence:
+  - 2026-11-18 (hexagonmath pubDate) — https://hexagonmath.org/2611.00591v1 — Manvir Jaswal, "The
+    rational points of the non-split Cartan modular curve of level 25." Page opened directly via
+    `WebFetch` this session; categorized math.NT; provenance statement: produced by "an AI
+    research system that the author designed, built and directs," running on Anthropic's Claude
+    and OpenAI's GPT-6 Astra; author "takes full responsibility for all of the paper's contents."
+- notes: 2026-11-19 (daily, seed creation): caught via today's hexagonmath `/rss/all` full-batch
+  read. Chase next session: the exact statement of the parent Rouse–Sutherland–Zureick-Brown
+  conjecture and whether level 25 was its last open case.
+
+### A counterexample to the Optimality Conjecture in convex quantum channel optimization
+- stage: seed | confidence: medium | first_seen: 2026-11-19 | last_evidence: 2026-10-28
+- what: axis-4 LANDMARK, peer-reviewed (Quantum journal, no unrefereed-preprint caution needed):
+  disproves the optimality conjecture of Coutts et al. (Quantum 5, 448, 2021) for the trace-
+  distance-based optimal state-transformation problem — the conjecture posited that applying the
+  sign function to the error matrix uniquely determines a dual certificate for every optimal
+  solution; disproved via an explicit 2-dimensional-Hilbert-space counterexample.
+- evidence:
+  - 2026-10-28 (published) — https://quantum-journal.org/papers/q-2026-10-28-2253/ (DOI
+    10.22331/q-2026-10-28-2253) — "A Counterexample to the Optimality Conjecture in Convex
+    Quantum Channel Optimization," Quantum 10, 2253 (2026). Abstract opened directly via `curl`
+    this session (Quantum journal RSS sweep).
+- notes: 2026-11-19 (daily, seed creation): caught via today's Quantum-journal RSS sweep; author
+  name(s) not resolvable from the RSS abstract page alone, chase the full paper next session for
+  attribution.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-18 (v1) — Alexander Sherman, "Semi-exact functors and the conjecture of Coulembier and
+  Flake" — https://arxiv.org/abs/2611.24471 — PARTIAL: proves only a "weak form" of the
+  conjecture (per the paper's own wording) for symmetric tensor categories; the full conjecture
+  (agreement of the new support theory with the Balmer spectrum) stays open. Axis 1. Abstract +
+  author verified via direct arXiv page fetch this session.
+- 2026-10-09 (v1), revised 2026-11-18 (v2; CAPTURE-LEAK CATCH surfaced via the revision) — Lukas
+  Brantner, "The Tate Conjecture for Ordinary Calabi-Yau Threefolds" —
+  https://arxiv.org/abs/2610.13939 — PARTIAL: proves the integral geometric Tate conjecture only
+  for ORDINARY Calabi-Yau threefolds over finite fields (plus divisor classes on certain ordinary
+  CY varieties), a restricted case of the general (still-open) Tate conjecture for CY threefolds.
+  Axis 1. Abstract + author verified via direct arXiv page fetch this session.
+- 2026-02-16 (v1), revised 2026-11-18 (v2; CAPTURE-LEAK CATCH, ~9 months old, surfaced via the
+  revision) — Nikola Adžaga, Tomislav Gužvić, "Completing the classification of torsion over
+  sextic fields for elliptic curves defined over $\mathbb Q$" — https://arxiv.org/abs/2602.14718
+  — completes a specific classification program (the last open case, $C_3\oplus C_{18}$, shown
+  not to occur) rather than resolving a named conjecture — below the landmark bar but a genuine,
+  definitive result. Axis 1. Abstract + authors verified via direct arXiv page fetch this
+  session.
+- 2026-11-18 (v1) — C. L. Liu, "No-Go Theorems for Ordered Universal Entanglement Purification" —
+  https://arxiv.org/abs/2611.24603 — a new no-go result for fidelity-ordered universal $n$-to-1
+  entanglement-purification protocols in quantum networks — a new theorem, not a named-conjecture
+  resolution. Axis 4. Abstract + author verified via direct arXiv page fetch this session.
+- 2024-06-28 (v1), revised 2026-11-18 (v4; CAPTURE-LEAK CATCH, ~2.3 YEARS old, surfaced via the
+  revision) — Valentijn Karemaker, Chia-Fu Yu, "Supersingular Ekedahl-Oort strata and Oort's
+  conjecture" — https://arxiv.org/abs/2406.19748 — PARTIAL: confirms Oort's conjecture only for
+  even $g$ with $p\ge5$, and separately for $g=4$, $p>2$ — general case remains open. Axis 1.
+  Abstract + authors verified via direct arXiv page fetch this session. Flag for the weekly: a
+  2.3-year-old paper surfacing only now via a v4 revision is a severe capture-leak case — worth
+  checking whether the v1-v3 history (2024-2025) contains anything else this ledger never had a
+  chance to see (this ledger itself only started 2026-07-02, so v1-v3 predate the radar entirely —
+  likely a non-issue, but the pattern (several multi-month/multi-year-old revision-triggered
+  catches today: this item, the sextic-torsion item above, Rump's Retraction Conjecture and the
+  Goemans-analysis paper among today's new seeds/evidence) suggests the "replace"/revision stream
+  is a real, under-exploited capture channel — consider whether `radar-source-sweep` should
+  explicitly check arXiv's `announce_type:replace` entries, not just `:new`, each rotation).
+- 2026-11-18 (v1) — Jean-Marie Morvan, "On a conjecture of Elie Cartan concerning the Gauss
+  equation of a flat submanifold" — https://arxiv.org/abs/2611.24415 — MIXED: for flat symmetric
+  bilinear forms on $\mathbb R^n$ with values in $\mathbb R^p$, Cartan's 1919/1920 results
+  "either can be extended to this setting or fail," depending on $n,p$ — not a clean resolution
+  either way. Axis 1. Abstract + author verified via direct arXiv page fetch this session.
+- 2026-11-17 (v1) — Unknown authors, "Periodicity of Entire Solutions of $ff''=H^2$" —
+  https://arxiv.org/abs/2611.23511 — PARTIAL: proves Yang's conjecture (periodic $ff^{(k)}$
+  implies $f$ periodic) only for the $k=2$ case with $H$ itself periodic, not the general
+  conjecture. Axis 1 (math.CV Amendment J full-abstract pass, continuing the rotation). Abstract
+  verified via direct arXiv page fetch this session.
+- 2026-10-27 (published) — "Proof of hiding conjecture in Gaussian boson sampling," Quantum 10,
+  2248 (2026) — https://quantum-journal.org/papers/q-2026-10-27-2248/ — PARTIAL: proves the GBS
+  "hiding conjecture" only for input states with all modes squeezed (an experimentally-realized
+  special case), not the full conjecture. Axis 4, peer-reviewed. Abstract opened directly via
+  `curl` this session.
+- 2026-11-18 (vals.ai blog post) — "GPT-6.2 Astra Formalizes Smoktunowicz's Gap Theorem" —
+  https://vals.ai/blogs/smoktunowicz-gap-theorem — a Lean formalization (94 minutes, OpenAI's
+  GPT-6.2 Astra, Vals AI's Autoform-Hard benchmark) of an ALREADY-PUBLISHED 2006 theorem of Agata
+  Smoktunowicz on Gelfand-Kirillov dimension gaps in noncommutative algebra — a benchmark
+  demonstration, not new mathematics; no independent outside review. Axis 5 AI-watch. Opened
+  directly via `WebFetch` this session.
+- 2026-11-18 (unverified — Not Even Wrong, Peter Woit) — "Getting Access" —
+  https://www.math.columbia.edu/~woit/wordpress/?feed=rss2 (post dated 2026-11-18) — reports a
+  secret "shepherd" theorist group (formed at an invitation-only OpenAI-organized KITP workshop)
+  getting preferred compute/model access from OpenAI/Anthropic/Google DeepMind to work on
+  Yang-Mills/QCD/"Standard Model completion" proofs given to them, and that some KITP panels were
+  "academics only" over fear of idea theft by lab-connected attendees. A governance/sociology
+  development on the AI-watch lane (axis 5), not a mathematical result — no primary artifact to
+  evidence. Opened directly via `curl` this session. Chase for any named individual or institution
+  going on record.
+- 2026-11-15 (unverified, primary not locatable this session) — Sabine Hossenfelder,
+  "A Big Problem Has Appeared in Physics" (video post) —
+  https://backreaction.blogspot.com/2026/11/a-big-problem-has-appeared-in-physics.html — flags a
+  new "experiment against experiment" particle-physics anomaly/discrepancy (two measurements of
+  the same quantity disagreeing); the post's text/summary names neither experiment nor quantity
+  (details are in the linked video only, not transcribed). Axis 3. Chase next session via the
+  video transcript or a dedicated search once the specific experiments are identifiable.
+- 2026-11-15 (unverified, no paper located — MathHelm forum discussion, a new source this
+  session) — Mark Lewko, "The sharp Kakeya maximal inequality in all dimensions" —
+  https://mathhelm.org — a credentialed harmonic analyst reports using ChatGPT, building on
+  OpenAI's local-smoothing work, to "refine the ideas to give the sharp Kakeya maximal inequality
+  in all dimensions" — an EXPLORATORY discussion-board post (0 votes, 3 replies), not a paper or
+  formal claim. If a genuine sharp all-dimensions Kakeya maximal inequality exists, this would be
+  an extraordinary extension of Wang-Zahl's 3D Kakeya resolution (already on this ledger's
+  `study_shelf`/2026-Fields-Medal entries) — HIGH chase priority next session: look for an actual
+  arXiv write-up from Lewko, and treat with the same unrefereed/AI-assisted-claim caution as this
+  ledger's other AI-watch items pending one.
+- 2026-11-18 (hexagonmath, below landmark bar, all opened/read directly via `WebFetch`/`curl` this
+  session; different author groups, no submitter concentration): "An Averaged Iwasawa Approach to
+  Mordell over Q" (https://hexagonmath.org/2611.00576v1) — a NEW PROOF TECHNIQUE for the Mordell
+  conjecture via the Chabauty-Kim method; the conjecture itself was already resolved by Faltings
+  in 1983, so this is not new territory, just an alternate proof route. "A Universal
+  Square-Root-of-Six Bound for Kissing Numbers" (https://hexagonmath.org/2611.00586v1) — proves
+  $\sqrt6$ is the sharp constant for the classical spherical-cap-style asymptotic kissing-number
+  bound (not a resolution of the kissing-number problem itself, which stays open in most
+  dimensions); states a Lean 4/Mathlib certificate is registered in "Palomar." "Cluster monomials
+  and finite type" (https://hexagonmath.org/2611.00589v1) — an iff characterization of finite-type
+  cluster algebras via their cluster monomials forming a basis; a self-contained structural
+  theorem, no named conjecture cited. "Convex-body volume counterexamples to hyperplane
+  equipartition" (https://hexagonmath.org/2611.00588v1) — constructs convex-body counterexamples
+  to volume-equipartition by affine hyperplanes for $d\ge4$; names no specific prior conjecture by
+  author. "An upper bound 0.4893562 for the upper density of the integers p+2^k"
+  (https://hexagonmath.org/2611.00570v1) — a record-chasing incremental improvement on a known
+  sequence of density bounds (Habsieger-Roblot, Chen-Dai-Li, Patankar, et al.), not a named
+  conjecture.
 - 2026-11-18 — Daoqiang Liu, "Spectral Geroch conjecture and noncompact area enlargeable
   summands" — https://arxiv.org/abs/2608.24853 (v2, resurfaced today) — proves spectral-constant
   inequalities and an iff characterization for area-enlargeable connect sums (both summands
@@ -8597,6 +8966,19 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   flagged honestly as uncertain. This radar records that OpenAI has now made an on-record denial
   addressing the Buckmaster-Alpöge priority/influence dispute; it does not adjudicate the claim.
   Watch for a direct on-record response from Buckmaster or Alpöge to this specific denial.
+- 2026-11-19 (daily, VETTING-STATUS DEVELOPMENT) — Zhen Lei, Xiao Ren, "Finite-Time Blowup for
+  Navier-Stokes with Smooth Forcing, Part I" — https://arxiv.org/abs/2609.35406 — found via a new
+  source this session, MathHelm (research-mathematician forum, staged in SOURCES.md): an
+  independent, named Navier-Stokes researcher's own "readable and accessible" reconstruction of
+  the profile-construction part of OpenAI's claimed proof, stating plainly "We regard OpenAI's
+  work as a major advance on the Navier-Stokes Millennium Prize Problem" — the first substantive
+  CONSTRUCTIVE (not merely critical) expert engagement with the mathematical content of this claim
+  this ledger has tracked, over two months after the original announcement. This is a positive
+  vetting-engagement signal, NOT independent verification or reproduction of the complete claimed
+  proof (Lei/Ren's own paper covers only the profile-construction part; a "Part II" on cancellation
+  of the divergence-form residual is referenced but not located this session — chase next
+  session). Also added as evidence on the OpenAI mass-disclosure trend above. Abstract + authors
+  verified via direct arXiv page fetch this session.
 - 2026-09-22 (CAPTURE-LEAK CATCH, ~12 days late — surfaced via today's Hacker-News front-page
   pointer, chased to two primaries) — OpenAI, "Advisory Group on Mathematics and Artificial
   Intelligence," https://openai.com/index/advisory-group-on-mathematics-and-ai (page dateline shown
@@ -10053,6 +10435,16 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-19 — [Finite-Time Blowup for Navier-Stokes with Smooth Forcing, Part I](https://arxiv.org/abs/2609.35406) —
+  Zhen Lei and Xiao Ren's independent, readable reconstruction of the profile-construction core of
+  OpenAI's claimed Navier-Stokes Millennium-Prize proof, by an established Navier-Stokes
+  researcher who states plainly "we regard OpenAI's work as a major advance" — worth reading as
+  the first real mathematical engagement (not just commentary) with this radar's single biggest
+  tracked claim. Opened directly via arXiv this session; found via MathHelm, a new source.
+- 2026-11-19 — [Uniform Spectral Gap for the AKLT Model on the Square Lattice](https://hexagonmath.org/2611.00580v1) —
+  a claimed resolution of the long-open 2D-square-lattice case of the AKLT spectral-gap conjecture
+  (1988); worth knowing about given the problem's fame, but read with EXTREME caution — hexagonmath,
+  unrefereed, "Human understanding: no parts." Opened directly via `WebFetch` this session.
 - 2026-11-18 — [Power loss for the local Mizohata–Takeuchi estimate on smooth hypersurfaces](https://arxiv.org/abs/2611.22465) —
   Hannah Cairo and five co-authors disprove the local Mizohata–Takeuchi conjectures for the
   paraboloid and sphere, a finer sibling of the general conjecture Cairo already disproved last

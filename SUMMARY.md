@@ -1,8 +1,8 @@
-# Math-Physics Radar — 2026-11-18
+# Math-Physics Radar — 2026-11-19
 
-- **New trend** · [Local Mizohata–Takeuchi disproof](TRENDS.md#disproof-of-the-local-mizohatatakeuchi-conjectures-cairo-et-al-fourier-restriction-theory) — Hannah Cairo and five co-authors disprove the conjecture for the paraboloid and sphere.
-- **New trend** · [BMM symmetrising trace conjecture](TRENDS.md#proof-of-the-bmm-symmetrising-trace-conjecture-for-all-exceptional-complex-reflection-groups) — proved for all exceptional complex reflection groups.
-- **New trend** · [BMV conjecture in von Neumann algebras](TRENDS.md#proof-of-the-bessismoussavillani-conjecture-in-finite-von-neumann-algebras) — extended beyond matrix algebras for the first time.
-- **New** · [Mathieu (Mathieu–Zhao) conjecture](TRENDS.md#disproof-and-classification-of-the-mathieu-mathieuzhao-conjecture-for-compact-connected-lie-groups-and-beyond) — promoted to a trend after a broader classification extension (claim).
-- **Study pick** · [The Minimal Model Program, formalized in Lean](https://axiommath.ai/research/the-minimal-model-program-formalized/) — a ~2.1M-line Lean library covering dimensions 2–4 (claim).
-- **New trend** · [Schmeisser's and two Sendov survey conjectures](TRENDS.md#resolution-of-schmeissers-1977-conjecture-and-two-of-sendovs-2002-survey-conjectures-critical-point-location-for-polynomials) — two independent groups resolve related polynomial critical-point conjectures.
+- **New trend** · [AKLT spectral gap, square lattice](TRENDS.md#uniform-spectral-gap-for-the-aklt-model-on-the-square-lattice-hexagonmath-ai-assisted) — resolves the decades-open 2D case of the AKLT conjecture (claim).
+- **New trend** · [Voiculescu's normal dilation conjecture](TRENDS.md#a-counterexample-to-voiculescus-normal-dilation-and-stable-classification-conjectures) — a counterexample via magnetic shifts on finite square tori.
+- **New trend** · [AJ conjecture failure](TRENDS.md#failure-of-the-aj-conjecture-for-whitehead-doubles-of-torus-knots) — fails for Whitehead doubles of torus knots, every clasp sign and twist.
+- **New trend** · [Stafford's 1978 conjecture](TRENDS.md#proof-of-staffords-conjecture-1978-on-cyclicity-of-torsion-modules) — proved for Weyl algebras; torsion modules are cyclic.
+- **New** · [Finite-Time Blowup for Navier-Stokes, Part I](https://arxiv.org/abs/2609.35406) — Zhen Lei reconstructs OpenAI's claimed Navier-Stokes proof independently.
+- **New trend** · [Disproof of the El-Zahar–Erdős conjecture](TRENDS.md#disproof-of-the-el-zaharerds-conjecture-bounded-clique-chromatic-bipartition) — fails even for triangle-free graphs of large girth.

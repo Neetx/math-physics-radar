@@ -519,6 +519,12 @@ openmathmodel.org (1 sighting still).
   content; existing threads on recent papers). CLEARS the ≥2-sighting bar — ready for weekly
   promotion to Primary feeds / AI-watch-lane (same class as mathcommunity.github.io/
   oai-math-revised). No RSS located yet; access via direct `curl`/`WebFetch` on `mathhelm.org`.
+  (3) 2026-11-19 (daily): first PRODUCTIVE sweep — the "Recent activity" listing itself (via
+  `curl`) surfaced two genuinely new, previously-untracked items this session: an independent
+  Navier-Stokes write-up by Zhen Lei (arXiv:2609.35406, now evidenced on the OpenAI mass-
+  disclosure trend) and an unverified Mark Lewko discussion post claiming a sharp Kakeya maximal
+  inequality in all dimensions (queued). Confirms this is a genuinely high-signal venue, not just
+  a one-off sighting — strengthens the case for weekly promotion.
 - acadmathsci.org.uk (Academy for the Mathematical Sciences, UK-wide body for math/stats/OR) — 1 —
   "The mathematical sciences in an AI-enabled world" report, Oct 2026 (PDF located via `tvly
   search` at `acadmathsci.org.uk/wp-content/uploads/2026/10/Mathematical_Sciences_AI_AcadMathsSci_Oct2026_preprint_final.docx.pdf`,
@@ -604,7 +610,11 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
 - The n-Category Café — https://golem.ph.utexas.edu/category/ **[verified 2026-07-02; HTML → `tvly
   extract`. HEALED 2026-08-21: plain `curl -A "Mozilla/5.0"` returns HTTP 200 with full post-title
   HTML directly, no Cloudflare/JS block found — prefer direct `curl` first, `tvly extract` as
-  fallback.]** — category theory / mathematical physics group blog
+  fallback. DEGRADED 2026-11-18/2026-11-19 (2nd consecutive daily, heal-owed): both plain `curl`
+  (SSL connect error, exit 35) and `WebFetch` (HTTP 503) fail on `/category/` and on the bare
+  domain; `tvly` quota-exhausted both sessions, no fallback tried. A genuine site-side outage
+  (the host itself returns 503), not a block — re-test next session; escalate if a 3rd
+  consecutive occurrence.]** — category theory / mathematical physics group blog
 - Gowers's Weblog — https://gowers.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — Fields-medalist blog; big open problems, Polymath, expository breakthroughs
 - Combinatorics and more (Gil Kalai) — https://gilkalai.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — combinatorics, convexity, and a leading QUANTUM-skeptic voice (pairs with the hype-skepticism rule)
 - Azimuth (John Baez) — https://johncarlosbaez.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — mathematical physics, category theory, applied math

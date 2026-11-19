@@ -5184,3 +5184,130 @@ against TRENDS.md — all 9 present on a discrete evidence/queue line, 0 missing
 Active-trends count 130→146. SOURCES.md: no new source domain staged (AxiomMath's new post
 came through an already-tracked channel). README.md and SUMMARY.md regenerated in the same
 commit.
+
+## 2026-11-19 (Thu, Pass 1, scheduled) — FULL CHECK. Load-state: clone was shallow at session
+start; `git fetch --unshallow` run first (standing precedent). Checked both stale `claude/*`
+branches re-confirmed ordinary ancestors of main (no orphaned state, no cherry-pick needed). All
+`radar: daily`/`weekly` commits of the last 7 days have matching reports — no incomplete-run
+warning. `tvly` reinstalled via `pip install -q tavily-cli`, QUOTA-EXHAUSTED on first call —
+`WebFetch`/plain `curl` substituted for the entire session, no `tvly` call succeeded (same
+standing pattern as 11-17/11-18).
+
+Primary sweep (radar-source-sweep): full 35-category arXiv RSS sweep (20 math + 15 physics,
+1349 titles) via `rss.arxiv.org` (clean, direct `curl`, no API rate-limit needed for the listing
+itself), title-triaged against the standing keyword filter including the "resolution"/"settl"
+fix from 11-18 (98 keyword hits). Amendment J full-abstract pass (today's category: math.CV,
+continuing the CA→CV lap; 18 fresh entries, all read in full) — ONE title-blind partial catch
+(Yang's conjecture k=2 case, 2611.23511, queued below bar). arXiv API degraded again
+("Rate exceeded") — worked around via direct `arxiv.org/abs/<id>` HTML fetches (parallel `curl -A
+Mozilla/5.0`) for every candidate id, worked cleanly throughout, including recovering exact
+`[Submitted on ...]` dates for v1/v2/v3/v4 history.
+
+CAPTURE HAUL (very large, comparable to yesterday): THIRTEEN new seed trends from arXiv +
+hexagonmath + Quantum-journal primaries (El-Zahar–Erdős conjecture disproof 2611.24735; van Emde
+Boas–Kruyswijk 1969 Davenport-constant conjecture disproof 2611.24775; Bapat-Sunder eigenvalue
+conjecture resolved negatively over the reals 2611.23269, a 5-week-old capture-leak catch via a
+quant-ph cross-listing; Voiculescu's normal-dilation + stable-classification conjectures
+counterexample 2611.21495; Rump's 1978 Retraction Conjecture proof 2607.08609, a 4.5-month-old
+capture-leak catch via a v2 revision; AJ-conjecture failure for Whitehead doubles 2611.24826;
+Stafford's 1978 conjecture proof 2611.24577; Molchan's orthant-persistence-conjecture
+counterexample 2611.24520; Gundersen's three-IM-one-CM problem resolved, hexagonmath 2611.00568;
+sharp constant in the Erdős maximum-term problem, hexagonmath 2611.00583; uniform spectral gap
+for the AKLT model on the SQUARE LATTICE, hexagonmath 2611.00580 — a MAJOR claim on a
+famous, decades-open 2D problem, EXTREME caution, "no human understanding," flagged as a
+candidate top story; the level-25 case of the Rouse–Sutherland–Zureick-Brown conjecture,
+hexagonmath 2611.00591; a counterexample to the Optimality Conjecture in convex quantum channel
+optimization, peer-reviewed Quantum journal q-2026-10-28-2253) + evidence appended to FOUR
+existing trends (Goemans unsplittable-flow: + 2611.23244, a 10-week-old capture-leak catch
+closing a standing watch item; OpenAI mass-disclosure: + Markarian's Deligne-Drinfeld
+geometric-reinterpretation 2611.01745 + Zhen Lei/Ren's independent Navier-Stokes Part-I
+reconstruction 2609.35406, both found via MathHelm, a NEW source this session; AxiomMath MMP
+trend: closed its own standing verification gap by locating OpenAI's result-family #056
+("Termination of ... Kähler fourfold minimal model programs") in `github.com/openai/math`'s
+CONTENTS.md; AxiomMath CFSG trend: + the new "Beyond the Classification" post, 30 further
+theorems formalized via the CFSG corpus incl. the Hall-Paige conjecture) + the standalone
+Navier-Stokes queue item: + the same Zhen Lei vetting-status development. `observation_queue`
++17 below-bar items (see today's report for the list — includes FOUR hexagonmath items read and
+explicitly judged below the landmark bar, two very-old capture-leak catches via revisions
+[2602.14718 at ~9 months, 2406.19748 at ~2.3 YEARS], an unverified Hossenfelder particle-physics
+anomaly pointer with no locatable primary, an unverified Woit AI-lab-governance item, and an
+unverified but HIGH-chase-priority Mark Lewko "sharp Kakeya maximal inequality in all
+dimensions" MathHelm discussion post). TRENDS.md Active-trends count 146→159. study_shelf +2
+(Zhen Lei's Navier-Stokes write-up; the AKLT spectral-gap paper, with caution).
+
+Primary feeds: CERN Courier, Fermilab, Simons Foundation (curl, 200 each) — 0 on-axis catch
+beyond already-tracked items (LZ 248 keV event and Z-boson-entanglement-in-Higgs-decays coverage,
+both reconfirmed already-tracked, not new). PRL/PRX/RMP (curl, 200) — 0 on-axis catch (all
+routine condensed-matter/HEP/gravitational results, no "first/discovery/resolves" framing).
+Quantum journal (curl, 200) — TWO keyword hits, one promoted to seed (above), one queued (hiding
+conjecture, restricted case). Nature Physics/Communications (WebFetch/curl, 200, full titles
+recovered cleanly this session, no empty-CDATA issue) — 0 on-axis catch (routine). Science
+Advances `showFeed` RSS (curl, 200) — 0 on-axis catch (biology/geology, correctly off-axis).
+SciPost API — Anubis bot-check challenge again (standing non-consecutive pattern); sitemap
+fallback confirms activity (SciPostPhys advanced .075→.123 across issues 3→5, SciPostPhysCore
+.060→.075) but not titles — partial heal as before. Experiments block: LIGO `/news` — STILL
+HEAL-OWED (5th occurrence: 11-12, 11-16, 11-17, 11-18, 11-19): `WebFetch` on the plain `/news`
+URL returns 200 but IDENTICAL stale content (newest still "GWTC-5.0," May 26 2026) for the 5th
+straight session; already escalated to the curator via push notification on 11-18, not
+re-escalating today (no new information) — just logged as still-open. DESI (`WebFetch`, 200) —
+two new blog posts (Milky Way mass estimate, a cartography video), both outreach/no new
+primary, correctly below bar, not queued. IceCube category feed (curl, 200) — 0 catch (routine
+ops updates). CERN home — correctly skipped per the W45 monthly-downgrade (next due ~2026-12-07).
+AI-watch lane: openai.com/research (`WebFetch`, 200, ~9.6KB minimal render) — 0 on-axis catch
+beyond the already-tracked mass-disclosure/#056 chase above. anthropic.com/research (WebFetch,
+200) — 0 on-axis catch. axiommath.ai/research/blog (WebFetch, 200) — ONE new post captured
+(Beyond the Classification, above). agmai.org (WebFetch, 200) — unchanged, 0 new statement.
+icarm.io/feed (curl, 200) — unchanged since Oct 12, 0 new item. vals.ai/blogs (WebFetch, 200) —
+ONE new post captured (Smoktunowicz Gap Theorem, queued), one unopened/unverified pointer
+("Thomson, One N at a Time," 10-27, not chased — low priority). mathhelm.org — FIRST PRODUCTIVE
+SWEEP this session (curl, 200): TWO genuinely new captures (Zhen Lei Navier-Stokes write-up,
+Mark Lewko Kakeya discussion) — see SOURCES.md update; the rest of its recent activity list is
+already-tracked OpenAI-mass-disclosure-import content, correctly not re-captured. GitHub watch
+(radar-repo-watch): direct `curl`/API still proxy-scoped (confirmed again); `WebFetch` on
+`.atom` URLs — lean4 new v4.37.0-rc1 (Nov 18, routine pre-release), mathlib4 daily
+`master-2026-11-18` auto-tag (routine), Rocq unchanged at 9.3.0 — all routine, 0 new citable
+release.
+
+Community pulse (radar-pulse): Hacker News front page (Algolia API) — 0 on-axis catch (checked
+explicitly against math/physics/quantum/relativity/gravity/cosmology/particle/neutrino
+keywords). MathOverflow `/feeds` (curl, 200) — routine Q&A, 0 primary catch. Physics SE `/feeds`
+(curl, 200) — routine, 0 catch. Mathstodon public timeline (curl, 200) — fetched, time-boxed
+scan, no obvious landmark title seen. r/math/r/mathematics/r/Physics family — standing hard
+domain-wide block reconfirmed (curl 403). Digest/explainer blogs (DAILY tier): Tao (stale since
+11-14, already tracked), Woit (ONE new post captured, "Getting Access," queued above), Kalai
+(stale since 11-17, already tracked as below-bar), Gowers (stale since 10-16), Baez (stale since
+10-31), Strassler (stale since 10-30), Hossenfelder (ONE new post captured, unverified anomaly
+pointer, queued above; also checked "Is she the Next Einstein?" 11-16 and "Quantum Physics Is
+Bringing Back the Paranormal" 11-12 — both commentary/opinion pieces naming no new locatable
+primary, correctly below bar/not queued) — Quanta (ONE new post, Escher explainer, purely
+historical/expository, 0 new primary, correctly not queued; the already-tracked DES/DESI
+dark-energy piece reconfirmed, not a duplicate). n-Category Café — NOW HEAL-OWED (2nd consecutive
+503/SSL-error session, 11-18 then 11-19) — see SOURCES.md update. Exploration slot (radar-explore,
+OFF-AXIS rotation; roster continues from nlin.CD 11-18): picked math.NA — genuinely off-axis, 46
+fresh entries, all numerical-methods/applied-PDE/tensor-decomposition/PINN papers, 0 catch,
+correctly off-axis; next: try math.ST or cs.CC. Self-heals: n-Category Café crossed heal-owed
+this session (logged, no fix found — tvly unavailable, curl/WebFetch both fail differently); LIGO
+remains open (already escalated 11-18, not re-escalating); no other source crossed the
+2-consecutive-same-mode bar this session.
+
+Trend recalibration (radar-ledger-update): see CAPTURE HAUL above (13 new seeds + 4 trends with
+appended evidence + 1 queue item with an appended vetting-status note + 17 below-bar queue adds).
+Dormancy probe: scanned ALL 146 pre-existing trends' `last_evidence` metadata — 5 trends read as
+55-275 days stale by raw day-count (Graham's rearrangement conjecture 275d; Erdős unit-distance
+disproof 183d; Erdős–Szemerédi sum-product disproof 176d; M23-Galois-group landmark 102d;
+Samuels'/Feige's conjectures 93d) but ALL FIVE are "resolved landmark" trends whose
+`last_evidence` is the (necessarily historical) date of the resolving paper itself, not a signal
+of an ongoing story going quiet — confirmed this reading against the EXISTING W40 precedent note
+already on the Graham's-conjecture trend (which explicitly reasons through exactly this case) —
+so NO new dormancy moves today; this is a documented exception, not a process gap. The two
+already-`dormant` trends (Stanley-Gasharov refutations, Marton's-conjecture sharpening) remain
+correctly dormant; Stanley-Gasharov is now 113 days stale, approaching the 120-day
+weekly-archive line (next due check: ~2026-11-26, flag for W48). Convergence check: today's new
+seeds span unrelated subfields (no common sub-theme beyond "a named conjecture was resolved this
+week," which is not the kind of convergence this check targets) — no new promotion beyond the
+13 seeded individually. Capture-leak (mandatory): 12 arXiv ids named in the 2026-11-17 and
+2026-11-18 reports checked against the now-updated TRENDS.md — all 12 present on a discrete
+evidence/queue line, 0 missing — `capture-leak: 12 ids checked / 0 missing`. SOURCES.md:
+MathHelm's entry updated with its first productive sweep (no new staging — already staged, 2
+sightings, ready for weekly promotion); n-Category Café's entry updated with its heal-owed
+status. README.md and SUMMARY.md regenerated in the same commit.

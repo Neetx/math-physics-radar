@@ -1,18 +1,18 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-146-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-583-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--18-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-159-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-593-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--19-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-11-18):** another record single-day haul — 15 new seed trends plus one reconciliation promotion.
-- Hannah Cairo's second landmark on this ledger: a six-author team [disproves the local Mizohata–Takeuchi conjectures](TRENDS.md#disproof-of-the-local-mizohatatakeuchi-conjectures-cairo-et-al-fourier-restriction-theory) for the paraboloid and sphere — caught title-blind via the mandatory full-abstract pass.
-- A long-queued disproof was promoted: the [Mathieu (Mathieu–Zhao) conjecture](TRENDS.md#disproof-and-classification-of-the-mathieu-mathieuzhao-conjecture-for-compact-connected-lie-groups-and-beyond) is now a seed trend after a broader classification extension surfaced (verification gap flagged in its own notes).
-- Full resolutions of the [BMM symmetrising trace conjecture](TRENDS.md#proof-of-the-bmm-symmetrising-trace-conjecture-for-all-exceptional-complex-reflection-groups) (all exceptional complex reflection groups) and the [BMV conjecture in finite von Neumann algebras](TRENDS.md#proof-of-the-bessismoussavillani-conjecture-in-finite-von-neumann-algebras).
-- Study pick: AxiomMath claims a complete [Lean formalization of the Minimal Model Program](TRENDS.md#axiommaths-lean-formalization-of-the-minimal-model-program-in-dimensions-2-4) in dimensions 2–4 (~2.1M lines) — see Worth studying.
+**Since last scan (2026-11-19):** another record single-day haul — 13 new seed trends, plus independent vetting developments on two of the ledger's biggest standing claims.
+- EXTREME-caution claim (hexagonmath, unrefereed): the decades-open 2D-square-lattice case of the [AKLT spectral-gap conjecture](TRENDS.md#uniform-spectral-gap-for-the-aklt-model-on-the-square-lattice-hexagonmath-ai-assisted) is resolved — read with heavy caution, see Worth studying.
+- The first substantive, constructive independent engagement with OpenAI's claimed Navier-Stokes Millennium-Prize proof: [Zhen Lei and Xiao Ren's reconstruction](https://arxiv.org/abs/2609.35406) of its profile-construction core, found via a newly-discovered research-mathematician forum (MathHelm).
+- Six further named-conjecture disproofs/proofs from ordinary arXiv preprints, including a [counterexample to Voiculescu's normal dilation conjecture](TRENDS.md#a-counterexample-to-voiculescus-normal-dilation-and-stable-classification-conjectures) and a [proof of Stafford's 1978 conjecture](TRENDS.md#proof-of-staffords-conjecture-1978-on-cyclicity-of-torsion-modules).
+- Closed two standing watch items: an independent analysis of the [Goemans unsplittable-flow counterexample](TRENDS.md#disproof-of-goemanss-cost-preserving-unsplittable-flow-conjecture-isabelleafp-verified) appeared, and the AxiomMath Minimal-Model-Program trend's [OpenAI-result-family verification gap](TRENDS.md#axiommaths-lean-formalization-of-the-minimal-model-program-in-dimensions-2-4) was closed.
 
 ## Trends
 
-🌱 138 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 3
+🌱 151 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 3
 
 | trend | stage | latest signal |
 |---|---|---|
@@ -35,6 +35,16 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Disproof of the WOW-284 Graffiti conjecture (dual degree vs. minimum distance eigenvalue)](TRENDS.md#disproof-of-the-wow-284-graffiti-conjecture-dual-degree-vs-minimum-distance-eigenvalue) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00564v1) |
 | [Proof of Sun's Conjecture 3.7 (Apéry-like binomial-sum supercongruences)](TRENDS.md#proof-of-suns-conjecture-37-apry-like-binomial-sum-supercongruences) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00551v1) |
 | [Resolution of the repeated-pair symmetric NIEP characterization in dimension five (Clark's Conjecture 5.1.2)](TRENDS.md#resolution-of-the-repeated-pair-symmetric-niep-characterization-in-dimension-five-clarks-conjecture-512) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00565v1) |
+| [Disproof of the El-Zahar–Erdős conjecture (bounded-clique chromatic bipartition)](TRENDS.md#disproof-of-the-el-zaharerds-conjecture-bounded-clique-chromatic-bipartition) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.24735) |
+| [Disproof of the van Emde Boas–Kruyswijk conjecture (1969) on the Davenport constant](TRENDS.md#disproof-of-the-van-emde-boaskruyswijk-conjecture-1969-on-the-davenport-constant) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.24775) |
+| [A Counterexample to Voiculescu's Normal Dilation and Stable Classification Conjectures](TRENDS.md#a-counterexample-to-voiculescus-normal-dilation-and-stable-classification-conjectures) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.21495) |
+| [Failure of the AJ conjecture for Whitehead doubles of torus knots](TRENDS.md#failure-of-the-aj-conjecture-for-whitehead-doubles-of-torus-knots) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.24826) |
+| [Proof of Stafford's conjecture (1978) on cyclicity of torsion modules](TRENDS.md#proof-of-staffords-conjecture-1978-on-cyclicity-of-torsion-modules) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.24577) |
+| [A counterexample to Molchan's orthant persistence conjecture (fractional Brownian fields)](TRENDS.md#a-counterexample-to-molchans-orthant-persistence-conjecture-fractional-brownian-fields) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.24520) |
+| [An affirmative answer to Gundersen's three-IM-one-CM problem (hexagonmath, AI-assisted)](TRENDS.md#an-affirmative-answer-to-gundersens-three-im-one-cm-problem-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00568v1) |
+| [The sharp constant in the Erdős maximum-term problem (hexagonmath, AI-assisted)](TRENDS.md#the-sharp-constant-in-the-erds-maximum-term-problem-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00583v1) |
+| [Uniform spectral gap for the AKLT model on the square lattice (hexagonmath, AI-assisted)](TRENDS.md#uniform-spectral-gap-for-the-aklt-model-on-the-square-lattice-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00580v1) |
+| [The level-25 case of the Rouse–Sutherland–Zureick-Brown conjecture (hexagonmath, AI-assisted)](TRENDS.md#the-level-25-case-of-the-rousesutherlandzureick-brown-conjecture-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00591v1) |
 | [Full resolution of the Hibi–Li (2016) conjecture (order/chain polytope face counts)](TRENDS.md#full-resolution-of-the-hibili-2016-conjecture-orderchain-polytope-face-counts) | 🌱 seed | [2026-11-17]() |
 | [Full resolution of the Osserman (1990) conjecture (Riemannian Jacobi operators)](TRENDS.md#full-resolution-of-the-osserman-1990-conjecture-riemannian-jacobi-operators) | 🌱 seed | [2026-11-17]() |
 | [Disproof of the Matsaev (1971) conjecture for every $p\ne2$](TRENDS.md#disproof-of-the-matsaev-1971-conjecture-for-every-pne2) | 🌱 seed | [2026-11-17]() |
@@ -46,6 +56,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Disproof of the Lee (2026) conjecture on order/chain polytope diameters](TRENDS.md#disproof-of-the-lee-2026-conjecture-on-orderchain-polytope-diameters) | 🌱 seed | [2026-11-16]() |
 | [Sheil-Small's (1974) covering problem resolved (positive answer)](TRENDS.md#sheil-smalls-1974-covering-problem-resolved-positive-answer) | 🌱 seed | [2026-11-16]() |
 | [Proof of the Tu–Zeng–Jiang–Li conjecture on permutation binomials in characteristic two](TRENDS.md#proof-of-the-tuzengjiangli-conjecture-on-permutation-binomials-in-characteristic-two) | 🌱 seed | [2026-11-16]() |
+| [Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) | 🌱 seed | [2026-11-16](https://axiommath.ai/research/beyond-the-classification-what-the-cfsg-corpus-unlocks/) |
 | [OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-11-15](https://openai.com/index/building-scientific-understanding-with-academic-communities/) |
 | [Disproof of the Realizability Conjecture for universally pseudoeffective surface classes](TRENDS.md#disproof-of-the-realizability-conjecture-for-universally-pseudoeffective-surface-classes) | 🌱 seed | [2026-11-15]() |
 | [Disproof of Ashbaugh's 1999 eigenvalue-ratio conjectures (buckling, then clamped-plate)](TRENDS.md#disproof-of-ashbaughs-1999-eigenvalue-ratio-conjectures-buckling-then-clamped-plate) | 🌱 seed | [2026-11-13]() |
@@ -117,9 +128,9 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Proof of Bergeron's Hook-Components and Coefficient-Length conjectures (diagonal harmonics)](TRENDS.md#proof-of-bergerons-hook-components-and-coefficient-length-conjectures-diagonal-harmonics) | 🌱 seed | [2026-10-31]() |
 | [Resolution of Shokurov's conic-bundle rationality conjecture (algebraic geometry)](TRENDS.md#resolution-of-shokurovs-conic-bundle-rationality-conjecture-algebraic-geometry) | 🌱 seed | [2026-10-30]() |
 | [Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-10-28](https://arxiv.org/abs/2609.30895) |
+| [A counterexample to the Optimality Conjecture in convex quantum channel optimization](TRENDS.md#a-counterexample-to-the-optimality-conjecture-in-convex-quantum-channel-optimization) | 🌱 seed | [2026-10-28](https://quantum-journal.org/papers/q-2026-10-28-2253/) |
 | [A strongly aperiodic monotile in three dimensions ("Chair44", Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)](TRENDS.md#a-strongly-aperiodic-monotile-in-three-dimensions-chair44-tsiokos-rapid-expert-corroboration-by-flicker-and-goodman-strauss) | 🌱 seed | [2026-10-27]() |
 | [Independent same-day AI claims refuting the Exponential Time Hypothesis (OpenAI + Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
-| [Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) | 🌱 seed | [2026-10-27](https://axiommath.ai/research/the-enormous-theorem-formalized/) |
 | [Resolution of the Morgan–Mullen conjecture (completely normal primitive elements in finite fields)](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) | 🌱 seed | [2026-10-27]() |
 | [Resolution of the Bialostocki–Lotspeich conjecture (zero-sum-subsequence enumeration)](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) | 🌱 seed | [2026-10-27]() |
 | [Resolution of the Birkhoff–Pierce question on lattice-ordered fields (compatible lattice order on ℂ)](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-) | 🌱 seed | [2026-10-27]() |
@@ -137,6 +148,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [The spacetime Penrose conjecture (mathematical general relativity)](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) | 🌱 seed | [2026-10-14]() |
 | [A counterexample to the conjecture of Drézet and Ballico-Ellia (uniform vector bundles)](TRENDS.md#a-counterexample-to-the-conjecture-of-drzet-and-ballico-ellia-uniform-vector-bundles) | 🌱 seed | [2026-10-14]() |
 | [A starlike counterexample to the hot spots conjecture (Atar–Burdzy)](TRENDS.md#a-starlike-counterexample-to-the-hot-spots-conjecture-atarburdzy) | 🌱 seed | [2026-10-14]() |
+| [The Bapat-Sunder eigenvalue conjecture (1986) resolved negatively over both fields](TRENDS.md#the-bapat-sunder-eigenvalue-conjecture-1986-resolved-negatively-over-both-fields) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2611.23269) |
 | [Proof of the Erdős–Simonovits rational exponents conjecture (Epoch AI model, human-verified)](TRENDS.md#proof-of-the-erdssimonovits-rational-exponents-conjecture-epoch-ai-model-human-verified) | 🌱 seed | [2026-10-13](https://arxiv.org/abs/2610.18713) |
 | [First detection of the rotational kinematic Sunyaev–Zel'dovich effect (Goldstein–Hill)](TRENDS.md#first-detection-of-the-rotational-kinematic-sunyaevzeldovich-effect-goldsteinhill) | 🌱 seed | [2026-10-13](https://link.aps.org/doi/10.1103/lz37-crg1) |
 | [Refutation of the 3SUM and APSP hypotheses (Alman–Vassilevska Williams, Claude-discovered)](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-11](https://hexagonmath.org/2611.00388v1) |
@@ -156,6 +168,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Counterexample to the Ehlers–Kundt conjecture (gravitational pp-wave spacetimes)](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
 | [Proof of Samuels' Conjecture and Feige's Conjecture (tail bounds for sums of independent nonnegative variables)](TRENDS.md#proof-of-samuels-conjecture-and-feiges-conjecture-tail-bounds-for-sums-of-independent-nonnegative-variables) | 🌱 seed | [2026-08-18]() |
 | [M23 realized as a Galois group over Q, completing the inverse Galois problem for sporadic groups (Huang–Jackson–Lee–Poonen–Pries–Zhang)](TRENDS.md#m23-realized-as-a-galois-group-over-q-completing-the-inverse-galois-problem-for-sporadic-groups-huangjacksonleepoonenprieszhang) | 🌱 seed | [2026-08-09](https://arxiv.org/abs/2608.08538) |
+| [Proof of Rump's Retraction Conjecture (1978) for quasilinear cycle sets](TRENDS.md#proof-of-rumps-retraction-conjecture-1978-for-quasilinear-cycle-sets) | 🌱 seed | [2026-07-09](https://arxiv.org/abs/2607.08609) |
 | [Disproof of the Erdős–Szemerédi sum-product conjecture (Bloom–Sawin–Schildkraut–Zhelezov)](TRENDS.md#disproof-of-the-erdsszemerdi-sum-product-conjecture-bloomsawinschildkrautzhelezov) | 🌱 seed | [2026-05-27](https://arxiv.org/abs/2605.28781) |
 | [Disproof of the Erdős unit-distance conjecture (OpenAI model, human-verified by Alon et al.)](TRENDS.md#disproof-of-the-erds-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://arxiv.org/abs/2605.20695) |
 | [Resolution of Graham's rearrangement conjecture (additive combinatorics)](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
@@ -165,6 +178,16 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Worth studying
 
+- 2026-11-19 — [Finite-Time Blowup for Navier-Stokes with Smooth Forcing, Part I](https://arxiv.org/abs/2609.35406) —
+  Zhen Lei and Xiao Ren's independent, readable reconstruction of the profile-construction core of
+  OpenAI's claimed Navier-Stokes Millennium-Prize proof, by an established Navier-Stokes
+  researcher who states plainly "we regard OpenAI's work as a major advance" — worth reading as
+  the first real mathematical engagement (not just commentary) with this radar's single biggest
+  tracked claim. Opened directly via arXiv this session; found via MathHelm, a new source.
+- 2026-11-19 — [Uniform Spectral Gap for the AKLT Model on the Square Lattice](https://hexagonmath.org/2611.00580v1) —
+  a claimed resolution of the long-open 2D-square-lattice case of the AKLT spectral-gap conjecture
+  (1988); worth knowing about given the problem's fame, but read with EXTREME caution — hexagonmath,
+  unrefereed, "Human understanding: no parts." Opened directly via `WebFetch` this session.
 - 2026-11-18 — [Power loss for the local Mizohata–Takeuchi estimate on smooth hypersurfaces](https://arxiv.org/abs/2611.22465) —
   Hannah Cairo and five co-authors disprove the local Mizohata–Takeuchi conjectures for the
   paraboloid and sphere, a finer sibling of the general conjecture Cairo already disproved last
@@ -931,9 +954,12 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 - Reddit's own feeds (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics,
   r/AskPhysics) remain hard-blocked domain-wide on direct fetch, a long-standing issue; no lane
   needed the fallback this run.
-- Digest blogs (Tao, Gowers, Kalai, Baez, Strassler, Woit, Hossenfelder) were all
-  stale/already-tracked this run — no new pointer beyond what the primary sweep itself caught.
+- Digest blogs: most of the usual roster (Tao, Kalai, Gowers, Baez, Strassler) were
+  stale/already-tracked this run; Woit and Hossenfelder each posted once (an AI-lab-access
+  governance item and an unidentified particle-physics anomaly pointer — both unverified, see
+  watchlist) and MathHelm, a newly-discovered research-mathematician forum, produced its first
+  two genuine catches this run.
 
 ## Output map
 
-[TRENDS.md](TRENDS.md) (ledger of record) · [watchlist (583 items)](TRENDS.md#observation_queue) · [reports/](reports/) (newest: [2026-11-18](reports/2026-11-18.md)) · weekly: [2026-W46](reports/weekly/2026-W46.md) · [AGENTS.md](AGENTS.md) (operating rules) · [SOURCES.md](SOURCES.md) (source registry)
+[TRENDS.md](TRENDS.md) (ledger of record) · [watchlist (593 items)](TRENDS.md#observation_queue) · [reports/](reports/) (newest: [2026-11-19](reports/2026-11-19.md)) · weekly: [2026-W46](reports/weekly/2026-W46.md) · [AGENTS.md](AGENTS.md) (operating rules) · [SOURCES.md](SOURCES.md) (source registry)
