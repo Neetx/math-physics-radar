@@ -39,12 +39,23 @@ skipped check.
   proposal found there, so its cooling-period clock is not lost; invent nothing. If the same
   kind of run was incomplete twice in a row, send the curator a push notification: that is a
   run that keeps dying, not a blip.
+  Also check that the most recent daily report has its `Axes:` block (AXIS FLOOR); if it is
+  missing, say so at the top of today's report — the floor was skipped, not satisfied.
 - Read `TRENDS.md` in full.
 - Read the most recent report in `reports/` (skip if none yet).
 - Read the recent tail (~10 entries) of `logs/strategy_notes.md` and the recent tail (~7 days) of `logs/source_rotation.md` to
   decide today's coverage.
 
 ## 2. Scan
+
+AXIS FLOOR (every run): every axis of the `Scope, in priority order` list below gets its own
+attention in this run — not only its sources' CHECK. Start the triage with the axis that had the
+FEWEST routed items over the last 7 days of reports, and give every axis its own triage pass
+before working through any single source's batch: a high-volume axis or producer must not consume
+the run. The report carries one line per axis (`Axis <n> <name>: <items routed> — <what, or
+"nothing new">`), even when empty. An axis with zero routed items for 3 consecutive dailies is
+flagged UNDER FLOOR in the report; the weekly decides whether that is real silence or crowding-out
+(probe its venues as in the DORMANCY PROBE).
 
 Coverage honesty (applies to EVERY sweep): a source listed in `SOURCES.md` under a
 "swept every run" heading is a coverage PROMISE — every such source must appear in today's
@@ -102,18 +113,15 @@ Do not limit yourself to these axes if you find something clearly more important
 - Primary sources only (peer-reviewed journal papers and their arXiv preprints, official arXiv category listings, official experiment/collaboration and research-institute results (CERN, LIGO/Virgo/KAGRA, Fermilab, Perimeter, IAS, Clay, Simons), and formal-proof repositories (Lean/mathlib, Rocq)). Never SEO/aggregators.
 - Evidence line = `date — primary URL — one line of context`. Use the page's own date;
   undated → "(undated, accessed YYYY-MM-DD)". Never guess dates/URLs.
-- Trend bar: ≥3 independent sources + ≥1 concrete artifact for a multi-group DIRECTION trend. Domain adaptation (see AGENTS.md → *Domain cadence*): a LANDMARK single primary (resolved long-standing conjecture, or first-of-kind detection/measurement) also qualifies as a `seed` trend on its own. Everything below both bars → `study_shelf`.
-  **RATIFIED 2026-W46 (resolves the W45/11-11/11-12 seed-vs-queue consistency flag):** the
-  landmark-single-result bar is FULL-RESOLUTION-ONLY and source/fame-BLIND — any complete
-  proof/disproof of a genuinely named conjecture or problem clears it and seeds, regardless of
-  how well-known the conjecture is, how it was discovered (incl. a hexagonmath/AI-assisted
-  batch), or how many other landmarks landed the same day. A PARTIAL result (covers only some
-  cases, leaves a case open) does not clear the bar on its own and stays on `observation_queue`
-  until it closes or 3 independent groups converge. Source VOLUME is explicitly irrelevant to
-  this bar (a prolific venue is not a reason to hold its qualifying items to a higher bar than
-  arXiv) — the existing unrefereed-preprint/AI-watch caution tiers (not the trend bar) are
-  where a high-volume or low-trust venue's extra risk belongs; a size-heavy day routes to
-  Amendment L's per-trend relocation and the weekly's own batching, not to under-seeding.
+- Trend bar: ≥3 independent sources + ≥1 concrete artifact for a multi-group DIRECTION trend. Domain adaptation (see AGENTS.md → *Domain cadence*): a LANDMARK single primary (a first-of-kind detection/measurement, or a resolved conjecture that is long-standing AND (celebrated OR independently engaged by experts)) also qualifies as a `seed` trend on its own. Everything below both bars → one line in `logs/results_catalog.md` (and the `study_shelf` if worth studying).
+  **SUPERSEDED 2026-11-20 (curator):** the W46 ratification that made the landmark bar
+  "fame-BLIND" and "source-volume irrelevant" is withdrawn — it turned every named result into a
+  seed (163 trends, a 1 MB ledger, physics crowded out). The bar is AGENTS.md → Trend bar: a
+  first-of-kind detection, or a resolved conjecture that is long-standing (≥15 years) AND
+  (celebrated OR independently engaged by experts). Below the bar: one line in
+  `logs/results_catalog.md`; a batch producer's items go to its collection trend (BATCH
+  PRODUCERS, below). A PARTIAL result still stays on `observation_queue` until it closes or 3
+  independent groups converge.
 
 ## 4. Update TRENDS.md
 
@@ -162,6 +170,15 @@ every run.
   A run that checked a trend and found nothing new writes NOTHING into it — that non-event already
   lives in today's report and in `logs/source_rotation.md`, and copying it into the trend is how a
   ledger silently turns into a run-log. If a note would only say "checked, unchanged", omit it.
+- BATCH PRODUCERS — volume is not significance. A source that releases many on-scope results
+  at once or at sustained volume (≥10 in 7 days: a lab's results repository, a venue for
+  machine-generated work, a vendor's bulk disclosure) does NOT seed one trend per item. It gets
+  ONE collection trend (create it the first time; evidence = the producer's own releases plus
+  independent commentary on them), and its individual items are listed one line each in
+  `logs/results_catalog.md` under that producer. An item leaves the collection for its own trend
+  only when it clears this radar's trend/seed bar on its own merits (AGENTS.md). Per run, triage
+  at most 5 of a producer's new items individually — most significant first — and record the rest
+  as one bundled line in the catalog.
 - DORMANCY PROBE — silence must be MEASURED where the trend's evidence lives, never assumed.
   Before moving any trend to `dormant` (or archiving it), probe its silent window
   (`last_evidence` → today) on the channels its OWN evidence comes from: read the hosts and
@@ -207,6 +224,9 @@ The trend bar does NOT apply (a single strong artifact qualifies) but the eviden
 (opened primary sources). Add to `study_shelf` (newest first). Zero is fine.
 
 ## 6. Write the daily report
+REQUIRED in every report: the `Axes:` block — one line per scope axis (AXIS FLOOR), even when an
+axis routed nothing. A report without it means the run skipped the floor: the next run's
+completion check treats it like a missing report section and the weekly flags it.
 Create `reports/YYYY-MM-DD.md` (under ~60 lines): ledger changes; Top 3 of the day (one
 line + link each); study picks; `capture-leak: N ids checked / M queued` (required every run,
 even at 0); Next (open questions, what tomorrow should check first).

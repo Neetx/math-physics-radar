@@ -65,6 +65,12 @@ preprint; fold any found update into that trend's evidence/last_evidence per the
   Check this every weekly, not just when a daily flags size; one dedicated commit per trend
   relocated (or one commit covering all trends relocated that session).
 
+AXIS FLOOR REVIEW: from this week's dailies' per-axis lines, compute each axis's share of routed
+items and record it in the calibration line (`axes: 1 n · 2 n · …`). Resolve every UNDER FLOOR flag
+(real silence → note it; crowding-out → probe the axis's venues and capture what was missed). An
+axis below half its fair share (1 / number of axes) for 2 consecutive weeks is a calibration signal
+for an amendment — this is the metric that makes attention balance amendable.
+
 ## 3. Clean the observation queue
 Aging windows scale to DOMAIN CADENCE (AGENTS.md → *Domain cadence*) — this is a SLOW field,
 so items age in MONTHS, not the AI-default days: items older than **~60 days** (not 14) —

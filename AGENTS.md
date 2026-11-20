@@ -30,6 +30,7 @@ are not a frozen list):
 | `logs/source_rotation.md` | Append-only daily coverage log (externalized to keep the ledger small); read only the recent tail | append-only; never edit/reorder past lines |
 | `logs/strategy_notes.md` | Append-only strategy log (externalized 2026-09-08 to keep the ledger small: it was 26% of the file); read only the recent tail (~10 entries) | append-only; curator entries never edited |
 | `logs/trend_history.md` | Append-only per-trend recalibration-history archive (externalized 2026-10-24, Amendment L, per `routines/weekly.md` §2: a trend's notes older than the most recent ~8 weekly cycles move here verbatim once they exceed ~15 dated sub-entries) | append-only; never edit/reorder past lines; only the weekly relocates into it |
+| `logs/queue_history.md` | Historical `observation_queue` entries moved out of the ledger (verbatim) | append-only; read only the recent tail |
 | `logs/calibration.md` | Append-only weekly self-evaluation log | append-only; written by weekly runs only |
 | `README.md` | THE output surface (repo landing page): badges, digest, clickable trend table, study shelf | fully derived — regenerate via `radar-render-dashboard`; never edit by hand |
 | `SUMMARY.md` | Daily summary page: the latest daily run's results in ≤ 6 one-line linked bullets — results only, no process detail | fully derived — overwritten by every daily run via `radar-render-dashboard` → *SUMMARY.md*; never edited by hand |
@@ -55,11 +56,20 @@ are not a frozen list):
 - Never guess dates or invent URLs. Undated pages: "(undated, accessed YYYY-MM-DD)".
 - **Trend bar:** ≥3 independent sources (different orgs/author groups) + ≥1 concrete
   artifact defines a multi-group DIRECTION trend (e.g. the Ramsey lower-bound wave).
-  DOMAIN ADAPTATION (curator-set — see *Domain cadence* below): in this slow, single-result
-  field a LANDMARK primary on its own — the resolution of a long-standing named
-  conjecture/problem, or a first-of-its-kind detection/measurement/observation — also
-  qualifies as a `seed` trend, because here the unit of progress IS the individual result.
-  Everything below both bars goes on the `study_shelf`.
+  DOMAIN ADAPTATION (curator-set 2026-07-12, made precise 2026-11-20 — see *Domain cadence*
+  below): in this slow, single-result field a LANDMARK primary on its own also qualifies as a
+  `seed` trend, because here the unit of progress IS the individual result. A landmark is
+  EITHER a first-of-its-kind detection/measurement/observation, OR the resolution of a named
+  conjecture/problem that is BOTH long-standing (posed at least 15 years ago) AND (celebrated —
+  widely known beyond its own subfield — OR independently engaged by experts: exposition or
+  commentary by non-authors, refereed acceptance, an independent formal verification, coverage
+  in expert venues such as Quanta / Scientific American / Nature News or recognized experts'
+  blogs). Being named is not enough, and neither is age alone: AI systems now resolve old but
+  obscure conjectures at volume, and a ledger that seeds each one becomes a catalog, not a
+  radar. Results below the bar go to `logs/results_catalog.md` (a batch producer's items into
+  its collection trend — routines/daily.md → BATCH PRODUCERS); the few worth studying also go
+  on the `study_shelf`. A catalogued result is promoted to its own seed when it later clears
+  the bar (e.g. expert commentary appears).
 - Do not rename sections or restructure files. Everything in this repo is in English.
 - Unrefereed-preprint & extraordinary-claim caution (this domain's hype-skepticism rule): arXiv/preprints are primary but NOT peer-reviewed. A claimed proof of a major open conjecture, a discovery/anomaly, or a "breakthrough" is PROVISIONAL until independent vetting (referee reports, expert commentary, replication or confirmation). Flag it "unrefereed preprint — claim" and track the vetting OUTCOME: a claimed proof is not a resolved conjecture, and an N-sigma bump is not a discovery, until the community confirms (note the caveat — gaps found in review; statistical significance / look-elsewhere effect).
 - Track and point, never adjudicate: cite the paper / artifact and, where useful, expert commentary — do NOT attempt to reproduce, verify, or referee the mathematics or physics yourself.
@@ -107,9 +117,10 @@ the numbers):
   a couple of months old is normal for a live topic; do NOT demote/archive/prune merely for a
   quiet stretch. (The rule: every day-count the routines inherited from the AI default gets
   multiplied for a slow domain — dormancy was only the first.)
-- **Trend bar — landmark single results count** (the hard-rule adaptation above): a resolved
-  long-standing conjecture or a first-of-kind detection is a `seed` trend on its own; the
-  ≥3-group bar is only for multi-group DIRECTION trends.
+- **Trend bar — landmark single results count** (the hard-rule adaptation above): a
+  first-of-kind detection, or a resolved conjecture that is long-standing AND (celebrated OR
+  independently engaged by experts), is a `seed` trend on its own; the ≥3-group bar is only
+  for multi-group DIRECTION trends. Everything else is catalogued, not trended.
 - **Convergence / anchoring thresholds** likewise relax: an "all evidence on pre-existing
   trends" week is not an anchoring alarm here the way it is in a fast field — flag it only
   after a longer stretch. off-axis-rate = 0 for a week is not a warning in a domain this
