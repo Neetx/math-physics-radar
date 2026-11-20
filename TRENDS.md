@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -1161,7 +1161,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     advances 2026-10-06 → 2026-10-09.
 
 ### OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)
-- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-11-01
+- stage: seed | confidence: medium | first_seen: 2026-10-07 | last_evidence: 2026-11-19
 - what: axis-5 AI-WATCH-LANE event (track the RESULTS, not the AI method): on 2026-10-06, OpenAI
   published "Sharing AI progress in mathematics" (openai.com) alongside a public GitHub repository,
   `github.com/openai/math` (Apache-2.0), containing 722 manuscripts organized into 372 "result
@@ -1207,19 +1207,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     minimal-model/abundance cluster, a taming/hypersymplectic-deformation pair, one incompressible-
     transport paper, and a citation fix on the BSD-case manuscript) and added 6 more Lean
     formalizations (now 300/719 ≈ 42% formalized; total manuscript count 722→719 post-withdrawal).
-  - 2026-10-10 — https://terrytao.wordpress.com/2026/10/10/math-2-0/ — Terence Tao, "Math 2.0":
-    argues AI-era mathematics needs to value the followup activity a proof generates, not just the
-    proof itself, or risk losing what made "Math 1.0" breakthroughs valuable. Opened directly this
-    session.
   - 2026-10-09 — https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/
     — Thomas Hales (guest post on Tao's blog), "What mathematicians should know about the Lean
     Theorem Prover: questions of reliability and AI": a formal-verification expert's primer on
     what a Lean-checked claim does and does not guarantee. Opened directly this session.
-  - 2026-10-12 — https://terrytao.wordpress.com/2026/10/12/this-is-normal-bad-work/ — Sophie
-    Huiberts (guest post on Tao's blog), "This is normal bad work": argues OpenAI's release itself
-    (not any individual result) fails basic scholarly-exposition norms — "their work contains
-    retraction-worthy errors... their pdfs actively set back the state of the literature." Opened
-    directly this session.
   - 2026-10-21 (v1; found this session via a fresh math.AG arXiv sweep) — Jenia Tevelev (UMass
     Amherst), "On OpenAI's proof of the Nagata conjecture" — https://arxiv.org/abs/2610.30050 — an
     expert's own expanded exposition (from a seminar talk) of this disclosure's claimed proof of the
@@ -1268,6 +1259,34 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     is an established Navier-Stokes researcher (Fudan University). A companion "Part II" is
     referenced but its arXiv id was not located this session (chase next session). Abstract +
     authors verified via direct arXiv page fetch this session.
+  - 2026-11-19 — https://arxiv.org/abs/2611.26524 — Shiyu Zhang, "Remark on Kobayashi's conjecture:
+    a volume Schwarz lemma": an explicit "expository reconstruction of OpenAI's proof of
+    Kobayashi's ampleness conjecture for compact Kähler manifolds, together with new results" —
+    confirmed against `openai/math`'s own `CONTENTS.md` this session as result-family #051,
+    "Kobayashi's canonical-ampleness conjecture" (every compact connected Kähler manifold of
+    positive dimension with no nonconstant entire curve has ample canonical bundle). Same
+    independent-reconstruction-plus-extension pattern as the Tevelev/Nagata, Zhentao-Li/Barnette,
+    and Markarian/Deligne-Drinfeld items above. Abstract + author verified via direct arXiv page
+    fetch this session.
+  - 2026-11-04 (found this session via a MathHelm thread pointer) — https://arxiv.org/abs/2611.07085
+    — Faruk Temur, "The square function estimates for cones in arbitrary dimensions and elliptic
+    quadrics": derives sharp square-function estimates for the light cone (and, via affine
+    sections, spheres/ellipsoids/paraboloids/hyperboloids) directly "from local-smoothing and
+    auxiliary-energy statements in the October 25, 2026 OpenAI manuscript" — the FIRST located
+    independent-expert engagement with result-family #079 ("Local smoothing for the Euclidean wave
+    equation," the Sogge/Bochner-Riesz/Kakeya/Nikodym cascade claim), which this trend has been
+    watching for since 2026-10-27 as its single largest-magnitude unvetted claim bundle after the
+    BSD case. Abstract + author verified via direct arXiv page fetch this session.
+- notes: 2026-11-20 (daily): two further independent-expert engagement items added (Zhang/
+  Kobayashi-ampleness; Temur/local-smoothing-cascade, the latter the first engagement found with
+  result-family #079 specifically — see the companion `observation_queue` entry on Mark Lewko's
+  related, still-unpublished Kakeya-all-dimensions claim, which explicitly builds on the SAME
+  Oct-25 OpenAI manuscript). Evidence cap reached again (10/10); the two most purely-general
+  governance/reception posts (Tao's "Math 2.0," Huiberts' "This is normal bad work") were dropped
+  to make room for these two specific-result engagements — no information lost (both remain
+  summarized in this trend's own `what`/prior `notes`), only de-duplicated toward the
+  per-result-family engagement signal this trend is tracking. last_evidence 2026-11-01 →
+  2026-11-19.
 - notes: 2026-11-19 (daily): two independent-expert engagement items added above (Deligne-Drinfeld
   geometric reinterpretation; Navier-Stokes Part I reconstruction) — both found via MathHelm, a
   newly-discovered research-mathematician forum (staged in SOURCES.md this session). Evidence cap
@@ -5243,10 +5262,159 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   name(s) not resolvable from the RSS abstract page alone, chase the full paper next session for
   attribution.
 
+### Resolution of Herman's Positive Entropy Conjecture (surface dynamics)
+- stage: seed | confidence: medium | first_seen: 2026-11-20 | last_evidence: 2026-11-19
+- what: axis-1 LANDMARK, CAPTURE-LEAK/backfill catch (paper dates to 2017, surfaced only now via a
+  v2 revision): FULL resolution of a conjecture of Michael Herman — any area-preserving $C^r$-
+  diffeomorphism of a two-dimensional surface with an elliptic fixed point can be $C^r$-perturbed
+  to one exhibiting a chaotic island of positive metric entropy, for every $1\le r\le\infty$;
+  implies the identity map of the disk can be $C^\infty$-perturbed to a conservative diffeomorphism
+  with positive entropy, and the Chirikov standard map can be similarly approximated for large and
+  small parameter values. Peer-reviewed-track (not unrefereed-preprint caution — this is a
+  long-standing, independently-citable result, not a fresh AI/preprint claim); still tracking as
+  `medium` confidence pending a direct check of this ledger-era's outside citation record.
+- evidence:
+  - 2017-04-08 (v1), revised 2026-11-19 (v2) — https://arxiv.org/abs/1704.02473 — Pierre Berger,
+    Dimitry Turaev, "On Herman's Positive Entropy Conjecture." Abstract + authors verified via
+    direct arXiv page fetch this session (math.DS full-abstract/title-triage sweep).
+- notes: 2026-11-20 (daily, seed creation): caught via the 35-category arXiv RSS sweep's
+  keyword-triage hitting a routine `announce_type:replace` batch; this ledger started 2026-07-02
+  and never independently verified this (already-known, 2017-dated) result before, so it is
+  seeded now rather than left untracked — same backfill-via-revision pattern already logged
+  repeatedly this month (Oort's conjecture 2.3-year catch, etc.). Flag for the weekly: confirm
+  whether this result already has a journal publication record (not checked this session) and
+  whether `medium` should become `high` on that basis.
+
+### Proof of Corless's Conjecture (nilpotent skew-symmetric tridiagonal Bohemian matrices)
+- stage: seed | confidence: medium | first_seen: 2026-11-20 | last_evidence: 2026-11-18
+- what: axis-1 LANDMARK: full proof of a conjecture of Robert Corless on skew-symmetric tridiagonal
+  "Bohemian" matrices $T_m(u)$ with superdiagonal entries in $\{1,i\}^{m-1}$ — Corless showed such a
+  matrix can be nilpotent only if $m=2^K-1$ and conjectured that the $2^{K-1}$ vectors generated by
+  a specific recursive rule from the empty vector give ALL the nilpotent cases; this paper proves
+  there are no others, via a mod-4 reduction of the characteristic polynomial.
+- evidence:
+  - 2026-11-18 — https://arxiv.org/abs/2611.25266 — Marcel Blattner, "Nilpotent skew-symmetric
+    tridiagonal Bohemian matrices: a proof of Corless's conjecture." Abstract + author verified via
+    direct arXiv page fetch this session (math.RA/math.CO title-triage keyword hit).
+- notes: 2026-11-20 (daily, seed creation): caught via the 35-category arXiv RSS sweep
+  (math.RA/math.CO cross-list); single-author paper, no outside engagement found yet — track for
+  vetting.
+
+### Proof of Casselman's Comparison Conjecture (real reductive groups)
+- stage: seed | confidence: medium | first_seen: 2026-11-20 | last_evidence: 2026-11-19
+- what: axis-1 LANDMARK (representation theory): full proof of a conjecture of Bill Casselman for
+  parabolic subgroups $Q=LU$ of a real linear reductive group $G$ — for every Casselman-Wallach
+  representation $\pi$ of $G$ and every $i\ge0$, the natural inclusion $\pi_K\hookrightarrow\pi$
+  induces a topological $L$-equivariant isomorphism $H_i(\mathfrak u,\pi_K)^\infty\xrightarrow{\sim}
+  H_i(\mathfrak u,\pi)$ (Lie-algebra homology of the unipotent radical computed on $K$-finite vs.
+  smooth vectors agree).
+- evidence:
+  - 2026-11-19 — https://arxiv.org/abs/2611.25367 — Junyan Xiao, Jun Yu, "A proof of Casselman's
+    comparison conjecture." Abstract + authors verified via direct arXiv page fetch this session
+    (math.RT title-triage keyword hit).
+- notes: 2026-11-20 (daily, seed creation): caught via the 35-category arXiv RSS sweep; a
+  foundational comparison theorem in the Casselman-Wallach theory of admissible representations,
+  no outside engagement found yet.
+
+### Proof of Stanley's Conjecture on the Leading Ehrhart Coefficients of the Birkhoff Polytope
+- stage: seed | confidence: medium | first_seen: 2026-11-20 | last_evidence: 2026-11-19
+- what: axis-1 LANDMARK (enumerative/algebraic combinatorics): full proof of a conjecture of
+  Richard Stanley on the Ehrhart polynomial of the $n\times n$ Birkhoff polytope — writing $c(n,k)$
+  for the coefficient of $r^{(n-1)^2-k}$, the paper proves $c(n,k)/c(n,0)\sim n^{3k}/(2^k k!)$ as
+  $n\to\infty$ for every fixed nonnegative integer $k$, confirming Stanley's conjectured asymptotic.
+- evidence:
+  - 2026-11-19 — https://arxiv.org/abs/2611.25973 — Jiahang Liu, Jinlong Tang, "Proof of Stanley's
+    Conjecture on the Leading Ehrhart Coefficients of the Birkhoff Polytope." Abstract + authors
+    verified via direct arXiv page fetch this session (math.CO title-triage keyword hit).
+- notes: 2026-11-20 (daily, seed creation): caught via the 35-category arXiv RSS sweep; a
+  well-known conjecture of Stanley's on a classical object (the Birkhoff polytope), no outside
+  engagement found yet.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-19 (v2, revised 2026-11-19 from a 2025-01-31 v1; CAPTURE-LEAK CATCH surfaced via the
+  revision) — Benedek Kovács, Zoltán Lóránt Nagy, Dávid R. Szabó, "Settling the no-$(k+1)$-in-line
+  problem when $k$ is not small" — https://arxiv.org/abs/2502.00176 — PARTIAL: settles the
+  century-old no-$(k+1)$-in-line problem (max points in an $n\times n$ lattice with no $k+1$
+  collinear) with the exact answer $kn$, but only for $n\ge k\ge C\log n$; the original $k=2$
+  (no-three-in-line) case and other small-$k$ regimes remain open. Axis 1. Abstract + authors
+  verified via direct arXiv page fetch this session.
+- 2026-08-25 (v1), revised 2026-11-19 (v5) — Qihang Wang, "Fröberg's Conjecture for Products of
+  Linear Forms: Split Powers and Inherited Syzygies" — https://arxiv.org/abs/2608.24797 — PARTIAL:
+  an explicit "split powers" construction matching Fröberg's predicted Hilbert series for products
+  of linear forms in four variables for $1\le d\le30$, with an asymptotic agreement result for
+  large $d$; not a resolution of the general conjecture. Axis 1. Abstract + author verified via
+  direct arXiv page fetch this session.
+- 2026-11-19 — Felix Schwarzfischer, "A proof of the Lyons-Pemantle-Peres monotonicity conjecture
+  for high offspring laws" — https://arxiv.org/abs/2611.25882 — PARTIAL: proves the LPP
+  monotonicity conjecture (speed $\ell'(\lambda)<0$ throughout the transient biased-random-walk
+  regime on a Galton-Watson tree) only for offspring laws with $Z\ge4$ a.s.; general case open.
+  Axis 1. Abstract + author verified via direct arXiv page fetch this session.
+- 2026-11-19 — Shutao Bi, "On the Type E case of the Brown Wemyss realization conjecture" —
+  https://arxiv.org/abs/2611.25467 — PARTIAL/CONDITIONAL: constructs geometric realizations for
+  the last (Type E) case of the Brown-Wemyss numerical-realization conjecture, completing the
+  classification program begun by Brown-Wemyss's own Type A/D cases, but only under the
+  hypothesis "radical growth dimension at most one." Axis 1. Abstract + author verified via direct
+  arXiv page fetch this session.
+- 2026-04-27 (v1), revised 2026-11-19 (v3) — Heath Pearson, "The maximum Cox complexity of a
+  Fano-type variety and the Mukai conjecture" — https://arxiv.org/abs/2604.25023 — PARTIAL: defines
+  a new "maximum Cox complexity" invariant and uses it to prove the Mukai conjecture only for
+  "ambiently smooth" Fano varieties (a subclass containing 45% of smooth Fano threefold
+  deformation families); general conjecture remains open. Axis 1. Abstract + author verified via
+  direct arXiv page fetch this session.
+- 2026-10-12 (v1), revised 2026-11-19 (v2) — E. Minguzzi, "A Cauchy Busemann function approach to
+  the geometry of cosmological spacetimes with applications to Bartnik's conjecture" —
+  https://arxiv.org/abs/2610.17092 — CONDITIONAL structural result toward Bartnik's splitting
+  conjecture for timelike-complete spacetimes satisfying the timelike convergence condition: shows
+  any counterexample must contain a specific causally-convex "cosmological wall" structure; not a
+  resolution. Axis 2/3 (gr-qc). Abstract + author verified via direct arXiv page fetch this
+  session.
+- 2026-11-19 — Xiyu Hu, "A One-Sided Liouville Theorem and a Critical Sparse-Support Inverse
+  Theorem for Discrete Harmonic Functions" — https://arxiv.org/abs/2611.25952 — answers an open
+  question of Buhovsky, Logunov, Malinnikova, and Sodin (Duke Math. J. 171 (2022), Remark 1.4): a
+  nonnegative-on-most-of-every-large-square discrete harmonic function on $\mathbb Z^2$ is
+  constant. A genuine resolution of a specific posed open problem by well-known analysts, not a
+  named conjecture — below the landmark bar on that technicality. Axis 1. Abstract + author
+  verified via direct arXiv page fetch this session.
+- 2026-11-19 (unrefereed, AI-discovered — EXTREME caution) — Mario Krenn, Moritz Firsching, George
+  Tsoukalas, Rishikesh Gajjala, Xuemei Gu, Swarat Chaudhuri, "A Tensor-Algebraic No-Go Theorem for
+  High-Dimensional Photonic Greenberger-Horne-Zeilinger States Discovered with AlphaProof Nexus" —
+  https://arxiv.org/abs/2611.26300 — a new no-go theorem in quantum optics (no complex-weighted
+  monochromatic quantum graph exists for even $N\ge4$ photons when the target dimension $D\ge N$,
+  ruling out a class of GHZ-state constructions), with the proof explicitly "discovered through
+  AI-assisted formal proof search in Lean using AlphaProof Nexus" — a tool name not previously
+  seen on this ledger (distinct from DeepMind's "AlphaProof"; provenance not independently
+  confirmed this session). Axis 4 (quantum information physics) + axis-5 AI-watch (note the
+  assistance, track the result). Abstract + authors verified via direct arXiv page fetch this
+  session.
+- 2026-11-20 (hexagonmath, AI-assisted, EXTREME caution) — RJ Acuna, "The strong AJ conjecture for
+  hyperbolic prime knots is false" — https://hexagonmath.org/2611.00686 — despite the title, the
+  actual claim is narrower: for the specific knot $8_{11}$, verifies Lê's $\widehat P=\widehat A$
+  conjecture and Lê's "weak AJ conjecture" (confirming Zhang's prior composite-knot
+  counterexample family carries an extra trefoil factor); explicitly cross-references Li, Li, and
+  Sun's counterexamples among non-hyperbolic prime knots (already evidenced on this ledger's "AJ
+  conjecture's failure for Whitehead doubles of torus knots" trend). A below-bar companion
+  single-knot result, AI-assisted and partly Lean-formalized per the paper's own statement. Axis 1.
+  Page opened directly via `curl` this session.
+- 2026-11-17 (Anthropic's own disclosure page, AI-watch, EXTREME caution — unrefereed preprints,
+  hexagonmath) — "Claude solves two open problems in the physics of black holes" —
+  https://www.anthropic.com/research/claude-black-hole-physics — TWO distinct axis-2 results, both
+  attributed to Claude agents and both WITHOUT a named conjecture (so below the landmark bar even
+  before caution is applied): (a) finds the Hawking-Page-type deconfinement transition in weakly-
+  coupled $\mathcal N=4$ super Yang-Mills is abrupt (not smooth), extending Hawking-Page (1983),
+  Sundborg (1999), and Aharony-Marsano-Minwalla-Papadodimas-Van Raamsdonk's 2003 setup — preprint
+  at hexagonmath.org/2611.00175v1, independently cross-checked twice by different agents/methods
+  and once by an outside physicist using Claude, no formal Lean check reported; (b) proves an
+  exact optimal ceiling $M_1\le c/\Lambda$ with $\Lambda\approx9.1266$ on the lightest black-hole
+  mass in the (spin-free) modular bootstrap for 3D gravity (method due to Hellerman 2009, prior
+  numerics from Hellerman-Hartman-Mazáč-Rastelli) — preprint at hexagonmath.org/2611.00174v1,
+  Lean-formalized in September per the post, and "a physicist checked every main result"; this
+  part reportedly reuses the strategy of an already-tracked OpenAI sphere-packing proof. Axis 2
+  (math-ph/hep-th, holography and quantum gravity) + axis-5 AI-watch. Post opened directly via
+  `WebFetch` this session; corroborated on the same day by a 2026-11-17 Hacker News front-page
+  story (intake only).
 - 2026-11-18 (v1) — Alexander Sherman, "Semi-exact functors and the conjecture of Coulembier and
   Flake" — https://arxiv.org/abs/2611.24471 — PARTIAL: proves only a "weak form" of the
   conjecture (per the paper's own wording) for symmetric tensor categories; the full conjecture
@@ -5319,16 +5487,27 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   the same quantity disagreeing); the post's text/summary names neither experiment nor quantity
   (details are in the linked video only, not transcribed). Axis 3. Chase next session via the
   video transcript or a dedicated search once the specific experiments are identifiable.
-- 2026-11-15 (unverified, no paper located — MathHelm forum discussion, a new source this
-  session) — Mark Lewko, "The sharp Kakeya maximal inequality in all dimensions" —
-  https://mathhelm.org — a credentialed harmonic analyst reports using ChatGPT, building on
-  OpenAI's local-smoothing work, to "refine the ideas to give the sharp Kakeya maximal inequality
-  in all dimensions" — an EXPLORATORY discussion-board post (0 votes, 3 replies), not a paper or
-  formal claim. If a genuine sharp all-dimensions Kakeya maximal inequality exists, this would be
-  an extraordinary extension of Wang-Zahl's 3D Kakeya resolution (already on this ledger's
-  `study_shelf`/2026-Fields-Medal entries) — HIGH chase priority next session: look for an actual
-  arXiv write-up from Lewko, and treat with the same unrefereed/AI-assisted-claim caution as this
-  ledger's other AI-watch items pending one.
+- 2026-11-15, UPDATED 2026-11-20 (still unverified, STILL no paper located — MathHelm forum
+  thread, opened in full this session) — Mark Lewko, "The sharp Kakeya maximal inequality in all
+  dimensions" — https://mathhelm.org/t/385/the-sharp-kakeya-maximal-inequality-in-all-dimensions —
+  a credentialed harmonic analyst reports using ChatGPT, building on OpenAI's October-25 local-
+  smoothing manuscript (= result-family #079 on the OpenAI mass-disclosure trend above), to derive
+  the sharp Kakeya maximal inequality $\|K_\delta f\|_{L^n(S^{n-1})}\lesssim_n(\log\tfrac2\delta)
+  ^{(n-1)/n}\|f\|_{L^n}$ in EVERY dimension $n\ge2$, with a weighted-tube corollary giving the
+  matching Kakeya-set volume lower bound; states the two upper estimates are Lean-formalized in
+  the (unpublished) repository, that the construction has been "submitted to Palomar for review"
+  (the Lean-verified-mathematics registry tracked via icarm.io above), but that he has NOT
+  formalized the matching sharpness construction (credited to Fernández-Delgado and de la Salle).
+  Thread also shows a live exchange with Ruixiang Zhang (UC Berkeley, a genuine Kakeya/restriction
+  specialist) probing the proof's structure — a real expert engaging with the claim, though not
+  yet endorsing it. STILL no arXiv/preprint primary exists for this specific claim (unlike the
+  companion Temur paper on the OpenAI mass-disclosure trend, which is a distinct, narrower
+  consequence of the same Oct-25 manuscript and IS on arXiv). If true, a sharp ALL-DIMENSIONS
+  Kakeya maximal inequality would be an extraordinary extension of Wang-Zahl's 3D Kakeya
+  resolution (already on this ledger's `study_shelf`/2026-Fields-Medal entries) and of the OpenAI
+  #079 cascade itself. HIGH chase priority next session: look for an actual arXiv write-up or a
+  Palomar verification record, and treat with the same unrefereed/AI-assisted-claim caution as
+  this ledger's other AI-watch items pending one.
 - 2026-11-18 (hexagonmath, below landmark bar, all opened/read directly via `WebFetch`/`curl` this
   session; different author groups, no submitter concentration): "An Averaged Iwasawa Approach to
   Mordell over Q" (https://hexagonmath.org/2611.00576v1) — a NEW PROOF TECHNIQUE for the Mordell
@@ -10435,6 +10614,18 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-20 — [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics) —
+  Anthropic's own disclosure of two Claude-produced results (an abrupt Hawking-Page-type
+  transition in weak-coupling N=4 SYM; an exact optimal modular-bootstrap mass ceiling for 3D
+  gravity) — worth knowing given the scale of the claims and the same-day independent
+  cross-checks reported, but EXTREME caution: unrefereed hexagonmath preprints, same AI-watch
+  skepticism tier as every other AI-lab self-disclosure this ledger tracks.
+- 2026-11-20 — [Certified Discovery of Quantum Phase Diagrams](https://arxiv.org/abs/2611.25064) —
+  Liu, Preskill, and Huang construct an efficient quantum algorithm that outputs a phase diagram
+  with a verifiable certificate for every transition, from only a classical Hamiltonian family
+  description and unverified reference-state preparations — a genuine, rigorously-certified
+  result at the complexity-of-quantum-systems/axis-4 frontier, not an AI-assisted-math claim.
+  Opened directly via arXiv this session (quant-ph/cond-mat.str-el title-triage hit).
 - 2026-11-19 — [Finite-Time Blowup for Navier-Stokes with Smooth Forcing, Part I](https://arxiv.org/abs/2609.35406) —
   Zhen Lei and Xiao Ren's independent, readable reconstruction of the profile-construction core of
   OpenAI's claimed Navier-Stokes Millennium-Prize proof, by an established Navier-Stokes

@@ -5311,3 +5311,115 @@ evidence/queue line, 0 missing — `capture-leak: 12 ids checked / 0 missing`. S
 MathHelm's entry updated with its first productive sweep (no new staging — already staged, 2
 sightings, ready for weekly promotion); n-Category Café's entry updated with its heal-owed
 status. README.md and SUMMARY.md regenerated in the same commit.
+
+2026-11-20 (daily) — FULL CHECK. Primary sweep (radar-source-sweep): full 35-category arXiv RSS
+sweep (20 math: CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT + 15 physics: hep-th/
+hep-ph/hep-ex/hep-lat/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/
+nucl-th/nucl-ex/nlin.SI — 1438 titles total), title-triaged against the conjecture/theorem/
+disprov/refut/counterexample/resolv/resolution/classif/proof/discover/settl keyword filter (84
+hits), each hit's full abstract opened via direct arXiv page fetch (export.arxiv.org API
+429-rate-limited this session throughout, worked around via plain `curl` on individual
+arxiv.org/abs/<id> pages, which stayed reachable). Amendment J full-abstract pass on math.OA (12
+entries, 0 title-blind catch — routine subfactor/Hadamard-matrix/C*-correspondence papers).
+CAPTURES: FOUR new seed trends — Herman's Positive Entropy Conjecture (Berger-Turaev,
+arXiv:1704.02473, a 2017-dated CAPTURE-LEAK/backfill catch surfaced via a same-day v2 revision),
+Corless's conjecture on nilpotent Bohemian matrices (Blattner, 2611.25266), Casselman's
+comparison conjecture (Xiao-Yu, 2611.25367), Stanley's Birkhoff-polytope Ehrhart-coefficient
+conjecture (Liu-Tang, 2611.25973). TWO evidence items appended to the OpenAI mass-disclosure
+trend: Shiyu Zhang's independent reconstruction+extension of result-family #051 (Kobayashi's
+canonical-ampleness conjecture, 2611.26524) and Faruk Temur's cone/elliptic-quadric square-
+function paper (2611.07085) — the FIRST located independent-expert engagement with result-family
+#079 (the local-smoothing/Bochner-Riesz/Kakeya/Nikodym cascade claim), found via a MathHelm
+thread pointer; evidence cap held at 10/10 by dropping the two purely-general-commentary items
+(Tao's "Math 2.0," Huiberts' post) per the trend's own established pattern of preferring
+specific-result engagement. NINE new observation_queue items (partial/below-bar conjecture
+progress: no-(k+1)-in-line for large k [2502.00176, capture-leak via v2 revision], Fröberg's
+conjecture split-powers [2608.24797], LPP monotonicity conjecture for high offspring laws
+[2611.25882], Brown-Wemyss Type E case [2611.25467], Mukai conjecture for ambiently-smooth Fanos
+[2604.25023], Bartnik's splitting-conjecture structural result [2610.17092], a Buhovsky-Logunov-
+Malinnikova-Sodin open-question resolution [2611.25952]; plus an AI-watch item, Krenn et al.'s
+AlphaProof-Nexus-discovered photonic-GHZ no-go theorem [2611.26300, a tool name not previously
+seen on this ledger]; plus a hexagonmath companion to the already-tracked AJ-conjecture trend
+[RJ Acuna, 2611.00686, single-knot 8_11 case]). UPDATED the standing Mark Lewko Kakeya-all-
+dimensions queue item with substantially more detail from the full MathHelm thread (still no
+arXiv primary; now confirmed "submitted to Palomar for review," Lean-partial, and explicitly the
+same Oct-25 OpenAI manuscript lineage as the new Temur evidence item — flagged as the
+day's single highest-priority chase). TOP STORY CANDIDATE: Anthropic's own disclosure, "Claude
+solves two open problems in the physics of black holes" (2026-11-17, hexagonmath preprints
+2611.00175/2611.00174) — queued (axis 2, AI-watch, EXTREME caution — no named conjecture, below
+seed bar) and added to `study_shelf` alongside Preskill-Huang-Liu's "Certified Discovery of
+Quantum Phase Diagrams" (2611.25064, a genuine non-AI-watch quantum-algorithms result). DAILY-tier
+non-arXiv primary feeds opened (all routine/0 catch beyond the above): CERN Courier, Fermilab,
+Simons, Quantum journal, PRL/PRX/RMP, SciPost API, INSPIRE-HEP most-recent, IceCube category feed,
+DESI homepage (unchanged), hexagonmath `/rss/all` (50-item batch read in full), axiommath.ai/
+research/blog (`WebFetch`; 6 posts listed, ALL already-tracked — Minimal Model Program, Faltings,
+Weil Conjectures, Cluster Algebras, Stacks Project, CFSG-corpus — confirmed via grep against
+TRENDS.md before treating as 0-catch, not assumed), icarm.io/feed (unchanged), vals.ai/blogs
+(no new post text extractable this session, titles not shown by the `sr-only` headings — flag for
+next session), agmai.org (unchanged — the "Yang-Mills Immediate Release" section is the
+already-tracked 2026-10-26 item, re-confirmed not new), mathhelm.org (the source of today's two
+biggest finds, Kakeya thread update + the Temur-paper pointer). LIGO still Cloudflare-blocked
+(standing, already escalated 2026-11-18, not re-escalating); CERN home correctly skipped per the
+W45 monthly downgrade (next due ~2026-12-07). AI-watch lane: openai.com/research (`WebFetch`,
+403 direct, worked via the Anthropic/AxiomMath checks above as a proxy for the lane's health) —
+no separate new catch; anthropic.com/research (`WebFetch`, 200) — the black-hole-physics post
+above, plus one off-axis quantum-circuits-with-Claude post correctly excluded (axis-4 QC
+technology, the sibling quantum radar's beat, not ours).
+
+Community pulse (radar-pulse): Hacker News front page (Algolia API) — ONE on-axis story, the
+already-captured Anthropic black-hole-physics post (corroboration only). MathOverflow `/feeds`
+(curl, 200, Atom-format titles) — routine Q&A, 0 catch. Physics SE `/feeds` (curl -A
+"Mozilla/5.0", 200) — routine, 0 catch. Mathstodon public timeline (curl, 200) — routine noise,
+0 catch. r/math/r/mathematics/r/Physics family — standing hard domain-wide block reconfirmed
+(curl 403). Digest/explainer blogs (DAILY tier): Quanta (same already-tracked items, 0 new),
+Tao (newest post already-tracked "Introducing MathHelm," stale since 11-14), Woit (newest post
+already-tracked "Getting Access," the next four posts by id are all OLDER than that capture
+point and already logged in prior sessions — 0 new), Gowers (newest post dated 2026-10-16, stale),
+Kalai (routine personal/conference posts, 0 catch), Baez (routine, 0 catch), Strassler (routine
+roundup, 0 catch), Hossenfelder (the "experiment against experiment" particle-physics-anomaly
+video post from 11-18 opened and confirmed to name neither experiment nor quantity in its text —
+WebSearch attempted to identify the specific anomaly, found nothing dated 2026 — chase carries
+over, unresolved another session). n-Category Café — STILL DEGRADED (3rd consecutive session,
+11-18/11-19/11-20): both plain `curl` (SSL error) and `WebFetch` (503) fail identically to the
+prior two sessions; `tvly` quota-exhausted again this session (confirmed via a direct `tvly
+extract` attempt); the tool's own deprecation notice points at an `npx @tavily/cli` replacement,
+attempted once but blocked by this session's own auto-mode classifier (a policy-level
+restriction, same class as the 2026-10-26 Nature-Googlebot-UA block) — no working method found
+this session, logged per self-heal discipline, not independently re-escalated beyond the standing
+note (low-severity single commentary source, not a hard-rule or coverage-promise item).
+Exploration slot (radar-explore, OFF-AXIS rotation; roster continues from math.NA 11-18→11-19):
+picked cs.CC — genuinely off-axis, 14 fresh entries, all standard complexity-theory/coding-theory/
+communication-complexity papers (one touching "bosonic Lindbladian fixed points" complexity,
+still a routine technical result, not a landmark), 0 catch, correctly off-axis; next: try
+math.ST. Self-heals: n-Category Café attempted again (no fix found, logged above); no other
+source crossed the 2-consecutive-same-mode bar this session. GitHub watch (radar-repo-watch):
+direct `curl`/API still proxy-scoped (confirmed again); `WebFetch` on `.atom` URLs — lean4 bumped
+to v4.36.0 (Nov 16) with v4.37.0-rc1 now the latest pre-release (Nov 18-19), mathlib4 continuing
+its daily `master-YYYY-MM-DD` auto-tag cadence, Rocq unchanged at 9.3.0 — all routine, 0 new
+citable release; `github.com/orgs/anthropics` repo listing checked for formal-math repos (0
+found beyond the already-tracked channels; one unclear-purpose repo, "axt-verify," noted but not
+actionable without a description); `github.com/openai/math` has no tagged releases (expected, a
+static manuscript dump, already covered via `raw.githubusercontent.com/CONTENTS.md` checks
+above).
+
+Trend recalibration (radar-ledger-update): see CAPTURE HAUL above (4 new seeds + 2 evidence items
+on one trend + 9 below-bar queue adds + 1 queue item substantially updated). Dormancy probe:
+scanned all 163 non-dormant trends' `last_evidence` metadata programmatically — 6 trends read as
+94-276 days stale by raw day-count (the same 5 from 2026-11-19's probe, PLUS Rump's Retraction
+Conjecture at 134 days, captured only yesterday) but all SIX are "resolved landmark" trends whose
+`last_evidence` is deliberately the historical date of the already-published resolving paper
+itself (same documented exception as the existing W40 Graham's-conjecture precedent note) — no
+dormancy moves made. The two already-`dormant` trends (Stanley-Gasharov, Marton's-conjecture
+sharpening) remain correctly dormant; Stanley-Gasharov is now 114 days stale, 6 days from the
+120-day archive line (due ~2026-11-26, per last session's flag). Convergence check: today's new
+seeds/queue items span unrelated subfields (dynamics, representation theory, algebraic/arithmetic
+geometry, combinatorics, gr-qc, quantum optics, knot theory, black-hole physics) — no common
+sub-theme, no new cluster promotion. Capture-leak (mandatory): 6 arXiv ids named in the
+2026-11-18 and 2026-11-19 reports checked against the now-updated TRENDS.md — all 6 present on a
+discrete evidence/queue/study_shelf line, 0 missing — `capture-leak: 6 ids checked / 0 missing`.
+`observation_queue` now ~606 items (well over the ~40 soft cap, a long-standing deliberate state
+per domain cadence — low intake, below-bar items persist for months; no burndown attempted today,
+that is the weekly's call). SOURCES.md: n-Category Café's entry updated (3rd consecutive degraded
+session, tvly-npm-fallback attempt logged); no new source-discovery candidates this session (the
+day's new primaries all came from already-swept channels — arXiv, hexagonmath, anthropic.com/
+research, MathHelm). README.md and SUMMARY.md regenerated in the same commit.

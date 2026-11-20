@@ -614,7 +614,15 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
   (SSL connect error, exit 35) and `WebFetch` (HTTP 503) fail on `/category/` and on the bare
   domain; `tvly` quota-exhausted both sessions, no fallback tried. A genuine site-side outage
   (the host itself returns 503), not a block — re-test next session; escalate if a 3rd
-  consecutive occurrence.]** — category theory / mathematical physics group blog
+  consecutive occurrence. STILL DEGRADED 2026-11-20 (3rd consecutive daily): identical failure
+  signature (curl SSL-error, WebFetch 503, tvly quota-exhausted); the `tvly` CLI's own
+  deprecation notice points at an `npx @tavily/cli` replacement, attempted once this session but
+  blocked by this session's own auto-mode permission classifier (a policy-level restriction, not
+  a site/tool failure) — no working fallback exists under this session's tooling. Low-severity
+  single commentary source (not a hard-rule/coverage-promise item); not escalated to the curator,
+  but flag for the weekly: 3 consecutive failures with no fix path found is worth a standing
+  decision (keep re-testing vs. downgrade cadence, per the CERN-home/SLMath precedent).]** —
+  category theory / mathematical physics group blog
 - Gowers's Weblog — https://gowers.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — Fields-medalist blog; big open problems, Polymath, expository breakthroughs
 - Combinatorics and more (Gil Kalai) — https://gilkalai.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — combinatorics, convexity, and a leading QUANTUM-skeptic voice (pairs with the hype-skepticism rule)
 - Azimuth (John Baez) — https://johncarlosbaez.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — mathematical physics, category theory, applied math

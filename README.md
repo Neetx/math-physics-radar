@@ -1,36 +1,40 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-159-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-593-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--19-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-163-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-607-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--20-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-11-19):** another record single-day haul — 13 new seed trends, plus independent vetting developments on two of the ledger's biggest standing claims.
-- EXTREME-caution claim (hexagonmath, unrefereed): the decades-open 2D-square-lattice case of the [AKLT spectral-gap conjecture](TRENDS.md#uniform-spectral-gap-for-the-aklt-model-on-the-square-lattice-hexagonmath-ai-assisted) is resolved — read with heavy caution, see Worth studying.
-- The first substantive, constructive independent engagement with OpenAI's claimed Navier-Stokes Millennium-Prize proof: [Zhen Lei and Xiao Ren's reconstruction](https://arxiv.org/abs/2609.35406) of its profile-construction core, found via a newly-discovered research-mathematician forum (MathHelm).
-- Six further named-conjecture disproofs/proofs from ordinary arXiv preprints, including a [counterexample to Voiculescu's normal dilation conjecture](TRENDS.md#a-counterexample-to-voiculescus-normal-dilation-and-stable-classification-conjectures) and a [proof of Stafford's 1978 conjecture](TRENDS.md#proof-of-staffords-conjecture-1978-on-cyclicity-of-torsion-modules).
-- Closed two standing watch items: an independent analysis of the [Goemans unsplittable-flow counterexample](TRENDS.md#disproof-of-goemanss-cost-preserving-unsplittable-flow-conjecture-isabelleafp-verified) appeared, and the AxiomMath Minimal-Model-Program trend's [OpenAI-result-family verification gap](TRENDS.md#axiommaths-lean-formalization-of-the-minimal-model-program-in-dimensions-2-4) was closed.
+**Since last scan (2026-11-20):** four new named-conjecture resolutions, and the first substantive expert engagement with the OpenAI disclosure's single largest unvetted claim bundle.
+- Four new seed trends from ordinary arXiv preprints: [Herman's Positive Entropy Conjecture](TRENDS.md#resolution-of-hermans-positive-entropy-conjecture-surface-dynamics) (a 2017 result surfaced only now via a revision), [Corless's conjecture](TRENDS.md#proof-of-corlesss-conjecture-nilpotent-skew-symmetric-tridiagonal-bohemian-matrices) on Bohemian matrices, [Casselman's comparison conjecture](TRENDS.md#proof-of-casselmans-comparison-conjecture-real-reductive-groups), and [Stanley's Ehrhart-coefficient conjecture](TRENDS.md#proof-of-stanleys-conjecture-on-the-leading-ehrhart-coefficients-of-the-birkhoff-polytope) for the Birkhoff polytope.
+- The first located independent-expert engagement with the [OpenAI mass-disclosure trend's](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) local-smoothing/Kakeya/Bochner-Riesz cascade claim: [Faruk Temur's square-function paper](https://arxiv.org/abs/2611.07085), found via a MathHelm thread also reporting Mark Lewko's own (still unpublished) sharp Kakeya-maximal-inequality-in-all-dimensions claim — see watchlist.
+- Anthropic's own disclosure, "[Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics)" (Hawking-Page sharpness in weak-coupling N=4 SYM; an exact modular-bootstrap mass ceiling for 3D gravity) — EXTREME caution, unrefereed hexagonmath preprints; see Worth studying.
+- A second independent reconstruction-plus-extension of an OpenAI result-family, [Shiyu Zhang on Kobayashi's canonical-ampleness conjecture](https://arxiv.org/abs/2611.26524), appended as evidence to the same mass-disclosure trend.
 
 ## Trends
 
-🌱 151 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 3
+🌱 155 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 3
 
 | trend | stage | latest signal |
 |---|---|---|
 | [Non-invertible (categorical) symmetries in QFT (generalized global symmetries)](TRENDS.md#non-invertible-categorical-symmetries-in-qft-generalized-global-symmetries) | 🚀 accelerating | [2026-11-09](http://link.aps.org/doi/10.1103/hl1d-99hv) |
 | [Ramsey-number lower-bound breakthroughs (extremal combinatorics)](TRENDS.md#ramsey-number-lower-bound-breakthroughs-extremal-combinatorics) | 🚀 accelerating | [2026-10-05](https://arxiv.org/abs/2610.06081) |
-| [Convergence toward evidence for evolving (dynamical) dark energy (DESI + DES + independent reanalyses)](TRENDS.md#convergence-toward-evidence-for-evolving-dynamical-dark-energy-desi--des--independent-reanalyses) | 📈 emerging | [2026-11-17](https://arxiv.org/abs/2607.27410) |
+| [Convergence toward evidence for evolving (dynamical) dark energy (DESI + DES + independent reanalyses)](TRENDS.md#convergence-toward-evidence-for-evolving-dynamical-dark-energy-desi--des--independent-reanalyses) | 📈 emerging | [2026-11-17](https://arxiv.org/abs/2605.27221) |
 | [Resolution of the Komlós / Beck-Fiala discrepancy conjectures (AI-discovered, human-confirmed)](TRENDS.md#resolution-of-the-komls--beck-fiala-discrepancy-conjectures-ai-discovered-human-confirmed) | 📈 emerging | [2026-11-03](https://arxiv.org/abs/2611.03427) |
 | [A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) | 📈 emerging | [2026-11-03](https://arxiv.org/abs/2611.05051) |
-| [Proof of the Achlioptas-Friedgut convergence conjecture (sharp k-colorability threshold)](TRENDS.md#proof-of-the-achlioptas-friedgut-convergence-conjecture-sharp-k-colorability-threshold) | 🌱 seed | [2026-11-18]() |
-| [Disproof of the one-supremum conjecture (Hytönen–Lacey / Lerner–Moen, harmonic analysis)](TRENDS.md#disproof-of-the-one-supremum-conjecture-hytnenlacey--lernermoen-harmonic-analysis) | 🌱 seed | [2026-11-18]() |
-| [Resolution of Schmeisser's (1977) conjecture and two of Sendov's (2002) survey conjectures (critical-point location for polynomials)](TRENDS.md#resolution-of-schmeissers-1977-conjecture-and-two-of-sendovs-2002-survey-conjectures-critical-point-location-for-polynomials) | 🌱 seed | [2026-11-18]() |
+| [OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-11-19](https://arxiv.org/abs/2611.26524) |
+| [Resolution of Herman's Positive Entropy Conjecture (surface dynamics)](TRENDS.md#resolution-of-hermans-positive-entropy-conjecture-surface-dynamics) | 🌱 seed | [2026-11-19](https://arxiv.org/abs/1704.02473) |
+| [Proof of Casselman's Comparison Conjecture (real reductive groups)](TRENDS.md#proof-of-casselmans-comparison-conjecture-real-reductive-groups) | 🌱 seed | [2026-11-19](https://arxiv.org/abs/2611.25367) |
+| [Proof of Stanley's Conjecture on the Leading Ehrhart Coefficients of the Birkhoff Polytope](TRENDS.md#proof-of-stanleys-conjecture-on-the-leading-ehrhart-coefficients-of-the-birkhoff-polytope) | 🌱 seed | [2026-11-19](https://arxiv.org/abs/2611.25973) |
+| [Proof of the Achlioptas-Friedgut convergence conjecture (sharp k-colorability threshold)](TRENDS.md#proof-of-the-achlioptas-friedgut-convergence-conjecture-sharp-k-colorability-threshold) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.21665) |
+| [Disproof of the one-supremum conjecture (Hytönen–Lacey / Lerner–Moen, harmonic analysis)](TRENDS.md#disproof-of-the-one-supremum-conjecture-hytnenlacey--lernermoen-harmonic-analysis) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.22097) |
+| [Resolution of Schmeisser's (1977) conjecture and two of Sendov's (2002) survey conjectures (critical-point location for polynomials)](TRENDS.md#resolution-of-schmeissers-1977-conjecture-and-two-of-sendovs-2002-survey-conjectures-critical-point-location-for-polynomials) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.19084) |
 | [Proof of the Dimension Conjecture for CR hypersurfaces (Stepanova)](TRENDS.md#proof-of-the-dimension-conjecture-for-cr-hypersurfaces-stepanova) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.10314) |
-| [Disproof of the Brualdi–Friedland–Pothen basis conjecture (combinatorial matrix theory)](TRENDS.md#disproof-of-the-brualdifriedlandpothen-basis-conjecture-combinatorial-matrix-theory) | 🌱 seed | [2026-11-18]() |
-| [Proofs of two conjectures of Noga Alon on subhypergraph counts (Kuang–Sun–Wang–Zeng)](TRENDS.md#proofs-of-two-conjectures-of-noga-alon-on-subhypergraph-counts-kuangsunwangzeng) | 🌱 seed | [2026-11-18]() |
-| [Proof of Perdomo's index conjecture (minimal hypersurfaces in spheres)](TRENDS.md#proof-of-perdomos-index-conjecture-minimal-hypersurfaces-in-spheres) | 🌱 seed | [2026-11-18]() |
+| [Disproof of the Brualdi–Friedland–Pothen basis conjecture (combinatorial matrix theory)](TRENDS.md#disproof-of-the-brualdifriedlandpothen-basis-conjecture-combinatorial-matrix-theory) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2605.30401) |
+| [Proofs of two conjectures of Noga Alon on subhypergraph counts (Kuang–Sun–Wang–Zeng)](TRENDS.md#proofs-of-two-conjectures-of-noga-alon-on-subhypergraph-counts-kuangsunwangzeng) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2606.18321) |
+| [Proof of Perdomo's index conjecture (minimal hypersurfaces in spheres)](TRENDS.md#proof-of-perdomos-index-conjecture-minimal-hypersurfaces-in-spheres) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.12632) |
 | [Proof of the BMM symmetrising trace conjecture for all exceptional complex reflection groups](TRENDS.md#proof-of-the-bmm-symmetrising-trace-conjecture-for-all-exceptional-complex-reflection-groups) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.21912) |
 | [Proof of the Bessis–Moussa–Villani conjecture in finite von Neumann algebras](TRENDS.md#proof-of-the-bessismoussavillani-conjecture-in-finite-von-neumann-algebras) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.23122) |
-| [Proof of the Fourier dimension conjecture for complex Gaussian multiplicative chaos on the circle](TRENDS.md#proof-of-the-fourier-dimension-conjecture-for-complex-gaussian-multiplicative-chaos-on-the-circle) | 🌱 seed | [2026-11-18]() |
+| [Proof of the Fourier dimension conjecture for complex Gaussian multiplicative chaos on the circle](TRENDS.md#proof-of-the-fourier-dimension-conjecture-for-complex-gaussian-multiplicative-chaos-on-the-circle) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.15733) |
 | [Disproof of the local Mizohata–Takeuchi conjectures (Cairo et al., Fourier restriction theory)](TRENDS.md#disproof-of-the-local-mizohatatakeuchi-conjectures-cairo-et-al-fourier-restriction-theory) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.22465) |
 | [Disproof of the WOW-284 Graffiti conjecture (dual degree vs. minimum distance eigenvalue)](TRENDS.md#disproof-of-the-wow-284-graffiti-conjecture-dual-degree-vs-minimum-distance-eigenvalue) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00564v1) |
 | [Proof of Sun's Conjecture 3.7 (Apéry-like binomial-sum supercongruences)](TRENDS.md#proof-of-suns-conjecture-37-apry-like-binomial-sum-supercongruences) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00551v1) |
@@ -45,25 +49,26 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [The sharp constant in the Erdős maximum-term problem (hexagonmath, AI-assisted)](TRENDS.md#the-sharp-constant-in-the-erds-maximum-term-problem-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00583v1) |
 | [Uniform spectral gap for the AKLT model on the square lattice (hexagonmath, AI-assisted)](TRENDS.md#uniform-spectral-gap-for-the-aklt-model-on-the-square-lattice-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00580v1) |
 | [The level-25 case of the Rouse–Sutherland–Zureick-Brown conjecture (hexagonmath, AI-assisted)](TRENDS.md#the-level-25-case-of-the-rousesutherlandzureick-brown-conjecture-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00591v1) |
-| [Full resolution of the Hibi–Li (2016) conjecture (order/chain polytope face counts)](TRENDS.md#full-resolution-of-the-hibili-2016-conjecture-orderchain-polytope-face-counts) | 🌱 seed | [2026-11-17]() |
-| [Full resolution of the Osserman (1990) conjecture (Riemannian Jacobi operators)](TRENDS.md#full-resolution-of-the-osserman-1990-conjecture-riemannian-jacobi-operators) | 🌱 seed | [2026-11-17]() |
-| [Disproof of the Matsaev (1971) conjecture for every $p\ne2$](TRENDS.md#disproof-of-the-matsaev-1971-conjecture-for-every-pne2) | 🌱 seed | [2026-11-17]() |
-| [Full resolution of Wills' (1981) conjecture (Ehrhart coefficients of symmetric lattice polytopes)](TRENDS.md#full-resolution-of-wills-1981-conjecture-ehrhart-coefficients-of-symmetric-lattice-polytopes) | 🌱 seed | [2026-11-17]() |
+| [Proof of Corless's Conjecture (nilpotent skew-symmetric tridiagonal Bohemian matrices)](TRENDS.md#proof-of-corlesss-conjecture-nilpotent-skew-symmetric-tridiagonal-bohemian-matrices) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.25266) |
+| [Full resolution of the Hibi–Li (2016) conjecture (order/chain polytope face counts)](TRENDS.md#full-resolution-of-the-hibili-2016-conjecture-orderchain-polytope-face-counts) | 🌱 seed | [2026-11-17](https://hexagonmath.org/2611.00512v1) |
+| [Full resolution of the Osserman (1990) conjecture (Riemannian Jacobi operators)](TRENDS.md#full-resolution-of-the-osserman-1990-conjecture-riemannian-jacobi-operators) | 🌱 seed | [2026-11-17](https://hexagonmath.org/2611.00544v1) |
+| [Disproof of the Matsaev (1971) conjecture for every $p\ne2$](TRENDS.md#disproof-of-the-matsaev-1971-conjecture-for-every-pne2) | 🌱 seed | [2026-11-17](https://hexagonmath.org/2611.00547v1) |
+| [Full resolution of Wills' (1981) conjecture (Ehrhart coefficients of symmetric lattice polytopes)](TRENDS.md#full-resolution-of-wills-1981-conjecture-ehrhart-coefficients-of-symmetric-lattice-polytopes) | 🌱 seed | [2026-11-17](https://hexagonmath.org/2611.00540v1) |
 | [Disproof and classification of the Mathieu (Mathieu–Zhao) conjecture for compact connected Lie groups and beyond](TRENDS.md#disproof-and-classification-of-the-mathieu-mathieuzhao-conjecture-for-compact-connected-lie-groups-and-beyond) | 🌱 seed | [2026-11-17](https://hexagonmath.org/2611.00556v1) |
 | [AxiomMath's Lean formalization of the Minimal Model Program in dimensions 2-4](TRENDS.md#axiommaths-lean-formalization-of-the-minimal-model-program-in-dimensions-2-4) | 🌱 seed | [2026-11-17](https://axiommath.ai/research/the-minimal-model-program-formalized/) |
-| [Proof of the Cambie–Cames van Batenburg–Davies–Kang correspondence-packing conjecture](TRENDS.md#proof-of-the-cambiecames-van-batenburgdavieskang-correspondence-packing-conjecture) | 🌱 seed | [2026-11-16]() |
-| [Independent proof of the Kiessling–Altshuler–Yuzbashyan (KAY) conjecture (Eliashberg $T_c$ bound)](TRENDS.md#independent-proof-of-the-kiesslingaltshuleryuzbashyan-kay-conjecture-eliashberg-tc-bound) | 🌱 seed | [2026-11-16]() |
-| [Disproof of the Lee (2026) conjecture on order/chain polytope diameters](TRENDS.md#disproof-of-the-lee-2026-conjecture-on-orderchain-polytope-diameters) | 🌱 seed | [2026-11-16]() |
-| [Sheil-Small's (1974) covering problem resolved (positive answer)](TRENDS.md#sheil-smalls-1974-covering-problem-resolved-positive-answer) | 🌱 seed | [2026-11-16]() |
-| [Proof of the Tu–Zeng–Jiang–Li conjecture on permutation binomials in characteristic two](TRENDS.md#proof-of-the-tuzengjiangli-conjecture-on-permutation-binomials-in-characteristic-two) | 🌱 seed | [2026-11-16]() |
 | [Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) | 🌱 seed | [2026-11-16](https://axiommath.ai/research/beyond-the-classification-what-the-cfsg-corpus-unlocks/) |
-| [OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-11-15](https://openai.com/index/building-scientific-understanding-with-academic-communities/) |
-| [Disproof of the Realizability Conjecture for universally pseudoeffective surface classes](TRENDS.md#disproof-of-the-realizability-conjecture-for-universally-pseudoeffective-surface-classes) | 🌱 seed | [2026-11-15]() |
-| [Disproof of Ashbaugh's 1999 eigenvalue-ratio conjectures (buckling, then clamped-plate)](TRENDS.md#disproof-of-ashbaughs-1999-eigenvalue-ratio-conjectures-buckling-then-clamped-plate) | 🌱 seed | [2026-11-13]() |
-| [Disproof of Eells' conjecture and Ding's conjecture (harmonic maps $S^3\to S^2$)](TRENDS.md#disproof-of-eells-conjecture-and-dings-conjecture-harmonic-maps-s3to-s2) | 🌱 seed | [2026-11-13]() |
+| [Proof of the Cambie–Cames van Batenburg–Davies–Kang correspondence-packing conjecture](TRENDS.md#proof-of-the-cambiecames-van-batenburgdavieskang-correspondence-packing-conjecture) | 🌱 seed | [2026-11-16](https://arxiv.org/abs/2611.20504) |
+| [Independent proof of the Kiessling–Altshuler–Yuzbashyan (KAY) conjecture (Eliashberg $T_c$ bound)](TRENDS.md#independent-proof-of-the-kiesslingaltshuleryuzbashyan-kay-conjecture-eliashberg-tc-bound) | 🌱 seed | [2026-11-16](https://arxiv.org/abs/2611.20496) |
+| [Disproof of the Lee (2026) conjecture on order/chain polytope diameters](TRENDS.md#disproof-of-the-lee-2026-conjecture-on-orderchain-polytope-diameters) | 🌱 seed | [2026-11-16](https://hexagonmath.org/2611.00525v1) |
+| [Sheil-Small's (1974) covering problem resolved (positive answer)](TRENDS.md#sheil-smalls-1974-covering-problem-resolved-positive-answer) | 🌱 seed | [2026-11-16](https://hexagonmath.org/2611.00519v1) |
+| [Proof of the Tu–Zeng–Jiang–Li conjecture on permutation binomials in characteristic two](TRENDS.md#proof-of-the-tuzengjiangli-conjecture-on-permutation-binomials-in-characteristic-two) | 🌱 seed | [2026-11-16](https://hexagonmath.org/2611.00510v1) |
+| [OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-11-15](https://hexagonmath.org/2611.00492v1) |
+| [Disproof of the Realizability Conjecture for universally pseudoeffective surface classes](TRENDS.md#disproof-of-the-realizability-conjecture-for-universally-pseudoeffective-surface-classes) | 🌱 seed | [2026-11-15](https://hexagonmath.org/2611.00489v1) |
+| [Disproof of Ashbaugh's 1999 eigenvalue-ratio conjectures (buckling, then clamped-plate)](TRENDS.md#disproof-of-ashbaughs-1999-eigenvalue-ratio-conjectures-buckling-then-clamped-plate) | 🌱 seed | [2026-11-13](https://arxiv.org/abs/2611.17606) |
+| [Disproof of Eells' conjecture and Ding's conjecture (harmonic maps $S^3\to S^2$)](TRENDS.md#disproof-of-eells-conjecture-and-dings-conjecture-harmonic-maps-s3to-s2) | 🌱 seed | [2026-11-13](https://arxiv.org/abs/2611.17697) |
 | [Irrationality of ζ(5) (Fauzan; independently Lean-verified by Firsching)](TRENDS.md#irrationality-of-5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-11-12](https://zenodo.org/records/22826418) |
 | [Finiteness of planar central configurations for five bodies (Smale's sixth problem)](TRENDS.md#finiteness-of-planar-central-configurations-for-five-bodies-smales-sixth-problem) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00377v1) |
-| [A counterexample to the pure semisimplicity conjecture (ring theory)](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory) | 🌱 seed | [2026-11-12]() |
+| [A counterexample to the pure semisimplicity conjecture (ring theory)](TRENDS.md#a-counterexample-to-the-pure-semisimplicity-conjecture-ring-theory) | 🌱 seed | [2026-11-12](https://arxiv.org/abs/2610.39883) |
 | [Complete Lean formalization of Faltings' Theorem (Mordell Conjecture) — AxiomMath](TRENDS.md#complete-lean-formalization-of-faltings-theorem-mordell-conjecture--axiommath) | 🌱 seed | [2026-11-12](https://axiommath.ai/research/faltings-theorem-formalized) |
 | [Disproof of Mazur's finite-components conjecture — ℤ Diophantine in ℚ (Glazer et al., AI-heavy, unrefereed preprint — claim)](TRENDS.md#disproof-of-mazurs-finite-components-conjecture---diophantine-in--glazer-et-al-ai-heavy-unrefereed-preprint--claim) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00331v1) |
 | [Resolution of the exact diameter of $S_n$ with LRX generators (open since 2011)](TRENDS.md#resolution-of-the-exact-diameter-of-sn-with-lrx-generators-open-since-2011) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00333v1) |
@@ -73,870 +78,257 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Disproof of the Foregger-Sinkhorn tie-point conjecture](TRENDS.md#disproof-of-the-foregger-sinkhorn-tie-point-conjecture) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00354v1) |
 | [Proof of the Humphreys support conjecture](TRENDS.md#proof-of-the-humphreys-support-conjecture) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00364v1) |
 | [Proof of the quantum Kazhdan–Lusztig conjecture for quantum loop algebras](TRENDS.md#proof-of-the-quantum-kazhdanlusztig-conjecture-for-quantum-loop-algebras) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00322v1) |
-| [Resolution of the Hollmann–Xiang conjectures on Kloosterman polynomials (finite fields)](TRENDS.md#resolution-of-the-hollmannxiang-conjectures-on-kloosterman-polynomials-finite-fields) | 🌱 seed | [2026-11-12]() |
+| [Resolution of the Hollmann–Xiang conjectures on Kloosterman polynomials (finite fields)](TRENDS.md#resolution-of-the-hollmannxiang-conjectures-on-kloosterman-polynomials-finite-fields) | 🌱 seed | [2026-11-12](https://arxiv.org/abs/2611.13848) |
 | [Proof of Euler's 1747 conjecture on sums of integers with restricted prime factors](TRENDS.md#proof-of-eulers-1747-conjecture-on-sums-of-integers-with-restricted-prime-factors) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00370v1) |
 | [Disproof of Christandl's PPT² (PPT-squared) conjecture (OpenAI internal model; independent human follow-on in low dimensions)](TRENDS.md#disproof-of-christandls-ppt-ppt-squared-conjecture-openai-internal-model-independent-human-follow-on-in-low-dimensions) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00386v1) |
-| [Undecidability and a counterexample to any-dimensional Hilbert's 17th problem (Debus–Schabert)](TRENDS.md#undecidability-and-a-counterexample-to-any-dimensional-hilberts-17th-problem-debusschabert) | 🌱 seed | [2026-11-12]() |
-| [Resolution of Erdős Problem 521 on real roots of random polynomials](TRENDS.md#resolution-of-erds-problem-521-on-real-roots-of-random-polynomials) | 🌱 seed | [2026-11-12]() |
-| [Proof of the Jamneshan–Tao conjecture (nilspace embedding, Gowers-norm inverse theorems)](TRENDS.md#proof-of-the-jamneshantao-conjecture-nilspace-embedding-gowers-norm-inverse-theorems) | 🌱 seed | [2026-11-12]() |
-| [Disproof of the Brown–Shields Conjecture (Dirichlet-space outer functions)](TRENDS.md#disproof-of-the-brownshields-conjecture-dirichlet-space-outer-functions) | 🌱 seed | [2026-11-12]() |
-| [Resolution of Smale's mean value conjecture (1981) — $\sup_d K(d)=4$ (hexagonmath, AI-assisted, unrefereed preprint — claim)](TRENDS.md#resolution-of-smales-mean-value-conjecture-1981--supd-kd4-hexagonmath-ai-assisted-unrefereed-preprint--claim) | 🌱 seed | [2026-11-11]() |
-| [Resolution of Broué's Abelian Defect Group Conjecture for 2-blocks (hexagonmath, AI-generated, unrefereed preprint — claim)](TRENDS.md#resolution-of-brous-abelian-defect-group-conjecture-for-2-blocks-hexagonmath-ai-generated-unrefereed-preprint--claim) | 🌱 seed | [2026-11-11]() |
-| [Disproof of Comon's conjecture over the reals (tensor rank)](TRENDS.md#disproof-of-comons-conjecture-over-the-reals-tensor-rank) | 🌱 seed | [2026-11-11]() |
-| [Resolution of the Falconer distance conjecture in all dimensions (OpenAI internal model; independent human exposition)](TRENDS.md#resolution-of-the-falconer-distance-conjecture-in-all-dimensions-openai-internal-model-independent-human-exposition) | 🌱 seed | [2026-11-10]() |
-| [Disproof of the Erdős–Mahler conjecture (1939) on irrationality-exponent continued fractions (Marques)](TRENDS.md#disproof-of-the-erdsmahler-conjecture-1939-on-irrationality-exponent-continued-fractions-marques) | 🌱 seed | [2026-11-10]() |
-| [Proof of the Alon–Kim conjecture (1997) on hypergraph edge-coloring (Qiao–Lu–Song)](TRENDS.md#proof-of-the-alonkim-conjecture-1997-on-hypergraph-edge-coloring-qiaolusong) | 🌱 seed | [2026-11-10]() |
-| [Proof of the Chien–Nakazato–Meng constant-width numerical range conjecture](TRENDS.md#proof-of-the-chiennakazatomeng-constant-width-numerical-range-conjecture) | 🌱 seed | [2026-11-10]() |
-| [Proof of the Quantum Null Energy Condition without restrictive assumptions (Faulkner)](TRENDS.md#proof-of-the-quantum-null-energy-condition-without-restrictive-assumptions-faulkner) | 🌱 seed | [2026-11-09]() |
-| [Proof of Gromov's conjecture on nilpotent groups (integrable measure equivalence)](TRENDS.md#proof-of-gromovs-conjecture-on-nilpotent-groups-integrable-measure-equivalence) | 🌱 seed | [2026-11-09]() |
-| [Resolution of Becker's Conjecture on compositions of higher-degree diagonal forms](TRENDS.md#resolution-of-beckers-conjecture-on-compositions-of-higher-degree-diagonal-forms) | 🌱 seed | [2026-11-09]() |
-| [A proof of the Erdős–Herzog–Piranian lemniscate conjecture (univalent polynomials)](TRENDS.md#a-proof-of-the-erdsherzogpiranian-lemniscate-conjecture-univalent-polynomials) | 🌱 seed | [2026-11-09]() |
-| [Resolution of the Erdős–Nicolas–Sárközy conjecture (admissible-set counting)](TRENDS.md#resolution-of-the-erdsnicolassrkzy-conjecture-admissible-set-counting) | 🌱 seed | [2026-11-08]() |
-| [Disproof of Guralnick's conjecture (unbounded cohomology of finite simple groups)](TRENDS.md#disproof-of-guralnicks-conjecture-unbounded-cohomology-of-finite-simple-groups) | 🌱 seed | [2026-11-08]() |
-| [Resolution of the Δ-primitive-squares conjecture (Erdős–Rosenfeld factor-difference sets)](TRENDS.md#resolution-of-the--primitive-squares-conjecture-erdsrosenfeld-factor-difference-sets) | 🌱 seed | [2026-11-08]() |
+| [Undecidability and a counterexample to any-dimensional Hilbert's 17th problem (Debus–Schabert)](TRENDS.md#undecidability-and-a-counterexample-to-any-dimensional-hilberts-17th-problem-debusschabert) | 🌱 seed | [2026-11-12](https://arxiv.org/abs/2611.16690) |
+| [Resolution of Erdős Problem 521 on real roots of random polynomials](TRENDS.md#resolution-of-erds-problem-521-on-real-roots-of-random-polynomials) | 🌱 seed | [2026-11-12](https://arxiv.org/abs/2611.16157) |
+| [Proof of the Jamneshan–Tao conjecture (nilspace embedding, Gowers-norm inverse theorems)](TRENDS.md#proof-of-the-jamneshantao-conjecture-nilspace-embedding-gowers-norm-inverse-theorems) | 🌱 seed | [2026-11-12](https://arxiv.org/abs/2611.17567) |
+| [Disproof of the Brown–Shields Conjecture (Dirichlet-space outer functions)](TRENDS.md#disproof-of-the-brownshields-conjecture-dirichlet-space-outer-functions) | 🌱 seed | [2026-11-12](https://arxiv.org/abs/2611.16997) |
+| [Resolution of Smale's mean value conjecture (1981) — $\sup_d K(d)=4$ (hexagonmath, AI-assisted, unrefereed preprint — claim)](TRENDS.md#resolution-of-smales-mean-value-conjecture-1981--supd-kd4-hexagonmath-ai-assisted-unrefereed-preprint--claim) | 🌱 seed | [2026-11-11](https://hexagonmath.org/2611.00282v1) |
+| [Resolution of Broué's Abelian Defect Group Conjecture for 2-blocks (hexagonmath, AI-generated, unrefereed preprint — claim)](TRENDS.md#resolution-of-brous-abelian-defect-group-conjecture-for-2-blocks-hexagonmath-ai-generated-unrefereed-preprint--claim) | 🌱 seed | [2026-11-11](https://hexagonmath.org/2611.00288v1) |
+| [Disproof of Comon's conjecture over the reals (tensor rank)](TRENDS.md#disproof-of-comons-conjecture-over-the-reals-tensor-rank) | 🌱 seed | [2026-11-11](https://arxiv.org/abs/2611.13823) |
+| [Resolution of the Falconer distance conjecture in all dimensions (OpenAI internal model; independent human exposition)](TRENDS.md#resolution-of-the-falconer-distance-conjecture-in-all-dimensions-openai-internal-model-independent-human-exposition) | 🌱 seed | [2026-11-10](https://arxiv.org/abs/2611.13789) |
+| [Disproof of the Erdős–Mahler conjecture (1939) on irrationality-exponent continued fractions (Marques)](TRENDS.md#disproof-of-the-erdsmahler-conjecture-1939-on-irrationality-exponent-continued-fractions-marques) | 🌱 seed | [2026-11-10](https://arxiv.org/abs/2611.13604) |
+| [Proof of the Alon–Kim conjecture (1997) on hypergraph edge-coloring (Qiao–Lu–Song)](TRENDS.md#proof-of-the-alonkim-conjecture-1997-on-hypergraph-edge-coloring-qiaolusong) | 🌱 seed | [2026-11-10](https://arxiv.org/abs/2611.13698) |
+| [Proof of the Chien–Nakazato–Meng constant-width numerical range conjecture](TRENDS.md#proof-of-the-chiennakazatomeng-constant-width-numerical-range-conjecture) | 🌱 seed | [2026-11-10](https://arxiv.org/abs/2611.13461) |
+| [Proof of the Quantum Null Energy Condition without restrictive assumptions (Faulkner)](TRENDS.md#proof-of-the-quantum-null-energy-condition-without-restrictive-assumptions-faulkner) | 🌱 seed | [2026-11-09](https://arxiv.org/abs/2611.11920) |
+| [Proof of Gromov's conjecture on nilpotent groups (integrable measure equivalence)](TRENDS.md#proof-of-gromovs-conjecture-on-nilpotent-groups-integrable-measure-equivalence) | 🌱 seed | [2026-11-09](https://arxiv.org/abs/2611.12009) |
+| [Resolution of Becker's Conjecture on compositions of higher-degree diagonal forms](TRENDS.md#resolution-of-beckers-conjecture-on-compositions-of-higher-degree-diagonal-forms) | 🌱 seed | [2026-11-09](https://arxiv.org/abs/2611.11750) |
+| [A proof of the Erdős–Herzog–Piranian lemniscate conjecture (univalent polynomials)](TRENDS.md#a-proof-of-the-erdsherzogpiranian-lemniscate-conjecture-univalent-polynomials) | 🌱 seed | [2026-11-09](https://arxiv.org/abs/2611.12830) |
+| [Resolution of the Erdős–Nicolas–Sárközy conjecture (admissible-set counting)](TRENDS.md#resolution-of-the-erdsnicolassrkzy-conjecture-admissible-set-counting) | 🌱 seed | [2026-11-08](https://arxiv.org/abs/2610.34372) |
+| [Disproof of Guralnick's conjecture (unbounded cohomology of finite simple groups)](TRENDS.md#disproof-of-guralnicks-conjecture-unbounded-cohomology-of-finite-simple-groups) | 🌱 seed | [2026-11-08](https://arxiv.org/abs/2611.11677) |
+| [Resolution of the Δ-primitive-squares conjecture (Erdős–Rosenfeld factor-difference sets)](TRENDS.md#resolution-of-the--primitive-squares-conjecture-erdsrosenfeld-factor-difference-sets) | 🌱 seed | [2026-11-08](https://arxiv.org/abs/2611.11574) |
 | [Disproof of Goemans's cost-preserving unsplittable-flow conjecture (Isabelle/AFP-verified)](TRENDS.md#disproof-of-goemanss-cost-preserving-unsplittable-flow-conjecture-isabelleafp-verified) | 🌱 seed | [2026-11-07](https://isa-afp.org/entries/Dinitz_Garg_Goemans_Counterexample.html) |
-| [Positive sectional curvature on all smooth 13-spheres (Chen–Deng–Ni)](TRENDS.md#positive-sectional-curvature-on-all-smooth-13-spheres-chendengni) | 🌱 seed | [2026-11-07]() |
-| [Resolution of the Gorsky–Oblomkov–Rasmussen conjecture over ℚ (torus-link homology)](TRENDS.md#resolution-of-the-gorskyoblomkovrasmussen-conjecture-over--torus-link-homology) | 🌱 seed | [2026-11-07]() |
-| [An elementary proof of the Binary Goldbach Conjecture (unrefereed preprint — claim)](TRENDS.md#an-elementary-proof-of-the-binary-goldbach-conjecture-unrefereed-preprint--claim) | 🌱 seed | [2026-11-06]() |
-| [The Woo-Yong conjecture resolved (Gorenstein loci of Schubert varieties)](TRENDS.md#the-woo-yong-conjecture-resolved-gorenstein-loci-of-schubert-varieties) | 🌱 seed | [2026-11-06]() |
-| [Jaeger conjecture and Jaeger-Zhang conjecture resolved (circular coloring of signed planar graphs)](TRENDS.md#jaeger-conjecture-and-jaeger-zhang-conjecture-resolved-circular-coloring-of-signed-planar-graphs) | 🌱 seed | [2026-11-06]() |
-| [A proof of the Aaronson-Ambainis conjecture (quantum query complexity)](TRENDS.md#a-proof-of-the-aaronson-ambainis-conjecture-quantum-query-complexity) | 🌱 seed | [2026-11-06]() |
-| [Deterministic polynomial-time factorization over finite fields (unrefereed preprint — claim)](TRENDS.md#deterministic-polynomial-time-factorization-over-finite-fields-unrefereed-preprint--claim) | 🌱 seed | [2026-11-06]() |
-| [Disproof of minimum CAD existence in dimensions ≥4 (cylindrical algebraic decomposition)](TRENDS.md#disproof-of-minimum-cad-existence-in-dimensions-4-cylindrical-algebraic-decomposition) | 🌱 seed | [2026-11-06]() |
+| [Positive sectional curvature on all smooth 13-spheres (Chen–Deng–Ni)](TRENDS.md#positive-sectional-curvature-on-all-smooth-13-spheres-chendengni) | 🌱 seed | [2026-11-07](https://arxiv.org/abs/2611.10535) |
+| [Resolution of the Gorsky–Oblomkov–Rasmussen conjecture over ℚ (torus-link homology)](TRENDS.md#resolution-of-the-gorskyoblomkovrasmussen-conjecture-over--torus-link-homology) | 🌱 seed | [2026-11-07](https://arxiv.org/abs/2611.10885) |
+| [An elementary proof of the Binary Goldbach Conjecture (unrefereed preprint — claim)](TRENDS.md#an-elementary-proof-of-the-binary-goldbach-conjecture-unrefereed-preprint--claim) | 🌱 seed | [2026-11-06](https://arxiv.org/abs/2611.09007) |
+| [The Woo-Yong conjecture resolved (Gorenstein loci of Schubert varieties)](TRENDS.md#the-woo-yong-conjecture-resolved-gorenstein-loci-of-schubert-varieties) | 🌱 seed | [2026-11-06](https://arxiv.org/abs/2611.09237) |
+| [Jaeger conjecture and Jaeger-Zhang conjecture resolved (circular coloring of signed planar graphs)](TRENDS.md#jaeger-conjecture-and-jaeger-zhang-conjecture-resolved-circular-coloring-of-signed-planar-graphs) | 🌱 seed | [2026-11-06](https://arxiv.org/abs/2611.08862) |
+| [A proof of the Aaronson-Ambainis conjecture (quantum query complexity)](TRENDS.md#a-proof-of-the-aaronson-ambainis-conjecture-quantum-query-complexity) | 🌱 seed | [2026-11-06](https://arxiv.org/abs/2611.09773) |
+| [Deterministic polynomial-time factorization over finite fields (unrefereed preprint — claim)](TRENDS.md#deterministic-polynomial-time-factorization-over-finite-fields-unrefereed-preprint--claim) | 🌱 seed | [2026-11-06](https://hexagonmath.org/2611.00135v1) |
+| [Disproof of minimum CAD existence in dimensions ≥4 (cylindrical algebraic decomposition)](TRENDS.md#disproof-of-minimum-cad-existence-in-dimensions-4-cylindrical-algebraic-decomposition) | 🌱 seed | [2026-11-06](https://hexagonmath.org/2611.00131v1) |
 | [Complete Lean formalization of the Weil Conjectures (AxiomMath)](TRENDS.md#complete-lean-formalization-of-the-weil-conjectures-axiommath) | 🌱 seed | [2026-11-06](https://github.com/AxiomMath/Weil/tree/27cdb2049be62ee2911429b47f54774078450e32) |
-| [Resolution of the N!/k conjecture (Macdonald intersections, Garsia-Haiman modules)](TRENDS.md#resolution-of-the-nk-conjecture-macdonald-intersections-garsia-haiman-modules) | 🌱 seed | [2026-11-06]() |
-| [Resolution of the sparse-complement conjecture (Fallat-Mojallal, spectral graph theory)](TRENDS.md#resolution-of-the-sparse-complement-conjecture-fallat-mojallal-spectral-graph-theory) | 🌱 seed | [2026-11-06]() |
-| [Resolution of the Harary–Hill conjecture (crossing number of $K_n$): OpenAI claim + independent human exposition (Balko)](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-11-05]() |
-| [Resolution of the Cameron–Praeger conjecture for Steiner 6-designs](TRENDS.md#resolution-of-the-cameronpraeger-conjecture-for-steiner-6-designs) | 🌱 seed | [2026-11-05]() |
-| [Settlement of the third Brauer–Thrall conjecture (Simson's conjecture, over algebraically closed fields)](TRENDS.md#settlement-of-the-third-brauerthrall-conjecture-simsons-conjecture-over-algebraically-closed-fields) | 🌱 seed | [2026-11-05]() |
+| [Resolution of the N!/k conjecture (Macdonald intersections, Garsia-Haiman modules)](TRENDS.md#resolution-of-the-nk-conjecture-macdonald-intersections-garsia-haiman-modules) | 🌱 seed | [2026-11-06](https://arxiv.org/abs/2611.09638) |
+| [Resolution of the sparse-complement conjecture (Fallat-Mojallal, spectral graph theory)](TRENDS.md#resolution-of-the-sparse-complement-conjecture-fallat-mojallal-spectral-graph-theory) | 🌱 seed | [2026-11-06](https://arxiv.org/abs/2611.09111) |
+| [Resolution of the Harary–Hill conjecture (crossing number of $K_n$): OpenAI claim + independent human exposition (Balko)](TRENDS.md#resolution-of-the-hararyhill-conjecture-crossing-number-of-kn-openai-claim--independent-human-exposition-balko) | 🌱 seed | [2026-11-05](https://github.com/openai/math) |
+| [Resolution of the Cameron–Praeger conjecture for Steiner 6-designs](TRENDS.md#resolution-of-the-cameronpraeger-conjecture-for-steiner-6-designs) | 🌱 seed | [2026-11-05](https://arxiv.org/abs/2611.06081) |
+| [Settlement of the third Brauer–Thrall conjecture (Simson's conjecture, over algebraically closed fields)](TRENDS.md#settlement-of-the-third-brauerthrall-conjecture-simsons-conjecture-over-algebraically-closed-fields) | 🌱 seed | [2026-11-05](https://arxiv.org/abs/2611.06325) |
 | [A proof of the Area Vanishing Square Peg Conjecture (Valerio)](TRENDS.md#a-proof-of-the-area-vanishing-square-peg-conjecture-valerio) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2610.21076) |
-| [Kaplansky's group-ring conjectures fail in positive characteristic (torsion-free hyperbolic groups)](TRENDS.md#kaplanskys-group-ring-conjectures-fail-in-positive-characteristic-torsion-free-hyperbolic-groups) | 🌱 seed | [2026-11-04]() |
-| [Every classifiable simple C*-algebra has a C*-diagonal (completing the Elliott classification programme's diagonal question)](TRENDS.md#every-classifiable-simple-c-algebra-has-a-c-diagonal-completing-the-elliott-classification-programmes-diagonal-question) | 🌱 seed | [2026-11-04]() |
-| [D-equivalence conjecture resolved for all known hyperkähler deformation types (generalized Kummer varieties)](TRENDS.md#d-equivalence-conjecture-resolved-for-all-known-hyperkhler-deformation-types-generalized-kummer-varieties) | 🌱 seed | [2026-11-04]() |
-| [Proof of Vogan's conjecture on local Arthur packets (geometrization of Kottwitz–Shelstad transfer)](TRENDS.md#proof-of-vogans-conjecture-on-local-arthur-packets-geometrization-of-kottwitzshelstad-transfer) | 🌱 seed | [2026-11-04]() |
-| [Progress toward the abc conjecture: a weak form proved via adelic intersection theory (Soulé)](TRENDS.md#progress-toward-the-abc-conjecture-a-weak-form-proved-via-adelic-intersection-theory-soul) | 🌱 seed | [2026-11-04](https://hexagonmath.org/2611.00330v1) |
-| [A counterexample to Lee's 1988 conjecture on pseudo-Einstein structures (CR geometry)](TRENDS.md#a-counterexample-to-lees-1988-conjecture-on-pseudo-einstein-structures-cr-geometry) | 🌱 seed | [2026-11-04]() |
-| [Resolution of the Kung–Traub conjecture (root-finding complexity, numerical analysis)](TRENDS.md#resolution-of-the-kungtraub-conjecture-root-finding-complexity-numerical-analysis) | 🌱 seed | [2026-11-03]() |
-| [The Berger conjecture, resolved for three-dimensional manifolds (Riemannian/symplectic geometry)](TRENDS.md#the-berger-conjecture-resolved-for-three-dimensional-manifolds-riemanniansymplectic-geometry) | 🌱 seed | [2026-11-03]() |
-| [Resolution of Hilton's conjecture on cycle multiplicities (extremal graph theory)](TRENDS.md#resolution-of-hiltons-conjecture-on-cycle-multiplicities-extremal-graph-theory) | 🌱 seed | [2026-11-03]() |
-| [Proof of the Cranston–Li–Su–Wang–Xu (2026) nowhere-zero-flow reconfiguration conjecture](TRENDS.md#proof-of-the-cranstonlisuwangxu-2026-nowhere-zero-flow-reconfiguration-conjecture) | 🌱 seed | [2026-11-03]() |
-| [OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) | 🌱 seed | [2026-11-02](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) |
-| [Proof of Petz's conjecture on the scalar curvature of the Kubo–Mori metric (quantum information geometry)](TRENDS.md#proof-of-petzs-conjecture-on-the-scalar-curvature-of-the-kubomori-metric-quantum-information-geometry) | 🌱 seed | [2026-11-02]() |
-| [Disproof of Morel's purity conjecture (algebraic K-theory / motivic homotopy)](TRENDS.md#disproof-of-morels-purity-conjecture-algebraic-k-theory--motivic-homotopy) | 🌱 seed | [2026-11-02]() |
-| [Deterministic subexponential integer factorization (Rudich–Rousseau conjecture)](TRENDS.md#deterministic-subexponential-integer-factorization-rudichrousseau-conjecture) | 🌱 seed | [2026-11-02]() |
-| [OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-11-01](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
-| [Proof of Bergeron's Hook-Components and Coefficient-Length conjectures (diagonal harmonics)](TRENDS.md#proof-of-bergerons-hook-components-and-coefficient-length-conjectures-diagonal-harmonics) | 🌱 seed | [2026-10-31]() |
-| [Resolution of Shokurov's conic-bundle rationality conjecture (algebraic geometry)](TRENDS.md#resolution-of-shokurovs-conic-bundle-rationality-conjecture-algebraic-geometry) | 🌱 seed | [2026-10-30]() |
+| [Kaplansky's group-ring conjectures fail in positive characteristic (torsion-free hyperbolic groups)](TRENDS.md#kaplanskys-group-ring-conjectures-fail-in-positive-characteristic-torsion-free-hyperbolic-groups) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.04599) |
+| [Every classifiable simple C*-algebra has a C*-diagonal (completing the Elliott classification programme's diagonal question)](TRENDS.md#every-classifiable-simple-c-algebra-has-a-c-diagonal-completing-the-elliott-classification-programmes-diagonal-question) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.04648) |
+| [D-equivalence conjecture resolved for all known hyperkähler deformation types (generalized Kummer varieties)](TRENDS.md#d-equivalence-conjecture-resolved-for-all-known-hyperkhler-deformation-types-generalized-kummer-varieties) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.04118) |
+| [Proof of Vogan's conjecture on local Arthur packets (geometrization of Kottwitz–Shelstad transfer)](TRENDS.md#proof-of-vogans-conjecture-on-local-arthur-packets-geometrization-of-kottwitzshelstad-transfer) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.03342) |
+| [Progress toward the abc conjecture: a weak form proved via adelic intersection theory (Soulé)](TRENDS.md#progress-toward-the-abc-conjecture-a-weak-form-proved-via-adelic-intersection-theory-soul) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.05217) |
+| [A counterexample to Lee's 1988 conjecture on pseudo-Einstein structures (CR geometry)](TRENDS.md#a-counterexample-to-lees-1988-conjecture-on-pseudo-einstein-structures-cr-geometry) | 🌱 seed | [2026-11-04](https://arxiv.org/abs/2611.02718) |
+| [Resolution of the Kung–Traub conjecture (root-finding complexity, numerical analysis)](TRENDS.md#resolution-of-the-kungtraub-conjecture-root-finding-complexity-numerical-analysis) | 🌱 seed | [2026-11-03](https://arxiv.org/abs/2610.40660) |
+| [The Berger conjecture, resolved for three-dimensional manifolds (Riemannian/symplectic geometry)](TRENDS.md#the-berger-conjecture-resolved-for-three-dimensional-manifolds-riemanniansymplectic-geometry) | 🌱 seed | [2026-11-03](https://arxiv.org/abs/2610.41006) |
+| [Resolution of Hilton's conjecture on cycle multiplicities (extremal graph theory)](TRENDS.md#resolution-of-hiltons-conjecture-on-cycle-multiplicities-extremal-graph-theory) | 🌱 seed | [2026-11-03](https://hexagonmath.org/2611.00028) |
+| [Proof of the Cranston–Li–Su–Wang–Xu (2026) nowhere-zero-flow reconfiguration conjecture](TRENDS.md#proof-of-the-cranstonlisuwangxu-2026-nowhere-zero-flow-reconfiguration-conjecture) | 🌱 seed | [2026-11-03](https://arxiv.org/abs/2610.40863) |
+| [OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)](TRENDS.md#openais-claimed-proof-of-the-quasi-riemann-hypothesis-zero-free-region-s78) | 🌱 seed | [2026-11-02](A) |
+| [Proof of Petz's conjecture on the scalar curvature of the Kubo–Mori metric (quantum information geometry)](TRENDS.md#proof-of-petzs-conjecture-on-the-scalar-curvature-of-the-kubomori-metric-quantum-information-geometry) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00717) |
+| [Disproof of Morel's purity conjecture (algebraic K-theory / motivic homotopy)](TRENDS.md#disproof-of-morels-purity-conjecture-algebraic-k-theory--motivic-homotopy) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2611.00017) |
+| [Deterministic subexponential integer factorization (Rudich–Rousseau conjecture)](TRENDS.md#deterministic-subexponential-integer-factorization-rudichrousseau-conjecture) | 🌱 seed | [2026-11-02](https://hexagonmath.org/2610.00711) |
+| [Proof of Bergeron's Hook-Components and Coefficient-Length conjectures (diagonal harmonics)](TRENDS.md#proof-of-bergerons-hook-components-and-coefficient-length-conjectures-diagonal-harmonics) | 🌱 seed | [2026-10-31](https://arxiv.org/abs/2611.00629) |
+| [Resolution of Shokurov's conic-bundle rationality conjecture (algebraic geometry)](TRENDS.md#resolution-of-shokurovs-conic-bundle-rationality-conjecture-algebraic-geometry) | 🌱 seed | [2026-10-30](https://arxiv.org/abs/2610.41174) |
 | [Advances in poset linear-extension theory (Kahn-Saks conjecture resolved; first 1/3-2/3 conjecture progress in 30 years)](TRENDS.md#advances-in-poset-linear-extension-theory-kahn-saks-conjecture-resolved-first-13-23-conjecture-progress-in-30-years) | 🌱 seed | [2026-10-28](https://arxiv.org/abs/2609.30895) |
 | [A counterexample to the Optimality Conjecture in convex quantum channel optimization](TRENDS.md#a-counterexample-to-the-optimality-conjecture-in-convex-quantum-channel-optimization) | 🌱 seed | [2026-10-28](https://quantum-journal.org/papers/q-2026-10-28-2253/) |
-| [A strongly aperiodic monotile in three dimensions ("Chair44", Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)](TRENDS.md#a-strongly-aperiodic-monotile-in-three-dimensions-chair44-tsiokos-rapid-expert-corroboration-by-flicker-and-goodman-strauss) | 🌱 seed | [2026-10-27]() |
+| [A strongly aperiodic monotile in three dimensions ("Chair44", Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)](TRENDS.md#a-strongly-aperiodic-monotile-in-three-dimensions-chair44-tsiokos-rapid-expert-corroboration-by-flicker-and-goodman-strauss) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2609.19214) |
 | [Independent same-day AI claims refuting the Exponential Time Hypothesis (OpenAI + Anthropic)](TRENDS.md#independent-same-day-ai-claims-refuting-the-exponential-time-hypothesis-openai--anthropic) | 🌱 seed | [2026-10-27](https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/) |
-| [Resolution of the Morgan–Mullen conjecture (completely normal primitive elements in finite fields)](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) | 🌱 seed | [2026-10-27]() |
-| [Resolution of the Bialostocki–Lotspeich conjecture (zero-sum-subsequence enumeration)](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) | 🌱 seed | [2026-10-27]() |
-| [Resolution of the Birkhoff–Pierce question on lattice-ordered fields (compatible lattice order on ℂ)](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-) | 🌱 seed | [2026-10-27]() |
-| [Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) | 🌱 seed | [2026-10-25]() |
+| [Resolution of the Morgan–Mullen conjecture (completely normal primitive elements in finite fields)](TRENDS.md#resolution-of-the-morganmullen-conjecture-completely-normal-primitive-elements-in-finite-fields) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.36534) |
+| [Resolution of the Bialostocki–Lotspeich conjecture (zero-sum-subsequence enumeration)](TRENDS.md#resolution-of-the-bialostockilotspeich-conjecture-zero-sum-subsequence-enumeration) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37125) |
+| [Resolution of the Birkhoff–Pierce question on lattice-ordered fields (compatible lattice order on ℂ)](TRENDS.md#resolution-of-the-birkhoffpierce-question-on-lattice-ordered-fields-compatible-lattice-order-on-) | 🌱 seed | [2026-10-27](https://arxiv.org/abs/2610.37155) |
+| [Resolution of the Golomb–Welch conjecture (perfect Lee codes in $\mathbb{Z}^n$)](TRENDS.md#resolution-of-the-golombwelch-conjecture-perfect-lee-codes-in-mathbbzn) | 🌱 seed | [2026-10-25](https://arxiv.org/abs/2610.34291) |
 | [Resolution of the Propeller Conjecture (Khot–Naor 2008): OpenAI claim + independent human simplification (Heilman)](TRENDS.md#resolution-of-the-propeller-conjecture-khotnaor-2008-openai-claim--independent-human-simplification-heilman) | 🌱 seed | [2026-10-23](https://arxiv.org/abs/2610.32158) |
-| [Disproof of Barry Simon's L² conjecture (Schrödinger-operator spectral theory, LLM-assisted)](TRENDS.md#disproof-of-barry-simons-l-conjecture-schrdinger-operator-spectral-theory-llm-assisted) | 🌱 seed | [2026-10-22]() |
-| [Resolution of the Gauss–Fourier conjecture (critical points of rational functions)](TRENDS.md#resolution-of-the-gaussfourier-conjecture-critical-points-of-rational-functions) | 🌱 seed | [2026-10-22]() |
-| [AI-claimed resolution of the percolation-criticality conjecture (Benjamini–Schramm; Claude and OpenAI, independently)](TRENDS.md#ai-claimed-resolution-of-the-percolation-criticality-conjecture-benjaminischramm-claude-and-openai-independently) | 🌱 seed | [2026-10-21](https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md) |
-| [Disproof of Hochster's small Cohen-Macaulay conjecture / negative resolution of the Eisenbud-Schreyer-Weyman Ulrich-bundle question](TRENDS.md#disproof-of-hochsters-small-cohen-macaulay-conjecture--negative-resolution-of-the-eisenbud-schreyer-weyman-ulrich-bundle-question) | 🌱 seed | [2026-10-21]() |
-| [Resolution of the linear MDS conjecture in even characteristic (coding theory)](TRENDS.md#resolution-of-the-linear-mds-conjecture-in-even-characteristic-coding-theory) | 🌱 seed | [2026-10-20]() |
-| [Proof of the double-cap conjecture (Witsenhausen's problem / Kalai's sphere-measure conjecture)](TRENDS.md#proof-of-the-double-cap-conjecture-witsenhausens-problem--kalais-sphere-measure-conjecture) | 🌱 seed | [2026-10-20]() |
-| [Proof of the Erdős–Szemerédi sunflower conjecture (Bucić–He–Lee)](TRENDS.md#proof-of-the-erdsszemerdi-sunflower-conjecture-bucihelee) | 🌱 seed | [2026-10-19]() |
-| [First observation of weak magnetism in neutron decay (Camarasa-Domene–González-Alonso–Novoa-Brunet)](TRENDS.md#first-observation-of-weak-magnetism-in-neutron-decay-camarasa-domenegonzlez-alonsonovoa-brunet) | 🌱 seed | [2026-10-19]() |
-| [Resolution of the 1985 Neumann–Zagier conjecture (hyperbolic 3-manifolds)](TRENDS.md#resolution-of-the-1985-neumannzagier-conjecture-hyperbolic-3-manifolds) | 🌱 seed | [2026-10-19]() |
-| [The spacetime Penrose conjecture (mathematical general relativity)](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) | 🌱 seed | [2026-10-14]() |
-| [A counterexample to the conjecture of Drézet and Ballico-Ellia (uniform vector bundles)](TRENDS.md#a-counterexample-to-the-conjecture-of-drzet-and-ballico-ellia-uniform-vector-bundles) | 🌱 seed | [2026-10-14]() |
-| [A starlike counterexample to the hot spots conjecture (Atar–Burdzy)](TRENDS.md#a-starlike-counterexample-to-the-hot-spots-conjecture-atarburdzy) | 🌱 seed | [2026-10-14]() |
-| [The Bapat-Sunder eigenvalue conjecture (1986) resolved negatively over both fields](TRENDS.md#the-bapat-sunder-eigenvalue-conjecture-1986-resolved-negatively-over-both-fields) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2611.23269) |
+| [Disproof of Barry Simon's L² conjecture (Schrödinger-operator spectral theory, LLM-assisted)](TRENDS.md#disproof-of-barry-simons-l-conjecture-schrdinger-operator-spectral-theory-llm-assisted) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.31637) |
+| [Resolution of the Gauss–Fourier conjecture (critical points of rational functions)](TRENDS.md#resolution-of-the-gaussfourier-conjecture-critical-points-of-rational-functions) | 🌱 seed | [2026-10-22](https://arxiv.org/abs/2610.30620) |
+| [AI-claimed resolution of the percolation-criticality conjecture (Benjamini–Schramm; Claude and OpenAI, independently)](TRENDS.md#ai-claimed-resolution-of-the-percolation-criticality-conjecture-benjaminischramm-claude-and-openai-independently) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30063) |
+| [Disproof of Hochster's small Cohen-Macaulay conjecture / negative resolution of the Eisenbud-Schreyer-Weyman Ulrich-bundle question](TRENDS.md#disproof-of-hochsters-small-cohen-macaulay-conjecture--negative-resolution-of-the-eisenbud-schreyer-weyman-ulrich-bundle-question) | 🌱 seed | [2026-10-21](https://arxiv.org/abs/2610.30027) |
+| [Resolution of the linear MDS conjecture in even characteristic (coding theory)](TRENDS.md#resolution-of-the-linear-mds-conjecture-in-even-characteristic-coding-theory) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.28208) |
+| [Proof of the double-cap conjecture (Witsenhausen's problem / Kalai's sphere-measure conjecture)](TRENDS.md#proof-of-the-double-cap-conjecture-witsenhausens-problem--kalais-sphere-measure-conjecture) | 🌱 seed | [2026-10-20](https://arxiv.org/abs/2610.27523) |
+| [Proof of the Erdős–Szemerédi sunflower conjecture (Bucić–He–Lee)](TRENDS.md#proof-of-the-erdsszemerdi-sunflower-conjecture-bucihelee) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.26686) |
+| [First observation of weak magnetism in neutron decay (Camarasa-Domene–González-Alonso–Novoa-Brunet)](TRENDS.md#first-observation-of-weak-magnetism-in-neutron-decay-camarasa-domenegonzlez-alonsonovoa-brunet) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.26792) |
+| [Resolution of the 1985 Neumann–Zagier conjecture (hyperbolic 3-manifolds)](TRENDS.md#resolution-of-the-1985-neumannzagier-conjecture-hyperbolic-3-manifolds) | 🌱 seed | [2026-10-19](https://arxiv.org/abs/2610.27095) |
+| [The spacetime Penrose conjecture (mathematical general relativity)](TRENDS.md#the-spacetime-penrose-conjecture-mathematical-general-relativity) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.20559) |
+| [A counterexample to the conjecture of Drézet and Ballico-Ellia (uniform vector bundles)](TRENDS.md#a-counterexample-to-the-conjecture-of-drzet-and-ballico-ellia-uniform-vector-bundles) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.20208) |
+| [A starlike counterexample to the hot spots conjecture (Atar–Burdzy)](TRENDS.md#a-starlike-counterexample-to-the-hot-spots-conjecture-atarburdzy) | 🌱 seed | [2026-10-14](https://arxiv.org/abs/2610.19908) |
+| [The Bapat-Sunder eigenvalue conjecture (1986) resolved negatively over both fields](TRENDS.md#the-bapat-sunder-eigenvalue-conjecture-1986-resolved-negatively-over-both-fields) | 🌱 seed | [2026-10-14](surfaced) |
 | [Proof of the Erdős–Simonovits rational exponents conjecture (Epoch AI model, human-verified)](TRENDS.md#proof-of-the-erdssimonovits-rational-exponents-conjecture-epoch-ai-model-human-verified) | 🌱 seed | [2026-10-13](https://arxiv.org/abs/2610.18713) |
 | [First detection of the rotational kinematic Sunyaev–Zel'dovich effect (Goldstein–Hill)](TRENDS.md#first-detection-of-the-rotational-kinematic-sunyaevzeldovich-effect-goldsteinhill) | 🌱 seed | [2026-10-13](https://link.aps.org/doi/10.1103/lz37-crg1) |
-| [Refutation of the 3SUM and APSP hypotheses (Alman–Vassilevska Williams, Claude-discovered)](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-11](https://hexagonmath.org/2611.00388v1) |
+| [Refutation of the 3SUM and APSP hypotheses (Alman–Vassilevska Williams, Claude-discovered)](TRENDS.md#refutation-of-the-3sum-and-apsp-hypotheses-almanvassilevska-williams-claude-discovered) | 🌱 seed | [2026-10-11](https://arxiv.org/abs/2610.15663) |
 | [Disproof of Vaught's Conjecture for infinitary logic (Ackerman–Freer–Knight, AI-assisted, Lean-verified)](TRENDS.md#disproof-of-vaughts-conjecture-for-infinitary-logic-ackermanfreerknight-ai-assisted-lean-verified) | 🌱 seed | [2026-10-10](https://arxiv.org/abs/2610.15217) |
 | [Inhomogeneous Duffin-Schaeffer conjecture disproved (two independent groups)](TRENDS.md#inhomogeneous-duffin-schaeffer-conjecture-disproved-two-independent-groups) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2609.30870) |
-| [AI-assisted Lean formalization of the Hamilton–Perelman proof of the Poincaré Conjecture (two independent efforts)](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincar-conjecture-two-independent-efforts) | 🌱 seed | [2026-10-09]() |
-| [Proof of the hyperkähler SYZ conjecture (Engel–Mauri)](TRENDS.md#proof-of-the-hyperkhler-syz-conjecture-engelmauri) | 🌱 seed | [2026-10-08]() |
-| [GW231123 — the most massive binary black-hole merger yet detected (LIGO–Virgo–KAGRA)](TRENDS.md#gw231123--the-most-massive-binary-black-hole-merger-yet-detected-ligovirgokagra) | 🌱 seed | [2026-10-08]() |
-| [Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)](TRENDS.md#proof-of-the-lebrunsalamon-conjecture-quaternionic-khler-geometry) | 🌱 seed | [2026-10-07]() |
-| [First operating thorium-229 nuclear clocks (Vienna + Beijing, independent teams)](TRENDS.md#first-operating-thorium-229-nuclear-clocks-vienna--beijing-independent-teams) | 🌱 seed | [2026-10-07]() |
+| [AI-assisted Lean formalization of the Hamilton–Perelman proof of the Poincaré Conjecture (two independent efforts)](TRENDS.md#ai-assisted-lean-formalization-of-the-hamiltonperelman-proof-of-the-poincar-conjecture-two-independent-efforts) | 🌱 seed | [2026-10-09](https://arxiv.org/abs/2610.13897) |
+| [Proof of the hyperkähler SYZ conjecture (Engel–Mauri)](TRENDS.md#proof-of-the-hyperkhler-syz-conjecture-engelmauri) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12277) |
+| [GW231123 — the most massive binary black-hole merger yet detected (LIGO–Virgo–KAGRA)](TRENDS.md#gw231123--the-most-massive-binary-black-hole-merger-yet-detected-ligovirgokagra) | 🌱 seed | [2026-10-08](https://arxiv.org/abs/2610.12205) |
+| [Proof of the LeBrun–Salamon conjecture (quaternionic-Kähler geometry)](TRENDS.md#proof-of-the-lebrunsalamon-conjecture-quaternionic-khler-geometry) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10410) |
+| [First operating thorium-229 nuclear clocks (Vienna + Beijing, independent teams)](TRENDS.md#first-operating-thorium-229-nuclear-clocks-vienna--beijing-independent-teams) | 🌱 seed | [2026-10-07](https://arxiv.org/abs/2610.10056) |
 | [2026 Nobel Prize in Physics — Francis Halzen / IceCube astrophysical neutrinos](TRENDS.md#2026-nobel-prize-in-physics--francis-halzen--icecube-astrophysical-neutrinos) | 🌱 seed | [2026-10-06](https://www.nobelprize.org/prizes/physics/2026/press-release/) |
-| [Proof of the Linear Hadwiger Conjecture (Norin–Steiner, GPT-6 Astra-assisted)](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) | 🌱 seed | [2026-10-04]() |
+| [Proof of the Linear Hadwiger Conjecture (Norin–Steiner, GPT-6 Astra-assisted)](TRENDS.md#proof-of-the-linear-hadwiger-conjecture-norinsteiner-gpt-6-astra-assisted) | 🌱 seed | [2026-10-04](https://arxiv.org/abs/2610.05291) |
 | [Resolution of Lehmer's 1965 permutation conjecture (neighbor-swap Hamiltonicity)](TRENDS.md#resolution-of-lehmers-1965-permutation-conjecture-neighbor-swap-hamiltonicity) | 🌱 seed | [2026-10-02](https://arxiv.org/abs/2610.01240) |
 | [The Hopf problem — a complex structure on S⁶ (Alpöge/Claude, 1947 problem)](TRENDS.md#the-hopf-problem--a-complex-structure-on-s-alpgeclaude-1947-problem) | 🌱 seed | [2026-09-27](https://arxiv.org/abs/2609.33785) |
-| [Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 🌱 seed | [2026-09-25]() |
-| [Proof of the Cassels–Swinnerton-Dyer conjecture for smooth cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25]() |
+| [Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 🌱 seed | [2026-09-25](a) |
+| [Proof of the Cassels–Swinnerton-Dyer conjecture for smooth cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 🌱 seed | [2026-09-25](https://arxiv.org/abs/2609.15930) |
 | [Counterexample to the Ehlers–Kundt conjecture (gravitational pp-wave spacetimes)](TRENDS.md#counterexample-to-the-ehlerskundt-conjecture-gravitational-pp-wave-spacetimes) | 🌱 seed | [2026-09-24](https://arxiv.org/abs/2609.30419) |
-| [Proof of Samuels' Conjecture and Feige's Conjecture (tail bounds for sums of independent nonnegative variables)](TRENDS.md#proof-of-samuels-conjecture-and-feiges-conjecture-tail-bounds-for-sums-of-independent-nonnegative-variables) | 🌱 seed | [2026-08-18]() |
+| [Proof of Samuels' Conjecture and Feige's Conjecture (tail bounds for sums of independent nonnegative variables)](TRENDS.md#proof-of-samuels-conjecture-and-feiges-conjecture-tail-bounds-for-sums-of-independent-nonnegative-variables) | 🌱 seed | [2026-08-18](https://arxiv.org/abs/2608.18392) |
 | [M23 realized as a Galois group over Q, completing the inverse Galois problem for sporadic groups (Huang–Jackson–Lee–Poonen–Pries–Zhang)](TRENDS.md#m23-realized-as-a-galois-group-over-q-completing-the-inverse-galois-problem-for-sporadic-groups-huangjacksonleepoonenprieszhang) | 🌱 seed | [2026-08-09](https://arxiv.org/abs/2608.08538) |
-| [Proof of Rump's Retraction Conjecture (1978) for quasilinear cycle sets](TRENDS.md#proof-of-rumps-retraction-conjecture-1978-for-quasilinear-cycle-sets) | 🌱 seed | [2026-07-09](https://arxiv.org/abs/2607.08609) |
+| [Proof of Rump's Retraction Conjecture (1978) for quasilinear cycle sets](TRENDS.md#proof-of-rumps-retraction-conjecture-1978-for-quasilinear-cycle-sets) | 🌱 seed | [2026-07-09](surfaced) |
 | [Disproof of the Erdős–Szemerédi sum-product conjecture (Bloom–Sawin–Schildkraut–Zhelezov)](TRENDS.md#disproof-of-the-erdsszemerdi-sum-product-conjecture-bloomsawinschildkrautzhelezov) | 🌱 seed | [2026-05-27](https://arxiv.org/abs/2605.28781) |
 | [Disproof of the Erdős unit-distance conjecture (OpenAI model, human-verified by Alon et al.)](TRENDS.md#disproof-of-the-erds-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://arxiv.org/abs/2605.20695) |
 | [Resolution of Graham's rearrangement conjecture (additive combinatorics)](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
 | [Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 💤 dormant | [2026-09-15](https://arxiv.org/abs/2404.02244) |
-| [First evidence that X(2370) is dominantly a glueball (BESIII Collaboration)](TRENDS.md#first-evidence-that-x2370-is-dominantly-a-glueball-besiii-collaboration) | 💤 dormant | [2026-09-01](https://arxiv.org/abs/2607.20366) |
+| [First evidence that X(2370) is dominantly a glueball (BESIII Collaboration)](TRENDS.md#first-evidence-that-x2370-is-dominantly-a-glueball-besiii-collaboration) | 💤 dormant | [2026-09-01](https://arxiv.org/abs/2609.01342) |
 | [Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.26364) |
 
 ## Worth studying
 
-- 2026-11-19 — [Finite-Time Blowup for Navier-Stokes with Smooth Forcing, Part I](https://arxiv.org/abs/2609.35406) —
-  Zhen Lei and Xiao Ren's independent, readable reconstruction of the profile-construction core of
-  OpenAI's claimed Navier-Stokes Millennium-Prize proof, by an established Navier-Stokes
-  researcher who states plainly "we regard OpenAI's work as a major advance" — worth reading as
-  the first real mathematical engagement (not just commentary) with this radar's single biggest
-  tracked claim. Opened directly via arXiv this session; found via MathHelm, a new source.
-- 2026-11-19 — [Uniform Spectral Gap for the AKLT Model on the Square Lattice](https://hexagonmath.org/2611.00580v1) —
-  a claimed resolution of the long-open 2D-square-lattice case of the AKLT spectral-gap conjecture
-  (1988); worth knowing about given the problem's fame, but read with EXTREME caution — hexagonmath,
-  unrefereed, "Human understanding: no parts." Opened directly via `WebFetch` this session.
-- 2026-11-18 — [Power loss for the local Mizohata–Takeuchi estimate on smooth hypersurfaces](https://arxiv.org/abs/2611.22465) —
-  Hannah Cairo and five co-authors disprove the local Mizohata–Takeuchi conjectures for the
-  paraboloid and sphere, a finer sibling of the general conjecture Cairo already disproved last
-  year — worth knowing both for the Fourier-restriction-theory implications and as her second
-  landmark result on this ledger. Found via today's mandatory math.CA full-abstract pass
-  (title-blind); abstract opened directly via arXiv this session.
-- 2026-11-18 — [The Minimal Model Program, formalized in Lean](https://axiommath.ai/research/the-minimal-model-program-formalized/) —
-  AxiomMath's claimed ~2.1-million-line Lean formalization of the Minimal Model Program in
-  dimensions 2–4, folding in OpenAI's claimed resolution of the remaining 4-dimensional cases —
-  worth knowing as a large-scale formalization artifact algebraic geometers will want to
-  evaluate, though EXTREME caution applies (new org, no independent verification yet; see new
-  seed trend). Opened directly via `WebFetch` this session.
-- 2026-11-17 — [DES final-dataset cosmology results](https://arxiv.org/abs/2605.27221) (Dark
-  Energy Survey collaboration, combined with DESI + CMB) — an independent flagship survey's own
-  analysis finding a ~3σ preference for evolving dark energy over ΛCDM, with the CMB/clumping/
-  supernova datasets disagreeing pairwise in a way not traceable to any one of them — essential
-  context for the DESI dynamical-dark-energy story now promoted to this ledger's own multi-group
-  trend. Discovered via a Quanta/Fermilab-syndicated pointer, arXiv abstract opened directly via
-  `WebFetch` this session.
-- 2026-11-17 — [Full resolution of the Osserman (1990) conjecture](https://hexagonmath.org/2611.00544v1) —
-  a genuine, 36-year-old differential-geometry conjecture (Riemannian manifolds with
-  direction-independent Jacobi-operator eigenvalues are flat or locally rank-one symmetric),
-  closed by resolving its last remaining algebraic case (Nikolayevsky's 2009 reduction) — worth
-  knowing about REGARDLESS of its unrefereed, AI-assisted, single-submitter provenance (see this
-  ledger's EXTREME-caution flag on the trend itself): a notable claim researchers in the field
-  will likely encounter and want to evaluate independently. Opened directly via hexagonmath
-  RSS/`WebFetch` this session.
-- 2026-11-16 — [MathHelm](https://mathhelm.org/) (guest-announced on Terence Tao's "What's new") —
-  a new nonprofit forum for mathematicians to discuss AI-generated papers (born directly from
-  OpenAI's Oct 6 722-manuscript release), open worldwide, real-name registration, no stance for
-  or against AI, prohibits using forum content to train AI — worth knowing as new axis-5
-  vetting-status infrastructure directly relevant to this ledger's own hype-skepticism tracking
-  (same class as the already-tracked mathcommunity.github.io/oai-math-revised). Opened directly
-  via the Tao-blog post this session (mathhelm.org itself not independently verified this
-  session — staged in SOURCES.md, chase on next sighting).
-- 2026-11-16 — [Validation of the OpenAI Yang–Mills construction](https://github.com/yang-mills-group/YM/blob/main/docs/assessment-1.pdf)
-  (the shepherding committee, Nov 10) — the actual document resolving this ledger's longest-
-  running top-priority chase item: a primary-sourced, precise statement of what the Oct 28 Lean
-  submission does and does not establish (weak existence via compactness; no mass gap, no
-  uniqueness) — essential reading for anyone following the Yang–Mills Millennium Problem story,
-  and a model of how a vetting committee should state scope precisely. Read directly via
-  `pdftotext` this session (see the Yang-Mills trend for full context).
-- 2026-11-13 — [Euler's 1747 conjecture on sums of integers with restricted prime factors](https://hexagonmath.org/2611.00370v1) —
-  a genuine 279-year-old conjecture (Euler to Goldbach, 1747), fully resolved: every integer ≡2
-  mod 4 is a sum of two integers whose prime factors are all ≡1 mod 4, closed via quaternionic
-  Hecke bounds plus a finite arithmetic certificate — worth knowing as a clean, complete result
-  in a session otherwise dominated by partial progress and AI-claimed/unrefereed landmarks.
-  Opened directly this session.
-- 2026-11-12 — [Osterwalder–Schrader axioms for scalar QED₃ in the Higgs phase](https://hexagonmath.org/2611.00321v1)
-  (Goldstein, Guevara) — a rare rigorous constructive-QFT result: verifies the
-  Osterwalder–Schrader axioms for the 3D lattice abelian Higgs model in the continuum limit —
-  worth knowing as a genuine rigor achievement in a field dominated by non-rigorous/AI-claimed
-  results this session; opened directly this session.
-- 2026-11-11 — [Cluster Algebras, formalized in Lean](https://axiommath.ai/research/cluster-algebras-formalized-in-lean)
-  (AxiomMath) — a Lean library covering the first seven chapters of Fomin–Williams–Zelevinsky's
-  "Introduction to Cluster Algebras," continuing AxiomMath's formalization-of-foundational-texts
-  pattern (Stacks Project, Weil conjectures, CFSG) — opened directly this session.
-- 2026-11-10 — [Z is Diophantine in Q](https://github.com/elliotglazer/diophantine-z-q) — Glazer
-  et al.'s claimed disproof of Mazur's 1992 finite-components conjecture and independent second
-  route to a negative resolution of Hilbert's Tenth Problem over ℚ — worth knowing as the story,
-  not as confirmed mathematics (EXTREME caution tier, Lean formalization incomplete; see new seed
-  trend). Opened directly via `WebFetch` this session.
-- 2026-11-06 — [The Weil conjectures, formalized in Lean](https://axiommath.ai/research/the-weil-conjectures-formalized-in-lean/) —
-  AxiomMath's sorry-free Lean formalization of Deligne's four Weil conjectures (rationality,
-  functional equation, Betti-number comparison, Riemann-hypothesis-analogue bound), reusing its
-  own Stacks Project formalization — worth knowing for anyone tracking the formalized-mathematics
-  frontier (axis 5), though EXTREME-caution tier pending outside review (see new seed trend).
-  Opened directly via `WebFetch` this session.
-- 2026-11-05 — [A Note On Lattice Definition of Gauge Theories With Chiral Fermions](https://arxiv.org/abs/2611.05051) —
-  Edward Witten's own engagement with Nathaniel Craig's candidate nonperturbative lattice
-  definition of chiral gauge theories (the Standard Model's gauge structure): a variant
-  construction, a flagged practical obstruction (non-positive path integral blocks Monte Carlo),
-  and a nod to Claude Opus 5.5 for technical help — essential reading for anyone following the
-  lattice-chiral-fermion story. Abstract verified via arXiv API this session.
-- 2026-11-05 — [The Stacks Project, formalized in Lean](https://stacks.axiommath.ai/) — a new
-  Lean/Mathlib formalization of the Stacks Project, the standard reference for modern algebraic
-  geometry, with a dependency graph and a human-reviewed/AI-written two-tier contribution model —
-  worth knowing for anyone tracking the formalized-mathematics frontier (axis 5). Opened directly
-  via `WebFetch` this session.
-- 2026-11-04 — [Statement by the shepherding committee on OpenAI's Yang–Mills proof](https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf) —
-  Douglas, Gross (chair), Jaffe, Klebanov, Nekrasov's own account of how they are vetting OpenAI's
-  claimed Yang–Mills existence proof before release: existence only (mass gap still open), still
-  validating the Lean formalization, 1147-page manuscript pending release — essential reading for
-  anyone following the field's single highest-magnitude open claim. Read directly via `pdftotext`
-  this session.
-- 2026-11-04 — [On the abc conjecture](https://arxiv.org/abs/2611.05217) — Christophe Soulé
-  proves a weak form of the abc conjecture and a genus-two case of Vojta's conjecture via adelic
-  intersection theory, following a method envisioned by Parshin and Moret-Bailly — a rare piece
-  of genuine forward motion, by a highly credible author, on one of number theory's most famous
-  (and most hype-scarred) open problems. Abstract verified via arXiv API this session.
-- 2026-11-03 — [Proof of the entropic $c$-theorem](https://arxiv.org/abs/2610.40874) — Jonah
-  Kudler-Flam's new proof of Zamolodchikov's c-theorem in 2D QFT, building a $c$-function from
-  mutual information between spacelike-separated wedges via relative entropy (following
-  Casini–Huerta, replacing strong subadditivity with an entropic argument that needs no UV
-  cutoff) — an elegant, modern entanglement-entropy technique a mathematical-physicist should
-  know, caught via today's math category-rotation sweep (cross-listed hep-th/math-ph). Abstract +
-  author verified via direct arXiv abstract page this session.
-- 2026-10-30; shelf-added 2026-11-02 — [Report of the Summit on Math Research in the Age of
-  AI](https://terrytao.wordpress.com/2026/10/30/__trashed/) — a guest post by the summit's
-  organizers (Dan Freed, Larry Guth, Bryna Kra, Emily Riehl, Mohammed Abouzaid) on Terence Tao's
-  blog; alongside Frank Calegari's "Mathematics has changed. Let's act like it"
-  (https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/) and a UK
-  Academy for the Mathematical Sciences report, the clearest single read this week on how the
-  working-mathematician community is organizing its response to the AI-disclosure wave; see the
-  OpenAI mass-disclosure trend's 2026-11-02 note.
-- 2026-10-27; shelf-added 2026-10-28 — [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) —
-  a claimed complete Lean 4 formalization of the Classification of Finite Simple Groups, ~43.1M
-  lines, surfacing a genuine gap in the published Unbalanced Group Theorem proof; EXTREME caution
-  (new, self-published org, no independent verification yet) but a working mathematician tracking
-  the frontier should know this exists and is being discussed; see new seed trend.
-- 2026-10-26; shelf-added 2026-10-27 — [Working with academic communities to build scientific
-  understanding (OpenAI)](https://openai.com/index/building-scientific-understanding-with-academic-communities/)
-  — OpenAI's announced (not yet public) claimed proof of Yang–Mills existence and a QCD/Standard-
-  Model completion — if the mass-gap scope holds up, this is a Clay Millennium Prize Problem claim;
-  see new seed trend and Peter Woit's critical same-day read.
-- 2026-10-25/26; shelf-added 2026-10-27 — [Independent same-day Exponential-Time-Hypothesis
-  refutation claims (Anthropic via hexagonmath.org/2610.00577; OpenAI via github.com/openai/math
-  #378)](https://github.com/anthropics/formal-math/blob/main/eth) — two AI labs, same week, same
-  foundational complexity hypothesis, each with a Lean-checked claim; see new seed trend.
-- 2026-10-10 (v1); shelf-added 2026-10-26 — [A counterexample to Vaught's Conjecture for
-  $L_{\omega_1,\omega}$ (Ackerman, Freer, Knight)](https://arxiv.org/abs/2610.15217) — completes
-  Robin Knight's 24-year-old (2002) construction disproving Vaught's famous 1961 conjecture for
-  infinitary logic, with heavy AI-coding-agent assistance (Claude Code, Codex, GPT) in the Lean
-  formalization, Comparator-checked and on the Palomar Registry; see new seed trend.
-- 2026-10-23 (v1); shelf-added 2026-10-26 — [On the Propeller Conjecture
-  (Steven Heilman)](https://arxiv.org/abs/2610.32158) — an independent human simplification,
-  sharpening, and de-computerization of OpenAI's AI-generated proof of Khot and Naor's 2008
-  propeller conjecture (which underlies a Unique-Games-based NP-hardness result for clustering); a
-  clean example of productive human engagement with an AI math claim. See new seed trend.
-- 2026-10-22 (v1); shelf-added 2026-10-23 — [Simple and critical zeros of the Riemann zeta-function
-  (Caroline Turnage-Butterbaugh, guest post on Terence Tao's blog)](https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/)
-  — the clearest single exposition on file of the full history and current vetting state of the
-  "≥2/3 of zeta zeros are simple and on the critical line" result (Levinson through Claude/
-  Anthropic, Lamzouri, and this session's new Guo elementary-proof lead); a model survey for a
-  researcher wanting the whole picture in one place.
-- 2026-10-22 (v1); shelf-added 2026-10-23 — [The classification of smooth 3-fold flops
-  (Gavin Brown, Michael Wemyss)](https://arxiv.org/abs/2610.31073) — a complete analytic
-  classification of simple 3-fold flops via their contraction algebras, from two established
-  birational geometers; a foundational advance in the minimal model program, held below the trend
-  bar (no single named conjecture resolved) but worth a researcher's attention on its own.
-- 2026-10-21 (v1); shelf-added 2026-10-22 — [On OpenAI's proof of the Nagata conjecture
-  (Jenia Tevelev)](https://arxiv.org/abs/2610.30050) — a leading algebraic geometer's own
-  non-expert-accessible exposition of an AI-claimed proof of the 1959 Nagata conjecture (plane-curve
-  interpolation / Seshadri constants), one result-family within OpenAI's October mass disclosure;
-  a model of how to responsibly digest an AI claim into the literature.
-- 2026-10-04/2026-09-24 (v1); shelf-added 2026-10-22 — [Independent AI-lab convergence on the
-  percolation-criticality conjecture (Claude/Anthropic and OpenAI)](https://github.com/openai/math)
-  — two separate frontier models independently resolved the same landmark open problem
-  (Benjamini–Schramm criticality) within three weeks of each other, via different routes; see new
-  seed trend for the full picture and the standing vetting caveats.
-- 2026-10-20 (v1); shelf-added 2026-10-21 — [A proof of the double-cap conjecture
-  (Ibiapina, Gomes, Pio, Belo, Ferreira)](https://arxiv.org/abs/2610.27523) — settles Witsenhausen's
-  1974 problem / Kalai's 2009 conjecture on orthogonal-pair-free subsets of the sphere, with a
-  direct consequence for the measurable chromatic number of Euclidean space; see new seed trend.
-- 2026-10-19 (v1); shelf-added 2026-10-21 — [Tree Lattices and the Neumann-Zagier conjecture
-  (Greene, Issa, McCoy)](https://arxiv.org/abs/2610.27095) — resolves a 1985 conjecture in
-  low-dimensional topology via a new rigidity theorem for tree lattices; see new seed trend.
-- 2026-10-19 (v1); shelf-added 2026-10-20 — [Proof of the Erdős-Szemerédi sunflower conjecture
-  (Bucić, He, Lee)](https://arxiv.org/abs/2610.26686) — resolves a famous 1970s Erdős conjecture in
-  full for every $k\ge3$, directly continuing the celebrated cap-set/polynomial-method breakthrough
-  that settled the $k=3$ case; see new seed trend.
-- 2026-09-16 (v1); shelf-added 2026-10-20 — [A Strongly Aperiodic Monotile in Three Dimensions
-  ("Chair44," Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)](https://arxiv.org/abs/2609.19214)
-  — the 3D analogue of the celebrated 2023 2D "einstein" tile, with the co-discoverer of that
-  original result (Goodman-Strauss) posting his own clarifying presentation of the same
-  construction within days; see new seed trend for the full AI-provenance/reception caveats.
-- 2026-01-05 (v1); shelf-added 2026-10-19 — [Resummation of the C-Parameter Sudakov Shoulder Using
-  Effective Field Theory (Schwartz)](https://arxiv.org/abs/2601.02484) — a new factorization
-  theorem for a QCD precision-calculation problem, notable both on its own physics merits and as a
-  genuine (AI-assisted-but-human-steered) axis-5 case study; see queue entry above for the
-  AI-watch framing.
-- 2026-08-09 (v1); shelf-added 2026-10-16 — [The Mathieu group M23 is a Galois group over ℚ
-  (Huang, Jackson, Lee, Poonen, Pries, Zhang)](https://arxiv.org/abs/2608.08538) — completes a
-  ~40-year program, realizing the last of the 26 sporadic finite simple groups as a Galois group
-  over ℚ via an explicit degree-23 polynomial; see new seed trend (backfilled capture-leak
-  closure).
-- 2026-10-15 (v1); shelf-added 2026-10-16 — [A Proof of the Area Vanishing Square Peg Conjecture
-  (Valerio)](https://arxiv.org/abs/2610.21076) — resolves a Tao-posed open problem via Lagrangian
-  Floer homology, an elegant cross-pollination of symplectic topology into a classical planar-
-  geometry question; see new seed trend.
-- 2026-10-14 (v1); shelf-added 2026-10-15 — [Proof of the Penrose Conjecture for Maximally
-  Parameterized Initial Data Sets (Bray, Dolmen, Khuri, Schmidt)](https://arxiv.org/abs/2610.20559)
-  — unconditional resolution of a ~50-year-old conjecture in mathematical GR for a broad class of
-  data, by one of the 2001 Riemannian case's original provers; explicitly engages with OpenAI's
-  concurrent general-case AI claim — see new seed trend.
-- 2026-10-14 (v1); shelf-added 2026-10-15 — [A starlike 3-dimensional counterexample to the hot
-  spots conjecture (Atar, Burdzy)](https://arxiv.org/abs/2610.19908) — extends the refutation of
-  Rauch's hot spots conjecture to simply-connected (starlike) domains, by the author of the
-  original 1999 counterexample; see new seed trend.
-- 2026-10-13; shelf-added 2026-10-14 — [Evidence of galaxy cluster rotation in the CMB (Goldstein–Hill)](https://link.aps.org/doi/10.1103/lz37-crg1)
-  — first robust detection of the rotational kinematic Sunyaev–Zel'dovich effect, PRL 137, 161001;
-  clean peer-reviewed first-of-kind, no AI/hype-skepticism caveat; see new seed trend.
-- 2026-10-13; shelf-added 2026-10-14 — [A proof of the rational exponents conjecture](https://arxiv.org/abs/2610.18713)
-  — Erdős–Simonovits's decades-old extremal-graph-theory conjecture, proof claimed by Epoch AI
-  (a third AI org disclosing a major math claim) and human-verified/written up by eight prominent
-  combinatorialists; see new seed trend.
-- 2026-09-30/10-05; shelf-added 2026-10-13 — [OpenAI's quasi-Riemann-Hypothesis claim](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf)
-  — a claimed fixed-width zero-free region (ℜs>7/8, companion ℜs>11/12) for Dirichlet/Hecke
-  L-functions; wholly unrefereed and AI-generated, but the first result of this kind in decades —
-  see new seed trend for the vetting-status watch.
-- 2026-10-06; shelf-added 2026-10-13 — [A gauge-invariant measure for lattice chiral fermions
-  (Craig)](https://arxiv.org/abs/2610.09093) — a candidate nonperturbative lattice definition of
-  the Standard Model, addressing the long-standing chiral-fermion lattice obstruction; see new
-  seed trend.
-- 2026-10-09 (v1); shelf-added 2026-10-12 — [Finiteness of planar central configurations of five
-  bodies for all positive masses (Tomar)](https://arxiv.org/abs/2610.13100) — settles Smale's sixth
-  problem for n=5, closing the exceptional-mass-set gap left by Albouy–Kaloshin (2012); see new
-  seed trend.
-- 2026-03-19 (announced); shelf-added 2026-10-10 — [2026 Abel Prize — Gerd Faltings (Max Planck
-  Institute for Mathematics, Bonn)](https://abelprize.no/) — a towering figure in arithmetic
-  geometry (the Mordell conjecture/Faltings' theorem among his landmark results); COVERAGE-GAP
-  CATCH — this ledger's annual-prize lane had never captured this year's Abel Prize at all until
-  this weekly. Official laureate page opened directly this session.
-- 2026-10-05 (v1); shelf-added 2026-10-09 — [Truly Subquadratic 3SUM and Truly Subcubic APSP via
-  Triangles in Sparse Lopsided Graphs (Alman, Vassilevska Williams)](https://arxiv.org/abs/2610.06783)
-  — refutes the 3SUM and APSP hypotheses; AI-discovered (Claude) and Lean-verified; see new seed
-  trend.
-- 2026-10-08 (v1); shelf-added 2026-10-09 — [Hyperkähler SYZ conjecture (Engel, Mauri)](https://arxiv.org/abs/2610.12277)
-  — full proof of the hyperkähler analogue of the Strominger–Yau–Zaslow conjecture; see new seed
-  trend.
-- 2026-10-07 (v1); shelf-added 2026-10-08 — [A solid-state nuclear clock based on VUV absorption
-  spectroscopy of $^{229}$Th (Wang, Pan, et al.)](https://arxiv.org/abs/2610.10056) — first
-  sustained, operating thorium-229 nuclear clock (30-hour feedback-locked record); see new seed
-  trend.
-- 2026-10-07 (v1); shelf-added 2026-10-08 — [Transverse rational curves and the LeBrun–Salamon
-  conjecture (Hu, Liu, Wan)](https://arxiv.org/abs/2610.10410) — full resolution of a 30-year-old
-  named conjecture in quaternionic-Kähler geometry; see new seed trend.
-- 2026-10-06; shelf-added 2026-10-07 — [2026 Nobel Prize in Physics: Francis Halzen](https://www.nobelprize.org/prizes/physics/2026/press-release/)
-  — "for decisive contributions to the IceCube Neutrino Observatory and the discovery of
-  high-energy neutrinos of astrophysical origin"; see new seed trend.
-- 2026-10-06 (v1); shelf-added 2026-10-07 — [OpenAI's mass math-results release, github.com/openai/math](https://github.com/openai/math)
-  — 722 AI-generated manuscripts/372 result families across 17 fields, including a claimed partial
-  Birch–Swinnerton-Dyer resolution; EXTREME hype-skepticism — see new seed trend.
-- 2026-10-06 (v1); shelf-added 2026-10-07 — [An AI-Assisted Formalization of the Poincaré Conjecture (Zhang, Delaval, et al.)](https://arxiv.org/abs/2610.08329)
-  — second independent AI-assisted Lean formalization of the Hamilton–Perelman proof; see
-  promoted seed trend (with the first effort, arXiv:2609.33842, already shelved 2026-09-29).
-- 2026-10-04 (v1); shelf-added 2026-10-06 — [A Proof of the Linear Hadwiger Conjecture (Norin,
-  Steiner)](https://arxiv.org/abs/2610.05291) — claims full resolution of the linear/asymptotic
-  form of Hadwiger's conjecture (K_t-minor-free graphs are Ct-colorable), by the field's own leading
-  expert (Norin), proof credited to GPT-6 Astra under the authors' direction; EXTREME
-  hype-skepticism caution (2 days old, unrefereed, zero independent engagement yet) — see
-  `observation_queue`, new `seed` trend.
-- 2026-09-22 (PRL publication); shelf-added 2026-10-05 — [Observation of e/4 Charge at ν=1/2 in a
-  Wide GaAs Quantum Well (Alkalay, Hajigeorgiou, Gupta, Senapati, Tiwari, Tai, Singh, Baldwin,
-  Pfeiffer, Shayegan, Banerjee, Heiblum)](http://link.aps.org/doi/10.1103/c73x-q4z7) — peer-reviewed
-  (PRL) shot-noise measurement of e/4-charged quasiparticles in the ν=1/2 fractional quantum Hall
-  state, evidence for a non-Abelian (Pfaffian-class) topological order; same Weizmann (Heiblum)
-  group as the already-shelved/queued ν=5/2 anyon-braiding result — see `observation_queue`.
-- 2026-10-01 (v1); shelf-added 2026-10-02 — [A proof of Lehmer's 1965 permutation conjecture for
-  neighbor-swap graphs (Verhoeff)](https://arxiv.org/abs/2610.01240) — resolves a 61-year-old
-  conjecture posed as an unsolved problem in Knuth's *TAOCP*, with a complete accompanying Lean 4 /
-  Mathlib formalization checked against brute-force graphs — see `observation_queue`, new `seed`
-  trend.
-- 2026-08-23/24 (original claim); 2026-09-27 (independent extension); shelf-added 2026-10-01 —
-  [The Hopf problem: a complex structure on S⁶ (Alpöge/Claude; independently extended by Viaclovsky)](https://arxiv.org/abs/2609.33785)
-  — a claimed resolution of one of differential geometry's most famous 20th-century open problems
-  (1947), via an AI-assisted construction now also independently extended by a credentialed
-  geometer; EXTREME unrefereed-preprint caution (mixed MathOverflow reaction, a history of prior
-  flawed claims on this exact problem) — see `observation_queue`, new `seed` trend.
-- 2026-09-24 (PRL publication; v1 2025-12; shelf-added 2026-09-30) — [A possible resolution of the gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis)](https://arxiv.org/abs/2512.20560)
-  — a revised, peer-reviewed (PRL) neutrino-capture cross-section calculation that potentially closes
-  a ~30-year, >5σ discrepancy (GALLEX/SAGE/BEST) without new physics; found via the PRL RSS sweep.
-  Theoretical proposal, not yet an experimental confirmation — see `observation_queue`.
-- 2026-09-28 (v1; shelf-added 2026-09-29) — [A Lean Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture (Qin, Liao, Khaitan, Chow)](https://arxiv.org/abs/2609.33842)
-  — formalizes the full Ricci-flow-with-surgery proof of the smooth (and, via Moise smoothing, the
-  topological) 3D Poincaré conjecture in Lean; a formalization landmark on the scale of the
-  already-shelved Lean FLT proof. Unrefereed, no independent verification of the artifact yet — see
-  `observation_queue`.
-- 2026-02-17 (final paper; shelf-added 2026-09-29) — [Resolution of Graham's rearrangement conjecture (Pham, Sauermann, closing a 4-paper, 4-group chain from 2022-2026)](https://arxiv.org/abs/2602.15797)
-  — a 1971 conjecture on rearranging residues mod p so all partial sums are distinct, resolved
-  across four independent groups' papers; caught via a 2026-09-28 Quanta piece. Also a new `seed`
-  trend.
-- 2026-09-14 (v1; shelf-added 2026-09-28) — [Two proofs of the Cassels–Swinnerton-Dyer conjecture for cubic surfaces (Alexeev, Schreieder)](https://arxiv.org/abs/2609.15930)
-  — completes a ~50-year reduction chain (Coray 1976, Voisin 2026) to resolve the Cassels–
-  Swinnerton-Dyer conjecture for smooth cubic surfaces over arbitrary fields. Also a new `seed` trend.
-- 2026-08-late (computation); 2026-09-25 (guest post; shelf-added 2026-09-28) — [Yes, Claude Can Do Nine Loops (Anthropic)](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
-  — an AI-assisted computation of the nine-loop MHV six-particle amplitude in planar N=4 super
-  Yang-Mills, independently verified by Lance Dixon (SLAC/Stanford); notable technique demonstration
-  for computational amplitudeology. AI-watch: track the physics result, not the method — see
-  `observation_queue`.
-- 2026-09-17 (Fauzan claim; Firsching's independent Lean verification 2026-09-23; shelf-added
-  2026-09-26) — [Irrationality of ζ(5) (Fauzan; Lean-verified by Firsching)](https://github.com/mo271/zeta5)
-  — the first individual-odd-zeta irrationality result since Apéry 1978; an off-arXiv, no-track-record
-  claim now backed by a Google DeepMind Lean/Mathlib contributor's complete, `sorry`-free independent
-  formalization (technically a variant derivation, not a literal check of the original argument). Also
-  a new `seed` trend.
-- 2026-09-25 (v1; shelf-added 2026-09-25) — [Proof of the positive trace gap conjecture (Nikolay Bogachev)](https://arxiv.org/abs/2609.29033)
-  — resolves Sarnak's ~18-year-old positive trace gap conjecture for cocompact Fuchsian/Kleinian
-  lattices via a quaternion-algebra characterization; also new for lattices in $SL_d(\mathbb R)$,
-  $d\ge3$. Credible single-author landmark; unrefereed-preprint caution stands. Also a new `seed`
-  trend.
-- 2026-08-26 (Science Advances, published; shelf-added 2026-09-25) — [Direct experimental test of Feynman's path integral postulates with single photons (Wen, Zhu et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13510607/)
-  — first direct experimental verification of Feynman's 1948 path-integral postulates, reconstructing
-  amplitudes for >1.4M single-photon paths; peer-reviewed, but note Hossenfelder's skeptical read of
-  the press framing vs. the measured precision (17.4% MAPE on postulate II) — see `observation_queue`.
-- 2025-10-23 (v1; capture-leak catch via a 2026-09-18 Quanta piece, shelf-added 2026-09-24) — [A proof of the Kim-Vu sandwich conjecture (Behague, Iľkovič, Montgomery)](https://arxiv.org/abs/2510.20765)
-  — proves in full generality (all $d=\omega(\log n)$) the 2004 Kim-Vu sandwich conjecture, that a
-  random $d$-regular graph can be coupled between two random binomial graphs of asymptotically equal
-  edge probability; extends Gao-Isaev-McKay's 2020 partial result. A landmark ~20-year-old
-  random-graph-theory conjecture, missed for ~11 months until Quanta's coverage.
-- 2026-09-22 (v1; shelf-added 2026-09-24) — [A separably representable counterexample to Naimark's problem in ZFC (Ryotaro Tanaka)](https://arxiv.org/abs/2609.26930)
-  — an unconditional (ZFC, no extra set-theoretic axiom) counterexample to Naimark's ~70-year-old
-  problem on C*-algebras with a unique irreducible representation, going beyond Akemann-Weaver's
-  2004 ◊-dependent example; single-author, unrefereed — see `observation_queue` for the full caveat.
-- 2026-09-21 (guest post; shelf-added 2026-09-22) — [Announcing the Advisory Group on Mathematics and Artificial Intelligence](https://agmai.org)
-  — nine senior mathematicians (Charles, De Lellis, Gowers, Hairer, Srivastava, Tillmann, Vakil,
-  Witten, Wood), hosted at IAS, formed to advise OpenAI on releasing the 100+ open-problem claims its
-  internal model reportedly resolved — a field-shaping governance response every frontier researcher
-  in this ledger's scope should know about; see `observation_queue` for the underlying (still
-  unverified) claim.
-- 2026-09-22 (v1 2026-09-20; shelf-added 2026-09-22) — [Fractional illumination and the optimal exponential rate in Hadwiger's covering conjecture (Yegor Gorodzha)](https://arxiv.org/abs/2609.23913)
-  — pins the correct exponential growth rate on Hadwiger's covering conjecture, open since 1957 and
-  one of convex geometry's most famous unsolved problems.
-- 2026-09-17 (arXiv v1; shelf-added 2026-09-21) — [Observation of the doubly charmed baryon $\Omega^+_{cc}$ (LHCb Collaboration)](https://arxiv.org/abs/2609.21921)
-  — first observation (8.7σ) of a new doubly-charmed baryon, only the second ever seen after LHCb's
-  2017 $\Xi^{++}_{cc}$ discovery.
-- 2026-09-17 (arXiv v1; shelf-added 2026-09-21) — [The full De Giorgi conjecture in R^4 is true (Liu, Luo, Wang, J. Wei, Y. Wei, Wu)](https://arxiv.org/abs/2609.21680)
-  — resolves the 1978 De Giorgi conjecture unconditionally in dimension 4, building on this year's
-  Chan-Fernández-Real-Figalli-Serra breakthrough.
-- 2025-12-04 (citation-chase catch, found 2026-09-19) — [The PFR/Marton Conjecture in Integers and Finite Fields via Spectral Stability (Kazemi Moghadam)](https://arxiv.org/abs/2512.04433)
-  — claims to extend GGMT's 2024 resolution of Marton's conjecture from bounded-torsion groups to
-  the integers and cyclic groups; single-author, unrefereed, ~9.5 months old and missed by every
-  recency-triaged daily sweep until this week's arXiv-citation chase.
-- 2026-09-11 (weekly-tier coverage catch, found 2026-09-19) — [Navier-Stokes Announcement (Clay Mathematics Institute)](https://www.claymath.org/news/navier-stokes-announcement/)
-  — the Millennium Prize steward's own first public statement on the OpenAI Navier-Stokes claim:
-  CMI "shares in the excitement" that the problem "has apparently been settled" but stresses its
-  evaluation process "is deliberately unhurried" — acknowledgment without an outcome, on a live
-  $1M-prize claim.
-- 2026-09-18 (CERN news 2026-09-17; primary arXiv:2603.26463, v1 2026-03-27) — [Strong evidence of quantum entanglement between Z bosons (ATLAS, with an independent CMS result)](https://arxiv.org/abs/2603.26463)
-  — the first measurement of entanglement between Z-boson pairs (spin qutrits) from Higgs decays at
-  the LHC, disfavoring separability at 4.7σ; extends the collaborations' 2023-24 top-quark-
-  entanglement observation to a new energy/spin regime — jointly announced by CERN,
-  https://home.cern/strong-evidence-for-quantum-entanglement-between-z-bosons-found-by-atlas-and-cms/.
-- 2026-09-18 (v1 2026-09-17) — [Proof of the Pach-Tardos conjecture (Gishboliner, Li)](https://arxiv.org/abs/2609.20726)
-  — resolves the ~20-year-old central open problem on the extremal function of acyclic forbidden
-  0-1 matrix patterns ($\operatorname{Ex}(n,P)=n^{1+o(1)}$), the surviving qualitative form of the
-  2005 conjecture after its stronger polylog version was refuted in 2024.
-- 2026-09-17 (v1 2026-09-16) — [A proof of Chvátal's conjecture via a sharp correlation inequality (Chang, Liu, Liu)](https://arxiv.org/abs/2609.19123)
-  — resolves Chvátal's 1972 conjecture that every hereditary family of subsets has a largest
-  intersecting subfamily that is a star, via a sharp correlation inequality for increasing Boolean
-  functions with independent interest beyond the conjecture itself — a clean half-century-old
-  combinatorics landmark.
-- 2026-09-04 (capture-leak catch, found 2026-09-15) — [Formalizing Fermat's Last Theorem (Anthropic/Claude, verified by Kevin Buzzard)](https://www.anthropic.com/research/formalizing-fermats-last-theorem)
-  — the first complete, end-to-end computer-checked Lean proof of FLT (13.4M lines, largely
-  autonomous), independently compiled and confirmed ("it checks out") by Kevin Buzzard, the human
-  academic lead of the EPSRC-funded FLT-in-Lean project this leapfrogs — see `observation_queue`.
-- 2026-09-15 — [A short proof of the Erdős–Sós Conjecture (Riordan, Scott)](https://arxiv.org/abs/2609.15893)
-  — established human mathematicians reproduce and simplify GPT-6 Astra's claimed full proof of the
-  ~63-year-old Erdős–Sós conjecture, the strongest independent-vetting signal yet on any GPT-6 Astra
-  math claim — see `observation_queue`.
-- 2026-09-11 — [A Severe Misalignment of AI in Mathematics (25 Fields Medallists, incl. Terence Tao)](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/)
-  — a public declaration, modeled on the Leiden Declaration, that AI companies' push to solve
-  mathematical problems as a benchmark is "severely misaligned" with the goals of the mathematical
-  community; not a research result, but a field-shaping community event every frontier researcher in
-  this ledger's scope should know about, directly tied to the OpenAI/Buckmaster-Alpöge/Anandkumar
-  Navier-Stokes-Euler saga tracked above.
-- 2026-09-10 (v1 2026-09-10) — [Connes' bicentralizer problem settled (Houdayer, Marrakchi)](https://arxiv.org/abs/2609.11462)
-  — settles a 1970s-open foundational problem in von Neumann algebra theory (together with Takesaki's
-  classification problem for flows on the hyperfinite II_1 factor), central to the classification of
-  type III factors; unrefereed single preprint, but arguably today's top story.
-- 2026-03-25 (v1; surfaced via Quanta Magazine, 2026-09-10) — [The Four Color Theorem with linearly many reducible configurations (Inoue, Kawarabayashi, Miyashita, Mohar, Thomassen, Thorup)](https://arxiv.org/abs/2603.24880)
-  — a structurally new proof of the Four Color Theorem giving a near-linear-time 4-coloring
-  algorithm (vs. the 1996 quadratic-time algorithm), by exploiting previously-overlooked "flat"
-  regions of planar graphs; a ~5.5-month capture-leak catch, now peer-attention-confirmed via Quanta.
-- 2026-09-07 (self-published, opened via Terence Tao's blog, 2026-09-10) — [Stable Singularity of the Euler Equations on R^3 without forcing (Ganeshram, Duruisseaux, Anandkumar)](https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/)
-  — a PINN-discovered, interval-arithmetic-argued self-similar blowup for UNFORCED 3D incompressible
-  Euler, the fourth entry in this week's AI-assisted fluid-blowup cluster and the closest yet to the
-  actual open free-space problem; reviewed pre-release by Tom Hou and Terence Tao. Off-arXiv,
-  unrefereed, heavily AI-assisted — provisional.
-- 2026-09-09 (v1 2026-09-09) — [Pierce-Birkhoff conjecture is false (Lai, Lim, Ren)](https://arxiv.org/abs/2609.10420)
-  — refutes the Pierce-Birkhoff conjecture (1956, ~70 years open) via an explicit piecewise-quadratic
-  counterexample not expressible as a finite lattice combination of polynomials in real algebraic
-  geometry; unrefereed and found with multi-agent AI assistance (GPT 5.6/6, Claude Opus 5, Claude
-  Fable 5.1), but a genuine landmark-scale claim against one of the field's classical named conjectures.
-- 2026-09-09 (v1 2026-09-09) — [Distribution of Singular Data Generated by Compact Forced Navier-Stokes Blowup (Cao, Chi)](https://arxiv.org/abs/2609.10262)
-  — the first independent mathematical engagement with OpenAI's claimed Navier-Stokes blowup
-  construction, one day after its announcement: takes the construction as given and derives a sharp
-  $H^{1/2}$ density threshold for which smooth forces reproduce it — a notable vetting-status data
-  point (the claim is already being worked with, not yet independently verified) worth knowing
-  alongside the OpenAI item below.
-- 2026-09-08 — [On the Navier–Stokes Millennium Prize Problem (OpenAI, internal model)](https://openai.com/index/navier-stokes-solution/)
-  — OpenAI claims an internal AI system produced an analytical proof and Lean formalization that a
-  smooth, finite-energy 3D incompressible fluid under smooth forcing can blow up in finite time,
-  resolving the Navier-Stokes Millennium Prize Problem; the single biggest claim this radar has ever
-  tracked, but wholly AI-generated, unrefereed, and its announcement circumstances are themselves
-  publicly disputed (see the queue entries for full context) — essential to know, not to trust yet.
-- 2026-09-08 (v1 2026-09-08) — [Blowup for the Euler Equations with Smooth Forcing (Alpöge, Buckmaster)](https://cims.nyu.edu/~tristanb/euler.pdf)
-  — a genuine, substantial 112-page construction of finite-time singularity formation for the 3D
-  incompressible Euler equations under smooth forcing, continuing the Córdoba–Martínez-Zoroa program
-  and the same authors' already-shelved Boussinesq result; heavily AI-assisted and unrefereed, but
-  the clearest human-legible technical escalation this week toward the Navier-Stokes Millennium
-  problem, independent of the OpenAI claim above.
-- 2026-09-07 (v1 2025-02-20, published Science Advances 2026-09-02) — [Observation of quantum free fall and the consistency with the equivalence principle (Dobkowski, Trok, Skakunenko, Japha, Groswasser, Efremov, Marletto, Fuentes, Penrose, Vedral, Schleich, Folman)](https://arxiv.org/abs/2502.14535)
-  — the first direct observation of the quantum phase of a freely-falling matter wave, confirming
-  consistency with Einstein's equivalence principle at the quantum level via a new "Quantum
-  Galileo Interferometer"; an international collaboration including Nobel laureate Roger Penrose,
-  now peer-reviewed in Science Advances — a landmark first-of-kind test at the quantum/general-
-  relativity interface a physicist should know.
-- 2026-09-07 — [Blowup for the Boussinesq Equations with Smooth Forcing (Alpöge, Buckmaster)](https://cims.nyu.edu/~tristanb/boussinesq.pdf)
-  — building on Córdoba–Martínez-Zoroa's multiscale program, constructs finite-time blowup with
-  smooth forcing for the 2D Boussinesq equations (with a companion Euler-equations result per
-  Terence Tao's commentary) — substantial, heavily AI-assisted, unrefereed partial progress on the
-  approach toward the Clay Millennium Navier-Stokes problem, discussed in detail by Tao himself;
-  worth knowing as the story the analysis community is actively discussing, not as settled math.
-- 2026-09-04 — [A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients (Colbrook, Stepaniants, Townsend)](https://arxiv.org/abs/2609.04659)
-  — settles a 1968 conjecture on restarted conjugate-gradient convergence after ~58 years: true
-  for restart lengths 1-3, false for every length ≥4, via an explicit counterexample built from a
-  transverse-Hopf-point analysis; the same author group's fourth classical-conjecture refutation
-  this ledger has tracked (after the Pompeiu, Schiffer and Berenstein counterexamples), this time
-  in numerical linear algebra.
-- 2026-09-04 — [Major progress on the Erdős-Sós conjecture, and a 51-year-old Erdős-Graham problem solved as a corollary (Reed, Stein)](https://arxiv.org/abs/2609.05417)
-  — two companion papers prove the 1962 Erdős-Sós tree-embedding conjecture for all k ≥ γn and
-  resolve its extremal cases; en route, a corollary fully answers a half-century-old Erdős-Graham
-  question on multicolor Ramsey numbers of trees — a clean example of partial progress on a famous
-  open conjecture yielding a complete resolution of a named companion problem.
-- 2026-03-06 (shelf-added 2026-09-05, W36 weekly queue-cleanup — leading date is the original
-  preprint's v1, not the add date, so a future 120-day shelf-pruning check does not misread this
-  as stale) — [Oort's conjecture on automorphisms of generic supersingular abelian varieties (Viehmann)](https://arxiv.org/abs/2603.06033)
-  — proves Oort's conjecture in full generality: generically on the supersingular locus of the
-  moduli space of principally polarized abelian varieties of genus g in characteristic p, the
-  automorphism group of the universal abelian variety is {±1} (explicit exceptions at g=2,3, p=2);
-  a domain-cadence landmark that sat as an unpromoted queue item for 5.5 months (a near-miss
-  capture-leak) until a same-day follow-up (Karemaker–Yu, arXiv:2608.16405) cited it, and now a
-  further pair of Oort's-conjecture papers (2609.03711, 2609.04072/2609.03188) is active in the
-  queue — worth surfacing here rather than leaving buried.
-- 2026-09-04 — [θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions (Claude / Justin Leder, Lean 4/Mathlib)](https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md)
-  — a complete formal proof of the "dying percolation" conjecture in every dimension d ≥ 2,
-  closing a famous open problem (3 ≤ d ≤ 10, incl. ℤ³) from Grimmett's textbook and
-  Duminil-Copin's ICM 2018 list, via Kozma–Nitzan's 2024 reduction; unrefereed but formally
-  verified in Lean/Mathlib — a landmark AI-assisted-math claim to watch for independent audit.
-- 2026-09-04 — [Bounded gaps between primes down to 186, and an improved large-gaps bound (OpenAI, GPT-6 Astra)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf)
-  — the first improvement on the bounded-gaps-between-primes record since Polymath8b's 246 (2014),
-  paired with a further improvement on the Ford–Green–Konyagin–Maynard–Tao large-gaps bound
-  (itself built on an intermediate GPT-5.6-Sol result); both Lean-formalized, unrefereed OpenAI
-  preprints disclosed alongside the GPT-6 Astra launch.
-- 2026-09-03 — [A new, independent proof that >2/3 of the Riemann zeta zeros are simple and on the critical line (Lamzouri)](https://arxiv.org/abs/2609.02882)
-  — a human mathematician (York University) independently re-derives, via a shorter and more
-  transparent unconditional argument, the SAME record bound (>67.25% simple-on-the-line, ≥83.62%
-  distinct) that an unreleased Anthropic Claude research model claimed on 2026-08-10; the paper's
-  own abstract states the Claude proof "was subsequently verified by Alpöge and Furman" — the
-  strongest public vetting signal yet for one of the biggest AI-assisted-math claims this radar
-  has tracked, and a clean worked example (Hilbert-space inequality + Montgomery pair-correlation)
-  a number theorist should read regardless of the AI provenance.
-- 2026-09-02 — [LZ's most compelling dark-matter hint to date: a single 248 keV nuclear-recoil event](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter)
-  — the LUX-ZEPLIN collaboration's own account of an unexplained event in its WIMP search window,
-  presented at TeV Particle Astrophysics 2026; explicitly NOT a claimed detection ("we are not
-  claiming to have seen dark matter" — spokesperson Rick Gaitskell), but the field's most talked-
-  about single data point of the week, already drawing same-day theoretical interpretation papers
-  (e.g. [arXiv:2609.01583](https://arxiv.org/abs/2609.01583)); see also [Nature News](https://www.nature.com/articles/d41586-026-01985-9).
-- 2026-09-01 — [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257)
-  — resolves a percolation-theory conjecture open since the 1980s (exponential decay of
-  finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by
-  Quanta Magazine (2026-08-31) as "a gem" of a proof.
-- 2026-09-01 — [A 112-vertex counterexample to the Petersen Coloring Conjecture (Putman; independently verified by Jooken)](https://arxiv.org/abs/2608.10012)
-  — refutes Jaeger's Petersen Coloring Conjecture via an explicit SAT-verified graph, with a
-  second, fully independent hand-checkable proof ([Jooken](https://arxiv.org/abs/2608.10028))
-  published one day later — a backlog catch, dated 2026-08-08/09.
-- 2026-08-31 — [Evidence for coherent elastic scattering of solar neutrinos (LZ 4.5σ; XENONnT 3.3σ)](https://arxiv.org/abs/2512.08065)
-  — two independent dark-matter direct-detection collaborations, LZ and XENONnT, each report
-  evidence for coherent elastic neutrino-nucleus scattering (CEνNS) from solar ⁸B neutrinos in
-  companion PRL papers published the same day (2026-08-28) — the "neutrino fog" floor that will
-  also bound future dark-matter search sensitivity; see also the [XENONnT paper](https://arxiv.org/abs/2604.06002).
-- 2026-08-31 (v1) — [The Twist Conjecture and the Isomorphism Problem for Coxeter groups (Fioravanti)](https://arxiv.org/abs/2608.28348)
-  — proves Mühlherr's Twist Conjecture, which combined with prior work completes the resolution of
-  the Isomorphism Problem for Coxeter groups — closing a classification question standing since
-  Coxeter groups were first studied via generators and relations.
-- 2026-08-28 (v1 2026-08-27) — [A proof of the Arnold-Givental conjecture (Bai, Shelukhin, Wang, Xu)](https://arxiv.org/abs/2608.27242)
-  — proves the Arnold-Givental conjecture in full generality: for a closed symplectic manifold with
-  an anti-symplectic involution, the Floer-theoretic Lagrangian intersection lower bound holds
-  unconditionally — a 1989 conjecture resolved via integral Floer theory and a new Z/2-equivariant
-  localization argument.
-- 2026-08-28 (v1 2026-08-27) — [Proof of the AGT Conjecture at Generic β (Chen, Zhang)](https://arxiv.org/abs/2608.27447)
-  — an all-level proof of the four-point SU(2) AGT correspondence at generic β, completing the
-  17-year-old Alday-Gaiotto-Tachikawa link between 4d N=2 gauge theory and 2d Liouville/Toda CFT
-  beyond the special/rational-β cases covered by prior partial proofs.
-- 2026-08-27 (v1 2026-08-26) — [Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture (Jicheng Ma)](https://arxiv.org/abs/2608.25385)
-  — resolves Hoffmann-Ostenhof's 3-Decomposition Conjecture in full: every finite connected cubic
-  loopless multigraph decomposes into a spanning tree, a 2-regular subgraph, and a matching — a
-  long-standing "wide open" problem in structural graph theory, previously known only for
-  Hamiltonian/planar cubic graphs and a special 2-factor case.
-- 2026-08-26 (v1 2026-08-25) — [Classification of Maximally Charged Black Holes (Hirsch, Zhang)](https://arxiv.org/abs/2608.24843)
-  — a complete classification of every maximally-charged (mass-charge-equality-saturating) black
-  hole spacetime in 3+1 dimensions: any such initial data set must embed isometrically into a
-  Majumdar-Papapetrou spacetime; a clean rigidity/equality-case theorem in mathematical GR.
-- 2026-08-26 (v1 2026-08-25) — [The Isaacs-Navarro-Wolf conjecture (Rossi)](https://arxiv.org/abs/2608.24685)
-  — a proof of a standing open conjecture in finite-group character theory, explicitly discovered
-  with AI assistance (the ongoing AI-assisted-math wave); single-author, unrefereed — worth knowing
-  for both the result and as a fresh data point on AI-assisted proof discovery.
-- 2026-08-25 (v1 2026-08-24) — [Counterexamples to Escobar's conjecture (Sun, Wang, Wang)](https://arxiv.org/abs/2608.23063)
-  — disproves Escobar's 1999 conjecture bounding the first Steklov eigenvalue below by the boundary
-  principal-curvature floor, for every dimension $n\ge3$, via explicit conformal deformations of
-  the unit ball; a clean, complete resolution (in the negative) of a 27-year-old named conjecture,
-  unrefereed.
-- 2026-08-24 (v1 2025-08-05) — [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk (Bansal, Jiang)](https://arxiv.org/abs/2508.03961)
-  — resolves the 1981 Beck-Fiala conjecture for degree $k\ge\log^2 n$ and gives the first
-  improvement in decades on the related Komlós conjecture; a ~1-year-old capture-leak catch
-  surfaced via a 2026-08-21 Quanta feature.
-- 2026-08-24 — [A new doubly charmed baryon (LHCb Collaboration)](https://cerncourier.com/a/a-new-doubly-charmed-baryon/)
-  — the first new particle found with LHCb's upgraded detector; a capture-leak catch from a
-  2026-07-23 CERN Courier feature.
-- 2026-08-21 — [Spontaneous formation and optical manipulation of a woven domain fabric in a ferroelectric crystal (Xin, Gelkop, Noheda, DelRe et al.)](https://www.nature.com/articles/s41377-026-02374-7)
-  — first observation of a robust, topologically-protected woven fabric of interlaced ferroelectric
-  domains that self-organizes in bulk KTN:Li near room temperature and can be locally rewritten
-  with a laser; peer-reviewed (Light: Science & Applications).
-- 2026-08-21 — [On the proof of Bray's conjecture (Jiang, Li, Wang)](https://arxiv.org/abs/2608.20215)
-  — resolves a 1997 conjecture of Hubert Bray bounding the volume of closed manifolds with a
-  Ricci/scalar-curvature comparison condition by that of the standard sphere.
-- 2026-08-20 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [First Search for Ultraheavy Dark Matter Using a Magnetically Levitated Particle (POLONAISE collaboration), arXiv:2608.20464](https://arxiv.org/abs/2608.20464)
-  — the first search for ultraheavy dark matter using a milligram-scale ferromagnet magnetically
-  levitated in a superconducting trap, a first-of-kind detection technique (axis 3, dark-matter
-  detection). Abstract + authors verified via arXiv API this session.
-- 2026-08-20 — [Existence of a Periodic Orbit for Billiards in Polygons (Giovanni Forni)](https://arxiv.org/abs/2606.10102)
-  — resolves one of Katok's "Five Most Resistant Problems in Dynamics": every finite polygon's
-  billiard flow has a periodic orbit, closing the general (irrational-angle) case left open since
-  the rational-angle case was settled ~50 years ago.
-- 2026-08-20 — [Mathematics in the age of AI (Terence Tao)](https://arxiv.org/abs/2608.16753)
-  — a 2026 ICM-lecture essay on how the mathematical community's goals and values should shape its
-  response to AI tools capable of research-level mathematics; direct reflection from a leading
-  voice on this ledger's standing AI-assisted-math-wave watch area (axis 5).
-- 2026-08-19 — [Palomar — a registry of Lean verified mathematics (Tao et al.)](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/)
-  — a new Lean-FRO/ICARM-incubated registry for auditing Lean-verified mathematics claims
-  (typechecking, no axiom-cheats, semantic match to the informal statement), with a scientific
-  advisory board including Tao, Avigad, Ballard, Kra, Vakil and Venkatesh — direct infrastructure
-  for the AI-generated-proof wave this ledger has tracked all summer (axis 5). Surfaced via
-  Hacker News, blog post opened via `tvly extract` this session (post dated 2026-08-18).
-- 2026-08-19 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [Thompson's Conjecture for Finite Simple Groups of Lie Type over Small Fields (Liao, Wang, Zhang), arXiv:2608.17891](https://arxiv.org/abs/2608.17891)
-  — completes the proof of J. G. Thompson's conjecture in full, by settling the remaining case of
-  finite simple groups of Lie type over fields of order ≤8 (axis 1, finite group theory). Abstract
-  + authors verified via arXiv API this session (v1 2026-08-18). Unrefereed preprint — standard
-  caution.
-- 2026-08-19 (v1 2026-08-18) — [A Complete Classification of Complex Hadamard Matrices of Order Six (Cárdenes Wuttig, Tindall), arXiv:2608.18053](https://arxiv.org/abs/2608.18053)
-  — completes a decades-open classification problem in quantum information / matrix analysis:
-  order six was the first dimension where continuous families of complex Hadamard matrices
-  coexist with an isolated solution (axis 4). Abstract + authors verified via arXiv API this
-  session. Unrefereed preprint — standard caution.
-- 2026-08-18 (v1 2026-07-22; capture-leak catch, chased via Hacker News this session) — [Lightest $0^{-+}$ Glueball as Dominant Constituent of $X(2370)$ (BESIII Collaboration), arXiv:2607.20366](https://arxiv.org/abs/2607.20366)
-  — the strongest evidence to date, from 10 billion $J/\psi$ events at BESIII, that the light
-  hadron $X(2370)$ is dominated by a glueball — a particle made purely of gluons, sought since the
-  1970s (axis 3, hadron/QCD physics). Abstract verified via arXiv API this session; widely
-  corroborated by Nature News, Science and Ars Technica coverage this week ("an experimental
-  triumph" — Colin Morningstar, CMU). Not yet a "single smoking gun" per outside commentary
-  (Bruce Yabsley, U. Sydney) — a landmark, near-consensus first-of-kind result worth knowing, with
-  the community's own caution about definitiveness intact.
-- 2026-08-18 (shelf-added 2026-09-12, W37 weekly queue-cleanup, published Phys. Rev. Lett. 137, 086501) — [Discovery of Berezinskii-Kosterlitz-Thouless Correlations in the Quantum Kagome Compound Cs2Cu3SnF12 (Grbić, Jakovac, Kupčić, Tanaka, Horvatić)](http://link.aps.org/doi/10.1103/bm42-z87g)
-  — $^{63,65}$Cu NQR below $T_N=20\,$K finds signatures of Berezinskii-Kosterlitz-Thouless
-  correlations in this quantum kagome antiferromagnet, a first-of-kind observation in this
-  compound (axis 3, condensed-matter physics). Abstract/authors/date verified via the APS PRL RSS
-  feed this session. Peer-reviewed.
-- 2026-08-18 (v1 2026-08-15) — [Prüfer $2$-group and Milnor's Conjecture on Fundamental Groups (Wu, Yan), arXiv:2608.15505](https://arxiv.org/abs/2608.15505)
-  — completes the disproof of Milnor's 1968 conjecture (fundamental groups of complete
-  nonnegative-Ricci manifolds are finitely generated) in the two dimensions (4 and 5) left open
-  since Bruè–Naber–Semola's 2023 counterexamples in dimensions $\ge6$ (axis 1, Riemannian
-  geometry). Abstract + authors verified via arXiv API this session; prior open/closed status
-  corroborated via Wikipedia and the original 2023 arXiv listing, both opened this session. A
-  58-year-old classical conjecture now fully resolved across every dimension (true $n\le3$, false
-  $n\ge4$) — unrefereed but a clean, checkable capstone to a well-documented multi-paper program.
-- 2026-08-17 — [Reducibility of linear representations, free ideals, and Kippenhahn's conjecture (Stessin, Yang), arXiv:2608.14194](https://arxiv.org/abs/2608.14194)
-  — a complete resolution of Kippenhahn's conjecture (1951) on repeated factors in the
-  characteristic polynomial of Hermitian-matrix pencils, a 75-year-old problem in matrix/operator
-  theory (axis 1). Abstract verified via arXiv API this session (v1 2026-08-14); the conjecture's
-  age and standing corroborated via `tvly search`. Unrefereed preprint — standard caution.
-- 2026-08-17 — [A counterexample to Kusner's conjecture on equilateral sets (Chalmers), arXiv:2608.14013](https://arxiv.org/abs/2608.14013)
-  — disproves Kusner's 1983 conjecture on the maximum size of equilateral sets in $\ell_p^n$
-  spaces via an explicit 58-point construction in $\mathbb{R}^{56}$, the first such counterexample
-  for any finite $p\ge2$ (axis 1, convex/functional analysis). Abstract verified via arXiv API
-  this session (v1 2026-08-14). Unrefereed preprint — standard caution.
-- 2026-08-17 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [A counterexample to the Albertson-Berman conjecture about induced forests in planar graphs (Makarov), arXiv:2608.13964](https://arxiv.org/abs/2608.13964)
-  — an independent, non-AI 39-vertex counterexample to the Albertson-Berman conjecture (open since
-  1979) on induced forests in planar graphs, a 46-year-old named conjecture independently refuted
-  by a human-only proof (axis 1, extremal/structural combinatorics). Abstract verified via arXiv
-  API this session (v1 2026-08-14). Unrefereed preprint — standard caution.
-- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The Hayman–Wu constant is π² (Ivanisvili)](https://arxiv.org/abs/2608.12844) —
-  determines the exact sharp constant in the 1981 Hayman–Wu problem (the bound, over every
-  conformal map from the disk and every line, on the length of the preimage of the line intersected
-  with the image domain); a ~45-year-old sharp-constant question settled by an established harmonic
-  analyst. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
-- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Heat kernel geometry and Gromov's volume growth conjecture (Ge)](https://arxiv.org/abs/2608.13553)
-  — answers Gromov's 1986 question affirmatively via the heat-kernel Fisher metric and Nash entropy,
-  bounding the volume growth of complete noncompact manifolds with nonnegative Ricci and scalar
-  curvature ≥1; a ~40-year-old named conjecture in comparison geometry. Unrefereed — PROVISIONAL.
-- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A positive answer to the generalized Chang-Yang conjecture on S^N (Gui, Li, Wei, Ye)](https://arxiv.org/abs/2608.13497)
-  — proves a Beckner-inequality rigidity statement on spheres of every dimension N≥3, by an
-  established PDE group (Juncheng Wei). Unrefereed — PROVISIONAL, track the vetting outcome.
-- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [SOP₂=SOP₃ (Chernikov)](https://arxiv.org/abs/2608.13291) — proves the classes of
-  SOP₂ and SOP₃ first-order theories coincide, answering a 2004 Džamonja–Shelah question in
-  Shelah's classification-theory stability hierarchy, by a leading model theorist. Unrefereed —
-  PROVISIONAL, track the vetting outcome.
-- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The Bosch and Simó conjecture on the Shilnikov-Hopf bifurcation (Rodrigues)](https://arxiv.org/abs/2608.13021)
-  — proves the 1993 conjecture that "large" strange attractors persistently and robustly arise in
-  the unfolding of a Shilnikov–Hopf bifurcation, with SRB measures on a positive-measure parameter
-  set. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
-- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A Proof of Gluck's Conjecture (Zhang)](https://arxiv.org/abs/2608.11525) — settles
-  a ~41-year-old open problem in finite solvable-group theory (|G:F(G)| ≤ b(G)²). Unrefereed
-  single-author preprint — PROVISIONAL, track the vetting outcome.
-- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A solution to Butler's positivity conjecture (Guo, Kang, Xiong)](https://arxiv.org/abs/2608.11543)
-  — proves the 1994 Butler positivity conjecture (Schur-expansion coefficients of a
-  Macdonald-intersection-polynomial ratio lie in Z≥0[q,t]); a three-author, internally
-  cross-verified preprint — lower epistemic risk than a single-author claim. PROVISIONAL, track
-  the vetting outcome.
-- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The 196560 auxiliary-function conjecture for the Leech lattice (Zhang, Yang)](https://arxiv.org/abs/2608.12094)
-  — resolves Cohn–Kumar's 2009 conjecture on a radial Schwartz function realizing the Leech-lattice
-  kissing-number identity, building on the Viazovska-program Fourier-interpolation basis that
-  produced the Fields-Medal-winning 8D/24D sphere-packing results. Unrefereed — PROVISIONAL.
-- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Evidence for the First Globular Cluster Stellar Stream beyond the Milky Way (Holm et al.)](https://arxiv.org/abs/2608.12254)
-  — Hubble Space Telescope imaging of ultra-diffuse galaxy UGC9050-Dw1 gives the first evidence for
-  an extragalactic globular-cluster tidal stream, with a dark-matter-halo mass constraint for the
-  host; a first-of-kind observational claim from a single team, track for independent confirmation.
-- 2026-08-11 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Kohayakawa's conjecture and clique coverings of complements of paths and cycles (Ning)](https://arxiv.org/abs/2608.11132)
-  — proves Kohayakawa's 1991 conjecture on the growth rate of maximum induced paths in a
-  Kneser-graph-related bipartite construction, a ~35-year-old named conjecture in extremal
-  combinatorics. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
-- 2026-08-13 — [Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State (Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky, Heiblum, Sim), arXiv:2608.12897](https://arxiv.org/abs/2608.12897)
-  — the first experimental evidence of non-Abelian anyon braiding, via a time-domain
-  partition-noise signature in the ν=5/2 fractional quantum Hall state (axis 3, condensed
-  matter). Abstract + authors verified via arXiv API this session (v1 2026-08-13).
-  EXTRAORDINARY-CLAIM CAUTION: a first-of-kind claim in a system with a history of contested
-  results — PROVISIONAL pending independent replication — but worth knowing as a long-sought
-  signature directly relevant to topological quantum computing, from a leading group
-  (Weizmann/Heiblum + KAIST).
-- 2026-08-13 — [A solution to Banach's isometric conjecture (Lu, Yang), arXiv:2608.13536](https://arxiv.org/abs/2608.13536)
-  — completes Banach's 1932 conjecture (a Banach space with all n-dimensional subspaces
-  mutually isometric must be Hilbert) for every remaining odd n, joining Gromov's 1967
-  even-n resolution to close the real case entirely (axis 1, math.FA). Abstract + authors
-  verified via arXiv API this session (v1 2026-08-13). Unrefereed but completes a ~94-year-old
-  classical conjecture building on established prior work — worth knowing as a clean
-  closure of a foundational question in Banach-space geometry.
-- 2026-08-05 (v1 on proofatlas.ai; digested by Terence Tao 2026-08-12, surfaced this session) — [A Computer-Assisted Proof of Sendov's Conjecture (Lech Mazur, using OpenAI GPT-5.6 Pro; digestion + Lean formalization by Terence Tao)](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf)
-  — an AI-generated, Lean-4-formalized proof claims to resolve Sendov's ~68-year-old
-  conjecture (1958) IN FULL GENERALITY for all polynomial degrees, extending Tao's own 2020
-  partial resolution (axis 1, math.CV). PDF + Tao's companion GitHub formalization
-  (https://github.com/teorth/sendov) + his digestion blog post opened this session. HEAVY
-  CAVEATS (hype-skepticism + AI-watch rules): off-arXiv, self-published, explicitly
-  AI-substantial per its own disclosure → PROVISIONAL, not confirmed mathematics — but worth
-  knowing for an unusually strong vetting signal this radar has not seen before in the
-  AI-math wave: the world's leading expert on this exact conjecture personally re-deriving,
-  human-digesting, and independently formalizing the argument in Lean, rather than merely
-  publicly commenting on it.
-- 2026-08-12 (v1 2023-05-08; now published Annals of Mathematics 2025, Quanta feature
-  2026-08-12, surfaced this session) — [Fractal uncertainty in higher dimensions (Alex Cohen), arXiv:2305.05022](https://arxiv.org/abs/2305.05022)
-  — extends the Bourgain–Dyatlov fractal uncertainty principle to all higher dimensions,
-  resolving an extension problem open since a 2016 workshop, now published in the field's top
-  journal (axis 1/2, math.CA / quantum-chaos interface). Abstract + Quanta feature opened this
-  session. No caveats — refereed mathematics; a clean example of the math↔physics-interface
-  results this radar tracks, and originally the author's PhD thesis (MIT), earning him an NYU
-  assistant professorship at 25.
-- 2026-08-10 — [More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line (Claude / Anthropic)](https://www.anthropic.com/research/riemann-zeta)
-  — an unreleased Anthropic research model unconditionally raises the known lower bound on the
-  proportion of zeta zeros that are simple and on the critical line from ~41.6% to ~67.25%
-  (axis 1, math.NT), by a linear-algebraic reading of Baluyot–Goldston–Suriajaya–Turnage-
-  Butterbaugh's pair-correlation work plus Bombieri (2000). Official research page + paper PDF
-  opened via `tvly extract` this session (paper dated 2026-08-10). HEAVY CAVEATS (hype-skepticism
-  + AI-watch rules): off-arXiv, unrefereed, an extraordinary jump over a decades-slow record —
-  PROVISIONAL; worth knowing for the scale of the claimed jump and the unusually well-matched
-  informal review (Brian Conrey and Dan Goldston, named specialists in exactly this subfield) plus
-  an accompanying Lean formalization, not as confirmed mathematics.
-- 2026-08-10 — [A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs (Kaur, Kumar), arXiv:2608.08997](https://arxiv.org/abs/2608.08997)
-  — resolves Gimbert's 1999 cyclotomic conjecture, closing the associated ~45-year-old
-  non-existence question for almost Moore digraphs in the directed degree-diameter problem
-  (axis 1, math.CO/NT). Abstract + authors verified via arXiv API this session (v1 2026-08-10).
-  A clean resolution of a classical, well-known open problem in extremal/algebraic graph theory.
-- 2026-08-07 — [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang), arXiv:2608.07173](https://arxiv.org/abs/2608.07173)
-  — proves the Modularity Conjecture for higher theta series on moduli stacks of Hermitian
-  shtukas, capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad / relative-
-  Langlands program (axis 1, math.NT/AG). Abstract + authors verified via arXiv API this session
-  (v1 2026-08-07).
-- 2026-07-21 (v1; surfaced this session, accessed 2026-08-10) — [Counterexamples to the xz-Conjecture and the Mathieu Conjecture for SU(2) (Long), arXiv:2607.19012](https://arxiv.org/abs/2607.19012)
-  — refutes the ~29-year-old Mathieu conjecture for SU(2), a named conjecture directly connected
-  to the Jacobian-conjecture research program already tracked on this ledger (axis 1, math.RA/AG).
-  Abstract + author verified via arXiv API this session. A capture-leak catch — worth knowing
-  despite the 3-week discovery delay.
-- 2026-08-06 — [Linear dependence of time-frequency shifts of a Schwartz function (Faulhuber, Petersen, van Velthoven, Voigtlaender), arXiv:2608.05044](https://arxiv.org/abs/2608.05044)
-  — disproves the ~30-year-old HRT (Heil–Ramanathan–Topiwala) conjecture in time-frequency
-  analysis via an explicit 12-shift linear dependence (axis 1, math.CA/FA). Abstract + authors
-  verified via arXiv API this session (v1 2026-08-05). AI-assisted (responsibly disclosed per the
-  authors) but independently reconstructed and engaged same-day by Terence Tao — worth knowing as
-  a famous named conjecture falling, with unusually fast, credible community vetting already
-  underway.
-- 2026-08-05 — [The distribution of $\ell^\infty$-Selmer groups in degree $\ell$ twist families I/II (Smith), arXiv:2207.05674 / arXiv:2207.05143](https://arxiv.org/abs/2207.05674)
-  — resolves the notoriously hard $\ell=2$ case of the Cohen–Lenstra(–Gerth) heuristics — the
-  2-primary class-group distribution problem tracing to Gauss's genus theory (~200 years open) —
-  now published as J. Amer. Math. Soc. 39(1)/39(2) (2026): a rare item on this shelf that is
-  peer-reviewed, not provisional (axis 1, math.NT).
-- 2026-08-04 — [A solution to Crouzeix's conjecture (Lorist, Schwenninger), arXiv:2608.03841](https://arxiv.org/abs/2608.03841)
-  — proves Crouzeix's 2004 conjecture ($\|f(A)\|\le 2\sup_{z\in W(A)}|f(z)|$ for any square matrix
-  $A$ and polynomial $f$, $W(A)$ the numerical range), a famous ~two-decade open problem in
-  operator/matrix theory (axis 1, math.FA). Abstract + authors verified via arXiv API this session
-  (v1 2026-08-04). Unrefereed but an incremental culmination of the authors' own prior partial
-  results (weaker bounds, special cases) — worth knowing as the resolution of a benchmark conjecture
-  every operator theorist has tried their hand at.
-- 2026-08-04 — [The period-index conjecture is false (Perry), arXiv:2608.03684](https://arxiv.org/abs/2608.03684)
-  — for every uncountable algebraically closed field of characteristic 0 and every dimension $d\ge3$,
-  constructs a variety with a Brauer class violating the period-index conjecture (already false over
-  $\overline{\mathbf Q}$ at $d=3$) — a foundational open problem on Brauer groups (axis 1,
-  math.AG). Abstract + author verified via arXiv API this session (v1 2026-08-04). A landmark
-  refutation of a long-standing named conjecture in algebraic geometry.
-- 2026-08-01 — [OpenAI's "Ten Advances in Mathematics and Theoretical Computer Science" (internal
-  model "Astra")](https://openai.com/index/ten-advances-in-mathematics/) — an unreleased OpenAI
-  model claims new results on ten long-standing open problems in one release: a disproof of
-  Connes's rigidity conjecture, an explicit non-sofic group, a superexponential multicolor-Ramsey
-  lower bound (resolving Erdős problem 183 — see the reactivated Ramsey trend), a proof of
-  Ehrhart's volume conjecture, and six more spanning sphere packing, coding theory, circuit
-  complexity, quantum parallel repetition, lattice cryptography and extremal graph theory. Official
-  publication page + full technical PDF (cdn.openai.com/pdf/ten-proofs-oai.pdf) opened this session
-  (dated 2026-08-01). HEAVY CAVEATS (hype-skepticism + AI-watch rules): unrefereed, AI-generated,
-  off-arXiv — the single most extraordinary claim this radar has tracked, PROVISIONAL on every one
-  of the ten results until independent vetting; worth knowing as the story every mathematician is
-  discussing this week (topped r/math and Hacker News), not as confirmed mathematics.
-- 2026-08-02 — [A computer-assisted counterexample to the planar Pompeiu and Schiffer conjectures
-  (Colbrook, Stepaniants), arXiv:2608.01579](https://arxiv.org/abs/2608.01579) — refutes both the
-  1929 planar Pompeiu problem and the associated Schiffer conjecture via an explicit noncircular
-  domain supporting a boundary-constant Neumann eigenfunction (axis 1, analysis/spectral geometry).
-  Abstract + authors verified via arXiv API this session (v1 2026-08-02). A clean, non-AI,
-  computer-assisted refutation of two classical ~97-year-old conjectures — the same rigorous
-  computer-assisted-proof pattern as Kuperberg's six-cylinder conjecture, already on this shelf.
-- 2025-09-09 (shelf-added 2026-08-03; leading date is the original preprint's v1, not the
-  add date — flagged W32 recalibration so a future weekly's 120-day shelf-pruning check does
-  not misread this as stale) — [Testing the problem of time with cold atoms (Barontini), arXiv:2509.07745](https://arxiv.org/abs/2509.07745)
-  — the FIRST experimental test of relational-time constructions motivated by the Wheeler-DeWitt
-  "problem of time": an isolated ultracold-atom Bose-Einstein condensate (24,000 atoms) split into
-  observed/unobserved sectors yields an entropic "internal time" that robustly orders events across
-  repeated expansion/recollapse cycles, with an effective Schrödinger equation in that internal time
-  reproducing the measured dynamics (axis 4, quantum foundations / quantum-gravity interface).
-  Original preprint 2025-09-09, now published in Physical Review Research and freshly covered by the
-  University of Birmingham (opened via `tvly` this session, ~2026-07-09). A landmark-quality
-  first-of-kind experimental probe of a central open question in quantum-gravity foundations that a
-  physicist should know — single group so far, watch for independent replication.
-- 2026-07-31 — [On a proof of the Gorenstein Symmetry Conjecture (Li), arXiv:2607.28011](https://arxiv.org/abs/2607.28011)
-  — a homological proof of the Gorenstein Symmetry Conjecture (one-sided finiteness of the self-injective
-  dimension of an Artin algebra implies Gorensteinness), a famous long-standing open problem in the
-  representation theory of Artin algebras (axis 1, math.RT/RA). Abstract + author verified via arXiv API
-  this session (v1 2026-07-30). HEAVY CAVEAT (hype-skepticism rule): unrefereed SINGLE-AUTHOR preprint
-  claiming resolution of a named conjecture → PROVISIONAL until independent vetting; worth knowing as a
-  claim a representation theorist should watch, not a confirmed result.
-- 2026-07-30 — [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim), arXiv:2607.27197](https://arxiv.org/abs/2607.27197)
-  — refutes Maxwell's ~150-year-old conjecture that the electrostatic potential of $n$ point charges
-  has at most $(n-1)^2$ non-degenerate critical points, via an explicit 5-point-charge configuration
-  with 24 (axis 2, mathematical physics / classical electrostatics). Abstract + authors verified via
-  arXiv API this session (v1 2026-07-29). A clean, classical, checkable refutation of a genuinely old
-  named conjecture at the math↔physics interface — no AI-assistance or unrefereed-extraordinary-claim
-  caveats apply (an explicit, verifiable counterexample).
-- 2026-07-29 — [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne,
-  Morales), arXiv:2607.21508](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free
-  Schur-positivity conjecture (attributed also to Gasharov) via explicit line-graph counterexamples,
-  and separately refutes Monical's 2018 saturated-Newton-polytope conjecture (axis 1, algebraic
-  combinatorics). Abstract + authors verified via arXiv API this session (v1 2026-07-23). HEAVY CAVEATS
-  (hype-skepticism + AI-watch rules): unrefereed preprint → PROVISIONAL until independent vetting; both
-  counterexamples were "found using ChatGPT-5.6 Sol Pro" → tracked for the mathematical RESULT (a
-  ~30-year conjecture refuted) a frontier combinatorialist should know, NOT the AI method (sibling AI
-  radars' beat). Sixth concrete arXiv artifact in the standing AI-assisted-math wave.
+- 2026-11-20 — [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics) — Anthropic's own disclosure of two Claude-produced results (an abrupt Hawking-Page-type transition in weak-coupling N=4 SYM; an exact optimal modular-bootstrap mass ceiling for 3D gravity) — worth knowing given the scale of the claims and the same-day independent cross-checks reported, but EXTREME caution: unrefereed hexagonmath preprints, same AI-watch skepticism tier as every other AI-lab self-disclosure this ledger tracks.
+- 2026-11-20 — [Certified Discovery of Quantum Phase Diagrams](https://arxiv.org/abs/2611.25064) — Liu, Preskill, and Huang construct an efficient quantum algorithm that outputs a phase diagram with a verifiable certificate for every transition, from only a classical Hamiltonian family description and unverified reference-state preparations — a genuine, rigorously-certified result at the complexity-of-quantum-systems/axis-4 frontier, not an AI-assisted-math claim. Opened directly via arXiv this session (quant-ph/cond-mat.str-el title-triage hit).
+- 2026-11-19 — [Finite-Time Blowup for Navier-Stokes with Smooth Forcing, Part I](https://arxiv.org/abs/2609.35406) — Zhen Lei and Xiao Ren's independent, readable reconstruction of the profile-construction core of OpenAI's claimed Navier-Stokes Millennium-Prize proof, by an established Navier-Stokes researcher who states plainly "we regard OpenAI's work as a major advance" — worth reading as the first real mathematical engagement (not just commentary) with this radar's single biggest tracked claim. Opened directly via arXiv this session; found via MathHelm, a new source.
+- 2026-11-19 — [Uniform Spectral Gap for the AKLT Model on the Square Lattice](https://hexagonmath.org/2611.00580v1) — a claimed resolution of the long-open 2D-square-lattice case of the AKLT spectral-gap conjecture (1988); worth knowing about given the problem's fame, but read with EXTREME caution — hexagonmath, unrefereed, "Human understanding: no parts." Opened directly via `WebFetch` this session.
+- 2026-11-18 — [Power loss for the local Mizohata–Takeuchi estimate on smooth hypersurfaces](https://arxiv.org/abs/2611.22465) — Hannah Cairo and five co-authors disprove the local Mizohata–Takeuchi conjectures for the paraboloid and sphere, a finer sibling of the general conjecture Cairo already disproved last year — worth knowing both for the Fourier-restriction-theory implications and as her second landmark result on this ledger. Found via today's mandatory math.CA full-abstract pass (title-blind); abstract opened directly via arXiv this session.
+- 2026-11-18 — [The Minimal Model Program, formalized in Lean](https://axiommath.ai/research/the-minimal-model-program-formalized/) — AxiomMath's claimed ~2.1-million-line Lean formalization of the Minimal Model Program in dimensions 2–4, folding in OpenAI's claimed resolution of the remaining 4-dimensional cases — worth knowing as a large-scale formalization artifact algebraic geometers will want to evaluate, though EXTREME caution applies (new org, no independent verification yet; see new seed trend). Opened directly via `WebFetch` this session.
+- 2026-11-17 — [DES final-dataset cosmology results](https://arxiv.org/abs/2605.27221) (Dark Energy Survey collaboration, combined with DESI + CMB) — an independent flagship survey's own analysis finding a ~3σ preference for evolving dark energy over ΛCDM, with the CMB/clumping/ supernova datasets disagreeing pairwise in a way not traceable to any one of them — essential context for the DESI dynamical-dark-energy story now promoted to this ledger's own multi-group trend. Discovered via a Quanta/Fermilab-syndicated pointer, arXiv abstract opened directly via `WebFetch` this session.
+- 2026-11-17 — [Full resolution of the Osserman (1990) conjecture](https://hexagonmath.org/2611.00544v1) — a genuine, 36-year-old differential-geometry conjecture (Riemannian manifolds with direction-independent Jacobi-operator eigenvalues are flat or locally rank-one symmetric), closed by resolving its last remaining algebraic case (Nikolayevsky's 2009 reduction) — worth knowing about REGARDLESS of its unrefereed, AI-assisted, single-submitter provenance (see this ledger's EXTREME-caution flag on the trend itself): a notable claim researchers in the field will likely encounter and want to evaluate independently. Opened directly via hexagonmath RSS/`WebFetch` this session.
+- 2026-11-16 — [MathHelm](https://mathhelm.org/) (guest-announced on Terence Tao's "What's new") — a new nonprofit forum for mathematicians to discuss AI-generated papers (born directly from OpenAI's Oct 6 722-manuscript release), open worldwide, real-name registration, no stance for or against AI, prohibits using forum content to train AI — worth knowing as new axis-5 vetting-status infrastructure directly relevant to this ledger's own hype-skepticism tracking (same class as the already-tracked mathcommunity.github.io/oai-math-revised). Opened directly via the Tao-blog post this session (mathhelm.org itself not independently verified this session — staged in SOURCES.md, chase on next sighting).
+- 2026-11-16 — [Validation of the OpenAI Yang–Mills construction](https://github.com/yang-mills-group/YM/blob/main/docs/assessment-1.pdf) (the shepherding committee, Nov 10) — the actual document resolving this ledger's longest- running top-priority chase item: a primary-sourced, precise statement of what the Oct 28 Lean submission does and does not establish (weak existence via compactness; no mass gap, no uniqueness) — essential reading for anyone following the Yang–Mills Millennium Problem story, and a model of how a vetting committee should state scope precisely. Read directly via `pdftotext` this session (see the Yang-Mills trend for full context).
+- 2026-11-13 — [Euler's 1747 conjecture on sums of integers with restricted prime factors](https://hexagonmath.org/2611.00370v1) — a genuine 279-year-old conjecture (Euler to Goldbach, 1747), fully resolved: every integer ≡2 mod 4 is a sum of two integers whose prime factors are all ≡1 mod 4, closed via quaternionic Hecke bounds plus a finite arithmetic certificate — worth knowing as a clean, complete result in a session otherwise dominated by partial progress and AI-claimed/unrefereed landmarks. Opened directly this session.
+- 2026-11-12 — [Osterwalder–Schrader axioms for scalar QED₃ in the Higgs phase](https://hexagonmath.org/2611.00321v1) (Goldstein, Guevara) — a rare rigorous constructive-QFT result: verifies the Osterwalder–Schrader axioms for the 3D lattice abelian Higgs model in the continuum limit — worth knowing as a genuine rigor achievement in a field dominated by non-rigorous/AI-claimed results this session; opened directly this session.
+- 2026-11-11 — [Cluster Algebras, formalized in Lean](https://axiommath.ai/research/cluster-algebras-formalized-in-lean) (AxiomMath) — a Lean library covering the first seven chapters of Fomin–Williams–Zelevinsky's "Introduction to Cluster Algebras," continuing AxiomMath's formalization-of-foundational-texts pattern (Stacks Project, Weil conjectures, CFSG) — opened directly this session.
+- 2026-11-10 — [Z is Diophantine in Q](https://github.com/elliotglazer/diophantine-z-q) — Glazer et al.'s claimed disproof of Mazur's 1992 finite-components conjecture and independent second route to a negative resolution of Hilbert's Tenth Problem over ℚ — worth knowing as the story, not as confirmed mathematics (EXTREME caution tier, Lean formalization incomplete; see new seed trend). Opened directly via `WebFetch` this session.
+- 2026-11-06 — [The Weil conjectures, formalized in Lean](https://axiommath.ai/research/the-weil-conjectures-formalized-in-lean/) — AxiomMath's sorry-free Lean formalization of Deligne's four Weil conjectures (rationality, functional equation, Betti-number comparison, Riemann-hypothesis-analogue bound), reusing its own Stacks Project formalization — worth knowing for anyone tracking the formalized-mathematics frontier (axis 5), though EXTREME-caution tier pending outside review (see new seed trend). Opened directly via `WebFetch` this session.
+- 2026-11-05 — [A Note On Lattice Definition of Gauge Theories With Chiral Fermions](https://arxiv.org/abs/2611.05051) — Edward Witten's own engagement with Nathaniel Craig's candidate nonperturbative lattice definition of chiral gauge theories (the Standard Model's gauge structure): a variant construction, a flagged practical obstruction (non-positive path integral blocks Monte Carlo), and a nod to Claude Opus 5.5 for technical help — essential reading for anyone following the lattice-chiral-fermion story. Abstract verified via arXiv API this session.
+- 2026-11-05 — [The Stacks Project, formalized in Lean](https://stacks.axiommath.ai/) — a new Lean/Mathlib formalization of the Stacks Project, the standard reference for modern algebraic geometry, with a dependency graph and a human-reviewed/AI-written two-tier contribution model — worth knowing for anyone tracking the formalized-mathematics frontier (axis 5). Opened directly via `WebFetch` this session.
+- 2026-11-04 — [Statement by the shepherding committee on OpenAI's Yang–Mills proof](https://www.kitp.ucsb.edu/sites/default/files/YM_working_group.pdf) — Douglas, Gross (chair), Jaffe, Klebanov, Nekrasov's own account of how they are vetting OpenAI's claimed Yang–Mills existence proof before release: existence only (mass gap still open), still validating the Lean formalization, 1147-page manuscript pending release — essential reading for anyone following the field's single highest-magnitude open claim. Read directly via `pdftotext` this session.
+- 2026-11-04 — [On the abc conjecture](https://arxiv.org/abs/2611.05217) — Christophe Soulé proves a weak form of the abc conjecture and a genus-two case of Vojta's conjecture via adelic intersection theory, following a method envisioned by Parshin and Moret-Bailly — a rare piece of genuine forward motion, by a highly credible author, on one of number theory's most famous (and most hype-scarred) open problems. Abstract verified via arXiv API this session.
+- 2026-11-03 — [Proof of the entropic $c$-theorem](https://arxiv.org/abs/2610.40874) — Jonah Kudler-Flam's new proof of Zamolodchikov's c-theorem in 2D QFT, building a $c$-function from mutual information between spacelike-separated wedges via relative entropy (following Casini–Huerta, replacing strong subadditivity with an entropic argument that needs no UV cutoff) — an elegant, modern entanglement-entropy technique a mathematical-physicist should know, caught via today's math category-rotation sweep (cross-listed hep-th/math-ph). Abstract + author verified via direct arXiv abstract page this session.
+- 2026-10-30; shelf-added 2026-11-02 — [Report of the Summit on Math Research in the Age of AI](https://terrytao.wordpress.com/2026/10/30/__trashed/) — a guest post by the summit's organizers (Dan Freed, Larry Guth, Bryna Kra, Emily Riehl, Mohammed Abouzaid) on Terence Tao's blog; alongside Frank Calegari's "Mathematics has changed. Let's act like it" (https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/) and a UK Academy for the Mathematical Sciences report, the clearest single read this week on how the working-mathematician community is organizing its response to the AI-disclosure wave; see the OpenAI mass-disclosure trend's 2026-11-02 note.
+- 2026-10-27; shelf-added 2026-10-28 — [CFSG in Lean (AxiomMath)](https://cfsg.axiommath.ai/) — a claimed complete Lean 4 formalization of the Classification of Finite Simple Groups, ~43.1M lines, surfacing a genuine gap in the published Unbalanced Group Theorem proof; EXTREME caution (new, self-published org, no independent verification yet) but a working mathematician tracking the frontier should know this exists and is being discussed; see new seed trend.
+- 2026-10-26; shelf-added 2026-10-27 — [Working with academic communities to build scientific understanding (OpenAI)](https://openai.com/index/building-scientific-understanding-with-academic-communities/) — OpenAI's announced (not yet public) claimed proof of Yang–Mills existence and a QCD/Standard- Model completion — if the mass-gap scope holds up, this is a Clay Millennium Prize Problem claim; see new seed trend and Peter Woit's critical same-day read.
+- 2026-10-25/26; shelf-added 2026-10-27 — [Independent same-day Exponential-Time-Hypothesis refutation claims (Anthropic via hexagonmath.org/2610.00577; OpenAI via github.com/openai/math #378)](https://github.com/anthropics/formal-math/blob/main/eth) — two AI labs, same week, same foundational complexity hypothesis, each with a Lean-checked claim; see new seed trend.
+- 2026-10-10 (v1); shelf-added 2026-10-26 — [A counterexample to Vaught's Conjecture for $L_{\omega_1,\omega}$ (Ackerman, Freer, Knight)](https://arxiv.org/abs/2610.15217) — completes Robin Knight's 24-year-old (2002) construction disproving Vaught's famous 1961 conjecture for infinitary logic, with heavy AI-coding-agent assistance (Claude Code, Codex, GPT) in the Lean formalization, Comparator-checked and on the Palomar Registry; see new seed trend.
+- 2026-10-23 (v1); shelf-added 2026-10-26 — [On the Propeller Conjecture (Steven Heilman)](https://arxiv.org/abs/2610.32158) — an independent human simplification, sharpening, and de-computerization of OpenAI's AI-generated proof of Khot and Naor's 2008 propeller conjecture (which underlies a Unique-Games-based NP-hardness result for clustering); a clean example of productive human engagement with an AI math claim. See new seed trend.
+- 2026-10-22 (v1); shelf-added 2026-10-23 — [Simple and critical zeros of the Riemann zeta-function (Caroline Turnage-Butterbaugh, guest post on Terence Tao's blog)](https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/) — the clearest single exposition on file of the full history and current vetting state of the "≥2/3 of zeta zeros are simple and on the critical line" result (Levinson through Claude/ Anthropic, Lamzouri, and this session's new Guo elementary-proof lead); a model survey for a researcher wanting the whole picture in one place.
+- 2026-10-22 (v1); shelf-added 2026-10-23 — [The classification of smooth 3-fold flops (Gavin Brown, Michael Wemyss)](https://arxiv.org/abs/2610.31073) — a complete analytic classification of simple 3-fold flops via their contraction algebras, from two established birational geometers; a foundational advance in the minimal model program, held below the trend bar (no single named conjecture resolved) but worth a researcher's attention on its own.
+- 2026-10-21 (v1); shelf-added 2026-10-22 — [On OpenAI's proof of the Nagata conjecture (Jenia Tevelev)](https://arxiv.org/abs/2610.30050) — a leading algebraic geometer's own non-expert-accessible exposition of an AI-claimed proof of the 1959 Nagata conjecture (plane-curve interpolation / Seshadri constants), one result-family within OpenAI's October mass disclosure; a model of how to responsibly digest an AI claim into the literature.
+- 2026-10-04/2026-09-24 (v1); shelf-added 2026-10-22 — [Independent AI-lab convergence on the percolation-criticality conjecture (Claude/Anthropic and OpenAI)](https://github.com/openai/math) — two separate frontier models independently resolved the same landmark open problem (Benjamini–Schramm criticality) within three weeks of each other, via different routes; see new seed trend for the full picture and the standing vetting caveats.
+- 2026-10-20 (v1); shelf-added 2026-10-21 — [A proof of the double-cap conjecture (Ibiapina, Gomes, Pio, Belo, Ferreira)](https://arxiv.org/abs/2610.27523) — settles Witsenhausen's 1974 problem / Kalai's 2009 conjecture on orthogonal-pair-free subsets of the sphere, with a direct consequence for the measurable chromatic number of Euclidean space; see new seed trend.
+- 2026-10-19 (v1); shelf-added 2026-10-21 — [Tree Lattices and the Neumann-Zagier conjecture (Greene, Issa, McCoy)](https://arxiv.org/abs/2610.27095) — resolves a 1985 conjecture in low-dimensional topology via a new rigidity theorem for tree lattices; see new seed trend.
+- 2026-10-19 (v1); shelf-added 2026-10-20 — [Proof of the Erdős-Szemerédi sunflower conjecture (Bucić, He, Lee)](https://arxiv.org/abs/2610.26686) — resolves a famous 1970s Erdős conjecture in full for every $k\ge3$, directly continuing the celebrated cap-set/polynomial-method breakthrough that settled the $k=3$ case; see new seed trend.
+- 2026-09-16 (v1); shelf-added 2026-10-20 — [A Strongly Aperiodic Monotile in Three Dimensions ("Chair44," Tsiokos; rapid expert corroboration by Flicker and Goodman-Strauss)](https://arxiv.org/abs/2609.19214) — the 3D analogue of the celebrated 2023 2D "einstein" tile, with the co-discoverer of that original result (Goodman-Strauss) posting his own clarifying presentation of the same construction within days; see new seed trend for the full AI-provenance/reception caveats.
+- 2026-01-05 (v1); shelf-added 2026-10-19 — [Resummation of the C-Parameter Sudakov Shoulder Using Effective Field Theory (Schwartz)](https://arxiv.org/abs/2601.02484) — a new factorization theorem for a QCD precision-calculation problem, notable both on its own physics merits and as a genuine (AI-assisted-but-human-steered) axis-5 case study; see queue entry above for the AI-watch framing.
+- 2026-08-09 (v1); shelf-added 2026-10-16 — [The Mathieu group M23 is a Galois group over ℚ (Huang, Jackson, Lee, Poonen, Pries, Zhang)](https://arxiv.org/abs/2608.08538) — completes a ~40-year program, realizing the last of the 26 sporadic finite simple groups as a Galois group over ℚ via an explicit degree-23 polynomial; see new seed trend (backfilled capture-leak closure).
+- 2026-10-15 (v1); shelf-added 2026-10-16 — [A Proof of the Area Vanishing Square Peg Conjecture (Valerio)](https://arxiv.org/abs/2610.21076) — resolves a Tao-posed open problem via Lagrangian Floer homology, an elegant cross-pollination of symplectic topology into a classical planar- geometry question; see new seed trend.
+- 2026-10-14 (v1); shelf-added 2026-10-15 — [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets (Bray, Dolmen, Khuri, Schmidt)](https://arxiv.org/abs/2610.20559) — unconditional resolution of a ~50-year-old conjecture in mathematical GR for a broad class of data, by one of the 2001 Riemannian case's original provers; explicitly engages with OpenAI's concurrent general-case AI claim — see new seed trend.
+- 2026-10-14 (v1); shelf-added 2026-10-15 — [A starlike 3-dimensional counterexample to the hot spots conjecture (Atar, Burdzy)](https://arxiv.org/abs/2610.19908) — extends the refutation of Rauch's hot spots conjecture to simply-connected (starlike) domains, by the author of the original 1999 counterexample; see new seed trend.
+- 2026-10-13; shelf-added 2026-10-14 — [Evidence of galaxy cluster rotation in the CMB (Goldstein–Hill)](https://link.aps.org/doi/10.1103/lz37-crg1) — first robust detection of the rotational kinematic Sunyaev–Zel'dovich effect, PRL 137, 161001; clean peer-reviewed first-of-kind, no AI/hype-skepticism caveat; see new seed trend.
+- 2026-10-13; shelf-added 2026-10-14 — [A proof of the rational exponents conjecture](https://arxiv.org/abs/2610.18713) — Erdős–Simonovits's decades-old extremal-graph-theory conjecture, proof claimed by Epoch AI (a third AI org disclosing a major math claim) and human-verified/written up by eight prominent combinatorialists; see new seed trend.
+- 2026-09-30/10-05; shelf-added 2026-10-13 — [OpenAI's quasi-Riemann-Hypothesis claim](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf) — a claimed fixed-width zero-free region (ℜs>7/8, companion ℜs>11/12) for Dirichlet/Hecke L-functions; wholly unrefereed and AI-generated, but the first result of this kind in decades — see new seed trend for the vetting-status watch.
+- 2026-10-06; shelf-added 2026-10-13 — [A gauge-invariant measure for lattice chiral fermions (Craig)](https://arxiv.org/abs/2610.09093) — a candidate nonperturbative lattice definition of the Standard Model, addressing the long-standing chiral-fermion lattice obstruction; see new seed trend.
+- 2026-10-09 (v1); shelf-added 2026-10-12 — [Finiteness of planar central configurations of five bodies for all positive masses (Tomar)](https://arxiv.org/abs/2610.13100) — settles Smale's sixth problem for n=5, closing the exceptional-mass-set gap left by Albouy–Kaloshin (2012); see new seed trend.
+- 2026-03-19 (announced); shelf-added 2026-10-10 — [2026 Abel Prize — Gerd Faltings (Max Planck Institute for Mathematics, Bonn)](https://abelprize.no/) — a towering figure in arithmetic geometry (the Mordell conjecture/Faltings' theorem among his landmark results); COVERAGE-GAP CATCH — this ledger's annual-prize lane had never captured this year's Abel Prize at all until this weekly. Official laureate page opened directly this session.
+- 2026-10-05 (v1); shelf-added 2026-10-09 — [Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs (Alman, Vassilevska Williams)](https://arxiv.org/abs/2610.06783) — refutes the 3SUM and APSP hypotheses; AI-discovered (Claude) and Lean-verified; see new seed trend.
+- 2026-10-08 (v1); shelf-added 2026-10-09 — [Hyperkähler SYZ conjecture (Engel, Mauri)](https://arxiv.org/abs/2610.12277) — full proof of the hyperkähler analogue of the Strominger–Yau–Zaslow conjecture; see new seed trend.
+- 2026-10-07 (v1); shelf-added 2026-10-08 — [A solid-state nuclear clock based on VUV absorption spectroscopy of $^{229}$Th (Wang, Pan, et al.)](https://arxiv.org/abs/2610.10056) — first sustained, operating thorium-229 nuclear clock (30-hour feedback-locked record); see new seed trend.
+- 2026-10-07 (v1); shelf-added 2026-10-08 — [Transverse rational curves and the LeBrun–Salamon conjecture (Hu, Liu, Wan)](https://arxiv.org/abs/2610.10410) — full resolution of a 30-year-old named conjecture in quaternionic-Kähler geometry; see new seed trend.
+- 2026-10-06; shelf-added 2026-10-07 — [2026 Nobel Prize in Physics: Francis Halzen](https://www.nobelprize.org/prizes/physics/2026/press-release/) — "for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin"; see new seed trend.
+- 2026-10-06 (v1); shelf-added 2026-10-07 — [OpenAI's mass math-results release, github.com/openai/math](https://github.com/openai/math) — 722 AI-generated manuscripts/372 result families across 17 fields, including a claimed partial Birch–Swinnerton-Dyer resolution; EXTREME hype-skepticism — see new seed trend.
+- 2026-10-06 (v1); shelf-added 2026-10-07 — [An AI-Assisted Formalization of the Poincaré Conjecture (Zhang, Delaval, et al.)](https://arxiv.org/abs/2610.08329) — second independent AI-assisted Lean formalization of the Hamilton–Perelman proof; see promoted seed trend (with the first effort, arXiv:2609.33842, already shelved 2026-09-29).
+- 2026-10-04 (v1); shelf-added 2026-10-06 — [A Proof of the Linear Hadwiger Conjecture (Norin, Steiner)](https://arxiv.org/abs/2610.05291) — claims full resolution of the linear/asymptotic form of Hadwiger's conjecture (K_t-minor-free graphs are Ct-colorable), by the field's own leading expert (Norin), proof credited to GPT-6 Astra under the authors' direction; EXTREME hype-skepticism caution (2 days old, unrefereed, zero independent engagement yet) — see `observation_queue`, new `seed` trend.
+- 2026-09-22 (PRL publication); shelf-added 2026-10-05 — [Observation of e/4 Charge at ν=1/2 in a Wide GaAs Quantum Well (Alkalay, Hajigeorgiou, Gupta, Senapati, Tiwari, Tai, Singh, Baldwin, Pfeiffer, Shayegan, Banerjee, Heiblum)](http://link.aps.org/doi/10.1103/c73x-q4z7) — peer-reviewed (PRL) shot-noise measurement of e/4-charged quasiparticles in the ν=1/2 fractional quantum Hall state, evidence for a non-Abelian (Pfaffian-class) topological order; same Weizmann (Heiblum) group as the already-shelved/queued ν=5/2 anyon-braiding result — see `observation_queue`.
+- 2026-10-01 (v1); shelf-added 2026-10-02 — [A proof of Lehmer's 1965 permutation conjecture for neighbor-swap graphs (Verhoeff)](https://arxiv.org/abs/2610.01240) — resolves a 61-year-old conjecture posed as an unsolved problem in Knuth's *TAOCP*, with a complete accompanying Lean 4 / Mathlib formalization checked against brute-force graphs — see `observation_queue`, new `seed` trend.
+- 2026-08-23/24 (original claim); 2026-09-27 (independent extension); shelf-added 2026-10-01 — [The Hopf problem: a complex structure on S⁶ (Alpöge/Claude; independently extended by Viaclovsky)](https://arxiv.org/abs/2609.33785) — a claimed resolution of one of differential geometry's most famous 20th-century open problems (1947), via an AI-assisted construction now also independently extended by a credentialed geometer; EXTREME unrefereed-preprint caution (mixed MathOverflow reaction, a history of prior flawed claims on this exact problem) — see `observation_queue`, new `seed` trend.
+- 2026-09-24 (PRL publication; v1 2025-12; shelf-added 2026-09-30) — [A possible resolution of the gallium anomaly (Cadeddu, Cargioli, Dordei, Ferro, Giunti, Pitzalis)](https://arxiv.org/abs/2512.20560) — a revised, peer-reviewed (PRL) neutrino-capture cross-section calculation that potentially closes a ~30-year, >5σ discrepancy (GALLEX/SAGE/BEST) without new physics; found via the PRL RSS sweep. Theoretical proposal, not yet an experimental confirmation — see `observation_queue`.
+- 2026-09-28 (v1; shelf-added 2026-09-29) — [A Lean Formalization of the Hamilton–Perelman Proof of the Three-Dimensional Poincaré Conjecture (Qin, Liao, Khaitan, Chow)](https://arxiv.org/abs/2609.33842) — formalizes the full Ricci-flow-with-surgery proof of the smooth (and, via Moise smoothing, the topological) 3D Poincaré conjecture in Lean; a formalization landmark on the scale of the already-shelved Lean FLT proof. Unrefereed, no independent verification of the artifact yet — see `observation_queue`.
+- 2026-02-17 (final paper; shelf-added 2026-09-29) — [Resolution of Graham's rearrangement conjecture (Pham, Sauermann, closing a 4-paper, 4-group chain from 2022-2026)](https://arxiv.org/abs/2602.15797) — a 1971 conjecture on rearranging residues mod p so all partial sums are distinct, resolved across four independent groups' papers; caught via a 2026-09-28 Quanta piece. Also a new `seed` trend.
+- 2026-09-14 (v1; shelf-added 2026-09-28) — [Two proofs of the Cassels–Swinnerton-Dyer conjecture for cubic surfaces (Alexeev, Schreieder)](https://arxiv.org/abs/2609.15930) — completes a ~50-year reduction chain (Coray 1976, Voisin 2026) to resolve the Cassels– Swinnerton-Dyer conjecture for smooth cubic surfaces over arbitrary fields. Also a new `seed` trend. - 2026-08-late (computation); 2026-09-25 (guest post; shelf-added 2026-09-28) — [Yes, Claude Can Do Nine Loops (Anthropic)](https://www.anthropic.com/research/yes-claude-can-do-nine-loops) — an AI-assisted computation of the nine-loop MHV six-particle amplitude in planar N=4 super Yang-Mills, independently verified by Lance Dixon (SLAC/Stanford); notable technique demonstration for computational amplitudeology. AI-watch: track the physics result, not the method — see `observation_queue`.
+- 2026-09-17 (Fauzan claim; Firsching's independent Lean verification 2026-09-23; shelf-added 2026-09-26) — [Irrationality of ζ(5) (Fauzan; Lean-verified by Firsching)](https://github.com/mo271/zeta5) — the first individual-odd-zeta irrationality result since Apéry 1978; an off-arXiv, no-track-record claim now backed by a Google DeepMind Lean/Mathlib contributor's complete, `sorry`-free independent formalization (technically a variant derivation, not a literal check of the original argument). Also a new `seed` trend.
+- 2026-09-25 (v1; shelf-added 2026-09-25) — [Proof of the positive trace gap conjecture (Nikolay Bogachev)](https://arxiv.org/abs/2609.29033) — resolves Sarnak's ~18-year-old positive trace gap conjecture for cocompact Fuchsian/Kleinian lattices via a quaternion-algebra characterization; also new for lattices in $SL_d(\mathbb R)$, $d\ge3$. Credible single-author landmark; unrefereed-preprint caution stands. Also a new `seed` trend.
+- 2026-08-26 (Science Advances, published; shelf-added 2026-09-25) — [Direct experimental test of Feynman's path integral postulates with single photons (Wen, Zhu et al.)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13510607/) — first direct experimental verification of Feynman's 1948 path-integral postulates, reconstructing amplitudes for >1.4M single-photon paths; peer-reviewed, but note Hossenfelder's skeptical read of the press framing vs. the measured precision (17.4% MAPE on postulate II) — see `observation_queue`.
+- 2025-10-23 (v1; capture-leak catch via a 2026-09-18 Quanta piece, shelf-added 2026-09-24) — [A proof of the Kim-Vu sandwich conjecture (Behague, Iľkovič, Montgomery)](https://arxiv.org/abs/2510.20765) — proves in full generality (all $d=\omega(\log n)$) the 2004 Kim-Vu sandwich conjecture, that a random $d$-regular graph can be coupled between two random binomial graphs of asymptotically equal edge probability; extends Gao-Isaev-McKay's 2020 partial result. A landmark ~20-year-old random-graph-theory conjecture, missed for ~11 months until Quanta's coverage.
+- 2026-09-22 (v1; shelf-added 2026-09-24) — [A separably representable counterexample to Naimark's problem in ZFC (Ryotaro Tanaka)](https://arxiv.org/abs/2609.26930) — an unconditional (ZFC, no extra set-theoretic axiom) counterexample to Naimark's ~70-year-old problem on C*-algebras with a unique irreducible representation, going beyond Akemann-Weaver's 2004 ◊-dependent example; single-author, unrefereed — see `observation_queue` for the full caveat.
+- 2026-09-21 (guest post; shelf-added 2026-09-22) — [Announcing the Advisory Group on Mathematics and Artificial Intelligence](https://agmai.org) — nine senior mathematicians (Charles, De Lellis, Gowers, Hairer, Srivastava, Tillmann, Vakil, Witten, Wood), hosted at IAS, formed to advise OpenAI on releasing the 100+ open-problem claims its internal model reportedly resolved — a field-shaping governance response every frontier researcher in this ledger's scope should know about; see `observation_queue` for the underlying (still unverified) claim.
+- 2026-09-22 (v1 2026-09-20; shelf-added 2026-09-22) — [Fractional illumination and the optimal exponential rate in Hadwiger's covering conjecture (Yegor Gorodzha)](https://arxiv.org/abs/2609.23913) — pins the correct exponential growth rate on Hadwiger's covering conjecture, open since 1957 and one of convex geometry's most famous unsolved problems.
+- 2026-09-17 (arXiv v1; shelf-added 2026-09-21) — [Observation of the doubly charmed baryon $\Omega^+_{cc}$ (LHCb Collaboration)](https://arxiv.org/abs/2609.21921) — first observation (8.7σ) of a new doubly-charmed baryon, only the second ever seen after LHCb's 2017 $\Xi^{++}_{cc}$ discovery.
+- 2026-09-17 (arXiv v1; shelf-added 2026-09-21) — [The full De Giorgi conjecture in R^4 is true (Liu, Luo, Wang, J. Wei, Y. Wei, Wu)](https://arxiv.org/abs/2609.21680) — resolves the 1978 De Giorgi conjecture unconditionally in dimension 4, building on this year's Chan-Fernández-Real-Figalli-Serra breakthrough.
+- 2025-12-04 (citation-chase catch, found 2026-09-19) — [The PFR/Marton Conjecture in Integers and Finite Fields via Spectral Stability (Kazemi Moghadam)](https://arxiv.org/abs/2512.04433) — claims to extend GGMT's 2024 resolution of Marton's conjecture from bounded-torsion groups to the integers and cyclic groups; single-author, unrefereed, ~9.5 months old and missed by every recency-triaged daily sweep until this week's arXiv-citation chase.
+- 2026-09-11 (weekly-tier coverage catch, found 2026-09-19) — [Navier-Stokes Announcement (Clay Mathematics Institute)](https://www.claymath.org/news/navier-stokes-announcement/) — the Millennium Prize steward's own first public statement on the OpenAI Navier-Stokes claim: CMI "shares in the excitement" that the problem "has apparently been settled" but stresses its evaluation process "is deliberately unhurried" — acknowledgment without an outcome, on a live $1M-prize claim.
+- 2026-09-18 (CERN news 2026-09-17; primary arXiv:2603.26463, v1 2026-03-27) — [Strong evidence of quantum entanglement between Z bosons (ATLAS, with an independent CMS result)](https://arxiv.org/abs/2603.26463) — the first measurement of entanglement between Z-boson pairs (spin qutrits) from Higgs decays at the LHC, disfavoring separability at 4.7σ; extends the collaborations' 2023-24 top-quark- entanglement observation to a new energy/spin regime — jointly announced by CERN, https://home.cern/strong-evidence-for-quantum-entanglement-between-z-bosons-found-by-atlas-and-cms/.
+- 2026-09-18 (v1 2026-09-17) — [Proof of the Pach-Tardos conjecture (Gishboliner, Li)](https://arxiv.org/abs/2609.20726) — resolves the ~20-year-old central open problem on the extremal function of acyclic forbidden 0-1 matrix patterns ($\operatorname{Ex}(n,P)=n^{1+o(1)}$), the surviving qualitative form of the 2005 conjecture after its stronger polylog version was refuted in 2024.
+- 2026-09-17 (v1 2026-09-16) — [A proof of Chvátal's conjecture via a sharp correlation inequality (Chang, Liu, Liu)](https://arxiv.org/abs/2609.19123) — resolves Chvátal's 1972 conjecture that every hereditary family of subsets has a largest intersecting subfamily that is a star, via a sharp correlation inequality for increasing Boolean functions with independent interest beyond the conjecture itself — a clean half-century-old combinatorics landmark.
+- 2026-09-04 (capture-leak catch, found 2026-09-15) — [Formalizing Fermat's Last Theorem (Anthropic/Claude, verified by Kevin Buzzard)](https://www.anthropic.com/research/formalizing-fermats-last-theorem) — the first complete, end-to-end computer-checked Lean proof of FLT (13.4M lines, largely autonomous), independently compiled and confirmed ("it checks out") by Kevin Buzzard, the human academic lead of the EPSRC-funded FLT-in-Lean project this leapfrogs — see `observation_queue`.
+- 2026-09-15 — [A short proof of the Erdős–Sós Conjecture (Riordan, Scott)](https://arxiv.org/abs/2609.15893) — established human mathematicians reproduce and simplify GPT-6 Astra's claimed full proof of the ~63-year-old Erdős–Sós conjecture, the strongest independent-vetting signal yet on any GPT-6 Astra math claim — see `observation_queue`.
+- 2026-09-11 — [A Severe Misalignment of AI in Mathematics (25 Fields Medallists, incl. Terence Tao)](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/) — a public declaration, modeled on the Leiden Declaration, that AI companies' push to solve mathematical problems as a benchmark is "severely misaligned" with the goals of the mathematical community; not a research result, but a field-shaping community event every frontier researcher in this ledger's scope should know about, directly tied to the OpenAI/Buckmaster-Alpöge/Anandkumar Navier-Stokes-Euler saga tracked above.
+- 2026-09-10 (v1 2026-09-10) — [Connes' bicentralizer problem settled (Houdayer, Marrakchi)](https://arxiv.org/abs/2609.11462) — settles a 1970s-open foundational problem in von Neumann algebra theory (together with Takesaki's classification problem for flows on the hyperfinite II_1 factor), central to the classification of type III factors; unrefereed single preprint, but arguably today's top story.
+- 2026-03-25 (v1; surfaced via Quanta Magazine, 2026-09-10) — [The Four Color Theorem with linearly many reducible configurations (Inoue, Kawarabayashi, Miyashita, Mohar, Thomassen, Thorup)](https://arxiv.org/abs/2603.24880) — a structurally new proof of the Four Color Theorem giving a near-linear-time 4-coloring algorithm (vs. the 1996 quadratic-time algorithm), by exploiting previously-overlooked "flat" regions of planar graphs; a ~5.5-month capture-leak catch, now peer-attention-confirmed via Quanta.
+- 2026-09-07 (self-published, opened via Terence Tao's blog, 2026-09-10) — [Stable Singularity of the Euler Equations on R^3 without forcing (Ganeshram, Duruisseaux, Anandkumar)](https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/) — a PINN-discovered, interval-arithmetic-argued self-similar blowup for UNFORCED 3D incompressible Euler, the fourth entry in this week's AI-assisted fluid-blowup cluster and the closest yet to the actual open free-space problem; reviewed pre-release by Tom Hou and Terence Tao. Off-arXiv, unrefereed, heavily AI-assisted — provisional.
+- 2026-09-09 (v1 2026-09-09) — [Pierce-Birkhoff conjecture is false (Lai, Lim, Ren)](https://arxiv.org/abs/2609.10420) — refutes the Pierce-Birkhoff conjecture (1956, ~70 years open) via an explicit piecewise-quadratic counterexample not expressible as a finite lattice combination of polynomials in real algebraic geometry; unrefereed and found with multi-agent AI assistance (GPT 5.6/6, Claude Opus 5, Claude Fable 5.1), but a genuine landmark-scale claim against one of the field's classical named conjectures.
+- 2026-09-09 (v1 2026-09-09) — [Distribution of Singular Data Generated by Compact Forced Navier-Stokes Blowup (Cao, Chi)](https://arxiv.org/abs/2609.10262) — the first independent mathematical engagement with OpenAI's claimed Navier-Stokes blowup construction, one day after its announcement: takes the construction as given and derives a sharp $H^{1/2}$ density threshold for which smooth forces reproduce it — a notable vetting-status data point (the claim is already being worked with, not yet independently verified) worth knowing alongside the OpenAI item below.
+- 2026-09-08 — [On the Navier–Stokes Millennium Prize Problem (OpenAI, internal model)](https://openai.com/index/navier-stokes-solution/) — OpenAI claims an internal AI system produced an analytical proof and Lean formalization that a smooth, finite-energy 3D incompressible fluid under smooth forcing can blow up in finite time, resolving the Navier-Stokes Millennium Prize Problem; the single biggest claim this radar has ever tracked, but wholly AI-generated, unrefereed, and its announcement circumstances are themselves publicly disputed (see the queue entries for full context) — essential to know, not to trust yet.
+- 2026-09-08 (v1 2026-09-08) — [Blowup for the Euler Equations with Smooth Forcing (Alpöge, Buckmaster)](https://cims.nyu.edu/~tristanb/euler.pdf) — a genuine, substantial 112-page construction of finite-time singularity formation for the 3D incompressible Euler equations under smooth forcing, continuing the Córdoba–Martínez-Zoroa program and the same authors' already-shelved Boussinesq result; heavily AI-assisted and unrefereed, but the clearest human-legible technical escalation this week toward the Navier-Stokes Millennium problem, independent of the OpenAI claim above.
+- 2026-09-07 (v1 2025-02-20, published Science Advances 2026-09-02) — [Observation of quantum free fall and the consistency with the equivalence principle (Dobkowski, Trok, Skakunenko, Japha, Groswasser, Efremov, Marletto, Fuentes, Penrose, Vedral, Schleich, Folman)](https://arxiv.org/abs/2502.14535) — the first direct observation of the quantum phase of a freely-falling matter wave, confirming consistency with Einstein's equivalence principle at the quantum level via a new "Quantum Galileo Interferometer"; an international collaboration including Nobel laureate Roger Penrose, now peer-reviewed in Science Advances — a landmark first-of-kind test at the quantum/general- relativity interface a physicist should know.
+- 2026-09-07 — [Blowup for the Boussinesq Equations with Smooth Forcing (Alpöge, Buckmaster)](https://cims.nyu.edu/~tristanb/boussinesq.pdf) — building on Córdoba–Martínez-Zoroa's multiscale program, constructs finite-time blowup with smooth forcing for the 2D Boussinesq equations (with a companion Euler-equations result per Terence Tao's commentary) — substantial, heavily AI-assisted, unrefereed partial progress on the approach toward the Clay Millennium Navier-Stokes problem, discussed in detail by Tao himself; worth knowing as the story the analysis community is actively discussing, not as settled math.
+- 2026-09-04 — [A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients (Colbrook, Stepaniants, Townsend)](https://arxiv.org/abs/2609.04659) — settles a 1968 conjecture on restarted conjugate-gradient convergence after ~58 years: true for restart lengths 1-3, false for every length ≥4, via an explicit counterexample built from a transverse-Hopf-point analysis; the same author group's fourth classical-conjecture refutation this ledger has tracked (after the Pompeiu, Schiffer and Berenstein counterexamples), this time in numerical linear algebra.
+- 2026-09-04 — [Major progress on the Erdős-Sós conjecture, and a 51-year-old Erdős-Graham problem solved as a corollary (Reed, Stein)](https://arxiv.org/abs/2609.05417) — two companion papers prove the 1962 Erdős-Sós tree-embedding conjecture for all k ≥ γn and resolve its extremal cases; en route, a corollary fully answers a half-century-old Erdős-Graham question on multicolor Ramsey numbers of trees — a clean example of partial progress on a famous open conjecture yielding a complete resolution of a named companion problem.
+- 2026-03-06 (shelf-added 2026-09-05, W36 weekly queue-cleanup — leading date is the original preprint's v1, not the add date, so a future 120-day shelf-pruning check does not misread this as stale) — [Oort's conjecture on automorphisms of generic supersingular abelian varieties (Viehmann)](https://arxiv.org/abs/2603.06033) — proves Oort's conjecture in full generality: generically on the supersingular locus of the moduli space of principally polarized abelian varieties of genus g in characteristic p, the automorphism group of the universal abelian variety is {±1} (explicit exceptions at g=2,3, p=2); a domain-cadence landmark that sat as an unpromoted queue item for 5.5 months (a near-miss capture-leak) until a same-day follow-up (Karemaker–Yu, arXiv:2608.16405) cited it, and now a further pair of Oort's-conjecture papers (2609.03711, 2609.04072/2609.03188) is active in the queue — worth surfacing here rather than leaving buried.
+- 2026-09-04 — [θ(p_c) = 0 for Bernoulli bond percolation on ℤ^d in all dimensions (Claude / Justin Leder, Lean 4/Mathlib)](https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md) — a complete formal proof of the "dying percolation" conjecture in every dimension d ≥ 2, closing a famous open problem (3 ≤ d ≤ 10, incl. ℤ³) from Grimmett's textbook and Duminil-Copin's ICM 2018 list, via Kozma–Nitzan's 2024 reduction; unrefereed but formally verified in Lean/Mathlib — a landmark AI-assisted-math claim to watch for independent audit.
+- 2026-09-04 — [Bounded gaps between primes down to 186, and an improved large-gaps bound (OpenAI, GPT-6 Astra)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf) — the first improvement on the bounded-gaps-between-primes record since Polymath8b's 246 (2014), paired with a further improvement on the Ford–Green–Konyagin–Maynard–Tao large-gaps bound (itself built on an intermediate GPT-5.6-Sol result); both Lean-formalized, unrefereed OpenAI preprints disclosed alongside the GPT-6 Astra launch.
+- 2026-09-03 — [A new, independent proof that >2/3 of the Riemann zeta zeros are simple and on the critical line (Lamzouri)](https://arxiv.org/abs/2609.02882) — a human mathematician (York University) independently re-derives, via a shorter and more transparent unconditional argument, the SAME record bound (>67.25% simple-on-the-line, ≥83.62% distinct) that an unreleased Anthropic Claude research model claimed on 2026-08-10; the paper's own abstract states the Claude proof "was subsequently verified by Alpöge and Furman" — the strongest public vetting signal yet for one of the biggest AI-assisted-math claims this radar has tracked, and a clean worked example (Hilbert-space inequality + Montgomery pair-correlation) a number theorist should read regardless of the AI provenance.
+- 2026-09-02 — [LZ's most compelling dark-matter hint to date: a single 248 keV nuclear-recoil event](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter) — the LUX-ZEPLIN collaboration's own account of an unexplained event in its WIMP search window, presented at TeV Particle Astrophysics 2026; explicitly NOT a claimed detection ("we are not claiming to have seen dark matter" — spokesperson Rick Gaitskell), but the field's most talked- about single data point of the week, already drawing same-day theoretical interpretation papers (e.g. [arXiv:2609.01583](https://arxiv.org/abs/2609.01583)); see also [Nature News](https://www.nature.com/articles/d41586-026-01985-9).
+- 2026-09-01 — [Supercritical sharpness of percolation (Diskin, Easo, Radhakrishnan, Sudakov, Tassion)](https://arxiv.org/abs/2603.03257) — resolves a percolation-theory conjecture open since the 1980s (exponential decay of finite-cluster tails above criticality on every infinite transitive graph); newly spotlighted by Quanta Magazine (2026-08-31) as "a gem" of a proof.
+- 2026-09-01 — [A 112-vertex counterexample to the Petersen Coloring Conjecture (Putman; independently verified by Jooken)](https://arxiv.org/abs/2608.10012) — refutes Jaeger's Petersen Coloring Conjecture via an explicit SAT-verified graph, with a second, fully independent hand-checkable proof ([Jooken](https://arxiv.org/abs/2608.10028)) published one day later — a backlog catch, dated 2026-08-08/09.
+- 2026-08-31 — [Evidence for coherent elastic scattering of solar neutrinos (LZ 4.5σ; XENONnT 3.3σ)](https://arxiv.org/abs/2512.08065) — two independent dark-matter direct-detection collaborations, LZ and XENONnT, each report evidence for coherent elastic neutrino-nucleus scattering (CEνNS) from solar ⁸B neutrinos in companion PRL papers published the same day (2026-08-28) — the "neutrino fog" floor that will also bound future dark-matter search sensitivity; see also the [XENONnT paper](https://arxiv.org/abs/2604.06002).
+- 2026-08-31 (v1) — [The Twist Conjecture and the Isomorphism Problem for Coxeter groups (Fioravanti)](https://arxiv.org/abs/2608.28348) — proves Mühlherr's Twist Conjecture, which combined with prior work completes the resolution of the Isomorphism Problem for Coxeter groups — closing a classification question standing since Coxeter groups were first studied via generators and relations.
+- 2026-08-28 (v1 2026-08-27) — [A proof of the Arnold-Givental conjecture (Bai, Shelukhin, Wang, Xu)](https://arxiv.org/abs/2608.27242) — proves the Arnold-Givental conjecture in full generality: for a closed symplectic manifold with an anti-symplectic involution, the Floer-theoretic Lagrangian intersection lower bound holds unconditionally — a 1989 conjecture resolved via integral Floer theory and a new Z/2-equivariant localization argument.
+- 2026-08-28 (v1 2026-08-27) — [Proof of the AGT Conjecture at Generic β (Chen, Zhang)](https://arxiv.org/abs/2608.27447) — an all-level proof of the four-point SU(2) AGT correspondence at generic β, completing the 17-year-old Alday-Gaiotto-Tachikawa link between 4d N=2 gauge theory and 2d Liouville/Toda CFT beyond the special/rational-β cases covered by prior partial proofs.
+- 2026-08-27 (v1 2026-08-26) — [Matching complements in subcubic graphs and a proof of the 3-Decomposition Conjecture (Jicheng Ma)](https://arxiv.org/abs/2608.25385) — resolves Hoffmann-Ostenhof's 3-Decomposition Conjecture in full: every finite connected cubic loopless multigraph decomposes into a spanning tree, a 2-regular subgraph, and a matching — a long-standing "wide open" problem in structural graph theory, previously known only for Hamiltonian/planar cubic graphs and a special 2-factor case.
+- 2026-08-26 (v1 2026-08-25) — [Classification of Maximally Charged Black Holes (Hirsch, Zhang)](https://arxiv.org/abs/2608.24843) — a complete classification of every maximally-charged (mass-charge-equality-saturating) black hole spacetime in 3+1 dimensions: any such initial data set must embed isometrically into a Majumdar-Papapetrou spacetime; a clean rigidity/equality-case theorem in mathematical GR.
+- 2026-08-26 (v1 2026-08-25) — [The Isaacs-Navarro-Wolf conjecture (Rossi)](https://arxiv.org/abs/2608.24685) — a proof of a standing open conjecture in finite-group character theory, explicitly discovered with AI assistance (the ongoing AI-assisted-math wave); single-author, unrefereed — worth knowing for both the result and as a fresh data point on AI-assisted proof discovery.
+- 2026-08-25 (v1 2026-08-24) — [Counterexamples to Escobar's conjecture (Sun, Wang, Wang)](https://arxiv.org/abs/2608.23063) — disproves Escobar's 1999 conjecture bounding the first Steklov eigenvalue below by the boundary principal-curvature floor, for every dimension $n\ge3$, via explicit conformal deformations of the unit ball; a clean, complete resolution (in the negative) of a 27-year-old named conjecture, unrefereed.
+- 2026-08-24 (v1 2025-08-05) — [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk (Bansal, Jiang)](https://arxiv.org/abs/2508.03961) — resolves the 1981 Beck-Fiala conjecture for degree $k\ge\log^2 n$ and gives the first improvement in decades on the related Komlós conjecture; a ~1-year-old capture-leak catch surfaced via a 2026-08-21 Quanta feature.
+- 2026-08-24 — [A new doubly charmed baryon (LHCb Collaboration)](https://cerncourier.com/a/a-new-doubly-charmed-baryon/) — the first new particle found with LHCb's upgraded detector; a capture-leak catch from a 2026-07-23 CERN Courier feature.
+- 2026-08-21 — [Spontaneous formation and optical manipulation of a woven domain fabric in a ferroelectric crystal (Xin, Gelkop, Noheda, DelRe et al.)](https://www.nature.com/articles/s41377-026-02374-7) — first observation of a robust, topologically-protected woven fabric of interlaced ferroelectric domains that self-organizes in bulk KTN:Li near room temperature and can be locally rewritten with a laser; peer-reviewed (Light: Science & Applications).
+- 2026-08-21 — [On the proof of Bray's conjecture (Jiang, Li, Wang)](https://arxiv.org/abs/2608.20215) — resolves a 1997 conjecture of Hubert Bray bounding the volume of closed manifolds with a Ricci/scalar-curvature comparison condition by that of the standard sphere.
+- 2026-08-20 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [First Search for Ultraheavy Dark Matter Using a Magnetically Levitated Particle (POLONAISE collaboration), arXiv:2608.20464](https://arxiv.org/abs/2608.20464) — the first search for ultraheavy dark matter using a milligram-scale ferromagnet magnetically levitated in a superconducting trap, a first-of-kind detection technique (axis 3, dark-matter detection). Abstract + authors verified via arXiv API this session.
+- 2026-08-20 — [Existence of a Periodic Orbit for Billiards in Polygons (Giovanni Forni)](https://arxiv.org/abs/2606.10102) — resolves one of Katok's "Five Most Resistant Problems in Dynamics": every finite polygon's billiard flow has a periodic orbit, closing the general (irrational-angle) case left open since the rational-angle case was settled ~50 years ago.
+- 2026-08-20 — [Mathematics in the age of AI (Terence Tao)](https://arxiv.org/abs/2608.16753) — a 2026 ICM-lecture essay on how the mathematical community's goals and values should shape its response to AI tools capable of research-level mathematics; direct reflection from a leading voice on this ledger's standing AI-assisted-math-wave watch area (axis 5).
+- 2026-08-19 — [Palomar — a registry of Lean verified mathematics (Tao et al.)](https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/) — a new Lean-FRO/ICARM-incubated registry for auditing Lean-verified mathematics claims (typechecking, no axiom-cheats, semantic match to the informal statement), with a scientific advisory board including Tao, Avigad, Ballard, Kra, Vakil and Venkatesh — direct infrastructure for the AI-generated-proof wave this ledger has tracked all summer (axis 5). Surfaced via Hacker News, blog post opened via `tvly extract` this session (post dated 2026-08-18).
+- 2026-08-19 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [Thompson's Conjecture for Finite Simple Groups of Lie Type over Small Fields (Liao, Wang, Zhang), arXiv:2608.17891](https://arxiv.org/abs/2608.17891) — completes the proof of J. G. Thompson's conjecture in full, by settling the remaining case of finite simple groups of Lie type over fields of order ≤8 (axis 1, finite group theory). Abstract + authors verified via arXiv API this session (v1 2026-08-18). Unrefereed preprint — standard caution.
+- 2026-08-19 (v1 2026-08-18) — [A Complete Classification of Complex Hadamard Matrices of Order Six (Cárdenes Wuttig, Tindall), arXiv:2608.18053](https://arxiv.org/abs/2608.18053) — completes a decades-open classification problem in quantum information / matrix analysis: order six was the first dimension where continuous families of complex Hadamard matrices coexist with an isolated solution (axis 4). Abstract + authors verified via arXiv API this session. Unrefereed preprint — standard caution.
+- 2026-08-18 (v1 2026-07-22; capture-leak catch, chased via Hacker News this session) — [Lightest $0^{-+}$ Glueball as Dominant Constituent of $X(2370)$ (BESIII Collaboration), arXiv:2607.20366](https://arxiv.org/abs/2607.20366) — the strongest evidence to date, from 10 billion $J/\psi$ events at BESIII, that the light hadron $X(2370)$ is dominated by a glueball — a particle made purely of gluons, sought since the 1970s (axis 3, hadron/QCD physics). Abstract verified via arXiv API this session; widely corroborated by Nature News, Science and Ars Technica coverage this week ("an experimental triumph" — Colin Morningstar, CMU). Not yet a "single smoking gun" per outside commentary (Bruce Yabsley, U. Sydney) — a landmark, near-consensus first-of-kind result worth knowing, with the community's own caution about definitiveness intact.
+- 2026-08-18 (shelf-added 2026-09-12, W37 weekly queue-cleanup, published Phys. Rev. Lett. 137, 086501) — [Discovery of Berezinskii-Kosterlitz-Thouless Correlations in the Quantum Kagome Compound Cs2Cu3SnF12 (Grbić, Jakovac, Kupčić, Tanaka, Horvatić)](http://link.aps.org/doi/10.1103/bm42-z87g) — $^{63,65}$Cu NQR below $T_N=20\,$K finds signatures of Berezinskii-Kosterlitz-Thouless correlations in this quantum kagome antiferromagnet, a first-of-kind observation in this compound (axis 3, condensed-matter physics). Abstract/authors/date verified via the APS PRL RSS feed this session. Peer-reviewed.
+- 2026-08-18 (v1 2026-08-15) — [Prüfer $2$-group and Milnor's Conjecture on Fundamental Groups (Wu, Yan), arXiv:2608.15505](https://arxiv.org/abs/2608.15505) — completes the disproof of Milnor's 1968 conjecture (fundamental groups of complete nonnegative-Ricci manifolds are finitely generated) in the two dimensions (4 and 5) left open since Bruè–Naber–Semola's 2023 counterexamples in dimensions $\ge6$ (axis 1, Riemannian geometry). Abstract + authors verified via arXiv API this session; prior open/closed status corroborated via Wikipedia and the original 2023 arXiv listing, both opened this session. A 58-year-old classical conjecture now fully resolved across every dimension (true $n\le3$, false $n\ge4$) — unrefereed but a clean, checkable capstone to a well-documented multi-paper program.
+- 2026-08-17 — [Reducibility of linear representations, free ideals, and Kippenhahn's conjecture (Stessin, Yang), arXiv:2608.14194](https://arxiv.org/abs/2608.14194) — a complete resolution of Kippenhahn's conjecture (1951) on repeated factors in the characteristic polynomial of Hermitian-matrix pencils, a 75-year-old problem in matrix/operator theory (axis 1). Abstract verified via arXiv API this session (v1 2026-08-14); the conjecture's age and standing corroborated via `tvly search`. Unrefereed preprint — standard caution.
+- 2026-08-17 — [A counterexample to Kusner's conjecture on equilateral sets (Chalmers), arXiv:2608.14013](https://arxiv.org/abs/2608.14013) — disproves Kusner's 1983 conjecture on the maximum size of equilateral sets in $\ell_p^n$ spaces via an explicit 58-point construction in $\mathbb{R}^{56}$, the first such counterexample for any finite $p\ge2$ (axis 1, convex/functional analysis). Abstract verified via arXiv API this session (v1 2026-08-14). Unrefereed preprint — standard caution.
+- 2026-08-17 (shelf-added 2026-09-12, W37 weekly queue-cleanup) — [A counterexample to the Albertson-Berman conjecture about induced forests in planar graphs (Makarov), arXiv:2608.13964](https://arxiv.org/abs/2608.13964) — an independent, non-AI 39-vertex counterexample to the Albertson-Berman conjecture (open since 1979) on induced forests in planar graphs, a 46-year-old named conjecture independently refuted by a human-only proof (axis 1, extremal/structural combinatorics). Abstract verified via arXiv API this session (v1 2026-08-14). Unrefereed preprint — standard caution.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The Hayman–Wu constant is π² (Ivanisvili)](https://arxiv.org/abs/2608.12844) — determines the exact sharp constant in the 1981 Hayman–Wu problem (the bound, over every conformal map from the disk and every line, on the length of the preimage of the line intersected with the image domain); a ~45-year-old sharp-constant question settled by an established harmonic analyst. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Heat kernel geometry and Gromov's volume growth conjecture (Ge)](https://arxiv.org/abs/2608.13553) — answers Gromov's 1986 question affirmatively via the heat-kernel Fisher metric and Nash entropy, bounding the volume growth of complete noncompact manifolds with nonnegative Ricci and scalar curvature ≥1; a ~40-year-old named conjecture in comparison geometry. Unrefereed — PROVISIONAL.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A positive answer to the generalized Chang-Yang conjecture on S^N (Gui, Li, Wei, Ye)](https://arxiv.org/abs/2608.13497) — proves a Beckner-inequality rigidity statement on spheres of every dimension N≥3, by an established PDE group (Juncheng Wei). Unrefereed — PROVISIONAL, track the vetting outcome.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [SOP₂=SOP₃ (Chernikov)](https://arxiv.org/abs/2608.13291) — proves the classes of SOP₂ and SOP₃ first-order theories coincide, answering a 2004 Džamonja–Shelah question in Shelah's classification-theory stability hierarchy, by a leading model theorist. Unrefereed — PROVISIONAL, track the vetting outcome.
+- 2026-08-13 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The Bosch and Simó conjecture on the Shilnikov-Hopf bifurcation (Rodrigues)](https://arxiv.org/abs/2608.13021) — proves the 1993 conjecture that "large" strange attractors persistently and robustly arise in the unfolding of a Shilnikov–Hopf bifurcation, with SRB measures on a positive-measure parameter set. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A Proof of Gluck's Conjecture (Zhang)](https://arxiv.org/abs/2608.11525) — settles a ~41-year-old open problem in finite solvable-group theory (|G:F(G)| ≤ b(G)²). Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [A solution to Butler's positivity conjecture (Guo, Kang, Xiong)](https://arxiv.org/abs/2608.11543) — proves the 1994 Butler positivity conjecture (Schur-expansion coefficients of a Macdonald-intersection-polynomial ratio lie in Z≥0[q,t]); a three-author, internally cross-verified preprint — lower epistemic risk than a single-author claim. PROVISIONAL, track the vetting outcome.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [The 196560 auxiliary-function conjecture for the Leech lattice (Zhang, Yang)](https://arxiv.org/abs/2608.12094) — resolves Cohn–Kumar's 2009 conjecture on a radial Schwartz function realizing the Leech-lattice kissing-number identity, building on the Viazovska-program Fourier-interpolation basis that produced the Fields-Medal-winning 8D/24D sphere-packing results. Unrefereed — PROVISIONAL.
+- 2026-08-12 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Evidence for the First Globular Cluster Stellar Stream beyond the Milky Way (Holm et al.)](https://arxiv.org/abs/2608.12254) — Hubble Space Telescope imaging of ultra-diffuse galaxy UGC9050-Dw1 gives the first evidence for an extragalactic globular-cluster tidal stream, with a dark-matter-halo mass constraint for the host; a first-of-kind observational claim from a single team, track for independent confirmation.
+- 2026-08-11 (shelf-added 2026-09-05, W36 weekly queue-cleanup) — [Kohayakawa's conjecture and clique coverings of complements of paths and cycles (Ning)](https://arxiv.org/abs/2608.11132) — proves Kohayakawa's 1991 conjecture on the growth rate of maximum induced paths in a Kneser-graph-related bipartite construction, a ~35-year-old named conjecture in extremal combinatorics. Unrefereed single-author preprint — PROVISIONAL, track the vetting outcome.
+- 2026-08-13 — [Observation of Time-Domain Braiding of Non-Abelian Anyons at ν=5/2 State (Alkalay, Park, Oh, Hong, Lee, Tiwari, Senapati, Umansky, Heiblum, Sim), arXiv:2608.12897](https://arxiv.org/abs/2608.12897) — the first experimental evidence of non-Abelian anyon braiding, via a time-domain partition-noise signature in the ν=5/2 fractional quantum Hall state (axis 3, condensed matter). Abstract + authors verified via arXiv API this session (v1 2026-08-13). EXTRAORDINARY-CLAIM CAUTION: a first-of-kind claim in a system with a history of contested results — PROVISIONAL pending independent replication — but worth knowing as a long-sought signature directly relevant to topological quantum computing, from a leading group (Weizmann/Heiblum + KAIST).
+- 2026-08-13 — [A solution to Banach's isometric conjecture (Lu, Yang), arXiv:2608.13536](https://arxiv.org/abs/2608.13536) — completes Banach's 1932 conjecture (a Banach space with all n-dimensional subspaces mutually isometric must be Hilbert) for every remaining odd n, joining Gromov's 1967 even-n resolution to close the real case entirely (axis 1, math.FA). Abstract + authors verified via arXiv API this session (v1 2026-08-13). Unrefereed but completes a ~94-year-old classical conjecture building on established prior work — worth knowing as a clean closure of a foundational question in Banach-space geometry.
+- 2026-08-05 (v1 on proofatlas.ai; digested by Terence Tao 2026-08-12, surfaced this session) — [A Computer-Assisted Proof of Sendov's Conjecture (Lech Mazur, using OpenAI GPT-5.6 Pro; digestion + Lean formalization by Terence Tao)](https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf) — an AI-generated, Lean-4-formalized proof claims to resolve Sendov's ~68-year-old conjecture (1958) IN FULL GENERALITY for all polynomial degrees, extending Tao's own 2020 partial resolution (axis 1, math.CV). PDF + Tao's companion GitHub formalization (https://github.com/teorth/sendov) + his digestion blog post opened this session. HEAVY CAVEATS (hype-skepticism + AI-watch rules): off-arXiv, self-published, explicitly AI-substantial per its own disclosure → PROVISIONAL, not confirmed mathematics — but worth knowing for an unusually strong vetting signal this radar has not seen before in the AI-math wave: the world's leading expert on this exact conjecture personally re-deriving, human-digesting, and independently formalizing the argument in Lean, rather than merely publicly commenting on it.
+- 2026-08-12 (v1 2023-05-08; now published Annals of Mathematics 2025, Quanta feature 2026-08-12, surfaced this session) — [Fractal uncertainty in higher dimensions (Alex Cohen), arXiv:2305.05022](https://arxiv.org/abs/2305.05022) — extends the Bourgain–Dyatlov fractal uncertainty principle to all higher dimensions, resolving an extension problem open since a 2016 workshop, now published in the field's top journal (axis 1/2, math.CA / quantum-chaos interface). Abstract + Quanta feature opened this session. No caveats — refereed mathematics; a clean example of the math↔physics-interface results this radar tracks, and originally the author's PhD thesis (MIT), earning him an NYU assistant professorship at 25.
+- 2026-08-10 — [More Than Two Thirds of the Zeros of the Riemann Zeta Function Lie on the Critical Line (Claude / Anthropic)](https://www.anthropic.com/research/riemann-zeta) — an unreleased Anthropic research model unconditionally raises the known lower bound on the proportion of zeta zeros that are simple and on the critical line from ~41.6% to ~67.25% (axis 1, math.NT), by a linear-algebraic reading of Baluyot–Goldston–Suriajaya–Turnage- Butterbaugh's pair-correlation work plus Bombieri (2000). Official research page + paper PDF opened via `tvly extract` this session (paper dated 2026-08-10). HEAVY CAVEATS (hype-skepticism + AI-watch rules): off-arXiv, unrefereed, an extraordinary jump over a decades-slow record — PROVISIONAL; worth knowing for the scale of the claimed jump and the unusually well-matched informal review (Brian Conrey and Dan Goldston, named specialists in exactly this subfield) plus an accompanying Lean formalization, not as confirmed mathematics.
+- 2026-08-10 — [A proof of the cyclotomic conjecture and the non-existence of almost Moore digraphs (Kaur, Kumar), arXiv:2608.08997](https://arxiv.org/abs/2608.08997) — resolves Gimbert's 1999 cyclotomic conjecture, closing the associated ~45-year-old non-existence question for almost Moore digraphs in the directed degree-diameter problem (axis 1, math.CO/NT). Abstract + authors verified via arXiv API this session (v1 2026-08-10). A clean resolution of a classical, well-known open problem in extremal/algebraic graph theory.
+- 2026-08-07 — [Modularity of Higher Theta Series III: Proof of the Modularity Conjecture (Feng, Yun, Zhang), arXiv:2608.07173](https://arxiv.org/abs/2608.07173) — proves the Modularity Conjecture for higher theta series on moduli stacks of Hermitian shtukas, capping a numbered series by leaders of the arithmetic Gan–Gross–Prasad / relative- Langlands program (axis 1, math.NT/AG). Abstract + authors verified via arXiv API this session (v1 2026-08-07).
+- 2026-07-21 (v1; surfaced this session, accessed 2026-08-10) — [Counterexamples to the xz-Conjecture and the Mathieu Conjecture for SU(2) (Long), arXiv:2607.19012](https://arxiv.org/abs/2607.19012) — refutes the ~29-year-old Mathieu conjecture for SU(2), a named conjecture directly connected to the Jacobian-conjecture research program already tracked on this ledger (axis 1, math.RA/AG). Abstract + author verified via arXiv API this session. A capture-leak catch — worth knowing despite the 3-week discovery delay.
+- 2026-08-06 — [Linear dependence of time-frequency shifts of a Schwartz function (Faulhuber, Petersen, van Velthoven, Voigtlaender), arXiv:2608.05044](https://arxiv.org/abs/2608.05044) — disproves the ~30-year-old HRT (Heil–Ramanathan–Topiwala) conjecture in time-frequency analysis via an explicit 12-shift linear dependence (axis 1, math.CA/FA). Abstract + authors verified via arXiv API this session (v1 2026-08-05). AI-assisted (responsibly disclosed per the authors) but independently reconstructed and engaged same-day by Terence Tao — worth knowing as a famous named conjecture falling, with unusually fast, credible community vetting already underway.
+- 2026-08-05 — [The distribution of $\ell^\infty$-Selmer groups in degree $\ell$ twist families I/II (Smith), arXiv:2207.05674 / arXiv:2207.05143](https://arxiv.org/abs/2207.05674) — resolves the notoriously hard $\ell=2$ case of the Cohen–Lenstra(–Gerth) heuristics — the 2-primary class-group distribution problem tracing to Gauss's genus theory (~200 years open) — now published as J. Amer. Math. Soc. 39(1)/39(2) (2026): a rare item on this shelf that is peer-reviewed, not provisional (axis 1, math.NT).
+- 2026-08-04 — [A solution to Crouzeix's conjecture (Lorist, Schwenninger), arXiv:2608.03841](https://arxiv.org/abs/2608.03841) — proves Crouzeix's 2004 conjecture ($\|f(A)\|\le 2\sup_{z\in W(A)}|f(z)|$ for any square matrix $A$ and polynomial $f$, $W(A)$ the numerical range), a famous ~two-decade open problem in operator/matrix theory (axis 1, math.FA). Abstract + authors verified via arXiv API this session (v1 2026-08-04). Unrefereed but an incremental culmination of the authors' own prior partial results (weaker bounds, special cases) — worth knowing as the resolution of a benchmark conjecture every operator theorist has tried their hand at.
+- 2026-08-04 — [The period-index conjecture is false (Perry), arXiv:2608.03684](https://arxiv.org/abs/2608.03684) — for every uncountable algebraically closed field of characteristic 0 and every dimension $d\ge3$, constructs a variety with a Brauer class violating the period-index conjecture (already false over $\overline{\mathbf Q}$ at $d=3$) — a foundational open problem on Brauer groups (axis 1, math.AG). Abstract + author verified via arXiv API this session (v1 2026-08-04). A landmark refutation of a long-standing named conjecture in algebraic geometry.
+- 2026-08-01 — [OpenAI's "Ten Advances in Mathematics and Theoretical Computer Science" (internal model "Astra")](https://openai.com/index/ten-advances-in-mathematics/) — an unreleased OpenAI model claims new results on ten long-standing open problems in one release: a disproof of Connes's rigidity conjecture, an explicit non-sofic group, a superexponential multicolor-Ramsey lower bound (resolving Erdős problem 183 — see the reactivated Ramsey trend), a proof of Ehrhart's volume conjecture, and six more spanning sphere packing, coding theory, circuit complexity, quantum parallel repetition, lattice cryptography and extremal graph theory. Official publication page + full technical PDF (cdn.openai.com/pdf/ten-proofs-oai.pdf) opened this session (dated 2026-08-01). HEAVY CAVEATS (hype-skepticism + AI-watch rules): unrefereed, AI-generated, off-arXiv — the single most extraordinary claim this radar has tracked, PROVISIONAL on every one of the ten results until independent vetting; worth knowing as the story every mathematician is discussing this week (topped r/math and Hacker News), not as confirmed mathematics.
+- 2026-08-02 — [A computer-assisted counterexample to the planar Pompeiu and Schiffer conjectures (Colbrook, Stepaniants), arXiv:2608.01579](https://arxiv.org/abs/2608.01579) — refutes both the 1929 planar Pompeiu problem and the associated Schiffer conjecture via an explicit noncircular domain supporting a boundary-constant Neumann eigenfunction (axis 1, analysis/spectral geometry). Abstract + authors verified via arXiv API this session (v1 2026-08-02). A clean, non-AI, computer-assisted refutation of two classical ~97-year-old conjectures — the same rigorous computer-assisted-proof pattern as Kuperberg's six-cylinder conjecture, already on this shelf.
+- 2025-09-09 (shelf-added 2026-08-03; leading date is the original preprint's v1, not the add date — flagged W32 recalibration so a future weekly's 120-day shelf-pruning check does not misread this as stale) — [Testing the problem of time with cold atoms (Barontini), arXiv:2509.07745](https://arxiv.org/abs/2509.07745) — the FIRST experimental test of relational-time constructions motivated by the Wheeler-DeWitt "problem of time": an isolated ultracold-atom Bose-Einstein condensate (24,000 atoms) split into observed/unobserved sectors yields an entropic "internal time" that robustly orders events across repeated expansion/recollapse cycles, with an effective Schrödinger equation in that internal time reproducing the measured dynamics (axis 4, quantum foundations / quantum-gravity interface). Original preprint 2025-09-09, now published in Physical Review Research and freshly covered by the University of Birmingham (opened via `tvly` this session, ~2026-07-09). A landmark-quality first-of-kind experimental probe of a central open question in quantum-gravity foundations that a physicist should know — single group so far, watch for independent replication.
+- 2026-07-31 — [On a proof of the Gorenstein Symmetry Conjecture (Li), arXiv:2607.28011](https://arxiv.org/abs/2607.28011) — a homological proof of the Gorenstein Symmetry Conjecture (one-sided finiteness of the self-injective dimension of an Artin algebra implies Gorensteinness), a famous long-standing open problem in the representation theory of Artin algebras (axis 1, math.RT/RA). Abstract + author verified via arXiv API this session (v1 2026-07-30). HEAVY CAVEAT (hype-skepticism rule): unrefereed SINGLE-AUTHOR preprint claiming resolution of a named conjecture → PROVISIONAL until independent vetting; worth knowing as a claim a representation theorist should watch, not a confirmed result.
+- 2026-07-30 — [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim), arXiv:2607.27197](https://arxiv.org/abs/2607.27197) — refutes Maxwell's ~150-year-old conjecture that the electrostatic potential of $n$ point charges has at most $(n-1)^2$ non-degenerate critical points, via an explicit 5-point-charge configuration with 24 (axis 2, mathematical physics / classical electrostatics). Abstract + authors verified via arXiv API this session (v1 2026-07-29). A clean, classical, checkable refutation of a genuinely old named conjecture at the math↔physics interface — no AI-assistance or unrefereed-extraordinary-claim caveats apply (an explicit, verifiable counterexample).
+- 2026-07-29 — [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne, Morales), arXiv:2607.21508](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free Schur-positivity conjecture (attributed also to Gasharov) via explicit line-graph counterexamples, and separately refutes Monical's 2018 saturated-Newton-polytope conjecture (axis 1, algebraic combinatorics). Abstract + authors verified via arXiv API this session (v1 2026-07-23). HEAVY CAVEATS (hype-skepticism + AI-watch rules): unrefereed preprint → PROVISIONAL until independent vetting; both counterexamples were "found using ChatGPT-5.6 Sol Pro" → tracked for the mathematical RESULT (a ~30-year conjecture refuted) a frontier combinatorialist should know, NOT the AI method (sibling AI radars' beat). Sixth concrete arXiv artifact in the standing AI-assisted-math wave.
 - 2026-07-28 — [Carlsson's Conjecture and the Generalized Total Rank Conjecture in Characteristic Two (VandeBogert), arXiv:2607.22844](https://arxiv.org/abs/2607.22844) — proves the generalized total rank conjecture over characteristic-2 regular rings and, as a corollary, **Carlsson's conjecture for elementary abelian 2-groups in every rank** — a long-standing open problem in homological/commutative algebra on rank bounds for free group actions (axis 1, math.AC/AT). Abstract + author verified via arXiv API this session (v1 2026-07-24). A landmark-quality resolution of an important case of a named conjecture, worth knowing even though the full (odd-prime) conjecture remains open.
 - 2026-07-28 — [A computer-assisted proof of Kuperberg's six-cylinder conjecture (Matić, Radoičić), arXiv:2607.24691](https://arxiv.org/abs/2607.24691) — settles Kuperberg's question exactly: at most six pairwise non-overlapping infinite unit cylinders can touch a unit ball (axis 1, discrete/convex geometry), via a checkable computer-assisted case analysis (~2.95M cases, full list published). Abstract + authors verified via arXiv API this session (v1 2026-07-27). A clean example of the growing computer-assisted-proof pattern in extremal/discrete geometry (alongside the Balanced Four-Color Theorem on this shelf).
 - 2026-07-27 — [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj, Gai, Huang, Inamura, Schäfer-Nameki, Tiwari, Warman), SciPostPhys.21.1.019](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical (non-invertible) symmetries in (2+1)d, extending the group's earlier gapped-phase program (axis 2, math↔physics interface / QFT). SciPost API metadata + page opened this session (published 2026-07-23). The artifact that completed today's `seed`-trend promotion (non-invertible/generalized symmetries, now ≥3 independent groups) — the clearest single entry point into a QFT sub-field a mathematical physicist should now be tracking.
@@ -949,17 +341,19 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 ## Community pulse
 
 - Hacker News front page, MathOverflow, Physics SE and Mathstodon were all routine this run
-  (0 on-axis catch) — general tech/AI news and routine Q&A, nothing pointing to an uncaptured
-  primary.
+  (0 on-axis catch beyond corroborating the already-captured Anthropic black-hole-physics post)
+  — general tech/AI news and routine Q&A, nothing pointing to an uncaptured primary.
 - Reddit's own feeds (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics,
   r/AskPhysics) remain hard-blocked domain-wide on direct fetch, a long-standing issue; no lane
   needed the fallback this run.
-- Digest blogs: most of the usual roster (Tao, Kalai, Gowers, Baez, Strassler) were
-  stale/already-tracked this run; Woit and Hossenfelder each posted once (an AI-lab-access
-  governance item and an unidentified particle-physics anomaly pointer — both unverified, see
-  watchlist) and MathHelm, a newly-discovered research-mathematician forum, produced its first
-  two genuine catches this run.
+- Digest blogs: most of the usual roster (Quanta, Tao, Woit, Gowers, Kalai, Baez, Strassler) were
+  stale/already-tracked this run; Hossenfelder's "experiment against experiment" particle-physics
+  anomaly video post (still unidentified) carries over as an unresolved chase. MathHelm, a
+  newly-discovered research-mathematician forum, produced today's two biggest catches — both now
+  on the trend table / watchlist above with full attribution.
+- The n-Category Café remains inaccessible for a 3rd consecutive session (site-side outage, not
+  a block) — low-severity, single commentary source, not re-escalated.
 
 ## Output map
 
-[TRENDS.md](TRENDS.md) (ledger of record) · [watchlist (593 items)](TRENDS.md#observation_queue) · [reports/](reports/) (newest: [2026-11-19](reports/2026-11-19.md)) · weekly: [2026-W46](reports/weekly/2026-W46.md) · [AGENTS.md](AGENTS.md) (operating rules) · [SOURCES.md](SOURCES.md) (source registry)
+[TRENDS.md](TRENDS.md) (ledger of record) · [watchlist (607 items)](TRENDS.md#observation_queue) · [reports/](reports/) (newest: [2026-11-20](reports/2026-11-20.md)) · weekly: [2026-W46](reports/weekly/2026-W46.md) · [AGENTS.md](AGENTS.md) (operating rules) · [SOURCES.md](SOURCES.md) (source registry)
