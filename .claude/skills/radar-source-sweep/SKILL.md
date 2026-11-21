@@ -44,6 +44,19 @@ The lists live in `SOURCES.md` → "Primary feeds" and "Research / publication v
 feeds `DEAD` if they stop resolving, add new sources as they appear). Prefer the
 feed URL; fall back to the HTML index via `tvly extract` only if no feed exists.
 
+## Title-triage keyword list (standing — amended 2026-W47)
+
+Title-only triage is a cheap first pass, never a substitute for the Amendment J
+full-abstract category rotation. Match against (case-insensitive, substring):
+`conjectur`, `theorem`, `disprov`, `refut`, `counterexample`, `resolv`,
+`resolution`, `classif`, `proof`, `prove`, `proves`, `discover`, `settl`,
+`breakthrough`. **`resolution` must be matched as its own term, separately from
+`resolv`** — `resolution` does NOT contain the substring `resolv` (found
+2026-11-18: a title using only the noun form "resolution" was silently
+unmatched by a `resolv`-only regex for an unknown prior span). If a future
+session finds another keyword gap of this shape, add the missing term here
+rather than leaving each session to reconstruct its own regex from memory.
+
 ## Notes
 
 - The sweep complements, never replaces, the rotating exploration slot.
