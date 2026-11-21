@@ -80,7 +80,19 @@ mixed with general PR (= intake — follow to the paper). Filter for on-axis res
   actively checking it until the 09-15 daily's side-effect catch — see `logs/strategy_notes.md`
   2026-09-15).
 Experiments & data-release collaborations (the real "new-artifact drop" of this domain — a detection / data release / result IS a primary artifact; follow to the collaboration paper on arXiv):
-- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25/08-26 (direct `curl`, even with a browser UA, hits a Cloudflare "Attention Required" challenge page). HEALED 2026-08-27: `WebFetch` on the plain `http://www.ligo.org/news` URL (no `.php`, no forced HTTPS) returns the full LSC news listing cleanly — `WebFetch` on the original `https://www.ligo.org/news.php` URL instead reports a same-host redirect to this URL, so fetch the redirected URL directly. Prefer this over `tvly extract` going forward (works even while `tvly` is quota-exhausted). DEGRADED AGAIN 2026-09-18: both the plain `/news` URL (curl and `WebFetch`) and `/news.php` return 503/403 this session — a fresh, different failure from the 08-25/08-26 Cloudflare block (that one was a challenge page; this is a clean server error) — logged as a single-daily transient, not yet heal-owed (re-test next session before escalating). NEW FAILURE MODE, NOW HEAL-OWED (2026-11-17, 3rd occurrence: 11-12, 11-16, 11-17): direct `curl` 403s (Cloudflare); `WebFetch` on the plain `/news` URL returns a 200 but with STALE content — newest item still "GWTC-5.0" dated May 26 2026, unchanged across all three sessions, meaning no genuinely new LIGO news has been missed (the staleness itself, not a real gap, is the problem) — `tvly extract` attempted this session, failed (account-quota exhaustion). No working unstale method found across 3 sessions; re-test a cache-busting query string or `tvly` once quota resets next session before further escalation.]** — gravitational-wave detections/catalogs (e.g. GWTC)
+- LIGO Scientific Collaboration — https://www.ligo.org/news.php **[verified 2026-07-02; HTML → `tvly extract`. DEGRADED 2026-08-25/08-26 (direct `curl`, even with a browser UA, hits a Cloudflare "Attention Required" challenge page). HEALED 2026-08-27: `WebFetch` on the plain `http://www.ligo.org/news` URL (no `.php`, no forced HTTPS) returns the full LSC news listing cleanly — `WebFetch` on the original `https://www.ligo.org/news.php` URL instead reports a same-host redirect to this URL, so fetch the redirected URL directly. Prefer this over `tvly extract` going forward (works even while `tvly` is quota-exhausted). DEGRADED AGAIN 2026-09-18: both the plain `/news` URL (curl and `WebFetch`) and `/news.php` return 503/403 this session — a fresh, different failure from the 08-25/08-26 Cloudflare block (that one was a challenge page; this is a clean server error) — logged as a single-daily transient, not yet heal-owed (re-test next session before escalating). NEW FAILURE MODE, NOW HEAL-OWED (2026-11-17, 3rd occurrence: 11-12, 11-16, 11-17): direct `curl` 403s (Cloudflare); `WebFetch` on the plain `/news` URL returns a 200 but with STALE content — newest item still "GWTC-5.0" dated May 26 2026, unchanged across all three sessions, meaning no genuinely new LIGO news has been missed (the staleness itself, not a real gap, is the problem) — `tvly extract` attempted this session, failed (account-quota exhaustion). No working unstale method found across 3 sessions; re-test a cache-busting query string or `tvly` once quota resets next session before further escalation.
+  **HEAL-OR-REMOVE DECISION (2026-W47 weekly): re-tested a cache-busting query string this
+  session (`WebFetch` on `/news?_cb=...`) — returns 200 but with the IDENTICAL stale GWTC-5.0
+  listing, 6th consecutive session (11-12, 11-16, 11-17, 11-18, 11-19, today) with no change;
+  `tvly` still quota-exhausted, direct `curl` still Cloudflare-403s. No genuinely new LIGO news
+  has been missed across any of these 6 sessions (the listing itself hasn't moved, so the
+  staleness provably hasn't hidden anything yet) — but the ACCESS METHOD has now failed
+  identically 6 times running with zero fix found, the same bar that triggered the CERN-home and
+  SLMath downgrades. DECISION, same precedent: keep LIGO listed (legitimate primary, may heal on
+  its own) but DOWNGRADE from "re-attempt every run" to "re-test monthly" (next due ~2026-12-21).
+  Fallback chain for LVK news in the meantime: DESI/arXiv gr-qc category sweep + INSPIRE-HEP
+  most-recent (both already DAILY-tier) catch LVK-collaboration papers directly; do not flag
+  `degraded` for this endpoint again before the next monthly re-test.]** — gravitational-wave detections/catalogs (e.g. GWTC)
 - DESI (Dark Energy Spectroscopic Instrument) — https://www.desi.lbl.gov/ **[verified 2026-07-02; HTML → `tvly extract`]** — cosmology data releases & results
 - CERN — https://home.cern/news **[verified 2026-07-02; HTML → `tvly extract`. HEALED 2026-08-24:
   the bare `/news` HTML page now Cloudflare/WAF-blocks direct `curl` (`wpewaf.com` challenge), but
@@ -194,6 +206,18 @@ Experiments & data-release collaborations (the real "new-artifact drop" of this 
   path the 10-29 daily's "publications index" sighting used is not recorded — relocate next
   session). Companion GitHub org `github.com/AxiomMath` 403's under this session's proxy-scoping
   (standing since 10-28).
+- mathhelm.org (a research-mathematician forum for discussing AI-generated math papers; scientific
+  committee incl. Xinyi Yuan [chair], Ruixiang Zhang, Fan Zheng) — **[promoted 2026-W47 weekly;
+  re-verified live via plain `curl -A "Mozilla/5.0"` this session (200 OK) — cleared the
+  ≥2-sighting bar staged 2026-10-26 (3 sightings: the launch-post comment 10-26; Tao's "What's
+  new" guest-post introduction 11-14/seen 11-16; a first PRODUCTIVE sweep 11-19 that surfaced two
+  genuinely new captures — Zhen Lei's independent Navier-Stokes reconstruction, arXiv:2609.35406,
+  and the Mark Lewko Kakeya-maximal-inequality discussion thread — plus continued use 11-20)]** —
+  AI-WATCH-LANE PRIMARY, same self-publication/discussion-forum pattern as mathcommunity.github.io/
+  oai-math-revised; real-name/verified-institutional-email registration, no AI-training use of
+  content. No RSS located yet; access via direct `curl -A "Mozilla/5.0"`/`WebFetch` on
+  `mathhelm.org` (the "Recent activity" listing is the what's-new surface). Fold into the DAILY-tier
+  AI-watch-lane sweep going forward.
 
 Mathematics institutes — **[WEEKLY-SWEPT tier]** (Perimeter, Clay, IAS above also move here; weekly operator sweeps):
 - IHES — https://www.ihes.fr/en/ · SLMath (ex-MSRI) — https://www.slmath.org/ · MPIM Bonn — https://www.mpim-bonn.mpg.de/ · Fields Institute — https://www.fields.utoronto.ca/ · Isaac Newton Institute — https://www.newton.ac.uk/ **[all verified 2026-07-02; HTML → `tvly extract`]** — major mathematics institutes (programs, results, workshops). SLMath DEGRADED a 3rd consecutive weekly on `tvly extract` (W41 2026-10-10: "Failed to fetch url" again) — crossed the heal-owed bar this session; HEALED: `WebFetch` directly on `https://www.slmath.org/news` returns the page cleanly (no JS-shell/empty-body issue) — prefer `WebFetch` first going forward for this source, `tvly search "slmath.org news <year>"` as fallback. **REGRESSED 2026-10-17 (W42): the W41 WebFetch heal no longer works — WebFetch now returns only the page `<title>` with no body, `tvly extract` fails outright ("Failed to fetch url"), and direct `curl` returns a 200 but only a 3.5KB JS-shell with no news content — a genuine new JS-render block, not a transient. Only `tvly search "slmath.org news October 2026"` recovers any content (partial — surfaced 2 items, not a full "what's new" browse). First occurrence of this specific failure mode (3rd distinct failure mode on this source overall) — not yet heal-owed, re-test next weekly before escalating. STILL DEGRADED 2026-10-31 (W44, 4th consecutive weekly): `tvly` was quota-exhausted this session (no fallback available) and plain `curl -A "Mozilla/5.0"` returns 200 but still only the 3.5KB JS-shell (`<title>` only, no body) — same W42 failure mode persists; crosses heal-owed again, no new fix found this session (flag for W45: try a headless-render path or `tvly extract` once quota resets).** **HEAL-OR-REMOVE DECISION (2026-11-07, W45, 5th
@@ -509,22 +533,9 @@ openmathmodel.org (1 sighting still).
   bar (1 sighting); candidate home page `euclid-ec.org` (ESA mission site) or
   `www.cosmos.esa.int/web/euclid` NOT yet independently verified this session (arXiv is the access
   route for now) — verify a dedicated news/release feed on next sighting.
-- mathhelm.org — 2 — (1) named in a comment on the oai-math-revised launch post, first seen
-  2026-10-26, not independently verified that session; (2) a dedicated guest post on Terence
-  Tao's "What's new" blog, "Introducing MathHelm: A Place to discuss AI-generated papers"
-  (2026-11-14), by the MathHelm scientific committee (Xinyi Yuan [chair], Yi Ni, Xiaoming Sun,
-  Liang Xiao, Yuan Yuan, Ruixiang Zhang, Fan Zheng) — seen 2026-11-16 — VERIFIED LIVE this session
-  via plain `curl -A "Mozilla/5.0"` (200 OK): a real, active research-mathematics forum (members
-  with verified institutional email can post; real-name registration; no AI-training use of
-  content; existing threads on recent papers). CLEARS the ≥2-sighting bar — ready for weekly
-  promotion to Primary feeds / AI-watch-lane (same class as mathcommunity.github.io/
-  oai-math-revised). No RSS located yet; access via direct `curl`/`WebFetch` on `mathhelm.org`.
-  (3) 2026-11-19 (daily): first PRODUCTIVE sweep — the "Recent activity" listing itself (via
-  `curl`) surfaced two genuinely new, previously-untracked items this session: an independent
-  Navier-Stokes write-up by Zhen Lei (arXiv:2609.35406, now evidenced on the OpenAI mass-
-  disclosure trend) and an unverified Mark Lewko discussion post claiming a sharp Kakeya maximal
-  inequality in all dimensions (queued). Confirms this is a genuinely high-signal venue, not just
-  a one-off sighting — strengthens the case for weekly promotion.
+PROMOTED 2026-W47 (weekly): mathhelm.org (3 sightings, re-verified live via plain `curl` this
+session → Primary feeds, AI-watch lane, DAILY tier) — see its entry above; cleared from this
+staging list.
 - acadmathsci.org.uk (Academy for the Mathematical Sciences, UK-wide body for math/stats/OR) — 1 —
   "The mathematical sciences in an AI-enabled world" report, Oct 2026 (PDF located via `tvly
   search` at `acadmathsci.org.uk/wp-content/uploads/2026/10/Mathematical_Sciences_AI_AcadMathsSci_Oct2026_preprint_final.docx.pdf`,
@@ -621,7 +632,15 @@ Reddit (`.rss` Atom; when a sub 429s it is rate-limit not death — retry or `tv
   a site/tool failure) — no working fallback exists under this session's tooling. Low-severity
   single commentary source (not a hard-rule/coverage-promise item); not escalated to the curator,
   but flag for the weekly: 3 consecutive failures with no fix path found is worth a standing
-  decision (keep re-testing vs. downgrade cadence, per the CERN-home/SLMath precedent).]** —
+  decision (keep re-testing vs. downgrade cadence, per the CERN-home/SLMath precedent).
+  **HEAL-OR-REMOVE DECISION (2026-W47 weekly): re-tested this session — plain `curl` still SSL-
+  errors (exit 35), `WebFetch` still 503s — a 4th consecutive failure, identical signature each
+  time (genuine site-side outage, not a block). DECISION, same precedent as CERN-home/SLMath/
+  LIGO: keep this source listed (legitimate, high-signal commentary blog) but DOWNGRADE from
+  "re-attempt every run" to "re-test monthly" (next due ~2026-12-21) — this is a single
+  commentary source (intake-only, never evidence), not a hard-rule/coverage-promise primary, so a
+  4th identical re-log is pure noise. Other category-theory/math-physics digest coverage
+  (Baez/Kalai/Tao/Gowers, all DAILY tier) continues to cover adjacent ground in the meantime.]** —
   category theory / mathematical physics group blog
 - Gowers's Weblog — https://gowers.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — Fields-medalist blog; big open problems, Polymath, expository breakthroughs
 - Combinatorics and more (Gil Kalai) — https://gilkalai.wordpress.com/feed/ **[verified 2026-07-02; RSS]** — combinatorics, convexity, and a leading QUANTUM-skeptic voice (pairs with the hype-skepticism rule)

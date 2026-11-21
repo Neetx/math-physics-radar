@@ -121,7 +121,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     promoted to `mainstreaming` (group-count/pace signal only, no standard-practice adoption).
 
 ### Non-invertible (categorical) symmetries in QFT (generalized global symmetries)
-- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-11-09
+- stage: accelerating | confidence: high | first_seen: 2026-07-27 | last_evidence: 2026-11-18
 - what: A maturing research direction extending 't Hooft-anomaly / global-symmetry analysis to
   NON-INVERTIBLE ("categorical"/"generalized") symmetries in quantum field theory — fusion-category
   symmetry defects applied to lattice anomalies, 2d CFT constructions, and now a systematic (2+1)d
@@ -174,7 +174,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     lines is preserved along the flows — the first engagement on this trend from the
     integrable-QFT/TBA sub-community. Abstract + authors verified via arXiv API this session
     (v1 2026-08-25; W41 version-history spot-check: silently revised to v2, updated 2026-09-29 —
-    same author group/result, no new group; last_evidence advanced to this date for the record).
+    same author group/result, no new group; last_evidence advanced to this date for the record;
+    W47 version-history spot-check: a further silent revision to v3, updated 2026-11-18 — same
+    author group/result, no new group, last_evidence advanced accordingly).
   - 2026-09-04 — https://arxiv.org/abs/2609.03043 — Volpato, "Monstrous parafermionic defects and
     other non-invertible symmetries in chiral CFTs": a TENTH fully independent author (independent
     of all nine above), constructing non-invertible topological defects (parafermionic and
@@ -291,6 +293,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     gauging charge symmetry yields noninvertible lattice operations. last_evidence 2026-10-26 →
     2026-11-09 (oldest evidence line, 2026-08-22 Kobayashi et al., dropped to hold the 10-item
     cap). Still `accelerating`/`high`, well short of a `mainstreaming` signal.
+  - 2026-W47 recalibration (Amendment I version-history spot-check, full batch of every tracked
+    id across the ledger): 2608.24385 (Ahn-Bajnok-Elek) found silently revised a second time, to
+    v3 updated 2026-11-18 — same author group/result, no new group; last_evidence advances
+    2026-11-09 → 2026-11-18 (the latest dated activity now on file for this trend). No 21st
+    independent group found this session.
 
 ### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
@@ -1202,8 +1209,9 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     method. A positive, substantive vetting-engagement signal on one specific result-family, same
     pattern as the Tevelev/Nagata and Zhentao-Li/Barnette expositions above. Abstract + author
     verified via direct arXiv page fetch this session.
-  - 2026-09-08 (v1; found via a MathHelm forum sweep this session, a new source — see SOURCES.md
-    staging) — https://arxiv.org/abs/2609.35406 — Zhen Lei, Xiao Ren, "Finite-Time Blowup for
+  - 2026-09-28 (v1, revised 2026-09-29 v2, 2026-11-18 v3; found via a MathHelm forum sweep this
+    session, a new source — see SOURCES.md staging) — https://arxiv.org/abs/2609.35406 — Zhen
+    Lei, Xiao Ren, "Finite-Time Blowup for
     Navier-Stokes with Smooth Forcing, Part I: Construction of Self-Similar Solutions with
     Admissible Stress and Flat Remainder": an independent "readable and accessible version of the
     profile-construction part of OpenAI's manuscript," explicitly stating "We regard OpenAI's work
@@ -1624,7 +1632,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     published/final LVK paper, same title/result). Low materiality, no change to `last_evidence`.
 
 ### OpenAI's claimed proof of the quasi-Riemann Hypothesis (zero-free region ℜs>7/8)
-- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-11-02
+- stage: seed | confidence: medium | first_seen: 2026-10-13 | last_evidence: 2026-11-12
 - what: axis-1 DOMAIN-CADENCE LANDMARK, PROMOTED out of prose: one specific result-family (#003)
   inside the already-tracked OpenAI mass-disclosure release (2026-10-06, 722 manuscripts) had sat
   named only in that trend's `what` text since 2026-10-07 — a capture-leak by this ledger's own
@@ -1694,6 +1702,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     condition has sought since creation. Caught via today's math.NT title-triage sweep.
     last_evidence advances 2026-10-30 → 2026-11-12. Abstract/author verified via arXiv API this
     session; not independently assessed for correctness (unrefereed preprint — claim).
+  - 2026-W47 recalibration (bookkeeping correction): the header `last_evidence` field had drifted
+    to 2026-11-02, two advances behind the trend's own notes (which already recorded the 10-21 and
+    10-30 advances, and the 11-12 evidence line above) — corrected to 2026-11-12, the latest dated
+    activity actually on file. No new group or vetting outcome found this session.
 - notes: 2026-10-13 (daily, seed creation/promotion): caught via today's MathOverflow sweep — two
   fresh threads (2026-10-12), Benjamin Durkan proposing a Polymath-type verification project ("the
   proof proffered by OpenAI is quite opaque... it would be beneficial for humans to break down the
@@ -2714,7 +2726,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     2026-11-15 → 2026-11-17.
 
 ### Resolution of the Erdős–Nicolas–Sárközy conjecture (admissible-set counting)
-- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-08
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-19
 - what: axis-1 DOMAIN-CADENCE LANDMARK: Erdős, Nicolas, and Sárközy (1991) conjectured that
   $\log a(N)\asymp\sqrt N$, where $a(N)$ counts "admissible" subsets of $\{1,\dots,N\}$ (any two
   subsets with equal sum have equal cardinality) — a 35-year-old named Erdős problem in additive
@@ -2725,13 +2737,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Admissible Sets of Integers: A Proof of the Erdős–Nicolas–Sárközy Conjecture." Abstract +
     authors verified via arXiv API this session (W46 version-history spot-check: silently revised
     to v2, updated 2026-11-08 — same title/authors, no new group; last_evidence advances
-    accordingly).
+    accordingly; W47 version-history spot-check: a further silent revision to v3, updated
+    2026-11-19 — same title/authors, no new group; last_evidence advances accordingly).
 - notes: 2026-10-27 (daily, seed creation): caught in today's math category-rotation batch
   (keyword triage). Confidence `medium` (unrefereed preprint, standard caution). Watch for
   referee/community engagement.
   - 2026-W46 recalibration (Amendment I version-history spot-check): silent v2 found (above);
     last_evidence 2026-10-25 → 2026-11-08. No new group, no referee/vetting outcome. Confidence
     held medium.
+  - 2026-W47 recalibration (Amendment I version-history spot-check): a further silent revision to
+    v3, updated 2026-11-19 (above); last_evidence 2026-11-08 → 2026-11-19. No new group, no
+    referee/vetting outcome. Confidence held medium.
 
 ### Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath
 - stage: seed | confidence: low | first_seen: 2026-10-28 | last_evidence: 2026-11-16
@@ -2970,18 +2986,23 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   repo's claimed sorry-free status holds up under outside inspection.
 
 ### Disproof of Guralnick's conjecture (unbounded cohomology of finite simple groups)
-- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-08
+- stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-17
 - what: axis-1 DOMAIN-CADENCE LANDMARK (representation theory / finite group cohomology). Bowman,
   de la Fuente, Libedinsky and Plaza show that, in every fixed positive degree, the cohomology of
   finite simple groups, algebraic groups and quantum groups (coefficients in simple modules) can
   have arbitrarily large dimension — disproving Guralnick's conjecture, which predicted a uniform
   bound. Four-author, ordinary human mathematics; standard unrefereed-preprint caution.
 - evidence:
-  - 2026-11-08 (v1) — https://arxiv.org/abs/2611.11677 — Bowman, de la Fuente, Libedinsky, Plaza,
-    "The cohomology of finite simple groups is unbounded." Abstract + authors verified via direct
-    arXiv `/abs/` fetch this session.
+  - 2026-11-08 (v1, revised 2026-11-17 v2) — https://arxiv.org/abs/2611.11677 — Bowman, de la
+    Fuente, Libedinsky, Plaza, "The cohomology of finite simple groups is unbounded." Abstract +
+    authors verified via direct arXiv `/abs/` fetch this session (W47 version-history spot-check:
+    silently revised to v2, updated 2026-11-17 — same authors/result, no new group; last_evidence
+    advances accordingly).
 - notes: 2026-11-10 (daily, seed creation): caught via today's math-category arXiv batch
   (math.GR, title-triage). Confidence `medium` (brand-new, no corroboration yet).
+  - 2026-W47 recalibration (Amendment I version-history spot-check): silent v2 found (above);
+    last_evidence 2026-11-08 → 2026-11-17. No referee/vetting outcome, no independent group yet.
+    Confidence held medium.
 
 ### Proof of Gromov's conjecture on nilpotent groups (integrable measure equivalence)
 - stage: seed | confidence: medium | first_seen: 2026-11-10 | last_evidence: 2026-11-09
@@ -3151,7 +3172,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   entanglement-criterion consequence.
 
 ### Resolution of Erdős Problem 521 on real roots of random polynomials
-- stage: seed | confidence: medium | first_seen: 2026-11-13 | last_evidence: 2026-11-12
+- stage: seed | confidence: medium | first_seen: 2026-11-13 | last_evidence: 2026-11-15
 - what: axis-1 DOMAIN-CADENCE LANDMARK, human-authored arXiv primary — resolves Erdős Problem 521
   (from the curated Erdős-problems collection, the same class of named-problem resolution this
   ledger already tracks for Lehmer's 1965 conjecture and the Komlós/Beck-Fiala conjectures).
@@ -3162,12 +3183,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   subsequential limits is exactly the interval between them. Standard unrefereed-preprint
   caution.
 - evidence:
-  - 2026-11-12 (v1) — https://arxiv.org/abs/2611.16157 — Zengjing Chen, Xiaodong Liu, Jie Peng,
-    Hanchao Wang, Mingjian Zhang, "The limit point set of real roots of random polynomials: a
-    resolution of Erdős Problem 521". Abstract/authors verified via arXiv API this session.
+  - 2026-11-12 (v1, revised 2026-11-15 v2) — https://arxiv.org/abs/2611.16157 — Zengjing Chen,
+    Xiaodong Liu, Jie Peng, Hanchao Wang, Mingjian Zhang, "The limit point set of real roots of
+    random polynomials: a resolution of Erdős Problem 521". Abstract/authors verified via arXiv
+    API this session (W47 version-history spot-check: silently revised to v2, updated 2026-11-15
+    — same authors/result, no new group; last_evidence advances accordingly).
 - notes: 2026-11-13 (daily, seed creation): caught via today's math.PR title-triage sweep (title
   states the resolution explicitly). Watch for: independent verification/citation, and whether
   conjectures.io or another Erdős-problems tracker records this resolution.
+  - 2026-W47 recalibration (Amendment I version-history spot-check): silent v2 found (above);
+    last_evidence 2026-11-12 → 2026-11-15. No referee/vetting outcome, no independent group yet.
+    Confidence held medium.
 
 ### Convergence toward evidence for evolving (dynamical) dark energy (DESI + DES + independent reanalyses)
 - stage: emerging | confidence: medium | first_seen: 2026-11-17 | last_evidence: 2026-11-17
@@ -3308,6 +3334,37 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-21 (W47 capture-leak sweep: named only in the Ramsey-lower-bound trend's notes as a
+  same-author-portfolio escalation, "logged for engagement, not independently re-queued" — never
+  given its own queue line) — Gvozdić, Hunter, Milojević, Sudakov, "Sharp bounds for off-diagonal
+  and tripartite canonical Ramsey numbers" — https://arxiv.org/abs/2610.03358 (2026-10-02) —
+  Hunter-Milojević-Sudakov's own follow-up on Ramsey-adjacent canonical/tripartite bounds, not an
+  independent group on the trend's own off-diagonal/hypergraph sub-theme. Axis 1. Title/authors
+  verified via arXiv API this session; not independently re-opened in full.
+- 2026-11-21 (W47 capture-leak sweep, same source as above) — Kaizhe Chen, "A note on the
+  logarithmic exponent of Ramsey number $r(4,t)$" — https://arxiv.org/abs/2610.15293 (2026-10-11)
+  — a short note on Lin-Zhang's result below (2610.17891), excluded from the Ramsey trend as
+  below-bar. Axis 1. Title/author verified via arXiv API this session; not independently
+  re-opened in full.
+- 2026-11-21 (W47 capture-leak sweep, same source as above) — Martin Balko, Klára Grinerová, "A
+  General Upper Bound on Multicolor Ordered Ramsey Numbers" — https://arxiv.org/abs/2609.28075
+  (2026-09-23) — the Ramsey trend's own notes name this as "already tracked on the Harary-Hill
+  conjecture trend"; no such evidence line was found there this session (a second, compounding
+  leak) — an off-theme (ordered/upper-bound, not the trend's off-diagonal lower-bound sub-theme)
+  Ramsey paper. Axis 1. Title/authors verified via arXiv API this session; not independently
+  re-opened in full.
+- 2026-11-21 (W47 capture-leak sweep, same source as above) — Qizhong Lin, Qiuyang Zhang, "The
+  logarithmic exponent of the Ramsey number $r(4,t)$" — https://arxiv.org/abs/2610.17891
+  (2026-10-13) — Lin's own follow-up (Lin is already a tracked author on this trend via the
+  Lin-Niu evidence line), not an independent group. Axis 1. Title/authors verified via arXiv API
+  this session; not independently re-opened in full.
+- 2026-11-21 (W47 capture-leak sweep: named only in the Non-invertible-symmetries trend's notes
+  as a same-author escalation, never given its own queue line) — Jie Han, Ferdinand Ihringer,
+  Hendrik Van Maldeghem, "Optimally pseudorandom $K_4$-free graphs" — https://arxiv.org/abs/2609.32461
+  (2026-09-26) — Ihringer's own follow-up (already a tracked author on the Ramsey trend via the
+  Ihringer-Mattheus evidence line); pseudorandom-graph construction, not independently assessed
+  against either trend's own bar. Axis 1. Title/authors verified via arXiv API this session; not
+  independently re-opened in full.
 - 2026-11-19 (v2, revised 2026-11-19 from a 2025-01-31 v1; CAPTURE-LEAK CATCH surfaced via the
   revision) — Benedek Kovács, Zoltán Lóránt Nagy, Dávid R. Szabó, "Settling the no-$(k+1)$-in-line
   problem when $k$ is not small" — https://arxiv.org/abs/2502.00176 — PARTIAL: settles the
@@ -5640,9 +5697,6 @@ why`). The trend bar does NOT apply here; opened primary sources only.
 - 2026-07-27 — [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj, Gai, Huang, Inamura, Schäfer-Nameki, Tiwari, Warman), SciPostPhys.21.1.019](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical (non-invertible) symmetries in (2+1)d, extending the group's earlier gapped-phase program (axis 2, math↔physics interface / QFT). SciPost API metadata + page opened this session (published 2026-07-23). The artifact that completed today's `seed`-trend promotion (non-invertible/generalized symmetries, now ≥3 independent groups) — the clearest single entry point into a QFT sub-field a mathematical physicist should now be tracking.
 - 2026-07-24 — [2026 Fields Medals — Deng, Pardon, Tsimerman, Wang (IMU / ICM 2026)](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026) — the four 2026 Fields Medals, awarded 2026-07-23 at the ICM opening ceremony in Philadelphia, with the official IMU citations (axis 1, pure mathematics): **Yu Deng** (PDE — rigorous Boltzmann derivation from hard-sphere dynamics, wave-kinetic equations from dispersive systems), **John Pardon** (symplectic geometry — virtual fundamental cycles, Fukaya categories; 3-manifold group actions & knot theory), **Jacob Tsimerman** (o-minimality as a method in arithmetic/algebraic geometry — Griffiths' period-map algebraicity, André–Oort for Siegel modular varieties), **Hong Wang** (harmonic analysis & GMT — local smoothing, Fourier restriction, Falconer distance sets, Furstenberg-plane and the Kakeya problem in ℝ³). IMU laureate page with citations opened this session (primary). The single most important thing a frontier mathematician should absorb this week — and a radar convergence: Wang's Kakeya-3D (Wang–Zahl, on this shelf) and Deng's Boltzmann/wave-kinetic work (2026 Clay Award) are already-tracked landmark artifacts, now Fields-honored.
 - 2026-07-24 — [A solution to 2-copy distillability of Werner states, arXiv:2607.21367](https://arxiv.org/abs/2607.21367) — proves Werner states (arbitrary dimension) are 2-copy distillable iff 1-copy distillable, resolving a longstanding open question in entanglement distillation and an important step toward the central open problem of whether every NPT state is distillable (axis 4, quantum-information theory). Abstract verified via arXiv API this session (v1 2026-07-23). A clean resolved-open-question a quantum-information researcher should know.
-- 2026-07-23 — [Graded Keller maps and the Jacobian Conjecture (Shaska), arXiv:2607.20210](https://arxiv.org/abs/2607.20210) — the FIRST on-arXiv mathematical analysis of the announced counterexample to the ~87-year-old JACOBIAN CONJECTURE (Keller 1939): classifies equivariant Keller maps by the sign-signature of their grading weights (weighted-projective geometry), showing the announced counterexample must live in the mixed-sign, dimension-≥3 regime (all-positive weights, or any sign pattern in dim 2, force an automorphism) (axis 1, algebraic geometry). Abstract/author/date verified via arXiv API this session (v1 2026-07-22). HEAVY CAVEATS (hype-skepticism + AI-watch rules): the underlying counterexample (3-variable, refuting the general conjecture) was announced OFF-arXiv and is AI-GENERATED (Anthropic's Claude Fable 5) → PROVISIONAL until independent vetting (Terence Tao and others publicly scrutinizing it — a signal, not an outcome); tracked for the RESULT + this arXiv analysis a frontier researcher should know, NOT the AI method (sibling AI radars' beat). The biggest math story of the week (paired with the Batyrev and mod-4 Kawauchi results in the AI-assisted-math wave); watch for a confirmed refutation / a machine-checked formalization / a gap.
-- 2026-07-22 — [A counter-example to Batyrev's conjecture on the non-negativity of stringy Hodge numbers, arXiv:2607.19184](https://arxiv.org/abs/2607.19184) — refutes Batyrev's conjecture, "a fundamental open problem" that guided decades of results in motivic integration, mirror symmetry, and the McKay correspondence (the assertion that stringy Hodge numbers of Gorenstein varieties are non-negative) (axis 1, algebraic geometry). Abstract + date verified via arXiv API this session (v1 2026-07-21). HEAVY CAVEATS (hype-skepticism + AI-watch rules): unrefereed preprint → PROVISIONAL until independent vetting; the counter-example was "discovered with the assistance of OpenAI's ChatGPT" → tracked for the mathematical RESULT (a falsified fundamental conjecture a researcher should know), NOT the AI method (the sibling AI radars' beat). Part of the 07-22 cluster of AI-assisted arXiv artifacts (with the mod-4 Kawauchi proof via Claude Fable 5 and the OpenAI CDC proof); watch for expert scrutiny.
-- 2026-07-20 — [OpenAI's proof of the Cycle Double Cover Theorem (Geelen, exposition), arXiv:2607.15399](https://arxiv.org/abs/2607.15399) — a clarifying write-up by matroid theorist Jim Geelen of an OpenAI-produced proof of the CYCLE DOUBLE COVER CONJECTURE, one of graph theory's most famous ~50-year-old open problems (Szekeres 1973 / Seymour 1979: every bridgeless graph carries a family of cycles covering each edge exactly twice) (axis 1 combinatorics + axis 5 machine-assisted math). Abstract/author/date verified via arXiv API this session (v1 2026-07-16). HEAVY CAVEATS (hype-skepticism + AI-watch rules): the proof is AI-GENERATED and UNREFEREED → PROVISIONAL, not a confirmed resolution until independent expert vetting; Geelen's note is exposition (self-described "no new insights"), NOT community confirmation; the original OpenAI paper was not locatable on arXiv this session. Tracked for the RESULT + the exposition artifact a frontier researcher should know — NOT the AI method (the sibling AI radars' beat). Watch for expert scrutiny / a machine-checked formalization.
 
 ## calibration
 

@@ -2303,3 +2303,16 @@ coding) this week. No redirection needed.
   state the keyword list explicitly (with "resolution" included) rather than leaving each session
   to reconstruct its own regex from the routine's prose description.
 - 2026-11-20 — CURATOR (scope input, supersedes the W46 "fame-blind" ratification): the landmark seed bar is a first-of-kind detection/measurement, OR a resolved conjecture that is long-standing (≥15 years) AND (celebrated OR independently engaged by experts) — AGENTS.md → Trend bar. Being named, or old, is not enough. One-time migration applied today: 97 trend blocks below the bar moved verbatim to `logs/results_catalog.md` (163 → 66 trends); 404 queue entries untouched for >30 days moved verbatim to `logs/queue_history.md` (617 → 213); TRENDS.md 1009 → 505 KB. A catalogued result is promoted back to its own seed when it clears the bar. Also adopted: AXIS FLOOR (every axis its own triage pass, least-covered first, an `Axes:` block in every report) and BATCH PRODUCERS (hexagonmath, openai/math and similar volume sources get one collection trend each; items one line each in the catalog). Motivation: physics had 15% of report lines and 12 of 163 trends while 3 of the 5 scope axes are physics; LHCb's rare-decay evidence (CERN seminar 2026-11-03) was captured 13 days late.
+- 2026-11-21 (W47 weekly, source-strategy correction entry): AXIS FLOOR note — the policy above
+  was adopted on 2026-11-20 AFTER all 5 of this week's dailies (11-16→11-20) had already run, so
+  none of them carries the required `Axes:` block; this is a sequencing gap, not a miss by any of
+  those runs — the first daily to own the requirement is the next one. No AXIS FLOOR share could
+  be computed this week; resume the computation once dailies run under the new policy. The
+  2026-11-17 daily's "queue-reconciliation-sweep for pre-W46-standard holds" proposal is MOOT: its
+  premise (the W46 fame-blind ratification) was itself reversed by the entry directly above, three
+  days later, so there is no longer an old standard to reconcile the queue against. Promoted
+  mathhelm.org (3 sightings, re-verified live) to the swept registry (Primary feeds, AI-watch
+  lane, DAILY tier) — see SOURCES.md. Heal-or-remove, same precedent as CERN-home/SLMath: LIGO
+  `/news` and The n-Category Café both downgraded this session to monthly re-test (6 and 4
+  consecutive identical-failure sessions respectively, with zero fix found and — for LIGO —
+  zero evidence any genuinely new item was hidden by the staleness across all 6 checks).

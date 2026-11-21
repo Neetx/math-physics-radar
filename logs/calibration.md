@@ -564,3 +564,61 @@ routing-leak n`.
   (carried from W45/11-11/11-12) RATIFIED this session (see Self-amendment). Shallow-clone-check
   proposal (renewed 11-09, validated 11-10/11-12/11-13, recurred a 4th time this session) APPLIED
   to both routines this session (see Self-amendment).
+- 2026-11-21 (W47 weekly): queue funnel — observation_queue 211 live items (a structural reset:
+  the 2026-11-20 curator migration moved the 404 items untouched >30 days to `logs/queue_history.md`
+  verbatim; every surviving item is <60 days old, so the 60+-day aging review found 0 candidates
+  this week — not a burndown, a one-time consequence of the migration) · evidence/moves: ~51 new
+  seed trends across the week's 5 dailies (11-16 through 11-20: 4+16+15+13+4, incl. reconciliation
+  promotions) before the same-day 2026-11-20 curator migration retroactively moved 97 of the
+  resulting 163 trends to `logs/results_catalog.md` under the tightened landmark bar (163→66,
+  TRENDS.md 1009→505KB — see `logs/strategy_notes.md` 2026-11-20); this session's own Amendment I
+  pass found 4 genuine silent revisions (2608.24385 v3, 2610.34372 v3, 2611.11677 v2, 2611.16157
+  v2, each advancing its trend's `last_evidence`) + 1 header bookkeeping drift fixed (quasi-RH
+  trend) + 1 date typo fixed (2609.35406, transposed digits) — all mechanical corrections, 0
+  promotions/demotions beyond those `last_evidence` advances · dormancy: 3 dormant trends
+  reconciled against current 60/120-day windows, all correctly staged — none newly crosses the
+  120-day archive line this week (Stanley-Gasharov nearest, 115 days, due ~2026-11-26) · exploration
+  5/5 (100%) across the week's 5 dailies (math.NA, cs.CC, math.FA, math.CV, math.OA on the
+  Amendment J full-abstract rotation; off-axis rotation ran nlin.CD→math.NA→cs.CC) · off-axis 0/5
+  — non-alarm per this domain's relaxed threshold · tunnel-vision: NOT an anchoring week (this
+  week's ~51 new seeds span unrelated subfields: combinatorics, operator algebras, dynamics,
+  number theory, gr-qc, QFT, knot theory) · discovery lag: ~0% (nearly all same-session arXiv/
+  hexagonmath captures; this session's 4 Amendment I advances are version-history fixes, not
+  discovery-lag backfills) · coverage: DAILY tier 0 gaps across the week (checked against the 5
+  dailies' own coverage logs); WEEKLY-SWEPT tier swept LIVE this session — 9 institutes + Annals +
+  AMS Notices (403, standing) + Forum of Math + Physics SE + all 5 r/Physics-family subs (standing
+  hard block) + all 6 annual-prize laureates (0 gap) — 0 new on-axis catch beyond what the dailies
+  already track (KITP's Gross-chaired Yang-Mills statement and the Forum-of-Math Avila-conjecture
+  item are both already-evidenced); SLMath (quarterly downgrade, next ~2027-02) and CERN-home
+  (monthly downgrade, next ~2026-12-07) correctly skipped · routing-leak 0 · capture-leak: this
+  week's 5 daily reports (27 unique arXiv ids) all present on a discrete line, 0 missing; a full
+  active-trends prose sweep (146 genuine tracked arXiv ids, hexagonmath pseudo-ids excluded) found
+  5 genuine leaks — same-author-portfolio escalations/an off-theme paper named only in the Ramsey
+  and non-invertible-symmetries trends' notes, never queued (2610.03358, 2610.15293, 2609.28075,
+  2610.17891, 2609.32461) — all 5 queued this session · source-discovery: mathhelm.org PROMOTED
+  (3 sightings, re-verified live → Primary feeds/AI-watch-lane, DAILY tier); all other staged
+  candidates checked against this week's reports, no other recurrence (hep-open-release.org still
+  at 1 sighting). Amendment G older-paper citation-chase: INSPIRE-HEP `sort=mostcited` over a
+  2026-10/11 window (the date filter did not constrain the API as intended, returning all-time
+  most-cited instead — a tooling note for next time) — 15 reviewed, 0 actionable new landmark
+  (already-tracked catalogs/reviews: GWTC-4.0, FLAG review, DESI DR1, RPP). `study_shelf` pruned 3
+  items genuinely >120 days old with no shelf-added annotation (Jacobian-Conjecture exposition
+  07-23, Batyrev's-conjecture counterexample 07-22, Cycle-Double-Cover exposition 07-20).
+  Heal-or-remove decisions (same CERN-home/SLMath precedent): LIGO `/news` downgraded to monthly
+  re-test (6 consecutive identical-stale-content sessions, no new news missed); n-Category Café
+  downgraded to monthly re-test (4 consecutive identical site-outage sessions). Monthly hit/miss
+  retrospective NOT due (`date +%d` = 21 > 7). Amendments O (study_shelf "shelf-added" contract)
+  and P (documented-sample queue review above ~100-item 60+-day cohort) proposed W46, no curator
+  veto, motivating pattern still live (O: used again this session; P: cohort currently 0 so
+  untested in practice but adopted as standing policy for when it recurs) — APPLIED (routines/
+  daily.md, routines/weekly.md). Per-submitter concentration note (proposed W45/46, the
+  Howe/Huffman/Kohlmeyer/Kruer hexagonmath group recurring a 2nd week) — APPLIED (routines/
+  daily.md). "resolution"-keyword regex gap (flagged 2026-11-18) — fixed by stating the keyword
+  list explicitly in `radar-source-sweep`'s SKILL.md. The 2026-11-17 queue-reconciliation-sweep
+  proposal (chase pre-W46-standard holds) is now MOOT — its own motivating premise (the W46
+  "fame-blind" ratification) was itself superseded by the 2026-11-20 curator veto, so there is no
+  longer an "old standard" to reconcile against. Regression check: Amendments J/K/L/M/N-class
+  (post-migration) show no 2-week metric regression — NO ROLLBACK. New proposal (cooling period,
+  review W48): (Q) the Amendment G INSPIRE-HEP date-filter syntax used this session did not
+  actually constrain results to the stated window — fix the query syntax (or switch to the
+  `earliest_date` range param) before next use so the pass isn't silently a no-op filter.
