@@ -179,6 +179,16 @@ every run.
   only when it clears this radar's trend/seed bar on its own merits (AGENTS.md). Per run, triage
   at most 5 of a producer's new items individually — most significant first — and record the rest
   as one bundled line in the catalog.
+  **Per-submitter concentration note (applied 2026-W47 — proposed W45/46, motivated by one
+  hexagonmath submitter group producing six same-day full-resolution claims, then recurring
+  again the following week):** this is distinct from the venue-level BATCH PRODUCERS volume
+  question above — it is about a single AUTHOR's own output rate, not the venue's aggregate
+  rate. When routing the second or later same-day (or recurring) item from the SAME
+  author/author-group, add a one-line note to that item (queue or evidence) naming it, e.g.
+  "Nth of M same-day items from this submitter" / "this submitter's Kth tracked item overall" —
+  not a bar change (the landmark bar stays fame/source-blind per AGENTS.md), just a visible
+  concentration flag so a monthly retrospective can evaluate this submitter's track record as
+  its own cohort once enough items exist to do so.
 - DORMANCY PROBE — silence must be MEASURED where the trend's evidence lives, never assumed.
   Before moving any trend to `dormant` (or archiving it), probe its silent window
   (`last_evidence` → today) on the channels its OWN evidence comes from: read the hosts and
@@ -222,6 +232,13 @@ every run.
 Select 0–2 items a mathematically-literate researcher — mathematician or physicist — tracking the frontier should know — a tool, paper, technique, dataset or release.
 The trend bar does NOT apply (a single strong artifact qualifies) but the evidence rules do
 (opened primary sources). Add to `study_shelf` (newest first). Zero is fine.
+**Amendment O (applied 2026-W47 — proposed W46, motivated by several nominally-120+-day-old
+picks surviving W46's prune only because an informal "shelf-added" annotation already happened
+to be present; formalizing it so a future prune never has to guess):** when the item's own date (its publication/result date) is NOT the date it is being added to the
+shelf — i.e. it is a backfill, a capture-leak catch, or otherwise added well after its own date — the
+shelf line's leading date MUST carry a `shelf-added YYYY-MM-DD` (or `found`/`surfaced`
+YYYY-MM-DD) annotation alongside the item's own date. The weekly's 120-day prune line is always
+measured from the REAL add date (the annotation if present, else the leading date itself).
 
 ## 6. Write the daily report
 REQUIRED in every report: the `Axes:` block — one line per scope axis (AXIS FLOOR), even when an
