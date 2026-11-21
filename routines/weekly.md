@@ -72,6 +72,13 @@ axis below half its fair share (1 / number of axes) for 2 consecutive weeks is a
 for an amendment — this is the metric that makes attention balance amendable.
 
 ## 3. Clean the observation queue
+**Amendment P (applied 2026-W47 — proposed W46, motivated by the W39 queue-burndown session
+needing a full item-by-item read of ~90 items to find the still-live/settled split): once the
+60+-day cohort exceeds ~100 items, a documented SAMPLE (at minimum one in three, spread across
+the cohort's age range, never just the newest or oldest slice) stands in for a 100% read —
+state the sample size/method and its still-live-vs-settled split in the report; extrapolate the
+split to the full cohort rather than reading every item. Below ~100, keep reading all of them
+(this is a relaxation of effort for a large cohort, not a license to skip a small one).**
 Aging windows scale to DOMAIN CADENCE (AGENTS.md → *Domain cadence*) — this is a SLOW field,
 so items age in MONTHS, not the AI-default days: items older than **~60 days** (not 14) —
 verify now and either promote, drop (one-line reason in the report), or re-date stating what
