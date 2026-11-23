@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-20
+Last updated: 2026-11-23
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3330,10 +3330,280 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   well-known conjecture of Stanley's on a classical object (the Birkhoff polytope), no outside
   engagement found yet.
 
+### Alpöge's claimed Lean-formalized proof of the Riemann Hypothesis and GRH for Dirichlet L-functions (Claude-assisted)
+- stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-11-22
+- what: axis-1 LANDMARK CLAIM, the single largest-magnitude claim this ledger has ever tracked.
+  Levent Alpöge (Harvard Society of Fellows; also affiliated with Anthropic) states he has,
+  "working with Claude," discovered a Lean-4-formalized proof that $L(s,\chi)\neq0$ for
+  $\mathrm{Re}(s)>1/2$ and every Dirichlet character $\chi$ — i.e. the classical Riemann
+  Hypothesis (the $\chi=1$ case; a Clay Millennium Prize Problem) AND the Generalized Riemann
+  Hypothesis for Dirichlet L-functions, posed by Riemann in 1859 (167 years). He states the method
+  "easily extends" further and expects, with more time, the Extended RH too (not yet done). THE
+  CENTRAL UNRESOLVED QUESTION: independent checks so far verify only that the Lean kernel(s) accept
+  the formal proof of the STATED Lean theorems (internal logical consistency) — NOT that those
+  formalized statements are a faithful rendering of the informal mathematical claim, nor that any
+  human mathematician has read and understood the ~17-million-line argument. No referee, no
+  published human exposition yet exists; this is day 1-3 of an unfolding, extremely fast-moving
+  story. AI-WATCH-LANE: the method is AI-assisted, but the RESULT (RH/GRH) is this radar's beat.
+- evidence:
+  - 2026-11-20 — https://alpo.ge/remark.pdf — Alpöge's own 4-page announcement note ("Note on a
+    proof of the Riemann hypothesis"), opened and read directly this session (PDF). In his own
+    words: "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In
+    fact, the method easily extends much further, resolving the so-called Generalized Riemann
+    Hypothesis... Claude and I have also formalized the arguments without assumptions." States the
+    argument is "incredibly long at the moment" and that he has "just taken a step" toward
+    understanding it, not completed that understanding; names a long list of mathematicians he
+    consulted/wants to credit (incl. Manjul Bhargava, Peter Sarnak, Maksym Radziwiłł). Links the Lean
+    archive at https://alpo.ge/lean.tar.gz.part01 through part14.
+  - 2026-11-22 (page "last updated 2026-11-22 16:20 UTC") — https://math.mit.edu/~drew/grh/ —
+    Andrew Sutherland (MIT), an independent, named, credible computational number theorist, runs a
+    public verification-status page (checks run with Claude Code) for the Lean archive: opened
+    directly this session. Confirms a full build of 175,187 Lean modules compiles with ZERO errors
+    (Lean v4.33.1 / Mathlib v4.33.1), the five headline theorems depend ONLY on the three standard
+    axioms (`propext`, `Classical.choice`, `Quot.sound` — no `sorry`, no extra axioms), and multiple
+    INDEPENDENT kernels/checkers (leanchecker, nanoda, con-leche, con-ron, lean4lean) all accept the
+    export (lean4lean needed a raised step limit on 5 modules; a couple of bundled-with-v4.36.0
+    checks are still pending/exit-2 "not a rejection"). Explicit, important caveat quoted directly:
+    "GRH here means Dirichlet L-functions" (Dedekind zeta, Hecke, and general automorphic
+    L-functions are NOT among the statements checked), and the check "relies on those kernels and on
+    Mathlib's definitions being what they are intended to be" — i.e. STATEMENT-correctness (does the
+    formal statement really say "RH"?) is explicitly NOT what has been verified, only
+    proof-internal-consistency.
+  - 2026-11-20 — https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/
+    — Terence Tao's own blog post (opened directly this session) reports the claim same-day,
+    describing it as "the least digested" of three results in the post (see the companion Euler/
+    Navier-Stokes seed trend below) and says his preliminary read is that the proof "appears to use
+    recent Langlands program and arithmetic geometry developments"; does not state a correctness
+    view. In comments (2026-11-20/22, read this session) Tao cross-references an entirely
+    INDEPENDENT, human, trace-formula-based GRH attempt by Alessandro Masullo (posted the same week
+    via Ravi Vakil's blog) as methodologically distinct ("one being correct would not make the other
+    redundant"), and later notes Alpöge's proof "appears to be holding up" under continued scrutiny
+    (as of the comments read this session) while Masullo's own manuscript — per
+    https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/ (opened
+    directly this session) — has already drawn specific, unresolved correctness objections (a
+    prime-2 limit discrepancy; a Markushevich/Schauder-basis terminology error; Chapter 13, where
+    GRH is to be deduced, reported as still only placeholders) and Masullo himself says it is "not
+    ready for submission," planning roughly another year of revision with Brian Conrad.
+  - 2026-11-21/23 — https://mathhelm.org (listing opened directly this session) — active discussion
+    threads, incl. "Maybe we have overestimated the difficulty of Riemann Hypothesis" (started by
+    Xinyi Yuan, MathHelm's chair, a leading number theorist, 2026-11-20/21) and "Some effort to
+    rebuilding the natural language proof of GRH" (Ruida Di, a 6-volume from-Lean reconstruction
+    effort, first volumes posted 2026-11-23) — genuine, real-name research-mathematician engagement,
+    distinct from the AI-generated hexagonmath commentary below.
+  - 2026-11-20/21 — hexagonmath.org reader's-guide cluster (all labelled "Primarily AI-generated
+    text"; opened directly this session): Manvir Jaswal's guide (https://hexagonmath.org/2611.00799,
+    v1 2026-11-20) gives the primary-source links above and reports "A. Sutherland has compiled the
+    archive and reports that Lean's kernel and two independent kernels accept it" plus a GitHub
+    mirror and a Lean Zulip discussion thread; Sinisa Slijepcevic's outline
+    (https://hexagonmath.org/2611.00812, v1 2026-11-21) restates the main theorem (L(s,χ)≠0 for
+    Re s>1/2, every Dirichlet χ) and confirms the Lean-4 formal development is the primary source;
+    Robin Zhang's provenance note (https://hexagonmath.org/2611.00809, v1 2026-11-21) traces
+    mathematical antecedents, explicitly states a GPT model was used to infer a human-readable
+    account from the Lean code, and reports no independent correctness check of its own.
+  - 2026-11-20 — https://github.com/Deicyde/riemann-hypothesis — community-run "Independent
+    Comparator" mirror/verification repo (opened directly this session): `main` is active
+    community-maintenance work, `original` preserves the first public release retrieved from
+    alpo.ge; `src/Main.lean` proves five statements incl. Mathlib's `riemannHypothesis`,
+    `src/Challenge.lean` states the same five with `sorry`, and a `comparator/` setup checks that
+    `Main` proves exactly the challenge statements using only the three standard axioms. 14 open
+    issues, 133 pull requests at fetch time — substantial, fast community scrutiny already underway;
+    the repo itself reports no verification RESULTS (points to a `verification/NOTES.md` not present
+    in what was fetched).
+- notes: 2026-11-23 (daily, seed creation): MAXIMUM hype-skepticism caution, by far the largest
+  claim this radar tracks — but also an unusually STRONG verification signal for an unrefereed
+  claim this fresh (an independent, named, credible expert's own multi-kernel Lean check, within
+  72 hours, rather than the more typical "AI lab self-disclosure, no outside check yet" pattern).
+  Track the vetting outcome above all else: (1) whether any human mathematician publishes an
+  understood, checked account of the argument itself (not merely a Lean-compiles report); (2)
+  whether the formalized Lean statement is confirmed to actually mean RH/GRH (the one check
+  explicitly NOT yet done); (3) the GitHub comparator repo's open issues/PRs for a reported error;
+  (4) the rival Masullo attempt's own fate, as a methodologically-independent sanity check on how
+  hard this problem remains even for a 12-year human effort. This is also, distinctly, an
+  Anthropic/Claude event: unlike the official `anthropic.com/research` "riemann-zeta" disclosure
+  (a weaker, already-tracked zero-density-bound result; checked this session — anthropic.com/
+  research shows NO post on this claim as of 2026-11-23, confirming this is Alpöge's own personal/
+  unofficial announcement, not a company disclosure). Chase daily until a human-digested account or
+  a definitive bug report appears.
+
+### Unforced finite-time blowup claimed for 3D incompressible Euler and Navier–Stokes (Alpöge–Buckmaster–Coiculescu; a direct Clay Millennium Problem claim)
+- stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-11-20
+- what: axis-1 LANDMARK CLAIM: Levent Alpöge, Tristan Buckmaster (NYU Courant; 2019 Clay Research
+  Award for Navier-Stokes non-uniqueness work with Vlad Vicol — an established, highly credible
+  researcher in exactly this area), and Matei P. Coiculescu claim, with heavy AI (Claude)
+  assistance, finite-time blowup for the UNFORCED 3D incompressible Euler equations (smooth,
+  periodic, divergence-free initial data; bounded velocity, unbounded vorticity at the origin) AND,
+  in a companion paper, the UNFORCED 3D incompressible Navier-Stokes equations. The unforced case is
+  the one that matters for the Clay Millennium Prize Problem (global existence/smoothness) — a
+  materially stronger and more consequential claim than this ledger's already-tracked FORCED-case
+  work (Alpöge-Buckmaster's own Sept-2026 Euler/Boussinesq-with-smooth-forcing papers on
+  `study_shelf`, and OpenAI's own Sept-2026 forced-Navier-Stokes claim, tracked as evidence on the
+  "OpenAI's mass mathematical-results disclosure" trend above). Each paper has an accompanying Lean
+  formalization.
+- evidence:
+  - 2026-11-20 (v1) — https://cims.nyu.edu/~tristanb/cc.pdf — Alpöge, Buckmaster, Coiculescu,
+    "Finite-Time Singularity Formation for the Three-Dimensional Euler Equations": opened and read
+    directly this session (54pp PDF). Theorem 1.1 constructs an odd divergence-free smooth $u_0$ on
+    $\mathbb T^3$ whose maximal classical solution is smooth on $[0,T_*)$, has
+    $\int_0^{T_*}\|\nabla u\|_{L^\infty}=\int_0^{T_*}\|\mathrm{curl}\,u\|_{L^\infty}=\infty$, stays
+    bounded in velocity, with vorticity magnitude blowing up at the origin while the solution extends
+    smoothly away from the origin. Uses Craik-Criminale waves as multi-scale building blocks,
+    explicitly contrasted in the paper's own introduction against prior FORCED constructions
+    (Córdoba-Martínez-Zoroa et al.) — this paper's construction is unforced by design. Reads as
+    genuine, technically serious mathematics with real citations to the standing literature
+    (Elgindi; Elgindi-Ghoul-Masmoudi; Chen-Hou; Buckmaster-Vicol). Companion Lean formalization:
+    github.com/mcoiculescu/EulerBlowupPublic (per Tao's post below; not independently opened this
+    session).
+  - 2026-11-20 — https://github.com/tristanbuckmaster/navier-stokes/ — Alpöge, Buckmaster, "Finite-
+    time blow-up for the Navier-Stokes equations" (79pp companion paper + Lean-4 formalization,
+    ~2,270 files/600,000 lines): repo opened directly this session. States five formal statements
+    including Theorem 1.1, Theorem 7.1, Corollary 7.2, and Appendix B via `sorry`-stated
+    `Challenge.lean` statements proved in `Solution.lean`; notes the paper's own certificate/hash and
+    an interval-arithmetic (128-bit, Arb/FLINT) check are NOT included in the repo and "will be
+    released." A patch dated 2026-11-20 changing cell-layer statements had NOT been rebuilt in the
+    assembled repo at fetch time — an open, acknowledged loose end.
+  - 2026-11-20 — https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/
+    — Tao's own post (opened directly this session, shared with the GRH trend above) ranks this the
+    MOST digested of the three results it reports: the Euler paper read as "technically
+    human-readable" with a "broadly clear" strategy following "an expected route: numerically build
+    an approximate discretely self-similar solution, then use rigorous perturbation theory to get an
+    exact one," though Tao says a professionally-written version "still needs more work." Comments
+    raise the Clay Millennium Prize directly; the post itself does not take a position on the prize
+    or on correctness.
+- notes: 2026-11-23 (daily, seed creation): HEAVY caution (unrefereed, AI-heavy, days old) but
+  materially more credible on its face than a typical self-disclosure, given Buckmaster's own
+  track record (2019 Clay Research Award, exactly this subfield) and Tao's "technically
+  human-readable" assessment of the Euler paper specifically. Distinguish carefully from this
+  ledger's existing OpenAI forced-Navier-Stokes thread: this is a DIFFERENT team, a DIFFERENT
+  (unforced) equation, and — if it holds — a direct resolution of the actual Clay Millennium
+  Problem, not an adjacent forced variant. Track for: a human-authored exposition (as happened for
+  the earlier forced-case work via Zhen Lei's reconstruction, already tracked), any reported Lean
+  gap (the acknowledged un-rebuilt 11-20 patch above), and the certificate/hash release promised by
+  the Navier-Stokes repo's own README.
+
+### Solution to the Banach-Ulam conjecture (1935) on invariant finitely-additive measures on compact metric spaces
+- stage: seed | confidence: medium | first_seen: 2026-11-23 | last_evidence: 2026-06-08
+- what: axis-1 DOMAIN-CADENCE LANDMARK: a full resolution of a 1935 conjecture of Stefan Banach and
+  Stanisław Ulam (91 years old) — that every compact metric space admits a finitely additive
+  probability measure invariant under its congruences — proved via a new geometrization of compact
+  metric spaces building on ideas of Banach and Jan Mycielski; the same techniques also resolve a
+  related problem of Michel Talagrand. CAPTURE-LEAK/backfill catch: the paper is 5+ months old,
+  surfaced only via today's arXiv cross-list sweep.
+- evidence:
+  - 2026-06-08 — https://arxiv.org/abs/2606.09783 — Grzegorz Tomkowicz, "On some geometrization of
+    compact metric spaces: A solution to the Banach-Ulam conjecture." Abstract + author verified via
+    direct arXiv page fetch this session (caught via today's 35-category cross-list sweep, math.FA).
+    Tomkowicz is co-author (with Stan Wagon) of the standard monograph "The Banach-Tarski Paradox" —
+    a recognized specialist in precisely this circle of invariant-measure/paradoxical-decomposition
+    problems, raising confidence this is a serious, informed attempt rather than an outsider claim.
+- notes: 2026-11-23 (daily, seed creation): long-standing (91y) conjecture bearing two celebrated
+  names directly tied to the widely-known Banach-Tarski paradox literature; single-author, unrefereed
+  preprint — no outside engagement found yet. Watch for referee/expert commentary.
+
+### Bloch's conjecture completed for (anti-)symplectic automorphisms of surfaces with trivial canonical bundle
+- stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-10-29
+- what: axis-1 LANDMARK (algebraic geometry): proves Bloch's conjecture (1970s; action of
+  correspondences/automorphisms on Chow/cycle groups, one of algebraic geometry's central standing
+  conjectures) for (anti-)symplectic automorphisms of smooth projective complex K3 surfaces of
+  Picard number two — which, combined with the already-known abelian-surface case and the other K3
+  cases, SETTLES the full sub-program of Bloch's conjecture for (anti-)symplectic automorphisms of
+  smooth projective complex surfaces with trivial canonical bundle. A defined, complete sub-case of a
+  famous conjecture, not the fully general conjecture. CAPTURE-LEAK/backfill catch (paper nearly a
+  month old, surfaced via today's cross-list sweep).
+- evidence:
+  - 2026-10-29 — https://arxiv.org/abs/2610.39368 — Zaiyuan Chen, Zhiyuan Li, "Bloch's conjecture
+    for (anti-)symplectic automorphisms of K3 surfaces." Abstract + authors verified via direct
+    arXiv page fetch this session (caught via today's 35-category cross-list sweep, math.AG).
+- notes: 2026-11-23 (daily, seed creation): completes a well-defined sub-program of a famous,
+  long-standing conjecture; unrefereed preprint, no outside engagement found yet.
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-19 (v1; arXiv mirror found 2026-11-23) — RJ Acuña, "The Strong AJ Conjecture for
+  Hyperbolic Prime Knots is False" — https://arxiv.org/abs/2611.26905 — an arXiv posting of the
+  SAME single-knot ($8_{11}$) counterexample to the Strong AJ conjecture already queued 2026-11-20
+  as a hexagonmath item (2611.00686); AI-assisted, Lean-partial ("parts of it have been formalized
+  in Lean"); the new paper notes Li-Li-Sun have since reported further counterexamples among
+  non-hyperbolic prime knots. Abstract verified via direct arXiv page fetch this session — update to
+  the existing queue item, not a new independent result.
+- 2026-11-20 (v1) — Chalmers, "The Bapat-Sunder eigenvalue conjecture fails over the reals" —
+  https://arxiv.org/abs/2611.23269 — full negative resolution (both complex and real fields now) of
+  a 1986 conjecture of Bapat and Sunder on permanents of PSD matrices, with a quantum-optics
+  application (a 36-mode interferometer violation). Axis 1/4-adjacent. 40 years old but a
+  specialist-subfield (matrix permanent theory) conjecture; fame beyond that subfield not
+  established this session — below the landmark bar pending wider engagement. Abstract + author
+  verified via direct arXiv page fetch this session.
+- 2026-11-20 (v1) — Zhang, Zhou, "On the Delandtsheer Conjecture" — https://arxiv.org/abs/2611.27275
+  — full proof of a 1988 finite-geometry conjecture (a line-primitive automorphism group of a finite
+  linear space is point-primitive). Axis 1. Long-standing but a specialist subfield; no outside
+  engagement found this session. Abstract + authors verified via direct arXiv page fetch.
+- 2026-11-20 (v1) — Deng, "A Proof of a Pólya–Szegő Conjecture: A PDE Approach to Capacity
+  Inequalities" — https://arxiv.org/abs/2611.26633 — proves a planar capacity-ratio inequality
+  (and its adjacent-dimension extension) attributed to Pólya and Szegő (their 1951 monograph on
+  isoperimetric inequalities). Axis 1. Famous names, unclear whether this specific inequality is
+  itself widely known beyond potential theory; single-author, unrefereed — queued pending wider
+  engagement rather than seeded outright. Abstract + author verified via direct arXiv page fetch.
+- 2026-11-19 (v1) — Chen, "Yau's first eigenvalue conjecture for embedded minimal hypersurfaces with
+  constant scalar curvature" — https://arxiv.org/abs/2611.26893 — proves the constant-scalar-
+  curvature special case of Yau's 1982 conjecture (first Laplace eigenvalue of an embedded minimal
+  hypersurface of $S^n$ equals $n$). Axis 1. Yau's conjecture is famous; this is a PARTIAL (CSC-only)
+  case, not the general conjecture — below the full-resolution landmark bar. Abstract + author
+  verified via direct arXiv page fetch this session.
+- 2026-11-20 (v1) — Barthel, Mann, Ray, Schlank, Senger, Weinstein, Zhou, "On the chromatic
+  splitting conjecture in coheight 1" — https://arxiv.org/abs/2611.27879 — confirms predictions of
+  Hopkins' chromatic splitting conjecture (stable homotopy theory, 1990s) in the $h=2$, $p$ odd case
+  (an isomorphism) and a general retract theorem; a new "two-tower isomorphism" en route. A strong
+  partial result by a notable multi-author team, not a full resolution. Abstract + authors verified
+  via direct arXiv page fetch this session.
+- 2026-11-20 (v1) — Inagaki, Pramatarova, "Counterexamples to a conjecture of Gao and Gu on weighted
+  Catalan numbers" — https://arxiv.org/abs/2611.26953 — infinitely many counterexamples to a modern
+  (not long-standing) conjecture; below the domain-cadence bar on age alone. Abstract + authors
+  verified via direct arXiv page fetch this session.
+- 2026-11-20 (v1) — Colmez, Nizioł, Shao, "Period maps and the $C_{\rm st}$ conjecture" —
+  https://arxiv.org/abs/2611.27054 — constructs a family of elliptic curves violating the $C_{\rm
+  st}$ conjecture in degree 1 over a Stein base, showing the conjecture does not extend beyond
+  proper/Stein total spaces; technical arithmetic/p-adic geometry, strong authors (Colmez is a
+  leading p-adic Hodge theorist). Abstract + authors verified via direct arXiv page fetch this
+  session.
+- 2026-11-20 (v1) — Varagnolo, Vasserot, "The non symmetric Hikita conjecture" —
+  https://arxiv.org/abs/2611.27331 — partial construction of comparison maps for the Hikita
+  conjecture in quiver gauge theories (non-symmetric case); isomorphism only under a dimension bound.
+  Abstract + authors verified via direct arXiv page fetch this session.
+- 2026-11-20 (v1) — Ai, Shi, "The categorical graph minor conjecture and matching complexes" —
+  https://arxiv.org/abs/2611.27657 — disproves the categorical graph minor conjecture of Miyata-
+  Proudfoot-Ramos (a modern, representation-stability-era conjecture) via a counterexample module,
+  while proving it for modules depending on minor morphisms through induced edge-set injections
+  (incl. matching complexes). Below the long-standing-age bar. Abstract + authors verified via
+  direct arXiv page fetch this session.
+- 2026-11-18 (v1) — Sherman, "Semi-exact functors and the conjecture of Coulembier and Flake" —
+  https://arxiv.org/abs/2611.24471 — proves a weak form of a modern tensor-category conjecture
+  (support theory vs. the Balmer spectrum). Below the long-standing-age bar. Abstract + author
+  verified via direct arXiv page fetch this session.
+- 2026-11-20 (v1) — He, "Calabi-Yau at 50: mathematical discovery in the age of AI" —
+  https://arxiv.org/abs/2611.26974 — Yang-Hui He's historical/reflective survey on Calabi-Yau
+  manifolds, the math-physics interface, and the growth of AI-assisted mathematics through 2026,
+  written around the 50th anniversary of Yau's proof of the Calabi conjecture. Axis 5 WATCH (notes
+  the AI-assisted-math wave; does not itself claim a new result). Abstract + author verified via
+  direct arXiv page fetch this session.
+- 2026-11-20 (v1) — Guu, "Moonshine Conjecture Formalized" — https://arxiv.org/abs/2611.27001 — NOT
+  a straightforward formalization announcement: an epistemic/methodological essay arguing that a
+  Lean-checked, agent-produced formalization of the Monstrous Moonshine conjecture does not by
+  itself settle (1) whether the formal statements express the intended mathematics or (2) whether
+  that meaning survives as dependencies evolve — directly relevant to this ledger's own axis-5
+  AI-formalization-trust watch (and to the new GRH/Euler-NS trends above). Axis 5 WATCH. Abstract +
+  author verified via direct arXiv page fetch this session.
+- 2026-11-19 (v1) — Tomov, "A reciprocal-matrix proof of Sendov's theorem and applications to
+  control theory" — https://arxiv.org/abs/2611.26766 — an independent, human, non-AI alternate-
+  technique paper proving a known partial inequality (Tang-Zhang's quadratic inequality) in the
+  Sendov-conjecture circle of ideas; connects to this ledger's already-tracked `study_shelf` item on
+  the AI-assisted proofatlas.ai Sendov-conjecture claim (2026-08-05) as an independent, differently-
+  motivated (control-theoretic) technique in the same territory, not a resolution of the full
+  conjecture itself. Abstract + author verified via direct arXiv page fetch this session.
+- 2026-11-18 — Vals AI blog, "GPT-6.2 Astra Formalizes Smoktunowicz's Gap Theorem" —
+  https://vals.ai/blogs — AI-watch-lane item (axis 5), a Lean formalization of a named theorem by a
+  third-party AI-benchmarking firm, same pattern as this source's already-tracked Thomson-problem
+  item. Not independently opened beyond the blog listing this session (title/date only) — unverified.
 - 2026-11-21 (W47 capture-leak sweep: named only in the Ramsey-lower-bound trend's notes as a
   same-author-portfolio escalation, "logged for engagement, not independently re-queued" — never
   given its own queue line) — Gvozdić, Hunter, Milojević, Sudakov, "Sharp bounds for off-diagonal
@@ -4921,6 +5191,20 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-23 (shelf-added; events dated 2026-11-20/22) — [A proof of the Riemann Hypothesis](https://alpo.ge/remark.pdf) —
+  Levent Alpöge's own announcement, "working with Claude," of a Lean-formalized proof of RH and GRH
+  for Dirichlet L-functions, independently Lean-kernel-verified (multiple kernels, zero errors, no
+  extra axioms) by Andrew Sutherland (MIT) at https://math.mit.edu/~drew/grh/ — by far the largest
+  claim this radar has ever tracked. EXTREME caution: days old, the formalized statement's fidelity
+  to true RH/GRH is explicitly NOT yet independently confirmed, and no human has yet published an
+  understood, checked account of the ~17-million-line argument. See the matching new seed trend
+  above for the full picture, incl. the independent rival (and currently shakier) Masullo attempt.
+- 2026-11-23 (shelf-added; event dated 2026-11-20) — [Finite-Time Singularity Formation for the Three-Dimensional Euler Equations](https://cims.nyu.edu/~tristanb/cc.pdf) —
+  Alpöge, Buckmaster (2019 Clay Research Award) and Coiculescu's claimed UNFORCED 3D Euler blowup,
+  with a companion unforced Navier-Stokes blowup claim (github.com/tristanbuckmaster/navier-stokes)
+  — if it holds, a direct resolution of the Clay Millennium Problem; Terence Tao calls the Euler
+  paper "technically human-readable" with a clear strategy, see the matching new seed trend above.
+  EXTREME caution: unrefereed, days old, an acknowledged un-rebuilt Lean patch outstanding.
 - 2026-11-20 — [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics) —
   Anthropic's own disclosure of two Claude-produced results (an abrupt Hawking-Page-type
   transition in weak-coupling N=4 SYM; an exact optimal modular-bootstrap mass ceiling for 3D

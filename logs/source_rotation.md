@@ -5423,3 +5423,108 @@ that is the weekly's call). SOURCES.md: n-Category Café's entry updated (3rd co
 session, tvly-npm-fallback attempt logged); no new source-discovery candidates this session (the
 day's new primaries all came from already-swept channels — arXiv, hexagonmath, anthropic.com/
 research, MathHelm). README.md and SUMMARY.md regenerated in the same commit.
+
+2026-11-23 (daily) — FULL CHECK. Primary sweep (radar-source-sweep): full 35-category arXiv RSS
+sweep (20 math: CO/NT/AG/AC/RA/KT/AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT + 15 physics: hep-th/
+hep-ph/hep-ex/hep-lat/gr-qc/quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/
+nucl-th/nucl-ex/nlin.SI — 1183 titles total, spanning the Fri 11-20→Mon 11-23 weekend gap),
+title-triaged against the conjecture/theorem/disprov/refut/counterexample/resolv/resolution/
+classif/proof/discover/settl keyword filter (59 hits incl. several older cross-listed ids),
+each hit's full abstract opened via direct `arxiv.org/abs/<id>` page fetch (export.arxiv.org API
+429-rate-limited this session, same standing workaround). Amendment J full-abstract pass on
+math.ST (28 entries, 0 title-blind catch — routine statistics/ML methodology). Off-axis
+exploration slot (radar-explore, roster continues from cs.CC 11-20): picked math.OC — genuinely
+off-axis, 61 fresh entries, all applied-optimization/control-theory/ML papers, 0 catch, correctly
+off-axis; next: try math.ST's sibling q-bio.PE or econ/q-fin (math.ST itself used for Amendment J
+today).
+TOP STORY, BY FAR THE LARGEST THIS RADAR HAS TRACKED: caught via hexagonmath's `/rss/all` feed (a
+cluster of reader's-guide/outline papers posted 2026-11-21, ids 2611.00799-2611.00829) referencing
+"Alpöge's proposed proof of the generalized Riemann hypothesis" — chased to the primary sources:
+Levent Alpöge's own announcement (`alpo.ge/remark.pdf`, opened directly), Andrew Sutherland's (MIT)
+independent multi-kernel Lean-verification page (`math.mit.edu/~drew/grh/`, opened directly,
+confirms 175,187 modules compile with zero errors on only the 3 standard axioms, but explicitly
+does NOT confirm the formalized statement means true RH/GRH), Terence Tao's own blog post same day
+(opened directly) reporting THREE results at once — this GRH claim, PLUS a companion claim by
+Alpöge-Buckmaster-Coiculescu of UNFORCED 3D Euler AND Navier-Stokes blowup (a direct Clay
+Millennium Problem claim if it holds) — and MathHelm (opened directly, real-name mathematician
+threads, incl. one started by Xinyi Yuan) and John Baez's blog (opened directly, reporting an
+INDEPENDENT rival human GRH attempt by Alessandro Masullo that is already showing specific,
+unresolved correctness problems and which its own author calls "not ready"). Also opened directly:
+the Euler blowup paper itself (`cims.nyu.edu/~tristanb/cc.pdf`, 54pp, reads as genuine serious
+mathematics citing the standing literature), the Navier-Stokes companion repo
+(`github.com/tristanbuckmaster/navier-stokes`), and a community Lean-verification mirror
+(`github.com/Deicyde/riemann-hypothesis`, 133 open PRs at fetch time). FOUR new seed trends created
+(GRH/RH claim; unforced Euler/NS blowup claim; two capture-leak backfill catches surfaced by the
+same arXiv sweep — Tomkowicz's solution to the 1935 Banach-Ulam conjecture, 2606.09783; Chen-Li's
+completion of Bloch's conjecture for (anti-)symplectic automorphisms of trivial-canonical-bundle
+surfaces, 2610.39368) plus TWO study_shelf picks (the GRH claim; the Euler/NS blowup claim).
+FOURTEEN new observation_queue items from today's arXiv batch (Bapat-Sunder eigenvalue conjecture
+disproof over the reals [2611.23269], Delandtsheer conjecture proof [2611.27275], a Pólya-Szegő
+capacity-ratio conjecture proof [2611.26633], Yau's eigenvalue conjecture CSC-case proof
+[2611.26893], a partial confirmation of Hopkins' chromatic splitting conjecture by a strong
+multi-author team [2611.27879], a Gao-Gu weighted-Catalan-number counterexample [2611.26953], a
+C_st-conjecture violation [2611.27054], a non-symmetric Hikita-conjecture partial construction
+[2611.27331], a categorical-graph-minor-conjecture disproof [2611.27657], a Coulembier-Flake
+weak-form proof [2611.24471], Yang-Hui He's "Calabi-Yau at 50" AI-assisted-math survey
+[2611.26974], a reflective axis-5 essay on trusting agent-produced Lean libraries ("Moonshine
+Conjecture Formalized," 2611.27001), an independent human reciprocal-matrix technique adjacent to
+the already-tracked Sendov-conjecture claim [2611.26766], and an arXiv mirror of the
+already-queued hexagonmath AJ-conjecture single-knot item [2611.26905]); plus one below-bar
+AI-watch title-only item (Vals AI's Smoktunowicz Gap Theorem Lean formalization, unverified).
+DAILY-tier non-arXiv primary feeds opened (all routine/0 on-axis catch beyond the above): CERN
+Courier, Fermilab, Simons, Quantum journal, PRL/PRX/RMP, IceCube category feed, DESI homepage
+(unchanged), INSPIRE-HEP most-recent (routine engineering/detector titles, 0 catch), icarm.io/feed
+(unchanged — same 11 items as 11-20), hexagonmath `/rss/all` (the source of today's top story),
+axiommath.ai/research/blog (unchanged, all 6 posts already-tracked, confirmed via grep against
+TRENDS.md), vals.ai/blogs (checked, 1 below-bar item queued above), agmai.org (unchanged), LIGO
+still monthly-downgraded (not due), CERN home still monthly-downgraded (not due). AI-watch lane:
+openai.com/research (`WebFetch`, no new math/TCS post since 11-17), anthropic.com/research
+(`WebFetch`, no new post since 11-17 and — specifically checked — NO post on the Alpöge GRH/
+Euler-NS story, confirming it is Alpöge's own unofficial announcement, not a company disclosure).
+SciPost: Anubis bot-check REGRESSED this session (1st occurrence since the 2026-09-25 heal, ~2
+months clean) — API and an individual article page both blocked; the `sitemap.xml` partial
+workaround still works (confirms SciPostPhys.21.3→21.5.124, SciPostPhysCore.9.3→9.4.075 advanced,
+titles not recoverable) — not yet heal-owed, re-test next session. AMS Notices 403'd this session
+(WEEKLY-SWEPT tier, not a daily coverage promise — noted, not escalated). `tvly` CLI: quota-
+exhausted again this session (same standing pattern); fell back to `WebSearch` for the one search
+needed (Alpöge/GRH background) per AGENTS.md's documented fallback order.
+
+Community pulse (radar-pulse): Hacker News front page (Algolia API, checked, fetched not yet
+individually triaged for this story — flag to check tomorrow whether this breaks out there).
+MathOverflow `/feeds` (curl, 200) — routine. Physics SE `/feeds` (curl, 200) — routine. Mathstodon
+public timeline (curl, 200) — routine. r/math/r/mathematics/r/Physics family — standing domain-wide
+block (not re-tested this session, no fix attempted — same monthly-cadence standing state).
+Digest/explainer blogs (DAILY tier), ALL opened directly this session: Quanta (routine, 0 on-axis
+new beyond already-tracked), Tao (THE source of today's top-story confirmation — see above),
+Woit (newest post "First Concrete Evidence for String Theory," 11-22 — not yet read in full, flag
+for tomorrow), Kalai (newest post reports Fan Chang/Hong Liu/Maio Liu's proof of Chvátal's 1972
+conjecture, 11-20 — not yet opened in full, flag for tomorrow; below-bar pending that read), Gowers
+(stale since 10-16), Baez (today's SECOND major catch — the independent Masullo GRH attempt and
+its reported problems — opened directly), Strassler (stale since 10-30), Hossenfelder (newest post
+"Universe Is Twice as Old, Physicist Claims," 11-22 — not yet opened, flag for tomorrow). n-Category
+Café — still on its monthly-downgrade cadence (next due ~2026-12-21), not re-tested. GitHub watch
+(radar-repo-watch): direct API/`.atom` still proxy-scoped (confirmed again, worked around via
+`WebFetch` as before); lean4 unchanged at v4.37.0-rc1 (11-18)/v4.36.0 (11-16); Rocq unchanged at
+9.3.0; mathlib4 presumed continuing its daily auto-tag cadence (not individually re-checked this
+session — folded into the GRH/Euler-NS GitHub-repo chasing instead, a deliberate reallocation given
+today's top story). Self-heals: SciPost's new Anubis regression logged above (not yet heal-owed).
+
+Trend recalibration (radar-ledger-update): FOUR new seed trends + fourteen new observation_queue
+items + one queue update (see CAPTURE HAUL above). Dormancy probe: not run as a full sweep this
+session (today's effort went entirely into the GRH/Euler-NS chase and the arXiv batch) — flagged
+as owed next session; Stanley-Gasharov (`dormant`) is now ~117 days stale, 3 days from the 120-day
+archive line (due ~2026-11-26 — the NEXT daily or the weekly must check/archive it, do not miss
+this). Convergence check: today's two headline claims (GRH; Euler/Navier-Stokes) are NOT a
+3-independent-group convergence in the technical sense — they are two DIFFERENT open problems,
+and GRH itself has two COMPETING (not corroborating) attempts, one already showing cracks — so no
+convergence-bar promotion beyond the direct seeding above; the smaller items (Banach-Ulam, Bloch's
+conjecture) span unrelated subfields, no cluster. Capture-leak: not run as the full mechanical
+grep-every-id sweep this session (same reallocation as the dormancy probe) — flagged as owed next
+session; spot-checked specifically that 2610.33919 (a Jacobian-conjecture-adjacent id surfaced in
+today's arXiv batch) was already captured (TRENDS.md line ~4360, confirmed), so today's batch did
+not independently leak that one. `observation_queue` now ~621 items (well over the ~40 soft cap, a
+long-standing deliberate state per domain cadence — no burndown attempted). SOURCES.md: six new
+source-discovery candidates staged (alpo.ge; math.mit.edu/~drew/grh/; github.com/Deicyde/
+riemann-hypothesis; github.com/tristanbuckmaster/navier-stokes; leanprover.zulipchat.com and Ravi
+Vakil's blog flagged but NOT independently opened, Amendment M index-check owed next session for
+those two specifically). README.md and SUMMARY.md regenerated in the same commit.
