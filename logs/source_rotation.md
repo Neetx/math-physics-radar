@@ -5528,3 +5528,84 @@ source-discovery candidates staged (alpo.ge; math.mit.edu/~drew/grh/; github.com
 riemann-hypothesis; github.com/tristanbuckmaster/navier-stokes; leanprover.zulipchat.com and Ravi
 Vakil's blog flagged but NOT independently opened, Amendment M index-check owed next session for
 those two specifically). README.md and SUMMARY.md regenerated in the same commit.
+
+2026-11-24 (daily) — FULL CHECK. Shallow-clone check (Amendment, 2026-W46): repo WAS shallow this
+session — ran `git fetch --unshallow` before any orphaned-branch check, per the amended step 1; no
+orphaned `radar:` commits found (origin/main fully contained in HEAD). Previous-run completion
+check: all `radar:` commits of the last 7 days have matching reports; most recent daily
+(2026-11-23) carries its `Axes:` block. Primary sweep (radar-source-sweep): full 35-category arXiv
+API batch (20 math + 15 physics categories, ~60 most-recent entries/category, filtered to
+submissions since 2026-11-23), title-triaged against the standing keyword list; Amendment J
+full-abstract pass on math.DG (13 fresh entries, 0 title-blind catch — completes the full
+AGENTS.md-named AG/AC/RA/KT/AT/GT/DG coverage-gap set). Off-axis exploration slot (radar-explore,
+roster continues from math.OC 11-23): picked q-bio.PE — genuinely off-axis, 40 fresh entries, all
+epidemiology/ecology/evolution papers, 0 catch, correctly off-axis; next: econ/q-fin or math.LO's
+neighbor areas.
+TOP STORY: hexagonmath's `/rss/all` surfaced "VP ≠ VNP over every field" (2611.00954v1, dated
+2026-11-23, `dc:creator` Anthropic) — a claimed resolution of Valiant's 1979 algebraic-complexity
+flagship conjecture by an internal Anthropic Claude research model, Lean-claimed but with no
+repo link given. Corroborated via Hacker News front page same day (301 points). New seed trend +
+study_shelf pick.
+GRH/EULER-NS CHASE (yesterday's top story, continued): Sutherland's verification page
+(math.mit.edu/~drew/grh/) updated 2026-11-24 03:30 UTC — every remaining independent check now
+PASSES (Comparator, both Lean kernels, nanoda, con-leche/con-ron, a byte-identical sandboxed
+rebuild on a separate machine). NEW: the Lean FRO + Mathlib Initiative's own joint blog post
+(leanprover-community.github.io/blog/posts/riemann-hypothesis/, 2026-11-21, opened directly,
+Amendment M index check done same session) explicitly certifies BOTH the proof AND the
+statement's faithfulness to RH/GRH with "full confidence" — directly answers yesterday's open
+question. GRH trend confidence raised seed/low → seed/medium. Masullo's rival attempt: opened
+Baez's updated post directly — Masullo's own statement says his 940-page manuscript is "in no way
+fit for submission," citing specific found errors (Naslund's prime-2 holomorphy objection; a false
+Markushevich-bases claim); not promoted, tracked as the methodological sanity-check already
+flagged for. Euler/NS companion repo (github.com/mcoiculescu/EulerBlowupPublic) opened directly
+this session: one explicit, bounded Lean-formalization gap found (Corollary 8.3 relies on an
+unformalized periodic Beale-Kato-Majda criterion). Four new domains staged in SOURCES.md
+(leanprover-community.github.io/blog — Amendment M checked; Masullo's own site; two further
+community GitHub repos — Amendment M owed next session for those).
+CAPTURE-LEAK BACKFILL: Gil Kalai's 2026-11-20 post (fetched, unread, in yesterday's report) read
+in full this session — surfaces Chang-Liu-Liu's proof of Chvátal's 1972 conjecture (arXiv:2609.19123,
+2026-09-16), independently extended by Keevash (2609.23595) and independently re-proved by
+Ellis-Filmus-Friedgut (2609.28404) — a genuine ~2-month-old coverage miss, now captured as a new
+seed trend (confidence set `high` at creation given the double independent engagement already on
+record).
+DAILY-tier non-arXiv primary feeds opened (all routine/0 on-axis catch beyond the above): CERN
+Courier, Fermilab (DUNE construction-milestone follow-ups, already-tracked event, not re-queued),
+Simons, Quantum journal, PRL/PRX/RMP, IceCube category feed, icarm.io/feed (unchanged, 0 new),
+hexagonmath `/rss/all` (source of today's top story). SciPost: 2nd CONSECUTIVE Anubis-block
+session (now heal-owed) — `sitemap.xml` workaround still confirms existence/count only (advanced
+21.5.124→21.5.127), no titles; next session should try `tvly` for this block specifically.
+GitHub watch: lean4 unchanged (v4.37.0-rc1 11-18), Rocq unchanged (9.3.0) — both via `WebFetch`
+(direct curl session-proxy-403s as usual).
+Community pulse (radar-pulse): Hacker News front page (Algolia API, checked — VP≠VNP story at
+301 points, see above). MathOverflow `/feeds` (curl, 200) — routine. Physics SE `/feeds` (curl,
+200) — routine. Mathstodon public timeline (curl, 200) — routine, no research-math signal this
+batch. r/math/r/mathematics/r/Physics family — standing domain-wide block (not re-tested, monthly
+cadence). Digest/explainer blogs (DAILY tier), ALL opened directly this session: Quanta (not
+separately checked this session — folded into the GRH/Chvátal chase instead), Tao (feed checked,
+no new post since the 11-20 triple-result post already tracked), Woit ("First Concrete Evidence
+for String Theory," 2026-11-22, opened directly — a vague video-only claim with no primary paper,
+filed by Woit himself under "This Week's Hype"; no citable primary, not captured), Kalai (THE
+source of today's Chvátal capture, read in full), Gowers (stale since 10-16, not re-tested), Baez
+(Masullo update, read in full — see above), Strassler (stale since 10-30, not re-tested),
+Hossenfelder ("Universe Is Twice as Old, Physicist Claims," 2026-11-22, opened directly — an
+unnamed University of Ottawa physicist's claim, NO primary paper linked in the post itself and
+none located this session; flagged to chase next session, not queued without a primary per the
+hard rules). n-Category Café — still on its monthly-downgrade cadence, not re-tested.
+Trend recalibration (radar-ledger-update): TWO new seed trends (Chvátal's conjecture backfill;
+VP≠VNP claim) + two observation_queue items (Tate conjecture for abelian fourfolds; Rayleigh's
+conjecture for clamped plates in dims 4/5) + one capture-leak queue item (Illingworth-Steiner's
+dominating-Hadwiger disproof, falsely marked "already queued" in the Linear Hadwiger trend's own
+`what` field) + one study_shelf addition (VP≠VNP) + major evidence updates to the GRH and OpenAI
+mass-disclosure trends (see TRENDS.md). DORMANCY PROBE (owed from 2026-11-23, now run): two
+trends hit the 60-day line exactly today (Sarnak's positive trace gap conjecture; Cassels-
+Swinnerton-Dyer for cubic surfaces) — both probed on their own arXiv-page channel plus an
+independent web search, both empty, both moved to `dormant`. Stanley-Gasharov (`dormant`) is now
+118 days stale, 2 days from the 120-day archive line (~2026-11-26) — next daily or the weekly MUST
+archive it, do not miss it again. Capture-leak mechanical sweep (owed from 2026-11-23, now run):
+428 distinct arXiv ids in TRENDS.md checked against evidence/queue/study_shelf blocks — ONE
+genuine leak found and queued (see above; Illingworth-Steiner). Convergence check: no new
+3-independent-group cluster found in the queue beyond already-tracked trends (not exhaustively
+re-scanned this session — spot-checked the newest ~20 items only; a full re-scan is owed).
+`observation_queue` now ~237 items (soft cap ~40, long-standing deliberate over-cap state per
+domain cadence — no burndown attempted). SOURCES.md: five new source-discovery candidates staged
+(see above). README.md and SUMMARY.md regenerated in the same commit.
