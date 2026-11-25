@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3491,6 +3491,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   (crowdsourced formalization of Masullo's incomplete proof), github.com/enaslund/rh-verification
   (Naslund's independent review repo), github.com/jimjamzola/RH-Alpoge-Reconstruction — these four
   named only via the Baez post this session, Amendment M index check still owed next session.
+- notes: 2026-11-25 (daily): a new, strong vetting-process signal — Terence Tao's blog posted
+  "G.R.H. Polymath" (https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/, 2026-11-24, a guest post by Anurag Sahai, Will Sawin,
+  and Lior Silberman, opened directly this session), proposing a Polymath-style collaboration
+  explicitly to (1) coordinate worldwide verification effort, (2) produce a human-readable account
+  of the proof (this ledger's still-outstanding watch item (1)), (3) clarify the related literature,
+  and (4) explore the mathematics behind the Lean certificate, pointing to a public Zulip forum for
+  the discussion. This is the first organized human-expert verification EFFORT (not yet an outcome)
+  — logged as a note rather than a new evidence line (the trend's evidence cap already holds its
+  strongest primaries); watch for the Polymath project's own findings next. last_evidence unchanged
+  (2026-11-24, no new primary result).
 
 ### Unforced finite-time blowup claimed for 3D incompressible Euler and Navier–Stokes (Alpöge–Buckmaster–Coiculescu; a direct Clay Millennium Problem claim)
 - stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-11-20
@@ -3629,7 +3639,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   newest primary's own date (backfill precedent, as for this session's other capture-leak catches).
 
 ### Claimed proof that VP ≠ VNP over every field (Anthropic-internal Claude research model; hexagonmath, unrefereed)
-- stage: seed | confidence: low | first_seen: 2026-11-24 | last_evidence: 2026-11-23
+- stage: seed | confidence: low | first_seen: 2026-11-24 | last_evidence: 2026-11-24
 - what: axis-1/5 LANDMARK CLAIM (algebraic complexity theory): claims a resolution of Valiant's
   1979 VP-vs-VNP conjecture — the algebraic analogue of P≠NP — over EVERY field, via a
   superpolynomial ($m^{c(\log m)^{1/3}}$-gate) arithmetic-circuit lower bound for the permanent
@@ -3642,7 +3652,10 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   deposited directly by Anthropic (not an individual researcher) to hexagonmath (explicit
   no-peer-review venue), with a claimed Lean formalization but NO repository link given on the
   page itself to check it. AI-WATCH-LANE: method is AI-discovered, but the RESULT is this radar's
-  beat.
+  beat. NOW A TWO-LAB CONVERGENCE: OpenAI's own internal model independently landed on the SAME
+  conclusion ~24h later via a completely different witness/method (below) — still two unrefereed
+  AI claims, not independent human confirmation, but a materially stronger signal than a single
+  lab's claim.
 - evidence:
   - 2026-11-23 — https://hexagonmath.org/2611.00954v1 — "VP $\neq$ VNP over every field," `dc:creator`
     Anthropic, 70pp, cs.CC/math.MG/math.RA/cs.LO, CC BY 4.0: opened directly this session via
@@ -3652,6 +3665,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Cites recent related lower-bound work (Guo arXiv:2609.29568; Kumar-Volk arXiv:2609.34462;
     Sheshadri arXiv:2606.13628/2610.40484; Raz arXiv:2604.22006) as context, none claiming the full
     conjecture.
+  - 2026-11-24 — https://github.com/openai/math/blob/main/preprints/Paths-trees-and-grids-separate-Valiants-hierarchy-November-24-2026/paper.pdf
+    — OpenAI, "Paths, trees and grids separate Valiant's hierarchy": an INDEPENDENT second proof
+    of VP≠VNP over every field, via a different witness (the state-sum polynomial on an n×n grid,
+    in VNP, requiring arithmetic circuits of size $n^{\Omega((\log n)^{1/12})}$ — a weaker exponent
+    than Anthropic's claim but a self-contained construction that also separates circuits from
+    algebraic branching programs (trees) and branching programs from formulas (paths) in the same
+    paper. PDF opened directly via `raw.githubusercontent.com` and read (`pdftotext`) this session;
+    not yet indexed in `openai/math`'s own `CONTENTS.md` at the time of this check.
 - notes: 2026-11-24 (daily, seed creation): caught via hexagonmath's `/rss/all` feed, the same
   surface as yesterday's GRH/Euler-NS story; corroborated as independently significant via Hacker
   News front page same day (301 points, "VP ≠ VNP over Every Field" — intake only). Distinct from
@@ -3661,11 +3682,220 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   despite the claim of formalization — chase directly next session (search hexagonmath's own
   listing and Anthropic's GitHub org for a companion repo) before any confidence change. No
   independent expert engagement found yet beyond the HN front-page attention signal.
+- notes: 2026-11-25 (daily): OpenAI's own internal model independently proved the same conjecture
+  (above), reported same-day by Gil Kalai ("Claude, and a few hours later ChatGPT, proved that
+  VP ≠ VNP" — gilkalai.wordpress.com, 2026-11-24, opened directly this session) — the two-lab,
+  two-method convergence this session treats as a corroboration SIGNAL, not a vetting OUTCOME
+  (both remain unrefereed AI claims; confidence held `low`). last_evidence advances 2026-11-23 →
+  2026-11-24. Watch for: whether either lab's Lean formalization becomes independently checkable,
+  and any human-expert reconciliation of the two different lower-bound constructions.
+
+### OpenAI's claimed resolution of the matrix multiplication exponent (ω = 9/4 exactly, unrefereed)
+- stage: seed | confidence: low | first_seen: 2026-11-25 | last_evidence: 2026-11-24
+- what: axis-1/5 LANDMARK CLAIM (algebraic complexity theory): claims the EXACT value of the
+  matrix-multiplication exponent $\omega$ — one of the most famous open problems in theoretical
+  computer science, open since Strassen's 1969 $O(n^{2.807})$ algorithm and the subsequent
+  decades-long race toward the widely-hoped $\omega=2$. An OpenAI model first established the
+  upper bound $\omega\le9/4$ over $\mathbb{C}$ (2026-10-02), independently extended to every field
+  by Amanov–van den Berg–Zuiddam (arXiv:2610.30054, a CAPTURE-LEAK catch this session — sitting
+  unqueued since 2026-10-21 despite being a genuine independent-expert exposition of an already-
+  tracked OpenAI result). A second OpenAI preprint (2026-11-24) now claims the MATCHING LOWER
+  BOUND — every formal arithmetic circuit for $n\times n$ matrix multiplication needs at least
+  $n^{9/4}/2$ multiplication/division gates — which, combined with the upper bound, would pin
+  $\omega=9/4$ EXACTLY and definitively REFUTE the long-hoped $\omega=2$ conjecture. 45+ years old
+  and celebrated far beyond theoretical computer science (taught in every algorithms course,
+  covered in general-audience science press) — clears the landmark bar on long-standing AND
+  celebrated, independently of any AI-watch caution. MAXIMUM hype-skepticism caution: the
+  lower-bound claim is HOURS old, wholly AI-generated, unrefereed, from OpenAI's internal model,
+  with zero independent engagement yet on the lower bound specifically (only the earlier upper
+  bound has independent-expert exposition). AI-WATCH-LANE: method is AI-discovered, the RESULT is
+  this radar's beat.
+- evidence:
+  - 2026-10-02 — https://github.com/openai/math/blob/main/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/paper.pdf
+    — OpenAI's own upper-bound preprint, $\omega_{\mathbb C}\le9/4$; part of the already-tracked
+    Oct-6 mass-disclosure (result-family #107 per `CONTENTS.md`, opened directly this session via
+    `raw.githubusercontent.com`).
+  - 2026-10-21 (v1; CAPTURE-LEAK, found this session's mechanical check) — https://arxiv.org/abs/2610.30054
+    — Alimzhan Amanov, Maxim van den Berg, Jeroen Zuiddam, "Multiplying matrices via polynomials:
+    exposition and barriers": an independent exposition of OpenAI's upper-bound proof extending it
+    to $\omega_{\mathbb F}\le9/4$ over EVERY field (not just $\mathbb C$), plus new rectangular-
+    multiplication bounds and an operational barrier result. Jeroen Zuiddam is an established
+    algebraic-complexity/tensor-theory researcher — genuine independent expert engagement. Abstract
+    + authors verified via direct arXiv API fetch this session.
+  - 2026-11-24 — https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf
+    — OpenAI, "The matrix multiplication exponent is nine fourths": the new lower-bound claim
+    ($n^{9/4}/2$ gates, formal arithmetic circuits, every field), via a reduction from a
+    tensor-network-compression argument to a lower bound for testing list-distinctness. PDF opened
+    directly via `raw.githubusercontent.com` and read (`pdftotext`) this session; not yet indexed in
+    `openai/math`'s own `CONTENTS.md` at the time of this check.
+- notes: 2026-11-25 (daily, seed creation): caught via the Hacker News front page (379 points, 191
+  comments, "Matrix Multiplication is Θ(n^2.25)" — intake only; thread itself corrected its own
+  title from the submitted "O(n^2.25)" to the accurate "Θ" within the first few comments, and
+  clarified the upper bound was already known — the NEW content is the lower bound). No
+  independent human engagement with the lower-bound claim specifically found this session (hours
+  old at run time) — chase directly next session (MathOverflow, the complexity-theory blogs, any
+  Zuiddam/tensor-theory-community reaction). Distinct from the VP≠VNP trend above (different
+  problem, same AI-watch skepticism tier) and from the OpenAI mass-disclosure collection trend
+  (this result-family's significance, once the lower bound is added, clears the landmark bar on
+  its own merits — promoted out per the BATCH PRODUCERS rule, AGENTS.md).
+
+### Resolution of Seymour's Second Neighborhood Conjecture (OpenAI claim + independent human re-proof)
+- stage: seed | confidence: medium | first_seen: 2026-11-25 | last_evidence: 2026-11-24
+- what: axis-1 LANDMARK (graph theory): Seymour's Second Neighborhood Conjecture (1990, 36 years
+  old) — every nonempty finite oriented graph has a vertex whose second out-neighborhood is at
+  least as large as its first — is a flagship, widely-known open problem in graph theory (dozens
+  of partial-progress papers over three decades, e.g. Fisher's tournament case 1996, Chen-Shen-Yuster
+  2003). An OpenAI model proved it in full (part of the already-tracked Oct-6 mass disclosure,
+  result-family #173, Lean-formalized per the repo); a short INDEPENDENT human proof, by a team
+  including leading combinatorialist Stéphan Thomassé, landed 2026-11-24 — the same
+  OpenAI-claim-plus-independent-human-exposition pattern that already promoted the Propeller and
+  Harary–Hill conjectures to their own trends. Clears the landmark bar: long-standing AND now
+  independently engaged (re-proved, not merely expounded) by experts.
+- evidence:
+  - 2026-09-23 — https://github.com/openai/math/blob/main/preprints/A-proof-of-Seymours-second-neighborhood-conjecture-September-23-2026/paper.pdf
+    — OpenAI's own proof (result-family #173 per `CONTENTS.md`, opened directly this session via
+    `raw.githubusercontent.com`): "every nonempty finite oriented graph has a vertex with at least
+    as many vertices at directed distance exactly two as at directed distance one," Lean-formalized
+    (`lean/docs/173.md`).
+  - 2026-11-24 — https://arxiv.org/abs/2611.32872 — Romain Bourneuf, Pierre Charbit, Samuel Coulomb,
+    Stéphan Thomassé, "A short proof of Seymour's Second Neighborhood Conjecture": an independent
+    alternative proof, explicitly building on OpenAI's reduction but supplying a different core
+    argument. Abstract + authors verified via direct arXiv API fetch this session (math.CO
+    title-triage, "conjecture" keyword hit).
+- notes: 2026-11-25 (daily, seed creation): caught via today's math.CO title-triage sweep; cross-
+  checked against `openai/math`'s own `CONTENTS.md` to confirm the OpenAI priority claim before
+  seeding. No outside commentary (Tao/Kalai/Gowers/Baez) found yet — chase next session.
+
+### Resolution of the Spielman-Teng conjecture on random sign matrices (He–Cheng, exact form)
+- stage: seed | confidence: medium | first_seen: 2026-11-25 | last_evidence: 2026-11-24
+- what: axis-1 LANDMARK (random matrix theory / theoretical computer science): the Spielman-Teng
+  conjecture (2002, smoothed analysis of condition numbers) predicts
+  $\mathbb P(\sigma_{\min}(A)\le\varepsilon n^{-1/2})\le\varepsilon+e^{-cn}$ for an $n\times n$
+  random sign matrix $A$. Sah–Sahasrabudhe–Sawhney (arXiv:2405.20308, GAFA 2025, verified via
+  direct arXiv API fetch this session) resolved it only up to a $(1+o(1))$ factor for general
+  subgaussian entries. This new, purely human-authored paper proves the EXACT inequality (no
+  $(1+o(1))$ fudge) specifically for random sign matrices — closing the gap and fully resolving the
+  conjecture as originally stated. 24 years old; Spielman (Rolf Nevanlinna Prize 2010, for
+  smoothed analysis) and this conjecture are celebrated well beyond random matrix theory, cited
+  across numerical linear algebra and theoretical computer science. NOT an AI-watch item — ordinary
+  human mathematics, standard unrefereed-preprint caution only.
+- evidence:
+  - 2024-05-30 — https://arxiv.org/abs/2405.20308 — Ashwin Sah, Julian Sahasrabudhe, Mehtaab
+    Sawhney, "On the Spielman-Teng Conjecture": resolves the conjecture up to a $(1+o(1))$ factor
+    for iid subgaussian entries. Abstract + authors + date verified via direct arXiv API fetch
+    this session (context/background, not itself the new result).
+  - 2026-11-24 — https://arxiv.org/abs/2611.32090 — Hengzhi He, Guang Cheng, "The smallest singular
+    value of a random sign matrix: the Spielman-Teng conjecture": proves the exact bound for all
+    $\varepsilon\ge0$, plus a first-order improvement in an intermediate regime. Abstract + authors
+    verified via direct arXiv API fetch this session (math.PR title-triage, conjecture-name keyword
+    hit).
+- notes: 2026-11-25 (daily, seed creation): caught via today's math.PR title-triage sweep; the
+  2024-2025 partial-resolution context (Sah-Sahasrabudhe-Sawhney) was found via a follow-up
+  `WebSearch` this session to confirm the new paper genuinely closes an open gap rather than
+  duplicating prior work — standard unrefereed-preprint caution (days old, no outside engagement
+  yet). Chase next session for any community reaction.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-23 — Wei-Chun Chen, Wei-Ting Kao, Chun-Kai Lien, "Generic Strong Regularity and the
+  Branson-Gover Conjecture" — https://arxiv.org/abs/2611.30498 — proves a generic-open-dense-set
+  (not fully general) case of the Branson-Gover-Canzani conjecture on conformal-GJMS-operator
+  kernels — PARTIAL, narrow specialist (conformal differential geometry). Axis 1. Abstract +
+  authors verified via direct arXiv API fetch this session (math.DG title-triage).
+- 2026-11-23 — Udhav Fowdar, "On the quaternionic Goldberg conjecture" — https://arxiv.org/abs/2611.30608
+  — proves a quaternionic-Kähler analogue of the Goldberg conjecture for compact 8-manifolds with
+  an Sp(2)Sp(1)-structure. Narrow specialist (quaternionic Kähler geometry). Axis 1. Abstract +
+  author verified via direct arXiv API fetch this session (math.DG title-triage).
+- 2026-11-24 — Nina Lebedeva, "The Boundary Conjecture for Smoothable Alexandrov Spaces" —
+  https://arxiv.org/abs/2611.30860 — full proof of a boundary-curvature result for noncollapsed
+  limits of Riemannian manifolds; narrow specialist subfield (Alexandrov geometry), no fame/
+  engagement signal found this session. Axis 1. Abstract + author verified via direct arXiv API
+  fetch this session (math.DG/math.MG title-triage).
+- 2026-11-23 — Nero Budur, Quan Shi, Huaiqing Zuo, "The monodromy conjecture for remarkable poles"
+  — https://arxiv.org/abs/2611.30999 — proves the strong monodromy conjecture (Igusa's, 1988, a
+  long-standing singularity-theory/arithmetic-geometry conjecture) for the special subclass of
+  "remarkable" poles — PARTIAL (a subcase, not the general conjecture). Axis 1. Abstract + authors
+  verified via direct arXiv API fetch this session (math.AG title-triage).
+- 2026-11-23 — Alexander Pigazzini, "The Kao-Lai-Osting Conjecture for the Second Laplace
+  Eigenvalue on Riemannian Two-Tori" — https://arxiv.org/abs/2611.31024 — proves the $k=2$ case of
+  a recent (not long-standing) spectral-geometry conjecture. Axis 1, narrow specialist. Abstract +
+  author verified via direct arXiv API fetch this session (math.DG title-triage).
+- 2026-11-23 — Andrea Agazzi, David F. Anderson, Daniele Cappelletti, Lucie Laurence, Jonathan C.
+  Mattingly, "A proof of the chemical recurrence conjecture in two dimensions" —
+  https://arxiv.org/abs/2611.31221 — proves the long-standing (within its own subfield) chemical
+  recurrence conjecture for weakly-reversible reaction networks, restricted to 2 dimensions —
+  PARTIAL. Axis 1 (math.PR), narrow specialist (chemical reaction network theory). Abstract +
+  authors verified via direct arXiv API fetch this session.
+- 2026-11-23 — Lucas Fagan, Jon McCammond, "Fake surfaces for some potential Andrews-Curtis
+  counterexamples" — https://arxiv.org/abs/2611.31420 — explores (does not resolve) the famous,
+  long-standing (1965) Andrews-Curtis conjecture: constructs fake-surface combinatorics for the
+  Akbulut-Kirby family of potential counterexamples. Below bar (exploratory, not a resolution) but
+  flagged given the conjecture's fame — watch for whether this enables an actual counterexample or
+  disproof. Axis 1. Abstract + authors verified via direct arXiv API fetch this session
+  (math.GT/math.GR title-triage).
+- 2026-11-23 — Durvudkhan Suragan, "A Proof of the Ovals Conjecture" — https://arxiv.org/abs/2611.31665
+  — proves the Benguria-Loss ovals spectral-geometry conjecture (lowest eigenvalue of a periodic
+  Schrödinger operator on a closed curve). Narrow specialist subfield, age/fame not established
+  this session. Axis 1. Abstract + author verified via direct arXiv API fetch this session.
+- 2026-11-24 — Guang Li, Wenqian Zhang, "A proof of the toughness conjecture for Kneser graphs" —
+  https://arxiv.org/abs/2611.32376 — resolves Park et al.'s own recent conjecture on Kneser-graph
+  toughness. Axis 1, narrow specialist. Abstract + authors verified via direct arXiv API fetch
+  this session (math.CO title-triage).
+- 2026-11-24 — Yang Cao, Zhiyu Tian, "Integral Hodge/Tate conjecture of quotients via weak
+  approximation" — https://arxiv.org/abs/2611.32494 — PARTIAL progress on the integral Hodge/Tate
+  conjectures for quotient varieties, related to (but a distinct technical case from) the
+  already-queued "Tate conjecture for abelian fourfolds" item (2611.30237, queued 2026-11-23).
+  Axis 1. Abstract + authors verified via direct arXiv API fetch this session (math.AG
+  title-triage).
+- 2026-11-24 — Aryeh Lev Zabokritskiy, "A Proof of the Balister-Győri-Schelp Conjecture on Perfect
+  Matchings with Prescribed Differences" — https://arxiv.org/abs/2611.32557 — full proof of a
+  recent (not long-standing) combinatorics conjecture named after living authors. Axis 1, narrow
+  specialist. Abstract + author verified via direct arXiv API fetch this session.
+- 2026-11-24 — Qi Guo, Marco Magliaro, Luciano Mari, Andreas Savas-Halilaj, "Equivariant harmonic
+  maps from $\mathbb S^3$ to $\mathbb S^2$: on a counterexample to a conjecture of J. Eells" —
+  https://arxiv.org/abs/2611.32603 — a RIGOROUS human construction "building on a remarkable
+  AI-generated counterexample" to Eells' conjecture (Hopf invariant 0 or ±6), narrowing an existing
+  disproof. Related to the already-catalogued (below-bar, `logs/results_catalog.md`) Hirst-Platt-
+  Sá Earp-Stein disproof of Eells'/Ding's conjectures (2611.17697) — UNCLEAR this session whether
+  this cites the SAME AI-generated example or a different one (not resolved; chase next session by
+  opening this paper's reference list). If it is independent expert engagement with the already-
+  catalogued item, that item should be reconsidered for promotion back to a seed at the next
+  weekly per AGENTS.md's "a catalogued result is promoted when it later clears the bar" rule —
+  flagged here rather than promoted outright given the citation ambiguity. Axis 1. Abstract +
+  authors verified via direct arXiv API fetch this session (math.DG/math.AP Amendment J
+  full-abstract pass).
+- 2026-11-24 — Guantao Chen, Songling Shan, "An Asymptotically Sharp Form of the Overfull
+  Conjecture" — https://arxiv.org/abs/2611.32763 — an asymptotic (not full) resolution of the
+  Chetwynd-Hilton 1986 Overfull Conjecture, a well-known problem in chromatic-index/graph-coloring
+  theory (40 years old, would imply several other longstanding conjectures if fully resolved) —
+  PARTIAL. Axis 1. Abstract + authors verified via direct arXiv API fetch this session (math.CO
+  title-triage).
+- 2026-11-24 — Ziyu Neroli, "On the Fujii conjectures" — https://arxiv.org/abs/2611.32862 —
+  disproves Fujii's first conjecture and proves his second (1988, analytic number theory,
+  prime-counting weights), CONDITIONAL on RH for a nonprincipal character mod 4. Axis 1. Abstract +
+  author verified via direct arXiv API fetch this session (math.NT title-triage).
+- 2026-11-23 — Simon Foucart, "Solutions to Three Spline-Related Conjectures" —
+  https://arxiv.org/abs/2611.31314 — AI-assisted paper settling (partially) three named spline-
+  theory conjectures (Scherer-Shadrin, disproved; the author's own Lebesgue-function conjectures,
+  proved; Schumaker, partially solved). Narrow specialist subfield, axis 1/5 watch. Abstract +
+  author verified via direct arXiv API fetch this session (math.CA title-triage).
+- 2026-11-24 — Guo-Hong Du, Tian-Nuo Li, Jing-Fei Zhang, Xin Zhang, "Resolving the Hubble Tension
+  at $0.1\sigma$ with Early Dark Energy: Key Role of the Highest-redshift Galaxies from JWST
+  Observations" — https://arxiv.org/abs/2611.32552 — a theoretical cosmology paper proposing an
+  axion-EDE model reconciling $H_0$ measurements with JWST high-redshift galaxy data; one of many
+  competing proposed resolutions of the Hubble tension (a major open problem in cosmology), not a
+  first-of-kind detection. Axis 3. Abstract + authors verified via direct arXiv API fetch this
+  session (astro-ph.CO Amendment J full-abstract pass context).
+- 2026-11-23 — Andrew Strominger, Hongji Wei, "Every 3D Conformal Field Theory Has an
+  $\mathcal L_\Lambda w_{1+\infty}$ Symmetry" — Phys. Rev. Lett. 137, 221601 —
+  http://link.aps.org/doi/10.1103/64ht-cx15 — a universal structural result in Strominger's
+  celestial-holography program, extending a recently-discovered deformed $w_{1+\infty}$ soft
+  symmetry algebra from $\mathrm{AdS}_4$ gravity to every 3D CFT (incl. those dual to quantum
+  gravity on $\mathrm{AdS}_4$). Programmatic progress, not a conjecture resolution or detection —
+  below the trend bar. Axis 2. RSS item + abstract opened directly via `curl` this session
+  (PRL DAILY-tier sweep).
 - 2026-09-28 (CAPTURE-LEAK catch, found this session's mechanical id-sweep) — Freddie Illingworth,
   Raphael Steiner, "Disproof of the dominating Hadwiger conjecture" —
   https://arxiv.org/abs/2609.35361 — disproves the "dominating" strengthening of Hadwiger's 1943
@@ -5362,6 +5592,13 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-25 (shelf-added; event dated 2026-11-24) — [The matrix multiplication exponent is nine fourths](https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf) —
+  OpenAI's claimed exact resolution of the matrix-multiplication exponent ($\omega=9/4$), via a new
+  lower bound matching its own already-known upper bound — a surprising REFUTATION of the long-hoped
+  $\omega=2$ conjecture, one of the most famous open problems in theoretical computer science.
+  MAXIMUM caution: hours old at discovery, wholly AI-generated, unrefereed, zero independent
+  engagement yet on the lower bound — but the scale and surprise of the claim belong on a frontier
+  researcher's radar now. See the matching new seed trend above.
 - 2026-11-24 (shelf-added; event dated 2026-11-23) — [VP ≠ VNP over every field](https://hexagonmath.org/2611.00954v1) —
   a claimed resolution of Valiant's 1979 algebraic-complexity flagship conjecture, discovered by an
   internal Anthropic research Claude model and deposited directly by Anthropic to hexagonmath.

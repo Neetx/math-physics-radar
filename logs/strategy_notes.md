@@ -2316,3 +2316,26 @@ coding) this week. No redirection needed.
   `/news` and The n-Category Café both downgraded this session to monthly re-test (6 and 4
   consecutive identical-failure sessions respectively, with zero fix found and — for LIGO —
   zero evidence any genuinely new item was hidden by the staleness across all 6 checks).
+
+- 2026-11-25 (daily) — STUDY-SHELF STALENESS FLAG for W48 weekly review: `TRENDS.md`'s
+  `study_shelf` section holds 157 dated entries reaching back to 2026-07-24, well past the
+  Amendment O (2026-W47) 120-day prune line. This session rendered it in full in README.md per
+  the `radar-render-dashboard` skill's explicit instruction ("render it in FULL, do not cap"),
+  which is the correct DAILY behavior — but the underlying accumulation suggests the weekly's
+  120-day prune itself has not run, or has not run comprehensively, for some time. Proposal
+  (cooling period, not applied): W48 should run a dedicated shelf-prune pass using each entry's
+  REAL add date (the `shelf-added`/`found`/`surfaced` annotation where present, else the leading
+  date itself, per Amendment O), and if a backlog this size recurs, consider whether the prune
+  needs its own explicit per-weekly checklist item rather than relying on it being remembered.
+- 2026-11-25 (daily) — CAPTURE-LEAK SWEEP METHODOLOGY NOTE: this session ran the mechanical
+  capture-leak sweep (498 distinct arXiv ids) via a script rather than a manual subsample, which
+  surfaced ~30 candidate "leaks" on a first pass. Manual spot-checking showed the great majority
+  were FALSE POSITIVES of a specific, recurring kind: a dated sub-item placed inside a trend's
+  `- notes:` block (functioning as de-facto evidence, a pattern this ledger already uses when an
+  evidence list is near its 10-item cap) that a strict `- evidence:`-block-only parser does not
+  see, or an id that was captured and later correctly relocated to `logs/queue_history.md` after
+  aging out. Only ONE genuine leak was found this way (Amanov–van den Berg–Zuiddam, folded into
+  today's new matrix-multiplication-exponent trend). Flagging the false-positive PATTERN (not a
+  rule change) so a future session's mechanical sweep doesn't need to rediscover it: check
+  `logs/queue_history.md` and a block's full `- notes:` text, not just its `- evidence:` list,
+  before concluding an id is actually uncaptured.

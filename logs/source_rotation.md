@@ -5609,3 +5609,83 @@ re-scanned this session — spot-checked the newest ~20 items only; a full re-sc
 `observation_queue` now ~237 items (soft cap ~40, long-standing deliberate over-cap state per
 domain cadence — no burndown attempted). SOURCES.md: five new source-discovery candidates staged
 (see above). README.md and SUMMARY.md regenerated in the same commit.
+
+2026-11-25 (daily) — FULL CHECK. Shallow-clone check: repo WAS shallow this session — ran
+`git fetch --unshallow` before the orphaned-branch check; no orphaned `radar:` commits found
+(two stale `claude/*` branches held only history already merged into main). Previous-run
+completion check: 2026-11-24's daily report present with its `Axes:` block, all last-7-days
+`radar:` commits have matching reports. Primary sweep (radar-source-sweep): full 32-category
+arXiv API batch (submissions since 2026-11-23), title-triaged against the standing keyword
+list; Amendment J full-abstract pass on math.AP (60 fresh entries — two flags, one already
+routed [Eells counterexample], one below-bar niche counterexample not queued). Off-axis
+exploration slot (radar-explore): not reached as its own dedicated pass this session (today's
+effort went to the matrix-multiplication/VP≠VNP chase and the resulting capture-leak fix) —
+flagged as owed next session.
+TOP STORY: Hacker News front page surfaced "Matrix Multiplication is Θ(n^2.25)" (379 points) —
+opened the actual PDF at github.com/openai/math (raw.githubusercontent.com, `pdftotext`):
+OpenAI's internal model claims the EXACT matrix-multiplication exponent ω=9/4 via a new lower
+bound matching its own already-known (Oct 2) upper bound. New seed trend. In the same chase,
+found a genuine CAPTURE-LEAK sitting since 2026-10-21: Amanov–van den Berg–Zuiddam's independent
+exposition of the upper bound (arXiv:2610.30054) — never queued despite being exactly the
+independent-expert-engagement pattern this ledger tracks; folded into the new trend's evidence.
+SECOND STORY: Gil Kalai's blog (opened directly) reports OpenAI's own model independently proved
+VP≠VNP ~24h after Anthropic's claim, via a different method — located the actual OpenAI preprint
+(github.com/openai/math, Nov 24) and added it as new evidence to yesterday's VP≠VNP trend.
+Full 32-category arXiv API title-triage (all in-scope math + physics categories) surfaced two
+further new seed trends via direct verification: Seymour's Second Neighborhood Conjecture
+(OpenAI's own Sept-23 result-family #173, cross-checked against `openai/math`'s own
+`CONTENTS.md`, plus an independent human re-proof by Bourneuf–Charbit–Coulomb–Thomassé,
+arXiv:2611.32872) and the Spielman-Teng conjecture (He–Cheng, arXiv:2611.32090, closing the
+exact form left open by Sah–Sahasrabudhe–Sawhney 2025 — found via `WebSearch`, Tavily quota
+exhausted this session).
+DAILY-tier primary feeds opened (all routine, 0 further on-axis catch beyond the above): CERN
+Courier, Fermilab, Simons, PRL/PRX/RMP (one notable-but-below-bar item queued: Strominger's 3D
+CFT symmetry result), Quantum journal, IceCube, hexagonmath `/rss/all`, icarm.io/feed, mathhelm.
+SciPost: HEALED (plain `curl` returned clean JSON, no Anubis challenge — the W47/11-24
+heal-owed block has lifted on its own; no further action needed). GitHub watch: lean4 unchanged
+(v4.37.0-rc1), Rocq unchanged (9.3.0), mathlib4 continuing daily auto-tag — via `WebFetch` on
+`.atom` as usual (direct curl/API session-proxy-403s). AI-watch lane: openai.com/research (one
+Nov-17 model release, no math/TCS post beyond what's already tracked), anthropic.com/research
+(Nov-17 black-hole-physics post already captured 2026-11-20/23, re-confirmed unchanged),
+agmai.org (no November post, most recent Oct-26), vals.ai (most recent Nov-18, already routine),
+axiommath.ai/research (six November posts, ALL already on `study_shelf`/evidence — MMP,
+CFSG-corpus, Faltings, Cluster Algebras, Weil, Stacks Project — zero new capture), cims.nyu.edu
+(no dated items beyond the already-tracked Jan-2026 Quanta piece).
+Community pulse (radar-pulse): Hacker News front page (Algolia API) — both top stories above.
+MathOverflow/Physics SE feeds (curl, 200) — routine. Mathstodon public timeline (curl, 200) —
+routine. r/math family — standing domain-wide block, not re-tested (monthly cadence). Digest
+blogs, ALL opened directly this session: Tao (NEW post, "G.R.H. Polymath," a guest-post Polymath
+collaboration launching to verify Alpöge's RH proof — added as a note to the GRH trend), Kalai
+(NEW post, see VP≠VNP above), Woit (unchanged since 11-21), Gowers/Strassler (stale, not
+re-tested), Baez/Hossenfelder (not independently re-opened this session — folded into the
+matrix-mult/VP≠VNP chase instead).
+Trend recalibration (radar-ledger-update): FOUR new seed trends (matrix-multiplication exponent;
+Seymour's SNC; Spielman-Teng; none archived/dormant) + evidence updates to two existing trends
+(VP≠VNP: OpenAI's independent proof; GRH: Tao's Polymath note) + sixteen new `observation_queue`
+items from today's arXiv sweep (below-bar conjecture resolutions/partial results — Branson-Gover,
+quaternionic Goldberg, Alexandrov boundary conjecture, monodromy-for-remarkable-poles,
+Kao-Lai-Osting, chemical recurrence 2D, Andrews-Curtis fake-surfaces, Ovals conjecture,
+toughness-Kneser, integral Hodge/Tate via weak approximation, Balister-Győri-Schelp, Eells
+rigorous-AI-counterexample-construction, Overfull conjecture asymptotic, Fujii conjectures, Three
+Spline conjectures, Hubble-tension EDE+JWST, Strominger 3D-CFT symmetry) + one study_shelf
+addition (matrix-multiplication exponent). CAPTURE-LEAK mechanical sweep: 498 distinct arXiv ids
+in TRENDS.md checked against evidence/queue/study_shelf blocks (script-assisted, not a manual
+subsample) — ONE genuine leak found and closed (Amanov–van den Berg–Zuiddam, see above); ~30
+other script flags were manually spot-checked and confirmed FALSE POSITIVES (already captured as
+dated evidence-style notes, just outside the script's strict `- evidence:` block boundary, or
+already relocated to `logs/queue_history.md` after aging out). DORMANCY PROBE: no trend crossed
+the 60-day line this session (Stanley-Gasharov remains the only near-term archive watch, ~119
+days stale, 120-day line ~2026-11-26 — one day away; the WEEKLY must check/archive it, not this
+daily). Convergence check: no new 3-independent-group cluster found beyond already-tracked
+trends (spot-checked the newest ~20 queue items only — a full re-scan remains owed, now 3
+sessions running). STUDY-SHELF STALENESS FLAG (new finding, for W48): the `study_shelf` section
+of TRENDS.md now holds 157 dated entries back to 2026-07-24 — well past the Amendment O 120-day
+prune line (~2026-07-28) for the oldest ones. The skill's "render in FULL, do not cap" instruction
+was followed literally this session (README.md now lists all 157), but this strongly suggests the
+weekly's 120-day shelf prune has not been running or has fallen behind — flag explicitly for W48
+to run the prune (using each entry's real add-date per Amendment O's `shelf-added` annotation
+rule) rather than let README grow unbounded. `observation_queue` now 253 items (soft cap ~40,
+long-standing deliberate over-cap state per domain cadence — no burndown attempted this session).
+SOURCES.md: no new source-discovery candidates staged (today's finds all came through
+already-swept sources — github.com/openai, arXiv, Tao's/Kalai's blogs). README.md and SUMMARY.md
+regenerated in the same commit.
