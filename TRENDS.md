@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -3354,7 +3354,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   engagement found yet.
 
 ### Alpöge's claimed Lean-formalized proof of the Riemann Hypothesis and GRH for Dirichlet L-functions (Claude-assisted)
-- stage: seed | confidence: medium | first_seen: 2026-11-23 | last_evidence: 2026-11-24
+- stage: seed | confidence: medium | first_seen: 2026-11-23 | last_evidence: 2026-11-25
 - what: axis-1 LANDMARK CLAIM, the single largest-magnitude claim this ledger has ever tracked.
   Levent Alpöge (Harvard Society of Fellows; also affiliated with Anthropic) states he has,
   "working with Claude," discovered a Lean-4-formalized proof that $L(s,\chi)\neq0$ for
@@ -3447,6 +3447,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     issues, 133 pull requests at fetch time — substantial, fast community scrutiny already underway;
     the repo itself reports no verification RESULTS (points to a `verification/NOTES.md` not present
     in what was fetched).
+  - (undated, accessed 2026-11-26) — https://github.com/lsernau/grh-lean — "a much shorter version"
+    of the Lean GRH/RH formalization, README states explicitly "based on Levent Alpöge's, with
+    Claude," produced "in collaboration with my colleagues at Anthropic, and Claude"; two editions
+    (`grh/` ~300k lines, `grh-compact/` ~76k lines) covering the same five theorems, same three
+    standard axioms, Apache-2.0/Anthropic-PBC-copyrighted. Opened directly this session (caught via
+    Hacker News front page, 371 points). README states "passed machine checks only," no
+    mathematician review yet — a re-formalization artifact, NOT an independent second method.
 - notes: 2026-11-23 (daily, seed creation): MAXIMUM hype-skepticism caution, by far the largest
   claim this radar tracks — but also an unusually STRONG verification signal for an unrefereed
   claim this fresh (an independent, named, credible expert's own multi-kernel Lean check, within
@@ -3501,6 +3508,14 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   — logged as a note rather than a new evidence line (the trend's evidence cap already holds its
   strongest primaries); watch for the Polymath project's own findings next. last_evidence unchanged
   (2026-11-24, no new primary result).
+- notes: 2026-11-26 (daily): a second Lean-formalization artifact surfaced — see new evidence item
+  below (github.com/lsernau/grh-lean, caught via today's Hacker News front page, 371 points). It is
+  explicitly NOT an independent re-derivation: the README states the Lean argument "is based on
+  Levent Alpöge's, with Claude," produced "in collaboration with my colleagues at Anthropic, and
+  Claude" — a shorter (76k–300k line, vs. the original's much larger export) re-formalization of the
+  SAME proof, not a second method. README itself states it has "passed machine checks only" and no
+  mathematician has reviewed it — does not advance watch item (1) (a human-digested account).
+  last_evidence advances 2026-11-24 → 2026-11-25 (repo's own evident activity date).
 
 ### Unforced finite-time blowup claimed for 3D incompressible Euler and Navier–Stokes (Alpöge–Buckmaster–Coiculescu; a direct Clay Millennium Problem claim)
 - stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-11-20
@@ -3795,10 +3810,235 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   duplicating prior work — standard unrefereed-preprint caution (days old, no outside engagement
   yet). Chase next session for any community reaction.
 
+### Alpöge–Smith's AI-assisted disproof of the Loewner and Carathéodory conjectures (capture-leak backfill)
+- stage: seed | confidence: medium | first_seen: 2026-11-26 | last_evidence: 2026-11-25
+- what: axis-1 LANDMARK, CAPTURE-LEAK BACKFILL (differential geometry): the Carathéodory conjecture
+  (every closed, convex, sufficiently smooth surface in $\mathbb R^3$ has at least two umbilic
+  points) was attributed to Carathéodory by Hamburger at a 1924 Berlin Mathematical Society
+  session — 102 years old — and, with the Willmore (proved 2013, Brendle) and Lawson (proved 2014,
+  Marques–Neves) conjectures, is one of the "three obdurate conjectures of differential geometry"
+  (Osserman's 1980s naming, confirmed via Guilfoyle's own survey arXiv:2502.11716, opened this
+  session) — the last of the three still open. Levent Alpöge (Anthropic/Harvard) announced an
+  explicit smooth ($C^\infty$, non-real-analytic) counterexample via an online post on 2026-08-19,
+  crediting John-Paul Smith and noting AI use — this disproves BOTH the Loewner conjecture (umbilic
+  index $\le1$) and, via the index-sum-equals-2 argument on a closed convex surface, Carathéodory's
+  conjecture, in that regularity class. Naoya Ando and Masaaki Umehara (established differential
+  geometers) independently gave a simpler, self-contained reconstruction confirming the index-2
+  umbilic construction exists. IMPORTANT CAVEAT, tracked not adjudicated: Guilfoyle–Klingenberg
+  have a long-standing (since 2008) claimed PROOF that the conjecture is TRUE for
+  $C^{3+\alpha}$-smooth convex surfaces (arXiv:1207.5994, still being revised as of this session's
+  fetch) — the apparent conflict may resolve via the differing regularity classes ($C^\infty$-but-
+  not-real-analytic vs. $C^{3+\alpha}$) rather than a direct contradiction; this ledger's own
+  capture-leak (missed for ~99 days since the original announcement) found via today's Amendment J
+  full-abstract pass on math.DG.
+- evidence:
+  - 2026-10-25 (v2 2026-11-25) — https://arxiv.org/abs/2610.34036 — Naoya Ando, Masaaki Umehara, "A
+    simple construction of smooth counterexamples to the Loewner and Carathéodory conjectures" —
+    PDF opened directly (`raw`/`pdftotext`) this session. States in its own introduction: "Alpöge
+    recently announced smooth counterexamples to the Loewner and Carathéodory conjectures in an
+    online post. In the announcement, he credits John-Paul Smith and notes the use of AI." Gives an
+    independent, simpler trigonometric-function construction realizing the same index-2 isolated
+    umbilic on a strictly convex closed regular surface, self-contained with regard to existence.
+  - 2012-07-25 (latest version fetched 2026-11-26) — https://arxiv.org/abs/1207.5994 — Brendan
+    Guilfoyle, Wilhelm Klingenberg, "An index bound for smooth umbilic points": claims the local
+    index of an isolated umbilic point on a $C^{3+\alpha}$-smooth convex surface is less than two
+    (i.e. the conjecture is TRUE in that regularity class) via a Riemann–Hilbert boundary-value
+    co-kernel argument ("totally real blow-up"). Abstract + authors verified via direct arXiv API
+    fetch this session — cited here as the standing counter-claim/vetting-status context, not as
+    corroborating evidence for the disproof.
+- notes: 2026-11-26 (daily, seed creation): caught via today's Amendment J full-abstract pass on
+  math.DG (title-blind: "A simple construction of smooth counterexamples..." carries no
+  conjecture-resolution keyword hit under the standing title-triage regex). A genuine ~99-day
+  capture-leak — the original 2026-08-19 announcement was never staged or queued. The original
+  announcement itself is social media (not evidence per the hard rules); cited here only via what
+  the primary arXiv paper's own introduction states about it. FLAG "unrefereed preprint — claim"
+  for the Alpöge/Smith side; the Guilfoyle–Klingenberg side is itself a 14-years-unpublished claim.
+  Chase next session: any mathematician's public reconciliation of the two regularity classes;
+  whether Guilfoyle–Klingenberg respond to the new counterexample.
+
+### Yunhao Sun's claimed resolution of the Tate conjecture for finite fields (positive characteristic, unrefereed)
+- stage: seed | confidence: low | first_seen: 2026-11-26 | last_evidence: 2026-11-26
+- what: axis-1 LANDMARK CLAIM (arithmetic/algebraic geometry): claims a full proof of the Tate
+  conjecture for finite fields (Tate, 1963 — 63 years old; part of the same circle of ideas as the
+  Hodge/Mordell-Weil/BSD family, a core conjecture of arithmetic geometry, unquestionably celebrated
+  far beyond its own subfield). The one-page note reduces the claim to two known equivalences due
+  to Bruno Kahn (the Tate conjecture for a finite field $\Leftrightarrow$ a map of motivic
+  complexes is an isomorphism $\Leftrightarrow$ a right-adjoint realisation functor lands in
+  $DM^{\mathrm{eff}}_{\mathrm{\acute et}}$) and claims to establish the latter via the
+  Dwyer–Greenlees equivalence between $\ell$-completed and $\ell$-torsion objects. MAXIMUM
+  hype-skepticism caution: solo author, extremely terse (note-style) writeup, v1 submitted
+  2026-11-20 and v2 posted HOURS before this session; the author's five other arXiv papers (checked
+  this session) span information theory, PDE/MHD stability, single-particle-trajectory statistics,
+  and photoacoustic tomography — no prior algebraic/arithmetic-geometry track record, a notable
+  provenance anomaly for a claim of this depth. Zero independent engagement found this session.
+- evidence:
+  - 2026-11-20 (v1; v2 2026-11-26) — https://arxiv.org/abs/2611.28178 — Yunhao Sun, "The Tate
+    Conjecture in Positive Characteristic" — abstract, author, and version dates verified via
+    direct arXiv API fetch this session (math.NT/math.AG title-triage keyword hit, "Conjecture").
+- notes: 2026-11-26 (daily, seed creation): caught via today's full arXiv title-triage sweep. This
+  ledger already tracks several genuine PARTIAL Tate-conjecture results (abelian fourfolds,
+  ordinary Calabi-Yau threefolds, integral Hodge/Tate via weak approximation — see
+  `observation_queue`) — this claim is categorically larger (the FULL conjecture for finite fields,
+  not a restricted case). FLAG "unrefereed preprint — claim," maximum caution given the
+  cross-field authorship anomaly. Chase next session: any outside reaction (Tao/Kalai/
+  MathOverflow/arithmetic-geometry specialists); whether a v3 retraction or correction appears.
+
+### Tangli Ge's claimed resolution of the Zilber–Pink conjecture for algebraic tori (hexagonmath, unrefereed)
+- stage: seed | confidence: low | first_seen: 2026-11-26 | last_evidence: 2026-11-26
+- what: axis-1 LANDMARK CLAIM (Diophantine / unlikely-intersections geometry): claims the FULL
+  Zilber–Pink conjecture for arbitrary irreducible subvarieties of algebraic tori
+  $\mathbb G_m^n$ over $\mathbb C$ — every irreducible subvariety has only finitely many maximal
+  atypical (optimal) components. Independently proposed by Zilber and Pink around 2005 (21 years
+  old), a leading, actively-studied conjecture generalizing Manin–Mumford and Mordell–Lang,
+  extensively surveyed in arithmetic/Diophantine geometry. Confirmed via `WebSearch` this session
+  that the GENERAL torus case (beyond curves) remains open in the recent literature: Habegger–Pila's
+  unconditional result and Maurin's theorem cover only CURVES in tori/abelian varieties, not
+  arbitrary subvarieties — so this claim, if correct, closes a known-open case rather than
+  reproving settled ground. MAXIMUM hype-skepticism caution: unrefereed hexagonmath submission
+  (explicit no-peer-review disclaimer, same caution tier as arXiv), solo author, hours old at
+  discovery, zero independent engagement found this session.
+- evidence:
+  - 2026-11-26 — https://hexagonmath.org/2611.01093v1 — Tangli Ge, "The Zilber–Pink conjecture for
+    algebraic tori" — opened directly via hexagonmath's `/rss/all` feed this session; `dc:creator`
+    Tangli Ge, posted 2026-11-26 01:15 UTC.
+- notes: 2026-11-26 (daily, seed creation): caught via today's hexagonmath `/rss/all` sweep,
+  followed by a `WebSearch` to confirm the torus case's open status before seeding (per the hard
+  rule against guessing significance). FLAG "unrefereed preprint — claim." Chase next session for
+  any outside reaction from the Diophantine-geometry community (Habegger, Pila, Masser, Zannier,
+  Scanlon are the field's natural reviewers).
+
+### OpenAI's claimed disproof of the polynomial Hirsch conjecture
+- stage: seed | confidence: low | first_seen: 2026-11-26 | last_evidence: 2026-11-24
+- what: axis-1 LANDMARK CLAIM (combinatorial optimization / polytope theory): Hirsch (1957, 69 years
+  old) conjectured a $d$-dimensional polyhedron with $n$ facets has graph diameter at most $n-d$;
+  Santos (2010/2012, published in the Annals of Mathematics) disproved that exact bound, but left
+  open whether SOME polynomial in $n$ still bounds the diameter — the "polynomial Hirsch
+  conjecture," independently confirmed this session (via a July-2026 arXiv survey, Black–Xue,
+  "Any Proof of Polynomial Hirsch Must be Completely Incoherent") to remain "among the most
+  notorious and well studied problems in polyhedral theory," closely tied to simplex-method
+  complexity. This new OpenAI preprint constructs bounded simple rational polytopes with $n$ facets
+  whose graph diameter grows faster than every fixed power of $n$ (dimension growing only
+  $n^{o(1)}$) — a full disproof. Part of the already-tracked OpenAI mass-disclosure collection;
+  PROMOTED OUT to its own seed per the BATCH PRODUCERS rule (same pattern as the already-promoted
+  matrix-multiplication-exponent and Seymour's-SNC trends), since this result clears the landmark
+  bar (long-standing AND celebrated) on its own merits. MAXIMUM hype-skepticism caution: 2 days old,
+  wholly AI-generated, unrefereed, zero independent engagement found this session beyond the HN
+  front-page attention signal.
+- evidence:
+  - 2026-11-24 — https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf
+    — OpenAI, "Superpolynomial graph diameter of simple polytopes": Theorem 1.1, for every
+    $s(n)=n^{o(1)}$ a family of bounded simple rational polytopes with $n$ facets, dimension
+    $n^{o(1)}$, and $s$-move diameter $n^{\omega(1)}$; taking $s(n)=1$ disproves the polynomial
+    Hirsch conjecture. PDF opened directly via `raw.githubusercontent.com` and read (`pdftotext`)
+    this session.
+- notes: 2026-11-26 (daily, seed creation): caught via Hacker News front page ("The polynomial
+  Hirsch conjecture is false," 144 points). Same openai/math disclosure channel and Nov-24 release
+  cluster as the already-tracked matrix-multiplication-exponent and VP≠VNP trends. Gil Kalai (a
+  leading voice on Hirsch-conjecture-adjacent convexity/combinatorics) has posted nothing on this
+  per his feed checked today — chase his blog specifically next session, along with any
+  polytope-theory specialist reaction.
+
+### Google Cogentic's unconditional classical algorithms for integer factorization and discrete logarithm
+- stage: seed | confidence: low | first_seen: 2026-11-26 | last_evidence: 2026-11-25
+- what: axis-1/5 LANDMARK CLAIM (algorithmic/computational number theory): a FOURTH AI-lab
+  math-disclosure channel (after OpenAI, Anthropic, Epoch AI) — Google Research/DeepMind's
+  "Cogentic" multi-agent theorem-proving orchestrator (arXiv:2609.40324, 2026-09-30) — released a
+  same-day (2026-11-25) six-paper batch including two companion unconditional classical algorithms:
+  (a) integer factorization in time $L_N[1/3,O(1)]$, closing the 34-year-old (1992) gap between
+  Lenstra–Pomerance's rigorous $L_N[1/2,1]$ bound and the heuristic General Number Field Sieve's
+  conjectural $1/3$ exponent — now proved WITHOUT unproven number-theoretic hypotheses (every prime
+  factor certified via AKS primality testing); (b) discrete logarithms in finite fields of fixed
+  characteristic in sub-quasi-polynomial time, improving unconditionally on Kleinjung–Wesolowski
+  (2022)/Lido (2026)'s quasi-polynomial algorithms. Integer factorization is among the most famous
+  problems in computational number theory (the basis of RSA); both results, if correct, close
+  long-standing, celebrated gaps between heuristic and unconditional bounds. MAXIMUM
+  hype-skepticism caution: brand-new disclosure channel (first sighting this ledger), wholly
+  AI-generated (a multi-agent system, not a named human author), unrefereed, zero independent
+  engagement found this session. SOURCE-DISCOVERY: staging
+  `github.com/google-research/google-research` (the `cogentic_research_papers` directory) as a new
+  AI-watch-lane candidate — see `SOURCES.md`.
+- evidence:
+  - 2026-11-25 — https://github.com/google-research/google-research/blob/master/cogentic_research_papers/integer_factorization/paper.pdf
+    — Cogentic, "Unconditional Integer Factorization in Time $L_N[1/3,O(1)]$": Las Vegas algorithm,
+    worst-case expected time $L_N[1/3,105]$, workspace $L_N[1/3,40]$, explicit finite constants,
+    "relies on no unproven hypotheses." PDF opened directly (`raw.githubusercontent.com`/`pdftotext`)
+    this session.
+  - 2026-11-25 — https://github.com/google-research/google-research/blob/master/cogentic_research_papers/discrete_logarithm/paper.pdf
+    — Cogentic, "Discrete Logarithms in Finite Fields of Fixed Characteristic in Sub-Quasi-Polynomial
+    Time": unconditional Las Vegas algorithm, worst-case expected time $(pn)^{o(\log n)}$,
+    improving on Kleinjung–Wesolowski (2022) and Lido (2026)'s quasi-polynomial bounds. PDF opened
+    directly this session.
+- notes: 2026-11-26 (daily, seed creation): caught via Hacker News front page ("Google releases
+  Cogentic papers on integer factorization, discrete logs and more," 473 points). Four further
+  companion results in the same Nov-25 batch (a log-rank-conjecture exponent improvement, edge
+  reconstruction, bimatrix Nash, plus two Nov-18/23 items on prophet inequalities/fictitious play)
+  queued separately below the landmark bar — see `observation_queue`; triaged per the BATCH
+  PRODUCERS rule (5-item cap on individual triage, most significant first — these two factoring/
+  dlog results chosen as by far the most significant). Chase next session: any independent
+  cryptography/computational-number-theory community reaction to the factoring claim specifically
+  (the most consequential of the two if correct — it would be new, citable progress on a question
+  of direct relevance to RSA's security foundations).
+
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-25 — Cogentic (Google Research/DeepMind), "Breaking the Square-Root Barrier for the
+  Log-Rank Conjecture" — https://github.com/google-research/google-research/blob/master/cogentic_research_papers/logrank_conjecture/paper.pdf
+  — PARTIAL progress toward the Log-Rank Conjecture of Lovász–Saks (1988, 38 years old, a leading
+  open problem in communication complexity): improves the deterministic-communication-complexity
+  exponent from Lovett's (2016) $O(\sqrt r\log r)$ and Sudakov–Tomon's (2023) $O(\sqrt r)$ to
+  $O(r^{1/2-\varepsilon})$, $\varepsilon=5\times10^{-6}$ — a genuine but small polynomial
+  improvement, not a resolution (the conjecture itself predicts $\mathrm{polylog}(r)$). Same
+  Nov-25 Cogentic batch as the new factoring/discrete-log seed trend above. PDF opened directly
+  this session.
+- 2026-11-25 — Cogentic, four further same-batch items, each below the landmark bar, triaged by
+  title/abstract only (BATCH PRODUCERS cap): "An Exact Polynomial-Time Algorithm for 1/5-Approximate
+  Nash Equilibria in Bimatrix Games"; "Unconditional Edge Reconstruction of Simple Graphs of Linear
+  Density"; "Nearly Tight $O(\log\log\log m)$ Prophet Inequalities for Subadditive Combinatorial
+  Auctions" (2026-11-23); "Polynomial Dimension Dependence for Fictitious Play Convergence"
+  (2026-11-23) — https://github.com/google-research/google-research/tree/master/cogentic_research_papers
+  — game-theory/algorithms results, axis-1-adjacent but narrow-specialist, none a named
+  long-standing conjecture resolution.
+- 2026-11-26 — Gravitational collapse to extremal Schwarzschild-de Sitter black holes with
+  $\Lambda>0$: counterexamples to the third law of black-hole thermodynamics without charge —
+  https://arxiv.org/abs/2611.34542 — constructs regular Einstein-scalar-field Cauchy data forming
+  an EXACTLY extremal black hole (or white hole/Nariai solution) in finite time, for any scalar
+  mass including zero — a notable mathematical-GR result on black-hole third-law violations.
+  Axis 2 (gr-qc/hep-th/math-ph cross-listed). Abstract verified via today's arXiv RSS title-triage
+  sweep; chase next session for any independent commentary (this is a specialist but genuinely
+  new result, not yet assessed against the landmark bar).
+- 2026-11-26 — Non-Perturbative Resolution of Luttinger's Theorem Violations in Strongly Correlated
+  Systems — https://arxiv.org/abs/2611.07933 — resolves a known paradox (apparent violations of
+  Luttinger's theorem, which relates electron number to the Luttinger count, in strongly correlated
+  systems) by showing the mismatch is a pure zero-frequency boundary term the conventional proof
+  implicitly drops. Axis 3 (cond-mat.str-el), physics-axis item (flagging per the W46
+  physics-crowding-out concern). Abstract verified via today's arXiv RSS title-triage sweep.
+- 2026-11-26 — The Transverse Finiteness Conjecture for pseudo-Anosov flows via universal circles
+  — https://arxiv.org/abs/2611.33320 — proves Mosher's 1996 conjecture (30 years old): every taut,
+  finite-depth foliation of an atoroidal 3-manifold is almost transverse to only finitely many
+  pseudo-Anosov flows up to orbit equivalence, plus a companion rigidity result. Narrow specialist
+  (3-manifold topology/foliation theory) — no outside-fame signal found this session, held below
+  the landmark bar pending any wider engagement. Axis 1. Abstract verified via today's arXiv RSS
+  title-triage sweep.
+- 2026-11-26 — A proof of Nakamura's conjecture — https://arxiv.org/abs/2611.19558 — proves
+  Nakamura's conjecture on the relation between the 2D Toda model and solutions of the Ernst
+  equation (general-relativistic integrable systems), building on the authors' own prior Pfaffian-
+  solutions work. Narrow specialist (axis 1/2 interface). Abstract verified via today's arXiv RSS
+  title-triage sweep.
+- 2026-11-26 — The Kalton–Peck space disproves Rubio de Francia's conjecture — https://arxiv.org/abs/2611.33556
+  — disproves Rubio de Francia's conjecture on intermediate UMD Banach spaces by showing the
+  classical complex Kalton–Peck space is not isomorphic to any complex interpolation space between
+  a UMD space and a Hilbert space. Narrow specialist (functional analysis/interpolation theory).
+  Axis 1. Abstract verified via today's arXiv RSS title-triage sweep.
+- 2026-11-26 — A proof of the Nevo-Peeva conjecture: Exact regularity and linear powers of gap-free
+  edge ideals — https://arxiv.org/abs/2611.33501 — settles both open problems of Nevo and Peeva on
+  the regularity of powers of edge ideals for gap-free graphs. Narrow specialist (commutative
+  algebra). Axis 1. Abstract verified via today's arXiv RSS title-triage sweep.
+- 2026-11-26 — Bolognesi's Conjecture for Nonnegative-Charge Iterated Magnetic Bags —
+  https://arxiv.org/abs/2611.34557 — proves Bolognesi's magnetic-bag conjecture (Bogomolny
+  monopoles) for iterated magnetic bags with nonnegative charge density. Narrow specialist
+  (math-ph/gauge theory). Axis 2. Abstract verified via today's arXiv RSS title-triage sweep.
 - 2026-11-23 — Wei-Chun Chen, Wei-Ting Kao, Chun-Kai Lien, "Generic Strong Regularity and the
   Branson-Gover Conjecture" — https://arxiv.org/abs/2611.30498 — proves a generic-open-dense-set
   (not fully general) case of the Branson-Gover-Canzani conjecture on conformal-GJMS-operator
@@ -4001,6 +4241,14 @@ Signals not yet promoted to a trend. Format: `date — description — link if a
   the AI-assisted proofatlas.ai Sendov-conjecture claim (2026-08-05) as an independent, differently-
   motivated (control-theoretic) technique in the same territory, not a resolution of the full
   conjecture itself. Abstract + author verified via direct arXiv page fetch this session.
+- 2026-11-26 — Teng Zhang, "When $D$-companion matrix meets Sendov's conjecture" —
+  https://hexagonmath.org/2611.01092v1 — a THIRD independent proof in the same already-tracked
+  Sendov-conjecture circle (after Mazur's AI-assisted original and Tomov's reciprocal-matrix
+  paper above): removes the computer-assisted-verification step from Tao's own simplified proof
+  by treating two parameter ranges separately, replacing finite verification with uniform
+  analytic estimates. Opened directly via hexagonmath's `/rss/all` feed this session. Strengthens
+  (does not change the stage of) the existing `study_shelf` Sendov item's vetting signal —
+  independent human engagement now spans three distinct techniques.
 - 2026-11-18 — Vals AI blog, "GPT-6.2 Astra Formalizes Smoktunowicz's Gap Theorem" —
   https://vals.ai/blogs — AI-watch-lane item (axis 5), a Lean formalization of a named theorem by a
   third-party AI-benchmarking firm, same pattern as this source's already-tracked Thomson-problem
@@ -5592,6 +5840,19 @@ TRENDS.md. Curator scope input and vetoes also live there.
 Single strong items worth knowing, newest first (format: `date — [name](url) — one line of
 why`). The trend bar does NOT apply here; opened primary sources only.
 
+- 2026-11-26 (shelf-added; event dated 2026-11-25) — [Unconditional Integer Factorization in Time L_N[1/3, O(1)]](https://github.com/google-research/google-research/blob/master/cogentic_research_papers/integer_factorization/paper.pdf) —
+  Google Cogentic's claimed removal of all unproven-hypothesis reliance from the fastest known
+  rigorous classical factoring bound, closing a 34-year gap (Lenstra–Pomerance 1992) and matching
+  the heuristic NFS exponent unconditionally — directly relevant to RSA's security foundations if
+  correct. MAXIMUM caution: hours old, wholly AI-generated (a new, first-sighted disclosure
+  channel), unrefereed, zero independent engagement yet. See the matching new seed trend above.
+- 2026-11-26 (shelf-added; event dated 2026-08-19/2026-10-25) — [A simple construction of smooth counterexamples to the Loewner and Carathéodory conjectures](https://arxiv.org/abs/2610.34036) —
+  an explicit, AI-assisted (Alpöge/Smith, Anthropic's Claude) disproof of the 102-year-old
+  Carathéodory conjecture and the Loewner conjecture — the last of Osserman's "three obdurate
+  conjectures of differential geometry" still open — with an independent, simpler confirming
+  construction by Ando–Umehara. A genuine ~99-day capture-leak catch; note the standing
+  Guilfoyle–Klingenberg counter-claim (a different regularity class) tracked alongside it. See the
+  matching new seed trend above.
 - 2026-11-25 (shelf-added; event dated 2026-11-24) — [The matrix multiplication exponent is nine fourths](https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf) —
   OpenAI's claimed exact resolution of the matrix-multiplication exponent ($\omega=9/4$), via a new
   lower bound matching its own already-known upper bound — a surprising REFUTATION of the long-hoped

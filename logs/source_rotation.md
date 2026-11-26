@@ -5689,3 +5689,92 @@ long-standing deliberate over-cap state per domain cadence — no burndown attem
 SOURCES.md: no new source-discovery candidates staged (today's finds all came through
 already-swept sources — github.com/openai, arXiv, Tao's/Kalai's blogs). README.md and SUMMARY.md
 regenerated in the same commit.
+
+## 2026-11-26 (daily, Pass 1, scheduled) — FULL CHECK. Shallow-clone check: repo WAS shallow this
+session — ran `git fetch --unshallow` before the orphaned-branch check (2026-W46 amendment); two
+stale `claude/*` remote branches found, both fully merged into `main` (0 commits ahead), no orphan
+recovery needed. Previous-run completion check: 2026-11-23/24/25 daily reports all present with
+`Axes:` blocks; no incomplete runs found. Tooling: `tvly` absent at session start, reinstalled via
+`pip install -q tavily-cli`, but the account's plan usage limit is exhausted this session (same
+standing exhaustion as prior sessions) — all web access this session via direct `curl`/arXiv
+API/GitHub raw + built-in `WebFetch`/`WebSearch`.
+Primary sweep (radar-source-sweep): full 35-category arXiv RSS sweep (20 math: CO/NT/AG/AC/RA/KT/
+AT/GT/DG/SG/AP/FA/CA/CV/OA/OC/LO/DS/PR/RT + 15 physics: hep-th/hep-ph/hep-ex/hep-lat/gr-qc/
+quant-ph/math-ph/cond-mat.str-el/mes-hall/supr-con/astro-ph.CO/HE/nucl-th/nucl-ex/nlin.SI — 1358
+items total, today's daily RSS batch), title-triaged against the standing conjecture/theorem/
+disprov/refut/counterexample/resolv/resolution/classif/proof/discover/settl keyword filter (87
+hits, each read in full via the RSS item's own abstract — no extra fetch needed). Amendment J
+full-abstract pass on math.AG (60 items, read in full — the Tate-conjecture-adjacent capture below
+surfaced via the keyword filter on math.NT, not this category's dedicated pass; math.AG itself
+yielded no additional title-blind catch beyond what the filter already found). CAPTURES: FOUR new
+seed trends from the arXiv/HN sweep (Yunhao Sun's Tate-conjecture-for-finite-fields claim;
+Tangli Ge's Zilber-Pink-for-tori claim via hexagonmath; OpenAI's polynomial-Hirsch-conjecture
+disproof via HN; Google Cogentic's unconditional factoring/discrete-log via HN) plus ONE major
+CAPTURE-LEAK BACKFILL (Alpöge-Smith's Carathéodory/Loewner disproof, ~99 days stale, found via this
+category's own full-abstract read of Ando-Umehara's title-blind follow-up paper). SIX new
+observation_queue items (Cogentic log-rank/four-bundled; extremal-black-hole third-law
+counterexample; Luttinger's-theorem resolution; Transverse Finiteness Conjecture; Nakamura's
+conjecture; Rubio de Francia disproof; Nevo-Peeva; Bolognesi's Conjecture — see TRENDS.md). ONE
+evidence addition to an existing trend (GRH: a second, derivative Lean-formalization repo,
+github.com/lsernau/grh-lean) and one strengthening note (Sendov's conjecture: a third independent
+proof, Teng Zhang via hexagonmath).
+DAILY-tier primary feeds opened (all routine, 0 further on-axis catch beyond the above): CERN
+Courier, Fermilab (DUNE-at-SURF follow-up, already-tracked facility), Simons, PRL/PRX/RMP, Quantum
+journal, IceCube, hexagonmath `/rss/all` (10 items — the Sendov/Zilber-Pink items above, rest
+routine), icarm.io/feed (unchanged from 11-25), mathhelm (listing opened, no new thread beyond
+already-tracked GRH/VP≠VNP discussion). SciPost API: clean JSON, no Anubis challenge, confirmed
+healthy. GitHub watch: direct `curl`/API on `<repo>/releases.atom` 403s under session GitHub-proxy-
+scoping (standing); `WebFetch` fallback used — lean4 unchanged at v4.37.0-rc1, Rocq unchanged at
+9.3.0, mathlib4 daily tag advanced to master-2026-11-25 (routine). AI-watch lane: openai.com/
+research (all model-release posts, no math/TCS disclosure beyond the already-tracked openai/math
+channel — which is where today's Hirsch-conjecture catch actually came from), anthropic.com/
+research (Nov-17 black-hole post re-confirmed unchanged, Nov-25 "Migrating Messages API to Rust"
+and other Nov posts all off-axis engineering/economics), agmai.org (unchanged since Oct-26),
+vals.ai/blogs (Smoktunowicz Gap Theorem item re-confirmed already captured, rest off-axis),
+axiommath.ai/research (6 November posts, all already on `study_shelf`/evidence, zero new), cims.
+nyu.edu (unchanged, already-tracked items only).
+Community pulse (radar-pulse): Hacker News front page (Algolia API) — THREE major catches this
+session (Cogentic factoring/dlog, 473 pts; GRH-Lean shorter-version, 371 pts; polynomial-Hirsch
+disproof, 144 pts) plus routine security/product noise correctly left uncaptured. MathOverflow
+`/feeds` returned empty this session (re-test next run, single occurrence, not yet heal-owed).
+Physics SE `/feeds` (curl -A Mozilla/5.0, 200) — routine homework-level questions, 0 catch.
+Mathstodon public timeline — generic fediverse noise (non-math-specific despite the endpoint
+name), 0 catch. r/math/r/mathematics/r/Physics family — standing domain-wide block, not re-tested
+(monthly cadence). Digest/explainer blogs, ALL opened directly this session: Tao (feed checked, no
+new post since the 11-24 "G.R.H. Polymath" post already tracked), Kalai (feed checked — "Fan
+Chang, Hong Liu, and Maio Liu Proved Chvátal's 1972 conjecture" is corroborating commentary on the
+ALREADY-tracked Chvátal trend, not new; "Algebraic complexity..." post likewise corroborates the
+already-tracked VP≠VNP/RH trends — neither captured as new), Woit (feed checked — "First Concrete
+Evidence for String Theory" was ALREADY checked and correctly left uncaptured on 2026-11-24, no
+change; "The Shepherds Release the Flock"/"Getting Access" not independently opened this session,
+titles suggest AI-governance commentary, not a primary result — flag to open next session if
+recurring), Gowers/Strassler/Baez/Hossenfelder (not independently re-opened this session, folded
+into the HN/arXiv chase instead — flag as owed). SOURCES.md: staged ONE new source-discovery
+candidate, github.com/google-research/google-research's `cogentic_research_papers` directory (1
+sighting; Amendment M index check done same session — the README itself is the index, listing all
+papers with dates).
+Repo/release & watch (radar-repo-watch): covered above under GitHub watch (lean4/mathlib4/Rocq);
+no notable fork-tree movement checked this session (triage-for-cost, flag as owed).
+Exploration slot (radar-explore, OFF-AXIS rotation): q-bio.PE (population biology/epidemiology; not
+recently used, continuing the roster) — 9 most-recent entries scanned regardless of sub-topic
+(extinction dynamics, meiosis, vector ecology, population-dynamics modeling throughout) — off-axis
+rate 0 this run (non-alarm per AGENTS.md domain cadence; roster continues, next: math.OA/math.LO
+repeat or econ/q-fin variant not yet tried this cycle).
+Self-heals: none owed beyond the routine `tvly` reinstall (quota remains exhausted, not a fix,
+logged as standing). DORMANCY PROBE: not run this daily (see trend notes) — Stanley-Gasharov
+(`dormant`) is now at or past the 120-day archive line (~2026-11-26); this is the WEEKLY's (W48)
+task, flagged again here so it is not missed a second time.
+Trend recalibration (radar-ledger-update): FOUR new seed trends + ONE capture-leak-backfill seed
+trend (five total) + six new `observation_queue` items + one evidence append (GRH) + one
+strengthening note (Sendov's conjecture) + two new `study_shelf` items (Cogentic factoring;
+Carathéodory/Loewner backfill). capture-leak: 11 newly-captured ids spot-checked against their
+evidence/queue/study_shelf lines this session (2610.34036, 1207.5994, 2611.28178, 2611.01093,
+2611.34542, 2611.07933, 2611.33320, 2611.19558, 2611.33556, 2611.33501, 2611.34557) — all 11
+present, 0 missing; a full mechanical re-run of yesterday's 498-id script-assisted sweep was NOT
+repeated this session (triage-for-cost; yesterday's sweep found only 1 genuine leak out of ~30
+flags, already closed) — flag for the weekly to decide whether a periodic full re-run (vs.
+per-session spot-checks of only the day's new ids) is the right cadence going forward.
+`observation_queue` now ~262 items (soft cap ~40, long-standing deliberate over-cap state per
+domain cadence — no burndown attempted). Convergence check: not run as a dedicated full re-scan
+this session (now 4 sessions running without one — flag as increasingly owed for the weekly).
+README.md and SUMMARY.md regenerated in the same commit.

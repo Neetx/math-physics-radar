@@ -640,6 +640,17 @@ new staged candidate), same as `/research/publications` and `/research/blog`; ve
   first seen 2026-11-24 — open directly next session and complete the Amendment M index check
   before any further staging action; all three are plausible community-verification signals for
   the ongoing GRH story.
+- github.com/google-research/google-research (`cogentic_research_papers` directory) — 1 — a
+  same-day six-paper batch (2026-11-25: unconditional integer factorization, discrete logarithm,
+  log-rank-conjecture improvement, edge reconstruction, bimatrix Nash, plus two earlier Oct30/
+  Nov18/23 game-theory items) produced by "Cogentic," Google Research/DeepMind's multi-agent
+  theorem-proving orchestrator (arXiv:2609.40324) — first seen 2026-11-26 — a FOURTH AI-lab
+  math-disclosure channel (after OpenAI/Anthropic/Epoch AI), same self-publication-disclosure
+  pattern as `github.com/openai`/`github.com/anthropics`. Verified live via `WebFetch` on the
+  directory README this session (lists all papers with dates/links); Amendment M index check done
+  same session (the README IS the index — no separate "what's new" page to open). HELD below the
+  ≥2-sighting bar (1 sighting, today); no feed, access via direct
+  `raw.githubusercontent.com/google-research/google-research/master/cogentic_research_papers/<dir>/paper.pdf`.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
