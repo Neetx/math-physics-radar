@@ -1,14 +1,13 @@
 # Math-Physics Radar
 
-![trends](https://img.shields.io/badge/trends-80-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-261-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--26-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-80-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-266-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--27-2f9e44?style=flat-square)
 
 Frontier research in **mathematics and modern & quantum physics** — theorems and resolved conjectures, discoveries and anomalies, and the math↔physics frontier — from primary sources (arXiv, journals, CERN/LIGO/Fermilab, and the major math & physics institutes), for a mathematically-literate researcher. Generated from [TRENDS.md](TRENDS.md), the ledger of record — click a trend for its full evidence.
 
-**Since last scan (2026-11-26):** five new landmark claims in one day — a ~99-day capture-leak backfill (a 102-year-old conjecture disproven) and a fourth AI lab entering the math-disclosure lane.
-- [Alpöge–Smith's disproof of the Loewner and Carathéodory conjectures](TRENDS.md#alpgesmiths-ai-assisted-disproof-of-the-loewner-and-carathodory-conjectures-capture-leak-backfill) — a ~99-day capture-leak catch: an explicit AI-assisted counterexample to the 102-year-old Carathéodory conjecture (one of Osserman's "three obdurate conjectures of differential geometry"), with an [independent confirming construction](https://arxiv.org/abs/2610.34036) by Ando–Umehara.
-- New seed trend: [Google Cogentic's unconditional factoring/discrete-log algorithms](TRENDS.md#google-cogentics-unconditional-classical-algorithms-for-integer-factorization-and-discrete-logarithm) — a FOURTH AI lab (after OpenAI/Anthropic/Epoch AI) claims to [close the 34-year gap](https://github.com/google-research/google-research/blob/master/cogentic_research_papers/integer_factorization/paper.pdf) between the rigorous and heuristic factoring-algorithm exponents. MAXIMUM caution (hours old, unrefereed, new channel).
-- New seed trend: [OpenAI's claimed disproof of the polynomial Hirsch conjecture](TRENDS.md#openais-claimed-disproof-of-the-polynomial-hirsch-conjecture) — a [new construction](https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf) claims superpolynomial polytope-graph diameter, settling the 69-year-old open problem.
-- Two further unrefereed single-author claims, flagged MAXIMUM caution: [the Tate conjecture for finite fields](TRENDS.md#yunhao-suns-claimed-resolution-of-the-tate-conjecture-for-finite-fields-positive-characteristic-unrefereed) and [the Zilber–Pink conjecture for algebraic tori](TRENDS.md#tangli-ges-claimed-resolution-of-the-zilberpink-conjecture-for-algebraic-tori-hexagonmath-unrefereed).
+**Since last scan (2026-11-27):** a quiet arXiv day (a US Thanksgiving-holiday announcement pause) — today's news is a vetting-process update on an already-tracked claim, not a new trend.
+- Major update: [OpenAI's Yang–Mills claim](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) — the shepherding committee's [4th statement](https://www.kitp.ucsb.edu/sites/default/files/4th-Statement-About-Quantum-YangMills-Theory_Nov-25.pdf) discloses a correctness defect fixed on the first submission, and releases the QCD/"Standard Model completion" material unassessed; Peter Woit calls the SM-completion claim [simply fraudulent](https://www.math.columbia.edu/~woit/wordpress/?p=16018).
+- New to the watchlist: [Turán's Hermite strip problem (1967)](https://hexagonmath.org/2611.01106v1) resolved and [Kouchnirenko's 1975 conjecture](https://hexagonmath.org/2611.01126v1) disproven — two hexagonmath claims, both below the landmark bar pending independent engagement.
+- Capture-leak fixes: a third [Google Cogentic factoring paper](https://github.com/google-research/google-research/blob/master/cogentic_research_papers/deterministic_factoring_l34/paper.pdf) added as evidence; Tao's blog hosted a [guest-post exposition](https://terrytao.wordpress.com/2026/11/23/finite-time-singularity-formation-for-the-three-dimensional-euler-equations/) of the Euler-blowup paper by its own co-author.
 
 ## Trends
 
@@ -23,6 +22,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [A candidate nonperturbative lattice definition of the Standard Model (Craig, chiral fermions)](TRENDS.md#a-candidate-nonperturbative-lattice-definition-of-the-standard-model-craig-chiral-fermions) | 📈 emerging | [2026-11-03](https://arxiv.org/abs/2611.05051) |
 | [Yunhao Sun's claimed resolution of the Tate conjecture for finite fields (positive characteristic, unrefereed)](TRENDS.md#yunhao-suns-claimed-resolution-of-the-tate-conjecture-for-finite-fields-positive-characteristic-unrefereed) | 🌱 seed | [2026-11-26](https://arxiv.org/abs/2611.28178) |
 | [Tangli Ge's claimed resolution of the Zilber–Pink conjecture for algebraic tori (hexagonmath, unrefereed)](TRENDS.md#tangli-ges-claimed-resolution-of-the-zilberpink-conjecture-for-algebraic-tori-hexagonmath-unrefereed) | 🌱 seed | [2026-11-26](https://hexagonmath.org/2611.01093v1) |
+| [OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-11-25](https://www.kitp.ucsb.edu/sites/default/files/4th-Statement-About-Quantum-YangMills-Theory_Nov-25.pdf) |
 | [Alpöge's claimed Lean-formalized proof of the Riemann Hypothesis and GRH for Dirichlet L-functions (Claude-assisted)](TRENDS.md#alpges-claimed-lean-formalized-proof-of-the-riemann-hypothesis-and-grh-for-dirichlet-l-functions-claude-assisted) | 🌱 seed | [2026-11-25](https://alpo.ge/remark.pdf) |
 | [Alpöge–Smith's AI-assisted disproof of the Loewner and Carathéodory conjectures (capture-leak backfill)](TRENDS.md#alpgesmiths-ai-assisted-disproof-of-the-loewner-and-carathodory-conjectures-capture-leak-backfill) | 🌱 seed | [2026-11-25](https://arxiv.org/abs/2610.34036) |
 | [Google Cogentic's unconditional classical algorithms for integer factorization and discrete logarithm](TRENDS.md#google-cogentics-unconditional-classical-algorithms-for-integer-factorization-and-discrete-logarithm) | 🌱 seed | [2026-11-25](https://github.com/google-research/google-research/blob/master/cogentic_research_papers/integer_factorization/paper.pdf) |
@@ -32,16 +32,15 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Resolution of the Spielman-Teng conjecture on random sign matrices (He–Cheng, exact form)](TRENDS.md#resolution-of-the-spielman-teng-conjecture-on-random-sign-matrices-hecheng-exact-form) | 🌱 seed | [2026-11-24](https://arxiv.org/abs/2611.32090) |
 | [OpenAI's claimed disproof of the polynomial Hirsch conjecture](TRENDS.md#openais-claimed-disproof-of-the-polynomial-hirsch-conjecture) | 🌱 seed | [2026-11-24](https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf) |
 | [OpenAI's mass mathematical-results disclosure (github.com/openai/math, Oct 2026 — 722 manuscripts/372 result families)](TRENDS.md#openais-mass-mathematical-results-disclosure-githubcomopenaimath-oct-2026--722-manuscripts372-result-families) | 🌱 seed | [2026-11-23](https://openai.com/index/sharing-ai-progress-in-mathematics/) |
-| [Unforced finite-time blowup claimed for 3D incompressible Euler and Navier–Stokes (Alpöge–Buckmaster–Coiculescu; a direct Clay Millennium Problem claim)](TRENDS.md#unforced-finite-time-blowup-claimed-for-3d-incompressible-euler-and-navierstokes-alpgebuckmastercoiculescu-a-direct-clay-millennium-problem-claim) | 🌱 seed | [2026-11-20](https://cims.nyu.edu/~tristanb/cc.pdf) |
+| [Unforced finite-time blowup claimed for 3D incompressible Euler and Navier–Stokes (Alpöge–Buckmaster–Coiculescu; a direct Clay Millennium Problem claim)](TRENDS.md#unforced-finite-time-blowup-claimed-for-3d-incompressible-euler-and-navierstokes-alpgebuckmastercoiculescu-a-direct-clay-millennium-problem-claim) | 🌱 seed | [2026-11-23](https://terrytao.wordpress.com/2026/11/23/finite-time-singularity-formation-for-the-three-dimensional-euler-equations/) |
 | [Resolution of the Erdős–Nicolas–Sárközy conjecture (admissible-set counting)](TRENDS.md#resolution-of-the-erdsnicolassrkzy-conjecture-admissible-set-counting) | 🌱 seed | [2026-11-19](https://arxiv.org/abs/2610.34372) |
 | [Proof of Stanley's Conjecture on the Leading Ehrhart Coefficients of the Birkhoff Polytope](TRENDS.md#proof-of-stanleys-conjecture-on-the-leading-ehrhart-coefficients-of-the-birkhoff-polytope) | 🌱 seed | [2026-11-19](https://arxiv.org/abs/2611.25973) |
 | [Disproof of the El-Zahar–Erdős conjecture (bounded-clique chromatic bipartition)](TRENDS.md#disproof-of-the-el-zaharerds-conjecture-bounded-clique-chromatic-bipartition) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.24735) |
-| [A Counterexample to Voiculescu's Normal Dilation and Stable Classification Conjectures](TRENDS.md#a-counterexample-to-voiculescus-normal-dilation-and-stable-classification-conjectures) | 🌱 seed | [2026-11-18]() |
+| [A Counterexample to Voiculescu's Normal Dilation and Stable Classification Conjectures](TRENDS.md#a-counterexample-to-voiculescus-normal-dilation-and-stable-classification-conjectures) | 🌱 seed | [2026-11-18](https://arxiv.org/abs/2611.21495) |
 | [The sharp constant in the Erdős maximum-term problem (hexagonmath, AI-assisted)](TRENDS.md#the-sharp-constant-in-the-erds-maximum-term-problem-hexagonmath-ai-assisted) | 🌱 seed | [2026-11-18](https://hexagonmath.org/2611.00583v1) |
 | [Disproof of Guralnick's conjecture (unbounded cohomology of finite simple groups)](TRENDS.md#disproof-of-guralnicks-conjecture-unbounded-cohomology-of-finite-simple-groups) | 🌱 seed | [2026-11-17](https://arxiv.org/abs/2611.11677) |
 | [Complete Lean formalization of the Classification of Finite Simple Groups (CFSG, "the Enormous Theorem") — AxiomMath](TRENDS.md#complete-lean-formalization-of-the-classification-of-finite-simple-groups-cfsg-the-enormous-theorem--axiommath) | 🌱 seed | [2026-11-16](https://axiommath.ai/research/beyond-the-classification-what-the-cfsg-corpus-unlocks/) |
 | [Independent proof of the Kiessling–Altshuler–Yuzbashyan (KAY) conjecture (Eliashberg $T_c$ bound)](TRENDS.md#independent-proof-of-the-kiesslingaltshuleryuzbashyan-kay-conjecture-eliashberg-tc-bound) | 🌱 seed | [2026-11-16](https://arxiv.org/abs/2611.20496) |
-| [OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion](TRENDS.md#openais-claimed-proof-of-yangmills-existence-and-a-qcdstandard-model-completion) | 🌱 seed | [2026-11-15](https://hexagonmath.org/2611.00492v1) |
 | [Resolution of Erdős Problem 521 on real roots of random polynomials](TRENDS.md#resolution-of-erds-problem-521-on-real-roots-of-random-polynomials) | 🌱 seed | [2026-11-15](https://arxiv.org/abs/2611.16157) |
 | [Irrationality of ζ(5) (Fauzan; independently Lean-verified by Firsching)](TRENDS.md#irrationality-of-5-fauzan-independently-lean-verified-by-firsching) | 🌱 seed | [2026-11-12](https://zenodo.org/records/22826418) |
 | [Finiteness of planar central configurations for five bodies (Smale's sixth problem)](TRENDS.md#finiteness-of-planar-central-configurations-for-five-bodies-smales-sixth-problem) | 🌱 seed | [2026-11-12](https://hexagonmath.org/2611.00377v1) |
@@ -92,7 +91,7 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 | [Disproof of the Erdős unit-distance conjecture (OpenAI model, human-verified by Alon et al.)](TRENDS.md#disproof-of-the-erds-unit-distance-conjecture-openai-model-human-verified-by-alon-et-al) | 🌱 seed | [2026-05-20](https://arxiv.org/abs/2605.20695) |
 | [Resolution of Graham's rearrangement conjecture (additive combinatorics)](TRENDS.md#resolution-of-grahams-rearrangement-conjecture-additive-combinatorics) | 🌱 seed | [2026-02-17](https://arxiv.org/abs/2602.15797) |
 | [Resolution of Sarnak's positive trace gap conjecture (hyperbolic lattices)](TRENDS.md#resolution-of-sarnaks-positive-trace-gap-conjecture-hyperbolic-lattices) | 💤 dormant | [2026-09-25](https://arxiv.org/abs/2609.29033) |
-| [Proof of the Cassels–Swinnerton-Dyer conjecture for smooth cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 💤 dormant | [2026-09-25]() |
+| [Proof of the Cassels–Swinnerton-Dyer conjecture for smooth cubic surfaces](TRENDS.md#proof-of-the-casselsswinnerton-dyer-conjecture-for-smooth-cubic-surfaces) | 💤 dormant | [2026-09-25](https://arxiv.org/abs/2609.15930) |
 | [Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)](TRENDS.md#sharpening-the-exponent-in-martons-conjecture--polynomial-freiman-ruzsa-additive-combinatorics) | 💤 dormant | [2026-09-15](https://arxiv.org/abs/2404.02244) |
 | [First evidence that X(2370) is dominantly a glueball (BESIII Collaboration)](TRENDS.md#first-evidence-that-x2370-is-dominantly-a-glueball-besiii-collaboration) | 💤 dormant | [2026-09-01](https://arxiv.org/abs/2609.01342) |
 | [Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)](TRENDS.md#refutations-of-the-stanley-gasharov-claw-free-schur-positivity-conjecture-algebraic-combinatorics) | 💤 dormant | [2026-07-29](https://arxiv.org/abs/2607.26364) |
@@ -919,20 +918,16 @@ Frontier research in **mathematics and modern & quantum physics** — theorems a
 
 ## Community pulse
 
-- Hacker News front page carried three major catches independently this session — Google
-  Cogentic's factoring/discrete-log release, a shorter GRH Lean re-formalization, and the
-  polynomial-Hirsch-conjecture disproof.
-- [Gil Kalai's blog](https://gilkalai.wordpress.com/) corroborated the already-tracked Chvátal's-
-  conjecture and VP≠VNP/RH stories; no new primary beyond what the dailies already track.
-- [Peter Woit's blog](https://www.math.columbia.edu/~woit/wordpress/) posted new entries
-  ("The Shepherds Release the Flock," "Getting Access") not yet independently opened — flagged
-  for next session; his skeptical "First Concrete Evidence for String Theory" post remains
-  correctly uncaptured (no primary source, dismissed by Woit himself as hype).
-- MathOverflow, Physics SE and Mathstodon were routine this session — no uncaptured primary
-  surfaced beyond what the arXiv/HN sweeps already tracked.
+- Hacker News carried a Thanksgiving-holiday front page this session — no on-axis story beyond
+  what the direct source checks above already captured.
+- [Peter Woit's blog](https://www.math.columbia.edu/~woit/wordpress/) posted two new entries on
+  the Yang–Mills vetting story (already captured as trend evidence above).
+- [Terence Tao's blog](https://terrytao.wordpress.com/) hosted a guest-post exposition of the
+  Euler-blowup paper, written by its own co-author (already captured above).
+- MathOverflow and Physics SE were routine this session — no uncaptured primary surfaced.
 - Reddit's own feeds (r/math, r/mathematics, r/Physics, r/cosmology, r/ParticlePhysics,
   r/AskPhysics) remain hard-blocked domain-wide on direct fetch, a long-standing issue.
 
 ## Output map
 
-[TRENDS.md](TRENDS.md) (ledger of record) · [watchlist (261 items)](TRENDS.md#observation_queue) · [reports/](reports/) (newest: [2026-11-26](reports/2026-11-26.md)) · weekly: [2026-W47](reports/weekly/2026-W47.md) · [AGENTS.md](AGENTS.md) (operating rules) · [SOURCES.md](SOURCES.md) (source registry)
+[TRENDS.md](TRENDS.md) (ledger of record) · [watchlist (266 items)](TRENDS.md#observation_queue) · [reports/](reports/) (newest: [2026-11-27](reports/2026-11-27.md)) · weekly: [2026-W47](reports/weekly/2026-W47.md) · [AGENTS.md](AGENTS.md) (operating rules) · [SOURCES.md](SOURCES.md) (source registry)

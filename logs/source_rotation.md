@@ -5778,3 +5778,105 @@ per-session spot-checks of only the day's new ids) is the right cadence going fo
 domain cadence — no burndown attempted). Convergence check: not run as a dedicated full re-scan
 this session (now 4 sessions running without one — flag as increasingly owed for the weekly).
 README.md and SUMMARY.md regenerated in the same commit.
+
+## 2026-11-27 (daily) — FULL CHECK. Shallow-clone check: repo WAS shallow this session — ran
+`git fetch --unshallow` before the orphaned-branch check (2026-W46 amendment); two stale
+`claude/*` remote branches found, both merge-based to commits already ancestors of `main`'s own
+history (32ce678/5db2504, both from W30/W32-era), no orphan recovery needed. Previous-run
+completion check: 2026-11-23/24/25/26 daily reports all present with `Axes:` blocks; no incomplete
+runs found. Tooling: `tvly` reinstalled via `pip install -q tavily-cli` but the account's plan
+usage limit remains exhausted (standing since prior sessions) — all web access via direct
+`curl`/arXiv API/GitHub raw + `WebFetch`/`WebSearch`.
+Primary sweep (radar-source-sweep): full 35-category arXiv API batch (20 math + 15 physics
+categories) checked for submissions since 2026-11-26 — ZERO fresh entries in EVERY category
+(confirmed via direct spot-checks on math.NT/math.CO/hep-th/cond-mat.str-el/astro-ph.CO: the
+newest dated submission anywhere on arXiv is 2026-11-25 ~18:59 UTC) — a full arXiv-wide
+announcement pause on 2026-11-26 (US Thanksgiving holiday), not a access failure; domain-cadence
+EXPECTED quiet (AGENTS.md: weekend/holiday arXiv gaps). Amendment J full-abstract pass not run
+separately this session (moot — no fresh batch existed to read). DAILY-tier non-arXiv primary
+feeds opened (all routine/0 on-axis catch): CERN Courier, Fermilab (DUNE follow-ups, already
+tracked), Simons (off-axis), IceCube category feed, PRL/PRX/RMP, SciPost (API HEALED — clean JSON
+via plain `curl`, no Anubis challenge, first clean read since the 11-23/11-24 heal-owed block —
+top item routine N=4 SYM paper, 0 catch), INSPIRE-HEP (routine/low-signal this batch). Quantum
+journal feed: HTTP 000 (connection failure) this session — single-session transient, not yet
+heal-owed, re-test next session. Nature Physics: standing empty-CDATA-title degradation persists
+(not re-worked around this session, low-priority given 0 fresh arXiv activity elsewhere today).
+AI-watch lane: hexagonmath `/rss/all` — 50-item batch, ALL dated 2026-11-26 (AFTER yesterday's
+06:02 UTC commit, so genuinely new) — five items triaged and queued (see TRENDS.md:
+observation_queue — Turán's Hermite strip problem; Kouchnirenko's conjecture disproof + the same
+submitter's sum-of-square-roots paper, concentration-flagged; Linckelmann's conjecture proof;
+Greta Panova's #P-completeness result); remaining ~45 items title-triaged, below-bar/niche, not
+individually queued (border-rank/Waring-rank papers, Dirichlet-series boundary papers, a
+Riemann-hypothesis-adjacent methodology essay not a new result, routine). icarm.io/feed: unchanged
+(same 10 items as prior sessions), 0 new. axiommath.ai/research (`WebFetch`): 6 November posts, ALL
+already tracked (Minimal Model Program, CFSG corpus, Faltings, Cluster Algebras, Weil, Stacks
+Project) — 0 new. vals.ai/blogs (`WebFetch`): 37 posts, newest Nov-24 ("AI chatbots..." teen-safety,
+off-axis); the Nov-18 Smoktunowicz Gap Theorem item already queued (2026-11-25) — 0 new. mathhelm.org:
+`WebFetch` 403'd this session (plain `curl` got 200 in a prior session but text-extraction attempts
+here came back empty — not independently re-verified, flag for next session). openai.com/research
+(`WebFetch`): routine product-release posts only (GPT-6.2, image-gen, voice), no new math/TCS
+disclosure beyond the already-tracked `github.com/openai/math`/Cogentic-adjacent items. anthropic.com/
+research (`WebFetch`): newest "Migrating our Messages API to Rust" (Nov 25, engineering, off-axis);
+the Nov-17 black-hole-physics post remains the latest on-axis item, already tracked — 0 new.
+GitHub watch: lean4 unchanged (v4.37.0-rc1, 11-18), Rocq unchanged (9.3.0, 10-01), mathlib4
+continuing daily `master-YYYY-MM-DD` auto-tag (latest master-2026-11-26) — all via `WebFetch` on
+`.atom` (direct curl session-proxy-403s as usual). `github.com/google-research/google-research`
+(Cogentic directory): re-opened the README — same 10-paper list as yesterday, but found a
+CAPTURE-LEAK from yesterday's batch (the "Unconditional Deterministic Subexponential Integer
+Factoring and Quadratic Nonresidue Construction" companion paper, missed under the 5-item
+individual-triage cap) — folded into the existing Cogentic factoring trend as a 3rd evidence line.
+TOP STORY: Peter Woit's "The Shepherds Release the Flock" (2026-11-25, opened directly) reports
+the Yang-Mills shepherding committee's 4th statement (KITP-hosted PDF, opened+read via `pdftotext`
+this session): a concrete correctness/attribution defect disclosed on the FIRST (pure-YM)
+submission, and the QCD/SU(5)-chiral-gauge ("Standard Model completion") material released as
+explicitly UNASSESSED. Woit calls the Standard-Model-completion claim "simply fraudulent" (no
+Higgs field, no SSB) and finds the QCD material shows none of the expected physics. Companion post
+"Getting Access" (Nov 18, also opened directly this session — closing a 2-session-old flagged
+item) reports a secretive "Alignment Institute for Fundamental Science" has formed among US
+QG/QFT theorists with privileged frontier-lab access. Major evidence/note update to the existing
+OpenAI Yang-Mills trend (see TRENDS.md). SOURCES.md capture-leak fix: `github.com/yang-mills-group`
+had been used as a primary-artifact source across 2 sessions (11-16, today) without ever being
+staged — staged now, clears the ≥2-sighting bar, flagged for the weekly to promote.
+SECOND STORY: Terence Tao's blog (feed checked) hosted a guest-post exposition of the
+Alpöge-Buckmaster-Coiculescu unforced-Euler-blowup paper, written by co-author Matei Coiculescu
+himself (2026-11-23) — visibility amplification, not independent verification; folded into that
+trend's notes, last_evidence advanced.
+Community pulse (radar-pulse): Hacker News front page (Algolia API) — Thanksgiving-holiday front
+page (no on-axis story beyond what's already captured via direct source checks above).
+MathOverflow `/feeds` (curl, 200) — routine questions, 0 catch. Physics SE `/feeds` (curl, 200) —
+routine homework-level questions, 0 catch. Mathstodon public timeline — not independently
+re-checked this session (triage-for-cost given the day's other priorities; flag as owed).
+r/math/r/mathematics/r/Physics family — standing domain-wide block, not re-tested (monthly
+cadence). Digest/explainer blogs (DAILY tier), ALL opened/feed-checked directly this session: Tao
+(NEW: the Coiculescu guest-post, see above), Kalai (feed checked, no new post since the 11-24 VP≠VNP
+post already tracked), Woit (TWO new posts opened in full, see Top Story), Gowers (stale since
+10-16, not re-tested), Baez (feed checked — "Finite Groups with Order a Power of Two," 2026-11-24,
+title-triaged only, reads as an expository puzzle post not a new result; not independently opened
+in full this session, flag to open if it recurs), Strassler (stale since 10-30, not re-tested),
+Hossenfelder (feed checked — two new posts since 11-24, "A New Plan to Save Physics" and "The Rise
+of the Scientific Underground," both likely commentary on the same Yang-Mills-access story Woit
+covers; not independently opened in full this session — flag to open next session if they add new
+primary content beyond Woit's). n-Category Café — still on its monthly-downgrade cadence, not
+re-tested.
+Exploration slot (radar-explore, OFF-AXIS rotation, roster continuing from q-bio.PE 11-26): picked
+econ.TH — genuinely off-axis, 15 most-recent entries scanned regardless of sub-topic (mechanism
+design, contract theory, matching, AI-adoption/misalignment economics throughout), 0 catch,
+correctly off-axis; next: math.LO's neighbor areas or a repeat of math.OC/math.OA.
+Trend recalibration (radar-ledger-update): ZERO new seed trends (a genuinely quiet arXiv day, the
+first in several sessions) + major evidence/note updates to THREE existing trends (OpenAI
+Yang-Mills — the Shepherds' 4th statement + Woit's critique; the Euler/NS blowup trend — Tao's
+guest-post note; the Cogentic factoring trend — capture-leak 3rd evidence line) + FIVE new
+`observation_queue` items (the hexagonmath finds above) + one SOURCES.md capture-leak fix
+(yang-mills-group staged). DORMANCY line check: Stanley-Gasharov's 120-day archive line
+(2026-11-26) has now PASSED (121 days quiet today) — per `routines/daily.md`, archiving is a
+WEEKLY action; flagged again, now overdue, in both TRENDS.md and this log for W48 (due
+~2026-11-28, tomorrow) to action without further delay. No other active trend crosses its 60-day
+dormancy line today (checked all `last_evidence` dates against the domain-cadence precedent for
+backfilled-landmark trends, per the Graham's-rearrangement-conjecture note — dormancy clock runs
+from `first_seen` for those, not the artifact's own historical date). Capture-leak reconciliation:
+not run as a full mechanical re-sweep this session (triage-for-cost, per the standing flag for the
+weekly to decide the cadence) — spot-checked only today's own new captures (all present).
+Convergence check: not run as a dedicated full re-scan this session (now 5 sessions running
+without one — increasingly owed for the weekly). `observation_queue` now ~267 items (soft cap ~40,
+long-standing deliberate over-cap state per domain cadence — no burndown attempted).
+README.md and SUMMARY.md regenerated in the same commit.

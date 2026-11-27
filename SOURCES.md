@@ -577,6 +577,17 @@ the arXiv id).** **NOTED 2026-11-05: AxiomMath also runs a separate Lean-formali
 site's nav under "Formalizations" — treat as a companion sub-project of this same source (not a
 new staged candidate), same as `/research/publications` and `/research/blog`; verified live via
 `WebFetch` this session (200 OK), no coverage/progress figures were loaded at fetch time.**
+- github.com/yang-mills-group (the KITP-convened "Shepherding Committee" — Douglas, Gross [chair],
+  Jaffe, Klebanov, Nekrasov — reviewing OpenAI's Yang-Mills/QCD claim) — 2 — the committee's own
+  Lean/assessment release channel: `assessment-1.pdf` under `/YM`, `/QCD`, `/chiral` (named in
+  TRENDS.md's OpenAI-Yang-Mills trend since 2026-11-16, re-used 2026-11-27 for the committee's 4th
+  statement's companion material) — first seen 2026-11-16 — a CAPTURE-LEAK on the SOURCES side:
+  used as a primary artifact source across 2 sessions without ever being staged here. Verified
+  live via direct `raw.githubusercontent.com` fetch this session. CLEARS the ≥2-sighting bar —
+  ready for the weekly to promote into GitHub watch → Watched repositories (same class as
+  github.com/anthropics/github.com/openai: an official lab/committee release org, not a
+  general-purpose repo). No feed; access via `raw.githubusercontent.com/yang-mills-group/<repo>/main/<path>`
+  for specific files, `WebFetch`/`tvly extract` on the repo page otherwise.
 - hep-open-release.org — 1 — "A Statement on Sharing Research Results Produced by AI Companies in
   Theoretical High-Energy Physics" (2026-11-13), 39 initial signatories including Edward Witten,
   Juan Maldacena, Michael Peskin, Cumrun Vafa, and David Tong, plus 216 further signatories —

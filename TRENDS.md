@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-26
+Last updated: 2026-11-27
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -411,6 +411,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     across the week's dailies (09-28→10-02); a direct Schur-positivity/claw-free re-check this
     session (arXiv API metadata on all three) found no fresh v-update. Archive line (120 days from
     last_evidence) is 2026-11-26 — still 7+ weeks out, not yet due. No change.
+  - 2026-11-27 (daily): the 120-day archive line (2026-11-26) has now PASSED — last_evidence
+    2026-07-29 is 121 days quiet today. No 4th independent group or referee/vetting outcome found
+    this session (no fresh arXiv activity on this sub-theme in today's full-category sweep). Per
+    `routines/daily.md`, archiving is a WEEKLY action, not this daily's to take — flagging again,
+    now overdue, for W48 (due ~2026-11-28, tomorrow) to archive without further delay.
+  No stage/confidence change (`dormant`/`medium`) pending that weekly action.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-09-15
@@ -2536,7 +2542,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     press/governance reaction above. last_evidence advances 2026-10-26 → 2026-10-27.
 
 ### OpenAI's claimed proof of Yang–Mills existence and a QCD/Standard-Model completion
-- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-15
+- stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-25
 - what: axis-2/3 EXTRAORDINARY-CLAIM, the single highest-magnitude item this ledger has ever logged
   if confirmed: Yang–Mills existence and mass gap is one of the seven Clay Millennium Prize Problems
   (claymath.org). OpenAI's Oct 26 publication, "Working with academic communities to build
@@ -2563,8 +2569,6 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     — OpenAI's own publication page (direct `curl`/`WebFetch` 403; opened via `tvly extract` this
     session, corroborated by a `tvly search` snippet quoting the Sept 9/Sept 18/Oct 16 dates
     verbatim). Confirms the claim, the dates, and the Gross-led review panel.
-  - 2026-10-26 — https://agmai.org — "Recommendation for Immediate Release of Yang–Mills AI
-    Output." Opened directly via `WebFetch` this session.
   - 2026-10-26/27 — https://www.math.columbia.edu/~woit/wordpress (post "Secret Unified Physics
     Slop," found via its RSS feed, `?p=15948`) — Peter Woit's critical same-day commentary: raises
     the mass-gap-scope ambiguity and the no-public-manuscript point above, and separately notes an
@@ -2670,6 +2674,18 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     only conditionally on stated assumptions, not unconditionally. EXTREME caution (hexagonmath,
     same submitter/venue class as 2611.00492). Opened directly via `WebFetch`/hexagonmath RSS this
     session.
+  - 2026-11-25 — https://www.kitp.ucsb.edu/sites/default/files/4th-Statement-About-Quantum-YangMills-Theory_Nov-25.pdf
+    — the shepherding committee's 4th statement (Douglas, Gross [chair], Jaffe, Klebanov,
+    Nekrasov): discloses that the FIRST (pure-YM) submission's own formal theorem was "initially a
+    bit too weak to establish that the theory constructed is Yang–Mills theory," requiring the
+    committee to formulate stronger tests of their own (which the Oct 28 submission then passed),
+    and that "the earlier work on which the construction rests is not properly credited" — the
+    first committee-disclosed correctness/attribution defect on this claim. Releases ALL remaining
+    OpenAI material (the QCD and SU(5) chiral-gauge-theory/"Standard Model completion" submissions)
+    as explicitly UNASSESSED ("this release is not an endorsement"), citing unresolved community
+    disagreement over the committee's embargo-before-release policy. Companion assessment/material
+    PDFs at github.com/yang-mills-group/{YM,QCD,chiral}. Downloaded and read directly via
+    `pdftotext` this session.
 - notes: DROPPED 2026-11-16 (evidence-cap rotation, oldest/least-central): the committee's
   2026-11-03 governance document (RULES AND PROCEDURES PDF) — process/conflict-of-interest detail,
   superseded now the substantive Nov 9-10 release it anticipated has landed (see evidence above).
@@ -2747,6 +2763,27 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     REFINES rather than reverses last session's scope finding (mass gap still not proved
     unconditionally). No stage/confidence change (`seed`/`medium`). last_evidence advances
     2026-11-15 → 2026-11-17.
+  - 2026-11-27 (daily): MAJOR VETTING-PROCESS UPDATE — the shepherding committee's 4th statement
+    (Nov 25, see evidence) discloses a concrete defect found and fixed in the FIRST (pure-YM)
+    submission's formal theorem (too weak to establish the theorem proved was Yang–Mills theory,
+    until the committee demanded stronger tests) and a crediting problem with the construction's
+    prior-art attribution — the first committee-disclosed correctness issue on this claim. The
+    committee also released the QCD and SU(5) chiral-gauge-theory ("Standard Model completion")
+    submissions as explicitly UNASSESSED, citing unresolved controversy over their embargo-before-
+    release policy. Peter Woit's same-day post ("The Shepherds Release the Flock," opened directly
+    this session) calls the Standard-Model-completion claim "simply fraudulent" — the SU(5)
+    construction has no Higgs field and nothing on electroweak/GUT symmetry breaking, so "it
+    definitely has nothing to do with the Standard Model"; he finds the QCD material shows none of
+    the physics (confinement, baryon/pion spectrum) one would expect either. His companion post
+    ("Getting Access," Nov 18, also opened directly this session — closing a 2-session-old flagged
+    item) reports a secretive "Alignment Institute for Fundamental Science" has formed among US
+    QG/QFT theorists with privileged frontier-lab access, now with its own name/website per a
+    same-post update. last_evidence advances 2026-11-17 → 2026-11-25. No stage/confidence change
+    (`seed`/`medium`) — this sharpens the hype-skepticism caveat on the SM-completion and QCD
+    sub-claims specifically (now expert-disputed, not merely unassessed), while the pure-YM
+    weak-existence result itself stands, now committee-stress-tested. Chase next session: any
+    community reaction once the newly-released QCD/chiral assessment PDFs are read in full (only
+    Woit's summary was read this session).
 
 ### Resolution of the Erdős–Nicolas–Sárközy conjecture (admissible-set counting)
 - stage: seed | confidence: medium | first_seen: 2026-10-27 | last_evidence: 2026-11-19
@@ -3518,7 +3555,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   last_evidence advances 2026-11-24 → 2026-11-25 (repo's own evident activity date).
 
 ### Unforced finite-time blowup claimed for 3D incompressible Euler and Navier–Stokes (Alpöge–Buckmaster–Coiculescu; a direct Clay Millennium Problem claim)
-- stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-11-20
+- stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-11-23
 - what: axis-1 LANDMARK CLAIM: Levent Alpöge, Tristan Buckmaster (NYU Courant; 2019 Clay Research
   Award for Navier-Stokes non-uniqueness work with Vlad Vicol — an established, highly credible
   researcher in exactly this area), and Matei P. Coiculescu claim, with heavy AI (Claude)
@@ -3564,6 +3601,12 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     exact one," though Tao says a professionally-written version "still needs more work." Comments
     raise the Clay Millennium Prize directly; the post itself does not take a position on the prize
     or on correctness.
+  - 2026-11-23 — https://terrytao.wordpress.com/2026/11/23/finite-time-singularity-formation-for-the-three-dimensional-euler-equations/
+    — a GUEST POST on Tao's blog by co-author Matei P. Coiculescu himself (opened directly this
+    session; Tao's own editorial note: "initially written in a different file format and converted
+    using AI"), giving a full self-contained exposition of the Euler paper's setup and main
+    construction. Visibility/amplification by Tao, NOT independent third-party verification (same
+    author, not a new reader) — distinct from Tao's own Nov 20 commentary post above.
 - notes: 2026-11-23 (daily, seed creation): HEAVY caution (unrefereed, AI-heavy, days old) but
   materially more credible on its face than a typical self-disclosure, given Buckmaster's own
   track record (2019 Clay Research Award, exactly this subfield) and Tao's "technically
@@ -3581,6 +3624,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   this session (checked Kalai/Woit/Tao/Baez — none has a new post on this specifically beyond the
   11-20 Tao post already evidenced). Navier-Stokes repo's un-rebuilt patch/certificate status
   unchanged (not re-checked this session; chase next).
+  - 2026-11-27 (daily): Tao's blog hosted a guest-post exposition of the Euler paper by co-author
+    Coiculescu himself (see evidence, 2026-11-23) — amplifies visibility but is not independent
+    verification (same author). last_evidence advances 2026-11-20 → 2026-11-23. No human-authored
+    THIRD-PARTY exposition or referee commentary located yet (checked Kalai/Woit/Baez/Hossenfelder
+    this session — none has a new post on this specifically). Navier-Stokes repo's un-rebuilt
+    patch/certificate status still unchanged (not re-checked this session; chase next). No stage/
+    confidence change (`seed`/`low`).
 
 ### Solution to the Banach-Ulam conjecture (1935) on invariant finitely-additive measures on compact metric spaces
 - stage: seed | confidence: medium | first_seen: 2026-11-23 | last_evidence: 2026-06-08
@@ -3968,6 +4018,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     Time": unconditional Las Vegas algorithm, worst-case expected time $(pn)^{o(\log n)}$,
     improving on Kleinjung–Wesolowski (2022) and Lido (2026)'s quasi-polynomial bounds. PDF opened
     directly this session.
+  - 2026-11-25 — https://github.com/google-research/google-research/blob/master/cogentic_research_papers/deterministic_factoring_l34/paper.pdf
+    — Cogentic, "Unconditional Deterministic Subexponential Integer Factoring and Quadratic
+    Nonresidue Construction": a DETERMINISTIC companion to the Las Vegas factoring result above —
+    every composite $N\ge4$ factored deterministically in worst-case bit complexity
+    $O(\exp(3(\ln N)^{3/4}))=L_N[3/4,o(1)]$ (zero randomness, zero unproven hypotheses), plus a
+    deterministic quadratic-nonresidue construction surpassing the Burgess (1957/63)/Vinogradov
+    (1927) exponential barrier. CAPTURE-LEAK fix: part of the same 2026-11-25 six-paper batch as
+    this trend's other two evidence lines but missed when the trend was created yesterday (only 2
+    of the 6 papers were individually triaged per the BATCH PRODUCERS 5-item cap) — found this
+    session by re-opening the batch's own README. PDF opened directly via `raw.githubusercontent.com`
+    + `pdftotext` this session.
 - notes: 2026-11-26 (daily, seed creation): caught via Hacker News front page ("Google releases
   Cogentic papers on integer factorization, discrete logs and more," 473 points). Four further
   companion results in the same Nov-25 batch (a log-rank-conjecture exponent improvement, edge
@@ -3978,11 +4039,53 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   cryptography/computational-number-theory community reaction to the factoring claim specifically
   (the most consequential of the two if correct — it would be new, citable progress on a question
   of direct relevance to RSA's security foundations).
+  - 2026-11-27 (daily, capture-leak fix): re-opened the Nov-25 batch's own README and found a
+    THIRD on-theme paper missed yesterday — the deterministic factoring/quadratic-nonresidue
+    companion (see evidence above), directly on this trend's own landmark sub-theme rather than a
+    separate below-bar item. Appended as evidence (cap 3/10, no rotation needed). last_evidence
+    unchanged (2026-11-25 — same batch date). No stage/confidence change (`seed`/`low` — still zero
+    independent engagement found). The other four companion results (log-rank, edge reconstruction,
+    bimatrix Nash, prophet-inequalities/fictitious-play) remain correctly queued below-bar.
 
 ## observation_queue
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-11-26 — hexagonmath.org, Dave Goel, "Turán's Hermite strip problem (1967) is resolved: the
+  sharp half-width is 0.90366…" — https://hexagonmath.org/2611.01106v1 — resolves a 59-year-old
+  open problem from Hayman's 1967 research-problems collection (Turán asked whether a single strip
+  |Im z|≤c contains a zero of every polynomial 1+2z+aH_n(z)+bH_m(z) for Hermite polynomials H_n,
+  H_m): finds the sharp half-width for the FULL two-parameter family, extending Makai-Turán's
+  existence result and Schmeisser's 1971 trinomial-case value (0.52892…). Long-standing but a
+  solo, unrefereed hexagonmath submission with zero independent engagement found this
+  session — below the landmark bar (not yet celebrated/independently engaged) despite the age.
+  Opened directly this session.
+- 2026-11-26 — hexagonmath.org, Ivan Besevic, "Nested-Ovals Fewnomial Systems: A Universal
+  Two-Parameter Disproof of Kouchnirenko's Conjecture for All $(t_1,t_2)\ge(3,3)$" —
+  https://hexagonmath.org/2611.01126v1 — a 51-year-old conjecture (Kouchnirenko, 1975, on the
+  maximum number of positive real solutions of sparse polynomial systems) disproven via an
+  explicit nested-ovals curve-family construction, for the whole $(t_1,t_2)\ge(3,3)$ range at
+  once. Solo, unrefereed hexagonmath submission, zero independent engagement — below the landmark
+  bar. CONCENTRATION NOTE: same submitter's 2nd same-day item (see next entry). Opened directly
+  this session.
+- 2026-11-26 — hexagonmath.org, Ivan Besevic, "Breaking the Linear-Ansatz Barrier for the
+  Sum-of-Square-Roots Problem" — https://hexagonmath.org/2611.01119v1 — a bound improvement
+  ($r(n,k)=O(n^{-2k+1/2})$ for all $k\ge2$, with sharp $k=2$ separation bounds and a Lean 4
+  formalization) on the sum-of-square-roots problem, a well-known open problem in computational
+  geometry/complexity — a partial result, not a resolution. CONCENTRATION: this submitter's 2nd
+  tracked item today (see prior entry, the Kouchnirenko disproof). Opened directly this session.
+- 2026-11-26 — hexagonmath.org, Bernhard Boehmler, "A Proof of Linckelmann's Conjecture on Outer
+  Derivations of Blocks" — https://hexagonmath.org/2611.01094v1 — a claimed proof of a named
+  conjecture in modular representation theory of finite groups. Solo, unrefereed hexagonmath
+  submission, zero independent engagement, age/provenance not independently confirmed this
+  session — below the landmark bar. Opened directly this session.
+- 2026-11-26 — hexagonmath.org, Greta Panova, "Counting contingency tables, Kostka numbers, and
+  Littlewood-Richardson coefficients with unary inputs is #P-complete" —
+  https://hexagonmath.org/2611.01117v1 — a complexity-hardness classification in algebraic
+  combinatorics, from an established researcher in the field (Panova), but a hexagonmath
+  self-posting with no independent engagement found this session and not itself the resolution of
+  a long-standing NAMED conjecture — below the landmark bar, flagged for a closer read next
+  session given the author's standing. Title/author/abstract opened directly this session.
 - 2026-11-25 — Cogentic (Google Research/DeepMind), "Breaking the Square-Root Barrier for the
   Log-Rank Conjecture" — https://github.com/google-research/google-research/blob/master/cogentic_research_papers/logrank_conjecture/paper.pdf
   — PARTIAL progress toward the Log-Rank Conjecture of Lovász–Saks (1988, 38 years old, a leading
