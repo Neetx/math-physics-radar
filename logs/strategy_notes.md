@@ -2339,3 +2339,48 @@ coding) this week. No redirection needed.
   rule change) so a future session's mechanical sweep doesn't need to rediscover it: check
   `logs/queue_history.md` and a block's full `- notes:` text, not just its `- evidence:` list,
   before concluding an id is actually uncaptured.
+- 2026-11-28 (weekly, W48) — AMENDMENT Q APPLIED (proposed W47, cooling period elapsed, signal
+  persisted: re-tested this session, `sort=mostcited` with the `earliest_date` GET parameter OR
+  `q=date <range>`/`q=de <range>` using `--` as the range separator all return unconstrained or
+  wrong results — e.g. `earliest_date=2026-08-01--2026-11-28` returns 0 hits; `q=date
+  2026-08-01--2026-11-28` returns results spanning 2021-2026, not actually bounded). WORKING FIX
+  FOUND (different from the literal mechanism W47 guessed, same underlying intent): the inline
+  query syntax `q=de <start>-><end>` (the `de` field keyword, with an ARROW `->` separator, not a
+  double-dash) correctly bounds the result set — verified this session with a known window
+  (2026-08-01->2026-11-28: all 5 top-cited results fell inside it) before using it for the actual
+  citation-chase pass. SOURCES.md's INSPIRE-HEP entry corrected with this working syntax.
+- 2026-11-28 (weekly, W48) — Amendment G citation-chase pass (older-paper pass, items 3+ months
+  old): using the newly-fixed INSPIRE-HEP `sort=mostcited&q=de 2026-07-01->2026-08-28` query (20
+  reviewed), found ONE genuine capture-leak — GRAVITY Collaboration, "Discovery of a star
+  sensitive to the spin of Sagittarius A*" (arXiv:2607.12664, Nature 657:359-363, 2026-07-14) — a
+  ~4.5-month-old peer-reviewed discovery (star S301, a future spin-of-Sgr-A* probe) that no daily
+  title-keyword sweep could have caught (no conjecture/theorem/proof keyword). Queued (see
+  `observation_queue`). Six further on-axis-adjacent items reviewed and held below bar (routine
+  methodology/comparison papers, no discovery/landmark character): "A Fuzzy Sphere Journey in
+  Critical Phenomena," "Exact quantification of nonlocal magic," "Optimal tomography of bosonic
+  and fermionic Gaussian states," "Pushing the Primordial Frontier," "The H0 World Cup I/II,"
+  "Combination of Higgs boson measurements... ATLAS" — not individually queued (time-budget; flag
+  for a future session if any recurs via another lane). GWTC-5.0 (46 citations) and the X(2370)
+  glueball paper (24 citations) were already on this ledger, confirming the pass's own precision.
+- 2026-11-28 (weekly, W48) — COVERAGE GAP FOUND: Nature Physics (DAILY tier) is absent from this
+  week's `logs/source_rotation.md` coverage lines on 4 of 5 dailies (11-23/24/25/26 — only 11-27
+  logs it, as `degraded`); DESI (Experiments block, DAILY tier) is absent on 3 of 5 (11-24/25/26).
+  Neither has a documented heal-or-remove downgrade decision (unlike LIGO/CERN-home/SLMath/n-Cat
+  Café, which do). Live-checked both this session: Nature Physics' RSS feed is in fact HEALED
+  (10 clean titles, no empty-CDATA — the standing degradation note is stale), 0 on-axis catch
+  (all condensed-matter/quantum-hardware, below this ledger's bar); DESI homepage shows nothing
+  new beyond the already-queued "Milky Way's Mass" item (11-05) and a non-result outreach post
+  ("Fifty Years of Cosmic Cartography," 11-15). No capture-leak resulted, but the coverage-LOG gap
+  itself is real — a daily's "all DAILY-tier...feeds opened (all routine)" summary line is not
+  naming every source it covers, same class of gap as the "coverage lie" the routine warns against
+  even when, as here, nothing was actually missed. Flag for `radar-source-sweep`: name every
+  DAILY-tier source explicitly in the coverage-log line (or mark degraded), don't let a generic
+  "all routine" summary stand in for the enumeration.
+- 2026-11-28 (weekly, W48) — STUDY-SHELF 120-DAY PRUNE (closing the 2026-11-25 staleness flag):
+  pruned 7 items whose leading date (no `shelf-added` annotation present, so the leading date IS
+  the add-date per Amendment O) fell before the 120-day cutoff (2026-07-31): the 2026-07-24
+  through 2026-07-30 entries (Fields Medals 2026, Werner-state distillability, non-invertible-
+  symmetries SciPost artifact, Kuperberg six-cylinder, Carlsson's conjecture, Schur-positivity
+  refutation, Maxwell conjecture disproof) — each already preserved verbatim in its own day's
+  report (2026-07-24/27/28/29/30). 151 items remain (158 → 151); the next-oldest entry
+  (2026-07-31, Gorenstein Symmetry Conjecture) is exactly at the 120-day line today, not yet over.

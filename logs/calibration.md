@@ -622,3 +622,63 @@ routing-leak n`.
   review W48): (Q) the Amendment G INSPIRE-HEP date-filter syntax used this session did not
   actually constrain results to the stated window — fix the query syntax (or switch to the
   `earliest_date` range param) before next use so the pass isn't silently a no-op filter.
+- 2026-11-28 (W48 weekly): queue funnel — observation_queue 266 live items (soft cap ~40; still
+  firmly in the long-standing deliberate over-cap state per domain cadence — Amendment H: the
+  12-item 60+-day cohort was individually read in full (below the ~100-item Amendment-P sampling
+  threshold), all 12 correctly classified still-live/below-bar, 0 dropped, 1 new capture-leak
+  catch added, no burndown forced). study_shelf 158→151 (7 pruned, >120d, no shelf-added
+  annotation, each preserved in its own day's report — closes the 2026-11-25 staleness flag).
+  Active trends 79 (1 archived this session: Stanley-Gasharov, dormancy probe empty after 121 days
+  quiet — no 4th group/referee outcome found via arXiv version-check + web search). Stage moves:
+  0 promotions/demotions beyond the one archival (mechanical corrections to 2 trends' evidence
+  dates via Amendment I, not stage moves). Dormancy reconciliation: all 4 remaining dormant trends
+  re-checked against current 60/120-day windows, correctly staged (nearest to archive: X(2370)
+  glueball, 88 days, ~32 from the line); 1 non-dormant trend (Graham's rearrangement) hit its own
+  first_seen-clock 60-day dormancy line — probed, NOT empty (a genuine composite-group follow-on
+  paper found, 2608.10015 — captured as evidence, trend held). Amendment L size-cap check: 1 trend
+  (OpenAI mass-disclosure, 18 notes sub-entries) numerically over ~15 but ALL entries fall within
+  the most recent 8 weekly cycles (created W41) — no relocation applies; no other trend qualifies.
+  Exploration compliance: 4/5 dailies ran the off-axis slot as its own dedicated pass (11-25
+  deferred it to the matrix-mult/VP≠VNP chase, flagged and not re-run — 1 miss). Off-axis rate:
+  axis 4 (quantum foundations/QI) routed 0 items across all 5 dailies this week — confirmed as
+  REAL SILENCE (an independent web search for the week's window found nothing dated inside it;
+  the field's own last dated item predates this week by ~2 months) not crowding-out; per
+  AGENTS.md domain cadence, a week of axis silence in this narrow field is not itself an alarm —
+  noted, no amendment action (would need a 2nd consecutive under-floor week per the standing
+  rule, and this is the FIRST week axis-floor data exists at all). AXIS FLOOR shares (5 dailies,
+  Pure math / Theoretical-math-phys / Modern-experimental / Quantum-foundations / Formalized-math
+  crossover): axis 1 ≈ 68 items (dominant), axis 2 ≈ 4, axis 3 ≈ 2, axis 4 = 0, axis 5 crossover-
+  only (not separately counted, by design). Discovery lag: non-zero this week for the first time
+  in several — the Amendment-G INSPIRE-HEP catch (arXiv:2607.12664, Sagittarius-A* spin-probe
+  star, ~4.5 months) and the Bloch's-conjecture evidence-date fix (~3.5 weeks) were both backfills,
+  not same-session discoveries; both now on file. Coverage: WEEKLY-SWEPT tier not separately
+  re-swept this session (folded into the source-strategy review below) — DAILY tier: 2 GENUINE GAPS
+  found (not a capture-leak, but a logging gap) — Nature Physics absent from 4 of 5 daily coverage-
+  log lines, DESI absent from 3 of 5 (no documented downgrade decision for either, unlike LIGO/
+  CERN-home/SLMath/n-Cat-Café); live-checked both this session — 0 on-axis catch either way (Nature
+  Physics' feed is in fact healed; DESI shows nothing beyond an already-queued item) — logged in
+  `logs/strategy_notes.md` as a daily-routine precision gap to fix going forward, not a missed
+  capture. routing-leak: 0 found (no primary sitting in the wrong section; one pre-existing
+  intentional queue/trend duplicate — the percolation-criticality item — confirmed correctly
+  annotated "superseded for trend tracking," not a leak). capture-leak: this week's 5 reports' 10
+  arXiv ids all present (0 missing; 4 reconfirmed as the same results_catalog.md false-positive
+  pattern flagged 11-23) + the Amendment-G pass's own 1 new catch (queued) + 2 Amendment-I-driven
+  accuracy fixes (Bloch's-conjecture v2 date, Binary-Goldbach v2 self-reported-flaw finding) — all
+  actioned this session. source-discovery: github.com/yang-mills-group PROMOTED (2 sightings,
+  verified live → GitHub watch); all other staged candidates checked against this week's 5 reports,
+  none recurred a 2nd time. Amendment I version-history spot-check: PARTIAL this session (arXiv
+  API rate-limited after ~50/136 tracked ids; triage-for-cost — did not keep retrying past a
+  reasonable budget) — found 2 genuine previously-uncaptured revisions (Bloch's-conjecture v2,
+  Binary-Goldbach-claim v2 self-reported flaws) among the 50 checked; the remaining 86 are owed
+  next session. Amendment G older-paper citation-chase: FIXED and RUN this session (see Amendment
+  Q below) — 1 genuine landmark-adjacent catch (Sagittarius-A* spin-probe star) out of 20 reviewed,
+  a sharp improvement over W47's 0/15 (the date-filter bug had made every prior pass's window
+  silently unconstrained). Monthly hit/miss retrospective NOT due (`date +%d` = 28 > 7).
+  Self-amendment: Amendment Q APPLIED (proposed W47, signal persisted, working fix found and
+  verified — see `logs/strategy_notes.md` and `SOURCES.md`). New proposal (cooling period, review
+  W49): (R) extend `radar-source-sweep`'s arXiv checks to include `announce_type:replace` entries
+  (not just `:new`), motivated by this session's Amendment-I finds plus three further multi-
+  month/year-old revision-triggered catches already on file (sextic-torsion classification,
+  Oort's-conjecture partial, Rump's Retraction Conjecture) — the revision stream looks like a
+  real, under-exploited capture channel, not noise. Regression check: no amendment from the last
+  two weeks regressed — no rollback.

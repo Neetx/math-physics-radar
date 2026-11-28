@@ -1,6 +1,6 @@
 # Trend ledger — Math-Physics Radar
 
-Last updated: 2026-11-27
+Last updated: 2026-11-28
 
 Stage legend: `seed` (first signal) → `emerging` (multi-source, forming) →
 `accelerating` (broad, fast) → `mainstreaming` (standard practice) ; `dormant`
@@ -298,125 +298,6 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     v3 updated 2026-11-18 — same author group/result, no new group; last_evidence advances
     2026-11-09 → 2026-11-18 (the latest dated activity now on file for this trend). No 21st
     independent group found this session.
-
-### Refutations of the Stanley-Gasharov claw-free Schur-positivity conjecture (algebraic combinatorics)
-- stage: dormant | confidence: medium | first_seen: 2026-07-30 | last_evidence: 2026-07-29
-- what: THREE fully independent author groups, within a single week, produced concrete
-  counterexamples to the ~28-year-old Stanley–Gasharov conjecture (recorded by Stanley 1998,
-  credited to Gasharov) that the chromatic symmetric function of every claw-free graph is
-  Schur-positive — clearing the ≥3-independent-group convergence bar. Unlike the AI-generated
-  Jacobian-conjecture claim, these are elementary, computationally CHECKABLE counterexamples
-  (single symmetric-function coefficients, cross-verified by independent implementations /
-  exhaustive graph censuses), so the epistemic risk is lower than an unchecked large-scale claim
-  — but all three remain unrefereed preprints from the same week.
-- evidence:
-  - 2026-07-23 — https://arxiv.org/abs/2607.21508 — Matherne, Morales, "Chromatic symmetric
-    functions of claw-free graphs are not Schur positive": FIRST published counterexample (a
-    12-vertex line graph with a negative Schur coefficient); also refutes Monical's 2018
-    saturated-Newton-polytope conjecture. AI-ASSISTED (found using ChatGPT-5.6 Sol Pro — the
-    sixth artifact in the standing AI-assisted-math wave). Abstract verified via arXiv API this
-    session (v1 2026-07-23).
-  - 2026-07-29 — https://arxiv.org/abs/2607.26364 — Prajapati, "A counterexample to the claw-free
-    Schur-positivity conjecture": a FULLY INDEPENDENT 12-vertex counterexample (different graph,
-    coefficient [s_(3,3,3,3)]X_G = −64), found via an exhaustive computer census of all 216,777
-    connected claw-free graphs on ≤11 vertices (all Schur-positive) plus all 1,728,404 on 12
-    vertices (exactly 2 non-Schur-positive classes) — establishing 12 vertices as the minimum
-    possible order. No AI-assistance claimed. Abstract verified via arXiv API this session (v1
-    2026-07-29).
-  - 2026-07-29 — https://arxiv.org/abs/2607.27166 — Wang, Zhang, Zhao, "An infinite family of
-    counterexamples to the Stanley–Gasharov conjecture": combines Prajapati's census with a fresh
-    exhaustive search over 144,492 previously-untreated claw-free graphs (13–21 vertices),
-    confirms Matherne–Morales's counterexample as the UNIQUE minimum one under a stated order, and
-    constructs an INFINITE family of connected line-graph counterexamples — directly answering
-    Matherne and Morales's own open question. Abstract verified via arXiv API this session (v1
-    2026-07-29).
-- notes: 2026-07-30 (daily, PROMOTION): Matherne–Morales sat on the queue + study_shelf since
-  07-29 as a single below-bar item; today's fresh math.CO sweep surfaced Prajapati (2607.26364)
-  and Wang–Zhang–Zhao (2607.27166) — both explicitly citing Matherne–Morales as independently
-  prior — giving THREE fully independent groups on the same sub-theme within 07-23→07-29 →
-  promoted to `seed` per the convergence-check rule (daily.md §4); this also independently clears
-  the domain-cadence "landmark single result" bar (a ~30-year algebraic-combinatorics conjecture
-  refuted). Confidence medium (not low, despite being day-one): the counterexamples are short,
-  checkable computations reproduced across independent implementations/censuses, not a
-  large-scale unchecked claim — but still unrefereed, so track for a referee outcome or a
-  consolidated/definitive treatment that may supersede this cluster. Watch also for further
-  independent confirmation of the companion Monical saturated-Newton-polytope refutation
-  (Matherne–Morales only, so far).
-  - 2026-W31 through the 2026-09-03 daily recalibration history (repeated "no 4th independent
-    group found" checks during this trend's seed-stage watch) RELOCATED to `logs/trend_history.md`
-    2026-10-24 (W43, Amendment L applied) — moved verbatim, unaltered; see that file for the
-    full day-by-day record.
-  - 2026-W36 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 38 days old — well
-    inside the 60-day window (dormancy line 2026-09-27), but now over five weeks quiet with no
-    4th independent group and no referee/vetting outcome on any of the three tracked preprints.
-    Confidence held medium (unrefereed, cross-verified computations; no fresh corroboration
-    either way). Weakest of the four active trends — per the W35 forward bet, if nothing moves
-    by early October this needs a real decision (accept a 3-group seed indefinitely, or let the
-    60-day dormancy line take it).
-  - 2026-09-07 (daily): first daily since 09-04. Fresh math.CO full in-scope category-rotation
-    batch (2026-09-04→09-07, 168 fresh entries) scanned for Schur-positivity/claw-free items —
-    none. arXiv-API metadata recheck of all three tracked preprints (2607.21508, 2607.26364,
-    2607.27166): no fresh v-update — no referee/vetting outcome. No 4th independent group. Trend
-    HELD seed/medium; last_evidence 2026-07-29 now 40 days old, still inside the 60-day window
-    (dormancy line 2026-09-27, 20 days out).
-  - 2026-09-08 (daily): no fresh arXiv batch past the 09-04 ceiling; the math.OC exploration-slot
-    read (below) and the day's other captures (Alpöge-Buckmaster blowup, quantum-free-fall
-    equivalence-principle test) are both off this trend's axis. No 4th independent group or
-    referee/vetting outcome on the three tracked preprints. Trend HELD seed/medium; last_evidence
-    2026-07-29 now 41 days old, still inside the 60-day window (dormancy line 2026-09-27, 19 days
-    out) — still the weakest of the four active trends per the standing W35/W36 forward bet.
-  - 2026-W37 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 45 days old, inside the
-    60-day window but only 15 days from the 2026-09-27 dormancy line. No 4th independent group or
-    referee/vetting outcome on any of the three tracked preprints surfaced across the week's
-    dailies (09-07→09-11); arXiv-API metadata recheck this session: no fresh v-update on any of
-    the three. Confidence held medium (short, checkable, cross-verified computations — still
-    unrefereed, now six-plus weeks quiet). Still the weakest of the four active trends. DECISION
-    POINT UNCHANGED from W35/W36: if no 4th group or vetting outcome lands by the 2026-09-27
-    dormancy line (next weekly, W38), the trend goes `dormant` under the domain-cadence rule rather
-    than being held open indefinitely — this is the expected, routine outcome of the rule, not a
-    failure to chase harder.
-  - 2026-W38 recalibration: HELD seed/medium. last_evidence 2026-07-29 is 52 days old today
-    (2026-09-19) — inside the 60-day window, 8 days from the 2026-09-27 dormancy line (CORRECTION
-    to the W37 report's forward bet, which loosely flagged "dormant at W38": the line is a fixed
-    calendar date, 2026-09-27, which falls AFTER this run, not on it — the daily reports of
-    09-15/09-16 already caught and correctly deferred this). No 4th independent group or
-    referee/vetting outcome on any of the three tracked preprints (2607.21508, 2607.26364,
-    2607.27166) surfaced across the week's dailies (09-14→09-18, each keyword-sweeping fresh
-    math.CO batches) or this session's arXiv-API metadata recheck (no fresh v-update on any).
-    Confidence held medium (short, checkable, cross-verified computations — still unrefereed, now
-    seven-plus weeks quiet). Still the weakest of the four active trends. DECISION POINT: if no 4th
-    group or vetting outcome lands by 2026-09-27 (the first daily on/after that date, or W39 if
-    sooner), the trend goes `dormant` under the domain-cadence rule — the routine, expected outcome
-    of a quiet single-week convergence burst, not a failure to chase harder.
-  - 2026-W39 recalibration (DEMOTION, seed → dormant, per the standing W35–W38 decision point): today
-    (2026-09-26) is W39, one day BEFORE the fixed 2026-09-27/60-day dormancy line, but the standing
-    plan explicitly named "W39 if sooner" as the trigger — so this run resolves it rather than waiting
-    the one remaining day. A Semantic Scholar "cited by" check on all three tracked preprints
-    (2607.21508, 2607.26364, 2607.27166; this week's Amendment G pass) found only already-excluded
-    peripheral Schur-positivity papers plus two genuinely new but non-qualifying items: Suvrit Sra,
-    "GPT, the Counterexample Machine" (arXiv:2608.29595, a compiled report of 15+ GPT-found
-    counterexamples across many fields, citing Matherne-Morales as one instance — a survey of the AI
-    method itself, not a 4th independent Stanley-Gasharov proof, and out of scope per the AI-watch
-    rule) and Li, St. Dizier, "Schubitopes are not Ehrhart positive" (arXiv:2608.00377, an unrelated
-    AI-assisted conjecture refutation, queued separately below). No 4th independent group, no referee/
-    vetting outcome on any of the three tracked preprints (arXiv version-history recheck this
-    session: no v-update since each paper's already-recorded v2, both from July). last_evidence
-    2026-07-29 is now 59 days quiet, one day short of the formal 60-day line but the trend has had no
-    new signal for two full months and the standing decision point is reached — DEMOTED to `dormant`.
-    Confidence held medium (unchanged; dormancy is a velocity call, not a correctness downgrade — the
-    three counterexamples remain valid, checkable, unrefereed). Reactivation trigger unchanged: a 4th
-    independent group or a referee/vetting outcome on any of the three preprints.
-  - 2026-W40 recalibration: HELD dormant/medium. last_evidence 2026-07-29 is 66 days quiet. No 4th
-    independent group or referee/vetting outcome on any of the three tracked preprints surfaced
-    across the week's dailies (09-28→10-02); a direct Schur-positivity/claw-free re-check this
-    session (arXiv API metadata on all three) found no fresh v-update. Archive line (120 days from
-    last_evidence) is 2026-11-26 — still 7+ weeks out, not yet due. No change.
-  - 2026-11-27 (daily): the 120-day archive line (2026-11-26) has now PASSED — last_evidence
-    2026-07-29 is 121 days quiet today. No 4th independent group or referee/vetting outcome found
-    this session (no fresh arXiv activity on this sub-theme in today's full-category sweep). Per
-    `routines/daily.md`, archiving is a WEEKLY action, not this daily's to take — flagging again,
-    now overdue, for W48 (due ~2026-11-28, tomorrow) to archive without further delay.
-  No stage/confidence change (`dormant`/`medium`) pending that weekly action.
 
 ### Sharpening the exponent in Marton's conjecture / polynomial Freiman-Ruzsa (additive combinatorics)
 - stage: dormant | confidence: medium | first_seen: 2026-09-01 | last_evidence: 2026-09-15
@@ -824,7 +705,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   Voisin's own cited reduction paper still not independently opened (standing chase item).
 
 ### Resolution of Graham's rearrangement conjecture (additive combinatorics)
-- stage: seed | confidence: high | first_seen: 2026-09-29 | last_evidence: 2026-02-17
+- stage: seed | confidence: high | first_seen: 2026-09-29 | last_evidence: 2026-08-08
 - what: Ronald Graham's 1971 conjecture — that any sequence of distinct nonzero residues mod a
   prime p can be reordered so that all partial sums are distinct — is fully resolved via a
   four-paper chain spanning four independent author groups (2022-2026), each extending the
@@ -844,6 +725,11 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   - 2026-02-17 — https://arxiv.org/abs/2602.15797 — Pham, Sauermann, "On Graham's rearrangement
     conjecture": the general case, officially closing the 55-year-old problem (abstract + authors
     verified via arXiv API this session).
+  - 2026-08-08 (found 2026-11-28, W48 dormancy-probe catch) — https://arxiv.org/abs/2608.10015 —
+    Costa, Della Fiore, Feng, Liu, "Kneserized Anticoncentration and Reverse Absorption for
+    Graham's Rearrangement Conjecture": extends the resolved prime case to composite cyclic groups
+    $\mathbb{Z}_{tp}$, building directly on Pham–Sauermann. Abstract + authors verified via direct
+    arXiv API fetch this session.
 - notes: 2026-09-29 (daily, seed creation): caught via a Quanta Magazine piece ("Mathematicians
   Harness Randomness To Crack a 55-Year-Old Conjecture," 2026-09-28, Shalma Wegsman) found in the
   community-pulse digest sweep; all four arXiv ids opened and verified this session (a ~7-month-old
@@ -868,6 +754,19 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     2409.07403 (Bedert–Kravitz) to v2, updated 2025-01-07. Both same title/authors, predating this
     trend's own creation by well over a year; no change to the trend's own last_evidence (set by
     the 2602.15797 closing paper, unaffected). No fresh follow-on generalization this week.
+  - 2026-W48 recalibration (DORMANCY PROBE, first_seen hits the 60-day line today per the W40
+    clarification's own convention): probed via an independent web search for exactly the
+    follow-on generalization this trend has been watching for — NOT empty. Costa, Della Fiore,
+    Feng, Liu, "Kneserized Anticoncentration and Reverse Absorption for Graham's Rearrangement
+    Conjecture" (arXiv:2608.10015, 2026-08-08) extends the conjecture to COMPOSITE cyclic groups
+    $\mathbb{Z}_{tp}$ (for strongly-sequenceable $\mathbb{Z}_t$ and large prime $p$), building
+    directly on Pham–Sauermann's closing paper and Bedert–Kravitz; a companion paper by the same
+    group, "New bounds for (weak) sequenceability in $\mathbb{Z}_k$" (arXiv:2602.19989, 2026-02-23)
+    also engages the same general-abelian-group open question the trend's own `what` field flags.
+    Both abstracts verified via direct arXiv API fetch this session. HELD at `seed`/`high` (a
+    genuine follow-on, but not itself a new independent resolution of the main conjecture — the
+    general-abelian-group case remains open, as 2602.19989 states explicitly); added as a 5th
+    evidence line (within cap) and last_evidence advances 2026-02-17 → 2026-08-08. NOT dormant.
 
 ### The Hopf problem — a complex structure on S⁶ (Alpöge/Claude, 1947 problem)
 - stage: seed | confidence: medium | first_seen: 2026-10-01 | last_evidence: 2026-09-27
@@ -1541,6 +1440,13 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
     summit's organizers (Dan Freed, Larry Guth, Bryna Kra, Emily Riehl, Mohammed Abouzaid), a
     fourth institutional/governance voice alongside AGMAI, the mathcommunity hub and Scientific
     American's reporting. last_evidence advances 2026-10-27 → 2026-11-01 (Calegari post date).
+  - 2026-W48 recalibration (Amendment I version-history spot-check): the previously-unsigned
+    Hodge-conjecture sign-error post-mortem (2610.30976, cited above, no evidence slot) was
+    silently revised to v2 (2026-11-24) — the comment confirms "added reference to Katzarkov's
+    2009 paper... No other changes," and the revision's own metadata now NAMES the authors:
+    Yanki Lekili and Nick Sheridan, both established symplectic/mirror-symmetry geometers —
+    resolving the standing "author identity not independently confirmed" flag from 2026-10-23.
+    Not a substantive change; no last_evidence advance (predates 2026-11-01).
 
 ### First operating thorium-229 nuclear clocks (Vienna + Beijing, independent teams)
 - stage: seed | confidence: medium | first_seen: 2026-10-08 | last_evidence: 2026-10-07
@@ -2962,7 +2868,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   itself (also unrefereed, single-author).
 
 ### An elementary proof of the Binary Goldbach Conjecture (unrefereed preprint — claim)
-- stage: seed | confidence: low | first_seen: 2026-11-09 | last_evidence: 2026-11-06
+- stage: seed | confidence: low | first_seen: 2026-11-09 | last_evidence: 2026-11-21
 - what: axis-1 EXTRAORDINARY-CLAIM. The binary Goldbach conjecture (every even integer greater
   than 4 is the sum of two odd primes) is one of the oldest and most famous open problems in
   number theory. Qazaqzeh and Rawashdeh claim a proof by showing the count of ordered Goldbach
@@ -2972,14 +2878,27 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   community engagement yet. Per the hard-rule hype-skepticism clause this is flagged "unrefereed
   preprint — claim," PROVISIONAL until independent vetting — a claim of this magnitude on a
   problem this old warrants extreme caution; track the vetting outcome, do not adjudicate the
-  mathematics.
+  mathematics. VETTING OUTCOME (2026-W48): the authors' own v2 revision self-reports flaws — see
+  notes.
 - evidence:
-  - 2026-11-06 (v1) — https://arxiv.org/abs/2611.09007 — Qazaqzeh, Rawashdeh, "An Elementary Proof
-    of the Binary Goldbach Conjecture." Abstract + authors verified via arXiv API this session.
+  - 2026-11-06 (v1; W48 version-history spot-check: silently revised to v2, updated 2026-11-21) —
+    https://arxiv.org/abs/2611.09007 — Qazaqzeh, Rawashdeh, "An Elementary Proof of the Binary
+    Goldbach Conjecture." Abstract + authors verified via arXiv API this session.
 - notes: 2026-11-09 (daily, seed creation): caught via today's math-category arXiv API sweep
   (math.NT). Confidence `low` (single brand-new preprint, extraordinary claim on a 280-year-old
   conjecture, zero corroboration). Watch for number-theory community response/rebuttal — a claim
   this size on a problem this famous typically draws fast expert commentary either way.
+  - 2026-W48 recalibration (Amendment I version-history spot-check): a SELF-REPORTED VETTING
+    OUTCOME — v2 (2026-11-21) carries the authors' own arXiv comment, "A couple of flaws have been
+    identified, and we hope they can be fixed in the near future." The v2 abstract's own stated
+    bound also now reads as an upper bound ($\mathcal{O}(n/\ln^2 n)$) rather than the lower bound
+    ($\Omega(\cdot)$) the `what` field above describes from v1 — a lower bound is what the proof
+    needs to show the pair-count is $\ge1$; an upper bound alone cannot establish existence,
+    consistent with the authors' own flaw admission (not independently re-derived or adjudicated
+    by this radar either way; flagged here as the exact "gaps found in review" self-correction the
+    hard rules' hype-skepticism clause anticipates, same class as OpenAI's self-reported Hodge-
+    conjecture withdrawal). last_evidence advances 2026-11-06 → 2026-11-21. HELD at `seed`/`low`
+    (confidence already at the floor); watch for a v3 fix or a formal withdrawal.
 
 ### A proof of the Aaronson-Ambainis conjecture (quantum query complexity)
 - stage: seed | confidence: medium | first_seen: 2026-11-09 | last_evidence: 2026-11-06
@@ -3652,7 +3571,7 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   preprint — no outside engagement found yet. Watch for referee/expert commentary.
 
 ### Bloch's conjecture completed for (anti-)symplectic automorphisms of surfaces with trivial canonical bundle
-- stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-10-29
+- stage: seed | confidence: low | first_seen: 2026-11-23 | last_evidence: 2026-11-20
 - what: axis-1 LANDMARK (algebraic geometry): proves Bloch's conjecture (1970s; action of
   correspondences/automorphisms on Chow/cycle groups, one of algebraic geometry's central standing
   conjectures) for (anti-)symplectic automorphisms of smooth projective complex K3 surfaces of
@@ -3662,11 +3581,17 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
   famous conjecture, not the fully general conjecture. CAPTURE-LEAK/backfill catch (paper nearly a
   month old, surfaced via today's cross-list sweep).
 - evidence:
-  - 2026-10-29 — https://arxiv.org/abs/2610.39368 — Zaiyuan Chen, Zhiyuan Li, "Bloch's conjecture
-    for (anti-)symplectic automorphisms of K3 surfaces." Abstract + authors verified via direct
-    arXiv page fetch this session (caught via today's 35-category cross-list sweep, math.AG).
+  - 2026-10-29 (v2 updated 2026-11-20) — https://arxiv.org/abs/2610.39368 — Zaiyuan Chen, Zhiyuan Li,
+    "Bloch's conjecture for (anti-)symplectic automorphisms of K3 surfaces." Abstract + authors
+    verified via direct arXiv page fetch this session (caught via today's 35-category cross-list
+    sweep, math.AG).
 - notes: 2026-11-23 (daily, seed creation): completes a well-defined sub-program of a famous,
   long-standing conjecture; unrefereed preprint, no outside engagement found yet.
+  - 2026-W48 recalibration (Amendment I version-history spot-check): this trend's single tracked
+    preprint (2610.39368) was already at v2 (updated 2026-11-20) when captured on 2026-11-23 — the
+    evidence line is corrected to note it; same author/result, no new group. last_evidence advances
+    2026-10-29 → 2026-11-20 (the latest dated activity now on file). Not promoted (still a single
+    unrefereed preprint, no outside engagement).
 
 ### Proof of Chvátal's 1972 conjecture on intersecting families in ideals (Chang–Liu–Liu, extended by Keevash, re-proved by Ellis–Filmus–Friedgut)
 - stage: seed | confidence: high | first_seen: 2026-11-24 | last_evidence: 2026-09-23
@@ -4051,6 +3976,16 @@ Trend bar: ≥3 independent sources (different orgs/author groups) + ≥1 concre
 
 Signals not yet promoted to a trend. Format: `date — description — link if available`
 (marked unverified unless the primary was opened this session).
+- 2026-07-14 (CAPTURE-LEAK, found 2026-11-28 via the weekly's Amendment G INSPIRE-HEP citation-
+  chase pass — the `de <start>-><end>` inline-query syntax fix, see `logs/strategy_notes.md`) —
+  GRAVITY Collaboration et al., "Discovery of a star sensitive to the spin of Sagittarius A*" —
+  https://arxiv.org/abs/2607.12664 (Nature 657, 359–363, 2026) — the discovery of S301, a faint
+  main-sequence star on an 8.7-year, highly eccentric orbit around Sgr A* with pericentre velocity
+  ~25,000 km/s, bringing it within reach of near-infrared interferometry/future ELT spectroscopy
+  sensitive to the Kerr-metric spin of the Milky Way's central black hole — a first STEP toward a
+  direct spin measurement, not the measurement itself (axis-3 gravitation; peer-reviewed in
+  Nature). Primary opened/verified via the INSPIRE-HEP API this session; ~4.5 months old, never
+  previously surfaced by any daily title-keyword sweep (no "conjecture/theorem/proof" keyword hit).
 - 2026-11-26 — hexagonmath.org, Dave Goel, "Turán's Hermite strip problem (1967) is resolved: the
   sharp half-width is 0.90366…" — https://hexagonmath.org/2611.01106v1 — resolves a 59-year-old
   open problem from Hayman's 1967 research-problems collection (Turán asked whether a single strip
@@ -6739,27 +6674,6 @@ why`). The trend bar does NOT apply here; opened primary sources only.
   this session (v1 2026-07-30). HEAVY CAVEAT (hype-skepticism rule): unrefereed SINGLE-AUTHOR preprint
   claiming resolution of a named conjecture → PROVISIONAL until independent vetting; worth knowing as a
   claim a representation theorist should watch, not a confirmed result.
-- 2026-07-30 — [The Maxwell Conjecture is False (Arathoon, Ball, Kvalheim), arXiv:2607.27197](https://arxiv.org/abs/2607.27197)
-  — refutes Maxwell's ~150-year-old conjecture that the electrostatic potential of $n$ point charges
-  has at most $(n-1)^2$ non-degenerate critical points, via an explicit 5-point-charge configuration
-  with 24 (axis 2, mathematical physics / classical electrostatics). Abstract + authors verified via
-  arXiv API this session (v1 2026-07-29). A clean, classical, checkable refutation of a genuinely old
-  named conjecture at the math↔physics interface — no AI-assistance or unrefereed-extraordinary-claim
-  caveats apply (an explicit, verifiable counterexample).
-- 2026-07-29 — [Chromatic symmetric functions of claw-free graphs are not Schur positive (Matherne,
-  Morales), arXiv:2607.21508](https://arxiv.org/abs/2607.21508) — refutes Stanley's 1995 claw-free
-  Schur-positivity conjecture (attributed also to Gasharov) via explicit line-graph counterexamples,
-  and separately refutes Monical's 2018 saturated-Newton-polytope conjecture (axis 1, algebraic
-  combinatorics). Abstract + authors verified via arXiv API this session (v1 2026-07-23). HEAVY CAVEATS
-  (hype-skepticism + AI-watch rules): unrefereed preprint → PROVISIONAL until independent vetting; both
-  counterexamples were "found using ChatGPT-5.6 Sol Pro" → tracked for the mathematical RESULT (a
-  ~30-year conjecture refuted) a frontier combinatorialist should know, NOT the AI method (sibling AI
-  radars' beat). Sixth concrete arXiv artifact in the standing AI-assisted-math wave.
-- 2026-07-28 — [Carlsson's Conjecture and the Generalized Total Rank Conjecture in Characteristic Two (VandeBogert), arXiv:2607.22844](https://arxiv.org/abs/2607.22844) — proves the generalized total rank conjecture over characteristic-2 regular rings and, as a corollary, **Carlsson's conjecture for elementary abelian 2-groups in every rank** — a long-standing open problem in homological/commutative algebra on rank bounds for free group actions (axis 1, math.AC/AT). Abstract + author verified via arXiv API this session (v1 2026-07-24). A landmark-quality resolution of an important case of a named conjecture, worth knowing even though the full (odd-prime) conjecture remains open.
-- 2026-07-28 — [A computer-assisted proof of Kuperberg's six-cylinder conjecture (Matić, Radoičić), arXiv:2607.24691](https://arxiv.org/abs/2607.24691) — settles Kuperberg's question exactly: at most six pairwise non-overlapping infinite unit cylinders can touch a unit ball (axis 1, discrete/convex geometry), via a checkable computer-assisted case analysis (~2.95M cases, full list published). Abstract + authors verified via arXiv API this session (v1 2026-07-27). A clean example of the growing computer-assisted-proof pattern in extremal/discrete geometry (alongside the Balanced Four-Color Theorem on this shelf).
-- 2026-07-27 — [Gapless phases in (2+1)d with non-invertible symmetries (Bhardwaj, Gai, Huang, Inamura, Schäfer-Nameki, Tiwari, Warman), SciPostPhys.21.1.019](https://scipost.org/SciPostPhys.21.1.019) — a systematic Symmetry-TFT framework for phase transitions between gapless theories with categorical (non-invertible) symmetries in (2+1)d, extending the group's earlier gapped-phase program (axis 2, math↔physics interface / QFT). SciPost API metadata + page opened this session (published 2026-07-23). The artifact that completed today's `seed`-trend promotion (non-invertible/generalized symmetries, now ≥3 independent groups) — the clearest single entry point into a QFT sub-field a mathematical physicist should now be tracking.
-- 2026-07-24 — [2026 Fields Medals — Deng, Pardon, Tsimerman, Wang (IMU / ICM 2026)](https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026) — the four 2026 Fields Medals, awarded 2026-07-23 at the ICM opening ceremony in Philadelphia, with the official IMU citations (axis 1, pure mathematics): **Yu Deng** (PDE — rigorous Boltzmann derivation from hard-sphere dynamics, wave-kinetic equations from dispersive systems), **John Pardon** (symplectic geometry — virtual fundamental cycles, Fukaya categories; 3-manifold group actions & knot theory), **Jacob Tsimerman** (o-minimality as a method in arithmetic/algebraic geometry — Griffiths' period-map algebraicity, André–Oort for Siegel modular varieties), **Hong Wang** (harmonic analysis & GMT — local smoothing, Fourier restriction, Falconer distance sets, Furstenberg-plane and the Kakeya problem in ℝ³). IMU laureate page with citations opened this session (primary). The single most important thing a frontier mathematician should absorb this week — and a radar convergence: Wang's Kakeya-3D (Wang–Zahl, on this shelf) and Deng's Boltzmann/wave-kinetic work (2026 Clay Award) are already-tracked landmark artifacts, now Fields-honored.
-- 2026-07-24 — [A solution to 2-copy distillability of Werner states, arXiv:2607.21367](https://arxiv.org/abs/2607.21367) — proves Werner states (arbitrary dimension) are 2-copy distillable iff 1-copy distillable, resolving a longstanding open question in entanglement distillation and an important step toward the central open problem of whether every NPT state is distillable (axis 4, quantum-information theory). Abstract verified via arXiv API this session (v1 2026-07-23). A clean resolved-open-question a quantum-information researcher should know.
 
 ## calibration
 
